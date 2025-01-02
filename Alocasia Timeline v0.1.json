@@ -404,8 +404,8 @@
   }
 }
 
-
 ,
+     
        {
   "name": "milestone_labels",
   "description": "The milestone labels",
@@ -426,8 +426,7 @@
       "baseline": {
         "signal": "datum['type'] === 'straight' ? 'top' : 'bottom'"
       },
-      "opacity": {
-        "signal": "hoverFocus && hoverFocus['domain'] === datum['domain'] ? 1 : labelsOnHover ? 0 : 0"
+      "opacity": {"value": 0
       }
     }
   }
