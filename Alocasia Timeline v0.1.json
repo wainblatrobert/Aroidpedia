@@ -379,7 +379,7 @@
   "encode": {
     "update": {
       "x": {"field": "x"},
-      "y": {"field": "y"},
+      "y": {"field": "y"},   
       "size": {
         "signal": "labelsOnHover && isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? (10 + 100 * datum['eventCount']) : (10 + 100 * datum['eventCount'])"
       },
@@ -410,7 +410,7 @@
       "y": {"field": "y"},
       "dy": {"field": "dy"},
       "text": {"signal": "datum['domain'] + ' - ' + datum['label']"},
-      "lineBreak": {"value": ", "},            // <-- same lineBreak
+      "lineBreak": {"value": ", "},            
       "fontSize": {"signal": "10"},
       "fill": {"value": "#fff"},
       "stroke": {"value": "#fff"},
@@ -438,13 +438,8 @@
       "x": {"field": "x"},
       "y": {"field": "y"},
       "dy": {"field": "dy"},
-
-      // Here we combine domain + label so it might look like "1928 - Major Event A, Major Event B"
       "text": {"signal": "datum['domain'] + ' - ' + datum['label']"},
-
-      // Break the line at ", " (comma-space)
-      "lineBreak": {"value": ", "},
-
+        "lineBreak": {"value": ", "},
       "fontSize": {"signal": "10"},
       "fill": {"value": "firebrick"},
       "angle": {"field": "labelAngle"},
