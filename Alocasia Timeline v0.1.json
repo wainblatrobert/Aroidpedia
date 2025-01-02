@@ -429,9 +429,9 @@
       "baseline": {
         "signal": "datum['type'] === 'straight' ? 'top' : 'bottom'"
       },
-      "opacity": {
-        "signal": "isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 1 : labelsOnHover ? (isValid(hoverFocus) ? 1 : 0) : 0"
-      }
+     "opacity": {
+  "signal": "isValid(hoverFocus) && datum['domain'] === hoverFocus['domain'] ? 1 : labelsOnHover ? 0 : 1"
+}
     }
   }
 }
@@ -871,34 +871,52 @@
         ]
       },
       {
-        "name": "milestones",
-        "source": "componentEncodings",
-        "transform": [
-          {"type": "filter", "expr": "datum['category'] === 'milestone'"},
-          {
-            "type": "lookup",
-            "key": "domain",
-            "from": "dataset",
-            "fields": ["domain"],
-            "values": ["label", "color"]
-          },
-          {
-            "type": "formula",
-            "expr": "!isValid(datum['side']) ? -(mO) : datum['side'] === 'right' ? (round(datum['alpha']*(180/PI)) >= 90 ? 1 : -0.5) * (mO+3.5) : (round(datum['alpha']*(180/PI)) > 89 ? 1 : -0.5) * (mO+3.5)",
-            "as": "dy"
-          },
-          {
-            "type": "formula",
-            "expr": "(isValid(hoverFocus) && hoverFocus['domain']===datum['domain']) ? 1 : 0.4",
-            "as": "fillOpacity"
-          },
-          {
-            "type": "formula",
-            "expr": "length(split(datum['label'], ','))",
-            "as": "eventCount"
-          }
-        ]
+  "name": "milestones",
+  "source": "componentEncodings",
+  "transform": [
+    {"type": "filter", "expr": "datum['category'] === 'milestone'"},
+    {
+      "type": "lookup",
+      "key": "domain",
+      "from": "dataset",
+      "fields": ["domain"],
+      "values": ["label", "color"]
+    },
+    {
+      "type": "formula",
+      "expr": "!isValid(datum['side']) ? -(mO) : datum['side'] === 'right' ? (round(datum['alpha']*(180/PI)) >= 90 ? 1 : -0.5) * (mO+3.5) : (round(datum['alpha']*(180/PI)) > 89 ? 1 : -0.5) * (mO+3.5)",
+      "as": "dy"
+    },
+    {
+      "type": "formula",
+      "expr": "(isValid(hoverFocus) && hoverFocus['domain']===datum['domain']) ? 1 : 0.4",
+      "as": "fillOpacity"
+    },
+    {
+      "type": "formula",
+      "expr": "length(split(datum['label'], ','))",
+      "as": "eventCount"
+    },
+      {
+      "type": "window", // Calculate size before sorting
+      "ops": ["row_number"],
+      "sort": {"field": "domain"},
+      "as": ["id"]
+    },
+    {
+        "type": "formula",
+        "expr": "10 + 100 * datum['eventCount']",
+        "as": "size"
+    },
+    {
+      "type": "collect",
+      "sort": {
+        "field": "size",
+        "order": "descending"
       }
+    }
+  ]
+}
 
       
     ]
