@@ -1,9 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega/v5.json",
     "description": "a serpentine timeline. The serpentine shape can be an option for instances where an oblong canvas is not ideal. The shape can be customized using many of the signals below. Input bindings have been included for demonstration purposes",
-    "background": "white",
     "padding": 15,
-    "width": 800,
+    "width": 300,
     "signals": [
       {
         "name": "width",
@@ -417,49 +416,39 @@
           }
         }
       },
-    {
-  "name": "milestone_labels",
-  "description": "The milestone labels",
-  "from": {
-    "data": "milestones"
-  },
-  "type": "text",
-  "interactive": false,
-  "encode": {
-    "update": {
-      "x": {"field": "x"},
-      "y": {"field": "y"},
-      "dy": {"field": "dy"},
-      "text": {
-        "signal": "datum['domain'] + ': ' + datum['flatLabels']"
-      },
-      "fontSize": {"signal": "10"},
-      "fill": {"value": "firebrick"},
-      "angle": {"field": "labelAngle"},
-      "align": {"value": "center"},
-      "baseline": {
-        "signal": "datum['type'] === 'straight' ? 'top' : 'bottom'"
-      },
-      "opacity": {
-        "signal": "isValid(hoverFocus) && hoverFocus['domain'] === datum['domain'] ? 1 : labelsOnHover ? 0 : 1"
+      {
+        "name": "milestone_labels",
+        "description": "The milestone labels",
+        "from": {"data": "milestones"},
+        "type": "text",
+        "interactive": false,
+        "encode": {
+          "update": {
+            "x": {"field": "x"},
+            "y": {"field": "y"},
+            "dy": {"field": "dy"},
+            "text": {"signal": "datum['domain'] + ' - ' + datum['label']"},
+            "fontSize": {"signal": "10"},
+            "fill": {"value": "firebrick"},
+            "angle": {"field": "labelAngle"},
+            "align": {"value": "center"},
+            "baseline": {
+              "signal": "datum['type'] === 'straight' ? 'top' : 'bottom'"
+            },
+            "opacity": {
+              "signal": "isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 1 : labelsOnHover ? 0 : 1"
+            }
+          }
+        }
       }
-    }
-  }
-}
-
-
-
-
-
-
     ],
     "data": [
       {
         "name": "dataset",
         "values": [
           {"domain": 1928, "label": "Major Event A"},
-          {"domain": 1930, "label": "Major Event B"},
-          {"domain": 1929, "label": "Major Event C"},
+          {"domain": 1939, "label": "Major Event B"},
+          {"domain": 1954, "label": "Major Event C"},
           {"domain": 1962, "label": "Major Event D"},
           {"domain": 1974, "label": "Major Event E"},
           {"domain": 1990, "label": "Major Event F"},
@@ -670,47 +659,29 @@
           }
         ]
       },
-     {
-  "name": "milestones",
-  "source": "componentEncodings",
-  "transform": [
-    {
-      "type": "filter",
-      "expr": "datum['category'] === 'milestone'"
-    },
-    {
-      "type": "lookup",
-      "key": "domain",
-      "from": "dataset",
-      "fields": ["domain"],
-      "values": ["label", "color"]
-    },
-    {
-      "type": "aggregate",
-      "groupby": ["domain", "x", "y", "dy", "labelAngle", "type"],
-      "fields": ["label"],
-      "ops": ["values"],
-      "as": ["labels"]
-    },
-    {
-      "type": "formula",
-      "expr": "join(datum.labels, ', ')",
-      "as": "flatLabels"
-    },
-    {
-      "type": "formula",
-      "expr": "!isValid(datum['side']) ? -(mO) : datum['side'] === 'right' ? (round(datum['alpha']*(180/PI)) >= 90 ? 1 : -0.5) * (mO+3.5) : (round(datum['alpha']*(180/PI)) > 89 ? 1 : -0.5) * (mO+3.5)",
-      "as": "dy"
-    },
-    {
-      "type": "formula",
-      "expr": "(isValid(hoverFocus) && hoverFocus['domain']===datum['domain']) ? 1 : 0.4",
-      "as": "fillOpacity"
-    }
-  ]
-}
-
-
-
+      {
+        "name": "milestones",
+        "source": "componentEncodings",
+        "transform": [
+          {"type": "filter", "expr": "datum['category'] === 'milestone'"},
+          {
+            "type": "lookup",
+            "key": "domain",
+            "from": "dataset",
+            "fields": ["domain"],
+            "values": ["label", "color"]
+          },
+          {
+            "type": "formula",
+            "expr": "!isValid(datum['side']) ? -(mO) : datum['side'] === 'right' ? (round(datum['alpha']*(180/PI)) >= 90 ? 1 : -0.5) * (mO+3.5) : (round(datum['alpha']*(180/PI)) > 89 ? 1 : -0.5) * (mO+3.5)",
+            "as": "dy"
+          },
+          {
+            "type": "formula",
+            "expr": "(isValid(hoverFocus) && hoverFocus['domain']===datum['domain']) ? 1 : 0.4",
+            "as": "fillOpacity"
+          }
+        ]
+      }
     ]
   }
