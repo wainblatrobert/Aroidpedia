@@ -354,32 +354,7 @@
           }
         ]
       },
-      {
-        "name": "milestone_connecting_lines",
-        "description": "The milestone lines that connect the markers to labels",
-        "from": {"data": "milestones"},
-        "type": "text",
-        "interactive": false,
-        "encode": {
-          "update": {
-            "text": {"signal": "'|'"},
-            "x": {"field": "x"},
-            "y": {"field": "y"},
-            "fontSize": {"value": 15},
-            "fontWeight": {"value": 100},
-            "dy": {
-              "signal": "datum['type'] === 'arc' && (round(datum['alpha']*(180/PI)) > 89) ? 0.35 * (mO+3.5) : datum['dy']/2"
-            },
-            "align": {"value": "center"},
-            "baseline": {"value": "middle"},
-            "angle": {"field": "labelAngle"},
-            "fillOpacity": {"value": 0.35},
-            "opacity": {
-              "signal": "isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 1 : labelsOnHover ? 0 : 1"
-            }
-          }
-        }
-      },
+      
      {
   "name": "milestone_markers",
   "type": "symbol",
