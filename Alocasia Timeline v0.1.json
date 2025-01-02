@@ -410,13 +410,13 @@
   "aria": false,
   "encode": {
     "update": {
-      "x": {"signal": "datum['x'] "},
-      "y": {"signal": "datum['y'] "},
-      "width": {"signal": "5"},
-      "height": {"signal": "2"},
+      "x": {"signal": "datum['x'] - 50"},
+      "y": {"signal": "datum['y'] - 10"},
+      "width": {"signal": "100"},
+      "height": {"signal": "20"},
       "fill": {"value": null},
       "opacity": {
-        "signal": "hoverFocus && hoverFocus['domain'] === datum['domain'] ? 1 : 0"
+         "signal": "hoverFocus && hoverFocus['domain'] === datum['domain'] ? 1 : labelsOnHover ? 0 : 0"
       }
     }
   }
@@ -443,8 +443,8 @@
       "baseline": {
         "signal": "datum['type'] === 'straight' ? 'top' : 'bottom'"
       },
-        "opacity": {
-        "signal": "hoverFocus && hoverFocus['domain'] === datum['domain'] ? 1 : 0"
+      "opacity": {
+        "signal": "hoverFocus && hoverFocus['domain'] === datum['domain'] ? 1 : labelsOnHover ? 0 : 0"
       }
     }
   }
