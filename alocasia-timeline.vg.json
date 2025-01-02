@@ -447,8 +447,8 @@
         "name": "dataset",
         "values": [
           {"domain": 1928, "label": "Major Event A"},
-          {"domain": 1939, "label": "Major Event B"},
-          {"domain": 1954, "label": "Major Event C"},
+          {"domain": 1928, "label": "Major Event B"},
+          {"domain": 1929, "label": "Major Event C"},
           {"domain": 1962, "label": "Major Event D"},
           {"domain": 1974, "label": "Major Event E"},
           {"domain": 1990, "label": "Major Event F"},
