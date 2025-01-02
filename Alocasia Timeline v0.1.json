@@ -383,7 +383,7 @@
       "x": {"field": "x"},
       "y": {"field": "y"},
       "size": {
-  "signal": "min(400, 10 + 50 * datum['eventCount'])"
+  "signal": "min(100, 10 + 50 * datum['eventCount'])"
 },
 
       "fill": {
