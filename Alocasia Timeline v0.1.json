@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega/v5.json",
     "description": "a serpentine timeline. The serpentine shape can be an option for instances where an oblong canvas is not ideal. The shape can be customized using many of the signals below. Input bindings have been included for demonstration purposes",
     "background": "white",
-    "padding": 15,
+    "padding": 10,
     "width": 950,
     "signals": [
       {
@@ -197,20 +197,16 @@
         "init": "domain ? domain : [+extent(pluck(data('dataset'), 'domain'))[0], +extent(pluck(data('dataset'), 'domain'))[1]]"
       },
       {
-  "name": "hoverFocus",
-  "value": null,
-  "on": [
-    {
-      "events": {"type": "mouseover", "marktype": "symbol"},
-      "update": "datum"
-    },
-    {
-      "events": {"type": "mouseout", "marktype": "symbol"},
-      "update": "null"
-    }
-  ]
-}
-,
+        "name": "hoverFocus",
+        "value": 0,
+        "on": [
+          {
+            "events": {"type": "mouseover"},
+            "update": "isValid(datum) && isValid(isValid(datum['domain'])) ? datum : null"
+          },
+          {"events": {"type": "mouseout"}, "update": "null"}
+        ]
+      },
       {
         "name": "height",
         "description": "calculated height",
@@ -369,7 +365,7 @@
             "align": {"value": "center"},
             "baseline": {"value": "middle"},
             "angle": {"field": "labelAngle"},
-            "fillOpacity": {"value": 0},
+            "fillOpacity": {"value": 0.35},
             "opacity": {
               "signal": "isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 1 : labelsOnHover ? 0 : 1"
             }
@@ -377,9 +373,11 @@
         }
       },
      {
-  "name": "milestone_markers",
-  "type": "symbol",
-  "from": {"data": "milestones"},
+   "name": "milestone_markers",
+        "description": "The milestone timeline markers",
+        "from": {"data": "milestones"},
+        "type": "symbol",
+        "interactive": true,
   "encode": {
     "update": {
       "x": {"field": "x"},
@@ -394,7 +392,7 @@
       "stroke": {
         "signal": "labelsOnHover ? isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? '#fff' : 'firebrick' : '#fff'"
       },
-      "strokeWidth": {"signal": "labelsOnHover ? 1 : 20"},
+      "strokeWidth": {"signal": "labelsOnHover ? 1 : 2"},
       "cursor": {"signal": "labelsOnHover ? 'pointer' : 'default'"}
     }
   }
