@@ -408,29 +408,20 @@
   "type": "rect",
   "interactive": false,
   "aria": false,
-  "focus": false,
   "encode": {
     "update": {
-      "x": {"field": "x"},
-      "y": {"field": "y"},
-      "dy": {"field": "dy"},
-      "text": {"signal": "datum['domain'] + ' - ' + datum['label']"},
-      "lineBreak": {"value": ", "},
-      "fontSize": {"signal": "10"},
-      "fill": {"value": "#fff"},
-      "stroke": {"value": "#fff"},
-      "strokeWidth": {"value": 0},
-       "angle": {"field": "labelAngle"},
-      "align": {"value": "center"},
-      "baseline": {
-        "signal": "datum['type'] === 'straight' ? 'top' : 'bottom'"
-      },
-     "opacity": {
-  "signal": "isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 1 : labelsOnHover ? 0 : 1"
-}
+      "x": {"signal": "datum['x'] "},
+      "y": {"signal": "datum['y'] "},
+      "width": {"signal": "5"},
+      "height": {"signal": "2"},
+      "fill": {"value": null},
+      "opacity": {
+        "signal": "hoverFocus && hoverFocus['domain'] === datum['domain'] ? 1 : 0"
+      }
     }
   }
 }
+
 ,
        {
   "name": "milestone_labels",
@@ -452,8 +443,8 @@
       "baseline": {
         "signal": "datum['type'] === 'straight' ? 'top' : 'bottom'"
       },
-      "opacity": {
-        "signal": "hoverFocus && hoverFocus['domain'] === datum['domain'] ? 1 : labelsOnHover ? 0 : 0"
+        "opacity": {
+        "signal": "hoverFocus && hoverFocus['domain'] === datum['domain'] ? 1 : 0"
       }
     }
   }
