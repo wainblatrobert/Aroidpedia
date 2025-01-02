@@ -1,8 +1,9 @@
 {
     "$schema": "https://vega.github.io/schema/vega/v5.json",
     "description": "a serpentine timeline. The serpentine shape can be an option for instances where an oblong canvas is not ideal. The shape can be customized using many of the signals below. Input bindings have been included for demonstration purposes",
+    "background": "white",
     "padding": 15,
-    "width": 800,
+    "width": 950,
     "signals": [
       {
         "name": "width",
@@ -50,19 +51,19 @@
       {
         "name": "sN",
         "description": "serpentine: number of arcs",
-        "value": 2.20,
+        "value": 4,
         "bind": {
           "name": "# of arcs",
           "input": "range",
           "min": 0,
           "max": 20,
-          "step": 0.01
+          "step": 1
         }
       },
       {
         "name": "tC",
         "description": "ticks: number of axis ticks to display on the timeline",
-        "value": 21,
+        "value": 50,
         "bind": {
           "name": "tick count",
           "input": "range",
@@ -79,12 +80,12 @@
       {
         "name": "mO",
         "description": "milestone: the offset for the milestone markers",
-        "value": 35,
+        "value": 60,
         "bind": {
           "name": "milestone offset",
           "input": "range",
           "min": 0,
-          "max": 50,
+          "max": 70,
           "step": 0.5
         }
       },
@@ -382,11 +383,11 @@
 
       // Single-line signal expression:
       "size": {
-        "signal": "labelsOnHover && isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? (40 + 20 * datum['eventCount']) : (30 + 15 * datum['eventCount'])"
+        "signal": "labelsOnHover && isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? (10 + 100 * datum['eventCount']) : (10 + 100 * datum['eventCount'])"
       },
 
       "fill": {
-        "signal": "labelsOnHover ? isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 'firebrick' : '#e4b3b4' : 'firebrick'"
+        "signal": "labelsOnHover ? isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 'firebrick' : '#38383B' : 'firebrick'"
       },
       "stroke": {
         "signal": "labelsOnHover ? isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? '#fff' : 'firebrick' : '#fff'"
@@ -464,15 +465,204 @@
       {
         "name": "dataset",
         "values": [
-          {"domain": 1839, "label": "Alocasia cucullata, X, Y, Z, DD, er"},
-          {"domain": 1929, "label": "Major Event B"},
-          {"domain": 1954, "label": "Major Event C"},
-          {"domain": 1962, "label": "Major Event D"},
-          {"domain": 1974, "label": "Major Event E"},
-          {"domain": 1990, "label": "Major Event F"},
-          {"domain": 2001, "label": "Major Event G"},
-          {"domain": 2015, "label": "Major Event H"}
-        ]
+  {
+    "domain": 1839,
+    "label": "Alocasia cucullata, Alocasia macrorrhizos"
+  },
+  {
+    "domain": 1846,
+    "label": "Alocasia indica, Alocasia odora"
+  },
+  {
+    "domain": 1852,
+    "label": "Alocasia alba"
+  },
+  {
+    "domain": 1854,
+    "label": "Alocasia fornicata"
+  },
+  {
+    "domain": 1855,
+    "label": "Alocasia navicularis"
+  },
+  {
+    "domain": 1856,
+    "label": "Alocasia longiloba, Alocasia puber"
+  },
+  {
+    "domain": 1859,
+    "label": "Alocasia acuminata, Alocasia decipiens, Alocasia fallax"
+  },
+  {
+    "domain": 1861,
+    "label": "Alocasia cuprea"
+  },
+  {
+    "domain": 1862,
+    "label": "Alocasia portei, Alocasia zebrina"
+  },
+  {
+    "domain": 1879,
+    "label": "Alocasia beccarii, Alocasia scabriuscula"
+  },
+  {
+    "domain": 1884,
+    "label": "Alocasia reginae, Alocasia sanderiana"
+  },
+  {
+    "domain": 1885,
+    "label": "Alocasia sinuata"
+  },
+  {
+    "domain": 1887,
+    "label": "Alocasia perakensis"
+  },
+  {
+    "domain": 1888,
+    "label": "Alocasia princeps"
+  },
+  {
+    "domain": 1890,
+    "label": "Alocasia reversa"
+  },
+  {
+    "domain": 1895,
+    "label": "Alocasia aequiloba"
+  },
+  {
+    "domain": 1898,
+    "label": "Alocasia celebica, Alocasia hollrungii"
+  },
+  {
+    "domain": 1901,
+    "label": "Alocasia arifolia"
+  },
+  {
+    "domain": 1903,
+    "label": "Alocasia hainanica"
+  },
+  {
+    "domain": 1905,
+    "label": "Alocasia culionensis"
+  },
+  {
+    "domain": 1908,
+    "label": "Alocasia heterophylla"
+  },
+  {
+    "domain": 1912,
+    "label": "Alocasia devansayana, Alocasia lancifolia, Alocasia micholitziana"
+  },
+  {
+    "domain": 1915,
+    "label": "Alocasia brisbanensis, Alocasia inornata"
+  },
+  {
+    "domain": 1916,
+    "label": "Alocasia wentii"
+  },
+  {
+    "domain": 1918,
+    "label": "Alocasia maquilingensis"
+  },
+  {
+    "domain": 1920,
+    "label": "Alocasia atropurpurea, Alocasia grata, Alocasia lecomtei"
+  },
+  {
+    "domain": 1939,
+    "label": "Alocasia cadieri, Alocasia decumbens"
+  },
+  {
+    "domain": 1965,
+    "label": "Alocasia okinawensis"
+  },
+  {
+    "domain": 1967,
+    "label": "Alocasia peltata, Alocasia robusta, Alocasia sarawakensis"
+  },
+  {
+    "domain": 1990,
+    "label": "Alocasia brancifolia, Alocasia lauterbachiana"
+  },
+  {
+    "domain": 1991,
+    "label": "Alocasia boa, Alocasia flabellifera, Alocasia monticola, Alocasia nicolsonii, Alocasia pyrospatha"
+  },
+  {
+    "domain": 1994,
+    "label": "Alocasia simonsiana"
+  },
+  {
+    "domain": 1997,
+    "label": "Alocasia melo"
+  },
+  {
+    "domain": 1998,
+    "label": "Alocasia balgooyi, Alocasia flemingiana, Alocasia kerinciensis, Alocasia minuscula, Alocasia pangeran, Alocasia principiculus, Alocasia puteri, Alocasia reginula, Alocasia ridleyi, Alocasia suhirmaniana, Alocasia venusta, Alocasia wongii"
+  },
+  {
+    "domain": 1999,
+    "label": "Alocasia boyceana, Alocasia clypeolata, Alocasia ramosii, Alocasia scalprum"
+  },
+  {
+    "domain": 2000,
+    "label": "Alocasia nebula"
+  },
+  {
+    "domain": 2003,
+    "label": "Alocasia megawatiae"
+  },
+  {
+    "domain": 2007,
+    "label": "Alocasia chaii, Alocasia infernalis, Alocasia nycteris"
+  },
+  {
+    "domain": 2008,
+    "label": "Alocasia hypoleuca"
+  },
+  {
+    "domain": 2010,
+    "label": "Alocasia jiewhoei"
+  },
+  {
+    "domain": 2011,
+    "label": "Alocasia baginda"
+  },
+  {
+    "domain": 2013,
+    "label": "Alocasia evrardii, Alocasia vietnamensis"
+  },
+  {
+    "domain": 2016,
+    "label": "Alocasia azlanii"
+  },
+  {
+    "domain": 2017,
+    "label": "Alocasia farisii, Alocasia rivularis"
+  },
+  {
+    "domain": 2018,
+    "label": "Alocasia hararganjensis, Alocasia salarkhanii"
+  },
+  {
+    "domain": 2020,
+    "label": "Alocasia lihengiae, Alocasia puncakborneensis, Alocasia yunqiana"
+  },
+  {
+    "domain": 2022,
+    "label": "Alocasia epilithica"
+  },
+  {
+    "domain": 2023,
+    "label": "Alocasia tandurusa"
+  },
+  {
+    "domain": 2024,
+    "label": "Alocasia roseus, Alocasia sakonakhonensis"
+  }
+]
+
       },
       {
         "name": "serpentineDomain",
