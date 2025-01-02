@@ -450,14 +450,9 @@
       "text": {"signal": "datum['domain'] + ' - ' + datum['label']"},
       "lineBreak": {"value": ", "},
       "fontSize": {"value": 10},
-     
-    
     }
   }
 }
-
-
-
     ],
     "data": [
       {
