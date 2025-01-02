@@ -380,7 +380,6 @@
     "update": {
       "x": {"field": "x"},
       "y": {"field": "y"},
-
       "size": {
         "signal": "labelsOnHover && isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? (10 + 100 * datum['eventCount']) : (10 + 100 * datum['eventCount'])"
       },
