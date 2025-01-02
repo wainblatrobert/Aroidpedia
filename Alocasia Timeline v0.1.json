@@ -404,6 +404,7 @@
   "type": "text",
   "interactive": false,
   "aria": false,
+  "focus": false,
   "encode": {
     "update": {
       "x": {"field": "x"},
