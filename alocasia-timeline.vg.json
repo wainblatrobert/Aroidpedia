@@ -439,7 +439,9 @@
       "x": {"field": "x"},
       "y": {"field": "y"},
       "dy": {"field": "dy"},
-      "text": {"signal": "datum['domain'] + ': ' + join(datum['labels'], ', ')"},
+      "text": {
+        "signal": "datum['domain'] + ': ' + join(datum['labels'].map(d => d.label), ', ')"
+      },
       "fontSize": {"signal": "10"},
       "fill": {"value": "firebrick"},
       "angle": {"field": "labelAngle"},
@@ -453,6 +455,7 @@
     }
   }
 }
+
 
     ],
     "data": [
