@@ -436,32 +436,32 @@
   }
 }
 ,
-      {
-  "name": "milestone_labels",
-  "description": "The milestone labels",
-  "from": {"data": "milestones"},
-  "type": "text",
-  "interactive": false,
-  "encode": {
-    "update": {
-      "x": {"field": "x"},
-      "y": {"field": "y"},
-      "dy": {"field": "dy"},
-      "text": {"signal": "datum['domain'] + ' - ' + datum['label']"},
-        "lineBreak": {"value": ", "},
-      "fontSize": {"signal": "10"},
-      "fill": {"value": "firebrick"},
-      "angle": {"field": "labelAngle"},
-      "align": {"value": "center"},
-      "baseline": {
-        "signal": "datum['type'] === 'straight' ? 'top' : 'bottom'"
-      },
-      "opacity": {
-        "signal": "isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 1 : labelsOnHover ? 0 : 1"
+       {
+      "name": "milestone_labels",
+      "description": "The milestone labels",
+      "from": {"data": "milestones"},
+      "type": "text",
+      "interactive": false,
+      "encode": {
+        "update": {
+          "x": {"field": "x"},
+          "y": {"field": "y"},
+          "dy": {"field": "dy"},
+          "text": {"signal": "datum['domain'] + ' - ' + datum['label']"},
+          "lineBreak": {"value": ", "},
+          "fontSize": {"signal": "10"},
+          "fill": {"value": "firebrick"},
+          "angle": {"field": "labelAngle"},
+          "align": {"value": "center"},
+          "baseline": {
+            "signal": "datum['type'] === 'straight' ? 'top' : 'bottom'"
+          },
+          "opacity": {
+            "signal": "isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 1 : labelsOnHover ? 0 : 1"
+          }
+        }
       }
     }
-  }
-}
 
     ],
     "data": [
@@ -898,8 +898,8 @@
       "as": "eventCount"
     },
       {
-          "type": "window",
-          "ops": ["row_number"],
+      "type": "window",
+      "ops": ["row_number"],
       "sort": {"field": "domain"},
       "as": ["id"]
     },
