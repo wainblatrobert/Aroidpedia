@@ -197,16 +197,24 @@
         "init": "domain ? domain : [+extent(pluck(data('dataset'), 'domain'))[0], +extent(pluck(data('dataset'), 'domain'))[1]]"
       },
       {
-        "name": "hoverFocus",
-        "value": 0,
-        "on": [
-          {
-            "events": {"type": "mouseover"},
-            "update": "isValid(datum) && isValid(isValid(datum['domain'])) ? datum : null"
-          },
-          {"events": {"type": "mouseout"}, "update": "null"}
-        ]
-      },
+  "name": "hoverFocus",
+  "value": 0,
+  "on": [
+    {
+      "events": {"type": "mouseover"},
+      "update": "isValid(datum) && isValid(isValid(datum['domain'])) ? datum : null"
+    },
+    {
+      "events": {"type": "mouseout"},
+      "update": "null"
+    },
+    {
+      "events": {"type": "blur"},
+      "update": "null"
+    }
+  ]
+}
+,
       {
         "name": "height",
         "description": "calculated height",
