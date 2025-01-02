@@ -417,20 +417,11 @@
           }
         }
       },
-     {
+    {
   "name": "milestone_labels",
   "description": "The milestone labels",
   "from": {
-    "data": "milestones",
-    "transform": [
-      {
-        "type": "aggregate",
-        "groupby": ["domain", "x", "y", "dy", "labelAngle", "type"],
-        "fields": ["label"],
-        "ops": ["values"],
-        "as": ["labels"]
-      }
-    ]
+    "data": "milestones"
   },
   "type": "text",
   "interactive": false,
@@ -440,7 +431,7 @@
       "y": {"field": "y"},
       "dy": {"field": "dy"},
       "text": {
-        "signal": "datum['domain'] + ': ' + join(datum['labels'].map(d => d.label), ', ')"
+        "signal": "datum['domain'] + ': ' + join(datum['labels'], ', ')"
       },
       "fontSize": {"signal": "10"},
       "fill": {"value": "firebrick"},
@@ -455,6 +446,7 @@
     }
   }
 }
+
 
 
     ],
