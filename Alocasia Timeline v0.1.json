@@ -201,15 +201,11 @@
   "value": null,
   "on": [
     {
-      "events": "mouseover",
-      "update": "isValid(datum) && isValid(datum['domain']) ? {domain: datum['domain'], label: datum['label']} : null"
+      "events": {"type": "mouseover", "marktype": "symbol"},
+      "update": "datum"
     },
     {
-      "events": "mouseout",
-      "update": "null"
-    },
-    {
-      "events": "blur",
+      "events": {"type": "mouseout", "marktype": "symbol"},
       "update": "null"
     }
   ]
@@ -409,7 +405,7 @@
   "name": "milestone_label_backgrounds",
   "description": "The white backgrounds for milestone labels",
   "from": {"data": "milestones"},
-  "type": "text",
+  "type": "rect",
   "interactive": false,
   "aria": false,
   "focus": false,
