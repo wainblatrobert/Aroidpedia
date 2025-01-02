@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega/v5.json",
     "description": "a serpentine timeline. The serpentine shape can be an option for instances where an oblong canvas is not ideal. The shape can be customized using many of the signals below. Input bindings have been included for demonstration purposes",
     "padding": 15,
-    "width": 300,
+    "width": 800,
     "signals": [
       {
         "name": "width",
@@ -44,7 +44,7 @@
       {
         "name": "labelsOnHover",
         "description": "milestone: show labels on hover only",
-        "value": false,
+        "value": true,
         "bind": {"name": "hover labels", "input": "checkbox"}
       },
       {
@@ -141,7 +141,7 @@
       },
       {
         "name": "domain",
-        "init": "[year(now())-100, year(now())]",
+        "init": "[1839, year(now())]",
         "description": "serpentine: manually set the domain extent for the timeline, otherwise set to null to have the domain calculated for you"
       },
       {
@@ -371,83 +371,101 @@
           }
         }
       },
-      {
-        "name": "milestone_markers",
-        "description": "The milestone timeline markers",
-        "from": {"data": "milestones"},
-        "type": "symbol",
-        "interactive": true,
-        "encode": {
-          "update": {
-            "x": {"field": "x"},
-            "y": {"field": "y"},
-            "size": {"signal": "labelsOnHover && isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 200 : 150"},
-            "fill": {"signal": "labelsOnHover ? isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 'firebrick' : '#e4b3b4' : 'firebrick'"},
-            "stroke": {"signal": "labelsOnHover ? isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? '#fff' : 'firebrick' : '#fff'"},
-            "strokeWidth": {"signal": "labelsOnHover ? 1 : 2"},
-            "cursor": {"signal": "labelsOnHover ? 'pointer' : 'default'"}
-          }
-        }
+     {
+  "name": "milestone_markers",
+  "type": "symbol",
+  "from": {"data": "milestones"},
+  "encode": {
+    "update": {
+      "x": {"field": "x"},
+      "y": {"field": "y"},
+
+      // Single-line signal expression:
+      "size": {
+        "signal": "labelsOnHover && isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? (40 + 20 * datum['eventCount']) : (30 + 15 * datum['eventCount'])"
       },
-      {
-        "name": "milestone_label_backgrounds",
-        "description": "The white backgrounds for milestone labels",
-        "from": {"data": "milestones"},
-        "type": "text",
-        "interactive": false,
-        "encode": {
-          "update": {
-            "x": {"field": "x"},
-            "y": {"field": "y"},
-            "dy": {"field": "dy"},
-            "text": {"signal": "datum['domain'] + ' - ' + datum['label']"},
-            "fontSize": {"signal": "10"},
-            "fill": {"value": "#fff"},
-            "stroke": {"value": "#fff"},
-            "strokeWidth": {"value": 7},
-            "angle": {"field": "labelAngle"},
-            "align": {"value": "center"},
-            "baseline": {
-              "signal": "datum['type'] === 'straight' ? 'top' : 'bottom'"
-            },
-            "opacity": {
-              "signal": "isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 1 : labelsOnHover ? 0 : 1"
-            }
-          }
-        }
+
+      "fill": {
+        "signal": "labelsOnHover ? isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 'firebrick' : '#e4b3b4' : 'firebrick'"
       },
+      "stroke": {
+        "signal": "labelsOnHover ? isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? '#fff' : 'firebrick' : '#fff'"
+      },
+      "strokeWidth": {"signal": "labelsOnHover ? 1 : 2"},
+      "cursor": {"signal": "labelsOnHover ? 'pointer' : 'default'"}
+    }
+  }
+}
+
+,
       {
-        "name": "milestone_labels",
-        "description": "The milestone labels",
-        "from": {"data": "milestones"},
-        "type": "text",
-        "interactive": false,
-        "encode": {
-          "update": {
-            "x": {"field": "x"},
-            "y": {"field": "y"},
-            "dy": {"field": "dy"},
-            "text": {"signal": "datum['domain'] + ' - ' + datum['label']"},
-            "fontSize": {"signal": "10"},
-            "fill": {"value": "firebrick"},
-            "angle": {"field": "labelAngle"},
-            "align": {"value": "center"},
-            "baseline": {
-              "signal": "datum['type'] === 'straight' ? 'top' : 'bottom'"
-            },
-            "opacity": {
-              "signal": "isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 1 : labelsOnHover ? 0 : 1"
-            }
-          }
-        }
+  "name": "milestone_label_backgrounds",
+  "description": "The white backgrounds for milestone labels",
+  "from": {"data": "milestones"},
+  "type": "text",
+  "interactive": false,
+  "encode": {
+    "update": {
+      "x": {"field": "x"},
+      "y": {"field": "y"},
+      "dy": {"field": "dy"},
+      "text": {"signal": "datum['domain'] + ' - ' + datum['label']"},
+      "lineBreak": {"value": ", "},            // <-- same lineBreak
+      "fontSize": {"signal": "10"},
+      "fill": {"value": "#fff"},
+      "stroke": {"value": "#fff"},
+      "strokeWidth": {"value": 7},
+      "angle": {"field": "labelAngle"},
+      "align": {"value": "center"},
+      "baseline": {
+        "signal": "datum['type'] === 'straight' ? 'top' : 'bottom'"
+      },
+      "opacity": {
+        "signal": "isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 1 : labelsOnHover ? 0 : 1"
       }
+    }
+  }
+}
+,
+      {
+  "name": "milestone_labels",
+  "description": "The milestone labels",
+  "from": {"data": "milestones"},
+  "type": "text",
+  "interactive": false,
+  "encode": {
+    "update": {
+      "x": {"field": "x"},
+      "y": {"field": "y"},
+      "dy": {"field": "dy"},
+
+      // Here we combine domain + label so it might look like "1928 - Major Event A, Major Event B"
+      "text": {"signal": "datum['domain'] + ' - ' + datum['label']"},
+
+      // Break the line at ", " (comma-space)
+      "lineBreak": {"value": ", "},
+
+      "fontSize": {"signal": "10"},
+      "fill": {"value": "firebrick"},
+      "angle": {"field": "labelAngle"},
+      "align": {"value": "center"},
+      "baseline": {
+        "signal": "datum['type'] === 'straight' ? 'top' : 'bottom'"
+      },
+      "opacity": {
+        "signal": "isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 1 : labelsOnHover ? 0 : 1"
+      }
+    }
+  }
+}
+
     ],
     "data": [
       {
         "name": "dataset",
         "values": [
-          {"domain": 1928, "label": "Major Event A"},
-          {"domain": 1939, "label": "Major Event B"},
+          {"domain": 1839, "label": "Alocasia cucullata, X, Y, Z, DD, er"},
+          {"domain": 1929, "label": "Major Event B"},
           {"domain": 1954, "label": "Major Event C"},
           {"domain": 1962, "label": "Major Event D"},
           {"domain": 1974, "label": "Major Event E"},
@@ -680,8 +698,15 @@
             "type": "formula",
             "expr": "(isValid(hoverFocus) && hoverFocus['domain']===datum['domain']) ? 1 : 0.4",
             "as": "fillOpacity"
+          },
+          {
+            "type": "formula",
+            "expr": "length(split(datum['label'], ','))",
+            "as": "eventCount"
           }
         ]
       }
+
+      
     ]
   }
