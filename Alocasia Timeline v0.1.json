@@ -883,10 +883,10 @@
       "as": "fillOpacity"
     },
     {
-      "type": "formula",
-      "expr": "length(split(datum['label'], ','))",
-      "as": "eventCount"
-    },
+  "type": "formula",
+  "expr": "min(5, length(split(datum['label'], ',')))",
+  "as": "eventCount"
+},
       {
       "type": "window",
       "ops": ["row_number"],
