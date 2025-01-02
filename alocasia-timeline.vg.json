@@ -416,31 +416,43 @@
           }
         }
       },
+     {
+  "name": "milestone_labels",
+  "description": "The milestone labels",
+  "from": {
+    "data": "milestones",
+    "transform": [
       {
-        "name": "milestone_labels",
-        "description": "The milestone labels",
-        "from": {"data": "milestones"},
-        "type": "text",
-        "interactive": false,
-        "encode": {
-          "update": {
-            "x": {"field": "x"},
-            "y": {"field": "y"},
-            "dy": {"field": "dy"},
-            "text": {"signal": "datum['domain'] + ' - ' + datum['label']"},
-            "fontSize": {"signal": "10"},
-            "fill": {"value": "firebrick"},
-            "angle": {"field": "labelAngle"},
-            "align": {"value": "center"},
-            "baseline": {
-              "signal": "datum['type'] === 'straight' ? 'top' : 'bottom'"
-            },
-            "opacity": {
-              "signal": "isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 1 : labelsOnHover ? 0 : 1"
-            }
-          }
-        }
+        "type": "aggregate",
+        "groupby": ["domain", "x", "y", "dy", "labelAngle", "type"],
+        "fields": ["label"],
+        "ops": ["values"],
+        "as": ["labels"]
       }
+    ]
+  },
+  "type": "text",
+  "interactive": false,
+  "encode": {
+    "update": {
+      "x": {"field": "x"},
+      "y": {"field": "y"},
+      "dy": {"field": "dy"},
+      "text": {"signal": "datum['domain'] + ': ' + join(datum['labels'], ', ')"},
+      "fontSize": {"signal": "10"},
+      "fill": {"value": "firebrick"},
+      "angle": {"field": "labelAngle"},
+      "align": {"value": "center"},
+      "baseline": {
+        "signal": "datum['type'] === 'straight' ? 'top' : 'bottom'"
+      },
+      "opacity": {
+        "signal": "isValid(hoverFocus) && hoverFocus['domain'] === datum['domain'] ? 1 : labelsOnHover ? 0 : 1"
+      }
+    }
+  }
+}
+
     ],
     "data": [
       {
