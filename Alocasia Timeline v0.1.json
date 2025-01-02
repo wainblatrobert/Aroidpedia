@@ -898,7 +898,7 @@
       "as": "eventCount"
     },
       {
-      "type": "window", // Calculate size before sorting
+      "type": "window",
       "ops": ["row_number"],
       "sort": {"field": "domain"},
       "as": ["id"]
