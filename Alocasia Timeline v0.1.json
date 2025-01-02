@@ -898,8 +898,8 @@
       "as": "eventCount"
     },
       {
-      "type": "window",
-      "ops": ["row_number"],
+          "type": "window",
+          "ops": ["row_number"],
       "sort": {"field": "domain"},
       "as": ["id"]
     },
