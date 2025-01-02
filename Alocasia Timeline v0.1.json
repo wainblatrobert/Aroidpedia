@@ -354,7 +354,32 @@
           }
         ]
       },
-      
+      {
+        "name": "milestone_connecting_lines",
+        "description": "The milestone lines that connect the markers to labels",
+        "from": {"data": "milestones"},
+        "type": "text",
+        "interactive": false,
+        "encode": {
+          "update": {
+            "text": {"signal": "'|'"},
+            "x": {"field": "x"},
+            "y": {"field": "y"},
+            "fontSize": {"value": 15},
+            "fontWeight": {"value": 100},
+            "dy": {
+              "signal": "datum['type'] === 'arc' && (round(datum['alpha']*(180/PI)) > 89) ? 0.35 * (mO+3.5) : datum['dy']/2"
+            },
+            "align": {"value": "center"},
+            "baseline": {"value": "middle"},
+            "angle": {"field": "labelAngle"},
+            "fillOpacity": {"value": 0},
+            "opacity": {
+              "signal": "isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 1 : labelsOnHover ? 0 : 1"
+            }
+          }
+        }
+      },
      {
   "name": "milestone_markers",
   "type": "symbol",
@@ -379,37 +404,7 @@
   }
 }
 
-,
-      {
-  "name": "milestone_label_backgrounds",
-  "description": "The white backgrounds for milestone labels",
-  "from": {"data": "milestones"},
-  "type": "text",
-  "interactive": false,
-  "aria": false,
-  "focus": false,
-  "encode": {
-    "update": {
-      "x": {"field": "x"},
-      "y": {"field": "y"},
-      "dy": {"field": "dy"},
-      "text": {"signal": "datum['domain'] + ' - ' + datum['label']"},
-      "lineBreak": {"value": ", "},
-      "fontSize": {"signal": "10"},
-      "fill": {"value": "#fff"},
-      "stroke": {"value": "#fff"},
-      "strokeWidth": {"value": 0},
-       "angle": {"field": "labelAngle"},
-      "align": {"value": "center"},
-      "baseline": {
-        "signal": "datum['type'] === 'straight' ? 'top' : 'bottom'"
-      },
-     "opacity": {
-  "signal": "isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 1 : labelsOnHover ? 0 : 1"
-}
-    }
-  }
-}
+
 ,
        {
       "name": "milestone_labels",
