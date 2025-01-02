@@ -8,7 +8,7 @@
       {
         "name": "width",
         "init": "width",
-        "bind": {
+        "bindDisabled": {
           "name": "straight width",
           "input": "range",
           "min": 0,
@@ -34,7 +34,7 @@
         "name": "sH",
         "description": "serpentine: diameter of arcs",
         "value": 125,
-        "bind": {
+        "bindDisabled": {
           "name": "arc diameter",
           "input": "range",
           "min": 25,
@@ -46,13 +46,13 @@
         "name": "labelsOnHover",
         "description": "milestone: show labels on hover only",
         "value": true,
-        "bind": {"name": "hover labels", "input": "checkbox"}
+        "bindDisabled": {"name": "hover labels", "input": "checkbox"}
       },
       {
         "name": "sN",
         "description": "serpentine: number of arcs",
         "value": 4,
-        "bind": {
+        "bindDisabled": {
           "name": "# of arcs",
           "input": "range",
           "min": 0,
@@ -64,7 +64,7 @@
         "name": "tC",
         "description": "ticks: number of axis ticks to display on the timeline",
         "value": 50,
-        "bind": {
+        "bindDisabled": {
           "name": "tick count",
           "input": "range",
           "min": 0,
@@ -81,7 +81,7 @@
         "name": "mO",
         "description": "milestone: the offset for the milestone markers",
         "value": 60,
-        "bind": {
+        "bindDisabled": {
           "name": "milestone offset",
           "input": "range",
           "min": 0,
@@ -93,7 +93,7 @@
         "name": "sR0P",
         "description": "serpentine: percentage of width of canvas for the start of the timeline",
         "value": 0,
-        "bind": {
+        "bindDisabled": {
           "name": "timeline x0 %",
           "input": "range",
           "min": 0,
@@ -105,7 +105,7 @@
         "name": "sLP",
         "description": "serpentine: percentage of total length of canvas for the end of the timeline",
         "value": 1,
-        "bind": {
+        "bindDisabled": {
           "name": "timeline len %",
           "input": "range",
           "min": 0,
@@ -116,23 +116,23 @@
       {
         "name": "annotationStart",
         "value": "",
-        "bind": {"name": "start annotation", "input": "text"}
+        "bindDisabled": {"name": "start annotation", "input": "text"}
       },
       {
         "name": "annotationEnd",
         "value": "Today",
-        "bind": {"name": "end annotation", "input": "text"}
+        "bindDisabled": {"name": "end annotation", "input": "text"}
       },
       {
         "name": "includeArrows",
         "value": true,
-        "bind": {"name": "include arrows", "input": "checkbox"}
+        "bindDisabled": {"name": "include arrows", "input": "checkbox"}
       },
       {
         "name": "sT",
         "description": "serpentine: thicknes of the line",
         "value": 5,
-        "bind": {
+        "bindDisabled": {
           "name": "line thickness",
           "input": "range",
           "min": 1,
