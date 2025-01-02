@@ -441,7 +441,7 @@
   "description": "The milestone labels",
   "from": {"data": "milestones"},
   "type": "text",
-  "interactive": false,
+  "interactive": true,
   "encode": {
     "update": {
       "x": {"field": "x"},
@@ -450,16 +450,12 @@
       "text": {"signal": "datum['domain'] + ' - ' + datum['label']"},
       "lineBreak": {"value": ", "},
       "fontSize": {"value": 10},
-      "fill": {"value": "firebrick"},
-      "angle": {"field": "labelAngle"},
-      "align": {"value": "center"},
-      "baseline": {
-        "signal": "datum['type'] === 'straight' ? 'top' : 'bottom'"
-      },
-      "opacity": 0
+     
+    
     }
   }
 }
+
 
 
     ],
