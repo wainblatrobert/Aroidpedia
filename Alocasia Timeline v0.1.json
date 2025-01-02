@@ -382,9 +382,7 @@
     "update": {
       "x": {"field": "x"},
       "y": {"field": "y"},
-      "size": {
-  "signal": "min(100, 10 + 50 * datum['eventCount'])"
-},
+      "size": {"signal": "labelsOnHover && isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 200 : 150"},
 
       "fill": {
         "signal": "labelsOnHover ? isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 'firebrick' : '#38383B' : 'firebrick'"
