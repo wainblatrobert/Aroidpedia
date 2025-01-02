@@ -398,7 +398,7 @@
       "stroke": {
         "signal": "labelsOnHover ? isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? '#fff' : 'firebrick' : '#fff'"
       },
-      "strokeWidth": {"signal": "labelsOnHover ? 1 : 2"},
+      "strokeWidth": {"signal": "labelsOnHover ? 1 : 20"},
       "cursor": {"signal": "labelsOnHover ? 'pointer' : 'default'"}
     }
   }
@@ -437,31 +437,30 @@
 }
 ,
        {
-      "name": "milestone_labels",
-      "description": "The milestone labels",
-      "from": {"data": "milestones"},
-      "type": "text",
-      "interactive": false,
-      "encode": {
-        "update": {
-          "x": {"field": "x"},
-          "y": {"field": "y"},
-          "dy": {"field": "dy"},
-          "text": {"signal": "datum['domain'] + ' - ' + datum['label']"},
-          "lineBreak": {"value": ", "},
-          "fontSize": {"signal": "10"},
-          "fill": {"value": "firebrick"},
-          "angle": {"field": "labelAngle"},
-          "align": {"value": "center"},
-          "baseline": {
-            "signal": "datum['type'] === 'straight' ? 'top' : 'bottom'"
-          },
-          "opacity": {
-            "signal": "isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 1 : labelsOnHover ? 0 : 1"
-          }
-        }
-      }
+  "name": "milestone_labels",
+  "description": "The milestone labels",
+  "from": {"data": "milestones"},
+  "type": "text",
+  "interactive": false,
+  "encode": {
+    "update": {
+      "x": {"field": "x"},
+      "y": {"field": "y"},
+      "dy": {"field": "dy"},
+      "text": {"signal": "datum['domain'] + ' - ' + datum['label']"},
+      "lineBreak": {"value": ", "},
+      "fontSize": {"value": 10},
+      "fill": {"value": "firebrick"},
+      "angle": {"field": "labelAngle"},
+      "align": {"value": "center"},
+      "baseline": {
+        "signal": "datum['type'] === 'straight' ? 'top' : 'bottom'"
+      },
+      "opacity": 0
     }
+  }
+}
+
 
     ],
     "data": [
