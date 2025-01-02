@@ -884,7 +884,7 @@
     },
     {
   "type": "formula",
-  "expr": "min(5, length(split(datum['label'], ',')))",
+  "expr": "min(1, length(split(datum['label'], ',')))",
   "as": "eventCount"
 },
       {
