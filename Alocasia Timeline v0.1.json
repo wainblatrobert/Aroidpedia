@@ -430,7 +430,7 @@
         "signal": "datum['type'] === 'straight' ? 'top' : 'bottom'"
       },
       "opacity": {
-        "signal": "isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 1 : labelsOnHover ? 0 : 1"
+        "signal": "isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 1 : labelsOnHover ? (isValid(hoverFocus) ? 1 : 0) : 0"
       }
     }
   }
