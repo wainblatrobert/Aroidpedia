@@ -379,7 +379,7 @@
   "encode": {
     "update": {
       "x": {"field": "x"},
-      "y": {"field": "y"},   
+      "y": {"field": "y"},
       "size": {
         "signal": "labelsOnHover && isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? (10 + 100 * datum['eventCount']) : (10 + 100 * datum['eventCount'])"
       },
@@ -415,7 +415,7 @@
       "fill": {"value": "#fff"},
       "stroke": {"value": "#fff"},
       "strokeWidth": {"value": 0},
-      "angle": {"field": "labelAngle"},
+       "angle": {"field": "labelAngle"},
       "align": {"value": "center"},
       "baseline": {
         "signal": "datum['type'] === 'straight' ? 'top' : 'bottom'"
