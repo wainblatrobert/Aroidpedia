@@ -435,7 +435,6 @@
       "y": {"field": "y"},
       "dy": {"field": "dy"},
       "text": {"signal": "datum['domain'] + ' - ' + datum['label']"},
-      "lineBreak": {"value": ", "},
       "fontSize": {"value": 10},
       "fill": {"value": "firebrick"},
       "angle": {"field": "labelAngle"},
