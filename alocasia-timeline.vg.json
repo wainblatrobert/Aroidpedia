@@ -671,29 +671,40 @@
           }
         ]
       },
-      {
-        "name": "milestones",
-        "source": "componentEncodings",
-        "transform": [
-          {"type": "filter", "expr": "datum['category'] === 'milestone'"},
-          {
-            "type": "lookup",
-            "key": "domain",
-            "from": "dataset",
-            "fields": ["domain"],
-            "values": ["label", "color"]
-          },
-          {
-            "type": "formula",
-            "expr": "!isValid(datum['side']) ? -(mO) : datum['side'] === 'right' ? (round(datum['alpha']*(180/PI)) >= 90 ? 1 : -0.5) * (mO+3.5) : (round(datum['alpha']*(180/PI)) > 89 ? 1 : -0.5) * (mO+3.5)",
-            "as": "dy"
-          },
-          {
-            "type": "formula",
-            "expr": "(isValid(hoverFocus) && hoverFocus['domain']===datum['domain']) ? 1 : 0.4",
-            "as": "fillOpacity"
-          }
-        ]
-      }
+     {
+  "name": "milestones",
+  "source": "componentEncodings",
+  "transform": [
+    {
+      "type": "filter",
+      "expr": "datum['category'] === 'milestone'"
+    },
+    {
+      "type": "lookup",
+      "key": "domain",
+      "from": "dataset",
+      "fields": ["domain"],
+      "values": ["label", "color"]
+    },
+    {
+      "type": "aggregate",
+      "groupby": ["domain", "x", "y", "dy", "labelAngle", "type"],
+      "fields": ["label"],
+      "ops": ["values"],
+      "as": ["labels"]
+    },
+    {
+      "type": "formula",
+      "expr": "!isValid(datum['side']) ? -(mO) : datum['side'] === 'right' ? (round(datum['alpha']*(180/PI)) >= 90 ? 1 : -0.5) * (mO+3.5) : (round(datum['alpha']*(180/PI)) > 89 ? 1 : -0.5) * (mO+3.5)",
+      "as": "dy"
+    },
+    {
+      "type": "formula",
+      "expr": "(isValid(hoverFocus) && hoverFocus['domain']===datum['domain']) ? 1 : 0.4",
+      "as": "fillOpacity"
+    }
+  ]
+}
+
     ]
   }
