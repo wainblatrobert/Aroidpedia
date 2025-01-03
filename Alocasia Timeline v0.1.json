@@ -239,7 +239,7 @@
         "reverse": {"signal": "reverse"},
         "domain": {"signal": "sDomain"},
         "range": {"signal": "sRange"}
-      },
+      }
       
     ],
     "marks": [
@@ -445,7 +445,7 @@
           "update": {
             "x": {"field": "x"},
             "y": {"field": "y"},
-            
+          
             "text": {"signal": "datum['domain'] + ' - ' + datum['label']"},
             "lineBreak": {"value": ", "},
             "fontSize": {"signal": "10"},
@@ -459,7 +459,7 @@
             }
           }
         }
-      },
+      }
     ],
     "data": [
       {
