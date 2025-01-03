@@ -197,16 +197,34 @@
         "init": "domain ? domain : [+extent(pluck(data('dataset'), 'domain'))[0], +extent(pluck(data('dataset'), 'domain'))[1]]"
       },
       {
-        "name": "hoverFocus",
-        "value": 0,
-        "on": [
-          {
-            "events": {"type": "mouseover"},
-            "update": "isValid(datum) && isValid(isValid(datum['domain'])) ? datum : null"
-          },
-          {"events": {"type": "mouseout"}, "update": "null"}
-        ]
-      },
+  "name": "hoverFocus",
+  "value": 0,
+  "on": [
+    {
+      "events": {"type": "mouseover"},
+      "update": "isValid(datum) && isValid(isValid(datum['domain'])) ? datum : null"
+    },
+    {
+      "events": {"type": "mouseout"},
+      "update": "null"
+    }
+  ]
+},
+{
+  "name": "cursor",
+  "value": "default",
+  "on": [
+    {
+      "events": {"type": "mouseover"},
+      "update": "'pointer'"
+    },
+    {
+      "events": {"type": "mouseout"},
+      "update": "'default'"
+    }
+  ]
+}
+,
       {
         "name": "height",
         "description": "calculated height",
@@ -222,15 +240,7 @@
         "domain": {"signal": "sDomain"},
         "range": {"signal": "sRange"}
       },
-      {
-        "name": "footerY",
-        "type": "band",
-        "domain": {"data": "footer", "field": "id"},
-        "range": [
-          {"signal": "height+60"},
-          {"signal": "height+60+length(data('footer'))*11"}
-        ]
-      }
+      
     ],
     "marks": [
       {
@@ -373,19 +383,16 @@
         }
       },
      {
-   "name": "milestone_markers",
-        "description": "The milestone timeline markers",
-        "from": {"data": "milestones"},
-        "type": "symbol",
-        "interactive": true,
+  "name": "milestone_markers",
+  "description": "The milestone timeline markers",
+  "from": {"data": "milestones"},
+  "type": "symbol",
+  "interactive": true,
   "encode": {
     "update": {
       "x": {"field": "x"},
       "y": {"field": "y"},
-      "size": {
-  "signal": "min(1000, 10 + 100 * datum['eventCount'])"
-},
-
+      "size": {"signal": "(10 + 50 * datum['eventCount'])"},
       "fill": {
         "signal": "labelsOnHover ? isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 'firebrick' : '#38383B' : 'firebrick'"
       },
@@ -393,40 +400,37 @@
         "signal": "labelsOnHover ? isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? '#fff' : 'firebrick' : '#fff'"
       },
       "strokeWidth": {"signal": "labelsOnHover ? 1 : 2"},
-      "cursor": {"signal": "labelsOnHover ? 'pointer' : 'default'"}
+      "cursor": {"signal": "isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 'pointer' : 'default'"}
     }
   }
 }
+
 
 ,
       {
   "name": "milestone_label_backgrounds",
   "description": "The white backgrounds for milestone labels",
   "from": {"data": "milestones"},
-  "type": "text",
+  "type": "rect", 
   "interactive": false,
   "aria": false,
-"encode": {
-          "update": {
-            "x": {"field": "x"},
-            "y": {"field": "y"},
-            "dy": {"field": "dy"},
-            "text": {"signal": "datum['domain'] + ' - ' + datum['label']"},
-            "fontSize": {"signal": "1"},
-            "fill": {"value": "#fff"},
-            "stroke": {"value": "#fff"},
-            "strokeWidth": {"value": 25},
-            "angle": {"field": "labelAngle"},
-            "align": {"value": "center"},
-            "baseline": {
-              "signal": "datum['type'] === 'straight' ? 'top' : 'bottom'"
-            },
-            "opacity": {
-              "signal": "isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 1 : labelsOnHover ? 0 : 1"
-            }
-          }
-        }
-      },
+  "encode": {
+    "update": {
+      "x": {"field": "x", "offset":-72},
+      "y": {"field": "y", "offset":-12},
+     
+      "width": {"signal": "datum['label'].length * 8/min(20, length(split(datum['label'], ',')))"}, 
+      "height": {"signal": "length(split(datum['label'], ','))*12.8"}, 
+      "fill": {"value": "#fff"},
+      "stroke": {"value": "#fff"},
+      "strokeWidth": {"value": 2},
+      "opacity": {
+        "signal": "isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 1 : labelsOnHover ? 0 : 1"
+      }
+    }
+  }
+}
+,
        {
         "name": "milestone_labels",
         "description": "The milestone labels",
@@ -437,12 +441,11 @@
           "update": {
             "x": {"field": "x"},
             "y": {"field": "y"},
-            "dy": {"field": "dy"},
+            
             "text": {"signal": "datum['domain'] + ' - ' + datum['label']"},
             "lineBreak": {"value": ", "},
             "fontSize": {"signal": "10"},
             "fill": {"value": "firebrick"},
-            "angle": {"field": "labelAngle"},
             "align": {"value": "center"},
             "baseline": {
               "signal": "datum['type'] === 'straight' ? 'top' : 'bottom'"
@@ -837,30 +840,8 @@
           }
         ]
       },
-      {
-        "name": "footer",
-        "values": [
-          {
-            "id": 1,
-            "text": [
-              "Data Source:",
-              "https://ourworldindata.org/mass-extinctions"
-            ],
-            "href": "https://ourworldindata.org/mass-extinctions"
-          },
-          {
-            "id": 2,
-            "text": ["Icons:", "https://fontawesome.com/"],
-            "href": "https://fontawesome.com/"
-          },
-          {
-            "id": 3,
-            "text": ["Data Viz By:", "Madison Giammaria"],
-            "href": "https://www.linkedin.com/in/madison-giammaria-58463b33"
-          }
-        ]
-      },
-      {
+      
+  {
   "name": "milestones",
   "source": "componentEncodings",
   "transform": [
@@ -872,31 +853,27 @@
       "fields": ["domain"],
       "values": ["label", "color"]
     },
-    {
-      "type": "formula",
-      "expr": "!isValid(datum['side']) ? -(mO) : datum['side'] === 'right' ? (round(datum['alpha']*(180/PI)) >= 90 ? 1 : -0.5) * (mO+3.5) : (round(datum['alpha']*(180/PI)) > 89 ? 1 : -0.5) * (mO+3.5)",
-      "as": "dy"
-    },
-    {
-      "type": "formula",
-      "expr": "(isValid(hoverFocus) && hoverFocus['domain']===datum['domain']) ? 1 : 0.4",
-      "as": "fillOpacity"
-    },
+    
     {
   "type": "formula",
-  "expr": "min(15, length(split(datum['label'], ',')))",
-  "as": "eventCount"
+  "expr": "(isValid(hoverFocus) && hoverFocus['domain'] === datum['domain']) ? 1 : (isValid(hoverFocus) && hoverFocus['domain'] !== datum['domain']) ? 0.4 : 0",
+  "as": "fillOpacity"
 },
-      {
+    {
+      "type": "formula",
+      "expr": "min(15, length(split(datum['label'], ',')))",
+      "as": "eventCount"
+    },
+    {
       "type": "window",
       "ops": ["row_number"],
       "sort": {"field": "domain"},
       "as": ["id"]
     },
     {
-        "type": "formula",
-        "expr": "10 + 200 * datum['eventCount']",
-        "as": "size"
+      "type": "formula",
+      "expr": "10 + 200 * datum['eventCount']",
+      "as": "size"
     },
     {
       "type": "collect",
@@ -907,6 +884,7 @@
     }
   ]
 }
+
 
       
     ]
