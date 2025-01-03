@@ -3,7 +3,7 @@
     "description": "a serpentine timeline. The serpentine shape can be an option for instances where an oblong canvas is not ideal. The shape can be customized using many of the signals below. Input bindings have been included for demonstration purposes",
     "background": "white",
     "padding": 10,
-    "width": 950,
+    "width": 1050,
     "signals": [
       {
         "name": "width",
@@ -367,8 +367,8 @@
             "text": {"signal": "'|'"},
             "x": {"field": "x"},
             "y": {"field": "y"},
-            "fontSize": {"value": 15},
-            "fontWeight": {"value": 100},
+            "fontSize": {"value": 1},
+            "fontWeight": {"value": 10},
             "dy": {
               "signal": "datum['type'] === 'arc' && (round(datum['alpha']*(180/PI)) > 89) ? 0.35 * (mO+3.5) : datum['dy']/2"
             },
@@ -419,7 +419,7 @@
       "x": {"field": "x", "offset": -72},
       "y": {"field": "y", "offset": -12},
       "width": {
-        "signal": "max(100, min(15, length(split(datum['label'], ','))) * 8 + 10)" 
+        "signal": "max(150, min(15, length(split(datum['label'], ','))) * 8 + 50)" 
       }, 
       "height": {
         "signal": "(length(split(datum['label'], ',')) + 1) * 12.8" 
