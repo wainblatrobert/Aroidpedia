@@ -416,20 +416,24 @@
   "aria": false,
   "encode": {
     "update": {
-      "x": {"field": "x", "offset":-72},
-      "y": {"field": "y", "offset":-12},
-     
-      "width": {"signal": "datum['label'].length * 8/min(20, length(split(datum['label'], ',')))"}, 
-      "height": {"signal": "length(split(datum['label'], ','))*12.8"}, 
+      "x": {"field": "x", "offset": -72},
+      "y": {"field": "y", "offset": -12},
+      "width": {
+        "signal": "max(100, min(15, length(split(datum['label'], ','))) * 8 + 10)" 
+      }, 
+      "height": {
+        "signal": "(length(split(datum['label'], ',')) + 1) * 12.8" 
+      },
       "fill": {"value": "#fff"},
       "stroke": {"value": "#fff"},
-      "strokeWidth": {"value": 2},
+      "strokeWidth": {"value": 0},
       "opacity": {
         "signal": "isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 1 : labelsOnHover ? 0 : 1"
       }
     }
   }
 }
+
 ,
        {
         "name": "milestone_labels",
