@@ -37,7 +37,7 @@
         "bindDisabled": {
           "name": "arc diameter",
           "input": "range",
-          "min": 25,
+          "min": 0,
           "max": 400,
           "step": 1
         }
@@ -75,17 +75,17 @@
       {
         "name": "tLO",
         "description": "ticks: the offset for the tick labels",
-        "value": 8
+        "value": 15
       },
       {
         "name": "mO",
         "description": "milestone: the offset for the milestone markers",
-        "value": 60,
+        "value": 10,
         "bindDisabled": {
           "name": "milestone offset",
           "input": "range",
           "min": 0,
-          "max": 70,
+          "max": 1,
           "step": 0.5
         }
       },
@@ -382,7 +382,9 @@
     "update": {
       "x": {"field": "x"},
       "y": {"field": "y"},
-      "size": {"signal": "labelsOnHover && isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 200 : 150"},
+      "size": {
+  "signal": "min(1000, 10 + 100 * datum['eventCount'])"
+},
 
       "fill": {
         "signal": "labelsOnHover ? isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 'firebrick' : '#38383B' : 'firebrick'"
@@ -410,10 +412,10 @@
             "y": {"field": "y"},
             "dy": {"field": "dy"},
             "text": {"signal": "datum['domain'] + ' - ' + datum['label']"},
-            "fontSize": {"signal": "10"},
+            "fontSize": {"signal": "1"},
             "fill": {"value": "#fff"},
             "stroke": {"value": "#fff"},
-            "strokeWidth": {"value": 7},
+            "strokeWidth": {"value": 25},
             "angle": {"field": "labelAngle"},
             "align": {"value": "center"},
             "baseline": {
@@ -882,7 +884,7 @@
     },
     {
   "type": "formula",
-  "expr": "min(1, length(split(datum['label'], ',')))",
+  "expr": "min(15, length(split(datum['label'], ',')))",
   "as": "eventCount"
 },
       {
@@ -893,7 +895,7 @@
     },
     {
         "type": "formula",
-        "expr": "10 + 100 * datum['eventCount']",
+        "expr": "10 + 200 * datum['eventCount']",
         "as": "size"
     },
     {
