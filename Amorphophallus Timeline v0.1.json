@@ -33,7 +33,7 @@
       {
         "name": "sH",
         "description": "serpentine: diameter of arcs",
-        "value": 125,
+        "value": 185,
         "bindDisabled": {
           "name": "arc diameter",
           "input": "range",
