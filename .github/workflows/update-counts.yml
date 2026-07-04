@@ -1,41 +1,32 @@
 name: Update Aroidpedia Counts
-
 on:
   schedule:
     # Runs once daily at 8:05 UTC
     - cron: "5 8 * * *"
   workflow_dispatch:
-
 permissions:
   contents: write
-
 jobs:
   update-counts:
     runs-on: ubuntu-latest
-
     steps:
       - name: Check out repo
         uses: actions/checkout@v4
-
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-
       - name: Generate counts
         run: node scripts/update-counts.mjs
         env:
           SITE_ORIGIN: "https://www.aroidpedia.com"
           COLLECTION_PATH: "/journal"
           OUT_FILE: "docs/counts.json"
-
       - name: Commit updated counts
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-
           git add docs/counts.json
-
           if git diff --cached --quiet; then
             echo "No count changes to commit."
           else
