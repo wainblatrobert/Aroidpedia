@@ -1,28 +1,47 @@
 name: Update Aroidpedia Counts
+
 on:
   schedule:
     # Runs once daily at 8:05 UTC
     - cron: "5 8 * * *"
   workflow_dispatch:
+
+# contents: commit counts.json back to the repo (history)
+# pages + id-token: deploy to GitHub Pages from this same run,
+# which the auto "pages build" can't do after a GITHUB_TOKEN push.
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+# Avoid overlapping Pages deploys
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
   update-counts:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Check out repo
         uses: actions/checkout@v4
+
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
           node-version: "20"
+
       - name: Generate counts
         run: node scripts/update-counts.mjs
         env:
           SITE_ORIGIN: "https://www.aroidpedia.com"
           COLLECTION_PATH: "/journal"
           OUT_FILE: "docs/counts.json"
-      - name: Commit updated counts
+
+      - name: Commit updated counts (repo history)
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
@@ -33,3 +52,16 @@ jobs:
             git commit -m "Update Aroidpedia counts"
             git push
           fi
+
+      # --- Deploy /docs to GitHub Pages from THIS run ---
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload /docs as Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "docs"
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
