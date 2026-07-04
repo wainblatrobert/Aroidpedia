@@ -3,7 +3,21 @@
   "cultivars": 49,
   "hybrids": 145,
   "genera": 2,
-  "updatedAt": "2026-07-04T21:30:20.475Z",
+  "byGenus": {
+    "Alocasia": {
+      "total": 309,
+      "species": 115,
+      "cultivars": 49,
+      "hybrids": 145
+    },
+    "Amorphophallus": {
+      "total": 50,
+      "species": 50,
+      "cultivars": 0,
+      "hybrids": 0
+    }
+  },
+  "updatedAt": "2026-07-04T22:37:03.184Z",
   "source": "https://www.aroidpedia.com/journal",
   "totalItemsScanned": 359
 }
