@@ -195,6 +195,19 @@ function countCollection(items) {
     genera: new Set()
   };
 
+  // Per-genus breakdown: genus -> { total, species, cultivars, hybrids }
+  const byGenusMap = new Map();
+
+  function bumpGenus(genus, kind) {
+    let g = byGenusMap.get(genus);
+    if (!g) {
+      g = { total: 0, species: 0, cultivars: 0, hybrids: 0 };
+      byGenusMap.set(genus, g);
+    }
+    g.total++;
+    if (kind) g[kind]++;
+  }
+
   const seenItems = new Set();
 
   items.forEach((item, index) => {
@@ -220,15 +233,31 @@ function countCollection(items) {
 
     if (isSpecies || isCultivar || isHybrid) {
       const genus = getGenus(item);
-      if (genus) counts.genera.add(genus);
+      if (genus) {
+        counts.genera.add(genus);
+        // A single item can, in theory, carry more than one category tag.
+        // Count the item once toward the genus total, and bump each
+        // matching category so the breakdown stays internally consistent.
+        bumpGenus(genus, null);
+        if (isSpecies)  byGenusMap.get(genus).species++;
+        if (isCultivar) byGenusMap.get(genus).cultivars++;
+        if (isHybrid)   byGenusMap.get(genus).hybrids++;
+      }
     }
   });
+
+  // Convert the per-genus map to a plain object, sorted by total desc
+  const byGenus = {};
+  [...byGenusMap.entries()]
+    .sort((a, b) => b[1].total - a[1].total || a[0].localeCompare(b[0]))
+    .forEach(([genus, g]) => { byGenus[genus] = g; });
 
   return {
     species: counts.species,
     cultivars: counts.cultivars,
     hybrids: counts.hybrids,
     genera: counts.genera.size,
+    byGenus,
     updatedAt: new Date().toISOString(),
     source: `${SITE_ORIGIN}${COLLECTION_PATH}`,
     totalItemsScanned: seenItems.size
