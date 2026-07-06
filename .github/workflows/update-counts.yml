@@ -2,19 +2,14 @@ name: Update Aroidpedia Counts
 
 on:
   schedule:
-    # Runs once daily at 8:05 UTC
     - cron: "5 8 * * *"
   workflow_dispatch:
 
-# contents: commit counts.json back to the repo (history)
-# pages + id-token: deploy to GitHub Pages from this same run,
-# which the auto "pages build" can't do after a GITHUB_TOKEN push.
 permissions:
   contents: write
   pages: write
   id-token: write
 
-# Avoid overlapping Pages deploys
 concurrency:
   group: "pages"
   cancel-in-progress: false
@@ -25,14 +20,15 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
       - name: Check out repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Set up Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
-          node-version: "20"
+          node-version: "24"
 
       - name: Generate counts
         run: node scripts/update-counts.mjs
@@ -41,7 +37,7 @@ jobs:
           COLLECTION_PATH: "/journal"
           OUT_FILE: "docs/counts.json"
 
-      - name: Commit updated counts (repo history)
+      - name: Commit updated counts
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
@@ -53,15 +49,27 @@ jobs:
             git push
           fi
 
-      # --- Deploy /docs to GitHub Pages from THIS run ---
+      - name: Sanity check /docs artifact
+        run: |
+          test -d docs
+          test -f docs/counts.json
+          echo "Artifact size:"
+          du -sh docs
+          echo "Checking for symlinks:"
+          if find docs -type l | grep -q .; then
+            echo "ERROR: GitHub Pages artifacts cannot contain symlinks."
+            find docs -type l
+            exit 1
+          fi
+
       - name: Configure Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
 
       - name: Upload /docs as Pages artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: "docs"
 
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
