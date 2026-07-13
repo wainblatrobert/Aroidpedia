@@ -1,12 +1,22 @@
+# .github/workflows/aroidpedia-biblio.yml
+#
+# Rebuilds every genus bibliography on the 1st of each month, and on demand.
+# Commits to docs/ only when something actually changed, so each run gives you
+# a clean, reviewable diff.
+#
+# NOTE: the script lives in a folder whose name contains a space, so the path
+# must be quoted. It is run from the REPO ROOT (not from inside that folder)
+# because it writes its output to docs/ relative to the working directory.
+
 name: Compile Aroidpedia bibliographies
 
 on:
   schedule:
-    - cron: "0 9 1 * *"      # 09:00 UTC, 1st of each month
-  workflow_dispatch:
+    - cron: "0 9 1 * *"      # 09:00 UTC on the 1st of each month
+  workflow_dispatch:          # lets you run it by hand from the Actions tab
 
 permissions:
-  contents: write
+  contents: write             # required for the bot to push its commit
 
 jobs:
   compile:
@@ -18,7 +28,8 @@ jobs:
         with:
           python-version: "3.12"
 
-      - run: pip install requests beautifulsoup4 reportlab
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4 reportlab
 
       - name: Crawl and build all genera
         run: python "Aroidpedia Bibliography/compile_aroidpedia_biblio.py"
@@ -31,6 +42,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No bibliography changes."
           else
-            git commit -m "Aroidpedia bibliographies — $(date -u +'%Y-%m-%d')"
+            git commit -m "Aroidpedia bibliographies - $(date -u +'%Y-%m-%d')"
             git push
           fi
