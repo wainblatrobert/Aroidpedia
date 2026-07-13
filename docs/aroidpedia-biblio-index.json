@@ -4,16 +4,18 @@
   {
    "genus": "Alocasia",
    "slug": "alocasia",
-   "taxon_count": 67,
-   "source_count": 32,
+   "taxon_count": 310,
+   "source_count": 231,
+   "cited_count": 97,
    "json": "alocasia-biblio.json",
    "pdf": "Aroidpedia-Alocasia-Bibliography.pdf"
   },
   {
    "genus": "Amorphophallus",
    "slug": "amorphophallus",
-   "taxon_count": 30,
-   "source_count": 58,
+   "taxon_count": 55,
+   "source_count": 100,
+   "cited_count": 55,
    "json": "amorphophallus-biblio.json",
    "pdf": "Aroidpedia-Amorphophallus-Bibliography.pdf"
   }

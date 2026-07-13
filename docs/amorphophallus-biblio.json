@@ -3,8 +3,9 @@
  "slug": "amorphophallus",
  "compiled": "2026-07-13",
  "source": "https://www.aroidpedia.com/amorphophallus",
- "taxon_count": 30,
- "source_count": 58,
+ "taxon_count": 55,
+ "source_count": 100,
+ "cited_count": 55,
  "gap_count": 0,
  "pdf": "Aroidpedia-Amorphophallus-Bibliography.pdf",
  "kew_excluded_from_bibliography": true,
@@ -49,9 +50,65 @@
    "host": "gabonbiota.org"
   },
   {
-   "title": "Blumea 39: 263 (1994)",
+   "title": "Biodiversité du Gabon",
+   "url": "https://gabonbiota.org/portal/taxa/index.php?taxauthid=1&taxon=1775&clid=23",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS ANGOLENSIS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-angolensis",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "gabonbiota.org"
+  },
+  {
+   "title": "Blumea 36 (1992) P.467",
+   "url": "https://repository.naturalis.nl/pub/524945/BLUM1992036002008.pdf",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS ASTEROSTIGMATUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-asterostigmatus",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "repository.naturalis.nl"
+  },
+  {
+   "title": "Blumea 39: 237 (1994)",
    "url": "https://repository.naturalis.nl/pub/525950",
    "taxa": [
+    {
+     "name": "AMORPHOPHALLUS ABERRANS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-aberrans",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS ALBISPATHUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-albispathus",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS ANGULATUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-angulatus",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS ANGUSTISPATHUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-angustispathus",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS ANNULIFER",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-annulifer",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS ATROVIRIDIS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-atroviridis",
+     "kind": "Species"
+    },
     {
      "name": "AMORPHOPHALLUS BUFO",
      "url": "https://www.aroidpedia.com/journal/amorphophallus-bufo",
@@ -73,7 +130,7 @@
      "kind": "Species"
     }
    ],
-   "count": 4,
+   "count": 10,
    "host": "repository.naturalis.nl"
   },
   {
@@ -103,9 +160,19 @@
    "host": "repository.naturalis.nl"
   },
   {
-   "title": "Blumea V.46 (2001) P.256",
+   "title": "Blumea V.46 (2001) P.253",
    "url": "https://repository.naturalis.nl/pub/524756/BLUM2001046002005.pdf",
    "taxa": [
+    {
+     "name": "AMORPHOPHALLUS AMYGDALOIDES",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-amygdaloides",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS ATRORUBENS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-atrorubens",
+     "kind": "Species"
+    },
     {
      "name": "AMORPHOPHALLUS BOYCEANUS",
      "url": "https://www.aroidpedia.com/journal/amorphophallus-boyceanus",
@@ -117,7 +184,7 @@
      "kind": "Species"
     }
    ],
-   "count": 2,
+   "count": 4,
    "host": "repository.naturalis.nl"
   },
   {
@@ -132,6 +199,32 @@
    ],
    "count": 1,
    "host": "biodiversitylibrary.org"
+  },
+  {
+   "title": "Botanische Jahrbücher für Systematik, Pflanzengeschichte und Pflanzengeographie Volume 121 (1999) P.2",
+   "url": "https://protectedareas.mg/document/show/257819",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS ANTSINGYENSIS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-antsingyensis",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "protectedareas.mg"
+  },
+  {
+   "title": "Central African Plants",
+   "url": "http://www.centralafricanplants.senckenberg.de/root/index.php?page_id=34&id=9898",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS ANGOLENSIS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-angolensis",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "centralafricanplants.senckenberg.de"
   },
   {
    "title": "Cornell Herbarium - John Mark Violetta",
@@ -184,6 +277,97 @@
    ],
    "count": 1,
    "host": "efloraofindia.com"
+  },
+  {
+   "title": "e-Flora of Thailand",
+   "url": "https://botany.dnp.go.th/eflora/floraspecies.html?tdcode=04862",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS ABERRANS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-aberrans",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "botany.dnp.go.th"
+  },
+  {
+   "title": "e-Flora of Thailand",
+   "url": "https://botany.dnp.go.th/eflora/floraSpecies.html?tdcode=04863",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS ALBISPATHUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-albispathus",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "botany.dnp.go.th"
+  },
+  {
+   "title": "e-Flora of Thailand",
+   "url": "https://botany.dnp.go.th/eflora/floraSpecies.html?tdcode=04864",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS AMYGDALOIDES",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-amygdaloides",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "botany.dnp.go.th"
+  },
+  {
+   "title": "e-Flora of Thailand",
+   "url": "https://botany.dnp.go.th/eflora/floraSpecies.html?tdcode=04865",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS ASTEROSTIGMATUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-asterostigmatus",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "botany.dnp.go.th"
+  },
+  {
+   "title": "e-Flora of Thailand",
+   "url": "https://botany.dnp.go.th/eflora/floraSpecies.html?tdcode=04866",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS ATRORUBENS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-atrorubens",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "botany.dnp.go.th"
+  },
+  {
+   "title": "e-Flora of Thailand",
+   "url": "https://botany.dnp.go.th/eflora/floraSpecies.html?tdcode=04867",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS ATROVIRIDIS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-atroviridis",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "botany.dnp.go.th"
+  },
+  {
+   "title": "e-Flora of Thailand",
+   "url": "https://botany.dnp.go.th/eflora/floraspecies.html?tdcode=04868",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS BANGKOKENSIS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-bangkokensis",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "botany.dnp.go.th"
   },
   {
    "title": "e-Flora of Thailand",
@@ -251,6 +435,19 @@
    "host": "biodiversitylibrary.org"
   },
   {
+   "title": "Flora of China",
+   "url": "http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=250095403",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS ALBUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-albus",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "efloras.org"
+  },
+  {
    "title": "Flora of Tropical Africa 8 (1901) P.153",
    "url": "https://www.biodiversitylibrary.org/page/378804",
    "taxa": [
@@ -277,6 +474,37 @@
    "host": "biodiversitylibrary.org"
   },
   {
+   "title": "Flora of Tropical Africa V.8 (1901-1902) P.160",
+   "url": "https://www.biodiversitylibrary.org/page/378810",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS ABYSSINICUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-abyssinicus",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS ADAMSENSIS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-adamsensis",
+     "kind": "Species"
+    }
+   ],
+   "count": 2,
+   "host": "biodiversitylibrary.org"
+  },
+  {
+   "title": "Flora of West Tropical Africa Vol 2 (1936) P. 362",
+   "url": "https://archive.org/details/flora-west-tropical-africa_1936-02_2_part-2/page/362/mode/2up",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS APHYLLUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-aphyllus",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "archive.org"
+  },
+  {
    "title": "African Plants",
    "url": "http://www.africanplants.senckenberg.de/root/index.php?page_id=78&id=101#image=76304",
    "taxa": [
@@ -288,6 +516,19 @@
    ],
    "count": 1,
    "host": "africanplants.senckenberg.de"
+  },
+  {
+   "title": "African Plants Portal",
+   "url": "https://african-plants.org/portal/taxa/index.php?tid=12972",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS ABYSSINICUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-abyssinicus",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "african-plants.org"
   },
   {
    "title": "Guihaia V3 (1986) P. 183",
@@ -340,6 +581,175 @@
    ],
    "count": 1,
    "host": "researchgate.net"
+  },
+  {
+   "title": "Alan Galloway",
+   "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/albispathus/",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS ALBISPATHUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-albispathus",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "alangallowaybotanicals.com"
+  },
+  {
+   "title": "Alan Galloway",
+   "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/amygdaloides/",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS AMYGDALOIDES",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-amygdaloides",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "alangallowaybotanicals.com"
+  },
+  {
+   "title": "Alan Galloway",
+   "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/angustispathus/",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS ANGUSTISPATHUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-angustispathus",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "alangallowaybotanicals.com"
+  },
+  {
+   "title": "Alan Galloway",
+   "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/ankarana/",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS ANKARANA",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-ankarana",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "alangallowaybotanicals.com"
+  },
+  {
+   "title": "Alan Galloway",
+   "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/antsingyensis/",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS ANTSINGYENSIS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-antsingyensis",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "alangallowaybotanicals.com"
+  },
+  {
+   "title": "Alan Galloway",
+   "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/aphyllus/",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS APHYLLUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-aphyllus",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "alangallowaybotanicals.com"
+  },
+  {
+   "title": "Alan Galloway",
+   "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/arcuspadix/",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS ARCUSPADIX",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-arcuspadix",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "alangallowaybotanicals.com"
+  },
+  {
+   "title": "Alan Galloway",
+   "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/asper/",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS ASPER",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-asper",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "alangallowaybotanicals.com"
+  },
+  {
+   "title": "Alan Galloway",
+   "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/asterostigmatus/",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS ASTEROSTIGMATUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-asterostigmatus",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "alangallowaybotanicals.com"
+  },
+  {
+   "title": "Alan Galloway",
+   "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/atrorubens/",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS ATRORUBENS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-atrorubens",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "alangallowaybotanicals.com"
+  },
+  {
+   "title": "Alan Galloway",
+   "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/atroviridis/",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS ATROVIRIDIS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-atroviridis",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "alangallowaybotanicals.com"
+  },
+  {
+   "title": "Alan Galloway",
+   "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/bangkokensis/",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS BANGKOKENSIS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-bangkokensis",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "alangallowaybotanicals.com"
+  },
+  {
+   "title": "Alan Galloway",
+   "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/barbatus/",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS BARBATUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-barbatus",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "alangallowaybotanicals.com"
   },
   {
    "title": "Alan Galloway",
@@ -576,6 +986,32 @@
    "host": "biodiversitylibrary.org"
   },
   {
+   "title": "Moretto et al. 2024 – Catharsius: La Revue 18",
+   "url": "https://www.researchgate.net/publication/332510751_Pollination_of_Amorphophallus_barthlottii_and_A_abyssinicus_subsp_akeassii_Araceae_by_dung_beetles_Insecta_Coleoptera_Scarabaeoidea_Pollinisation_d'Amorphophallus_barthlottii_et_A_abyssinicus_Araceae_",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS BARTHLOTTII",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-barthlottii",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "researchgate.net"
+  },
+  {
+   "title": "Naturalis",
+   "url": "https://medialib.naturalis.nl/",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS ANGOLENSIS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-angolensis",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "medialib.naturalis.nl"
+  },
+  {
    "title": "Nordic Journal of Botany Volume 38, Issue 11",
    "url": "https://nsojournals.onlinelibrary.wiley.com/doi/epdf/10.1111/njb.02982",
    "taxa": [
@@ -587,6 +1023,19 @@
    ],
    "count": 1,
    "host": "nsojournals.onlinelibrary.wiley.com"
+  },
+  {
+   "title": "Notulae systematicae v.8-9 (1939-1941) P. 117",
+   "url": "https://www.biodiversitylibrary.org/page/6525694",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS BANGKOKENSIS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-bangkokensis",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "biodiversitylibrary.org"
   },
   {
    "title": "Notulae Systematicae V.9 (1941) P.118",
@@ -628,12 +1077,51 @@
    "host": "biodiversitylibrary.org"
   },
   {
+   "title": "Das Pflanzenreich Vol 48 (1911) P. 84",
+   "url": "https://www.biodiversitylibrary.org/page/20872517",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS ASPER",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-asper",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "biodiversitylibrary.org"
+  },
+  {
+   "title": "Phytotaxa 461 (2020) P.296",
+   "url": "https://phytotaxa.mapress.com/pt/article/view/phytotaxa.461.4.6",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS ARDII",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-ardii",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "phytotaxa.mapress.com"
+  },
+  {
    "title": "Phytotaxa 489 (2021) P.230",
    "url": "https://www.researchgate.net/publication/349762685_Amorphophallus_calcicolus_Thomsonieae_Araceae_a_new_species_from_the_Bohol_island_Central_Visayas_Philippines",
    "taxa": [
     {
      "name": "AMORPHOPHALLUS CALCICOLUS",
      "url": "https://www.aroidpedia.com/journal/amorphophallus-calcicolus",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "researchgate.net"
+  },
+  {
+   "title": "Phytotaxa 633: 102 (2024)",
+   "url": "https://www.researchgate.net/publication/377180532_A_new_Amorphophallus_Araceae_species_from_Thailand_and_an_updated_key_to_the_Longituberosus_and_Saraburiensis_subclades",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS BANTAE",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-bantae",
      "kind": "Species"
     }
    ],
@@ -680,6 +1168,19 @@
    "host": "rheedea.in"
   },
   {
+   "title": "Aroideana 29 (2006) P.48",
+   "url": "http://www.aroid.org/member/vault.php?file=aroideana/Aroideana29.pdf",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS ANDRANOGIDROENSIS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-andranogidroensis",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "aroid.org"
+  },
+  {
    "title": "Aroideana 32 (2009) P.136",
    "url": "https://www.aroid.org/aroideana/aroideana-v32",
    "taxa": [
@@ -690,6 +1191,24 @@
     }
    ],
    "count": 1,
+   "host": "aroid.org"
+  },
+  {
+   "title": "Aroideana 35 (2012) P.51",
+   "url": "https://www.aroid.org/resources/Publications/Aroideana/Aroideana35.pdf",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS ARCUSPADIX",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-arcuspadix",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS BREVIPETIOLATUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-brevipetiolatus",
+     "kind": "Species"
+    }
+   ],
+   "count": 2,
    "host": "aroid.org"
   },
   {
@@ -706,12 +1225,30 @@
    "host": "aroid.org"
   },
   {
-   "title": "Aroideana 35 (2012) P.54",
-   "url": "https://www.aroid.org/resources/Publications/Aroideana/Aroideana35.pdf",
+   "title": "Aroideana 38 (2015) P.3",
+   "url": "https://www.aroid.org/aroideana/aroideana-v38",
    "taxa": [
     {
-     "name": "AMORPHOPHALLUS BREVIPETIOLATUS",
-     "url": "https://www.aroidpedia.com/journal/amorphophallus-brevipetiolatus",
+     "name": "AMORPHOPHALLUS BARBATUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-barbatus",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS CLAUDELII",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-claudelii",
+     "kind": "Species"
+    }
+   ],
+   "count": 2,
+   "host": "aroid.org"
+  },
+  {
+   "title": "Aroideana 42(1): 71 (2019",
+   "url": "http://www.aroid.org/member/vault.php?file=aroideana/Aroideana42N1.pdf",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS ALLENII",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-allenii",
      "kind": "Species"
     }
    ],
@@ -719,17 +1256,56 @@
    "host": "aroid.org"
   },
   {
-   "title": "Aroideana 38 (2015) P.3",
-   "url": "https://www.aroid.org/aroideana/aroideana-v38",
+   "title": "Aroidpictures.fr",
+   "url": "http://www.aroidpictures.fr/GENERA/AMORPHOPHALLUS/amoankarana.html",
    "taxa": [
     {
-     "name": "AMORPHOPHALLUS CLAUDELII",
-     "url": "https://www.aroidpedia.com/journal/amorphophallus-claudelii",
+     "name": "AMORPHOPHALLUS ANKARANA",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-ankarana",
      "kind": "Species"
     }
    ],
    "count": 1,
-   "host": "aroid.org"
+   "host": "aroidpictures.fr"
+  },
+  {
+   "title": "Aroidpictures.fr",
+   "url": "http://www.aroidpictures.fr/GENERA/AMORPHOPHALLUS/amoantsingyensis.html",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS ANTSINGYENSIS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-antsingyensis",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "aroidpictures.fr"
+  },
+  {
+   "title": "Aroidpictures.fr",
+   "url": "http://www.aroidpictures.fr/GENERA/AMORPHOPHALLUS/amoaphyllus.html",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS APHYLLUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-aphyllus",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "aroidpictures.fr"
+  },
+  {
+   "title": "Aroidpictures.fr",
+   "url": "http://www.aroidpictures.fr/GENERA/AMORPHOPHALLUS/amoasterostigmatus.html",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS ASTEROSTIGMATUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-asterostigmatus",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "aroidpictures.fr"
   },
   {
    "title": "Rumphia 1: 149 (1837)",
@@ -776,20 +1352,556 @@
    "host": "researchgate.net"
   },
   {
+   "title": "Tropicos",
+   "url": "https://tropicos.org/name/40012273",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS ABYSSINICUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-abyssinicus",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "tropicos.org"
+  },
+  {
+   "title": "Wildenowia 27 (1997) P.147",
+   "url": "https://bioone.org/journals/willdenowia/volume-27/issue-1_2f_2/wi.27.2713/Notes-on-the-genus-Amorphophallus-Araceae--6-Six-new/10.3372/wi.27.2713.pdf",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS BARTHLOTTII",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-barthlottii",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "bioone.org"
+  },
+  {
    "title": "Willdenowia 27 (1997) P.150",
    "url": "https://www.jstor.org/stable/3997194",
    "taxa": [
+    {
+     "name": "AMORPHOPHALLUS ABYSSINICUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-abyssinicus",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS ANGOLENSIS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-angolensis",
+     "kind": "Species"
+    },
     {
      "name": "AMORPHOPHALLUS CANALICULATUS",
      "url": "https://www.aroidpedia.com/journal/amorphophallus-canaliculatus",
      "kind": "Species"
     }
    ],
-   "count": 1,
+   "count": 3,
    "host": "jstor.org"
   }
  ],
  "taxa": [
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-aberrans",
+   "slug": "amorphophallus-aberrans",
+   "name": "AMORPHOPHALLUS ABERRANS",
+   "kind": "Species",
+   "kew": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:979828-1",
+   "refs": [
+    {
+     "title": "Blumea 39: 237 (1994)",
+     "url": "https://repository.naturalis.nl/pub/525950",
+     "key": "https://repository.naturalis.nl/pub/525950"
+    },
+    {
+     "title": "e-Flora of Thailand",
+     "url": "https://botany.dnp.go.th/eflora/floraspecies.html?tdcode=04862",
+     "key": "https://botany.dnp.go.th/eflora/floraspecies.html?tdcode=04862"
+    }
+   ]
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-abyssinicus",
+   "slug": "amorphophallus-abyssinicus",
+   "name": "AMORPHOPHALLUS ABYSSINICUS",
+   "kind": "Species",
+   "kew": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:84291-1",
+   "refs": [
+    {
+     "title": "Flora of Tropical Africa V.8 (1901-1902) P.160",
+     "url": "https://www.biodiversitylibrary.org/page/378810",
+     "key": "https://www.biodiversitylibrary.org/page/378810"
+    },
+    {
+     "title": "Willdenowia 27 (1997) P.150",
+     "url": "https://www.jstor.org/stable/3997194",
+     "key": "https://www.jstor.org/stable/3997194"
+    },
+    {
+     "title": "African Plants Portal",
+     "url": "https://african-plants.org/portal/taxa/index.php?tid=12972",
+     "key": "https://african-plants.org/portal/taxa/index.php?tid=12972"
+    },
+    {
+     "title": "Tropicos",
+     "url": "https://tropicos.org/name/40012273",
+     "key": "https://tropicos.org/name/40012273"
+    }
+   ]
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-adamsensis",
+   "slug": "amorphophallus-adamsensis",
+   "name": "AMORPHOPHALLUS ADAMSENSIS",
+   "kind": "Species",
+   "kew": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:84291-1",
+   "refs": [
+    {
+     "title": "Flora of Tropical Africa V.8 (1901-1902) P.160",
+     "url": "https://www.biodiversitylibrary.org/page/378810",
+     "key": "https://www.biodiversitylibrary.org/page/378810"
+    }
+   ]
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-albispathus",
+   "slug": "amorphophallus-albispathus",
+   "name": "AMORPHOPHALLUS ALBISPATHUS",
+   "kind": "Species",
+   "kew": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:979829-1",
+   "refs": [
+    {
+     "title": "Blumea 39: 239 (1994)",
+     "url": "https://repository.naturalis.nl/pub/525950",
+     "key": "https://repository.naturalis.nl/pub/525950"
+    },
+    {
+     "title": "e-Flora of Thailand",
+     "url": "https://botany.dnp.go.th/eflora/floraSpecies.html?tdcode=04863",
+     "key": "https://botany.dnp.go.th/eflora/floraspecies.html?tdcode=04863"
+    },
+    {
+     "title": "Alan Galloway",
+     "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/albispathus/",
+     "key": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/albispathus"
+    }
+   ]
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-albus",
+   "slug": "amorphophallus-albus",
+   "name": "AMORPHOPHALLUS ALBUS",
+   "kind": "Species",
+   "kew": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:972136-1",
+   "refs": [
+    {
+     "title": "Flora of China",
+     "url": "http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=250095403",
+     "key": "http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=250095403"
+    }
+   ]
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-allenii",
+   "slug": "amorphophallus-allenii",
+   "name": "AMORPHOPHALLUS ALLENII",
+   "kind": "Species",
+   "kew": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77201388-1",
+   "refs": [
+    {
+     "title": "Aroideana 42(1): 71 (2019",
+     "url": "http://www.aroid.org/member/vault.php?file=aroideana/Aroideana42N1.pdf",
+     "key": "http://www.aroid.org/member/vault.php?file=aroideana/aroideana42n1.pdf"
+    }
+   ]
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-amygdaloides",
+   "slug": "amorphophallus-amygdaloides",
+   "name": "AMORPHOPHALLUS AMYGDALOIDES",
+   "kind": "Species",
+   "kew": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1021605-1",
+   "refs": [
+    {
+     "title": "Blumea V.46 (2001) P.253",
+     "url": "https://repository.naturalis.nl/pub/524756/BLUM2001046002005.pdf",
+     "key": "https://repository.naturalis.nl/pub/524756/blum2001046002005.pdf"
+    },
+    {
+     "title": "e-Flora of Thailand",
+     "url": "https://botany.dnp.go.th/eflora/floraSpecies.html?tdcode=04864",
+     "key": "https://botany.dnp.go.th/eflora/floraspecies.html?tdcode=04864"
+    },
+    {
+     "title": "Alan Galloway",
+     "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/amygdaloides/",
+     "key": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/amygdaloides"
+    }
+   ]
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-andranogidroensis",
+   "slug": "amorphophallus-andranogidroensis",
+   "name": "AMORPHOPHALLUS ANDRANOGIDROENSIS",
+   "kind": "Species",
+   "kew": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:60443273-2",
+   "refs": [
+    {
+     "title": "Aroideana 29 (2006) P.48",
+     "url": "http://www.aroid.org/member/vault.php?file=aroideana/Aroideana29.pdf",
+     "key": "http://www.aroid.org/member/vault.php?file=aroideana/aroideana29.pdf"
+    }
+   ]
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-angolensis",
+   "slug": "amorphophallus-angolensis",
+   "name": "AMORPHOPHALLUS ANGOLENSIS",
+   "kind": "Species",
+   "kew": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:84294-1",
+   "refs": [
+    {
+     "title": "Willdenowia 27 (1997) P.150",
+     "url": "https://www.jstor.org/stable/3997194",
+     "key": "https://www.jstor.org/stable/3997194"
+    },
+    {
+     "title": "Biodiversité du Gabon",
+     "url": "https://gabonbiota.org/portal/taxa/index.php?taxauthid=1&taxon=1775&clid=23",
+     "key": "https://gabonbiota.org/portal/taxa/index.php?taxauthid=1&taxon=1775&clid=23"
+    },
+    {
+     "title": "Central African Plants",
+     "url": "http://www.centralafricanplants.senckenberg.de/root/index.php?page_id=34&id=9898",
+     "key": "http://www.centralafricanplants.senckenberg.de/root/index.php?page_id=34&id=9898"
+    },
+    {
+     "title": "Naturalis",
+     "url": "https://medialib.naturalis.nl/",
+     "key": "https://medialib.naturalis.nl"
+    }
+   ]
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-angulatus",
+   "slug": "amorphophallus-angulatus",
+   "name": "AMORPHOPHALLUS ANGULATUS",
+   "kind": "Species",
+   "kew": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:979830-1",
+   "refs": [
+    {
+     "title": "Blumea 39: 241 (1994)",
+     "url": "https://repository.naturalis.nl/pub/525950",
+     "key": "https://repository.naturalis.nl/pub/525950"
+    }
+   ]
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-angustispathus",
+   "slug": "amorphophallus-angustispathus",
+   "name": "AMORPHOPHALLUS ANGUSTISPATHUS",
+   "kind": "Species",
+   "kew": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:979831-1",
+   "refs": [
+    {
+     "title": "Blumea 39: 242 (1994)",
+     "url": "https://repository.naturalis.nl/pub/525950",
+     "key": "https://repository.naturalis.nl/pub/525950"
+    },
+    {
+     "title": "Alan Galloway",
+     "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/angustispathus/",
+     "key": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/angustispathus"
+    }
+   ]
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-ankarana",
+   "slug": "amorphophallus-ankarana",
+   "name": "AMORPHOPHALLUS ANKARANA",
+   "kind": "Species",
+   "kew": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1006811-1",
+   "refs": [
+    {
+     "title": "Alan Galloway",
+     "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/ankarana/",
+     "key": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/ankarana"
+    },
+    {
+     "title": "Aroidpictures.fr",
+     "url": "http://www.aroidpictures.fr/GENERA/AMORPHOPHALLUS/amoankarana.html",
+     "key": "http://www.aroidpictures.fr/genera/amorphophallus/amoankarana.html"
+    }
+   ]
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-annulifer",
+   "slug": "amorphophallus-annulifer",
+   "name": "AMORPHOPHALLUS ANNULIFER",
+   "kind": "Species",
+   "kew": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:979832-1",
+   "refs": [
+    {
+     "title": "Blumea 39: 243 (1994)",
+     "url": "https://repository.naturalis.nl/pub/525950",
+     "key": "https://repository.naturalis.nl/pub/525950"
+    }
+   ]
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-antsingyensis",
+   "slug": "amorphophallus-antsingyensis",
+   "name": "AMORPHOPHALLUS ANTSINGYENSIS",
+   "kind": "Species",
+   "kew": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1006812-1",
+   "refs": [
+    {
+     "title": "Botanische Jahrbücher für Systematik, Pflanzengeschichte und Pflanzengeographie Volume 121 (1999) P.2",
+     "url": "https://protectedareas.mg/document/show/257819",
+     "key": "https://protectedareas.mg/document/show/257819"
+    },
+    {
+     "title": "Alan Galloway",
+     "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/antsingyensis/",
+     "key": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/antsingyensis"
+    },
+    {
+     "title": "Aroidpictures.fr",
+     "url": "http://www.aroidpictures.fr/GENERA/AMORPHOPHALLUS/amoantsingyensis.html",
+     "key": "http://www.aroidpictures.fr/genera/amorphophallus/amoantsingyensis.html"
+    }
+   ]
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-aphyllus",
+   "slug": "amorphophallus-aphyllus",
+   "name": "AMORPHOPHALLUS APHYLLUS",
+   "kind": "Species",
+   "kew": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:84298-1",
+   "refs": [
+    {
+     "title": "Flora of West Tropical Africa Vol 2 (1936) P. 362",
+     "url": "https://archive.org/details/flora-west-tropical-africa_1936-02_2_part-2/page/362/mode/2up",
+     "key": "https://archive.org/details/flora-west-tropical-africa_1936-02_2_part-2/page/362/mode/2up"
+    },
+    {
+     "title": "Alan Galloway",
+     "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/aphyllus/",
+     "key": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/aphyllus"
+    },
+    {
+     "title": "Aroidpictures.fr",
+     "url": "http://www.aroidpictures.fr/GENERA/AMORPHOPHALLUS/amoaphyllus.html",
+     "key": "http://www.aroidpictures.fr/genera/amorphophallus/amoaphyllus.html"
+    }
+   ]
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-arcuspadix",
+   "slug": "amorphophallus-arcuspadix",
+   "name": "AMORPHOPHALLUS ARCUSPADIX",
+   "kind": "Species",
+   "kew": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77127638-1",
+   "refs": [
+    {
+     "title": "Aroideana 35 (2012) P.51",
+     "url": "https://www.aroid.org/resources/Publications/Aroideana/Aroideana35.pdf",
+     "key": "https://www.aroid.org/resources/publications/aroideana/aroideana35.pdf"
+    },
+    {
+     "title": "Alan Galloway",
+     "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/arcuspadix/",
+     "key": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/arcuspadix"
+    }
+   ]
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-ardii",
+   "slug": "amorphophallus-ardii",
+   "name": "AMORPHOPHALLUS ARDII",
+   "kind": "Species",
+   "kew": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77127638-1",
+   "refs": [
+    {
+     "title": "Phytotaxa 461 (2020) P.296",
+     "url": "https://phytotaxa.mapress.com/pt/article/view/phytotaxa.461.4.6",
+     "key": "https://phytotaxa.mapress.com/pt/article/view/phytotaxa.461.4.6"
+    }
+   ]
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-asper",
+   "slug": "amorphophallus-asper",
+   "name": "AMORPHOPHALLUS ASPER",
+   "kind": "Species",
+   "kew": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:84299-1",
+   "refs": [
+    {
+     "title": "Das Pflanzenreich Vol 48 (1911) P. 84",
+     "url": "https://www.biodiversitylibrary.org/page/20872517",
+     "key": "https://www.biodiversitylibrary.org/page/20872517"
+    },
+    {
+     "title": "Alan Galloway",
+     "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/asper/",
+     "key": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/asper"
+    }
+   ]
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-asterostigmatus",
+   "slug": "amorphophallus-asterostigmatus",
+   "name": "AMORPHOPHALLUS ASTEROSTIGMATUS",
+   "kind": "Species",
+   "kew": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:961109-1",
+   "refs": [
+    {
+     "title": "Blumea 36 (1992) P.467",
+     "url": "https://repository.naturalis.nl/pub/524945/BLUM1992036002008.pdf",
+     "key": "https://repository.naturalis.nl/pub/524945/blum1992036002008.pdf"
+    },
+    {
+     "title": "e-Flora of Thailand",
+     "url": "https://botany.dnp.go.th/eflora/floraSpecies.html?tdcode=04865",
+     "key": "https://botany.dnp.go.th/eflora/floraspecies.html?tdcode=04865"
+    },
+    {
+     "title": "Alan Galloway",
+     "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/asterostigmatus/",
+     "key": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/asterostigmatus"
+    },
+    {
+     "title": "Aroidpictures.fr",
+     "url": "http://www.aroidpictures.fr/GENERA/AMORPHOPHALLUS/amoasterostigmatus.html",
+     "key": "http://www.aroidpictures.fr/genera/amorphophallus/amoasterostigmatus.html"
+    }
+   ]
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-atrorubens",
+   "slug": "amorphophallus-atrorubens",
+   "name": "AMORPHOPHALLUS ATRORUBENS",
+   "kind": "Species",
+   "kew": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1021606-1",
+   "refs": [
+    {
+     "title": "Blumea V.46 (2001) P.253",
+     "url": "https://repository.naturalis.nl/pub/524756/BLUM2001046002005.pdf",
+     "key": "https://repository.naturalis.nl/pub/524756/blum2001046002005.pdf"
+    },
+    {
+     "title": "e-Flora of Thailand",
+     "url": "https://botany.dnp.go.th/eflora/floraSpecies.html?tdcode=04866",
+     "key": "https://botany.dnp.go.th/eflora/floraspecies.html?tdcode=04866"
+    },
+    {
+     "title": "Alan Galloway",
+     "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/atrorubens/",
+     "key": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/atrorubens"
+    }
+   ]
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-atroviridis",
+   "slug": "amorphophallus-atroviridis",
+   "name": "AMORPHOPHALLUS ATROVIRIDIS",
+   "kind": "Species",
+   "kew": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:979834-1",
+   "refs": [
+    {
+     "title": "Blumea 39: 239 (1994)",
+     "url": "https://repository.naturalis.nl/pub/525950",
+     "key": "https://repository.naturalis.nl/pub/525950"
+    },
+    {
+     "title": "e-Flora of Thailand",
+     "url": "https://botany.dnp.go.th/eflora/floraSpecies.html?tdcode=04867",
+     "key": "https://botany.dnp.go.th/eflora/floraspecies.html?tdcode=04867"
+    },
+    {
+     "title": "Alan Galloway",
+     "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/atroviridis/",
+     "key": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/atroviridis"
+    }
+   ]
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-bangkokensis",
+   "slug": "amorphophallus-bangkokensis",
+   "name": "AMORPHOPHALLUS BANGKOKENSIS",
+   "kind": "Species",
+   "kew": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:84300-1",
+   "refs": [
+    {
+     "title": "Notulae systematicae v.8-9 (1939-1941) P. 117",
+     "url": "https://www.biodiversitylibrary.org/page/6525694",
+     "key": "https://www.biodiversitylibrary.org/page/6525694"
+    },
+    {
+     "title": "e-Flora of Thailand",
+     "url": "https://botany.dnp.go.th/eflora/floraspecies.html?tdcode=04868",
+     "key": "https://botany.dnp.go.th/eflora/floraspecies.html?tdcode=04868"
+    },
+    {
+     "title": "Alan Galloway",
+     "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/bangkokensis/",
+     "key": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/bangkokensis"
+    }
+   ]
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-bantae",
+   "slug": "amorphophallus-bantae",
+   "name": "AMORPHOPHALLUS BANTAE",
+   "kind": "Species",
+   "kew": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77334275-1",
+   "refs": [
+    {
+     "title": "Phytotaxa 633: 102 (2024)",
+     "url": "https://www.researchgate.net/publication/377180532_A_new_Amorphophallus_Araceae_species_from_Thailand_and_an_updated_key_to_the_Longituberosus_and_Saraburiensis_subclades",
+     "key": "https://www.researchgate.net/publication/377180532_a_new_amorphophallus_araceae_species_from_thailand_and_an_updated_key_to_the_longituberosus_and_saraburiensis_subclades"
+    }
+   ]
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-barbatus",
+   "slug": "amorphophallus-barbatus",
+   "name": "AMORPHOPHALLUS BARBATUS",
+   "kind": "Species",
+   "kew": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:60470211-2",
+   "refs": [
+    {
+     "title": "Aroideana 38 (2015) P.3",
+     "url": "https://www.aroid.org/aroideana/aroideana-v38",
+     "key": "https://www.aroid.org/aroideana/aroideana-v38"
+    },
+    {
+     "title": "Alan Galloway",
+     "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/barbatus/",
+     "key": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/barbatus"
+    }
+   ]
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-barthlottii",
+   "slug": "amorphophallus-barthlottii",
+   "name": "AMORPHOPHALLUS BARTHLOTTII",
+   "kind": "Species",
+   "kew": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:998455-1",
+   "refs": [
+    {
+     "title": "Wildenowia 27 (1997) P.147",
+     "url": "https://bioone.org/journals/willdenowia/volume-27/issue-1_2f_2/wi.27.2713/Notes-on-the-genus-Amorphophallus-Araceae--6-Six-new/10.3372/wi.27.2713.pdf",
+     "key": "https://bioone.org/journals/willdenowia/volume-27/issue-1_2f_2/wi.27.2713/notes-on-the-genus-amorphophallus-araceae--6-six-new/10.3372/wi.27.2713.pdf"
+    },
+    {
+     "title": "Moretto et al. 2024 – Catharsius: La Revue 18",
+     "url": "https://www.researchgate.net/publication/332510751_Pollination_of_Amorphophallus_barthlottii_and_A_abyssinicus_subsp_akeassii_Araceae_by_dung_beetles_Insecta_Coleoptera_Scarabaeoidea_Pollinisation_d'Amorphophallus_barthlottii_et_A_abyssinicus_Araceae_",
+     "key": "https://www.researchgate.net/publication/332510751_pollination_of_amorphophallus_barthlottii_and_a_abyssinicus_subsp_akeassii_araceae_by_dung_beetles_insecta_coleoptera_scarabaeoidea_pollinisation_d'amorphophallus_barthlottii_et_a_abyssinicus_araceae_"
+    }
+   ]
+  },
   {
    "url": "https://www.aroidpedia.com/journal/amorphophallus-baumannii",
    "slug": "amorphophallus-baumannii",
