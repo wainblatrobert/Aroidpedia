@@ -1,8 +1,13 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
   "description": "a serpentine timeline. The serpentine shape can be an option for instances where an oblong canvas is not ideal. The shape can be customized using many of the signals below. Input bindings have been included for demonstration purposes",
-  "background": "white",
-  "padding": 10,
+  "background": null,
+  "padding": {
+    "top": 20,
+    "right": 110,
+    "bottom": 40,
+    "left": 115
+  },
   "width": 1050,
   "signals": [
     {
@@ -400,7 +405,7 @@
                 "signal": "1"
               },
               "fill": {
-                "value": "gray"
+                "value": "#9A9482"
               }
             }
           }
@@ -425,7 +430,7 @@
                 "signal": "sD"
               },
               "stroke": {
-                "value": "#888"
+                "value": "#7E8F7C"
               },
               "strokeWidth": {
                 "signal": "sT"
@@ -459,10 +464,10 @@
                 "signal": "18"
               },
               "fill": {
-                "value": "#000"
+                "value": "#9A9482"
               },
               "stroke": {
-                "value": "#fff"
+                "value": "#14150F"
               },
               "strokeWidth": {
                 "value": 1
@@ -505,7 +510,7 @@
                 "signal": "7"
               },
               "fill": {
-                "value": "#000"
+                "value": "#9A9482"
               },
               "angle": {
                 "field": "labelAngle"
@@ -545,7 +550,7 @@
                 "signal": "10"
               },
               "fill": {
-                "value": "#000"
+                "value": "#9A9482"
               },
               "align": {
                 "value": "center"
@@ -627,10 +632,10 @@
             "signal": "(10 + 50 * datum['eventCount'])"
           },
           "fill": {
-            "signal": "labelsOnHover ? isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 'firebrick' : '#38383B' : 'firebrick'"
+            "value": "#20221A"
           },
           "stroke": {
-            "signal": "labelsOnHover ? isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? '#fff' : 'firebrick' : '#fff'"
+            "value": "#B0453A"
           },
           "strokeWidth": {
             "signal": "labelsOnHover ? 1 : 2"
@@ -667,16 +672,19 @@
             "signal": "(min(15, length(split(datum['label'], ','))) + 1) * 12.8"
           },
           "fill": {
-            "value": "#fff"
+            "value": "#14150F"
           },
           "stroke": {
-            "value": "#fff"
+            "value": "#7E8F7C"
           },
           "strokeWidth": {
-            "value": 0
+            "value": 1
           },
           "opacity": {
             "signal": "isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 1 : labelsOnHover ? 0 : 1"
+          },
+          "cornerRadius": {
+            "value": 3
           }
         }
       }
@@ -707,7 +715,7 @@
             "signal": "10"
           },
           "fill": {
-            "value": "firebrick"
+            "value": "#EDE6D6"
           },
           "align": {
             "value": "center"
@@ -717,6 +725,9 @@
           },
           "opacity": {
             "signal": "isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 1 : labelsOnHover ? 0 : 1"
+          },
+          "font": {
+            "value": "IBM Plex Mono"
           }
         }
       }
@@ -1298,5 +1309,11 @@
   ],
   "autosize": {
     "type": "none"
+  },
+  "config": {
+    "font": "IBM Plex Mono",
+    "text": {
+      "font": "IBM Plex Mono"
+    }
   }
 }
