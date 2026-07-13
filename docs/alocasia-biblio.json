@@ -4,9 +4,9 @@
  "compiled": "2026-07-13",
  "source": "https://www.aroidpedia.com/alocasia",
  "taxon_count": 310,
- "source_count": 231,
- "cited_count": 97,
- "gap_count": 213,
+ "source_count": 187,
+ "cited_count": 94,
+ "gap_count": 216,
  "pdf": "Aroidpedia-Alocasia-Bibliography.pdf",
  "kew_excluded_from_bibliography": true,
  "bibliography": [
@@ -68,19 +68,6 @@
    ],
    "count": 5,
    "host": "repository.naturalis.nl"
-  },
-  {
-   "title": "@alltheplantys",
-   "url": "https://www.instagram.com/alltheplantys/?hl=en",
-   "taxa": [
-    {
-     "name": "ALOCASIA NEBULA",
-     "url": "https://www.aroidpedia.com/journal/alocasia-nebula",
-     "kind": "Species"
-    }
-   ],
-   "count": 1,
-   "host": "instagram.com"
   },
   {
    "title": "The American Florist: a weekly journal v.7 P.209 (1891-1892)",
@@ -322,34 +309,6 @@
    ],
    "count": 1,
    "host": "babel.hathitrust.org"
-  },
-  {
-   "title": "Charlie Moonshade",
-   "url": "https://l.facebook.com/l.php?h=AT0XQzDvCUO_TwC3YYTuXxNQDH7wxqE7WaKtoIs-89NypGyb1x6vP7lzkN7qVGif3oHrGXMvneZe07x12s6t3PfPoHfZ6HsjaziSVCcHUIW0wcFwpkIRObKELtjespe-eNU&u=https%3A%2F%2Finstagram.com%2Fthe_bluebeeboo%3Figshid%3DYmMyMTA2M2Y%253D%26fbclid%3DIwAR0ixF7K8RCw8R40pYLqctUOLapRitckZPl4kASsIvvRVfjHKy0xLDABBVw",
-   "taxa": [
-    {
-     "name": "ALOCASIA CLYPEOLATA",
-     "url": "https://www.aroidpedia.com/journal/alocasia-clypeolata",
-     "kind": "Species"
-    },
-    {
-     "name": "ALOCASIA SANDERIANA",
-     "url": "https://www.aroidpedia.com/journal/alocasia-sanderiana",
-     "kind": "Species"
-    },
-    {
-     "name": "ALOCASIA SCALPRUM",
-     "url": "https://www.aroidpedia.com/journal/alocasia-scalprum",
-     "kind": "Species"
-    },
-    {
-     "name": "ALOCASIA SINUATA",
-     "url": "https://www.aroidpedia.com/journal/alocasia-sinuata",
-     "kind": "Species"
-    }
-   ],
-   "count": 4,
-   "host": "l.facebook.com"
   },
   {
    "title": "Acta Phytotax. Geobot. 22: 159 (1967)",
@@ -1602,32 +1561,6 @@
    "host": "jardinerongsunog.blogspot.com"
   },
   {
-   "title": "Jardinerong Sunog Blog",
-   "url": "https://www.facebook.com/JardinerongSunog/reviews/?ref=page_internal",
-   "taxa": [
-    {
-     "name": "ALOCASIA SANDERIANA",
-     "url": "https://www.aroidpedia.com/journal/alocasia-sanderiana",
-     "kind": "Species"
-    }
-   ],
-   "count": 1,
-   "host": "facebook.com"
-  },
-  {
-   "title": "Jardinerong Sunog Blog",
-   "url": "https://www.facebook.com/JardinerongSunog/",
-   "taxa": [
-    {
-     "name": "ALOCASIA ‘SARIAN’*",
-     "url": "https://www.aroidpedia.com/journal/alocasia-sarian",
-     "kind": "Species"
-    }
-   ],
-   "count": 1,
-   "host": "facebook.com"
-  },
-  {
    "title": "Jardinerong Sunog’s Blog",
    "url": "https://jardinerongsunog.blogspot.com/2020/09/distinguishing-alocasia-boyceana.html?fbclid=IwAR3bAd1l9lGqQ3XkhU_yV09NFx3UsuvbdMdCtaoJzR8GVQ6PO4MGEl5W3NQ",
    "taxa": [
@@ -1706,432 +1639,6 @@
    "host": "biodiversitylibrary.org"
   },
   {
-   "title": "Kew Gardens | Plants of the World Online",
-   "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84120-1",
-   "taxa": [
-    {
-     "name": "ALOCASIA ACUMINATA",
-     "url": "https://www.aroidpedia.com/journal/alocasia-acuminata",
-     "kind": "Species"
-    }
-   ],
-   "count": 1,
-   "host": "plantsoftheworldonline.org"
-  },
-  {
-   "title": "Kew Gardens | Plants of the World Online",
-   "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84122-1",
-   "taxa": [
-    {
-     "name": "ALOCASIA AEQUILOBA",
-     "url": "https://www.aroidpedia.com/journal/alocasia-aequiloba",
-     "kind": "Species"
-    }
-   ],
-   "count": 1,
-   "host": "plantsoftheworldonline.org"
-  },
-  {
-   "title": "Kew Gardens | Plants of the World Online",
-   "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84123-1",
-   "taxa": [
-    {
-     "name": "ALOCASIA ALBA",
-     "url": "https://www.aroidpedia.com/journal/alocasia-alba",
-     "kind": "Species"
-    }
-   ],
-   "count": 1,
-   "host": "plantsoftheworldonline.org"
-  },
-  {
-   "title": "Kew Gardens | Plants of the World Online",
-   "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84128-1",
-   "taxa": [
-    {
-     "name": "ALOCASIA ARIFOLIA",
-     "url": "https://www.aroidpedia.com/journal/alocasia-arifolia",
-     "kind": "Species"
-    }
-   ],
-   "count": 1,
-   "host": "plantsoftheworldonline.org"
-  },
-  {
-   "title": "Kew Gardens | Plants of the World Online",
-   "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:77158842-1",
-   "taxa": [
-    {
-     "name": "ALOCASIA AZLANII",
-     "url": "https://www.aroidpedia.com/journal/alocasia-azlanii",
-     "kind": "Species"
-    }
-   ],
-   "count": 1,
-   "host": "plantsoftheworldonline.org"
-  },
-  {
-   "title": "Kew Gardens | Plants of the World Online",
-   "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:60456116-2",
-   "taxa": [
-    {
-     "name": "ALOCASIA BAGINDA",
-     "url": "https://www.aroidpedia.com/journal/alocasia-baginda",
-     "kind": "Species"
-    }
-   ],
-   "count": 1,
-   "host": "plantsoftheworldonline.org"
-  },
-  {
-   "title": "Kew Gardens | Plants of the World Online",
-   "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:1006575-1",
-   "taxa": [
-    {
-     "name": "ALOCASIA BALGOOYI",
-     "url": "https://www.aroidpedia.com/journal/alocasia-balgooyi",
-     "kind": "Species"
-    }
-   ],
-   "count": 1,
-   "host": "plantsoftheworldonline.org"
-  },
-  {
-   "title": "Kew Gardens | Plants of the World Online",
-   "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84134-1",
-   "taxa": [
-    {
-     "name": "ALOCASIA BECCARII",
-     "url": "https://www.aroidpedia.com/journal/alocasia-beccarii",
-     "kind": "Species"
-    }
-   ],
-   "count": 1,
-   "host": "plantsoftheworldonline.org"
-  },
-  {
-   "title": "Kew Gardens | Plants of the World Online",
-   "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:959173-1",
-   "taxa": [
-    {
-     "name": "ALOCASIA BOA",
-     "url": "https://www.aroidpedia.com/journal/alocasia-boa",
-     "kind": "Species"
-    }
-   ],
-   "count": 1,
-   "host": "plantsoftheworldonline.org"
-  },
-  {
-   "title": "Kew Gardens | Plants of the World Online",
-   "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:1010788-1",
-   "taxa": [
-    {
-     "name": "ALOCASIA BOYCEANA",
-     "url": "https://www.aroidpedia.com/journal/alocasia-boyceana",
-     "kind": "Species"
-    }
-   ],
-   "count": 1,
-   "host": "plantsoftheworldonline.org"
-  },
-  {
-   "title": "Kew Gardens | Plants of the World Online",
-   "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:962406-1",
-   "taxa": [
-    {
-     "name": "ALOCASIA BRANCIFOLIA",
-     "url": "https://www.aroidpedia.com/journal/alocasia-brancifolia",
-     "kind": "Species"
-    }
-   ],
-   "count": 1,
-   "host": "plantsoftheworldonline.org"
-  },
-  {
-   "title": "Kew Gardens | Plants of the World Online",
-   "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84136-1",
-   "taxa": [
-    {
-     "name": "ALOCASIA BRISBANENSIS",
-     "url": "https://www.aroidpedia.com/journal/alocasia-brisbanensis",
-     "kind": "Species"
-    }
-   ],
-   "count": 1,
-   "host": "plantsoftheworldonline.org"
-  },
-  {
-   "title": "Kew Gardens | Plants of the World Online",
-   "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84137-1",
-   "taxa": [
-    {
-     "name": "ALOCASIA CADIERI",
-     "url": "https://www.aroidpedia.com/journal/alocasia-cadieri",
-     "kind": "Species"
-    }
-   ],
-   "count": 1,
-   "host": "plantsoftheworldonline.org"
-  },
-  {
-   "title": "Kew Gardens | Plants of the World Online",
-   "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84139-1",
-   "taxa": [
-    {
-     "name": "ALOCASIA CELEBICA",
-     "url": "https://www.aroidpedia.com/journal/alocasia-celebica",
-     "kind": "Species"
-    }
-   ],
-   "count": 1,
-   "host": "plantsoftheworldonline.org"
-  },
-  {
-   "title": "Kew Gardens | Plants of the World Online",
-   "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:77085613-1",
-   "taxa": [
-    {
-     "name": "ALOCASIA CHAII",
-     "url": "https://www.aroidpedia.com/journal/alocasia-chaii",
-     "kind": "Species"
-    }
-   ],
-   "count": 1,
-   "host": "plantsoftheworldonline.org"
-  },
-  {
-   "title": "Kew Gardens | Plants of the World Online",
-   "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:1010789-1",
-   "taxa": [
-    {
-     "name": "ALOCASIA CLYPEOLATA",
-     "url": "https://www.aroidpedia.com/journal/alocasia-clypeolata",
-     "kind": "Species"
-    }
-   ],
-   "count": 1,
-   "host": "plantsoftheworldonline.org"
-  },
-  {
-   "title": "Kew Gardens | Plants of the World Online",
-   "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84151-1",
-   "taxa": [
-    {
-     "name": "ALOCASIA CUCULLATA",
-     "url": "https://www.aroidpedia.com/journal/alocasia-cucullata",
-     "kind": "Species"
-    }
-   ],
-   "count": 1,
-   "host": "plantsoftheworldonline.org"
-  },
-  {
-   "title": "Kew Gardens | Plants of the World Online",
-   "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84152-1",
-   "taxa": [
-    {
-     "name": "ALOCASIA CULIONENSIS",
-     "url": "https://www.aroidpedia.com/journal/alocasia-culionensis",
-     "kind": "Species"
-    }
-   ],
-   "count": 1,
-   "host": "plantsoftheworldonline.org"
-  },
-  {
-   "title": "Kew Gardens | Plants of the World Online",
-   "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:77135837-1",
-   "taxa": [
-    {
-     "name": "ALOCASIA EVRARDII",
-     "url": "https://www.aroidpedia.com/journal/alocasia-evrardii",
-     "kind": "Species"
-    }
-   ],
-   "count": 1,
-   "host": "plantsoftheworldonline.org"
-  },
-  {
-   "title": "Kew Gardens | Plants of the World Online",
-   "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84167-1",
-   "taxa": [
-    {
-     "name": "ALOCASIA FALLAX",
-     "url": "https://www.aroidpedia.com/journal/alocasia-fallax",
-     "kind": "Species"
-    }
-   ],
-   "count": 1,
-   "host": "plantsoftheworldonline.org"
-  },
-  {
-   "title": "Kew Gardens | Plants of the World Online",
-   "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:77174647-1",
-   "taxa": [
-    {
-     "name": "ALOCASIA FARISII",
-     "url": "https://www.aroidpedia.com/journal/alocasia-farisii",
-     "kind": "Species"
-    }
-   ],
-   "count": 1,
-   "host": "plantsoftheworldonline.org"
-  },
-  {
-   "title": "Kew Gardens | Plants of the World Online",
-   "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:959176-1",
-   "taxa": [
-    {
-     "name": "ALOCASIA FLABELLIFERA",
-     "url": "https://www.aroidpedia.com/journal/alocasia-flabellifera",
-     "kind": "Species"
-    }
-   ],
-   "count": 1,
-   "host": "plantsoftheworldonline.org"
-  },
-  {
-   "title": "Kew Gardens | Plants of the World Online",
-   "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:1006576-1",
-   "taxa": [
-    {
-     "name": "ALOCASIA FLEMINGIANA",
-     "url": "https://www.aroidpedia.com/journal/alocasia-flemingiana",
-     "kind": "Species"
-    }
-   ],
-   "count": 1,
-   "host": "plantsoftheworldonline.org"
-  },
-  {
-   "title": "Kew Gardens | Plants of the World Online",
-   "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84168-1",
-   "taxa": [
-    {
-     "name": "ALOCASIA FORNICATA",
-     "url": "https://www.aroidpedia.com/journal/alocasia-fornicata",
-     "kind": "Species"
-    }
-   ],
-   "count": 1,
-   "host": "plantsoftheworldonline.org"
-  },
-  {
-   "title": "Kew Gardens | Plants of the World Online",
-   "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84176-1",
-   "taxa": [
-    {
-     "name": "ALOCASIA GRATA",
-     "url": "https://www.aroidpedia.com/journal/alocasia-grata",
-     "kind": "Species"
-    }
-   ],
-   "count": 1,
-   "host": "plantsoftheworldonline.org"
-  },
-  {
-   "title": "Kew Gardens | Plants of the World Online",
-   "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:77176869-1",
-   "taxa": [
-    {
-     "name": "ALOCASIA HAINANICA",
-     "url": "https://www.aroidpedia.com/journal/alocasia-hainanica",
-     "kind": "Species"
-    }
-   ],
-   "count": 1,
-   "host": "plantsoftheworldonline.org"
-  },
-  {
-   "title": "Kew Gardens | Plants of the World Online",
-   "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:77200696-1",
-   "taxa": [
-    {
-     "name": "ALOCASIA HARARGANJENSIS",
-     "url": "https://www.aroidpedia.com/journal/alocasia-hararganjensis",
-     "kind": "Species"
-    }
-   ],
-   "count": 1,
-   "host": "plantsoftheworldonline.org"
-  },
-  {
-   "title": "Kew Gardens | Plants of the World Online",
-   "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84179-1",
-   "taxa": [
-    {
-     "name": "ALOCASIA HETEROPHYLLA",
-     "url": "https://www.aroidpedia.com/journal/alocasia-heterophylla",
-     "kind": "Species"
-    }
-   ],
-   "count": 1,
-   "host": "plantsoftheworldonline.org"
-  },
-  {
-   "title": "Kew Gardens | Plants of the World Online",
-   "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84180-1",
-   "taxa": [
-    {
-     "name": "ALOCASIA HOLLRUNGII",
-     "url": "https://www.aroidpedia.com/journal/alocasia-hollrungii",
-     "kind": "Species"
-    }
-   ],
-   "count": 1,
-   "host": "plantsoftheworldonline.org"
-  },
-  {
-   "title": "Kew Gardens | Plants of the World Online",
-   "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:77095868-1",
-   "taxa": [
-    {
-     "name": "ALOCASIA HYPOLEUCA",
-     "url": "https://www.aroidpedia.com/journal/alocasia-hypoleuca",
-     "kind": "Species"
-    },
-    {
-     "name": "ALOCASIA INFERNALIS",
-     "url": "https://www.aroidpedia.com/journal/alocasia-infernalis",
-     "kind": "Species"
-    },
-    {
-     "name": "ALOCASIA INORNATA",
-     "url": "https://www.aroidpedia.com/journal/alocasia-inornata",
-     "kind": "Species"
-    }
-   ],
-   "count": 3,
-   "host": "plantsoftheworldonline.org"
-  },
-  {
-   "title": "Kew Gardens | Plants of the World Online",
-   "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:77107767-1",
-   "taxa": [
-    {
-     "name": "ALOCASIA JIEWHOEI",
-     "url": "https://www.aroidpedia.com/journal/alocasia-jiewhoei",
-     "kind": "Species"
-    }
-   ],
-   "count": 1,
-   "host": "plantsoftheworldonline.org"
-  },
-  {
-   "title": "Kew Gardens | Plants of the World Online",
-   "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84169-1",
-   "taxa": [
-    {
-     "name": "ALOCASIA ODORA ‘CALIFORNIA’",
-     "url": "https://www.aroidpedia.com/journal/alocasia-odora-california",
-     "kind": "Cultivar"
-    }
-   ],
-   "count": 1,
-   "host": "plantsoftheworldonline.org"
-  },
-  {
    "title": "Alocasia alba (Araceae) in Southern Sumatra: further distribution recorded",
    "url": "https://www.researchgate.net/publication/338254408_Alocasia_alba_Araceae_in_Southern_Sumatra_further_distribution_recorded",
    "taxa": [
@@ -2182,50 +1689,6 @@
    ],
    "count": 1,
    "host": "researchgate.net"
-  },
-  {
-   "title": "AlocasiaPlanet",
-   "url": "https://www.instagram.com/alocasiaplanet/",
-   "taxa": [
-    {
-     "name": "ALOCASIA BALGOOYI",
-     "url": "https://www.aroidpedia.com/journal/alocasia-balgooyi",
-     "kind": "Species"
-    },
-    {
-     "name": "ALOCASIA FLEMINGIANA",
-     "url": "https://www.aroidpedia.com/journal/alocasia-flemingiana",
-     "kind": "Species"
-    }
-   ],
-   "count": 2,
-   "host": "instagram.com"
-  },
-  {
-   "title": "Lucerne Aroids",
-   "url": "https://www.instagram.com/lucerne.aroids/",
-   "taxa": [
-    {
-     "name": "ALOCASIA ‘SABRINA’*",
-     "url": "https://www.aroidpedia.com/journal/alocasia-sabrina",
-     "kind": "Species"
-    }
-   ],
-   "count": 1,
-   "host": "instagram.com"
-  },
-  {
-   "title": "Amandine Gennari and Erwan Le Letty",
-   "url": "https://www.instagram.com/amandineerwanplants/",
-   "taxa": [
-    {
-     "name": "ALOCASIA ‘BOGANI’*",
-     "url": "https://www.aroidpedia.com/journal/alocasia-bogani",
-     "kind": "Species"
-    }
-   ],
-   "count": 1,
-   "host": "instagram.com"
   },
   {
    "title": "Marina Skotnikova",
@@ -2306,19 +1769,6 @@
    "host": "dx.doi.org"
   },
   {
-   "title": "Nigel (@botanigel)",
-   "url": "https://www.instagram.com/botanigel_/",
-   "taxa": [
-    {
-     "name": "ALOCASIA WONGII",
-     "url": "https://www.aroidpedia.com/journal/alocasia-wongii",
-     "kind": "Species"
-    }
-   ],
-   "count": 1,
-   "host": "instagram.com"
-  },
-  {
    "title": "Annals of the Missouri Botanical Garden v.77 (1990) P.667",
    "url": "https://www.biodiversitylibrary.org/page/28001167",
    "taxa": [
@@ -2382,19 +1832,6 @@
    ],
    "count": 1,
    "host": "ijpsonline.com"
-  },
-  {
-   "title": "nts of the World",
-   "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84183-1",
-   "taxa": [
-    {
-     "name": "ALOCASIA INORNATA",
-     "url": "https://www.aroidpedia.com/journal/alocasia-inornata",
-     "kind": "Species"
-    }
-   ],
-   "count": 1,
-   "host": "plantsoftheworldonline.org"
   },
   {
    "title": "Oesterreichisches botanisches Wochenblatt (Austria) v.2 (1852) Page 59",
@@ -2590,19 +2027,6 @@
    ],
    "count": 1,
    "host": "verticalgardenpatrickblanc.com"
-  },
-  {
-   "title": "Photos courtesy of Prameswara",
-   "url": "https://www.instagram.com/lasplantas.id/?hl=en",
-   "taxa": [
-    {
-     "name": "ALOCASIA TANDURUSA",
-     "url": "https://www.aroidpedia.com/journal/alocasia-tandurusa",
-     "kind": "Species"
-    }
-   ],
-   "count": 1,
-   "host": "instagram.com"
   },
   {
    "title": "Phylogenetics of the plant family Araceae",
@@ -2911,32 +2335,6 @@
    ],
    "count": 5,
    "host": "researchgate.net"
-  },
-  {
-   "title": "Roos Kocken",
-   "url": "https://www.instagram.com/plantwithroos/",
-   "taxa": [
-    {
-     "name": "ALOCASIA ‘SABRINA’*",
-     "url": "https://www.aroidpedia.com/journal/alocasia-sabrina",
-     "kind": "Species"
-    }
-   ],
-   "count": 1,
-   "host": "instagram.com"
-  },
-  {
-   "title": "Royal Kew Garden's World Checklist of Selected Plant Families",
-   "url": "https://wcsp.science.kew.org/prepareChecklist.do;jsessionid=1B509EE175488F2E81FAD1848AF3C818.kppapp05-wcsp?checklist=selected_families%40%40175240620210139176",
-   "taxa": [
-    {
-     "name": "ALOCASIA ‘AMAZONICA’",
-     "url": "https://www.aroidpedia.com/journal/alocasia-amazonica",
-     "kind": "Hybrid"
-    }
-   ],
-   "count": 1,
-   "host": "wcsp.science.kew.org"
   },
   {
    "title": "The standard encylopedia of horticulture v.1 (1917) P.255",
@@ -3543,17 +2941,12 @@
    "slug": "alocasia-odora-california",
    "name": "ALOCASIA ODORA ‘CALIFORNIA’",
    "kind": "Cultivar",
-   "kew": null,
+   "kew": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84169-1",
    "refs": [
     {
      "title": "H.G.A.Engler, Das Pflanzenreich, Heft 71 IV, 23E: 80 (1920)",
      "url": "https://bibdigital.rjb.csic.es/viewer/10006/?offset=#page=84&viewer=picture&o=bookmark&n=0&q=",
      "key": "https://bibdigital.rjb.csic.es/viewer/10006?offset="
-    },
-    {
-     "title": "Kew Gardens | Plants of the World Online",
-     "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84169-1",
-     "key": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84169-1"
     },
     {
      "title": "Aroidia Research",
@@ -3712,17 +3105,12 @@
    "slug": "alocasia-amazonica",
    "name": "ALOCASIA ‘AMAZONICA’",
    "kind": "Hybrid",
-   "kew": null,
+   "kew": "https://wcsp.science.kew.org/prepareChecklist.do;jsessionid=1B509EE175488F2E81FAD1848AF3C818.kppapp05-wcsp?checklist=selected_families%40%40175240620210139176",
    "refs": [
     {
      "title": "USDA GRIN Taxonomy",
      "url": "https://www.ars-grin.gov",
      "key": "https://www.ars-grin.gov"
-    },
-    {
-     "title": "Royal Kew Garden's World Checklist of Selected Plant Families",
-     "url": "https://wcsp.science.kew.org/prepareChecklist.do;jsessionid=1B509EE175488F2E81FAD1848AF3C818.kppapp05-wcsp?checklist=selected_families%40%40175240620210139176",
-     "key": "https://wcsp.science.kew.org/preparechecklist.do?checklist=selected_families%40%40175240620210139176"
     },
     {
      "title": "Alocasia Amazonica (Steve Lucas, 2009)",
@@ -4872,7 +4260,7 @@
    "slug": "alocasia-acuminata",
    "name": "ALOCASIA ACUMINATA",
    "kind": "Species",
-   "kew": null,
+   "kew": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84120-1",
    "refs": [
     {
      "title": "Bonplandia. Zeitschrift für die gesammte Botanik (Germany) J7 (1859) Page 28",
@@ -4888,11 +4276,6 @@
      "title": "A review of Alocasia (Araceae: Colocasieae) for Thailand including a novel species and new species records from South-West Thailand | THAI FOR. BULL. (BOT.) 36: 1–17. 2008.",
      "url": "https://li01.tci-thaijo.org/index.php/ThaiForestBulletin/article/view/24171",
      "key": "https://li01.tci-thaijo.org/index.php/thaiforestbulletin/article/view/24171"
-    },
-    {
-     "title": "Kew Gardens | Plants of the World Online",
-     "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84120-1",
-     "key": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84120-1"
     }
    ]
   },
@@ -4901,7 +4284,7 @@
    "slug": "alocasia-aequiloba",
    "name": "ALOCASIA AEQUILOBA",
    "kind": "Species",
-   "kew": null,
+   "kew": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84122-1",
    "refs": [
     {
      "title": "Kew Gardens | Bulletin of miscellaneous information (UK 1895) Page 119",
@@ -4934,11 +4317,6 @@
      "key": "https://botanische jahrbucher fur systematik, pflanzengeschichte und pflanzengeographie (1881-1923)"
     },
     {
-     "title": "Kew Gardens | Plants of the World Online",
-     "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84122-1",
-     "key": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84122-1"
-    },
-    {
      "title": "A. Hay & R. Wise: The genus Alocasia in Australasia",
      "url": "https://repository.naturalis.nl/document/566153",
      "key": "https://repository.naturalis.nl/document/566153"
@@ -4950,17 +4328,12 @@
    "slug": "alocasia-alba",
    "name": "ALOCASIA ALBA",
    "kind": "Species",
-   "kew": null,
+   "kew": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84123-1",
    "refs": [
     {
      "title": "Oesterreichisches botanisches Wochenblatt (Austria) v.2 (1852) Page 59",
      "url": "https://www.biodiversitylibrary.org/page/28304800",
      "key": "https://www.biodiversitylibrary.org/page/28304800"
-    },
-    {
-     "title": "Kew Gardens | Plants of the World Online",
-     "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84123-1",
-     "key": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84123-1"
     },
     {
      "title": "Studies on the Araceae of the Lesser Sunda Islands I: New distribution records for Alocasia alba | Agung Kurniawan1, Ni Putu Sri Asih, Yuzammi, and Peter C. Boyce | Gardens’ Bulletin Singapore 65(2): 157–162. 2013",
@@ -4997,17 +4370,12 @@
    "slug": "alocasia-arifolia",
    "name": "ALOCASIA ARIFOLIA",
    "kind": "Species",
-   "kew": null,
+   "kew": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84128-1",
    "refs": [
     {
      "title": "Bulletin de l'Herbier Boissier (Switzerland) ser.2 v.1 (1900-1901) Page 670",
      "url": "https://www.biodiversitylibrary.org/page/33938600",
      "key": "https://www.biodiversitylibrary.org/page/33938600"
-    },
-    {
-     "title": "Kew Gardens | Plants of the World Online",
-     "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84128-1",
-     "key": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84128-1"
     }
    ]
   },
@@ -5030,17 +4398,12 @@
    "slug": "alocasia-azlanii",
    "name": "ALOCASIA AZLANII",
    "kind": "Species",
-   "kew": null,
+   "kew": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:77158842-1",
    "refs": [
     {
      "title": "Novitates Bruneienses, 6. Alocasia azlanii (Araceae), a New Species from Brunei",
      "url": "https://www.researchgate.net/publication/314703314_Novitates_Bruneienses_6_Alocasia_azlanii_Araceae_a_New_Species_from_Brunei",
      "key": "https://www.researchgate.net/publication/314703314_novitates_bruneienses_6_alocasia_azlanii_araceae_a_new_species_from_brunei"
-    },
-    {
-     "title": "Kew Gardens | Plants of the World Online",
-     "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:77158842-1",
-     "key": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:77158842-1"
     }
    ]
   },
@@ -5049,17 +4412,12 @@
    "slug": "alocasia-baginda",
    "name": "ALOCASIA BAGINDA",
    "kind": "Species",
-   "kew": null,
+   "kew": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:60456116-2",
    "refs": [
     {
      "title": "Studies on the Alocasia Schott (Araceae-Colocasieae) of Borneo II: Alocasia baginda, a New Species from Eastern Kalimantan, Indonesian Borneo",
      "url": "https://www.researchgate.net/publication/308522698_Studies_on_the_Alocasia_Schott_Araceae-Colocasieae_of_Borneo_II_Alocasia_baginda_a_new_species_from_East_Kalimantan_Indonesian_Borneo",
      "key": "https://www.researchgate.net/publication/308522698_studies_on_the_alocasia_schott_araceae-colocasieae_of_borneo_ii_alocasia_baginda_a_new_species_from_east_kalimantan_indonesian_borneo"
-    },
-    {
-     "title": "Kew Gardens | Plants of the World Online",
-     "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:60456116-2",
-     "key": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:60456116-2"
     }
    ]
   },
@@ -5068,7 +4426,7 @@
    "slug": "alocasia-balgooyi",
    "name": "ALOCASIA BALGOOYI",
    "kind": "Species",
-   "kew": null,
+   "kew": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:1006575-1",
    "refs": [
     {
      "title": "The Gardens' Bulleting, Singapore: The genus Alocasia in West Malesia and Sulawesi ser 4:v.50 Page 291",
@@ -5076,19 +4434,9 @@
      "key": "https://www.biodiversitylibrary.org/page/43660596"
     },
     {
-     "title": "Kew Gardens | Plants of the World Online",
-     "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:1006575-1",
-     "key": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:1006575-1"
-    },
-    {
      "title": "Photos by Patrick Blanc",
      "url": "https://www.verticalgardenpatrickblanc.com/inspiration/forest-understory?page=9",
      "key": "https://www.verticalgardenpatrickblanc.com/inspiration/forest-understory?page=9"
-    },
-    {
-     "title": "AlocasiaPlanet",
-     "url": "https://www.instagram.com/alocasiaplanet/",
-     "key": "https://www.instagram.com/alocasiaplanet"
     },
     {
      "title": "Vertical Garden by Patrick Blanc",
@@ -5102,7 +4450,7 @@
    "slug": "alocasia-beccarii",
    "name": "ALOCASIA BECCARII",
    "kind": "Species",
-   "kew": null,
+   "kew": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84134-1",
    "refs": [
     {
      "title": "The Gardens' Bulleting, Singapore: The genus Alocasia in West Malesia and Sulawesi ser 4:v.50 Page 318",
@@ -5113,11 +4461,6 @@
      "title": "Das Pflanzenreich, Heft 71 IV, 23E: 96 (1920)",
      "url": "https://bibdigital.rjb.csic.es/viewer/10006/?offset=#page=100&viewer=picture&o=bookmark&n=0&q=",
      "key": "https://bibdigital.rjb.csic.es/viewer/10006?offset="
-    },
-    {
-     "title": "Kew Gardens | Plants of the World Online",
-     "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84134-1",
-     "key": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84134-1"
     },
     {
      "title": "Bulletino della Società Toscana di Orticultura Anno 4 (1879) P.300",
@@ -5131,17 +4474,12 @@
    "slug": "alocasia-boa",
    "name": "ALOCASIA BOA",
    "kind": "Species",
-   "kew": null,
+   "kew": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:959173-1",
    "refs": [
     {
      "title": "Blumea 35: 517 (1991)",
      "url": "https://repository.naturalis.nl/document/566153",
      "key": "https://repository.naturalis.nl/document/566153"
-    },
-    {
-     "title": "Kew Gardens | Plants of the World Online",
-     "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:959173-1",
-     "key": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:959173-1"
     }
    ]
   },
@@ -5150,17 +4488,12 @@
    "slug": "alocasia-boyceana",
    "name": "ALOCASIA BOYCEANA",
    "kind": "Species",
-   "kew": null,
+   "kew": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:1010788-1",
    "refs": [
     {
      "title": "The Garden's Bulleting Singapore 51: 9 (1999)",
      "url": "https://archive.org/details/gardensbulletins451unse/page/n7/mode/2up",
      "key": "https://archive.org/details/gardensbulletins451unse/page/n7/mode/2up"
-    },
-    {
-     "title": "Kew Gardens | Plants of the World Online",
-     "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:1010788-1",
-     "key": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:1010788-1"
     },
     {
      "title": "Jardinerong Sunog",
@@ -5174,7 +4507,7 @@
    "slug": "alocasia-brancifolia",
    "name": "ALOCASIA BRANCIFOLIA",
    "kind": "Species",
-   "kew": null,
+   "kew": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:962406-1",
    "refs": [
     {
      "title": "Aroids Papua New Guinea: 31 (1990)",
@@ -5197,11 +4530,6 @@
      "key": "https://www.researchgate.net/profile/peter-boyce-2/publication/273238570_checklist_and_botanical_bibliography_of_the_aroids_of_malesia_australia_and_the_tropical_western_pacific_region/links/5597a14b08ae99aa62c8d8c2/checklist-and-botanical-bibliography-of-the-aroids-of-malesia-australia-and-the-tropical-western-pacific-region.pdf"
     },
     {
-     "title": "Kew Gardens | Plants of the World Online",
-     "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:962406-1",
-     "key": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:962406-1"
-    },
-    {
      "title": "Vertical Garden by Patrick Blanc",
      "url": "https://www.verticalgardenpatrickblanc.com/",
      "key": "https://www.verticalgardenpatrickblanc.com"
@@ -5213,7 +4541,7 @@
    "slug": "alocasia-brisbanensis",
    "name": "ALOCASIA BRISBANENSIS",
    "kind": "Species",
-   "kew": null,
+   "kew": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84136-1",
    "refs": [
     {
      "title": "Bibliotheca Botanica (German) Bd.20 (1915): Page 504",
@@ -5229,11 +4557,6 @@
      "title": "ia (Araceae) in Australasia",
      "url": "https://repository.naturalis.nl/pub/525733",
      "key": "https://repository.naturalis.nl/pub/525733"
-    },
-    {
-     "title": "Kew Gardens | Plants of the World Online",
-     "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84136-1",
-     "key": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84136-1"
     },
     {
      "title": "Aroideana Vol 12 (1989) P.26-31",
@@ -5267,17 +4590,12 @@
    "slug": "alocasia-cadieri",
    "name": "ALOCASIA CADIERI",
    "kind": "Species",
-   "kew": null,
+   "kew": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84137-1",
    "refs": [
     {
      "title": "Revue Horticole (Paris), n.s., 26: 326 (1939)",
      "url": "https://bibliotheque-numerique.hortalia.org/items/viewer/361#page/n31/mode/1up",
      "key": "https://bibliotheque-numerique.hortalia.org/items/viewer/361"
-    },
-    {
-     "title": "Kew Gardens | Plants of the World Online",
-     "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84137-1",
-     "key": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84137-1"
     }
    ]
   },
@@ -5286,7 +4604,7 @@
    "slug": "alocasia-celebica",
    "name": "ALOCASIA CELEBICA",
    "kind": "Species",
-   "kew": null,
+   "kew": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84139-1",
    "refs": [
     {
      "title": "Meded. Lands Plantentuin 19: 299 (1898)",
@@ -5297,11 +4615,6 @@
      "title": "The Gardens' bulletin Singapore: Alocasia in West Malesia and Sulawesi",
      "url": "https://www.biodiversitylibrary.org/page/43660618",
      "key": "https://www.biodiversitylibrary.org/page/43660618"
-    },
-    {
-     "title": "Kew Gardens | Plants of the World Online",
-     "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84139-1",
-     "key": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84139-1"
     }
    ]
   },
@@ -5310,17 +4623,12 @@
    "slug": "alocasia-chaii",
    "name": "ALOCASIA CHAII",
    "kind": "Species",
-   "kew": null,
+   "kew": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:77085613-1",
    "refs": [
     {
      "title": "Gard. Bull. Singapore 58: 142 (2007)",
      "url": "https://www.biodiversitylibrary.org/page/43572760",
      "key": "https://www.biodiversitylibrary.org/page/43572760"
-    },
-    {
-     "title": "Kew Gardens | Plants of the World Online",
-     "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:77085613-1",
-     "key": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:77085613-1"
     }
    ]
   },
@@ -5329,7 +4637,7 @@
    "slug": "alocasia-clypeolata",
    "name": "ALOCASIA CLYPEOLATA",
    "kind": "Species",
-   "kew": null,
+   "kew": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:1010789-1",
    "refs": [
     {
      "title": "The Gardens' Bulletin Singapore",
@@ -5340,16 +4648,6 @@
      "title": "51: 12 (1999)",
      "url": "https://archive.org/details/gardensbulletins451unse/page/12/mode/2up",
      "key": "https://archive.org/details/gardensbulletins451unse/page/12/mode/2up"
-    },
-    {
-     "title": "Charlie Moonshade",
-     "url": "https://l.facebook.com/l.php?h=AT0XQzDvCUO_TwC3YYTuXxNQDH7wxqE7WaKtoIs-89NypGyb1x6vP7lzkN7qVGif3oHrGXMvneZe07x12s6t3PfPoHfZ6HsjaziSVCcHUIW0wcFwpkIRObKELtjespe-eNU&u=https%3A%2F%2Finstagram.com%2Fthe_bluebeeboo%3Figshid%3DYmMyMTA2M2Y%253D%26fbclid%3DIwAR0ixF7K8RCw8R40pYLqctUOLapRitckZPl4kASsIvvRVfjHKy0xLDABBVw",
-     "key": "https://l.facebook.com/l.php?h=at0xqzdvcuo_twc3yytuxxnqdh7wxqe7waktois-89nypgyb1x6vp7lzkn7qvgif3ohrgxmvneze07x12s6t3pfpohfz6hsjazisvcchuiw0wcfwpkirobkeltjespe-enu&u=https%3a%2f%2finstagram.com%2fthe_bluebeeboo%3figshid%3dymmymta2m2y%253d%26fbclid%3diwar0ixf7k8rcw8r40pylqctuolapritckzpl4kassivvrvfjhky0xldabbvw"
-    },
-    {
-     "title": "Kew Gardens | Plants of the World Online",
-     "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:1010789-1",
-     "key": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:1010789-1"
     }
    ]
   },
@@ -5358,17 +4656,12 @@
    "slug": "alocasia-cucullata",
    "name": "ALOCASIA CUCULLATA",
    "kind": "Species",
-   "kew": null,
+   "kew": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84151-1",
    "refs": [
     {
      "title": "Flora cochinchinensis T.2 P.536 (1790)",
      "url": "https://www.biodiversitylibrary.org/page/654229",
      "key": "https://www.biodiversitylibrary.org/page/654229"
-    },
-    {
-     "title": "Kew Gardens | Plants of the World Online",
-     "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84151-1",
-     "key": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84151-1"
     },
     {
      "title": "Flora cochinchinensis (1790) T.2 P.536",
@@ -5392,7 +4685,7 @@
    "slug": "alocasia-culionensis",
    "name": "ALOCASIA CULIONENSIS",
    "kind": "Species",
-   "kew": null,
+   "kew": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84152-1",
    "refs": [
     {
      "title": "Botanische Jahrbücher fur Systematik, Pflanzengeschichte und Pflanzengeographie (German) V37: 135 (1905)",
@@ -5403,11 +4696,6 @@
      "title": "The Gardens’ Bulletin, Singapore v.51",
      "url": "https://www.biodiversitylibrary.org/page/43578404",
      "key": "https://www.biodiversitylibrary.org/page/43578404"
-    },
-    {
-     "title": "Kew Gardens | Plants of the World Online",
-     "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84152-1",
-     "key": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84152-1"
     },
     {
      "title": "Vertical Garden by Patrick Blanc",
@@ -5551,7 +4839,7 @@
    "slug": "alocasia-evrardii",
    "name": "ALOCASIA EVRARDII",
    "kind": "Species",
-   "kew": null,
+   "kew": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:77135837-1",
    "refs": [
     {
      "title": "Flore générale de l'Indo-Chine (France) v6 (1942) Page 1150",
@@ -5562,11 +4850,6 @@
      "title": "Nguyen V. D., Croat T. B., Luu H. T., Lee C. Y., Lee J. & de Kok R.: Two new species of Alocasia (Araceae, Colocasieae) from Vietnam. – Willdenowia 43: 293 – 299. December 2013. – ISSN 0511-9618; © 2013 BGBM Berlin-Dahlem.",
      "url": "http://dx.doi.org/10.3372/wi.43.43209",
      "key": "http://dx.doi.org/10.3372/wi.43.43209"
-    },
-    {
-     "title": "Kew Gardens | Plants of the World Online",
-     "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:77135837-1",
-     "key": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:77135837-1"
     }
    ]
   },
@@ -5575,7 +4858,7 @@
    "slug": "alocasia-fallax",
    "name": "ALOCASIA FALLAX",
    "kind": "Species",
-   "kew": null,
+   "kew": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84167-1",
    "refs": [
     {
      "title": "Bonplandia. Zeitschrift für die gesammte Botanik 7: 28 (1859)",
@@ -5586,11 +4869,6 @@
      "title": "The Flora of British India v6 Page 527 (1894)",
      "url": "https://www.biodiversitylibrary.org/page/18708409",
      "key": "https://www.biodiversitylibrary.org/page/18708409"
-    },
-    {
-     "title": "Kew Gardens | Plants of the World Online",
-     "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84167-1",
-     "key": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84167-1"
     }
    ]
   },
@@ -5599,17 +4877,12 @@
    "slug": "alocasia-farisii",
    "name": "ALOCASIA FARISII",
    "kind": "Species",
-   "kew": null,
+   "kew": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:77174647-1",
    "refs": [
     {
      "title": "Studies on the Alocasia clade (Araceae) of Peninsular Malaysia I: Alocasia farisii sp. nov. from limestone in Kelantan | Nordic Journal of Botany - April 2017",
      "url": "https://www.researchgate.net/publication/316500892_Studies_on_the_Alocasia_clade_Araceae_of_Peninsular_Malaysia_I_Alocasia_farisii_sp_nov_from_limestone_in_Kelantan?_esc=publicationCoverPdf&el=1_x_3&enrichId=rgreq-48a354ad2e27a78bc78f2bd5bf805a03-XXX&enrichSource=Y292ZXJQYWdlOzMxNjUwMDg5MjtBUzo4OTUyNTczOTkwMDUxODVAMTU5MDQ1NzQwNTgyNQ%3D%3D",
      "key": "https://www.researchgate.net/publication/316500892_studies_on_the_alocasia_clade_araceae_of_peninsular_malaysia_i_alocasia_farisii_sp_nov_from_limestone_in_kelantan?_esc=publicationcoverpdf&el=1_x_3&enrichid=rgreq-48a354ad2e27a78bc78f2bd5bf805a03-xxx&enrichsource=y292zxjqywdlozmxnjuwmdg5mjtbuzo4otuyntczotkwmduxodvamtu5mdq1nzqwntgynq%3d%3d"
-    },
-    {
-     "title": "Kew Gardens | Plants of the World Online",
-     "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:77174647-1",
-     "key": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:77174647-1"
     }
    ]
   },
@@ -5618,7 +4891,7 @@
    "slug": "alocasia-flabellifera",
    "name": "ALOCASIA FLABELLIFERA",
    "kind": "Species",
-   "kew": null,
+   "kew": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:959176-1",
    "refs": [
     {
      "title": "Aroids Papua New Guinea: 31 (1990)",
@@ -5629,11 +4902,6 @@
      "title": "The genus Alocasia (Araceae) in. Australasia. A. Hay | Blumea 35: 537 (1991)",
      "url": "https://repository.naturalis.nl/document/566153",
      "key": "https://repository.naturalis.nl/document/566153"
-    },
-    {
-     "title": "Kew Gardens | Plants of the World Online",
-     "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:959176-1",
-     "key": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:959176-1"
     }
    ]
   },
@@ -5642,22 +4910,12 @@
    "slug": "alocasia-flemingiana",
    "name": "ALOCASIA FLEMINGIANA",
    "kind": "Species",
-   "kew": null,
+   "kew": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:1006576-1",
    "refs": [
     {
      "title": "Gard. Bull. Singapore 50: 292 (1998)",
      "url": "https://www.biodiversitylibrary.org/page/43660597",
      "key": "https://www.biodiversitylibrary.org/page/43660597"
-    },
-    {
-     "title": "Kew Gardens | Plants of the World Online",
-     "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:1006576-1",
-     "key": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:1006576-1"
-    },
-    {
-     "title": "AlocasiaPlanet",
-     "url": "https://www.instagram.com/alocasiaplanet/",
-     "key": "https://www.instagram.com/alocasiaplanet"
     }
    ]
   },
@@ -5666,7 +4924,7 @@
    "slug": "alocasia-fornicata",
    "name": "ALOCASIA FORNICATA",
    "kind": "Species",
-   "kew": null,
+   "kew": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84168-1",
    "refs": [
     {
      "title": "Enumeratio plantarum omnium hucusque cognitarum v.3 P.41 (1841)",
@@ -5692,11 +4950,6 @@
      "title": "Antioxidant activity in extracts of two edible aroids",
      "url": "https://www.ijpsonline.com/articles/antioxidant-activity-in-the-extracts-of-two-edible-aroids.html?view=mobile",
      "key": "https://www.ijpsonline.com/articles/antioxidant-activity-in-the-extracts-of-two-edible-aroids.html?view=mobile"
-    },
-    {
-     "title": "Kew Gardens | Plants of the World Online",
-     "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84168-1",
-     "key": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84168-1"
     }
    ]
   },
@@ -5705,17 +4958,12 @@
    "slug": "alocasia-grata",
    "name": "ALOCASIA GRATA",
    "kind": "Species",
-   "kew": null,
+   "kew": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84176-1",
    "refs": [
     {
      "title": "H.G.A.Engler, Das Pflanzenreich, Heft 71 IV, 23E: 93 (1920)",
      "url": "https://bibdigital.rjb.csic.es/viewer/10006/?offset=#page=97&viewer=picture&o=bookmark&n=0&q=",
      "key": "https://bibdigital.rjb.csic.es/viewer/10006?offset="
-    },
-    {
-     "title": "Kew Gardens | Plants of the World Online",
-     "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84176-1",
-     "key": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84176-1"
     }
    ]
   },
@@ -5724,7 +4972,7 @@
    "slug": "alocasia-hainanica",
    "name": "ALOCASIA HAINANICA",
    "kind": "Species",
-   "kew": null,
+   "kew": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:77176869-1",
    "refs": [
     {
      "title": "The Journal of the Linnean Society Botany v36:183",
@@ -5735,11 +4983,6 @@
      "title": "H.G.A.Engler, Das Pflanzenreich, Heft 70-71:91 (1919-1920)",
      "url": "https://www.biodiversitylibrary.org/page/16814974",
      "key": "https://www.biodiversitylibrary.org/page/16814974"
-    },
-    {
-     "title": "Kew Gardens | Plants of the World Online",
-     "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:77176869-1",
-     "key": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:77176869-1"
     },
     {
      "title": "Flore générale de l'Indo-Chine t.6: 1148",
@@ -5753,17 +4996,12 @@
    "slug": "alocasia-hararganjensis",
    "name": "ALOCASIA HARARGANJENSIS",
    "kind": "Species",
-   "kew": null,
+   "kew": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:77200696-1",
    "refs": [
     {
      "title": "Three new species of Araceae from Bangladesh | Bangladesh Journal of Plant Taxonomy 25(2):227-239",
      "url": "https://www.researchgate.net/publication/329994812_Three_new_species_of_Araceae_from_Bangladesh",
      "key": "https://www.researchgate.net/publication/329994812_three_new_species_of_araceae_from_bangladesh"
-    },
-    {
-     "title": "Kew Gardens | Plants of the World Online",
-     "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:77200696-1",
-     "key": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:77200696-1"
     }
    ]
   },
@@ -5772,17 +5010,12 @@
    "slug": "alocasia-heterophylla",
    "name": "ALOCASIA HETEROPHYLLA",
    "kind": "Species",
-   "kew": null,
+   "kew": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84179-1",
    "refs": [
     {
      "title": "The Philippine journal of science, C 3: 220 (1908)",
      "url": "https://www.biodiversitylibrary.org/page/673401",
      "key": "https://www.biodiversitylibrary.org/page/673401"
-    },
-    {
-     "title": "Kew Gardens | Plants of the World Online",
-     "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84179-1",
-     "key": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84179-1"
     },
     {
      "title": "Jardinerong Sunog’s Blog",
@@ -5801,17 +5034,12 @@
    "slug": "alocasia-hollrungii",
    "name": "ALOCASIA HOLLRUNGII",
    "kind": "Species",
-   "kew": null,
+   "kew": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84180-1",
    "refs": [
     {
      "title": "Botanische Jahrbücher fur Systematik, Pflanzengeschichte und Pflanzengeographie v.25: P24",
      "url": "https://www.biodiversitylibrary.org/page/208877",
      "key": "https://www.biodiversitylibrary.org/page/208877"
-    },
-    {
-     "title": "Kew Gardens | Plants of the World Online",
-     "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84180-1",
-     "key": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84180-1"
     },
     {
      "title": "A. Hay & R. Wise: The genus Alocasia in Australasia: P523",
@@ -5825,17 +5053,12 @@
    "slug": "alocasia-hypoleuca",
    "name": "ALOCASIA HYPOLEUCA",
    "kind": "Species",
-   "kew": null,
+   "kew": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:77095868-1",
    "refs": [
     {
      "title": "Thai Forest Bull., Bot. 36: 9 (2008)",
      "url": "https://li01.tci-thaijo.org/index.php/ThaiForestBulletin/article/view/24171/20557",
      "key": "https://li01.tci-thaijo.org/index.php/thaiforestbulletin/article/view/24171/20557"
-    },
-    {
-     "title": "Kew Gardens | Plants of the World Online",
-     "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:77095868-1",
-     "key": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:77095868-1"
     }
    ]
   },
@@ -5878,17 +5101,12 @@
    "slug": "alocasia-infernalis",
    "name": "ALOCASIA INFERNALIS",
    "kind": "Species",
-   "kew": null,
+   "kew": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:77095868-1",
    "refs": [
     {
      "title": "Gardens' Bulletin Singapore 58: 145 (2007)",
      "url": "https://www.biodiversitylibrary.org/page/43572764",
      "key": "https://www.biodiversitylibrary.org/page/43572764"
-    },
-    {
-     "title": "Kew Gardens | Plants of the World Online",
-     "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:77095868-1",
-     "key": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:77095868-1"
     }
    ]
   },
@@ -5897,27 +5115,12 @@
    "slug": "alocasia-inornata",
    "name": "ALOCASIA INORNATA",
    "kind": "Species",
-   "kew": null,
+   "kew": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:77095868-1",
    "refs": [
     {
      "title": "Gardens' Bulletin Singapore 50:286 (1998)",
      "url": "https://www.biodiversitylibrary.org/page/43660591",
      "key": "https://www.biodiversitylibrary.org/page/43660591"
-    },
-    {
-     "title": "Kew Gardens | Pla",
-     "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:77095868-1",
-     "key": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:77095868-1"
-    },
-    {
-     "title": "nts of the World",
-     "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84183-1",
-     "key": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:84183-1"
-    },
-    {
-     "title": "Online",
-     "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:77095868-1",
-     "key": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:77095868-1"
     },
     {
      "title": "Mededeelingen van's Rijks Herbarium 26:7 (1915)",
@@ -5941,17 +5144,12 @@
    "slug": "alocasia-jiewhoei",
    "name": "ALOCASIA JIEWHOEI",
    "kind": "Species",
-   "kew": null,
+   "kew": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:77107767-1",
    "refs": [
     {
      "title": "Gardens’ Bulletin Singapore 62 (1): 121-126 (2010)",
      "url": "https://www.biodiversitylibrary.org/page/43634241#page/125/mode/1up",
      "key": "https://www.biodiversitylibrary.org/page/43634241"
-    },
-    {
-     "title": "Kew Gardens | Plants of the World Online",
-     "url": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:77107767-1",
-     "key": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:77107767-1"
     }
    ]
   },
@@ -6282,11 +5480,6 @@
      "title": "IAS Archives",
      "url": "http://www.aroid.org/aroidl-archive/showthread.php?id=6180",
      "key": "http://www.aroid.org/aroidl-archive/showthread.php?id=6180"
-    },
-    {
-     "title": "@alltheplantys",
-     "url": "https://www.instagram.com/alltheplantys/?hl=en",
-     "key": "https://www.instagram.com/alltheplantys?hl=en"
     }
    ]
   },
@@ -6786,21 +5979,6 @@
      "title": "Philippine Alocasia Resource Center",
      "url": "https://sites.google.com/view/philippinealocasias/species-groups/ph-species-groups/longiloba-ph/a-sanderiana?authuser=0",
      "key": "https://sites.google.com/view/philippinealocasias/species-groups/ph-species-groups/longiloba-ph/a-sanderiana?authuser=0"
-    },
-    {
-     "title": "Jardinerong Sunog Blog",
-     "url": "https://www.facebook.com/JardinerongSunog/reviews/?ref=page_internal",
-     "key": "https://www.facebook.com/jardinerongsunog/reviews?ref=page_internal"
-    },
-    {
-     "title": "Charlie Moonshade",
-     "url": "https://l.facebook.com/l.php?h=AT0XQzDvCUO_TwC3YYTuXxNQDH7wxqE7WaKtoIs-89NypGyb1x6vP7lzkN7qVGif3oHrGXMvneZe07x12s6t3PfPoHfZ6HsjaziSVCcHUIW0wcFwpkIRObKELtjespe-eNU&u=https%3A%2F%2Finstagram.com%2Fthe_bluebeeboo%3Figshid%3DYmMyMTA2M2Y%253D%26fbclid%3DIwAR0ixF7K8RCw8R40pYLqctUOLapRitckZPl4kASsIvvRVfjHKy0xLDABBVw",
-     "key": "https://l.facebook.com/l.php?h=at0xqzdvcuo_twc3yytuxxnqdh7wxqe7waktois-89nypgyb1x6vp7lzkn7qvgif3ohrgxmvneze07x12s6t3pfpohfz6hsjazisvcchuiw0wcfwpkirobkeltjespe-enu&u=https%3a%2f%2finstagram.com%2fthe_bluebeeboo%3figshid%3dymmymta2m2y%253d%26fbclid%3diwar0ixf7k8rcw8r40pylqctuolapritckzpl4kassivvrvfjhky0xldabbvw"
-    },
-    {
-     "title": "K",
-     "url": "https://www.facebook.com/JardinerongSunog/reviews/?ref=page_internal",
-     "key": "https://www.facebook.com/jardinerongsunog/reviews?ref=page_internal"
     }
    ]
   },
@@ -6873,11 +6051,6 @@
      "title": "Philippine Alocasia Resource Center",
      "url": "https://sites.google.com/view/philippinealocasias/species-groups/ph-species-groups/scabriuscula-ph/a-scalprum",
      "key": "https://sites.google.com/view/philippinealocasias/species-groups/ph-species-groups/scabriuscula-ph/a-scalprum"
-    },
-    {
-     "title": "Charlie Moonshade",
-     "url": "https://l.facebook.com/l.php?h=AT0XQzDvCUO_TwC3YYTuXxNQDH7wxqE7WaKtoIs-89NypGyb1x6vP7lzkN7qVGif3oHrGXMvneZe07x12s6t3PfPoHfZ6HsjaziSVCcHUIW0wcFwpkIRObKELtjespe-eNU&u=https%3A%2F%2Finstagram.com%2Fthe_bluebeeboo%3Figshid%3DYmMyMTA2M2Y%253D%26fbclid%3DIwAR0ixF7K8RCw8R40pYLqctUOLapRitckZPl4kASsIvvRVfjHKy0xLDABBVw",
-     "key": "https://l.facebook.com/l.php?h=at0xqzdvcuo_twc3yytuxxnqdh7wxqe7waktois-89nypgyb1x6vp7lzkn7qvgif3ohrgxmvneze07x12s6t3pfpohfz6hsjazisvcchuiw0wcfwpkirobkeltjespe-enu&u=https%3a%2f%2finstagram.com%2fthe_bluebeeboo%3figshid%3dymmymta2m2y%253d%26fbclid%3diwar0ixf7k8rcw8r40pylqctuolapritckzpl4kassivvrvfjhky0xldabbvw"
     }
    ]
   },
@@ -6916,11 +6089,6 @@
      "title": "Philippine Alocasia Resource Center",
      "url": "https://sites.google.com/view/philippinealocasias/species-groups/ph-species-groups/scabriuscula-ph/a-sinuata?authuser=0",
      "key": "https://sites.google.com/view/philippinealocasias/species-groups/ph-species-groups/scabriuscula-ph/a-sinuata?authuser=0"
-    },
-    {
-     "title": "Charlie Moonshade",
-     "url": "https://l.facebook.com/l.php?h=AT0XQzDvCUO_TwC3YYTuXxNQDH7wxqE7WaKtoIs-89NypGyb1x6vP7lzkN7qVGif3oHrGXMvneZe07x12s6t3PfPoHfZ6HsjaziSVCcHUIW0wcFwpkIRObKELtjespe-eNU&u=https%3A%2F%2Finstagram.com%2Fthe_bluebeeboo%3Figshid%3DYmMyMTA2M2Y%253D%26fbclid%3DIwAR0ixF7K8RCw8R40pYLqctUOLapRitckZPl4kASsIvvRVfjHKy0xLDABBVw",
-     "key": "https://l.facebook.com/l.php?h=at0xqzdvcuo_twc3yytuxxnqdh7wxqe7waktois-89nypgyb1x6vp7lzkn7qvgif3ohrgxmvneze07x12s6t3pfpohfz6hsjazisvcchuiw0wcfwpkirobkeltjespe-enu&u=https%3a%2f%2finstagram.com%2fthe_bluebeeboo%3figshid%3dymmymta2m2y%253d%26fbclid%3diwar0ixf7k8rcw8r40pylqctuolapritckzpl4kassivvrvfjhky0xldabbvw"
     }
    ]
   },
@@ -6954,11 +6122,6 @@
      "title": "Alocasia tandurusaPrameswara & A.Hay, A new (bi)pinnatifid-leaved species from Sulawesi [Araceae, tribe Alocasieae (Schott) A.Hay]",
      "url": "https://www.researchgate.net/publication/374294996_Alocasia_tandurusa_Prameswara_AHay_A_new_bipinnatifid-leaved_species_from_Sulawesi_Araceae_tribe_Alocasieae_Schott_AHay_with_notes_on_tribal_classification_for_the_paraphyletic_grade_of_%27Old_World_Col",
      "key": "https://www.researchgate.net/publication/374294996_alocasia_tandurusa_prameswara_ahay_a_new_bipinnatifid-leaved_species_from_sulawesi_araceae_tribe_alocasieae_schott_ahay_with_notes_on_tribal_classification_for_the_paraphyletic_grade_of_%27old_world_col"
-    },
-    {
-     "title": "Photos courtesy of Prameswara",
-     "url": "https://www.instagram.com/lasplantas.id/?hl=en",
-     "key": "https://www.instagram.com/lasplantas.id?hl=en"
     }
    ]
   },
@@ -7020,11 +6183,6 @@
      "title": "Gard. Bull. Singapore 50: 270 (1998)",
      "url": "https://www.biodiversitylibrary.org/page/43660575",
      "key": "https://www.biodiversitylibrary.org/page/43660575"
-    },
-    {
-     "title": "Nigel (@botanigel)",
-     "url": "https://www.instagram.com/botanigel_/",
-     "key": "https://www.instagram.com/botanigel_"
     }
    ]
   },
@@ -7080,13 +6238,7 @@
    "name": "ALOCASIA ‘BOGANI’*",
    "kind": "Species",
    "kew": null,
-   "refs": [
-    {
-     "title": "Amandine Gennari and Erwan Le Letty",
-     "url": "https://www.instagram.com/amandineerwanplants/",
-     "key": "https://www.instagram.com/amandineerwanplants"
-    }
-   ]
+   "refs": []
   },
   {
    "url": "https://www.aroidpedia.com/journal/alocasia-chienlii",
@@ -7190,18 +6342,7 @@
    "name": "ALOCASIA ‘SABRINA’*",
    "kind": "Species",
    "kew": null,
-   "refs": [
-    {
-     "title": "Lucerne Aroids",
-     "url": "https://www.instagram.com/lucerne.aroids/",
-     "key": "https://www.instagram.com/lucerne.aroids"
-    },
-    {
-     "title": "Roos Kocken",
-     "url": "https://www.instagram.com/plantwithroos/",
-     "key": "https://www.instagram.com/plantwithroos"
-    }
-   ]
+   "refs": []
   },
   {
    "url": "https://www.aroidpedia.com/journal/alocasia-samar",
@@ -7217,13 +6358,7 @@
    "name": "ALOCASIA ‘SARIAN’*",
    "kind": "Species",
    "kew": null,
-   "refs": [
-    {
-     "title": "Jardinerong Sunog Blog",
-     "url": "https://www.facebook.com/JardinerongSunog/",
-     "key": "https://www.facebook.com/jardinerongsunog"
-    }
-   ]
+   "refs": []
   },
   {
    "url": "https://www.aroidpedia.com/journal/alocasia-serendipity",
