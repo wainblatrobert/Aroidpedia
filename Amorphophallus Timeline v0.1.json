@@ -1,760 +1,1302 @@
 {
-    "$schema": "https://vega.github.io/schema/vega/v5.json",
-    "description": "a serpentine timeline. The serpentine shape can be an option for instances where an oblong canvas is not ideal. The shape can be customized using many of the signals below. Input bindings have been included for demonstration purposes",
-    "background": "white",
-    "padding": 10,
-    "width": 1050,
-    "signals": [
-      {
-        "name": "width",
-        "init": "width",
-        "bindDisabled": {
-          "name": "straight width",
-          "input": "range",
-          "min": 0,
-          "max": 2000,
-          "step": 1
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "a serpentine timeline. The serpentine shape can be an option for instances where an oblong canvas is not ideal. The shape can be customized using many of the signals below. Input bindings have been included for demonstration purposes",
+  "background": "white",
+  "padding": 10,
+  "width": 1050,
+  "signals": [
+    {
+      "name": "width",
+      "init": "width",
+      "bindDisabled": {
+        "name": "straight width",
+        "input": "range",
+        "min": 0,
+        "max": 2000,
+        "step": 1
+      },
+      "on": [
+        {
+          "events": [
+            {
+              "signal": "annotations"
+            }
+          ],
+          "update": "width+1"
         },
-        "on": [
-          {"events": [{"signal": "annotations"}], "update": "width+1"},
-          {"events": [{"signal": "annotations"}], "update": "width-1"},
-          {"events": [{"signal": "mO"}], "update": "width+1"},
-          {"events": [{"signal": "mO"}], "update": "width-1"},
-          {"events": [{"signal": "tLO"}], "update": "width+1"},
-          {"events": [{"signal": "tLO"}], "update": "width-1"},
-          {"events": [{"signal": "sN"}], "update": "width+1"},
-          {"events": [{"signal": "sN"}], "update": "width-1"},
-          {"events": [{"signal": "mO"}], "update": "height+1"},
-          {"events": [{"signal": "mO"}], "update": "height-1"},
-          {"events": [{"signal": "tLO"}], "update": "height+1"},
-          {"events": [{"signal": "tLO"}], "update": "height-1"}
-        ]
-      },
-      {
-        "name": "sH",
-        "description": "serpentine: diameter of arcs",
-        "value": 185,
-        "bindDisabled": {
-          "name": "arc diameter",
-          "input": "range",
-          "min": 0,
-          "max": 400,
-          "step": 1
+        {
+          "events": [
+            {
+              "signal": "annotations"
+            }
+          ],
+          "update": "width-1"
+        },
+        {
+          "events": [
+            {
+              "signal": "mO"
+            }
+          ],
+          "update": "width+1"
+        },
+        {
+          "events": [
+            {
+              "signal": "mO"
+            }
+          ],
+          "update": "width-1"
+        },
+        {
+          "events": [
+            {
+              "signal": "tLO"
+            }
+          ],
+          "update": "width+1"
+        },
+        {
+          "events": [
+            {
+              "signal": "tLO"
+            }
+          ],
+          "update": "width-1"
+        },
+        {
+          "events": [
+            {
+              "signal": "sN"
+            }
+          ],
+          "update": "width+1"
+        },
+        {
+          "events": [
+            {
+              "signal": "sN"
+            }
+          ],
+          "update": "width-1"
+        },
+        {
+          "events": [
+            {
+              "signal": "mO"
+            }
+          ],
+          "update": "height+1"
+        },
+        {
+          "events": [
+            {
+              "signal": "mO"
+            }
+          ],
+          "update": "height-1"
+        },
+        {
+          "events": [
+            {
+              "signal": "tLO"
+            }
+          ],
+          "update": "height+1"
+        },
+        {
+          "events": [
+            {
+              "signal": "tLO"
+            }
+          ],
+          "update": "height-1"
         }
-      },
-      {
-        "name": "labelsOnHover",
-        "description": "milestone: show labels on hover only",
-        "value": true,
-        "bindDisabled": {"name": "hover labels", "input": "checkbox"}
-      },
-      {
-        "name": "sN",
-        "description": "serpentine: number of arcs",
-        "value": 4,
-        "bindDisabled": {
-          "name": "# of arcs",
-          "input": "range",
-          "min": 0,
-          "max": 20,
-          "step": 1
-        }
-      },
-      {
-        "name": "tC",
-        "description": "ticks: number of axis ticks to display on the timeline",
-        "value": 50,
-        "bindDisabled": {
-          "name": "tick count",
-          "input": "range",
-          "min": 0,
-          "max": 100,
-          "step": 1
-        }
-      },
-      {
-        "name": "tLO",
-        "description": "ticks: the offset for the tick labels",
-        "value": 15
-      },
-      {
-        "name": "mO",
-        "description": "milestone: the offset for the milestone markers",
-        "value": 10,
-        "bindDisabled": {
-          "name": "milestone offset",
-          "input": "range",
-          "min": 0,
-          "max": 1,
-          "step": 0.5
-        }
-      },
-      {
-        "name": "sR0P",
-        "description": "serpentine: percentage of width of canvas for the start of the timeline",
-        "value": 0,
-        "bindDisabled": {
-          "name": "timeline x0 %",
-          "input": "range",
-          "min": 0,
-          "max": 1,
-          "step": 0.01
-        }
-      },
-      {
-        "name": "sLP",
-        "description": "serpentine: percentage of total length of canvas for the end of the timeline",
-        "value": 1,
-        "bindDisabled": {
-          "name": "timeline len %",
-          "input": "range",
-          "min": 0,
-          "max": 1,
-          "step": 0.01
-        }
-      },
-      {
-        "name": "annotationStart",
-        "value": "",
-        "bindDisabled": {"name": "start annotation", "input": "text"}
-      },
-      {
-        "name": "annotationEnd",
-        "value": "Today",
-        "bindDisabled": {"name": "end annotation", "input": "text"}
-      },
-      {
-        "name": "includeArrows",
-        "value": true,
-        "bindDisabled": {"name": "include arrows", "input": "checkbox"}
-      },
-      {
-        "name": "sT",
-        "description": "serpentine: thicknes of the line",
-        "value": 5,
-        "bindDisabled": {
-          "name": "line thickness",
-          "input": "range",
-          "min": 1,
-          "max": 10,
-          "step": 0.5
-        }
-      },
-      {
-        "name": "domain",
-        "init": "[1837, year(now())]",
-        "description": "serpentine: manually set the domain extent for the timeline, otherwise set to null to have the domain calculated for you"
-      },
-      {
-        "name": "sRange",
-        "description": "serpentine: range for the serpentine scale",
-        "update": "[sR0P*width,sL*sLP]"
-      },
-      {
-        "name": "annotations",
-        "description": "serpentine: annotations that appear at the start and end of the timeline",
-        "update": "{start: (isValid(annotationStart) ? annotationStart : ''), end: (isValid(annotationEnd) ? annotationEnd : '')}"
-      },
-      {
-        "name": "sD",
-        "update": "[2, 2]",
-        "description": "serpentine: dash array for the serpentine line"
-      },
-      {
-        "name": "reverse",
-        "description": "serpentine: boolean to indicate whether the scale for the timeline should be reversed",
-        "value": false
-      },
-      {
-        "name": "sPct",
-        "description": "serpentine: percentage of width for the straight portions of the timeline",
-        "value": 1,
-        "update": "sPct < 0.25 ? 0 : sPct < 0.75 ? 0.5 : 1"
-      },
-      {
-        "name": "sW",
-        "description": "serpentine: horizontal length of straight segments",
-        "update": "sPct*width"
-      },
-      {
-        "name": "sL",
-        "description": "serpentine: total length of line",
-        "update": "(sN+1)*sW+(sN)*sH*PI/2"
-      },
-      {
-        "name": "sA",
-        "description": "serpentine: length of an arc segment",
-        "update": "(sH*PI/2)"
-      },
-      {
-        "name": "sWsA",
-        "description": "serpentine: length of a line + arc segment",
-        "update": "(sW + sH*PI/2)"
-      },
-      {
-        "name": "sDomain",
-        "description": "serpentine: domain for the serpentine scale",
-        "init": "domain ? domain : [+extent(pluck(data('dataset'), 'domain'))[0], +extent(pluck(data('dataset'), 'domain'))[1]]"
-      },
-      {
-  "name": "hoverFocus",
-  "value": 0,
-  "on": [
-    {
-      "events": {"type": "mouseover"},
-      "update": "isValid(datum) && isValid(isValid(datum['domain'])) ? datum : null"
+      ]
     },
     {
-      "events": {"type": "mouseout"},
-      "update": "null"
-    }
-  ]
-},
-{
-  "name": "cursor",
-  "value": "default",
-  "on": [
-    {
-      "events": {"type": "mouseover"},
-      "update": "'pointer'"
+      "name": "sH",
+      "description": "serpentine: diameter of arcs",
+      "value": 185,
+      "bindDisabled": {
+        "name": "arc diameter",
+        "input": "range",
+        "min": 0,
+        "max": 400,
+        "step": 1
+      }
     },
     {
-      "events": {"type": "mouseout"},
-      "update": "'default'"
+      "name": "labelsOnHover",
+      "description": "milestone: show labels on hover only",
+      "value": true,
+      "bindDisabled": {
+        "name": "hover labels",
+        "input": "checkbox"
+      }
+    },
+    {
+      "name": "sN",
+      "description": "serpentine: number of arcs",
+      "value": 4,
+      "bindDisabled": {
+        "name": "# of arcs",
+        "input": "range",
+        "min": 0,
+        "max": 20,
+        "step": 1
+      }
+    },
+    {
+      "name": "tC",
+      "description": "ticks: number of axis ticks to display on the timeline",
+      "value": 50,
+      "bindDisabled": {
+        "name": "tick count",
+        "input": "range",
+        "min": 0,
+        "max": 100,
+        "step": 1
+      }
+    },
+    {
+      "name": "tLO",
+      "description": "ticks: the offset for the tick labels",
+      "value": 15
+    },
+    {
+      "name": "mO",
+      "description": "milestone: the offset for the milestone markers",
+      "value": 10,
+      "bindDisabled": {
+        "name": "milestone offset",
+        "input": "range",
+        "min": 0,
+        "max": 1,
+        "step": 0.5
+      }
+    },
+    {
+      "name": "sR0P",
+      "description": "serpentine: percentage of width of canvas for the start of the timeline",
+      "value": 0,
+      "bindDisabled": {
+        "name": "timeline x0 %",
+        "input": "range",
+        "min": 0,
+        "max": 1,
+        "step": 0.01
+      }
+    },
+    {
+      "name": "sLP",
+      "description": "serpentine: percentage of total length of canvas for the end of the timeline",
+      "value": 1,
+      "bindDisabled": {
+        "name": "timeline len %",
+        "input": "range",
+        "min": 0,
+        "max": 1,
+        "step": 0.01
+      }
+    },
+    {
+      "name": "annotationStart",
+      "value": "",
+      "bindDisabled": {
+        "name": "start annotation",
+        "input": "text"
+      }
+    },
+    {
+      "name": "annotationEnd",
+      "value": "Today",
+      "bindDisabled": {
+        "name": "end annotation",
+        "input": "text"
+      }
+    },
+    {
+      "name": "includeArrows",
+      "value": true,
+      "bindDisabled": {
+        "name": "include arrows",
+        "input": "checkbox"
+      }
+    },
+    {
+      "name": "sT",
+      "description": "serpentine: thicknes of the line",
+      "value": 5,
+      "bindDisabled": {
+        "name": "line thickness",
+        "input": "range",
+        "min": 1,
+        "max": 10,
+        "step": 0.5
+      }
+    },
+    {
+      "name": "domain",
+      "init": "[1837, year(now())]",
+      "description": "serpentine: manually set the domain extent for the timeline, otherwise set to null to have the domain calculated for you"
+    },
+    {
+      "name": "sRange",
+      "description": "serpentine: range for the serpentine scale",
+      "update": "[sR0P*width,sL*sLP]"
+    },
+    {
+      "name": "annotations",
+      "description": "serpentine: annotations that appear at the start and end of the timeline",
+      "update": "{start: (isValid(annotationStart) ? annotationStart : ''), end: (isValid(annotationEnd) ? annotationEnd : '')}"
+    },
+    {
+      "name": "sD",
+      "update": "[2, 2]",
+      "description": "serpentine: dash array for the serpentine line"
+    },
+    {
+      "name": "reverse",
+      "description": "serpentine: boolean to indicate whether the scale for the timeline should be reversed",
+      "value": false
+    },
+    {
+      "name": "sPct",
+      "description": "serpentine: percentage of width for the straight portions of the timeline",
+      "value": 1,
+      "update": "sPct < 0.25 ? 0 : sPct < 0.75 ? 0.5 : 1"
+    },
+    {
+      "name": "sW",
+      "description": "serpentine: horizontal length of straight segments",
+      "update": "sPct*width"
+    },
+    {
+      "name": "sL",
+      "description": "serpentine: total length of line",
+      "update": "(sN+1)*sW+(sN)*sH*PI/2"
+    },
+    {
+      "name": "sA",
+      "description": "serpentine: length of an arc segment",
+      "update": "(sH*PI/2)"
+    },
+    {
+      "name": "sWsA",
+      "description": "serpentine: length of a line + arc segment",
+      "update": "(sW + sH*PI/2)"
+    },
+    {
+      "name": "sDomain",
+      "description": "serpentine: domain for the serpentine scale",
+      "init": "domain ? domain : [+extent(pluck(data('dataset'), 'domain'))[0], +extent(pluck(data('dataset'), 'domain'))[1]]"
+    },
+    {
+      "name": "hoverFocus",
+      "value": 0,
+      "on": [
+        {
+          "events": {
+            "type": "mouseover"
+          },
+          "update": "isValid(datum) && isValid(isValid(datum['domain'])) ? datum : null"
+        },
+        {
+          "events": {
+            "type": "mouseout"
+          },
+          "update": "null"
+        }
+      ]
+    },
+    {
+      "name": "cursor",
+      "value": "default",
+      "on": [
+        {
+          "events": {
+            "type": "mouseover"
+          },
+          "update": "'pointer'"
+        },
+        {
+          "events": {
+            "type": "mouseout"
+          },
+          "update": "'default'"
+        }
+      ]
+    },
+    {
+      "name": "height",
+      "description": "calculated height",
+      "update": "extent(pluck(data('serpentine'), 'y'))[1]"
     }
-  ]
-}
-,
-      {
-        "name": "height",
-        "description": "calculated height",
-        "update": "extent(pluck(data('serpentine'), 'y'))[1]"
+  ],
+  "scales": [
+    {
+      "name": "sS1",
+      "type": "linear",
+      "zero": false,
+      "reverse": {
+        "signal": "reverse"
+      },
+      "domain": {
+        "signal": "sDomain"
+      },
+      "range": {
+        "signal": "sRange"
       }
-    ],
-    "scales": [
-      {
-        "name": "sS1",
-        "type": "linear",
-        "zero": false,
-        "reverse": {"signal": "reverse"},
-        "domain": {"signal": "sDomain"},
-        "range": {"signal": "sRange"}
-      }
-      
-    ],
-    "marks": [
-      {
-        "name": "axis_group",
-        "description": "group containing all the axis marks - annotations, domain, arrow indicators, tick lines, tick labels on straightaways, tick labels on arcs",
-        "type": "group",
-        "marks": [
-          {
-            "name": "annotations",
-            "description": "Text marks that appear at the start and end of the timeline. Configured using the 'annotations' signal",
-            "from": {"data": "domain_extent"},
-            "on": [{"trigger": "annotations", "modify": "annotations"}],
-            "type": "text",
-            "interactive": false,
-            "encode": {
-              "update": {
-                "x": {"field": "x"},
-                "y": {"field": "y"},
-                "text": {
-                  "signal": "datum['category'] === 'start' ? annotations['start'] : annotations['end']"
-                },
-                "fontSize": {"value": 10},
-                "baseline": {"value": "middle"},
-                "align": {"field": "align"},
-                "angle": {"field": "angle"},
-                "dx": {"field": "dx"},
-                "dy": {"signal": "1"},
-                "fill": {"value": "gray"}
-              }
-            }
+    }
+  ],
+  "marks": [
+    {
+      "name": "axis_group",
+      "description": "group containing all the axis marks - annotations, domain, arrow indicators, tick lines, tick labels on straightaways, tick labels on arcs",
+      "type": "group",
+      "marks": [
+        {
+          "name": "annotations",
+          "description": "Text marks that appear at the start and end of the timeline. Configured using the 'annotations' signal",
+          "from": {
+            "data": "domain_extent"
           },
-          {
-            "name": "serpentine_line",
-            "description": "The serpentine-shaped line that acts as the axis domain line",
-            "type": "line",
-            "from": {"data": "serpentine"},
-            "interactive": false,
-            "encode": {
-              "update": {
-                "x": {"field": "x"},
-                "y": {"field": "y"},
-                "strokeDash": {"signal": "sD"},
-                "stroke": {"value": "#888"},
-                "strokeWidth": {"signal": "sT"}
-              }
+          "on": [
+            {
+              "trigger": "annotations",
+              "modify": "annotations"
             }
-          },
-          {
-            "name": "arrow_marks",
-            "description": "The arrows to indicate direction that appear at the beginning and end of each arc+straightaway combonation",
-            "type": "text",
-            "from": {"data": "segment_ends"},
-            "interactive": false,
-            "encode": {
-              "update": {
-                "x": {"field": "x"},
-                "y": {"field": "y"},
-                "dy": {"value": 1},
-                "text": {"value": "➤"},
-                "fontSize": {"signal": "18"},
-                "fill": {"value": "#000"},
-                "stroke": {"value": "#fff"},
-                "strokeWidth": {"value": 1},
-                "angle": {"signal": "datum['direction'] === '→' ? 0 : 180"},
-                "align": {"value": "center"},
-                "baseline": {"value": "middle"}
-              }
-            }
-          },
-          {
-            "name": "tick_marks",
-            "description": "The line (text mark) designated to each tick",
-            "from": {"data": "ticks"},
-            "type": "text",
-            "interactive": false,
-            "encode": {
-              "update": {
-                "x": {"field": "x"},
-                "y": {"field": "y"},
-                "dy": {
-                  "signal": "2.5*( datum['type'] === 'straight' ? 1 : datum['side'] === 'right' ? (round(datum['alpha']*(180/PI)) >= 90 ? -1 : 4) : (round(datum['alpha']*(180/PI)) > 89 ? -1 : 4))"
-                },
-                "text": {"signal": "'|'"},
-                "fontSize": {"signal": "7"},
-                "fill": {"value": "#000"},
-                "angle": {"field": "labelAngle"},
-                "align": {"value": "center"},
-                "baseline": {
-                  "signal": "datum['type'] === 'straight' ? 'top' : 'bottom'"
-                }
-              }
-            }
-          },
-          {
-            "name": "tick_labels_straight",
-            "description": "The straightaway tick labels",
-            "from": {"data": "ticks"},
-            "type": "text",
-            "interactive": false,
-            "encode": {
-              "update": {
-                "x": {"field": "x"},
-                "y": {"field": "y"},
-                "dy": {"field": "dy"},
-                "text": {"field": "domain"},
-                "fontSize": {"signal": "10"},
-                "fill": {"value": "#000"},
-                "align": {"value": "center"},
-                "angle": {"field": "labelAngle"},
-                "baseline": {"signal": "datum['type'] === 'straight' ? 'top' : 'bottom'"}
+          ],
+          "type": "text",
+          "interactive": false,
+          "encode": {
+            "update": {
+              "x": {
+                "field": "x"
+              },
+              "y": {
+                "field": "y"
+              },
+              "text": {
+                "signal": "datum['category'] === 'start' ? annotations['start'] : annotations['end']"
+              },
+              "fontSize": {
+                "value": 10
+              },
+              "baseline": {
+                "value": "middle"
+              },
+              "align": {
+                "field": "align"
+              },
+              "angle": {
+                "field": "angle"
+              },
+              "dx": {
+                "field": "dx"
+              },
+              "dy": {
+                "signal": "1"
+              },
+              "fill": {
+                "value": "gray"
               }
             }
           }
-        ]
-      },
-      {
-        "name": "milestone_connecting_lines",
-        "description": "The milestone lines that connect the markers to labels",
-        "from": {"data": "milestones"},
-        "type": "text",
-        "interactive": false,
-        "encode": {
-          "update": {
-            "text": {"signal": "'|'"},
-            "x": {"field": "x"},
-            "y": {"field": "y"},
-            "fontSize": {"value": 1},
-            "fontWeight": {"value": 10},
-            "dy": {
-              "signal": "datum['type'] === 'arc' && (round(datum['alpha']*(180/PI)) > 89) ? 0.35 * (mO+3.5) : datum['dy']/2"
-            },
-            "align": {"value": "center"},
-            "baseline": {"value": "middle"},
-            "angle": {"field": "labelAngle"},
-            "fillOpacity": {"value": 0.35},
-            "opacity": {
-              "signal": "isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 1 : labelsOnHover ? 0 : 1"
+        },
+        {
+          "name": "serpentine_line",
+          "description": "The serpentine-shaped line that acts as the axis domain line",
+          "type": "line",
+          "from": {
+            "data": "serpentine"
+          },
+          "interactive": false,
+          "encode": {
+            "update": {
+              "x": {
+                "field": "x"
+              },
+              "y": {
+                "field": "y"
+              },
+              "strokeDash": {
+                "signal": "sD"
+              },
+              "stroke": {
+                "value": "#888"
+              },
+              "strokeWidth": {
+                "signal": "sT"
+              }
+            }
+          }
+        },
+        {
+          "name": "arrow_marks",
+          "description": "The arrows to indicate direction that appear at the beginning and end of each arc+straightaway combonation",
+          "type": "text",
+          "from": {
+            "data": "segment_ends"
+          },
+          "interactive": false,
+          "encode": {
+            "update": {
+              "x": {
+                "field": "x"
+              },
+              "y": {
+                "field": "y"
+              },
+              "dy": {
+                "value": 1
+              },
+              "text": {
+                "value": "➤"
+              },
+              "fontSize": {
+                "signal": "18"
+              },
+              "fill": {
+                "value": "#000"
+              },
+              "stroke": {
+                "value": "#fff"
+              },
+              "strokeWidth": {
+                "value": 1
+              },
+              "angle": {
+                "signal": "datum['direction'] === '→' ? 0 : 180"
+              },
+              "align": {
+                "value": "center"
+              },
+              "baseline": {
+                "value": "middle"
+              }
+            }
+          }
+        },
+        {
+          "name": "tick_marks",
+          "description": "The line (text mark) designated to each tick",
+          "from": {
+            "data": "ticks"
+          },
+          "type": "text",
+          "interactive": false,
+          "encode": {
+            "update": {
+              "x": {
+                "field": "x"
+              },
+              "y": {
+                "field": "y"
+              },
+              "dy": {
+                "signal": "2.5*( datum['type'] === 'straight' ? 1 : datum['side'] === 'right' ? (round(datum['alpha']*(180/PI)) >= 90 ? -1 : 4) : (round(datum['alpha']*(180/PI)) > 89 ? -1 : 4))"
+              },
+              "text": {
+                "signal": "'|'"
+              },
+              "fontSize": {
+                "signal": "7"
+              },
+              "fill": {
+                "value": "#000"
+              },
+              "angle": {
+                "field": "labelAngle"
+              },
+              "align": {
+                "value": "center"
+              },
+              "baseline": {
+                "signal": "datum['type'] === 'straight' ? 'top' : 'bottom'"
+              }
+            }
+          }
+        },
+        {
+          "name": "tick_labels_straight",
+          "description": "The straightaway tick labels",
+          "from": {
+            "data": "ticks"
+          },
+          "type": "text",
+          "interactive": false,
+          "encode": {
+            "update": {
+              "x": {
+                "field": "x"
+              },
+              "y": {
+                "field": "y"
+              },
+              "dy": {
+                "field": "dy"
+              },
+              "text": {
+                "field": "domain"
+              },
+              "fontSize": {
+                "signal": "10"
+              },
+              "fill": {
+                "value": "#000"
+              },
+              "align": {
+                "value": "center"
+              },
+              "angle": {
+                "field": "labelAngle"
+              },
+              "baseline": {
+                "signal": "datum['type'] === 'straight' ? 'top' : 'bottom'"
+              }
             }
           }
         }
+      ]
+    },
+    {
+      "name": "milestone_connecting_lines",
+      "description": "The milestone lines that connect the markers to labels",
+      "from": {
+        "data": "milestones"
       },
-     {
-  "name": "milestone_markers",
-  "description": "The milestone timeline markers",
-  "from": {"data": "milestones"},
-  "type": "symbol",
-  "interactive": true,
-  "encode": {
-    "update": {
-      "x": {"field": "x"},
-      "y": {"field": "y"},
-      "size": {"signal": "(10 + 50 * datum['eventCount'])"},
-      "fill": {
-        "signal": "labelsOnHover ? isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 'firebrick' : '#38383B' : 'firebrick'"
+      "type": "text",
+      "interactive": false,
+      "encode": {
+        "update": {
+          "text": {
+            "signal": "'|'"
+          },
+          "x": {
+            "field": "x"
+          },
+          "y": {
+            "field": "y"
+          },
+          "fontSize": {
+            "value": 1
+          },
+          "fontWeight": {
+            "value": 10
+          },
+          "dy": {
+            "signal": "datum['type'] === 'arc' && (round(datum['alpha']*(180/PI)) > 89) ? 0.35 * (mO+3.5) : datum['dy']/2"
+          },
+          "align": {
+            "value": "center"
+          },
+          "baseline": {
+            "value": "middle"
+          },
+          "angle": {
+            "field": "labelAngle"
+          },
+          "fillOpacity": {
+            "value": 0.35
+          },
+          "opacity": {
+            "signal": "isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 1 : labelsOnHover ? 0 : 1"
+          }
+        }
+      }
+    },
+    {
+      "name": "milestone_markers",
+      "description": "The milestone timeline markers",
+      "from": {
+        "data": "milestones"
       },
-      "stroke": {
-        "signal": "labelsOnHover ? isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? '#fff' : 'firebrick' : '#fff'"
+      "type": "symbol",
+      "interactive": true,
+      "encode": {
+        "update": {
+          "x": {
+            "field": "x"
+          },
+          "y": {
+            "field": "y"
+          },
+          "size": {
+            "signal": "(10 + 50 * datum['eventCount'])"
+          },
+          "fill": {
+            "signal": "labelsOnHover ? isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 'firebrick' : '#38383B' : 'firebrick'"
+          },
+          "stroke": {
+            "signal": "labelsOnHover ? isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? '#fff' : 'firebrick' : '#fff'"
+          },
+          "strokeWidth": {
+            "signal": "labelsOnHover ? 1 : 2"
+          },
+          "cursor": {
+            "signal": "isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 'pointer' : 'default'"
+          }
+        }
+      }
+    },
+    {
+      "name": "milestone_label_backgrounds",
+      "description": "The white backgrounds for milestone labels",
+      "from": {
+        "data": "milestones"
       },
-      "strokeWidth": {"signal": "labelsOnHover ? 1 : 2"},
-      "cursor": {"signal": "isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 'pointer' : 'default'"}
+      "type": "rect",
+      "interactive": false,
+      "aria": false,
+      "encode": {
+        "update": {
+          "x": {
+            "field": "x",
+            "offset": -72
+          },
+          "y": {
+            "field": "y",
+            "offset": -12
+          },
+          "width": {
+            "signal": "max(150, min(15, length(split(datum['label'], ','))) * 8 + 50)"
+          },
+          "height": {
+            "signal": "(min(15, length(split(datum['label'], ','))) + 1) * 12.8"
+          },
+          "fill": {
+            "value": "#fff"
+          },
+          "stroke": {
+            "value": "#fff"
+          },
+          "strokeWidth": {
+            "value": 0
+          },
+          "opacity": {
+            "signal": "isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 1 : labelsOnHover ? 0 : 1"
+          }
+        }
+      }
+    },
+    {
+      "name": "milestone_labels",
+      "description": "The milestone labels",
+      "from": {
+        "data": "milestones"
+      },
+      "type": "text",
+      "interactive": false,
+      "encode": {
+        "update": {
+          "x": {
+            "field": "x"
+          },
+          "y": {
+            "field": "y"
+          },
+          "text": {
+            "signal": "datum['domain'] + ' - ' + datum['displayLabel']"
+          },
+          "lineBreak": {
+            "value": ", "
+          },
+          "fontSize": {
+            "signal": "10"
+          },
+          "fill": {
+            "value": "firebrick"
+          },
+          "align": {
+            "value": "center"
+          },
+          "baseline": {
+            "signal": "datum['type'] === 'straight' ? 'top' : 'bottom'"
+          },
+          "opacity": {
+            "signal": "isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 1 : labelsOnHover ? 0 : 1"
+          }
+        }
+      }
     }
+  ],
+  "data": [
+    {
+      "name": "dataset",
+      "values": [
+        {
+          "domain": 1837,
+          "label": "Amorphophallus bulbifer, Amorphophallus consimilis, Amorphophallus margaritifer, Amorphophallus muelleri, Amorphophallus variabilis"
+        },
+        {
+          "domain": 1841,
+          "label": "Amorphophallus lyratus, Amorphophallus sylvaticus"
+        },
+        {
+          "domain": 1858,
+          "label": "Amorphophallus konjac"
+        },
+        {
+          "domain": 1862,
+          "label": "Amorphophallus gigas, Amorphophallus hirsutus"
+        },
+        {
+          "domain": 1878,
+          "label": "Amorphophallus lacourii"
+        },
+        {
+          "domain": 1879,
+          "label": "Amorphophallus commutatus, Amorphophallus spectabilis, Amorphophallus titanum"
+        },
+        {
+          "domain": 1880,
+          "label": "Amorphophallus beccarii, Amorphophallus gracilis"
+        },
+        {
+          "domain": 1889,
+          "label": "Amorphophallus eichleri"
+        },
+        {
+          "domain": 1892,
+          "label": "Amorphophallus teuszii"
+        },
+        {
+          "domain": 1893,
+          "label": "Amorphophallus chlorospathus, Amorphophallus elatus, Amorphophallus galbra, Amorphophallus haematospadix, Amorphophallus longistylus, Amorphophallus oncophyllus, Amorphophallus prainii, Amorphophallus purpurascens, Amorphophallus sparsiflorus"
+        },
+        {
+          "domain": 1894,
+          "label": "Amorphophallus elliottii"
+        },
+        {
+          "domain": 1898,
+          "label": "Amorphophallus cruddasianus"
+        },
+        {
+          "domain": 1901,
+          "label": "Amorphophallus abyssinicus, Amorphophallus angolensis, Amorphophallus baumannii, Amorphophallus calabaricus, Amorphophallus dracontioides, Amorphophallus gallaensis, Amorphophallus goetzei, Amorphophallus johnsonii, Amorphophallus maximus, Amorphophallus mossambicensis, Amorphophallus preussii, Amorphophallus staudtii, Amorphophallus zenkeri"
+        },
+        {
+          "domain": 1903,
+          "label": "Amorphophallus henryi, Amorphophallus hirtus"
+        },
+        {
+          "domain": 1904,
+          "label": "Amorphophallus carneus, Amorphophallus minor"
+        },
+        {
+          "domain": 1909,
+          "label": "Amorphophallus bufo"
+        },
+        {
+          "domain": 1911,
+          "label": "Amorphophallus asper, Amorphophallus borneensis, Amorphophallus carnosus, Amorphophallus forbesii, Amorphophallus harmandii, Amorphophallus hildebrandtii, Amorphophallus interruptus, Amorphophallus kachinensis, Amorphophallus krausei, Amorphophallus longicomus, Amorphophallus longiconnectivus, Amorphophallus longispathaceus, Amorphophallus mekongensis, Amorphophallus stuhlmannii, Amorphophallus tonkinensis, Amorphophallus yunnanensis"
+        },
+        {
+          "domain": 1912,
+          "label": "Amorphophallus macrorhizus, Amorphophallus merrillii"
+        },
+        {
+          "domain": 1913,
+          "label": "Amorphophallus kiusianus"
+        },
+        {
+          "domain": 1915,
+          "label": "Amorphophallus luzoniensis"
+        },
+        {
+          "domain": 1920,
+          "label": "Amorphophallus decus-silvae, Amorphophallus discophorus, Amorphophallus hewittii, Amorphophallus paucisectus, Amorphophallus subcymbiformis"
+        },
+        {
+          "domain": 1922,
+          "label": "Amorphophallus bequaertii, Amorphophallus elegans, Amorphophallus incurvatus, Amorphophallus obovoideus"
+        },
+        {
+          "domain": 1924,
+          "label": "Amorphophallus cirrifer, Amorphophallus mildbraedii"
+        },
+        {
+          "domain": 1936,
+          "label": "Amorphophallus aphyllus, Amorphophallus plicatus"
+        },
+        {
+          "domain": 1939,
+          "label": "Amorphophallus gracilior"
+        },
+        {
+          "domain": 1940,
+          "label": "Amorphophallus mysorensis"
+        },
+        {
+          "domain": 1941,
+          "label": "Amorphophallus bangkokensis, Amorphophallus brevispathus, Amorphophallus koratensis, Amorphophallus linearis, Amorphophallus napiger, Amorphophallus putii, Amorphophallus saraburensis"
+        },
+        {
+          "domain": 1950,
+          "label": "Amorphophallus gomboczianus"
+        },
+        {
+          "domain": 1953,
+          "label": "Amorphophallus sagittarius"
+        },
+        {
+          "domain": 1977,
+          "label": "Amorphophallus paeoniifolius"
+        },
+        {
+          "domain": 1982,
+          "label": "Amorphophallus lambii"
+        },
+        {
+          "domain": 1985,
+          "label": "Amorphophallus echinatus, Amorphophallus sumawongii"
+        },
+        {
+          "domain": 1986,
+          "label": "Amorphophallus coaetaneus, Amorphophallus coudercii, Amorphophallus napalensis, Amorphophallus nicolsonianus, Amorphophallus pendulus"
+        },
+        {
+          "domain": 1988,
+          "label": "Amorphophallus yuloensis"
+        },
+        {
+          "domain": 1989,
+          "label": "Amorphophallus eburneus, Amorphophallus smithsonianus"
+        },
+        {
+          "domain": 1992,
+          "label": "Amorphophallus asterostigmatus, Amorphophallus hottae, Amorphophallus palawanensis"
+        },
+        {
+          "domain": 1993,
+          "label": "Amorphophallus lewallei, Amorphophallus mullendersii"
+        },
+        {
+          "domain": 1994,
+          "label": "Amorphophallus aberrans, Amorphophallus albispathus, Amorphophallus angulatus, Amorphophallus angustispathus, Amorphophallus annulifer, Amorphophallus bonaccordensis, Amorphophallus cicatricifer, Amorphophallus costatus, Amorphophallus curvistylis, Amorphophallus excentricus, Amorphophallus glossophyllus, Amorphophallus hayi, Amorphophallus infundibuliformis, Amorphophallus konkanensis, Amorphophallus lanuginosus, Amorphophallus linguiformis, Amorphophallus maxwellii, Amorphophallus opertus, Amorphophallus pilosus, Amorphophallus pusillus, Amorphophallus pygmaeus, Amorphophallus rhizomatosus, Amorphophallus rostratus, Amorphophallus rugosus, Amorphophallus salmoneus, Amorphophallus scaber, Amorphophallus tenuispadix, Amorphophallus tenuistylis"
+        },
+        {
+          "domain": 1995,
+          "label": "Amorphophallus longiconnectivus"
+        },
+        {
+          "domain": 1997,
+          "label": "Amorphophallus canaliculatus, Amorphophallus impressus, Amorphophallus margretae, Amorphophallus richardsiae"
+        },
+        {
+          "domain": 1999,
+          "label": "Amorphophallus ankarana, Amorphophallus antsingyensis, Amorphophallus taurostigma"
+        },
+        {
+          "domain": 2001,
+          "label": "Amorphophallus allenii, Amorphophallus atroviridis, Amorphophallus boyceanus, Amorphophallus brachyphyllus, Amorphophallus dzui, Amorphophallus longicomus, Amorphophallus obscurus, Amorphophallus ochroleucus, Amorphophallus polyanthus, Amorphophallus saururus, Amorphophallus scutatus, Amorphophallus sizemoreae, Amorphophallus symonianus, Amorphophallus synandrifer, Amorphophallus tinekeae, Amorphophallus venustus"
+        },
+        {
+          "domain": 2003,
+          "label": "Amorphophallus mangelsdorffii, Amorphophallus sinuatus, Amorphophallus vogelianus"
+        },
+        {
+          "domain": 2004,
+          "label": "Amorphophallus julaihii"
+        },
+        {
+          "domain": 2006,
+          "label": "Amorphophallus andranogidroensis, Amorphophallus croatii, Amorphophallus erythrororrhachis, Amorphophallus fuscus, Amorphophallus gallowayi, Amorphophallus glaucophyllus, Amorphophallus josefbogneri, Amorphophallus laoticus, Amorphophallus lunatus, Amorphophallus myosuroides, Amorphophallus prolificus, Amorphophallus reflexus, Amorphophallus serrulatus, Amorphophallus tuberculatus, Amorphophallus xiei"
+        },
+        {
+          "domain": 2007,
+          "label": "Amorphophallus ranchanensis"
+        },
+        {
+          "domain": 2009,
+          "label": "Amorphophallus bognerianus"
+        },
+        {
+          "domain": 2010,
+          "label": "Amorphophallus juliae, Amorphophallus niahensis, Amorphophallus suwidjianus"
+        },
+        {
+          "domain": 2012,
+          "label": "Amorphophallus arcuspadix, Amorphophallus bolikhamxayensis, Amorphophallus brevipetiolatus, Amorphophallus fallax, Amorphophallus ferruginosus, Amorphophallus kuznetsovii, Amorphophallus lanceolatus, Amorphophallus macrophyllus, Amorphophallus natolii, Amorphophallus terrestris, Amorphophallus thaiensis"
+        },
+        {
+          "domain": 2013,
+          "label": "Amorphophallus adamsensis, Amorphophallus hemicryptus, Amorphophallus nicolaii, Amorphophallus pulchellus"
+        },
+        {
+          "domain": 2014,
+          "label": "Amorphophallus perrieri"
+        },
+        {
+          "domain": 2015,
+          "label": "Amorphophallus barbatus, Amorphophallus claudelii, Amorphophallus khammouanensis"
+        },
+        {
+          "domain": 2016,
+          "label": "Amorphophallus bubenensis, Amorphophallus kienluongensis"
+        },
+        {
+          "domain": 2017,
+          "label": "Amorphophallus candidissimus, Amorphophallus shyamsalilianus"
+        },
+        {
+          "domain": 2018,
+          "label": "Amorphophallus flotoi, Amorphophallus ravenii"
+        },
+        {
+          "domain": 2019,
+          "label": "Amorphophallus crinitus, Amorphophallus malkmus-husseinii, Amorphophallus umbrinus, Amorphophallus villosus"
+        },
+        {
+          "domain": 2020,
+          "label": "Amorphophallus ardii, Amorphophallus caudatus, Amorphophallus cidarioides, Amorphophallus fornicatus, Amorphophallus mayoi, Amorphophallus rayongii, Amorphophallus urceolatus, Amorphophallus yaoi"
+        },
+        {
+          "domain": 2021,
+          "label": "Amorphophallus calcicola, Amorphophallus minimus"
+        },
+        {
+          "domain": 2022,
+          "label": "Amorphophallus dumboi, Amorphophallus flammeus, Amorphophallus fontarumii, Amorphophallus wasa, Amorphophallus mayoi"
+        },
+        {
+          "domain": 2023,
+          "label": "Amorphophallus opalinus, Amorphophallus sakonnakhonensis"
+        }
+      ]
+    },
+    {
+      "name": "serpentineDomain",
+      "values": [
+        {}
+      ],
+      "transform": [
+        {
+          "type": "formula",
+          "expr": "sequence(sDomain[0],sDomain[1], 0.1 )",
+          "as": "domain"
+        },
+        {
+          "type": "flatten",
+          "fields": [
+            "domain"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "milestoneDomain",
+      "source": "dataset",
+      "transform": [
+        {
+          "type": "project",
+          "fields": [
+            "domain"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tickDomain",
+      "values": [
+        {}
+      ],
+      "transform": [
+        {
+          "type": "formula",
+          "expr": "sequence(1,tC+1, 1)",
+          "as": "id"
+        },
+        {
+          "type": "flatten",
+          "fields": [
+            "id"
+          ]
+        },
+        {
+          "type": "formula",
+          "expr": "datum['id'] === 1 ? sDomain[0] : datum['id'] === tC ? sDomain[1] : null",
+          "as": "domain"
+        },
+        {
+          "type": "formula",
+          "expr": "round(isValid(datum['domain']) ? datum['domain'] : (sDomain[0] + (sDomain[1]-sDomain[0])*((datum['id']-1)/(tC-1))))",
+          "as": "domain"
+        },
+        {
+          "type": "project",
+          "fields": [
+            "domain"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "componentEncodings",
+      "values": [
+        {
+          "category": "start"
+        },
+        {
+          "category": "serpentine"
+        },
+        {
+          "category": "milestone"
+        },
+        {
+          "category": "tick"
+        },
+        {
+          "category": "end"
+        }
+      ],
+      "transform": [
+        {
+          "type": "formula",
+          "expr": "now()",
+          "as": "timestamp"
+        },
+        {
+          "type": "formula",
+          "expr": "datum['category'] === 'start' ? [sDomain[reverse ? 1 : 0]] : datum['category'] === 'serpentine' ? pluck(data('serpentineDomain'), 'domain') : datum['category'] === 'milestone' ? pluck(data('dataset'), 'domain') : datum['category']==='tick' ? pluck(data('tickDomain'), 'domain') : datum['category'] === 'end' ? [sDomain[reverse ? 0 : 1]] : null",
+          "as": "domain"
+        },
+        {
+          "type": "flatten",
+          "fields": [
+            "domain"
+          ]
+        },
+        {
+          "type": "formula",
+          "expr": "+datum['domain']",
+          "as": "domain"
+        },
+        {
+          "type": "window",
+          "ops": [
+            "row_number"
+          ],
+          "sort": {
+            "field": "domain"
+          },
+          "groupby": [
+            "category"
+          ],
+          "as": [
+            "id"
+          ]
+        },
+        {
+          "type": "formula",
+          "expr": "scale('sS1', datum['domain'])",
+          "as": "sK"
+        },
+        {
+          "type": "formula",
+          "expr": "floor(datum['sK'] / (sW + sH*PI/2))",
+          "as": "i"
+        },
+        {
+          "type": "formula",
+          "expr": "datum['sK'] % (sW + sH*PI/2)",
+          "as": "r"
+        },
+        {
+          "type": "formula",
+          "expr": "(datum['r'] - sW)/(sH/2)",
+          "as": "alpha"
+        },
+        {
+          "type": "formula",
+          "expr": "(((datum['i']+1)*sWsA)-sA) >= datum['sK'] ? 'straight' : 'arc'",
+          "as": "type"
+        },
+        {
+          "type": "formula",
+          "expr": "(datum['i']%2 == 0) ? min(datum['r'],sW) : max(sW-datum['r'], 0)",
+          "as": "xStraight"
+        },
+        {
+          "type": "formula",
+          "expr": "datum['type'] === 'straight' ? datum['xStraight'] : datum['xStraight'] + (datum['i']%2 == 0 ? sin(datum['alpha'])*sH/2 : -sin(datum['alpha'])*sH/2)",
+          "as": "x"
+        },
+        {
+          "type": "formula",
+          "expr": "datum['type'] === 'straight' ? datum['i']*sH : (datum['i']*sH) + (1 - cos(datum['alpha']))*sH/2",
+          "as": "y"
+        },
+        {
+          "type": "formula",
+          "expr": "datum['type'] === 'straight' ? null : datum['i']%2===0?'right':'left'",
+          "as": "side"
+        },
+        {
+          "type": "formula",
+          "expr": "datum['type'] === 'straight' ? null : datum['alpha']<PI/2?'top':'bottom'",
+          "as": "hemisphere"
+        },
+        {
+          "type": "formula",
+          "expr": "datum['type'] === 'straight' ? 0 : (datum['side'] === 'left' ? -1 : 1) *datum['alpha']*(180/PI)+(datum['alpha'] < PI/2 ? 0 : 180)",
+          "as": "labelAngle"
+        },
+        {
+          "type": "formula",
+          "expr": "datum['i']%2===0 ?'→':'←'",
+          "as": "direction"
+        },
+        {
+          "type": "formula",
+          "expr": "datum['type'] === 'straight' ? datum['direction'] : datum['side'] === 'left' ? datum['hemisphere'] === 'top'? '←' : '→' :  datum['hemisphere'] === 'top'? '→' : '←'",
+          "as": "direction"
+        }
+      ]
+    },
+    {
+      "name": "serpentine",
+      "source": "componentEncodings",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "datum['category'] === 'serpentine'"
+        }
+      ]
+    },
+    {
+      "name": "ticks",
+      "source": "componentEncodings",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "datum['category'] === 'tick'"
+        },
+        {
+          "type": "formula",
+          "expr": "!isValid(datum['side']) ? (tLO+3.5) : datum['side'] === 'right' ? (round(datum['alpha']*(180/PI)) >= 90 ? -1 : 1.75) * (tLO+3.5) : (round(datum['alpha']*(180/PI)) > 89 ? -1 : 1.75) * (tLO+3.5)",
+          "as": "dy"
+        }
+      ]
+    },
+    {
+      "name": "domain_extent",
+      "source": "componentEncodings",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "datum['category'] === 'start' || datum['category'] === 'end'"
+        },
+        {
+          "type": "formula",
+          "expr": "datum['category'] === 'start' ? 'right' : datum['direction'] === '←' && datum['type'] === 'straight' ? 'right' : datum['side'] === 'left' ? 'right' : 'left'",
+          "as": "align"
+        },
+        {
+          "type": "formula",
+          "expr": "datum['category'] === 'start' ? -tLO-5 :  datum['direction'] === '←'  && datum['type'] === 'straight' ? -tLO-5 : datum['side'] === 'left' ? -tLO-5 : tLO+5",
+          "as": "dx"
+        }
+      ]
+    },
+    {
+      "name": "segment_ends",
+      "source": "componentEncodings",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "includeArrows && datum['category'] === 'serpentine'"
+        },
+        {
+          "type": "joinaggregate",
+          "fields": [
+            "id",
+            "id"
+          ],
+          "ops": [
+            "min",
+            "max"
+          ],
+          "groupby": [
+            "i"
+          ],
+          "as": [
+            "minId",
+            "maxId"
+          ]
+        },
+        {
+          "type": "filter",
+          "expr": "datum['id'] === (reverse ? datum['maxId'] : datum['minId'])"
+        }
+      ]
+    },
+    {
+      "name": "milestones",
+      "source": "componentEncodings",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "datum['category'] === 'milestone'"
+        },
+        {
+          "type": "lookup",
+          "key": "domain",
+          "from": "dataset",
+          "fields": [
+            "domain"
+          ],
+          "values": [
+            "label",
+            "color"
+          ]
+        },
+        {
+          "type": "formula",
+          "expr": "(isValid(hoverFocus) && hoverFocus['domain'] === datum['domain']) ? 1 : (isValid(hoverFocus) && hoverFocus['domain'] !== datum['domain']) ? 0.4 : 0",
+          "as": "fillOpacity"
+        },
+        {
+          "type": "formula",
+          "expr": "min(15, length(split(datum['label'], ',')))",
+          "as": "eventCount"
+        },
+        {
+          "type": "window",
+          "ops": [
+            "row_number"
+          ],
+          "sort": {
+            "field": "domain"
+          },
+          "as": [
+            "id"
+          ]
+        },
+        {
+          "type": "formula",
+          "expr": "10 + 200 * datum['eventCount']",
+          "as": "size"
+        },
+        {
+          "type": "formula",
+          "expr": "length(split(datum['label'], ',')) > 15 ? join(slice(split(datum['label'], ','), 0, 15), ',') + ', +' + (length(split(datum['label'], ',')) - 15) + ' more' : datum['label']",
+          "as": "displayLabel"
+        },
+        {
+          "type": "collect",
+          "sort": {
+            "field": "size",
+            "order": "descending"
+          }
+        }
+      ]
+    }
+  ],
+  "autosize": {
+    "type": "none"
   }
 }
-
-
-,
-      {
-  "name": "milestone_label_backgrounds",
-  "description": "The white backgrounds for milestone labels",
-  "from": {"data": "milestones"},
-  "type": "rect", 
-  "interactive": false,
-  "aria": false,
-  "encode": {
-    "update": {
-      "x": {"field": "x", "offset": -72},
-      "y": {"field": "y", "offset": -12},
-      "width": {
-        "signal": "max(150, min(15, length(split(datum['label'], ','))) * 8 + 50)" 
-      }, 
-      "height": {
-        "signal": "(min(15, length(split(datum['label'], ','))) + 1) * 12.8" 
-      },
-      "fill": {"value": "#fff"},
-      "stroke": {"value": "#fff"},
-      "strokeWidth": {"value": 0},
-      "opacity": {
-        "signal": "isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 1 : labelsOnHover ? 0 : 1"
-      }
-    }
-  }
-}
-
-,
-       {
-        "name": "milestone_labels",
-        "description": "The milestone labels",
-        "from": {"data": "milestones"},
-        "type": "text",
-        "interactive": false,
-        "encode": {
-          "update": {
-            "x": {"field": "x"},
-            "y": {"field": "y"},
-          
-            "text": {"signal": "datum['domain'] + ' - ' + datum['label']"},
-            "lineBreak": {"value": ", "},
-            "fontSize": {"signal": "10"},
-            "fill": {"value": "firebrick"},
-            "align": {"value": "center"},
-            "baseline": {
-              "signal": "datum['type'] === 'straight' ? 'top' : 'bottom'"
-            },
-            "opacity": {
-              "signal": "isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 1 : labelsOnHover ? 0 : 1"
-            }
-          }
-        }
-      }
-    ],
-    "data": [
-      {
-        "name": "dataset",
-        "values": [
-{"domain": 1837, "label": "Amorphophallus bulbifer, Amorphophallus consimilis, Amorphophallus margaritifer, Amorphophallus muelleri, Amorphophallus variabilis"},
-{"domain": 1841, "label": "Amorphophallus lyratus, Amorphophallus sylvaticus"},
-{"domain": 1858, "label": "Amorphophallus konjac"},
-{"domain": 1862, "label": "Amorphophallus gigas, Amorphophallus hirsutus"},
-{"domain": 1878, "label": "Amorphophallus lacourii"},
-{"domain": 1879, "label": "Amorphophallus commutatus, Amorphophallus spectabilis, Amorphophallus titanum"},
-{"domain": 1880, "label": "Amorphophallus beccarii, Amorphophallus gracilis"},
-{"domain": 1889, "label": "Amorphophallus eichleri"},
-{"domain": 1892, "label": "Amorphophallus teuszii"},
-{"domain": 1893, "label": "Amorphophallus chlorospathus, Amorphophallus elatus, Amorphophallus galbra, Amorphophallus haematospadix, Amorphophallus longistylus, Amorphophallus oncophyllus, Amorphophallus prainii, Amorphophallus purpurascens, Amorphophallus sparsiflorus"},
-{"domain": 1894, "label": "Amorphophallus elliottii"},
-{"domain": 1898, "label": "Amorphophallus cruddasianus"},
-{"domain": 1901, "label": "Amorphophallus abyssinicus, Amorphophallus angolensis, Amorphophallus baumannii, Amorphophallus calabaricus, Amorphophallus dracontioides, Amorphophallus gallaensis, Amorphophallus goetzei, Amorphophallus johnsonii, Amorphophallus maximus, Amorphophallus mossambicensis, Amorphophallus preussii, Amorphophallus staudtii, Amorphophallus zenkeri"},
-{"domain": 1903, "label": "Amorphophallus henryi, Amorphophallus hirtus"},
-{"domain": 1904, "label": "Amorphophallus carneus, Amorphophallus minor"},
-{"domain": 1909, "label": "Amorphophallus bufo"},
-{"domain": 1911, "label": "Amorphophallus asper, Amorphophallus borneensis, Amorphophallus carnosus, Amorphophallus forbesii, Amorphophallus harmandii, Amorphophallus hildebrandtii, Amorphophallus interruptus, Amorphophallus kachinensis, Amorphophallus krausei, Amorphophallus longicomus, Amorphophallus longiconnectivus, Amorphophallus longispathaceus, Amorphophallus mekongensis, Amorphophallus stuhlmannii, Amorphophallus tonkinensis, Amorphophallus yunnanensis"},
-{"domain": 1912, "label": "Amorphophallus macrorhizus, Amorphophallus merrillii"},
-{"domain": 1913, "label": "Amorphophallus kiusianus"},
-{"domain": 1915, "label": "Amorphophallus luzoniensis"},
-{"domain": 1920, "label": "Amorphophallus decus-silvae, Amorphophallus discophorus, Amorphophallus hewittii, Amorphophallus paucisectus, Amorphophallus subcymbiformis"},
-{"domain": 1922, "label": "Amorphophallus bequaertii, Amorphophallus elegans, Amorphophallus incurvatus, Amorphophallus obovoideus"},
-{"domain": 1924, "label": "Amorphophallus cirrifer, Amorphophallus mildbraedii"},
-{"domain": 1936, "label": "Amorphophallus aphyllus, Amorphophallus plicatus"},
-{"domain": 1939, "label": "Amorphophallus gracilior"},
-{"domain": 1940, "label": "Amorphophallus mysorensis"},
-{"domain": 1941, "label": "Amorphophallus bangkokensis, Amorphophallus brevispathus, Amorphophallus koratensis, Amorphophallus linearis, Amorphophallus napiger, Amorphophallus putii, Amorphophallus saraburensis"},
-{"domain": 1950, "label": "Amorphophallus gomboczianus"},
-{"domain": 1953, "label": "Amorphophallus sagittarius"},
-{"domain": 1977, "label": "Amorphophallus paeoniifolius"},
-{"domain": 1982, "label": "Amorphophallus lambii"},
-{"domain": 1985, "label": "Amorphophallus echinatus, Amorphophallus sumawongii"},
-{"domain": 1986, "label": "Amorphophallus coaetaneus, Amorphophallus coudercii, Amorphophallus napalensis, Amorphophallus nicolsonianus, Amorphophallus pendulus"},
-{"domain": 1988, "label": "Amorphophallus yuloensis"},
-{"domain": 1989, "label": "Amorphophallus eburneus, Amorphophallus smithsonianus"},
-{"domain": 1992, "label": "Amorphophallus asterostigmatus, Amorphophallus hottae, Amorphophallus palawanensis"},
-{"domain": 1993, "label": "Amorphophallus lewallei, Amorphophallus mullendersii"},
-{"domain": 1994, "label": "Amorphophallus aberrans, Amorphophallus albispathus, Amorphophallus angulatus, Amorphophallus angustispathus, Amorphophallus annulifer, Amorphophallus bonaccordensis, Amorphophallus cicatricifer, Amorphophallus costatus, Amorphophallus curvistylis, Amorphophallus excentricus, Amorphophallus glossophyllus, Amorphophallus hayi, Amorphophallus infundibuliformis, Amorphophallus konkanensis, Amorphophallus lanuginosus, Amorphophallus linguiformis, Amorphophallus maxwellii, Amorphophallus opertus, Amorphophallus pilosus, Amorphophallus pusillus, Amorphophallus pygmaeus, Amorphophallus rhizomatosus, Amorphophallus rostratus, Amorphophallus rugosus, Amorphophallus salmoneus, Amorphophallus scaber, Amorphophallus tenuispadix, Amorphophallus tenuistylis"},
-{"domain": 1995, "label": "Amorphophallus longiconnectivus"},
-{"domain": 1997, "label": "Amorphophallus canaliculatus, Amorphophallus impressus, Amorphophallus margretae, Amorphophallus richardsiae"},
-{"domain": 1999, "label": "Amorphophallus ankarana, Amorphophallus antsingyensis, Amorphophallus taurostigma"},
-{"domain": 2001, "label": "Amorphophallus allenii, Amorphophallus atroviridis, Amorphophallus boyceanus, Amorphophallus brachyphyllus, Amorphophallus dzui, Amorphophallus longicomus, Amorphophallus obscurus, Amorphophallus ochroleucus, Amorphophallus polyanthus, Amorphophallus saururus, Amorphophallus scutatus, Amorphophallus sizemoreae, Amorphophallus symonianus, Amorphophallus synandrifer, Amorphophallus tinekeae, Amorphophallus venustus"},
-{"domain": 2003, "label": "Amorphophallus mangelsdorffii, Amorphophallus sinuatus, Amorphophallus vogelianus"},
-{"domain": 2004, "label": "Amorphophallus julaihii"},
-{"domain": 2006, "label": "Amorphophallus andranogidroensis, Amorphophallus croatii, Amorphophallus erythrororrhachis, Amorphophallus fuscus, Amorphophallus gallowayi, Amorphophallus glaucophyllus, Amorphophallus josefbogneri, Amorphophallus laoticus, Amorphophallus lunatus, Amorphophallus myosuroides, Amorphophallus prolificus, Amorphophallus reflexus, Amorphophallus serrulatus, Amorphophallus tuberculatus, Amorphophallus xiei"},
-{"domain": 2007, "label": "Amorphophallus ranchanensis"},
-{"domain": 2009, "label": "Amorphophallus bognerianus"},
-{"domain": 2010, "label": "Amorphophallus juliae, Amorphophallus niahensis, Amorphophallus suwidjianus"},
-{"domain": 2012, "label": "Amorphophallus arcuspadix, Amorphophallus bolikhamxayensis, Amorphophallus brevipetiolatus, Amorphophallus fallax, Amorphophallus ferruginosus, Amorphophallus kuznetsovii, Amorphophallus lanceolatus, Amorphophallus macrophyllus, Amorphophallus natolii, Amorphophallus terrestris, Amorphophallus thaiensis"},
-{"domain": 2013, "label": "Amorphophallus adamsensis, Amorphophallus hemicryptus, Amorphophallus nicolaii, Amorphophallus pulchellus"},
-{"domain": 2014, "label": "Amorphophallus perrieri"},
-{"domain": 2015, "label": "Amorphophallus barbatus, Amorphophallus claudelii, Amorphophallus khammouanensis"},
-{"domain": 2016, "label": "Amorphophallus bubenensis, Amorphophallus kienluongensis"},
-{"domain": 2017, "label": "Amorphophallus candidissimus, Amorphophallus shyamsalilianus"},
-{"domain": 2018, "label": "Amorphophallus flotoi, Amorphophallus ravenii"},
-{"domain": 2019, "label": "Amorphophallus crinitus, Amorphophallus malkmus-husseinii, Amorphophallus umbrinus, Amorphophallus villosus"},
-{"domain": 2020, "label": "Amorphophallus ardii, Amorphophallus caudatus, Amorphophallus cidarioides, Amorphophallus fornicatus, Amorphophallus mayoi, Amorphophallus rayongii, Amorphophallus urceolatus, Amorphophallus yaoi"},
-{"domain": 2021, "label": "Amorphophallus calcicola, Amorphophallus minimus"},
-{"domain": 2022, "label": "Amorphophallus dumboi, Amorphophallus flammeus, Amorphophallus fontarumii, Amorphophallus wasa, Amorphophallus mayoi"},
-{"domain": 2023, "label": "Amorphophallus opalinus, Amorphophallus sakonnakhonensis"}
-
-]
-
-      },
-      {
-        "name": "serpentineDomain",
-        "values": [{}],
-        "transform": [
-          {
-            "type": "formula",
-            "expr": "sequence(sDomain[0],sDomain[1], 0.1 )",
-            "as": "domain"
-          },
-          {"type": "flatten", "fields": ["domain"]}
-        ]
-      },
-      {
-        "name": "milestoneDomain",
-        "source": "dataset",
-        "transform": [{"type": "project", "fields": ["domain"]}]
-      },
-      {
-        "name": "tickDomain",
-        "values": [{}],
-        "transform": [
-          {"type": "formula", "expr": "sequence(1,tC+1, 1)", "as": "id"},
-          {"type": "flatten", "fields": ["id"]},
-          {
-            "type": "formula",
-            "expr": "datum['id'] === 1 ? sDomain[0] : datum['id'] === tC ? sDomain[1] : null",
-            "as": "domain"
-          },
-          {
-            "type": "formula",
-            "expr": "round(isValid(datum['domain']) ? datum['domain'] : (sDomain[0] + (sDomain[1]-sDomain[0])*((datum['id']-1)/(tC-1))))",
-            "as": "domain"
-          },
-          {"type": "project", "fields": ["domain"]}
-        ]
-      },
-      {
-        "name": "componentEncodings",
-        "values": [
-          {"category": "start"},
-          {"category": "serpentine"},
-          {"category": "milestone"},
-          {"category": "tick"},
-          {"category": "end"}
-        ],
-        "transform": [
-          {"type": "formula", "expr": "now()", "as": "timestamp"},
-          {
-            "type": "formula",
-            "expr": "datum['category'] === 'start' ? [sDomain[reverse ? 1 : 0]] : datum['category'] === 'serpentine' ? pluck(data('serpentineDomain'), 'domain') : datum['category'] === 'milestone' ? pluck(data('dataset'), 'domain') : datum['category']==='tick' ? pluck(data('tickDomain'), 'domain') : datum['category'] === 'end' ? [sDomain[reverse ? 0 : 1]] : null",
-            "as": "domain"
-          },
-          {"type": "flatten", "fields": ["domain"]},
-          {"type": "formula", "expr": "+datum['domain']", "as": "domain"},
-          {
-            "type": "window",
-            "ops": ["row_number"],
-            "sort": {"field": "domain"},
-            "groupby": ["category"],
-            "as": ["id"]
-          },
-          {
-            "type": "formula",
-            "expr": "scale('sS1', datum['domain'])",
-            "as": "sK"
-          },
-          {
-            "type": "formula",
-            "expr": "floor(datum['sK'] / (sW + sH*PI/2))",
-            "as": "i"
-          },
-          {"type": "formula", "expr": "datum['sK'] % (sW + sH*PI/2)", "as": "r"},
-          {"type": "formula", "expr": "(datum['r'] - sW)/(sH/2)", "as": "alpha"},
-          {
-            "type": "formula",
-            "expr": "(((datum['i']+1)*sWsA)-sA) >= datum['sK'] ? 'straight' : 'arc'",
-            "as": "type"
-          },
-          {
-            "type": "formula",
-            "expr": "(datum['i']%2 == 0) ? min(datum['r'],sW) : max(sW-datum['r'], 0)",
-            "as": "xStraight"
-          },
-          {
-            "type": "formula",
-            "expr": "datum['type'] === 'straight' ? datum['xStraight'] : datum['xStraight'] + (datum['i']%2 == 0 ? sin(datum['alpha'])*sH/2 : -sin(datum['alpha'])*sH/2)",
-            "as": "x"
-          },
-          {
-            "type": "formula",
-            "expr": "datum['type'] === 'straight' ? datum['i']*sH : (datum['i']*sH) + (1 - cos(datum['alpha']))*sH/2",
-            "as": "y"
-          },
-          {
-            "type": "formula",
-            "expr": "datum['type'] === 'straight' ? null : datum['i']%2===0?'right':'left'",
-            "as": "side"
-          },
-          {
-            "type": "formula",
-            "expr": "datum['type'] === 'straight' ? null : datum['alpha']<PI/2?'top':'bottom'",
-            "as": "hemisphere"
-          },
-          {
-            "type": "formula",
-            "expr": "datum['type'] === 'straight' ? 0 : (datum['side'] === 'left' ? -1 : 1) *datum['alpha']*(180/PI)+(datum['alpha'] < PI/2 ? 0 : 180)",
-            "as": "labelAngle"
-          },
-          {
-            "type": "formula",
-            "expr": "datum['i']%2===0 ?'→':'←'",
-            "as": "direction"
-          },
-          {
-            "type": "formula",
-            "expr": "datum['type'] === 'straight' ? datum['direction'] : datum['side'] === 'left' ? datum['hemisphere'] === 'top'? '←' : '→' :  datum['hemisphere'] === 'top'? '→' : '←'",
-            "as": "direction"
-          }
-        ]
-      },
-      {
-        "name": "serpentine",
-        "source": "componentEncodings",
-        "transform": [
-          {"type": "filter", "expr": "datum['category'] === 'serpentine'"}
-        ]
-      },
-      {
-        "name": "ticks",
-        "source": "componentEncodings",
-        "transform": [
-          {"type": "filter", "expr": "datum['category'] === 'tick'"},
-          {
-            "type": "formula",
-            "expr": "!isValid(datum['side']) ? (tLO+3.5) : datum['side'] === 'right' ? (round(datum['alpha']*(180/PI)) >= 90 ? -1 : 1.75) * (tLO+3.5) : (round(datum['alpha']*(180/PI)) > 89 ? -1 : 1.75) * (tLO+3.5)",
-            "as": "dy"
-          }
-        ]
-      },
-      {
-        "name": "domain_extent",
-        "source": "componentEncodings",
-        "transform": [
-          {
-            "type": "filter",
-            "expr": "datum['category'] === 'start' || datum['category'] === 'end'"
-          },
-          {
-            "type": "formula",
-            "expr": "datum['category'] === 'start' ? 'right' : datum['direction'] === '←' && datum['type'] === 'straight' ? 'right' : datum['side'] === 'left' ? 'right' : 'left'",
-            "as": "align"
-          },
-          {
-            "type": "formula",
-            "expr": "datum['category'] === 'start' ? -tLO-5 :  datum['direction'] === '←'  && datum['type'] === 'straight' ? -tLO-5 : datum['side'] === 'left' ? -tLO-5 : tLO+5",
-            "as": "dx"
-          }
-        ]
-      },
-      {
-        "name": "segment_ends",
-        "source": "componentEncodings",
-        "transform": [
-          {
-            "type": "filter",
-            "expr": "includeArrows && datum['category'] === 'serpentine'"
-          },
-          {
-            "type": "joinaggregate",
-            "fields": ["id", "id"],
-            "ops": ["min", "max"],
-            "groupby": ["i"],
-            "as": ["minId", "maxId"]
-          },
-          {
-            "type": "filter",
-            "expr": "datum['id'] === (reverse ? datum['maxId'] : datum['minId'])"
-          }
-        ]
-      },
-      
-  {
-  "name": "milestones",
-  "source": "componentEncodings",
-  "transform": [
-    {"type": "filter", "expr": "datum['category'] === 'milestone'"},
-    {
-      "type": "lookup",
-      "key": "domain",
-      "from": "dataset",
-      "fields": ["domain"],
-      "values": ["label", "color"]
-    },
-    
-    {
-  "type": "formula",
-  "expr": "(isValid(hoverFocus) && hoverFocus['domain'] === datum['domain']) ? 1 : (isValid(hoverFocus) && hoverFocus['domain'] !== datum['domain']) ? 0.4 : 0",
-  "as": "fillOpacity"
-},
-    {
-      "type": "formula",
-      "expr": "min(15, length(split(datum['label'], ',')))",
-      "as": "eventCount"
-    },
-    {
-      "type": "window",
-      "ops": ["row_number"],
-      "sort": {"field": "domain"},
-      "as": ["id"]
-    },
-    {
-      "type": "formula",
-      "expr": "10 + 200 * datum['eventCount']",
-      "as": "size"
-    },
-    {
-      "type": "collect",
-      "sort": {
-        "field": "size",
-        "order": "descending"
-      }
-    }
-  ]
-}
-
-
-      
-    ]
-  }
