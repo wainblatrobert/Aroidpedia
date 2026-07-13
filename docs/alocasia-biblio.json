@@ -1,0 +1,1169 @@
+{
+ "genus": "Alocasia",
+ "slug": "alocasia",
+ "compiled": "2026-07-13",
+ "source": "https://www.aroidpedia.com/alocasia",
+ "taxon_count": 67,
+ "source_count": 32,
+ "gap_count": 55,
+ "pdf": "Aroidpedia-Alocasia-Bibliography.pdf",
+ "kew_excluded_from_bibliography": true,
+ "bibliography": [
+  {
+   "title": "Boyce, P.C. | A review of Alocasia (Araceae: Colocasieae) for Thailand including a novel species and new species records from south-west Thailand Thai Forest Bulletin (Botany) 36: 1-17 (2008).",
+   "url": "https://li01.tci-thaijo.org/index.php/ThaiForestBulletin/article/view/24171",
+   "taxa": [
+    {
+     "name": "Alocasia perakensis",
+     "url": "https://www.aroidpedia.com/journal/alocasia-perakensis",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "li01.tci-thaijo.org"
+  },
+  {
+   "title": "Acta Phytotax. Geobot. 22: 159 (1967)",
+   "url": "https://www.jstage.jst.go.jp/article/bunruichiri/22/4-6/22_KJ00001078002/_pdf/-char/en",
+   "taxa": [
+    {
+     "name": "Alocasia robusta",
+     "url": "https://www.aroidpedia.com/journal/alocasia-robusta",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "jstage.jst.go.jp"
+  },
+  {
+   "title": "The Cultivated Alocasia | David Burnet | Aroideana",
+   "url": "https://www.aroid.org/aroideana/artpage.php?key=MDA3MzQwMQ%3D%3DE",
+   "taxa": [
+    {
+     "name": "Alocasia cuprea",
+     "url": "https://www.aroidpedia.com/journal/alocasia-cuprea",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "aroid.org"
+  },
+  {
+   "title": "Curtis’ Botanical Magazine 14: P.84 (1997)",
+   "url": "https://www.jstor.org/stable/45065223",
+   "taxa": [
+    {
+     "name": "Alocasia melo",
+     "url": "https://www.aroidpedia.com/journal/alocasia-melo",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "jstor.org"
+  },
+  {
+   "title": "Gardens’ Bulletin Singapore 50 (322) (1998)",
+   "url": "https://www.biodiversitylibrary.org/page/43660627",
+   "taxa": [
+    {
+     "name": "Alocasia kerinciensis",
+     "url": "https://www.aroidpedia.com/journal/alocasia-kerinciensis",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "biodiversitylibrary.org"
+  },
+  {
+   "title": "Gardens’ Bulletin Singapore 50 P.242 (1998)",
+   "url": "https://www.biodiversitylibrary.org/page/43660547",
+   "taxa": [
+    {
+     "name": "Alocasia puber",
+     "url": "https://www.aroidpedia.com/journal/alocasia-puber",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "biodiversitylibrary.org"
+  },
+  {
+   "title": "Gardens’ Bulletin Singapore 50 P.266 (1998)",
+   "url": "https://www.biodiversitylibrary.org/page/43660571",
+   "taxa": [
+    {
+     "name": "Alocasia princeps",
+     "url": "https://www.aroidpedia.com/journal/alocasia-princeps",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "biodiversitylibrary.org"
+  },
+  {
+   "title": "Gardens’ Bulletin Singapore 50: P.249 (1998)",
+   "url": "https://www.biodiversitylibrary.org/page/43660554",
+   "taxa": [
+    {
+     "name": "Alocasia robusta",
+     "url": "https://www.aroidpedia.com/journal/alocasia-robusta",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "biodiversitylibrary.org"
+  },
+  {
+   "title": "Gardens’ Bulletin Singapore 50: P.260 (1998)",
+   "url": "https://www.biodiversitylibrary.org/page/43660565",
+   "taxa": [
+    {
+     "name": "Alocasia melo",
+     "url": "https://www.aroidpedia.com/journal/alocasia-melo",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "biodiversitylibrary.org"
+  },
+  {
+   "title": "Gardens’ Bulletin Singapore 50: P.316 (1998)",
+   "url": "https://www.biodiversitylibrary.org/page/43660621",
+   "taxa": [
+    {
+     "name": "Alocasia perakensis",
+     "url": "https://www.aroidpedia.com/journal/alocasia-perakensis",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "biodiversitylibrary.org"
+  },
+  {
+   "title": "The Gardens’ Bulletin, Singapore | Page 325",
+   "url": "https://www.biodiversitylibrary.org/page/43660630",
+   "taxa": [
+    {
+     "name": "Alocasia cuprea",
+     "url": "https://www.aroidpedia.com/journal/alocasia-cuprea",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "biodiversitylibrary.org"
+  },
+  {
+   "title": "Die Gartenwelt J.15 (1911)",
+   "url": "https://www.biodiversitylibrary.org/page/6617453",
+   "taxa": [
+    {
+     "name": "Alocasia cuprea",
+     "url": "https://www.aroidpedia.com/journal/alocasia-cuprea",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "biodiversitylibrary.org"
+  },
+  {
+   "title": "Illustrations of useful plants of the southern region (1944-1945) P.614",
+   "url": "https://archive.org/details/nanpoykenyuyyoy00wataa/page/614/mode/2up",
+   "taxa": [
+    {
+     "name": "ALOCASIA MACRORRHIZOS",
+     "url": "https://www.aroidpedia.com/journal/alocasia-macrorrhizos",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "archive.org"
+  },
+  {
+   "title": "Index seminum in horto botanico Berolinensi (1854) P.6",
+   "url": "https://seedlists.naturalis.nl/content/caladium-cupreum-ckoch-bouch%C3%A9",
+   "taxa": [
+    {
+     "name": "Alocasia cuprea",
+     "url": "https://www.aroidpedia.com/journal/alocasia-cuprea",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "seedlists.naturalis.nl"
+  },
+  {
+   "title": "Japanese Agriculture in the early 19th century (Seikei Zusetsu)",
+   "url": "https://digitalcollections.universiteitleiden.nl/view/item/938353",
+   "taxa": [
+    {
+     "name": "ALOCASIA MACRORRHIZOS",
+     "url": "https://www.aroidpedia.com/journal/alocasia-macrorrhizos",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "digitalcollections.universiteitleiden.nl"
+  },
+  {
+   "title": "Journal of Botany, British and Foreign 25: 205 (1887)",
+   "url": "https://www.biodiversitylibrary.org/page/35140742",
+   "taxa": [
+    {
+     "name": "Alocasia perakensis",
+     "url": "https://www.aroidpedia.com/journal/alocasia-perakensis",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "biodiversitylibrary.org"
+  },
+  {
+   "title": "Lucerne Aroids",
+   "url": "https://www.instagram.com/lucerne.aroids/",
+   "taxa": [
+    {
+     "name": "ALOCASIA ‘SABRINA’*",
+     "url": "https://www.aroidpedia.com/journal/alocasia-sabrina",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "instagram.com"
+  },
+  {
+   "title": "Amandine Gennari and Erwan Le Letty",
+   "url": "https://www.instagram.com/amandineerwanplants/",
+   "taxa": [
+    {
+     "name": "ALOCASIA ‘BOGANI’*",
+     "url": "https://www.aroidpedia.com/journal/alocasia-bogani",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "instagram.com"
+  },
+  {
+   "title": "PhytoKeys Volume 249 (2024) P. 223-229",
+   "url": "https://www.sciencedirect.com/org/science/article/pii/S1314201124001954",
+   "taxa": [
+    {
+     "name": "ALOCASIA EPILITHICA",
+     "url": "https://www.aroidpedia.com/journal/alocasia-epilithica",
+     "kind": "Species"
+    },
+    {
+     "name": "ALOCASIA ROSEUS",
+     "url": "https://www.aroidpedia.com/journal/alocasia-roseus",
+     "kind": "Species"
+    }
+   ],
+   "count": 2,
+   "host": "sciencedirect.com"
+  },
+  {
+   "title": "Pollination mutualism between Alocasia macrorrhizos (Araceae) and two taxonomically undescribed Colocasiomyia species (Diptera: Drosophilidae) in Sabah, Borneo, Kohei Takenaka Takano, Rimi Repin, Maryati Mohamed, Masanori J. Toda",
+   "url": "https://www.researchgate.net/publication/221790635_Pollination_mutualism_between_Alocasia_macrorrhizos_Araceae_and_two_taxonomically_undescribed_Colocasiomyia_species_Diptera_Drosophilidae_in_Sabah_Borneo",
+   "taxa": [
+    {
+     "name": "ALOCASIA MACRORRHIZOS",
+     "url": "https://www.aroidpedia.com/journal/alocasia-macrorrhizos",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "researchgate.net"
+  },
+  {
+   "title": "Proceedings of the Royal Horticultural Society London v.1 (1859) P.77",
+   "url": "https://www.biodiversitylibrary.org/page/11163508",
+   "taxa": [
+    {
+     "name": "Alocasia cuprea",
+     "url": "https://www.aroidpedia.com/journal/alocasia-cuprea",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "biodiversitylibrary.org"
+  },
+  {
+   "title": "Robert Sweet, Hortus Britannicus., 3rd edition: (1839) P. 631",
+   "url": "https://archive.org/details/SweetsHortusBritannicusOrACatalogueOfPlantsCultivatedInTheGardensOfGreatBritainRobertSweet1839/page/630/mode/2up?q=alocasia",
+   "taxa": [
+    {
+     "name": "ALOCASIA MACRORRHIZOS",
+     "url": "https://www.aroidpedia.com/journal/alocasia-macrorrhizos",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "archive.org"
+  },
+  {
+   "title": "Aroidia Research -Alocasia robusta",
+   "url": "https://aroidiaresearch.org/alorobu.htm",
+   "taxa": [
+    {
+     "name": "Alocasia robusta",
+     "url": "https://www.aroidpedia.com/journal/alocasia-robusta",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "aroidiaresearch.org"
+  },
+  {
+   "title": "Aroidia Research -Alocasia robustaandNephrolepsisferns",
+   "url": "https://aroidiaresearch.org/robufern.htm",
+   "taxa": [
+    {
+     "name": "Alocasia robusta",
+     "url": "https://www.aroidpedia.com/journal/alocasia-robusta",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "aroidiaresearch.org"
+  },
+  {
+   "title": "Roos Kocken",
+   "url": "https://www.instagram.com/plantwithroos/",
+   "taxa": [
+    {
+     "name": "ALOCASIA ‘SABRINA’*",
+     "url": "https://www.aroidpedia.com/journal/alocasia-sabrina",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "instagram.com"
+  },
+  {
+   "title": "The standard encylopedia of horticulture v.1 (1917) P.255",
+   "url": "https://www.biodiversitylibrary.org/page/20554115",
+   "taxa": [
+    {
+     "name": "Alocasia cuprea",
+     "url": "https://www.aroidpedia.com/journal/alocasia-cuprea",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "biodiversitylibrary.org"
+  },
+  {
+   "title": "Synopsis Aroidearum complectens enumerationem systematicam generum et specierum (1856) P.47",
+   "url": "https://books.google.co.uk/books?cad=0&id=Mjs-AAAAcAAJ&printsec=frontcover&source=gbs_ge_summary_r#v=onepage&q=puber&f=false",
+   "taxa": [
+    {
+     "name": "Alocasia puber",
+     "url": "https://www.aroidpedia.com/journal/alocasia-puber",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "books.google.co.uk"
+  },
+  {
+   "title": "Update on Alocasia Cuprea - Distribution in North Kalimantan, Ni Putu Sri Asih et al (2022)",
+   "url": "https://www.researchgate.net/publication/373848982_UPDATE_ON_ALOCASIA_CUPREA_KKOCH_DISTRIBUTION_IN_NORTH_KALIMANTAN",
+   "taxa": [
+    {
+     "name": "Alocasia cuprea",
+     "url": "https://www.aroidpedia.com/journal/alocasia-cuprea",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "researchgate.net"
+  },
+  {
+   "title": "Vegetations-Ansichten von Küstenländern und Inseln des Stillen Ozeans(1844-1846)",
+   "url": "https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN646151673",
+   "taxa": [
+    {
+     "name": "ALOCASIA MACRORRHIZOS",
+     "url": "https://www.aroidpedia.com/journal/alocasia-macrorrhizos",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "digital.staatsbibliothek-berlin.de"
+  },
+  {
+   "title": "Vertical Garden by Patrick Blanc",
+   "url": "https://www.verticalgardenpatrickblanc.com/",
+   "taxa": [
+    {
+     "name": "Alocasia perakensis",
+     "url": "https://www.aroidpedia.com/journal/alocasia-perakensis",
+     "kind": "Species"
+    },
+    {
+     "name": "Alocasia princeps",
+     "url": "https://www.aroidpedia.com/journal/alocasia-princeps",
+     "kind": "Species"
+    },
+    {
+     "name": "Alocasia robusta",
+     "url": "https://www.aroidpedia.com/journal/alocasia-robusta",
+     "kind": "Species"
+    }
+   ],
+   "count": 3,
+   "host": "verticalgardenpatrickblanc.com"
+  },
+  {
+   "title": "William Bull Nursery Catalogue (1888)",
+   "url": "https://www.biodiversitylibrary.org/page/49064869",
+   "taxa": [
+    {
+     "name": "Alocasia princeps",
+     "url": "https://www.aroidpedia.com/journal/alocasia-princeps",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "biodiversitylibrary.org"
+  },
+  {
+   "title": "Wochenschrift des Vereines zur Beförderung des Gartenbaues in den Königlich Preussischen Staaten für Gärtnerei und Pflanzenkunde v4:141 (1861)",
+   "url": "https://www.biodiversitylibrary.org/page/4029305",
+   "taxa": [
+    {
+     "name": "Alocasia cuprea",
+     "url": "https://www.aroidpedia.com/journal/alocasia-cuprea",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "biodiversitylibrary.org"
+  }
+ ],
+ "taxa": [
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-heterophylla-dragons-breath",
+   "slug": "alocasia-heterophylla-dragons-breath",
+   "name": "ALOCASIA HETEROPHYLLA ‘DRAGON’S BREATH’",
+   "kind": "Cultivar",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-heterophylla-shattered-glass",
+   "slug": "alocasia-heterophylla-shattered-glass",
+   "name": "ALOCASIA HETEROPHYLLA ‘SHATTERED GLASS’",
+   "kind": "Cultivar",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-longiloba-purple",
+   "slug": "alocasia-longiloba-purple",
+   "name": "ALOCASIA LONGILOBA ‘PURPLE’",
+   "kind": "Cultivar",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-macrorrhizos-baby-ray",
+   "slug": "alocasia-macrorrhizos-baby-ray",
+   "name": "ALOCASIA MACRORRHIZOS ‘BABY RAY’",
+   "kind": "Cultivar",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-macrorrhizos-big-mac",
+   "slug": "alocasia-macrorrhizos-big-mac",
+   "name": "ALOCASIA MACRORRHIZOS ‘BIG MAC’",
+   "kind": "Cultivar",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-macrorrhizos-black-stem",
+   "slug": "alocasia-macrorrhizos-black-stem",
+   "name": "ALOCASIA MACRORRHIZOS ‘BLACK STEM’",
+   "kind": "Cultivar",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-macrorrhizos-borneo-giant",
+   "slug": "alocasia-macrorrhizos-borneo-giant",
+   "name": "ALOCASIA MACRORRHIZOS ‘BORNEO GIANT’",
+   "kind": "Cultivar",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-macrorrhizos-flying-squid",
+   "slug": "alocasia-macrorrhizos-flying-squid",
+   "name": "ALOCASIA MACRORRHIZOS ‘FLYING SQUID’",
+   "kind": "Cultivar",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-macrorrhizos-lutea",
+   "slug": "alocasia-macrorrhizos-lutea",
+   "name": "ALOCASIA MACRORRHIZOS ‘LUTEA’",
+   "kind": "Cultivar",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-macrorrhizos-new-guinea-gold",
+   "slug": "alocasia-macrorrhizos-new-guinea-gold",
+   "name": "ALOCASIA MACRORRHIZOS ‘NEW GUINEA GOLD’",
+   "kind": "Cultivar",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-macrorrhizos-plumbea",
+   "slug": "alocasia-macrorrhizos-plumbea",
+   "name": "ALOCASIA MACRORRHIZOS ‘PLUMBEA’",
+   "kind": "Cultivar",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-macrorrhizos-rubra",
+   "slug": "alocasia-macrorrhizos-rubra",
+   "name": "ALOCASIA MACRORRHIZOS ‘RUBRA’",
+   "kind": "Cultivar",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-macrorrhizos-shock-treatment",
+   "slug": "alocasia-macrorrhizos-shock-treatment",
+   "name": "ALOCASIA MACRORRHIZOS ‘SHOCK TREATMENT’",
+   "kind": "Cultivar",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-macrorrhizos-stingray",
+   "slug": "alocasia-macrorrhizos-stingray",
+   "name": "ALOCASIA MACRORRHIZOS ‘STINGRAY’",
+   "kind": "Cultivar",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-micholitziana-emerald-tide",
+   "slug": "alocasia-micholitziana-emerald-tide",
+   "name": "ALOCASIA MICHOLITZIANA ‘EMERALD TIDE’",
+   "kind": "Cultivar",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-micholitziana-london-eye",
+   "slug": "alocasia-micholitziana-london-eye",
+   "name": "ALOCASIA MICHOLITZIANA ‘LONDON EYE’",
+   "kind": "Cultivar",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-sanderiana-lailah",
+   "slug": "alocasia-sanderiana-lailah",
+   "name": "ALOCASIA SANDERIANA ‘LAILAH’",
+   "kind": "Cultivar",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-rudus",
+   "slug": "alocasia-rudus",
+   "name": "ALOCASIA ‘RUDUS’*",
+   "kind": "Cultivar",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-antasena",
+   "slug": "alocasia-antasena",
+   "name": "ALOCASIA ‘ANTASENA’",
+   "kind": "Hybrid",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-black-cobra",
+   "slug": "alocasia-black-cobra",
+   "name": "ALOCASIA ‘BLACK COBRA’",
+   "kind": "Hybrid",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-black-knight",
+   "slug": "alocasia-black-knight",
+   "name": "ALOCASIA ‘BLACK KNIGHT’",
+   "kind": "Hybrid",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-black-suhita",
+   "slug": "alocasia-black-suhita",
+   "name": "ALOCASIA ‘BLACK SUHITA’",
+   "kind": "Hybrid",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-black-tortoise",
+   "slug": "alocasia-black-tortoise",
+   "name": "ALOCASIA ‘BLACK TORTOISE’",
+   "kind": "Hybrid",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-copper-latte",
+   "slug": "alocasia-copper-latte",
+   "name": "ALOCASIA ‘COPPER LATTE’",
+   "kind": "Hybrid",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-dark-butterfly",
+   "slug": "alocasia-dark-butterfly",
+   "name": "ALOCASIA ‘DARK BUTTERFLY’",
+   "kind": "Hybrid",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-dragon-claw",
+   "slug": "alocasia-dragon-claw",
+   "name": "ALOCASIA ‘DRAGON CLAW’",
+   "kind": "Hybrid",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-faizah",
+   "slug": "alocasia-faizah",
+   "name": "ALOCASIA ‘FAIZAH’",
+   "kind": "Hybrid",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-great-humongous",
+   "slug": "alocasia-great-humongous",
+   "name": "ALOCASIA ‘GREAT HUMONGOUS’",
+   "kind": "Hybrid",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-green-pegasus",
+   "slug": "alocasia-green-pegasus",
+   "name": "ALOCASIA ‘GREEN PEGASUS’",
+   "kind": "Hybrid",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-kencana",
+   "slug": "alocasia-kencana",
+   "name": "ALOCASIA ‘KENCANA’",
+   "kind": "Hybrid",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-maanfah",
+   "slug": "alocasia-maanfah",
+   "name": "ALOCASIA ‘MAANFAH’",
+   "kind": "Hybrid",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-nadoon",
+   "slug": "alocasia-nadoon",
+   "name": "ALOCASIA ‘NADOON’",
+   "kind": "Hybrid",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-neo-moon",
+   "slug": "alocasia-neo-moon",
+   "name": "ALOCASIA ‘NEO MOON’",
+   "kind": "Hybrid",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-oviek-2",
+   "slug": "alocasia-oviek-2",
+   "name": "ALOCASIA ‘OVIEK 2’",
+   "kind": "Hybrid",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-oviek-3",
+   "slug": "alocasia-oviek-3",
+   "name": "ALOCASIA ‘OVIEK 3’",
+   "kind": "Hybrid",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-platinum-star",
+   "slug": "alocasia-platinum-star",
+   "name": "ALOCASIA ‘PLATINUM STAR’",
+   "kind": "Hybrid",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-purple-dragon",
+   "slug": "alocasia-purple-dragon",
+   "name": "ALOCASIA ‘PURPLE DRAGON’",
+   "kind": "Hybrid",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-raven",
+   "slug": "alocasia-raven",
+   "name": "ALOCASIA ‘RAVEN",
+   "kind": "Hybrid",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-rodan",
+   "slug": "alocasia-rodan",
+   "name": "ALOCASIA ‘RODAN’",
+   "kind": "Hybrid",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-silver-armor",
+   "slug": "alocasia-silver-armor",
+   "name": "ALOCASIA ‘SILVER ARMOR’",
+   "kind": "Hybrid",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-silver-monarch",
+   "slug": "alocasia-silver-monarch",
+   "name": "ALOCASIA ‘SILVER MONARCH’",
+   "kind": "Hybrid",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-titan",
+   "slug": "alocasia-titan",
+   "name": "ALOCASIA ‘TITAN’",
+   "kind": "Hybrid",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-v-storm",
+   "slug": "alocasia-v-storm",
+   "name": "ALOCASIA ‘V-STORM’",
+   "kind": "Hybrid",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-violet-blade",
+   "slug": "alocasia-violet-blade",
+   "name": "ALOCASIA ‘VIOLET BLADE’",
+   "kind": "Hybrid",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-white-dragon",
+   "slug": "alocasia-white-dragon",
+   "name": "ALOCASIA ‘WHITE DRAGON’",
+   "kind": "Hybrid",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-white-walker",
+   "slug": "alocasia-white-walker",
+   "name": "ALOCASIA ‘WHITE WALKER’",
+   "kind": "Hybrid",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-wyvern-moon",
+   "slug": "alocasia-wyvern-moon",
+   "name": "ALOCASIA ‘WYVERN MOON’",
+   "kind": "Hybrid",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-yusuf-1",
+   "slug": "alocasia-yusuf-1",
+   "name": "ALOCASIA ‘YUSUF 1’",
+   "kind": "Hybrid",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-epilithica",
+   "slug": "alocasia-epilithica",
+   "name": "ALOCASIA EPILITHICA",
+   "kind": "Species",
+   "kew": null,
+   "refs": [
+    {
+     "title": "PhytoKeys Volume 249 (2024) P. 223-229",
+     "url": "https://www.sciencedirect.com/org/science/article/pii/S1314201124001954",
+     "key": "https://www.sciencedirect.com/org/science/article/pii/s1314201124001954"
+    }
+   ]
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-macrorrhizos",
+   "slug": "alocasia-macrorrhizos",
+   "name": "ALOCASIA MACRORRHIZOS",
+   "kind": "Species",
+   "kew": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:60444565-2",
+   "refs": [
+    {
+     "title": "Robert Sweet, Hortus Britannicus., 3rd edition: (1839) P. 631",
+     "url": "https://archive.org/details/SweetsHortusBritannicusOrACatalogueOfPlantsCultivatedInTheGardensOfGreatBritainRobertSweet1839/page/630/mode/2up?q=alocasia",
+     "key": "https://archive.org/details/sweetshortusbritannicusoracatalogueofplantscultivatedinthegardensofgreatbritainrobertsweet1839/page/630/mode/2up?q=alocasia"
+    },
+    {
+     "title": "Pollination mutualism between Alocasia macrorrhizos (Araceae) and two taxonomically undescribed Colocasiomyia species (Diptera: Drosophilidae) in Sabah, Borneo, Kohei Takenaka Takano, Rimi Repin, Maryati Mohamed, Masanori J. Toda",
+     "url": "https://www.researchgate.net/publication/221790635_Pollination_mutualism_between_Alocasia_macrorrhizos_Araceae_and_two_taxonomically_undescribed_Colocasiomyia_species_Diptera_Drosophilidae_in_Sabah_Borneo",
+     "key": "https://www.researchgate.net/publication/221790635_pollination_mutualism_between_alocasia_macrorrhizos_araceae_and_two_taxonomically_undescribed_colocasiomyia_species_diptera_drosophilidae_in_sabah_borneo"
+    },
+    {
+     "title": "Illustrations of useful plants of the southern region (1944-1945) P.614",
+     "url": "https://archive.org/details/nanpoykenyuyyoy00wataa/page/614/mode/2up",
+     "key": "https://archive.org/details/nanpoykenyuyyoy00wataa/page/614/mode/2up"
+    },
+    {
+     "title": "Japanese Agriculture in the early 19th century (Seikei Zusetsu)",
+     "url": "https://digitalcollections.universiteitleiden.nl/view/item/938353",
+     "key": "https://digitalcollections.universiteitleiden.nl/view/item/938353"
+    },
+    {
+     "title": "Vegetations-Ansichten von Küstenländern und Inseln des Stillen Ozeans(1844-1846)",
+     "url": "https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN646151673",
+     "key": "https://digital.staatsbibliothek-berlin.de/werkansicht?ppn=ppn646151673"
+    }
+   ]
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-roseus",
+   "slug": "alocasia-roseus",
+   "name": "ALOCASIA ROSEUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": [
+    {
+     "title": "PhytoKeys Volume 249 (2024) P. 223-229",
+     "url": "https://www.sciencedirect.com/org/science/article/pii/S1314201124001954",
+     "key": "https://www.sciencedirect.com/org/science/article/pii/s1314201124001954"
+    }
+   ]
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-bogani",
+   "slug": "alocasia-bogani",
+   "name": "ALOCASIA ‘BOGANI’*",
+   "kind": "Species",
+   "kew": null,
+   "refs": [
+    {
+     "title": "Amandine Gennari and Erwan Le Letty",
+     "url": "https://www.instagram.com/amandineerwanplants/",
+     "key": "https://www.instagram.com/amandineerwanplants"
+    }
+   ]
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-crux",
+   "slug": "alocasia-crux",
+   "name": "ALOCASIA ‘CRUX’*",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-green-djhono",
+   "slug": "alocasia-green-djhono",
+   "name": "ALOCASIA ‘GREEN DJHONO’*",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-macan",
+   "slug": "alocasia-macan",
+   "name": "ALOCASIA ‘MACAN’*",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-pawitra",
+   "slug": "alocasia-pawitra",
+   "name": "ALOCASIA ‘PAWITRA’*",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-sabrina",
+   "slug": "alocasia-sabrina",
+   "name": "ALOCASIA ‘SABRINA’*",
+   "kind": "Species",
+   "kew": null,
+   "refs": [
+    {
+     "title": "Lucerne Aroids",
+     "url": "https://www.instagram.com/lucerne.aroids/",
+     "key": "https://www.instagram.com/lucerne.aroids"
+    },
+    {
+     "title": "Roos Kocken",
+     "url": "https://www.instagram.com/plantwithroos/",
+     "key": "https://www.instagram.com/plantwithroos"
+    }
+   ]
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-samar",
+   "slug": "alocasia-samar",
+   "name": "ALOCASIA ‘SAMAR’*",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-sintang",
+   "slug": "alocasia-sintang",
+   "name": "ALOCASIA ‘SINTANG’*",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-surigao-del-norte",
+   "slug": "alocasia-surigao-del-norte",
+   "name": "ALOCASIA ‘SURIGAO DEL NORTE’*",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-cuprea",
+   "slug": "alocasia-cuprea",
+   "name": "Alocasia cuprea",
+   "kind": "Species",
+   "kew": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:84153-1",
+   "refs": [
+    {
+     "title": "Index seminum in horto botanico Berolinensi (1854) P.6",
+     "url": "https://seedlists.naturalis.nl/content/caladium-cupreum-ckoch-bouch%C3%A9",
+     "key": "https://seedlists.naturalis.nl/content/caladium-cupreum-ckoch-bouch%c3%a9"
+    },
+    {
+     "title": "Wochenschrift des Vereines zur Beförderung des Gartenbaues in den Königlich Preussischen Staaten für Gärtnerei und Pflanzenkunde v4:141 (1861)",
+     "url": "https://www.biodiversitylibrary.org/page/4029305",
+     "key": "https://www.biodiversitylibrary.org/page/4029305"
+    },
+    {
+     "title": "The Gardens’ Bulletin, Singapore | Page 325",
+     "url": "https://www.biodiversitylibrary.org/page/43660630",
+     "key": "https://www.biodiversitylibrary.org/page/43660630"
+    },
+    {
+     "title": "The Cultivated Alocasia | David Burnet | Aroideana",
+     "url": "https://www.aroid.org/aroideana/artpage.php?key=MDA3MzQwMQ%3D%3DE",
+     "key": "https://www.aroid.org/aroideana/artpage.php?key=mda3mzqwmq%3d%3de"
+    },
+    {
+     "title": "Die Gartenwelt J.15 (1911)",
+     "url": "https://www.biodiversitylibrary.org/page/6617453",
+     "key": "https://www.biodiversitylibrary.org/page/6617453"
+    },
+    {
+     "title": "The standard encylopedia of horticulture v.1 (1917) P.255",
+     "url": "https://www.biodiversitylibrary.org/page/20554115",
+     "key": "https://www.biodiversitylibrary.org/page/20554115"
+    },
+    {
+     "title": "Proceedings of the Royal Horticultural Society London v.1 (1859) P.77",
+     "url": "https://www.biodiversitylibrary.org/page/11163508",
+     "key": "https://www.biodiversitylibrary.org/page/11163508"
+    },
+    {
+     "title": "Update on Alocasia Cuprea - Distribution in North Kalimantan, Ni Putu Sri Asih et al (2022)",
+     "url": "https://www.researchgate.net/publication/373848982_UPDATE_ON_ALOCASIA_CUPREA_KKOCH_DISTRIBUTION_IN_NORTH_KALIMANTAN",
+     "key": "https://www.researchgate.net/publication/373848982_update_on_alocasia_cuprea_kkoch_distribution_in_north_kalimantan"
+    }
+   ]
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-kerinciensis",
+   "slug": "alocasia-kerinciensis",
+   "name": "Alocasia kerinciensis",
+   "kind": "Species",
+   "kew": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1006578-1",
+   "refs": [
+    {
+     "title": "Gardens’ Bulletin Singapore 50 (322) (1998)",
+     "url": "https://www.biodiversitylibrary.org/page/43660627",
+     "key": "https://www.biodiversitylibrary.org/page/43660627"
+    }
+   ]
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-melo",
+   "slug": "alocasia-melo",
+   "name": "Alocasia melo",
+   "kind": "Species",
+   "kew": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:995487-1",
+   "refs": [
+    {
+     "title": "Curtis’ Botanical Magazine 14: P.84 (1997)",
+     "url": "https://www.jstor.org/stable/45065223",
+     "key": "https://www.jstor.org/stable/45065223"
+    },
+    {
+     "title": "Gardens’ Bulletin Singapore 50: P.260 (1998)",
+     "url": "https://www.biodiversitylibrary.org/page/43660565",
+     "key": "https://www.biodiversitylibrary.org/page/43660565"
+    }
+   ]
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-perakensis",
+   "slug": "alocasia-perakensis",
+   "name": "Alocasia perakensis",
+   "kind": "Species",
+   "kew": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:84223-1",
+   "refs": [
+    {
+     "title": "Journal of Botany, British and Foreign 25: 205 (1887)",
+     "url": "https://www.biodiversitylibrary.org/page/35140742",
+     "key": "https://www.biodiversitylibrary.org/page/35140742"
+    },
+    {
+     "title": "Gardens’ Bulletin Singapore 50: P.316 (1998)",
+     "url": "https://www.biodiversitylibrary.org/page/43660621",
+     "key": "https://www.biodiversitylibrary.org/page/43660621"
+    },
+    {
+     "title": "Boyce, P.C. | A review of Alocasia (Araceae: Colocasieae) for Thailand including a novel species and new species records from south-west Thailand Thai Forest Bulletin (Botany) 36: 1-17 (2008).",
+     "url": "https://li01.tci-thaijo.org/index.php/ThaiForestBulletin/article/view/24171",
+     "key": "https://li01.tci-thaijo.org/index.php/thaiforestbulletin/article/view/24171"
+    },
+    {
+     "title": "Vertical Garden by Patrick Blanc",
+     "url": "https://www.verticalgardenpatrickblanc.com/",
+     "key": "https://www.verticalgardenpatrickblanc.com"
+    }
+   ]
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-princeps",
+   "slug": "alocasia-princeps",
+   "name": "Alocasia princeps",
+   "kind": "Species",
+   "kew": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:84228-1",
+   "refs": [
+    {
+     "title": "William Bull Nursery Catalogue (1888)",
+     "url": "https://www.biodiversitylibrary.org/page/49064869",
+     "key": "https://www.biodiversitylibrary.org/page/49064869"
+    },
+    {
+     "title": "Gardens’ Bulletin Singapore 50 P.266 (1998)",
+     "url": "https://www.biodiversitylibrary.org/page/43660571",
+     "key": "https://www.biodiversitylibrary.org/page/43660571"
+    },
+    {
+     "title": "Vertical Garden by Patrick Blanc",
+     "url": "https://www.verticalgardenpatrickblanc.com/",
+     "key": "https://www.verticalgardenpatrickblanc.com"
+    }
+   ]
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-puber",
+   "slug": "alocasia-puber",
+   "name": "Alocasia puber",
+   "kind": "Species",
+   "kew": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:84229-1",
+   "refs": [
+    {
+     "title": "Synopsis Aroidearum complectens enumerationem systematicam generum et specierum (1856) P.47",
+     "url": "https://books.google.co.uk/books?cad=0&id=Mjs-AAAAcAAJ&printsec=frontcover&source=gbs_ge_summary_r#v=onepage&q=puber&f=false",
+     "key": "https://books.google.co.uk/books?cad=0&id=mjs-aaaacaaj&printsec=frontcover&source=gbs_ge_summary_r"
+    },
+    {
+     "title": "Gardens’ Bulletin Singapore 50 P.242 (1998)",
+     "url": "https://www.biodiversitylibrary.org/page/43660547",
+     "key": "https://www.biodiversitylibrary.org/page/43660547"
+    }
+   ]
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-robusta",
+   "slug": "alocasia-robusta",
+   "name": "Alocasia robusta",
+   "kind": "Species",
+   "kew": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:84238-1",
+   "refs": [
+    {
+     "title": "Acta Phytotax. Geobot. 22: 159 (1967)",
+     "url": "https://www.jstage.jst.go.jp/article/bunruichiri/22/4-6/22_KJ00001078002/_pdf/-char/en",
+     "key": "https://www.jstage.jst.go.jp/article/bunruichiri/22/4-6/22_kj00001078002/_pdf/-char/en"
+    },
+    {
+     "title": "Gardens’ Bulletin Singapore 50: P.249 (1998)",
+     "url": "https://www.biodiversitylibrary.org/page/43660554",
+     "key": "https://www.biodiversitylibrary.org/page/43660554"
+    },
+    {
+     "title": "Aroidia Research -Alocasia robusta",
+     "url": "https://aroidiaresearch.org/alorobu.htm",
+     "key": "https://aroidiaresearch.org/alorobu.htm"
+    },
+    {
+     "title": "Aroidia Research -Alocasia robustaandNephrolepsisferns",
+     "url": "https://aroidiaresearch.org/robufern.htm",
+     "key": "https://aroidiaresearch.org/robufern.htm"
+    },
+    {
+     "title": "Vertical Garden by Patrick Blanc",
+     "url": "https://www.verticalgardenpatrickblanc.com/",
+     "key": "https://www.verticalgardenpatrickblanc.com"
+    }
+   ]
+  }
+ ]
+}
