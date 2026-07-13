@@ -1,0 +1,37 @@
+name: Compile Alocasia bibliography
+
+on:
+  schedule:
+    - cron: "0 9 1 * *"      # 09:00 UTC on the 1st of each month
+  workflow_dispatch:          # run on demand from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests beautifulsoup4 reportlab
+
+      - name: Crawl and build
+        run: python compile_alocasia_biblio.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "aroidpedia-bot"
+          git config user.email "actions@github.com"
+          git add docs/alocasia-biblio.json docs/alocasia-biblio.csv \
+                  docs/Aroidpedia-Alocasia-Bibliography.pdf
+          if git diff --staged --quiet; then
+            echo "No bibliography changes."
+          else
+            git commit -m "Alocasia bibliography — $(date -u +'%Y-%m-%d')"
+            git push
+          fi
