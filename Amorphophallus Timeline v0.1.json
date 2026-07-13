@@ -422,7 +422,7 @@
         "signal": "max(150, min(15, length(split(datum['label'], ','))) * 8 + 50)" 
       }, 
       "height": {
-        "signal": "(length(split(datum['label'], ',')) + 1) * 12.8" 
+        "signal": "(min(15, length(split(datum['label'], ','))) + 1) * 12.8" 
       },
       "fill": {"value": "#fff"},
       "stroke": {"value": "#fff"},
