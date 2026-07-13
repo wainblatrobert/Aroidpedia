@@ -58,12 +58,42 @@ GENERA = [
 SITE    = "https://www.aroidpedia.com"
 OUT_DIR = "docs"
 
-# Kew POWO links are a per-taxon database lookup, not literature. They are kept
-# against each taxon (and shown in PDF Part II) but never become bibliography
-# entries in their own right.
-KEW_HOSTS          = {"powo.science.kew.org", "www.kew.org", "kew.org"}
+# Kew POWO links are a per-taxon database lookup, not literature. Each taxon has
+# its OWN Powo URL, so if they were treated as bibliography entries they would
+# never dedupe and would flood the list with one "Plants of the World Online"
+# row per species. They are captured against each taxon (and shown in PDF
+# Part II) but never become bibliography entries in their own right.
+#
+# NOTE: Kew is reachable under several domains. plantsoftheworldonline.org is
+# the one most commonly linked from the taxon pages.
+KEW_HOSTS = (
+    "plantsoftheworldonline.org",
+    "powo.science.kew.org",
+    "kew.org",
+)
 INCLUDE_KEW_IN_PDF = True
 INCLUDE_KEW_IN_WEB = False
+
+# Hosts dropped from the bibliography entirely: photo credits, social posts and
+# other non-literature links that sometimes appear inside a References list.
+# Matched by suffix, so subdomains are covered too. Add hosts here as needed.
+EXCLUDED_HOSTS = (
+    "instagram.com",
+    "facebook.com",
+    "tiktok.com",
+    "twitter.com",
+    "x.com",
+    "pinterest.com",
+    "aroidpedia.com",        # internal cross-links are not sources
+)
+
+
+def host_matches(host, group):
+    """True if host equals, or is a subdomain of, any host in group."""
+    host = host.lower()
+    if host.startswith("www."):
+        host = host[4:]
+    return any(host == h or host.endswith("." + h) for h in group)
 
 # Coverage reporting. Most cultivar/hybrid pages currently carry no REFERENCES
 # section. Listing them inline would pad Part II with hundreds of dead entries,
@@ -255,10 +285,18 @@ def refs_from_html(html, base_url):
         href  = (a.get("href") or "").strip()
         if not title or not href or href.startswith(("#", "mailto:", "javascript:")):
             continue
-        url = urljoin(base_url, href)
-        if urlparse(url).netloc.lower() in KEW_HOSTS:
+        url  = urljoin(base_url, href)
+        host = urlparse(url).netloc
+
+        # Kew: captured against the taxon, never a bibliography entry
+        if host_matches(host, KEW_HOSTS):
             kew = url
             continue
+
+        # photo credits, social links, internal cross-links: dropped entirely
+        if host_matches(host, EXCLUDED_HOSTS):
+            continue
+
         refs.append({"title": title, "url": url, "key": canon(url)})
     return kew, refs
 
