@@ -672,13 +672,13 @@
       "encode": {
         "update": {
           "xc": {
-            "field": "x"
+            "signal": "min(max(datum['x'], -77 + datum['boxW']/2), width + 75 - datum['boxW']/2)"
           },
           "width": {
             "field": "boxW"
           },
           "y": {
-            "signal": "(datum['type'] === 'straight' ? datum['y'] + 8 : datum['y'] - 8 - datum['lineCount'] * 14) - 7"
+            "signal": "min(max((datum['type'] === 'straight' && (datum['y'] + 8 + datum['lineCount'] * 14 + 8) <= height ? datum['y'] + 8 : datum['y'] - 8 - datum['lineCount'] * 14), -11), height + 46 - datum['boxH']) - 7"
           },
           "height": {
             "field": "boxH"
@@ -712,10 +712,10 @@
       "encode": {
         "update": {
           "x": {
-            "field": "x"
+            "signal": "min(max(datum['x'], -77 + datum['boxW']/2), width + 75 - datum['boxW']/2)"
           },
           "y": {
-            "signal": "(datum['type'] === 'straight' ? datum['y'] + 8 : datum['y'] - 8 - datum['lineCount'] * 14)"
+            "signal": "min(max((datum['type'] === 'straight' && (datum['y'] + 8 + datum['lineCount'] * 14 + 8) <= height ? datum['y'] + 8 : datum['y'] - 8 - datum['lineCount'] * 14), -11), height + 46 - datum['boxH'])"
           },
           "text": {
             "signal": "datum['domain'] + ' - ' + datum['displayLabel']"
