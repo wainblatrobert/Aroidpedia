@@ -44,8 +44,11 @@ sitemap walk is the real path, not a last resort. It is therefore primary
 now, and made cheap two ways:
 
   · PARALLEL  pages are fetched by a small thread pool instead of one at a
-    time with a sleep between each. 481 pages goes from ~6 minutes to well
-    under one.
+    time. Squarespace rate-limits, so this is deliberately modest: a few
+    workers, a short delay before each request, and 429-aware retry with
+    backoff. Eight workers at full tilt earns a wall of HTTP 429 and a
+    silently incomplete index - the throttle here is the point, not a
+    limitation.
 
   · INCREMENTAL  sitemap.xml carries <lastmod> per URL. Those stamps are
     kept in docs/search-index-cache.json, and a page is re-fetched only
@@ -57,6 +60,18 @@ The collection endpoint is still tried first, since it would return
 everything in one call if Squarespace ever starts answering it again. When
 it comes back without items the log prints the JSON's top-level keys, so
 there's something to work from rather than a silent "returned nothing".
+
+WHAT COUNTS AS AN ENTRY
+The sitemap lists tag and category archive pages under the same path as
+real posts (/journal/tag/Borneo, /journal/category/Cultivar). Those are not
+entries - crawling them wastes requests and pollutes the index - so they
+are filtered out before anything is fetched.
+
+REFUSING A PARTIAL INDEX
+If pages fail (rate limiting, a blip), the previous cached copy is reused
+where one exists, and the run ABORTS without writing when too many pages
+are still missing. A half-built index that silently replaces a good one is
+worse than no rebuild at all.
 
 The cache file is build state, not site content - it is never read by the
 browser. Only search-index.json is public.
@@ -96,9 +111,14 @@ CACHE_PATH = os.path.join("docs", "search-index-cache.json")
 PAGE_SIZE = 100
 MAX_PAGES = 60                                   # 6,000 entries; a guard, not a target
 TIMEOUT = 30
-RETRIES = 3
+RETRIES = 5
 PAUSE = 0.4                                      # between paginated API calls
-WORKERS = 8                                      # concurrent page fetches; gentle on the site
+WORKERS = 4                                      # concurrent page fetches
+REQUEST_DELAY = 0.25                             # per worker, before each request
+MAX_FAIL_RATE = 0.02                             # abort above 2% unrecovered failures
+
+# Sitemap paths that live under /journal/ but are not entries.
+NON_ENTRY_SEGMENTS = ("/journal/tag/", "/journal/category/", "/journal/author/")
 
 CATEGORIES = {"species", "cultivar", "hybrid"}
 
@@ -113,21 +133,42 @@ def log(msg):
     print(msg, flush=True)
 
 
-def get(url, as_json=True):
-    """GET with retries. Returns parsed JSON, raw text, or None."""
+def get(url, as_json=True, quiet=False):
+    """GET with retries. Backs off on 429/5xx rather than giving up - the
+    site rate-limits, and a dropped page becomes a missing search result."""
     for attempt in range(1, RETRIES + 1):
         try:
             r = session.get(url, timeout=TIMEOUT)
+
+            if r.status_code in (429, 500, 502, 503, 504):
+                if attempt == RETRIES:
+                    if not quiet:
+                        log(f"    HTTP {r.status_code} (gave up) {url}")
+                    return None
+                # Honour Retry-After when the server sends one.
+                wait = r.headers.get("Retry-After")
+                try:
+                    wait = float(wait) if wait else None
+                except ValueError:
+                    wait = None
+                time.sleep(wait if wait else min(2 ** attempt, 20))
+                continue
+
             if r.status_code != 200:
-                log(f"    HTTP {r.status_code} for {url}")
+                if not quiet:
+                    log(f"    HTTP {r.status_code} for {url}")
                 return None
+
             return r.json() if as_json else r.text
+
         except json.JSONDecodeError:
-            log(f"    not JSON: {url}")
+            if not quiet:
+                log(f"    not JSON: {url}")
             return None
         except requests.RequestException as e:
             if attempt == RETRIES:
-                log(f"    failed after {RETRIES} tries: {url} ({e})")
+                if not quiet:
+                    log(f"    failed after {RETRIES} tries: {url} ({e})")
                 return None
             time.sleep(attempt * 1.5)
     return None
@@ -224,10 +265,16 @@ def read_sitemap():
         loc = url_el.find("s:loc", ns)
         if loc is None or not loc.text:
             continue
-        if COLLECTION_PATH + "/" not in loc.text:
+        url = loc.text
+        if COLLECTION_PATH + "/" not in url:
+            continue
+        # Tag / category / author archives sit under the same path but are
+        # not entries. Skipping them here saves ~100 requests per run and
+        # keeps archive pages out of the index.
+        if any(seg in url for seg in NON_ENTRY_SEGMENTS):
             continue
         mod = url_el.find("s:lastmod", ns)
-        out.append((loc.text, (mod.text if mod is not None else "") or ""))
+        out.append((url, (mod.text if mod is not None else "") or ""))
     return out
 
 
@@ -244,7 +291,7 @@ def fetch_via_sitemap():
     """Sitemap for URLs, then ?format=json per page - parallel + incremental."""
     pairs = read_sitemap()
     if not pairs:
-        return [], {}
+        return [], {}, []
     log(f"    sitemap: {len(pairs)} entry URLs")
 
     cache = load_cache()
@@ -266,12 +313,14 @@ def fetch_via_sitemap():
         items.append(item)
         new_cache[url] = {"m": mod, "item": item}
 
+    failed = []
     if stale:
         done = [0]
 
         def one(pair):
             url, mod = pair
-            data = get(f"{url}?format=json")
+            time.sleep(REQUEST_DELAY)          # stagger; the site rate-limits
+            data = get(f"{url}?format=json", quiet=True)
             done[0] += 1
             if done[0] % 50 == 0:
                 log(f"    fetched {done[0]}/{len(stale)}")
@@ -281,6 +330,15 @@ def fetch_via_sitemap():
         with ThreadPoolExecutor(max_workers=WORKERS) as pool:
             for url, mod, item in pool.map(one, stale):
                 if not item:
+                    # Fall back to whatever we had last time, so one bad
+                    # response doesn't delete a page from search. The stamp
+                    # is NOT updated, so it will be retried next run.
+                    old = cache.get(url)
+                    if old and old.get("item"):
+                        items.append(old["item"])
+                        new_cache[url] = old
+                    else:
+                        failed.append(url)
                     continue
                 # Keep only what the index needs - the cache should not
                 # balloon with full post bodies.
@@ -294,7 +352,17 @@ def fetch_via_sitemap():
                 items.append(slim)
                 new_cache[url] = {"m": mod, "item": slim}
 
-    return items, new_cache
+    if failed:
+        rate = len(failed) / max(len(pairs), 1)
+        log(f"    UNRECOVERED: {len(failed)} pages ({rate:.1%}), e.g.:")
+        for u in failed[:5]:
+            log(f"      {u}")
+        if rate > MAX_FAIL_RATE:
+            log(f"    fail rate above {MAX_FAIL_RATE:.0%} - treating this "
+                f"crawl as incomplete")
+            return [], {}, failed
+
+    return items, new_cache, failed
 
 
 def fetch_items():
@@ -309,8 +377,8 @@ def fetch_items():
             return items, name, None
         log(f"  -> {name} returned nothing")
 
-    log("  trying sitemap walk (parallel, incremental) ...")
-    items, cache = fetch_via_sitemap()
+    log("  trying sitemap walk (throttled, incremental) ...")
+    items, cache, failed = fetch_via_sitemap()
     if items:
         log(f"  -> sitemap walk returned {len(items)} items")
         return items, "sitemap walk", cache
