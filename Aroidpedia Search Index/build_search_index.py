@@ -295,6 +295,13 @@ def fetch_via_sitemap():
     log(f"    sitemap: {len(pairs)} entry URLs")
 
     cache = load_cache()
+    if cache:
+        log(f"    cache: {len(cache)} pages from a previous run")
+    else:
+        log(f"    cache: none found at {CACHE_PATH} - COLD START, "
+            f"every page will be fetched")
+        log(f"           (if this says COLD START on every run, the cache "
+            f"file isn't being committed)")
     fresh, stale = [], []
     for url, mod in pairs:
         hit = cache.get(url)
@@ -554,6 +561,7 @@ def main():
             os.makedirs(os.path.dirname(CACHE_PATH), exist_ok=True)
             with open(CACHE_PATH, "w", encoding="utf-8") as f:
                 json.dump({"pages": cache}, f, ensure_ascii=False, separators=(",", ":"))
+            log(f"  wrote {CACHE_PATH}  ({len(cache)} pages cached)")
         return 0
 
     os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
