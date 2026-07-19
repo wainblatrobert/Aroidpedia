@@ -1,0 +1,59 @@
+# .github/workflows/aroidpedia-search-index.yml
+#
+# Rebuilds docs/search-index.json, which powers the header search typeahead.
+#
+# WHY DAILY, when the bibliography runs monthly:
+# a bibliography that lags a few weeks is merely out of date, but a search
+# index that lags means a visitor types the name of a page you published
+# last week and is told it doesn't exist. The crawl is cheap - a handful of
+# API calls, well under a minute - so daily costs nothing and keeps the gap
+# to at most 24 hours.
+#
+# The script writes nothing when the site hasn't changed, so a commit
+# appearing in the history always means real content moved.
+
+name: Build Aroidpedia search index
+
+on:
+  schedule:
+    - cron: "0 8 * * *"       # 08:00 UTC daily
+  workflow_dispatch:           # run by hand from the Actions tab
+
+permissions:
+  contents: write              # the bot needs to push its commit
+
+# A hand-run started while the nightly one is going would race for the push.
+concurrency:
+  group: aroidpedia-search-index
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      # Path is quoted: the folder name contains a space. Run from the repo
+      # ROOT, since the script writes to docs/ relative to the working
+      # directory - same convention as the bibliography build.
+      - name: Crawl and build index
+        run: python "Aroidpedia Search Index/build_search_index.py"
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "aroidpedia-bot"
+          git config user.email "actions@github.com"
+          git add docs/search-index.json
+          if git diff --staged --quiet; then
+            echo "Search index unchanged."
+          else
+            git commit -m "Search index - $(date -u +'%Y-%m-%d')"
+            git push
+          fi
