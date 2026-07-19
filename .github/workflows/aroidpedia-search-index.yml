@@ -11,6 +11,12 @@
 #
 # The script writes nothing when the site hasn't changed, so a commit
 # appearing in the history always means real content moved.
+#
+# BOTH output files must be committed. search-index.json is what the site
+# reads; search-index-cache.json is the per-page <lastmod> record that makes
+# the next run incremental. Committing only the index would throw the cache
+# away with the runner every night, and every run would crawl all 380 pages
+# from cold - the incremental path would silently never engage.
 
 name: Build Aroidpedia search index
 
@@ -50,7 +56,7 @@ jobs:
         run: |
           git config user.name  "aroidpedia-bot"
           git config user.email "actions@github.com"
-          git add docs/search-index.json
+          git add docs/search-index.json docs/search-index-cache.json
           if git diff --staged --quiet; then
             echo "Search index unchanged."
           else
