@@ -196,10 +196,19 @@ def title_from_slug(s):
 
 # ------------------------------------------------------------ fetch: API 1
 def fetch_collection_json():
-    """/journal?format=json&nested=true, paginated."""
-    items, offset = [], 0
+    """/journal?format=json&nested=true, paginated.
+
+    Squarespace's `offset` is a publish-time cursor in epoch MILLISECONDS,
+    not an item index. Sending offset=0 on the first call asks for posts
+    published before 1970 and returns an empty list - which is exactly why
+    this endpoint looked dead. The first call must carry no offset at all;
+    subsequent ones use pagination.nextPageOffset verbatim.
+    """
+    items, offset = [], None
     for page in range(MAX_PAGES):
-        url = f"{SITE}{COLLECTION_PATH}?format=json&nested=true&offset={offset}"
+        url = f"{SITE}{COLLECTION_PATH}?format=json&nested=true"
+        if offset:
+            url += f"&offset={offset}"
         data = get(url)
         if not data:
             break
@@ -220,7 +229,9 @@ def fetch_collection_json():
         pag = data.get("pagination") or {}
         if not pag.get("nextPage"):
             break
-        offset = pag.get("nextPageOffset") or (offset + len(batch))
+        offset = pag.get("nextPageOffset")
+        if not offset:
+            break
         time.sleep(PAUSE)
     return items
 
@@ -249,32 +260,60 @@ def fetch_open_api():
 
 # ------------------------------------------------------------ fetch: API 3
 def read_sitemap():
-    """[(url, lastmod)] for every entry URL. lastmod drives the cache."""
+    """[(url, lastmod)] for every entry URL. lastmod drives the cache.
+
+    sitemap.xml may be a sitemap INDEX - a list of further .xml files
+    rather than the pages themselves. Reading only the top level then
+    finds a subset of the site, silently. Sub-sitemaps are followed here.
+    """
     xml = get(f"{SITE}/sitemap.xml", as_json=False)
     if not xml:
         return []
     try:
-        root = ET.fromstring(xml)
+        first = ET.fromstring(xml)
     except ET.ParseError as e:
         log(f"    sitemap parse error: {e}")
         return []
 
+    subs = [el.text.strip() for el in first.iter()
+            if el.tag.split("}")[-1] == "loc" and el.text
+            and el.text.strip().endswith(".xml")]
+
+    roots = []
+    if subs:
+        log(f"    sitemap index: {len(subs)} sub-sitemaps")
+        for sub in subs:
+            sx = get(sub, as_json=False)
+            if not sx:
+                continue
+            try:
+                roots.append(ET.fromstring(sx))
+            except ET.ParseError:
+                continue
+            time.sleep(PAUSE)
+    else:
+        roots.append(first)
+
     ns = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
-    out = []
-    for url_el in root.findall(".//s:url", ns):
-        loc = url_el.find("s:loc", ns)
-        if loc is None or not loc.text:
-            continue
-        url = loc.text
-        if COLLECTION_PATH + "/" not in url:
-            continue
-        # Tag / category / author archives sit under the same path but are
-        # not entries. Skipping them here saves ~100 requests per run and
-        # keeps archive pages out of the index.
-        if any(seg in url for seg in NON_ENTRY_SEGMENTS):
-            continue
-        mod = url_el.find("s:lastmod", ns)
-        out.append((url, (mod.text if mod is not None else "") or ""))
+    seen, out = set(), []
+
+    for root in roots:
+        for url_el in root.findall(".//s:url", ns):
+            loc = url_el.find("s:loc", ns)
+            if loc is None or not loc.text:
+                continue
+            url = loc.text.strip()
+            if COLLECTION_PATH + "/" not in url or url in seen:
+                continue
+            # Tag / category / author archives sit under the same path but
+            # are not entries. Skipping them here saves ~100 requests a run
+            # and keeps archive pages out of the index.
+            if any(seg in url for seg in NON_ENTRY_SEGMENTS):
+                continue
+            seen.add(url)
+            mod = url_el.find("s:lastmod", ns)
+            out.append((url, (mod.text if mod is not None else "") or ""))
+
     return out
 
 
