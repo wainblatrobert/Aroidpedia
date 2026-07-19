@@ -37,12 +37,29 @@ names would otherwise be a third of the payload.
 The file also carries the genus list with counts, so the typeahead needs
 ONE fetch rather than two - it no longer has to also pull counts.json.
 
-FETCH STRATEGY
-Squarespace has changed which endpoint returns collection items more than
-once, so three are tried in order and the log says which one worked:
-  1. /journal?format=json&nested=true   (what the bibliography uses)
-  2. /api/open/content/items?collectionId=...
-  3. sitemap.xml + per-page ?format=json   (slow, last resort)
+FETCH STRATEGY  (v2)
+On this site the collection endpoints return no items - /journal?format=json
+yields collection metadata only, and /api/open/content/items 404s - so the
+sitemap walk is the real path, not a last resort. It is therefore primary
+now, and made cheap two ways:
+
+  · PARALLEL  pages are fetched by a small thread pool instead of one at a
+    time with a sleep between each. 481 pages goes from ~6 minutes to well
+    under one.
+
+  · INCREMENTAL  sitemap.xml carries <lastmod> per URL. Those stamps are
+    kept in docs/search-index-cache.json, and a page is re-fetched only
+    when its stamp changes. After the first build a normal night touches
+    the handful of pages that actually moved - seconds, not minutes, and
+    ~1,800 requests a year to the site instead of ~175,000.
+
+The collection endpoint is still tried first, since it would return
+everything in one call if Squarespace ever starts answering it again. When
+it comes back without items the log prints the JSON's top-level keys, so
+there's something to work from rather than a silent "returned nothing".
+
+The cache file is build state, not site content - it is never read by the
+browser. Only search-index.json is public.
 
 CLEAN DIFFS
 Re-run daily and the "generated" stamp would change every time, so every
@@ -65,6 +82,7 @@ import sys
 import time
 import unicodedata
 import xml.etree.ElementTree as ET
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 
 import requests
@@ -73,12 +91,14 @@ SITE = "https://www.aroidpedia.com"
 COLLECTION_PATH = "/journal"
 COLLECTION_ID = "5ecf40ddda96fb2d2d4da53e"      # from the live site
 OUT_PATH = os.path.join("docs", "search-index.json")
+CACHE_PATH = os.path.join("docs", "search-index-cache.json")
 
 PAGE_SIZE = 100
 MAX_PAGES = 60                                   # 6,000 entries; a guard, not a target
 TIMEOUT = 30
 RETRIES = 3
-PAUSE = 0.4                                      # be polite between requests
+PAUSE = 0.4                                      # between paginated API calls
+WORKERS = 8                                      # concurrent page fetches; gentle on the site
 
 CATEGORIES = {"species", "cultivar", "hybrid"}
 
@@ -144,6 +164,14 @@ def fetch_collection_json():
             break
         batch = data.get("items") or []
         if not batch:
+            # Say WHY rather than just "returned nothing" - if Squarespace
+            # moves the items under another key, this log names it.
+            if page == 0 and isinstance(data, dict):
+                log(f"    no 'items' key. top-level keys: {sorted(data.keys())}")
+                coll = data.get("collection")
+                if isinstance(coll, dict):
+                    arrays = [k for k, v in coll.items() if isinstance(v, list) and v]
+                    log(f"    collection arrays: {arrays or 'none'}")
             break
         items.extend(batch)
         log(f"    page {page + 1}: +{len(batch)} (total {len(items)})")
@@ -179,8 +207,8 @@ def fetch_open_api():
 
 
 # ------------------------------------------------------------ fetch: API 3
-def fetch_via_sitemap():
-    """Last resort: sitemap for URLs, then ?format=json per page. Slow."""
+def read_sitemap():
+    """[(url, lastmod)] for every entry URL. lastmod drives the cache."""
     xml = get(f"{SITE}/sitemap.xml", as_json=False)
     if not xml:
         return []
@@ -191,32 +219,103 @@ def fetch_via_sitemap():
         return []
 
     ns = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
-    urls = [el.text for el in root.findall(".//s:loc", ns) if el.text]
-    urls = [u for u in urls if COLLECTION_PATH + "/" in u]
-    log(f"    sitemap: {len(urls)} candidate entry URLs")
+    out = []
+    for url_el in root.findall(".//s:url", ns):
+        loc = url_el.find("s:loc", ns)
+        if loc is None or not loc.text:
+            continue
+        if COLLECTION_PATH + "/" not in loc.text:
+            continue
+        mod = url_el.find("s:lastmod", ns)
+        out.append((loc.text, (mod.text if mod is not None else "") or ""))
+    return out
 
-    items = []
-    for i, u in enumerate(urls, 1):
-        data = get(f"{u}?format=json")
-        if data and data.get("item"):
-            items.append(data["item"])
-        if i % 25 == 0:
-            log(f"    fetched {i}/{len(urls)}")
-        time.sleep(PAUSE)
-    return items
+
+def load_cache():
+    try:
+        with open(CACHE_PATH, encoding="utf-8") as f:
+            c = json.load(f)
+        return c.get("pages", {})
+    except (OSError, json.JSONDecodeError):
+        return {}
+
+
+def fetch_via_sitemap():
+    """Sitemap for URLs, then ?format=json per page - parallel + incremental."""
+    pairs = read_sitemap()
+    if not pairs:
+        return [], {}
+    log(f"    sitemap: {len(pairs)} entry URLs")
+
+    cache = load_cache()
+    fresh, stale = [], []
+    for url, mod in pairs:
+        hit = cache.get(url)
+        # Reuse only when the page's lastmod is unchanged AND we actually
+        # stored its fields last time.
+        if hit and mod and hit.get("m") == mod and hit.get("item"):
+            fresh.append((url, mod, hit["item"]))
+        else:
+            stale.append((url, mod))
+
+    log(f"    unchanged since last build: {len(fresh)}")
+    log(f"    to fetch: {len(stale)}")
+
+    items, new_cache = [], {}
+    for url, mod, item in fresh:
+        items.append(item)
+        new_cache[url] = {"m": mod, "item": item}
+
+    if stale:
+        done = [0]
+
+        def one(pair):
+            url, mod = pair
+            data = get(f"{url}?format=json")
+            done[0] += 1
+            if done[0] % 50 == 0:
+                log(f"    fetched {done[0]}/{len(stale)}")
+            item = (data or {}).get("item")
+            return (url, mod, item)
+
+        with ThreadPoolExecutor(max_workers=WORKERS) as pool:
+            for url, mod, item in pool.map(one, stale):
+                if not item:
+                    continue
+                # Keep only what the index needs - the cache should not
+                # balloon with full post bodies.
+                slim = {
+                    "title": item.get("title"),
+                    "fullUrl": item.get("fullUrl"),
+                    "urlId": item.get("urlId"),
+                    "tags": item.get("tags") or [],
+                    "categories": item.get("categories") or [],
+                }
+                items.append(slim)
+                new_cache[url] = {"m": mod, "item": slim}
+
+    return items, new_cache
 
 
 def fetch_items():
+    """Returns (items, source_name, cache_to_write_or_None)."""
+    # One call would beat 481, so it's still worth asking.
     for name, fn in (("collection JSON", fetch_collection_json),
-                     ("open content API", fetch_open_api),
-                     ("sitemap walk", fetch_via_sitemap)):
+                     ("open content API", fetch_open_api)):
         log(f"  trying {name} ...")
         items = fn()
         if items:
             log(f"  -> {name} returned {len(items)} items")
-            return items, name
+            return items, name, None
         log(f"  -> {name} returned nothing")
-    return [], None
+
+    log("  trying sitemap walk (parallel, incremental) ...")
+    items, cache = fetch_via_sitemap()
+    if items:
+        log(f"  -> sitemap walk returned {len(items)} items")
+        return items, "sitemap walk", cache
+    log("  -> sitemap walk returned nothing")
+    return [], None, None
 
 
 # ------------------------------------------------------------------ shape
@@ -332,7 +431,7 @@ def main():
     log("Aroidpedia search index")
     log(f"  site: {SITE}")
 
-    items, via = fetch_items()
+    items, via, cache = fetch_items()
     if not items:
         log("ERROR: no items returned by any strategy - index NOT written.")
         log("       The existing file is left in place rather than emptied.")
@@ -380,12 +479,25 @@ def main():
         return 0
 
     if unchanged(index, OUT_PATH):
-        log("\n  No changes since last build - file left untouched.")
+        log("\n  No changes since last build - index left untouched.")
+        # The cache may still have advanced (new lastmod stamps on pages
+        # whose title/genus/category didn't change), so persist it.
+        if cache:
+            os.makedirs(os.path.dirname(CACHE_PATH), exist_ok=True)
+            with open(CACHE_PATH, "w", encoding="utf-8") as f:
+                json.dump({"pages": cache}, f, ensure_ascii=False, separators=(",", ":"))
         return 0
 
     os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
     with open(OUT_PATH, "w", encoding="utf-8") as f:
         json.dump(index, f, ensure_ascii=False, separators=(",", ":"))
+
+    # Build state for the next incremental run. Written whenever the crawl
+    # produced one, even if the public index came out unchanged.
+    if cache:
+        with open(CACHE_PATH, "w", encoding="utf-8") as f:
+            json.dump({"pages": cache}, f, ensure_ascii=False, separators=(",", ":"))
+        log(f"  wrote {CACHE_PATH}  ({len(cache)} pages cached)")
 
     size = os.path.getsize(OUT_PATH)
     log(f"\n  wrote {OUT_PATH}  ({size:,} bytes, ~{size // 1024} KB)")
