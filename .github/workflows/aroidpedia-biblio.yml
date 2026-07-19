@@ -17,11 +17,21 @@ on:
 
 permissions:
   contents: write             # required for the bot to push its commit
-  pages: write                # ...and to ask Pages to publish the result
+  pages: write                # ...and to publish the result
+  id-token: write             # required by actions/deploy-pages
+
+# "pages" is shared with update-counts.yml so two workflows never deploy
+# to Pages at the same time; they queue instead.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   compile:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -50,21 +60,39 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      # A commit pushed by the Actions bot does not reliably kick off a Pages
-      # build. That is what left search-index.json 404ing at the .github.io
-      # URL while sitting correctly in the repo - and the same gap applies to
-      # the bibliography JSON the genus code blocks read. Worse than a 404:
-      # once a file exists on Pages, a missed rebuild serves the PREVIOUS
-      # copy, which is valid and therefore silently stale.
+      # ---- Publish to GitHub Pages -------------------------------------
+      # Pages on this repo is Actions-sourced: pushing to main deploys
+      # NOTHING. A file only reaches the .github.io URL when a workflow
+      # uploads docs/ as an artifact and deploys it. update-counts.yml was
+      # the only workflow doing that, which is why a freshly committed
+      # search-index.json sat correctly in the repo while 404ing on Pages.
       #
-      # Asking for the build explicitly closes that. Harmless if Pages had
-      # already queued one on its own.
-      - name: Ask GitHub Pages to rebuild
+      # The artifact is the whole docs/ folder, so this publishes whatever
+      # is current there - counts, bibliographies and index alike. The
+      # shared "pages" concurrency group keeps two workflows from
+      # deploying over each other.
+      - name: Sanity check /docs artifact
         if: steps.commit.outputs.changed == 'true'
-        continue-on-error: true          # never fail the build over this
         run: |
-          curl -sS -X POST \
-            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
-            -H "Accept: application/vnd.github+json" \
-            "https://api.github.com/repos/${{ github.repository }}/pages/builds" \
-            -w "\n  pages build requested: HTTP %{http_code}\n"
+          test -d docs
+          if find docs -type l | grep -q .; then
+            echo "ERROR: Pages artifacts cannot contain symlinks."
+            find docs -type l
+            exit 1
+          fi
+          du -sh docs
+
+      - name: Configure Pages
+        if: steps.commit.outputs.changed == 'true'
+        uses: actions/configure-pages@v6
+
+      - name: Upload /docs as Pages artifact
+        if: steps.commit.outputs.changed == 'true'
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: "docs"
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        if: steps.commit.outputs.changed == 'true'
+        uses: actions/deploy-pages@v5
