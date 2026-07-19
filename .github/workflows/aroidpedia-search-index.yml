@@ -27,6 +27,7 @@ on:
 
 permissions:
   contents: write              # the bot needs to push its commit
+  pages: write                 # ...and ask Pages to publish it
 
 # A hand-run started while the nightly one is going would race for the push.
 concurrency:
@@ -53,13 +54,31 @@ jobs:
         run: python "Aroidpedia Search Index/build_search_index.py"
 
       - name: Commit if changed
+        id: commit
         run: |
           git config user.name  "aroidpedia-bot"
           git config user.email "actions@github.com"
           git add docs/search-index.json docs/search-index-cache.json
           if git diff --staged --quiet; then
             echo "Search index unchanged."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "Search index - $(date -u +'%Y-%m-%d')"
             git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
+
+      # A commit pushed by the Actions bot does not reliably kick off a
+      # Pages build, which is why a freshly committed file can 404 - or,
+      # worse, why an EXISTING file quietly keeps serving yesterday's copy
+      # while the repo has today's. Asking for the build explicitly closes
+      # that gap. Harmless if Pages already queued one on its own.
+      - name: Ask GitHub Pages to rebuild
+        if: steps.commit.outputs.changed == 'true'
+        continue-on-error: true          # a failure here must not fail the build
+        run: |
+          curl -sS -X POST \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${{ github.repository }}/pages/builds" \
+            -w "\n  pages build requested: HTTP %{http_code}\n"
