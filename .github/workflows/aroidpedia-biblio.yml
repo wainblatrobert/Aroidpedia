@@ -17,6 +17,7 @@ on:
 
 permissions:
   contents: write             # required for the bot to push its commit
+  pages: write                # ...and to ask Pages to publish the result
 
 jobs:
   compile:
@@ -35,13 +36,35 @@ jobs:
         run: python "Aroidpedia Bibliography/compile_aroidpedia_biblio.py"
 
       - name: Commit if changed
+        id: commit
         run: |
           git config user.name  "aroidpedia-bot"
           git config user.email "actions@github.com"
           git add docs/
           if git diff --staged --quiet; then
             echo "No bibliography changes."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "Aroidpedia bibliographies - $(date -u +'%Y-%m-%d')"
             git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
+
+      # A commit pushed by the Actions bot does not reliably kick off a Pages
+      # build. That is what left search-index.json 404ing at the .github.io
+      # URL while sitting correctly in the repo - and the same gap applies to
+      # the bibliography JSON the genus code blocks read. Worse than a 404:
+      # once a file exists on Pages, a missed rebuild serves the PREVIOUS
+      # copy, which is valid and therefore silently stale.
+      #
+      # Asking for the build explicitly closes that. Harmless if Pages had
+      # already queued one on its own.
+      - name: Ask GitHub Pages to rebuild
+        if: steps.commit.outputs.changed == 'true'
+        continue-on-error: true          # never fail the build over this
+        run: |
+          curl -sS -X POST \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${{ github.repository }}/pages/builds" \
+            -w "\n  pages build requested: HTTP %{http_code}\n"
