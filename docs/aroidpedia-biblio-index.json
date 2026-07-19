@@ -1,12 +1,12 @@
 {
- "compiled": "2026-07-13",
+ "compiled": "2026-07-19",
  "genera": [
   {
    "genus": "Alocasia",
    "slug": "alocasia",
-   "taxon_count": 310,
-   "source_count": 187,
-   "cited_count": 94,
+   "taxon_count": 327,
+   "source_count": 191,
+   "cited_count": 97,
    "json": "alocasia-biblio.json",
    "pdf": "Aroidpedia-Alocasia-Bibliography.pdf"
   },
