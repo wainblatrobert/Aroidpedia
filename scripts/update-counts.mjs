@@ -1,6 +1,6 @@
 /* =====================================================================
    AROIDPEDIA — counts.json BUILDER
-   FILE VERSION: v2   (last updated 2026-07-24)
+   FILE VERSION: v3   (last updated 2026-07-24)
    Bump this number (and the date) any time this file is replaced, so an
    old copy is never mistaken for the current one.
 
@@ -22,6 +22,7 @@
 
 import fs from "node:fs/promises";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 
 const SITE_ORIGIN = process.env.SITE_ORIGIN || "https://www.aroidpedia.com";
 const COLLECTION_PATH = process.env.COLLECTION_PATH || "/journal";
@@ -320,10 +321,27 @@ async function main() {
 }
 
 /* Export for testing; main() only runs when executed directly, so a
-   test harness can import countCollection without triggering a fetch. */
+   test harness can import countCollection without triggering a fetch.
+
+   v3: the direct-run check uses fileURLToPath + path.resolve rather
+   than the common `import.meta.url === \`file://${process.argv[1]}\``
+   idiom. That idiom breaks on any path needing URL encoding - a space
+   in a runner directory is enough - and its failure mode here is
+   SILENT: main() simply never runs, the Action writes nothing, and the
+   workflow's commit step reports "No count changes to commit" as
+   though the data were merely unchanged. Comparing resolved filesystem
+   paths avoids the encoding question entirely.
+
+   The `|| !process.argv[1]` fallback is a second belt: if argv[1] is
+   somehow absent, run anyway. For a scheduled job, running when it
+   maybe shouldn't is a far cheaper mistake than silently not running. */
 export { countCollection, normalizeCategory };
 
-if (import.meta.url === `file://${process.argv[1]}`) {
+const invokedDirectly =
+  !process.argv[1] ||
+  path.resolve(process.argv[1]) === fileURLToPath(import.meta.url);
+
+if (invokedDirectly) {
   main().catch((error) => {
     console.error(error);
     process.exit(1);
