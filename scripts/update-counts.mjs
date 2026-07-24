@@ -1,3 +1,25 @@
+/* =====================================================================
+   AROIDPEDIA — counts.json BUILDER
+   FILE VERSION: v2   (last updated 2026-07-24)
+   Bump this number (and the date) any time this file is replaced, so an
+   old copy is never mistaken for the current one.
+
+   v2 ADDS THE "Hybrid Cultivar" CATEGORY, folded into the HYBRIDS
+   count rather than broken out. A cultivar of a hybrid is still a
+   hybrid as far as the genus page's top-line figure is concerned, and
+   this has to agree with the genus index block, whose hybrids headline
+   is likewise hybrids + hybrid cultivars combined. If the two ever
+   disagree, that mismatch surfaces on the page as two different numbers
+   for the same thing.
+
+   A separate `hybridCultivars` figure IS emitted alongside, both
+   site-wide and per genus, but it is INFORMATIONAL ONLY - nothing on
+   the site renders it. It exists so the split can be reconciled from
+   the console when the index and the hero counter are compared, which
+   is exactly the check that caught the last counting discrepancy.
+   `hybrids` remains inclusive of it; do not subtract one from the other.
+   ===================================================================== */
+
 import fs from "node:fs/promises";
 import path from "node:path";
 
@@ -32,6 +54,18 @@ const GENERA = [
 ];
 
 const GENERA_SET = new Set(GENERA.map(normalizeComparable));
+
+/* Category name sets, normalised. Kept as data rather than inline
+   conditionals so a renamed or pluralised category is a one-line edit.
+   Matching is EXACT against the normalised name - "hybrid cultivar"
+   never satisfies "cultivar", because these are whole-string
+   comparisons rather than substring tests. That is load-bearing: a
+   substring match would silently count every hybrid cultivar as a
+   plain cultivar too. */
+const CAT_SPECIES         = ["species"];
+const CAT_CULTIVAR        = ["cultivar", "cultivars"];
+const CAT_HYBRID          = ["hybrid", "hybrids"];
+const CAT_HYBRID_CULTIVAR = ["hybrid cultivar", "hybrid cultivars"];
 
 function toJsonUrl(url) {
   const u = new URL(url, SITE_ORIGIN);
@@ -96,11 +130,17 @@ function valueToNames(value) {
     .map((v) => String(v).trim());
 }
 
+/* v2: hyphens and underscores collapse to spaces, and runs of
+   whitespace collapse to one. Squarespace hands back the display name
+   ("Hybrid Cultivar"), but a slug ("hybrid-cultivar") can arrive from
+   some payload shapes, and both must land on the same token. */
 function normalizeCategory(value) {
   return String(value || "")
     .trim()
     .toLowerCase()
-    .replace(/&amp;/g, "&");
+    .replace(/&amp;/g, "&")
+    .replace(/[-_]+/g, " ")
+    .replace(/\s+/g, " ");
 }
 
 function slugToTitle(value) {
@@ -192,16 +232,18 @@ function countCollection(items) {
     species: 0,
     cultivars: 0,
     hybrids: 0,
+    hybridCultivars: 0,
     genera: new Set()
   };
 
-  // Per-genus breakdown: genus -> { total, species, cultivars, hybrids }
+  // Per-genus breakdown:
+  //   genus -> { total, species, cultivars, hybrids, hybridCultivars }
   const byGenusMap = new Map();
 
   function bumpGenus(genus, kind) {
     let g = byGenusMap.get(genus);
     if (!g) {
-      g = { total: 0, species: 0, cultivars: 0, hybrids: 0 };
+      g = { total: 0, species: 0, cultivars: 0, hybrids: 0, hybridCultivars: 0 };
       byGenusMap.set(genus, g);
     }
     g.total++;
@@ -216,20 +258,21 @@ function countCollection(items) {
     seenItems.add(key);
 
     const categories = getCategories(item).map(normalizeCategory);
+    const has = (names) => names.some((n) => categories.includes(n));
 
-    const isSpecies = categories.includes("species");
+    const isSpecies = has(CAT_SPECIES);
+    const isCultivar = has(CAT_CULTIVAR);
+    const isHybridCultivar = has(CAT_HYBRID_CULTIVAR);
 
-    const isCultivar =
-      categories.includes("cultivar") ||
-      categories.includes("cultivars");
-
-    const isHybrid =
-      categories.includes("hybrid") ||
-      categories.includes("hybrids");
+    /* v2: a hybrid cultivar counts as a hybrid. Note this is a BOOLEAN
+       OR, not an addition - an item carrying both "Hybrid" and "Hybrid
+       Cultivar" still contributes exactly 1 to the hybrids figure. */
+    const isHybrid = has(CAT_HYBRID) || isHybridCultivar;
 
     if (isSpecies) counts.species++;
     if (isCultivar) counts.cultivars++;
     if (isHybrid) counts.hybrids++;
+    if (isHybridCultivar) counts.hybridCultivars++;   // informational only
 
     if (isSpecies || isCultivar || isHybrid) {
       const genus = getGenus(item);
@@ -239,9 +282,10 @@ function countCollection(items) {
         // Count the item once toward the genus total, and bump each
         // matching category so the breakdown stays internally consistent.
         bumpGenus(genus, null);
-        if (isSpecies)  byGenusMap.get(genus).species++;
-        if (isCultivar) byGenusMap.get(genus).cultivars++;
-        if (isHybrid)   byGenusMap.get(genus).hybrids++;
+        if (isSpecies)         byGenusMap.get(genus).species++;
+        if (isCultivar)        byGenusMap.get(genus).cultivars++;
+        if (isHybrid)          byGenusMap.get(genus).hybrids++;
+        if (isHybridCultivar)  byGenusMap.get(genus).hybridCultivars++;
       }
     }
   });
@@ -256,6 +300,7 @@ function countCollection(items) {
     species: counts.species,
     cultivars: counts.cultivars,
     hybrids: counts.hybrids,
+    hybridCultivars: counts.hybridCultivars,
     genera: counts.genera.size,
     byGenus,
     updatedAt: new Date().toISOString(),
@@ -274,7 +319,13 @@ async function main() {
   console.log("Counts written:", counts);
 }
 
-main().catch((error) => {
-  console.error(error);
-  process.exit(1);
-});
+/* Export for testing; main() only runs when executed directly, so a
+   test harness can import countCollection without triggering a fetch. */
+export { countCollection, normalizeCategory };
+
+if (import.meta.url === `file://${process.argv[1]}`) {
+  main().catch((error) => {
+    console.error(error);
+    process.exit(1);
+  });
+}
