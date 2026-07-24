@@ -2,6 +2,16 @@
 """
 Aroidpedia - search index builder
 =================================
+FILE VERSION: v2  (last updated 2026-07-24)
+Bump this number (and the date) any time this file is replaced, so an old
+copy is never mistaken for the current one.
+
+v2 ADDS THE "Hybrid Cultivar" CATEGORY. Before this, such an entry was
+still indexed and searchable but carried c:"" - it fell out of the
+category dot in the typeahead and showed up in the run log's "no
+Species/Cultivar/Hybrid category" note. See extract_category() for the
+longest-match rule, which matters more than it looks.
+
 Writes docs/search-index.json: every published entry on the site, in the
 smallest useful form for a browser typeahead.
 
@@ -25,11 +35,18 @@ OUTPUT  docs/search-index.json
       ]
     }
 
-  t  title as published        c  species | cultivar | hybrid | ""
+  t  title as published        c  species | cultivar | hybrid |
+                                  hybrid cultivar | ""
   g  genus (first tag)         u  path, root-relative
   s  normalised search string (lower-case, accents folded, quotes
      stripped) so the browser can match without re-processing 357 rows
      on every keystroke
+
+NOTE FOR CONSUMERS: `c` may now contain a SPACE ("hybrid cultivar"). The
+typeahead builds a CSS class from it by concatenation, so it slugifies
+first (see catSlug in the footer injection) - interpolated raw, a space
+splits it into two classes and the dot silently picks up the wrong
+colour. Anything else consuming this field needs the same care.
 
 Keys are single letters on purpose: at a few hundred entries the field
 names would otherwise be a third of the payload.
@@ -65,7 +82,8 @@ WHAT COUNTS AS AN ENTRY
 The sitemap lists tag and category archive pages under the same path as
 real posts (/journal/tag/Borneo, /journal/category/Cultivar). Those are not
 entries - crawling them wastes requests and pollutes the index - so they
-are filtered out before anything is fetched.
+are filtered out before anything is fetched. This already covers the new
+/journal/category/Hybrid+Cultivar archive; no change was needed for it.
 
 REFUSING A PARTIAL INDEX
 If pages fail (rate limiting, a blip), the previous cached copy is reused
@@ -81,6 +99,10 @@ Re-run daily and the "generated" stamp would change every time, so every
 run would commit. The script instead compares everything EXCEPT that stamp
 against the file on disk and leaves it untouched when nothing has really
 changed - so a commit in the history always means the site changed.
+
+CACHE NOTE FOR THIS UPGRADE: the cache stores the raw item fields, not the
+derived category, so adding a category here does NOT require a cache
+purge. Entries are re-derived from cached `categories` on every run.
 
 USAGE
     python "Aroidpedia Search Index/build_search_index.py"
@@ -120,7 +142,36 @@ MAX_FAIL_RATE = 0.02                             # abort above 2% unrecovered fa
 # Sitemap paths that live under /journal/ but are not entries.
 NON_ENTRY_SEGMENTS = ("/journal/tag/", "/journal/category/", "/journal/author/")
 
-CATEGORIES = {"species", "cultivar", "hybrid"}
+# Recognised entry categories, normalised (lower-case, single-spaced),
+# mapped to the CANONICAL value written into the index.
+#
+# v2: "hybrid cultivar" added, and plural spellings now alias onto the
+# singular. Two reasons for the alias table rather than a bare set:
+#
+#   1. It matches the JS counts builder (scripts/update-counts.mjs),
+#      which already tolerates "Hybrids"/"Cultivars". Two builders reading
+#      the same Squarespace categories should not disagree about what
+#      counts, or counts.json and search-index.json drift apart.
+#   2. It guarantees a STABLE OUTPUT VALUE. The index's `c` field becomes
+#      a CSS class in the typeahead, so if a category were ever renamed
+#      to the plural, emitting "hybrid cultivars" would silently break the
+#      dot colour. Aliasing pins the output regardless of the input
+#      spelling.
+#
+# Membership is tested against the WHOLE normalised name, never as a
+# substring: "hybrid cultivar" must not satisfy "cultivar".
+CATEGORY_ALIASES = {
+    "species":           "species",
+    "cultivar":          "cultivar",
+    "cultivars":         "cultivar",
+    "hybrid":            "hybrid",
+    "hybrids":           "hybrid",
+    "hybrid cultivar":   "hybrid cultivar",
+    "hybrid cultivars":  "hybrid cultivar",
+}
+
+# The canonical values, for the run-log tally.
+CATEGORIES = sorted(set(CATEGORY_ALIASES.values()))
 
 session = requests.Session()
 session.headers.update({
@@ -307,7 +358,10 @@ def read_sitemap():
                 continue
             # Tag / category / author archives sit under the same path but
             # are not entries. Skipping them here saves ~100 requests a run
-            # and keeps archive pages out of the index.
+            # and keeps archive pages out of the index. This already covers
+            # /journal/category/Hybrid+Cultivar - the filter is on the path
+            # segment, not on a list of known category names, so a new
+            # category never needs adding here.
             if any(seg in url for seg in NON_ENTRY_SEGMENTS):
                 continue
             seen.add(url)
@@ -433,15 +487,42 @@ def fetch_items():
 
 
 # ------------------------------------------------------------------ shape
+def normalize_category(value):
+    """Lower-case, collapse hyphens/underscores/whitespace to single spaces.
+
+    Squarespace hands back the display name ("Hybrid Cultivar"), but a slug
+    ("hybrid-cultivar") turns up in some payload shapes, and both have to
+    land on the same token.
+    """
+    s = str(value or "").strip().lower()
+    s = re.sub(r"[-_]+", " ", s)
+    return re.sub(r"\s+", " ", s)
+
+
 def extract_category(item):
-    """Species / Cultivar / Hybrid, from whichever field carries it."""
+    """Species / Cultivar / Hybrid / Hybrid Cultivar, from whichever field
+    carries it.
+
+    LONGEST MATCH WINS, and that is the whole point of this function's v2
+    rewrite. The old version returned the FIRST recognised category in the
+    list, so a post tagged both "Hybrid" and "Hybrid Cultivar" resolved to
+    whichever Squarespace happened to order first - non-deterministic from
+    this script's point of view, and wrong half the time. Preferring the
+    longest name makes the more specific category win every time.
+
+    Matching is against the WHOLE normalised name, never a substring:
+    "hybrid cultivar" must not satisfy "cultivar", or every hybrid
+    cultivar would also be filed as a plain cultivar.
+    """
     cats = item.get("categories") or []
     if isinstance(cats, str):
         cats = [cats]
-    for c in cats:
-        if str(c).strip().lower() in CATEGORIES:
-            return str(c).strip().lower()
-    return ""
+
+    matches = [CATEGORY_ALIASES.get(normalize_category(c)) for c in cats]
+    matches = [c for c in matches if c]
+    if not matches:
+        return ""
+    return max(matches, key=len)
 
 
 def extract_genus(item):
@@ -563,6 +644,17 @@ def main():
     for g in index["genera"]:
         log(f"      {g['n']:<24} {g['c']:>5}  {g['u']}")
 
+    # Per-category tally. Added in v2 so a category that stops matching -
+    # renamed in Squarespace, say - shows up as a zero here rather than
+    # silently draining into the "no category" note below.
+    cat_tally = {}
+    for e in index["entries"]:
+        if e["c"]:
+            cat_tally[e["c"]] = cat_tally.get(e["c"], 0) + 1
+    log("  categories    :")
+    for c in sorted(CATEGORIES):
+        log(f"      {c:<24} {cat_tally.get(c, 0):>5}")
+
     missing_genus = [e["t"] for e in index["entries"] if not e["g"]]
     missing_cat = [e["t"] for e in index["entries"] if not e["c"]]
     if missing_genus:
@@ -570,8 +662,8 @@ def main():
         for t in missing_genus[:8]:
             log(f"      {t}")
     if missing_cat:
-        log(f"  NOTE: {len(missing_cat)} entries have no Species/Cultivar/Hybrid "
-            f"category, e.g.:")
+        log(f"  NOTE: {len(missing_cat)} entries have no recognised category, "
+            f"e.g.:")
         for t in missing_cat[:8]:
             log(f"      {t}")
 
