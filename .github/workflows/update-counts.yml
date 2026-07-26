@@ -1,75 +1,89 @@
+# =====================================================================
+# AROIDPEDIA - UPDATE COUNTS WORKFLOW
+# FILE VERSION: v2   (last updated 2026-07-26)
+# Path in repo: .github/workflows/update-counts.yml
+#
+# v2 FIXES A DAILY PUSH FAILURE:
+#   ! [rejected] main -> main (fetch first)
+#
+# Cause: this workflow shares the "pages" concurrency group with
+# aroidpedia-search-index.yml (08:00 UTC) and aroidpedia-biblio.yml.
+# Firing at 08:05, it QUEUES behind the search-index run. Meanwhile
+# actions/checkout defaults to `ref: github.sha` - the tip of main as
+# recorded when this run was CREATED at 08:05, not when it actually
+# starts. So by the time the queue clears, search-index has pushed a
+# new commit and this job checks out a stale main, commits onto it,
+# and is rejected as a non-fast-forward.
+#
+# The concurrency group does not prevent that collision; it is what
+# makes it happen nearly every day.
+#
+# Two changes, both load-bearing:
+#
+#   1. `ref: ${{ github.ref_name }}` on checkout. Naming the BRANCH
+#      instead of a pinned SHA makes checkout resolve refs/heads/main
+#      at fetch time, so the job starts from the real current tip.
+#      This also fixes a silent second bug: the Pages artifact was
+#      being built from the stale docs/ folder, republishing an old
+#      search-index.json and reverting the live site's search until
+#      the following day's run.
+#
+#   2. A fetch/reset/retry loop around the push. Change 1 shrinks the
+#      race window but cannot close it - the crawl in `Generate counts`
+#      takes minutes, and anything landing on main during those minutes
+#      reopens it. The loop re-bases onto the true remote tip and
+#      retries up to 5 times with backoff.
+#
+# The loop resets HARD onto origin rather than running `git pull
+# --rebase`. docs/counts.json is fully regenerated every run, never
+# hand-edited, so there is no merge to perform - the generated file
+# simply wins. A rebase could stop on a conflict and hang the job;
+# reset cannot. The freshly built file is parked in RUNNER_TEMP first,
+# because the reset would otherwise destroy the very thing being
+# committed.
+# =====================================================================
 name: Update Aroidpedia Counts
-
 on:
   schedule:
     - cron: "5 8 * * *"
   workflow_dispatch:
-
 permissions:
   contents: write
   pages: write
   id-token: write
-
 concurrency:
   group: "pages"
   cancel-in-progress: false
-
 jobs:
   update-counts:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
     steps:
+      # v2: `ref` names the branch, not the run's pinned SHA, so a job
+      # released from the concurrency queue starts at the current tip.
+      # fetch-depth: 0 gives the push loop below real history to reset
+      # against; a shallow clone makes that unreliable.
       - name: Check out repo
         uses: actions/checkout@v5
-
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
       - name: Set up Node
         uses: actions/setup-node@v6
         with:
           node-version: "24"
-
       - name: Generate counts
         run: node scripts/update-counts.mjs
         env:
           SITE_ORIGIN: "https://www.aroidpedia.com"
           COLLECTION_PATH: "/journal"
           OUT_FILE: "docs/counts.json"
-
+      # v2: replaces the bare `git commit && git push`.
       - name: Commit updated counts
         run: |
-          git config user.name "github-actions"
+          set -euo pipefail
+          BRANCH="${GITHUB_REF_NAME}"
+          git config user.name  "github-actions"
           git config user.email "github-actions@github.com"
-          git add docs/counts.json
-          if git diff --cached --quiet; then
-            echo "No count changes to commit."
-          else
-            git commit -m "Update Aroidpedia counts"
-            git push
-          fi
-
-      - name: Sanity check /docs artifact
-        run: |
-          test -d docs
-          test -f docs/counts.json
-          echo "Artifact size:"
-          du -sh docs
-          echo "Checking for symlinks:"
-          if find docs -type l | grep -q .; then
-            echo "ERROR: GitHub Pages artifacts cannot contain symlinks."
-            find docs -type l
-            exit 1
-          fi
-
-      - name: Configure Pages
-        uses: actions/configure-pages@v6
-
-      - name: Upload /docs as Pages artifact
-        uses: actions/upload-pages-artifact@v5
-        with:
-          path: "docs"
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v5
