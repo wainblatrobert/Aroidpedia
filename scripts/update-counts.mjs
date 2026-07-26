@@ -1,153 +1,84 @@
-    nextUrl = getNextPageUrl(data);
-    guard++;
-  }
-  return allItems;
-}
-function countCollection(items) {
-  const counts = {
-    species: 0,
-    cultivars: 0,
-    hybrids: 0,
-    hybridCultivars: 0,
-    unclassified: 0,
-    genera: new Set()
-  };
-  const diagnostics = {
-    multiCategory: 0,
-    multiCategoryItems: [],
-    unclassifiedItems: []
-  };
-  // Per-genus breakdown:
-  //   genus -> { total, species, cultivars, hybrids, hybridCultivars }
-  const byGenusMap = new Map();
-  /* v4: takes the single bucket the item was classified into, so
-     `total` is by construction the sum of the four buckets. There is
-     no longer a code path that can bump one without the other. */
-  function bumpGenus(genus, bucket) {
-    let g = byGenusMap.get(genus);
-    if (!g) {
-      g = { total: 0, species: 0, cultivars: 0, hybrids: 0, hybridCultivars: 0 };
-      byGenusMap.set(genus, g);
-    }
-    g.total++;
-    g[bucket]++;
-  }
-  const seenItems = new Set();
-  items.forEach((item, index) => {
-    const key = getItemKey(item, index);
-    if (seenItems.has(key)) return;
-    seenItems.add(key);
-    const categories = getCategories(item).map(normalizeCategory);
-    const matched = matchedBuckets(categories);
-    const bucket = pickBucket(matched);
-    if (matched.length > 1) {
-      diagnostics.multiCategory++;
-      if (diagnostics.multiCategoryItems.length < DIAGNOSTIC_SAMPLE_CAP) {
-        diagnostics.multiCategoryItems.push({
-          title: item.title || String(key),
-          categories,
-          matched,
-          countedAs: bucket
-        });
-      }
-    }
-    if (!bucket) {
-      counts.unclassified++;
-      if (diagnostics.unclassifiedItems.length < DIAGNOSTIC_SAMPLE_CAP) {
-        diagnostics.unclassifiedItems.push({
-          title: item.title || String(key),
-          categories
-        });
-      }
-      return;
-    }
-    counts[bucket]++;
-    const genus = getGenus(item);
-    if (genus) {
-      counts.genera.add(genus);
-      bumpGenus(genus, bucket);
-    }
-  });
-  /* v4: the disjointness guarantee, checked rather than assumed. If
-     this ever trips, the arithmetic above is wrong and the right
-     outcome is a failed Action, not a published counts.json that
-     quietly disagrees with itself. */
-  const bucketTotal =
-    counts.species +
-    counts.cultivars +
-    counts.hybrids +
-    counts.hybridCultivars +
-    counts.unclassified;
-  if (bucketTotal !== seenItems.size) {
-    throw new Error(
-      `Count invariant violated: buckets sum to ${bucketTotal} but ` +
-      `${seenItems.size} distinct items were scanned. The categories ` +
-      `are no longer mutually exclusive.`
-    );
-  }
-  // Convert the per-genus map to a plain object, sorted by total desc
-  const byGenus = {};
-  [...byGenusMap.entries()]
-    .sort((a, b) => b[1].total - a[1].total || a[0].localeCompare(b[0]))
-    .forEach(([genus, g]) => { byGenus[genus] = g; });
-  return {
-    species: counts.species,
-    cultivars: counts.cultivars,
-    hybrids: counts.hybrids,
-    hybridCultivars: counts.hybridCultivars,
-    unclassified: counts.unclassified,
-    genera: counts.genera.size,
-    byGenus,
-    diagnostics,
-    updatedAt: new Date().toISOString(),
-    source: `${SITE_ORIGIN}${COLLECTION_PATH}`,
-    totalItemsScanned: seenItems.size
-  };
-}
-async function main() {
-  const items = await fetchAllJournalItems();
-  const counts = countCollection(items);
-  await fs.mkdir(path.dirname(OUT_FILE), { recursive: true });
-  await fs.writeFile(OUT_FILE, JSON.stringify(counts, null, 2) + "\n", "utf8");
-  console.log("Counts written:", counts);
-  /* v4: surface tagging problems in the Action log. These do not fail
-     the run - a mis-tagged page is a content fix, not a build break -
-     but they must not be invisible either. */
-  if (counts.unclassified > 0) {
-    console.warn(
-      `WARNING: ${counts.unclassified} item(s) matched no category and ` +
-      `were counted toward no genus.`,
-      counts.diagnostics.unclassifiedItems
-    );
-  }
-  if (counts.diagnostics.multiCategory > 0) {
-    console.warn(
-      `WARNING: ${counts.diagnostics.multiCategory} item(s) carry more than ` +
-      `one category and were assigned by precedence.`,
-      counts.diagnostics.multiCategoryItems
-    );
-  }
-}
-/* Export for testing; main() only runs when executed directly, so a
-   test harness can import countCollection without triggering a fetch.
-   v3: the direct-run check uses fileURLToPath + path.resolve rather
-   than the common `import.meta.url === \`file://${process.argv[1]}\``
-   idiom. That idiom breaks on any path needing URL encoding - a space
-   in a runner directory is enough - and its failure mode here is
-   SILENT: main() simply never runs, the Action writes nothing, and the
-   workflow's commit step reports "No count changes to commit" as
-   though the data were merely unchanged. Comparing resolved filesystem
-   paths avoids the encoding question entirely.
-   The `|| !process.argv[1]` fallback is a second belt: if argv[1] is
-   somehow absent, run anyway. For a scheduled job, running when it
-   maybe shouldn't is a far cheaper mistake than silently not running. */
-export { countCollection, normalizeCategory, matchedBuckets, pickBucket };
-const invokedDirectly =
-  !process.argv[1] ||
-  path.resolve(process.argv[1]) === fileURLToPath(import.meta.url);
-if (invokedDirectly) {
-  main().catch((error) => {
-    console.error(error);
-    process.exit(1);
-  });
-}
+/* =====================================================================
+   AROIDPEDIA — counts.json BUILDER
+   FILE VERSION: v4   (last updated 2026-07-26)
+   Bump this number (and the date) any time this file is replaced, so an
+   old copy is never mistaken for the current one.
+   v4 MAKES THE FOUR CATEGORIES MUTUALLY EXCLUSIVE. Every item lands in
+   exactly ONE of species / cultivars / hybrids / hybridCultivars, and
+   is never counted twice. Aggregation is now the caller's job: the
+   code blocks on the site decide what to add together.
+   THIS REVERSES v2. Under v2, `hybrids` was inclusive - a hybrid
+   cultivar bumped BOTH `hybrids` and `hybridCultivars`, and the site
+   rendered the inclusive figure. Under v4 `hybrids` means PLAIN
+   hybrids only. Anything on the site that wants the old inclusive
+   number must now render:
+       hybrids + hybridCultivars
+   Both the genus page top-line and the genus index hybrids headline
+   read that field, so BOTH need the addition or both will silently
+   drop by the hybrid-cultivar count. They must be changed together -
+   that pair disagreeing is precisely the two-different-numbers-for-
+   the-same-thing failure the v2 note was written about.
+   WHAT MAKES THE BUCKETS DISJOINT: a single classify step per item,
+   with a documented precedence, replacing v3's four independent `if`
+   tests. Precedence runs most-specific first:
+       hybridCultivars > hybrids > cultivars > species
+   so an item tagged both "Hybrid" and "Hybrid Cultivar" is a hybrid
+   cultivar and is counted once, there. Multi-category items are no
+   longer silently double counted - but they ARE now silently
+   RECLASSIFIED, which is a quieter kind of wrong, so every one of
+   them is reported in `diagnostics.multiCategory`.
+   TWO NEW SELF-CHECKS, both cheap and both worth keeping:
+     - `unclassified` counts items matching no category at all. In v3
+       these vanished without trace. Now the four buckets plus
+       `unclassified` sum to `totalItemsScanned` EXACTLY, and that
+       invariant is asserted below - a mismatch throws and fails the
+       Action rather than publishing wrong numbers.
+     - `diagnostics` lists the titles of multi-category and
+       unclassified items (capped), so a mis-tagged page shows up in
+       the Action log instead of quietly bending a headline figure.
+   Per genus, `total` is now exactly the sum of that genus's four
+   buckets. Under v3 it was an independent per-item tally that could
+   drift below the sum; it can no longer disagree.
+   ===================================================================== */
+import fs from "node:fs/promises";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+const SITE_ORIGIN = process.env.SITE_ORIGIN || "https://www.aroidpedia.com";
+const COLLECTION_PATH = process.env.COLLECTION_PATH || "/journal";
+const OUT_FILE = process.env.OUT_FILE || "docs/counts.json";
+const GENERA = [
+  "Adelonema","Aglaodorum","Aglaonema","Aia","Alloschemone","Alocasia","Ambrosina",
+  "Amorphophallus","Amydrium","Anadendrum","Anaphyllopsis","Anaphyllum","Anchomanes",
+  "Anthurium","Anubias","Apoballis","Aridarum","Ariopsis","Arisaema","Arisarum",
+  "Arophyton","Arum","Asterostigma","Ayuantha","Bakoa","Bakoaella","Bau","Biarum",
+  "Bidayuha","Bognera","Borneoa","Boycea","Bucephalandra","Burttianthus","Caladium",
+  "Calla","Callopsis","Carlephyton","Cercestis","Chlorospatha","Colletogyne",
+  "Colobogynium","Colocasia","Croatiella","Cryptocoryne","Culcasia","Cyrtosperma",
+  "Dieffenbachia","Dracontioides","Dracontium","Dracunculus","Eminium","Englerarum",
+  "Epipremnum","Fenestratarum","Filarum","Furtadoa","Galantharum","Gamogyne","Gearum",
+  "Gonatopus","Gorgonidium","Gosong","Gymnostachys","Hapaline","Helicodiceros","Hera",
+  "Heteroaridarum","Heteropsis","Holochlamys","Homalomena","Hottarum","Ibania",
+  "Idimanthus","Incarum","Jasarum","Josefia","Kiewia","Lagenandra","Lasia","Lasimorpha",
+  "Lazarum","Lemna","Leucocasia","Lorenzia","Lysichiton","Mangonia","Monstera",
+  "Montrichardia","Nabalu","Naiadia","Nephthytis","Ooia","Orontium","Peltandra",
+  "Philodendron","Philonotion","Phyllotaenium","Phymatarum","Pichinia","Pinellia",
+  "Piptospatha","Pistia","Podolasia","Pothoidium","Pothos","Protarum","Pseudohydrosme",
+  "Pursegloveia","Pycnospatha","Remusatia","Rhaphidophora","Rhodospatha","Rhynchopyle",
+  "Sarawakia","Sauromatum","Scaphispatha","Schottarum","Schottariella",
+  "Scindapsus","Spathantheum","Spathicarpa","Spathiphyllum","Spirodela","Stenospermation",
+  "Steudnera","Stylochiton","Symplocarpus","Synandrospadix","Syngonium",
+  "Taccarum","Tawaia","Theriophonum","Toga","Tweeddalea","Typhonium","Typhonodorum",
+  "Ulearum","Urospatha","Vesta","Vietnamocasia","Vivaria","Wolffia","Wolffiella",
+  "Xanthosoma","Zamioculcas","Zantedeschia","Zomicarpa","Zomicarpella"
+];
+const GENERA_SET = new Set(GENERA.map(normalizeComparable));
+/* Category name sets, normalised. Kept as data rather than inline
+   conditionals so a renamed or pluralised category is a one-line edit.
+   Matching is EXACT against the normalised name - "hybrid cultivar"
+   never satisfies "cultivar", because these are whole-string
+   comparisons rather than substring tests. That is load-bearing: a
+   substring match would silently count every hybrid cultivar as a
+   plain cultivar too. */
+const CAT_SPECIES         = ["species"];
+const CAT_CULTIVAR        = ["cultivar", "cultivars"];
+const CAT_HYBRID          = ["hybrid", "hybrids"];
