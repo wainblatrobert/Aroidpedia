@@ -42,24 +42,30 @@
 # because the reset would otherwise destroy the very thing being
 # committed.
 # =====================================================================
+
 name: Update Aroidpedia Counts
+
 on:
   schedule:
     - cron: "5 8 * * *"
   workflow_dispatch:
+
 permissions:
   contents: write
   pages: write
   id-token: write
+
 concurrency:
   group: "pages"
   cancel-in-progress: false
+
 jobs:
   update-counts:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
       # v2: `ref` names the branch, not the run's pinned SHA, so a job
       # released from the concurrency queue starts at the current tip.
@@ -70,20 +76,86 @@ jobs:
         with:
           ref: ${{ github.ref_name }}
           fetch-depth: 0
+
       - name: Set up Node
         uses: actions/setup-node@v6
         with:
           node-version: "24"
+
       - name: Generate counts
         run: node scripts/update-counts.mjs
         env:
           SITE_ORIGIN: "https://www.aroidpedia.com"
           COLLECTION_PATH: "/journal"
           OUT_FILE: "docs/counts.json"
+
       # v2: replaces the bare `git commit && git push`.
       - name: Commit updated counts
         run: |
           set -euo pipefail
+
           BRANCH="${GITHUB_REF_NAME}"
+
           git config user.name  "github-actions"
           git config user.email "github-actions@github.com"
+
+          if git diff --quiet -- docs/counts.json; then
+            echo "No count changes to commit."
+            exit 0
+          fi
+
+          # Park the generated file outside the work tree - the reset
+          # below would otherwise throw away what we just built.
+          cp docs/counts.json "${RUNNER_TEMP}/counts.json"
+
+          for attempt in 1 2 3 4 5; do
+            git fetch origin "+refs/heads/${BRANCH}:refs/remotes/origin/${BRANCH}"
+            git reset --hard "origin/${BRANCH}"
+
+            mkdir -p docs
+            cp "${RUNNER_TEMP}/counts.json" docs/counts.json
+
+            if git diff --quiet -- docs/counts.json; then
+              echo "Remote already carries these counts. Nothing to push."
+              exit 0
+            fi
+
+            git add docs/counts.json
+            git commit -m "Update Aroidpedia counts"
+
+            if git push origin "HEAD:${BRANCH}"; then
+              echo "Pushed on attempt ${attempt}."
+              exit 0
+            fi
+
+            echo "Push rejected on attempt ${attempt} - remote moved. Retrying."
+            sleep $(( attempt * 5 ))
+          done
+
+          echo "::error::Could not push counts after 5 attempts."
+          exit 1
+
+      - name: Sanity check /docs artifact
+        run: |
+          test -d docs
+          test -f docs/counts.json
+          echo "Artifact size:"
+          du -sh docs
+          echo "Checking for symlinks:"
+          if find docs -type l | grep -q .; then
+            echo "ERROR: GitHub Pages artifacts cannot contain symlinks."
+            find docs -type l
+            exit 1
+          fi
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v6
+
+      - name: Upload /docs as Pages artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: "docs"
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
