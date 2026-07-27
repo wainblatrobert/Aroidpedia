@@ -584,8 +584,8 @@ def build(items):
             # "alocasia" twice. The browser tokenises the query, so
             # "aloc alba" still matches "alocasia albatuwan".
             "s": search_string(title, genus),
-            i":  it.get("assetUrl"),                
-            "tg": it.get("tags") or [],             
+            "i":  it.get("assetUrl"),
+            "tg": it.get("tags") or [],
             "d":  it.get("publishOn"),  
         })
 
