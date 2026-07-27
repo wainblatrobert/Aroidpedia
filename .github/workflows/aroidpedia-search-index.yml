@@ -64,7 +64,9 @@ jobs:
         run: |
           git config user.name  "aroidpedia-bot"
           git config user.email "actions@github.com"
-          git add docs/search-index.json docs/search-index-cache.json
+          git add docs/search-index.json
+          git add -u docs
+          [ -e docs/search-index-cache.json ] && git add docs/search-index-cache.json
           if git diff --staged --quiet; then
             echo "Search index unchanged."
             echo "changed=false" >> "$GITHUB_OUTPUT"
