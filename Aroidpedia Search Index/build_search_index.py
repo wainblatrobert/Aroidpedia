@@ -448,6 +448,8 @@ def fetch_via_sitemap():
                     "urlId": item.get("urlId"),
                     "tags": item.get("tags") or [],
                     "categories": item.get("categories") or [],
+                    "assetUrl":   item.get("assetUrl"),      
+                    "publishOn":  item.get("publishOn"),     
                 }
                 items.append(slim)
                 new_cache[url] = {"m": mod, "item": slim}
@@ -582,6 +584,9 @@ def build(items):
             # "alocasia" twice. The browser tokenises the query, so
             # "aloc alba" still matches "alocasia albatuwan".
             "s": search_string(title, genus),
+            i":  it.get("assetUrl"),                
+            "tg": it.get("tags") or [],             
+            "d":  it.get("publishOn"),  
         })
 
     entries.sort(key=lambda e: (e["g"].lower(), e["t"].lower()))
