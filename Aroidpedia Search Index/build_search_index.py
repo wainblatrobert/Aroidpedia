@@ -2,9 +2,17 @@
 """
 Aroidpedia - search index builder
 =================================
-FILE VERSION: v2  (last updated 2026-07-24)
+FILE VERSION: v3  (last updated 2026-07-27)
 Bump this number (and the date) any time this file is replaced, so an old
 copy is never mistaken for the current one.
+
+v3 ADDS `p` - PARENTAGE - for hybrids and hybrid cultivars, so the genus
+index block can show a cross on hover without fetching each post. Without
+it that block still works, but pays one request per name on the first
+hover and those bodies are heavy. See extract_parentage().
+155 of the 157 Alocasia hybrids / hybrid cultivars produce a value; the
+two that do not ('Holy Grail', 'Teletubbies') state their origin only in
+prose, and this deliberately does not mine a claim out of a sentence.
 
 v2 ADDS THE "Hybrid Cultivar" CATEGORY. Before this, such an entry was
 still indexed and searchable but carried c:"" - it fell out of the
@@ -30,7 +38,8 @@ OUTPUT  docs/search-index.json
          "g": "Alocasia",
          "c": "hybrid",
          "u": "/journal/alocasia-albatuwan",
-         "s": "alocasia albatuwan"},
+         "s": "alocasia albatuwan",
+         "p": "Alocasia alba x Alocasia ‘Sintang’"},
         ...
       ]
     }
@@ -41,6 +50,8 @@ OUTPUT  docs/search-index.json
   s  normalised search string (lower-case, accents folded, quotes
      stripped) so the browser can match without re-processing 357 rows
      on every keystroke
+  p  parentage, hybrids and hybrid cultivars only. OMITTED when empty
+     rather than written as "" - see extract_parentage()
 
 NOTE FOR CONSUMERS: `c` may now contain a SPACE ("hybrid cultivar"). The
 typeahead builds a CSS class from it by concatenation, so it slugifies
@@ -113,6 +124,7 @@ directory, exactly like the bibliography script.
 
 import argparse
 import json
+import html
 import os
 import re
 import sys
@@ -448,8 +460,15 @@ def fetch_via_sitemap():
                     "urlId": item.get("urlId"),
                     "tags": item.get("tags") or [],
                     "categories": item.get("categories") or [],
-                    "assetUrl":   item.get("assetUrl"),      
-                    "publishOn":  item.get("publishOn"),     
+                    "assetUrl":   item.get("assetUrl"),
+                    "publishOn":  item.get("publishOn"),
+                    # v3: the body is NOT kept in slim, so parentage has to
+                    # be taken now. Unlike `c` it cannot be re-derived from
+                    # the cache later - if it ever needs recomputing,
+                    # delete docs/search-index-cache.json and re-run.
+                    "p": extract_parentage(
+                        item.get("body", ""),
+                        extract_category(item) == "hybrid cultivar"),
                 }
                 items.append(slim)
                 new_cache[url] = {"m": mod, "item": slim}
@@ -555,6 +574,78 @@ def extract_url(item):
     return ""
 
 
+# --------------------------------------------------------------- parentage
+# Feeds the hover label in GENUS INDEX BLOCK 7.27.26 v5.txt. That block
+# carries the same logic in JS as its fallback for when `p` is absent -
+# keep the two in step if either changes.
+#
+# Every hybrid's body opens with its cross, and most repeat it in a
+# PARENTAGE: field. THE TWO CATEGORIES ARE READ DIFFERENTLY ON PURPOSE:
+# a hybrid cultivar's lead line is the GRANDPARENT cross ('Polly' opens
+# with 'Amazonica's cross), so only the field names its actual parent.
+
+_P_CROSS  = re.compile(r"\s+(?:\u00d7|x)\s+", re.I)
+_P_STYLE  = re.compile(r"<style[\s\S]*?</style>|<script[\s\S]*?</script>", re.I)
+_P_BLOCKS = re.compile(r"<\s*br\s*/?>|</\s*(?:p|div|h[1-6]|li)\s*>", re.I)
+_P_TAGS   = re.compile(r"<[^>]+>")
+_P_FIELD  = re.compile(r"PARENTAGE\s*:\s*(.+)$", re.I)
+_P_PROSE  = re.compile(r"^\s*(?:cultivar\s+description|description|notes?)\s*:", re.I)
+_P_QUOTED = re.compile(r"[\u2018\u2019'][^\u2018\u2019']+[\u2019']")
+
+
+def _parentage_lines(body):
+    """Body HTML -> trimmed text lines, block boundaries preserved."""
+    s = _P_STYLE.sub(" ", body or "")      # Squarespace injects per-block CSS
+    s = _P_BLOCKS.sub("\n", s)
+    s = _P_TAGS.sub(" ", s)
+    s = html.unescape(s)
+    s = re.sub(r"[ \t\u00a0]+", " ", s)
+    return [l.strip() for l in s.split("\n") if l.strip()]
+
+
+def extract_parentage(body, is_hybrid_cultivar):
+    """Lead line for a hybrid, the PARENTAGE field for a hybrid cultivar.
+
+    Returns "" rather than guessing. Two hybrid cultivars state their
+    origin only in prose ("CULTIVAR DESCRIPTION: ... is believed to be a
+    mutated cultivar of ..."), and mining a claim out of a sentence is
+    how a wrong cross ends up on the page.
+    """
+    lead = field = ""
+    for line in _parentage_lines(body):
+        m = _P_FIELD.search(line)
+        if m and not field:
+            field = m.group(1).strip()
+        if not lead:
+            # the lead line often has the PARENTAGE label glued onto it
+            l = re.sub(r"\s*PARENTAGE\s*:.*$", "", line, flags=re.I).strip()
+            if l:
+                lead = l
+        if lead and field:
+            break
+
+    v = (field or lead) if is_hybrid_cultivar else (lead or field)
+    v = re.sub(r"\s+", " ", v or "").strip()
+
+    # Hybrid cultivars only: the bracket restates the GRANDPARENT cross.
+    # Hybrids keep theirs - "(ovule parent)" is a real annotation.
+    if is_hybrid_cultivar:
+        v = re.sub(r"\s*\([^)]*\)\s*", " ", v)
+        v = re.sub(r"\s+", " ", v).strip()
+
+    v = re.sub(r"\s+([,;.])", r"\1", v)        # tidy " ," left by that strip
+
+    if not v or _P_PROSE.match(v):
+        return ""
+    if not (v.lower().startswith("unknown")
+            or _P_CROSS.search(v)
+            or _P_QUOTED.search(v)):
+        return ""
+    if len(v) > 120:
+        v = re.sub(r"[\s,;(]+\S*$", "", v[:120]) + "\u2026"
+    return v
+
+
 def search_string(title, genus):
     base = norm(title)
     g = norm(genus)
@@ -574,10 +665,11 @@ def build(items):
         seen.add(url)
 
         genus = extract_genus(it)
-        entries.append({
+        category = extract_category(it)
+        entry = {
             "t": title,
             "g": genus,
-            "c": extract_category(it),
+            "c": category,
             "u": url,
             # Genus is appended only when the title doesn't already
             # contain it, so "Alocasia 'Albatuwan'" doesn't store
@@ -586,8 +678,21 @@ def build(items):
             "s": search_string(title, genus),
             "i":  it.get("assetUrl"),
             "tg": it.get("tags") or [],
-            "d":  it.get("publishOn"),  
-        })
+            "d":  it.get("publishOn"),
+        }
+
+        # v3: only the two hybrid categories have a cross to state.
+        # it["p"] is set by the SITEMAP path, which drops the body before
+        # build() ever sees it. The collection-JSON path carries the body
+        # straight through, so there it is computed here instead.
+        # Omitted entirely when empty rather than written as "".
+        if category in ("hybrid", "hybrid cultivar"):
+            p = it.get("p") or extract_parentage(
+                it.get("body", ""), category == "hybrid cultivar")
+            if p:
+                entry["p"] = p
+
+        entries.append(entry)
 
     entries.sort(key=lambda e: (e["g"].lower(), e["t"].lower()))
 
