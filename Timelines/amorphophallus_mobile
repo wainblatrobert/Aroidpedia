@@ -4,11 +4,11 @@
   "background": null,
   "padding": {
     "top": 20,
-    "right": 77,
+    "right": 61,
     "bottom": 41,
-    "left": 79
+    "left": 40
   },
-  "width": 1050,
+  "width": 300,
   "signals": [
     {
       "name": "width",
@@ -122,7 +122,7 @@
     {
       "name": "sH",
       "description": "serpentine: diameter of arcs",
-      "value": 120,
+      "value": 44,
       "bindDisabled": {
         "name": "arc diameter",
         "input": "range",
@@ -143,7 +143,7 @@
     {
       "name": "sN",
       "description": "serpentine: number of arcs",
-      "value": 4,
+      "value": 16,
       "bindDisabled": {
         "name": "# of arcs",
         "input": "range",
@@ -155,7 +155,7 @@
     {
       "name": "tC",
       "description": "ticks: number of axis ticks to display on the timeline",
-      "value": 50,
+      "value": 18,
       "bindDisabled": {
         "name": "tick count",
         "input": "range",
@@ -172,7 +172,7 @@
     {
       "name": "mO",
       "description": "milestone: the offset for the milestone markers",
-      "value": 10,
+      "value": 8,
       "bindDisabled": {
         "name": "milestone offset",
         "input": "range",
@@ -693,10 +693,10 @@
             "signal": "isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 1 : labelsOnHover ? 0 : 1"
           },
           "y": {
-            "signal": "min(max((datum['type'] === 'straight' && (datum['y'] + 8 + datum['lineCount'] * 14 + 8) <= height ? datum['y'] + 8 : datum['y'] - 8 - datum['lineCount'] * 14), -11), height + 46 - datum['boxH']) - 7"
+            "signal": "min(max((datum['type'] === 'straight' && (datum['y'] + 8 + datum['lineCount'] * 17 + 8) <= height ? datum['y'] + 8 : datum['y'] - 8 - datum['lineCount'] * 17), -11), height + 46 - datum['boxH']) - 7"
           },
           "xc": {
-            "signal": "min(max(datum['x'], -77 + datum['boxW']/2), width + 75 - datum['boxW']/2)"
+            "signal": "min(max(datum['x'], -38 + datum['boxW']/2), width + 59 - datum['boxW']/2)"
           }
         }
       }
@@ -712,10 +712,10 @@
       "encode": {
         "update": {
           "x": {
-            "signal": "min(max(datum['x'], -77 + datum['boxW']/2), width + 75 - datum['boxW']/2)"
+            "signal": "min(max(datum['x'], -38 + datum['boxW']/2), width + 59 - datum['boxW']/2)"
           },
           "y": {
-            "signal": "min(max((datum['type'] === 'straight' && (datum['y'] + 8 + datum['lineCount'] * 14 + 8) <= height ? datum['y'] + 8 : datum['y'] - 8 - datum['lineCount'] * 14), -11), height + 46 - datum['boxH'])"
+            "signal": "min(max((datum['type'] === 'straight' && (datum['y'] + 8 + datum['lineCount'] * 17 + 8) <= height ? datum['y'] + 8 : datum['y'] - 8 - datum['lineCount'] * 17), -11), height + 46 - datum['boxH'])"
           },
           "text": {
             "signal": "datum['domain'] + ' - ' + datum['displayLabel']"
@@ -724,7 +724,7 @@
             "value": ", "
           },
           "fontSize": {
-            "value": 10
+            "value": 12
           },
           "fill": {
             "value": "#2f2a24"
@@ -739,7 +739,7 @@
             "signal": "isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 1 : labelsOnHover ? 0 : 1"
           },
           "lineHeight": {
-            "value": 14
+            "value": 17
           }
         }
       }
@@ -1042,12 +1042,12 @@
         },
         {
           "type": "formula",
-          "expr": "(datum['maxLen'] + 7) * 6.1 + 30",
+          "expr": "(datum['maxLen'] + 7) * 7.32 + 30",
           "as": "boxW"
         },
         {
           "type": "formula",
-          "expr": "datum['lineCount'] * 14 + 14",
+          "expr": "datum['lineCount'] * 17 + 14",
           "as": "boxH"
         }
       ]
