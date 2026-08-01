@@ -1,12 +1,12 @@
 {
  "genus": "Alocasia",
  "slug": "alocasia",
- "compiled": "2026-07-19",
+ "compiled": "2026-08-01",
  "source": "https://www.aroidpedia.com/alocasia",
- "taxon_count": 327,
- "source_count": 191,
- "cited_count": 97,
- "gap_count": 230,
+ "taxon_count": 329,
+ "source_count": 192,
+ "cited_count": 98,
+ "gap_count": 231,
  "pdf": "Aroidpedia-Alocasia-Bibliography.pdf",
  "kew_excluded_from_bibliography": true,
  "bibliography": [
@@ -1464,6 +1464,19 @@
    ],
    "count": 1,
    "host": "aroid.org"
+  },
+  {
+   "title": "IAS Aroid Cultivar Registry",
+   "url": "https://www.aroidcultivars.org/aroid-cultivars/alocasia/'chantrieri-frankenstein'",
+   "taxa": [
+    {
+     "name": "ALOCASIA ‘FRANKENSTEIN’",
+     "url": "https://www.aroidpedia.com/journal/alocasia-frankenstein",
+     "kind": "Hybrid Cultivar"
+    }
+   ],
+   "count": 1,
+   "host": "aroidcultivars.org"
   },
   {
    "title": "Icones Plantarum India Orientalis Vol. 3 (1846) Plate 794",
@@ -3225,25 +3238,9 @@
    "refs": []
   },
   {
-   "url": "https://www.aroidpedia.com/journal/alocasia-holy-grail",
-   "slug": "alocasia-holy-grail",
-   "name": "ALOCASIA ‘HOLY GRAIL’",
-   "kind": "Cultivar",
-   "kew": null,
-   "refs": []
-  },
-  {
    "url": "https://www.aroidpedia.com/journal/alocasia-rudus",
    "slug": "alocasia-rudus",
-   "name": "ALOCASIA ‘RUDUS’*",
-   "kind": "Cultivar",
-   "kew": null,
-   "refs": []
-  },
-  {
-   "url": "https://www.aroidpedia.com/journal/alocasia-teletubbies",
-   "slug": "alocasia-teletubbies",
-   "name": "ALOCASIA ‘TELETUBBIES’",
+   "name": "ALOCASIA ‘RUDUS’",
    "kind": "Cultivar",
    "kew": null,
    "refs": []
@@ -3343,14 +3340,6 @@
    "url": "https://www.aroidpedia.com/journal/alocasia-bachii",
    "slug": "alocasia-bachii",
    "name": "ALOCASIA ‘BACHII’",
-   "kind": "Hybrid",
-   "kew": null,
-   "refs": []
-  },
-  {
-   "url": "https://www.aroidpedia.com/journal/alocasia-polly-54er2",
-   "slug": "alocasia-polly-54er2",
-   "name": "ALOCASIA ‘BALLON HEART’",
    "kind": "Hybrid",
    "kew": null,
    "refs": []
@@ -3790,7 +3779,7 @@
   {
    "url": "https://www.aroidpedia.com/journal/alocasia-kerchoveana",
    "slug": "alocasia-kerchoveana",
-   "name": "ALOCASIA ‘KERCHOVEANA",
+   "name": "ALOCASIA ‘KERCHOVEANA’",
    "kind": "Hybrid",
    "kew": null,
    "refs": []
@@ -3815,14 +3804,6 @@
    "url": "https://www.aroidpedia.com/journal/alocasia-licosta",
    "slug": "alocasia-licosta",
    "name": "ALOCASIA ‘LICOSTA’",
-   "kind": "Hybrid",
-   "kew": null,
-   "refs": []
-  },
-  {
-   "url": "https://www.aroidpedia.com/journal/alocasia-loco",
-   "slug": "alocasia-loco",
-   "name": "ALOCASIA ‘LOCO’",
    "kind": "Hybrid",
    "kew": null,
    "refs": []
@@ -3879,14 +3860,6 @@
    "url": "https://www.aroidpedia.com/journal/alocasia-maharani",
    "slug": "alocasia-maharani",
    "name": "ALOCASIA ‘MAHARANI’",
-   "kind": "Hybrid",
-   "kew": null,
-   "refs": []
-  },
-  {
-   "url": "https://www.aroidpedia.com/journal/alocasia-mandalay",
-   "slug": "alocasia-mandalay",
-   "name": "ALOCASIA ‘MANDALAY’",
    "kind": "Hybrid",
    "kew": null,
    "refs": []
@@ -4092,14 +4065,6 @@
    "refs": []
   },
   {
-   "url": "https://www.aroidpedia.com/journal/alocasia-polly",
-   "slug": "alocasia-polly",
-   "name": "ALOCASIA ‘POLLY’",
-   "kind": "Hybrid",
-   "kew": null,
-   "refs": []
-  },
-  {
    "url": "https://www.aroidpedia.com/journal/alocasia-portora",
    "slug": "alocasia-portora",
    "name": "ALOCASIA ‘PORTORA’",
@@ -4124,17 +4089,9 @@
    "refs": []
   },
   {
-   "url": "https://www.aroidpedia.com/journal/alocasia-purpley",
-   "slug": "alocasia-purpley",
-   "name": "ALOCASIA ‘PURPLEY’",
-   "kind": "Hybrid",
-   "kew": null,
-   "refs": []
-  },
-  {
    "url": "https://www.aroidpedia.com/journal/alocasia-raven",
    "slug": "alocasia-raven",
-   "name": "ALOCASIA ‘RAVEN",
+   "name": "ALOCASIA ‘RAVEN’",
    "kind": "Hybrid",
    "kew": null,
    "refs": []
@@ -4374,7 +4331,7 @@
   {
    "url": "https://www.aroidpedia.com/journal/alocasia-tyrion",
    "slug": "alocasia-tyrion",
-   "name": "ALOCASIA ‘TYRION",
+   "name": "ALOCASIA ‘TYRION’",
    "kind": "Hybrid",
    "kew": null,
    "refs": []
@@ -4407,14 +4364,6 @@
    "url": "https://www.aroidpedia.com/journal/alocasia-vangigo",
    "slug": "alocasia-vangigo",
    "name": "ALOCASIA ‘VANGIGO’",
-   "kind": "Hybrid",
-   "kew": null,
-   "refs": []
-  },
-  {
-   "url": "https://www.aroidpedia.com/journal/alocasia-venom",
-   "slug": "alocasia-venom",
-   "name": "ALOCASIA ‘VENOM’",
    "kind": "Hybrid",
    "kew": null,
    "refs": []
@@ -4496,6 +4445,84 @@
    "slug": "alocasia-zulu-mask",
    "name": "ALOCASIA ‘ZULU MASK’",
    "kind": "Hybrid",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-balloon-heart",
+   "slug": "alocasia-balloon-heart",
+   "name": "ALOCASIA ‘BALLOON HEART’",
+   "kind": "Hybrid Cultivar",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-frankenstein",
+   "slug": "alocasia-frankenstein",
+   "name": "ALOCASIA ‘FRANKENSTEIN’",
+   "kind": "Hybrid Cultivar",
+   "kew": null,
+   "refs": [
+    {
+     "title": "IAS Aroid Cultivar Registry",
+     "url": "https://www.aroidcultivars.org/aroid-cultivars/alocasia/'chantrieri-frankenstein'",
+     "key": "https://www.aroidcultivars.org/aroid-cultivars/alocasia/'chantrieri-frankenstein'"
+    }
+   ]
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-holy-grail",
+   "slug": "alocasia-holy-grail",
+   "name": "ALOCASIA ‘HOLY GRAIL’",
+   "kind": "Hybrid Cultivar",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-loco",
+   "slug": "alocasia-loco",
+   "name": "ALOCASIA ‘LOCO’",
+   "kind": "Hybrid Cultivar",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-mandalay",
+   "slug": "alocasia-mandalay",
+   "name": "ALOCASIA ‘MANDALAY’",
+   "kind": "Hybrid Cultivar",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-polly",
+   "slug": "alocasia-polly",
+   "name": "ALOCASIA ‘POLLY’",
+   "kind": "Hybrid Cultivar",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-purpley",
+   "slug": "alocasia-purpley",
+   "name": "ALOCASIA ‘PURPLEY’",
+   "kind": "Hybrid Cultivar",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-teletubbies",
+   "slug": "alocasia-teletubbies",
+   "name": "ALOCASIA ‘TELETUBBIES’",
+   "kind": "Hybrid Cultivar",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-venom",
+   "slug": "alocasia-venom",
+   "name": "ALOCASIA ‘VENOM’",
+   "kind": "Hybrid Cultivar",
    "kew": null,
    "refs": []
   },
@@ -6545,6 +6572,14 @@
    "url": "https://www.aroidpedia.com/journal/alocasia-inopinata",
    "slug": "alocasia-inopinata",
    "name": "ALOCASIA ‘INOPINATA’*",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-kondosapata",
+   "slug": "alocasia-kondosapata",
+   "name": "ALOCASIA ‘KONDOSAPATA’*",
    "kind": "Species",
    "kew": null,
    "refs": []

@@ -1,11 +1,11 @@
 {
  "genus": "Amorphophallus",
  "slug": "amorphophallus",
- "compiled": "2026-07-19",
+ "compiled": "2026-08-01",
  "source": "https://www.aroidpedia.com/amorphophallus",
- "taxon_count": 55,
- "source_count": 100,
- "cited_count": 55,
+ "taxon_count": 56,
+ "source_count": 103,
+ "cited_count": 56,
  "gap_count": 0,
  "pdf": "Aroidpedia-Amorphophallus-Bibliography.pdf",
  "kew_excluded_from_bibliography": true,
@@ -251,6 +251,19 @@
    ],
    "count": 1,
    "host": "babel.hathitrust.org"
+  },
+  {
+   "title": "Adansonia 20 V3 (1980) P.305",
+   "url": "http://www.biodiversitylibrary.org/page/59851495",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS COUDERCII",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-coudercii",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "biodiversitylibrary.org"
   },
   {
    "title": "Different regional names forAmorphophallus commutatus",
@@ -960,6 +973,19 @@
    "host": "alangallowaybotanicals.com"
   },
   {
+   "title": "Alan Galloway",
+   "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/coudercii/",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS COUDERCII",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-coudercii",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "alangallowaybotanicals.com"
+  },
+  {
    "title": "Llifle",
    "url": "https://llifle.com/Encyclopedia/BULBS/Family/Araceae/33463/Amorphophallus_bulbifer",
    "taxa": [
@@ -1249,6 +1275,19 @@
     {
      "name": "AMORPHOPHALLUS ALLENII",
      "url": "https://www.aroidpedia.com/journal/amorphophallus-allenii",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "aroid.org"
+  },
+  {
+   "title": "Aroideana 8N3 (1986) P.75",
+   "url": "https://www.aroid.org/aroideana/aroideana-v8n3",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS COUDERCII",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-coudercii",
      "kind": "Species"
     }
    ],
@@ -2484,6 +2523,30 @@
      "title": "Blumea 39: 247 (1994)",
      "url": "https://repository.naturalis.nl/pub/525950",
      "key": "https://repository.naturalis.nl/pub/525950"
+    }
+   ]
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-coudercii",
+   "slug": "amorphophallus-coudercii",
+   "name": "AMORPHOPHALLUS COUDERCII",
+   "kind": "Species",
+   "kew": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:943023-1",
+   "refs": [
+    {
+     "title": "Adansonia 20 V3 (1980) P.305",
+     "url": "http://www.biodiversitylibrary.org/page/59851495",
+     "key": "http://www.biodiversitylibrary.org/page/59851495"
+    },
+    {
+     "title": "Aroideana 8N3 (1986) P.75",
+     "url": "https://www.aroid.org/aroideana/aroideana-v8n3",
+     "key": "https://www.aroid.org/aroideana/aroideana-v8n3"
+    },
+    {
+     "title": "Alan Galloway",
+     "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/coudercii/",
+     "key": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/coudercii"
     }
    ]
   }
