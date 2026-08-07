@@ -1,0 +1,2401 @@
+{
+ "id": "family-araceae",
+ "name": "Araceae",
+ "rank": "family",
+ "authority": "Jussieu",
+ "children": [
+  {
+   "id": "subfamily-aroideae",
+   "name": "Aroideae",
+   "rank": "subfamily",
+   "authority": "Endlicher",
+   "children": [
+    {
+     "id": "tribe-aglaonemateae",
+     "name": "Aglaonemateae",
+     "rank": "tribe",
+     "authority": "Engler",
+     "children": [
+      {
+       "id": "genus-aglaodorum",
+       "name": "Aglaodorum",
+       "rank": "genus",
+       "authority": "Schott",
+       "mbbNumber": 73,
+       "speciesCount": 1,
+       "archiveUrl": "/aglaodorum",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/aglaodorum.webp",
+        "alt": "Aglaodorum griffithii",
+        "source": "POWO_Aglaodorum griffithii_01.jpg"
+       }
+      },
+      {
+       "id": "genus-aglaonema",
+       "name": "Aglaonema",
+       "rank": "genus",
+       "authority": "Schott",
+       "mbbNumber": 72,
+       "speciesCount": 26,
+       "archiveUrl": "/aglaonema",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/aglaonema.webp",
+        "alt": "Aglaonema marantifolium",
+        "source": "POWO_Aglaonema marantifolium_02.jpg"
+       }
+      },
+      {
+       "id": "genus-boycea",
+       "name": "Boycea",
+       "rank": "genus",
+       "speciesCount": 1,
+       "archiveUrl": "/boycea",
+       "postMBB": true,
+       "placementConfidence": "stated",
+       "uncertainPlacement": false,
+       "placementSource": "Haigh, A. et al. (2022). Target sequence data shed new light on the infrafamilial classification of Araceae. American Journal of Botany.",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/boycea.webp",
+        "alt": "Boycea bintuluensis",
+        "source": "POWO_Boycea bintuluensis_03.jpg"
+       }
+      }
+     ]
+    },
+    {
+     "id": "tribe-ambrosineae",
+     "name": "Ambrosineae",
+     "rank": "tribe",
+     "authority": "Schott",
+     "children": [
+      {
+       "id": "genus-ambrosina",
+       "name": "Ambrosina",
+       "rank": "genus",
+       "authority": "Bassi",
+       "mbbNumber": 87,
+       "speciesCount": 1,
+       "archiveUrl": "/ambrosina",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/ambrosina.webp",
+        "alt": "Ambrosina bassii",
+        "source": "POWO_Ambrosina bassii_02.jpg"
+       }
+      }
+     ]
+    },
+    {
+     "id": "tribe-anubiadeae",
+     "name": "Anubiadeae",
+     "rank": "tribe",
+     "authority": "Engler",
+     "children": [
+      {
+       "id": "genus-anubias",
+       "name": "Anubias",
+       "rank": "genus",
+       "authority": "Schott",
+       "mbbNumber": 48,
+       "speciesCount": 8,
+       "archiveUrl": "/anubias",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/anubias.webp",
+        "alt": "Anubias — (unfiled)",
+        "source": "anubias_sp.jpg"
+       }
+      }
+     ]
+    },
+    {
+     "id": "tribe-areae",
+     "name": "Areae",
+     "rank": "tribe",
+     "authority": null,
+     "children": [
+      {
+       "id": "genus-arum",
+       "name": "Arum",
+       "rank": "genus",
+       "authority": "L.",
+       "mbbNumber": 88,
+       "speciesCount": 27,
+       "archiveUrl": "/arum",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/arum.webp",
+        "alt": "Arum italicum",
+        "source": "POWO_Arum italicum_02.jpg"
+       }
+      },
+      {
+       "id": "genus-biarum",
+       "name": "Biarum",
+       "rank": "genus",
+       "authority": "Schott",
+       "mbbNumber": 96,
+       "speciesCount": 25,
+       "archiveUrl": "/biarum",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/biarum.webp",
+        "alt": "Biarum dispar",
+        "source": "POWO_Biarum dispar_02.jpg"
+       }
+      },
+      {
+       "id": "genus-dracunculus",
+       "name": "Dracunculus",
+       "rank": "genus",
+       "authority": "P. Miller",
+       "mbbNumber": 90,
+       "speciesCount": 2,
+       "archiveUrl": "/dracunculus",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/dracunculus.webp",
+        "alt": "Dracunculus vulgaris",
+        "source": "POWO_Dracunculus vulgaris_01.jpg"
+       }
+      },
+      {
+       "id": "genus-eminium",
+       "name": "Eminium",
+       "rank": "genus",
+       "authority": "(Blume) Schott",
+       "mbbNumber": 89,
+       "speciesCount": 8,
+       "archiveUrl": "/eminium",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/eminium.webp",
+        "alt": "Eminium spiculatum",
+        "source": "POWO_Eminium spiculatum_01.jpg"
+       }
+      },
+      {
+       "id": "genus-helicodiceros",
+       "name": "Helicodiceros",
+       "rank": "genus",
+       "authority": "K. Koch",
+       "mbbNumber": 91,
+       "speciesCount": 1,
+       "archiveUrl": "/helicodiceros",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/helicodiceros.webp",
+        "alt": "Helicodiceros muscivorus",
+        "source": "POWO_Helicodiceros muscivorus_01.jpg"
+       }
+      },
+      {
+       "id": "genus-lazarum",
+       "name": "Lazarum",
+       "rank": "genus",
+       "authority": "A. Hay",
+       "mbbNumber": 95,
+       "speciesCount": 16,
+       "archiveUrl": "/lazarum"
+      },
+      {
+       "id": "genus-sauromatum",
+       "name": "Sauromatum",
+       "rank": "genus",
+       "authority": "Schott",
+       "mbbNumber": 94,
+       "speciesCount": 11,
+       "archiveUrl": "/sauromatum",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/sauromatum.webp",
+        "alt": "Sauromatum venosum",
+        "source": "POWO_Sauromatum venosum_01.jpg"
+       }
+      },
+      {
+       "id": "genus-theriophonum",
+       "name": "Theriophonum",
+       "rank": "genus",
+       "authority": "Blume",
+       "mbbNumber": 92,
+       "speciesCount": 6,
+       "archiveUrl": "/theriophonum",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/theriophonum.webp",
+        "alt": "Theriophonum minutum",
+        "source": "POWO_Theriophonum minutum_02.jpg"
+       }
+      },
+      {
+       "id": "genus-typhonium",
+       "name": "Typhonium",
+       "rank": "genus",
+       "authority": "Schott",
+       "mbbNumber": 93,
+       "speciesCount": 79,
+       "archiveUrl": "/typhonium",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/typhonium.webp",
+        "alt": "Typhonium blumei",
+        "source": "POWO_Typhonium blumei_01.jpg"
+       }
+      }
+     ]
+    },
+    {
+     "id": "tribe-arisaemateae",
+     "name": "Arisaemateae",
+     "rank": "tribe",
+     "authority": "Nakai",
+     "children": [
+      {
+       "id": "genus-arisaema",
+       "name": "Arisaema",
+       "rank": "genus",
+       "authority": "Martius",
+       "mbbNumber": 98,
+       "speciesCount": 224,
+       "archiveUrl": "/arisaema",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/arisaema.webp",
+        "alt": "Arisaema dahaiense",
+        "source": "POWO_Arisaema dahaiense_03.jpg"
+       }
+      },
+      {
+       "id": "genus-pinellia",
+       "name": "Pinellia",
+       "rank": "genus",
+       "authority": "Tenore",
+       "mbbNumber": 97,
+       "speciesCount": 11,
+       "archiveUrl": "/pinellia",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/pinellia.webp",
+        "alt": "Pinellia cordata",
+        "source": "POWO_Pinellia cordata_01.jpg"
+       }
+      }
+     ]
+    },
+    {
+     "id": "tribe-arisareae",
+     "name": "Arisareae",
+     "rank": "tribe",
+     "authority": "Dumortier",
+     "children": [
+      {
+       "id": "genus-arisarum",
+       "name": "Arisarum",
+       "rank": "genus",
+       "authority": "P. Miller",
+       "mbbNumber": 86,
+       "speciesCount": 4,
+       "archiveUrl": "/arisarum",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/arisarum.webp",
+        "alt": "Arisarum proboscideum",
+        "source": "POWO_Arisarum proboscideum_03.jpg"
+       }
+      }
+     ]
+    },
+    {
+     "id": "tribe-arophyteae",
+     "name": "Arophyteae",
+     "rank": "tribe",
+     "authority": "Bogner",
+     "children": [
+      {
+       "id": "genus-arophyton",
+       "name": "Arophyton",
+       "rank": "genus",
+       "authority": "Jumelle",
+       "mbbNumber": 81,
+       "speciesCount": 7,
+       "archiveUrl": "/arophyton",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/arophyton.webp",
+        "alt": "Arophyton rhizomatosum",
+        "source": "POWO_Arophyton rhizomatosum_03.jpg"
+       }
+      },
+      {
+       "id": "genus-carlephyton",
+       "name": "Carlephyton",
+       "rank": "genus",
+       "authority": "Jumelle",
+       "mbbNumber": 82,
+       "speciesCount": 5,
+       "archiveUrl": "/carlephyton"
+      },
+      {
+       "id": "genus-colletogyne",
+       "name": "Colletogyne",
+       "rank": "genus",
+       "authority": "Buchet",
+       "mbbNumber": 83,
+       "speciesCount": 1,
+       "archiveUrl": "/colletogyne",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/colletogyne.webp",
+        "alt": "Colletogyne perrieri",
+        "source": "POWO_Colletogyne perrieri_02.jpg"
+       }
+      }
+     ]
+    },
+    {
+     "id": "tribe-caladieae",
+     "name": "Caladieae",
+     "rank": "tribe",
+     "authority": "Schott",
+     "children": [
+      {
+       "id": "genus-caladium",
+       "name": "Caladium",
+       "rank": "genus",
+       "authority": "Ventenat",
+       "mbbNumber": 63,
+       "speciesCount": 19,
+       "archiveUrl": "/caladium",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/caladium.webp",
+        "alt": "Caladium bicolor",
+        "source": "POWO_Caladium bicolor_02.jpg"
+       }
+      },
+      {
+       "id": "genus-chlorospatha",
+       "name": "Chlorospatha",
+       "rank": "genus",
+       "authority": "Engler",
+       "mbbNumber": 66,
+       "speciesCount": 70,
+       "archiveUrl": "/chlorospatha"
+      },
+      {
+       "id": "genus-hapaline",
+       "name": "Hapaline",
+       "rank": "genus",
+       "authority": "Schott",
+       "mbbNumber": 68,
+       "speciesCount": 9,
+       "archiveUrl": "/hapaline"
+      },
+      {
+       "id": "genus-idimanthus",
+       "name": "Idimanthus",
+       "rank": "genus",
+       "speciesCount": 1,
+       "archiveUrl": "/idimanthus",
+       "postMBB": true,
+       "placementConfidence": "stated",
+       "uncertainPlacement": false,
+       "placementSource": "Coelho, M.A.N. (2020). Idimanthus, in Flora do Brasil 2020. Jardim Botanico do Rio de Janeiro."
+      },
+      {
+       "id": "genus-jasarum",
+       "name": "Jasarum",
+       "rank": "genus",
+       "authority": "Bunting",
+       "mbbNumber": 64,
+       "speciesCount": 1,
+       "archiveUrl": "/jasarum",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/jasarum.webp",
+        "alt": "Jasarum steyermarkii",
+        "source": "POWO_Jasarum steyermarkii_03.jpg"
+       }
+      },
+      {
+       "id": "genus-phyllotaenium",
+       "name": "Phyllotaenium",
+       "rank": "genus",
+       "speciesCount": 1,
+       "archiveUrl": "/phyllotaenium",
+       "postMBB": true,
+       "placementConfidence": "stated",
+       "uncertainPlacement": false,
+       "placementSource": "Hay, A. (2023). Notes on Phyllotaenium Andre (Araceae-Caladieae). Aroideana 46(1): 18-40.",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/phyllotaenium.webp",
+        "alt": "Phyllotaenium lindenii",
+        "source": "POWO_Phyllotaenium lindenii_01.jpg"
+       }
+      },
+      {
+       "id": "genus-scaphispatha",
+       "name": "Scaphispatha",
+       "rank": "genus",
+       "authority": "Schott",
+       "mbbNumber": 62,
+       "speciesCount": 2,
+       "archiveUrl": "/scaphispatha",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/scaphispatha.webp",
+        "alt": "Scaphispatha gracilis",
+        "source": "POWO_Scaphispatha gracilis_01.jpg"
+       }
+      },
+      {
+       "id": "genus-syngonium",
+       "name": "Syngonium",
+       "rank": "genus",
+       "authority": "Schott",
+       "mbbNumber": 67,
+       "speciesCount": 41,
+       "archiveUrl": "/syngonium",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/syngonium.webp",
+        "alt": "Syngonium yurimaguense",
+        "source": "POWO_Syngonium yurimaguense_02.jpg"
+       }
+      },
+      {
+       "id": "genus-xanthosoma",
+       "name": "Xanthosoma",
+       "rank": "genus",
+       "authority": "Schott",
+       "mbbNumber": 65,
+       "speciesCount": 199,
+       "archiveUrl": "/xanthosoma"
+      }
+     ]
+    },
+    {
+     "id": "genus-calla",
+     "name": "Calla",
+     "rank": "genus",
+     "authority": "L.",
+     "mbbNumber": 31,
+     "speciesCount": 1,
+     "archiveUrl": "/calla",
+     "note": "Mayo, Bogner & Boyce (1997) placed this genus alone in subfamily Calloideae. Haigh et al. (2022) found it within Aroideae, so Calloideae is not recognised here.",
+     "image": {
+      "src": "https://wainblatrobert.github.io/Aroidpedia/genus/calla.webp",
+      "alt": "Calla palustris",
+      "source": "POWO_Calla palustris_03.jpg"
+     }
+    },
+    {
+     "id": "tribe-callopsideae",
+     "name": "Callopsideae",
+     "rank": "tribe",
+     "authority": "Engler",
+     "children": [
+      {
+       "id": "genus-callopsis",
+       "name": "Callopsis",
+       "rank": "genus",
+       "authority": "Engler",
+       "mbbNumber": 78,
+       "speciesCount": 1,
+       "archiveUrl": "/callopsis",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/callopsis.webp",
+        "alt": "Callopsis volkensii",
+        "source": "POWO_Callopsis volkensii_01.jpg"
+       }
+      }
+     ]
+    },
+    {
+     "id": "tribe-colocasieae",
+     "name": "Colocasieae",
+     "rank": "tribe",
+     "authority": "Engler",
+     "children": [
+      {
+       "id": "genus-alocasia",
+       "name": "Alocasia",
+       "rank": "genus",
+       "authority": "G. Don",
+       "mbbNumber": 104,
+       "speciesCount": 92,
+       "archiveUrl": "/alocasia",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/alocasia.webp",
+        "alt": "Alocasia macrorrhizos",
+        "source": "kbaqmwjuuzp91.png"
+       }
+      },
+      {
+       "id": "genus-ariopsis",
+       "name": "Ariopsis",
+       "rank": "genus",
+       "authority": "Nimmo",
+       "mbbNumber": 99,
+       "speciesCount": 3,
+       "archiveUrl": "/ariopsis",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/ariopsis.webp",
+        "alt": "Ariopsis peltata",
+        "source": "POWO_Ariopsis peltata_01.jpg"
+       }
+      },
+      {
+       "id": "genus-colocasia",
+       "name": "Colocasia",
+       "rank": "genus",
+       "authority": "Schott",
+       "mbbNumber": 103,
+       "speciesCount": 14,
+       "archiveUrl": "/colocasia",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/colocasia.webp",
+        "alt": "Colocasia affinis",
+        "source": "POWO_Colocasia affinis_03.jpg"
+       }
+      },
+      {
+       "id": "genus-protarum",
+       "name": "Protarum",
+       "rank": "genus",
+       "authority": "Engler",
+       "mbbNumber": 100,
+       "speciesCount": 1,
+       "archiveUrl": "/protarum"
+      },
+      {
+       "id": "genus-remusatia",
+       "name": "Remusatia",
+       "rank": "genus",
+       "authority": "Schott",
+       "mbbNumber": 102,
+       "speciesCount": 4,
+       "archiveUrl": "/remusatia"
+      },
+      {
+       "id": "genus-steudnera",
+       "name": "Steudnera",
+       "rank": "genus",
+       "authority": "K. Koch",
+       "mbbNumber": 101,
+       "speciesCount": 11,
+       "archiveUrl": "/steudnera"
+      }
+     ]
+    },
+    {
+     "id": "tribe-cryptocoryneae",
+     "name": "Cryptocoryneae",
+     "rank": "tribe",
+     "authority": "Blume",
+     "children": [
+      {
+       "id": "genus-cryptocoryne",
+       "name": "Cryptocoryne",
+       "rank": "genus",
+       "authority": "Wydler",
+       "mbbNumber": 57,
+       "speciesCount": 91,
+       "archiveUrl": "/cryptocoryne",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/cryptocoryne.webp",
+        "alt": "Cryptocoryne thwaitesii",
+        "source": "POWO_Cryptocoryne thwaitesii_02.jpg"
+       }
+      },
+      {
+       "id": "genus-lagenandra",
+       "name": "Lagenandra",
+       "rank": "genus",
+       "authority": "Dalzell",
+       "mbbNumber": 56,
+       "speciesCount": 22,
+       "archiveUrl": "/lagenandra",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/lagenandra.webp",
+        "alt": "Lagenandra ovata",
+        "source": "POWO_Lagenandra ovata_01.jpg"
+       }
+      }
+     ]
+    },
+    {
+     "id": "tribe-culcasieae",
+     "name": "Culcasieae",
+     "rank": "tribe",
+     "authority": "Engler",
+     "children": [
+      {
+       "id": "genus-cercestis",
+       "name": "Cercestis",
+       "rank": "genus",
+       "authority": "Schott",
+       "mbbNumber": 75,
+       "speciesCount": 11,
+       "archiveUrl": "/cercestis"
+      },
+      {
+       "id": "genus-culcasia",
+       "name": "Culcasia",
+       "rank": "genus",
+       "authority": "Palisot de Beauvois",
+       "mbbNumber": 74,
+       "speciesCount": 27,
+       "archiveUrl": "/culcasia"
+      }
+     ]
+    },
+    {
+     "id": "tribe-dieffenbachieae",
+     "name": "Dieffenbachieae",
+     "rank": "tribe",
+     "authority": "Engler",
+     "children": [
+      {
+       "id": "genus-bognera",
+       "name": "Bognera",
+       "rank": "genus",
+       "authority": "Mayo & Nicolson",
+       "mbbNumber": 36,
+       "speciesCount": 1,
+       "archiveUrl": "/bognera"
+      },
+      {
+       "id": "genus-dieffenbachia",
+       "name": "Dieffenbachia",
+       "rank": "genus",
+       "authority": "Schott",
+       "mbbNumber": 35,
+       "speciesCount": 60,
+       "archiveUrl": "/dieffenbachia"
+      }
+     ]
+    },
+    {
+     "id": "genus-englerarum",
+     "name": "Englerarum",
+     "rank": "genus",
+     "speciesCount": 1,
+     "archiveUrl": "/englerarum",
+     "postMBB": true,
+     "placementConfidence": "declined",
+     "uncertainPlacement": true,
+     "placementDeclined": true,
+     "placementEvidence": [
+      {
+       "rank": "Aroideae",
+       "mentions": 23
+      },
+      {
+       "rank": "Areae",
+       "mentions": 9
+      },
+      {
+       "rank": "Colocasieae",
+       "mentions": 5
+      }
+     ],
+     "note": "Nauheimer & Boyce (2013) place this genus in the Pistia clade rather than in a tribe, reporting that Colocasieae is not monophyletic. No tribe is claimed here because the describing authors claim none."
+    },
+    {
+     "id": "tribe-homalomeneae",
+     "name": "Homalomeneae",
+     "rank": "tribe",
+     "authority": "M. Hotta",
+     "children": [
+      {
+       "id": "genus-furtadoa",
+       "name": "Furtadoa",
+       "rank": "genus",
+       "authority": "M. Hotta",
+       "mbbNumber": 46,
+       "speciesCount": 3,
+       "archiveUrl": "/furtadoa",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/furtadoa.webp",
+        "alt": "Furtadoa mixta",
+        "source": "Furtadoa mixta (Ridl.) M.Hotta Figure 127.jpg"
+       }
+      },
+      {
+       "id": "genus-homalomena",
+       "name": "Homalomena",
+       "rank": "genus",
+       "authority": "Schott",
+       "mbbNumber": 47,
+       "speciesCount": 163,
+       "archiveUrl": "/homalomena"
+      }
+     ]
+    },
+    {
+     "id": "genus-leucocasia",
+     "name": "Leucocasia",
+     "rank": "genus",
+     "speciesCount": 1,
+     "archiveUrl": "/leucocasia",
+     "postMBB": true,
+     "placementConfidence": "declined",
+     "uncertainPlacement": true,
+     "placementDeclined": true,
+     "placementEvidence": [
+      {
+       "rank": "Areae",
+       "mentions": 9
+      },
+      {
+       "rank": "Colocasieae",
+       "mentions": 9
+      },
+      {
+       "rank": "Aroideae",
+       "mentions": 8
+      }
+     ],
+     "note": "Recent analyses recover this genus in a clade with Alocasia rather than within Colocasieae, which they find polyphyletic. It is shown beside its traditional associates, but the tribe is not asserted."
+    },
+    {
+     "id": "tribe-montrichardieae",
+     "name": "Montrichardieae",
+     "rank": "tribe",
+     "authority": "Engler",
+     "children": [
+      {
+       "id": "genus-montrichardia",
+       "name": "Montrichardia",
+       "rank": "genus",
+       "authority": "H. Cr�ger",
+       "mbbNumber": 76,
+       "speciesCount": 2,
+       "archiveUrl": "/montrichardia",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/montrichardia.webp",
+        "alt": "Montrichardia linifera",
+        "source": "POWO_Montrichardia linifera_01.jpg"
+       }
+      }
+     ]
+    },
+    {
+     "id": "tribe-nephthytideae",
+     "name": "Nephthytideae",
+     "rank": "tribe",
+     "authority": "Engler",
+     "children": [
+      {
+       "id": "genus-anchomanes",
+       "name": "Anchomanes",
+       "rank": "genus",
+       "authority": "Schott",
+       "mbbNumber": 70,
+       "speciesCount": 6,
+       "archiveUrl": "/anchomanes",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/anchomanes.webp",
+        "alt": "Anchomanes difformis",
+        "source": "POWO_Anchomanes difformis_03.jpg"
+       }
+      },
+      {
+       "id": "genus-nephthytis",
+       "name": "Nephthytis",
+       "rank": "genus",
+       "authority": "Schott",
+       "mbbNumber": 69,
+       "speciesCount": 5,
+       "archiveUrl": "/nephthytis",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/nephthytis.webp",
+        "alt": "Nephthytis afzelii",
+        "source": "POWO_Nephthytis afzelii_01.jpg"
+       }
+      },
+      {
+       "id": "genus-pseudohydrosme",
+       "name": "Pseudohydrosme",
+       "rank": "genus",
+       "authority": "Engler",
+       "mbbNumber": 71,
+       "speciesCount": 3,
+       "archiveUrl": "/pseudohydrosme"
+      }
+     ]
+    },
+    {
+     "id": "tribe-peltandreae",
+     "name": "Peltandreae",
+     "rank": "tribe",
+     "authority": "Engler",
+     "children": [
+      {
+       "id": "genus-peltandra",
+       "name": "Peltandra",
+       "rank": "genus",
+       "authority": "Rafinesque",
+       "mbbNumber": 84,
+       "speciesCount": 2,
+       "archiveUrl": "/peltandra"
+      },
+      {
+       "id": "genus-typhonodorum",
+       "name": "Typhonodorum",
+       "rank": "genus",
+       "authority": "Schott",
+       "mbbNumber": 85,
+       "speciesCount": 1,
+       "archiveUrl": "/typhonodorum",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/typhonodorum.webp",
+        "alt": "Typhonodorum lindleyanum",
+        "source": "POWO_Typhonodorum lindleyanum_01.jpg"
+       }
+      }
+     ]
+    },
+    {
+     "id": "tribe-philodendreae",
+     "name": "Philodendreae",
+     "rank": "tribe",
+     "authority": "Schott",
+     "children": [
+      {
+       "id": "genus-adelonema",
+       "name": "Adelonema",
+       "rank": "genus",
+       "speciesCount": 16,
+       "archiveUrl": "/adelonema",
+       "postMBB": true,
+       "placementConfidence": "stated",
+       "uncertainPlacement": false,
+       "placementSource": "Canal, D., Koster, N., Celis, M., Croat, T.B., Borsch, T. & Jones, K.E. (2019). Out of Amazonia and back again: historical biogeography of the species-rich Neotropical genus Philodendron (Araceae). Annals of the Missouri Botanical Garden 104: 49-68.",
+       "note": "Canal et al. (2019) resolve this genus as the sister of Philodendron, with the Asian Homalomena sister to that pair. Those papers give a branching order rather than a tribe; placing it in Philodendreae, the tribe of Philodendron, follows from that order."
+      },
+      {
+       "id": "genus-philodendron",
+       "name": "Philodendron",
+       "rank": "genus",
+       "authority": "Schott",
+       "mbbNumber": 45,
+       "speciesCount": 628,
+       "archiveUrl": "/philodendron"
+      }
+     ]
+    },
+    {
+     "id": "tribe-philonotieae",
+     "name": "Philonotieae",
+     "rank": "tribe",
+     "authority": "S.Y.Wong, P.C.Boyce & S.L.Low",
+     "children": [
+      {
+       "id": "genus-philonotion",
+       "name": "Philonotion",
+       "rank": "genus",
+       "speciesCount": 3,
+       "archiveUrl": "/philonotion",
+       "postMBB": true,
+       "placementConfidence": "stated",
+       "uncertainPlacement": false,
+       "placementSource": "Wong, S.Y. et al. (2010). Molecular phylogeny of tribe Schismatoglottideae ... and recognition of a new tribe, Philonotieae, from the Neotropics. Taxon 59: 117-124."
+      }
+     ],
+     "postMBB": true,
+     "note": "Erected after Mayo, Bogner & Boyce (1997). Wong, S.Y. et al. (2010). Molecular phylogeny of tribe Schismatoglottideae ... and recognition of a new tribe, Philonotieae, from the Neotropics. Taxon 59: 117-124."
+    },
+    {
+     "id": "tribe-pistieae",
+     "name": "Pistieae",
+     "rank": "tribe",
+     "authority": "Blume",
+     "children": [
+      {
+       "id": "genus-pistia",
+       "name": "Pistia",
+       "rank": "genus",
+       "authority": "L.",
+       "mbbNumber": 105,
+       "speciesCount": 1,
+       "archiveUrl": "/pistia",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/pistia.webp",
+        "alt": "Pistia stratiotes",
+        "source": "POWO_Pistia stratiotes_03.jpg"
+       }
+      }
+     ]
+    },
+    {
+     "id": "tribe-schismatoglottideae",
+     "name": "Schismatoglottideae",
+     "rank": "tribe",
+     "authority": "Nakai",
+     "children": [
+      {
+       "id": "genus-aia",
+       "name": "Aia",
+       "rank": "genus",
+       "speciesCount": 1,
+       "archiveUrl": "/aia",
+       "postMBB": true,
+       "placementConfidence": "stated",
+       "uncertainPlacement": false,
+       "placementSource": "Wong, S.Y. & Boyce, P.C. (2024). Schismatoglottideae (Araceae) of Borneo LXXVII - Circumscribing Schismatoglottis sensu stricto, and seven new genera. Webbia 79(2): 255-289."
+      },
+      {
+       "id": "genus-apoballis",
+       "name": "Apoballis",
+       "rank": "genus",
+       "speciesCount": 14,
+       "archiveUrl": "/apoballis",
+       "postMBB": true,
+       "placementConfidence": "stated",
+       "uncertainPlacement": false,
+       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100."
+      },
+      {
+       "id": "genus-aridarum",
+       "name": "Aridarum",
+       "rank": "genus",
+       "authority": "Ridley",
+       "mbbNumber": 54,
+       "speciesCount": 5,
+       "archiveUrl": "/aridarum",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/aridarum.webp",
+        "alt": "Aridarum caulescens",
+        "source": "Aridarum caulescens M.Hotta Figure 067.jpg"
+       }
+      },
+      {
+       "id": "genus-ayuantha",
+       "name": "Ayuantha",
+       "rank": "genus",
+       "speciesCount": 4,
+       "archiveUrl": "/ayuantha",
+       "postMBB": true,
+       "placementConfidence": "stated",
+       "uncertainPlacement": false,
+       "placementSource": "Wong, S.Y. & Boyce, P.C. (2024). Schismatoglottideae (Araceae) of Borneo LXXVII - Circumscribing Schismatoglottis sensu stricto, and seven new genera. Webbia 79(2): 255-289.",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/ayuantha.webp",
+        "alt": "Ayuantha pudenda",
+        "source": "POWO_Ayuantha pudenda_01.jpg"
+       }
+      },
+      {
+       "id": "genus-bakoa",
+       "name": "Bakoa",
+       "rank": "genus",
+       "speciesCount": 1,
+       "archiveUrl": "/bakoa",
+       "postMBB": true,
+       "placementConfidence": "stated",
+       "uncertainPlacement": false,
+       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100.",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/bakoa.webp",
+        "alt": "Bakoa lucens",
+        "source": "POWO_Bakoa lucens_03.jpg"
+       }
+      },
+      {
+       "id": "genus-bakoaella",
+       "name": "Bakoaella",
+       "rank": "genus",
+       "speciesCount": 2,
+       "archiveUrl": "/bakoaella",
+       "postMBB": true,
+       "placementConfidence": "stated",
+       "uncertainPlacement": false,
+       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100."
+      },
+      {
+       "id": "genus-bau",
+       "name": "Bau",
+       "rank": "genus",
+       "speciesCount": 26,
+       "archiveUrl": "/bau",
+       "postMBB": true,
+       "placementConfidence": "stated",
+       "uncertainPlacement": false,
+       "placementSource": "Wong, S.Y. & Boyce, P.C. (2024). Schismatoglottideae (Araceae) of Borneo LXXVII - Circumscribing Schismatoglottis sensu stricto, and seven new genera. Webbia 79(2): 255-289.",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/bau.webp",
+        "alt": "Bau nervosa",
+        "source": "POWO_Bau nervosa_01.jpg"
+       }
+      },
+      {
+       "id": "genus-bidayuha",
+       "name": "Bidayuha",
+       "rank": "genus",
+       "speciesCount": 1,
+       "archiveUrl": "/bidayuha",
+       "postMBB": true,
+       "placementConfidence": "stated",
+       "uncertainPlacement": false,
+       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100."
+      },
+      {
+       "id": "genus-borneoa",
+       "name": "Borneoa",
+       "rank": "genus",
+       "speciesCount": 23,
+       "archiveUrl": "/borneoa",
+       "postMBB": true,
+       "placementConfidence": "stated",
+       "uncertainPlacement": false,
+       "placementSource": "Wong, S.Y. & Boyce, P.C. (2024). Schismatoglottideae (Araceae) of Borneo LXXVII - Circumscribing Schismatoglottis sensu stricto, and seven new genera. Webbia 79(2): 255-289.",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/borneoa.webp",
+        "alt": "Borneoa asperata",
+        "source": "POWO_Borneoa asperata_01.jpg"
+       }
+      },
+      {
+       "id": "genus-bucephalandra",
+       "name": "Bucephalandra",
+       "rank": "genus",
+       "authority": "Schott",
+       "mbbNumber": 52,
+       "speciesCount": 32,
+       "archiveUrl": "/bucephalandra",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/bucephalandra.webp",
+        "alt": "Bucephalandra oblanceolata",
+        "source": "Bucephalandra oblanceolata (M.Hotta) S.Y.Wong & P.C.Boyce Figure 078.jpg"
+       }
+      },
+      {
+       "id": "genus-burttianthus",
+       "name": "Burttianthus",
+       "rank": "genus",
+       "speciesCount": 9,
+       "archiveUrl": "/burttianthus",
+       "postMBB": true,
+       "placementConfidence": "stated",
+       "uncertainPlacement": false,
+       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100.",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/burttianthus.webp",
+        "alt": "Burttianthus purseglovei",
+        "source": "POWO_Burttianthus purseglovei_02.jpg"
+       }
+      },
+      {
+       "id": "genus-colobogynium",
+       "name": "Colobogynium",
+       "rank": "genus",
+       "speciesCount": 1,
+       "archiveUrl": "/colobogynium",
+       "postMBB": true,
+       "placementConfidence": "stated",
+       "uncertainPlacement": false,
+       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100.",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/colobogynium.webp",
+        "alt": "Colobogynium variegatum",
+        "source": "POWO_Colobogynium variegatum_02.jpg"
+       }
+      },
+      {
+       "id": "genus-fenestratarum",
+       "name": "Fenestratarum",
+       "rank": "genus",
+       "speciesCount": 2,
+       "archiveUrl": "/fenestratarum",
+       "postMBB": true,
+       "placementConfidence": "stated",
+       "uncertainPlacement": false,
+       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100."
+      },
+      {
+       "id": "genus-galantharum",
+       "name": "Galantharum",
+       "rank": "genus",
+       "speciesCount": 1,
+       "archiveUrl": "/galantharum",
+       "postMBB": true,
+       "placementConfidence": "stated",
+       "uncertainPlacement": false,
+       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100."
+      },
+      {
+       "id": "genus-gamogyne",
+       "name": "Gamogyne",
+       "rank": "genus",
+       "speciesCount": 6,
+       "archiveUrl": "/gamogyne",
+       "postMBB": true,
+       "placementConfidence": "stated",
+       "uncertainPlacement": false,
+       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100."
+      },
+      {
+       "id": "genus-gosong",
+       "name": "Gosong",
+       "rank": "genus",
+       "speciesCount": 1,
+       "archiveUrl": "/gosong",
+       "postMBB": true,
+       "placementConfidence": "stated",
+       "uncertainPlacement": false,
+       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100."
+      },
+      {
+       "id": "genus-hera",
+       "name": "Hera",
+       "rank": "genus",
+       "speciesCount": 1,
+       "archiveUrl": "/hera",
+       "postMBB": true,
+       "placementConfidence": "stated",
+       "uncertainPlacement": false,
+       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100."
+      },
+      {
+       "id": "genus-heteroaridarum",
+       "name": "Heteroaridarum",
+       "rank": "genus",
+       "authority": "M. Hotta",
+       "mbbNumber": 55,
+       "speciesCount": 3,
+       "archiveUrl": "/heteroaridarum",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/heteroaridarum.webp",
+        "alt": "Heteroaridarum nicolsonii",
+        "source": "POWO_Heteroaridarum nicolsonii_01.jpg"
+       }
+      },
+      {
+       "id": "genus-hottarum",
+       "name": "Hottarum",
+       "rank": "genus",
+       "authority": "Bogner & Nicolson",
+       "mbbNumber": 51,
+       "speciesCount": 1,
+       "archiveUrl": "/hottarum",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/hottarum.webp",
+        "alt": "Hottarum truncatum",
+        "source": "Hottarum truncatum (M.Hotta) Bogner & Nicolson Figure 001.jpg"
+       }
+      },
+      {
+       "id": "genus-ibania",
+       "name": "Ibania",
+       "rank": "genus",
+       "speciesCount": 12,
+       "archiveUrl": "/ibania",
+       "postMBB": true,
+       "placementConfidence": "stated",
+       "uncertainPlacement": false,
+       "placementSource": "Wong, S.Y. & Boyce, P.C. (2024). Schismatoglottideae (Araceae) of Borneo LXXVII - Circumscribing Schismatoglottis sensu stricto, and seven new genera. Webbia 79(2): 255-289."
+      },
+      {
+       "id": "genus-josefia",
+       "name": "Josefia",
+       "rank": "genus",
+       "speciesCount": 1,
+       "archiveUrl": "/josefia",
+       "postMBB": true,
+       "placementConfidence": "stated",
+       "uncertainPlacement": false,
+       "placementSource": "Scherberich, D., Boyce, P.C., Wongso, S. & Hase, K. (2023). Schismatoglottideae (Araceae) of Borneo LXXIV - Josefia intricata, a new genus and species from Kalimantan. Aroideana 46(2): 6-13."
+      },
+      {
+       "id": "genus-kiewia",
+       "name": "Kiewia",
+       "rank": "genus",
+       "speciesCount": 3,
+       "archiveUrl": "/kiewia",
+       "postMBB": true,
+       "placementConfidence": "stated",
+       "uncertainPlacement": false,
+       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100."
+      },
+      {
+       "id": "genus-nabalu",
+       "name": "Nabalu",
+       "rank": "genus",
+       "speciesCount": 1,
+       "archiveUrl": "/nabalu",
+       "postMBB": true,
+       "placementConfidence": "stated",
+       "uncertainPlacement": false,
+       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100."
+      },
+      {
+       "id": "genus-naiadia",
+       "name": "Naiadia",
+       "rank": "genus",
+       "speciesCount": 1,
+       "archiveUrl": "/naiadia",
+       "postMBB": true,
+       "placementConfidence": "stated",
+       "uncertainPlacement": false,
+       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100."
+      },
+      {
+       "id": "genus-ooia",
+       "name": "Ooia",
+       "rank": "genus",
+       "speciesCount": 12,
+       "archiveUrl": "/ooia",
+       "postMBB": true,
+       "placementConfidence": "stated",
+       "uncertainPlacement": false,
+       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100.",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/ooia.webp",
+        "alt": "Ooia grabowskii",
+        "source": "POWO_Ooia grabowskii_02.jpg"
+       }
+      },
+      {
+       "id": "genus-phymatarum",
+       "name": "Phymatarum",
+       "rank": "genus",
+       "authority": "M. Hotta",
+       "mbbNumber": 53,
+       "speciesCount": 1,
+       "archiveUrl": "/phymatarum",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/phymatarum.webp",
+        "alt": "Phymatarum borneense",
+        "source": "POWO_Phymatarum borneense_03.jpg"
+       }
+      },
+      {
+       "id": "genus-pichinia",
+       "name": "Pichinia",
+       "rank": "genus",
+       "speciesCount": 1,
+       "archiveUrl": "/pichinia",
+       "postMBB": true,
+       "placementConfidence": "stated",
+       "uncertainPlacement": false,
+       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100."
+      },
+      {
+       "id": "genus-piptospatha",
+       "name": "Piptospatha",
+       "rank": "genus",
+       "authority": "N.E. Brown",
+       "mbbNumber": 50,
+       "speciesCount": 3,
+       "archiveUrl": "/piptospatha"
+      },
+      {
+       "id": "genus-pursegloveia",
+       "name": "Pursegloveia",
+       "rank": "genus",
+       "speciesCount": 7,
+       "archiveUrl": "/pursegloveia",
+       "postMBB": true,
+       "placementConfidence": "stated",
+       "uncertainPlacement": false,
+       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100."
+      },
+      {
+       "id": "genus-rhynchopyle",
+       "name": "Rhynchopyle",
+       "rank": "genus",
+       "speciesCount": 7,
+       "archiveUrl": "/rhynchopyle",
+       "postMBB": true,
+       "placementConfidence": "stated",
+       "uncertainPlacement": false,
+       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100.",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/rhynchopyle.webp",
+        "alt": "Rhynchopyle elongata",
+        "source": "POWO_Rhynchopyle elongata_02.jpg"
+       }
+      },
+      {
+       "id": "genus-sarawakia",
+       "name": "Sarawakia",
+       "rank": "genus",
+       "speciesCount": 5,
+       "archiveUrl": "/sarawakia",
+       "postMBB": true,
+       "placementConfidence": "stated",
+       "uncertainPlacement": false,
+       "placementSource": "Wong, S.Y. & Boyce, P.C. (2024). Schismatoglottideae (Araceae) of Borneo LXXVII - Circumscribing Schismatoglottis sensu stricto, and seven new genera. Webbia 79(2): 255-289."
+      },
+      {
+       "id": "genus-schismatoglottis",
+       "name": "Schismatoglottis",
+       "rank": "genus",
+       "authority": "Zollinger & Moritzi",
+       "mbbNumber": 49,
+       "speciesCount": 97,
+       "archiveUrl": "/schismatoglottis",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/schismatoglottis.webp",
+        "alt": "Schismatoglottis — (unfiled)",
+        "source": "schismatoglottis_monoplacenta.jpg"
+       }
+      },
+      {
+       "id": "genus-schottariella",
+       "name": "Schottariella",
+       "rank": "genus",
+       "speciesCount": 1,
+       "archiveUrl": "/schottariella",
+       "postMBB": true,
+       "placementConfidence": "stated",
+       "uncertainPlacement": false,
+       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100."
+      },
+      {
+       "id": "genus-schottarum",
+       "name": "Schottarum",
+       "rank": "genus",
+       "speciesCount": 3,
+       "archiveUrl": "/schottarum",
+       "postMBB": true,
+       "placementConfidence": "stated",
+       "uncertainPlacement": false,
+       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100.",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/schottarum.webp",
+        "alt": "Schottarum sarikeense",
+        "source": "Schottarum sarikeense (Bogner & M.Hotta) P.C.Boyce & S.Y.Wong Figure 120.jpg"
+       }
+      },
+      {
+       "id": "genus-tawaia",
+       "name": "Tawaia",
+       "rank": "genus",
+       "speciesCount": 1,
+       "archiveUrl": "/tawaia",
+       "postMBB": true,
+       "placementConfidence": "stated",
+       "uncertainPlacement": false,
+       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100."
+      },
+      {
+       "id": "genus-toga",
+       "name": "Toga",
+       "rank": "genus",
+       "speciesCount": 6,
+       "archiveUrl": "/toga",
+       "postMBB": true,
+       "placementConfidence": "stated",
+       "uncertainPlacement": false,
+       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100."
+      },
+      {
+       "id": "genus-tweeddalea",
+       "name": "Tweeddalea",
+       "rank": "genus",
+       "speciesCount": 14,
+       "archiveUrl": "/tweeddalea",
+       "postMBB": true,
+       "placementConfidence": "stated",
+       "uncertainPlacement": false,
+       "placementSource": "Wong, S.Y. & Boyce, P.C. (2024). Schismatoglottideae (Araceae) of Borneo LXXVII - Circumscribing Schismatoglottis sensu stricto, and seven new genera. Webbia 79(2): 255-289.",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/tweeddalea.webp",
+        "alt": "Tweeddalea erecta",
+        "source": "POWO_Tweeddalea erecta_01.jpg"
+       }
+      },
+      {
+       "id": "genus-vesta",
+       "name": "Vesta",
+       "rank": "genus",
+       "speciesCount": 1,
+       "archiveUrl": "/vesta",
+       "postMBB": true,
+       "placementConfidence": "stated",
+       "uncertainPlacement": false,
+       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100.",
+       "note": "A new generic name replacing Hestia, which is preoccupied by Hestia, a fossil lycopsid (Low, Wong & Boyce 2018).",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/vesta.webp",
+        "alt": "Vesta longifolia",
+        "source": "POWO_Vesta longifolia_02.jpg"
+       }
+      }
+     ]
+    },
+    {
+     "id": "tribe-spathicarpeae",
+     "name": "Spathicarpeae",
+     "rank": "tribe",
+     "authority": "Schott",
+     "children": [
+      {
+       "id": "genus-asterostigma",
+       "name": "Asterostigma",
+       "rank": "genus",
+       "authority": "F.E.L. Fischer & C.A. Meyer",
+       "mbbNumber": 39,
+       "speciesCount": 8,
+       "archiveUrl": "/asterostigma"
+      },
+      {
+       "id": "genus-croatiella",
+       "name": "Croatiella",
+       "rank": "genus",
+       "speciesCount": 1,
+       "archiveUrl": "/croatiella",
+       "postMBB": true,
+       "placementConfidence": "stated",
+       "uncertainPlacement": false,
+       "placementSource": "Goncalves, E.G. (2005). Two new Andean genera for the tribe Spathicarpeae (Araceae). Willdenowia 35: 319-326."
+      },
+      {
+       "id": "genus-gearum",
+       "name": "Gearum",
+       "rank": "genus",
+       "authority": "N.E. Brown",
+       "mbbNumber": 42,
+       "speciesCount": 1,
+       "archiveUrl": "/gearum",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/gearum.webp",
+        "alt": "Gearum brasiliense",
+        "source": "POWO_Gearum brasiliense_02.jpg"
+       }
+      },
+      {
+       "id": "genus-gorgonidium",
+       "name": "Gorgonidium",
+       "rank": "genus",
+       "authority": "Schott",
+       "mbbNumber": 40,
+       "speciesCount": 8,
+       "archiveUrl": "/gorgonidium"
+      },
+      {
+       "id": "genus-incarum",
+       "name": "Incarum",
+       "rank": "genus",
+       "speciesCount": 1,
+       "archiveUrl": "/incarum",
+       "postMBB": true,
+       "placementConfidence": "stated",
+       "uncertainPlacement": false,
+       "placementSource": "Goncalves, E.G. (2005). Two new Andean genera for the tribe Spathicarpeae (Araceae). Willdenowia 35: 319-326.",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/incarum.webp",
+        "alt": "Incarum pavonii",
+        "source": "POWO_Incarum pavonii_03.jpg"
+       }
+      },
+      {
+       "id": "genus-lorenzia",
+       "name": "Lorenzia",
+       "rank": "genus",
+       "speciesCount": 1,
+       "archiveUrl": "/lorenzia",
+       "postMBB": true,
+       "placementConfidence": "stated",
+       "uncertainPlacement": false,
+       "placementSource": "Goncalves, E.G. (2012). Lorenzia (Araceae-Spathicarpeae): a new genus from northern Brazil supported by matK sequence data. Systematic Botany 37(1): 48-52."
+      },
+      {
+       "id": "genus-mangonia",
+       "name": "Mangonia",
+       "rank": "genus",
+       "authority": "Schott",
+       "mbbNumber": 37,
+       "speciesCount": 2,
+       "archiveUrl": "/mangonia"
+      },
+      {
+       "id": "genus-spathantheum",
+       "name": "Spathantheum",
+       "rank": "genus",
+       "authority": "Schott",
+       "mbbNumber": 43,
+       "speciesCount": 1,
+       "archiveUrl": "/spathantheum",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/spathantheum.webp",
+        "alt": "Spathantheum orbignyanum",
+        "source": "POWO_Spathantheum orbignyanum_01.jpg"
+       }
+      },
+      {
+       "id": "genus-spathicarpa",
+       "name": "Spathicarpa",
+       "rank": "genus",
+       "authority": "W.J. Hooker",
+       "mbbNumber": 44,
+       "speciesCount": 3,
+       "archiveUrl": "/spathicarpa",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/spathicarpa.webp",
+        "alt": "Spathicarpa gardneri",
+        "source": "POWO_Spathicarpa gardneri_01.jpg"
+       }
+      },
+      {
+       "id": "genus-synandrospadix",
+       "name": "Synandrospadix",
+       "rank": "genus",
+       "authority": "Engler",
+       "mbbNumber": 41,
+       "speciesCount": 1,
+       "archiveUrl": "/synandrospadix",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/synandrospadix.webp",
+        "alt": "Synandrospadix vermitoxicus",
+        "source": "POWO_Synandrospadix vermitoxicus_02.jpg"
+       }
+      },
+      {
+       "id": "genus-taccarum",
+       "name": "Taccarum",
+       "rank": "genus",
+       "authority": "Schott",
+       "mbbNumber": 38,
+       "speciesCount": 6,
+       "archiveUrl": "/taccarum"
+      },
+      {
+       "id": "genus-vivaria",
+       "name": "Vivaria",
+       "rank": "genus",
+       "speciesCount": 1,
+       "archiveUrl": "/vivaria",
+       "postMBB": true,
+       "placementConfidence": "stated",
+       "uncertainPlacement": false,
+       "placementSource": "Cabrera, O., Tinitana, F., Cumbicus, N., Herrera, P. & Prina, A. (2022). Vivaria calvasensis - a new genus and species of Araceae (Araceae: Aroideae: Spathicarpeae) from southern Ecuador. PLoS ONE 17(10): e0273867."
+      }
+     ]
+    },
+    {
+     "id": "tribe-stylochaetoneae",
+     "name": "Stylochaetoneae",
+     "rank": "tribe",
+     "authority": "Schott",
+     "children": [
+      {
+       "id": "genus-stylochaeton",
+       "name": "Stylochaeton",
+       "rank": "genus",
+       "authority": "Leprieur",
+       "mbbNumber": 34,
+       "speciesCount": 22,
+       "archiveUrl": "/stylochaeton"
+      }
+     ]
+    },
+    {
+     "id": "tribe-thomsonieae",
+     "name": "Thomsonieae",
+     "rank": "tribe",
+     "authority": "Blume",
+     "children": [
+      {
+       "id": "genus-amorphophallus",
+       "name": "Amorphophallus",
+       "rank": "genus",
+       "authority": "Decaisne",
+       "mbbNumber": 79,
+       "speciesCount": 246,
+       "archiveUrl": "/amorphophallus"
+      },
+      {
+       "id": "genus-pseudodracontium",
+       "name": "Pseudodracontium",
+       "rank": "genus",
+       "authority": "N.E. Brown",
+       "mbbNumber": 80,
+       "archiveUrl": "/pseudodracontium",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/pseudodracontium.webp",
+        "alt": "Pseudodracontium — (unfiled)",
+        "source": "pharman1.jpg"
+       }
+      }
+     ]
+    },
+    {
+     "id": "genus-vietnamocasia",
+     "name": "Vietnamocasia",
+     "rank": "genus",
+     "speciesCount": 1,
+     "archiveUrl": "/vietnamocasia",
+     "postMBB": true,
+     "placementConfidence": "declined",
+     "uncertainPlacement": true,
+     "placementDeclined": true,
+     "placementEvidence": [
+      {
+       "rank": "Aroideae",
+       "mentions": 2
+      },
+      {
+       "rank": "Colocasieae",
+       "mentions": 1
+      }
+     ],
+     "note": "Ly et al. (2017) place this genus in the Alocasia-Colocasia clade and state that the rank Colocasieae can no longer be used for that clade, as it lacks phylogenetic support. No tribe is claimed here because the describing authors claim none."
+    },
+    {
+     "id": "tribe-zamioculcadeae",
+     "name": "Zamioculcadeae",
+     "rank": "tribe",
+     "authority": "Engler",
+     "children": [
+      {
+       "id": "genus-gonatopus",
+       "name": "Gonatopus",
+       "rank": "genus",
+       "authority": "Engler",
+       "mbbNumber": 33,
+       "speciesCount": 5,
+       "archiveUrl": "/gonatopus"
+      },
+      {
+       "id": "genus-zamioculcas",
+       "name": "Zamioculcas",
+       "rank": "genus",
+       "authority": "Schott",
+       "mbbNumber": 32,
+       "speciesCount": 1,
+       "archiveUrl": "/zamioculcas",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/zamioculcas.webp",
+        "alt": "Zamioculcas zamiifolia",
+        "source": "POWO_Zamioculcas zamiifolia_03.jpg"
+       }
+      }
+     ]
+    },
+    {
+     "id": "tribe-zantedeschieae",
+     "name": "Zantedeschieae",
+     "rank": "tribe",
+     "authority": "Engler",
+     "children": [
+      {
+       "id": "genus-zantedeschia",
+       "name": "Zantedeschia",
+       "rank": "genus",
+       "authority": "K. Sprengel",
+       "mbbNumber": 77,
+       "speciesCount": 8,
+       "archiveUrl": "/zantedeschia",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/zantedeschia.webp",
+        "alt": "Zantedeschia — (unfiled)",
+        "source": "zantedeschia_aethiopica.jpg"
+       }
+      }
+     ]
+    },
+    {
+     "id": "tribe-zomicarpeae",
+     "name": "Zomicarpeae",
+     "rank": "tribe",
+     "authority": "Schott",
+     "children": [
+      {
+       "id": "genus-filarum",
+       "name": "Filarum",
+       "rank": "genus",
+       "authority": "Nicolson",
+       "mbbNumber": 61,
+       "speciesCount": 1,
+       "archiveUrl": "/filarum",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/filarum.webp",
+        "alt": "Filarum manserichense",
+        "source": "POWO_Filarum manserichense_02.jpg"
+       }
+      },
+      {
+       "id": "genus-ulearum",
+       "name": "Ulearum",
+       "rank": "genus",
+       "authority": "Engler",
+       "mbbNumber": 60,
+       "speciesCount": 2,
+       "archiveUrl": "/ulearum",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/ulearum.webp",
+        "alt": "Ulearum sagittatum",
+        "source": "POWO_Ulearum sagittatum_01.jpg"
+       }
+      },
+      {
+       "id": "genus-zomicarpa",
+       "name": "Zomicarpa",
+       "rank": "genus",
+       "authority": "Schott",
+       "mbbNumber": 58,
+       "speciesCount": 2,
+       "archiveUrl": "/zomicarpa"
+      },
+      {
+       "id": "genus-zomicarpella",
+       "name": "Zomicarpella",
+       "rank": "genus",
+       "authority": "N.E. Brown",
+       "mbbNumber": 59,
+       "speciesCount": 2,
+       "archiveUrl": "/zomicarpella",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/zomicarpella.webp",
+        "alt": "Zomicarpella amazonica",
+        "source": "POWO_Zomicarpella amazonica_01.jpg"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "subfamily-gymnostachydoideae",
+   "name": "Gymnostachydoideae",
+   "rank": "subfamily",
+   "authority": "Bogner & Nicolson",
+   "children": [
+    {
+     "id": "genus-gymnostachys",
+     "name": "Gymnostachys",
+     "rank": "genus",
+     "authority": "R. Brown",
+     "mbbNumber": 1,
+     "speciesCount": 1,
+     "archiveUrl": "/gymnostachys",
+     "image": {
+      "src": "https://wainblatrobert.github.io/Aroidpedia/genus/gymnostachys.webp",
+      "alt": "Gymnostachys anceps",
+      "source": "POWO_Gymnostachys anceps_01.jpg"
+     }
+    }
+   ]
+  },
+  {
+   "id": "subfamily-lasioideae",
+   "name": "Lasioideae",
+   "rank": "subfamily",
+   "authority": "Engler",
+   "children": [
+    {
+     "id": "tribe-dracontieae",
+     "name": "Dracontieae",
+     "rank": "tribe",
+     "authority": "S.Y.Wong & Haigh",
+     "children": [
+      {
+       "id": "genus-anaphyllopsis",
+       "name": "Anaphyllopsis",
+       "rank": "genus",
+       "authority": "A. Hay",
+       "mbbNumber": 23,
+       "speciesCount": 3,
+       "archiveUrl": "/anaphyllopsis",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/anaphyllopsis.webp",
+        "alt": "Anaphyllopsis americana",
+        "source": "POWO_Anaphyllopsis americana_01.jpg"
+       }
+      },
+      {
+       "id": "genus-dracontioides",
+       "name": "Dracontioides",
+       "rank": "genus",
+       "authority": "Engler",
+       "mbbNumber": 22,
+       "speciesCount": 2,
+       "archiveUrl": "/dracontioides",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/dracontioides.webp",
+        "alt": "Dracontioides desciscens",
+        "source": "POWO_Dracontioides desciscens_01.jpg"
+       }
+      },
+      {
+       "id": "genus-dracontium",
+       "name": "Dracontium",
+       "rank": "genus",
+       "authority": "L.",
+       "mbbNumber": 21,
+       "speciesCount": 29,
+       "archiveUrl": "/dracontium"
+      }
+     ],
+     "postMBB": true,
+     "note": "Recognised by Haigh et al. (2022), which splits Lasioideae into Lasieae and Dracontieae. Its genera are those the paper lists."
+    },
+    {
+     "id": "tribe-lasieae",
+     "name": "Lasieae",
+     "rank": "tribe",
+     "authority": "Engler",
+     "children": [
+      {
+       "id": "genus-anaphyllum",
+       "name": "Anaphyllum",
+       "rank": "genus",
+       "authority": "Schott",
+       "mbbNumber": 25,
+       "speciesCount": 2,
+       "archiveUrl": "/anaphyllum",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/anaphyllum.webp",
+        "alt": "Anaphyllum wightii",
+        "source": "POWO_Anaphyllum wightii_02.jpg"
+       }
+      },
+      {
+       "id": "genus-cyrtosperma",
+       "name": "Cyrtosperma",
+       "rank": "genus",
+       "authority": "Griffith",
+       "mbbNumber": 26,
+       "speciesCount": 15,
+       "archiveUrl": "/cyrtosperma"
+      },
+      {
+       "id": "genus-lasia",
+       "name": "Lasia",
+       "rank": "genus",
+       "authority": "Loureiro",
+       "mbbNumber": 29,
+       "speciesCount": 2,
+       "archiveUrl": "/lasia",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/lasia.webp",
+        "alt": "Lasia spinosa",
+        "source": "POWO_Lasia spinosa_03.jpg"
+       }
+      },
+      {
+       "id": "genus-lasimorpha",
+       "name": "Lasimorpha",
+       "rank": "genus",
+       "authority": "Schott",
+       "mbbNumber": 27,
+       "speciesCount": 1,
+       "archiveUrl": "/lasimorpha",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/lasimorpha.webp",
+        "alt": "Lasimorpha senegalensis",
+        "source": "POWO_Lasimorpha senegalensis_01.jpg"
+       }
+      },
+      {
+       "id": "genus-podolasia",
+       "name": "Podolasia",
+       "rank": "genus",
+       "authority": "N.E. Brown",
+       "mbbNumber": 28,
+       "speciesCount": 1,
+       "archiveUrl": "/podolasia",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/podolasia.webp",
+        "alt": "Podolasia stipitata",
+        "source": "POWO_Podolasia stipitata_02.jpg"
+       }
+      },
+      {
+       "id": "genus-pycnospatha",
+       "name": "Pycnospatha",
+       "rank": "genus",
+       "authority": "Gagnepain",
+       "mbbNumber": 24,
+       "speciesCount": 2,
+       "archiveUrl": "/pycnospatha",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/pycnospatha.webp",
+        "alt": "Pycnospatha palmata",
+        "source": "POWO_Pycnospatha palmata_02.jpg"
+       }
+      },
+      {
+       "id": "genus-urospatha",
+       "name": "Urospatha",
+       "rank": "genus",
+       "authority": "Schott",
+       "mbbNumber": 30,
+       "speciesCount": 13,
+       "archiveUrl": "/urospatha"
+      }
+     ],
+     "postMBB": true,
+     "note": "Recognised by Haigh et al. (2022), which splits Lasioideae into Lasieae and Dracontieae. Its genera are those Haigh does not assign to Dracontieae; the paper states the subfamily has only these two tribes but does not list Lasieae in full."
+    }
+   ]
+  },
+  {
+   "id": "subfamily-lemnoideae",
+   "name": "Lemnoideae",
+   "rank": "subfamily",
+   "authority": "Engler",
+   "children": [
+    {
+     "id": "genus-lemna",
+     "name": "Lemna",
+     "rank": "genus",
+     "speciesCount": 14,
+     "archiveUrl": "/lemna",
+     "postMBB": true,
+     "placementConfidence": "stated",
+     "uncertainPlacement": false,
+     "placementSource": "Haigh, A. et al. (2022). Target sequence data shed new light on the infrafamilial classification of Araceae. American Journal of Botany.",
+     "placementEvidence": [
+      {
+       "rank": "Lemnoideae",
+       "mentions": 35
+      },
+      {
+       "rank": "Lasioideae",
+       "mentions": 18
+      },
+      {
+       "rank": "Pothoideae",
+       "mentions": 16
+      }
+     ],
+     "image": {
+      "src": "https://wainblatrobert.github.io/Aroidpedia/genus/lemna.webp",
+      "alt": "Lemna minor",
+      "source": "POWO_Lemna minor_03.jpg"
+     }
+    },
+    {
+     "id": "genus-spirodela",
+     "name": "Spirodela",
+     "rank": "genus",
+     "speciesCount": 4,
+     "archiveUrl": "/spirodela",
+     "postMBB": true,
+     "placementConfidence": "stated",
+     "uncertainPlacement": false,
+     "placementSource": "Haigh, A. et al. (2022). Target sequence data shed new light on the infrafamilial classification of Araceae. American Journal of Botany.",
+     "placementEvidence": [
+      {
+       "rank": "Lemnoideae",
+       "mentions": 21
+      },
+      {
+       "rank": "Pothoideae",
+       "mentions": 12
+      },
+      {
+       "rank": "Orontioideae",
+       "mentions": 12
+      }
+     ],
+     "image": {
+      "src": "https://wainblatrobert.github.io/Aroidpedia/genus/spirodela.webp",
+      "alt": "Spirodela polyrhiza",
+      "source": "POWO_Spirodela polyrhiza_03.jpg"
+     }
+    },
+    {
+     "id": "genus-wolffia",
+     "name": "Wolffia",
+     "rank": "genus",
+     "speciesCount": 11,
+     "archiveUrl": "/wolffia",
+     "postMBB": true,
+     "placementConfidence": "stated",
+     "uncertainPlacement": false,
+     "placementSource": "Haigh, A. et al. (2022). Target sequence data shed new light on the infrafamilial classification of Araceae. American Journal of Botany.",
+     "placementEvidence": [
+      {
+       "rank": "Lemnoideae",
+       "mentions": 9
+      },
+      {
+       "rank": "Pothoideae",
+       "mentions": 7
+      },
+      {
+       "rank": "Culcasieae",
+       "mentions": 5
+      }
+     ],
+     "image": {
+      "src": "https://wainblatrobert.github.io/Aroidpedia/genus/wolffia.webp",
+      "alt": "Wolffia arrhiza",
+      "source": "POWO_Wolffia arrhiza_01.jpg"
+     }
+    },
+    {
+     "id": "genus-wolffiella",
+     "name": "Wolffiella",
+     "rank": "genus",
+     "speciesCount": 10,
+     "archiveUrl": "/wolffiella",
+     "postMBB": true,
+     "placementConfidence": "stated",
+     "uncertainPlacement": false,
+     "placementSource": "Haigh, A. et al. (2022). Target sequence data shed new light on the infrafamilial classification of Araceae. American Journal of Botany.",
+     "placementEvidence": [
+      {
+       "rank": "Lemnoideae",
+       "mentions": 8
+      },
+      {
+       "rank": "Orontioideae",
+       "mentions": 7
+      },
+      {
+       "rank": "Pothoideae",
+       "mentions": 6
+      }
+     ],
+     "image": {
+      "src": "https://wainblatrobert.github.io/Aroidpedia/genus/wolffiella.webp",
+      "alt": "Wolffiella welwitschii",
+      "source": "POWO_Wolffiella welwitschii_01.jpg"
+     }
+    }
+   ],
+   "postMBB": true,
+   "note": "Not in Mayo, Bogner & Boyce (1997), which still ranked the duckweeds as a separate family, Lemnaceae. Placed here per Haigh et al. (2022)."
+  },
+  {
+   "id": "subfamily-monsteroideae",
+   "name": "Monsteroideae",
+   "rank": "subfamily",
+   "authority": "Engler",
+   "children": [
+    {
+     "id": "tribe-anadendreae",
+     "name": "Anadendreae",
+     "rank": "tribe",
+     "authority": "Bogner & French",
+     "children": [
+      {
+       "id": "genus-anadendrum",
+       "name": "Anadendrum",
+       "rank": "genus",
+       "authority": "Schott",
+       "mbbNumber": 11,
+       "speciesCount": 15,
+       "archiveUrl": "/anadendrum"
+      }
+     ]
+    },
+    {
+     "id": "tribe-heteropsideae",
+     "name": "Heteropsideae",
+     "rank": "tribe",
+     "authority": "Engler",
+     "children": [
+      {
+       "id": "genus-heteropsis",
+       "name": "Heteropsis",
+       "rank": "genus",
+       "authority": "Kunth",
+       "mbbNumber": 12,
+       "speciesCount": 19,
+       "archiveUrl": "/heteropsis"
+      }
+     ]
+    },
+    {
+     "id": "tribe-monstereae",
+     "name": "Monstereae",
+     "rank": "tribe",
+     "authority": "Engler",
+     "children": [
+      {
+       "id": "genus-alloschemone",
+       "name": "Alloschemone",
+       "rank": "genus",
+       "authority": "Schott",
+       "mbbNumber": 18,
+       "speciesCount": 2,
+       "archiveUrl": "/alloschemone"
+      },
+      {
+       "id": "genus-amydrium",
+       "name": "Amydrium",
+       "rank": "genus",
+       "authority": "Schott",
+       "mbbNumber": 13,
+       "speciesCount": 5,
+       "archiveUrl": "/amydrium",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/amydrium.webp",
+        "alt": "Amydrium medium",
+        "source": "POWO_Amydrium medium_01.jpg"
+       }
+      },
+      {
+       "id": "genus-epipremnum",
+       "name": "Epipremnum",
+       "rank": "genus",
+       "authority": "Schott",
+       "mbbNumber": 15,
+       "speciesCount": 15,
+       "archiveUrl": "/epipremnum",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/epipremnum.webp",
+        "alt": "Epipremnum pinnatum",
+        "source": "POWO_Epipremnum pinnatum_03.jpg"
+       }
+      },
+      {
+       "id": "genus-monstera",
+       "name": "Monstera",
+       "rank": "genus",
+       "authority": "Adanson",
+       "mbbNumber": 17,
+       "speciesCount": 71,
+       "archiveUrl": "/monstera"
+      },
+      {
+       "id": "genus-rhaphidophora",
+       "name": "Rhaphidophora",
+       "rank": "genus",
+       "authority": "Hasskarl",
+       "mbbNumber": 14,
+       "speciesCount": 105,
+       "archiveUrl": "/rhaphidophora",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/rhaphidophora.webp",
+        "alt": "Rhaphidophora korthalsii",
+        "source": "POWO_Rhaphidophora korthalsii_03.jpg"
+       }
+      },
+      {
+       "id": "genus-rhodospatha",
+       "name": "Rhodospatha",
+       "rank": "genus",
+       "authority": "Poeppig",
+       "mbbNumber": 19,
+       "speciesCount": 45,
+       "archiveUrl": "/rhodospatha",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/rhodospatha.webp",
+        "alt": "Rhodospatha oblongata",
+        "source": "POWO_Rhodospatha oblongata_02.jpg"
+       }
+      },
+      {
+       "id": "genus-scindapsus",
+       "name": "Scindapsus",
+       "rank": "genus",
+       "authority": "Schott",
+       "mbbNumber": 16,
+       "speciesCount": 36,
+       "archiveUrl": "/scindapsus",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/scindapsus.webp",
+        "alt": "Scindapsus pictus",
+        "source": "POWO_Scindapsus pictus_03.jpg"
+       }
+      },
+      {
+       "id": "genus-stenospermation",
+       "name": "Stenospermation",
+       "rank": "genus",
+       "authority": "Schott",
+       "mbbNumber": 20,
+       "speciesCount": 58,
+       "archiveUrl": "/stenospermation"
+      }
+     ]
+    },
+    {
+     "id": "tribe-spathiphylleae",
+     "name": "Spathiphylleae",
+     "rank": "tribe",
+     "authority": "Engler",
+     "children": [
+      {
+       "id": "genus-holochlamys",
+       "name": "Holochlamys",
+       "rank": "genus",
+       "authority": "Engler",
+       "mbbNumber": 10,
+       "speciesCount": 1,
+       "archiveUrl": "/holochlamys",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/holochlamys.webp",
+        "alt": "Holochlamys beccarii",
+        "source": "POWO_Holochlamys beccarii_01.jpg"
+       }
+      },
+      {
+       "id": "genus-spathiphyllum",
+       "name": "Spathiphyllum",
+       "rank": "genus",
+       "authority": "Schott",
+       "mbbNumber": 9,
+       "speciesCount": 76,
+       "archiveUrl": "/spathiphyllum",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/spathiphyllum.webp",
+        "alt": "Spathiphyllum wallisii",
+        "source": "POWO_Spathiphyllum wallisii_02.jpg"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "subfamily-orontioideae",
+   "name": "Orontioideae",
+   "rank": "subfamily",
+   "authority": "Mayo, Bogner & P.C. Boyce",
+   "children": [
+    {
+     "id": "genus-lysichiton",
+     "name": "Lysichiton",
+     "rank": "genus",
+     "authority": "Schott",
+     "mbbNumber": 3,
+     "speciesCount": 2,
+     "archiveUrl": "/lysichiton",
+     "image": {
+      "src": "https://wainblatrobert.github.io/Aroidpedia/genus/lysichiton.webp",
+      "alt": "Lysichiton camtschatcensis",
+      "source": "POWO_Lysichiton camtschatcensis_03.jpg"
+     }
+    },
+    {
+     "id": "genus-orontium",
+     "name": "Orontium",
+     "rank": "genus",
+     "authority": "L.",
+     "mbbNumber": 2,
+     "speciesCount": 1,
+     "archiveUrl": "/orontium",
+     "image": {
+      "src": "https://wainblatrobert.github.io/Aroidpedia/genus/orontium.webp",
+      "alt": "Orontium aquaticum",
+      "source": "POWO_Orontium aquaticum_01.jpg"
+     }
+    },
+    {
+     "id": "genus-symplocarpus",
+     "name": "Symplocarpus",
+     "rank": "genus",
+     "authority": "Nuttall",
+     "mbbNumber": 4,
+     "speciesCount": 6,
+     "archiveUrl": "/symplocarpus",
+     "image": {
+      "src": "https://wainblatrobert.github.io/Aroidpedia/genus/symplocarpus.webp",
+      "alt": "Symplocarpus renifolius",
+      "source": "POWO_Symplocarpus renifolius_01.jpg"
+     }
+    }
+   ]
+  },
+  {
+   "id": "subfamily-pothoideae",
+   "name": "Pothoideae",
+   "rank": "subfamily",
+   "authority": "Engler",
+   "children": [
+    {
+     "id": "tribe-anthurieae",
+     "name": "Anthurieae",
+     "rank": "tribe",
+     "authority": "Engler",
+     "children": [
+      {
+       "id": "genus-anthurium",
+       "name": "Anthurium",
+       "rank": "genus",
+       "authority": "Schott",
+       "mbbNumber": 8,
+       "speciesCount": 1460,
+       "archiveUrl": "/anthurium"
+      }
+     ]
+    },
+    {
+     "id": "tribe-potheae",
+     "name": "Potheae",
+     "rank": "tribe",
+     "authority": "Engler",
+     "children": [
+      {
+       "id": "genus-pedicellarum",
+       "name": "Pedicellarum",
+       "rank": "genus",
+       "authority": "M. Hotta",
+       "mbbNumber": 6,
+       "archiveUrl": "/pedicellarum",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/pedicellarum.webp",
+        "alt": "Pedicellarum paiei",
+        "source": "Pedicellarum paiei M.Hotta Figure 110.jpg"
+       }
+      },
+      {
+       "id": "genus-pothoidium",
+       "name": "Pothoidium",
+       "rank": "genus",
+       "authority": "Schott",
+       "mbbNumber": 7,
+       "speciesCount": 1,
+       "archiveUrl": "/pothoidium"
+      },
+      {
+       "id": "genus-pothos",
+       "name": "Pothos",
+       "rank": "genus",
+       "authority": "L.",
+       "mbbNumber": 5,
+       "speciesCount": 66,
+       "archiveUrl": "/pothos",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/pothos.webp",
+        "alt": "Pothos barberianus",
+        "source": "POWO_Pothos barberianus_01.jpg"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "metadata": {
+  "updated": "2026-08-06",
+  "about": {
+   "intro": [
+    "This tree shows how the roughly 150 accepted genera of the arum family are grouped: first into subfamilies, then into tribes, and finally into the genera themselves.",
+    "Its backbone comes from The Genera of Araceae (Mayo, Bogner and Boyce, Kew, 1997), still the only work that places every genus in a tribe. Where later research has changed that picture, the tree follows the later research."
+   ],
+   "currentWith": {
+    "heading": "Brought up to date with the 2022 phylogenomic study",
+    "body": "The most recent family-wide study (Haigh and colleagues, 2022, American Journal of Botany) sequenced 128 species across 111 genera. Its conclusions are applied here, not just noted:",
+    "applied": [
+     "Calla now sits inside Aroideae. The old subfamily Calloideae is not used.",
+     "Zamioculcadoideae is treated as part of Aroideae.",
+     "The duckweeds are included as subfamily Lemnoideae — they were still a separate family in 1997.",
+     "Lasioideae is divided into two tribes, Lasieae and Dracontieae.",
+     "The tribe Aglaonemateae holds Aglaonema and Boycea."
+    ],
+    "unresolved": [
+     "Where subfamily Lasioideae attaches to the rest of the family is still unsettled.",
+     "The positions of Montrichardia, Zantedeschia and Anchomanes are only moderately supported."
+    ]
+   },
+   "uncertainty": {
+    "heading": "Why some branches are dashed",
+    "body": "A dashed branch means the genus was named, revived or moved after 1997 and no study we hold places it in a tribe outright. Its position is our best reading of the literature rather than a published conclusion, and it is drawn differently so you can tell the two apart. Every other genus here sits where a named source puts it."
+   },
+   "counts": {
+    "heading": "Where the numbers come from",
+    "body": "Species totals follow Kew's Plants of the World Online and count formally described species. Aroidpedia's own pages often list more, because the archive covers plants that have not been described yet."
+   },
+   "reading": {
+    "heading": "Reading the tree",
+    "body": "Colour marks the level: family, subfamily, tribe, genus. A branch takes the colour of whatever it leads to, so you can follow a lineage down by shade alone. Selecting a genus lights its whole line back to the family."
+   }
+  },
+  "provenance": {
+   "frame": "Mayo, S.J., Bogner, J. & Boyce, P.C. (1997). The Genera of Araceae. Kew. Ch. 23 synopsis, pp. 78-79.",
+   "updates": [
+    "Haigh, A. et al. (2022). Target sequence data shed new light on the infrafamilial classification of Araceae. American Journal of Botany.",
+    "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100.",
+    "Wong, S.Y. et al. (2010). Molecular phylogeny of tribe Schismatoglottideae ... and recognition of a new tribe, Philonotieae, from the Neotropics. Taxon 59: 117-124."
+   ],
+   "speciesCounts": "POWO master export, Araceae_Exports/EXCELS/_run_log.csv (validated accepted species).",
+   "version": "1.6.0",
+   "orthographicVariants": {
+    "Stylochiton": "Treated as Stylochaeton Lepr. (MBB no. 34). The POWO export uses Stylochiton; which spelling Kew currently accepts is unconfirmed."
+   }
+  }
+ }
+}
