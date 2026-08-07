@@ -28,6 +28,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/aglaodorum.webp",
         "alt": "Aglaodorum griffithii",
         "source": "POWO_Aglaodorum griffithii_01.jpg"
+       },
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
        }
       },
       {
@@ -42,6 +47,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/aglaonema.webp",
         "alt": "Aglaonema marantifolium",
         "source": "POWO_Aglaonema marantifolium_02.jpg"
+       },
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
        }
       },
       {
@@ -58,6 +68,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/boycea.webp",
         "alt": "Boycea bintuluensis",
         "source": "POWO_Boycea bintuluensis_03.jpg"
+       },
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
        }
       }
      ]
@@ -80,6 +95,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/ambrosina.webp",
         "alt": "Ambrosina bassii",
         "source": "POWO_Ambrosina bassii_02.jpg"
+       },
+       "range": {
+        "b": "euwasia",
+        "nw": false,
+        "ow": true
        }
       }
      ]
@@ -102,6 +122,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/anubias.webp",
         "alt": "Anubias — (unfiled)",
         "source": "anubias_sp.jpg"
+       },
+       "range": {
+        "b": "africa",
+        "nw": false,
+        "ow": true
        }
       }
      ]
@@ -124,6 +149,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/arum.webp",
         "alt": "Arum italicum",
         "source": "POWO_Arum italicum_02.jpg"
+       },
+       "range": {
+        "b": "euwasia",
+        "nw": false,
+        "ow": true
        }
       },
       {
@@ -138,6 +168,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/biarum.webp",
         "alt": "Biarum dispar",
         "source": "POWO_Biarum dispar_02.jpg"
+       },
+       "range": {
+        "b": "euwasia",
+        "nw": false,
+        "ow": true
        }
       },
       {
@@ -152,6 +187,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/dracunculus.webp",
         "alt": "Dracunculus vulgaris",
         "source": "POWO_Dracunculus vulgaris_01.jpg"
+       },
+       "range": {
+        "b": "oldworld",
+        "nw": false,
+        "ow": true
        }
       },
       {
@@ -166,6 +206,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/eminium.webp",
         "alt": "Eminium spiculatum",
         "source": "POWO_Eminium spiculatum_01.jpg"
+       },
+       "range": {
+        "b": "euwasia",
+        "nw": false,
+        "ow": true
        }
       },
       {
@@ -180,6 +225,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/helicodiceros.webp",
         "alt": "Helicodiceros muscivorus",
         "source": "POWO_Helicodiceros muscivorus_01.jpg"
+       },
+       "range": {
+        "b": "euwasia",
+        "nw": false,
+        "ow": true
        }
       },
       {
@@ -189,7 +239,12 @@
        "authority": "A. Hay",
        "mbbNumber": 95,
        "speciesCount": 16,
-       "archiveUrl": "/lazarum"
+       "archiveUrl": "/lazarum",
+       "range": {
+        "b": "austral",
+        "nw": false,
+        "ow": true
+       }
       },
       {
        "id": "genus-sauromatum",
@@ -203,6 +258,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/sauromatum.webp",
         "alt": "Sauromatum venosum",
         "source": "POWO_Sauromatum venosum_01.jpg"
+       },
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
        }
       },
       {
@@ -217,6 +277,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/theriophonum.webp",
         "alt": "Theriophonum minutum",
         "source": "POWO_Theriophonum minutum_02.jpg"
+       },
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
        }
       },
       {
@@ -231,6 +296,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/typhonium.webp",
         "alt": "Typhonium blumei",
         "source": "POWO_Typhonium blumei_01.jpg"
+       },
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
        }
       }
      ]
@@ -253,6 +323,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/arisaema.webp",
         "alt": "Arisaema dahaiense",
         "source": "POWO_Arisaema dahaiense_03.jpg"
+       },
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
        }
       },
       {
@@ -267,6 +342,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/pinellia.webp",
         "alt": "Pinellia cordata",
         "source": "POWO_Pinellia cordata_01.jpg"
+       },
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
        }
       }
      ]
@@ -289,6 +369,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/arisarum.webp",
         "alt": "Arisarum proboscideum",
         "source": "POWO_Arisarum proboscideum_03.jpg"
+       },
+       "range": {
+        "b": "euwasia",
+        "nw": false,
+        "ow": true
        }
       }
      ]
@@ -311,6 +396,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/arophyton.webp",
         "alt": "Arophyton rhizomatosum",
         "source": "POWO_Arophyton rhizomatosum_03.jpg"
+       },
+       "range": {
+        "b": "africa",
+        "nw": false,
+        "ow": true
        }
       },
       {
@@ -320,7 +410,12 @@
        "authority": "Jumelle",
        "mbbNumber": 82,
        "speciesCount": 5,
-       "archiveUrl": "/carlephyton"
+       "archiveUrl": "/carlephyton",
+       "range": {
+        "b": "africa",
+        "nw": false,
+        "ow": true
+       }
       },
       {
        "id": "genus-colletogyne",
@@ -334,6 +429,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/colletogyne.webp",
         "alt": "Colletogyne perrieri",
         "source": "POWO_Colletogyne perrieri_02.jpg"
+       },
+       "range": {
+        "b": "africa",
+        "nw": false,
+        "ow": true
        }
       }
      ]
@@ -356,6 +456,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/caladium.webp",
         "alt": "Caladium bicolor",
         "source": "POWO_Caladium bicolor_02.jpg"
+       },
+       "range": {
+        "b": "americas",
+        "nw": true,
+        "ow": false
        }
       },
       {
@@ -365,7 +470,12 @@
        "authority": "Engler",
        "mbbNumber": 66,
        "speciesCount": 70,
-       "archiveUrl": "/chlorospatha"
+       "archiveUrl": "/chlorospatha",
+       "range": {
+        "b": "americas",
+        "nw": true,
+        "ow": false
+       }
       },
       {
        "id": "genus-hapaline",
@@ -374,7 +484,12 @@
        "authority": "Schott",
        "mbbNumber": 68,
        "speciesCount": 9,
-       "archiveUrl": "/hapaline"
+       "archiveUrl": "/hapaline",
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
+       }
       },
       {
        "id": "genus-idimanthus",
@@ -385,7 +500,12 @@
        "postMBB": true,
        "placementConfidence": "stated",
        "uncertainPlacement": false,
-       "placementSource": "Coelho, M.A.N. (2020). Idimanthus, in Flora do Brasil 2020. Jardim Botanico do Rio de Janeiro."
+       "placementSource": "Coelho, M.A.N. (2020). Idimanthus, in Flora do Brasil 2020. Jardim Botanico do Rio de Janeiro.",
+       "range": {
+        "b": "americas",
+        "nw": true,
+        "ow": false
+       }
       },
       {
        "id": "genus-jasarum",
@@ -399,6 +519,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/jasarum.webp",
         "alt": "Jasarum steyermarkii",
         "source": "POWO_Jasarum steyermarkii_03.jpg"
+       },
+       "range": {
+        "b": "americas",
+        "nw": true,
+        "ow": false
        }
       },
       {
@@ -415,6 +540,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/phyllotaenium.webp",
         "alt": "Phyllotaenium lindenii",
         "source": "POWO_Phyllotaenium lindenii_01.jpg"
+       },
+       "range": {
+        "b": "americas",
+        "nw": true,
+        "ow": false
        }
       },
       {
@@ -429,6 +559,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/scaphispatha.webp",
         "alt": "Scaphispatha gracilis",
         "source": "POWO_Scaphispatha gracilis_01.jpg"
+       },
+       "range": {
+        "b": "americas",
+        "nw": true,
+        "ow": false
        }
       },
       {
@@ -443,6 +578,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/syngonium.webp",
         "alt": "Syngonium yurimaguense",
         "source": "POWO_Syngonium yurimaguense_02.jpg"
+       },
+       "range": {
+        "b": "americas",
+        "nw": true,
+        "ow": false
        }
       },
       {
@@ -452,7 +592,12 @@
        "authority": "Schott",
        "mbbNumber": 65,
        "speciesCount": 199,
-       "archiveUrl": "/xanthosoma"
+       "archiveUrl": "/xanthosoma",
+       "range": {
+        "b": "americas",
+        "nw": true,
+        "ow": false
+       }
       }
      ]
     },
@@ -469,6 +614,11 @@
       "src": "https://wainblatrobert.github.io/Aroidpedia/genus/calla.webp",
       "alt": "Calla palustris",
       "source": "POWO_Calla palustris_03.jpg"
+     },
+     "range": {
+      "b": "worldwide",
+      "nw": true,
+      "ow": true
      }
     },
     {
@@ -489,6 +639,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/callopsis.webp",
         "alt": "Callopsis volkensii",
         "source": "POWO_Callopsis volkensii_01.jpg"
+       },
+       "range": {
+        "b": "africa",
+        "nw": false,
+        "ow": true
        }
       }
      ]
@@ -511,6 +666,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/alocasia.webp",
         "alt": "Alocasia macrorrhizos",
         "source": "kbaqmwjuuzp91.png"
+       },
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
        }
       },
       {
@@ -525,6 +685,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/ariopsis.webp",
         "alt": "Ariopsis peltata",
         "source": "POWO_Ariopsis peltata_01.jpg"
+       },
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
        }
       },
       {
@@ -539,6 +704,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/colocasia.webp",
         "alt": "Colocasia affinis",
         "source": "POWO_Colocasia affinis_03.jpg"
+       },
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
        }
       },
       {
@@ -548,7 +718,12 @@
        "authority": "Engler",
        "mbbNumber": 100,
        "speciesCount": 1,
-       "archiveUrl": "/protarum"
+       "archiveUrl": "/protarum",
+       "range": {
+        "b": "africa",
+        "nw": false,
+        "ow": true
+       }
       },
       {
        "id": "genus-remusatia",
@@ -557,7 +732,12 @@
        "authority": "Schott",
        "mbbNumber": 102,
        "speciesCount": 4,
-       "archiveUrl": "/remusatia"
+       "archiveUrl": "/remusatia",
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
+       }
       },
       {
        "id": "genus-steudnera",
@@ -566,7 +746,12 @@
        "authority": "K. Koch",
        "mbbNumber": 101,
        "speciesCount": 11,
-       "archiveUrl": "/steudnera"
+       "archiveUrl": "/steudnera",
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
+       }
       }
      ]
     },
@@ -588,6 +773,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/cryptocoryne.webp",
         "alt": "Cryptocoryne thwaitesii",
         "source": "POWO_Cryptocoryne thwaitesii_02.jpg"
+       },
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
        }
       },
       {
@@ -602,6 +792,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/lagenandra.webp",
         "alt": "Lagenandra ovata",
         "source": "POWO_Lagenandra ovata_01.jpg"
+       },
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
        }
       }
      ]
@@ -619,7 +814,12 @@
        "authority": "Schott",
        "mbbNumber": 75,
        "speciesCount": 11,
-       "archiveUrl": "/cercestis"
+       "archiveUrl": "/cercestis",
+       "range": {
+        "b": "africa",
+        "nw": false,
+        "ow": true
+       }
       },
       {
        "id": "genus-culcasia",
@@ -628,7 +828,12 @@
        "authority": "Palisot de Beauvois",
        "mbbNumber": 74,
        "speciesCount": 27,
-       "archiveUrl": "/culcasia"
+       "archiveUrl": "/culcasia",
+       "range": {
+        "b": "africa",
+        "nw": false,
+        "ow": true
+       }
       }
      ]
     },
@@ -645,7 +850,12 @@
        "authority": "Mayo & Nicolson",
        "mbbNumber": 36,
        "speciesCount": 1,
-       "archiveUrl": "/bognera"
+       "archiveUrl": "/bognera",
+       "range": {
+        "b": "americas",
+        "nw": true,
+        "ow": false
+       }
       },
       {
        "id": "genus-dieffenbachia",
@@ -654,7 +864,12 @@
        "authority": "Schott",
        "mbbNumber": 35,
        "speciesCount": 60,
-       "archiveUrl": "/dieffenbachia"
+       "archiveUrl": "/dieffenbachia",
+       "range": {
+        "b": "americas",
+        "nw": true,
+        "ow": false
+       }
       }
      ]
     },
@@ -682,7 +897,12 @@
        "mentions": 5
       }
      ],
-     "note": "Nauheimer & Boyce (2013) place this genus in the Pistia clade rather than in a tribe, reporting that Colocasieae is not monophyletic. No tribe is claimed here because the describing authors claim none."
+     "note": "Nauheimer & Boyce (2013) place this genus in the Pistia clade rather than in a tribe, reporting that Colocasieae is not monophyletic. No tribe is claimed here because the describing authors claim none.",
+     "range": {
+      "b": "asia",
+      "nw": false,
+      "ow": true
+     }
     },
     {
      "id": "tribe-homalomeneae",
@@ -702,6 +922,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/furtadoa.webp",
         "alt": "Furtadoa mixta",
         "source": "Furtadoa mixta (Ridl.) M.Hotta Figure 127.jpg"
+       },
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
        }
       },
       {
@@ -711,7 +936,12 @@
        "authority": "Schott",
        "mbbNumber": 47,
        "speciesCount": 163,
-       "archiveUrl": "/homalomena"
+       "archiveUrl": "/homalomena",
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
+       }
       }
      ]
     },
@@ -739,7 +969,12 @@
        "mentions": 8
       }
      ],
-     "note": "Recent analyses recover this genus in a clade with Alocasia rather than within Colocasieae, which they find polyphyletic. It is shown beside its traditional associates, but the tribe is not asserted."
+     "note": "Recent analyses recover this genus in a clade with Alocasia rather than within Colocasieae, which they find polyphyletic. It is shown beside its traditional associates, but the tribe is not asserted.",
+     "range": {
+      "b": "asia",
+      "nw": false,
+      "ow": true
+     }
     },
     {
      "id": "tribe-montrichardieae",
@@ -759,6 +994,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/montrichardia.webp",
         "alt": "Montrichardia linifera",
         "source": "POWO_Montrichardia linifera_01.jpg"
+       },
+       "range": {
+        "b": "americas",
+        "nw": true,
+        "ow": false
        }
       }
      ]
@@ -781,6 +1021,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/anchomanes.webp",
         "alt": "Anchomanes difformis",
         "source": "POWO_Anchomanes difformis_03.jpg"
+       },
+       "range": {
+        "b": "africa",
+        "nw": false,
+        "ow": true
        }
       },
       {
@@ -795,6 +1040,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/nephthytis.webp",
         "alt": "Nephthytis afzelii",
         "source": "POWO_Nephthytis afzelii_01.jpg"
+       },
+       "range": {
+        "b": "africa",
+        "nw": false,
+        "ow": true
        }
       },
       {
@@ -804,7 +1054,12 @@
        "authority": "Engler",
        "mbbNumber": 71,
        "speciesCount": 3,
-       "archiveUrl": "/pseudohydrosme"
+       "archiveUrl": "/pseudohydrosme",
+       "range": {
+        "b": "africa",
+        "nw": false,
+        "ow": true
+       }
       }
      ]
     },
@@ -821,7 +1076,12 @@
        "authority": "Rafinesque",
        "mbbNumber": 84,
        "speciesCount": 2,
-       "archiveUrl": "/peltandra"
+       "archiveUrl": "/peltandra",
+       "range": {
+        "b": "americas",
+        "nw": true,
+        "ow": false
+       }
       },
       {
        "id": "genus-typhonodorum",
@@ -835,6 +1095,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/typhonodorum.webp",
         "alt": "Typhonodorum lindleyanum",
         "source": "POWO_Typhonodorum lindleyanum_01.jpg"
+       },
+       "range": {
+        "b": "africa",
+        "nw": false,
+        "ow": true
        }
       }
      ]
@@ -855,7 +1120,12 @@
        "placementConfidence": "stated",
        "uncertainPlacement": false,
        "placementSource": "Canal, D., Koster, N., Celis, M., Croat, T.B., Borsch, T. & Jones, K.E. (2019). Out of Amazonia and back again: historical biogeography of the species-rich Neotropical genus Philodendron (Araceae). Annals of the Missouri Botanical Garden 104: 49-68.",
-       "note": "Canal et al. (2019) resolve this genus as the sister of Philodendron, with the Asian Homalomena sister to that pair. Those papers give a branching order rather than a tribe; placing it in Philodendreae, the tribe of Philodendron, follows from that order."
+       "note": "Canal et al. (2019) resolve this genus as the sister of Philodendron, with the Asian Homalomena sister to that pair. Those papers give a branching order rather than a tribe; placing it in Philodendreae, the tribe of Philodendron, follows from that order.",
+       "range": {
+        "b": "americas",
+        "nw": true,
+        "ow": false
+       }
       },
       {
        "id": "genus-philodendron",
@@ -864,7 +1134,12 @@
        "authority": "Schott",
        "mbbNumber": 45,
        "speciesCount": 628,
-       "archiveUrl": "/philodendron"
+       "archiveUrl": "/philodendron",
+       "range": {
+        "b": "americas",
+        "nw": true,
+        "ow": false
+       }
       }
      ]
     },
@@ -883,7 +1158,12 @@
        "postMBB": true,
        "placementConfidence": "stated",
        "uncertainPlacement": false,
-       "placementSource": "Wong, S.Y. et al. (2010). Molecular phylogeny of tribe Schismatoglottideae ... and recognition of a new tribe, Philonotieae, from the Neotropics. Taxon 59: 117-124."
+       "placementSource": "Wong, S.Y. et al. (2010). Molecular phylogeny of tribe Schismatoglottideae ... and recognition of a new tribe, Philonotieae, from the Neotropics. Taxon 59: 117-124.",
+       "range": {
+        "b": "americas",
+        "nw": true,
+        "ow": false
+       }
       }
      ],
      "postMBB": true,
@@ -907,6 +1187,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/pistia.webp",
         "alt": "Pistia stratiotes",
         "source": "POWO_Pistia stratiotes_03.jpg"
+       },
+       "range": {
+        "b": "worldwide",
+        "nw": true,
+        "ow": true
        }
       }
      ]
@@ -926,7 +1211,12 @@
        "postMBB": true,
        "placementConfidence": "stated",
        "uncertainPlacement": false,
-       "placementSource": "Wong, S.Y. & Boyce, P.C. (2024). Schismatoglottideae (Araceae) of Borneo LXXVII - Circumscribing Schismatoglottis sensu stricto, and seven new genera. Webbia 79(2): 255-289."
+       "placementSource": "Wong, S.Y. & Boyce, P.C. (2024). Schismatoglottideae (Araceae) of Borneo LXXVII - Circumscribing Schismatoglottis sensu stricto, and seven new genera. Webbia 79(2): 255-289.",
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
+       }
       },
       {
        "id": "genus-apoballis",
@@ -937,7 +1227,12 @@
        "postMBB": true,
        "placementConfidence": "stated",
        "uncertainPlacement": false,
-       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100."
+       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100.",
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
+       }
       },
       {
        "id": "genus-aridarum",
@@ -951,6 +1246,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/aridarum.webp",
         "alt": "Aridarum caulescens",
         "source": "Aridarum caulescens M.Hotta Figure 067.jpg"
+       },
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
        }
       },
       {
@@ -967,6 +1267,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/ayuantha.webp",
         "alt": "Ayuantha pudenda",
         "source": "POWO_Ayuantha pudenda_01.jpg"
+       },
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
        }
       },
       {
@@ -983,6 +1288,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/bakoa.webp",
         "alt": "Bakoa lucens",
         "source": "POWO_Bakoa lucens_03.jpg"
+       },
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
        }
       },
       {
@@ -994,7 +1304,12 @@
        "postMBB": true,
        "placementConfidence": "stated",
        "uncertainPlacement": false,
-       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100."
+       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100.",
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
+       }
       },
       {
        "id": "genus-bau",
@@ -1010,6 +1325,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/bau.webp",
         "alt": "Bau nervosa",
         "source": "POWO_Bau nervosa_01.jpg"
+       },
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
        }
       },
       {
@@ -1021,7 +1341,12 @@
        "postMBB": true,
        "placementConfidence": "stated",
        "uncertainPlacement": false,
-       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100."
+       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100.",
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
+       }
       },
       {
        "id": "genus-borneoa",
@@ -1037,6 +1362,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/borneoa.webp",
         "alt": "Borneoa asperata",
         "source": "POWO_Borneoa asperata_01.jpg"
+       },
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
        }
       },
       {
@@ -1051,6 +1381,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/bucephalandra.webp",
         "alt": "Bucephalandra oblanceolata",
         "source": "Bucephalandra oblanceolata (M.Hotta) S.Y.Wong & P.C.Boyce Figure 078.jpg"
+       },
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
        }
       },
       {
@@ -1067,6 +1402,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/burttianthus.webp",
         "alt": "Burttianthus purseglovei",
         "source": "POWO_Burttianthus purseglovei_02.jpg"
+       },
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
        }
       },
       {
@@ -1083,6 +1423,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/colobogynium.webp",
         "alt": "Colobogynium variegatum",
         "source": "POWO_Colobogynium variegatum_02.jpg"
+       },
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
        }
       },
       {
@@ -1094,7 +1439,12 @@
        "postMBB": true,
        "placementConfidence": "stated",
        "uncertainPlacement": false,
-       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100."
+       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100.",
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
+       }
       },
       {
        "id": "genus-galantharum",
@@ -1105,7 +1455,12 @@
        "postMBB": true,
        "placementConfidence": "stated",
        "uncertainPlacement": false,
-       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100."
+       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100.",
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
+       }
       },
       {
        "id": "genus-gamogyne",
@@ -1116,7 +1471,12 @@
        "postMBB": true,
        "placementConfidence": "stated",
        "uncertainPlacement": false,
-       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100."
+       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100.",
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
+       }
       },
       {
        "id": "genus-gosong",
@@ -1127,7 +1487,12 @@
        "postMBB": true,
        "placementConfidence": "stated",
        "uncertainPlacement": false,
-       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100."
+       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100.",
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
+       }
       },
       {
        "id": "genus-hera",
@@ -1138,7 +1503,12 @@
        "postMBB": true,
        "placementConfidence": "stated",
        "uncertainPlacement": false,
-       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100."
+       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100.",
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
+       }
       },
       {
        "id": "genus-heteroaridarum",
@@ -1152,6 +1522,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/heteroaridarum.webp",
         "alt": "Heteroaridarum nicolsonii",
         "source": "POWO_Heteroaridarum nicolsonii_01.jpg"
+       },
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
        }
       },
       {
@@ -1166,6 +1541,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/hottarum.webp",
         "alt": "Hottarum truncatum",
         "source": "Hottarum truncatum (M.Hotta) Bogner & Nicolson Figure 001.jpg"
+       },
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
        }
       },
       {
@@ -1177,7 +1557,12 @@
        "postMBB": true,
        "placementConfidence": "stated",
        "uncertainPlacement": false,
-       "placementSource": "Wong, S.Y. & Boyce, P.C. (2024). Schismatoglottideae (Araceae) of Borneo LXXVII - Circumscribing Schismatoglottis sensu stricto, and seven new genera. Webbia 79(2): 255-289."
+       "placementSource": "Wong, S.Y. & Boyce, P.C. (2024). Schismatoglottideae (Araceae) of Borneo LXXVII - Circumscribing Schismatoglottis sensu stricto, and seven new genera. Webbia 79(2): 255-289.",
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
+       }
       },
       {
        "id": "genus-josefia",
@@ -1188,7 +1573,12 @@
        "postMBB": true,
        "placementConfidence": "stated",
        "uncertainPlacement": false,
-       "placementSource": "Scherberich, D., Boyce, P.C., Wongso, S. & Hase, K. (2023). Schismatoglottideae (Araceae) of Borneo LXXIV - Josefia intricata, a new genus and species from Kalimantan. Aroideana 46(2): 6-13."
+       "placementSource": "Scherberich, D., Boyce, P.C., Wongso, S. & Hase, K. (2023). Schismatoglottideae (Araceae) of Borneo LXXIV - Josefia intricata, a new genus and species from Kalimantan. Aroideana 46(2): 6-13.",
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
+       }
       },
       {
        "id": "genus-kiewia",
@@ -1199,7 +1589,12 @@
        "postMBB": true,
        "placementConfidence": "stated",
        "uncertainPlacement": false,
-       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100."
+       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100.",
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
+       }
       },
       {
        "id": "genus-nabalu",
@@ -1210,7 +1605,12 @@
        "postMBB": true,
        "placementConfidence": "stated",
        "uncertainPlacement": false,
-       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100."
+       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100.",
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
+       }
       },
       {
        "id": "genus-naiadia",
@@ -1221,7 +1621,12 @@
        "postMBB": true,
        "placementConfidence": "stated",
        "uncertainPlacement": false,
-       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100."
+       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100.",
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
+       }
       },
       {
        "id": "genus-ooia",
@@ -1237,6 +1642,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/ooia.webp",
         "alt": "Ooia grabowskii",
         "source": "POWO_Ooia grabowskii_02.jpg"
+       },
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
        }
       },
       {
@@ -1251,6 +1661,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/phymatarum.webp",
         "alt": "Phymatarum borneense",
         "source": "POWO_Phymatarum borneense_03.jpg"
+       },
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
        }
       },
       {
@@ -1262,7 +1677,12 @@
        "postMBB": true,
        "placementConfidence": "stated",
        "uncertainPlacement": false,
-       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100."
+       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100.",
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
+       }
       },
       {
        "id": "genus-piptospatha",
@@ -1271,7 +1691,12 @@
        "authority": "N.E. Brown",
        "mbbNumber": 50,
        "speciesCount": 3,
-       "archiveUrl": "/piptospatha"
+       "archiveUrl": "/piptospatha",
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
+       }
       },
       {
        "id": "genus-pursegloveia",
@@ -1282,7 +1707,12 @@
        "postMBB": true,
        "placementConfidence": "stated",
        "uncertainPlacement": false,
-       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100."
+       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100.",
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
+       }
       },
       {
        "id": "genus-rhynchopyle",
@@ -1298,6 +1728,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/rhynchopyle.webp",
         "alt": "Rhynchopyle elongata",
         "source": "POWO_Rhynchopyle elongata_02.jpg"
+       },
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
        }
       },
       {
@@ -1309,7 +1744,12 @@
        "postMBB": true,
        "placementConfidence": "stated",
        "uncertainPlacement": false,
-       "placementSource": "Wong, S.Y. & Boyce, P.C. (2024). Schismatoglottideae (Araceae) of Borneo LXXVII - Circumscribing Schismatoglottis sensu stricto, and seven new genera. Webbia 79(2): 255-289."
+       "placementSource": "Wong, S.Y. & Boyce, P.C. (2024). Schismatoglottideae (Araceae) of Borneo LXXVII - Circumscribing Schismatoglottis sensu stricto, and seven new genera. Webbia 79(2): 255-289.",
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
+       }
       },
       {
        "id": "genus-schismatoglottis",
@@ -1323,6 +1763,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/schismatoglottis.webp",
         "alt": "Schismatoglottis — (unfiled)",
         "source": "schismatoglottis_monoplacenta.jpg"
+       },
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
        }
       },
       {
@@ -1334,7 +1779,12 @@
        "postMBB": true,
        "placementConfidence": "stated",
        "uncertainPlacement": false,
-       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100."
+       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100.",
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
+       }
       },
       {
        "id": "genus-schottarum",
@@ -1350,6 +1800,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/schottarum.webp",
         "alt": "Schottarum sarikeense",
         "source": "Schottarum sarikeense (Bogner & M.Hotta) P.C.Boyce & S.Y.Wong Figure 120.jpg"
+       },
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
        }
       },
       {
@@ -1361,7 +1816,12 @@
        "postMBB": true,
        "placementConfidence": "stated",
        "uncertainPlacement": false,
-       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100."
+       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100.",
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
+       }
       },
       {
        "id": "genus-toga",
@@ -1372,7 +1832,12 @@
        "postMBB": true,
        "placementConfidence": "stated",
        "uncertainPlacement": false,
-       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100."
+       "placementSource": "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100.",
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
+       }
       },
       {
        "id": "genus-tweeddalea",
@@ -1388,6 +1853,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/tweeddalea.webp",
         "alt": "Tweeddalea erecta",
         "source": "POWO_Tweeddalea erecta_01.jpg"
+       },
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
        }
       },
       {
@@ -1405,6 +1875,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/vesta.webp",
         "alt": "Vesta longifolia",
         "source": "POWO_Vesta longifolia_02.jpg"
+       },
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
        }
       }
      ]
@@ -1422,7 +1897,12 @@
        "authority": "F.E.L. Fischer & C.A. Meyer",
        "mbbNumber": 39,
        "speciesCount": 8,
-       "archiveUrl": "/asterostigma"
+       "archiveUrl": "/asterostigma",
+       "range": {
+        "b": "americas",
+        "nw": true,
+        "ow": false
+       }
       },
       {
        "id": "genus-croatiella",
@@ -1433,7 +1913,12 @@
        "postMBB": true,
        "placementConfidence": "stated",
        "uncertainPlacement": false,
-       "placementSource": "Goncalves, E.G. (2005). Two new Andean genera for the tribe Spathicarpeae (Araceae). Willdenowia 35: 319-326."
+       "placementSource": "Goncalves, E.G. (2005). Two new Andean genera for the tribe Spathicarpeae (Araceae). Willdenowia 35: 319-326.",
+       "range": {
+        "b": "americas",
+        "nw": true,
+        "ow": false
+       }
       },
       {
        "id": "genus-gearum",
@@ -1447,6 +1932,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/gearum.webp",
         "alt": "Gearum brasiliense",
         "source": "POWO_Gearum brasiliense_02.jpg"
+       },
+       "range": {
+        "b": "americas",
+        "nw": true,
+        "ow": false
        }
       },
       {
@@ -1456,7 +1946,12 @@
        "authority": "Schott",
        "mbbNumber": 40,
        "speciesCount": 8,
-       "archiveUrl": "/gorgonidium"
+       "archiveUrl": "/gorgonidium",
+       "range": {
+        "b": "americas",
+        "nw": true,
+        "ow": false
+       }
       },
       {
        "id": "genus-incarum",
@@ -1472,6 +1967,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/incarum.webp",
         "alt": "Incarum pavonii",
         "source": "POWO_Incarum pavonii_03.jpg"
+       },
+       "range": {
+        "b": "americas",
+        "nw": true,
+        "ow": false
        }
       },
       {
@@ -1483,7 +1983,12 @@
        "postMBB": true,
        "placementConfidence": "stated",
        "uncertainPlacement": false,
-       "placementSource": "Goncalves, E.G. (2012). Lorenzia (Araceae-Spathicarpeae): a new genus from northern Brazil supported by matK sequence data. Systematic Botany 37(1): 48-52."
+       "placementSource": "Goncalves, E.G. (2012). Lorenzia (Araceae-Spathicarpeae): a new genus from northern Brazil supported by matK sequence data. Systematic Botany 37(1): 48-52.",
+       "range": {
+        "b": "americas",
+        "nw": true,
+        "ow": false
+       }
       },
       {
        "id": "genus-mangonia",
@@ -1492,7 +1997,12 @@
        "authority": "Schott",
        "mbbNumber": 37,
        "speciesCount": 2,
-       "archiveUrl": "/mangonia"
+       "archiveUrl": "/mangonia",
+       "range": {
+        "b": "americas",
+        "nw": true,
+        "ow": false
+       }
       },
       {
        "id": "genus-spathantheum",
@@ -1506,6 +2016,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/spathantheum.webp",
         "alt": "Spathantheum orbignyanum",
         "source": "POWO_Spathantheum orbignyanum_01.jpg"
+       },
+       "range": {
+        "b": "americas",
+        "nw": true,
+        "ow": false
        }
       },
       {
@@ -1520,6 +2035,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/spathicarpa.webp",
         "alt": "Spathicarpa gardneri",
         "source": "POWO_Spathicarpa gardneri_01.jpg"
+       },
+       "range": {
+        "b": "americas",
+        "nw": true,
+        "ow": false
        }
       },
       {
@@ -1534,6 +2054,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/synandrospadix.webp",
         "alt": "Synandrospadix vermitoxicus",
         "source": "POWO_Synandrospadix vermitoxicus_02.jpg"
+       },
+       "range": {
+        "b": "americas",
+        "nw": true,
+        "ow": false
        }
       },
       {
@@ -1543,7 +2068,12 @@
        "authority": "Schott",
        "mbbNumber": 38,
        "speciesCount": 6,
-       "archiveUrl": "/taccarum"
+       "archiveUrl": "/taccarum",
+       "range": {
+        "b": "americas",
+        "nw": true,
+        "ow": false
+       }
       },
       {
        "id": "genus-vivaria",
@@ -1554,7 +2084,12 @@
        "postMBB": true,
        "placementConfidence": "stated",
        "uncertainPlacement": false,
-       "placementSource": "Cabrera, O., Tinitana, F., Cumbicus, N., Herrera, P. & Prina, A. (2022). Vivaria calvasensis - a new genus and species of Araceae (Araceae: Aroideae: Spathicarpeae) from southern Ecuador. PLoS ONE 17(10): e0273867."
+       "placementSource": "Cabrera, O., Tinitana, F., Cumbicus, N., Herrera, P. & Prina, A. (2022). Vivaria calvasensis - a new genus and species of Araceae (Araceae: Aroideae: Spathicarpeae) from southern Ecuador. PLoS ONE 17(10): e0273867.",
+       "range": {
+        "b": "americas",
+        "nw": true,
+        "ow": false
+       }
       }
      ]
     },
@@ -1571,7 +2106,12 @@
        "authority": "Leprieur",
        "mbbNumber": 34,
        "speciesCount": 22,
-       "archiveUrl": "/stylochaeton"
+       "archiveUrl": "/stylochaeton",
+       "range": {
+        "b": "africa",
+        "nw": false,
+        "ow": true
+       }
       }
      ]
     },
@@ -1588,7 +2128,12 @@
        "authority": "Decaisne",
        "mbbNumber": 79,
        "speciesCount": 246,
-       "archiveUrl": "/amorphophallus"
+       "archiveUrl": "/amorphophallus",
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
+       }
       },
       {
        "id": "genus-pseudodracontium",
@@ -1601,6 +2146,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/pseudodracontium.webp",
         "alt": "Pseudodracontium — (unfiled)",
         "source": "pharman1.jpg"
+       },
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
        }
       }
      ]
@@ -1625,7 +2175,12 @@
        "mentions": 1
       }
      ],
-     "note": "Ly et al. (2017) place this genus in the Alocasia-Colocasia clade and state that the rank Colocasieae can no longer be used for that clade, as it lacks phylogenetic support. No tribe is claimed here because the describing authors claim none."
+     "note": "Ly et al. (2017) place this genus in the Alocasia-Colocasia clade and state that the rank Colocasieae can no longer be used for that clade, as it lacks phylogenetic support. No tribe is claimed here because the describing authors claim none.",
+     "range": {
+      "b": "asia",
+      "nw": false,
+      "ow": true
+     }
     },
     {
      "id": "tribe-zamioculcadeae",
@@ -1640,7 +2195,12 @@
        "authority": "Engler",
        "mbbNumber": 33,
        "speciesCount": 5,
-       "archiveUrl": "/gonatopus"
+       "archiveUrl": "/gonatopus",
+       "range": {
+        "b": "africa",
+        "nw": false,
+        "ow": true
+       }
       },
       {
        "id": "genus-zamioculcas",
@@ -1654,6 +2214,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/zamioculcas.webp",
         "alt": "Zamioculcas zamiifolia",
         "source": "POWO_Zamioculcas zamiifolia_03.jpg"
+       },
+       "range": {
+        "b": "africa",
+        "nw": false,
+        "ow": true
        }
       }
      ]
@@ -1676,6 +2241,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/zantedeschia.webp",
         "alt": "Zantedeschia — (unfiled)",
         "source": "zantedeschia_aethiopica.jpg"
+       },
+       "range": {
+        "b": "africa",
+        "nw": false,
+        "ow": true
        }
       }
      ]
@@ -1698,6 +2268,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/filarum.webp",
         "alt": "Filarum manserichense",
         "source": "POWO_Filarum manserichense_02.jpg"
+       },
+       "range": {
+        "b": "americas",
+        "nw": true,
+        "ow": false
        }
       },
       {
@@ -1712,6 +2287,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/ulearum.webp",
         "alt": "Ulearum sagittatum",
         "source": "POWO_Ulearum sagittatum_01.jpg"
+       },
+       "range": {
+        "b": "americas",
+        "nw": true,
+        "ow": false
        }
       },
       {
@@ -1721,7 +2301,12 @@
        "authority": "Schott",
        "mbbNumber": 58,
        "speciesCount": 2,
-       "archiveUrl": "/zomicarpa"
+       "archiveUrl": "/zomicarpa",
+       "range": {
+        "b": "americas",
+        "nw": true,
+        "ow": false
+       }
       },
       {
        "id": "genus-zomicarpella",
@@ -1735,6 +2320,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/zomicarpella.webp",
         "alt": "Zomicarpella amazonica",
         "source": "POWO_Zomicarpella amazonica_01.jpg"
+       },
+       "range": {
+        "b": "americas",
+        "nw": true,
+        "ow": false
        }
       }
      ]
@@ -1759,6 +2349,11 @@
       "src": "https://wainblatrobert.github.io/Aroidpedia/genus/gymnostachys.webp",
       "alt": "Gymnostachys anceps",
       "source": "POWO_Gymnostachys anceps_01.jpg"
+     },
+     "range": {
+      "b": "austral",
+      "nw": false,
+      "ow": true
      }
     }
    ]
@@ -1787,6 +2382,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/anaphyllopsis.webp",
         "alt": "Anaphyllopsis americana",
         "source": "POWO_Anaphyllopsis americana_01.jpg"
+       },
+       "range": {
+        "b": "americas",
+        "nw": true,
+        "ow": false
        }
       },
       {
@@ -1801,6 +2401,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/dracontioides.webp",
         "alt": "Dracontioides desciscens",
         "source": "POWO_Dracontioides desciscens_01.jpg"
+       },
+       "range": {
+        "b": "americas",
+        "nw": true,
+        "ow": false
        }
       },
       {
@@ -1810,7 +2415,12 @@
        "authority": "L.",
        "mbbNumber": 21,
        "speciesCount": 29,
-       "archiveUrl": "/dracontium"
+       "archiveUrl": "/dracontium",
+       "range": {
+        "b": "americas",
+        "nw": true,
+        "ow": false
+       }
       }
      ],
      "postMBB": true,
@@ -1834,6 +2444,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/anaphyllum.webp",
         "alt": "Anaphyllum wightii",
         "source": "POWO_Anaphyllum wightii_02.jpg"
+       },
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
        }
       },
       {
@@ -1843,7 +2458,12 @@
        "authority": "Griffith",
        "mbbNumber": 26,
        "speciesCount": 15,
-       "archiveUrl": "/cyrtosperma"
+       "archiveUrl": "/cyrtosperma",
+       "range": {
+        "b": "austral",
+        "nw": false,
+        "ow": true
+       }
       },
       {
        "id": "genus-lasia",
@@ -1857,6 +2477,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/lasia.webp",
         "alt": "Lasia spinosa",
         "source": "POWO_Lasia spinosa_03.jpg"
+       },
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
        }
       },
       {
@@ -1871,6 +2496,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/lasimorpha.webp",
         "alt": "Lasimorpha senegalensis",
         "source": "POWO_Lasimorpha senegalensis_01.jpg"
+       },
+       "range": {
+        "b": "africa",
+        "nw": false,
+        "ow": true
        }
       },
       {
@@ -1885,6 +2515,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/podolasia.webp",
         "alt": "Podolasia stipitata",
         "source": "POWO_Podolasia stipitata_02.jpg"
+       },
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
        }
       },
       {
@@ -1899,6 +2534,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/pycnospatha.webp",
         "alt": "Pycnospatha palmata",
         "source": "POWO_Pycnospatha palmata_02.jpg"
+       },
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
        }
       },
       {
@@ -1908,7 +2548,12 @@
        "authority": "Schott",
        "mbbNumber": 30,
        "speciesCount": 13,
-       "archiveUrl": "/urospatha"
+       "archiveUrl": "/urospatha",
+       "range": {
+        "b": "americas",
+        "nw": true,
+        "ow": false
+       }
       }
      ],
      "postMBB": true,
@@ -1950,6 +2595,11 @@
       "src": "https://wainblatrobert.github.io/Aroidpedia/genus/lemna.webp",
       "alt": "Lemna minor",
       "source": "POWO_Lemna minor_03.jpg"
+     },
+     "range": {
+      "b": "worldwide",
+      "nw": true,
+      "ow": true
      }
     },
     {
@@ -1980,6 +2630,11 @@
       "src": "https://wainblatrobert.github.io/Aroidpedia/genus/spirodela.webp",
       "alt": "Spirodela polyrhiza",
       "source": "POWO_Spirodela polyrhiza_03.jpg"
+     },
+     "range": {
+      "b": "worldwide",
+      "nw": true,
+      "ow": true
      }
     },
     {
@@ -2010,6 +2665,11 @@
       "src": "https://wainblatrobert.github.io/Aroidpedia/genus/wolffia.webp",
       "alt": "Wolffia arrhiza",
       "source": "POWO_Wolffia arrhiza_01.jpg"
+     },
+     "range": {
+      "b": "worldwide",
+      "nw": true,
+      "ow": true
      }
     },
     {
@@ -2040,6 +2700,11 @@
       "src": "https://wainblatrobert.github.io/Aroidpedia/genus/wolffiella.webp",
       "alt": "Wolffiella welwitschii",
       "source": "POWO_Wolffiella welwitschii_01.jpg"
+     },
+     "range": {
+      "b": "worldwide",
+      "nw": true,
+      "ow": true
      }
     }
    ],
@@ -2065,7 +2730,12 @@
        "authority": "Schott",
        "mbbNumber": 11,
        "speciesCount": 15,
-       "archiveUrl": "/anadendrum"
+       "archiveUrl": "/anadendrum",
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
+       }
       }
      ]
     },
@@ -2082,7 +2752,12 @@
        "authority": "Kunth",
        "mbbNumber": 12,
        "speciesCount": 19,
-       "archiveUrl": "/heteropsis"
+       "archiveUrl": "/heteropsis",
+       "range": {
+        "b": "americas",
+        "nw": true,
+        "ow": false
+       }
       }
      ]
     },
@@ -2099,7 +2774,12 @@
        "authority": "Schott",
        "mbbNumber": 18,
        "speciesCount": 2,
-       "archiveUrl": "/alloschemone"
+       "archiveUrl": "/alloschemone",
+       "range": {
+        "b": "americas",
+        "nw": true,
+        "ow": false
+       }
       },
       {
        "id": "genus-amydrium",
@@ -2113,6 +2793,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/amydrium.webp",
         "alt": "Amydrium medium",
         "source": "POWO_Amydrium medium_01.jpg"
+       },
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
        }
       },
       {
@@ -2127,6 +2812,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/epipremnum.webp",
         "alt": "Epipremnum pinnatum",
         "source": "POWO_Epipremnum pinnatum_03.jpg"
+       },
+       "range": {
+        "b": "oldworld",
+        "nw": false,
+        "ow": true
        }
       },
       {
@@ -2136,7 +2826,12 @@
        "authority": "Adanson",
        "mbbNumber": 17,
        "speciesCount": 71,
-       "archiveUrl": "/monstera"
+       "archiveUrl": "/monstera",
+       "range": {
+        "b": "americas",
+        "nw": true,
+        "ow": false
+       }
       },
       {
        "id": "genus-rhaphidophora",
@@ -2150,6 +2845,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/rhaphidophora.webp",
         "alt": "Rhaphidophora korthalsii",
         "source": "POWO_Rhaphidophora korthalsii_03.jpg"
+       },
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
        }
       },
       {
@@ -2164,6 +2864,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/rhodospatha.webp",
         "alt": "Rhodospatha oblongata",
         "source": "POWO_Rhodospatha oblongata_02.jpg"
+       },
+       "range": {
+        "b": "americas",
+        "nw": true,
+        "ow": false
        }
       },
       {
@@ -2178,6 +2883,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/scindapsus.webp",
         "alt": "Scindapsus pictus",
         "source": "POWO_Scindapsus pictus_03.jpg"
+       },
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
        }
       },
       {
@@ -2187,7 +2897,12 @@
        "authority": "Schott",
        "mbbNumber": 20,
        "speciesCount": 58,
-       "archiveUrl": "/stenospermation"
+       "archiveUrl": "/stenospermation",
+       "range": {
+        "b": "americas",
+        "nw": true,
+        "ow": false
+       }
       }
      ]
     },
@@ -2209,6 +2924,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/holochlamys.webp",
         "alt": "Holochlamys beccarii",
         "source": "POWO_Holochlamys beccarii_01.jpg"
+       },
+       "range": {
+        "b": "austral",
+        "nw": false,
+        "ow": true
        }
       },
       {
@@ -2223,6 +2943,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/spathiphyllum.webp",
         "alt": "Spathiphyllum wallisii",
         "source": "POWO_Spathiphyllum wallisii_02.jpg"
+       },
+       "range": {
+        "b": "americas",
+        "nw": true,
+        "ow": false
        }
       }
      ]
@@ -2247,6 +2972,11 @@
       "src": "https://wainblatrobert.github.io/Aroidpedia/genus/lysichiton.webp",
       "alt": "Lysichiton camtschatcensis",
       "source": "POWO_Lysichiton camtschatcensis_03.jpg"
+     },
+     "range": {
+      "b": "worldwide",
+      "nw": true,
+      "ow": true
      }
     },
     {
@@ -2261,6 +2991,11 @@
       "src": "https://wainblatrobert.github.io/Aroidpedia/genus/orontium.webp",
       "alt": "Orontium aquaticum",
       "source": "POWO_Orontium aquaticum_01.jpg"
+     },
+     "range": {
+      "b": "americas",
+      "nw": true,
+      "ow": false
      }
     },
     {
@@ -2275,6 +3010,11 @@
       "src": "https://wainblatrobert.github.io/Aroidpedia/genus/symplocarpus.webp",
       "alt": "Symplocarpus renifolius",
       "source": "POWO_Symplocarpus renifolius_01.jpg"
+     },
+     "range": {
+      "b": "worldwide",
+      "nw": true,
+      "ow": true
      }
     }
    ]
@@ -2298,7 +3038,12 @@
        "authority": "Schott",
        "mbbNumber": 8,
        "speciesCount": 1460,
-       "archiveUrl": "/anthurium"
+       "archiveUrl": "/anthurium",
+       "range": {
+        "b": "americas",
+        "nw": true,
+        "ow": false
+       }
       }
      ]
     },
@@ -2319,6 +3064,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/pedicellarum.webp",
         "alt": "Pedicellarum paiei",
         "source": "Pedicellarum paiei M.Hotta Figure 110.jpg"
+       },
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
        }
       },
       {
@@ -2328,7 +3078,12 @@
        "authority": "Schott",
        "mbbNumber": 7,
        "speciesCount": 1,
-       "archiveUrl": "/pothoidium"
+       "archiveUrl": "/pothoidium",
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
+       }
       },
       {
        "id": "genus-pothos",
@@ -2342,6 +3097,11 @@
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/pothos.webp",
         "alt": "Pothos barberianus",
         "source": "POWO_Pothos barberianus_01.jpg"
+       },
+       "range": {
+        "b": "asia",
+        "nw": false,
+        "ow": true
        }
       }
      ]
@@ -2350,7 +3110,7 @@
   }
  ],
  "metadata": {
-  "updated": "2026-08-06",
+  "updated": "2026-08-07",
   "about": {
    "intro": [
     "This tree shows how the roughly 150 accepted genera of the arum family are grouped: first into subfamilies, then into tribes, and finally into the genera themselves.",
@@ -2392,10 +3152,11 @@
     "Wong, S.Y. et al. (2010). Molecular phylogeny of tribe Schismatoglottideae ... and recognition of a new tribe, Philonotieae, from the Neotropics. Taxon 59: 117-124."
    ],
    "speciesCounts": "POWO master export, Araceae_Exports/EXCELS/_run_log.csv (validated accepted species).",
-   "version": "1.6.0",
+   "version": "1.7.0",
    "orthographicVariants": {
     "Stylochiton": "Treated as Stylochaeton Lepr. (MBB no. 34). The POWO export uses Stylochiton; which spelling Kew currently accepts is unconfirmed."
-   }
+   },
+   "ranges": "Native-range buckets parsed 2026-08-07 from the POWO genus exports' GEOGRAPHY prose (Araceae_Exports/EXCELS), species rows only, hybrids excluded. Zones NW/AF/EU-WAsia/AS/AU; a zone under 5% of a genus's mentions is trace and ignored; NW+OW=worldwide, several OW zones need a 66% leader or the genus is oldworld. Pseudodracontium (Indo-China) and Pedicellarum (Borneo) hand-set: no workbook in the export; both ranges are uncontested."
   }
  }
 }
