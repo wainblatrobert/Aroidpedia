@@ -38,7 +38,10 @@
          "Indo-China",
          "Pen. Malaysia",
          "Sumatera"
-        ]
+        ],
+        "zones": {
+         "asia": 1
+        }
        }
       },
       {
@@ -85,7 +88,11 @@
          "Yunnan",
          "incl. Lingga Is.",
          "incl. Nias"
-        ]
+        ],
+        "zones": {
+         "asia": 26,
+         "austral": 1
+        }
        }
       },
       {
@@ -110,7 +117,10 @@
         "places": [
          "Borneo",
          "Sarawak"
-        ]
+        ],
+        "zones": {
+         "asia": 1
+        }
        }
       }
      ]
@@ -140,7 +150,10 @@
         "ow": true,
         "places": [
          "Medit."
-        ]
+        ],
+        "zones": {
+         "euwasia": 1
+        }
        }
       }
      ]
@@ -176,7 +189,10 @@
          "Mali",
          "Nigeria",
          "Senegal"
-        ]
+        ],
+        "zones": {
+         "africa": 8
+        }
        }
       }
      ]
@@ -233,7 +249,12 @@
          "Syria N. & C. Israel",
          "Transcaucasus",
          "Ukraine"
-        ]
+        ],
+        "zones": {
+         "euwasia": 27,
+         "africa": 3,
+         "asia": 1
+        }
        }
       },
       {
@@ -273,7 +294,11 @@
          "Portugal",
          "Sardegna",
          "Simi"
-        ]
+        ],
+        "zones": {
+         "euwasia": 25,
+         "africa": 2
+        }
        }
       },
       {
@@ -299,7 +324,11 @@
          "Europe",
          "Madeira",
          "Türkiye"
-        ]
+        ],
+        "zones": {
+         "africa": 2,
+         "euwasia": 1
+        }
        }
       },
       {
@@ -326,7 +355,10 @@
          "Afghanistan",
          "Medit.",
          "Syria"
-        ]
+        ],
+        "zones": {
+         "euwasia": 8
+        }
        }
       },
       {
@@ -350,7 +382,10 @@
          "Baleares",
          "Corse",
          "Sardegna"
-        ]
+        ],
+        "zones": {
+         "euwasia": 1
+        }
        }
       },
       {
@@ -374,7 +409,10 @@
          "Melville I.",
          "New Guinea",
          "Western Australia"
-        ]
+        ],
+        "zones": {
+         "austral": 16
+        }
        }
       },
       {
@@ -413,7 +451,12 @@
          "Myanmar",
          "Sikkim",
          "Thailand"
-        ]
+        ],
+        "zones": {
+         "asia": 11,
+         "africa": 1,
+         "euwasia": 1
+        }
        }
       },
       {
@@ -438,7 +481,10 @@
          "Tamil Nadu",
          "Kerala",
          "Sri Lanka"
-        ]
+        ],
+        "zones": {
+         "asia": 6
+        }
        }
       },
       {
@@ -484,7 +530,11 @@
          "Thailand. S. Vietnam",
          "Yunnan",
          "Yunnan: Jinping"
-        ]
+        ],
+        "zones": {
+         "asia": 79,
+         "austral": 2
+        }
        }
       }
      ]
@@ -606,7 +656,13 @@
          "incl. Pulau Lankawi",
          "to Hunan",
          "to NW. Hunan"
-        ]
+        ],
+        "zones": {
+         "asia": 209,
+         "africa": 8,
+         "americas": 7,
+         "euwasia": 4
+        }
        }
       },
       {
@@ -640,7 +696,10 @@
          "Jiangsu",
          "Korea",
          "Nansei-shotō"
-        ]
+        ],
+        "zones": {
+         "asia": 11
+        }
        }
       }
      ]
@@ -674,7 +733,11 @@
          "Macaronesia",
          "Spain",
          "Transcaucasus"
-        ]
+        ],
+        "zones": {
+         "euwasia": 4,
+         "africa": 1
+        }
        }
       }
      ]
@@ -704,7 +767,10 @@
         "ow": true,
         "places": [
          "Madagascar"
-        ]
+        ],
+        "zones": {
+         "africa": 7
+        }
        }
       },
       {
@@ -722,7 +788,10 @@
         "places": [
          "Madagascar",
          "Ankarana Mts."
-        ]
+        ],
+        "zones": {
+         "africa": 5
+        }
        }
       },
       {
@@ -744,7 +813,10 @@
         "ow": true,
         "places": [
          "Madagascar"
-        ]
+        ],
+        "zones": {
+         "africa": 1
+        }
        }
       }
      ]
@@ -788,7 +860,10 @@
          "Pará",
          "Salta",
          "Tocantins"
-        ]
+        ],
+        "zones": {
+         "americas": 19
+        }
        }
       },
       {
@@ -813,7 +888,10 @@
          "Cauca",
          "Costa Rica",
          "Pichincha"
-        ]
+        ],
+        "zones": {
+         "americas": 70
+        }
        }
       },
       {
@@ -838,7 +916,10 @@
          "Indo-China",
          "Pen. Malaysia",
          "Yunnan"
-        ]
+        ],
+        "zones": {
+         "asia": 9
+        }
        }
       },
       {
@@ -858,7 +939,10 @@
         "places": [
          "Brazil",
          "Rio de Janeiro"
-        ]
+        ],
+        "zones": {
+         "americas": 1
+        }
        }
       },
       {
@@ -881,7 +965,10 @@
         "places": [
          "Guyana",
          "Venezuela"
-        ]
+        ],
+        "zones": {
+         "americas": 1
+        }
        }
       },
       {
@@ -906,7 +993,10 @@
         "places": [
          "Colombia",
          "Panama"
-        ]
+        ],
+        "zones": {
+         "americas": 1
+        }
        }
       },
       {
@@ -931,7 +1021,10 @@
          "Bolivia",
          "Goiás",
          "Pará"
-        ]
+        ],
+        "zones": {
+         "americas": 2
+        }
        }
       },
       {
@@ -975,7 +1068,10 @@
          "San Andrés",
          "Tabasco",
          "Veracruz"
-        ]
+        ],
+        "zones": {
+         "americas": 41
+        }
        }
       },
       {
@@ -1024,7 +1120,10 @@
          "Putumayo",
          "Rondônia",
          "Santa Catarina"
-        ]
+        ],
+        "zones": {
+         "americas": 199
+        }
        }
       }
      ]
@@ -1052,7 +1151,12 @@
        "Japan",
        "Subarctic America",
        "U.S.A."
-      ]
+      ],
+      "zones": {
+       "americas": 1,
+       "euwasia": 1,
+       "asia": 1
+      }
      }
     },
     {
@@ -1081,7 +1185,10 @@
         "places": [
          "Kenya",
          "Tanzania"
-        ]
+        ],
+        "zones": {
+         "africa": 1
+        }
        }
       }
      ]
@@ -1157,7 +1264,11 @@
          "Pen Thailand",
          "Samar",
          "Star Mts."
-        ]
+        ],
+        "zones": {
+         "asia": 78,
+         "austral": 16
+        }
        }
       },
       {
@@ -1182,7 +1293,10 @@
          "Maharashtra",
          "Nepal",
          "Thailand"
-        ]
+        ],
+        "zones": {
+         "asia": 3
+        }
        }
       },
       {
@@ -1219,7 +1333,10 @@
          "Sabah",
          "Sumatera",
          "Uttarakhand"
-        ]
+        ],
+        "zones": {
+         "asia": 14
+        }
        }
       },
       {
@@ -1236,7 +1353,10 @@
         "ow": true,
         "places": [
          "Seychelles"
-        ]
+        ],
+        "zones": {
+         "africa": 1
+        }
        }
       },
       {
@@ -1259,7 +1379,13 @@
          "Taiwan",
          "Thailand",
          "Yunnan: Yingjiang"
-        ]
+        ],
+        "zones": {
+         "asia": 4,
+         "africa": 1,
+         "euwasia": 1,
+         "austral": 1
+        }
        }
       },
       {
@@ -1288,7 +1414,10 @@
          "Mizoram",
          "Thailand",
          "Vietnam"
-        ]
+        ],
+        "zones": {
+         "asia": 11
+        }
        }
       }
      ]
@@ -1350,7 +1479,11 @@
          "Singapore",
          "Sulu Arch.",
          "Tamil Nadu"
-        ]
+        ],
+        "zones": {
+         "asia": 89,
+         "austral": 3
+        }
        }
       },
       {
@@ -1376,7 +1509,10 @@
          "Kerala",
          "Arunachal Pradesh",
          "Bangladesh"
-        ]
+        ],
+        "zones": {
+         "asia": 22
+        }
        }
       }
      ]
@@ -1411,7 +1547,10 @@
          "Cameroon",
          "Guinea",
          "Uganda"
-        ]
+        ],
+        "zones": {
+         "africa": 11
+        }
        }
       },
       {
@@ -1445,7 +1584,10 @@
          "Sierra Leone",
          "Sudan",
          "Zambia"
-        ]
+        ],
+        "zones": {
+         "africa": 27
+        }
        }
       }
      ]
@@ -1471,7 +1613,10 @@
         "places": [
          "Amazonas",
          "Brazil"
-        ]
+        ],
+        "zones": {
+         "americas": 1
+        }
        }
       },
       {
@@ -1507,7 +1652,10 @@
          "Guyana",
          "Honduras",
          "Misiones"
-        ]
+        ],
+        "zones": {
+         "americas": 60
+        }
        }
       }
      ]
@@ -1545,7 +1693,10 @@
        "China",
        "Indo-China",
        "Yunnan"
-      ]
+      ],
+      "zones": {
+       "asia": 1
+      }
      }
     },
     {
@@ -1574,7 +1725,10 @@
         "places": [
          "Sumatera",
          "Pen. Malaysia"
-        ]
+        ],
+        "zones": {
+         "asia": 3
+        }
        }
       },
       {
@@ -1633,7 +1787,11 @@
          "Palawan",
          "Pulau Pinang",
          "Singapore"
-        ]
+        ],
+        "zones": {
+         "asia": 142,
+         "austral": 22
+        }
        }
       }
      ]
@@ -1670,7 +1828,10 @@
       "places": [
        "China",
        "Malesia"
-      ]
+      ],
+      "zones": {
+       "asia": 1
+      }
      }
     },
     {
@@ -1698,7 +1859,10 @@
         "ow": false,
         "places": [
          "America"
-        ]
+        ],
+        "zones": {
+         "americas": 2
+        }
        }
       }
      ]
@@ -1737,7 +1901,10 @@
          "Tanzania",
          "Zambia",
          "Zimbabwe"
-        ]
+        ],
+        "zones": {
+         "africa": 6
+        }
        }
       },
       {
@@ -1765,7 +1932,10 @@
          "Ivory Coast",
          "Mbel",
          "Nigeria"
-        ]
+        ],
+        "zones": {
+         "africa": 5
+        }
        }
       },
       {
@@ -1784,7 +1954,10 @@
          "Gabon",
          "Cameron",
          "Congo"
-        ]
+        ],
+        "zones": {
+         "africa": 3
+        }
        }
       }
      ]
@@ -1811,7 +1984,10 @@
          "U.S.A.",
          "Canada",
          "Cuba"
-        ]
+        ],
+        "zones": {
+         "americas": 2
+        }
        }
       },
       {
@@ -1837,7 +2013,10 @@
          "Pemba",
          "Tanzania",
          "Zanzibar"
-        ]
+        ],
+        "zones": {
+         "africa": 1
+        }
        }
       }
      ]
@@ -1878,7 +2057,10 @@
          "Panama",
          "South America",
          "Vocán Brava"
-        ]
+        ],
+        "zones": {
+         "americas": 16
+        }
        }
       },
       {
@@ -1977,7 +2159,10 @@
          "Veracruz",
          "to Paraná",
          "to Tocantins"
-        ]
+        ],
+        "zones": {
+         "americas": 628
+        }
        }
       }
      ]
@@ -2008,7 +2193,10 @@
          "Colombia",
          "South America",
          "Venezuela"
-        ]
+        ],
+        "zones": {
+         "americas": 3
+        }
        }
       }
      ],
@@ -2040,7 +2228,14 @@
         "ow": true,
         "places": [
          "Tropics & Subtropics"
-        ]
+        ],
+        "zones": {
+         "americas": 1,
+         "africa": 1,
+         "euwasia": 1,
+         "asia": 1,
+         "austral": 1
+        }
        }
       }
      ]
@@ -2068,7 +2263,10 @@
         "places": [
          "Borneo",
          "Sarawak"
-        ]
+        ],
+        "zones": {
+         "asia": 1
+        }
        }
       },
       {
@@ -2093,7 +2291,10 @@
          "Lesser Sunda Is.",
          "Myanmar",
          "Pen. Thailand"
-        ]
+        ],
+        "zones": {
+         "asia": 14
+        }
        }
       },
       {
@@ -2117,7 +2318,10 @@
          "Borneo",
          "Sarawak",
          "Kalimantan"
-        ]
+        ],
+        "zones": {
+         "asia": 5
+        }
        }
       },
       {
@@ -2144,7 +2348,10 @@
          "Brunei",
          "Sarawak",
          "Kalimantan"
-        ]
+        ],
+        "zones": {
+         "asia": 4
+        }
        }
       },
       {
@@ -2169,7 +2376,10 @@
         "places": [
          "Borneo",
          "Sarawak"
-        ]
+        ],
+        "zones": {
+         "asia": 1
+        }
        }
       },
       {
@@ -2189,7 +2399,10 @@
         "places": [
          "Borneo",
          "Kalimantan"
-        ]
+        ],
+        "zones": {
+         "asia": 2
+        }
        }
       },
       {
@@ -2219,7 +2432,10 @@
          "Sabah",
          "Sulawesi",
          "Sumatera"
-        ]
+        ],
+        "zones": {
+         "asia": 26
+        }
        }
       },
       {
@@ -2239,7 +2455,10 @@
         "places": [
          "Borneo",
          "Sarawak"
-        ]
+        ],
+        "zones": {
+         "asia": 1
+        }
        }
       },
       {
@@ -2267,7 +2486,10 @@
          "Sabah",
          "Brunei",
          "Pen. Malaysia"
-        ]
+        ],
+        "zones": {
+         "asia": 23
+        }
        }
       },
       {
@@ -2296,7 +2518,10 @@
          "Kalimantan Barat",
          "Kalimantan Selatan",
          "Kalimantan Utar"
-        ]
+        ],
+        "zones": {
+         "asia": 32
+        }
        }
       },
       {
@@ -2323,7 +2548,10 @@
          "Sarawak",
          "Brunei",
          "Sabah"
-        ]
+        ],
+        "zones": {
+         "asia": 9
+        }
        }
       },
       {
@@ -2349,7 +2577,10 @@
          "Borneo",
          "Kep. Riau",
          "Sumatera"
-        ]
+        ],
+        "zones": {
+         "asia": 1
+        }
        }
       },
       {
@@ -2369,7 +2600,10 @@
         "places": [
          "Borneo",
          "Kalimantan"
-        ]
+        ],
+        "zones": {
+         "asia": 2
+        }
        }
       },
       {
@@ -2389,7 +2623,10 @@
         "places": [
          "Borneo",
          "Kalimantan"
-        ]
+        ],
+        "zones": {
+         "asia": 1
+        }
        }
       },
       {
@@ -2411,7 +2648,10 @@
          "Kalimantan",
          "Sarawak",
          "Sabah"
-        ]
+        ],
+        "zones": {
+         "asia": 6
+        }
        }
       },
       {
@@ -2431,7 +2671,10 @@
         "places": [
          "Borneo",
          "Kalimantan"
-        ]
+        ],
+        "zones": {
+         "asia": 1
+        }
        }
       },
       {
@@ -2451,7 +2694,10 @@
         "places": [
          "Borneo",
          "Kalimantan"
-        ]
+        ],
+        "zones": {
+         "asia": 1
+        }
        }
       },
       {
@@ -2475,7 +2721,10 @@
          "Borneo",
          "Sarawak",
          "Kalimantan"
-        ]
+        ],
+        "zones": {
+         "asia": 3
+        }
        }
       },
       {
@@ -2498,7 +2747,10 @@
         "places": [
          "Borneo",
          "Sarawak"
-        ]
+        ],
+        "zones": {
+         "asia": 1
+        }
        }
       },
       {
@@ -2522,7 +2774,10 @@
          "Brunei",
          "Kalimantan",
          "Kalimantan Barat"
-        ]
+        ],
+        "zones": {
+         "asia": 12
+        }
        }
       },
       {
@@ -2542,7 +2797,10 @@
         "places": [
          "Borneo",
          "Kalimantan"
-        ]
+        ],
+        "zones": {
+         "asia": 1
+        }
        }
       },
       {
@@ -2566,7 +2824,10 @@
          "Pen. Thailand",
          "Selangor",
          "Sumatera"
-        ]
+        ],
+        "zones": {
+         "asia": 3
+        }
        }
       },
       {
@@ -2586,7 +2847,10 @@
         "places": [
          "Borneo",
          "incl. Kep. Anambas"
-        ]
+        ],
+        "zones": {
+         "asia": 1
+        }
        }
       },
       {
@@ -2606,7 +2870,10 @@
         "places": [
          "Borneo",
          "Kalimantan"
-        ]
+        ],
+        "zones": {
+         "asia": 1
+        }
        }
       },
       {
@@ -2637,7 +2904,10 @@
          "Kalimantan Timur",
          "Kalimantan Utara",
          "Meratus Mts."
-        ]
+        ],
+        "zones": {
+         "asia": 12
+        }
        }
       },
       {
@@ -2661,7 +2931,10 @@
          "Borneo",
          "Brunei",
          "Sarawak"
-        ]
+        ],
+        "zones": {
+         "asia": 1
+        }
        }
       },
       {
@@ -2681,7 +2954,10 @@
         "places": [
          "Borneo",
          "Sarawak"
-        ]
+        ],
+        "zones": {
+         "asia": 1
+        }
        }
       },
       {
@@ -2700,7 +2976,10 @@
          "Borneo",
          "Sarawak",
          "Kalimantan"
-        ]
+        ],
+        "zones": {
+         "asia": 3
+        }
        }
       },
       {
@@ -2722,7 +3001,10 @@
          "Kalimantan",
          "Sarawak",
          "Sabah"
-        ]
+        ],
+        "zones": {
+         "asia": 7
+        }
        }
       },
       {
@@ -2751,7 +3033,10 @@
          "Sarawak",
          "Sarawak: Kapit Div.",
          "Sarawak: coastal Lundu area"
-        ]
+        ],
+        "zones": {
+         "asia": 7
+        }
        }
       },
       {
@@ -2773,7 +3058,10 @@
          "Sarawak",
          "Brunei",
          "Kalimantan"
-        ]
+        ],
+        "zones": {
+         "asia": 5
+        }
        }
       },
       {
@@ -2825,7 +3113,11 @@
          "Penang",
          "Sagapan",
          "Vanuatu"
-        ]
+        ],
+        "zones": {
+         "asia": 88,
+         "austral": 10
+        }
        }
       },
       {
@@ -2845,7 +3137,10 @@
         "places": [
          "Borneo",
          "Sarawak"
-        ]
+        ],
+        "zones": {
+         "asia": 1
+        }
        }
       },
       {
@@ -2870,7 +3165,10 @@
         "places": [
          "Borneo",
          "Sarawak"
-        ]
+        ],
+        "zones": {
+         "asia": 3
+        }
        }
       },
       {
@@ -2890,7 +3188,10 @@
         "places": [
          "Borneo",
          "Sabah"
-        ]
+        ],
+        "zones": {
+         "asia": 1
+        }
        }
       },
       {
@@ -2910,7 +3211,10 @@
         "places": [
          "Borneo",
          "Kalimantan"
-        ]
+        ],
+        "zones": {
+         "asia": 6
+        }
        }
       },
       {
@@ -2935,7 +3239,10 @@
         "places": [
          "Borneo",
          "Sarawak"
-        ]
+        ],
+        "zones": {
+         "asia": 14
+        }
        }
       },
       {
@@ -2964,7 +3271,10 @@
          "Pen. Malaysia",
          "Perak",
          "Sarawak"
-        ]
+        ],
+        "zones": {
+         "asia": 1
+        }
        }
       }
      ]
@@ -2996,7 +3306,10 @@
          "Misiones",
          "Santa Catarina",
          "São Paulo"
-        ]
+        ],
+        "zones": {
+         "americas": 8
+        }
        }
       },
       {
@@ -3015,7 +3328,10 @@
         "ow": false,
         "places": [
          "Ecuador"
-        ]
+        ],
+        "zones": {
+         "americas": 1
+        }
        }
       },
       {
@@ -3039,7 +3355,10 @@
          "Brazil",
          "Mato Grosso",
          "Tocantins"
-        ]
+        ],
+        "zones": {
+         "americas": 1
+        }
        }
       },
       {
@@ -3058,7 +3377,10 @@
          "Bolivia",
          "Peru",
          "Argentina"
-        ]
+        ],
+        "zones": {
+         "americas": 8
+        }
        }
       },
       {
@@ -3083,7 +3405,10 @@
         "places": [
          "Bolivia",
          "Ecuador"
-        ]
+        ],
+        "zones": {
+         "americas": 1
+        }
        }
       },
       {
@@ -3103,7 +3428,10 @@
         "places": [
          "Amapá",
          "Brazil"
-        ]
+        ],
+        "zones": {
+         "americas": 1
+        }
        }
       },
       {
@@ -3123,7 +3451,10 @@
          "Brazil",
          "Cerro Largo",
          "Rio Grande do Sul"
-        ]
+        ],
+        "zones": {
+         "americas": 2
+        }
        }
       },
       {
@@ -3146,7 +3477,10 @@
         "places": [
          "Argentina",
          "Peru"
-        ]
+        ],
+        "zones": {
+         "americas": 1
+        }
        }
       },
       {
@@ -3170,7 +3504,10 @@
          "Brazil",
          "Argentina",
          "Paraguay"
-        ]
+        ],
+        "zones": {
+         "americas": 3
+        }
        }
       },
       {
@@ -3193,7 +3530,10 @@
         "places": [
          "Argentina",
          "Peru"
-        ]
+        ],
+        "zones": {
+         "americas": 1
+        }
        }
       },
       {
@@ -3215,7 +3555,10 @@
          "Bolivia",
          "Misiones",
          "Paraguay"
-        ]
+        ],
+        "zones": {
+         "americas": 6
+        }
        }
       },
       {
@@ -3234,7 +3577,10 @@
         "ow": false,
         "places": [
          "Ecuador"
-        ]
+        ],
+        "zones": {
+         "americas": 1
+        }
        }
       }
      ]
@@ -3273,7 +3619,10 @@
          "Somalia",
          "Sudan",
          "Zambia"
-        ]
+        ],
+        "zones": {
+         "africa": 22
+        }
        }
       }
      ]
@@ -3377,7 +3726,12 @@
          "Sudan",
          "Zambia",
          "Zimbabwe"
-        ]
+        ],
+        "zones": {
+         "asia": 205,
+         "africa": 40,
+         "austral": 2
+        }
        }
       },
       {
@@ -3430,7 +3784,10 @@
       "ow": true,
       "places": [
        "Vietnam"
-      ]
+      ],
+      "zones": {
+       "asia": 1
+      }
      }
     },
     {
@@ -3458,7 +3815,10 @@
          "Africa",
          "KwaZulu-Natal",
          "Usambara Mts."
-        ]
+        ],
+        "zones": {
+         "africa": 5
+        }
        }
       },
       {
@@ -3481,7 +3841,10 @@
         "places": [
          "Kenya",
          "KwaZulu-Natal"
-        ]
+        ],
+        "zones": {
+         "africa": 1
+        }
        }
       }
      ]
@@ -3519,7 +3882,10 @@
          "Mozambique",
          "Nigeria",
          "Tanzania"
-        ]
+        ],
+        "zones": {
+         "africa": 8
+        }
        }
       }
      ]
@@ -3549,7 +3915,10 @@
         "ow": false,
         "places": [
          "Peru"
-        ]
+        ],
+        "zones": {
+         "americas": 1
+        }
        }
       },
       {
@@ -3575,7 +3944,10 @@
          "Ecuador",
          "Loreto",
          "Peru"
-        ]
+        ],
+        "zones": {
+         "americas": 2
+        }
        }
       },
       {
@@ -3593,7 +3965,10 @@
         "places": [
          "Brazil",
          "Bahia"
-        ]
+        ],
+        "zones": {
+         "americas": 2
+        }
        }
       },
       {
@@ -3618,7 +3993,10 @@
          "Brazil",
          "Colombia",
          "Peru"
-        ]
+        ],
+        "zones": {
+         "americas": 2
+        }
        }
       }
      ]
@@ -3651,7 +4029,10 @@
       "places": [
        "New South Wales",
        "Queensland"
-      ]
+      ],
+      "zones": {
+       "austral": 1
+      }
      }
     }
    ]
@@ -3690,7 +4071,10 @@
          "Amazonas",
          "Guianas",
          "Venezuela"
-        ]
+        ],
+        "zones": {
+         "americas": 3
+        }
        }
       },
       {
@@ -3715,7 +4099,10 @@
          "Brazil",
          "Espírito Santo",
          "Pernambuco"
-        ]
+        ],
+        "zones": {
+         "americas": 2
+        }
        }
       },
       {
@@ -3758,7 +4145,10 @@
          "Paraguay",
          "Pichincha",
          "South America"
-        ]
+        ],
+        "zones": {
+         "americas": 29
+        }
        }
       }
      ],
@@ -3793,7 +4183,10 @@
          "Laccadive Is.",
          "Kerala",
          "Tamil Nadu"
-        ]
+        ],
+        "zones": {
+         "asia": 2
+        }
        }
       },
       {
@@ -3815,7 +4208,11 @@
          "Solomon Is.",
          "Malesia",
          "Pacific"
-        ]
+        ],
+        "zones": {
+         "austral": 15,
+         "asia": 1
+        }
        }
       },
       {
@@ -3839,7 +4236,10 @@
          "Asia",
          "Borneo",
          "Kalimantan"
-        ]
+        ],
+        "zones": {
+         "asia": 2
+        }
        }
       },
       {
@@ -3863,7 +4263,10 @@
          "Africa",
          "Angola",
          "Chad"
-        ]
+        ],
+        "zones": {
+         "africa": 1
+        }
        }
       },
       {
@@ -3887,7 +4290,10 @@
          "Borneo",
          "Pen. Malaysia",
          "Sumatera"
-        ]
+        ],
+        "zones": {
+         "asia": 1
+        }
        }
       },
       {
@@ -3912,7 +4318,10 @@
          "Laos",
          "Quan Phu Quoc",
          "Vietnam"
-        ]
+        ],
+        "zones": {
+         "asia": 2
+        }
        }
       },
       {
@@ -3935,7 +4344,10 @@
          "Peru",
          "Suriname",
          "Venezuela"
-        ]
+        ],
+        "zones": {
+         "americas": 13
+        }
        }
       }
      ],
@@ -4003,7 +4415,14 @@
        "Old World",
        "Siberia",
        "Tropics & Subtropics"
-      ]
+      ],
+      "zones": {
+       "americas": 9,
+       "asia": 9,
+       "euwasia": 6,
+       "austral": 5,
+       "africa": 4
+      }
      }
     },
     {
@@ -4048,7 +4467,14 @@
        "Cosmopolitan",
        "Indian Ocean",
        "Pacific"
-      ]
+      ],
+      "zones": {
+       "asia": 3,
+       "americas": 2,
+       "africa": 2,
+       "austral": 2,
+       "euwasia": 1
+      }
      }
     },
     {
@@ -4103,7 +4529,14 @@
        "South America",
        "Sri Lanka",
        "U.S.A."
-      ]
+      ],
+      "zones": {
+       "asia": 5,
+       "americas": 4,
+       "africa": 2,
+       "austral": 2,
+       "euwasia": 1
+      }
      }
     },
     {
@@ -4153,7 +4586,12 @@
        "Suriname",
        "U.S.A.",
        "Zimbabwe"
-      ]
+      ],
+      "zones": {
+       "americas": 6,
+       "africa": 5,
+       "euwasia": 1
+      }
      }
     }
    ],
@@ -4196,7 +4634,10 @@
          "Indo-China",
          "Thailand",
          "Vietnam"
-        ]
+        ],
+        "zones": {
+         "asia": 15
+        }
        }
       }
      ]
@@ -4232,7 +4673,10 @@
          "Honduras",
          "Venezuela",
          "to Paraná"
-        ]
+        ],
+        "zones": {
+         "americas": 19
+        }
        }
       }
      ]
@@ -4259,7 +4703,10 @@
          "Brazil",
          "Amazonas",
          "Bolivia"
-        ]
+        ],
+        "zones": {
+         "americas": 2
+        }
        }
       },
       {
@@ -4287,7 +4734,11 @@
          "New Guinea",
          "Pen. Malaysia",
          "Sumatera"
-        ]
+        ],
+        "zones": {
+         "asia": 5,
+         "austral": 1
+        }
        }
       },
       {
@@ -4325,7 +4776,11 @@
          "Sulawesi",
          "Sumatera",
          "Vanuatu"
-        ]
+        ],
+        "zones": {
+         "asia": 8,
+         "austral": 8
+        }
        }
       },
       {
@@ -4360,7 +4815,10 @@
          "French Guiana",
          "Honduras",
          "Oaxaca"
-        ]
+        ],
+        "zones": {
+         "americas": 71
+        }
        }
       },
       {
@@ -4439,7 +4897,12 @@
          "Uganda",
          "Yunnan: Gongshan",
          "incl. Louisiade Arch."
-        ]
+        ],
+        "zones": {
+         "asia": 70,
+         "austral": 34,
+         "africa": 4
+        }
        }
       },
       {
@@ -4483,7 +4946,10 @@
          "Sucre",
          "Trinidad",
          "Zulia"
-        ]
+        ],
+        "zones": {
+         "americas": 45
+        }
        }
       },
       {
@@ -4529,7 +4995,11 @@
          "Solomon Is.",
          "Sulawesi",
          "Thailand"
-        ]
+        ],
+        "zones": {
+         "asia": 30,
+         "austral": 6
+        }
        }
       },
       {
@@ -4561,7 +5031,10 @@
          "Nicaragua",
          "Suriname",
          "Táchira"
-        ]
+        ],
+        "zones": {
+         "americas": 58
+        }
        }
       }
      ]
@@ -4592,7 +5065,10 @@
         "places": [
          "Bismarck Arch.",
          "New Guinea"
-        ]
+        ],
+        "zones": {
+         "austral": 1
+        }
        }
       },
       {
@@ -4643,7 +5119,12 @@
          "São Paulo",
          "Trinidad",
          "Zamora-Chinchipe"
-        ]
+        ],
+        "zones": {
+         "americas": 73,
+         "austral": 4,
+         "asia": 1
+        }
        }
       }
      ]
@@ -4678,7 +5159,11 @@
        "Japan",
        "Russian Far East",
        "U.S.A."
-      ]
+      ],
+      "zones": {
+       "americas": 1,
+       "asia": 1
+      }
      }
     },
     {
@@ -4701,7 +5186,10 @@
       "places": [
        "Texas",
        "U.S.A."
-      ]
+      ],
+      "zones": {
+       "americas": 1
+      }
      }
     },
     {
@@ -4730,7 +5218,11 @@
        "Russian Far East",
        "South Korea",
        "U.S.A."
-      ]
+      ],
+      "zones": {
+       "asia": 5,
+       "americas": 1
+      }
      }
     }
    ]
@@ -4862,7 +5354,10 @@
          "Yaracuy",
          "to Minas Gerais",
          "to Paraná"
-        ]
+        ],
+        "zones": {
+         "americas": 1460
+        }
        }
       }
      ]
@@ -4911,7 +5406,10 @@
          "Lan Yü",
          "Malesia",
          "Taiwan"
-        ]
+        ],
+        "zones": {
+         "asia": 1
+        }
        }
       },
       {
@@ -4974,7 +5472,12 @@
          "Thailand",
          "Vanuatu",
          "Yunnan"
-        ]
+        ],
+        "zones": {
+         "asia": 57,
+         "austral": 12,
+         "africa": 1
+        }
        }
       }
      ]
@@ -4983,7 +5486,7 @@
   }
  ],
  "metadata": {
-  "updated": "2026-08-07",
+  "updated": "2026-08-08",
   "about": {
    "intro": [
     "This tree shows how the roughly 150 accepted genera of the arum family are grouped: first into subfamilies, then into tribes, and finally into the genera themselves.",
@@ -5025,11 +5528,11 @@
     "Wong, S.Y. et al. (2010). Molecular phylogeny of tribe Schismatoglottideae ... and recognition of a new tribe, Philonotieae, from the Neotropics. Taxon 59: 117-124."
    ],
    "speciesCounts": "POWO master export, Araceae_Exports/EXCELS/_run_log.csv (validated accepted species).",
-   "version": "1.10.0",
+   "version": "1.11.0",
    "orthographicVariants": {
     "Stylochiton": "Treated as Stylochaeton Lepr. (MBB no. 34). The POWO export uses Stylochiton; which spelling Kew currently accepts is unconfirmed."
    },
-   "ranges": "Native-range buckets parsed 2026-08-07 from the POWO genus exports' GEOGRAPHY prose (Araceae_Exports/EXCELS), species rows only, hybrids excluded. Zones NW/AF/EU-WAsia/AS/AU; a zone under 5% of a genus's mentions is trace and ignored; NW+OW=worldwide, several OW zones need a 66% leader or the genus is oldworld. Pseudodracontium (Indo-China) and Pedicellarum (Borneo) hand-set: no workbook in the export; both ranges are uncontested. 1.8.0 adds range.places: the distinct POWO base names per genus, most-mentioned first, INCLUDING the parenthesised sub-units (Borneo (Sarawak) yields both) - zones still count the outer name only. Hand-set places for the two workbook-less genera."
+   "ranges": "Native-range buckets parsed 2026-08-07 from the POWO genus exports' GEOGRAPHY prose (Araceae_Exports/EXCELS), species rows only, hybrids excluded. Zones NW/AF/EU-WAsia/AS/AU; a zone under 5% of a genus's mentions is trace and ignored; NW+OW=worldwide, several OW zones need a 66% leader or the genus is oldworld. Pseudodracontium (Indo-China) and Pedicellarum (Borneo) hand-set: no workbook in the export; both ranges are uncontested. 1.8.0 adds range.places: the distinct POWO base names per genus, most-mentioned first, INCLUDING the parenthesised sub-units (Borneo (Sarawak) yields both) - zones still count the outer name only. Hand-set places for the two workbook-less genera. 1.11.0 adds range.zones: the number of species of the genus recorded in each of the five primitive zones (Americas / Africa & Madagascar / Europe & W. Asia / Trop. & E. Asia / Australasia & Pacific), biggest first, counted from the same SPECIES rows - a species in two zones is counted in both, so the zone counts do not sum to speciesCount. Every zone with at least one species is listed, including the ones the 5% trace rule drops from the single dominant bucket b, which is unchanged. The zone map was rebuilt from scratch and validated by re-deriving b for all 150 workbook genera with zero mismatches before any count was written. Pseudodracontium and Pedicellarum carry no zones: POWO has no workbook and no species count for either, so there is nothing to divide - readers fall back to their single bucket, which is already a primitive zone."
   },
   "chronology": {
    "source": "Nauheimer, Metzler & Renner (2012), New Phytologist 195: 938-950 - BEAST relaxed-clock chronogram, 132 Araceae taxa, seven fossil calibrations.",
@@ -5434,7 +5937,1507 @@
      "on": "Monsteroideae",
      "what": "leaves, mid-Eocene Germany"
     }
-   ]
+   ],
+   "taxa": {
+    "basis": "S5+S2",
+    "method": "Stem and crown ages for Aroidpedia's own subfamilies, tribes and genera, read off Nauheimer, Metzler & Renner (2012). Their Fig. S2 chronogram was rebuilt from the vector strokes in the supplement PDF - 146 tip branches and 144 internal branches, exactly the 2T-2 a binary tree of 146 tips must have - so the topology is the drawing itself rather than a reading of it. Node numbers were assigned from the printed numerals and Table S5's ages together (median numeral distance 5.6 pt, median age residual 0.07 Ma), and the result reproduces all nine crown-group labels Table S5 states, all twelve nodes the paper names in prose, and exactly the four genera the paper calls polyphyletic. Every age here is Table S5's number, never a measurement off the figure. STEM is the split from the sampled sister lineage and CROWN the oldest split inside the taxon, so a crown exists only where two or more species were sampled; both are conditioned on the study's 132-taxon sample and are minimum ages for the taxon as circumscribed today. A taxon whose sampled species do not form a clade in this tree carries mono:false and its MRCA instead of a date - that is a finding, not a gap. Note Aroideae: the study kept Zamioculcadoideae separate, so its Aroideae is node 41 (82.1); this tree follows Haigh et al. (2022) in holding Zamioculcadeae and Stylochaetoneae inside Aroideae, which makes the crown node 38 (87.0). SUPERSEDES metadata.chronology.tribes, whose node identities came from reading Fig. 3 by eye: three of them pointed one node off (Cryptocoryneae/Schismatoglottideae stem is 37.2 at node 97, not 45.2 at node 96; Areae 30.3 is the stem, not the crown; the Arisaema lineage stem is node 73 at 31.7, not node 71 at 34.7). Readers on 1.11.0 or later should use taxa and ignore tribes.",
+    "sampledGenera": 116,
+    "subfamily": {
+     "Aroideae": {
+      "tips": 96,
+      "stem": 90.23,
+      "stemHpd": [
+       80.09,
+       100.68
+      ],
+      "stemNode": 28,
+      "crown": 86.95,
+      "crownHpd": [
+       77.1,
+       97.03
+      ],
+      "crownNode": 38
+     },
+     "Gymnostachydoideae": {
+      "tips": 1,
+      "stem": 95.58,
+      "stemHpd": [
+       73.18,
+       115.48
+      ],
+      "stemNode": 3
+     },
+     "Lasioideae": {
+      "tips": 10,
+      "stem": 90.23,
+      "stemHpd": [
+       80.09,
+       100.68
+      ],
+      "stemNode": 28,
+      "crown": 26.38,
+      "crownHpd": [
+       15.0,
+       37.84
+      ],
+      "crownNode": 29
+     },
+     "Lemnoideae": {
+      "tips": 4,
+      "note": "the clade also holds Landoltia, sampled by the study but not among the genera this tree files",
+      "stem": 103.55,
+      "stemHpd": [
+       93.0,
+       113.45
+      ],
+      "stemNode": 6,
+      "crown": 73.37,
+      "crownHpd": [
+       59.46,
+       87.91
+      ],
+      "crownNode": 7
+     },
+     "Monsteroideae": {
+      "tips": 13,
+      "stem": 81.06,
+      "stemHpd": [
+       68.3,
+       93.68
+      ],
+      "stemNode": 12,
+      "crown": 54.66,
+      "crownHpd": [
+       47.03,
+       63.99
+      ],
+      "crownNode": 16
+     },
+     "Orontioideae": {
+      "tips": 3,
+      "stem": 95.58,
+      "stemHpd": [
+       73.18,
+       115.48
+      ],
+      "stemNode": 3,
+      "crown": 52.81,
+      "crownHpd": [
+       28.39,
+       77.24
+      ],
+      "crownNode": 4
+     },
+     "Pothoideae": {
+      "tips": 4,
+      "stem": 81.06,
+      "stemHpd": [
+       68.3,
+       93.68
+      ],
+      "stemNode": 12,
+      "crown": 64.51,
+      "crownHpd": [
+       55.8,
+       76.54
+      ],
+      "crownNode": 13
+     }
+    },
+    "tribe": {
+     "Aglaonemateae": {
+      "tips": 2,
+      "mono": false,
+      "mrca": 19.55,
+      "mrcaNode": 117
+     },
+     "Ambrosineae": {
+      "tips": 1,
+      "stem": 29.57,
+      "stemHpd": [
+       12.46,
+       47.42
+      ],
+      "stemNode": 63
+     },
+     "Anadendreae": {
+      "tips": 1,
+      "stem": 21.99,
+      "stemHpd": [
+       10.74,
+       34.89
+      ],
+      "stemNode": 25
+     },
+     "Anthurieae": {
+      "tips": 1,
+      "stem": 64.51,
+      "stemHpd": [
+       55.8,
+       76.54
+      ],
+      "stemNode": 13
+     },
+     "Anubiadeae": {
+      "tips": 1,
+      "stem": 80.03,
+      "stemHpd": [
+       71.23,
+       89.77
+      ],
+      "stemNode": 42
+     },
+     "Areae": {
+      "tips": 9,
+      "stem": 30.3,
+      "stemHpd": [
+       22.87,
+       38.45
+      ],
+      "stemNode": 74,
+      "crown": 25.51,
+      "crownHpd": [
+       18.18,
+       33.31
+      ],
+      "crownNode": 75
+     },
+     "Arisaemateae": {
+      "tips": 11,
+      "mono": false,
+      "mrca": 31.71,
+      "mrcaNode": 73
+     },
+     "Arisareae": {
+      "tips": 1,
+      "stem": 29.57,
+      "stemHpd": [
+       12.46,
+       47.42
+      ],
+      "stemNode": 63
+     },
+     "Arophyteae": {
+      "tips": 3,
+      "stem": 29.27,
+      "stemHpd": [
+       13.89,
+       48.71
+      ],
+      "stemNode": 65,
+      "crown": 21.27,
+      "crownHpd": [
+       7.75,
+       38.52
+      ],
+      "crownNode": 66
+     },
+     "Caladieae": {
+      "tips": 7,
+      "mono": false,
+      "mrca": 42.02,
+      "mrcaNode": 51
+     },
+     "Callopsideae": {
+      "tips": 1,
+      "stem": 82.12,
+      "stemHpd": [
+       73.24,
+       92.28
+      ],
+      "stemNode": 41
+     },
+     "Colocasieae": {
+      "tips": 8,
+      "mono": false,
+      "mrca": 45.68,
+      "mrcaNode": 68
+     },
+     "Cryptocoryneae": {
+      "tips": 2,
+      "stem": 37.25,
+      "stemHpd": [
+       22.57,
+       52.46
+      ],
+      "stemNode": 97,
+      "crown": 12.79,
+      "crownHpd": [
+       4.29,
+       22.53
+      ],
+      "crownNode": 98
+     },
+     "Culcasieae": {
+      "tips": 2,
+      "stem": 63.18,
+      "stemHpd": [
+       49.44,
+       78.02
+      ],
+      "stemNode": 110,
+      "crown": 31.99,
+      "crownHpd": [
+       10.91,
+       53.52
+      ],
+      "crownNode": 111
+     },
+     "Dieffenbachieae": {
+      "tips": 2,
+      "mono": false,
+      "mrca": 35.32,
+      "mrcaNode": 122
+     },
+     "Dracontieae": {
+      "tips": 3,
+      "stem": 24.17,
+      "stemHpd": [
+       14.08,
+       35.15
+      ],
+      "stemNode": 30,
+      "crown": 16.3,
+      "crownHpd": [
+       6.62,
+       26.5
+      ],
+      "crownNode": 36
+     },
+     "Heteropsideae": {
+      "tips": 1,
+      "stem": 22.61,
+      "stemHpd": [
+       10.34,
+       36.36
+      ],
+      "stemNode": 18
+     },
+     "Homalomeneae": {
+      "tips": 3,
+      "mono": false,
+      "mrca": 25.0,
+      "mrcaNode": 113
+     },
+     "Lasieae": {
+      "tips": 7,
+      "mono": false,
+      "mrca": 26.38,
+      "mrcaNode": 29
+     },
+     "Monstereae": {
+      "tips": 9,
+      "mono": false,
+      "mrca": 54.66,
+      "mrcaNode": 16
+     },
+     "Montrichardieae": {
+      "tips": 1,
+      "stem": 77.88,
+      "stemHpd": [
+       69.49,
+       86.65
+      ],
+      "stemNode": 44
+     },
+     "Nephthytideae": {
+      "tips": 4,
+      "mono": false,
+      "mrca": 40.69,
+      "mrcaNode": 116
+     },
+     "Peltandreae": {
+      "tips": 2,
+      "mono": false,
+      "mrca": 38.85,
+      "mrcaNode": 64
+     },
+     "Philodendreae": {
+      "tips": 1,
+      "stem": 20.5,
+      "stemHpd": [
+       9.17,
+       33.21
+      ],
+      "stemNode": 114
+     },
+     "Philonotieae": {
+      "tips": 1,
+      "stem": 45.17,
+      "stemHpd": [
+       29.35,
+       62.71
+      ],
+      "stemNode": 96
+     },
+     "Pistieae": {
+      "tips": 1,
+      "stem": 38.9,
+      "stemHpd": [
+       23.8,
+       51.71
+      ],
+      "stemNode": 95
+     },
+     "Potheae": {
+      "tips": 3,
+      "stem": 64.51,
+      "stemHpd": [
+       55.8,
+       76.54
+      ],
+      "stemNode": 13,
+      "crown": 26.13,
+      "crownHpd": [
+       11.72,
+       41.24
+      ],
+      "crownNode": 14
+     },
+     "Schismatoglottideae": {
+      "tips": 11,
+      "stem": 37.25,
+      "stemHpd": [
+       22.57,
+       52.46
+      ],
+      "stemNode": 97,
+      "crown": 23.58,
+      "crownHpd": [
+       12.45,
+       35.93
+      ],
+      "crownNode": 99
+     },
+     "Spathicarpeae": {
+      "tips": 10,
+      "mono": false,
+      "mrca": 32.69,
+      "mrcaNode": 123
+     },
+     "Spathiphylleae": {
+      "tips": 2,
+      "stem": 51.38,
+      "stemHpd": [
+       47.0,
+       59.35
+      ],
+      "stemNode": 20,
+      "crown": 21.05,
+      "crownHpd": [
+       6.7,
+       36.42
+      ],
+      "crownNode": 27
+     },
+     "Stylochaetoneae": {
+      "tips": 1,
+      "stem": 66.95,
+      "stemHpd": [
+       41.1,
+       86.91
+      ],
+      "stemNode": 39
+     },
+     "Thomsonieae": {
+      "tips": 3,
+      "stem": 58.49,
+      "stemHpd": [
+       47.42,
+       68.23
+      ],
+      "stemNode": 48,
+      "crown": 24.17,
+      "crownHpd": [
+       9.76,
+       40.43
+      ],
+      "crownNode": 49
+     },
+     "Zamioculcadeae": {
+      "tips": 2,
+      "stem": 66.95,
+      "stemHpd": [
+       41.1,
+       86.91
+      ],
+      "stemNode": 39,
+      "crown": 22.73,
+      "crownHpd": [
+       5.69,
+       41.84
+      ],
+      "crownNode": 40
+     },
+     "Zantedeschieae": {
+      "tips": 1,
+      "stem": 61.92,
+      "stemHpd": [
+       47.25,
+       76.14
+      ],
+      "stemNode": 121
+     },
+     "Zomicarpeae": {
+      "tips": 4,
+      "mono": false,
+      "mrca": 32.08,
+      "mrcaNode": 55
+     }
+    },
+    "genus": {
+     "Aglaodorum": {
+      "tips": 1,
+      "stem": 14.1,
+      "stemHpd": [
+       4.04,
+       25.84
+      ],
+      "stemNode": 118
+     },
+     "Aglaonema": {
+      "tips": 1,
+      "stem": 19.55,
+      "stemHpd": [
+       8.22,
+       32.26
+      ],
+      "stemNode": 117
+     },
+     "Alloschemone": {
+      "tips": 1,
+      "stem": 16.21,
+      "stemHpd": [
+       5.16,
+       28.31
+      ],
+      "stemNode": 19
+     },
+     "Alocasia": {
+      "tips": 2,
+      "mono": false,
+      "mrca": 37.23,
+      "mrcaNode": 70
+     },
+     "Ambrosina": {
+      "tips": 1,
+      "stem": 29.57,
+      "stemHpd": [
+       12.46,
+       47.42
+      ],
+      "stemNode": 63
+     },
+     "Amorphophallus": {
+      "tips": 2,
+      "stem": 24.17,
+      "stemHpd": [
+       9.76,
+       40.43
+      ],
+      "stemNode": 49,
+      "crown": 20.98,
+      "crownHpd": [
+       8.5,
+       36.72
+      ],
+      "crownNode": 50
+     },
+     "Amydrium": {
+      "tips": 1,
+      "stem": 10.93,
+      "stemHpd": [
+       3.72,
+       19.71
+      ],
+      "stemNode": 24
+     },
+     "Anadendrum": {
+      "tips": 1,
+      "stem": 21.99,
+      "stemHpd": [
+       10.74,
+       34.89
+      ],
+      "stemNode": 25
+     },
+     "Anaphyllopsis": {
+      "tips": 1,
+      "stem": 13.87,
+      "stemHpd": [
+       5.13,
+       23.72
+      ],
+      "stemNode": 37
+     },
+     "Anaphyllum": {
+      "tips": 1,
+      "stem": 10.02,
+      "stemHpd": [
+       2.77,
+       17.97
+      ],
+      "stemNode": 34
+     },
+     "Anchomanes": {
+      "tips": 1,
+      "stem": 10.2,
+      "stemHpd": [
+       2.82,
+       19.09
+      ],
+      "stemNode": 120
+     },
+     "Anthurium": {
+      "tips": 1,
+      "stem": 64.51,
+      "stemHpd": [
+       55.8,
+       76.54
+      ],
+      "stemNode": 13
+     },
+     "Anubias": {
+      "tips": 1,
+      "stem": 80.03,
+      "stemHpd": [
+       71.23,
+       89.77
+      ],
+      "stemNode": 42
+     },
+     "Apoballis": {
+      "tips": 1,
+      "stem": 23.58,
+      "stemHpd": [
+       12.45,
+       35.93
+      ],
+      "stemNode": 99
+     },
+     "Aridarum": {
+      "tips": 1,
+      "stem": 8.61,
+      "stemHpd": [
+       3.96,
+       13.73
+      ],
+      "stemNode": 106
+     },
+     "Ariopsis": {
+      "tips": 1,
+      "stem": 25.63,
+      "stemHpd": [
+       13.3,
+       38.34
+      ],
+      "stemNode": 92
+     },
+     "Arisaema": {
+      "tips": 10,
+      "stem": 31.71,
+      "stemHpd": [
+       24.53,
+       40.0
+      ],
+      "stemNode": 73,
+      "crown": 23.99,
+      "crownHpd": [
+       17.06,
+       31.16
+      ],
+      "crownNode": 83
+     },
+     "Arisarum": {
+      "tips": 1,
+      "stem": 29.57,
+      "stemHpd": [
+       12.46,
+       47.42
+      ],
+      "stemNode": 63
+     },
+     "Arophyton": {
+      "tips": 1,
+      "stem": 21.27,
+      "stemHpd": [
+       7.75,
+       38.52
+      ],
+      "stemNode": 66
+     },
+     "Arum": {
+      "tips": 1,
+      "stem": 7.64,
+      "stemHpd": [
+       3.06,
+       12.59
+      ],
+      "stemNode": 82
+     },
+     "Asterostigma": {
+      "tips": 1,
+      "stem": 9.44,
+      "stemHpd": [
+       2.74,
+       17.17
+      ],
+      "stemNode": 128
+     },
+     "Bakoa": {
+      "tips": 1,
+      "stem": 5.43,
+      "stemHpd": [
+       1.88,
+       9.43
+      ],
+      "stemNode": 108
+     },
+     "Biarum": {
+      "tips": 1,
+      "stem": 9.76,
+      "stemHpd": [
+       4.87,
+       15.15
+      ],
+      "stemNode": 81
+     },
+     "Bognera": {
+      "tips": 1,
+      "stem": 35.32,
+      "stemHpd": [
+       24.33,
+       47.35
+      ],
+      "stemNode": 122
+     },
+     "Bucephalandra": {
+      "tips": 1,
+      "stem": 5.43,
+      "stemHpd": [
+       1.88,
+       9.43
+      ],
+      "stemNode": 108
+     },
+     "Caladium": {
+      "tips": 1,
+      "stem": 20.28,
+      "stemHpd": [
+       7.2,
+       34.13
+      ],
+      "stemNode": 54
+     },
+     "Calla": {
+      "tips": 1,
+      "stem": 73.8,
+      "stemHpd": [
+       66.32,
+       81.88
+      ],
+      "stemNode": 46
+     },
+     "Callopsis": {
+      "tips": 1,
+      "stem": 82.12,
+      "stemHpd": [
+       73.24,
+       92.28
+      ],
+      "stemNode": 41
+     },
+     "Carlephyton": {
+      "tips": 1,
+      "stem": 3.68,
+      "stemHpd": [
+       0.32,
+       8.34
+      ],
+      "stemNode": 67
+     },
+     "Cercestis": {
+      "tips": 1,
+      "stem": 31.99,
+      "stemHpd": [
+       10.91,
+       53.52
+      ],
+      "stemNode": 111
+     },
+     "Chlorospatha": {
+      "tips": 1,
+      "stem": 16.87,
+      "stemHpd": [
+       7.23,
+       27.34
+      ],
+      "stemNode": 60
+     },
+     "Colletogyne": {
+      "tips": 1,
+      "stem": 3.68,
+      "stemHpd": [
+       0.32,
+       8.34
+      ],
+      "stemNode": 67
+     },
+     "Colocasia": {
+      "tips": 2,
+      "mono": false,
+      "mrca": 38.97,
+      "mrcaNode": 69
+     },
+     "Croatiella": {
+      "tips": 1,
+      "stem": 15.7,
+      "stemHpd": [
+       7.67,
+       24.54
+      ],
+      "stemNode": 127
+     },
+     "Cryptocoryne": {
+      "tips": 1,
+      "stem": 12.79,
+      "stemHpd": [
+       4.29,
+       22.53
+      ],
+      "stemNode": 98
+     },
+     "Culcasia": {
+      "tips": 1,
+      "stem": 31.99,
+      "stemHpd": [
+       10.91,
+       53.52
+      ],
+      "stemNode": 111
+     },
+     "Cyrtosperma": {
+      "tips": 1,
+      "stem": 14.88,
+      "stemHpd": [
+       6.84,
+       23.94
+      ],
+      "stemNode": 35
+     },
+     "Dieffenbachia": {
+      "tips": 1,
+      "stem": 25.35,
+      "stemHpd": [
+       16.46,
+       35.28
+      ],
+      "stemNode": 129
+     },
+     "Dracontioides": {
+      "tips": 1,
+      "stem": 13.87,
+      "stemHpd": [
+       5.13,
+       23.72
+      ],
+      "stemNode": 37
+     },
+     "Dracontium": {
+      "tips": 1,
+      "stem": 16.3,
+      "stemHpd": [
+       6.62,
+       26.5
+      ],
+      "stemNode": 36
+     },
+     "Dracunculus": {
+      "tips": 1,
+      "stem": 7.64,
+      "stemHpd": [
+       3.06,
+       12.59
+      ],
+      "stemNode": 82
+     },
+     "Eminium": {
+      "tips": 1,
+      "stem": 13.88,
+      "stemHpd": [
+       8.07,
+       19.7
+      ],
+      "stemNode": 79
+     },
+     "Epipremnum": {
+      "tips": 1,
+      "stem": 10.93,
+      "stemHpd": [
+       3.72,
+       19.71
+      ],
+      "stemNode": 24
+     },
+     "Filarum": {
+      "tips": 1,
+      "stem": 13.64,
+      "stemHpd": [
+       4.55,
+       23.39
+      ],
+      "stemNode": 56
+     },
+     "Furtadoa": {
+      "tips": 1,
+      "stem": 9.29,
+      "stemHpd": [
+       1.89,
+       18.09
+      ],
+      "stemNode": 115
+     },
+     "Gearum": {
+      "tips": 1,
+      "stem": 32.69,
+      "stemHpd": [
+       23.06,
+       44.08
+      ],
+      "stemNode": 123
+     },
+     "Gonatopus": {
+      "tips": 1,
+      "stem": 22.73,
+      "stemHpd": [
+       5.69,
+       41.84
+      ],
+      "stemNode": 40
+     },
+     "Gorgonidium": {
+      "tips": 1,
+      "stem": 4.99,
+      "stemHpd": [
+       1.12,
+       9.89
+      ],
+      "stemNode": 132
+     },
+     "Gymnostachys": {
+      "tips": 1,
+      "stem": 95.58,
+      "stemHpd": [
+       73.18,
+       115.48
+      ],
+      "stemNode": 3
+     },
+     "Hapaline": {
+      "tips": 1,
+      "stem": 34.24,
+      "stemHpd": [
+       18.88,
+       49.35
+      ],
+      "stemNode": 52
+     },
+     "Helicodiceros": {
+      "tips": 1,
+      "stem": 12.07,
+      "stemHpd": [
+       6.67,
+       17.55
+      ],
+      "stemNode": 80
+     },
+     "Heteropsis": {
+      "tips": 1,
+      "stem": 22.61,
+      "stemHpd": [
+       10.34,
+       36.36
+      ],
+      "stemNode": 18
+     },
+     "Holochlamys": {
+      "tips": 1,
+      "stem": 21.05,
+      "stemHpd": [
+       6.7,
+       36.42
+      ],
+      "stemNode": 27
+     },
+     "Homalomena": {
+      "tips": 2,
+      "mono": false,
+      "mrca": 25.0,
+      "mrcaNode": 113
+     },
+     "Incarum": {
+      "tips": 1,
+      "stem": 15.81,
+      "stemHpd": [
+       6.82,
+       24.09
+      ],
+      "stemNode": 131
+     },
+     "Jasarum": {
+      "tips": 1,
+      "stem": 34.24,
+      "stemHpd": [
+       18.88,
+       49.35
+      ],
+      "stemNode": 52
+     },
+     "Lagenandra": {
+      "tips": 1,
+      "stem": 12.79,
+      "stemHpd": [
+       4.29,
+       22.53
+      ],
+      "stemNode": 98
+     },
+     "Lasia": {
+      "tips": 1,
+      "stem": 14.88,
+      "stemHpd": [
+       6.84,
+       23.94
+      ],
+      "stemNode": 35
+     },
+     "Lasimorpha": {
+      "tips": 1,
+      "stem": 10.02,
+      "stemHpd": [
+       2.77,
+       17.97
+      ],
+      "stemNode": 34
+     },
+     "Lazarum": {
+      "tips": 1,
+      "stem": 16.21,
+      "stemHpd": [
+       4.59,
+       26.51
+      ],
+      "stemNode": 76
+     },
+     "Lemna": {
+      "tips": 1,
+      "stem": 55.54,
+      "stemHpd": [
+       41.4,
+       70.36
+      ],
+      "stemNode": 8
+     },
+     "Lysichiton": {
+      "tips": 1,
+      "stem": 20.6,
+      "stemHpd": [
+       6.96,
+       37.74
+      ],
+      "stemNode": 5
+     },
+     "Mangonia": {
+      "tips": 1,
+      "stem": 22.37,
+      "stemHpd": [
+       13.59,
+       31.89
+      ],
+      "stemNode": 130
+     },
+     "Monstera": {
+      "tips": 1,
+      "stem": 17.91,
+      "stemHpd": [
+       8.34,
+       28.8
+      ],
+      "stemNode": 23
+     },
+     "Montrichardia": {
+      "tips": 1,
+      "stem": 77.88,
+      "stemHpd": [
+       69.49,
+       86.65
+      ],
+      "stemNode": 44
+     },
+     "Nephthytis": {
+      "tips": 2,
+      "mono": false,
+      "mrca": 40.69,
+      "mrcaNode": 116
+     },
+     "Ooia": {
+      "tips": 1,
+      "stem": 13.13,
+      "stemHpd": [
+       7.26,
+       19.56
+      ],
+      "stemNode": 101
+     },
+     "Orontium": {
+      "tips": 1,
+      "stem": 52.81,
+      "stemHpd": [
+       28.39,
+       77.24
+      ],
+      "stemNode": 4
+     },
+     "Pedicellarum": {
+      "tips": 1,
+      "stem": 18.14,
+      "stemHpd": [
+       6.62,
+       31.62
+      ],
+      "stemNode": 15
+     },
+     "Peltandra": {
+      "tips": 1,
+      "stem": 38.85,
+      "stemHpd": [
+       20.53,
+       56.28
+      ],
+      "stemNode": 64
+     },
+     "Philodendron": {
+      "tips": 1,
+      "stem": 20.5,
+      "stemHpd": [
+       9.17,
+       33.21
+      ],
+      "stemNode": 114
+     },
+     "Philonotion": {
+      "tips": 1,
+      "stem": 45.17,
+      "stemHpd": [
+       29.35,
+       62.71
+      ],
+      "stemNode": 96
+     },
+     "Phymatarum": {
+      "tips": 1,
+      "stem": 2.62,
+      "stemHpd": [
+       0.24,
+       5.97
+      ],
+      "stemNode": 104
+     },
+     "Pichinia": {
+      "tips": 1,
+      "stem": 6.53,
+      "stemHpd": [
+       1.7,
+       11.79
+      ],
+      "stemNode": 105
+     },
+     "Pinellia": {
+      "tips": 1,
+      "stem": 30.3,
+      "stemHpd": [
+       22.87,
+       38.45
+      ],
+      "stemNode": 74
+     },
+     "Piptospatha": {
+      "tips": 1,
+      "stem": 14.54,
+      "stemHpd": [
+       8.19,
+       22.21
+      ],
+      "stemNode": 100
+     },
+     "Pistia": {
+      "tips": 1,
+      "stem": 38.9,
+      "stemHpd": [
+       23.8,
+       51.71
+      ],
+      "stemNode": 95
+     },
+     "Podolasia": {
+      "tips": 1,
+      "stem": 19.48,
+      "stemHpd": [
+       10.86,
+       28.52
+      ],
+      "stemNode": 31
+     },
+     "Pothoidium": {
+      "tips": 1,
+      "stem": 18.14,
+      "stemHpd": [
+       6.62,
+       31.62
+      ],
+      "stemNode": 15
+     },
+     "Pothos": {
+      "tips": 1,
+      "stem": 26.13,
+      "stemHpd": [
+       11.72,
+       41.24
+      ],
+      "stemNode": 14
+     },
+     "Protarum": {
+      "tips": 1,
+      "stem": 38.9,
+      "stemHpd": [
+       23.8,
+       51.71
+      ],
+      "stemNode": 95
+     },
+     "Pseudodracontium": {
+      "tips": 1,
+      "stem": 24.17,
+      "stemHpd": [
+       9.76,
+       40.43
+      ],
+      "stemNode": 49
+     },
+     "Pseudohydrosme": {
+      "tips": 1,
+      "stem": 10.2,
+      "stemHpd": [
+       2.82,
+       19.09
+      ],
+      "stemNode": 120
+     },
+     "Pycnospatha": {
+      "tips": 1,
+      "stem": 15.18,
+      "stemHpd": [
+       7.58,
+       24.37
+      ],
+      "stemNode": 33
+     },
+     "Remusatia": {
+      "tips": 1,
+      "stem": 7.75,
+      "stemHpd": [
+       2.12,
+       14.96
+      ],
+      "stemNode": 94
+     },
+     "Rhaphidophora": {
+      "tips": 2,
+      "stem": 21.99,
+      "stemHpd": [
+       10.74,
+       34.89
+      ],
+      "stemNode": 25,
+      "crown": 12.15,
+      "crownHpd": [
+       3.34,
+       22.39
+      ],
+      "crownNode": 26
+     },
+     "Rhodospatha": {
+      "tips": 1,
+      "stem": 16.21,
+      "stemHpd": [
+       5.16,
+       28.31
+      ],
+      "stemNode": 19
+     },
+     "Sauromatum": {
+      "tips": 1,
+      "stem": 16.64,
+      "stemHpd": [
+       10.38,
+       23.24
+      ],
+      "stemNode": 78
+     },
+     "Scaphispatha": {
+      "tips": 1,
+      "stem": 16.74,
+      "stemHpd": [
+       7.9,
+       26.57
+      ],
+      "stemNode": 58
+     },
+     "Schismatoglottis": {
+      "tips": 1,
+      "stem": 2.62,
+      "stemHpd": [
+       0.24,
+       5.97
+      ],
+      "stemNode": 104
+     },
+     "Schottariella": {
+      "tips": 1,
+      "stem": 6.53,
+      "stemHpd": [
+       1.7,
+       11.79
+      ],
+      "stemNode": 105
+     },
+     "Scindapsus": {
+      "tips": 1,
+      "stem": 23.14,
+      "stemHpd": [
+       12.16,
+       35.29
+      ],
+      "stemNode": 22
+     },
+     "Spathantheum": {
+      "tips": 1,
+      "stem": 4.99,
+      "stemHpd": [
+       1.12,
+       9.89
+      ],
+      "stemNode": 132
+     },
+     "Spathicarpa": {
+      "tips": 1,
+      "stem": 15.7,
+      "stemHpd": [
+       7.67,
+       24.54
+      ],
+      "stemNode": 127
+     },
+     "Spathiphyllum": {
+      "tips": 1,
+      "stem": 21.05,
+      "stemHpd": [
+       6.7,
+       36.42
+      ],
+      "stemNode": 27
+     },
+     "Spirodela": {
+      "tips": 1,
+      "stem": 73.37,
+      "stemHpd": [
+       59.46,
+       87.91
+      ],
+      "stemNode": 7
+     },
+     "Stenospermation": {
+      "tips": 1,
+      "stem": 31.5,
+      "stemHpd": [
+       17.92,
+       47.05
+      ],
+      "stemNode": 17
+     },
+     "Steudnera": {
+      "tips": 1,
+      "stem": 7.75,
+      "stemHpd": [
+       2.12,
+       14.96
+      ],
+      "stemNode": 94
+     },
+     "Stylochaeton": {
+      "tips": 1,
+      "stem": 66.95,
+      "stemHpd": [
+       41.1,
+       86.91
+      ],
+      "stemNode": 39
+     },
+     "Symplocarpus": {
+      "tips": 1,
+      "stem": 20.6,
+      "stemHpd": [
+       6.96,
+       37.74
+      ],
+      "stemNode": 5
+     },
+     "Synandrospadix": {
+      "tips": 1,
+      "stem": 23.45,
+      "stemHpd": [
+       14.55,
+       33.31
+      ],
+      "stemNode": 125
+     },
+     "Syngonium": {
+      "tips": 1,
+      "stem": 20.28,
+      "stemHpd": [
+       7.2,
+       34.13
+      ],
+      "stemNode": 54
+     },
+     "Taccarum": {
+      "tips": 1,
+      "stem": 9.44,
+      "stemHpd": [
+       2.74,
+       17.17
+      ],
+      "stemNode": 128
+     },
+     "Theriophonum": {
+      "tips": 1,
+      "stem": 16.21,
+      "stemHpd": [
+       4.59,
+       26.51
+      ],
+      "stemNode": 76
+     },
+     "Typhonium": {
+      "tips": 1,
+      "stem": 22.89,
+      "stemHpd": [
+       15.22,
+       30.14
+      ],
+      "stemNode": 77
+     },
+     "Typhonodorum": {
+      "tips": 1,
+      "stem": 29.27,
+      "stemHpd": [
+       13.89,
+       48.71
+      ],
+      "stemNode": 65
+     },
+     "Ulearum": {
+      "tips": 1,
+      "stem": 13.64,
+      "stemHpd": [
+       4.55,
+       23.39
+      ],
+      "stemNode": 56
+     },
+     "Urospatha": {
+      "tips": 1,
+      "stem": 26.38,
+      "stemHpd": [
+       15.0,
+       37.84
+      ],
+      "stemNode": 29
+     },
+     "Vesta": {
+      "tips": 1,
+      "stem": 6.42,
+      "stemHpd": [
+       2.31,
+       10.67
+      ],
+      "stemNode": 107
+     },
+     "Wolffia": {
+      "tips": 1,
+      "stem": 29.12,
+      "stemHpd": [
+       18.33,
+       40.48
+      ],
+      "stemNode": 10
+     },
+     "Wolffiella": {
+      "tips": 1,
+      "stem": 29.12,
+      "stemHpd": [
+       18.33,
+       40.48
+      ],
+      "stemNode": 10
+     },
+     "Xanthosoma": {
+      "tips": 1,
+      "stem": 16.87,
+      "stemHpd": [
+       7.23,
+       27.34
+      ],
+      "stemNode": 60
+     },
+     "Zamioculcas": {
+      "tips": 1,
+      "stem": 22.73,
+      "stemHpd": [
+       5.69,
+       41.84
+      ],
+      "stemNode": 40
+     },
+     "Zantedeschia": {
+      "tips": 1,
+      "stem": 61.92,
+      "stemHpd": [
+       47.25,
+       76.14
+      ],
+      "stemNode": 121
+     },
+     "Zomicarpa": {
+      "tips": 1,
+      "stem": 6.49,
+      "stemHpd": [
+       1.44,
+       12.65
+      ],
+      "stemNode": 59
+     },
+     "Zomicarpella": {
+      "tips": 1,
+      "stem": 6.49,
+      "stemHpd": [
+       1.44,
+       12.65
+      ],
+      "stemNode": 59
+     }
+    }
+   }
   }
  }
 }
