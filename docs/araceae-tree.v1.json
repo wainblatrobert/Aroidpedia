@@ -5025,7 +5025,7 @@
     "Wong, S.Y. et al. (2010). Molecular phylogeny of tribe Schismatoglottideae ... and recognition of a new tribe, Philonotieae, from the Neotropics. Taxon 59: 117-124."
    ],
    "speciesCounts": "POWO master export, Araceae_Exports/EXCELS/_run_log.csv (validated accepted species).",
-   "version": "1.9.0",
+   "version": "1.10.0",
    "orthographicVariants": {
     "Stylochiton": "Treated as Stylochaeton Lepr. (MBB no. 34). The POWO export uses Stylochiton; which spelling Kew currently accepts is unconfirmed."
    },
@@ -5033,132 +5033,362 @@
   },
   "chronology": {
    "source": "Nauheimer, Metzler & Renner (2012), New Phytologist 195: 938-950 - BEAST relaxed-clock chronogram, 132 Araceae taxa, seven fossil calibrations.",
-   "method": "basis 'prose' = stated in the paper's text (exact); basis 'figure' = read from Fig. 3 against its Ma axis, about +/-3 Ma (validated: node 2 read 121.8 vs stated 121.7; node 38 read ~88.7 vs stated 87). Exact per-node ages are in the paper's supplementary Table S4/S5, not held. Harvest record: literature archive, DIGESTS/Chronology.md.",
+   "method": "All ages are the exact means with 95% HPD intervals from the paper's supplementary Table S5 (acquired 8.7.26); basis 'S5' throughout. Node identities for rows S5 leaves unlabelled were established from Fig. 3 and are recorded per entry. Harvest record: literature archive, DIGESTS/Chronology.md.",
    "axisMa": 140,
    "family": {
     "name": "Araceae",
-    "stem": 135,
+    "stem": 135.0,
+    "stemHpd": [
+     125.8,
+     143.5
+    ],
     "crown": 121.7,
-    "basis": "prose"
+    "crownHpd": [
+     112.0,
+     131.9
+    ],
+    "basis": "S5"
    },
    "lineages": [
     {
      "name": "Gymnostachydoideae",
-     "stem": 97,
+     "stem": 95.6,
      "crown": null,
-     "basis": "figure",
+     "basis": "S5",
+     "nodes": {
+      "stem": 3,
+      "crown": null
+     },
+     "stemHpd": [
+      73.2,
+      115.5
+     ],
      "note": "monogeneric - no crown"
     },
     {
      "name": "Orontioideae",
-     "stem": 97,
-     "crown": 55,
-     "basis": "figure"
+     "stem": 95.6,
+     "crown": 52.8,
+     "basis": "S5",
+     "nodes": {
+      "stem": 3,
+      "crown": 4
+     },
+     "stemHpd": [
+      73.2,
+      115.5
+     ],
+     "crownHpd": [
+      28.4,
+      77.2
+     ]
     },
     {
      "name": "Lemnoideae",
      "stem": 103.6,
-     "crown": 67,
-     "basis": "stem prose, crown figure"
+     "crown": 73.4,
+     "basis": "S5",
+     "nodes": {
+      "stem": 6,
+      "crown": 7
+     },
+     "stemHpd": [
+      93.0,
+      113.5
+     ],
+     "crownHpd": [
+      59.5,
+      87.9
+     ]
     },
     {
      "name": "Pothoideae",
-     "stem": 82,
+     "stem": 81.1,
      "crown": 64.5,
-     "basis": "stem figure, crown prose (Anthurium stem, Petrocardium node posterior mean)"
+     "basis": "S5",
+     "nodes": {
+      "stem": 12,
+      "crown": 13
+     },
+     "stemHpd": [
+      68.3,
+      93.7
+     ],
+     "crownHpd": [
+      55.8,
+      76.5
+     ]
     },
     {
      "name": "Monsteroideae",
-     "stem": 82,
-     "crown": 57,
-     "basis": "figure"
+     "stem": 81.1,
+     "crown": 54.7,
+     "basis": "S5",
+     "nodes": {
+      "stem": 12,
+      "crown": 16
+     },
+     "stemHpd": [
+      68.3,
+      93.7
+     ],
+     "crownHpd": [
+      47.0,
+      64.0
+     ]
     },
     {
      "name": "Lasioideae",
-     "stem": 90,
-     "crown": 26,
-     "basis": "prose"
+     "stem": 90.2,
+     "crown": 26.4,
+     "basis": "S5",
+     "nodes": {
+      "stem": 28,
+      "crown": 29
+     },
+     "stemHpd": [
+      80.1,
+      100.7
+     ],
+     "crownHpd": [
+      15.0,
+      37.8
+     ]
     },
     {
      "name": "Zamioculcadoideae",
-     "stem": 87,
-     "crown": 67,
-     "basis": "stem prose, crown prose ('around the K/T boundary')"
+     "stem": 87.0,
+     "crown": 67.0,
+     "basis": "S5",
+     "nodes": {
+      "stem": 38,
+      "crown": 39
+     },
+     "stemHpd": [
+      77.1,
+      97.0
+     ],
+     "crownHpd": [
+      41.1,
+      86.9
+     ]
     },
     {
      "name": "Aroideae",
-     "stem": 87,
-     "crown": 84,
-     "basis": "stem prose, crown figure",
-     "note": "diversified into its 10 major lineages between 87 Ma and 62.3 Ma (prose)"
+     "stem": 87.0,
+     "crown": 82.1,
+     "basis": "S5",
+     "nodes": {
+      "stem": 38,
+      "crown": 41
+     },
+     "stemHpd": [
+      77.1,
+      97.0
+     ],
+     "crownHpd": [
+      73.2,
+      92.3
+     ],
+     "note": "diversified into its 10 major lineages between 87 Ma and 62.3 Ma (nodes 38-61)"
     }
    ],
    "tribes": [
     {
      "name": "Montrichardieae",
-     "stem": 79,
-     "basis": "figure",
-     "note": "node identity from prose (Montrichardia aquatica node)"
+     "stem": 77.9,
+     "crown": null,
+     "basis": "S5",
+     "nodes": {
+      "stem": 44,
+      "crown": null
+     },
+     "stemHpd": [
+      69.5,
+      86.7
+     ],
+     "note": "node identity from prose (the Montrichardia aquatica node)"
     },
     {
      "name": "Zantedeschieae",
-     "stem": 63,
-     "basis": "figure"
+     "stem": 61.9,
+     "crown": null,
+     "basis": "S5",
+     "nodes": {
+      "stem": 121,
+      "crown": null
+     },
+     "stemHpd": [
+      47.3,
+      76.1
+     ],
+     "note": "node identity from Fig. 3"
     },
     {
      "name": "Spathicarpeae",
-     "stem": 63,
-     "crown": 37,
-     "basis": "figure"
+     "stem": 61.9,
+     "crown": 35.3,
+     "basis": "S5",
+     "nodes": {
+      "stem": 121,
+      "crown": 122
+     },
+     "stemHpd": [
+      47.3,
+      76.1
+     ],
+     "crownHpd": [
+      24.3,
+      47.4
+     ],
+     "note": "node identity from Fig. 3"
+    },
+    {
+     "name": "Thomsonieae",
+     "stem": 58.5,
+     "crown": 24.2,
+     "basis": "S5",
+     "nodes": {
+      "stem": 48,
+      "crown": 49
+     },
+     "stemHpd": [
+      47.4,
+      68.2
+     ],
+     "crownHpd": [
+      9.8,
+      40.4
+     ],
+     "note": "node identity from Fig. 3 (split from Caladieae)"
+    },
+    {
+     "name": "Caladieae",
+     "stem": 58.5,
+     "crown": 42.0,
+     "basis": "S5",
+     "nodes": {
+      "stem": 48,
+      "crown": 51
+     },
+     "stemHpd": [
+      47.4,
+      68.2
+     ],
+     "crownHpd": [
+      30.5,
+      54.1
+     ],
+     "note": "node identity from Fig. 3 (split from Thomsonieae)"
     },
     {
      "name": "Peltandreae",
      "stem": 57.5,
-     "basis": "prose (Nitophyllites node posterior mean; the Typhonodorum clade)"
+     "crown": null,
+     "basis": "S5",
+     "nodes": {
+      "stem": 62,
+      "crown": null
+     },
+     "stemHpd": [
+      55.8,
+      60.7
+     ],
+     "note": "node identity from prose (the Nitophyllites node; the Typhonodorum clade)"
     },
     {
      "name": "Cryptocoryneae",
-     "stem": 48,
-     "basis": "figure"
+     "stem": 45.2,
+     "crown": null,
+     "basis": "S5",
+     "nodes": {
+      "stem": 96,
+      "crown": null
+     },
+     "stemHpd": [
+      29.4,
+      62.7
+     ],
+     "note": "node identity from Fig. 3 (split from Schismatoglottideae)"
     },
     {
      "name": "Schismatoglottideae",
-     "stem": 48,
-     "crown": 25,
-     "basis": "figure"
-    },
-    {
-     "name": "Thomsonieae",
-     "stem": 46,
-     "basis": "figure",
-     "note": "stem/crown identity of the figure node not certain"
-    },
-    {
-     "name": "Caladieae",
-     "crown": 42,
-     "basis": "figure"
+     "stem": 45.2,
+     "crown": 23.6,
+     "basis": "S5",
+     "nodes": {
+      "stem": 96,
+      "crown": 99
+     },
+     "stemHpd": [
+      29.4,
+      62.7
+     ],
+     "crownHpd": [
+      12.5,
+      35.9
+     ],
+     "note": "node identity from Fig. 3"
     },
     {
      "name": "Pistieae",
-     "stem": 41,
-     "basis": "figure",
-     "note": "the Pistia / Colocasia-clade split"
+     "stem": 38.9,
+     "crown": null,
+     "basis": "S5",
+     "nodes": {
+      "stem": 95,
+      "crown": null
+     },
+     "stemHpd": [
+      23.8,
+      51.7
+     ],
+     "note": "node identity from Fig. 3 (the Pistia/Colocasieae split)"
     },
     {
      "name": "Colocasieae",
-     "stem": 41,
-     "basis": "figure",
+     "stem": 38.9,
+     "crown": null,
+     "basis": "S5",
+     "nodes": {
+      "stem": 95,
+      "crown": null
+     },
+     "stemHpd": [
+      23.8,
+      51.7
+     ],
      "note": "same split as Pistieae"
     },
     {
      "name": "Arisaemateae",
-     "stem": 31,
-     "basis": "figure"
+     "stem": 34.7,
+     "crown": null,
+     "basis": "S5",
+     "nodes": {
+      "stem": 71,
+      "crown": null
+     },
+     "stemHpd": [
+      26.8,
+      43.1
+     ],
+     "note": "node identity from Fig. 3 (the Arisaema lineage)"
     },
     {
      "name": "Areae",
-     "crown": 26,
-     "basis": "figure"
+     "stem": null,
+     "crown": 30.3,
+     "basis": "S5",
+     "nodes": {
+      "stem": null,
+      "crown": 74
+     },
+     "crownHpd": [
+      22.9,
+      38.5
+     ],
+     "note": "node identity from Fig. 3"
     }
    ],
    "fossils": [
