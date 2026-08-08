@@ -1,5 +1,5 @@
 {
-  "species": 174,
+  "species": 175,
   "cultivars": 53,
   "hybrids": 150,
   "hybridCultivars": 9,
@@ -14,8 +14,8 @@
       "hybridCultivars": 9
     },
     "Amorphophallus": {
-      "total": 56,
-      "species": 56,
+      "total": 57,
+      "species": 57,
       "cultivars": 0,
       "hybrids": 0,
       "hybridCultivars": 0
@@ -26,7 +26,7 @@
     "multiCategoryItems": [],
     "unclassifiedItems": []
   },
-  "updatedAt": "2026-08-07T17:22:09.352Z",
+  "updatedAt": "2026-08-08T02:13:57.288Z",
   "source": "https://www.aroidpedia.com/journal",
-  "totalItemsScanned": 386
+  "totalItemsScanned": 387
 }
