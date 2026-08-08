@@ -5025,11 +5025,186 @@
     "Wong, S.Y. et al. (2010). Molecular phylogeny of tribe Schismatoglottideae ... and recognition of a new tribe, Philonotieae, from the Neotropics. Taxon 59: 117-124."
    ],
    "speciesCounts": "POWO master export, Araceae_Exports/EXCELS/_run_log.csv (validated accepted species).",
-   "version": "1.8.0",
+   "version": "1.9.0",
    "orthographicVariants": {
     "Stylochiton": "Treated as Stylochaeton Lepr. (MBB no. 34). The POWO export uses Stylochiton; which spelling Kew currently accepts is unconfirmed."
    },
    "ranges": "Native-range buckets parsed 2026-08-07 from the POWO genus exports' GEOGRAPHY prose (Araceae_Exports/EXCELS), species rows only, hybrids excluded. Zones NW/AF/EU-WAsia/AS/AU; a zone under 5% of a genus's mentions is trace and ignored; NW+OW=worldwide, several OW zones need a 66% leader or the genus is oldworld. Pseudodracontium (Indo-China) and Pedicellarum (Borneo) hand-set: no workbook in the export; both ranges are uncontested. 1.8.0 adds range.places: the distinct POWO base names per genus, most-mentioned first, INCLUDING the parenthesised sub-units (Borneo (Sarawak) yields both) - zones still count the outer name only. Hand-set places for the two workbook-less genera."
+  },
+  "chronology": {
+   "source": "Nauheimer, Metzler & Renner (2012), New Phytologist 195: 938-950 - BEAST relaxed-clock chronogram, 132 Araceae taxa, seven fossil calibrations.",
+   "method": "basis 'prose' = stated in the paper's text (exact); basis 'figure' = read from Fig. 3 against its Ma axis, about +/-3 Ma (validated: node 2 read 121.8 vs stated 121.7; node 38 read ~88.7 vs stated 87). Exact per-node ages are in the paper's supplementary Table S4/S5, not held. Harvest record: literature archive, DIGESTS/Chronology.md.",
+   "axisMa": 140,
+   "family": {
+    "name": "Araceae",
+    "stem": 135,
+    "crown": 121.7,
+    "basis": "prose"
+   },
+   "lineages": [
+    {
+     "name": "Gymnostachydoideae",
+     "stem": 97,
+     "crown": null,
+     "basis": "figure",
+     "note": "monogeneric - no crown"
+    },
+    {
+     "name": "Orontioideae",
+     "stem": 97,
+     "crown": 55,
+     "basis": "figure"
+    },
+    {
+     "name": "Lemnoideae",
+     "stem": 103.6,
+     "crown": 67,
+     "basis": "stem prose, crown figure"
+    },
+    {
+     "name": "Pothoideae",
+     "stem": 82,
+     "crown": 64.5,
+     "basis": "stem figure, crown prose (Anthurium stem, Petrocardium node posterior mean)"
+    },
+    {
+     "name": "Monsteroideae",
+     "stem": 82,
+     "crown": 57,
+     "basis": "figure"
+    },
+    {
+     "name": "Lasioideae",
+     "stem": 90,
+     "crown": 26,
+     "basis": "prose"
+    },
+    {
+     "name": "Zamioculcadoideae",
+     "stem": 87,
+     "crown": 67,
+     "basis": "stem prose, crown prose ('around the K/T boundary')"
+    },
+    {
+     "name": "Aroideae",
+     "stem": 87,
+     "crown": 84,
+     "basis": "stem prose, crown figure",
+     "note": "diversified into its 10 major lineages between 87 Ma and 62.3 Ma (prose)"
+    }
+   ],
+   "tribes": [
+    {
+     "name": "Montrichardieae",
+     "stem": 79,
+     "basis": "figure",
+     "note": "node identity from prose (Montrichardia aquatica node)"
+    },
+    {
+     "name": "Zantedeschieae",
+     "stem": 63,
+     "basis": "figure"
+    },
+    {
+     "name": "Spathicarpeae",
+     "stem": 63,
+     "crown": 37,
+     "basis": "figure"
+    },
+    {
+     "name": "Peltandreae",
+     "stem": 57.5,
+     "basis": "prose (Nitophyllites node posterior mean; the Typhonodorum clade)"
+    },
+    {
+     "name": "Cryptocoryneae",
+     "stem": 48,
+     "basis": "figure"
+    },
+    {
+     "name": "Schismatoglottideae",
+     "stem": 48,
+     "crown": 25,
+     "basis": "figure"
+    },
+    {
+     "name": "Thomsonieae",
+     "stem": 46,
+     "basis": "figure",
+     "note": "stem/crown identity of the figure node not certain"
+    },
+    {
+     "name": "Caladieae",
+     "crown": 42,
+     "basis": "figure"
+    },
+    {
+     "name": "Pistieae",
+     "stem": 41,
+     "basis": "figure",
+     "note": "the Pistia / Colocasia-clade split"
+    },
+    {
+     "name": "Colocasieae",
+     "stem": 41,
+     "basis": "figure",
+     "note": "same split as Pistieae"
+    },
+    {
+     "name": "Arisaemateae",
+     "stem": 31,
+     "basis": "figure"
+    },
+    {
+     "name": "Areae",
+     "crown": 26,
+     "basis": "figure"
+    }
+   ],
+   "fossils": [
+    {
+     "name": "Albertarum pueri",
+     "ma": 72,
+     "on": "Orontioideae",
+     "what": "infructescence, Alberta (Canada)"
+    },
+    {
+     "name": "Lasioideaecidites hessei",
+     "ma": 70,
+     "on": "Lasioideae",
+     "what": "pollen, Late Cretaceous Siberia"
+    },
+    {
+     "name": "Limnobiophyllum scutatum",
+     "ma": 65.5,
+     "on": "Lemnoideae",
+     "what": "free-floating plant, North America"
+    },
+    {
+     "name": "Montrichardia aquatica",
+     "ma": 55.8,
+     "on": "Montrichardieae",
+     "what": "leaves, Palaeocene Colombia"
+    },
+    {
+     "name": "Petrocardium cerrojonense",
+     "ma": 55.8,
+     "on": "Pothoideae",
+     "what": "Anthurium-like leaves, Palaeocene Colombia"
+    },
+    {
+     "name": "Nitophyllites zaisanicus",
+     "ma": 55.8,
+     "on": "Peltandreae",
+     "what": "leaves, Palaeocene Kazakhstan"
+    },
+    {
+     "name": "Araciphyllites tertiarius",
+     "ma": 47,
+     "on": "Monsteroideae",
+     "what": "leaves, mid-Eocene Germany"
+    }
+   ]
   }
  }
 }
