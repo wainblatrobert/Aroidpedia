@@ -1,5 +1,5 @@
 {
-  "species": 180,
+  "species": 181,
   "cultivars": 53,
   "hybrids": 150,
   "hybridCultivars": 9,
@@ -14,11 +14,29 @@
       "hybridCultivars": 9
     },
     "Amorphophallus": {
-      "total": 62,
-      "species": 62,
+      "total": 63,
+      "species": 63,
       "cultivars": 0,
       "hybrids": 0,
       "hybridCultivars": 0
+    }
+  },
+  "byGenusGeo": {
+    "Alocasia": {
+      "total": 330,
+      "placed": 159,
+      "zones": {
+        "asia": 158,
+        "austral": 2
+      }
+    },
+    "Amorphophallus": {
+      "total": 63,
+      "placed": 63,
+      "zones": {
+        "africa": 12,
+        "asia": 51
+      }
     }
   },
   "diagnostics": {
@@ -26,7 +44,19 @@
     "multiCategoryItems": [],
     "unclassifiedItems": []
   },
-  "updatedAt": "2026-08-08T21:36:42.278Z",
+  "unresolvedTags": {
+    "Scabriuscula": 9,
+    "Princeps": 8,
+    "Macrorrhizos": 5,
+    "Longiloba": 3,
+    "Other": 3,
+    "Puber": 3,
+    "Yunnanensis": 1,
+    "Pygmaeus": 1,
+    "Coriaceae": 1,
+    "Cuprea": 1
+  },
+  "updatedAt": "2026-08-09T01:03:23.130Z",
   "source": "https://www.aroidpedia.com/journal",
-  "totalItemsScanned": 392
+  "totalItemsScanned": 393
 }
