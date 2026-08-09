@@ -1,8 +1,52 @@
 /* =====================================================================
    AROIDPEDIA — counts.json BUILDER
-   FILE VERSION: v4   (last updated 2026-07-26)
+   FILE VERSION: v5   (last updated 2026-08-08)
    Bump this number (and the date) any time this file is replaced, so an
    old copy is never mistaken for the current one.
+
+   v5 ADDS `byGenusGeo` — how many of a genus's records sit in each of
+   the five native-range zones, for the hover card on /all-genera:
+
+       "byGenusGeo": {
+         "Amorphophallus": { "total": 61, "placed": 61,
+                             "zones": { "africa": 12, "asia": 49 } }
+       }
+
+   WHY IT IS COMPUTED HERE AND NOWHERE ELSE. The card worked this out in
+   the browser from search-index.json + shapes.json, which cost every
+   reader 205 KB on the first hover of a documented genus. Worse, it was
+   a SECOND CRAWL: on 2026-08-08 that pair said Amorphophallus held 61
+   records while this file said 62, because they ran fourteen hours
+   apart. Counting it here uses the SAME items as byGenus, in the same
+   pass, so the two cannot disagree — `total` is literally byGenus's
+   total, not a recount of it.
+
+   HOW A RECORD IS PLACED. Each item's tags are resolved against
+   docs/shapes.json's `continent` map, and the item is credited to the
+   DISTINCT set of zones that produces. A post tagged Vietnam + Thailand
+   + Laos is ONE Asian record, not three.
+
+     ⚠ TAGS ARE NOT A PLACE LIST. They also carry epithets —
+       Scabriuscula, Princeps, Macrorrhizos, Longiloba, Puber, Cuprea.
+       The continent map is therefore used as a WHITELIST: a tag either
+       resolves to a place or it does not count. There is no blacklist
+       to maintain, and unresolved tags are reported at the end so a
+       genuinely missing place cannot hide among the epithets.
+
+     ⚠ `placed` IS USUALLY LESS THAN `total`, AND THAT IS CORRECT.
+       Hybrids and hybrid cultivars have no native range at all — of
+       Alocasia's 330 records, 159 are hybrids or hybrid cultivars.
+       Both numbers are published so the card can say '159 of 330
+       records carry a place' rather than letting the zone counts
+       quietly fail to add up to the total beside them.
+
+     ⚠ THE ZONE COUNTS CAN SUM TO MORE THAN `placed`. A record tagged
+       in two zones is a real record in both. Distinct-per-zone is the
+       point, not a rounding error.
+
+     ⚠ IF docs/shapes.json IS MISSING, `byGenusGeo` IS OMITTED and the
+       run still succeeds. The card falls back to computing it in the
+       browser, which is the pre-v5 behaviour — degraded, not broken.
 
    v4 MAKES THE FOUR CATEGORIES MUTUALLY EXCLUSIVE. Every item lands in
    exactly ONE of species / cultivars / hybrids / hybridCultivars, and
@@ -59,6 +103,7 @@ import { fileURLToPath } from "node:url";
 const SITE_ORIGIN = process.env.SITE_ORIGIN || "https://www.aroidpedia.com";
 const COLLECTION_PATH = process.env.COLLECTION_PATH || "/journal";
 const OUT_FILE = process.env.OUT_FILE || "docs/counts.json";
+const SHAPES_FILE = process.env.SHAPES_FILE || "docs/shapes.json";
 
 const GENERA = [
   "Adelonema","Aglaodorum","Aglaonema","Aia","Alloschemone","Alocasia","Ambrosina",
@@ -165,6 +210,59 @@ function getNextPageUrl(data) {
     pagination.nextPage ||
     null
   );
+}
+
+/* v5: shapes.json speaks in continents, the phylogeny tree — and so the
+   hover card that reads this file — speaks in five zones. This table is
+   the only place the two vocabularies meet.
+
+   ⚠ SECOND HOME FOR THIS MAP. The /all-genera block carries the same
+     table as CONT_ZONE, because it still computes this in the browser
+     whenever `byGenusGeo` is absent. Change both together.
+
+   'Europe' is here in advance: shapes.json carries no European place
+   today because none has been provisioned, and the day one is, it
+   should land in euwasia rather than be silently dropped. */
+const CONT_ZONE = {
+  "Asia": "asia",
+  "Africa": "africa",
+  "South America": "americas",
+  "Central America": "americas",
+  "Caribbean": "americas",
+  "North America": "americas",
+  "Oceania": "austral",
+  "Australia": "austral",
+  "Europe": "euwasia"
+};
+
+const ZONE_ORDER = ["americas", "africa", "euwasia", "asia", "austral"];
+
+/* tag -> zone, keyed by the same normaliser the category matching uses,
+   so a slug ("new-guinea") and a display name ("New Guinea") land on the
+   same entry. Continent names are added as tags in their own right: some
+   posts carry only "Asia", with no finer place under it. */
+async function loadZoneMap() {
+  let shapes;
+  try {
+    shapes = JSON.parse(await fs.readFile(SHAPES_FILE, "utf8"));
+  } catch (error) {
+    console.warn(
+      `WARNING: could not read ${SHAPES_FILE} (${error.code || error.message}). ` +
+      `byGenusGeo will be omitted and /all-genera will fall back to ` +
+      `computing record geography in the browser.`
+    );
+    return null;
+  }
+  const continent = (shapes && shapes.continent) || {};
+  const map = new Map();
+  for (const [tag, cont] of Object.entries(continent)) {
+    const zone = CONT_ZONE[cont];
+    if (zone) map.set(normalizeComparable(tag), zone);
+  }
+  for (const [cont, zone] of Object.entries(CONT_ZONE)) {
+    map.set(normalizeComparable(cont), zone);
+  }
+  return map;
 }
 
 function valueToNames(value) {
@@ -305,7 +403,7 @@ async function fetchAllJournalItems() {
   return allItems;
 }
 
-function countCollection(items) {
+function countCollection(items, zoneMap = null) {
   const counts = {
     species: 0,
     cultivars: 0,
@@ -324,6 +422,29 @@ function countCollection(items) {
   // Per-genus breakdown:
   //   genus -> { total, species, cultivars, hybrids, hybridCultivars }
   const byGenusMap = new Map();
+
+  /* v5: genus -> { placed, zones }. `total` is deliberately NOT kept
+     here - it is read off byGenus at assembly, so a geo total can never
+     drift from the genus total printed beside it on the same card. */
+  const geoMap = new Map();
+  const unresolvedTags = new Map();
+
+  function bumpGeo(genus, item) {
+    if (!zoneMap) return;
+    const zones = new Set();
+    for (const tag of getTags(item)) {
+      const zone = zoneMap.get(normalizeComparable(tag));
+      if (zone) zones.add(zone);
+      else if (normalizeComparable(tag) !== normalizeComparable(genus)) {
+        unresolvedTags.set(tag, (unresolvedTags.get(tag) || 0) + 1);
+      }
+    }
+    if (!zones.size) return;              /* hybrid, cultivar, or untagged */
+    let g = geoMap.get(genus);
+    if (!g) { g = { placed: 0, zones: {} }; geoMap.set(genus, g); }
+    g.placed++;
+    for (const z of zones) g.zones[z] = (g.zones[z] || 0) + 1;
+  }
 
   /* v4: takes the single bucket the item was classified into, so
      `total` is by construction the sum of the four buckets. There is
@@ -378,6 +499,7 @@ function countCollection(items) {
     if (genus) {
       counts.genera.add(genus);
       bumpGenus(genus, bucket);
+      bumpGeo(genus, item);
     }
   });
 
@@ -406,6 +528,19 @@ function countCollection(items) {
     .sort((a, b) => b[1].total - a[1].total || a[0].localeCompare(b[0]))
     .forEach(([genus, g]) => { byGenus[genus] = g; });
 
+  /* v5: assembled from byGenus, so `total` is the same number the rest of
+     the file publishes rather than a second tally of the same items. */
+  let byGenusGeo;
+  if (zoneMap) {
+    byGenusGeo = {};
+    for (const [genus, g] of Object.entries(byGenus)) {
+      const geo = geoMap.get(genus) || { placed: 0, zones: {} };
+      const zones = {};
+      for (const z of ZONE_ORDER) if (geo.zones[z]) zones[z] = geo.zones[z];
+      byGenusGeo[genus] = { total: g.total, placed: geo.placed, zones };
+    }
+  }
+
   return {
     species: counts.species,
     cultivars: counts.cultivars,
@@ -414,7 +549,11 @@ function countCollection(items) {
     unclassified: counts.unclassified,
     genera: counts.genera.size,
     byGenus,
+    ...(byGenusGeo ? { byGenusGeo } : {}),
     diagnostics,
+    ...(zoneMap ? { unresolvedTags: Object.fromEntries(
+      [...unresolvedTags.entries()].sort((a, b) => b[1] - a[1])
+        .slice(0, DIAGNOSTIC_SAMPLE_CAP)) } : {}),
     updatedAt: new Date().toISOString(),
     source: `${SITE_ORIGIN}${COLLECTION_PATH}`,
     totalItemsScanned: seenItems.size
@@ -423,7 +562,8 @@ function countCollection(items) {
 
 async function main() {
   const items = await fetchAllJournalItems();
-  const counts = countCollection(items);
+  const zoneMap = await loadZoneMap();
+  const counts = countCollection(items, zoneMap);
 
   await fs.mkdir(path.dirname(OUT_FILE), { recursive: true });
   await fs.writeFile(OUT_FILE, JSON.stringify(counts, null, 2) + "\n", "utf8");
@@ -438,6 +578,19 @@ async function main() {
       `WARNING: ${counts.unclassified} item(s) matched no category and ` +
       `were counted toward no genus.`,
       counts.diagnostics.unclassifiedItems
+    );
+  }
+
+  /* v5: an unresolved tag is usually an epithet and expected. A real
+     PLACE in this list means shapes.json is missing it and those records
+     are going uncounted, which is invisible on the site itself - so it
+     goes in the log, capped, rather than nowhere. */
+  if (counts.unresolvedTags && Object.keys(counts.unresolvedTags).length) {
+    console.warn(
+      `NOTE: ${Object.keys(counts.unresolvedTags).length} tag(s) resolved to ` +
+      `no place and were not counted toward any zone. Epithets are expected ` +
+      `here; a real place means shapes.json is missing it.`,
+      counts.unresolvedTags
     );
   }
 
@@ -465,7 +618,7 @@ async function main() {
    The `|| !process.argv[1]` fallback is a second belt: if argv[1] is
    somehow absent, run anyway. For a scheduled job, running when it
    maybe shouldn't is a far cheaper mistake than silently not running. */
-export { countCollection, normalizeCategory, matchedBuckets, pickBucket };
+export { countCollection, normalizeCategory, matchedBuckets, pickBucket, loadZoneMap, CONT_ZONE };
 
 const invokedDirectly =
   !process.argv[1] ||
