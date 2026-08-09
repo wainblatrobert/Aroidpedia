@@ -1269,7 +1269,463 @@
          "asia": 78,
          "austral": 16
         }
-       }
+       },
+       "children": [
+        {
+         "id": "clade-alocasia-a",
+         "name": "Clade A",
+         "rank": "clade",
+         "note": "Most of the longiloba group: strongly rhythmic growth, thinly membranous cataphylls, solitary or few leaves with often peltate, pendulous blades. Also holds a group of massive Indochinese species.",
+         "support": 98,
+         "supportType": "ML bootstrap, 100 replicates",
+         "children": [
+          {
+           "id": "species-alocasia-peltata",
+           "name": "Alocasia peltata",
+           "rank": "species",
+           "powo": true
+          },
+          {
+           "id": "species-alocasia-beccarii",
+           "name": "Alocasia beccarii",
+           "rank": "species",
+           "powo": true
+          },
+          {
+           "id": "species-alocasia-acuminata",
+           "name": "Alocasia acuminata",
+           "rank": "species",
+           "powo": true
+          },
+          {
+           "id": "species-alocasia-navicularis",
+           "name": "Alocasia navicularis",
+           "rank": "species",
+           "powo": true
+          },
+          {
+           "id": "species-alocasia-cucullata",
+           "name": "Alocasia cucullata",
+           "rank": "species",
+           "powo": true
+          },
+          {
+           "id": "species-alocasia-odora",
+           "name": "Alocasia odora",
+           "rank": "species",
+           "powo": true
+          },
+          {
+           "id": "species-alocasia-gageana",
+           "name": "Alocasia gageana",
+           "rank": "species"
+          },
+          {
+           "id": "species-alocasia-sp-nov-setiam",
+           "name": "Alocasia sp. nov. Setiam",
+           "rank": "species",
+           "undescribed": true
+          },
+          {
+           "id": "species-alocasia-argyrea",
+           "name": "Alocasia argyrea",
+           "rank": "species"
+          },
+          {
+           "id": "species-alocasia-grandis",
+           "name": "Alocasia grandis",
+           "rank": "species"
+          },
+          {
+           "id": "species-alocasia-denudata",
+           "name": "Alocasia denudata",
+           "rank": "species"
+          },
+          {
+           "id": "species-alocasia-sanderiana",
+           "name": "Alocasia sanderiana",
+           "rank": "species",
+           "powo": true
+          },
+          {
+           "id": "species-alocasia-longiloba",
+           "name": "Alocasia longiloba",
+           "rank": "species",
+           "accessions": 3,
+           "powo": true
+          },
+          {
+           "id": "species-alocasia-lowii",
+           "name": "Alocasia lowii",
+           "rank": "species"
+          },
+          {
+           "id": "species-alocasia-watsoniana",
+           "name": "Alocasia watsoniana",
+           "rank": "species",
+           "accessions": 2
+          },
+          {
+           "id": "species-alocasia-korthalsii",
+           "name": "Alocasia korthalsii",
+           "rank": "species"
+          }
+         ],
+         "speciesCount": 16
+        },
+        {
+         "id": "clade-alocasia-b",
+         "name": "Clade B",
+         "rank": "clade",
+         "note": "The massive caulescent species, including the edible A. macrorrhizos and three accessions of A. robusta.",
+         "children": [
+          {
+           "id": "species-alocasia-alba",
+           "name": "Alocasia alba",
+           "rank": "species",
+           "powo": true
+          },
+          {
+           "id": "species-alocasia-robusta",
+           "name": "Alocasia robusta",
+           "rank": "species",
+           "accessions": 3,
+           "powo": true
+          },
+          {
+           "id": "species-alocasia-micholitziana",
+           "name": "Alocasia micholitziana",
+           "rank": "species",
+           "powo": true
+          },
+          {
+           "id": "species-alocasia-atropurpurea",
+           "name": "Alocasia atropurpurea",
+           "rank": "species",
+           "powo": true
+          },
+          {
+           "id": "species-alocasia-sp-nov-mpm1",
+           "name": "Alocasia sp. nov. MPM1",
+           "rank": "species",
+           "undescribed": true
+          },
+          {
+           "id": "species-alocasia-macrorrhizos",
+           "name": "Alocasia macrorrhizos",
+           "rank": "species",
+           "powo": true
+          },
+          {
+           "id": "species-alocasia-portei",
+           "name": "Alocasia portei",
+           "rank": "species",
+           "powo": true
+          },
+          {
+           "id": "species-alocasia-sp-nov-bo07",
+           "name": "Alocasia sp. nov. Bo07",
+           "rank": "species",
+           "undescribed": true
+          }
+         ],
+         "speciesCount": 8
+        },
+        {
+         "id": "clade-alocasia-c",
+         "name": "Clade C",
+         "rank": "clade",
+         "note": "Species with short-lived leaves and proportionately long petiolar sheaths, including the New Guinean Xenophya group.",
+         "support": 81,
+         "supportType": "ML bootstrap, 100 replicates",
+         "children": [
+          {
+           "id": "species-alocasia-zebrina",
+           "name": "Alocasia zebrina",
+           "rank": "species",
+           "powo": true
+          },
+          {
+           "id": "species-alocasia-brisbanensis",
+           "name": "Alocasia brisbanensis",
+           "rank": "species",
+           "powo": true
+          },
+          {
+           "id": "species-alocasia-suhirmaniana",
+           "name": "Alocasia suhirmaniana",
+           "rank": "species",
+           "powo": true
+          },
+          {
+           "id": "species-alocasia-longiloba",
+           "name": "Alocasia longiloba",
+           "rank": "species",
+           "powo": true
+          },
+          {
+           "id": "species-alocasia-lauterbachiana",
+           "name": "Alocasia lauterbachiana",
+           "rank": "species",
+           "powo": true
+          },
+          {
+           "id": "species-alocasia-boa",
+           "name": "Alocasia boa",
+           "rank": "species",
+           "powo": true
+          },
+          {
+           "id": "species-alocasia-hollrungii",
+           "name": "Alocasia hollrungii",
+           "rank": "species",
+           "powo": true
+          },
+          {
+           "id": "species-alocasia-monticola",
+           "name": "Alocasia monticola",
+           "rank": "species",
+           "powo": true
+          }
+         ],
+         "speciesCount": 8
+        },
+        {
+         "id": "clade-alocasia-d",
+         "name": "Clade D",
+         "rank": "clade",
+         "note": "Small or robust, often lithophytic species - the princeps group and the scabriuscula group.",
+         "support": 85,
+         "supportType": "ML bootstrap, 100 replicates",
+         "children": [
+          {
+           "id": "species-alocasia-perakensis",
+           "name": "Alocasia perakensis",
+           "rank": "species",
+           "powo": true
+          },
+          {
+           "id": "species-alocasia-chaii",
+           "name": "Alocasia chaii",
+           "rank": "species",
+           "powo": true
+          },
+          {
+           "id": "species-alocasia-sp-nov-kerby",
+           "name": "Alocasia sp. nov. Kerby",
+           "rank": "species",
+           "undescribed": true
+          },
+          {
+           "id": "species-alocasia-reginae",
+           "name": "Alocasia reginae",
+           "rank": "species",
+           "powo": true
+          },
+          {
+           "id": "species-alocasia-nebula",
+           "name": "Alocasia nebula",
+           "rank": "species",
+           "powo": true
+          },
+          {
+           "id": "species-alocasia-plumbea",
+           "name": "Alocasia plumbea",
+           "rank": "species"
+          },
+          {
+           "id": "species-alocasia-inornata",
+           "name": "Alocasia inornata",
+           "rank": "species",
+           "powo": true
+          },
+          {
+           "id": "species-alocasia-maquilingensis",
+           "name": "Alocasia maquilingensis",
+           "rank": "species",
+           "powo": true
+          },
+          {
+           "id": "species-alocasia-wongii",
+           "name": "Alocasia wongii",
+           "rank": "species",
+           "powo": true
+          },
+          {
+           "id": "species-alocasia-sp-nov-bo011",
+           "name": "Alocasia sp. nov. Bo011",
+           "rank": "species",
+           "undescribed": true
+          },
+          {
+           "id": "species-alocasia-cuprea",
+           "name": "Alocasia cuprea",
+           "rank": "species",
+           "powo": true
+          },
+          {
+           "id": "species-alocasia-sp-nov-sept",
+           "name": "Alocasia sp. nov. Sept",
+           "rank": "species",
+           "undescribed": true
+          },
+          {
+           "id": "species-alocasia-infernalis",
+           "name": "Alocasia infernalis",
+           "rank": "species",
+           "powo": true
+          },
+          {
+           "id": "species-alocasia-princeps",
+           "name": "Alocasia princeps",
+           "rank": "species",
+           "powo": true
+          },
+          {
+           "id": "species-alocasia-pangeran",
+           "name": "Alocasia pangeran",
+           "rank": "species",
+           "powo": true
+          },
+          {
+           "id": "species-alocasia-sp-nov-ridleythai",
+           "name": "Alocasia sp. nov. ridleythai",
+           "rank": "species",
+           "undescribed": true
+          },
+          {
+           "id": "species-alocasia-heterophylla",
+           "name": "Alocasia heterophylla",
+           "rank": "species",
+           "powo": true
+          },
+          {
+           "id": "species-alocasia-sp-nov-inopinata",
+           "name": "Alocasia sp. nov. inopinata",
+           "rank": "species",
+           "undescribed": true
+          },
+          {
+           "id": "species-alocasia-reversa",
+           "name": "Alocasia reversa",
+           "rank": "species",
+           "powo": true
+          },
+          {
+           "id": "species-alocasia-scalprum",
+           "name": "Alocasia scalprum",
+           "rank": "species",
+           "powo": true
+          },
+          {
+           "id": "species-alocasia-sinuata",
+           "name": "Alocasia sinuata",
+           "rank": "species",
+           "powo": true
+          },
+          {
+           "id": "species-alocasia-clypeolata",
+           "name": "Alocasia clypeolata",
+           "rank": "species",
+           "powo": true
+          },
+          {
+           "id": "species-alocasia-sp-nov-mpm3",
+           "name": "Alocasia sp. nov. MPM3",
+           "rank": "species",
+           "undescribed": true
+          },
+          {
+           "id": "species-alocasia-ramosii",
+           "name": "Alocasia ramosii",
+           "rank": "species",
+           "powo": true
+          },
+          {
+           "id": "species-alocasia-sp-nov-mpm4",
+           "name": "Alocasia sp. nov. MPM4",
+           "rank": "species",
+           "undescribed": true
+          },
+          {
+           "id": "species-alocasia-boyceana",
+           "name": "Alocasia boyceana",
+           "rank": "species",
+           "powo": true
+          },
+          {
+           "id": "species-alocasia-warburgii",
+           "name": "Alocasia warburgii",
+           "rank": "species"
+          },
+          {
+           "id": "species-alocasia-nycteris",
+           "name": "Alocasia nycteris",
+           "rank": "species",
+           "powo": true
+          },
+          {
+           "id": "species-alocasia-sp-nov-kulat",
+           "name": "Alocasia sp. nov. kulat",
+           "rank": "species",
+           "undescribed": true
+          },
+          {
+           "id": "species-alocasia-principiculus",
+           "name": "Alocasia principiculus",
+           "rank": "species",
+           "powo": true
+          },
+          {
+           "id": "species-alocasia-scabriuscula",
+           "name": "Alocasia scabriuscula",
+           "rank": "species",
+           "powo": true
+          },
+          {
+           "id": "species-alocasia-melo",
+           "name": "Alocasia melo",
+           "rank": "species",
+           "powo": true
+          },
+          {
+           "id": "species-alocasia-sp-nov-kelamensis",
+           "name": "Alocasia sp. nov. kelamensis",
+           "rank": "species",
+           "undescribed": true
+          },
+          {
+           "id": "species-alocasia-reginula",
+           "name": "Alocasia reginula",
+           "rank": "species",
+           "powo": true
+          },
+          {
+           "id": "species-alocasia-sp-nov-gomantong",
+           "name": "Alocasia sp. nov. Gomantong",
+           "rank": "species",
+           "undescribed": true
+          },
+          {
+           "id": "species-alocasia-ridleyi",
+           "name": "Alocasia ridleyi",
+           "rank": "species",
+           "powo": true
+          }
+         ],
+         "speciesCount": 36
+        },
+        {
+         "id": "species-alocasia-unsampled",
+         "name": "47 species not sampled",
+         "rank": "species",
+         "aggregate": true,
+         "speciesCount": 47,
+         "note": "POWO accepts 92 Alocasia species. 45 of them appear in this tree; the rest were not placed by it."
+        }
+       ],
+       "speciesTierSource": "Nauheimer, Boyce & Renner (2012), \"Giant taro and its relatives: a phylogeny of the large genus Alocasia (Araceae) sheds light on Miocene floristic exchange in the Malesian region\", Molecular Phylogenetics and Evolution 63: 43-51",
+       "speciesTierNote": "The NUCLEAR tree (Fig. 3b). Nuclear and plastid trees conflict in this study - the authors attribute it to chloroplast capture, and say the nuclear tree reflects morphology while the plastid one reflects geography. The nuclear tree is shown because it is the one whose clades the paper names and diagnoses. Alocasia is monophyletic only once A. hypnosa is excluded, and its closest relative is Colocasia gigantea - this tree's Leucocasia."
       },
       {
        "id": "genus-ariopsis",
@@ -3732,28 +4188,99 @@
          "africa": 40,
          "austral": 2
         }
-       }
-      },
-      {
-       "id": "genus-pseudodracontium",
-       "name": "Pseudodracontium",
-       "rank": "genus",
-       "authority": "N.E. Brown",
-       "mbbNumber": 80,
-       "archiveUrl": "/pseudodracontium",
-       "image": {
-        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/pseudodracontium.webp",
-        "alt": "Pseudodracontium — (unfiled)",
-        "source": "pharman1.jpg"
        },
-       "range": {
-        "b": "asia",
-        "nw": false,
-        "ow": true,
-        "places": [
-         "Indo-China"
-        ]
-       }
+       "children": [
+        {
+         "id": "subgenus-amorphophallus-amorphophallus",
+         "name": "Amorphophallus",
+         "rank": "subgenus",
+         "authority": "autonym, typified by A. paeoniifolius",
+         "cladeCode": "SEA",
+         "typeSpecies": "Amorphophallus paeoniifolius (Dennst.) Nicolson",
+         "distribution": "All over Southeast Asia, from India eastwards via continental Southeast Asia and Indonesia to the Philippines and Australia (A. galbra).",
+         "speciesCount": 0,
+         "assignment": "not assigned: the three Asian subgenera overlap in range, so their species can only be read off the study's figures, which are raster images"
+        },
+        {
+         "id": "subgenus-amorphophallus-metandrium",
+         "name": "Metandrium",
+         "rank": "subgenus",
+         "authority": "Stapf (1924)",
+         "cladeCode": "CA-I",
+         "typeSpecies": "Amorphophallus cirrifer Stapf",
+         "distribution": "India and continental Southeast Asia (Burma, Thailand, Laos, Cambodia, Vietnam and southern and eastern China) to southern Japan, the Philippines and Indonesia.",
+         "note": "The only subgenus ever established before this study. Section Rhaphiophallus is polyphyletic across it and Scutandrium, so that section is not used here.",
+         "speciesCount": 0,
+         "assignment": "not assigned: the three Asian subgenera overlap in range, so their species can only be read off the study's figures, which are raster images"
+        },
+        {
+         "id": "subgenus-amorphophallus-scutandrium",
+         "name": "Scutandrium",
+         "rank": "subgenus",
+         "authority": "Hett. & Claudel, subgen. nov.",
+         "cladeCode": "CA-II",
+         "typeSpecies": "Amorphophallus krausei Engl.",
+         "distribution": "Southern India and continental Southeast Asia (Burma, Thailand, Laos, Cambodia, Vietnam and southern China).",
+         "note": "Holds the former genus Pseudodracontium, which this study sinks into Amorphophallus. Named for the shield-like staminodes of many of its species.",
+         "speciesCount": 0,
+         "assignment": "not assigned: the three Asian subgenera overlap in range, so their species can only be read off the study's figures, which are raster images"
+        },
+        {
+         "id": "subgenus-amorphophallus-afrophallus",
+         "name": "Afrophallus",
+         "rank": "subgenus",
+         "authority": "Hett. & Claudel, subg. nov.",
+         "cladeCode": "AFR",
+         "typeSpecies": "Amorphophallus abyssinicus (A.Rich.) N.E.Br.",
+         "distribution": "Tropical and subtropical Africa and Madagascar.",
+         "note": "The study states the range is exclusive - \"No species of any of the other three subgenera occur in Africa\" - which is what lets this subgenus be populated from the range data by citation rather than by reading a figure.",
+         "speciesCount": 40,
+         "species": [
+          "Amorphophallus abyssinicus",
+          "Amorphophallus andranogidroensis",
+          "Amorphophallus angolensis",
+          "Amorphophallus ankarana",
+          "Amorphophallus antsingyensis",
+          "Amorphophallus aphyllus",
+          "Amorphophallus barthlottii",
+          "Amorphophallus baumannii",
+          "Amorphophallus bequaertii",
+          "Amorphophallus calabaricus",
+          "Amorphophallus canaliculatus",
+          "Amorphophallus consimilis",
+          "Amorphophallus dracontioides",
+          "Amorphophallus dumboi",
+          "Amorphophallus eichleri",
+          "Amorphophallus elliotii",
+          "Amorphophallus erythrorrhachis",
+          "Amorphophallus gallaensis",
+          "Amorphophallus goetzei",
+          "Amorphophallus gomboczianus",
+          "Amorphophallus gracilior",
+          "Amorphophallus hildebrandtii",
+          "Amorphophallus impressus",
+          "Amorphophallus johnsonii",
+          "Amorphophallus lewallei",
+          "Amorphophallus mangelsdorffii",
+          "Amorphophallus margretae",
+          "Amorphophallus maximus",
+          "Amorphophallus mayoi",
+          "Amorphophallus mildbraedii",
+          "Amorphophallus mossambicensis",
+          "Amorphophallus mullendersii",
+          "Amorphophallus perrieri",
+          "Amorphophallus preussii",
+          "Amorphophallus richardsiae",
+          "Amorphophallus staudtii",
+          "Amorphophallus stuhlmannii",
+          "Amorphophallus taurostigma",
+          "Amorphophallus teuszii",
+          "Amorphophallus zenkeri"
+         ],
+         "assignment": "every Amorphophallus species POWO records from Africa, which the study states is exactly this subgenus"
+        }
+       ],
+       "subgeneraSource": "Claudel, Hetterscheid, Boyce & Wong (2017), \"Large-scale phylogenetic analysis of Amorphophallus (Araceae) derived from nuclear and plastid sequences reveals new subgeneric delineation\", Botanical Journal of the Linnean Society 184: 32-45"
       }
      ]
     },
@@ -5486,7 +6013,7 @@
   }
  ],
  "metadata": {
-  "updated": "2026-08-08",
+  "updated": "2026-08-09",
   "about": {
    "intro": [
     "This tree shows how the roughly 150 accepted genera of the arum family are grouped: first into subfamilies, then into tribes, and finally into the genera themselves.",
@@ -5525,10 +6052,12 @@
    "updates": [
     "Haigh, A. et al. (2022). Target sequence data shed new light on the infrafamilial classification of Araceae. American Journal of Botany.",
     "Low, S.L., Wong, S.Y. & Boyce, P.C. (2018). Naming the chaos: generic redelimitation in Schismatoglottideae (Araceae). Webbia 72(2): 1-100.",
-    "Wong, S.Y. et al. (2010). Molecular phylogeny of tribe Schismatoglottideae ... and recognition of a new tribe, Philonotieae, from the Neotropics. Taxon 59: 117-124."
+    "Wong, S.Y. et al. (2010). Molecular phylogeny of tribe Schismatoglottideae ... and recognition of a new tribe, Philonotieae, from the Neotropics. Taxon 59: 117-124.",
+    "Claudel, Hetterscheid, Boyce & Wong (2017), \"Large-scale phylogenetic analysis of Amorphophallus (Araceae) derived from nuclear and plastid sequences reveals new subgeneric delineation\", Botanical Journal of the Linnean Society 184: 32-45. Sinks Pseudodracontium into Amorphophallus (POWO concurs - no workbook in the Araceae export) and erects the four subgenera carried here. Landoltia is treated as Spirodela. Only Afrophallus carries a species list: the study states its range is exclusively African, and the other three subgenera overlap.",
+    "Nauheimer, Boyce & Renner (2012), \"Giant taro and its relatives: a phylogeny of the large genus Alocasia (Araceae) sheds light on Miocene floristic exchange in the Malesian region\", Molecular Phylogenetics and Evolution 63: 43-51. Source of the Alocasia species tier: four nuclear clades A-D and the 67 species read from Fig. 3b, checked against Table S1 and against the two species-groups the paper names in prose."
    ],
    "speciesCounts": "POWO master export, Araceae_Exports/EXCELS/_run_log.csv (validated accepted species).",
-   "version": "1.11.0",
+   "version": "1.13.0",
    "orthographicVariants": {
     "Stylochiton": "Treated as Stylochaeton Lepr. (MBB no. 34). The POWO export uses Stylochiton; which spelling Kew currently accepts is unconfirmed."
    },
@@ -5940,8 +6469,8 @@
    ],
    "taxa": {
     "basis": "S5+S2",
-    "method": "Stem and crown ages for Aroidpedia's own subfamilies, tribes and genera, read off Nauheimer, Metzler & Renner (2012). Their Fig. S2 chronogram was rebuilt from the vector strokes in the supplement PDF - 146 tip branches and 144 internal branches, exactly the 2T-2 a binary tree of 146 tips must have - so the topology is the drawing itself rather than a reading of it. Node numbers were assigned from the printed numerals and Table S5's ages together (median numeral distance 5.6 pt, median age residual 0.07 Ma), and the result reproduces all nine crown-group labels Table S5 states, all twelve nodes the paper names in prose, and exactly the four genera the paper calls polyphyletic. Every age here is Table S5's number, never a measurement off the figure. STEM is the split from the sampled sister lineage and CROWN the oldest split inside the taxon, so a crown exists only where two or more species were sampled; both are conditioned on the study's 132-taxon sample and are minimum ages for the taxon as circumscribed today. A taxon whose sampled species do not form a clade in this tree carries mono:false and its MRCA instead of a date - that is a finding, not a gap. Note Aroideae: the study kept Zamioculcadoideae separate, so its Aroideae is node 41 (82.1); this tree follows Haigh et al. (2022) in holding Zamioculcadeae and Stylochaetoneae inside Aroideae, which makes the crown node 38 (87.0). SUPERSEDES metadata.chronology.tribes, whose node identities came from reading Fig. 3 by eye: three of them pointed one node off (Cryptocoryneae/Schismatoglottideae stem is 37.2 at node 97, not 45.2 at node 96; Areae 30.3 is the stem, not the crown; the Arisaema lineage stem is node 73 at 31.7, not node 71 at 34.7). Readers on 1.11.0 or later should use taxa and ignore tribes.",
-    "sampledGenera": 116,
+    "method": "Stem and crown ages for Aroidpedia's own subfamilies, tribes and genera, read off Nauheimer, Metzler & Renner (2012). Their Fig. S2 chronogram was rebuilt from the vector strokes in the supplement PDF - 146 tip branches and 144 internal branches, exactly the 2T-2 a binary tree of 146 tips must have - so the topology is the drawing itself rather than a reading of it. Node numbers were assigned from the printed numerals and Table S5's ages together (median numeral distance 5.6 pt, median age residual 0.07 Ma), and the result reproduces all nine crown-group labels Table S5 states, all twelve nodes the paper names in prose, and exactly the four genera the paper calls polyphyletic. Every age here is Table S5's number, never a measurement off the figure. STEM is the split from the sampled sister lineage and CROWN the oldest split inside the taxon, so a crown exists only where two or more species were sampled; both are conditioned on the study's 132-taxon sample and are minimum ages for the taxon as circumscribed today. A taxon whose sampled species do not form a clade in this tree carries mono:false and its MRCA instead of a date - that is a finding, not a gap. Note Aroideae: the study kept Zamioculcadoideae separate, so its Aroideae is node 41 (82.1); this tree follows Haigh et al. (2022) in holding Zamioculcadeae and Stylochaetoneae inside Aroideae, which makes the crown node 38 (87.0). SUPERSEDES metadata.chronology.tribes, whose node identities came from reading Fig. 3 by eye: three of them pointed one node off (Cryptocoryneae/Schismatoglottideae stem is 37.2 at node 97, not 45.2 at node 96; Areae 30.3 is the stem, not the crown; the Arisaema lineage stem is node 73 at 31.7, not node 71 at 34.7). Readers on 1.11.0 or later should use taxa and ignore tribes. 1.12.0: two synonymies applied before the tips were mapped - Landoltia is Spirodela, and Pseudodracontium is Amorphophallus (Claudel et al. 2017, followed by POWO). Both were separate tips in the study, so folding them changes what those two genera are: Spirodela and Amorphophallus each gain a sampled tip, and Amorphophallus no longer has a sister genus to take a stem age from.",
+    "sampledGenera": 115,
     "subfamily": {
      "Aroideae": {
       "tips": 96,
@@ -5983,8 +6512,7 @@
       "crownNode": 29
      },
      "Lemnoideae": {
-      "tips": 4,
-      "note": "the clade also holds Landoltia, sampled by the study but not among the genera this tree files",
+      "tips": 5,
       "stem": 103.55,
       "stemHpd": [
        93.0,
@@ -6429,19 +6957,19 @@
       "stemNode": 63
      },
      "Amorphophallus": {
-      "tips": 2,
-      "stem": 24.17,
+      "tips": 3,
+      "stem": 58.49,
       "stemHpd": [
+       47.42,
+       68.23
+      ],
+      "stemNode": 48,
+      "crown": 24.17,
+      "crownHpd": [
        9.76,
        40.43
       ],
-      "stemNode": 49,
-      "crown": 20.98,
-      "crownHpd": [
-       8.5,
-       36.72
-      ],
-      "crownNode": 50
+      "crownNode": 49
      },
      "Amydrium": {
       "tips": 1,
@@ -7115,15 +7643,6 @@
       ],
       "stemNode": 95
      },
-     "Pseudodracontium": {
-      "tips": 1,
-      "stem": 24.17,
-      "stemHpd": [
-       9.76,
-       40.43
-      ],
-      "stemNode": 49
-     },
      "Pseudohydrosme": {
       "tips": 1,
       "stem": 10.2,
@@ -7248,13 +7767,10 @@
       "stemNode": 27
      },
      "Spirodela": {
-      "tips": 1,
-      "stem": 73.37,
-      "stemHpd": [
-       59.46,
-       87.91
-      ],
-      "stemNode": 7
+      "tips": 2,
+      "mono": false,
+      "mrca": 73.37,
+      "mrcaNode": 7
      },
      "Stenospermation": {
       "tips": 1,
