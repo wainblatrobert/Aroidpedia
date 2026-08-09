@@ -1272,163 +1272,893 @@
        },
        "children": [
         {
-         "id": "clade-alocasia-crown",
-         "name": "crown Alocasia",
+         "id": "clade-alocasia-a",
+         "name": "Clade A",
          "rank": "clade",
-         "anon": true,
-         "figNode": 26,
+         "figNode": 27,
+         "note": "Most of the longiloba group: strongly rhythmic growth, thinly membranous cataphylls, solitary or few leaves with often peltate, pendulous blades. Also holds a group of massive Indochinese species.",
          "children": [
           {
-           "id": "clade-alocasia-a",
-           "name": "Clade A",
+           "id": "species-alocasia-sp-nov-setiam",
+           "name": "Alocasia sp. nov. Setiam",
+           "rank": "species",
+           "undescribed": true,
+           "chron": {
+            "stem": 9.86,
+            "tips": 1
+           }
+          },
+          {
+           "id": "node-alocasia-28",
+           "name": "node 28",
+           "anon": true,
            "rank": "clade",
-           "figNode": 27,
-           "note": "Most of the longiloba group: strongly rhythmic growth, thinly membranous cataphylls, solitary or few leaves with often peltate, pendulous blades. Also holds a group of massive Indochinese species.",
+           "figNode": 28,
            "children": [
             {
-             "id": "species-alocasia-sp-nov-setiam",
-             "name": "Alocasia sp. nov. Setiam",
-             "rank": "species",
-             "undescribed": true,
-             "chron": {
-              "stem": 9.86,
-              "tips": 1
-             }
-            },
-            {
-             "id": "node-alocasia-28",
-             "name": "node 28",
+             "id": "node-alocasia-29",
+             "name": "node 29",
              "anon": true,
              "rank": "clade",
-             "figNode": 28,
+             "figNode": 29,
              "children": [
               {
-               "id": "node-alocasia-29",
-               "name": "node 29",
+               "id": "species-alocasia-beccarii",
+               "name": "Alocasia beccarii",
+               "rank": "species",
+               "chron": {
+                "stem": 7.2,
+                "tips": 1
+               },
+               "powo": true
+              },
+              {
+               "id": "node-alocasia-30",
+               "name": "node 30",
                "anon": true,
                "rank": "clade",
-               "figNode": 29,
+               "figNode": 30,
                "children": [
                 {
-                 "id": "species-alocasia-beccarii",
-                 "name": "Alocasia beccarii",
+                 "id": "species-alocasia-acuminata",
+                 "name": "Alocasia acuminata",
                  "rank": "species",
                  "chron": {
-                  "stem": 7.2,
+                  "stem": 3.48,
                   "tips": 1
                  },
                  "powo": true
                 },
                 {
-                 "id": "node-alocasia-30",
-                 "name": "node 30",
+                 "id": "node-alocasia-31",
+                 "name": "node 31",
                  "anon": true,
                  "rank": "clade",
-                 "figNode": 30,
+                 "figNode": 31,
                  "children": [
                   {
-                   "id": "species-alocasia-acuminata",
-                   "name": "Alocasia acuminata",
+                   "id": "species-alocasia-gageana",
+                   "name": "Alocasia gageana",
                    "rank": "species",
                    "chron": {
-                    "stem": 3.48,
+                    "stem": 2.21,
+                    "tips": 1
+                   }
+                  },
+                  {
+                   "id": "node-alocasia-32",
+                   "name": "node 32",
+                   "anon": true,
+                   "rank": "clade",
+                   "figNode": 32,
+                   "children": [
+                    {
+                     "id": "group-alocasia-odora",
+                     "name": "2 species, sequences identical",
+                     "rank": "clade",
+                     "anon": true,
+                     "identical": true,
+                     "note": "The nuclear marker gives these 2 accessions identical or near-identical sequences. The study excluded the duplicates from the dating run and drew them as one terminal, so when they diverged from each other is not known.",
+                     "chron": {
+                      "stem": 1.31,
+                      "tips": 2,
+                      "note": "sequences identical - undated below this point"
+                     },
+                     "children": [
+                      {
+                       "id": "species-alocasia-odora",
+                       "name": "Alocasia odora",
+                       "rank": "species",
+                       "powo": true
+                      },
+                      {
+                       "id": "species-alocasia-navicularis",
+                       "name": "Alocasia navicularis",
+                       "rank": "species",
+                       "powo": true
+                      }
+                     ],
+                     "speciesCount": 2
+                    },
+                    {
+                     "id": "species-alocasia-cucullata",
+                     "name": "Alocasia cucullata",
+                     "rank": "species",
+                     "chron": {
+                      "stem": 1.31,
+                      "tips": 1
+                     },
+                     "powo": true
+                    }
+                   ],
+                   "chron": {
+                    "stem": 2.21,
+                    "crown": 1.31,
+                    "crownHpd": [
+                     0.0,
+                     2.9
+                    ],
+                    "pp": 0.2,
+                    "tips": 3
+                   },
+                   "speciesCount": 3
+                  }
+                 ],
+                 "chron": {
+                  "stem": 3.48,
+                  "crown": 2.21,
+                  "crownHpd": [
+                   0.5,
+                   4.2
+                  ],
+                  "pp": 0.4,
+                  "tips": 4
+                 },
+                 "speciesCount": 4
+                }
+               ],
+               "chron": {
+                "stem": 7.2,
+                "crown": 3.48,
+                "crownHpd": [
+                 1.1,
+                 6.2
+                ],
+                "pp": 1.0,
+                "tips": 5
+               },
+               "speciesCount": 5
+              }
+             ],
+             "chron": {
+              "stem": 8.76,
+              "crown": 7.2,
+              "crownHpd": [
+               4.2,
+               11.0
+              ],
+              "pp": 0.2,
+              "tips": 6
+             },
+             "speciesCount": 6
+            },
+            {
+             "id": "node-alocasia-33",
+             "name": "node 33",
+             "anon": true,
+             "rank": "clade",
+             "figNode": 33,
+             "children": [
+              {
+               "id": "node-alocasia-34",
+               "name": "node 34",
+               "anon": true,
+               "rank": "clade",
+               "figNode": 34,
+               "children": [
+                {
+                 "id": "species-alocasia-longiloba-accession-1",
+                 "name": "Alocasia longiloba",
+                 "rank": "species",
+                 "accession": "accession 1",
+                 "chron": {
+                  "stem": 3.92,
+                  "tips": 1
+                 },
+                 "powo": true
+                },
+                {
+                 "id": "species-alocasia-peltata",
+                 "name": "Alocasia peltata",
+                 "rank": "species",
+                 "chron": {
+                  "stem": 3.92,
+                  "tips": 1
+                 },
+                 "powo": true
+                }
+               ],
+               "chron": {
+                "stem": 6.61,
+                "crown": 3.92,
+                "crownHpd": [
+                 1.2,
+                 6.8
+                ],
+                "pp": 0.4,
+                "tips": 2
+               },
+               "speciesCount": 2
+              },
+              {
+               "id": "node-alocasia-35",
+               "name": "node 35",
+               "anon": true,
+               "rank": "clade",
+               "figNode": 35,
+               "children": [
+                {
+                 "id": "node-alocasia-39",
+                 "name": "node 39",
+                 "anon": true,
+                 "rank": "clade",
+                 "figNode": 39,
+                 "children": [
+                  {
+                   "id": "species-alocasia-argyrea",
+                   "name": "Alocasia argyrea",
+                   "rank": "species",
+                   "chron": {
+                    "stem": 3.04,
+                    "tips": 1
+                   }
+                  },
+                  {
+                   "id": "node-alocasia-40",
+                   "name": "node 40",
+                   "anon": true,
+                   "rank": "clade",
+                   "figNode": 40,
+                   "children": [
+                    {
+                     "id": "species-alocasia-grandis",
+                     "name": "Alocasia grandis",
+                     "rank": "species",
+                     "chron": {
+                      "stem": 1.97,
+                      "tips": 1
+                     }
+                    },
+                    {
+                     "id": "species-alocasia-denudata",
+                     "name": "Alocasia denudata",
+                     "rank": "species",
+                     "chron": {
+                      "stem": 1.97,
+                      "tips": 1
+                     }
+                    }
+                   ],
+                   "chron": {
+                    "stem": 3.04,
+                    "crown": 1.97,
+                    "crownHpd": [
+                     0.3,
+                     3.8
+                    ],
+                    "pp": 0.5,
+                    "tips": 2
+                   },
+                   "speciesCount": 2
+                  }
+                 ],
+                 "chron": {
+                  "stem": 5.17,
+                  "crown": 3.04,
+                  "crownHpd": [
+                   1.1,
+                   5.2
+                  ],
+                  "pp": 1.0,
+                  "tips": 3
+                 },
+                 "speciesCount": 3
+                },
+                {
+                 "id": "node-alocasia-36",
+                 "name": "node 36",
+                 "anon": true,
+                 "rank": "clade",
+                 "figNode": 36,
+                 "children": [
+                  {
+                   "id": "species-alocasia-sanderiana",
+                   "name": "Alocasia sanderiana",
+                   "rank": "species",
+                   "chron": {
+                    "stem": 3.92,
                     "tips": 1
                    },
                    "powo": true
                   },
                   {
-                   "id": "node-alocasia-31",
-                   "name": "node 31",
+                   "id": "node-alocasia-37",
+                   "name": "node 37",
                    "anon": true,
                    "rank": "clade",
-                   "figNode": 31,
+                   "figNode": 37,
                    "children": [
                     {
-                     "id": "species-alocasia-gageana",
-                     "name": "Alocasia gageana",
+                     "id": "species-alocasia-lowii",
+                     "name": "Alocasia lowii",
                      "rank": "species",
                      "chron": {
-                      "stem": 2.21,
+                      "stem": 2.22,
                       "tips": 1
                      }
                     },
                     {
-                     "id": "node-alocasia-32",
-                     "name": "node 32",
+                     "id": "node-alocasia-38",
+                     "name": "node 38",
                      "anon": true,
                      "rank": "clade",
-                     "figNode": 32,
+                     "figNode": 38,
                      "children": [
                       {
-                       "id": "group-alocasia-odora",
-                       "name": "2 species, sequences identical",
+                       "id": "species-alocasia-watsoniana-accession-2",
+                       "name": "Alocasia watsoniana",
+                       "rank": "species",
+                       "accession": "accession 2",
+                       "chron": {
+                        "stem": 1.22,
+                        "tips": 1
+                       }
+                      },
+                      {
+                       "id": "group-alocasia-longiloba",
+                       "name": "4 species, sequences identical",
                        "rank": "clade",
                        "anon": true,
                        "identical": true,
-                       "note": "The nuclear marker gives these 2 accessions identical or near-identical sequences. The study excluded the duplicates from the dating run and drew them as one terminal, so when they diverged from each other is not known.",
+                       "note": "The nuclear marker gives these 4 accessions identical or near-identical sequences. The study excluded the duplicates from the dating run and drew them as one terminal, so when they diverged from each other is not known.",
                        "chron": {
-                        "stem": 1.31,
-                        "tips": 2,
+                        "stem": 1.22,
+                        "tips": 3,
                         "note": "sequences identical - undated below this point"
                        },
                        "children": [
                         {
-                         "id": "species-alocasia-odora",
-                         "name": "Alocasia odora",
+                         "id": "species-alocasia-longiloba-accession-2",
+                         "name": "Alocasia longiloba",
                          "rank": "species",
+                         "accession": "accession 2",
                          "powo": true
                         },
                         {
-                         "id": "species-alocasia-navicularis",
-                         "name": "Alocasia navicularis",
+                         "id": "species-alocasia-longiloba-accession-3",
+                         "name": "Alocasia longiloba",
                          "rank": "species",
+                         "accession": "accession 3",
                          "powo": true
+                        },
+                        {
+                         "id": "species-alocasia-watsoniana-accession-1",
+                         "name": "Alocasia watsoniana",
+                         "rank": "species",
+                         "accession": "accession 1"
+                        },
+                        {
+                         "id": "species-alocasia-korthalsii",
+                         "name": "Alocasia korthalsii",
+                         "rank": "species"
                         }
                        ],
-                       "speciesCount": 2
-                      },
-                      {
-                       "id": "species-alocasia-cucullata",
-                       "name": "Alocasia cucullata",
-                       "rank": "species",
-                       "chron": {
-                        "stem": 1.31,
-                        "tips": 1
-                       },
-                       "powo": true
+                       "speciesCount": 3
                       }
                      ],
                      "chron": {
-                      "stem": 2.21,
-                      "crown": 1.31,
+                      "stem": 2.22,
+                      "crown": 1.22,
                       "crownHpd": [
-                       0.0,
-                       2.9
+                       0.1,
+                       2.7
                       ],
-                      "pp": 0.2,
+                      "pp": 0.5,
                       "tips": 3
                      },
                      "speciesCount": 3
                     }
                    ],
                    "chron": {
-                    "stem": 3.48,
-                    "crown": 2.21,
+                    "stem": 3.92,
+                    "crown": 2.22,
                     "crownHpd": [
-                     0.5,
-                     4.2
+                     0.6,
+                     4.1
                     ],
-                    "pp": 0.4,
+                    "pp": 1.0,
                     "tips": 4
                    },
                    "speciesCount": 4
                   }
                  ],
                  "chron": {
-                  "stem": 7.2,
-                  "crown": 3.48,
+                  "stem": 5.17,
+                  "crown": 3.92,
                   "crownHpd": [
-                   1.1,
+                   1.7,
+                   6.4
+                  ],
+                  "pp": 0.2,
+                  "tips": 5
+                 },
+                 "speciesCount": 5
+                }
+               ],
+               "chron": {
+                "stem": 6.61,
+                "crown": 5.17,
+                "crownHpd": [
+                 2.8,
+                 8.0
+                ],
+                "pp": 0.3,
+                "tips": 8
+               },
+               "speciesCount": 8
+              }
+             ],
+             "chron": {
+              "stem": 8.76,
+              "crown": 6.61,
+              "crownHpd": [
+               3.8,
+               9.8
+              ],
+              "pp": 0.3,
+              "tips": 9
+             },
+             "speciesCount": 9
+            }
+           ],
+           "chron": {
+            "stem": 9.86,
+            "crown": 8.76,
+            "crownHpd": [
+             5.7,
+             12.5
+            ],
+            "pp": 0.2,
+            "tips": 15
+           },
+           "speciesCount": 15
+          }
+         ],
+         "chron": {
+          "stem": 13.49,
+          "crown": 9.86,
+          "crownHpd": [
+           6.3,
+           13.6
+          ],
+          "pp": 0.9,
+          "tips": 16
+         },
+         "speciesCount": 16
+        },
+        {
+         "id": "node-alocasia-41",
+         "name": "node 41",
+         "anon": true,
+         "rank": "clade",
+         "figNode": 41,
+         "children": [
+          {
+           "id": "node-alocasia-42",
+           "name": "node 42",
+           "anon": true,
+           "rank": "clade",
+           "figNode": 42,
+           "children": [
+            {
+             "id": "clade-alocasia-c",
+             "name": "Clade C",
+             "rank": "clade",
+             "figNode": 50,
+             "note": "Species with short-lived leaves and proportionately long petiolar sheaths, including the New Guinean Xenophya group.",
+             "children": [
+              {
+               "id": "node-alocasia-51",
+               "name": "node 51",
+               "anon": true,
+               "rank": "clade",
+               "figNode": 51,
+               "children": [
+                {
+                 "id": "species-alocasia-suhirmaniana",
+                 "name": "Alocasia suhirmaniana",
+                 "rank": "species",
+                 "chron": {
+                  "stem": 2.62,
+                  "tips": 1
+                 },
+                 "powo": true
+                },
+                {
+                 "id": "species-alocasia-longiloba-accession-4",
+                 "name": "Alocasia longiloba",
+                 "rank": "species",
+                 "accession": "accession 4",
+                 "chron": {
+                  "stem": 2.62,
+                  "tips": 1
+                 },
+                 "powo": true
+                }
+               ],
+               "chron": {
+                "stem": 7.24,
+                "crown": 2.62,
+                "crownHpd": [
+                 0.6,
+                 4.9
+                ],
+                "pp": 1.0,
+                "tips": 2
+               },
+               "speciesCount": 2
+              },
+              {
+               "id": "node-alocasia-52",
+               "name": "node 52",
+               "anon": true,
+               "rank": "clade",
+               "figNode": 52,
+               "children": [
+                {
+                 "id": "species-alocasia-zebrina",
+                 "name": "Alocasia zebrina",
+                 "rank": "species",
+                 "chron": {
+                  "stem": 6.1,
+                  "tips": 1
+                 },
+                 "powo": true
+                },
+                {
+                 "id": "node-alocasia-53",
+                 "name": "node 53",
+                 "anon": true,
+                 "rank": "clade",
+                 "figNode": 53,
+                 "children": [
+                  {
+                   "id": "species-alocasia-brisbanensis",
+                   "name": "Alocasia brisbanensis",
+                   "rank": "species",
+                   "chron": {
+                    "stem": 4.8,
+                    "tips": 1
+                   },
+                   "powo": true
+                  },
+                  {
+                   "id": "node-alocasia-54",
+                   "name": "node 54",
+                   "anon": true,
+                   "rank": "clade",
+                   "figNode": 54,
+                   "children": [
+                    {
+                     "id": "species-alocasia-lauterbachiana",
+                     "name": "Alocasia lauterbachiana",
+                     "rank": "species",
+                     "chron": {
+                      "stem": 1.44,
+                      "tips": 1
+                     },
+                     "powo": true
+                    },
+                    {
+                     "id": "group-alocasia-boa",
+                     "name": "3 species, sequences identical",
+                     "rank": "clade",
+                     "anon": true,
+                     "identical": true,
+                     "note": "The nuclear marker gives these 3 accessions identical or near-identical sequences. The study excluded the duplicates from the dating run and drew them as one terminal, so when they diverged from each other is not known.",
+                     "chron": {
+                      "stem": 1.44,
+                      "tips": 3,
+                      "note": "sequences identical - undated below this point"
+                     },
+                     "children": [
+                      {
+                       "id": "species-alocasia-boa",
+                       "name": "Alocasia boa",
+                       "rank": "species",
+                       "powo": true
+                      },
+                      {
+                       "id": "species-alocasia-hollrungii",
+                       "name": "Alocasia hollrungii",
+                       "rank": "species",
+                       "powo": true
+                      },
+                      {
+                       "id": "species-alocasia-monticola",
+                       "name": "Alocasia monticola",
+                       "rank": "species",
+                       "powo": true
+                      }
+                     ],
+                     "speciesCount": 3
+                    }
+                   ],
+                   "chron": {
+                    "stem": 4.8,
+                    "crown": 1.44,
+                    "crownHpd": [
+                     0.1,
+                     3.3
+                    ],
+                    "pp": 1.0,
+                    "tips": 4
+                   },
+                   "speciesCount": 4
+                  }
+                 ],
+                 "chron": {
+                  "stem": 6.1,
+                  "crown": 4.8,
+                  "crownHpd": [
+                   2.3,
+                   7.9
+                  ],
+                  "pp": 0.3,
+                  "tips": 5
+                 },
+                 "speciesCount": 5
+                }
+               ],
+               "chron": {
+                "stem": 7.24,
+                "crown": 6.1,
+                "crownHpd": [
+                 3.6,
+                 9.0
+                ],
+                "pp": 0.2,
+                "tips": 6
+               },
+               "speciesCount": 6
+              }
+             ],
+             "chron": {
+              "stem": 10.36,
+              "crown": 7.24,
+              "crownHpd": [
+               4.4,
+               10.3
+              ],
+              "pp": 1.0,
+              "tips": 8
+             },
+             "speciesCount": 8
+            },
+            {
+             "id": "clade-alocasia-b",
+             "name": "Clade B",
+             "rank": "clade",
+             "figNode": 43,
+             "note": "The massive caulescent species, including the edible A. macrorrhizos and three accessions of A. robusta.",
+             "children": [
+              {
+               "id": "node-alocasia-47",
+               "name": "node 47",
+               "anon": true,
+               "rank": "clade",
+               "figNode": 47,
+               "children": [
+                {
+                 "id": "species-alocasia-alba",
+                 "name": "Alocasia alba",
+                 "rank": "species",
+                 "chron": {
+                  "stem": 7.22,
+                  "tips": 1
+                 },
+                 "powo": true
+                },
+                {
+                 "id": "node-alocasia-48",
+                 "name": "node 48",
+                 "anon": true,
+                 "rank": "clade",
+                 "figNode": 48,
+                 "children": [
+                  {
+                   "id": "species-alocasia-robusta-red-sarawak",
+                   "name": "Alocasia robusta",
+                   "rank": "species",
+                   "accession": "red Sarawak",
+                   "chron": {
+                    "stem": 2.92,
+                    "tips": 1
+                   },
+                   "powo": true
+                  },
+                  {
+                   "id": "node-alocasia-49",
+                   "name": "node 49",
+                   "anon": true,
+                   "rank": "clade",
+                   "figNode": 49,
+                   "children": [
+                    {
+                     "id": "species-alocasia-robusta-white-sabah",
+                     "name": "Alocasia robusta",
+                     "rank": "species",
+                     "accession": "white Sabah",
+                     "chron": {
+                      "stem": 1.46,
+                      "tips": 1
+                     },
+                     "powo": true
+                    },
+                    {
+                     "id": "species-alocasia-robusta-red-sabah",
+                     "name": "Alocasia robusta",
+                     "rank": "species",
+                     "accession": "red Sabah",
+                     "chron": {
+                      "stem": 1.46,
+                      "tips": 1
+                     },
+                     "powo": true
+                    }
+                   ],
+                   "chron": {
+                    "stem": 2.92,
+                    "crown": 1.46,
+                    "crownHpd": [
+                     0.1,
+                     3.0
+                    ],
+                    "pp": 1.0,
+                    "tips": 1
+                   },
+                   "speciesCount": 1
+                  }
+                 ],
+                 "chron": {
+                  "stem": 7.22,
+                  "crown": 2.92,
+                  "crownHpd": [
+                   0.9,
+                   5.1
+                  ],
+                  "pp": 1.0,
+                  "tips": 1
+                 },
+                 "speciesCount": 1
+                }
+               ],
+               "chron": {
+                "stem": 8.47,
+                "crown": 7.22,
+                "crownHpd": [
+                 4.2,
+                 10.3
+                ],
+                "pp": 0.3,
+                "tips": 2
+               },
+               "speciesCount": 2
+              },
+              {
+               "id": "node-alocasia-44",
+               "name": "node 44",
+               "anon": true,
+               "rank": "clade",
+               "figNode": 44,
+               "children": [
+                {
+                 "id": "species-alocasia-micholitziana",
+                 "name": "Alocasia micholitziana",
+                 "rank": "species",
+                 "chron": {
+                  "stem": 5.71,
+                  "tips": 1
+                 },
+                 "powo": true
+                },
+                {
+                 "id": "node-alocasia-45",
+                 "name": "node 45",
+                 "anon": true,
+                 "rank": "clade",
+                 "figNode": 45,
+                 "children": [
+                  {
+                   "id": "species-alocasia-atropurpurea",
+                   "name": "Alocasia atropurpurea",
+                   "rank": "species",
+                   "chron": {
+                    "stem": 3.69,
+                    "tips": 1
+                   },
+                   "powo": true
+                  },
+                  {
+                   "id": "node-alocasia-46",
+                   "name": "node 46",
+                   "anon": true,
+                   "rank": "clade",
+                   "figNode": 46,
+                   "children": [
+                    {
+                     "id": "species-alocasia-sp-nov-mpm1",
+                     "name": "Alocasia sp. nov. MPM1",
+                     "rank": "species",
+                     "undescribed": true,
+                     "chron": {
+                      "stem": 1.34,
+                      "tips": 1
+                     }
+                    },
+                    {
+                     "id": "group-alocasia-macrorrhizos",
+                     "name": "3 species, sequences identical",
+                     "rank": "clade",
+                     "anon": true,
+                     "identical": true,
+                     "note": "The nuclear marker gives these 3 accessions identical or near-identical sequences. The study excluded the duplicates from the dating run and drew them as one terminal, so when they diverged from each other is not known.",
+                     "chron": {
+                      "stem": 1.34,
+                      "tips": 3,
+                      "note": "sequences identical - undated below this point"
+                     },
+                     "children": [
+                      {
+                       "id": "species-alocasia-macrorrhizos",
+                       "name": "Alocasia macrorrhizos",
+                       "rank": "species",
+                       "powo": true
+                      },
+                      {
+                       "id": "species-alocasia-portei",
+                       "name": "Alocasia portei",
+                       "rank": "species",
+                       "powo": true
+                      },
+                      {
+                       "id": "species-alocasia-sp-nov-bo07",
+                       "name": "Alocasia sp. nov. Bo07",
+                       "rank": "species",
+                       "undescribed": true
+                      }
+                     ],
+                     "speciesCount": 3
+                    }
+                   ],
+                   "chron": {
+                    "stem": 3.69,
+                    "crown": 1.34,
+                    "crownHpd": [
+                     0.0,
+                     3.0
+                    ],
+                    "pp": 1.0,
+                    "tips": 4
+                   },
+                   "speciesCount": 4
+                  }
+                 ],
+                 "chron": {
+                  "stem": 5.71,
+                  "crown": 3.69,
+                  "crownHpd": [
+                   1.4,
                    6.2
                   ],
                   "pp": 1.0,
@@ -1438,120 +2168,172 @@
                 }
                ],
                "chron": {
-                "stem": 8.76,
-                "crown": 7.2,
+                "stem": 8.47,
+                "crown": 5.71,
                 "crownHpd": [
-                 4.2,
-                 11.0
+                 3.0,
+                 8.6
                 ],
-                "pp": 0.2,
+                "pp": 0.9,
                 "tips": 6
                },
                "speciesCount": 6
-              },
+              }
+             ],
+             "chron": {
+              "stem": 10.36,
+              "crown": 8.47,
+              "crownHpd": [
+               5.5,
+               11.6
+              ],
+              "pp": 0.9,
+              "tips": 8
+             },
+             "speciesCount": 8
+            }
+           ],
+           "chron": {
+            "stem": 11.28,
+            "crown": 10.36,
+            "crownHpd": [
+             7.5,
+             13.9
+            ],
+            "pp": 0.3,
+            "tips": 16
+           },
+           "speciesCount": 16
+          },
+          {
+           "id": "node-alocasia-55",
+           "name": "node 55",
+           "anon": true,
+           "rank": "clade",
+           "figNode": 55,
+           "children": [
+            {
+             "id": "species-alocasia-perakensis",
+             "name": "Alocasia perakensis",
+             "rank": "species",
+             "chron": {
+              "stem": 8.78,
+              "tips": 1
+             },
+             "powo": true
+            },
+            {
+             "id": "clade-alocasia-d",
+             "name": "Clade D",
+             "rank": "clade",
+             "figNode": 56,
+             "note": "Small or robust, often lithophytic species - the princeps group and the scabriuscula group.",
+             "children": [
               {
-               "id": "node-alocasia-33",
-               "name": "node 33",
+               "id": "node-alocasia-72",
+               "name": "node 72",
                "anon": true,
                "rank": "clade",
-               "figNode": 33,
+               "figNode": 72,
                "children": [
                 {
-                 "id": "node-alocasia-34",
-                 "name": "node 34",
+                 "id": "node-alocasia-77",
+                 "name": "node 77",
                  "anon": true,
                  "rank": "clade",
-                 "figNode": 34,
+                 "figNode": 77,
                  "children": [
                   {
-                   "id": "species-alocasia-longiloba-accession-1",
-                   "name": "Alocasia longiloba",
-                   "rank": "species",
-                   "accession": "accession 1",
-                   "chron": {
-                    "stem": 3.92,
-                    "tips": 1
-                   },
-                   "powo": true
-                  },
-                  {
-                   "id": "species-alocasia-peltata",
-                   "name": "Alocasia peltata",
-                   "rank": "species",
-                   "chron": {
-                    "stem": 3.92,
-                    "tips": 1
-                   },
-                   "powo": true
-                  }
-                 ],
-                 "chron": {
-                  "stem": 6.61,
-                  "crown": 3.92,
-                  "crownHpd": [
-                   1.2,
-                   6.8
-                  ],
-                  "pp": 0.4,
-                  "tips": 2
-                 },
-                 "speciesCount": 2
-                },
-                {
-                 "id": "node-alocasia-35",
-                 "name": "node 35",
-                 "anon": true,
-                 "rank": "clade",
-                 "figNode": 35,
-                 "children": [
-                  {
-                   "id": "node-alocasia-39",
-                   "name": "node 39",
+                   "id": "node-alocasia-80",
+                   "name": "node 80",
                    "anon": true,
                    "rank": "clade",
-                   "figNode": 39,
+                   "figNode": 80,
                    "children": [
                     {
-                     "id": "species-alocasia-argyrea",
-                     "name": "Alocasia argyrea",
+                     "id": "species-alocasia-sp-nov-bo11",
+                     "name": "Alocasia sp. nov. Bo11",
                      "rank": "species",
+                     "undescribed": true,
                      "chron": {
-                      "stem": 3.04,
+                      "stem": 1.27,
                       "tips": 1
                      }
                     },
                     {
-                     "id": "node-alocasia-40",
-                     "name": "node 40",
+                     "id": "species-alocasia-wongii",
+                     "name": "Alocasia wongii",
+                     "rank": "species",
+                     "chron": {
+                      "stem": 1.27,
+                      "tips": 1
+                     },
+                     "powo": true
+                    }
+                   ],
+                   "chron": {
+                    "stem": 3.39,
+                    "crown": 1.27,
+                    "crownHpd": [
+                     0.0,
+                     2.8
+                    ],
+                    "pp": 1.0,
+                    "tips": 2
+                   },
+                   "speciesCount": 2
+                  },
+                  {
+                   "id": "node-alocasia-78",
+                   "name": "node 78",
+                   "anon": true,
+                   "rank": "clade",
+                   "figNode": 78,
+                   "children": [
+                    {
+                     "id": "species-alocasia-cuprea",
+                     "name": "Alocasia cuprea",
+                     "rank": "species",
+                     "chron": {
+                      "stem": 1.99,
+                      "tips": 1
+                     },
+                     "powo": true
+                    },
+                    {
+                     "id": "node-alocasia-79",
+                     "name": "node 79",
                      "anon": true,
                      "rank": "clade",
-                     "figNode": 40,
+                     "figNode": 79,
                      "children": [
                       {
-                       "id": "species-alocasia-grandis",
-                       "name": "Alocasia grandis",
+                       "id": "species-alocasia-infernalis",
+                       "name": "Alocasia infernalis",
                        "rank": "species",
                        "chron": {
-                        "stem": 1.97,
+                        "stem": 1.12,
                         "tips": 1
-                       }
+                       },
+                       "powo": true
                       },
                       {
-                       "id": "species-alocasia-denudata",
-                       "name": "Alocasia denudata",
+                       "id": "species-alocasia-sp-nov-sept",
+                       "name": "Alocasia sp. nov. Sept",
                        "rank": "species",
+                       "undescribed": true,
                        "chron": {
-                        "stem": 1.97,
+                        "stem": 1.12,
                         "tips": 1
                        }
                       }
                      ],
                      "chron": {
-                      "stem": 3.04,
-                      "crown": 1.97,
+                      "stem": 1.99,
+                      "crown": 1.12,
                       "crownHpd": [
-                       0.3,
-                       3.8
+                       0.1,
+                       2.4
                       ],
                       "pp": 0.5,
                       "tips": 2
@@ -1560,1579 +2342,771 @@
                     }
                    ],
                    "chron": {
-                    "stem": 5.17,
-                    "crown": 3.04,
+                    "stem": 3.39,
+                    "crown": 1.99,
                     "crownHpd": [
-                     1.1,
-                     5.2
+                     0.5,
+                     3.6
                     ],
                     "pp": 1.0,
                     "tips": 3
                    },
                    "speciesCount": 3
-                  },
-                  {
-                   "id": "node-alocasia-36",
-                   "name": "node 36",
-                   "anon": true,
-                   "rank": "clade",
-                   "figNode": 36,
-                   "children": [
-                    {
-                     "id": "species-alocasia-sanderiana",
-                     "name": "Alocasia sanderiana",
-                     "rank": "species",
-                     "chron": {
-                      "stem": 3.92,
-                      "tips": 1
-                     },
-                     "powo": true
-                    },
-                    {
-                     "id": "node-alocasia-37",
-                     "name": "node 37",
-                     "anon": true,
-                     "rank": "clade",
-                     "figNode": 37,
-                     "children": [
-                      {
-                       "id": "species-alocasia-lowii",
-                       "name": "Alocasia lowii",
-                       "rank": "species",
-                       "chron": {
-                        "stem": 2.22,
-                        "tips": 1
-                       }
-                      },
-                      {
-                       "id": "node-alocasia-38",
-                       "name": "node 38",
-                       "anon": true,
-                       "rank": "clade",
-                       "figNode": 38,
-                       "children": [
-                        {
-                         "id": "species-alocasia-watsoniana-accession-2",
-                         "name": "Alocasia watsoniana",
-                         "rank": "species",
-                         "accession": "accession 2",
-                         "chron": {
-                          "stem": 1.22,
-                          "tips": 1
-                         }
-                        },
-                        {
-                         "id": "group-alocasia-longiloba",
-                         "name": "4 species, sequences identical",
-                         "rank": "clade",
-                         "anon": true,
-                         "identical": true,
-                         "note": "The nuclear marker gives these 4 accessions identical or near-identical sequences. The study excluded the duplicates from the dating run and drew them as one terminal, so when they diverged from each other is not known.",
-                         "chron": {
-                          "stem": 1.22,
-                          "tips": 4,
-                          "note": "sequences identical - undated below this point"
-                         },
-                         "children": [
-                          {
-                           "id": "species-alocasia-longiloba-accession-2",
-                           "name": "Alocasia longiloba",
-                           "rank": "species",
-                           "accession": "accession 2",
-                           "powo": true
-                          },
-                          {
-                           "id": "species-alocasia-longiloba-accession-3",
-                           "name": "Alocasia longiloba",
-                           "rank": "species",
-                           "accession": "accession 3",
-                           "powo": true
-                          },
-                          {
-                           "id": "species-alocasia-watsoniana-accession-1",
-                           "name": "Alocasia watsoniana",
-                           "rank": "species",
-                           "accession": "accession 1"
-                          },
-                          {
-                           "id": "species-alocasia-korthalsii",
-                           "name": "Alocasia korthalsii",
-                           "rank": "species"
-                          }
-                         ],
-                         "speciesCount": 3
-                        }
-                       ],
-                       "chron": {
-                        "stem": 2.22,
-                        "crown": 1.22,
-                        "crownHpd": [
-                         0.1,
-                         2.7
-                        ],
-                        "pp": 0.5,
-                        "tips": 5
-                       },
-                       "speciesCount": 3
-                      }
-                     ],
-                     "chron": {
-                      "stem": 3.92,
-                      "crown": 2.22,
-                      "crownHpd": [
-                       0.6,
-                       4.1
-                      ],
-                      "pp": 1.0,
-                      "tips": 6
-                     },
-                     "speciesCount": 4
-                    }
-                   ],
-                   "chron": {
-                    "stem": 5.17,
-                    "crown": 3.92,
-                    "crownHpd": [
-                     1.7,
-                     6.4
-                    ],
-                    "pp": 0.2,
-                    "tips": 7
-                   },
-                   "speciesCount": 5
                   }
                  ],
                  "chron": {
-                  "stem": 6.61,
-                  "crown": 5.17,
+                  "stem": 4.87,
+                  "crown": 3.39,
                   "crownHpd": [
-                   2.8,
-                   8.0
+                   1.4,
+                   5.4
                   ],
-                  "pp": 0.3,
-                  "tips": 10
+                  "pp": 0.9,
+                  "tips": 5
                  },
-                 "speciesCount": 8
-                }
-               ],
-               "chron": {
-                "stem": 8.76,
-                "crown": 6.61,
-                "crownHpd": [
-                 3.8,
-                 9.8
-                ],
-                "pp": 0.3,
-                "tips": 12
-               },
-               "speciesCount": 9
-              }
-             ],
-             "chron": {
-              "stem": 9.86,
-              "crown": 8.76,
-              "crownHpd": [
-               5.7,
-               12.5
-              ],
-              "pp": 0.2,
-              "tips": 18
-             },
-             "speciesCount": 15
-            }
-           ],
-           "chron": {
-            "stem": 13.49,
-            "crown": 9.86,
-            "crownHpd": [
-             6.3,
-             13.6
-            ],
-            "pp": 0.9,
-            "tips": 19
-           },
-           "speciesCount": 16
-          },
-          {
-           "id": "node-alocasia-41",
-           "name": "node 41",
-           "anon": true,
-           "rank": "clade",
-           "figNode": 41,
-           "children": [
-            {
-             "id": "node-alocasia-42",
-             "name": "node 42",
-             "anon": true,
-             "rank": "clade",
-             "figNode": 42,
-             "children": [
-              {
-               "id": "clade-alocasia-c",
-               "name": "Clade C",
-               "rank": "clade",
-               "figNode": 50,
-               "note": "Species with short-lived leaves and proportionately long petiolar sheaths, including the New Guinean Xenophya group.",
-               "children": [
-                {
-                 "id": "node-alocasia-51",
-                 "name": "node 51",
-                 "anon": true,
-                 "rank": "clade",
-                 "figNode": 51,
-                 "children": [
-                  {
-                   "id": "species-alocasia-suhirmaniana",
-                   "name": "Alocasia suhirmaniana",
-                   "rank": "species",
-                   "chron": {
-                    "stem": 2.62,
-                    "tips": 1
-                   },
-                   "powo": true
-                  },
-                  {
-                   "id": "species-alocasia-longiloba-accession-4",
-                   "name": "Alocasia longiloba",
-                   "rank": "species",
-                   "accession": "accession 4",
-                   "chron": {
-                    "stem": 2.62,
-                    "tips": 1
-                   },
-                   "powo": true
-                  }
-                 ],
-                 "chron": {
-                  "stem": 7.24,
-                  "crown": 2.62,
-                  "crownHpd": [
-                   0.6,
-                   4.9
-                  ],
-                  "pp": 1.0,
-                  "tips": 2
-                 },
-                 "speciesCount": 2
+                 "speciesCount": 5
                 },
                 {
-                 "id": "node-alocasia-52",
-                 "name": "node 52",
+                 "id": "node-alocasia-73",
+                 "name": "node 73",
                  "anon": true,
                  "rank": "clade",
-                 "figNode": 52,
+                 "figNode": 73,
                  "children": [
                   {
-                   "id": "species-alocasia-zebrina",
-                   "name": "Alocasia zebrina",
+                   "id": "species-alocasia-nycteris",
+                   "name": "Alocasia nycteris",
                    "rank": "species",
                    "chron": {
-                    "stem": 6.1,
+                    "stem": 3.33,
                     "tips": 1
                    },
                    "powo": true
                   },
                   {
-                   "id": "node-alocasia-53",
-                   "name": "node 53",
+                   "id": "node-alocasia-74",
+                   "name": "node 74",
                    "anon": true,
                    "rank": "clade",
-                   "figNode": 53,
+                   "figNode": 74,
                    "children": [
                     {
-                     "id": "species-alocasia-brisbanensis",
-                     "name": "Alocasia brisbanensis",
-                     "rank": "species",
-                     "chron": {
-                      "stem": 4.8,
-                      "tips": 1
-                     },
-                     "powo": true
-                    },
-                    {
-                     "id": "node-alocasia-54",
-                     "name": "node 54",
+                     "id": "node-alocasia-76",
+                     "name": "node 76",
                      "anon": true,
                      "rank": "clade",
-                     "figNode": 54,
+                     "figNode": 76,
                      "children": [
                       {
-                       "id": "species-alocasia-lauterbachiana",
-                       "name": "Alocasia lauterbachiana",
+                       "id": "species-alocasia-principiculus",
+                       "name": "Alocasia principiculus",
                        "rank": "species",
                        "chron": {
-                        "stem": 1.44,
+                        "stem": 1.75,
                         "tips": 1
                        },
                        "powo": true
                       },
                       {
-                       "id": "group-alocasia-boa",
-                       "name": "3 species, sequences identical",
-                       "rank": "clade",
-                       "anon": true,
-                       "identical": true,
-                       "note": "The nuclear marker gives these 3 accessions identical or near-identical sequences. The study excluded the duplicates from the dating run and drew them as one terminal, so when they diverged from each other is not known.",
-                       "chron": {
-                        "stem": 1.44,
-                        "tips": 3,
-                        "note": "sequences identical - undated below this point"
-                       },
-                       "children": [
-                        {
-                         "id": "species-alocasia-boa",
-                         "name": "Alocasia boa",
-                         "rank": "species",
-                         "powo": true
-                        },
-                        {
-                         "id": "species-alocasia-hollrungii",
-                         "name": "Alocasia hollrungii",
-                         "rank": "species",
-                         "powo": true
-                        },
-                        {
-                         "id": "species-alocasia-monticola",
-                         "name": "Alocasia monticola",
-                         "rank": "species",
-                         "powo": true
-                        }
-                       ],
-                       "speciesCount": 3
-                      }
-                     ],
-                     "chron": {
-                      "stem": 4.8,
-                      "crown": 1.44,
-                      "crownHpd": [
-                       0.1,
-                       3.3
-                      ],
-                      "pp": 1.0,
-                      "tips": 4
-                     },
-                     "speciesCount": 4
-                    }
-                   ],
-                   "chron": {
-                    "stem": 6.1,
-                    "crown": 4.8,
-                    "crownHpd": [
-                     2.3,
-                     7.9
-                    ],
-                    "pp": 0.3,
-                    "tips": 5
-                   },
-                   "speciesCount": 5
-                  }
-                 ],
-                 "chron": {
-                  "stem": 7.24,
-                  "crown": 6.1,
-                  "crownHpd": [
-                   3.6,
-                   9.0
-                  ],
-                  "pp": 0.2,
-                  "tips": 6
-                 },
-                 "speciesCount": 6
-                }
-               ],
-               "chron": {
-                "stem": 10.36,
-                "crown": 7.24,
-                "crownHpd": [
-                 4.4,
-                 10.3
-                ],
-                "pp": 1.0,
-                "tips": 8
-               },
-               "speciesCount": 8
-              },
-              {
-               "id": "clade-alocasia-b",
-               "name": "Clade B",
-               "rank": "clade",
-               "figNode": 43,
-               "note": "The massive caulescent species, including the edible A. macrorrhizos and three accessions of A. robusta.",
-               "children": [
-                {
-                 "id": "node-alocasia-47",
-                 "name": "node 47",
-                 "anon": true,
-                 "rank": "clade",
-                 "figNode": 47,
-                 "children": [
-                  {
-                   "id": "species-alocasia-alba",
-                   "name": "Alocasia alba",
-                   "rank": "species",
-                   "chron": {
-                    "stem": 7.22,
-                    "tips": 1
-                   },
-                   "powo": true
-                  },
-                  {
-                   "id": "node-alocasia-48",
-                   "name": "node 48",
-                   "anon": true,
-                   "rank": "clade",
-                   "figNode": 48,
-                   "children": [
-                    {
-                     "id": "species-alocasia-robusta-red-sarawak",
-                     "name": "Alocasia robusta",
-                     "rank": "species",
-                     "accession": "red Sarawak",
-                     "chron": {
-                      "stem": 2.92,
-                      "tips": 1
-                     },
-                     "powo": true
-                    },
-                    {
-                     "id": "node-alocasia-49",
-                     "name": "node 49",
-                     "anon": true,
-                     "rank": "clade",
-                     "figNode": 49,
-                     "children": [
-                      {
-                       "id": "species-alocasia-robusta-white-sabah",
-                       "name": "Alocasia robusta",
-                       "rank": "species",
-                       "accession": "white Sabah",
-                       "chron": {
-                        "stem": 1.46,
-                        "tips": 1
-                       },
-                       "powo": true
-                      },
-                      {
-                       "id": "species-alocasia-robusta-red-sabah",
-                       "name": "Alocasia robusta",
-                       "rank": "species",
-                       "accession": "red Sabah",
-                       "chron": {
-                        "stem": 1.46,
-                        "tips": 1
-                       },
-                       "powo": true
-                      }
-                     ],
-                     "chron": {
-                      "stem": 2.92,
-                      "crown": 1.46,
-                      "crownHpd": [
-                       0.1,
-                       3.0
-                      ],
-                      "pp": 1.0,
-                      "tips": 2
-                     },
-                     "speciesCount": 1
-                    }
-                   ],
-                   "chron": {
-                    "stem": 7.22,
-                    "crown": 2.92,
-                    "crownHpd": [
-                     0.9,
-                     5.1
-                    ],
-                    "pp": 1.0,
-                    "tips": 3
-                   },
-                   "speciesCount": 1
-                  }
-                 ],
-                 "chron": {
-                  "stem": 8.47,
-                  "crown": 7.22,
-                  "crownHpd": [
-                   4.2,
-                   10.3
-                  ],
-                  "pp": 0.3,
-                  "tips": 4
-                 },
-                 "speciesCount": 2
-                },
-                {
-                 "id": "node-alocasia-44",
-                 "name": "node 44",
-                 "anon": true,
-                 "rank": "clade",
-                 "figNode": 44,
-                 "children": [
-                  {
-                   "id": "species-alocasia-micholitziana",
-                   "name": "Alocasia micholitziana",
-                   "rank": "species",
-                   "chron": {
-                    "stem": 5.71,
-                    "tips": 1
-                   },
-                   "powo": true
-                  },
-                  {
-                   "id": "node-alocasia-45",
-                   "name": "node 45",
-                   "anon": true,
-                   "rank": "clade",
-                   "figNode": 45,
-                   "children": [
-                    {
-                     "id": "species-alocasia-atropurpurea",
-                     "name": "Alocasia atropurpurea",
-                     "rank": "species",
-                     "chron": {
-                      "stem": 3.69,
-                      "tips": 1
-                     },
-                     "powo": true
-                    },
-                    {
-                     "id": "node-alocasia-46",
-                     "name": "node 46",
-                     "anon": true,
-                     "rank": "clade",
-                     "figNode": 46,
-                     "children": [
-                      {
-                       "id": "species-alocasia-sp-nov-mpm1",
-                       "name": "Alocasia sp. nov. MPM1",
+                       "id": "species-alocasia-sp-nov-kulat",
+                       "name": "Alocasia sp. nov. kulat",
                        "rank": "species",
                        "undescribed": true,
                        "chron": {
-                        "stem": 1.34,
+                        "stem": 1.75,
                         "tips": 1
                        }
+                      }
+                     ],
+                     "chron": {
+                      "stem": 2.59,
+                      "crown": 1.75,
+                      "crownHpd": [
+                       0.2,
+                       3.4
+                      ],
+                      "pp": 0.2,
+                      "tips": 2
+                     },
+                     "speciesCount": 2
+                    },
+                    {
+                     "id": "node-alocasia-75",
+                     "name": "node 75",
+                     "anon": true,
+                     "rank": "clade",
+                     "figNode": 75,
+                     "children": [
+                      {
+                       "id": "species-alocasia-melo",
+                       "name": "Alocasia melo",
+                       "rank": "species",
+                       "chron": {
+                        "stem": 1.29,
+                        "tips": 1
+                       },
+                       "powo": true
                       },
                       {
-                       "id": "group-alocasia-macrorrhizos",
-                       "name": "3 species, sequences identical",
+                       "id": "group-alocasia-ridleyi",
+                       "name": "5 species, sequences identical",
                        "rank": "clade",
                        "anon": true,
                        "identical": true,
-                       "note": "The nuclear marker gives these 3 accessions identical or near-identical sequences. The study excluded the duplicates from the dating run and drew them as one terminal, so when they diverged from each other is not known.",
+                       "note": "The nuclear marker gives these 5 accessions identical or near-identical sequences. The study excluded the duplicates from the dating run and drew them as one terminal, so when they diverged from each other is not known.",
                        "chron": {
-                        "stem": 1.34,
-                        "tips": 3,
+                        "stem": 1.29,
+                        "tips": 5,
                         "note": "sequences identical - undated below this point"
                        },
                        "children": [
                         {
-                         "id": "species-alocasia-macrorrhizos",
-                         "name": "Alocasia macrorrhizos",
+                         "id": "species-alocasia-ridleyi",
+                         "name": "Alocasia ridleyi",
                          "rank": "species",
                          "powo": true
                         },
                         {
-                         "id": "species-alocasia-portei",
-                         "name": "Alocasia portei",
+                         "id": "species-alocasia-reginula",
+                         "name": "Alocasia reginula",
                          "rank": "species",
                          "powo": true
                         },
                         {
-                         "id": "species-alocasia-sp-nov-bo07",
-                         "name": "Alocasia sp. nov. Bo07",
+                         "id": "species-alocasia-scabriuscula",
+                         "name": "Alocasia scabriuscula",
+                         "rank": "species",
+                         "powo": true
+                        },
+                        {
+                         "id": "species-alocasia-sp-nov-gomantong",
+                         "name": "Alocasia sp. nov. Gomantong",
+                         "rank": "species",
+                         "undescribed": true
+                        },
+                        {
+                         "id": "species-alocasia-sp-nov-kelamensis",
+                         "name": "Alocasia sp. nov. kelamensis",
                          "rank": "species",
                          "undescribed": true
                         }
                        ],
-                       "speciesCount": 3
-                      }
-                     ],
-                     "chron": {
-                      "stem": 3.69,
-                      "crown": 1.34,
-                      "crownHpd": [
-                       0.0,
-                       3.0
-                      ],
-                      "pp": 1.0,
-                      "tips": 4
-                     },
-                     "speciesCount": 4
-                    }
-                   ],
-                   "chron": {
-                    "stem": 5.71,
-                    "crown": 3.69,
-                    "crownHpd": [
-                     1.4,
-                     6.2
-                    ],
-                    "pp": 1.0,
-                    "tips": 5
-                   },
-                   "speciesCount": 5
-                  }
-                 ],
-                 "chron": {
-                  "stem": 8.47,
-                  "crown": 5.71,
-                  "crownHpd": [
-                   3.0,
-                   8.6
-                  ],
-                  "pp": 0.9,
-                  "tips": 6
-                 },
-                 "speciesCount": 6
-                }
-               ],
-               "chron": {
-                "stem": 10.36,
-                "crown": 8.47,
-                "crownHpd": [
-                 5.5,
-                 11.6
-                ],
-                "pp": 0.9,
-                "tips": 10
-               },
-               "speciesCount": 8
-              }
-             ],
-             "chron": {
-              "stem": 11.28,
-              "crown": 10.36,
-              "crownHpd": [
-               7.5,
-               13.9
-              ],
-              "pp": 0.3,
-              "tips": 18
-             },
-             "speciesCount": 16
-            },
-            {
-             "id": "node-alocasia-55",
-             "name": "node 55",
-             "anon": true,
-             "rank": "clade",
-             "figNode": 55,
-             "children": [
-              {
-               "id": "species-alocasia-perakensis",
-               "name": "Alocasia perakensis",
-               "rank": "species",
-               "chron": {
-                "stem": 8.78,
-                "tips": 1
-               },
-               "powo": true
-              },
-              {
-               "id": "clade-alocasia-d",
-               "name": "Clade D",
-               "rank": "clade",
-               "figNode": 56,
-               "note": "Small or robust, often lithophytic species - the princeps group and the scabriuscula group.",
-               "children": [
-                {
-                 "id": "node-alocasia-72",
-                 "name": "node 72",
-                 "anon": true,
-                 "rank": "clade",
-                 "figNode": 72,
-                 "children": [
-                  {
-                   "id": "node-alocasia-77",
-                   "name": "node 77",
-                   "anon": true,
-                   "rank": "clade",
-                   "figNode": 77,
-                   "children": [
-                    {
-                     "id": "node-alocasia-80",
-                     "name": "node 80",
-                     "anon": true,
-                     "rank": "clade",
-                     "figNode": 80,
-                     "children": [
-                      {
-                       "id": "species-alocasia-sp-nov-bo11",
-                       "name": "Alocasia sp. nov. Bo11",
-                       "rank": "species",
-                       "undescribed": true,
-                       "chron": {
-                        "stem": 1.27,
-                        "tips": 1
-                       }
-                      },
-                      {
-                       "id": "species-alocasia-wongii",
-                       "name": "Alocasia wongii",
-                       "rank": "species",
-                       "chron": {
-                        "stem": 1.27,
-                        "tips": 1
-                       },
-                       "powo": true
-                      }
-                     ],
-                     "chron": {
-                      "stem": 3.39,
-                      "crown": 1.27,
-                      "crownHpd": [
-                       0.0,
-                       2.8
-                      ],
-                      "pp": 1.0,
-                      "tips": 2
-                     },
-                     "speciesCount": 2
-                    },
-                    {
-                     "id": "node-alocasia-78",
-                     "name": "node 78",
-                     "anon": true,
-                     "rank": "clade",
-                     "figNode": 78,
-                     "children": [
-                      {
-                       "id": "species-alocasia-cuprea",
-                       "name": "Alocasia cuprea",
-                       "rank": "species",
-                       "chron": {
-                        "stem": 1.99,
-                        "tips": 1
-                       },
-                       "powo": true
-                      },
-                      {
-                       "id": "node-alocasia-79",
-                       "name": "node 79",
-                       "anon": true,
-                       "rank": "clade",
-                       "figNode": 79,
-                       "children": [
-                        {
-                         "id": "species-alocasia-infernalis",
-                         "name": "Alocasia infernalis",
-                         "rank": "species",
-                         "chron": {
-                          "stem": 1.12,
-                          "tips": 1
-                         },
-                         "powo": true
-                        },
-                        {
-                         "id": "species-alocasia-sp-nov-sept",
-                         "name": "Alocasia sp. nov. Sept",
-                         "rank": "species",
-                         "undescribed": true,
-                         "chron": {
-                          "stem": 1.12,
-                          "tips": 1
-                         }
-                        }
-                       ],
-                       "chron": {
-                        "stem": 1.99,
-                        "crown": 1.12,
-                        "crownHpd": [
-                         0.1,
-                         2.4
-                        ],
-                        "pp": 0.5,
-                        "tips": 2
-                       },
-                       "speciesCount": 2
-                      }
-                     ],
-                     "chron": {
-                      "stem": 3.39,
-                      "crown": 1.99,
-                      "crownHpd": [
-                       0.5,
-                       3.6
-                      ],
-                      "pp": 1.0,
-                      "tips": 3
-                     },
-                     "speciesCount": 3
-                    }
-                   ],
-                   "chron": {
-                    "stem": 4.87,
-                    "crown": 3.39,
-                    "crownHpd": [
-                     1.4,
-                     5.4
-                    ],
-                    "pp": 0.9,
-                    "tips": 5
-                   },
-                   "speciesCount": 5
-                  },
-                  {
-                   "id": "node-alocasia-73",
-                   "name": "node 73",
-                   "anon": true,
-                   "rank": "clade",
-                   "figNode": 73,
-                   "children": [
-                    {
-                     "id": "species-alocasia-nycteris",
-                     "name": "Alocasia nycteris",
-                     "rank": "species",
-                     "chron": {
-                      "stem": 3.33,
-                      "tips": 1
-                     },
-                     "powo": true
-                    },
-                    {
-                     "id": "node-alocasia-74",
-                     "name": "node 74",
-                     "anon": true,
-                     "rank": "clade",
-                     "figNode": 74,
-                     "children": [
-                      {
-                       "id": "node-alocasia-76",
-                       "name": "node 76",
-                       "anon": true,
-                       "rank": "clade",
-                       "figNode": 76,
-                       "children": [
-                        {
-                         "id": "species-alocasia-principiculus",
-                         "name": "Alocasia principiculus",
-                         "rank": "species",
-                         "chron": {
-                          "stem": 1.75,
-                          "tips": 1
-                         },
-                         "powo": true
-                        },
-                        {
-                         "id": "species-alocasia-sp-nov-kulat",
-                         "name": "Alocasia sp. nov. kulat",
-                         "rank": "species",
-                         "undescribed": true,
-                         "chron": {
-                          "stem": 1.75,
-                          "tips": 1
-                         }
-                        }
-                       ],
-                       "chron": {
-                        "stem": 2.59,
-                        "crown": 1.75,
-                        "crownHpd": [
-                         0.2,
-                         3.4
-                        ],
-                        "pp": 0.2,
-                        "tips": 2
-                       },
-                       "speciesCount": 2
-                      },
-                      {
-                       "id": "node-alocasia-75",
-                       "name": "node 75",
-                       "anon": true,
-                       "rank": "clade",
-                       "figNode": 75,
-                       "children": [
-                        {
-                         "id": "species-alocasia-melo",
-                         "name": "Alocasia melo",
-                         "rank": "species",
-                         "chron": {
-                          "stem": 1.29,
-                          "tips": 1
-                         },
-                         "powo": true
-                        },
-                        {
-                         "id": "group-alocasia-ridleyi",
-                         "name": "5 species, sequences identical",
-                         "rank": "clade",
-                         "anon": true,
-                         "identical": true,
-                         "note": "The nuclear marker gives these 5 accessions identical or near-identical sequences. The study excluded the duplicates from the dating run and drew them as one terminal, so when they diverged from each other is not known.",
-                         "chron": {
-                          "stem": 1.29,
-                          "tips": 5,
-                          "note": "sequences identical - undated below this point"
-                         },
-                         "children": [
-                          {
-                           "id": "species-alocasia-ridleyi",
-                           "name": "Alocasia ridleyi",
-                           "rank": "species",
-                           "powo": true
-                          },
-                          {
-                           "id": "species-alocasia-reginula",
-                           "name": "Alocasia reginula",
-                           "rank": "species",
-                           "powo": true
-                          },
-                          {
-                           "id": "species-alocasia-scabriuscula",
-                           "name": "Alocasia scabriuscula",
-                           "rank": "species",
-                           "powo": true
-                          },
-                          {
-                           "id": "species-alocasia-sp-nov-gomantong",
-                           "name": "Alocasia sp. nov. Gomantong",
-                           "rank": "species",
-                           "undescribed": true
-                          },
-                          {
-                           "id": "species-alocasia-sp-nov-kelamensis",
-                           "name": "Alocasia sp. nov. kelamensis",
-                           "rank": "species",
-                           "undescribed": true
-                          }
-                         ],
-                         "speciesCount": 5
-                        }
-                       ],
-                       "chron": {
-                        "stem": 2.59,
-                        "crown": 1.29,
-                        "crownHpd": [
-                         0.1,
-                         2.7
-                        ],
-                        "pp": 0.3,
-                        "tips": 6
-                       },
-                       "speciesCount": 6
-                      }
-                     ],
-                     "chron": {
-                      "stem": 3.33,
-                      "crown": 2.59,
-                      "crownHpd": [
-                       0.9,
-                       4.3
-                      ],
-                      "pp": 0.3,
-                      "tips": 8
-                     },
-                     "speciesCount": 8
-                    }
-                   ],
-                   "chron": {
-                    "stem": 4.87,
-                    "crown": 3.33,
-                    "crownHpd": [
-                     1.5,
-                     5.2
-                    ],
-                    "pp": 0.9,
-                    "tips": 9
-                   },
-                   "speciesCount": 9
-                  }
-                 ],
-                 "chron": {
-                  "stem": 6.33,
-                  "crown": 4.87,
-                  "crownHpd": [
-                   2.9,
-                   6.8
-                  ],
-                  "pp": 0.1,
-                  "tips": 14
-                 },
-                 "speciesCount": 14
-                },
-                {
-                 "id": "node-alocasia-57",
-                 "name": "node 57",
-                 "anon": true,
-                 "rank": "clade",
-                 "figNode": 57,
-                 "children": [
-                  {
-                   "id": "node-alocasia-58",
-                   "name": "node 58",
-                   "anon": true,
-                   "rank": "clade",
-                   "figNode": 58,
-                   "children": [
-                    {
-                     "id": "node-alocasia-63",
-                     "name": "node 63",
-                     "anon": true,
-                     "rank": "clade",
-                     "figNode": 63,
-                     "children": [
-                      {
-                       "id": "species-alocasia-plumbea",
-                       "name": "Alocasia plumbea",
-                       "rank": "species",
-                       "chron": {
-                        "stem": 2.95,
-                        "tips": 1
-                       }
-                      },
-                      {
-                       "id": "species-alocasia-maquilingensis",
-                       "name": "Alocasia maquilingensis",
-                       "rank": "species",
-                       "chron": {
-                        "stem": 2.95,
-                        "tips": 1
-                       },
-                       "powo": true
-                      }
-                     ],
-                     "chron": {
-                      "stem": 3.79,
-                      "crown": 2.95,
-                      "crownHpd": [
-                       0.9,
-                       5.2
-                      ],
-                      "pp": 0.1,
-                      "tips": 2
-                     },
-                     "speciesCount": 2
-                    },
-                    {
-                     "id": "node-alocasia-59",
-                     "name": "node 59",
-                     "anon": true,
-                     "rank": "clade",
-                     "figNode": 59,
-                     "children": [
-                      {
-                       "id": "node-alocasia-60",
-                       "name": "node 60",
-                       "anon": true,
-                       "rank": "clade",
-                       "figNode": 60,
-                       "children": [
-                        {
-                         "id": "group-alocasia-pangeran",
-                         "name": "2 species, sequences identical",
-                         "rank": "clade",
-                         "anon": true,
-                         "identical": true,
-                         "note": "The nuclear marker gives these 2 accessions identical or near-identical sequences. The study excluded the duplicates from the dating run and drew them as one terminal, so when they diverged from each other is not known.",
-                         "chron": {
-                          "stem": 0.86,
-                          "tips": 2,
-                          "note": "sequences identical - undated below this point"
-                         },
-                         "children": [
-                          {
-                           "id": "species-alocasia-pangeran",
-                           "name": "Alocasia pangeran",
-                           "rank": "species",
-                           "powo": true
-                          },
-                          {
-                           "id": "species-alocasia-princeps",
-                           "name": "Alocasia princeps",
-                           "rank": "species",
-                           "powo": true
-                          }
-                         ],
-                         "speciesCount": 2
-                        },
-                        {
-                         "id": "species-alocasia-sp-nov-ridleythai",
-                         "name": "Alocasia sp. nov. ridleythai",
-                         "rank": "species",
-                         "undescribed": true,
-                         "chron": {
-                          "stem": 0.86,
-                          "tips": 1
-                         }
-                        }
-                       ],
-                       "chron": {
-                        "stem": 2.85,
-                        "crown": 0.86,
-                        "crownHpd": [
-                         0.0,
-                         2.4
-                        ],
-                        "pp": 0.3,
-                        "tips": 3
-                       },
-                       "speciesCount": 3
-                      },
-                      {
-                       "id": "node-alocasia-61",
-                       "name": "node 61",
-                       "anon": true,
-                       "rank": "clade",
-                       "figNode": 61,
-                       "children": [
-                        {
-                         "id": "species-alocasia-inornata",
-                         "name": "Alocasia inornata",
-                         "rank": "species",
-                         "chron": {
-                          "stem": 2.68,
-                          "tips": 1
-                         },
-                         "powo": true
-                        },
-                        {
-                         "id": "node-alocasia-62",
-                         "name": "node 62",
-                         "anon": true,
-                         "rank": "clade",
-                         "figNode": 62,
-                         "children": [
-                          {
-                           "id": "species-alocasia-reginae",
-                           "name": "Alocasia reginae",
-                           "rank": "species",
-                           "chron": {
-                            "stem": 1.26,
-                            "tips": 1
-                           },
-                           "powo": true
-                          },
-                          {
-                           "id": "group-alocasia-chaii",
-                           "name": "3 species, sequences identical",
-                           "rank": "clade",
-                           "anon": true,
-                           "identical": true,
-                           "note": "The nuclear marker gives these 3 accessions identical or near-identical sequences. The study excluded the duplicates from the dating run and drew them as one terminal, so when they diverged from each other is not known.",
-                           "chron": {
-                            "stem": 1.26,
-                            "tips": 3,
-                            "note": "sequences identical - undated below this point"
-                           },
-                           "children": [
-                            {
-                             "id": "species-alocasia-chaii",
-                             "name": "Alocasia chaii",
-                             "rank": "species",
-                             "powo": true
-                            },
-                            {
-                             "id": "species-alocasia-nebula",
-                             "name": "Alocasia nebula",
-                             "rank": "species",
-                             "powo": true
-                            },
-                            {
-                             "id": "species-alocasia-sp-nov-kerby",
-                             "name": "Alocasia sp. nov. Kerby",
-                             "rank": "species",
-                             "undescribed": true
-                            }
-                           ],
-                           "speciesCount": 3
-                          }
-                         ],
-                         "chron": {
-                          "stem": 2.68,
-                          "crown": 1.26,
-                          "crownHpd": [
-                           0.0,
-                           2.9
-                          ],
-                          "pp": 1.0,
-                          "tips": 4
-                         },
-                         "speciesCount": 4
-                        }
-                       ],
-                       "chron": {
-                        "stem": 2.85,
-                        "crown": 2.68,
-                        "crownHpd": [
-                         0.7,
-                         5.0
-                        ],
-                        "pp": 0.1,
-                        "tips": 5
-                       },
                        "speciesCount": 5
                       }
                      ],
                      "chron": {
-                      "stem": 3.79,
-                      "crown": 2.85,
+                      "stem": 2.59,
+                      "crown": 1.29,
                       "crownHpd": [
-                       1.4,
-                       5.1
+                       0.1,
+                       2.7
                       ],
-                      "pp": 0.0,
-                      "tips": 8
+                      "pp": 0.3,
+                      "tips": 6
                      },
-                     "speciesCount": 8
+                     "speciesCount": 6
                     }
                    ],
                    "chron": {
-                    "stem": 5.06,
-                    "crown": 3.79,
+                    "stem": 3.33,
+                    "crown": 2.59,
                     "crownHpd": [
-                     2.2,
-                     6.0
+                     0.9,
+                     4.3
                     ],
-                    "pp": 0.0,
-                    "tips": 10
+                    "pp": 0.3,
+                    "tips": 8
                    },
-                   "speciesCount": 10
-                  },
+                   "speciesCount": 8
+                  }
+                 ],
+                 "chron": {
+                  "stem": 4.87,
+                  "crown": 3.33,
+                  "crownHpd": [
+                   1.5,
+                   5.2
+                  ],
+                  "pp": 0.9,
+                  "tips": 9
+                 },
+                 "speciesCount": 9
+                }
+               ],
+               "chron": {
+                "stem": 6.33,
+                "crown": 4.87,
+                "crownHpd": [
+                 2.9,
+                 6.8
+                ],
+                "pp": 0.1,
+                "tips": 14
+               },
+               "speciesCount": 14
+              },
+              {
+               "id": "node-alocasia-57",
+               "name": "node 57",
+               "anon": true,
+               "rank": "clade",
+               "figNode": 57,
+               "children": [
+                {
+                 "id": "node-alocasia-58",
+                 "name": "node 58",
+                 "anon": true,
+                 "rank": "clade",
+                 "figNode": 58,
+                 "children": [
                   {
-                   "id": "node-alocasia-64",
-                   "name": "node 64",
+                   "id": "node-alocasia-63",
+                   "name": "node 63",
                    "anon": true,
                    "rank": "clade",
-                   "figNode": 64,
+                   "figNode": 63,
                    "children": [
                     {
-                     "id": "node-alocasia-70",
-                     "name": "node 70",
+                     "id": "species-alocasia-plumbea",
+                     "name": "Alocasia plumbea",
+                     "rank": "species",
+                     "chron": {
+                      "stem": 2.95,
+                      "tips": 1
+                     }
+                    },
+                    {
+                     "id": "species-alocasia-maquilingensis",
+                     "name": "Alocasia maquilingensis",
+                     "rank": "species",
+                     "chron": {
+                      "stem": 2.95,
+                      "tips": 1
+                     },
+                     "powo": true
+                    }
+                   ],
+                   "chron": {
+                    "stem": 3.79,
+                    "crown": 2.95,
+                    "crownHpd": [
+                     0.9,
+                     5.2
+                    ],
+                    "pp": 0.1,
+                    "tips": 2
+                   },
+                   "speciesCount": 2
+                  },
+                  {
+                   "id": "node-alocasia-59",
+                   "name": "node 59",
+                   "anon": true,
+                   "rank": "clade",
+                   "figNode": 59,
+                   "children": [
+                    {
+                     "id": "node-alocasia-60",
+                     "name": "node 60",
                      "anon": true,
                      "rank": "clade",
-                     "figNode": 70,
+                     "figNode": 60,
                      "children": [
                       {
-                       "id": "species-alocasia-heterophylla",
-                       "name": "Alocasia heterophylla",
-                       "rank": "species",
-                       "chron": {
-                        "stem": 3.03,
-                        "tips": 1
-                       },
-                       "powo": true
-                      },
-                      {
-                       "id": "node-alocasia-71",
-                       "name": "node 71",
-                       "anon": true,
+                       "id": "group-alocasia-pangeran",
+                       "name": "2 species, sequences identical",
                        "rank": "clade",
-                       "figNode": 71,
+                       "anon": true,
+                       "identical": true,
+                       "note": "The nuclear marker gives these 2 accessions identical or near-identical sequences. The study excluded the duplicates from the dating run and drew them as one terminal, so when they diverged from each other is not known.",
+                       "chron": {
+                        "stem": 0.86,
+                        "tips": 2,
+                        "note": "sequences identical - undated below this point"
+                       },
                        "children": [
                         {
-                         "id": "species-alocasia-sp-nov-inopinata",
-                         "name": "Alocasia sp. nov. inopinata",
+                         "id": "species-alocasia-pangeran",
+                         "name": "Alocasia pangeran",
                          "rank": "species",
-                         "undescribed": true,
-                         "chron": {
-                          "stem": 1.24,
-                          "tips": 1
-                         }
+                         "powo": true
                         },
                         {
-                         "id": "species-alocasia-reversa",
-                         "name": "Alocasia reversa",
+                         "id": "species-alocasia-princeps",
+                         "name": "Alocasia princeps",
                          "rank": "species",
-                         "chron": {
-                          "stem": 1.24,
-                          "tips": 1
-                         },
                          "powo": true
                         }
                        ],
-                       "chron": {
-                        "stem": 3.03,
-                        "crown": 1.24,
-                        "crownHpd": [
-                         0.0,
-                         2.9
-                        ],
-                        "pp": 1.0,
-                        "tips": 2
-                       },
                        "speciesCount": 2
+                      },
+                      {
+                       "id": "species-alocasia-sp-nov-ridleythai",
+                       "name": "Alocasia sp. nov. ridleythai",
+                       "rank": "species",
+                       "undescribed": true,
+                       "chron": {
+                        "stem": 0.86,
+                        "tips": 1
+                       }
                       }
                      ],
                      "chron": {
-                      "stem": 4.25,
-                      "crown": 3.03,
+                      "stem": 2.85,
+                      "crown": 0.86,
                       "crownHpd": [
-                       1.1,
-                       5.3
+                       0.0,
+                       2.4
                       ],
-                      "pp": 0.1,
+                      "pp": 0.3,
                       "tips": 3
                      },
                      "speciesCount": 3
                     },
                     {
-                     "id": "node-alocasia-65",
-                     "name": "node 65",
+                     "id": "node-alocasia-61",
+                     "name": "node 61",
                      "anon": true,
                      "rank": "clade",
-                     "figNode": 65,
+                     "figNode": 61,
                      "children": [
                       {
-                       "id": "node-alocasia-66",
-                       "name": "node 66",
+                       "id": "species-alocasia-inornata",
+                       "name": "Alocasia inornata",
+                       "rank": "species",
+                       "chron": {
+                        "stem": 2.68,
+                        "tips": 1
+                       },
+                       "powo": true
+                      },
+                      {
+                       "id": "node-alocasia-62",
+                       "name": "node 62",
                        "anon": true,
                        "rank": "clade",
-                       "figNode": 66,
+                       "figNode": 62,
                        "children": [
                         {
-                         "id": "species-alocasia-sp-nov-mpm4",
-                         "name": "Alocasia sp. nov. MPM4",
+                         "id": "species-alocasia-reginae",
+                         "name": "Alocasia reginae",
                          "rank": "species",
-                         "undescribed": true,
                          "chron": {
-                          "stem": 0.51,
+                          "stem": 1.26,
                           "tips": 1
-                         }
+                         },
+                         "powo": true
                         },
                         {
-                         "id": "group-alocasia-boyceana",
+                         "id": "group-alocasia-chaii",
                          "name": "3 species, sequences identical",
                          "rank": "clade",
                          "anon": true,
                          "identical": true,
                          "note": "The nuclear marker gives these 3 accessions identical or near-identical sequences. The study excluded the duplicates from the dating run and drew them as one terminal, so when they diverged from each other is not known.",
                          "chron": {
-                          "stem": 0.51,
+                          "stem": 1.26,
                           "tips": 3,
                           "note": "sequences identical - undated below this point"
                          },
                          "children": [
                           {
-                           "id": "species-alocasia-boyceana",
-                           "name": "Alocasia boyceana",
+                           "id": "species-alocasia-chaii",
+                           "name": "Alocasia chaii",
                            "rank": "species",
                            "powo": true
                           },
                           {
-                           "id": "species-alocasia-warburgii",
-                           "name": "Alocasia warburgii",
-                           "rank": "species"
-                          },
-                          {
-                           "id": "species-alocasia-ramosii",
-                           "name": "Alocasia ramosii",
+                           "id": "species-alocasia-nebula",
+                           "name": "Alocasia nebula",
                            "rank": "species",
                            "powo": true
+                          },
+                          {
+                           "id": "species-alocasia-sp-nov-kerby",
+                           "name": "Alocasia sp. nov. Kerby",
+                           "rank": "species",
+                           "undescribed": true
                           }
                          ],
                          "speciesCount": 3
                         }
                        ],
                        "chron": {
-                        "stem": 2.86,
-                        "crown": 0.51,
+                        "stem": 2.68,
+                        "crown": 1.26,
                         "crownHpd": [
                          0.0,
-                         1.4
+                         2.9
                         ],
                         "pp": 1.0,
-                        "tips": 4
-                       },
-                       "speciesCount": 4
-                      },
-                      {
-                       "id": "node-alocasia-67",
-                       "name": "node 67",
-                       "anon": true,
-                       "rank": "clade",
-                       "figNode": 67,
-                       "children": [
-                        {
-                         "id": "node-alocasia-69",
-                         "name": "node 69",
-                         "anon": true,
-                         "rank": "clade",
-                         "figNode": 69,
-                         "children": [
-                          {
-                           "id": "species-alocasia-sp-nov-mpm3",
-                           "name": "Alocasia sp. nov. MPM3",
-                           "rank": "species",
-                           "undescribed": true,
-                           "chron": {
-                            "stem": 1.25,
-                            "tips": 1
-                           }
-                          },
-                          {
-                           "id": "species-alocasia-clypeolata",
-                           "name": "Alocasia clypeolata",
-                           "rank": "species",
-                           "chron": {
-                            "stem": 1.25,
-                            "tips": 1
-                           },
-                           "powo": true
-                          }
-                         ],
-                         "chron": {
-                          "stem": 2.2,
-                          "crown": 1.25,
-                          "crownHpd": [
-                           0.1,
-                           2.7
-                          ],
-                          "pp": 0.4,
-                          "tips": 2
-                         },
-                         "speciesCount": 2
-                        },
-                        {
-                         "id": "node-alocasia-68",
-                         "name": "node 68",
-                         "anon": true,
-                         "rank": "clade",
-                         "figNode": 68,
-                         "children": [
-                          {
-                           "id": "species-alocasia-sinuata",
-                           "name": "Alocasia sinuata",
-                           "rank": "species",
-                           "chron": {
-                            "stem": 0.92,
-                            "tips": 1
-                           },
-                           "powo": true
-                          },
-                          {
-                           "id": "species-alocasia-scalprum",
-                           "name": "Alocasia scalprum",
-                           "rank": "species",
-                           "chron": {
-                            "stem": 0.92,
-                            "tips": 1
-                           },
-                           "powo": true
-                          }
-                         ],
-                         "chron": {
-                          "stem": 2.2,
-                          "crown": 0.92,
-                          "crownHpd": [
-                           0.0,
-                           2.1
-                          ],
-                          "pp": 1.0,
-                          "tips": 2
-                         },
-                         "speciesCount": 2
-                        }
-                       ],
-                       "chron": {
-                        "stem": 2.86,
-                        "crown": 2.2,
-                        "crownHpd": [
-                         0.7,
-                         3.8
-                        ],
-                        "pp": 0.2,
                         "tips": 4
                        },
                        "speciesCount": 4
                       }
                      ],
                      "chron": {
-                      "stem": 4.25,
-                      "crown": 2.86,
+                      "stem": 2.85,
+                      "crown": 2.68,
                       "crownHpd": [
-                       1.2,
-                       4.8
+                       0.7,
+                       5.0
                       ],
-                      "pp": 0.9,
-                      "tips": 8
+                      "pp": 0.1,
+                      "tips": 5
                      },
-                     "speciesCount": 8
+                     "speciesCount": 5
                     }
                    ],
                    "chron": {
-                    "stem": 5.06,
-                    "crown": 4.25,
+                    "stem": 3.79,
+                    "crown": 2.85,
                     "crownHpd": [
-                     2.3,
-                     6.5
+                     1.4,
+                     5.1
                     ],
                     "pp": 0.0,
-                    "tips": 11
+                    "tips": 8
                    },
-                   "speciesCount": 11
+                   "speciesCount": 8
                   }
                  ],
                  "chron": {
-                  "stem": 6.33,
-                  "crown": 5.06,
+                  "stem": 5.06,
+                  "crown": 3.79,
                   "crownHpd": [
-                   3.5,
-                   7.1
+                   2.2,
+                   6.0
                   ],
                   "pp": 0.0,
-                  "tips": 21
+                  "tips": 10
                  },
-                 "speciesCount": 21
+                 "speciesCount": 10
+                },
+                {
+                 "id": "node-alocasia-64",
+                 "name": "node 64",
+                 "anon": true,
+                 "rank": "clade",
+                 "figNode": 64,
+                 "children": [
+                  {
+                   "id": "node-alocasia-70",
+                   "name": "node 70",
+                   "anon": true,
+                   "rank": "clade",
+                   "figNode": 70,
+                   "children": [
+                    {
+                     "id": "species-alocasia-heterophylla",
+                     "name": "Alocasia heterophylla",
+                     "rank": "species",
+                     "chron": {
+                      "stem": 3.03,
+                      "tips": 1
+                     },
+                     "powo": true
+                    },
+                    {
+                     "id": "node-alocasia-71",
+                     "name": "node 71",
+                     "anon": true,
+                     "rank": "clade",
+                     "figNode": 71,
+                     "children": [
+                      {
+                       "id": "species-alocasia-sp-nov-inopinata",
+                       "name": "Alocasia sp. nov. inopinata",
+                       "rank": "species",
+                       "undescribed": true,
+                       "chron": {
+                        "stem": 1.24,
+                        "tips": 1
+                       }
+                      },
+                      {
+                       "id": "species-alocasia-reversa",
+                       "name": "Alocasia reversa",
+                       "rank": "species",
+                       "chron": {
+                        "stem": 1.24,
+                        "tips": 1
+                       },
+                       "powo": true
+                      }
+                     ],
+                     "chron": {
+                      "stem": 3.03,
+                      "crown": 1.24,
+                      "crownHpd": [
+                       0.0,
+                       2.9
+                      ],
+                      "pp": 1.0,
+                      "tips": 2
+                     },
+                     "speciesCount": 2
+                    }
+                   ],
+                   "chron": {
+                    "stem": 4.25,
+                    "crown": 3.03,
+                    "crownHpd": [
+                     1.1,
+                     5.3
+                    ],
+                    "pp": 0.1,
+                    "tips": 3
+                   },
+                   "speciesCount": 3
+                  },
+                  {
+                   "id": "node-alocasia-65",
+                   "name": "node 65",
+                   "anon": true,
+                   "rank": "clade",
+                   "figNode": 65,
+                   "children": [
+                    {
+                     "id": "node-alocasia-66",
+                     "name": "node 66",
+                     "anon": true,
+                     "rank": "clade",
+                     "figNode": 66,
+                     "children": [
+                      {
+                       "id": "species-alocasia-sp-nov-mpm4",
+                       "name": "Alocasia sp. nov. MPM4",
+                       "rank": "species",
+                       "undescribed": true,
+                       "chron": {
+                        "stem": 0.51,
+                        "tips": 1
+                       }
+                      },
+                      {
+                       "id": "group-alocasia-boyceana",
+                       "name": "3 species, sequences identical",
+                       "rank": "clade",
+                       "anon": true,
+                       "identical": true,
+                       "note": "The nuclear marker gives these 3 accessions identical or near-identical sequences. The study excluded the duplicates from the dating run and drew them as one terminal, so when they diverged from each other is not known.",
+                       "chron": {
+                        "stem": 0.51,
+                        "tips": 3,
+                        "note": "sequences identical - undated below this point"
+                       },
+                       "children": [
+                        {
+                         "id": "species-alocasia-boyceana",
+                         "name": "Alocasia boyceana",
+                         "rank": "species",
+                         "powo": true
+                        },
+                        {
+                         "id": "species-alocasia-warburgii",
+                         "name": "Alocasia warburgii",
+                         "rank": "species"
+                        },
+                        {
+                         "id": "species-alocasia-ramosii",
+                         "name": "Alocasia ramosii",
+                         "rank": "species",
+                         "powo": true
+                        }
+                       ],
+                       "speciesCount": 3
+                      }
+                     ],
+                     "chron": {
+                      "stem": 2.86,
+                      "crown": 0.51,
+                      "crownHpd": [
+                       0.0,
+                       1.4
+                      ],
+                      "pp": 1.0,
+                      "tips": 4
+                     },
+                     "speciesCount": 4
+                    },
+                    {
+                     "id": "node-alocasia-67",
+                     "name": "node 67",
+                     "anon": true,
+                     "rank": "clade",
+                     "figNode": 67,
+                     "children": [
+                      {
+                       "id": "node-alocasia-69",
+                       "name": "node 69",
+                       "anon": true,
+                       "rank": "clade",
+                       "figNode": 69,
+                       "children": [
+                        {
+                         "id": "species-alocasia-sp-nov-mpm3",
+                         "name": "Alocasia sp. nov. MPM3",
+                         "rank": "species",
+                         "undescribed": true,
+                         "chron": {
+                          "stem": 1.25,
+                          "tips": 1
+                         }
+                        },
+                        {
+                         "id": "species-alocasia-clypeolata",
+                         "name": "Alocasia clypeolata",
+                         "rank": "species",
+                         "chron": {
+                          "stem": 1.25,
+                          "tips": 1
+                         },
+                         "powo": true
+                        }
+                       ],
+                       "chron": {
+                        "stem": 2.2,
+                        "crown": 1.25,
+                        "crownHpd": [
+                         0.1,
+                         2.7
+                        ],
+                        "pp": 0.4,
+                        "tips": 2
+                       },
+                       "speciesCount": 2
+                      },
+                      {
+                       "id": "node-alocasia-68",
+                       "name": "node 68",
+                       "anon": true,
+                       "rank": "clade",
+                       "figNode": 68,
+                       "children": [
+                        {
+                         "id": "species-alocasia-sinuata",
+                         "name": "Alocasia sinuata",
+                         "rank": "species",
+                         "chron": {
+                          "stem": 0.92,
+                          "tips": 1
+                         },
+                         "powo": true
+                        },
+                        {
+                         "id": "species-alocasia-scalprum",
+                         "name": "Alocasia scalprum",
+                         "rank": "species",
+                         "chron": {
+                          "stem": 0.92,
+                          "tips": 1
+                         },
+                         "powo": true
+                        }
+                       ],
+                       "chron": {
+                        "stem": 2.2,
+                        "crown": 0.92,
+                        "crownHpd": [
+                         0.0,
+                         2.1
+                        ],
+                        "pp": 1.0,
+                        "tips": 2
+                       },
+                       "speciesCount": 2
+                      }
+                     ],
+                     "chron": {
+                      "stem": 2.86,
+                      "crown": 2.2,
+                      "crownHpd": [
+                       0.7,
+                       3.8
+                      ],
+                      "pp": 0.2,
+                      "tips": 4
+                     },
+                     "speciesCount": 4
+                    }
+                   ],
+                   "chron": {
+                    "stem": 4.25,
+                    "crown": 2.86,
+                    "crownHpd": [
+                     1.2,
+                     4.8
+                    ],
+                    "pp": 0.9,
+                    "tips": 8
+                   },
+                   "speciesCount": 8
+                  }
+                 ],
+                 "chron": {
+                  "stem": 5.06,
+                  "crown": 4.25,
+                  "crownHpd": [
+                   2.3,
+                   6.5
+                  ],
+                  "pp": 0.0,
+                  "tips": 11
+                 },
+                 "speciesCount": 11
                 }
                ],
                "chron": {
-                "stem": 8.78,
-                "crown": 6.33,
+                "stem": 6.33,
+                "crown": 5.06,
                 "crownHpd": [
-                 4.1,
-                 8.7
+                 3.5,
+                 7.1
                 ],
-                "pp": 1.0,
-                "tips": 35
+                "pp": 0.0,
+                "tips": 21
                },
-               "speciesCount": 35
+               "speciesCount": 21
               }
              ],
              "chron": {
-              "stem": 11.28,
-              "crown": 8.78,
+              "stem": 8.78,
+              "crown": 6.33,
               "crownHpd": [
-               6.0,
-               12.2
+               4.1,
+               8.7
               ],
-              "pp": 0.9,
-              "tips": 36
+              "pp": 1.0,
+              "tips": 35
              },
-             "speciesCount": 36
+             "speciesCount": 35
             }
            ],
            "chron": {
-            "stem": 13.49,
-            "crown": 11.28,
+            "stem": 11.28,
+            "crown": 8.78,
             "crownHpd": [
-             8.0,
-             14.8
+             6.0,
+             12.2
             ],
             "pp": 0.9,
-            "tips": 54
+            "tips": 36
            },
-           "speciesCount": 52
+           "speciesCount": 36
           }
          ],
          "chron": {
-          "stem": 24.11,
-          "crown": 13.49,
+          "stem": 13.49,
+          "crown": 11.28,
           "crownHpd": [
-           9.6,
-           18.0
+           8.0,
+           14.8
           ],
-          "pp": 1.0,
-          "tips": 73,
-          "stemHpd": [
-           16.3,
-           32.6
-          ],
-          "stemPp": 1.0
+          "pp": 0.9,
+          "tips": 52
          },
-         "speciesCount": 67,
-         "note": "The nuclear chronogram (Fig. 4) of the Alocasia study, not the family chronogram the rest of this view is drawn from. Alocasia split from Colocasia gigantea - this tree's Leucocasia - about 24 Ma and began to diversify about 13.5 Ma. The family study sampled only two Alocasia and they did not group, which is why the genus row above carries no crown age. The two studies are shown side by side, not merged."
+         "speciesCount": 52
         },
         {
          "id": "species-alocasia-unsampled",
@@ -3144,7 +3118,23 @@
         }
        ],
        "speciesTierSource": "Nauheimer, Boyce & Renner (2012), \"Giant taro and its relatives: a phylogeny of the large genus Alocasia (Araceae) sheds light on Miocene floristic exchange in the Malesian region\", Molecular Phylogenetics and Evolution 63: 43-51, Fig. 4 and Table S3",
-       "speciesTierNote": "The NUCLEAR tree. Nuclear and plastid trees conflict in this study - the authors attribute it to chloroplast capture, and say the nuclear tree reflects morphology while the plastid one reflects geography. The nuclear tree is shown because it is the one whose clades the paper names and diagnoses. Alocasia is monophyletic only once A. hypnosa is excluded, and its closest relative is Colocasia gigantea - this tree's Leucocasia. Ages, 95% HPDs and posterior probabilities are Table S3's; the topology is the reconstruction of Fig. 4 set out in ALOCASIA CLADOGRAM 8.9.26. A. perakensis sits just OUTSIDE clade D here, as its sister, where the phylogram (Fig. 3b) draws it inside - the only membership difference between the two figures."
+       "speciesTierNote": "The NUCLEAR tree. Nuclear and plastid trees conflict in this study - the authors attribute it to chloroplast capture, and say the nuclear tree reflects morphology while the plastid one reflects geography. The nuclear tree is shown because it is the one whose clades the paper names and diagnoses. Alocasia is monophyletic only once A. hypnosa is excluded, and its closest relative is Colocasia gigantea - this tree's Leucocasia. Ages, 95% HPDs and posterior probabilities are Table S3's; the topology is the reconstruction of Fig. 4 set out in ALOCASIA CLADOGRAM 8.9.26. A. perakensis sits just OUTSIDE clade D here, as its sister, where the phylogram (Fig. 3b) draws it inside - the only membership difference between the two figures.",
+       "chron": {
+        "stem": 24.11,
+        "crown": 13.49,
+        "crownHpd": [
+         9.6,
+         18.0
+        ],
+        "pp": 1.0,
+        "tips": 67,
+        "stemHpd": [
+         16.3,
+         32.6
+        ],
+        "stemPp": 1.0,
+        "note": "from the Alocasia study (Fig. 4), not the family chronogram the rest of this view is drawn from. The family study sampled only two Alocasia and did not recover them as a clade - it put their MRCA at 37.2 Ma, which dates a wider group. Ages here are on that study's own calibration and are not strictly comparable with the genera around it."
+       }
       },
       {
        "id": "genus-ariopsis",
