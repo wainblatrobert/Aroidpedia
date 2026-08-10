@@ -5600,41 +5600,6 @@
        },
        "children": [
         {
-         "id": "subgenus-amorphophallus-amorphophallus",
-         "name": "Amorphophallus",
-         "rank": "subgenus",
-         "authority": "autonym, typified by A. paeoniifolius",
-         "cladeCode": "SEA",
-         "typeSpecies": "Amorphophallus paeoniifolius (Dennst.) Nicolson",
-         "distribution": "All over Southeast Asia, from India eastwards via continental Southeast Asia and Indonesia to the Philippines and Australia (A. galbra).",
-         "speciesCount": 0,
-         "assignment": "not assigned: the three Asian subgenera overlap in range, so their species can only be read off the study's figures, which are raster images"
-        },
-        {
-         "id": "subgenus-amorphophallus-metandrium",
-         "name": "Metandrium",
-         "rank": "subgenus",
-         "authority": "Stapf (1924)",
-         "cladeCode": "CA-I",
-         "typeSpecies": "Amorphophallus cirrifer Stapf",
-         "distribution": "India and continental Southeast Asia (Burma, Thailand, Laos, Cambodia, Vietnam and southern and eastern China) to southern Japan, the Philippines and Indonesia.",
-         "note": "The only subgenus ever established before this study. Section Rhaphiophallus is polyphyletic across it and Scutandrium, so that section is not used here.",
-         "speciesCount": 0,
-         "assignment": "not assigned: the three Asian subgenera overlap in range, so their species can only be read off the study's figures, which are raster images"
-        },
-        {
-         "id": "subgenus-amorphophallus-scutandrium",
-         "name": "Scutandrium",
-         "rank": "subgenus",
-         "authority": "Hett. & Claudel, subgen. nov.",
-         "cladeCode": "CA-II",
-         "typeSpecies": "Amorphophallus krausei Engl.",
-         "distribution": "Southern India and continental Southeast Asia (Burma, Thailand, Laos, Cambodia, Vietnam and southern China).",
-         "note": "Holds the former genus Pseudodracontium, which this study sinks into Amorphophallus. Named for the shield-like staminodes of many of its species.",
-         "speciesCount": 0,
-         "assignment": "not assigned: the three Asian subgenera overlap in range, so their species can only be read off the study's figures, which are raster images"
-        },
-        {
          "id": "subgenus-amorphophallus-afrophallus",
          "name": "Afrophallus",
          "rank": "subgenus",
@@ -5686,10 +5651,1270 @@
           "Amorphophallus teuszii",
           "Amorphophallus zenkeri"
          ],
-         "assignment": "every Amorphophallus species POWO records from Africa, which the study states is exactly this subgenus"
+         "assignment": "every Amorphophallus species POWO records from Africa, which the study states is exactly this subgenus",
+         "figNode": 52,
+         "children": [
+          {
+           "id": "species-amorphophallus-gomboczianus-amphsg32",
+           "name": "Amorphophallus gomboczianus",
+           "rank": "species",
+           "accession": "AmphSG32",
+           "chron": {
+            "stem": 11.43,
+            "tips": 1
+           }
+          },
+          {
+           "id": "node-amorphophallus-53",
+           "name": "node 53",
+           "rank": "clade",
+           "anon": true,
+           "figNode": 53,
+           "children": [
+            {
+             "id": "node-amorphophallus-54",
+             "name": "node 54",
+             "rank": "clade",
+             "anon": true,
+             "figNode": 54,
+             "children": [
+              {
+               "id": "species-amorphophallus-taurostigma-amphsg29",
+               "name": "Amorphophallus taurostigma",
+               "rank": "species",
+               "accession": "AmphSG29",
+               "chron": {
+                "stem": 1.04,
+                "tips": 1
+               }
+              },
+              {
+               "id": "species-amorphophallus-taurostigma-amphsg22",
+               "name": "Amorphophallus taurostigma",
+               "rank": "species",
+               "accession": "AmphSG22",
+               "chron": {
+                "stem": 1.04,
+                "tips": 1
+               }
+              }
+             ],
+             "chron": {
+              "stem": 4.08,
+              "crown": 1.04,
+              "crownHpd": [
+               0.11,
+               2.99
+              ],
+              "pp": 1.0
+             }
+            },
+            {
+             "id": "node-amorphophallus-55",
+             "name": "node 55",
+             "rank": "clade",
+             "anon": true,
+             "figNode": 55,
+             "children": [
+              {
+               "id": "species-amorphophallus-mossambicensis-amphsg14",
+               "name": "Amorphophallus mossambicensis",
+               "rank": "species",
+               "accession": "AmphSG14",
+               "chron": {
+                "stem": 1.0,
+                "tips": 1
+               }
+              },
+              {
+               "id": "node-amorphophallus-56",
+               "name": "node 56",
+               "rank": "clade",
+               "anon": true,
+               "figNode": 56,
+               "children": [
+                {
+                 "id": "species-amorphophallus-mossambicensis-amphsg13",
+                 "name": "Amorphophallus mossambicensis",
+                 "rank": "species",
+                 "accession": "AmphSG13",
+                 "chron": {
+                  "stem": 0.05,
+                  "tips": 1
+                 }
+                },
+                {
+                 "id": "species-amorphophallus-mossambicensis-amphsg12",
+                 "name": "Amorphophallus mossambicensis",
+                 "rank": "species",
+                 "accession": "AmphSG12",
+                 "chron": {
+                  "stem": 0.05,
+                  "tips": 1
+                 }
+                }
+               ],
+               "chron": {
+                "stem": 1.0,
+                "crown": 0.05,
+                "crownHpd": [
+                 0.0,
+                 0.34
+                ],
+                "pp": 0.98
+               }
+              }
+             ],
+             "chron": {
+              "stem": 4.08,
+              "crown": 1.0,
+              "crownHpd": [
+               0.15,
+               2.82
+              ],
+              "pp": 1.0
+             }
+            }
+           ],
+           "chron": {
+            "stem": 11.43,
+            "crown": 4.08,
+            "crownHpd": [
+             1.48,
+             8.72
+            ],
+            "pp": 1.0
+           }
+          }
+         ],
+         "chron": {
+          "stem": 22.56,
+          "crown": 11.43,
+          "crownHpd": [
+           4.37,
+           20.53
+          ],
+          "pp": 1.0
+         },
+         "sampledCount": 3
+        },
+        {
+         "id": "node-amorphophallus-57",
+         "name": "node 57",
+         "rank": "clade",
+         "anon": true,
+         "figNode": 57,
+         "children": [
+          {
+           "id": "subgenus-amorphophallus-scutandrium",
+           "name": "Scutandrium",
+           "rank": "subgenus",
+           "authority": "Hett. & Claudel, subgen. nov.",
+           "cladeCode": "CA-II",
+           "typeSpecies": "Amorphophallus krausei Engl.",
+           "distribution": "Southern India and continental Southeast Asia (Burma, Thailand, Laos, Cambodia, Vietnam and southern China).",
+           "note": "Holds the former genus Pseudodracontium, which this study sinks into Amorphophallus. Named for the shield-like staminodes of many of its species.",
+           "speciesCount": 0,
+           "assignment": "not assigned: the three Asian subgenera overlap in range, so their species can only be read off the study's figures, which are raster images",
+           "figNode": 58,
+           "children": [
+            {
+             "id": "node-amorphophallus-59",
+             "name": "node 59",
+             "rank": "clade",
+             "anon": true,
+             "figNode": 59,
+             "children": [
+              {
+               "id": "species-amorphophallus-rhizomatosus-amphsg44",
+               "name": "Amorphophallus rhizomatosus",
+               "rank": "species",
+               "accession": "AmphSG44",
+               "note": "An extraction replicate of the same voucher specimen as its sister tip, not a separate collection.",
+               "chron": {
+                "stem": 0.07,
+                "tips": 1
+               }
+              },
+              {
+               "id": "species-amorphophallus-rhizomatosus-amphsg19",
+               "name": "Amorphophallus rhizomatosus",
+               "rank": "species",
+               "accession": "AmphSG19",
+               "note": "An extraction replicate of the same voucher specimen as its sister tip, not a separate collection.",
+               "chron": {
+                "stem": 0.07,
+                "tips": 1
+               }
+              }
+             ],
+             "chron": {
+              "stem": 18.15,
+              "crown": 0.07,
+              "crownHpd": [
+               0.0,
+               0.33
+              ],
+              "pp": 1.0
+             }
+            },
+            {
+             "id": "node-amorphophallus-60",
+             "name": "node 60",
+             "rank": "clade",
+             "anon": true,
+             "figNode": 60,
+             "children": [
+              {
+               "id": "node-amorphophallus-61",
+               "name": "node 61",
+               "rank": "clade",
+               "anon": true,
+               "figNode": 61,
+               "children": [
+                {
+                 "id": "species-amorphophallus-tenuistylis-amphsg23",
+                 "name": "Amorphophallus tenuistylis",
+                 "rank": "species",
+                 "accession": "AmphSG23",
+                 "chron": {
+                  "stem": 8.79,
+                  "tips": 1
+                 }
+                },
+                {
+                 "id": "species-amorphophallus-pseudoharmandii-amphsg42",
+                 "name": "Amorphophallus pseudoharmandii",
+                 "rank": "species",
+                 "accession": "AmphSG42",
+                 "chron": {
+                  "stem": 8.79,
+                  "tips": 1
+                 }
+                }
+               ],
+               "chron": {
+                "stem": 14.97,
+                "crown": 8.79,
+                "crownHpd": [
+                 3.21,
+                 15.14
+                ],
+                "pp": 1.0
+               }
+              },
+              {
+               "id": "node-amorphophallus-62",
+               "name": "node 62",
+               "rank": "clade",
+               "anon": true,
+               "figNode": 62,
+               "children": [
+                {
+                 "id": "species-amorphophallus-schmidtiae-amphsg30",
+                 "name": "Amorphophallus schmidtiae",
+                 "rank": "species",
+                 "accession": "AmphSG30",
+                 "chron": {
+                  "stem": 9.57,
+                  "tips": 1
+                 }
+                },
+                {
+                 "id": "node-amorphophallus-63",
+                 "name": "node 63",
+                 "rank": "clade",
+                 "anon": true,
+                 "figNode": 63,
+                 "children": [
+                  {
+                   "id": "node-amorphophallus-64",
+                   "name": "node 64",
+                   "rank": "clade",
+                   "anon": true,
+                   "figNode": 64,
+                   "children": [
+                    {
+                     "id": "species-amorphophallus-konjac-srr7938681",
+                     "name": "Amorphophallus konjac",
+                     "rank": "species",
+                     "accession": "SRR7938681",
+                     "chron": {
+                      "stem": 3.18,
+                      "tips": 1
+                     }
+                    },
+                    {
+                     "id": "species-amorphophallus-albus-srr7938683",
+                     "name": "Amorphophallus albus",
+                     "rank": "species",
+                     "accession": "SRR7938683",
+                     "chron": {
+                      "stem": 3.18,
+                      "tips": 1
+                     }
+                    }
+                   ],
+                   "chron": {
+                    "stem": 8.19,
+                    "crown": 3.18,
+                    "crownHpd": [
+                     0.67,
+                     7.14
+                    ],
+                    "pp": 1.0
+                   }
+                  },
+                  {
+                   "id": "node-amorphophallus-65",
+                   "name": "node 65",
+                   "rank": "clade",
+                   "anon": true,
+                   "figNode": 65,
+                   "children": [
+                    {
+                     "id": "species-amorphophallus-kachinensis-amphsg37",
+                     "name": "Amorphophallus kachinensis",
+                     "rank": "species",
+                     "accession": "AmphSG37",
+                     "chron": {
+                      "stem": 4.62,
+                      "tips": 1
+                     }
+                    },
+                    {
+                     "id": "node-amorphophallus-66",
+                     "name": "node 66",
+                     "rank": "clade",
+                     "anon": true,
+                     "figNode": 66,
+                     "children": [
+                      {
+                       "id": "species-amorphophallus-carneus-amphsg35",
+                       "name": "Amorphophallus carneus",
+                       "rank": "species",
+                       "accession": "AmphSG35",
+                       "chron": {
+                        "stem": 2.33,
+                        "tips": 1
+                       }
+                      },
+                      {
+                       "id": "node-amorphophallus-67",
+                       "name": "node 67",
+                       "rank": "clade",
+                       "anon": true,
+                       "figNode": 67,
+                       "children": [
+                        {
+                         "id": "species-amorphophallus-excentricus-amphsg04",
+                         "name": "Amorphophallus excentricus",
+                         "rank": "species",
+                         "accession": "AmphSG04",
+                         "chron": {
+                          "stem": 1.56,
+                          "tips": 1
+                         }
+                        },
+                        {
+                         "id": "species-amorphophallus-curvistylis-amphsg36",
+                         "name": "Amorphophallus curvistylis",
+                         "rank": "species",
+                         "accession": "AmphSG36",
+                         "chron": {
+                          "stem": 1.56,
+                          "tips": 1
+                         }
+                        }
+                       ],
+                       "chron": {
+                        "stem": 2.33,
+                        "crown": 1.56,
+                        "crownHpd": [
+                         0.43,
+                         3.34
+                        ],
+                        "pp": 1.0
+                       }
+                      }
+                     ],
+                     "chron": {
+                      "stem": 4.62,
+                      "crown": 2.33,
+                      "crownHpd": [
+                       0.87,
+                       4.47
+                      ],
+                      "pp": 1.0
+                     }
+                    }
+                   ],
+                   "chron": {
+                    "stem": 8.19,
+                    "crown": 4.62,
+                    "crownHpd": [
+                     2.08,
+                     8.1
+                    ],
+                    "pp": 1.0
+                   }
+                  }
+                 ],
+                 "chron": {
+                  "stem": 9.57,
+                  "crown": 8.19,
+                  "crownHpd": [
+                   4.29,
+                   13.13
+                  ],
+                  "pp": 1.0
+                 }
+                }
+               ],
+               "chron": {
+                "stem": 14.97,
+                "crown": 9.57,
+                "crownHpd": [
+                 5.26,
+                 14.03
+                ],
+                "pp": 1.0
+               }
+              }
+             ],
+             "chron": {
+              "stem": 18.15,
+              "crown": 14.97,
+              "crownHpd": [
+               9.24,
+               21.11
+              ],
+              "pp": 1.0
+             }
+            }
+           ],
+           "chron": {
+            "stem": 20.78,
+            "crown": 18.15,
+            "crownHpd": [
+             11.99,
+             24.33
+            ],
+            "pp": 1.0
+           },
+           "sampledCount": 10
+          },
+          {
+           "id": "node-amorphophallus-68",
+           "name": "node 68",
+           "rank": "clade",
+           "anon": true,
+           "figNode": 68,
+           "children": [
+            {
+             "id": "subgenus-amorphophallus-amorphophallus",
+             "name": "Amorphophallus",
+             "rank": "subgenus",
+             "authority": "autonym, typified by A. paeoniifolius",
+             "cladeCode": "SEA",
+             "typeSpecies": "Amorphophallus paeoniifolius (Dennst.) Nicolson",
+             "distribution": "All over Southeast Asia, from India eastwards via continental Southeast Asia and Indonesia to the Philippines and Australia (A. galbra).",
+             "speciesCount": 0,
+             "assignment": "not assigned: the three Asian subgenera overlap in range, so their species can only be read off the study's figures, which are raster images",
+             "figNode": 69,
+             "children": [
+              {
+               "id": "node-amorphophallus-70",
+               "name": "node 70",
+               "rank": "clade",
+               "anon": true,
+               "figNode": 70,
+               "children": [
+                {
+                 "id": "species-amorphophallus-verticillatus-amphsg28",
+                 "name": "Amorphophallus verticillatus",
+                 "rank": "species",
+                 "accession": "AmphSG28",
+                 "chron": {
+                  "stem": 1.06,
+                  "tips": 1
+                 }
+                },
+                {
+                 "id": "species-amorphophallus-verticillatus-amphsg25",
+                 "name": "Amorphophallus verticillatus",
+                 "rank": "species",
+                 "accession": "AmphSG25",
+                 "chron": {
+                  "stem": 1.06,
+                  "tips": 1
+                 }
+                }
+               ],
+               "chron": {
+                "stem": 17.31,
+                "crown": 1.06,
+                "crownHpd": [
+                 0.12,
+                 3.25
+                ],
+                "pp": 1.0
+               }
+              },
+              {
+               "id": "node-amorphophallus-71",
+               "name": "node 71",
+               "rank": "clade",
+               "anon": true,
+               "figNode": 71,
+               "children": [
+                {
+                 "id": "node-amorphophallus-72",
+                 "name": "node 72",
+                 "rank": "clade",
+                 "anon": true,
+                 "figNode": 72,
+                 "children": [
+                  {
+                   "id": "node-amorphophallus-73",
+                   "name": "node 73",
+                   "rank": "clade",
+                   "anon": true,
+                   "figNode": 73,
+                   "children": [
+                    {
+                     "id": "species-amorphophallus-sabah-amphsg45",
+                     "name": "Amorphophallus sabah",
+                     "rank": "species",
+                     "accession": "AmphSG45",
+                     "chron": {
+                      "stem": 11.05,
+                      "tips": 1
+                     }
+                    },
+                    {
+                     "id": "species-amorphophallus-ranchanensis-amphsg01",
+                     "name": "Amorphophallus ranchanensis",
+                     "rank": "species",
+                     "accession": "AmphSG01",
+                     "chron": {
+                      "stem": 11.05,
+                      "tips": 1
+                     }
+                    }
+                   ],
+                   "chron": {
+                    "stem": 12.88,
+                    "crown": 11.05,
+                    "crownHpd": [
+                     5.25,
+                     17.17
+                    ],
+                    "pp": 0.92
+                   }
+                  },
+                  {
+                   "id": "node-amorphophallus-74",
+                   "name": "node 74",
+                   "rank": "clade",
+                   "anon": true,
+                   "figNode": 74,
+                   "children": [
+                    {
+                     "id": "species-amorphophallus-variabilis-amphsg24",
+                     "name": "Amorphophallus variabilis",
+                     "rank": "species",
+                     "accession": "AmphSG24",
+                     "chron": {
+                      "stem": 2.85,
+                      "tips": 1
+                     }
+                    },
+                    {
+                     "id": "species-amorphophallus-hewittii-amphsg33",
+                     "name": "Amorphophallus hewittii",
+                     "rank": "species",
+                     "accession": "AmphSG33",
+                     "chron": {
+                      "stem": 2.85,
+                      "tips": 1
+                     }
+                    }
+                   ],
+                   "chron": {
+                    "stem": 12.88,
+                    "crown": 2.85,
+                    "crownHpd": [
+                     0.49,
+                     7.35
+                    ],
+                    "pp": 1.0
+                   }
+                  }
+                 ],
+                 "chron": {
+                  "stem": 15.3,
+                  "crown": 12.88,
+                  "crownHpd": [
+                   7.3,
+                   18.75
+                  ],
+                  "pp": 1.0
+                 }
+                },
+                {
+                 "id": "node-amorphophallus-75",
+                 "name": "node 75",
+                 "rank": "clade",
+                 "anon": true,
+                 "figNode": 75,
+                 "children": [
+                  {
+                   "id": "species-amorphophallus-sumawongii-amphsg20",
+                   "name": "Amorphophallus sumawongii",
+                   "rank": "species",
+                   "accession": "AmphSG20",
+                   "chron": {
+                    "stem": 13.68,
+                    "tips": 1
+                   }
+                  },
+                  {
+                   "id": "node-amorphophallus-76",
+                   "name": "node 76",
+                   "rank": "clade",
+                   "anon": true,
+                   "figNode": 76,
+                   "children": [
+                    {
+                     "id": "species-amorphophallus-manta-amphsg34",
+                     "name": "Amorphophallus manta",
+                     "rank": "species",
+                     "accession": "AmphSG34",
+                     "chron": {
+                      "stem": 10.09,
+                      "tips": 1
+                     }
+                    },
+                    {
+                     "id": "node-amorphophallus-77",
+                     "name": "node 77",
+                     "rank": "clade",
+                     "anon": true,
+                     "figNode": 77,
+                     "children": [
+                      {
+                       "id": "species-amorphophallus-prainii-amphsg18",
+                       "name": "Amorphophallus prainii",
+                       "rank": "species",
+                       "accession": "AmphSG18",
+                       "chron": {
+                        "stem": 4.66,
+                        "tips": 1
+                       }
+                      },
+                      {
+                       "id": "node-amorphophallus-78",
+                       "name": "node 78",
+                       "rank": "clade",
+                       "anon": true,
+                       "figNode": 78,
+                       "children": [
+                        {
+                         "id": "species-amorphophallus-paeoniifolius-amphsg16",
+                         "name": "Amorphophallus paeoniifolius",
+                         "rank": "species",
+                         "accession": "AmphSG16",
+                         "chron": {
+                          "stem": 0.58,
+                          "tips": 1
+                         }
+                        },
+                        {
+                         "id": "species-amorphophallus-paeoniifolius-amphsg15",
+                         "name": "Amorphophallus paeoniifolius",
+                         "rank": "species",
+                         "accession": "AmphSG15",
+                         "chron": {
+                          "stem": 0.58,
+                          "tips": 1
+                         }
+                        }
+                       ],
+                       "chron": {
+                        "stem": 4.66,
+                        "crown": 0.58,
+                        "crownHpd": [
+                         0.08,
+                         1.68
+                        ],
+                        "pp": 1.0
+                       }
+                      }
+                     ],
+                     "chron": {
+                      "stem": 10.09,
+                      "crown": 4.66,
+                      "crownHpd": [
+                       1.65,
+                       8.64
+                      ],
+                      "pp": 1.0
+                     }
+                    }
+                   ],
+                   "chron": {
+                    "stem": 13.68,
+                    "crown": 10.09,
+                    "crownHpd": [
+                     5.75,
+                     15.54
+                    ],
+                    "pp": 1.0
+                   }
+                  }
+                 ],
+                 "chron": {
+                  "stem": 15.3,
+                  "crown": 13.68,
+                  "crownHpd": [
+                   8.75,
+                   19.03
+                  ],
+                  "pp": 1.0
+                 }
+                }
+               ],
+               "chron": {
+                "stem": 17.31,
+                "crown": 15.3,
+                "crownHpd": [
+                 10.41,
+                 20.76
+                ],
+                "pp": 1.0
+               }
+              }
+             ],
+             "chron": {
+              "stem": 19.94,
+              "crown": 17.31,
+              "crownHpd": [
+               12.15,
+               22.94
+              ],
+              "pp": 1.0
+             },
+             "sampledCount": 9
+            },
+            {
+             "id": "subgenus-amorphophallus-metandrium",
+             "name": "Metandrium",
+             "rank": "subgenus",
+             "authority": "Stapf (1924)",
+             "cladeCode": "CA-I",
+             "typeSpecies": "Amorphophallus cirrifer Stapf",
+             "distribution": "India and continental Southeast Asia (Burma, Thailand, Laos, Cambodia, Vietnam and southern and eastern China) to southern Japan, the Philippines and Indonesia.",
+             "note": "The only subgenus ever established before this study. Section Rhaphiophallus is polyphyletic across it and Scutandrium, so that section is not used here.",
+             "speciesCount": 0,
+             "assignment": "not assigned: the three Asian subgenera overlap in range, so their species can only be read off the study's figures, which are raster images",
+             "figNode": 79,
+             "children": [
+              {
+               "id": "node-amorphophallus-80",
+               "name": "node 80",
+               "rank": "clade",
+               "anon": true,
+               "figNode": 80,
+               "children": [
+                {
+                 "id": "node-amorphophallus-81",
+                 "name": "node 81",
+                 "rank": "clade",
+                 "anon": true,
+                 "figNode": 81,
+                 "children": [
+                  {
+                   "id": "species-amorphophallus-natolii-amphsg43",
+                   "name": "Amorphophallus natolii",
+                   "rank": "species",
+                   "accession": "AmphSG43",
+                   "note": "An extraction replicate of the same voucher specimen as its sister tip, not a separate collection.",
+                   "chron": {
+                    "stem": 0.65,
+                    "tips": 1
+                   }
+                  },
+                  {
+                   "id": "species-amorphophallus-natolii-amphsg11",
+                   "name": "Amorphophallus natolii",
+                   "rank": "species",
+                   "accession": "AmphSG11",
+                   "note": "An extraction replicate of the same voucher specimen as its sister tip, not a separate collection.",
+                   "chron": {
+                    "stem": 0.65,
+                    "tips": 1
+                   }
+                  }
+                 ],
+                 "chron": {
+                  "stem": 15.76,
+                  "crown": 0.65,
+                  "crownHpd": [
+                   0.07,
+                   1.93
+                  ],
+                  "pp": 1.0
+                 }
+                },
+                {
+                 "id": "node-amorphophallus-82",
+                 "name": "node 82",
+                 "rank": "clade",
+                 "anon": true,
+                 "figNode": 82,
+                 "children": [
+                  {
+                   "id": "species-amorphophallus-elatus-amphsg27",
+                   "name": "Amorphophallus elatus",
+                   "rank": "species",
+                   "accession": "AmphSG27",
+                   "chron": {
+                    "stem": 10.48,
+                    "tips": 1
+                   }
+                  },
+                  {
+                   "id": "node-amorphophallus-83",
+                   "name": "node 83",
+                   "rank": "clade",
+                   "anon": true,
+                   "figNode": 83,
+                   "children": [
+                    {
+                     "id": "species-amorphophallus-napiger-amphsg26",
+                     "name": "Amorphophallus napiger",
+                     "rank": "species",
+                     "accession": "AmphSG26",
+                     "chron": {
+                      "stem": 4.66,
+                      "tips": 1
+                     }
+                    },
+                    {
+                     "id": "species-amorphophallus-laoticus-amphsg08",
+                     "name": "Amorphophallus laoticus",
+                     "rank": "species",
+                     "accession": "AmphSG08",
+                     "chron": {
+                      "stem": 4.66,
+                      "tips": 1
+                     }
+                    }
+                   ],
+                   "chron": {
+                    "stem": 10.48,
+                    "crown": 4.66,
+                    "crownHpd": [
+                     1.46,
+                     9.02
+                    ],
+                    "pp": 1.0
+                   }
+                  }
+                 ],
+                 "chron": {
+                  "stem": 15.76,
+                  "crown": 10.48,
+                  "crownHpd": [
+                   5.62,
+                   16.05
+                  ],
+                  "pp": 1.0
+                 }
+                }
+               ],
+               "chron": {
+                "stem": 17.46,
+                "crown": 15.76,
+                "crownHpd": [
+                 11.04,
+                 21.06
+                ],
+                "pp": 0.86
+               }
+              },
+              {
+               "id": "node-amorphophallus-84",
+               "name": "node 84",
+               "rank": "clade",
+               "anon": true,
+               "figNode": 84,
+               "children": [
+                {
+                 "id": "node-amorphophallus-85",
+                 "name": "node 85",
+                 "rank": "clade",
+                 "anon": true,
+                 "figNode": 85,
+                 "children": [
+                  {
+                   "id": "species-amorphophallus-cicatricifer-amphsg02",
+                   "name": "Amorphophallus cicatricifer",
+                   "rank": "species",
+                   "accession": "AmphSG02",
+                   "chron": {
+                    "stem": 12.57,
+                    "tips": 1
+                   }
+                  },
+                  {
+                   "id": "node-amorphophallus-86",
+                   "name": "node 86",
+                   "rank": "clade",
+                   "anon": true,
+                   "figNode": 86,
+                   "children": [
+                    {
+                     "id": "species-amorphophallus-sylvaticus-amphsg21",
+                     "name": "Amorphophallus sylvaticus",
+                     "rank": "species",
+                     "accession": "AmphSG21",
+                     "chron": {
+                      "stem": 8.79,
+                      "tips": 1
+                     }
+                    },
+                    {
+                     "id": "node-amorphophallus-87",
+                     "name": "node 87",
+                     "rank": "clade",
+                     "anon": true,
+                     "figNode": 87,
+                     "children": [
+                      {
+                       "id": "species-amorphophallus-muelleri-srr7938682",
+                       "name": "Amorphophallus muelleri",
+                       "rank": "species",
+                       "accession": "SRR7938682",
+                       "chron": {
+                        "stem": 2.29,
+                        "tips": 1
+                       }
+                      },
+                      {
+                       "id": "species-amorphophallus-bulbifer-srr7938684",
+                       "name": "Amorphophallus bulbifer",
+                       "rank": "species",
+                       "accession": "SRR7938684",
+                       "chron": {
+                        "stem": 2.29,
+                        "tips": 1
+                       }
+                      }
+                     ],
+                     "chron": {
+                      "stem": 8.79,
+                      "crown": 2.29,
+                      "crownHpd": [
+                       0.59,
+                       5.02
+                      ],
+                      "pp": 1.0
+                     }
+                    }
+                   ],
+                   "chron": {
+                    "stem": 12.57,
+                    "crown": 8.79,
+                    "crownHpd": [
+                     4.71,
+                     13.49
+                    ],
+                    "pp": 1.0
+                   }
+                  }
+                 ],
+                 "chron": {
+                  "stem": 15.4,
+                  "crown": 12.57,
+                  "crownHpd": [
+                   8.08,
+                   17.59
+                  ],
+                  "pp": 1.0
+                 }
+                },
+                {
+                 "id": "node-amorphophallus-88",
+                 "name": "node 88",
+                 "rank": "clade",
+                 "anon": true,
+                 "figNode": 88,
+                 "children": [
+                  {
+                   "id": "node-amorphophallus-89",
+                   "name": "node 89",
+                   "rank": "clade",
+                   "anon": true,
+                   "figNode": 89,
+                   "children": [
+                    {
+                     "id": "species-amorphophallus-henryi-amphsg07",
+                     "name": "Amorphophallus henryi",
+                     "rank": "species",
+                     "accession": "AmphSG07",
+                     "chron": {
+                      "stem": 0.66,
+                      "tips": 1
+                     }
+                    },
+                    {
+                     "id": "species-amorphophallus-henryi-amphsg06",
+                     "name": "Amorphophallus henryi",
+                     "rank": "species",
+                     "accession": "AmphSG06",
+                     "chron": {
+                      "stem": 0.66,
+                      "tips": 1
+                     }
+                    }
+                   ],
+                   "chron": {
+                    "stem": 12.56,
+                    "crown": 0.66,
+                    "crownHpd": [
+                     0.06,
+                     2.09
+                    ],
+                    "pp": 1.0
+                   }
+                  },
+                  {
+                   "id": "node-amorphophallus-90",
+                   "name": "node 90",
+                   "rank": "clade",
+                   "anon": true,
+                   "figNode": 90,
+                   "children": [
+                    {
+                     "id": "species-amorphophallus-glossophyllus-amphsg05",
+                     "name": "Amorphophallus glossophyllus",
+                     "rank": "species",
+                     "accession": "AmphSG05",
+                     "chron": {
+                      "stem": 10.43,
+                      "tips": 1
+                     }
+                    },
+                    {
+                     "id": "node-amorphophallus-91",
+                     "name": "node 91",
+                     "rank": "clade",
+                     "anon": true,
+                     "figNode": 91,
+                     "children": [
+                      {
+                       "id": "species-amorphophallus-tuberculatus-amphsg40",
+                       "name": "Amorphophallus tuberculatus",
+                       "rank": "species",
+                       "accession": "AmphSG40",
+                       "chron": {
+                        "stem": 6.57,
+                        "tips": 1
+                       }
+                      },
+                      {
+                       "id": "node-amorphophallus-92",
+                       "name": "node 92",
+                       "rank": "clade",
+                       "anon": true,
+                       "figNode": 92,
+                       "children": [
+                        {
+                         "id": "species-amorphophallus-yuloensis-amphsg41",
+                         "name": "Amorphophallus yuloensis",
+                         "rank": "species",
+                         "accession": "AmphSG41",
+                         "chron": {
+                          "stem": 5.76,
+                          "tips": 1
+                         }
+                        },
+                        {
+                         "id": "node-amorphophallus-93",
+                         "name": "node 93",
+                         "rank": "clade",
+                         "anon": true,
+                         "figNode": 93,
+                         "children": [
+                          {
+                           "id": "species-amorphophallus-coaetaneus-amphsg17",
+                           "name": "Amorphophallus coaetaneus",
+                           "rank": "species",
+                           "accession": "AmphSG17",
+                           "chron": {
+                            "stem": 4.2,
+                            "tips": 1
+                           }
+                          },
+                          {
+                           "id": "node-amorphophallus-94",
+                           "name": "node 94",
+                           "rank": "clade",
+                           "anon": true,
+                           "figNode": 94,
+                           "children": [
+                            {
+                             "id": "species-amorphophallus-ochroleucus-amphsg39",
+                             "name": "Amorphophallus ochroleucus",
+                             "rank": "species",
+                             "accession": "AmphSG39",
+                             "chron": {
+                              "stem": 1.53,
+                              "tips": 1
+                             }
+                            },
+                            {
+                             "id": "species-amorphophallus-ochroleucus-amphsg38",
+                             "name": "Amorphophallus ochroleucus",
+                             "rank": "species",
+                             "accession": "AmphSG38",
+                             "chron": {
+                              "stem": 1.53,
+                              "tips": 1
+                             }
+                            }
+                           ],
+                           "chron": {
+                            "stem": 4.2,
+                            "crown": 1.53,
+                            "crownHpd": [
+                             0.28,
+                             3.49
+                            ],
+                            "pp": 1.0
+                           }
+                          }
+                         ],
+                         "chron": {
+                          "stem": 5.76,
+                          "crown": 4.2,
+                          "crownHpd": [
+                           1.94,
+                           7.29
+                          ],
+                          "pp": 1.0
+                         }
+                        }
+                       ],
+                       "chron": {
+                        "stem": 6.57,
+                        "crown": 5.76,
+                        "crownHpd": [
+                         2.96,
+                         9.13
+                        ],
+                        "pp": 1.0
+                       }
+                      }
+                     ],
+                     "chron": {
+                      "stem": 10.43,
+                      "crown": 6.57,
+                      "crownHpd": [
+                       3.62,
+                       10.23
+                      ],
+                      "pp": 1.0
+                     }
+                    }
+                   ],
+                   "chron": {
+                    "stem": 12.56,
+                    "crown": 10.43,
+                    "crownHpd": [
+                     6.43,
+                     14.91
+                    ],
+                    "pp": 1.0
+                   }
+                  }
+                 ],
+                 "chron": {
+                  "stem": 15.4,
+                  "crown": 12.56,
+                  "crownHpd": [
+                   8.38,
+                   17.42
+                  ],
+                  "pp": 1.0
+                 }
+                }
+               ],
+               "chron": {
+                "stem": 17.46,
+                "crown": 15.4,
+                "crownHpd": [
+                 11.13,
+                 20.39
+                ],
+                "pp": 1.0
+               }
+              }
+             ],
+             "chron": {
+              "stem": 19.94,
+              "crown": 17.46,
+              "crownHpd": [
+               12.88,
+               22.75
+              ],
+              "pp": 1.0
+             },
+             "sampledCount": 14
+            }
+           ],
+           "chron": {
+            "stem": 20.78,
+            "crown": 19.94,
+            "crownHpd": [
+             15.08,
+             25.7
+            ],
+            "pp": 1.0
+           }
+          }
+         ],
+         "chron": {
+          "stem": 22.56,
+          "crown": 20.78,
+          "crownHpd": [
+           15.71,
+           26.71
+          ],
+          "pp": 1.0
+         }
         }
        ],
-       "subgeneraSource": "Claudel, Hetterscheid, Boyce & Wong (2017), \"Large-scale phylogenetic analysis of Amorphophallus (Araceae) derived from nuclear and plastid sequences reveals new subgeneric delineation\", Botanical Journal of the Linnean Society 184: 32-45"
+       "subgeneraSource": "Claudel, Hetterscheid, Boyce & Wong (2017), \"Large-scale phylogenetic analysis of Amorphophallus (Araceae) derived from nuclear and plastid sequences reveals new subgeneric delineation\", Botanical Journal of the Linnean Society 184: 32-45",
+       "chron": {
+        "stem": 29.98,
+        "stemHpd": [
+         22.95,
+         37.92
+        ],
+        "crown": 22.56,
+        "crownHpd": [
+         17.08,
+         29.0
+        ],
+        "pp": 1.0,
+        "tips": 36,
+        "note": "from the Amorphophallus study (Fig. 4), not the family chronogram the rest of this view is drawn from - which sampled three Amorphophallus and put the genus at 58.5 / 24.2 Ma. The stem here is the stem of Thomsonieae, monogeneric in this tree, so it is also the genus's. Ages are on that study's own calibration and are not strictly comparable with the genera around it."
+       },
+       "speciesTierSource": "Pouchon, Boyce, Roberts, Gitzendanner, Hetterscheid, Soltis, Soltis & Claudel (2023), \"Phylogenomic study of Amorphophallus (Alismatales; Araceae): when plastid DNA gene sequences help to resolve the backbone subgeneric delineation\", Journal of Systematics and Evolution 61(1): 64-79, Fig. 4 and Table S2",
+       "speciesTierNote": "The plastid phylogenomic tree. The four subgenera of Claudel et al. (2017) - Amorphophallus (SEA), Afrophallus (AFR), Metandrium (CA-I) and Scutandrium (CA-II) - are recovered as clades and dated here: the genus began to diversify about 22.6 Ma with Afrophallus splitting off first, and the three Asian subgenera separated within about 3 Ma of each other in the Early Miocene. Ages, 95% HPDs and posterior support are Table S2's; the topology is a read of Fig. 4, gated on the tip counts its own node numbering implies, on preorder contiguity, on the ages, and on every Afrophallus species being one of the 40 African Amorphophallus already in this tree. 36 of POWO's 246 species are sampled; the rest are not drawn."
       }
      ]
     },
@@ -7422,7 +8647,7 @@
   }
  ],
  "metadata": {
-  "updated": "2026-08-09",
+  "updated": "2026-08-10",
   "about": {
    "intro": [
     "This tree shows how the roughly 150 accepted genera of the arum family are grouped: first into subfamilies, then into tribes, and finally into the genera themselves.",
@@ -7464,10 +8689,11 @@
     "Wong, S.Y. et al. (2010). Molecular phylogeny of tribe Schismatoglottideae ... and recognition of a new tribe, Philonotieae, from the Neotropics. Taxon 59: 117-124.",
     "Claudel, Hetterscheid, Boyce & Wong (2017), \"Large-scale phylogenetic analysis of Amorphophallus (Araceae) derived from nuclear and plastid sequences reveals new subgeneric delineation\", Botanical Journal of the Linnean Society 184: 32-45. Sinks Pseudodracontium into Amorphophallus (POWO concurs - no workbook in the Araceae export) and erects the four subgenera carried here. Landoltia is treated as Spirodela. Only Afrophallus carries a species list: the study states its range is exclusively African, and the other three subgenera overlap.",
     "Nauheimer, Boyce & Renner (2012), \"Giant taro and its relatives: a phylogeny of the large genus Alocasia (Araceae) sheds light on Miocene floristic exchange in the Malesian region\", Molecular Phylogenetics and Evolution 63: 43-51. Source of the Alocasia species tier: four nuclear clades A-D and the 67 species read from Fig. 3b, checked against Table S1 and against the two species-groups the paper names in prose.",
-    "Nauheimer, Boyce & Renner (2012), \"Giant taro and its relatives: a phylogeny of the large genus Alocasia (Araceae) sheds light on Miocene floristic exchange in the Malesian region\", Molecular Phylogenetics and Evolution 63: 43-51, Fig. 4 and Table S3. The Alocasia species tier became a dated cladogram: all 55 nodes of the nuclear chronogram below the genus crown, each with its mean age, 95% HPD and posterior probability, and the 73 accessions (67 species) at their tips. Replaces the flat clade lists of 1.13.0."
+    "Nauheimer, Boyce & Renner (2012), \"Giant taro and its relatives: a phylogeny of the large genus Alocasia (Araceae) sheds light on Miocene floristic exchange in the Malesian region\", Molecular Phylogenetics and Evolution 63: 43-51, Fig. 4 and Table S3. The Alocasia species tier became a dated cladogram: all 55 nodes of the nuclear chronogram below the genus crown, each with its mean age, 95% HPD and posterior probability, and the 73 accessions (67 species) at their tips. Replaces the flat clade lists of 1.13.0.",
+    "Pouchon, Boyce, Roberts, Gitzendanner, Hetterscheid, Soltis, Soltis & Claudel (2023), \"Phylogenomic study of Amorphophallus (Alismatales; Araceae): when plastid DNA gene sequences help to resolve the backbone subgeneric delineation\", Journal of Systematics and Evolution 61(1): 64-79, Fig. 4 and Table S2. The Amorphophallus subgenus scaffold of 1.12.0 became a dated cladogram: all 44 nodes of the plastid chronogram below the genus crown, each with its mean age, 95% HPD and posterior, and the 45 accessions (36 species) at their tips. No aggregate row - unsampled species are not drawn."
    ],
    "speciesCounts": "POWO master export, Araceae_Exports/EXCELS/_run_log.csv (validated accepted species).",
-   "version": "1.14.0",
+   "version": "1.15.0",
    "orthographicVariants": {
     "Stylochiton": "Treated as Stylochaeton Lepr. (MBB no. 34). The POWO export uses Stylochiton; which spelling Kew currently accepts is unconfirmed."
    },
