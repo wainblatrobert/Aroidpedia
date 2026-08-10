@@ -4028,7 +4028,466 @@
         "zones": {
          "americas": 628
         }
-       }
+       },
+       "children": [
+        {
+         "id": "subgenus-philodendron-pteromischum",
+         "name": "Pteromischum",
+         "rank": "subgenus",
+         "note": "Vines of the wet lowland forests of Amazonia, the Chocó and Central America; two sections, Fruticosa and Pteromischum. 82 accepted species.",
+         "sampledCount": 8,
+         "chron": {
+          "stem": 24.72,
+          "crown": 19.21,
+          "pp": 1.0,
+          "crownHpd": [
+           12.47,
+           25.46
+          ]
+         },
+         "children": [
+          {
+           "id": "node-philodendron-15-29",
+           "name": "node 15-29",
+           "anon": true,
+           "rank": "clade",
+           "chron": {
+            "stem": 19.21,
+            "crown": 15.29,
+            "pp": 1.0
+           },
+           "note": "Its sister here is P. surinamense, which the study resolves as sister to both new Pteromischum clades.",
+           "children": [
+            {
+             "id": "clade-philodendron-a",
+             "name": "Clade A",
+             "rank": "clade",
+             "note": "Newly recovered by Canal et al. (2019); not resolved in the 2018 study (BS 97, JK 98, PP 1.0).",
+             "chron": {
+              "stem": 15.29,
+              "crown": 11.86,
+              "crownHpd": [
+               7.46,
+               16.33
+              ],
+              "pp": 1.0
+             }
+            },
+            {
+             "id": "clade-philodendron-b",
+             "name": "Clade B",
+             "rank": "clade",
+             "note": "Newly recovered by Canal et al. (2019); not resolved in the 2018 study (BS 82, JK 60, PP 0.99).",
+             "chron": {
+              "stem": 15.29,
+              "crown": 11.39,
+              "crownHpd": [
+               6.79,
+               16.12
+              ],
+              "pp": 1.0
+             }
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "id": "node-philodendron-24-53",
+         "name": "node 24-53",
+         "anon": true,
+         "rank": "clade",
+         "chron": {
+          "stem": 24.72,
+          "crown": 24.53,
+          "pp": 0.27
+         },
+         "note": "⚠ The weakest node in the tier, and the two studies disagree here. Canal et al. (2019) pair subgenus Meconostigma with subgenus Philodendron (pp 0.27); Canal et al. (2018) instead paired Meconostigma with Pteromischum (pp 0.37). Both papers decline to give it a 95% HPD \"given the low statistic support\".",
+         "children": [
+          {
+           "id": "subgenus-philodendron-meconostigma",
+           "name": "Meconostigma",
+           "rank": "subgenus",
+           "note": "Mostly terrestrial species of Amazonia, the Mata Atlântica and the Cerrado; 21 accepted species. ⚠ Sakuragui et al. (2018) raised this subgenus to the genus Thaumatophyllum; Canal et al. (2019) keep it inside Philodendron on a much larger sampling, POWO does not accept the segregate, and this tree follows them.",
+           "sampledCount": 3,
+           "chron": {
+            "stem": 24.53,
+            "crown": 8.68,
+            "pp": 1.0,
+            "crownHpd": [
+             4.32,
+             13.35
+            ]
+           }
+          },
+          {
+           "id": "subgenus-philodendron-philodendron",
+           "name": "Philodendron",
+           "rank": "subgenus",
+           "note": "The largest subgenus - ~460 accepted species, mainly epiphytes and hemiepiphytes, centred on Central America, the Chocó, the northern Andes and Amazonia. Twelve well-supported clades are recognised inside it.",
+           "sampledCount": 119,
+           "chron": {
+            "stem": 24.53,
+            "crown": 20.37,
+            "pp": 1.0,
+            "crownHpd": [
+             14.03,
+             26.54
+            ]
+           },
+           "children": [
+            {
+             "id": "clade-philodendron-1",
+             "name": "Clade 1",
+             "rank": "clade",
+             "note": "Clade 1 of Canal et al. (2019); clade 3 in Canal et al. (2018).",
+             "chron": {
+              "stem": 20.37,
+              "crown": 12.34,
+              "pp": 1.0,
+              "crownHpd": [
+               7.72,
+               17.17
+              ]
+             }
+            },
+            {
+             "id": "node-philodendron-18-87",
+             "name": "node 18-87",
+             "anon": true,
+             "rank": "clade",
+             "chron": {
+              "stem": 20.37,
+              "crown": 18.87,
+              "pp": 0.88
+             },
+             "children": [
+              {
+               "id": "clade-philodendron-2",
+               "name": "Clade 2",
+               "rank": "clade",
+               "note": "Clade 2 of Canal et al. (2019); clade 4 in Canal et al. (2018).",
+               "chron": {
+                "stem": 18.87,
+                "crown": 6.34,
+                "pp": 1.0,
+                "crownHpd": [
+                 3.12,
+                 10.17
+                ]
+               }
+              },
+              {
+               "id": "node-philodendron-12-89",
+               "name": "node 12-89",
+               "anon": true,
+               "rank": "clade",
+               "chron": {
+                "stem": 18.87,
+                "crown": 12.89
+               },
+               "children": [
+                {
+                 "id": "node-philodendron-12-55",
+                 "name": "node 12-55",
+                 "anon": true,
+                 "rank": "clade",
+                 "chron": {
+                  "stem": 12.89,
+                  "crown": 12.55,
+                  "pp": 0.38
+                 },
+                 "children": [
+                  {
+                   "id": "clade-philodendron-10",
+                   "name": "Clade 10",
+                   "rank": "clade",
+                   "note": "Clade 10 of Canal et al. (2019); clade 12 in Canal et al. (2018).",
+                   "chron": {
+                    "stem": 12.55,
+                    "crown": 8.12,
+                    "pp": 1.0,
+                    "crownHpd": [
+                     4.27,
+                     12.29
+                    ]
+                   }
+                  },
+                  {
+                   "id": "node-philodendron-9-84",
+                   "name": "node 9-84",
+                   "anon": true,
+                   "rank": "clade",
+                   "chron": {
+                    "stem": 12.55,
+                    "crown": 9.84,
+                    "pp": 1.0
+                   },
+                   "children": [
+                    {
+                     "id": "clade-philodendron-3",
+                     "name": "Clade 3",
+                     "rank": "clade",
+                     "note": "Clade 3 of Canal et al. (2019); clade 5 in Canal et al. (2018).",
+                     "chron": {
+                      "stem": 9.84,
+                      "crown": 9.49,
+                      "pp": 0.18,
+                      "crownNote": "95% HPD not calculated by the study given the low support."
+                     }
+                    },
+                    {
+                     "id": "node-philodendron-9-32a",
+                     "name": "node 9-32a",
+                     "anon": true,
+                     "rank": "clade",
+                     "chron": {
+                      "stem": 9.84,
+                      "crown": 9.32,
+                      "pp": 0.21
+                     },
+                     "children": [
+                      {
+                       "id": "clade-philodendron-4",
+                       "name": "Clade 4",
+                       "rank": "clade",
+                       "note": "Clade 4 of Canal et al. (2019); clade 6 in Canal et al. (2018).",
+                       "chron": {
+                        "stem": 9.32,
+                        "crown": 4.32,
+                        "pp": 1.0,
+                        "crownHpd": [
+                         2.2,
+                         6.66
+                        ]
+                       }
+                      },
+                      {
+                       "id": "clade-philodendron-5",
+                       "name": "Clade 5",
+                       "rank": "clade",
+                       "note": "Clade 5 of Canal et al. (2019); clade 7 in Canal et al. (2018).",
+                       "chron": {
+                        "stem": 9.32,
+                        "crown": 4.86,
+                        "pp": 1.0,
+                        "crownHpd": [
+                         2.63,
+                         7.48
+                        ]
+                       }
+                      }
+                     ]
+                    }
+                   ]
+                  }
+                 ]
+                },
+                {
+                 "id": "node-philodendron-11-36",
+                 "name": "node 11-36",
+                 "anon": true,
+                 "rank": "clade",
+                 "chron": {
+                  "stem": 12.89,
+                  "crown": 11.36
+                 },
+                 "children": [
+                  {
+                   "id": "node-philodendron-9-62",
+                   "name": "node 9-62",
+                   "anon": true,
+                   "rank": "clade",
+                   "chron": {
+                    "stem": 11.36,
+                    "crown": 9.62
+                   },
+                   "note": "Its sister lineage here is one or more species that fall outside the twelve named clades; those appear only when the species layer is added.",
+                   "children": [
+                    {
+                     "id": "node-philodendron-8-49",
+                     "name": "node 8-49",
+                     "anon": true,
+                     "rank": "clade",
+                     "chron": {
+                      "stem": 9.62,
+                      "crown": 8.49
+                     },
+                     "children": [
+                      {
+                       "id": "clade-philodendron-6",
+                       "name": "Clade 6",
+                       "rank": "clade",
+                       "note": "Clade 6 of Canal et al. (2019); clade 8 in Canal et al. (2018).",
+                       "chron": {
+                        "stem": 8.49,
+                        "crown": 6.7,
+                        "pp": 0.99,
+                        "crownHpd": [
+                         4.17,
+                         9.46
+                        ]
+                       }
+                      },
+                      {
+                       "id": "clade-philodendron-7",
+                       "name": "Clade 7",
+                       "rank": "clade",
+                       "note": "Clade 7 of Canal et al. (2019); clade 9 in Canal et al. (2018).",
+                       "chron": {
+                        "stem": 8.49,
+                        "crown": 6.52,
+                        "pp": 1.0,
+                        "crownHpd": [
+                         4.12,
+                         9.22
+                        ]
+                       }
+                      }
+                     ]
+                    }
+                   ]
+                  },
+                  {
+                   "id": "node-philodendron-10-35",
+                   "name": "node 10-35",
+                   "anon": true,
+                   "rank": "clade",
+                   "chron": {
+                    "stem": 11.36,
+                    "crown": 10.35,
+                    "pp": 0.98
+                   },
+                   "children": [
+                    {
+                     "id": "clade-philodendron-8",
+                     "name": "Clade 8",
+                     "rank": "clade",
+                     "note": "Clade 8 of Canal et al. (2019); clade 10 in Canal et al. (2018).",
+                     "chron": {
+                      "stem": 10.35,
+                      "crown": 9.77,
+                      "pp": 0.54,
+                      "crownHpd": [
+                       5.82,
+                       12.84
+                      ]
+                     }
+                    },
+                    {
+                     "id": "node-philodendron-9-32b",
+                     "name": "node 9-32b",
+                     "anon": true,
+                     "rank": "clade",
+                     "chron": {
+                      "stem": 10.35,
+                      "crown": 9.32,
+                      "pp": 0.98
+                     },
+                     "children": [
+                      {
+                       "id": "clade-philodendron-9",
+                       "name": "Clade 9",
+                       "rank": "clade",
+                       "note": "Clade 9 of Canal et al. (2019); clade 11 in Canal et al. (2018).",
+                       "chron": {
+                        "stem": 9.32,
+                        "crown": 6.48,
+                        "pp": 1.0,
+                        "crownHpd": [
+                         3.97,
+                         9.2
+                        ]
+                       }
+                      },
+                      {
+                       "id": "node-philodendron-9-05",
+                       "name": "node 9-05",
+                       "anon": true,
+                       "rank": "clade",
+                       "chron": {
+                        "stem": 9.32,
+                        "crown": 9.05
+                       },
+                       "note": "Its sister lineage here is one or more species that fall outside the twelve named clades; those appear only when the species layer is added.",
+                       "children": [
+                        {
+                         "id": "node-philodendron-7-42",
+                         "name": "node 7-42",
+                         "anon": true,
+                         "rank": "clade",
+                         "chron": {
+                          "stem": 9.05,
+                          "crown": 7.42
+                         },
+                         "children": [
+                          {
+                           "id": "clade-philodendron-12",
+                           "name": "Clade 12",
+                           "rank": "clade",
+                           "note": "Clade 12 of Canal et al. (2019); clade 14 in Canal et al. (2018).",
+                           "chron": {
+                            "stem": 7.42,
+                            "crown": 5.48,
+                            "pp": 1.0,
+                            "crownHpd": [
+                             3.01,
+                             8.15
+                            ]
+                           }
+                          },
+                          {
+                           "id": "clade-philodendron-11",
+                           "name": "Clade 11",
+                           "rank": "clade",
+                           "note": "Clade 11 of Canal et al. (2019); clade 13 in Canal et al. (2018).",
+                           "chron": {
+                            "stem": 7.42,
+                            "crown": 5.99,
+                            "pp": 1.0,
+                            "crownHpd": [
+                             3.59,
+                             8.43
+                            ]
+                           }
+                          }
+                         ]
+                        }
+                       ]
+                      }
+                     ]
+                    }
+                   ]
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "chron": {
+        "stem": 28.4,
+        "stemHpd": [
+         20.9,
+         36.16
+        ],
+        "crown": 24.72,
+        "crownHpd": [
+         17.8,
+         32.09
+        ],
+        "pp": 1.0,
+        "tips": 173,
+        "note": "From the Philodendron study (Canal et al. 2019), not the family chronogram the rest of this view is drawn from. Its stem is shared with Adelonema, its sister genus. Canal et al. (2018) date the same nodes at 25.53 / 22.10 Ma on the same three secondary calibrations with 48 fewer taxa, and at 21.55 / 18.61 Ma when a Montrichardia fossil is added instead - the ages are not strictly comparable with the genera around them."
+       },
+       "speciesTierSource": "Canal, Köster, Celis, Croat & Borsch (2019), \"Out of Amazonia and back again: historical biogeography of the species-rich Neotropical genus Philodendron (Araceae)\", Annals of the Missouri Botanical Garden 104: 49-68, Table 1 and Fig. 1",
+       "speciesTierNote": "The plastid BEAST chronogram (petD, rpl16, trnK/matK; 221 accessions, 173 Philodendron taxa, three secondary calibrations from Nauheimer et al. 2012). Ages, 95% HPDs and posteriors are Table 1's; the branching order is derived from Fig. 1, whose two pages are drawn at different scales and were calibrated separately - each calibration then reproduced ages it was not fitted to, and the node where the two pages join is dated 12.89 Ma on one and 12.89 Ma on the other. ⚠ Canal et al. (2018) numbered these clades 3-14; 2019 renumbers them 1-12 and adds clades A and B in subgenus Pteromischum. Both numbers are given. ⚠ The two studies disagree about which subgenus branches first, and both mark that node as too weakly supported to date: 2018 has subgenus Philodendron splitting off first (pp 0.37), 2019 has Pteromischum (pp 0.27). The tier draws 2019 and says so. ⚠ No section of the current infrageneric classification came out monophyletic and the clades have no morphological synapomorphies - they are largely geographic.",
+       "subgeneraSource": "Canal, Köster, Celis, Croat & Borsch (2019), \"Out of Amazonia and back again: historical biogeography of the species-rich Neotropical genus Philodendron (Araceae)\", Annals of the Missouri Botanical Garden 104: 49-68, Table 1 and Fig. 1"
       }
      ]
     },
@@ -8690,10 +9149,11 @@
     "Claudel, Hetterscheid, Boyce & Wong (2017), \"Large-scale phylogenetic analysis of Amorphophallus (Araceae) derived from nuclear and plastid sequences reveals new subgeneric delineation\", Botanical Journal of the Linnean Society 184: 32-45. Sinks Pseudodracontium into Amorphophallus (POWO concurs - no workbook in the Araceae export) and erects the four subgenera carried here. Landoltia is treated as Spirodela. Only Afrophallus carries a species list: the study states its range is exclusively African, and the other three subgenera overlap.",
     "Nauheimer, Boyce & Renner (2012), \"Giant taro and its relatives: a phylogeny of the large genus Alocasia (Araceae) sheds light on Miocene floristic exchange in the Malesian region\", Molecular Phylogenetics and Evolution 63: 43-51. Source of the Alocasia species tier: four nuclear clades A-D and the 67 species read from Fig. 3b, checked against Table S1 and against the two species-groups the paper names in prose.",
     "Nauheimer, Boyce & Renner (2012), \"Giant taro and its relatives: a phylogeny of the large genus Alocasia (Araceae) sheds light on Miocene floristic exchange in the Malesian region\", Molecular Phylogenetics and Evolution 63: 43-51, Fig. 4 and Table S3. The Alocasia species tier became a dated cladogram: all 55 nodes of the nuclear chronogram below the genus crown, each with its mean age, 95% HPD and posterior probability, and the 73 accessions (67 species) at their tips. Replaces the flat clade lists of 1.13.0.",
-    "Pouchon, Boyce, Roberts, Gitzendanner, Hetterscheid, Soltis, Soltis & Claudel (2023), \"Phylogenomic study of Amorphophallus (Alismatales; Araceae): when plastid DNA gene sequences help to resolve the backbone subgeneric delineation\", Journal of Systematics and Evolution 61(1): 64-79, Fig. 4 and Table S2. The Amorphophallus subgenus scaffold of 1.12.0 became a dated cladogram: all 44 nodes of the plastid chronogram below the genus crown, each with its mean age, 95% HPD and posterior, and the 45 accessions (36 species) at their tips. No aggregate row - unsampled species are not drawn."
+    "Pouchon, Boyce, Roberts, Gitzendanner, Hetterscheid, Soltis, Soltis & Claudel (2023), \"Phylogenomic study of Amorphophallus (Alismatales; Araceae): when plastid DNA gene sequences help to resolve the backbone subgeneric delineation\", Journal of Systematics and Evolution 61(1): 64-79, Fig. 4 and Table S2. The Amorphophallus subgenus scaffold of 1.12.0 became a dated cladogram: all 44 nodes of the plastid chronogram below the genus crown, each with its mean age, 95% HPD and posterior, and the 45 accessions (36 species) at their tips. No aggregate row - unsampled species are not drawn.",
+    "1.16.0 - the Philodendron clade tier: 3 subgenera, clades A/B and 1-12, from Canal et al. (2019) Table 1 and Fig. 1. Ages from the table; branching order derived from the figure and gated 24 ways."
    ],
    "speciesCounts": "POWO master export, Araceae_Exports/EXCELS/_run_log.csv (validated accepted species).",
-   "version": "1.15.0",
+   "version": "1.16.0",
    "orthographicVariants": {
     "Stylochiton": "Treated as Stylochaeton Lepr. (MBB no. 34). The POWO export uses Stylochiton; which spelling Kew currently accepts is unconfirmed."
    },
