@@ -1,5 +1,6 @@
 # =====================================================================
 # AROIDPEDIA - DEPLOY ON JOURNAL PHOTO PUSH
+# FILE VERSION: v3   (8.10.26: also fires on docs/araceae-tree.v1.json)
 # FILE VERSION: v2   (8.10.26: also fires on docs/shapes.json and
 #   docs/climate.json - the map and climate data ship through the same
 #   no-wait lane as the photos)
@@ -28,6 +29,10 @@ on:
       - "docs/journal/**"
       - "docs/shapes.json"
       - "docs/climate.json"
+      # v3 (8.10.26): the phylogeny tree ships through the same lane.
+      # Data 1.19.0 was pushed and the site kept serving the previous
+      # artifact - a push to docs/ updates the REPO, never the live site.
+      - "docs/araceae-tree.v1.json"
   workflow_dispatch:
 
 permissions:

@@ -13466,7 +13466,8 @@
      "and their two-area combinations"
     ],
     "coverage": "121 of 166 nodes carry a readable pie; 4 are drawn solid black (unsupported nodes, per the figure's caption); 41 anonymous forks have their pie drawn off the node on a leader and are not read. 17 of the 17 named clades and subgenera carry a range."
-   }
+   },
+   "deployedAt": "2026-08-10"
   },
   "chronology": {
    "source": "Nauheimer, Metzler & Renner (2012), New Phytologist 195: 938-950 - BEAST relaxed-clock chronogram, 132 Araceae taxa, seven fossil calibrations.",
