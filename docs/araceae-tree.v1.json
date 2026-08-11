@@ -4034,247 +4034,135 @@
          "id": "subgenus-philodendron-pteromischum",
          "name": "Pteromischum",
          "rank": "subgenus",
-         "note": "Vines of the wet lowland forests of Amazonia, the Chocó and Central America; two sections, Fruticosa and Pteromischum. 82 accepted species.",
-         "sampledCount": 8,
          "chron": {
           "stem": 24.72,
-          "crown": 19.21,
-          "pp": 1.0,
-          "crownHpd": [
-           12.47,
-           25.46
-          ]
+          "crown": 19.211,
+          "tips": 23
          },
          "children": [
           {
-           "id": "node-philodendron-15-29",
-           "name": "node 15-29",
-           "anon": true,
-           "rank": "clade",
+           "id": "species-philodendron-ara342",
+           "name": "Philodendron surinamense",
+           "rank": "species",
+           "accession": "ARA342",
            "chron": {
-            "stem": 19.21,
-            "crown": 15.29,
-            "pp": 1.0
-           },
-           "note": "Its sister here is P. surinamense, which the study resolves as sister to both new Pteromischum clades.",
-           "children": [
-            {
-             "id": "clade-philodendron-a",
-             "name": "Clade A",
-             "rank": "clade",
-             "note": "Newly recovered by Canal et al. (2019); not resolved in the 2018 study (BS 97, JK 98, PP 1.0).",
-             "chron": {
-              "stem": 15.29,
-              "crown": 11.86,
-              "crownHpd": [
-               7.46,
-               16.33
-              ],
-              "pp": 1.0
-             }
-            },
-            {
-             "id": "clade-philodendron-b",
-             "name": "Clade B",
-             "rank": "clade",
-             "note": "Newly recovered by Canal et al. (2019); not resolved in the 2018 study (BS 82, JK 60, PP 0.99).",
-             "chron": {
-              "stem": 15.29,
-              "crown": 11.39,
-              "crownHpd": [
-               6.79,
-               16.12
-              ],
-              "pp": 1.0
-             }
-            }
-           ]
-          }
-         ]
-        },
-        {
-         "id": "node-philodendron-24-53",
-         "name": "node 24-53",
-         "anon": true,
-         "rank": "clade",
-         "chron": {
-          "stem": 24.72,
-          "crown": 24.53,
-          "pp": 0.27
-         },
-         "note": "⚠ The weakest node in the tier, and the two studies disagree here. Canal et al. (2019) pair subgenus Meconostigma with subgenus Philodendron (pp 0.27); Canal et al. (2018) instead paired Meconostigma with Pteromischum (pp 0.37). Both papers decline to give it a 95% HPD \"given the low statistic support\".",
-         "children": [
-          {
-           "id": "subgenus-philodendron-meconostigma",
-           "name": "Meconostigma",
-           "rank": "subgenus",
-           "note": "Mostly terrestrial species of Amazonia, the Mata Atlântica and the Cerrado; 21 accepted species. ⚠ Sakuragui et al. (2018) raised this subgenus to the genus Thaumatophyllum; Canal et al. (2019) keep it inside Philodendron on a much larger sampling, POWO does not accept the segregate, and this tree follows them.",
-           "sampledCount": 3,
-           "chron": {
-            "stem": 24.53,
-            "crown": 8.68,
-            "pp": 1.0,
-            "crownHpd": [
-             4.32,
-             13.35
-            ]
+            "stem": 19.211,
+            "tips": 1
            }
           },
           {
-           "id": "subgenus-philodendron-philodendron",
-           "name": "Philodendron",
-           "rank": "subgenus",
-           "note": "The largest subgenus - ~460 accepted species, mainly epiphytes and hemiepiphytes, centred on Central America, the Chocó, the northern Andes and Amazonia. Twelve well-supported clades are recognised inside it.",
-           "sampledCount": 119,
+           "id": "node-philodendron-16-115",
+           "name": "node 16.115",
+           "anon": true,
+           "rank": "clade",
            "chron": {
-            "stem": 24.53,
-            "crown": 20.37,
-            "pp": 1.0,
-            "crownHpd": [
-             14.03,
-             26.54
-            ]
+            "stem": 19.211,
+            "crown": 16.115,
+            "tips": 22
            },
            "children": [
             {
-             "id": "clade-philodendron-1",
-             "name": "Clade 1",
-             "rank": "clade",
-             "note": "Clade 1 of Canal et al. (2019); clade 3 in Canal et al. (2018).",
+             "id": "species-philodendron-ara121",
+             "name": "Philodendron sonderianum",
+             "rank": "species",
+             "accession": "ARA121",
              "chron": {
-              "stem": 20.37,
-              "crown": 12.34,
-              "pp": 1.0,
-              "crownHpd": [
-               7.72,
-               17.17
-              ]
+              "stem": 16.115,
+              "tips": 1
              }
             },
             {
-             "id": "node-philodendron-18-87",
-             "name": "node 18-87",
+             "id": "node-philodendron-15-291",
+             "name": "node 15.291",
              "anon": true,
              "rank": "clade",
              "chron": {
-              "stem": 20.37,
-              "crown": 18.87,
-              "pp": 0.88
+              "stem": 16.115,
+              "crown": 15.291,
+              "tips": 21
              },
              "children": [
               {
-               "id": "clade-philodendron-2",
-               "name": "Clade 2",
-               "rank": "clade",
-               "note": "Clade 2 of Canal et al. (2019); clade 4 in Canal et al. (2018).",
-               "chron": {
-                "stem": 18.87,
-                "crown": 6.34,
-                "pp": 1.0,
-                "crownHpd": [
-                 3.12,
-                 10.17
-                ]
-               }
-              },
-              {
-               "id": "node-philodendron-12-89",
-               "name": "node 12-89",
-               "anon": true,
+               "id": "clade-philodendron-a",
+               "name": "Clade A",
                "rank": "clade",
                "chron": {
-                "stem": 18.87,
-                "crown": 12.89
+                "stem": 15.291,
+                "crown": 11.867,
+                "tips": 10
                },
                "children": [
                 {
-                 "id": "node-philodendron-12-55",
-                 "name": "node 12-55",
+                 "id": "node-philodendron-11-084",
+                 "name": "node 11.084",
                  "anon": true,
                  "rank": "clade",
                  "chron": {
-                  "stem": 12.89,
-                  "crown": 12.55,
-                  "pp": 0.38
+                  "stem": 11.867,
+                  "crown": 11.084,
+                  "tips": 4
                  },
                  "children": [
                   {
-                   "id": "clade-philodendron-10",
-                   "name": "Clade 10",
-                   "rank": "clade",
-                   "note": "Clade 10 of Canal et al. (2019); clade 12 in Canal et al. (2018).",
+                   "id": "species-philodendron-ara210",
+                   "name": "Philodendron sp. (Pteromischum)",
+                   "rank": "species",
+                   "accession": "ARA210",
                    "chron": {
-                    "stem": 12.55,
-                    "crown": 8.12,
-                    "pp": 1.0,
-                    "crownHpd": [
-                     4.27,
-                     12.29
-                    ]
+                    "stem": 11.084,
+                    "tips": 1
                    }
                   },
                   {
-                   "id": "node-philodendron-9-84",
-                   "name": "node 9-84",
+                   "id": "node-philodendron-4-777",
+                   "name": "node 4.777",
                    "anon": true,
                    "rank": "clade",
                    "chron": {
-                    "stem": 12.55,
-                    "crown": 9.84,
-                    "pp": 1.0
+                    "stem": 11.084,
+                    "crown": 4.777,
+                    "tips": 3
                    },
                    "children": [
                     {
-                     "id": "clade-philodendron-3",
-                     "name": "Clade 3",
-                     "rank": "clade",
-                     "note": "Clade 3 of Canal et al. (2019); clade 5 in Canal et al. (2018).",
+                     "id": "species-philodendron-ara309",
+                     "name": "Philodendron sp. (subgen. Pteromischum)",
+                     "rank": "species",
+                     "accession": "ARA309",
                      "chron": {
-                      "stem": 9.84,
-                      "crown": 9.49,
-                      "pp": 0.18,
-                      "crownNote": "95% HPD not calculated by the study given the low support."
+                      "stem": 4.777,
+                      "tips": 1
                      }
                     },
                     {
-                     "id": "node-philodendron-9-32a",
-                     "name": "node 9-32a",
+                     "id": "node-philodendron-1-749",
+                     "name": "node 1.749",
                      "anon": true,
                      "rank": "clade",
                      "chron": {
-                      "stem": 9.84,
-                      "crown": 9.32,
-                      "pp": 0.21
+                      "stem": 4.777,
+                      "crown": 1.749,
+                      "tips": 2
                      },
                      "children": [
                       {
-                       "id": "clade-philodendron-4",
-                       "name": "Clade 4",
-                       "rank": "clade",
-                       "note": "Clade 4 of Canal et al. (2019); clade 6 in Canal et al. (2018).",
+                       "id": "species-philodendron-ara307",
+                       "name": "Philodendron sp. (subgen. Pteromischum)",
+                       "rank": "species",
+                       "accession": "ARA307",
                        "chron": {
-                        "stem": 9.32,
-                        "crown": 4.32,
-                        "pp": 1.0,
-                        "crownHpd": [
-                         2.2,
-                         6.66
-                        ]
+                        "stem": 1.749,
+                        "tips": 1
                        }
                       },
                       {
-                       "id": "clade-philodendron-5",
-                       "name": "Clade 5",
-                       "rank": "clade",
-                       "note": "Clade 5 of Canal et al. (2019); clade 7 in Canal et al. (2018).",
+                       "id": "species-philodendron-ara274",
+                       "name": "Philodendron ichthyoderma",
+                       "rank": "species",
+                       "accession": "ARA274",
                        "chron": {
-                        "stem": 9.32,
-                        "crown": 4.86,
-                        "pp": 1.0,
-                        "crownHpd": [
-                         2.63,
-                         7.48
-                        ]
+                        "stem": 1.749,
+                        "tips": 1
                        }
                       }
                      ]
@@ -4284,64 +4172,66 @@
                  ]
                 },
                 {
-                 "id": "node-philodendron-11-36",
-                 "name": "node 11-36",
+                 "id": "node-philodendron-9-392",
+                 "name": "node 9.392",
                  "anon": true,
                  "rank": "clade",
                  "chron": {
-                  "stem": 12.89,
-                  "crown": 11.36
+                  "stem": 11.867,
+                  "crown": 9.392,
+                  "tips": 6
                  },
                  "children": [
                   {
-                   "id": "node-philodendron-9-62",
-                   "name": "node 9-62",
+                   "id": "node-philodendron-6-753",
+                   "name": "node 6.753",
                    "anon": true,
                    "rank": "clade",
                    "chron": {
-                    "stem": 11.36,
-                    "crown": 9.62
+                    "stem": 9.392,
+                    "crown": 6.753,
+                    "tips": 3
                    },
-                   "note": "Its sister lineage here is one or more species that fall outside the twelve named clades; those appear only when the species layer is added.",
                    "children": [
                     {
-                     "id": "node-philodendron-8-49",
-                     "name": "node 8-49",
+                     "id": "species-philodendron-ara257",
+                     "name": "Philodendron divaricatum",
+                     "rank": "species",
+                     "accession": "ARA257",
+                     "chron": {
+                      "stem": 6.753,
+                      "tips": 1
+                     }
+                    },
+                    {
+                     "id": "node-philodendron-3-75",
+                     "name": "node 3.75",
                      "anon": true,
                      "rank": "clade",
                      "chron": {
-                      "stem": 9.62,
-                      "crown": 8.49
+                      "stem": 6.753,
+                      "crown": 3.75,
+                      "tips": 2
                      },
                      "children": [
                       {
-                       "id": "clade-philodendron-6",
-                       "name": "Clade 6",
-                       "rank": "clade",
-                       "note": "Clade 6 of Canal et al. (2019); clade 8 in Canal et al. (2018).",
+                       "id": "species-philodendron-ara333",
+                       "name": "Philodendron sp. (subgen. Pteromischum)",
+                       "rank": "species",
+                       "accession": "ARA333",
                        "chron": {
-                        "stem": 8.49,
-                        "crown": 6.7,
-                        "pp": 0.99,
-                        "crownHpd": [
-                         4.17,
-                         9.46
-                        ]
+                        "stem": 3.75,
+                        "tips": 1
                        }
                       },
                       {
-                       "id": "clade-philodendron-7",
-                       "name": "Clade 7",
-                       "rank": "clade",
-                       "note": "Clade 7 of Canal et al. (2019); clade 9 in Canal et al. (2018).",
+                       "id": "species-philodendron-ara209",
+                       "name": "Philodendron sp. (Pteromischum)",
+                       "rank": "species",
+                       "accession": "ARA209",
                        "chron": {
-                        "stem": 8.49,
-                        "crown": 6.52,
-                        "pp": 1.0,
-                        "crownHpd": [
-                         4.12,
-                         9.22
-                        ]
+                        "stem": 3.75,
+                        "tips": 1
                        }
                       }
                      ]
@@ -4349,107 +4239,3493 @@
                    ]
                   },
                   {
-                   "id": "node-philodendron-10-35",
-                   "name": "node 10-35",
+                   "id": "node-philodendron-5-865",
+                   "name": "node 5.865",
                    "anon": true,
                    "rank": "clade",
                    "chron": {
-                    "stem": 11.36,
-                    "crown": 10.35,
-                    "pp": 0.98
+                    "stem": 9.392,
+                    "crown": 5.865,
+                    "tips": 3
+                   },
+                   "children": [
+                    {
+                     "id": "species-philodendron-ara310",
+                     "name": "Philodendron sp. (subgen. Pteromischum)",
+                     "rank": "species",
+                     "accession": "ARA310",
+                     "chron": {
+                      "stem": 5.865,
+                      "tips": 1
+                     }
+                    },
+                    {
+                     "id": "node-philodendron-4-527",
+                     "name": "node 4.527",
+                     "anon": true,
+                     "rank": "clade",
+                     "chron": {
+                      "stem": 5.865,
+                      "crown": 4.527,
+                      "tips": 2
+                     },
+                     "children": [
+                      {
+                       "id": "species-philodendron-ara080",
+                       "name": "Philodendron cf. guttiferum",
+                       "rank": "species",
+                       "accession": "ARA080",
+                       "chron": {
+                        "stem": 4.527,
+                        "tips": 1
+                       }
+                      },
+                      {
+                       "id": "species-philodendron-ara010",
+                       "name": "Philodendron gonzalezii",
+                       "rank": "species",
+                       "accession": "ARA010",
+                       "chron": {
+                        "stem": 4.527,
+                        "tips": 1
+                       }
+                      }
+                     ]
+                    }
+                   ]
+                  }
+                 ]
+                }
+               ],
+               "speciesCount": 6,
+               "note": "Newly recovered by Canal et al. (2019); not resolved in the 2018 study (BS 97, JK 98, PP 1.0)."
+              },
+              {
+               "id": "clade-philodendron-b",
+               "name": "Clade B",
+               "rank": "clade",
+               "chron": {
+                "stem": 15.291,
+                "crown": 11.39,
+                "tips": 11
+               },
+               "children": [
+                {
+                 "id": "node-philodendron-5-669",
+                 "name": "node 5.669",
+                 "anon": true,
+                 "rank": "clade",
+                 "chron": {
+                  "stem": 11.39,
+                  "crown": 5.669,
+                  "tips": 4
+                 },
+                 "children": [
+                  {
+                   "id": "species-philodendron-ara313",
+                   "name": "Philodendron sp. (subgen. Pteromischum)",
+                   "rank": "species",
+                   "accession": "ARA313",
+                   "chron": {
+                    "stem": 5.669,
+                    "tips": 1
+                   }
+                  },
+                  {
+                   "id": "node-philodendron-2-787",
+                   "name": "node 2.787",
+                   "anon": true,
+                   "rank": "clade",
+                   "chron": {
+                    "stem": 5.669,
+                    "crown": 2.787,
+                    "tips": 3
+                   },
+                   "children": [
+                    {
+                     "id": "species-philodendron-ara314",
+                     "name": "Philodendron sp. (subgen. Pteromischum)",
+                     "rank": "species",
+                     "accession": "ARA314",
+                     "chron": {
+                      "stem": 2.787,
+                      "tips": 1
+                     }
+                    },
+                    {
+                     "id": "node-philodendron-1-894",
+                     "name": "node 1.894",
+                     "anon": true,
+                     "rank": "clade",
+                     "chron": {
+                      "stem": 2.787,
+                      "crown": 1.894,
+                      "tips": 2
+                     },
+                     "children": [
+                      {
+                       "id": "species-philodendron-ara315",
+                       "name": "Philodendron sp. (subgen. Pteromischum)",
+                       "rank": "species",
+                       "accession": "ARA315",
+                       "chron": {
+                        "stem": 1.894,
+                        "tips": 1
+                       }
+                      },
+                      {
+                       "id": "species-philodendron-ara308",
+                       "name": "Philodendron sp. (subgen. Pteromischum)",
+                       "rank": "species",
+                       "accession": "ARA308",
+                       "chron": {
+                        "stem": 1.894,
+                        "tips": 1
+                       }
+                      }
+                     ]
+                    }
+                   ]
+                  }
+                 ]
+                },
+                {
+                 "id": "node-philodendron-5-397",
+                 "name": "node 5.397",
+                 "anon": true,
+                 "rank": "clade",
+                 "chron": {
+                  "stem": 11.39,
+                  "crown": 5.397,
+                  "tips": 7
+                 },
+                 "children": [
+                  {
+                   "id": "species-philodendron-ara320",
+                   "name": "Philodendron sp. (subgen. Pteromischum)",
+                   "rank": "species",
+                   "accession": "ARA320",
+                   "chron": {
+                    "stem": 5.397,
+                    "tips": 1
+                   }
+                  },
+                  {
+                   "id": "node-philodendron-4-407",
+                   "name": "node 4.407",
+                   "anon": true,
+                   "rank": "clade",
+                   "chron": {
+                    "stem": 5.397,
+                    "crown": 4.407,
+                    "tips": 6
+                   },
+                   "children": [
+                    {
+                     "id": "node-philodendron-3-993",
+                     "name": "node 3.993",
+                     "anon": true,
+                     "rank": "clade",
+                     "chron": {
+                      "stem": 4.407,
+                      "crown": 3.993,
+                      "tips": 2
+                     },
+                     "children": [
+                      {
+                       "id": "species-philodendron-ara356",
+                       "name": "Philodendron sp. (subgen. Pteromischum)",
+                       "rank": "species",
+                       "accession": "ARA356",
+                       "chron": {
+                        "stem": 3.993,
+                        "tips": 1
+                       }
+                      },
+                      {
+                       "id": "species-philodendron-ara293",
+                       "name": "Philodendron pteropus",
+                       "rank": "species",
+                       "accession": "ARA293",
+                       "chron": {
+                        "stem": 3.993,
+                        "tips": 1
+                       }
+                      }
+                     ]
+                    },
+                    {
+                     "id": "node-philodendron-3-975",
+                     "name": "node 3.975",
+                     "anon": true,
+                     "rank": "clade",
+                     "chron": {
+                      "stem": 4.407,
+                      "crown": 3.975,
+                      "tips": 4
+                     },
+                     "children": [
+                      {
+                       "id": "species-philodendron-ara174",
+                       "name": "Philodendron palaciosii",
+                       "rank": "species",
+                       "accession": "ARA174",
+                       "chron": {
+                        "stem": 3.975,
+                        "tips": 1
+                       }
+                      },
+                      {
+                       "id": "node-philodendron-3-099",
+                       "name": "node 3.099",
+                       "anon": true,
+                       "rank": "clade",
+                       "chron": {
+                        "stem": 3.975,
+                        "crown": 3.099,
+                        "tips": 3
+                       },
+                       "children": [
+                        {
+                         "id": "species-philodendron-ara358",
+                         "name": "Philodendron pierrelianum",
+                         "rank": "species",
+                         "accession": "ARA358",
+                         "chron": {
+                          "stem": 3.099,
+                          "tips": 1
+                         }
+                        },
+                        {
+                         "id": "node-philodendron-1-931",
+                         "name": "node 1.931",
+                         "anon": true,
+                         "rank": "clade",
+                         "chron": {
+                          "stem": 3.099,
+                          "crown": 1.931,
+                          "tips": 2
+                         },
+                         "children": [
+                          {
+                           "id": "species-philodendron-ara319",
+                           "name": "Philodendron sp. (subgen. Pteromischum)",
+                           "rank": "species",
+                           "accession": "ARA319",
+                           "chron": {
+                            "stem": 1.931,
+                            "tips": 1
+                           }
+                          },
+                          {
+                           "id": "species-philodendron-ara318",
+                           "name": "Philodendron sp. (subgen. Pteromischum)",
+                           "rank": "species",
+                           "accession": "ARA318",
+                           "chron": {
+                            "stem": 1.931,
+                            "tips": 1
+                           }
+                          }
+                         ]
+                        }
+                       ]
+                      }
+                     ]
+                    }
+                   ]
+                  }
+                 ]
+                }
+               ],
+               "speciesCount": 4,
+               "note": "Newly recovered by Canal et al. (2019); not resolved in the 2018 study (BS 82, JK 60, PP 0.99)."
+              }
+             ]
+            }
+           ]
+          }
+         ],
+         "sampledCount": 11,
+         "note": "Vines of the wet lowland forests of Amazonia, the Chocó and Central America; two sections, Fruticosa and Pteromischum. 82 accepted species."
+        },
+        {
+         "id": "node-philodendron-24-528",
+         "name": "node 24.528",
+         "anon": true,
+         "rank": "clade",
+         "chron": {
+          "stem": 24.72,
+          "crown": 24.528,
+          "tips": 139
+         },
+         "children": [
+          {
+           "id": "subgenus-philodendron-meconostigma",
+           "name": "Meconostigma",
+           "rank": "subgenus",
+           "chron": {
+            "stem": 24.528,
+            "crown": 8.684,
+            "tips": 6
+           },
+           "children": [
+            {
+             "id": "node-philodendron-5-322",
+             "name": "node 5.322",
+             "anon": true,
+             "rank": "clade",
+             "chron": {
+              "stem": 8.684,
+              "crown": 5.322,
+              "tips": 2
+             },
+             "children": [
+              {
+               "id": "species-philodendron-ara360",
+               "name": "Philodendron pseudoundulatum",
+               "rank": "species",
+               "accession": "ARA360",
+               "chron": {
+                "stem": 5.322,
+                "tips": 1
+               }
+              },
+              {
+               "id": "species-philodendron-ara125",
+               "name": "Philodendron adamantinum",
+               "rank": "species",
+               "accession": "ARA125",
+               "chron": {
+                "stem": 5.322,
+                "tips": 1
+               }
+              }
+             ]
+            },
+            {
+             "id": "node-philodendron-7-288",
+             "name": "node 7.288",
+             "anon": true,
+             "rank": "clade",
+             "chron": {
+              "stem": 8.684,
+              "crown": 7.288,
+              "tips": 4
+             },
+             "children": [
+              {
+               "id": "species-philodendron-ara229",
+               "name": "Philodendron saxicola",
+               "rank": "species",
+               "accession": "ARA229",
+               "chron": {
+                "stem": 7.288,
+                "tips": 1
+               }
+              },
+              {
+               "id": "node-philodendron-4-263",
+               "name": "node 4.263",
+               "anon": true,
+               "rank": "clade",
+               "chron": {
+                "stem": 7.288,
+                "crown": 4.263,
+                "tips": 3
+               },
+               "children": [
+                {
+                 "id": "species-philodendron-ara371",
+                 "name": "Philodendron uliginosum",
+                 "rank": "species",
+                 "accession": "ARA371",
+                 "chron": {
+                  "stem": 4.263,
+                  "tips": 1
+                 }
+                },
+                {
+                 "id": "node-philodendron-3-576",
+                 "name": "node 3.576",
+                 "anon": true,
+                 "rank": "clade",
+                 "chron": {
+                  "stem": 4.263,
+                  "crown": 3.576,
+                  "tips": 2
+                 },
+                 "children": [
+                  {
+                   "id": "species-philodendron-ara190",
+                   "name": "Philodendron stenolobum",
+                   "rank": "species",
+                   "accession": "ARA190",
+                   "chron": {
+                    "stem": 3.576,
+                    "tips": 1
+                   }
+                  },
+                  {
+                   "id": "species-philodendron-ara079",
+                   "name": "Philodendron speciosum",
+                   "rank": "species",
+                   "accession": "ARA079",
+                   "chron": {
+                    "stem": 3.576,
+                    "tips": 1
+                   }
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ],
+           "sampledCount": 6,
+           "note": "Mostly terrestrial species of Amazonia, the Mata Atlântica and the Cerrado; 21 accepted species. ⚠ Sakuragui et al. (2018) raised this subgenus to the genus Thaumatophyllum; Canal et al. (2019) keep it inside Philodendron on a much larger sampling, POWO does not accept the segregate, and this tree follows them."
+          },
+          {
+           "id": "subgenus-philodendron-philodendron",
+           "name": "Philodendron",
+           "rank": "subgenus",
+           "chron": {
+            "stem": 24.528,
+            "crown": 20.369,
+            "tips": 133
+           },
+           "children": [
+            {
+             "id": "clade-philodendron-1",
+             "name": "Clade 1",
+             "rank": "clade",
+             "chron": {
+              "stem": 20.369,
+              "crown": 12.345,
+              "tips": 9
+             },
+             "children": [
+              {
+               "id": "node-philodendron-11-926",
+               "name": "node 11.926",
+               "anon": true,
+               "rank": "clade",
+               "chron": {
+                "stem": 12.345,
+                "crown": 11.926,
+                "tips": 3
+               },
+               "children": [
+                {
+                 "id": "species-philodendron-ara214",
+                 "name": "Philodendron jacquinii",
+                 "rank": "species",
+                 "accession": "ARA214",
+                 "chron": {
+                  "stem": 11.926,
+                  "tips": 1
+                 }
+                },
+                {
+                 "id": "node-philodendron-9-468",
+                 "name": "node 9.468",
+                 "anon": true,
+                 "rank": "clade",
+                 "chron": {
+                  "stem": 11.926,
+                  "crown": 9.468,
+                  "tips": 2
+                 },
+                 "children": [
+                  {
+                   "id": "species-philodendron-ara367",
+                   "name": "Philodendron camposportoanum",
+                   "rank": "species",
+                   "accession": "ARA367",
+                   "chron": {
+                    "stem": 9.468,
+                    "tips": 1
+                   }
+                  },
+                  {
+                   "id": "species-philodendron-ara112",
+                   "name": "Philodendron hederaceum",
+                   "rank": "species",
+                   "accession": "ARA112",
+                   "chron": {
+                    "stem": 9.468,
+                    "tips": 1
+                   }
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "id": "node-philodendron-10-805",
+               "name": "node 10.805",
+               "anon": true,
+               "rank": "clade",
+               "chron": {
+                "stem": 12.345,
+                "crown": 10.805,
+                "tips": 6
+               },
+               "children": [
+                {
+                 "id": "species-philodendron-ara376",
+                 "name": "Philodendron crassinervium",
+                 "rank": "species",
+                 "accession": "ARA376",
+                 "chron": {
+                  "stem": 10.805,
+                  "tips": 1
+                 }
+                },
+                {
+                 "id": "node-philodendron-10-239",
+                 "name": "node 10.239",
+                 "anon": true,
+                 "rank": "clade",
+                 "chron": {
+                  "stem": 10.805,
+                  "crown": 10.239,
+                  "tips": 5
+                 },
+                 "children": [
+                  {
+                   "id": "species-philodendron-ara109",
+                   "name": "Philodendron ernestii",
+                   "rank": "species",
+                   "accession": "ARA109",
+                   "chron": {
+                    "stem": 10.239,
+                    "tips": 1
+                   }
+                  },
+                  {
+                   "id": "node-philodendron-7-688",
+                   "name": "node 7.688",
+                   "anon": true,
+                   "rank": "clade",
+                   "chron": {
+                    "stem": 10.239,
+                    "crown": 7.688,
+                    "tips": 4
+                   },
+                   "children": [
+                    {
+                     "id": "species-philodendron-ara216",
+                     "name": "Philodendron consanguineum",
+                     "rank": "species",
+                     "accession": "ARA216",
+                     "chron": {
+                      "stem": 7.688,
+                      "tips": 1
+                     }
+                    },
+                    {
+                     "id": "node-philodendron-7-455",
+                     "name": "node 7.455",
+                     "anon": true,
+                     "rank": "clade",
+                     "chron": {
+                      "stem": 7.688,
+                      "crown": 7.455,
+                      "tips": 3
+                     },
+                     "children": [
+                      {
+                       "id": "species-philodendron-ara023",
+                       "name": "Philodendron linnaei var. linnaei",
+                       "rank": "species",
+                       "accession": "ARA023",
+                       "chron": {
+                        "stem": 7.455,
+                        "tips": 1
+                       }
+                      },
+                      {
+                       "id": "node-philodendron-6-221",
+                       "name": "node 6.221",
+                       "anon": true,
+                       "rank": "clade",
+                       "chron": {
+                        "stem": 7.455,
+                        "crown": 6.221,
+                        "tips": 2
+                       },
+                       "children": [
+                        {
+                         "id": "species-philodendron-ara362",
+                         "name": "Philodendron callosum",
+                         "rank": "species",
+                         "accession": "ARA362",
+                         "chron": {
+                          "stem": 6.221,
+                          "tips": 1
+                         }
+                        },
+                        {
+                         "id": "species-philodendron-ara157",
+                         "name": "Philodendron insigne",
+                         "rank": "species",
+                         "accession": "ARA157",
+                         "chron": {
+                          "stem": 6.221,
+                          "tips": 1
+                         }
+                        }
+                       ]
+                      }
+                     ]
+                    }
+                   ]
+                  }
+                 ]
+                }
+               ]
+              }
+             ],
+             "speciesCount": 9,
+             "note": "Clade 1 of Canal et al. (2019); clade 3 in Canal et al. (2018)."
+            },
+            {
+             "id": "node-philodendron-18-87",
+             "name": "node 18.87",
+             "anon": true,
+             "rank": "clade",
+             "chron": {
+              "stem": 20.369,
+              "crown": 18.87,
+              "tips": 124
+             },
+             "children": [
+              {
+               "id": "clade-philodendron-2",
+               "name": "Clade 2",
+               "rank": "clade",
+               "chron": {
+                "stem": 18.87,
+                "crown": 6.349,
+                "tips": 7
+               },
+               "children": [
+                {
+                 "id": "species-philodendron-ara331",
+                 "name": "Philodendron wittianum",
+                 "rank": "species",
+                 "accession": "ARA331",
+                 "chron": {
+                  "stem": 6.349,
+                  "tips": 1
+                 }
+                },
+                {
+                 "id": "node-philodendron-4-841",
+                 "name": "node 4.841",
+                 "anon": true,
+                 "rank": "clade",
+                 "chron": {
+                  "stem": 6.349,
+                  "crown": 4.841,
+                  "tips": 6
+                 },
+                 "children": [
+                  {
+                   "id": "node-philodendron-4-431",
+                   "name": "node 4.431",
+                   "anon": true,
+                   "rank": "clade",
+                   "chron": {
+                    "stem": 4.841,
+                    "crown": 4.431,
+                    "tips": 2
+                   },
+                   "children": [
+                    {
+                     "id": "species-philodendron-ara224",
+                     "name": "Philodendron lucasiorum",
+                     "rank": "species",
+                     "accession": "ARA224",
+                     "chron": {
+                      "stem": 4.431,
+                      "tips": 1
+                     }
+                    },
+                    {
+                     "id": "species-philodendron-ara196",
+                     "name": "Philodendron werkhoveniae",
+                     "rank": "species",
+                     "accession": "ARA196",
+                     "chron": {
+                      "stem": 4.431,
+                      "tips": 1
+                     }
+                    }
+                   ]
+                  },
+                  {
+                   "id": "node-philodendron-3-638",
+                   "name": "node 3.638",
+                   "anon": true,
+                   "rank": "clade",
+                   "chron": {
+                    "stem": 4.841,
+                    "crown": 3.638,
+                    "tips": 4
+                   },
+                   "children": [
+                    {
+                     "id": "node-philodendron-3-076",
+                     "name": "node 3.076",
+                     "anon": true,
+                     "rank": "clade",
+                     "chron": {
+                      "stem": 3.638,
+                      "crown": 3.076,
+                      "tips": 2
+                     },
+                     "children": [
+                      {
+                       "id": "species-philodendron-ara243",
+                       "name": "Philodendron fragrantissimum",
+                       "rank": "species",
+                       "accession": "ARA243",
+                       "chron": {
+                        "stem": 3.076,
+                        "tips": 1
+                       }
+                      },
+                      {
+                       "id": "species-philodendron-ara207",
+                       "name": "Philodendron ushanum",
+                       "rank": "species",
+                       "accession": "ARA207",
+                       "chron": {
+                        "stem": 3.076,
+                        "tips": 1
+                       }
+                      }
+                     ]
+                    },
+                    {
+                     "id": "node-philodendron-3-214",
+                     "name": "node 3.214",
+                     "anon": true,
+                     "rank": "clade",
+                     "chron": {
+                      "stem": 3.638,
+                      "crown": 3.214,
+                      "tips": 2
+                     },
+                     "children": [
+                      {
+                       "id": "species-philodendron-ara223",
+                       "name": "Philodendron joaosilvae",
+                       "rank": "species",
+                       "accession": "ARA223",
+                       "chron": {
+                        "stem": 3.214,
+                        "tips": 1
+                       }
+                      },
+                      {
+                       "id": "species-philodendron-ara114",
+                       "name": "Philodendron ecordatum",
+                       "rank": "species",
+                       "accession": "ARA114",
+                       "chron": {
+                        "stem": 3.214,
+                        "tips": 1
+                       }
+                      }
+                     ]
+                    }
+                   ]
+                  }
+                 ]
+                }
+               ],
+               "speciesCount": 7,
+               "note": "Clade 2 of Canal et al. (2019); clade 4 in Canal et al. (2018)."
+              },
+              {
+               "id": "node-philodendron-12-891",
+               "name": "node 12.891",
+               "anon": true,
+               "rank": "clade",
+               "chron": {
+                "stem": 18.87,
+                "crown": 12.891,
+                "tips": 117
+               },
+               "children": [
+                {
+                 "id": "node-philodendron-12-554",
+                 "name": "node 12.554",
+                 "anon": true,
+                 "rank": "clade",
+                 "chron": {
+                  "stem": 12.891,
+                  "crown": 12.554,
+                  "tips": 30
+                 },
+                 "children": [
+                  {
+                   "id": "clade-philodendron-10",
+                   "name": "Clade 10",
+                   "rank": "clade",
+                   "chron": {
+                    "stem": 12.554,
+                    "crown": 8.128,
+                    "tips": 5
+                   },
+                   "children": [
+                    {
+                     "id": "species-philodendron-ara151",
+                     "name": "Philodendron hannoniae",
+                     "rank": "species",
+                     "accession": "ARA151",
+                     "chron": {
+                      "stem": 8.128,
+                      "tips": 1
+                     }
+                    },
+                    {
+                     "id": "node-philodendron-5-442",
+                     "name": "node 5.442",
+                     "anon": true,
+                     "rank": "clade",
+                     "chron": {
+                      "stem": 8.128,
+                      "crown": 5.442,
+                      "tips": 4
+                     },
+                     "children": [
+                      {
+                       "id": "node-philodendron-3-371",
+                       "name": "node 3.371",
+                       "anon": true,
+                       "rank": "clade",
+                       "chron": {
+                        "stem": 5.442,
+                        "crown": 3.371,
+                        "tips": 2
+                       },
+                       "children": [
+                        {
+                         "id": "species-philodendron-ara364",
+                         "name": "Philodendron radiatum",
+                         "rank": "species",
+                         "accession": "ARA364",
+                         "chron": {
+                          "stem": 3.371,
+                          "tips": 1
+                         }
+                        },
+                        {
+                         "id": "species-philodendron-ara215",
+                         "name": "Philodendron lacerum",
+                         "rank": "species",
+                         "accession": "ARA215",
+                         "chron": {
+                          "stem": 3.371,
+                          "tips": 1
+                         }
+                        }
+                       ]
+                      },
+                      {
+                       "id": "node-philodendron-2-031",
+                       "name": "node 2.031",
+                       "anon": true,
+                       "rank": "clade",
+                       "chron": {
+                        "stem": 5.442,
+                        "crown": 2.031,
+                        "tips": 2
+                       },
+                       "children": [
+                        {
+                         "id": "species-philodendron-ara132",
+                         "name": "Philodendron borgesii",
+                         "rank": "species",
+                         "accession": "ARA132",
+                         "chron": {
+                          "stem": 2.031,
+                          "tips": 1
+                         }
+                        },
+                        {
+                         "id": "species-philodendron-ara067",
+                         "name": "Philodendron grandifolium",
+                         "rank": "species",
+                         "accession": "ARA067",
+                         "chron": {
+                          "stem": 2.031,
+                          "tips": 1
+                         }
+                        }
+                       ]
+                      }
+                     ]
+                    }
+                   ],
+                   "speciesCount": 5,
+                   "note": "Clade 10 of Canal et al. (2019); clade 12 in Canal et al. (2018)."
+                  },
+                  {
+                   "id": "node-philodendron-9-842",
+                   "name": "node 9.842",
+                   "anon": true,
+                   "rank": "clade",
+                   "chron": {
+                    "stem": 12.554,
+                    "crown": 9.842,
+                    "tips": 25
+                   },
+                   "children": [
+                    {
+                     "id": "clade-philodendron-3",
+                     "name": "Clade 3",
+                     "rank": "clade",
+                     "chron": {
+                      "stem": 9.842,
+                      "crown": 9.496,
+                      "tips": 7
+                     },
+                     "children": [
+                      {
+                       "id": "species-philodendron-ara127",
+                       "name": "Philodendron sp",
+                       "rank": "species",
+                       "accession": "ARA127",
+                       "chron": {
+                        "stem": 9.496,
+                        "tips": 1
+                       }
+                      },
+                      {
+                       "id": "node-philodendron-5-723",
+                       "name": "node 5.723",
+                       "anon": true,
+                       "rank": "clade",
+                       "chron": {
+                        "stem": 9.496,
+                        "crown": 5.723,
+                        "tips": 6
+                       },
+                       "children": [
+                        {
+                         "id": "species-philodendron-ara225",
+                         "name": "Philodendron melinonii",
+                         "rank": "species",
+                         "accession": "ARA225",
+                         "chron": {
+                          "stem": 5.723,
+                          "tips": 1
+                         }
+                        },
+                        {
+                         "id": "node-philodendron-4-699",
+                         "name": "node 4.699",
+                         "anon": true,
+                         "rank": "clade",
+                         "chron": {
+                          "stem": 5.723,
+                          "crown": 4.699,
+                          "tips": 5
+                         },
+                         "children": [
+                          {
+                           "id": "node-philodendron-2-047",
+                           "name": "node 2.047",
+                           "anon": true,
+                           "rank": "clade",
+                           "chron": {
+                            "stem": 4.699,
+                            "crown": 2.047,
+                            "tips": 2
+                           },
+                           "children": [
+                            {
+                             "id": "species-philodendron-ara372",
+                             "name": "Philodendron pinnatifidum",
+                             "rank": "species",
+                             "accession": "ARA372",
+                             "chron": {
+                              "stem": 2.047,
+                              "tips": 1
+                             }
+                            },
+                            {
+                             "id": "species-philodendron-ara228",
+                             "name": "Philodendron pinnatifidum",
+                             "rank": "species",
+                             "accession": "ARA228",
+                             "chron": {
+                              "stem": 2.047,
+                              "tips": 1
+                             }
+                            }
+                           ]
+                          },
+                          {
+                           "id": "node-philodendron-3-53",
+                           "name": "node 3.53",
+                           "anon": true,
+                           "rank": "clade",
+                           "chron": {
+                            "stem": 4.699,
+                            "crown": 3.53,
+                            "tips": 3
+                           },
+                           "children": [
+                            {
+                             "id": "species-philodendron-ara094",
+                             "name": "Philodendron simsii",
+                             "rank": "species",
+                             "accession": "ARA094",
+                             "chron": {
+                              "stem": 3.53,
+                              "tips": 1
+                             }
+                            },
+                            {
+                             "id": "node-philodendron-2-158",
+                             "name": "node 2.158",
+                             "anon": true,
+                             "rank": "clade",
+                             "chron": {
+                              "stem": 3.53,
+                              "crown": 2.158,
+                              "tips": 2
+                             },
+                             "children": [
+                              {
+                               "id": "species-philodendron-ara191",
+                               "name": "Philodendron subincisum",
+                               "rank": "species",
+                               "accession": "ARA191",
+                               "chron": {
+                                "stem": 2.158,
+                                "tips": 1
+                               }
+                              },
+                              {
+                               "id": "species-philodendron-ara016",
+                               "name": "Philodendron giganteum",
+                               "rank": "species",
+                               "accession": "ARA016",
+                               "chron": {
+                                "stem": 2.158,
+                                "tips": 1
+                               }
+                              }
+                             ]
+                            }
+                           ]
+                          }
+                         ]
+                        }
+                       ]
+                      }
+                     ],
+                     "speciesCount": 6,
+                     "note": "Clade 3 of Canal et al. (2019); clade 5 in Canal et al. (2018)."
+                    },
+                    {
+                     "id": "node-philodendron-9-323",
+                     "name": "node 9.323",
+                     "anon": true,
+                     "rank": "clade",
+                     "chron": {
+                      "stem": 9.842,
+                      "crown": 9.323,
+                      "tips": 18
+                     },
+                     "children": [
+                      {
+                       "id": "clade-philodendron-4",
+                       "name": "Clade 4",
+                       "rank": "clade",
+                       "chron": {
+                        "stem": 9.323,
+                        "crown": 4.328,
+                        "tips": 8
+                       },
+                       "children": [
+                        {
+                         "id": "species-philodendron-ara111",
+                         "name": "Philodendron cf. curvilobum",
+                         "rank": "species",
+                         "accession": "ARA111",
+                         "chron": {
+                          "stem": 4.328,
+                          "tips": 1
+                         }
+                        },
+                        {
+                         "id": "node-philodendron-4-27",
+                         "name": "node 4.27",
+                         "anon": true,
+                         "rank": "clade",
+                         "chron": {
+                          "stem": 4.328,
+                          "crown": 4.27,
+                          "tips": 7
+                         },
+                         "children": [
+                          {
+                           "id": "node-philodendron-3-409",
+                           "name": "node 3.409",
+                           "anon": true,
+                           "rank": "clade",
+                           "chron": {
+                            "stem": 4.27,
+                            "crown": 3.409,
+                            "tips": 2
+                           },
+                           "children": [
+                            {
+                             "id": "species-philodendron-ara402",
+                             "name": "Philodendron eximium",
+                             "rank": "species",
+                             "accession": "ARA402",
+                             "chron": {
+                              "stem": 3.409,
+                              "tips": 1
+                             }
+                            },
+                            {
+                             "id": "species-philodendron-ara049",
+                             "name": "Philodendron hastatum",
+                             "rank": "species",
+                             "accession": "ARA049",
+                             "chron": {
+                              "stem": 3.409,
+                              "tips": 1
+                             }
+                            }
+                           ]
+                          },
+                          {
+                           "id": "node-philodendron-4-068",
+                           "name": "node 4.068",
+                           "anon": true,
+                           "rank": "clade",
+                           "chron": {
+                            "stem": 4.27,
+                            "crown": 4.068,
+                            "tips": 5
+                           },
+                           "children": [
+                            {
+                             "id": "node-philodendron-2-526",
+                             "name": "node 2.526",
+                             "anon": true,
+                             "rank": "clade",
+                             "chron": {
+                              "stem": 4.068,
+                              "crown": 2.526,
+                              "tips": 2
+                             },
+                             "children": [
+                              {
+                               "id": "species-philodendron-ara017",
+                               "name": "Philodendron cordatum",
+                               "rank": "species",
+                               "accession": "ARA017",
+                               "chron": {
+                                "stem": 2.526,
+                                "tips": 1
+                               }
+                              },
+                              {
+                               "id": "species-philodendron-ara008",
+                               "name": "Philodendron martianum",
+                               "rank": "species",
+                               "accession": "ARA008",
+                               "chron": {
+                                "stem": 2.526,
+                                "tips": 1
+                               }
+                              }
+                             ]
+                            },
+                            {
+                             "id": "node-philodendron-2-073",
+                             "name": "node 2.073",
+                             "anon": true,
+                             "rank": "clade",
+                             "chron": {
+                              "stem": 4.068,
+                              "crown": 2.073,
+                              "tips": 3
+                             },
+                             "children": [
+                              {
+                               "id": "species-philodendron-ara375",
+                               "name": "Philodendron glaziovii",
+                               "rank": "species",
+                               "accession": "ARA375",
+                               "chron": {
+                                "stem": 2.073,
+                                "tips": 1
+                               }
+                              },
+                              {
+                               "id": "node-philodendron-1-901",
+                               "name": "node 1.901",
+                               "anon": true,
+                               "rank": "clade",
+                               "chron": {
+                                "stem": 2.073,
+                                "crown": 1.901,
+                                "tips": 2
+                               },
+                               "children": [
+                                {
+                                 "id": "species-philodendron-ara122",
+                                 "name": "Philodendron sp. nov. aff. renauxii",
+                                 "rank": "species",
+                                 "accession": "ARA122",
+                                 "chron": {
+                                  "stem": 1.901,
+                                  "tips": 1
+                                 }
+                                },
+                                {
+                                 "id": "species-philodendron-ara012",
+                                 "name": "Philodendron renauxii",
+                                 "rank": "species",
+                                 "accession": "ARA012",
+                                 "chron": {
+                                  "stem": 1.901,
+                                  "tips": 1
+                                 }
+                                }
+                               ]
+                              }
+                             ]
+                            }
+                           ]
+                          }
+                         ]
+                        }
+                       ],
+                       "speciesCount": 8,
+                       "note": "Clade 4 of Canal et al. (2019); clade 6 in Canal et al. (2018)."
+                      },
+                      {
+                       "id": "clade-philodendron-5",
+                       "name": "Clade 5",
+                       "rank": "clade",
+                       "chron": {
+                        "stem": 9.323,
+                        "crown": 4.861,
+                        "tips": 10
+                       },
+                       "children": [
+                        {
+                         "id": "species-philodendron-ara204",
+                         "name": "Philodendron distantilobum",
+                         "rank": "species",
+                         "accession": "ARA204",
+                         "chron": {
+                          "stem": 4.861,
+                          "tips": 1
+                         }
+                        },
+                        {
+                         "id": "node-philodendron-4-596",
+                         "name": "node 4.596",
+                         "anon": true,
+                         "rank": "clade",
+                         "chron": {
+                          "stem": 4.861,
+                          "crown": 4.596,
+                          "tips": 9
+                         },
+                         "children": [
+                          {
+                           "id": "node-philodendron-2-177",
+                           "name": "node 2.177",
+                           "anon": true,
+                           "rank": "clade",
+                           "chron": {
+                            "stem": 4.596,
+                            "crown": 2.177,
+                            "tips": 4
+                           },
+                           "children": [
+                            {
+                             "id": "species-philodendron-ara202",
+                             "name": "Philodendron squamiferum",
+                             "rank": "species",
+                             "accession": "ARA202",
+                             "chron": {
+                              "stem": 2.177,
+                              "tips": 1
+                             }
+                            },
+                            {
+                             "id": "node-philodendron-2-117",
+                             "name": "node 2.117",
+                             "anon": true,
+                             "rank": "clade",
+                             "chron": {
+                              "stem": 2.177,
+                              "crown": 2.117,
+                              "tips": 3
+                             },
+                             "children": [
+                              {
+                               "id": "species-philodendron-ara236",
+                               "name": "Philodendron carinatum",
+                               "rank": "species",
+                               "accession": "ARA236",
+                               "chron": {
+                                "stem": 2.117,
+                                "tips": 1
+                               }
+                              },
+                              {
+                               "id": "node-philodendron-1-283",
+                               "name": "node 1.283",
+                               "anon": true,
+                               "rank": "clade",
+                               "chron": {
+                                "stem": 2.117,
+                                "crown": 1.283,
+                                "tips": 2
+                               },
+                               "children": [
+                                {
+                                 "id": "species-philodendron-ara115",
+                                 "name": "Philodendron pedatum",
+                                 "rank": "species",
+                                 "accession": "ARA115",
+                                 "chron": {
+                                  "stem": 1.283,
+                                  "tips": 1
+                                 }
+                                },
+                                {
+                                 "id": "species-philodendron-ara033",
+                                 "name": "Philodendron bipennifolium",
+                                 "rank": "species",
+                                 "accession": "ARA033",
+                                 "chron": {
+                                  "stem": 1.283,
+                                  "tips": 1
+                                 }
+                                }
+                               ]
+                              }
+                             ]
+                            }
+                           ]
+                          },
+                          {
+                           "id": "node-philodendron-3-991",
+                           "name": "node 3.991",
+                           "anon": true,
+                           "rank": "clade",
+                           "chron": {
+                            "stem": 4.596,
+                            "crown": 3.991,
+                            "tips": 5
+                           },
+                           "children": [
+                            {
+                             "id": "species-philodendron-ara186",
+                             "name": "Philodendron cf. muricatum",
+                             "rank": "species",
+                             "accession": "ARA186",
+                             "chron": {
+                              "stem": 3.991,
+                              "tips": 1
+                             }
+                            },
+                            {
+                             "id": "node-philodendron-2-412",
+                             "name": "node 2.412",
+                             "anon": true,
+                             "rank": "clade",
+                             "chron": {
+                              "stem": 3.991,
+                              "crown": 2.412,
+                              "tips": 4
+                             },
+                             "children": [
+                              {
+                               "id": "species-philodendron-ara048",
+                               "name": "Philodendron acutatum",
+                               "rank": "species",
+                               "accession": "ARA048",
+                               "chron": {
+                                "stem": 2.412,
+                                "tips": 1
+                               }
+                              },
+                              {
+                               "id": "node-philodendron-2-303",
+                               "name": "node 2.303",
+                               "anon": true,
+                               "rank": "clade",
+                               "chron": {
+                                "stem": 2.412,
+                                "crown": 2.303,
+                                "tips": 3
+                               },
+                               "children": [
+                                {
+                                 "id": "species-philodendron-ara013",
+                                 "name": "Philodendron tortum",
+                                 "rank": "species",
+                                 "accession": "ARA013",
+                                 "chron": {
+                                  "stem": 2.303,
+                                  "tips": 1
+                                 }
+                                },
+                                {
+                                 "id": "node-philodendron-0-674",
+                                 "name": "node 0.674",
+                                 "anon": true,
+                                 "rank": "clade",
+                                 "chron": {
+                                  "stem": 2.303,
+                                  "crown": 0.674,
+                                  "tips": 2
+                                 },
+                                 "children": [
+                                  {
+                                   "id": "species-philodendron-ara185",
+                                   "name": "Philodendron scottmorianum",
+                                   "rank": "species",
+                                   "accession": "ARA185",
+                                   "chron": {
+                                    "stem": 0.674,
+                                    "tips": 1
+                                   }
+                                  },
+                                  {
+                                   "id": "species-philodendron-ara056",
+                                   "name": "Philodendron billietiae",
+                                   "rank": "species",
+                                   "accession": "ARA056",
+                                   "chron": {
+                                    "stem": 0.674,
+                                    "tips": 1
+                                   }
+                                  }
+                                 ]
+                                }
+                               ]
+                              }
+                             ]
+                            }
+                           ]
+                          }
+                         ]
+                        }
+                       ],
+                       "speciesCount": 10,
+                       "note": "Clade 5 of Canal et al. (2019); clade 7 in Canal et al. (2018)."
+                      }
+                     ]
+                    }
+                   ]
+                  }
+                 ]
+                },
+                {
+                 "id": "node-philodendron-11-355",
+                 "name": "node 11.355",
+                 "anon": true,
+                 "rank": "clade",
+                 "chron": {
+                  "stem": 12.891,
+                  "crown": 11.355,
+                  "tips": 87
+                 },
+                 "children": [
+                  {
+                   "id": "node-philodendron-9-622",
+                   "name": "node 9.622",
+                   "anon": true,
+                   "rank": "clade",
+                   "chron": {
+                    "stem": 11.355,
+                    "crown": 9.622,
+                    "tips": 33
+                   },
+                   "children": [
+                    {
+                     "id": "node-philodendron-6-6",
+                     "name": "node 6.6",
+                     "anon": true,
+                     "rank": "clade",
+                     "chron": {
+                      "stem": 9.622,
+                      "crown": 6.6,
+                      "tips": 2
+                     },
+                     "children": [
+                      {
+                       "id": "species-philodendron-ara282",
+                       "name": "Philodendron longipes",
+                       "rank": "species",
+                       "accession": "ARA282",
+                       "chron": {
+                        "stem": 6.6,
+                        "tips": 1
+                       }
+                      },
+                      {
+                       "id": "species-philodendron-ara019",
+                       "name": "Philodendron purulhense",
+                       "rank": "species",
+                       "accession": "ARA019",
+                       "chron": {
+                        "stem": 6.6,
+                        "tips": 1
+                       }
+                      }
+                     ]
+                    },
+                    {
+                     "id": "node-philodendron-8-49",
+                     "name": "node 8.49",
+                     "anon": true,
+                     "rank": "clade",
+                     "chron": {
+                      "stem": 9.622,
+                      "crown": 8.49,
+                      "tips": 31
+                     },
+                     "children": [
+                      {
+                       "id": "clade-philodendron-6",
+                       "name": "Clade 6",
+                       "rank": "clade",
+                       "chron": {
+                        "stem": 8.49,
+                        "crown": 6.701,
+                        "tips": 14
+                       },
+                       "children": [
+                        {
+                         "id": "node-philodendron-5-959",
+                         "name": "node 5.959",
+                         "anon": true,
+                         "rank": "clade",
+                         "chron": {
+                          "stem": 6.701,
+                          "crown": 5.959,
+                          "tips": 5
+                         },
+                         "children": [
+                          {
+                           "id": "species-philodendron-ara271",
+                           "name": "Philodendron heleniae ssp. amazonense",
+                           "rank": "species",
+                           "accession": "ARA271",
+                           "chron": {
+                            "stem": 5.959,
+                            "tips": 1
+                           }
+                          },
+                          {
+                           "id": "node-philodendron-5-709",
+                           "name": "node 5.709",
+                           "anon": true,
+                           "rank": "clade",
+                           "chron": {
+                            "stem": 5.959,
+                            "crown": 5.709,
+                            "tips": 4
+                           },
+                           "children": [
+                            {
+                             "id": "species-philodendron-ara251",
+                             "name": "Philodendron barrosoanum",
+                             "rank": "species",
+                             "accession": "ARA251",
+                             "chron": {
+                              "stem": 5.709,
+                              "tips": 1
+                             }
+                            },
+                            {
+                             "id": "node-philodendron-4-747",
+                             "name": "node 4.747",
+                             "anon": true,
+                             "rank": "clade",
+                             "chron": {
+                              "stem": 5.709,
+                              "crown": 4.747,
+                              "tips": 3
+                             },
+                             "children": [
+                              {
+                               "id": "species-philodendron-ara171",
+                               "name": "Philodendron moonenii",
+                               "rank": "species",
+                               "accession": "ARA171",
+                               "chron": {
+                                "stem": 4.747,
+                                "tips": 1
+                               }
+                              },
+                              {
+                               "id": "node-philodendron-4-133",
+                               "name": "node 4.133",
+                               "anon": true,
+                               "rank": "clade",
+                               "chron": {
+                                "stem": 4.747,
+                                "crown": 4.133,
+                                "tips": 2
+                               },
+                               "children": [
+                                {
+                                 "id": "species-philodendron-ara200",
+                                 "name": "Philodendron fendleri",
+                                 "rank": "species",
+                                 "accession": "ARA200",
+                                 "chron": {
+                                  "stem": 4.133,
+                                  "tips": 1
+                                 }
+                                },
+                                {
+                                 "id": "species-philodendron-ara155",
+                                 "name": "Philodendron hylaeae",
+                                 "rank": "species",
+                                 "accession": "ARA155",
+                                 "chron": {
+                                  "stem": 4.133,
+                                  "tips": 1
+                                 }
+                                }
+                               ]
+                              }
+                             ]
+                            }
+                           ]
+                          }
+                         ]
+                        },
+                        {
+                         "id": "node-philodendron-5-252",
+                         "name": "node 5.252",
+                         "anon": true,
+                         "rank": "clade",
+                         "chron": {
+                          "stem": 6.701,
+                          "crown": 5.252,
+                          "tips": 9
+                         },
+                         "children": [
+                          {
+                           "id": "species-philodendron-ara283",
+                           "name": "Philodendron longistilum",
+                           "rank": "species",
+                           "accession": "ARA283",
+                           "chron": {
+                            "stem": 5.252,
+                            "tips": 1
+                           }
+                          },
+                          {
+                           "id": "node-philodendron-4-348",
+                           "name": "node 4.348",
+                           "anon": true,
+                           "rank": "clade",
+                           "chron": {
+                            "stem": 5.252,
+                            "crown": 4.348,
+                            "tips": 8
+                           },
+                           "children": [
+                            {
+                             "id": "node-philodendron-2-987",
+                             "name": "node 2.987",
+                             "anon": true,
+                             "rank": "clade",
+                             "chron": {
+                              "stem": 4.348,
+                              "crown": 2.987,
+                              "tips": 4
+                             },
+                             "children": [
+                              {
+                               "id": "node-philodendron-2-865",
+                               "name": "node 2.865",
+                               "anon": true,
+                               "rank": "clade",
+                               "chron": {
+                                "stem": 2.987,
+                                "crown": 2.865,
+                                "tips": 2
+                               },
+                               "children": [
+                                {
+                                 "id": "species-philodendron-ara245",
+                                 "name": "Philodendron megalophyllum",
+                                 "rank": "species",
+                                 "accession": "ARA245",
+                                 "chron": {
+                                  "stem": 2.865,
+                                  "tips": 1
+                                 }
+                                },
+                                {
+                                 "id": "species-philodendron-ara205",
+                                 "name": "Philodendron cf. parvilobum",
+                                 "rank": "species",
+                                 "accession": "ARA205",
+                                 "chron": {
+                                  "stem": 2.865,
+                                  "tips": 1
+                                 }
+                                }
+                               ]
+                              },
+                              {
+                               "id": "node-philodendron-1-724",
+                               "name": "node 1.724",
+                               "anon": true,
+                               "rank": "clade",
+                               "chron": {
+                                "stem": 2.987,
+                                "crown": 1.724,
+                                "tips": 2
+                               },
+                               "children": [
+                                {
+                                 "id": "species-philodendron-ara129",
+                                 "name": "Philodendron attenuatum",
+                                 "rank": "species",
+                                 "accession": "ARA129",
+                                 "chron": {
+                                  "stem": 1.724,
+                                  "tips": 1
+                                 }
+                                },
+                                {
+                                 "id": "species-philodendron-ara124",
+                                 "name": "Philodendron acutifolium",
+                                 "rank": "species",
+                                 "accession": "ARA124",
+                                 "chron": {
+                                  "stem": 1.724,
+                                  "tips": 1
+                                 }
+                                }
+                               ]
+                              }
+                             ]
+                            },
+                            {
+                             "id": "node-philodendron-3-199",
+                             "name": "node 3.199",
+                             "anon": true,
+                             "rank": "clade",
+                             "chron": {
+                              "stem": 4.348,
+                              "crown": 3.199,
+                              "tips": 4
+                             },
+                             "children": [
+                              {
+                               "id": "species-philodendron-ara154",
+                               "name": "Philodendron holtonianum",
+                               "rank": "species",
+                               "accession": "ARA154",
+                               "chron": {
+                                "stem": 3.199,
+                                "tips": 1
+                               }
+                              },
+                              {
+                               "id": "node-philodendron-2-909",
+                               "name": "node 2.909",
+                               "anon": true,
+                               "rank": "clade",
+                               "chron": {
+                                "stem": 3.199,
+                                "crown": 2.909,
+                                "tips": 3
+                               },
+                               "children": [
+                                {
+                                 "id": "species-philodendron-ara106",
+                                 "name": "Philodendron uleanum",
+                                 "rank": "species",
+                                 "accession": "ARA106",
+                                 "chron": {
+                                  "stem": 2.909,
+                                  "tips": 1
+                                 }
+                                },
+                                {
+                                 "id": "node-philodendron-1-507",
+                                 "name": "node 1.507",
+                                 "anon": true,
+                                 "rank": "clade",
+                                 "chron": {
+                                  "stem": 2.909,
+                                  "crown": 1.507,
+                                  "tips": 2
+                                 },
+                                 "children": [
+                                  {
+                                   "id": "species-philodendron-ara332",
+                                   "name": "Philodendron cf. wurdackii",
+                                   "rank": "species",
+                                   "accession": "ARA332",
+                                   "chron": {
+                                    "stem": 1.507,
+                                    "tips": 1
+                                   }
+                                  },
+                                  {
+                                   "id": "species-philodendron-ara105",
+                                   "name": "Philodendron burle-marxii",
+                                   "rank": "species",
+                                   "accession": "ARA105",
+                                   "chron": {
+                                    "stem": 1.507,
+                                    "tips": 1
+                                   }
+                                  }
+                                 ]
+                                }
+                               ]
+                              }
+                             ]
+                            }
+                           ]
+                          }
+                         ]
+                        }
+                       ],
+                       "speciesCount": 14,
+                       "note": "Clade 6 of Canal et al. (2019); clade 8 in Canal et al. (2018)."
+                      },
+                      {
+                       "id": "clade-philodendron-7",
+                       "name": "Clade 7",
+                       "rank": "clade",
+                       "chron": {
+                        "stem": 8.49,
+                        "crown": 6.522,
+                        "tips": 17
+                       },
+                       "children": [
+                        {
+                         "id": "node-philodendron-4-934",
+                         "name": "node 4.934",
+                         "anon": true,
+                         "rank": "clade",
+                         "chron": {
+                          "stem": 6.522,
+                          "crown": 4.934,
+                          "tips": 3
+                         },
+                         "children": [
+                          {
+                           "id": "species-philodendron-ara004",
+                           "name": "Philodendron deltoideum",
+                           "rank": "species",
+                           "accession": "ARA004",
+                           "chron": {
+                            "stem": 4.934,
+                            "tips": 1
+                           }
+                          },
+                          {
+                           "id": "node-philodendron-3-999",
+                           "name": "node 3.999",
+                           "anon": true,
+                           "rank": "clade",
+                           "chron": {
+                            "stem": 4.934,
+                            "crown": 3.999,
+                            "tips": 2
+                           },
+                           "children": [
+                            {
+                             "id": "species-philodendron-ara028",
+                             "name": "Philodendron rugosum",
+                             "rank": "species",
+                             "accession": "ARA028",
+                             "chron": {
+                              "stem": 3.999,
+                              "tips": 1
+                             }
+                            },
+                            {
+                             "id": "species-philodendron-ara024",
+                             "name": "Philodendron grazielae",
+                             "rank": "species",
+                             "accession": "ARA024",
+                             "chron": {
+                              "stem": 3.999,
+                              "tips": 1
+                             }
+                            }
+                           ]
+                          }
+                         ]
+                        },
+                        {
+                         "id": "node-philodendron-5-649",
+                         "name": "node 5.649",
+                         "anon": true,
+                         "rank": "clade",
+                         "chron": {
+                          "stem": 6.522,
+                          "crown": 5.649,
+                          "tips": 14
+                         },
+                         "children": [
+                          {
+                           "id": "node-philodendron-4-026",
+                           "name": "node 4.026",
+                           "anon": true,
+                           "rank": "clade",
+                           "chron": {
+                            "stem": 5.649,
+                            "crown": 4.026,
+                            "tips": 6
+                           },
+                           "children": [
+                            {
+                             "id": "node-philodendron-0-378",
+                             "name": "node 0.378",
+                             "anon": true,
+                             "rank": "clade",
+                             "chron": {
+                              "stem": 4.026,
+                              "crown": 0.378,
+                              "tips": 2
+                             },
+                             "children": [
+                              {
+                               "id": "species-philodendron-ara179",
+                               "name": "Philodendron pseudauriculatum",
+                               "rank": "species",
+                               "accession": "ARA179",
+                               "chron": {
+                                "stem": 0.378,
+                                "tips": 1
+                               }
+                              },
+                              {
+                               "id": "species-philodendron-ara160",
+                               "name": "Philodendron laticiferum",
+                               "rank": "species",
+                               "accession": "ARA160",
+                               "chron": {
+                                "stem": 0.378,
+                                "tips": 1
+                               }
+                              }
+                             ]
+                            },
+                            {
+                             "id": "node-philodendron-3-818",
+                             "name": "node 3.818",
+                             "anon": true,
+                             "rank": "clade",
+                             "chron": {
+                              "stem": 4.026,
+                              "crown": 3.818,
+                              "tips": 4
+                             },
+                             "children": [
+                              {
+                               "id": "species-philodendron-ara351",
+                               "name": "Philodendron sp",
+                               "rank": "species",
+                               "accession": "ARA351",
+                               "chron": {
+                                "stem": 3.818,
+                                "tips": 1
+                               }
+                              },
+                              {
+                               "id": "node-philodendron-1-664",
+                               "name": "node 1.664",
+                               "anon": true,
+                               "rank": "clade",
+                               "chron": {
+                                "stem": 3.818,
+                                "crown": 1.664,
+                                "tips": 3
+                               },
+                               "children": [
+                                {
+                                 "id": "species-philodendron-ara045",
+                                 "name": "Philodendron subhastatum",
+                                 "rank": "species",
+                                 "accession": "ARA045",
+                                 "chron": {
+                                  "stem": 1.664,
+                                  "tips": 1
+                                 }
+                                },
+                                {
+                                 "id": "node-philodendron-0-765",
+                                 "name": "node 0.765",
+                                 "anon": true,
+                                 "rank": "clade",
+                                 "chron": {
+                                  "stem": 1.664,
+                                  "crown": 0.765,
+                                  "tips": 2
+                                 },
+                                 "children": [
+                                  {
+                                   "id": "species-philodendron-ara164",
+                                   "name": "Philodendron lindenii",
+                                   "rank": "species",
+                                   "accession": "ARA164",
+                                   "chron": {
+                                    "stem": 0.765,
+                                    "tips": 1
+                                   }
+                                  },
+                                  {
+                                   "id": "species-philodendron-ara116",
+                                   "name": "Philodendron krugii",
+                                   "rank": "species",
+                                   "accession": "ARA116",
+                                   "chron": {
+                                    "stem": 0.765,
+                                    "tips": 1
+                                   }
+                                  }
+                                 ]
+                                }
+                               ]
+                              }
+                             ]
+                            }
+                           ]
+                          },
+                          {
+                           "id": "node-philodendron-5-472",
+                           "name": "node 5.472",
+                           "anon": true,
+                           "rank": "clade",
+                           "chron": {
+                            "stem": 5.649,
+                            "crown": 5.472,
+                            "tips": 8
+                           },
+                           "children": [
+                            {
+                             "id": "node-philodendron-1-488",
+                             "name": "node 1.488",
+                             "anon": true,
+                             "rank": "clade",
+                             "chron": {
+                              "stem": 5.472,
+                              "crown": 1.488,
+                              "tips": 2
+                             },
+                             "children": [
+                              {
+                               "id": "species-philodendron-ara101",
+                               "name": "Philodendron sp",
+                               "rank": "species",
+                               "accession": "ARA101",
+                               "chron": {
+                                "stem": 1.488,
+                                "tips": 1
+                               }
+                              },
+                              {
+                               "id": "species-philodendron-ara042",
+                               "name": "Philodendron elegans",
+                               "rank": "species",
+                               "accession": "ARA042",
+                               "chron": {
+                                "stem": 1.488,
+                                "tips": 1
+                               }
+                              }
+                             ]
+                            },
+                            {
+                             "id": "node-philodendron-5-18",
+                             "name": "node 5.18",
+                             "anon": true,
+                             "rank": "clade",
+                             "chron": {
+                              "stem": 5.472,
+                              "crown": 5.18,
+                              "tips": 6
+                             },
+                             "children": [
+                              {
+                               "id": "node-philodendron-3-316",
+                               "name": "node 3.316",
+                               "anon": true,
+                               "rank": "clade",
+                               "chron": {
+                                "stem": 5.18,
+                                "crown": 3.316,
+                                "tips": 2
+                               },
+                               "children": [
+                                {
+                                 "id": "species-philodendron-ara353",
+                                 "name": "Philodendron cf. montanum",
+                                 "rank": "species",
+                                 "accession": "ARA353",
+                                 "chron": {
+                                  "stem": 3.316,
+                                  "tips": 1
+                                 }
+                                },
+                                {
+                                 "id": "species-philodendron-ara305",
+                                 "name": "Philodendron sparreorum",
+                                 "rank": "species",
+                                 "accession": "ARA305",
+                                 "chron": {
+                                  "stem": 3.316,
+                                  "tips": 1
+                                 }
+                                }
+                               ]
+                              },
+                              {
+                               "id": "node-philodendron-3-168",
+                               "name": "node 3.168",
+                               "anon": true,
+                               "rank": "clade",
+                               "chron": {
+                                "stem": 5.18,
+                                "crown": 3.168,
+                                "tips": 4
+                               },
+                               "children": [
+                                {
+                                 "id": "species-philodendron-ara328",
+                                 "name": "Philodendron tripartitum",
+                                 "rank": "species",
+                                 "accession": "ARA328",
+                                 "chron": {
+                                  "stem": 3.168,
+                                  "tips": 1
+                                 }
+                                },
+                                {
+                                 "id": "node-philodendron-2-639",
+                                 "name": "node 2.639",
+                                 "anon": true,
+                                 "rank": "clade",
+                                 "chron": {
+                                  "stem": 3.168,
+                                  "crown": 2.639,
+                                  "tips": 3
+                                 },
+                                 "children": [
+                                  {
+                                   "id": "species-philodendron-ara006",
+                                   "name": "Philodendron sagittifolium",
+                                   "rank": "species",
+                                   "accession": "ARA006",
+                                   "chron": {
+                                    "stem": 2.639,
+                                    "tips": 1
+                                   }
+                                  },
+                                  {
+                                   "id": "node-philodendron-2-235",
+                                   "name": "node 2.235",
+                                   "anon": true,
+                                   "rank": "clade",
+                                   "chron": {
+                                    "stem": 2.639,
+                                    "crown": 2.235,
+                                    "tips": 2
+                                   },
+                                   "children": [
+                                    {
+                                     "id": "species-philodendron-ara355",
+                                     "name": "Philodendron leyvae",
+                                     "rank": "species",
+                                     "accession": "ARA355",
+                                     "chron": {
+                                      "stem": 2.235,
+                                      "tips": 1
+                                     }
+                                    },
+                                    {
+                                     "id": "species-philodendron-ara163",
+                                     "name": "Philodendron ligulatum",
+                                     "rank": "species",
+                                     "accession": "ARA163",
+                                     "chron": {
+                                      "stem": 2.235,
+                                      "tips": 1
+                                     }
+                                    }
+                                   ]
+                                  }
+                                 ]
+                                }
+                               ]
+                              }
+                             ]
+                            }
+                           ]
+                          }
+                         ]
+                        }
+                       ],
+                       "speciesCount": 16,
+                       "note": "Clade 7 of Canal et al. (2019); clade 9 in Canal et al. (2018)."
+                      }
+                     ]
+                    }
+                   ]
+                  },
+                  {
+                   "id": "node-philodendron-10-357",
+                   "name": "node 10.357",
+                   "anon": true,
+                   "rank": "clade",
+                   "chron": {
+                    "stem": 11.355,
+                    "crown": 10.357,
+                    "tips": 54
                    },
                    "children": [
                     {
                      "id": "clade-philodendron-8",
                      "name": "Clade 8",
                      "rank": "clade",
-                     "note": "Clade 8 of Canal et al. (2019); clade 10 in Canal et al. (2018).",
                      "chron": {
-                      "stem": 10.35,
-                      "crown": 9.77,
-                      "pp": 0.54,
-                      "crownHpd": [
-                       5.82,
-                       12.84
-                      ]
-                     }
+                      "stem": 10.357,
+                      "crown": 9.768,
+                      "tips": 9
+                     },
+                     "children": [
+                      {
+                       "id": "node-philodendron-1-966",
+                       "name": "node 1.966",
+                       "anon": true,
+                       "rank": "clade",
+                       "chron": {
+                        "stem": 9.768,
+                        "crown": 1.966,
+                        "tips": 2
+                       },
+                       "children": [
+                        {
+                         "id": "species-philodendron-ara279",
+                         "name": "Philodendron cf. juninense",
+                         "rank": "species",
+                         "accession": "ARA279",
+                         "chron": {
+                          "stem": 1.966,
+                          "tips": 1
+                         }
+                        },
+                        {
+                         "id": "species-philodendron-ara100",
+                         "name": "Philodendron asplundii",
+                         "rank": "species",
+                         "accession": "ARA100",
+                         "chron": {
+                          "stem": 1.966,
+                          "tips": 1
+                         }
+                        }
+                       ]
+                      },
+                      {
+                       "id": "node-philodendron-9-028",
+                       "name": "node 9.028",
+                       "anon": true,
+                       "rank": "clade",
+                       "chron": {
+                        "stem": 9.768,
+                        "crown": 9.028,
+                        "tips": 7
+                       },
+                       "children": [
+                        {
+                         "id": "species-philodendron-ara302",
+                         "name": "Philodendron cf. serpens",
+                         "rank": "species",
+                         "accession": "ARA302",
+                         "chron": {
+                          "stem": 9.028,
+                          "tips": 1
+                         }
+                        },
+                        {
+                         "id": "node-philodendron-4-759",
+                         "name": "node 4.759",
+                         "anon": true,
+                         "rank": "clade",
+                         "chron": {
+                          "stem": 9.028,
+                          "crown": 4.759,
+                          "tips": 6
+                         },
+                         "children": [
+                          {
+                           "id": "species-philodendron-ara329",
+                           "name": "Philodendron venulosum",
+                           "rank": "species",
+                           "accession": "ARA329",
+                           "chron": {
+                            "stem": 4.759,
+                            "tips": 1
+                           }
+                          },
+                          {
+                           "id": "node-philodendron-4-664",
+                           "name": "node 4.664",
+                           "anon": true,
+                           "rank": "clade",
+                           "chron": {
+                            "stem": 4.759,
+                            "crown": 4.664,
+                            "tips": 5
+                           },
+                           "children": [
+                            {
+                             "id": "species-philodendron-ara161",
+                             "name": "Philodendron lazorii",
+                             "rank": "species",
+                             "accession": "ARA161",
+                             "chron": {
+                              "stem": 4.664,
+                              "tips": 1
+                             }
+                            },
+                            {
+                             "id": "node-philodendron-2-909",
+                             "name": "node 2.909",
+                             "anon": true,
+                             "rank": "clade",
+                             "chron": {
+                              "stem": 4.664,
+                              "crown": 2.909,
+                              "tips": 4
+                             },
+                             "children": [
+                              {
+                               "id": "species-philodendron-ara262",
+                               "name": "Philodendron grandipes",
+                               "rank": "species",
+                               "accession": "ARA262",
+                               "chron": {
+                                "stem": 2.909,
+                                "tips": 1
+                               }
+                              },
+                              {
+                               "id": "node-philodendron-2-249",
+                               "name": "node 2.249",
+                               "anon": true,
+                               "rank": "clade",
+                               "chron": {
+                                "stem": 2.909,
+                                "crown": 2.249,
+                                "tips": 3
+                               },
+                               "children": [
+                                {
+                                 "id": "species-philodendron-ara277",
+                                 "name": "Philodendron jodavisianum",
+                                 "rank": "species",
+                                 "accession": "ARA277",
+                                 "chron": {
+                                  "stem": 2.249,
+                                  "tips": 1
+                                 }
+                                },
+                                {
+                                 "id": "node-philodendron-0-963",
+                                 "name": "node 0.963",
+                                 "anon": true,
+                                 "rank": "clade",
+                                 "chron": {
+                                  "stem": 2.249,
+                                  "crown": 0.963,
+                                  "tips": 2
+                                 },
+                                 "children": [
+                                  {
+                                   "id": "species-philodendron-ara350",
+                                   "name": "Philodendron sp",
+                                   "rank": "species",
+                                   "accession": "ARA350",
+                                   "chron": {
+                                    "stem": 0.963,
+                                    "tips": 1
+                                   }
+                                  },
+                                  {
+                                   "id": "species-philodendron-ara199",
+                                   "name": "Philodendron cuneatum",
+                                   "rank": "species",
+                                   "accession": "ARA199",
+                                   "chron": {
+                                    "stem": 0.963,
+                                    "tips": 1
+                                   }
+                                  }
+                                 ]
+                                }
+                               ]
+                              }
+                             ]
+                            }
+                           ]
+                          }
+                         ]
+                        }
+                       ]
+                      }
+                     ],
+                     "speciesCount": 9,
+                     "note": "Clade 8 of Canal et al. (2019); clade 10 in Canal et al. (2018)."
                     },
                     {
-                     "id": "node-philodendron-9-32b",
-                     "name": "node 9-32b",
+                     "id": "node-philodendron-9-32",
+                     "name": "node 9.32",
                      "anon": true,
                      "rank": "clade",
                      "chron": {
-                      "stem": 10.35,
+                      "stem": 10.357,
                       "crown": 9.32,
-                      "pp": 0.98
+                      "tips": 45
                      },
                      "children": [
                       {
                        "id": "clade-philodendron-9",
                        "name": "Clade 9",
                        "rank": "clade",
-                       "note": "Clade 9 of Canal et al. (2019); clade 11 in Canal et al. (2018).",
                        "chron": {
                         "stem": 9.32,
-                        "crown": 6.48,
-                        "pp": 1.0,
-                        "crownHpd": [
-                         3.97,
-                         9.2
-                        ]
-                       }
+                        "crown": 6.481,
+                        "tips": 19
+                       },
+                       "children": [
+                        {
+                         "id": "species-philodendron-ara285",
+                         "name": "Philodendron lynnhannoniae",
+                         "rank": "species",
+                         "accession": "ARA285",
+                         "chron": {
+                          "stem": 6.481,
+                          "tips": 1
+                         }
+                        },
+                        {
+                         "id": "node-philodendron-5-187",
+                         "name": "node 5.187",
+                         "anon": true,
+                         "rank": "clade",
+                         "chron": {
+                          "stem": 6.481,
+                          "crown": 5.187,
+                          "tips": 18
+                         },
+                         "children": [
+                          {
+                           "id": "node-philodendron-4-652",
+                           "name": "node 4.652",
+                           "anon": true,
+                           "rank": "clade",
+                           "chron": {
+                            "stem": 5.187,
+                            "crown": 4.652,
+                            "tips": 7
+                           },
+                           "children": [
+                            {
+                             "id": "species-philodendron-ara260",
+                             "name": "Philodendron fibrosum",
+                             "rank": "species",
+                             "accession": "ARA260",
+                             "chron": {
+                              "stem": 4.652,
+                              "tips": 1
+                             }
+                            },
+                            {
+                             "id": "node-philodendron-4-558",
+                             "name": "node 4.558",
+                             "anon": true,
+                             "rank": "clade",
+                             "chron": {
+                              "stem": 4.652,
+                              "crown": 4.558,
+                              "tips": 6
+                             },
+                             "children": [
+                              {
+                               "id": "node-philodendron-3-925",
+                               "name": "node 3.925",
+                               "anon": true,
+                               "rank": "clade",
+                               "chron": {
+                                "stem": 4.558,
+                                "crown": 3.925,
+                                "tips": 3
+                               },
+                               "children": [
+                                {
+                                 "id": "species-philodendron-ara322",
+                                 "name": "Philodendron squamicaule",
+                                 "rank": "species",
+                                 "accession": "ARA322",
+                                 "chron": {
+                                  "stem": 3.925,
+                                  "tips": 1
+                                 }
+                                },
+                                {
+                                 "id": "node-philodendron-1-969",
+                                 "name": "node 1.969",
+                                 "anon": true,
+                                 "rank": "clade",
+                                 "chron": {
+                                  "stem": 3.925,
+                                  "crown": 1.969,
+                                  "tips": 2
+                                 },
+                                 "children": [
+                                  {
+                                   "id": "species-philodendron-ara323",
+                                   "name": "Philodendron squamipetiolatum",
+                                   "rank": "species",
+                                   "accession": "ARA323",
+                                   "chron": {
+                                    "stem": 1.969,
+                                    "tips": 1
+                                   }
+                                  },
+                                  {
+                                   "id": "species-philodendron-ara092",
+                                   "name": "Philodendron verrucosum",
+                                   "rank": "species",
+                                   "accession": "ARA092",
+                                   "chron": {
+                                    "stem": 1.969,
+                                    "tips": 1
+                                   }
+                                  }
+                                 ]
+                                }
+                               ]
+                              },
+                              {
+                               "id": "node-philodendron-4-292",
+                               "name": "node 4.292",
+                               "anon": true,
+                               "rank": "clade",
+                               "chron": {
+                                "stem": 4.558,
+                                "crown": 4.292,
+                                "tips": 3
+                               },
+                               "children": [
+                                {
+                                 "id": "species-philodendron-ara030",
+                                 "name": "Philodendron melanochrysum",
+                                 "rank": "species",
+                                 "accession": "ARA030",
+                                 "chron": {
+                                  "stem": 4.292,
+                                  "tips": 1
+                                 }
+                                },
+                                {
+                                 "id": "node-philodendron-3-647",
+                                 "name": "node 3.647",
+                                 "anon": true,
+                                 "rank": "clade",
+                                 "chron": {
+                                  "stem": 4.292,
+                                  "crown": 3.647,
+                                  "tips": 2
+                                 },
+                                 "children": [
+                                  {
+                                   "id": "species-philodendron-ara321",
+                                   "name": "Philodendron squamicaule",
+                                   "rank": "species",
+                                   "accession": "ARA321",
+                                   "chron": {
+                                    "stem": 3.647,
+                                    "tips": 1
+                                   }
+                                  },
+                                  {
+                                   "id": "species-philodendron-ara264",
+                                   "name": "Philodendron hebetatum",
+                                   "rank": "species",
+                                   "accession": "ARA264",
+                                   "chron": {
+                                    "stem": 3.647,
+                                    "tips": 1
+                                   }
+                                  }
+                                 ]
+                                }
+                               ]
+                              }
+                             ]
+                            }
+                           ]
+                          },
+                          {
+                           "id": "node-philodendron-4-541",
+                           "name": "node 4.541",
+                           "anon": true,
+                           "rank": "clade",
+                           "chron": {
+                            "stem": 5.187,
+                            "crown": 4.541,
+                            "tips": 11
+                           },
+                           "children": [
+                            {
+                             "id": "species-philodendron-ara296",
+                             "name": "Philodendron roseocataphyllum",
+                             "rank": "species",
+                             "accession": "ARA296",
+                             "chron": {
+                              "stem": 4.541,
+                              "tips": 1
+                             }
+                            },
+                            {
+                             "id": "node-philodendron-3-186",
+                             "name": "node 3.186",
+                             "anon": true,
+                             "rank": "clade",
+                             "chron": {
+                              "stem": 4.541,
+                              "crown": 3.186,
+                              "tips": 10
+                             },
+                             "children": [
+                              {
+                               "id": "species-philodendron-ara117",
+                               "name": "Philodendron schmidtiae",
+                               "rank": "species",
+                               "accession": "ARA117",
+                               "chron": {
+                                "stem": 3.186,
+                                "tips": 1
+                               }
+                              },
+                              {
+                               "id": "node-philodendron-3-166",
+                               "name": "node 3.166",
+                               "anon": true,
+                               "rank": "clade",
+                               "chron": {
+                                "stem": 3.186,
+                                "crown": 3.166,
+                                "tips": 9
+                               },
+                               "children": [
+                                {
+                                 "id": "species-philodendron-ara110",
+                                 "name": "Philodendron ornatum",
+                                 "rank": "species",
+                                 "accession": "ARA110",
+                                 "chron": {
+                                  "stem": 3.166,
+                                  "tips": 1
+                                 }
+                                },
+                                {
+                                 "id": "node-philodendron-2-92",
+                                 "name": "node 2.92",
+                                 "anon": true,
+                                 "rank": "clade",
+                                 "chron": {
+                                  "stem": 3.166,
+                                  "crown": 2.92,
+                                  "tips": 8
+                                 },
+                                 "children": [
+                                  {
+                                   "id": "node-philodendron-1-121",
+                                   "name": "node 1.121",
+                                   "anon": true,
+                                   "rank": "clade",
+                                   "chron": {
+                                    "stem": 2.92,
+                                    "crown": 1.121,
+                                    "tips": 3
+                                   },
+                                   "children": [
+                                    {
+                                     "id": "species-philodendron-ara133",
+                                     "name": "Philodendron brandtianum",
+                                     "rank": "species",
+                                     "accession": "ARA133",
+                                     "chron": {
+                                      "stem": 1.121,
+                                      "tips": 1
+                                     }
+                                    },
+                                    {
+                                     "id": "node-philodendron-0-902",
+                                     "name": "node 0.902",
+                                     "anon": true,
+                                     "rank": "clade",
+                                     "chron": {
+                                      "stem": 1.121,
+                                      "crown": 0.902,
+                                      "tips": 2
+                                     },
+                                     "children": [
+                                      {
+                                       "id": "species-philodendron-ara201",
+                                       "name": "Philodendron sodiroi",
+                                       "rank": "species",
+                                       "accession": "ARA201",
+                                       "chron": {
+                                        "stem": 0.902,
+                                        "tips": 1
+                                       }
+                                      },
+                                      {
+                                       "id": "species-philodendron-ara038",
+                                       "name": "Philodendron gloriosum",
+                                       "rank": "species",
+                                       "accession": "ARA038",
+                                       "chron": {
+                                        "stem": 0.902,
+                                        "tips": 1
+                                       }
+                                      }
+                                     ]
+                                    }
+                                   ]
+                                  },
+                                  {
+                                   "id": "node-philodendron-2-762",
+                                   "name": "node 2.762",
+                                   "anon": true,
+                                   "rank": "clade",
+                                   "chron": {
+                                    "stem": 2.92,
+                                    "crown": 2.762,
+                                    "tips": 5
+                                   },
+                                   "children": [
+                                    {
+                                     "id": "node-philodendron-0-806",
+                                     "name": "node 0.806",
+                                     "anon": true,
+                                     "rank": "clade",
+                                     "chron": {
+                                      "stem": 2.762,
+                                      "crown": 0.806,
+                                      "tips": 2
+                                     },
+                                     "children": [
+                                      {
+                                       "id": "species-philodendron-ara167",
+                                       "name": "Philodendron lynamii sp. nov. ined",
+                                       "rank": "species",
+                                       "accession": "ARA167",
+                                       "chron": {
+                                        "stem": 0.806,
+                                        "tips": 1
+                                       }
+                                      },
+                                      {
+                                       "id": "species-philodendron-ara011",
+                                       "name": "Philodendron mamei",
+                                       "rank": "species",
+                                       "accession": "ARA011",
+                                       "chron": {
+                                        "stem": 0.806,
+                                        "tips": 1
+                                       }
+                                      }
+                                     ]
+                                    },
+                                    {
+                                     "id": "node-philodendron-2-264",
+                                     "name": "node 2.264",
+                                     "anon": true,
+                                     "rank": "clade",
+                                     "chron": {
+                                      "stem": 2.762,
+                                      "crown": 2.264,
+                                      "tips": 3
+                                     },
+                                     "children": [
+                                      {
+                                       "id": "species-philodendron-ara173",
+                                       "name": "Philodendron nangaritense sp. nov. ined",
+                                       "rank": "species",
+                                       "accession": "ARA173",
+                                       "chron": {
+                                        "stem": 2.264,
+                                        "tips": 1
+                                       }
+                                      },
+                                      {
+                                       "id": "node-philodendron-1-868",
+                                       "name": "node 1.868",
+                                       "anon": true,
+                                       "rank": "clade",
+                                       "chron": {
+                                        "stem": 2.264,
+                                        "crown": 1.868,
+                                        "tips": 2
+                                       },
+                                       "children": [
+                                        {
+                                         "id": "species-philodendron-ara076",
+                                         "name": "Philodendron pastazanum",
+                                         "rank": "species",
+                                         "accession": "ARA076",
+                                         "chron": {
+                                          "stem": 1.868,
+                                          "tips": 1
+                                         }
+                                        },
+                                        {
+                                         "id": "species-philodendron-ara046",
+                                         "name": "Philodendron geniculatum",
+                                         "rank": "species",
+                                         "accession": "ARA046",
+                                         "chron": {
+                                          "stem": 1.868,
+                                          "tips": 1
+                                         }
+                                        }
+                                       ]
+                                      }
+                                     ]
+                                    }
+                                   ]
+                                  }
+                                 ]
+                                }
+                               ]
+                              }
+                             ]
+                            }
+                           ]
+                          }
+                         ]
+                        }
+                       ],
+                       "speciesCount": 18,
+                       "note": "Clade 9 of Canal et al. (2019); clade 11 in Canal et al. (2018)."
                       },
                       {
-                       "id": "node-philodendron-9-05",
-                       "name": "node 9-05",
+                       "id": "node-philodendron-9-202",
+                       "name": "node 9.202",
                        "anon": true,
                        "rank": "clade",
                        "chron": {
                         "stem": 9.32,
-                        "crown": 9.05
+                        "crown": 9.202,
+                        "tips": 26
                        },
-                       "note": "Its sister lineage here is one or more species that fall outside the twelve named clades; those appear only when the species layer is added.",
                        "children": [
                         {
-                         "id": "node-philodendron-7-42",
-                         "name": "node 7-42",
+                         "id": "species-philodendron-ara141",
+                         "name": "Philodendron dodsonii",
+                         "rank": "species",
+                         "accession": "ARA141",
+                         "chron": {
+                          "stem": 9.202,
+                          "tips": 1
+                         }
+                        },
+                        {
+                         "id": "node-philodendron-9-05",
+                         "name": "node 9.05",
                          "anon": true,
                          "rank": "clade",
                          "chron": {
-                          "stem": 9.05,
-                          "crown": 7.42
+                          "stem": 9.202,
+                          "crown": 9.05,
+                          "tips": 25
                          },
                          "children": [
                           {
-                           "id": "clade-philodendron-12",
-                           "name": "Clade 12",
-                           "rank": "clade",
-                           "note": "Clade 12 of Canal et al. (2019); clade 14 in Canal et al. (2018).",
+                           "id": "species-philodendron-ara303",
+                           "name": "Philodendron tenue",
+                           "rank": "species",
+                           "accession": "ARA303",
                            "chron": {
-                            "stem": 7.42,
-                            "crown": 5.48,
-                            "pp": 1.0,
-                            "crownHpd": [
-                             3.01,
-                             8.15
-                            ]
+                            "stem": 9.05,
+                            "tips": 1
                            }
                           },
                           {
-                           "id": "clade-philodendron-11",
-                           "name": "Clade 11",
+                           "id": "node-philodendron-7-42",
+                           "name": "node 7.42",
+                           "anon": true,
                            "rank": "clade",
-                           "note": "Clade 11 of Canal et al. (2019); clade 13 in Canal et al. (2018).",
                            "chron": {
-                            "stem": 7.42,
-                            "crown": 5.99,
-                            "pp": 1.0,
-                            "crownHpd": [
-                             3.59,
-                             8.43
-                            ]
-                           }
+                            "stem": 9.05,
+                            "crown": 7.42,
+                            "tips": 24
+                           },
+                           "children": [
+                            {
+                             "id": "clade-philodendron-12",
+                             "name": "Clade 12",
+                             "rank": "clade",
+                             "chron": {
+                              "stem": 7.42,
+                              "crown": 5.482,
+                              "tips": 11
+                             },
+                             "children": [
+                              {
+                               "id": "node-philodendron-3-35",
+                               "name": "node 3.35",
+                               "anon": true,
+                               "rank": "clade",
+                               "chron": {
+                                "stem": 5.482,
+                                "crown": 3.35,
+                                "tips": 4
+                               },
+                               "children": [
+                                {
+                                 "id": "node-philodendron-1-805",
+                                 "name": "node 1.805",
+                                 "anon": true,
+                                 "rank": "clade",
+                                 "chron": {
+                                  "stem": 3.35,
+                                  "crown": 1.805,
+                                  "tips": 2
+                                 },
+                                 "children": [
+                                  {
+                                   "id": "species-philodendron-ara325",
+                                   "name": "Philodendron sulcicaule",
+                                   "rank": "species",
+                                   "accession": "ARA325",
+                                   "chron": {
+                                    "stem": 1.805,
+                                    "tips": 1
+                                   }
+                                  },
+                                  {
+                                   "id": "species-philodendron-ara291",
+                                   "name": "Philodendron platypetiolatum",
+                                   "rank": "species",
+                                   "accession": "ARA291",
+                                   "chron": {
+                                    "stem": 1.805,
+                                    "tips": 1
+                                   }
+                                  }
+                                 ]
+                                },
+                                {
+                                 "id": "node-philodendron-2-882",
+                                 "name": "node 2.882",
+                                 "anon": true,
+                                 "rank": "clade",
+                                 "chron": {
+                                  "stem": 3.35,
+                                  "crown": 2.882,
+                                  "tips": 2
+                                 },
+                                 "children": [
+                                  {
+                                   "id": "species-philodendron-ara197",
+                                   "name": "Philodendron wilburii var. longipedunculatum",
+                                   "rank": "species",
+                                   "accession": "ARA197",
+                                   "chron": {
+                                    "stem": 2.882,
+                                    "tips": 1
+                                   }
+                                  },
+                                  {
+                                   "id": "species-philodendron-ara172",
+                                   "name": "Philodendron bonifaziae",
+                                   "rank": "species",
+                                   "accession": "ARA172",
+                                   "chron": {
+                                    "stem": 2.882,
+                                    "tips": 1
+                                   }
+                                  }
+                                 ]
+                                }
+                               ]
+                              },
+                              {
+                               "id": "node-philodendron-4-178",
+                               "name": "node 4.178",
+                               "anon": true,
+                               "rank": "clade",
+                               "chron": {
+                                "stem": 5.482,
+                                "crown": 4.178,
+                                "tips": 7
+                               },
+                               "children": [
+                                {
+                                 "id": "species-philodendron-ara007",
+                                 "name": "Philodendron bakeri",
+                                 "rank": "species",
+                                 "accession": "ARA007",
+                                 "chron": {
+                                  "stem": 4.178,
+                                  "tips": 1
+                                 }
+                                },
+                                {
+                                 "id": "node-philodendron-2-983",
+                                 "name": "node 2.983",
+                                 "anon": true,
+                                 "rank": "clade",
+                                 "chron": {
+                                  "stem": 4.178,
+                                  "crown": 2.983,
+                                  "tips": 6
+                                 },
+                                 "children": [
+                                  {
+                                   "id": "node-philodendron-2-666",
+                                   "name": "node 2.666",
+                                   "anon": true,
+                                   "rank": "clade",
+                                   "chron": {
+                                    "stem": 2.983,
+                                    "crown": 2.666,
+                                    "tips": 2
+                                   },
+                                   "children": [
+                                    {
+                                     "id": "species-philodendron-ara203",
+                                     "name": "Philodendron smithii",
+                                     "rank": "species",
+                                     "accession": "ARA203",
+                                     "chron": {
+                                      "stem": 2.666,
+                                      "tips": 1
+                                     }
+                                    },
+                                    {
+                                     "id": "species-philodendron-ara089",
+                                     "name": "Philodendron cf. mexicanum",
+                                     "rank": "species",
+                                     "accession": "ARA089",
+                                     "chron": {
+                                      "stem": 2.666,
+                                      "tips": 1
+                                     }
+                                    }
+                                   ]
+                                  },
+                                  {
+                                   "id": "node-philodendron-1-788",
+                                   "name": "node 1.788",
+                                   "anon": true,
+                                   "rank": "clade",
+                                   "chron": {
+                                    "stem": 2.983,
+                                    "crown": 1.788,
+                                    "tips": 4
+                                   },
+                                   "children": [
+                                    {
+                                     "id": "species-philodendron-ara398",
+                                     "name": "Philodendron anisotomum",
+                                     "rank": "species",
+                                     "accession": "ARA398",
+                                     "chron": {
+                                      "stem": 1.788,
+                                      "tips": 1
+                                     }
+                                    },
+                                    {
+                                     "id": "node-philodendron-1-214",
+                                     "name": "node 1.214",
+                                     "anon": true,
+                                     "rank": "clade",
+                                     "chron": {
+                                      "stem": 1.788,
+                                      "crown": 1.214,
+                                      "tips": 3
+                                     },
+                                     "children": [
+                                      {
+                                       "id": "species-philodendron-ara093",
+                                       "name": "Philodendron microstictum",
+                                       "rank": "species",
+                                       "accession": "ARA093",
+                                       "chron": {
+                                        "stem": 1.214,
+                                        "tips": 1
+                                       }
+                                      },
+                                      {
+                                       "id": "node-philodendron-0-737",
+                                       "name": "node 0.737",
+                                       "anon": true,
+                                       "rank": "clade",
+                                       "chron": {
+                                        "stem": 1.214,
+                                        "crown": 0.737,
+                                        "tips": 2
+                                       },
+                                       "children": [
+                                        {
+                                         "id": "species-philodendron-ara146",
+                                         "name": "Philodendron ferrugineum",
+                                         "rank": "species",
+                                         "accession": "ARA146",
+                                         "chron": {
+                                          "stem": 0.737,
+                                          "tips": 1
+                                         }
+                                        },
+                                        {
+                                         "id": "species-philodendron-ara131",
+                                         "name": "Philodendron auriculatum",
+                                         "rank": "species",
+                                         "accession": "ARA131",
+                                         "chron": {
+                                          "stem": 0.737,
+                                          "tips": 1
+                                         }
+                                        }
+                                       ]
+                                      }
+                                     ]
+                                    }
+                                   ]
+                                  }
+                                 ]
+                                }
+                               ]
+                              }
+                             ],
+                             "speciesCount": 11,
+                             "note": "Clade 12 of Canal et al. (2019); clade 14 in Canal et al. (2018)."
+                            },
+                            {
+                             "id": "clade-philodendron-11",
+                             "name": "Clade 11",
+                             "rank": "clade",
+                             "chron": {
+                              "stem": 7.42,
+                              "crown": 5.991,
+                              "tips": 13
+                             },
+                             "children": [
+                              {
+                               "id": "species-philodendron-ara032",
+                               "name": "Philodendron scherberichii",
+                               "rank": "species",
+                               "accession": "ARA032",
+                               "chron": {
+                                "stem": 5.991,
+                                "tips": 1
+                               }
+                              },
+                              {
+                               "id": "node-philodendron-4-815",
+                               "name": "node 4.815",
+                               "anon": true,
+                               "rank": "clade",
+                               "chron": {
+                                "stem": 5.991,
+                                "crown": 4.815,
+                                "tips": 12
+                               },
+                               "children": [
+                                {
+                                 "id": "node-philodendron-4-552",
+                                 "name": "node 4.552",
+                                 "anon": true,
+                                 "rank": "clade",
+                                 "chron": {
+                                  "stem": 4.815,
+                                  "crown": 4.552,
+                                  "tips": 5
+                                 },
+                                 "children": [
+                                  {
+                                   "id": "species-philodendron-ara349",
+                                   "name": "Philodendron alatiundulatum",
+                                   "rank": "species",
+                                   "accession": "ARA349",
+                                   "chron": {
+                                    "stem": 4.552,
+                                    "tips": 1
+                                   }
+                                  },
+                                  {
+                                   "id": "node-philodendron-4-369",
+                                   "name": "node 4.369",
+                                   "anon": true,
+                                   "rank": "clade",
+                                   "chron": {
+                                    "stem": 4.552,
+                                    "crown": 4.369,
+                                    "tips": 4
+                                   },
+                                   "children": [
+                                    {
+                                     "id": "species-philodendron-ara352",
+                                     "name": "Philodendron cf. viride",
+                                     "rank": "species",
+                                     "accession": "ARA352",
+                                     "chron": {
+                                      "stem": 4.369,
+                                      "tips": 1
+                                     }
+                                    },
+                                    {
+                                     "id": "node-philodendron-3-048",
+                                     "name": "node 3.048",
+                                     "anon": true,
+                                     "rank": "clade",
+                                     "chron": {
+                                      "stem": 4.369,
+                                      "crown": 3.048,
+                                      "tips": 3
+                                     },
+                                     "children": [
+                                      {
+                                       "id": "species-philodendron-ara348",
+                                       "name": "Philodendron sp",
+                                       "rank": "species",
+                                       "accession": "ARA348",
+                                       "chron": {
+                                        "stem": 3.048,
+                                        "tips": 1
+                                       }
+                                      },
+                                      {
+                                       "id": "node-philodendron-1-54",
+                                       "name": "node 1.54",
+                                       "anon": true,
+                                       "rank": "clade",
+                                       "chron": {
+                                        "stem": 3.048,
+                                        "crown": 1.54,
+                                        "tips": 2
+                                       },
+                                       "children": [
+                                        {
+                                         "id": "species-philodendron-ara259",
+                                         "name": "Philodendron esmeraldense",
+                                         "rank": "species",
+                                         "accession": "ARA259",
+                                         "chron": {
+                                          "stem": 1.54,
+                                          "tips": 1
+                                         }
+                                        },
+                                        {
+                                         "id": "species-philodendron-ara169",
+                                         "name": "Philodendron melanoneuron",
+                                         "rank": "species",
+                                         "accession": "ARA169",
+                                         "chron": {
+                                          "stem": 1.54,
+                                          "tips": 1
+                                         }
+                                        }
+                                       ]
+                                      }
+                                     ]
+                                    }
+                                   ]
+                                  }
+                                 ]
+                                },
+                                {
+                                 "id": "node-philodendron-4-52",
+                                 "name": "node 4.52",
+                                 "anon": true,
+                                 "rank": "clade",
+                                 "chron": {
+                                  "stem": 4.815,
+                                  "crown": 4.52,
+                                  "tips": 7
+                                 },
+                                 "children": [
+                                  {
+                                   "id": "species-philodendron-ara177",
+                                   "name": "Philodendron delannayi",
+                                   "rank": "species",
+                                   "accession": "ARA177",
+                                   "chron": {
+                                    "stem": 4.52,
+                                    "tips": 1
+                                   }
+                                  },
+                                  {
+                                   "id": "node-philodendron-4-403",
+                                   "name": "node 4.403",
+                                   "anon": true,
+                                   "rank": "clade",
+                                   "chron": {
+                                    "stem": 4.52,
+                                    "crown": 4.403,
+                                    "tips": 6
+                                   },
+                                   "children": [
+                                    {
+                                     "id": "node-philodendron-3-435",
+                                     "name": "node 3.435",
+                                     "anon": true,
+                                     "rank": "clade",
+                                     "chron": {
+                                      "stem": 4.403,
+                                      "crown": 3.435,
+                                      "tips": 3
+                                     },
+                                     "children": [
+                                      {
+                                       "id": "species-philodendron-ara354",
+                                       "name": "Philodendron oligospermum",
+                                       "rank": "species",
+                                       "accession": "ARA354",
+                                       "chron": {
+                                        "stem": 3.435,
+                                        "tips": 1
+                                       }
+                                      },
+                                      {
+                                       "id": "node-philodendron-2-253",
+                                       "name": "node 2.253",
+                                       "anon": true,
+                                       "rank": "clade",
+                                       "chron": {
+                                        "stem": 3.435,
+                                        "crown": 2.253,
+                                        "tips": 2
+                                       },
+                                       "children": [
+                                        {
+                                         "id": "species-philodendron-ara299",
+                                         "name": "Philodendron sp",
+                                         "rank": "species",
+                                         "accession": "ARA299",
+                                         "chron": {
+                                          "stem": 2.253,
+                                          "tips": 1
+                                         }
+                                        },
+                                        {
+                                         "id": "species-philodendron-ara272",
+                                         "name": "Philodendron heleniae ssp. heleniae",
+                                         "rank": "species",
+                                         "accession": "ARA272",
+                                         "chron": {
+                                          "stem": 2.253,
+                                          "tips": 1
+                                         }
+                                        }
+                                       ]
+                                      }
+                                     ]
+                                    },
+                                    {
+                                     "id": "node-philodendron-4-195",
+                                     "name": "node 4.195",
+                                     "anon": true,
+                                     "rank": "clade",
+                                     "chron": {
+                                      "stem": 4.403,
+                                      "crown": 4.195,
+                                      "tips": 3
+                                     },
+                                     "children": [
+                                      {
+                                       "id": "species-philodendron-ara250",
+                                       "name": "Philodendron amargalense",
+                                       "rank": "species",
+                                       "accession": "ARA250",
+                                       "chron": {
+                                        "stem": 4.195,
+                                        "tips": 1
+                                       }
+                                      },
+                                      {
+                                       "id": "node-philodendron-2-216",
+                                       "name": "node 2.216",
+                                       "anon": true,
+                                       "rank": "clade",
+                                       "chron": {
+                                        "stem": 4.195,
+                                        "crown": 2.216,
+                                        "tips": 2
+                                       },
+                                       "children": [
+                                        {
+                                         "id": "species-philodendron-ara289",
+                                         "name": "Philodendron patriciae",
+                                         "rank": "species",
+                                         "accession": "ARA289",
+                                         "chron": {
+                                          "stem": 2.216,
+                                          "tips": 1
+                                         }
+                                        },
+                                        {
+                                         "id": "species-philodendron-ara287",
+                                         "name": "Philodendron ninoanum",
+                                         "rank": "species",
+                                         "accession": "ARA287",
+                                         "chron": {
+                                          "stem": 2.216,
+                                          "tips": 1
+                                         }
+                                        }
+                                       ]
+                                      }
+                                     ]
+                                    }
+                                   ]
+                                  }
+                                 ]
+                                }
+                               ]
+                              }
+                             ],
+                             "speciesCount": 12,
+                             "note": "Clade 11 of Canal et al. (2019); clade 13 in Canal et al. (2018)."
+                            }
+                           ]
                           }
                          ]
                         }
@@ -4465,7 +7741,9 @@
               }
              ]
             }
-           ]
+           ],
+           "sampledCount": 126,
+           "note": "The largest subgenus - ~460 accepted species, mainly epiphytes and hemiepiphytes, centred on Central America, the Chocó, the northern Andes and Amazonia. Twelve well-supported clades are recognised inside it."
           }
          ]
         }
@@ -4486,7 +7764,7 @@
         "note": "From the Philodendron study (Canal et al. 2019), not the family chronogram the rest of this view is drawn from. Its stem is shared with Adelonema, its sister genus. Canal et al. (2018) date the same nodes at 25.53 / 22.10 Ma on the same three secondary calibrations with 48 fewer taxa, and at 21.55 / 18.61 Ma when a Montrichardia fossil is added instead - the ages are not strictly comparable with the genera around them."
        },
        "speciesTierSource": "Canal, Köster, Celis, Croat & Borsch (2019), \"Out of Amazonia and back again: historical biogeography of the species-rich Neotropical genus Philodendron (Araceae)\", Annals of the Missouri Botanical Garden 104: 49-68, Table 1 and Fig. 1",
-       "speciesTierNote": "The plastid BEAST chronogram (petD, rpl16, trnK/matK; 221 accessions, 173 Philodendron taxa, three secondary calibrations from Nauheimer et al. 2012). Ages, 95% HPDs and posteriors are Table 1's; the branching order is derived from Fig. 1, whose two pages are drawn at different scales and were calibrated separately - each calibration then reproduced ages it was not fitted to, and the node where the two pages join is dated 12.89 Ma on one and 12.89 Ma on the other. ⚠ Canal et al. (2018) numbered these clades 3-14; 2019 renumbers them 1-12 and adds clades A and B in subgenus Pteromischum. Both numbers are given. ⚠ The two studies disagree about which subgenus branches first, and both mark that node as too weakly supported to date: 2018 has subgenus Philodendron splitting off first (pp 0.37), 2019 has Pteromischum (pp 0.27). The tier draws 2019 and says so. ⚠ No section of the current infrageneric classification came out monophyletic and the clades have no morphological synapomorphies - they are largely geographic.",
+       "speciesTierNote": "The plastid BEAST chronogram (petD, rpl16, trnK/matK; 221 accessions, 173 Philodendron taxa, three secondary calibrations from Nauheimer et al. 2012). Ages, 95% HPDs and posteriors are Table 1's; the branching order is derived from Fig. 1, whose two pages are drawn at different scales and were calibrated separately - each calibration then reproduced ages it was not fitted to, and the node where the two pages join is dated 12.89 Ma on one and 12.89 Ma on the other. ⚠ Canal et al. (2018) numbered these clades 3-14; 2019 renumbers them 1-12 and adds clades A and B in subgenus Pteromischum. Both numbers are given. ⚠ The two studies disagree about which subgenus branches first, and both mark that node as too weakly supported to date: 2018 has subgenus Philodendron splitting off first (pp 0.37), 2019 has Pteromischum (pp 0.27). The tier draws 2019 and says so. ⚠ No section of the current infrageneric classification came out monophyletic and the clades have no morphological synapomorphies - they are largely geographic. — 1.17.0 adds the species: 166 accessions (162 Philodendron, 4 Adelonema; 147 distinct taxa) at their own divergence points, from the same Fig. 1. ⚠ The figure draws 166 of the study's 221 accessions. ⚠ Five taxa are sampled more than once - `Philodendron sp. (subgen. Pteromischum)` twelve times - so every tip is identified by its ARA accession, not by name alone.",
        "subgeneraSource": "Canal, Köster, Celis, Croat & Borsch (2019), \"Out of Amazonia and back again: historical biogeography of the species-rich Neotropical genus Philodendron (Araceae)\", Annals of the Missouri Botanical Garden 104: 49-68, Table 1 and Fig. 1"
       }
      ]
@@ -9150,10 +12428,11 @@
     "Nauheimer, Boyce & Renner (2012), \"Giant taro and its relatives: a phylogeny of the large genus Alocasia (Araceae) sheds light on Miocene floristic exchange in the Malesian region\", Molecular Phylogenetics and Evolution 63: 43-51. Source of the Alocasia species tier: four nuclear clades A-D and the 67 species read from Fig. 3b, checked against Table S1 and against the two species-groups the paper names in prose.",
     "Nauheimer, Boyce & Renner (2012), \"Giant taro and its relatives: a phylogeny of the large genus Alocasia (Araceae) sheds light on Miocene floristic exchange in the Malesian region\", Molecular Phylogenetics and Evolution 63: 43-51, Fig. 4 and Table S3. The Alocasia species tier became a dated cladogram: all 55 nodes of the nuclear chronogram below the genus crown, each with its mean age, 95% HPD and posterior probability, and the 73 accessions (67 species) at their tips. Replaces the flat clade lists of 1.13.0.",
     "Pouchon, Boyce, Roberts, Gitzendanner, Hetterscheid, Soltis, Soltis & Claudel (2023), \"Phylogenomic study of Amorphophallus (Alismatales; Araceae): when plastid DNA gene sequences help to resolve the backbone subgeneric delineation\", Journal of Systematics and Evolution 61(1): 64-79, Fig. 4 and Table S2. The Amorphophallus subgenus scaffold of 1.12.0 became a dated cladogram: all 44 nodes of the plastid chronogram below the genus crown, each with its mean age, 95% HPD and posterior, and the 45 accessions (36 species) at their tips. No aggregate row - unsampled species are not drawn.",
-    "1.16.0 - the Philodendron clade tier: 3 subgenera, clades A/B and 1-12, from Canal et al. (2019) Table 1 and Fig. 1. Ages from the table; branching order derived from the figure and gated 24 ways."
+    "1.16.0 - the Philodendron clade tier: 3 subgenera, clades A/B and 1-12, from Canal et al. (2019) Table 1 and Fig. 1. Ages from the table; branching order derived from the figure and gated 24 ways.",
+    "1.17.0 - the Philodendron species layer: 166 accessions under the 1.16.0 clade tier, derived from Canal et al. (2019) Fig. 1 and named from the sampling appendix of Canal Gallego's 2018 thesis (166/166 gated)."
    ],
    "speciesCounts": "POWO master export, Araceae_Exports/EXCELS/_run_log.csv (validated accepted species).",
-   "version": "1.16.0",
+   "version": "1.17.0",
    "orthographicVariants": {
     "Stylochiton": "Treated as Stylochaeton Lepr. (MBB no. 34). The POWO export uses Stylochiton; which spelling Kew currently accepts is unconfirmed."
    },
