@@ -1,6 +1,8 @@
 # =====================================================================
 # AROIDPEDIA - DEPLOY ON JOURNAL PHOTO PUSH
-# FILE VERSION: v1   (created 2026-08-10)
+# FILE VERSION: v2   (8.10.26: also fires on docs/shapes.json and
+#   docs/climate.json - the map and climate data ship through the same
+#   no-wait lane as the photos)
 # Path in repo: .github/workflows/deploy-journal-photos.yml
 #
 # Why this exists: GitHub Pages for this repo deploys ONLY through the
@@ -24,6 +26,8 @@ on:
     branches: [main]
     paths:
       - "docs/journal/**"
+      - "docs/shapes.json"
+      - "docs/climate.json"
   workflow_dispatch:
 
 permissions:
