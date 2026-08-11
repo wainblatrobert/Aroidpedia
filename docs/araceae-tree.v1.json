@@ -1338,12 +1338,14 @@
                  "children": [
                   {
                    "id": "species-alocasia-gageana",
-                   "name": "Alocasia gageana",
+                   "name": "Alocasia odora 'California'",
                    "rank": "species",
                    "chron": {
                     "stem": 2.21,
                     "tips": 1
-                   }
+                   },
+                   "cultivar": true,
+                   "note": "Listed as Alocasia gageana by Nauheimer, Boyce & Renner (2012); it is the cultivar Alocasia odora 'California'. The node keeps the study's own placement - only the name it is drawn under has changed."
                   },
                   {
                    "id": "node-alocasia-32",
@@ -13444,10 +13446,11 @@
     "Pouchon, Boyce, Roberts, Gitzendanner, Hetterscheid, Soltis, Soltis & Claudel (2023), \"Phylogenomic study of Amorphophallus (Alismatales; Araceae): when plastid DNA gene sequences help to resolve the backbone subgeneric delineation\", Journal of Systematics and Evolution 61(1): 64-79, Fig. 4 and Table S2. The Amorphophallus subgenus scaffold of 1.12.0 became a dated cladogram: all 44 nodes of the plastid chronogram below the genus crown, each with its mean age, 95% HPD and posterior, and the 45 accessions (36 species) at their tips. No aggregate row - unsampled species are not drawn.",
     "1.16.0 - the Philodendron clade tier: 3 subgenera, clades A/B and 1-12, from Canal et al. (2019) Table 1 and Fig. 1. Ages from the table; branching order derived from the figure and gated 24 ways.",
     "1.17.0 - the Philodendron species layer: 166 accessions under the 1.16.0 clade tier, derived from Canal et al. (2019) Fig. 1 and named from the sampling appendix of Canal Gallego's 2018 thesis (166/166 gated).",
-    "1.18.0 - ancestral ranges on the Philodendron tier from Canal et al. (2019) Fig. 1's BioGeoBEARS pies: 126 nodes, 17 of the 17 named clades and subgenera."
+    "1.18.0 - ancestral ranges on the Philodendron tier from Canal et al. (2019) Fig. 1's BioGeoBEARS pies: 126 nodes, 17 of the 17 named clades and subgenera.",
+    "1.19.0 - Alocasia gageana renamed to Alocasia odora 'California' (the id is unchanged: an id is a permalink)."
    ],
    "speciesCounts": "POWO master export, Araceae_Exports/EXCELS/_run_log.csv (validated accepted species).",
-   "version": "1.18.0",
+   "version": "1.19.0",
    "orthographicVariants": {
     "Stylochiton": "Treated as Stylochaeton Lepr. (MBB no. 34). The POWO export uses Stylochiton; which spelling Kew currently accepts is unconfirmed."
    },
