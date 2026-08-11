@@ -1,0 +1,59 @@
+# =====================================================================
+# AROIDPEDIA - DEPLOY ON JOURNAL PHOTO PUSH
+# FILE VERSION: v1   (created 2026-08-10)
+# Path in repo: .github/workflows/deploy-journal-photos.yml
+#
+# Why this exists: GitHub Pages for this repo deploys ONLY through the
+# workflows (update-counts.yml daily at 08:05 UTC, search-index,
+# biblio) - a plain `git push` to main updates the repo but the live
+# site keeps serving the previous artifact. Discovered 8.10.26 when a
+# journal-photo sync sat undeployed: the last successful deployment
+# predated the push, and nothing was scheduled for six hours.
+#
+# This workflow closes that gap for the journal photo pipeline: any
+# push touching docs/journal/** re-uploads docs/ and deploys. It does
+# NOT regenerate counts or the search index - it only ships the docs
+# folder as-is. It shares the "pages" concurrency group with the other
+# three workflows so deployments stay serialized.
+# =====================================================================
+
+name: Deploy journal photos
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "docs/journal/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v5
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v6
+
+      - name: Upload /docs as Pages artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: "docs"
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
