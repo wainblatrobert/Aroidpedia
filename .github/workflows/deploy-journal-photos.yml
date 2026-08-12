@@ -33,6 +33,9 @@ on:
       # Data 1.19.0 was pushed and the site kept serving the previous
       # artifact - a push to docs/ updates the REPO, never the live site.
       - "docs/araceae-tree.v1.json"
+      # v4 (8.12.26): the anatomy figure plates (guide-page diagrams)
+      # ship through the same lane.
+      - "docs/diagrams/**"
   workflow_dispatch:
 
 permissions:
