@@ -1403,7 +1403,11 @@
                     "pp": 0.2,
                     "tips": 3
                    },
-                   "speciesCount": 3
+                   "speciesCount": 3,
+                   "ancestralRange": {
+                    "area": "Asian mainland",
+                    "p": 1.0
+                   }
                   }
                  ],
                  "chron": {
@@ -1416,7 +1420,11 @@
                   "pp": 0.4,
                   "tips": 4
                  },
-                 "speciesCount": 4
+                 "speciesCount": 4,
+                 "ancestralRange": {
+                  "area": "Asian mainland",
+                  "p": 0.99
+                 }
                 }
                ],
                "chron": {
@@ -1429,7 +1437,11 @@
                 "pp": 1.0,
                 "tips": 5
                },
-               "speciesCount": 5
+               "speciesCount": 5,
+               "ancestralRange": {
+                "area": "Asian mainland",
+                "p": 0.92
+               }
               }
              ],
              "chron": {
@@ -1442,7 +1454,11 @@
               "pp": 0.2,
               "tips": 6
              },
-             "speciesCount": 6
+             "speciesCount": 6,
+             "ancestralRange": {
+              "area": "Sundaland (Asian mainland + Borneo)",
+              "p": 0.57
+             }
             },
             {
              "id": "node-alocasia-33",
@@ -1490,7 +1506,11 @@
                 "pp": 0.4,
                 "tips": 2
                },
-               "speciesCount": 2
+               "speciesCount": 2,
+               "ancestralRange": {
+                "area": "Sundaland (Asian mainland + Borneo)",
+                "p": 0.72
+               }
               },
               {
                "id": "node-alocasia-35",
@@ -1551,7 +1571,11 @@
                     "pp": 0.5,
                     "tips": 2
                    },
-                   "speciesCount": 2
+                   "speciesCount": 2,
+                   "ancestralRange": {
+                    "area": "Asian mainland",
+                    "p": 0.99
+                   }
                   }
                  ],
                  "chron": {
@@ -1564,7 +1588,11 @@
                   "pp": 1.0,
                   "tips": 3
                  },
-                 "speciesCount": 3
+                 "speciesCount": 3,
+                 "ancestralRange": {
+                  "area": "Asian mainland",
+                  "p": 0.93
+                 }
                 },
                 {
                  "id": "node-alocasia-36",
@@ -1668,7 +1696,11 @@
                       "pp": 0.5,
                       "tips": 3
                      },
-                     "speciesCount": 3
+                     "speciesCount": 3,
+                     "ancestralRange": {
+                      "area": "Borneo",
+                      "p": 1.0
+                     }
                     }
                    ],
                    "chron": {
@@ -1681,7 +1713,11 @@
                     "pp": 1.0,
                     "tips": 4
                    },
-                   "speciesCount": 4
+                   "speciesCount": 4,
+                   "ancestralRange": {
+                    "area": "Borneo",
+                    "p": 0.99
+                   }
                   }
                  ],
                  "chron": {
@@ -1694,7 +1730,14 @@
                   "pp": 0.2,
                   "tips": 5
                  },
-                 "speciesCount": 5
+                 "speciesCount": 5,
+                 "ancestralRange": {
+                  "area": "Borneo + the Philippines",
+                  "p": 0.56,
+                  "alt": {
+                   "Borneo": 0.37
+                  }
+                 }
                 }
                ],
                "chron": {
@@ -1707,7 +1750,11 @@
                 "pp": 0.3,
                 "tips": 8
                },
-               "speciesCount": 8
+               "speciesCount": 8,
+               "ancestralRange": {
+                "area": "Sundaland (Asian mainland + Borneo)",
+                "p": 0.81
+               }
               }
              ],
              "chron": {
@@ -1720,7 +1767,14 @@
               "pp": 0.3,
               "tips": 9
              },
-             "speciesCount": 9
+             "speciesCount": 9,
+             "ancestralRange": {
+              "area": "Borneo",
+              "p": 0.37,
+              "alt": {
+               "Sundaland (Asian mainland + Borneo)": 0.16
+              }
+             }
             }
            ],
            "chron": {
@@ -1733,7 +1787,11 @@
             "pp": 0.2,
             "tips": 15
            },
-           "speciesCount": 15
+           "speciesCount": 15,
+           "ancestralRange": {
+            "area": "Borneo",
+            "p": 0.44
+           }
           }
          ],
          "chron": {
@@ -1746,7 +1804,15 @@
           "pp": 0.9,
           "tips": 16
          },
-         "speciesCount": 16
+         "speciesCount": 16,
+         "ancestralRange": {
+          "area": "Borneo",
+          "p": 0.54,
+          "alt": {
+           "Sundaland (Asian mainland + Borneo)": 0.37
+          },
+          "sdiva": "Sundaland (Asian mainland + Borneo)"
+         }
         },
         {
          "id": "node-alocasia-41",
@@ -1808,7 +1874,11 @@
                 "pp": 1.0,
                 "tips": 2
                },
-               "speciesCount": 2
+               "speciesCount": 2,
+               "ancestralRange": {
+                "area": "Sulawesi",
+                "p": 0.87
+               }
               },
               {
                "id": "node-alocasia-52",
@@ -1906,7 +1976,11 @@
                     "pp": 1.0,
                     "tips": 4
                    },
-                   "speciesCount": 4
+                   "speciesCount": 4,
+                   "ancestralRange": {
+                    "area": "New Guinea",
+                    "p": 0.99
+                   }
                   }
                  ],
                  "chron": {
@@ -1919,7 +1993,14 @@
                   "pp": 0.3,
                   "tips": 5
                  },
-                 "speciesCount": 5
+                 "speciesCount": 5,
+                 "ancestralRange": {
+                  "area": "New Guinea + Australia",
+                  "p": 0.47,
+                  "alt": {
+                   "New Guinea": 0.42
+                  }
+                 }
                 }
                ],
                "chron": {
@@ -1932,7 +2013,11 @@
                 "pp": 0.2,
                 "tips": 6
                },
-               "speciesCount": 6
+               "speciesCount": 6,
+               "ancestralRange": {
+                "area": "the Philippines + New Guinea",
+                "p": 0.73
+               }
               }
              ],
              "chron": {
@@ -1945,7 +2030,14 @@
               "pp": 1.0,
               "tips": 8
              },
-             "speciesCount": 8
+             "speciesCount": 8,
+             "ancestralRange": {
+              "area": "the Philippines + Sulawesi",
+              "p": 0.41,
+              "alt": {
+               "the Philippines": 0.19
+              }
+             }
             },
             {
              "id": "clade-alocasia-b",
@@ -2029,7 +2121,11 @@
                     "pp": 1.0,
                     "tips": 1
                    },
-                   "speciesCount": 1
+                   "speciesCount": 1,
+                   "ancestralRange": {
+                    "area": "Borneo",
+                    "p": 1.0
+                   }
                   }
                  ],
                  "chron": {
@@ -2042,7 +2138,11 @@
                   "pp": 1.0,
                   "tips": 1
                  },
-                 "speciesCount": 1
+                 "speciesCount": 1,
+                 "ancestralRange": {
+                  "area": "Borneo",
+                  "p": 0.99
+                 }
                 }
                ],
                "chron": {
@@ -2055,7 +2155,14 @@
                 "pp": 0.3,
                 "tips": 2
                },
-               "speciesCount": 2
+               "speciesCount": 2,
+               "ancestralRange": {
+                "area": "Sundaland (Asian mainland + Borneo)",
+                "p": 0.64,
+                "alt": {
+                 "Asian mainland": 0.28
+                }
+               }
               },
               {
                "id": "node-alocasia-44",
@@ -2153,7 +2260,11 @@
                     "pp": 1.0,
                     "tips": 4
                    },
-                   "speciesCount": 4
+                   "speciesCount": 4,
+                   "ancestralRange": {
+                    "area": "the Philippines",
+                    "p": 0.93
+                   }
                   }
                  ],
                  "chron": {
@@ -2166,7 +2277,14 @@
                   "pp": 1.0,
                   "tips": 5
                  },
-                 "speciesCount": 5
+                 "speciesCount": 5,
+                 "ancestralRange": {
+                  "area": "the Philippines",
+                  "p": 0.78,
+                  "alt": {
+                   "the Philippines + Sulawesi": 0.2
+                  }
+                 }
                 }
                ],
                "chron": {
@@ -2179,7 +2297,11 @@
                 "pp": 0.9,
                 "tips": 6
                },
-               "speciesCount": 6
+               "speciesCount": 6,
+               "ancestralRange": {
+                "area": "the Philippines",
+                "p": 0.85
+               }
               }
              ],
              "chron": {
@@ -2192,7 +2314,11 @@
               "pp": 0.9,
               "tips": 8
              },
-             "speciesCount": 8
+             "speciesCount": 8,
+             "ancestralRange": {
+              "area": "Borneo + the Philippines",
+              "p": 0.78
+             }
             }
            ],
            "chron": {
@@ -2205,7 +2331,12 @@
             "pp": 0.3,
             "tips": 16
            },
-           "speciesCount": 16
+           "speciesCount": 16,
+           "ancestralRange": {
+            "area": "Borneo + the Philippines",
+            "p": 0.68,
+            "sdiva": "the Philippines"
+           }
           },
           {
            "id": "node-alocasia-55",
@@ -2283,7 +2414,12 @@
                     "pp": 1.0,
                     "tips": 2
                    },
-                   "speciesCount": 2
+                   "speciesCount": 2,
+                   "ancestralRange": {
+                    "area": "Borneo + Sulawesi",
+                    "p": 0.93,
+                    "sdiva": "Borneo"
+                   }
                   },
                   {
                    "id": "node-alocasia-78",
@@ -2340,7 +2476,12 @@
                       "pp": 0.5,
                       "tips": 2
                      },
-                     "speciesCount": 2
+                     "speciesCount": 2,
+                     "ancestralRange": {
+                      "area": "Borneo",
+                      "p": 1.0,
+                      "sdiva": "Borneo + Sulawesi"
+                     }
                     }
                    ],
                    "chron": {
@@ -2353,7 +2494,11 @@
                     "pp": 1.0,
                     "tips": 3
                    },
-                   "speciesCount": 3
+                   "speciesCount": 3,
+                   "ancestralRange": {
+                    "area": "Borneo",
+                    "p": 1.0
+                   }
                   }
                  ],
                  "chron": {
@@ -2366,7 +2511,11 @@
                   "pp": 0.9,
                   "tips": 5
                  },
-                 "speciesCount": 5
+                 "speciesCount": 5,
+                 "ancestralRange": {
+                  "area": "Borneo",
+                  "p": 0.87
+                 }
                 },
                 {
                  "id": "node-alocasia-73",
@@ -2430,7 +2579,11 @@
                       "pp": 0.2,
                       "tips": 2
                      },
-                     "speciesCount": 2
+                     "speciesCount": 2,
+                     "ancestralRange": {
+                      "area": "Borneo",
+                      "p": 1.0
+                     }
                     },
                     {
                      "id": "node-alocasia-75",
@@ -2506,7 +2659,11 @@
                       "pp": 0.3,
                       "tips": 6
                      },
-                     "speciesCount": 6
+                     "speciesCount": 6,
+                     "ancestralRange": {
+                      "area": "Borneo",
+                      "p": 1.0
+                     }
                     }
                    ],
                    "chron": {
@@ -2519,7 +2676,11 @@
                     "pp": 0.3,
                     "tips": 8
                    },
-                   "speciesCount": 8
+                   "speciesCount": 8,
+                   "ancestralRange": {
+                    "area": "Borneo",
+                    "p": 0.99
+                   }
                   }
                  ],
                  "chron": {
@@ -2532,7 +2693,11 @@
                   "pp": 0.9,
                   "tips": 9
                  },
-                 "speciesCount": 9
+                 "speciesCount": 9,
+                 "ancestralRange": {
+                  "area": "Borneo + the Philippines",
+                  "p": 0.74
+                 }
                 }
                ],
                "chron": {
@@ -2545,7 +2710,11 @@
                 "pp": 0.1,
                 "tips": 14
                },
-               "speciesCount": 14
+               "speciesCount": 14,
+               "ancestralRange": {
+                "area": "Borneo",
+                "p": 0.74
+               }
               },
               {
                "id": "node-alocasia-57",
@@ -2598,7 +2767,11 @@
                     "pp": 0.1,
                     "tips": 2
                    },
-                   "speciesCount": 2
+                   "speciesCount": 2,
+                   "ancestralRange": {
+                    "area": "the Philippines",
+                    "p": 0.96
+                   }
                   },
                   {
                    "id": "node-alocasia-59",
@@ -2663,7 +2836,11 @@
                       "pp": 0.3,
                       "tips": 3
                      },
-                     "speciesCount": 3
+                     "speciesCount": 3,
+                     "ancestralRange": {
+                      "area": "Sundaland (Asian mainland + Borneo)",
+                      "p": 0.95
+                     }
                     },
                     {
                      "id": "node-alocasia-61",
@@ -2744,7 +2921,11 @@
                         "pp": 1.0,
                         "tips": 4
                        },
-                       "speciesCount": 4
+                       "speciesCount": 4,
+                       "ancestralRange": {
+                        "area": "Borneo",
+                        "p": 0.99
+                       }
                       }
                      ],
                      "chron": {
@@ -2757,7 +2938,14 @@
                       "pp": 0.1,
                       "tips": 5
                      },
-                     "speciesCount": 5
+                     "speciesCount": 5,
+                     "ancestralRange": {
+                      "area": "Sundaland (Asian mainland + Borneo)",
+                      "p": 0.52,
+                      "alt": {
+                       "Borneo": 0.42
+                      }
+                     }
                     }
                    ],
                    "chron": {
@@ -2770,7 +2958,11 @@
                     "pp": 0.0,
                     "tips": 8
                    },
-                   "speciesCount": 8
+                   "speciesCount": 8,
+                   "ancestralRange": {
+                    "area": "Borneo",
+                    "p": 0.57
+                   }
                   }
                  ],
                  "chron": {
@@ -2783,7 +2975,11 @@
                   "pp": 0.0,
                   "tips": 10
                  },
-                 "speciesCount": 10
+                 "speciesCount": 10,
+                 "ancestralRange": {
+                  "area": "Borneo + the Philippines",
+                  "p": 0.92
+                 }
                 },
                 {
                  "id": "node-alocasia-64",
@@ -2847,7 +3043,11 @@
                       "pp": 1.0,
                       "tips": 2
                      },
-                     "speciesCount": 2
+                     "speciesCount": 2,
+                     "ancestralRange": {
+                      "area": "Borneo",
+                      "p": 0.96
+                     }
                     }
                    ],
                    "chron": {
@@ -2860,7 +3060,11 @@
                     "pp": 0.1,
                     "tips": 3
                    },
-                   "speciesCount": 3
+                   "speciesCount": 3,
+                   "ancestralRange": {
+                    "area": "Borneo + the Philippines",
+                    "p": 0.83
+                   }
                   },
                   {
                    "id": "node-alocasia-65",
@@ -2930,7 +3134,11 @@
                       "pp": 1.0,
                       "tips": 4
                      },
-                     "speciesCount": 4
+                     "speciesCount": 4,
+                     "ancestralRange": {
+                      "area": "the Philippines",
+                      "p": 1.0
+                     }
                     },
                     {
                      "id": "node-alocasia-67",
@@ -2977,7 +3185,11 @@
                         "pp": 0.4,
                         "tips": 2
                        },
-                       "speciesCount": 2
+                       "speciesCount": 2,
+                       "ancestralRange": {
+                        "area": "the Philippines",
+                        "p": 1.0
+                       }
                       },
                       {
                        "id": "node-alocasia-68",
@@ -3017,7 +3229,11 @@
                         "pp": 1.0,
                         "tips": 2
                        },
-                       "speciesCount": 2
+                       "speciesCount": 2,
+                       "ancestralRange": {
+                        "area": "the Philippines",
+                        "p": 1.0
+                       }
                       }
                      ],
                      "chron": {
@@ -3030,7 +3246,11 @@
                       "pp": 0.2,
                       "tips": 4
                      },
-                     "speciesCount": 4
+                     "speciesCount": 4,
+                     "ancestralRange": {
+                      "area": "the Philippines",
+                      "p": 1.0
+                     }
                     }
                    ],
                    "chron": {
@@ -3043,7 +3263,11 @@
                     "pp": 0.9,
                     "tips": 8
                    },
-                   "speciesCount": 8
+                   "speciesCount": 8,
+                   "ancestralRange": {
+                    "area": "the Philippines",
+                    "p": 1.0
+                   }
                   }
                  ],
                  "chron": {
@@ -3056,7 +3280,14 @@
                   "pp": 0.0,
                   "tips": 11
                  },
-                 "speciesCount": 11
+                 "speciesCount": 11,
+                 "ancestralRange": {
+                  "area": "the Philippines",
+                  "p": 0.55,
+                  "alt": {
+                   "Borneo + the Philippines": 0.43
+                  }
+                 }
                 }
                ],
                "chron": {
@@ -3069,7 +3300,15 @@
                 "pp": 0.0,
                 "tips": 21
                },
-               "speciesCount": 21
+               "speciesCount": 21,
+               "ancestralRange": {
+                "area": "Borneo + the Philippines",
+                "p": 0.49,
+                "alt": {
+                 "Borneo": 0.19
+                },
+                "sdiva": "the Philippines"
+               }
               }
              ],
              "chron": {
@@ -3082,7 +3321,11 @@
               "pp": 1.0,
               "tips": 35
              },
-             "speciesCount": 35
+             "speciesCount": 35,
+             "ancestralRange": {
+              "area": "Borneo",
+              "p": 0.63
+             }
             }
            ],
            "chron": {
@@ -3095,7 +3338,14 @@
             "pp": 0.9,
             "tips": 36
            },
-           "speciesCount": 36
+           "speciesCount": 36,
+           "ancestralRange": {
+            "area": "Sundaland (Asian mainland + Borneo)",
+            "p": 0.44,
+            "alt": {
+             "Borneo": 0.39
+            }
+           }
           }
          ],
          "chron": {
@@ -3108,7 +3358,16 @@
           "pp": 0.9,
           "tips": 52
          },
-         "speciesCount": 52
+         "speciesCount": 52,
+         "ancestralRange": {
+          "area": "Borneo — S-DIVA prefers the Asian mainland",
+          "p": 0.41,
+          "alt": {
+           "Sundaland (Asian mainland + Borneo)": 0.24,
+           "Borneo + the Philippines": 0.19
+          },
+          "sdiva": "Asian mainland"
+         }
         },
         {
          "id": "species-alocasia-unsampled",
@@ -3136,6 +3395,14 @@
         ],
         "stemPp": 1.0,
         "note": "from the Alocasia study (Fig. 4), not the family chronogram the rest of this view is drawn from. The family study sampled only two Alocasia and did not recover them as a clade - it put their MRCA at 37.2 Ma, which dates a wider group. Ages here are on that study's own calibration and are not strictly comparable with the genera around it."
+       },
+       "ancestralRange": {
+        "area": "Borneo — S-DIVA prefers the Asian mainland",
+        "p": 0.33,
+        "alt": {
+         "Sundaland (Asian mainland + Borneo)": 0.31
+        },
+        "sdiva": "Asian mainland"
        }
       },
       {
@@ -13509,25 +13776,43 @@
     "1.17.0 - the Philodendron species layer: 166 accessions under the 1.16.0 clade tier, derived from Canal et al. (2019) Fig. 1 and named from the sampling appendix of Canal Gallego's 2018 thesis (166/166 gated).",
     "1.18.0 - ancestral ranges on the Philodendron tier from Canal et al. (2019) Fig. 1's BioGeoBEARS pies: 126 nodes, 17 of the 17 named clades and subgenera.",
     "1.19.0 - Alocasia gageana renamed to Alocasia odora 'California' (the id is unchanged: an id is a permalink).",
-    "1.20.0 - ancestral-range layer finished and audited: +14 leader-offset pies recovered (census by wedge-vertex + ring detection, global optimal assignment), 27 pieless forks proven absent, reader corrected (gray/dark pooled states -> 'other', overlapping pies isolated). Join-node 12.89 Ma re-read as Chocó & Andes + Amazonia 0.51 (was Amazonia 0.49 - same pie, true centre)."
+    "1.20.0 - ancestral-range layer finished and audited: +14 leader-offset pies recovered (census by wedge-vertex + ring detection, global optimal assignment), 27 pieless forks proven absent, reader corrected (gray/dark pooled states -> 'other', overlapping pies isolated). Join-node 12.89 Ma re-read as Chocó & Andes + Amazonia 0.51 (was Amazonia 0.49 - same pie, true centre).",
+    "1.21.0 - ancestral ranges on the Alocasia cladogram from Nauheimer 2012 Table S3 (a table parse joined on the existing figNode numbers): all 55 nodes, Lagrange primary, the two method-conflict nodes (26, 41) stated on the card. Out-of-Borneo reproduces: 35 of 55 optima contain Borneo."
    ],
    "speciesCounts": "POWO master export, Araceae_Exports/EXCELS/_run_log.csv (validated accepted species).",
-   "version": "1.20.0",
+   "version": "1.21.0",
    "orthographicVariants": {
     "Stylochiton": "Treated as Stylochaeton Lepr. (MBB no. 34). The POWO export uses Stylochiton; which spelling Kew currently accepts is unconfirmed."
    },
    "ranges": "Native-range buckets parsed 2026-08-07 from the POWO genus exports' GEOGRAPHY prose (Araceae_Exports/EXCELS), species rows only, hybrids excluded. Zones NW/AF/EU-WAsia/AS/AU; a zone under 5% of a genus's mentions is trace and ignored; NW+OW=worldwide, several OW zones need a 66% leader or the genus is oldworld. Pseudodracontium (Indo-China) and Pedicellarum (Borneo) hand-set: no workbook in the export; both ranges are uncontested. 1.8.0 adds range.places: the distinct POWO base names per genus, most-mentioned first, INCLUDING the parenthesised sub-units (Borneo (Sarawak) yields both) - zones still count the outer name only. Hand-set places for the two workbook-less genera. 1.11.0 adds range.zones: the number of species of the genus recorded in each of the five primitive zones (Americas / Africa & Madagascar / Europe & W. Asia / Trop. & E. Asia / Australasia & Pacific), biggest first, counted from the same SPECIES rows - a species in two zones is counted in both, so the zone counts do not sum to speciesCount. Every zone with at least one species is listed, including the ones the 5% trace rule drops from the single dominant bucket b, which is unchanged. The zone map was rebuilt from scratch and validated by re-deriving b for all 150 workbook genera with zero mismatches before any count was written. Pseudodracontium and Pedicellarum carry no zones: POWO has no workbook and no species count for either, so there is nothing to divide - readers fall back to their single bucket, which is already a primitive zone.",
    "ancestralRanges": {
-    "source": "Canal et al. (2019) Fig. 1, BioGeoBEARS DEC+J pies read per node",
-    "areas": [
-     "Central America",
-     "Caribbean islands",
-     "Chocó & Andes",
-     "Amazonia",
-     "Southeast Brazil",
-     "and their two-area combinations; minor and pooled combination states report as 'other'"
-    ],
-    "coverage": "138 of the tier's 161 internal nodes carry a range verdict (134 estimated + 4 drawn solid black = unsupported, per the figure's caption); the remaining 23 forks have no pie in the figure at all - proven by a global one-pie-one-fork assignment with zero unassigned pies. 18 offset pies are confirmed by their drawn Bezier leaders."
+    "philodendron": {
+     "source": "Canal et al. (2019) Fig. 1, BioGeoBEARS DEC+J pies read per node",
+     "areas": [
+      "Central America",
+      "Caribbean islands",
+      "Chocó & Andes",
+      "Amazonia",
+      "Southeast Brazil",
+      "and their two-area combinations; minor and pooled combination states report as 'other'"
+     ],
+     "coverage": "138 of the tier's 161 internal nodes carry a range verdict (134 estimated + 4 drawn solid black = unsupported, per the figure's caption); the remaining 23 forks have no pie in the figure at all - proven by a global one-pie-one-fork assignment with zero unassigned pies. 18 offset pies are confirmed by their drawn Bezier leaders."
+    },
+    "alocasia": {
+     "source": "Nauheimer, Boyce & Renner (2012) Table S3 - Lagrange (DEC) splits and S-DIVA areas per Fig. 4 node, parsed by table cell, row identity gated on the same table's ages",
+     "areas": [
+      "Asian mainland",
+      "Borneo",
+      "the Philippines",
+      "Sulawesi",
+      "New Guinea",
+      "Australia",
+      "Mediterranean",
+      "Seychelles",
+      "and their combinations; AB is written Sundaland"
+     ],
+     "coverage": "all 55 nodes of the cladogram (the genus crown = node 26 and nodes 27-80). Primary estimate = Lagrange's optimum; S-DIVA's rides in a data-only field where it differs. At nodes 26 and 41 the two methods conflict (the paper's own bolded disagreements) and the card says so."
+    }
    }
   },
   "chronology": {
