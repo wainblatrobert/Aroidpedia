@@ -1,8 +1,25 @@
 /* =====================================================================
    AROIDPEDIA — counts.json BUILDER
-   FILE VERSION: v5   (last updated 2026-08-08)
+   FILE VERSION: v6   (last updated 2026-08-12)
    Bump this number (and the date) any time this file is replaced, so an
    old copy is never mistaken for the current one.
+
+   v6 ADDS `speciesGroups` — the tags the v5 header called "epithets"
+   are in fact CLADE / SPECIES-GROUP tags (user ruling 2026-08-12:
+   groups of related species, deliberately applied to the posts). They
+   now resolve against the SPECIES_GROUPS vocabulary below and are
+   counted per genus:
+
+       "speciesGroups": {
+         "Alocasia": { "Scabriuscula": 9, "Princeps": 8, ... }
+       }
+
+   `unresolvedTags` therefore shrinks to tags that are NEITHER a place
+   NOR a known group — which is what makes it useful again: a real
+   place appearing there means shapes.json is missing it; a real group
+   appearing there means the vocabulary below needs the new name.
+   ⚠ EXTEND SPECIES_GROUPS when a new group tag is coined — this list
+   is the vocabulary, exactly like shapes.json is for places.
 
    v5 ADDS `byGenusGeo` — how many of a genus's records sit in each of
    the five native-range zones, for the hover card on /all-genera:
@@ -163,6 +180,19 @@ const BUCKET_PRECEDENCE = ["hybridCultivars", "hybrids", "cultivars", "species"]
    act on, few enough that a site-wide mis-tag does not balloon
    counts.json into a diff nobody can read. */
 const DIAGNOSTIC_SAMPLE_CAP = 25;
+
+/* v6: the species-group / clade vocabulary. These tags mark groups of
+   related species (user ruling 2026-08-12) and are counted into
+   `speciesGroups` per genus instead of falling into `unresolvedTags`.
+   Matching runs through normalizeComparable, same as places, so case
+   and diacritics are forgiven; the DISPLAY spelling published in
+   counts.json is the canonical one written here.
+   ⚠ This list is the vocabulary — extend it when a new group tag is
+   coined, exactly as shapes.json is extended for a new place. */
+const SPECIES_GROUPS = [
+  "Scabriuscula", "Princeps", "Macrorrhizos", "Longiloba", "Puber",
+  "Yunnanensis", "Pygmaeus", "Coriaceae", "Cuprea", "Other"
+];
 
 function toJsonUrl(url) {
   const u = new URL(url, SITE_ORIGIN);
@@ -429,13 +459,28 @@ function countCollection(items, zoneMap = null) {
   const geoMap = new Map();
   const unresolvedTags = new Map();
 
+  /* v6: canonical-spelling lookup for the group vocabulary, plus
+     genus -> { GroupName: count }. Counted here, in the same pass and
+     from the same items as everything else, so it can never disagree
+     with byGenus. */
+  const groupLookup = new Map(
+    SPECIES_GROUPS.map(g => [normalizeComparable(g), g]));
+  const groupsMap = new Map();
+
   function bumpGeo(genus, item) {
     if (!zoneMap) return;
     const zones = new Set();
     for (const tag of getTags(item)) {
       const zone = zoneMap.get(normalizeComparable(tag));
-      if (zone) zones.add(zone);
-      else if (normalizeComparable(tag) !== normalizeComparable(genus)) {
+      if (zone) { zones.add(zone); continue; }
+      const group = groupLookup.get(normalizeComparable(tag));
+      if (group) {
+        let g = groupsMap.get(genus);
+        if (!g) { g = new Map(); groupsMap.set(genus, g); }
+        g.set(group, (g.get(group) || 0) + 1);
+        continue;
+      }
+      if (normalizeComparable(tag) !== normalizeComparable(genus)) {
         unresolvedTags.set(tag, (unresolvedTags.get(tag) || 0) + 1);
       }
     }
@@ -550,6 +595,12 @@ function countCollection(items, zoneMap = null) {
     genera: counts.genera.size,
     byGenus,
     ...(byGenusGeo ? { byGenusGeo } : {}),
+    /* v6: per-genus species-group counts, canonical spellings, sorted
+       by count. Omitted entirely when no group tag was seen. */
+    ...(groupsMap.size ? { speciesGroups: Object.fromEntries(
+      [...groupsMap.entries()].map(([genus, g]) => [genus,
+        Object.fromEntries([...g.entries()].sort((a, b) => b[1] - a[1]))])
+    ) } : {}),
     diagnostics,
     ...(zoneMap ? { unresolvedTags: Object.fromEntries(
       [...unresolvedTags.entries()].sort((a, b) => b[1] - a[1])
@@ -581,17 +632,22 @@ async function main() {
     );
   }
 
-  /* v5: an unresolved tag is usually an epithet and expected. A real
-     PLACE in this list means shapes.json is missing it and those records
-     are going uncounted, which is invisible on the site itself - so it
-     goes in the log, capped, rather than nowhere. */
+  /* v6: with the group vocabulary in place this list should normally be
+     EMPTY. A real place here means shapes.json is missing it; a real
+     species-group means SPECIES_GROUPS needs the new name. Either way
+     those records are going uncounted, invisibly - so it goes in the
+     log, capped, rather than nowhere. */
   if (counts.unresolvedTags && Object.keys(counts.unresolvedTags).length) {
     console.warn(
       `NOTE: ${Object.keys(counts.unresolvedTags).length} tag(s) resolved to ` +
-      `no place and were not counted toward any zone. Epithets are expected ` +
-      `here; a real place means shapes.json is missing it.`,
+      `no place and no species group, and were not counted. A real place ` +
+      `means shapes.json is missing it; a real group means SPECIES_GROUPS ` +
+      `in this file needs the new name.`,
       counts.unresolvedTags
     );
+  }
+  if (counts.speciesGroups) {
+    console.log("Species groups:", JSON.stringify(counts.speciesGroups));
   }
 
   if (counts.diagnostics.multiCategory > 0) {
