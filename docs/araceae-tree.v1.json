@@ -4180,32 +4180,32 @@
                      ],
                      "ancestralRange": {
                       "area": "Chocó & Andes",
-                      "p": 0.622,
+                      "p": 0.632,
                       "alt": {
-                       "Central America + Chocó & Andes": 0.295,
-                       "other": 0.048,
-                       "Central America + Caribbean islands": 0.035
+                       "Central America + Chocó & Andes": 0.3,
+                       "other": 0.037,
+                       "Central America + Caribbean islands": 0.03
                       }
                      }
                     }
                    ],
                    "ancestralRange": {
                     "area": "Chocó & Andes",
-                    "p": 0.844,
+                    "p": 0.834,
                     "alt": {
-                     "Central America + Chocó & Andes": 0.103,
-                     "other": 0.038
+                     "Central America + Chocó & Andes": 0.102,
+                     "other": 0.047
                     }
                    }
                   }
                  ],
                  "ancestralRange": {
                   "area": "Amazonia",
-                  "p": 0.659,
+                  "p": 0.674,
                   "alt": {
-                   "Chocó & Andes + Amazonia": 0.27,
-                   "other": 0.038,
-                   "Chocó & Andes": 0.032
+                   "Chocó & Andes + Amazonia": 0.271,
+                   "Chocó & Andes": 0.032,
+                   "other": 0.021
                   }
                  }
                 },
@@ -4338,30 +4338,30 @@
                      ],
                      "ancestralRange": {
                       "area": "Chocó & Andes + Amazonia",
-                      "p": 0.575,
+                      "p": 0.606,
                       "alt": {
-                       "Amazonia": 0.377,
-                       "other": 0.048
+                       "Amazonia": 0.375,
+                       "other": 0.02
                       }
                      }
                     }
                    ],
                    "ancestralRange": {
                     "area": "Chocó & Andes + Amazonia",
-                    "p": 0.777,
+                    "p": 0.787,
                     "alt": {
-                     "Amazonia": 0.19,
-                     "other": 0.025
+                     "Amazonia": 0.182,
+                     "other": 0.023
                     }
                    }
                   }
                  ],
                  "ancestralRange": {
                   "area": "Amazonia",
-                  "p": 0.828,
+                  "p": 0.82,
                   "alt": {
-                   "Chocó & Andes + Amazonia": 0.144,
-                   "other": 0.028
+                   "Chocó & Andes + Amazonia": 0.151,
+                   "other": 0.029
                   }
                  }
                 }
@@ -4370,10 +4370,10 @@
                "note": "Newly recovered by Canal et al. (2019); not resolved in the 2018 study (BS 97, JK 98, PP 1.0).",
                "ancestralRange": {
                 "area": "Amazonia",
-                "p": 0.742,
+                "p": 0.735,
                 "alt": {
-                 "Chocó & Andes + Amazonia": 0.225,
-                 "other": 0.031
+                 "Chocó & Andes + Amazonia": 0.22,
+                 "other": 0.043
                 }
                }
               },
@@ -4472,7 +4472,7 @@
                  ],
                  "ancestralRange": {
                   "area": "Chocó & Andes",
-                  "p": 0.996,
+                  "p": 0.994,
                   "alt": {}
                  }
                 },
@@ -4542,10 +4542,10 @@
                      ],
                      "ancestralRange": {
                       "area": "Amazonia",
-                      "p": 0.679,
+                      "p": 0.647,
                       "alt": {
-                       "Chocó & Andes + Amazonia": 0.266,
-                       "other": 0.056
+                       "Chocó & Andes + Amazonia": 0.326,
+                       "other": 0.023
                       }
                      }
                     },
@@ -4629,27 +4629,28 @@
                      ],
                      "ancestralRange": {
                       "area": "Amazonia",
-                      "p": 0.951,
+                      "p": 0.967,
                       "alt": {
-                       "other": 0.045
+                       "other": 0.033
                       }
                      }
                     }
                    ],
                    "ancestralRange": {
                     "area": "Amazonia",
-                    "p": 0.724,
+                    "p": 0.503,
                     "alt": {
-                     "Chocó & Andes + Amazonia": 0.26
+                     "Chocó & Andes + Amazonia": 0.382,
+                     "other": 0.115
                     }
                    }
                   }
                  ],
                  "ancestralRange": {
                   "area": "Amazonia",
-                  "p": 0.721,
+                  "p": 0.734,
                   "alt": {
-                   "Chocó & Andes + Amazonia": 0.262
+                   "Chocó & Andes + Amazonia": 0.249
                   }
                  }
                 }
@@ -4658,11 +4659,11 @@
                "note": "Newly recovered by Canal et al. (2019); not resolved in the 2018 study (BS 82, JK 60, PP 0.99).",
                "ancestralRange": {
                 "area": "Chocó & Andes + Amazonia",
-                "p": 0.5,
+                "p": 0.551,
                 "alt": {
-                 "Amazonia": 0.363,
-                 "Chocó & Andes": 0.095,
-                 "other": 0.039
+                 "Amazonia": 0.33,
+                 "Chocó & Andes": 0.088,
+                 "other": 0.029
                 }
                }
               }
@@ -4679,10 +4680,10 @@
            ],
            "ancestralRange": {
             "area": "Amazonia + Southeast Brazil",
-            "p": 0.414,
+            "p": 0.422,
             "alt": {
-             "Amazonia": 0.386,
-             "other": 0.196
+             "Amazonia": 0.395,
+             "other": 0.182
             }
            }
           }
@@ -4691,10 +4692,10 @@
          "note": "Vines of the wet lowland forests of Amazonia, the Chocó and Central America; two sections, Fruticosa and Pteromischum. 82 accepted species.",
          "ancestralRange": {
           "area": "Amazonia",
-          "p": 0.731,
+          "p": 0.717,
           "alt": {
-           "Amazonia + Southeast Brazil": 0.162,
-           "other": 0.089
+           "Amazonia + Southeast Brazil": 0.158,
+           "other": 0.107
           }
          }
         },
@@ -4855,9 +4856,9 @@
            "note": "Mostly terrestrial species of Amazonia, the Mata Atlântica and the Cerrado; 21 accepted species. ⚠ Sakuragui et al. (2018) raised this subgenus to the genus Thaumatophyllum; Canal et al. (2019) keep it inside Philodendron on a much larger sampling, POWO does not accept the segregate, and this tree follows them.",
            "ancestralRange": {
             "area": "Amazonia + Southeast Brazil",
-            "p": 0.895,
+            "p": 0.891,
             "alt": {
-             "Southeast Brazil": 0.059,
+             "Southeast Brazil": 0.063,
              "other": 0.044
             }
            }
@@ -4947,20 +4948,19 @@
                  ],
                  "ancestralRange": {
                   "area": "Amazonia",
-                  "p": 0.758,
+                  "p": 0.863,
                   "alt": {
-                   "other": 0.136,
-                   "Chocó & Andes + Amazonia": 0.039,
-                   "Caribbean islands": 0.038
+                   "other": 0.093,
+                   "Caribbean islands": 0.025
                   }
                  }
                 }
                ],
                "ancestralRange": {
                 "area": "Amazonia",
-                "p": 0.952,
+                "p": 0.939,
                 "alt": {
-                 "other": 0.028
+                 "other": 0.05
                 }
                }
               },
@@ -5084,13 +5084,22 @@
                      ],
                      "ancestralRange": {
                       "area": "Amazonia",
-                      "p": 0.929,
+                      "p": 0.96,
                       "alt": {
-                       "other": 0.058
+                       "other": 0.04
                       }
                      }
                     }
-                   ]
+                   ],
+                   "ancestralRange": {
+                    "area": "Amazonia",
+                    "p": 0.572,
+                    "alt": {
+                     "Caribbean islands": 0.389,
+                     "other": 0.039
+                    },
+                    "leader": true
+                   }
                   }
                  ],
                  "ancestralRange": {
@@ -5104,10 +5113,10 @@
                ],
                "ancestralRange": {
                 "area": "Amazonia",
-                "p": 0.55,
+                "p": 0.551,
                 "alt": {
-                 "Amazonia + Southeast Brazil": 0.376,
-                 "other": 0.062
+                 "Amazonia + Southeast Brazil": 0.366,
+                 "other": 0.071
                 }
                }
               }
@@ -5116,9 +5125,9 @@
              "note": "Clade 1 of Canal et al. (2019); clade 3 in Canal et al. (2018).",
              "ancestralRange": {
               "area": "Amazonia",
-              "p": 0.704,
+              "p": 0.719,
               "alt": {
-               "Amazonia + Southeast Brazil": 0.21,
+               "Amazonia + Southeast Brazil": 0.198,
                "other": 0.071
               }
              }
@@ -5204,9 +5213,9 @@
                    ],
                    "ancestralRange": {
                     "area": "Amazonia",
-                    "p": 0.941,
+                    "p": 0.974,
                     "alt": {
-                     "other": 0.055
+                     "other": 0.026
                     }
                    }
                   },
@@ -5255,10 +5264,9 @@
                      ],
                      "ancestralRange": {
                       "area": "Amazonia",
-                      "p": 0.841,
+                      "p": 0.898,
                       "alt": {
-                       "other": 0.101,
-                       "Chocó & Andes + Amazonia": 0.021
+                       "other": 0.07
                       }
                      }
                     },
@@ -5296,26 +5304,28 @@
                      ],
                      "ancestralRange": {
                       "area": "Amazonia",
-                      "p": 0.944,
+                      "p": 0.965,
                       "alt": {
-                       "other": 0.052
+                       "other": 0.035
                       }
                      }
                     }
                    ],
                    "ancestralRange": {
                     "area": "Amazonia",
-                    "p": 0.958,
+                    "p": 0.805,
                     "alt": {
-                     "other": 0.042
+                     "other": 0.195
                     }
                    }
                   }
                  ],
                  "ancestralRange": {
                   "area": "Amazonia",
-                  "p": 0.987,
-                  "alt": {}
+                  "p": 0.976,
+                  "alt": {
+                   "other": 0.024
+                  }
                  }
                 }
                ],
@@ -5323,7 +5333,7 @@
                "note": "Clade 2 of Canal et al. (2019); clade 4 in Canal et al. (2018).",
                "ancestralRange": {
                 "area": "Amazonia",
-                "p": 0.993,
+                "p": 0.986,
                 "alt": {}
                }
               },
@@ -5461,19 +5471,17 @@
                        ],
                        "ancestralRange": {
                         "area": "Amazonia",
-                        "p": 0.942,
-                        "alt": {
-                         "other": 0.052
-                        }
+                        "p": 0.983,
+                        "alt": {}
                        }
                       }
                      ],
                      "ancestralRange": {
                       "area": "other",
-                      "p": 0.67,
+                      "p": 0.688,
                       "alt": {
-                       "Chocó & Andes + Amazonia": 0.223,
-                       "Amazonia": 0.059,
+                       "Chocó & Andes + Amazonia": 0.212,
+                       "Amazonia": 0.054,
                        "Caribbean islands": 0.024
                       }
                      }
@@ -5483,11 +5491,11 @@
                    "note": "Clade 10 of Canal et al. (2019); clade 12 in Canal et al. (2018).",
                    "ancestralRange": {
                     "area": "Chocó & Andes + Amazonia",
-                    "p": 0.479,
+                    "p": 0.495,
                     "alt": {
-                     "other": 0.421,
-                     "Chocó & Andes": 0.052,
-                     "Amazonia": 0.032
+                     "other": 0.4,
+                     "Chocó & Andes": 0.056,
+                     "Amazonia": 0.036
                     }
                    }
                   },
@@ -5590,10 +5598,8 @@
                            ],
                            "ancestralRange": {
                             "area": "Amazonia",
-                            "p": 0.942,
-                            "alt": {
-                             "other": 0.052
-                            }
+                            "p": 0.983,
+                            "alt": {}
                            }
                           },
                           {
@@ -5651,21 +5657,21 @@
                              ],
                              "ancestralRange": {
                               "area": "Caribbean islands",
-                              "p": 0.488,
+                              "p": 0.665,
                               "alt": {
-                               "Central America + Caribbean islands": 0.326,
-                               "Central America": 0.113,
-                               "other": 0.062
+                               "Central America + Caribbean islands": 0.229,
+                               "Central America": 0.077,
+                               "other": 0.029
                               }
                              }
                             }
                            ],
                            "ancestralRange": {
                             "area": "Caribbean islands",
-                            "p": 0.796,
+                            "p": 0.781,
                             "alt": {
-                             "Amazonia": 0.166,
-                             "other": 0.034
+                             "Amazonia": 0.165,
+                             "other": 0.053
                             }
                            }
                           }
@@ -5885,9 +5891,11 @@
                        "note": "Clade 4 of Canal et al. (2019); clade 6 in Canal et al. (2018).",
                        "ancestralRange": {
                         "area": "Southeast Brazil",
-                        "p": 0.963,
-                        "alt": {},
-                        "readIndividually": true
+                        "p": 0.966,
+                        "alt": {
+                         "other": 0.034
+                        },
+                        "leader": true
                        }
                       },
                       {
@@ -6004,19 +6012,28 @@
                                 "area": "Amazonia",
                                 "p": 0.643,
                                 "alt": {
-                                 "Amazonia + Southeast Brazil": 0.31,
-                                 "other": 0.047
+                                 "Amazonia + Southeast Brazil": 0.318,
+                                 "other": 0.039
                                 }
                                }
                               }
                              ],
                              "ancestralRange": {
                               "area": "Amazonia",
-                              "p": 0.967,
-                              "alt": {}
+                              "p": 0.968,
+                              "alt": {},
+                              "leader": true
                              }
                             }
-                           ]
+                           ],
+                           "ancestralRange": {
+                            "area": "Amazonia",
+                            "p": 0.944,
+                            "alt": {
+                             "other": 0.047
+                            },
+                            "leader": true
+                           }
                           },
                           {
                            "id": "node-philodendron-3-99",
@@ -6121,24 +6138,40 @@
                                   }
                                  }
                                 }
-                               ]
+                               ],
+                               "ancestralRange": {
+                                "area": "Amazonia",
+                                "p": 0.963,
+                                "alt": {
+                                 "other": 0.037
+                                },
+                                "leader": true
+                               }
                               }
-                             ]
+                             ],
+                             "ancestralRange": {
+                              "area": "Amazonia",
+                              "p": 0.802,
+                              "alt": {
+                               "Amazonia + Southeast Brazil": 0.076,
+                               "Caribbean islands": 0.072,
+                               "other": 0.051
+                              },
+                              "leader": true
+                             }
                             }
                            ],
                            "ancestralRange": {
                             "area": "Amazonia",
-                            "p": 0.996,
+                            "p": 0.981,
                             "alt": {}
                            }
                           }
                          ],
                          "ancestralRange": {
                           "area": "Amazonia",
-                          "p": 0.956,
-                          "alt": {
-                           "other": 0.041
-                          }
+                          "p": 0.995,
+                          "alt": {}
                          }
                         }
                        ],
@@ -6148,7 +6181,7 @@
                         "area": "Amazonia",
                         "p": 0.946,
                         "alt": {
-                         "other": 0.05
+                         "other": 0.054
                         }
                        }
                       }
@@ -6227,11 +6260,11 @@
                      ],
                      "ancestralRange": {
                       "area": "Chocó & Andes",
-                      "p": 0.484,
+                      "p": 0.497,
                       "alt": {
-                       "Central America + Chocó & Andes": 0.424,
-                       "Central America": 0.042,
-                       "other": 0.034
+                       "Central America + Chocó & Andes": 0.421,
+                       "Central America": 0.039,
+                       "other": 0.028
                       }
                      }
                     },
@@ -6358,8 +6391,10 @@
                                ],
                                "ancestralRange": {
                                 "area": "Amazonia",
-                                "p": 0.982,
-                                "alt": {}
+                                "p": 0.972,
+                                "alt": {
+                                 "other": 0.028
+                                }
                                }
                               }
                              ],
@@ -6383,10 +6418,11 @@
                          ],
                          "ancestralRange": {
                           "area": "Amazonia",
-                          "p": 0.874,
+                          "p": 0.966,
                           "alt": {
-                           "other": 0.119
-                          }
+                           "other": 0.034
+                          },
+                          "leader": true
                          }
                         },
                         {
@@ -6466,10 +6502,8 @@
                                ],
                                "ancestralRange": {
                                 "area": "Amazonia",
-                                "p": 0.939,
-                                "alt": {
-                                 "other": 0.053
-                                }
+                                "p": 0.984,
+                                "alt": {}
                                }
                               },
                               {
@@ -6515,10 +6549,9 @@
                              ],
                              "ancestralRange": {
                               "area": "Amazonia",
-                              "p": 0.919,
-                              "alt": {
-                               "other": 0.071
-                              }
+                              "p": 0.997,
+                              "alt": {},
+                              "leader": true
                              }
                             },
                             {
@@ -6606,30 +6639,36 @@
                                ],
                                "ancestralRange": {
                                 "area": "Amazonia",
-                                "p": 0.951,
+                                "p": 0.953,
                                 "alt": {
-                                 "other": 0.049
+                                 "other": 0.047
                                 }
                                }
                               }
-                             ]
+                             ],
+                             "ancestralRange": {
+                              "area": "Amazonia",
+                              "p": 0.766,
+                              "alt": {
+                               "Chocó & Andes + Amazonia": 0.222
+                              },
+                              "leader": true
+                             }
                             }
                            ],
                            "ancestralRange": {
                             "area": "Amazonia",
-                            "p": 0.964,
+                            "p": 0.97,
                             "alt": {
-                             "Chocó & Andes + Amazonia": 0.023
+                             "Chocó & Andes + Amazonia": 0.024
                             }
                            }
                           }
                          ],
                          "ancestralRange": {
                           "area": "Amazonia",
-                          "p": 0.965,
-                          "alt": {
-                           "other": 0.033
-                          }
+                          "p": 0.985,
+                          "alt": {}
                          }
                         }
                        ],
@@ -6637,10 +6676,8 @@
                        "note": "Clade 6 of Canal et al. (2019); clade 8 in Canal et al. (2018).",
                        "ancestralRange": {
                         "area": "Amazonia",
-                        "p": 0.973,
-                        "alt": {
-                         "other": 0.027
-                        }
+                        "p": 0.989,
+                        "alt": {}
                        }
                       },
                       {
@@ -6713,10 +6750,10 @@
                            ],
                            "ancestralRange": {
                             "area": "Amazonia",
-                            "p": 0.679,
+                            "p": 0.647,
                             "alt": {
-                             "Chocó & Andes + Amazonia": 0.266,
-                             "other": 0.056
+                             "Chocó & Andes + Amazonia": 0.326,
+                             "other": 0.023
                             }
                            }
                           }
@@ -6867,37 +6904,40 @@
                                  ],
                                  "ancestralRange": {
                                   "area": "Chocó & Andes",
-                                  "p": 0.767,
+                                  "p": 0.753,
                                   "alt": {
-                                   "other": 0.229
+                                   "other": 0.24
                                   }
                                  }
                                 }
                                ],
                                "ancestralRange": {
                                 "area": "Chocó & Andes",
-                                "p": 0.936,
+                                "p": 0.947,
                                 "alt": {
-                                 "other": 0.059
+                                 "other": 0.052
                                 }
                                }
                               }
                              ],
                              "ancestralRange": {
                               "area": "Chocó & Andes",
-                              "p": 0.919,
+                              "p": 0.961,
                               "alt": {
-                               "other": 0.057
+                               "other": 0.022
                               }
                              }
                             }
                            ],
                            "ancestralRange": {
                             "area": "Chocó & Andes",
-                            "p": 0.938,
+                            "p": 0.919,
                             "alt": {
-                             "Central America + Chocó & Andes": 0.029
-                            }
+                             "other": 0.029,
+                             "Central America + Chocó & Andes": 0.029,
+                             "Central America + Caribbean islands": 0.024
+                            },
+                            "leader": true
                            }
                           },
                           {
@@ -7071,40 +7111,38 @@
                                    ],
                                    "ancestralRange": {
                                     "area": "Chocó & Andes",
-                                    "p": 0.871,
+                                    "p": 0.93,
                                     "alt": {
-                                     "other": 0.069,
-                                     "Central America + Chocó & Andes": 0.032,
-                                     "Central America + Caribbean islands": 0.02
+                                     "other": 0.029,
+                                     "Central America + Chocó & Andes": 0.028
                                     }
                                    }
                                   }
                                  ],
                                  "ancestralRange": {
                                   "area": "Chocó & Andes",
-                                  "p": 0.913,
+                                  "p": 0.908,
                                   "alt": {
-                                   "Central America + Chocó & Andes": 0.065
+                                   "Central America + Chocó & Andes": 0.062,
+                                   "other": 0.02
                                   }
                                  }
                                 }
                                ],
                                "ancestralRange": {
                                 "area": "Chocó & Andes",
-                                "p": 0.767,
+                                "p": 0.77,
                                 "alt": {
-                                 "Central America + Chocó & Andes": 0.118,
-                                 "other": 0.095,
-                                 "Central America + Caribbean islands": 0.02
+                                 "Central America + Chocó & Andes": 0.123,
+                                 "other": 0.091
                                 }
                                }
                               }
                              ],
                              "ancestralRange": {
                               "area": "Chocó & Andes",
-                              "p": 0.938,
+                              "p": 0.961,
                               "alt": {
-                               "other": 0.034,
                                "Central America + Caribbean islands": 0.021
                               }
                              }
@@ -7112,16 +7150,16 @@
                            ],
                            "ancestralRange": {
                             "area": "Chocó & Andes",
-                            "p": 0.955,
+                            "p": 0.958,
                             "alt": {
-                             "other": 0.035
+                             "other": 0.034
                             }
                            }
                           }
                          ],
                          "ancestralRange": {
                           "area": "Chocó & Andes",
-                          "p": 0.99,
+                          "p": 0.991,
                           "alt": {}
                          }
                         }
@@ -7130,33 +7168,32 @@
                        "note": "Clade 7 of Canal et al. (2019); clade 9 in Canal et al. (2018).",
                        "ancestralRange": {
                         "area": "Chocó & Andes + Amazonia",
-                        "p": 0.639,
+                        "p": 0.641,
                         "alt": {
-                         "Amazonia": 0.255,
+                         "Amazonia": 0.262,
                          "Chocó & Andes": 0.066,
-                         "other": 0.037
+                         "other": 0.029
                         }
                        }
                       }
                      ],
                      "ancestralRange": {
                       "area": "Chocó & Andes + Amazonia",
-                      "p": 0.511,
+                      "p": 0.525,
                       "alt": {
-                       "Amazonia": 0.411,
-                       "Chocó & Andes": 0.052,
-                       "other": 0.024
+                       "Amazonia": 0.403,
+                       "Chocó & Andes": 0.052
                       }
                      }
                     }
                    ],
                    "ancestralRange": {
                     "area": "Chocó & Andes + Amazonia",
-                    "p": 0.423,
+                    "p": 0.432,
                     "alt": {
-                     "Chocó & Andes": 0.388,
-                     "Amazonia": 0.103,
-                     "other": 0.079
+                     "Chocó & Andes": 0.38,
+                     "Amazonia": 0.105,
+                     "other": 0.077
                     }
                    }
                   },
@@ -7220,9 +7257,9 @@
                        ],
                        "ancestralRange": {
                         "area": "Amazonia",
-                        "p": 0.933,
+                        "p": 0.976,
                         "alt": {
-                         "other": 0.058
+                         "other": 0.024
                         }
                        }
                       },
@@ -7372,25 +7409,39 @@
                                ],
                                "ancestralRange": {
                                 "area": "Chocó & Andes",
-                                "p": 0.917,
+                                "p": 0.906,
                                 "alt": {
-                                 "Central America + Chocó & Andes": 0.064
+                                 "Central America + Chocó & Andes": 0.065,
+                                 "other": 0.02
                                 }
                                }
                               }
                              ],
                              "ancestralRange": {
                               "area": "Chocó & Andes",
-                              "p": 0.848,
+                              "p": 0.852,
                               "alt": {
-                               "Central America + Chocó & Andes": 0.114,
-                               "other": 0.023
+                               "Central America + Chocó & Andes": 0.119
                               }
                              }
                             }
-                           ]
+                           ],
+                           "ancestralRange": {
+                            "area": "Chocó & Andes",
+                            "p": 0.985,
+                            "alt": {},
+                            "leader": true
+                           }
                           }
-                         ]
+                         ],
+                         "ancestralRange": {
+                          "area": "Chocó & Andes",
+                          "p": 0.957,
+                          "alt": {
+                           "other": 0.031
+                          },
+                          "leader": true
+                         }
                         }
                        ],
                        "ancestralRange": {
@@ -7546,18 +7597,19 @@
                                  ],
                                  "ancestralRange": {
                                   "area": "Amazonia",
-                                  "p": 0.933,
+                                  "p": 0.976,
                                   "alt": {
-                                   "other": 0.058
+                                   "other": 0.024
                                   }
                                  }
                                 }
                                ],
                                "ancestralRange": {
                                 "area": "Chocó & Andes",
-                                "p": 0.909,
+                                "p": 0.889,
                                 "alt": {
-                                 "Central America + Chocó & Andes": 0.066
+                                 "Central America + Chocó & Andes": 0.064,
+                                 "other": 0.031
                                 }
                                }
                               },
@@ -7616,21 +7668,19 @@
                                  ],
                                  "ancestralRange": {
                                   "area": "Chocó & Andes",
-                                  "p": 0.895,
+                                  "p": 0.886,
                                   "alt": {
-                                   "other": 0.043,
-                                   "Central America + Chocó & Andes": 0.03,
-                                   "Central America + Caribbean islands": 0.021
+                                   "Central America + Chocó & Andes": 0.087,
+                                   "other": 0.02
                                   }
                                  }
                                 }
                                ],
                                "ancestralRange": {
                                 "area": "Chocó & Andes",
-                                "p": 0.916,
+                                "p": 0.966,
                                 "alt": {
-                                 "other": 0.046,
-                                 "Central America + Caribbean islands": 0.027
+                                 "Central America + Caribbean islands": 0.021
                                 }
                                }
                               }
@@ -7646,10 +7696,11 @@
                            ],
                            "ancestralRange": {
                             "area": "Chocó & Andes",
-                            "p": 0.94,
+                            "p": 0.965,
                             "alt": {
-                             "other": 0.039
-                            }
+                             "other": 0.027
+                            },
+                            "leader": true
                            }
                           },
                           {
@@ -7781,13 +7832,24 @@
                                      ],
                                      "ancestralRange": {
                                       "area": "Chocó & Andes + Amazonia",
-                                      "p": 0.914,
+                                      "p": 0.845,
                                       "alt": {
-                                       "other": 0.072
+                                       "Chocó & Andes": 0.077,
+                                       "Amazonia": 0.044,
+                                       "other": 0.032
                                       }
                                      }
                                     }
-                                   ]
+                                   ],
+                                   "ancestralRange": {
+                                    "area": "Chocó & Andes + Amazonia",
+                                    "p": 0.54,
+                                    "alt": {
+                                     "Amazonia": 0.431,
+                                     "other": 0.029
+                                    },
+                                    "leader": true
+                                   }
                                   },
                                   {
                                    "id": "node-philodendron-2-76",
@@ -7895,69 +7957,78 @@
                                        ],
                                        "ancestralRange": {
                                         "area": "Amazonia",
-                                        "p": 0.904,
+                                        "p": 0.897,
                                         "alt": {
-                                         "other": 0.057,
-                                         "Chocó & Andes + Amazonia": 0.038
+                                         "Chocó & Andes + Amazonia": 0.068,
+                                         "other": 0.035
                                         }
                                        }
                                       }
                                      ],
                                      "ancestralRange": {
                                       "area": "Chocó & Andes",
-                                      "p": 0.917,
+                                      "p": 0.906,
                                       "alt": {
-                                       "Central America + Chocó & Andes": 0.064
+                                       "Central America + Chocó & Andes": 0.065,
+                                       "other": 0.02
                                       }
                                      }
                                     }
-                                   ]
+                                   ],
+                                   "ancestralRange": {
+                                    "area": "Amazonia",
+                                    "p": 0.973,
+                                    "alt": {
+                                     "other": 0.027
+                                    },
+                                    "leader": true
+                                   }
                                   }
                                  ],
                                  "ancestralRange": {
                                   "area": "Amazonia",
-                                  "p": 0.934,
+                                  "p": 0.936,
                                   "alt": {
-                                   "other": 0.038,
+                                   "other": 0.035,
                                    "Chocó & Andes + Amazonia": 0.029
-                                  }
+                                  },
+                                  "leader": true
                                  }
                                 }
                                ],
                                "ancestralRange": {
-                                "area": "Chocó & Andes + Amazonia",
-                                "p": 0.659,
+                                "area": "Amazonia",
+                                "p": 0.953,
                                 "alt": {
-                                 "Amazonia": 0.136,
-                                 "Chocó & Andes": 0.113,
-                                 "other": 0.086
-                                }
+                                 "other": 0.033
+                                },
+                                "leader": true
                                }
                               }
                              ],
                              "ancestralRange": {
                               "area": "Chocó & Andes + Amazonia",
-                              "p": 0.754,
+                              "p": 0.822,
                               "alt": {
-                               "Amazonia": 0.104,
-                               "Chocó & Andes": 0.086,
-                               "other": 0.052
+                               "Amazonia": 0.084,
+                               "Chocó & Andes": 0.071,
+                               "other": 0.022
                               }
                              }
                             }
                            ],
                            "ancestralRange": {
                             "area": "Chocó & Andes",
-                            "p": 0.903,
+                            "p": 0.892,
                             "alt": {
-                             "Chocó & Andes + Amazonia": 0.077
+                             "Chocó & Andes + Amazonia": 0.079
                             }
                            }
                           }
                          ],
                          "ancestralRange": {
                           "area": "Chocó & Andes",
-                          "p": 0.963,
+                          "p": 0.974,
                           "alt": {}
                          }
                         }
@@ -7966,7 +8037,7 @@
                        "note": "Clade 9 of Canal et al. (2019); clade 11 in Canal et al. (2018).",
                        "ancestralRange": {
                         "area": "Chocó & Andes",
-                        "p": 0.977,
+                        "p": 0.998,
                         "alt": {}
                        }
                       },
@@ -8083,11 +8154,10 @@
                                  ],
                                  "ancestralRange": {
                                   "area": "Chocó & Andes",
-                                  "p": 0.807,
+                                  "p": 0.789,
                                   "alt": {
-                                   "Central America + Chocó & Andes": 0.132,
-                                   "other": 0.033,
-                                   "Central America + Caribbean islands": 0.026
+                                   "Central America + Chocó & Andes": 0.172,
+                                   "other": 0.02
                                   }
                                  }
                                 },
@@ -8125,19 +8195,16 @@
                                  ],
                                  "ancestralRange": {
                                   "area": "Amazonia",
-                                  "p": 0.939,
-                                  "alt": {
-                                   "other": 0.053
-                                  }
+                                  "p": 0.984,
+                                  "alt": {}
                                  }
                                 }
                                ],
                                "ancestralRange": {
                                 "area": "Chocó & Andes",
-                                "p": 0.818,
+                                "p": 0.873,
                                 "alt": {
-                                 "Central America + Chocó & Andes": 0.129,
-                                 "other": 0.034
+                                 "Central America + Chocó & Andes": 0.115
                                 }
                                }
                               },
@@ -8207,10 +8274,8 @@
                                    ],
                                    "ancestralRange": {
                                     "area": "Central America",
-                                    "p": 0.898,
-                                    "alt": {
-                                     "other": 0.088
-                                    }
+                                    "p": 0.981,
+                                    "alt": {}
                                    }
                                   },
                                   {
@@ -8289,20 +8354,19 @@
                                        ],
                                        "ancestralRange": {
                                         "area": "Central America",
-                                        "p": 0.865,
+                                        "p": 0.851,
                                         "alt": {
-                                         "Central America + Chocó & Andes": 0.067,
-                                         "other": 0.057
+                                         "Central America + Chocó & Andes": 0.134
                                         }
                                        }
                                       }
                                      ],
                                      "ancestralRange": {
                                       "area": "Central America",
-                                      "p": 0.918,
+                                      "p": 0.928,
                                       "alt": {
-                                       "other": 0.045,
-                                       "Central America + Chocó & Andes": 0.035
+                                       "Central America + Chocó & Andes": 0.038,
+                                       "other": 0.031
                                       }
                                      }
                                     }
@@ -8318,21 +8382,21 @@
                                  ],
                                  "ancestralRange": {
                                   "area": "Central America",
-                                  "p": 0.733,
+                                  "p": 0.751,
                                   "alt": {
-                                   "Central America + Chocó & Andes": 0.22,
-                                   "other": 0.039
+                                   "Central America + Chocó & Andes": 0.214,
+                                   "other": 0.03
                                   }
                                  }
                                 }
                                ],
                                "ancestralRange": {
                                 "area": "Central America + Chocó & Andes",
-                                "p": 0.582,
+                                "p": 0.617,
                                 "alt": {
-                                 "Chocó & Andes": 0.207,
-                                 "Central America": 0.156,
-                                 "other": 0.038
+                                 "Chocó & Andes": 0.194,
+                                 "Central America": 0.152,
+                                 "other": 0.022
                                 }
                                }
                               }
@@ -8341,10 +8405,9 @@
                              "note": "Clade 12 of Canal et al. (2019); clade 14 in Canal et al. (2018).",
                              "ancestralRange": {
                               "area": "Chocó & Andes",
-                              "p": 0.72,
+                              "p": 0.735,
                               "alt": {
-                               "Central America + Chocó & Andes": 0.227,
-                               "other": 0.037
+                               "Central America + Chocó & Andes": 0.24
                               }
                              }
                             },
@@ -8573,11 +8636,10 @@
                                        ],
                                        "ancestralRange": {
                                         "area": "Chocó & Andes",
-                                        "p": 0.871,
+                                        "p": 0.93,
                                         "alt": {
-                                         "other": 0.069,
-                                         "Central America + Chocó & Andes": 0.032,
-                                         "Central America + Caribbean islands": 0.02
+                                         "other": 0.029,
+                                         "Central America + Chocó & Andes": 0.028
                                         }
                                        }
                                       }
@@ -8638,11 +8700,10 @@
                                        ],
                                        "ancestralRange": {
                                         "area": "Chocó & Andes",
-                                        "p": 0.871,
+                                        "p": 0.93,
                                         "alt": {
-                                         "other": 0.069,
-                                         "Central America + Chocó & Andes": 0.032,
-                                         "Central America + Caribbean islands": 0.02
+                                         "other": 0.029,
+                                         "Central America + Chocó & Andes": 0.028
                                         }
                                        }
                                       }
@@ -8651,9 +8712,10 @@
                                    ],
                                    "ancestralRange": {
                                     "area": "Amazonia",
-                                    "p": 0.724,
+                                    "p": 0.503,
                                     "alt": {
-                                     "Chocó & Andes + Amazonia": 0.26
+                                     "Chocó & Andes + Amazonia": 0.382,
+                                     "other": 0.115
                                     }
                                    }
                                   }
@@ -8675,25 +8737,25 @@
                            ],
                            "ancestralRange": {
                             "area": "Chocó & Andes",
-                            "p": 0.959,
-                            "alt": {}
+                            "p": 0.956,
+                            "alt": {
+                             "other": 0.021
+                            }
                            }
                           }
                          ],
                          "ancestralRange": {
                           "area": "Chocó & Andes",
-                          "p": 0.975,
+                          "p": 0.976,
                           "alt": {}
                          }
                         }
                        ],
                        "ancestralRange": {
                         "area": "Chocó & Andes",
-                        "p": 0.935,
-                        "alt": {
-                         "other": 0.04,
-                         "Central America + Caribbean islands": 0.02
-                        }
+                        "p": 0.981,
+                        "alt": {},
+                        "leader": true
                        }
                       }
                      ],
@@ -8727,20 +8789,18 @@
                ],
                "ancestralRange": {
                 "area": "Chocó & Andes + Amazonia",
-                "p": 0.519,
+                "p": 0.512,
                 "alt": {
-                 "Amazonia": 0.438,
-                 "other": 0.038
+                 "Amazonia": 0.439,
+                 "other": 0.045
                 }
                }
               }
              ],
              "ancestralRange": {
               "area": "Amazonia",
-              "p": 0.958,
-              "alt": {
-               "other": 0.029
-              }
+              "p": 0.974,
+              "alt": {}
              }
             }
            ],
@@ -8748,9 +8808,10 @@
            "note": "The largest subgenus - ~460 accepted species, mainly epiphytes and hemiepiphytes, centred on Central America, the Chocó, the northern Andes and Amazonia. Twelve well-supported clades are recognised inside it.",
            "ancestralRange": {
             "area": "Amazonia",
-            "p": 0.939,
+            "p": 0.953,
             "alt": {
-             "other": 0.041
+             "other": 0.027,
+             "Amazonia + Southeast Brazil": 0.02
             }
            }
           }
@@ -13447,10 +13508,11 @@
     "1.16.0 - the Philodendron clade tier: 3 subgenera, clades A/B and 1-12, from Canal et al. (2019) Table 1 and Fig. 1. Ages from the table; branching order derived from the figure and gated 24 ways.",
     "1.17.0 - the Philodendron species layer: 166 accessions under the 1.16.0 clade tier, derived from Canal et al. (2019) Fig. 1 and named from the sampling appendix of Canal Gallego's 2018 thesis (166/166 gated).",
     "1.18.0 - ancestral ranges on the Philodendron tier from Canal et al. (2019) Fig. 1's BioGeoBEARS pies: 126 nodes, 17 of the 17 named clades and subgenera.",
-    "1.19.0 - Alocasia gageana renamed to Alocasia odora 'California' (the id is unchanged: an id is a permalink)."
+    "1.19.0 - Alocasia gageana renamed to Alocasia odora 'California' (the id is unchanged: an id is a permalink).",
+    "1.20.0 - ancestral-range layer finished and audited: +14 leader-offset pies recovered (census by wedge-vertex + ring detection, global optimal assignment), 27 pieless forks proven absent, reader corrected (gray/dark pooled states -> 'other', overlapping pies isolated). Join-node 12.89 Ma re-read as Chocó & Andes + Amazonia 0.51 (was Amazonia 0.49 - same pie, true centre)."
    ],
    "speciesCounts": "POWO master export, Araceae_Exports/EXCELS/_run_log.csv (validated accepted species).",
-   "version": "1.19.0",
+   "version": "1.20.0",
    "orthographicVariants": {
     "Stylochiton": "Treated as Stylochaeton Lepr. (MBB no. 34). The POWO export uses Stylochiton; which spelling Kew currently accepts is unconfirmed."
    },
@@ -13463,11 +13525,10 @@
      "Chocó & Andes",
      "Amazonia",
      "Southeast Brazil",
-     "and their two-area combinations"
+     "and their two-area combinations; minor and pooled combination states report as 'other'"
     ],
-    "coverage": "121 of 166 nodes carry a readable pie; 4 are drawn solid black (unsupported nodes, per the figure's caption); 41 anonymous forks have their pie drawn off the node on a leader and are not read. 17 of the 17 named clades and subgenera carry a range."
-   },
-   "deployedAt": "2026-08-10"
+    "coverage": "138 of the tier's 161 internal nodes carry a range verdict (134 estimated + 4 drawn solid black = unsupported, per the figure's caption); the remaining 23 forks have no pie in the figure at all - proven by a global one-pie-one-fork assignment with zero unassigned pies. 18 offset pies are confirmed by their drawn Bezier leaders."
+   }
   },
   "chronology": {
    "source": "Nauheimer, Metzler & Renner (2012), New Phytologist 195: 938-950 - BEAST relaxed-clock chronogram, 132 Araceae taxa, seven fossil calibrations.",
