@@ -1,5 +1,5 @@
 {
-  "species": 182,
+  "species": 186,
   "cultivars": 53,
   "hybrids": 150,
   "hybridCultivars": 9,
@@ -14,8 +14,8 @@
       "hybridCultivars": 9
     },
     "Amorphophallus": {
-      "total": 64,
-      "species": 64,
+      "total": 68,
+      "species": 68,
       "cultivars": 0,
       "hybrids": 0,
       "hybridCultivars": 0
@@ -31,11 +31,11 @@
       }
     },
     "Amorphophallus": {
-      "total": 64,
-      "placed": 64,
+      "total": 68,
+      "placed": 68,
       "zones": {
-        "africa": 12,
-        "asia": 52
+        "africa": 14,
+        "asia": 54
       }
     }
   },
@@ -56,7 +56,7 @@
     "Coriaceae": 1,
     "Cuprea": 1
   },
-  "updatedAt": "2026-08-12T15:40:31.598Z",
+  "updatedAt": "2026-08-12T15:55:26.546Z",
   "source": "https://www.aroidpedia.com/journal",
-  "totalItemsScanned": 394
+  "totalItemsScanned": 398
 }
