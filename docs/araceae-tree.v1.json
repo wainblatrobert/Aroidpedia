@@ -13600,7 +13600,976 @@
         "zones": {
          "americas": 1460
         }
-       }
+       },
+       "children": [
+        {
+         "id": "clade-anthurium-16",
+         "name": "Clade 16 · Andiphilum",
+         "rank": "clade",
+         "speciesCount": 8,
+         "note": "Support MP/ML/PP: 98/99/1.00. The molecular clade and the classical section coincide — one of the few drawers that survived the DNA. Sampled here: A. andicola (AND); A. parvispathum (AND); A. berriozabalense (AND); A. lancetillense (AND); A. clarinervium (AND); A. leuconeurum (AND); A. umbrosum (AND); A. pedatoradiatum (AND).",
+         "children": [
+          {
+           "id": "sp-anthurium-andicola",
+           "name": "Anthurium andicola",
+           "rank": "species",
+           "section": "Andiphilum",
+           "accession": "sect. Andiphilum",
+           "note": "Classical section: Andiphilum — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-parvispathum",
+           "name": "Anthurium parvispathum",
+           "rank": "species",
+           "section": "Andiphilum",
+           "accession": "sect. Andiphilum",
+           "note": "Classical section: Andiphilum — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-berriozabalense",
+           "name": "Anthurium berriozabalense",
+           "rank": "species",
+           "section": "Andiphilum",
+           "accession": "sect. Andiphilum",
+           "note": "Classical section: Andiphilum — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-lancetillense",
+           "name": "Anthurium lancetillense",
+           "rank": "species",
+           "section": "Andiphilum",
+           "accession": "sect. Andiphilum",
+           "note": "Classical section: Andiphilum — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-clarinervium",
+           "name": "Anthurium clarinervium",
+           "rank": "species",
+           "section": "Andiphilum",
+           "accession": "sect. Andiphilum",
+           "note": "Classical section: Andiphilum — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-leuconeurum",
+           "name": "Anthurium leuconeurum",
+           "rank": "species",
+           "section": "Andiphilum",
+           "accession": "sect. Andiphilum",
+           "note": "Classical section: Andiphilum — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-umbrosum",
+           "name": "Anthurium umbrosum",
+           "rank": "species",
+           "section": "Andiphilum",
+           "accession": "sect. Andiphilum",
+           "note": "Classical section: Andiphilum — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-pedatoradiatum",
+           "name": "Anthurium pedatoradiatum",
+           "rank": "species",
+           "section": "Andiphilum",
+           "accession": "sect. Andiphilum",
+           "note": "Classical section: Andiphilum — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          }
+         ]
+        },
+        {
+         "id": "sp-anthurium-sagittatum",
+         "name": "Anthurium sagittatum",
+         "rank": "species",
+         "section": "Cardiolonchium",
+         "accession": "sect. Cardiolonchium",
+         "note": "Classical section: Cardiolonchium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1). The figure places it outside every numbered clade, on the unresolved backbone of Clade B (the strongly supported clade holding everything but Clade A)."
+        },
+        {
+         "id": "sp-anthurium-trilobum",
+         "name": "Anthurium trilobum",
+         "rank": "species",
+         "section": "Semaeophyllium",
+         "accession": "sect. Semaeophyllium",
+         "note": "Classical section: Semaeophyllium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1). The figure places it outside every numbered clade, on the unresolved backbone of Clade B (the strongly supported clade holding everything but Clade A)."
+        },
+        {
+         "id": "sp-anthurium-bulaoanum",
+         "name": "Anthurium bulaoanum",
+         "rank": "species",
+         "section": "Cardiolonchium",
+         "accession": "sect. Cardiolonchium",
+         "note": "Classical section: Cardiolonchium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1). The figure places it outside every numbered clade, on the unresolved backbone of Clade B (the strongly supported clade holding everything but Clade A)."
+        },
+        {
+         "id": "sp-anthurium-dolichostachyum",
+         "name": "Anthurium dolichostachyum",
+         "rank": "species",
+         "section": "Cardiolonchium",
+         "accession": "sect. Cardiolonchium",
+         "note": "Classical section: Cardiolonchium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1). The figure places it outside every numbered clade, on the unresolved backbone of Clade B (the strongly supported clade holding everything but Clade A)."
+        },
+        {
+         "id": "sp-anthurium-sp1",
+         "name": "Anthurium sp. 1",
+         "rank": "species",
+         "section": "Polyneurium",
+         "accession": "sect. Polyneurium",
+         "note": "Classical section: Polyneurium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1). The figure places it outside every numbered clade, on the unresolved backbone of Clade B (the strongly supported clade holding everything but Clade A)."
+        },
+        {
+         "id": "clade-anthurium-15",
+         "name": "Clade 15",
+         "rank": "clade",
+         "speciesCount": 5,
+         "note": "Support MP/ML/PP: -/70/0.95. Classical sections mixed here: Polyneurium (3), Xialophyllium (2). Sampled here: A. cuspidatum (POLYN); A. urbanii (POLYN); A. longicaudatum (POLYN); A. mindense (XIA); A. microspadix (XIA).",
+         "children": [
+          {
+           "id": "sp-anthurium-cuspidatum",
+           "name": "Anthurium cuspidatum",
+           "rank": "species",
+           "section": "Polyneurium",
+           "accession": "sect. Polyneurium",
+           "note": "Classical section: Polyneurium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-urbanii",
+           "name": "Anthurium urbanii",
+           "rank": "species",
+           "section": "Polyneurium",
+           "accession": "sect. Polyneurium",
+           "note": "Classical section: Polyneurium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-longicaudatum",
+           "name": "Anthurium longicaudatum",
+           "rank": "species",
+           "section": "Polyneurium",
+           "accession": "sect. Polyneurium",
+           "note": "Classical section: Polyneurium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-mindense",
+           "name": "Anthurium mindense",
+           "rank": "species",
+           "section": "Xialophyllium",
+           "accession": "sect. Xialophyllium",
+           "note": "Classical section: Xialophyllium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-microspadix",
+           "name": "Anthurium microspadix",
+           "rank": "species",
+           "section": "Xialophyllium",
+           "accession": "sect. Xialophyllium",
+           "note": "Classical section: Xialophyllium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          }
+         ]
+        },
+        {
+         "id": "clade-anthurium-14",
+         "name": "Clade 14",
+         "rank": "clade",
+         "speciesCount": 4,
+         "note": "Support MP/ML/PP: -/75/1.00. Classical sections mixed here: Belolonchium (2), Semaeophyllium (1), no section (N/A) (1). Sampled here: A. furcatum (SEM); A. macleanii (BEL); A. pedatum — no section; A. tremulum (BEL).",
+         "children": [
+          {
+           "id": "sp-anthurium-furcatum",
+           "name": "Anthurium furcatum",
+           "rank": "species",
+           "section": "Semaeophyllium",
+           "accession": "sect. Semaeophyllium",
+           "note": "Classical section: Semaeophyllium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-macleanii",
+           "name": "Anthurium macleanii",
+           "rank": "species",
+           "section": "Belolonchium",
+           "accession": "sect. Belolonchium",
+           "note": "Classical section: Belolonchium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-pedatum",
+           "name": "Anthurium pedatum",
+           "rank": "species",
+           "note": "The study assigns this species to no section (N/A in its fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-tremulum",
+           "name": "Anthurium tremulum",
+           "rank": "species",
+           "section": "Belolonchium",
+           "accession": "sect. Belolonchium",
+           "note": "Classical section: Belolonchium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          }
+         ]
+        },
+        {
+         "id": "clade-anthurium-13",
+         "name": "Clade 13 · Calomystrium",
+         "rank": "clade",
+         "speciesCount": 7,
+         "note": "Support MP/ML/PP: 75/93/1.00. The molecular clade and the classical section coincide — one of the few drawers that survived the DNA. Sampled here: A. antioquiense (CAL); A. formosum (CAL); A. hoffmannii (CAL); A. obtusilobum (CAL); A. veitchii (CAL); A. curvispadix (CAL); A. huixtlense (CAL).",
+         "children": [
+          {
+           "id": "sp-anthurium-antioquiense",
+           "name": "Anthurium antioquiense",
+           "rank": "species",
+           "section": "Calomystrium",
+           "accession": "sect. Calomystrium",
+           "note": "Classical section: Calomystrium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-formosum",
+           "name": "Anthurium formosum",
+           "rank": "species",
+           "section": "Calomystrium",
+           "accession": "sect. Calomystrium",
+           "note": "Classical section: Calomystrium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-hoffmannii",
+           "name": "Anthurium hoffmannii",
+           "rank": "species",
+           "section": "Calomystrium",
+           "accession": "sect. Calomystrium",
+           "note": "Classical section: Calomystrium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-obtusilobum",
+           "name": "Anthurium obtusilobum",
+           "rank": "species",
+           "section": "Calomystrium",
+           "accession": "sect. Calomystrium",
+           "note": "Classical section: Calomystrium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-veitchii",
+           "name": "Anthurium veitchii",
+           "rank": "species",
+           "section": "Calomystrium",
+           "accession": "sect. Calomystrium",
+           "note": "Classical section: Calomystrium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-curvispadix",
+           "name": "Anthurium curvispadix",
+           "rank": "species",
+           "section": "Calomystrium",
+           "accession": "sect. Calomystrium",
+           "note": "Classical section: Calomystrium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-huixtlense",
+           "name": "Anthurium huixtlense",
+           "rank": "species",
+           "section": "Calomystrium",
+           "accession": "sect. Calomystrium",
+           "note": "Classical section: Calomystrium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          }
+         ]
+        },
+        {
+         "id": "sp-anthurium-dressleri",
+         "name": "Anthurium dressleri",
+         "rank": "species",
+         "section": "Cardiolonchium",
+         "accession": "sect. Cardiolonchium",
+         "note": "Classical section: Cardiolonchium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1). The figure places it outside every numbered clade, on the unresolved backbone of Clade B (the strongly supported clade holding everything but Clade A)."
+        },
+        {
+         "id": "sp-anthurium-subsignatum",
+         "name": "Anthurium subsignatum",
+         "rank": "species",
+         "section": "Semaeophyllium",
+         "accession": "sect. Semaeophyllium",
+         "note": "Classical section: Semaeophyllium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1). The figure places it outside every numbered clade, on the unresolved backbone of Clade B (the strongly supported clade holding everything but Clade A)."
+        },
+        {
+         "id": "sp-anthurium-crystallinum",
+         "name": "Anthurium crystallinum",
+         "rank": "species",
+         "section": "Cardiolonchium",
+         "accession": "sect. Cardiolonchium",
+         "note": "Classical section: Cardiolonchium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1). The figure places it outside every numbered clade, on the unresolved backbone of Clade B (the strongly supported clade holding everything but Clade A)."
+        },
+        {
+         "id": "sp-anthurium-sp2",
+         "name": "Anthurium sp. 2",
+         "rank": "species",
+         "section": "Decurrentia",
+         "accession": "sect. Decurrentia",
+         "note": "Classical section: Decurrentia — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1). The figure places it outside every numbered clade, on the unresolved backbone of Clade B (the strongly supported clade holding everything but Clade A)."
+        },
+        {
+         "id": "sp-anthurium-brownii",
+         "name": "Anthurium brownii",
+         "rank": "species",
+         "section": "Belolonchium",
+         "accession": "sect. Belolonchium",
+         "note": "Classical section: Belolonchium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1). The figure places it outside every numbered clade, on the unresolved backbone of Clade B (the strongly supported clade holding everything but Clade A)."
+        },
+        {
+         "id": "clade-anthurium-12",
+         "name": "Clade 12",
+         "rank": "clade",
+         "speciesCount": 2,
+         "note": "Support MP/ML/PP: 86/90/0.99. Classical sections mixed here: Cardiolonchium (1), Pachyneurium ser. Pachyneurium (1). Sampled here: A. besseae (CAR); A. willifordii (PACpac).",
+         "children": [
+          {
+           "id": "sp-anthurium-besseae",
+           "name": "Anthurium besseae",
+           "rank": "species",
+           "section": "Cardiolonchium",
+           "accession": "sect. Cardiolonchium",
+           "note": "Classical section: Cardiolonchium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-willifordii",
+           "name": "Anthurium willifordii",
+           "rank": "species",
+           "section": "Pachyneurium ser. Pachyneurium",
+           "accession": "ser. Pachyneurium",
+           "note": "Classical section: Pachyneurium ser. Pachyneurium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          }
+         ]
+        },
+        {
+         "id": "clade-anthurium-11",
+         "name": "Clade 11 · Multinervia",
+         "rank": "clade",
+         "speciesCount": 4,
+         "note": "Support MP/ML/PP: 82/99/1.00. The molecular clade and the classical section coincide — one of the few drawers that survived the DNA. Sampled here: A. oxyphyllum (PACmul); A. napaeum (PACmul); A. carchiense (PACmul); A. palenquense (PACmul).",
+         "children": [
+          {
+           "id": "sp-anthurium-oxyphyllum",
+           "name": "Anthurium oxyphyllum",
+           "rank": "species",
+           "section": "Pachyneurium ser. Multinervia",
+           "accession": "ser. Multinervia",
+           "note": "Classical section: Pachyneurium ser. Multinervia — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-napaeum",
+           "name": "Anthurium napaeum",
+           "rank": "species",
+           "section": "Pachyneurium ser. Multinervia",
+           "accession": "ser. Multinervia",
+           "note": "Classical section: Pachyneurium ser. Multinervia — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-carchiense",
+           "name": "Anthurium carchiense",
+           "rank": "species",
+           "section": "Pachyneurium ser. Multinervia",
+           "accession": "ser. Multinervia",
+           "note": "Classical section: Pachyneurium ser. Multinervia — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-palenquense",
+           "name": "Anthurium palenquense",
+           "rank": "species",
+           "section": "Pachyneurium ser. Multinervia",
+           "accession": "ser. Multinervia",
+           "note": "Classical section: Pachyneurium ser. Multinervia — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          }
+         ]
+        },
+        {
+         "id": "clade-anthurium-10",
+         "name": "Clade 10",
+         "rank": "clade",
+         "speciesCount": 4,
+         "note": "Support MP/ML/PP: 97/100/1.00. Classical sections mixed here: Decurrentia (2), Cardiolonchium (1), Polyneurium (1). Sampled here: A. lancea (CAR); A. cf. michelii (DEC); A. maculosum (POLYN); A. michelii (DEC).",
+         "children": [
+          {
+           "id": "sp-anthurium-lancea",
+           "name": "Anthurium lancea",
+           "rank": "species",
+           "section": "Cardiolonchium",
+           "accession": "sect. Cardiolonchium",
+           "note": "Classical section: Cardiolonchium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-cf-michelii",
+           "name": "Anthurium cf. michelii",
+           "rank": "species",
+           "section": "Decurrentia",
+           "accession": "sect. Decurrentia",
+           "note": "Classical section: Decurrentia — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-maculosum",
+           "name": "Anthurium maculosum",
+           "rank": "species",
+           "section": "Polyneurium",
+           "accession": "sect. Polyneurium",
+           "note": "Classical section: Polyneurium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-michelii",
+           "name": "Anthurium michelii",
+           "rank": "species",
+           "section": "Decurrentia",
+           "accession": "sect. Decurrentia",
+           "note": "Classical section: Decurrentia — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          }
+         ]
+        },
+        {
+         "id": "clade-anthurium-9",
+         "name": "Clade 9",
+         "rank": "clade",
+         "speciesCount": 7,
+         "note": "Support MP/ML/PP: 95/98/1.00. Classical sections mixed here: Pachyneurium ser. Pachyneurium (6), Decurrentia (1). Sampled here: A. fornicifolium (DEC); A. spectabile (PACpac); A. bradeanum (PACpac); A. halmoorei (PACpac); A. schottianum (PACpac); A. spathiphyllum (PACpac); A. protensum (PACpac).",
+         "children": [
+          {
+           "id": "sp-anthurium-fornicifolium",
+           "name": "Anthurium fornicifolium",
+           "rank": "species",
+           "section": "Decurrentia",
+           "accession": "sect. Decurrentia",
+           "note": "Classical section: Decurrentia — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-spectabile",
+           "name": "Anthurium spectabile",
+           "rank": "species",
+           "section": "Pachyneurium ser. Pachyneurium",
+           "accession": "ser. Pachyneurium",
+           "note": "Classical section: Pachyneurium ser. Pachyneurium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-bradeanum",
+           "name": "Anthurium bradeanum",
+           "rank": "species",
+           "section": "Pachyneurium ser. Pachyneurium",
+           "accession": "ser. Pachyneurium",
+           "note": "Classical section: Pachyneurium ser. Pachyneurium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-halmoorei",
+           "name": "Anthurium halmoorei",
+           "rank": "species",
+           "section": "Pachyneurium ser. Pachyneurium",
+           "accession": "ser. Pachyneurium",
+           "note": "Classical section: Pachyneurium ser. Pachyneurium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-schottianum",
+           "name": "Anthurium schottianum",
+           "rank": "species",
+           "section": "Pachyneurium ser. Pachyneurium",
+           "accession": "ser. Pachyneurium",
+           "note": "Classical section: Pachyneurium ser. Pachyneurium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-spathiphyllum",
+           "name": "Anthurium spathiphyllum",
+           "rank": "species",
+           "section": "Pachyneurium ser. Pachyneurium",
+           "accession": "ser. Pachyneurium",
+           "note": "Classical section: Pachyneurium ser. Pachyneurium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-protensum",
+           "name": "Anthurium protensum",
+           "rank": "species",
+           "section": "Pachyneurium ser. Pachyneurium",
+           "accession": "ser. Pachyneurium",
+           "note": "Classical section: Pachyneurium ser. Pachyneurium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          }
+         ]
+        },
+        {
+         "id": "sp-anthurium-crenatum",
+         "name": "Anthurium crenatum",
+         "rank": "species",
+         "section": "Pachyneurium ser. Pachyneurium",
+         "accession": "ser. Pachyneurium",
+         "note": "Classical section: Pachyneurium ser. Pachyneurium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1). The figure places it outside every numbered clade, on the unresolved backbone of Clade B (the strongly supported clade holding everything but Clade A)."
+        },
+        {
+         "id": "sp-anthurium-venosum",
+         "name": "Anthurium venosum",
+         "rank": "species",
+         "section": "Pachyneurium ser. Pachyneurium",
+         "accession": "ser. Pachyneurium",
+         "note": "Classical section: Pachyneurium ser. Pachyneurium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1). The figure places it outside every numbered clade, on the unresolved backbone of Clade B (the strongly supported clade holding everything but Clade A)."
+        },
+        {
+         "id": "clade-anthurium-8",
+         "name": "Clade 8 · Leptanthurium",
+         "rank": "clade",
+         "speciesCount": 3,
+         "note": "Support MP/ML/PP: 100/100/1.00. Drawn as section Leptanthurium by the study; classical sections of its species: Decurrentia (2), Leptanthurium (1). Sampled here: A. gracile (LEP); A. vittariifolium (DEC); A. sp. 4 (DEC).",
+         "children": [
+          {
+           "id": "sp-anthurium-gracile",
+           "name": "Anthurium gracile",
+           "rank": "species",
+           "section": "Leptanthurium",
+           "accession": "sect. Leptanthurium",
+           "note": "Classical section: Leptanthurium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-vittariifolium",
+           "name": "Anthurium vittariifolium",
+           "rank": "species",
+           "section": "Decurrentia",
+           "accession": "sect. Decurrentia",
+           "note": "Classical section: Decurrentia — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-sp4",
+           "name": "Anthurium sp. 4",
+           "rank": "species",
+           "section": "Decurrentia",
+           "accession": "sect. Decurrentia",
+           "note": "Classical section: Decurrentia — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          }
+         ]
+        },
+        {
+         "id": "clade-anthurium-7",
+         "name": "Clade 7",
+         "rank": "clade",
+         "speciesCount": 8,
+         "note": "Support MP/ML/PP: 82/90/1.00. Classical sections mixed here: Porphyrochitonium (5), Digitinervium (3). Sampled here: A. bakeri (POR); A. lancifolium (POR); A. sp. 3 (DIG); A. margaricarpum (POR); A. ovatifolium (DIG); A. punctatum (POR); A. wendlingeri (POR); A. morae (DIG).",
+         "children": [
+          {
+           "id": "sp-anthurium-bakeri",
+           "name": "Anthurium bakeri",
+           "rank": "species",
+           "section": "Porphyrochitonium",
+           "accession": "sect. Porphyrochitonium",
+           "note": "Classical section: Porphyrochitonium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-lancifolium",
+           "name": "Anthurium lancifolium",
+           "rank": "species",
+           "section": "Porphyrochitonium",
+           "accession": "sect. Porphyrochitonium",
+           "note": "Classical section: Porphyrochitonium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-sp3",
+           "name": "Anthurium sp. 3",
+           "rank": "species",
+           "section": "Digitinervium",
+           "accession": "sect. Digitinervium",
+           "note": "Classical section: Digitinervium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-margaricarpum",
+           "name": "Anthurium margaricarpum",
+           "rank": "species",
+           "section": "Porphyrochitonium",
+           "accession": "sect. Porphyrochitonium",
+           "note": "Classical section: Porphyrochitonium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-ovatifolium",
+           "name": "Anthurium ovatifolium",
+           "rank": "species",
+           "section": "Digitinervium",
+           "accession": "sect. Digitinervium",
+           "note": "Classical section: Digitinervium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-punctatum",
+           "name": "Anthurium punctatum",
+           "rank": "species",
+           "section": "Porphyrochitonium",
+           "accession": "sect. Porphyrochitonium",
+           "note": "Classical section: Porphyrochitonium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-wendlingeri",
+           "name": "Anthurium wendlingeri",
+           "rank": "species",
+           "section": "Porphyrochitonium",
+           "accession": "sect. Porphyrochitonium",
+           "note": "Classical section: Porphyrochitonium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-morae",
+           "name": "Anthurium morae",
+           "rank": "species",
+           "section": "Digitinervium",
+           "accession": "sect. Digitinervium",
+           "note": "Classical section: Digitinervium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          }
+         ]
+        },
+        {
+         "id": "clade-anthurium-6",
+         "name": "Clade 6",
+         "rank": "clade",
+         "speciesCount": 3,
+         "note": "Support MP/ML/PP: 100/100/1.00. Classical sections mixed here: Porphyrochitonium (2), Digitinervium (1). Sampled here: A. bicollectivum (POR); A. peltigerum (DIG); A. friedrichsthalii (POR).",
+         "children": [
+          {
+           "id": "sp-anthurium-bicollectivum",
+           "name": "Anthurium bicollectivum",
+           "rank": "species",
+           "section": "Porphyrochitonium",
+           "accession": "sect. Porphyrochitonium",
+           "note": "Classical section: Porphyrochitonium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-peltigerum",
+           "name": "Anthurium peltigerum",
+           "rank": "species",
+           "section": "Digitinervium",
+           "accession": "sect. Digitinervium",
+           "note": "Classical section: Digitinervium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-friedrichsthalii",
+           "name": "Anthurium friedrichsthalii",
+           "rank": "species",
+           "section": "Porphyrochitonium",
+           "accession": "sect. Porphyrochitonium",
+           "note": "Classical section: Porphyrochitonium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          }
+         ]
+        },
+        {
+         "id": "clade-anthurium-5",
+         "name": "Clade 5 · Tetraspermium",
+         "rank": "clade",
+         "speciesCount": 5,
+         "note": "Support MP/ML/PP: 93/100/1.00. The molecular clade and the classical section coincide — one of the few drawers that survived the DNA. Sampled here: A. citrifolium (TET); A. laciniosum (TET); A. cf. obtusum (TET); A. obtusum (TET); A. scandens (TET).",
+         "children": [
+          {
+           "id": "sp-anthurium-citrifolium",
+           "name": "Anthurium citrifolium",
+           "rank": "species",
+           "section": "Tetraspermium",
+           "accession": "sect. Tetraspermium",
+           "note": "Classical section: Tetraspermium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-laciniosum",
+           "name": "Anthurium laciniosum",
+           "rank": "species",
+           "section": "Tetraspermium",
+           "accession": "sect. Tetraspermium",
+           "note": "Classical section: Tetraspermium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-cf-obtusum",
+           "name": "Anthurium cf. obtusum",
+           "rank": "species",
+           "section": "Tetraspermium",
+           "accession": "sect. Tetraspermium",
+           "note": "Classical section: Tetraspermium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-obtusum",
+           "name": "Anthurium obtusum",
+           "rank": "species",
+           "section": "Tetraspermium",
+           "accession": "sect. Tetraspermium",
+           "note": "Classical section: Tetraspermium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-scandens",
+           "name": "Anthurium scandens",
+           "rank": "species",
+           "section": "Tetraspermium",
+           "accession": "sect. Tetraspermium",
+           "note": "Classical section: Tetraspermium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          }
+         ]
+        },
+        {
+         "id": "clade-anthurium-4",
+         "name": "Clade 4",
+         "rank": "clade",
+         "speciesCount": 3,
+         "note": "Support MP/ML/PP: 94/97/1.00. Classical sections mixed here: Belolonchium (3). Sampled here: A. chiapasense (BEL); A. lucens (BEL); A. verapazense (BEL).",
+         "children": [
+          {
+           "id": "sp-anthurium-chiapasense",
+           "name": "Anthurium chiapasense",
+           "rank": "species",
+           "section": "Belolonchium",
+           "accession": "sect. Belolonchium",
+           "note": "Classical section: Belolonchium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-lucens",
+           "name": "Anthurium lucens",
+           "rank": "species",
+           "section": "Belolonchium",
+           "accession": "sect. Belolonchium",
+           "note": "Classical section: Belolonchium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-verapazense",
+           "name": "Anthurium verapazense",
+           "rank": "species",
+           "section": "Belolonchium",
+           "accession": "sect. Belolonchium",
+           "note": "Classical section: Belolonchium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          }
+         ]
+        },
+        {
+         "id": "clade-anthurium-3",
+         "name": "Clade 3 · Dactylophyllium",
+         "rank": "clade",
+         "speciesCount": 10,
+         "note": "Support MP/ML/PP: -/73/0.95. The molecular clade and the classical section coincide — one of the few drawers that survived the DNA. Sampled here: A. brevipedunculatum (DAC); A. clavigerum (DAC); A. sinuatum (DAC); A. digitatum (DAC); A. longissimum (DAC); A. thrinax (DAC); A. eminens (DAC); A. croatii (DAC); A. polydactylum (DAC); A. kunthii (DAC).",
+         "children": [
+          {
+           "id": "sp-anthurium-brevipedunculatum",
+           "name": "Anthurium brevipedunculatum",
+           "rank": "species",
+           "section": "Dactylophyllium",
+           "accession": "sect. Dactylophyllium",
+           "note": "Classical section: Dactylophyllium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-clavigerum",
+           "name": "Anthurium clavigerum",
+           "rank": "species",
+           "section": "Dactylophyllium",
+           "accession": "sect. Dactylophyllium",
+           "note": "Classical section: Dactylophyllium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-sinuatum",
+           "name": "Anthurium sinuatum",
+           "rank": "species",
+           "section": "Dactylophyllium",
+           "accession": "sect. Dactylophyllium",
+           "note": "Classical section: Dactylophyllium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-digitatum",
+           "name": "Anthurium digitatum",
+           "rank": "species",
+           "section": "Dactylophyllium",
+           "accession": "sect. Dactylophyllium",
+           "note": "Classical section: Dactylophyllium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-longissimum",
+           "name": "Anthurium longissimum",
+           "rank": "species",
+           "section": "Dactylophyllium",
+           "accession": "sect. Dactylophyllium",
+           "note": "Classical section: Dactylophyllium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-thrinax",
+           "name": "Anthurium thrinax",
+           "rank": "species",
+           "section": "Dactylophyllium",
+           "accession": "sect. Dactylophyllium",
+           "note": "Classical section: Dactylophyllium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-eminens",
+           "name": "Anthurium eminens",
+           "rank": "species",
+           "section": "Dactylophyllium",
+           "accession": "sect. Dactylophyllium",
+           "note": "Classical section: Dactylophyllium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-croatii",
+           "name": "Anthurium croatii",
+           "rank": "species",
+           "section": "Dactylophyllium",
+           "accession": "sect. Dactylophyllium",
+           "note": "Classical section: Dactylophyllium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-polydactylum",
+           "name": "Anthurium polydactylum",
+           "rank": "species",
+           "section": "Dactylophyllium",
+           "accession": "sect. Dactylophyllium",
+           "note": "Classical section: Dactylophyllium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-kunthii",
+           "name": "Anthurium kunthii",
+           "rank": "species",
+           "section": "Dactylophyllium",
+           "accession": "sect. Dactylophyllium",
+           "note": "Classical section: Dactylophyllium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          }
+         ]
+        },
+        {
+         "id": "clade-anthurium-2",
+         "name": "Clade 2",
+         "rank": "clade",
+         "speciesCount": 6,
+         "note": "Support MP/ML/PP: -/70/0.99. Classical sections mixed here: no section (N/A) (4), Urospadix (2). Sampled here: A. acaule (URO); A. cordifolium — no section; A. willdenowii (URO); A. cordatum — no section; A. grandifolium — no section; A. dominicense — no section.",
+         "children": [
+          {
+           "id": "sp-anthurium-acaule",
+           "name": "Anthurium acaule",
+           "rank": "species",
+           "section": "Urospadix",
+           "accession": "sect. Urospadix",
+           "note": "Classical section: Urospadix — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-cordifolium",
+           "name": "Anthurium cordifolium",
+           "rank": "species",
+           "note": "The study assigns this species to no section (N/A in its fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-willdenowii",
+           "name": "Anthurium willdenowii",
+           "rank": "species",
+           "section": "Urospadix",
+           "accession": "sect. Urospadix",
+           "note": "Classical section: Urospadix — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-cordatum",
+           "name": "Anthurium cordatum",
+           "rank": "species",
+           "note": "The study assigns this species to no section (N/A in its fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-grandifolium",
+           "name": "Anthurium grandifolium",
+           "rank": "species",
+           "note": "The study assigns this species to no section (N/A in its fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-dominicense",
+           "name": "Anthurium dominicense",
+           "rank": "species",
+           "note": "The study assigns this species to no section (N/A in its fig. 1)."
+          }
+         ]
+        },
+        {
+         "id": "clade-anthurium-1",
+         "name": "Clade 1",
+         "rank": "clade",
+         "speciesCount": 9,
+         "note": "Support MP/ML/PP: 86/96/1.00. Classical sections mixed here: Urospadix (7), Chamaerepium (1), no section (N/A) (1). Sampled here: A. bellum (URO); A. longipes (URO); A. radicans (CHA); A. bromelicola — no section; A. harrisii (URO); A. lucidum (URO); A. olfersianum (URO); A. coriaceum (URO); A. parvum (URO).",
+         "children": [
+          {
+           "id": "sp-anthurium-bellum",
+           "name": "Anthurium bellum",
+           "rank": "species",
+           "section": "Urospadix",
+           "accession": "sect. Urospadix",
+           "note": "Classical section: Urospadix — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-longipes",
+           "name": "Anthurium longipes",
+           "rank": "species",
+           "section": "Urospadix",
+           "accession": "sect. Urospadix",
+           "note": "Classical section: Urospadix — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-radicans",
+           "name": "Anthurium radicans",
+           "rank": "species",
+           "section": "Chamaerepium",
+           "accession": "sect. Chamaerepium",
+           "note": "Classical section: Chamaerepium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-bromelicola",
+           "name": "Anthurium bromelicola",
+           "rank": "species",
+           "note": "The study assigns this species to no section (N/A in its fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-harrisii",
+           "name": "Anthurium harrisii",
+           "rank": "species",
+           "section": "Urospadix",
+           "accession": "sect. Urospadix",
+           "note": "Classical section: Urospadix — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-lucidum",
+           "name": "Anthurium lucidum",
+           "rank": "species",
+           "section": "Urospadix",
+           "accession": "sect. Urospadix",
+           "note": "Classical section: Urospadix — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-olfersianum",
+           "name": "Anthurium olfersianum",
+           "rank": "species",
+           "section": "Urospadix",
+           "accession": "sect. Urospadix",
+           "note": "Classical section: Urospadix — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-coriaceum",
+           "name": "Anthurium coriaceum",
+           "rank": "species",
+           "section": "Urospadix",
+           "accession": "sect. Urospadix",
+           "note": "Classical section: Urospadix — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-parvum",
+           "name": "Anthurium parvum",
+           "rank": "species",
+           "section": "Urospadix",
+           "accession": "sect. Urospadix",
+           "note": "Classical section: Urospadix — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          }
+         ]
+        },
+        {
+         "id": "clade-anthurium-a",
+         "name": "Clade A · Polyphyllium",
+         "rank": "clade",
+         "speciesCount": 2,
+         "note": "Support MP/ML/PP: 99/100/1.00. The molecular clade and the classical section coincide — one of the few drawers that survived the DNA. Sampled here: A. flexile (POLYP); A. clidemioides (POLYP). The earliest divergent lineage in the genus.",
+         "children": [
+          {
+           "id": "sp-anthurium-flexile",
+           "name": "Anthurium flexile",
+           "rank": "species",
+           "section": "Polyphyllium",
+           "accession": "sect. Polyphyllium",
+           "note": "Classical section: Polyphyllium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          },
+          {
+           "id": "sp-anthurium-clidemioides",
+           "name": "Anthurium clidemioides",
+           "rank": "species",
+           "section": "Polyphyllium",
+           "accession": "sect. Polyphyllium",
+           "note": "Classical section: Polyphyllium — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+          }
+         ]
+        },
+        {
+         "id": "sp-anthurium-unsampled",
+         "rank": "species",
+         "aggregate": true,
+         "name": "≈1358 species not sampled",
+         "speciesCount": 1358,
+         "note": "POWO accepts about 1460 Anthurium species; the study sampled 102 across all sections. The largest aroid genus is ~93% unsequenced."
+        }
+       ],
+       "speciesTierSource": "Carlsen & Croat (2013), Syst. Bot. 38(3): 576-588 — 102 species, chloroplast + nuclear; clades and sections per Carlsen & Croat (2019), Ann. Missouri Bot. Gard. 104(1): 69-82, fig. 1.",
+       "speciesTierNote": "No dated tree exists for Anthurium (even 2026 phylogenomics calls calibration future work), so this tier shows grouping, not time. The supported units are the study's numbered clades; the classical sections growers know are named on every species row — and 10 of the 15 sections tested are NOT natural groups. Clade A is the genus's earliest divergent lineage; everything else forms the strongly supported Clade B (99/100/1.00), whose internal backbone is largely unresolved — the numbered clades are listed in the study's own drawn order."
       }
      ]
     },
@@ -13728,7 +14697,7 @@
   }
  ],
  "metadata": {
-  "updated": "2026-08-11",
+  "updated": "2026-08-13",
   "about": {
    "intro": [
     "This tree shows how the roughly 150 accepted genera of the arum family are grouped: first into subfamilies, then into tribes, and finally into the genera themselves.",
@@ -13777,10 +14746,11 @@
     "1.18.0 - ancestral ranges on the Philodendron tier from Canal et al. (2019) Fig. 1's BioGeoBEARS pies: 126 nodes, 17 of the 17 named clades and subgenera.",
     "1.19.0 - Alocasia gageana renamed to Alocasia odora 'California' (the id is unchanged: an id is a permalink).",
     "1.20.0 - ancestral-range layer finished and audited: +14 leader-offset pies recovered (census by wedge-vertex + ring detection, global optimal assignment), 27 pieless forks proven absent, reader corrected (gray/dark pooled states -> 'other', overlapping pies isolated). Join-node 12.89 Ma re-read as Chocó & Andes + Amazonia 0.51 (was Amazonia 0.49 - same pie, true centre).",
-    "1.21.0 - ancestral ranges on the Alocasia cladogram from Nauheimer 2012 Table S3 (a table parse joined on the existing figNode numbers): all 55 nodes, Lagrange primary, the two method-conflict nodes (26, 41) stated on the card. Out-of-Borneo reproduces: 35 of 55 optima contain Borneo."
+    "1.21.0 - ancestral ranges on the Alocasia cladogram from Nauheimer 2012 Table S3 (a table parse joined on the existing figNode numbers): all 55 nodes, Lagrange primary, the two method-conflict nodes (26, 41) stated on the card. Out-of-Borneo reproduces: 35 of 55 optima contain Borneo.",
+    "1.22.0 - the ANTHURIUM TIER: Carlsen & Croat's 18 supported clades (A, B, 1-16) with all 102 sampled species, undated by necessity (no dated Anthurium tree exists); the classical sections layered onto every species row and clade card per the reader's ruling — 10 of 15 sections are not natural groups and the cards say so."
    ],
    "speciesCounts": "POWO master export, Araceae_Exports/EXCELS/_run_log.csv (validated accepted species).",
-   "version": "1.21.0",
+   "version": "1.22.0",
    "orthographicVariants": {
     "Stylochiton": "Treated as Stylochaeton Lepr. (MBB no. 34). The POWO export uses Stylochiton; which spelling Kew currently accepts is unconfirmed."
    },
