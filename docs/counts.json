@@ -1,5 +1,5 @@
 {
-  "species": 186,
+  "species": 194,
   "cultivars": 53,
   "hybrids": 150,
   "hybridCultivars": 9,
@@ -14,8 +14,8 @@
       "hybridCultivars": 9
     },
     "Amorphophallus": {
-      "total": 68,
-      "species": 68,
+      "total": 76,
+      "species": 76,
       "cultivars": 0,
       "hybrids": 0,
       "hybridCultivars": 0
@@ -31,12 +31,28 @@
       }
     },
     "Amorphophallus": {
-      "total": 68,
-      "placed": 68,
+      "total": 76,
+      "placed": 76,
       "zones": {
-        "africa": 14,
-        "asia": 54
+        "africa": 17,
+        "asia": 59
       }
+    }
+  },
+  "speciesGroups": {
+    "Amorphophallus": {
+      "Yunnanensis": 1,
+      "Pygmaeus": 1
+    },
+    "Alocasia": {
+      "Scabriuscula": 9,
+      "Princeps": 8,
+      "Macrorrhizos": 5,
+      "Longiloba": 3,
+      "Other": 3,
+      "Puber": 3,
+      "Coriaceae": 1,
+      "Cuprea": 1
     }
   },
   "diagnostics": {
@@ -44,19 +60,8 @@
     "multiCategoryItems": [],
     "unclassifiedItems": []
   },
-  "unresolvedTags": {
-    "Scabriuscula": 9,
-    "Princeps": 8,
-    "Macrorrhizos": 5,
-    "Longiloba": 3,
-    "Other": 3,
-    "Puber": 3,
-    "Yunnanensis": 1,
-    "Pygmaeus": 1,
-    "Coriaceae": 1,
-    "Cuprea": 1
-  },
-  "updatedAt": "2026-08-12T15:55:26.546Z",
+  "unresolvedTags": {},
+  "updatedAt": "2026-08-13T05:29:54.972Z",
   "source": "https://www.aroidpedia.com/journal",
-  "totalItemsScanned": 398
+  "totalItemsScanned": 406
 }
