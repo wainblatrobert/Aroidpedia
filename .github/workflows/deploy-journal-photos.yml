@@ -1,5 +1,9 @@
 # =====================================================================
 # AROIDPEDIA - DEPLOY ON JOURNAL PHOTO PUSH
+# FILE VERSION: v5   (8.12.26: also fires on docs/*-pollination/** —
+#   the guide-page photo folders. The herbivory photos were the first
+#   guide-photo push after this lane existed; without the filter a
+#   guide-photo push updates the repo but never deploys.)
 # FILE VERSION: v3   (8.10.26: also fires on docs/araceae-tree.v1.json)
 # FILE VERSION: v2   (8.10.26: also fires on docs/shapes.json and
 #   docs/climate.json - the map and climate data ship through the same
@@ -36,6 +40,9 @@ on:
       # v4 (8.12.26): the anatomy figure plates (guide-page diagrams)
       # ship through the same lane.
       - "docs/diagrams/**"
+      # v5 (8.12.26): the guide-page photo folders (monstera-pollination,
+      # alocasia-pollination, ...) ship through the same lane.
+      - "docs/*-pollination/**"
   workflow_dispatch:
 
 permissions:
