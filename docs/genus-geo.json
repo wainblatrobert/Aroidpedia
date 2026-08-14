@@ -1,0 +1,441 @@
+{
+ "version": "1.1.0",
+ "generated": "2026-08-14",
+ "source": "POWO/WCVP distribution API, native WGSRPD level-3 units",
+ "genera": {
+  "Amorphophallus": {
+   "speciesTotal": 246,
+   "places": {
+    "Thailand": 63,
+    "Vietnam": 40,
+    "Laos": 31,
+    "Philippines": 22,
+    "Borneo": 21,
+    "Myanmar": 18,
+    "Sumatra": 15,
+    "India": 15,
+    "Peninsular Malaysia": 13,
+    "DR Congo": 12,
+    "China South-Central": 12,
+    "Cambodia": 9,
+    "Madagascar": 8,
+    "Java": 8,
+    "Benin": 6,
+    "Cameroon": 6,
+    "Nigeria": 6,
+    "Tanzania": 6,
+    "East Himalaya": 6,
+    "Andaman Islands": 6,
+    "Assam": 6,
+    "Bangladesh": 6,
+    "China Southeast": 6,
+    "Burkina Faso": 5,
+    "Central African Republic": 5,
+    "Kenya": 5,
+    "Ghana": 4,
+    "Ivory Coast": 4,
+    "Togo": 4,
+    "Taiwan": 4,
+    "Chad": 3,
+    "Ethiopia": 3,
+    "Guinea": 3,
+    "Niger": 3,
+    "Zambia": 3,
+    "Zimbabwe": 3,
+    "Angola": 3,
+    "Senegal": 3,
+    "Sierra Leone": 3,
+    "Sulawesi": 3,
+    "Liberia": 3,
+    "Gambia": 3,
+    "Mozambique": 3,
+    "Lesser Sunda Islands": 3,
+    "Malawi": 2,
+    "Sudan-South Sudan": 2,
+    "Uganda": 2,
+    "Congo": 2,
+    "Gabon": 2,
+    "Guinea-Bissau": 2,
+    "Mali": 2,
+    "Nepal": 2,
+    "New Guinea": 2,
+    "Northern Territory": 2,
+    "Somalia": 2,
+    "Hainan": 2,
+    "Sri Lanka": 2,
+    "Zambezi Region": 1,
+    "Cabinda": 1,
+    "Queensland": 1,
+    "Western Australia": 1,
+    "Nicobar": 1,
+    "Japan": 1,
+    "Nansei-shoto": 1,
+    "Burundi": 1,
+    "Maluku": 1,
+    "Gulf of Guinea Islands": 1
+   },
+   "doubtful": {
+    "Somalia": 1,
+    "Angola": 1,
+    "DR Congo": 1
+   },
+   "introduced": {
+    "China South-Central": 1,
+    "China North-Central": 1,
+    "China Southeast": 1,
+    "East Himalaya": 1,
+    "Korea": 1,
+    "Nansei-shoto": 1,
+    "Philippines": 1,
+    "Thailand": 1,
+    "Tibet": 1,
+    "Vietnam": 1,
+    "Comoros": 1,
+    "Cook Islands": 1,
+    "Fiji": 1,
+    "Madagascar": 1,
+    "Marquesas": 1,
+    "New Caledonia": 1,
+    "Niue": 1,
+    "Samoa": 1,
+    "Seychelles": 1,
+    "Society Islands": 1,
+    "Trinidad and Tobago": 1,
+    "Vanuatu": 1
+   },
+   "codes": {
+    "Thailand": "THA",
+    "Benin": "BEN",
+    "Burkina Faso": "BKN",
+    "Cameroon": "CMN",
+    "Zambezi Region": "CPV",
+    "Central African Republic": "CAF",
+    "Chad": "CHA",
+    "DR Congo": "ZAI",
+    "Ethiopia": "ETH",
+    "Ghana": "GHA",
+    "Guinea": "GUI",
+    "Ivory Coast": "IVO",
+    "Kenya": "KEN",
+    "Malawi": "MLW",
+    "Niger": "NGR",
+    "Nigeria": "NGA",
+    "Sudan-South Sudan": "SUD",
+    "Tanzania": "TAN",
+    "Togo": "TOG",
+    "Uganda": "UGA",
+    "Zambia": "ZAM",
+    "Zimbabwe": "ZIM",
+    "Somalia": "SOM",
+    "Philippines": "PHI",
+    "China South-Central": "CHC",
+    "Madagascar": "MDG",
+    "Angola": "ANG",
+    "Cabinda": "CAB",
+    "Congo": "CON",
+    "Gabon": "GAB",
+    "Borneo": "BOR",
+    "Myanmar": "MYA",
+    "Java": "JAW",
+    "Guinea-Bissau": "GNB",
+    "Mali": "MLI",
+    "Senegal": "SEN",
+    "Sierra Leone": "SIE",
+    "Laos": "LAO",
+    "Sulawesi": "SUL",
+    "Sumatra": "SUM",
+    "Liberia": "LBR",
+    "Gambia": "GAM",
+    "East Himalaya": "EHM",
+    "India": "IND",
+    "Peninsular Malaysia": "MLY",
+    "Andaman Islands": "AND",
+    "Assam": "ASS",
+    "Bangladesh": "BAN",
+    "Nepal": "NEP",
+    "Vietnam": "VIE",
+    "China Southeast": "CHS",
+    "Cambodia": "CBD",
+    "New Guinea": "NWG",
+    "Northern Territory": "NTA",
+    "Queensland": "QLD",
+    "Western Australia": "WAU",
+    "Mozambique": "MOZ",
+    "Taiwan": "TAI",
+    "Nicobar": "NCB",
+    "Hainan": "CHH",
+    "Japan": "JAP",
+    "Nansei-shoto": "NNS",
+    "China North-Central": "CHN",
+    "Korea": "KOR",
+    "Tibet": "CHT",
+    "Burundi": "BUR",
+    "Lesser Sunda Islands": "LSI",
+    "Maluku": "MOL",
+    "Sri Lanka": "SRL",
+    "Comoros": "COM",
+    "Cook Islands": "COO",
+    "Fiji": "FIJ",
+    "Marquesas": "MRQ",
+    "New Caledonia": "NWC",
+    "Niue": "NUE",
+    "Samoa": "SAM",
+    "Seychelles": "SEY",
+    "Society Islands": "SCI",
+    "Trinidad and Tobago": "TRT",
+    "Vanuatu": "VAN",
+    "Gulf of Guinea Islands": "GGI"
+   },
+   "regions": {
+    "Indo-China": {
+     "count": 124,
+     "members": [
+      "Andaman Islands",
+      "Cambodia",
+      "Laos",
+      "Myanmar",
+      "Nicobar",
+      "Thailand",
+      "Vietnam"
+     ]
+    },
+    "Malesia": {
+     "count": 72,
+     "members": [
+      "Borneo",
+      "Java",
+      "Lesser Sunda Islands",
+      "Maluku",
+      "Peninsular Malaysia",
+      "Philippines",
+      "Sulawesi",
+      "Sumatra"
+     ]
+    },
+    "West-Central Tropical Africa": {
+     "count": 22,
+     "members": [
+      "Burundi",
+      "Cabinda",
+      "Cameroon",
+      "Central African Republic",
+      "Congo",
+      "DR Congo",
+      "Gabon",
+      "Gulf of Guinea Islands"
+     ]
+    },
+    "Indian Subcontinent": {
+     "count": 21,
+     "members": [
+      "Assam",
+      "Bangladesh",
+      "East Himalaya",
+      "India",
+      "Nepal",
+      "Sri Lanka"
+     ]
+    },
+    "China": {
+     "count": 14,
+     "members": [
+      "China South-Central",
+      "China Southeast",
+      "Hainan"
+     ]
+    },
+    "West Tropical Africa": {
+     "count": 11,
+     "members": [
+      "Benin",
+      "Burkina Faso",
+      "Gambia",
+      "Ghana",
+      "Guinea",
+      "Guinea-Bissau",
+      "Ivory Coast",
+      "Liberia",
+      "Mali",
+      "Niger",
+      "Nigeria",
+      "Senegal",
+      "Sierra Leone",
+      "Togo"
+     ]
+    },
+    "South Tropical Africa": {
+     "count": 9,
+     "members": [
+      "Angola",
+      "Malawi",
+      "Mozambique",
+      "Zambia",
+      "Zimbabwe"
+     ]
+    },
+    "East Tropical Africa": {
+     "count": 8,
+     "members": [
+      "Kenya",
+      "Tanzania",
+      "Uganda"
+     ]
+    },
+    "Western Indian Ocean": {
+     "count": 8,
+     "members": [
+      "Madagascar"
+     ]
+    },
+    "Northeast Tropical Africa": {
+     "count": 7,
+     "members": [
+      "Chad",
+      "Ethiopia",
+      "Somalia",
+      "Sudan-South Sudan"
+     ]
+    },
+    "Eastern Asia": {
+     "count": 4,
+     "members": [
+      "Japan",
+      "Nansei-shoto",
+      "Taiwan"
+     ]
+    },
+    "Australia": {
+     "count": 2,
+     "members": [
+      "Northern Territory",
+      "Queensland",
+      "Western Australia"
+     ]
+    },
+    "Papuasia": {
+     "count": 2,
+     "members": [
+      "New Guinea"
+     ]
+    },
+    "Southern Africa": {
+     "count": 1,
+     "members": [
+      "Zambezi Region"
+     ]
+    }
+   },
+   "continents": {
+    "Tropical Asia": {
+     "count": 198,
+     "regions": [
+      "Indian Subcontinent",
+      "Indo-China",
+      "Malesia",
+      "Papuasia"
+     ],
+     "members": [
+      "Andaman Islands",
+      "Assam",
+      "Bangladesh",
+      "Borneo",
+      "Cambodia",
+      "East Himalaya",
+      "India",
+      "Java",
+      "Laos",
+      "Lesser Sunda Islands",
+      "Maluku",
+      "Myanmar",
+      "Nepal",
+      "New Guinea",
+      "Nicobar",
+      "Peninsular Malaysia",
+      "Philippines",
+      "Sri Lanka",
+      "Sulawesi",
+      "Sumatra",
+      "Thailand",
+      "Vietnam"
+     ]
+    },
+    "Africa": {
+     "count": 40,
+     "regions": [
+      "East Tropical Africa",
+      "Northeast Tropical Africa",
+      "South Tropical Africa",
+      "Southern Africa",
+      "West Tropical Africa",
+      "West-Central Tropical Africa",
+      "Western Indian Ocean"
+     ],
+     "members": [
+      "Angola",
+      "Benin",
+      "Burkina Faso",
+      "Burundi",
+      "Cabinda",
+      "Cameroon",
+      "Central African Republic",
+      "Chad",
+      "Congo",
+      "DR Congo",
+      "Ethiopia",
+      "Gabon",
+      "Gambia",
+      "Ghana",
+      "Guinea",
+      "Guinea-Bissau",
+      "Gulf of Guinea Islands",
+      "Ivory Coast",
+      "Kenya",
+      "Liberia",
+      "Madagascar",
+      "Malawi",
+      "Mali",
+      "Mozambique",
+      "Niger",
+      "Nigeria",
+      "Senegal",
+      "Sierra Leone",
+      "Somalia",
+      "Sudan-South Sudan",
+      "Tanzania",
+      "Togo",
+      "Uganda",
+      "Zambezi Region",
+      "Zambia",
+      "Zimbabwe"
+     ]
+    },
+    "Temperate Asia": {
+     "count": 16,
+     "regions": [
+      "China",
+      "Eastern Asia"
+     ],
+     "members": [
+      "China South-Central",
+      "China Southeast",
+      "Hainan",
+      "Japan",
+      "Nansei-shoto",
+      "Taiwan"
+     ]
+    },
+    "Australasia": {
+     "count": 2,
+     "regions": [
+      "Australia"
+     ],
+     "members": [
+      "Northern Territory",
+      "Queensland",
+      "Western Australia"
+     ]
+    }
+   }
+  }
+ }
+}

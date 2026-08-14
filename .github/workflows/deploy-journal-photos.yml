@@ -1,5 +1,8 @@
 # =====================================================================
 # AROIDPEDIA - DEPLOY ON JOURNAL PHOTO PUSH
+# FILE VERSION: v7   (8.13.26: also fires on docs/shapes-hd.json and
+#   docs/genus-geo.json — the GENUS RANGE MAP's high-detail shapes and
+#   per-genus species-count feed ship through the same no-wait lane.)
 # FILE VERSION: v6   (8.13.26: also fires on docs/*-QUICK-GUIDE.pdf —
 #   the field cards live at the docs ROOT, uppercase, and were only
 #   deployed by the daily scheduled workflows before this.)
@@ -48,6 +51,9 @@ on:
       - "docs/*-pollination/**"
       # v6 (8.13.26): the field-card PDFs (docs root, uppercase).
       - "docs/*-QUICK-GUIDE.pdf"
+      # v7 (8.13.26): the genus range map's data files.
+      - "docs/shapes-hd.json"
+      - "docs/genus-geo.json"
   workflow_dispatch:
 
 permissions:
