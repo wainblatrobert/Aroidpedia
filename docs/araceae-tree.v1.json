@@ -678,7 +678,7 @@
            "section": "Dochafa",
            "accession": "sect. Dochafa",
            "powo": true,
-           "note": "Section Dochafa per the revised system of Ohi-Toma et al. (2016). Sampled as ssp. flavum and ssp. tibeticum."
+           "note": "Section Dochafa per the revised system of Ohi-Toma et al. (2016). Sampled as ssp. flavum and ssp. tibeticum. Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-tortuosum",
@@ -687,7 +687,7 @@
            "section": "Tortuosa",
            "accession": "sect. Tortuosa",
            "powo": true,
-           "note": "Section Tortuosa per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Tortuosa per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-murrayi",
@@ -696,7 +696,7 @@
            "section": "Tortuosa",
            "accession": "sect. Tortuosa",
            "powo": true,
-           "note": "Section Tortuosa per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Tortuosa per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-sahyadricum",
@@ -704,7 +704,7 @@
            "rank": "species",
            "section": "Tortuosa",
            "accession": "sect. Tortuosa",
-           "note": "Section Tortuosa per the revised system of Ohi-Toma et al. (2016). Not in the site's POWO export under this name."
+           "note": "Section Tortuosa per the revised system of Ohi-Toma et al. (2016). Not in the site's POWO export under this name. Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-jacquemontii",
@@ -713,7 +713,7 @@
            "section": "Tenuipistillata",
            "accession": "sect. Tenuipistillata",
            "powo": true,
-           "note": "Section Tenuipistillata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Tenuipistillata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           }
          ],
          "note": "Support MP/ML: 56/71. Three of Murata's sections meet here: Dochafa (A. flavum), Tortuosa (the A. tortuosum group) and Tenuipistillata (A. jacquemontii — its other member, A. schimperianum, sits in Clade II, and this study moves it to section Arisaema accordingly)."
@@ -731,7 +731,7 @@
            "section": "Arisaema",
            "accession": "sect. Arisaema",
            "powo": true,
-           "note": "Section Arisaema per the revised system of Ohi-Toma et al. (2016). Moved to section Arisaema by this study (from Tenuipistillata/Sinarisaema) — it is nested in Clade II. The genus's only East African species."
+           "note": "Section Arisaema per the revised system of Ohi-Toma et al. (2016). Moved to section Arisaema by this study (from Tenuipistillata/Sinarisaema) — it is nested in Clade II. The genus's only East African species. Gusman & Gusman's monograph (2006) files it in section Sinarisaema."
           },
           {
            "id": "sp-arisaema-costatum",
@@ -740,7 +740,7 @@
            "section": "Arisaema",
            "accession": "sect. Arisaema",
            "powo": true,
-           "note": "Section Arisaema per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Arisaema per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-dahaiense",
@@ -749,7 +749,7 @@
            "section": "Arisaema",
            "accession": "sect. Arisaema",
            "powo": true,
-           "note": "Section Arisaema per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Arisaema per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-griffithii",
@@ -758,7 +758,7 @@
            "section": "Arisaema",
            "accession": "sect. Arisaema",
            "powo": true,
-           "note": "Section Arisaema per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Arisaema per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-utile",
@@ -767,7 +767,7 @@
            "section": "Arisaema",
            "accession": "sect. Arisaema",
            "powo": true,
-           "note": "Section Arisaema per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Arisaema per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-propinquum",
@@ -776,7 +776,7 @@
            "section": "Arisaema",
            "accession": "sect. Arisaema",
            "powo": true,
-           "note": "Section Arisaema per the revised system of Ohi-Toma et al. (2016). The figure also lists A. ostiolatum here (synonyms in the latest classification)."
+           "note": "Section Arisaema per the revised system of Ohi-Toma et al. (2016). The figure also lists A. ostiolatum here (synonyms in the latest classification). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-speciosum",
@@ -785,7 +785,7 @@
            "section": "Arisaema",
            "accession": "sect. Arisaema",
            "powo": true,
-           "note": "Section Arisaema per the revised system of Ohi-Toma et al. (2016). Sampled as var. speciosum and var. ziroense."
+           "note": "Section Arisaema per the revised system of Ohi-Toma et al. (2016). Sampled as var. speciosum and var. ziroense. Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-wilsonii",
@@ -794,7 +794,7 @@
            "section": "Arisaema",
            "accession": "sect. Arisaema",
            "powo": true,
-           "note": "Section Arisaema per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Arisaema per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-asperatum",
@@ -803,7 +803,7 @@
            "section": "Arisaema",
            "accession": "sect. Arisaema",
            "powo": true,
-           "note": "Section Arisaema per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Arisaema per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-elephas",
@@ -812,7 +812,7 @@
            "section": "Arisaema",
            "accession": "sect. Arisaema",
            "powo": true,
-           "note": "Section Arisaema per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Arisaema per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           }
          ],
          "note": "Support MP/ML: 97/95. Section Arisaema as emended by this study — including the East African A. schimperianum, formerly of Tenuipistillata/Sinarisaema. Renner et al. (2004) date its split from the Nepalese–Tibetan A. costatum at roughly 31 ± 10 My (19–32 My across methods) — an Oligocene/Miocene floristic link between East Africa, Arabia and the Himalaya."
@@ -830,7 +830,7 @@
            "section": "Fimbriata",
            "accession": "sect. Fimbriata",
            "powo": true,
-           "note": "Section Fimbriata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Fimbriata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           }
          ],
          "note": "A single branch with unique sequence variation: A. fimbriatum. This study resurrects section Fimbriata for it (Murata had synonymised it into Attenuata)."
@@ -848,7 +848,7 @@
            "section": "Attenuata",
            "accession": "sect. Attenuata",
            "powo": true,
-           "note": "Section Attenuata per the revised system of Ohi-Toma et al. (2016). The figure also lists A. harmandii here (synonyms in the latest classification)."
+           "note": "Section Attenuata per the revised system of Ohi-Toma et al. (2016). The figure also lists A. harmandii here (synonyms in the latest classification). Gusman & Gusman's monograph (2006) files it in section Fimbriata."
           },
           {
            "id": "sp-arisaema-album",
@@ -857,7 +857,7 @@
            "section": "Attenuata",
            "accession": "sect. Attenuata",
            "powo": true,
-           "note": "Section Attenuata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Attenuata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in section Fimbriata."
           },
           {
            "id": "sp-arisaema-penicillatum",
@@ -866,7 +866,7 @@
            "section": "Attenuata",
            "accession": "sect. Attenuata",
            "powo": true,
-           "note": "Section Attenuata per the revised system of Ohi-Toma et al. (2016). The figure also lists A. matsudae here (synonyms in the latest classification)."
+           "note": "Section Attenuata per the revised system of Ohi-Toma et al. (2016). The figure also lists A. matsudae here (synonyms in the latest classification). Gusman & Gusman's monograph (2006) files it in section Fimbriata."
           },
           {
            "id": "sp-arisaema-maxwellii",
@@ -875,7 +875,7 @@
            "section": "Attenuata",
            "accession": "sect. Attenuata",
            "powo": true,
-           "note": "Section Attenuata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Attenuata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in section Fimbriata."
           },
           {
            "id": "sp-arisaema-microspadix",
@@ -884,7 +884,7 @@
            "section": "Attenuata",
            "accession": "sect. Attenuata",
            "powo": true,
-           "note": "Section Attenuata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Attenuata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in section Fimbriata."
           },
           {
            "id": "sp-arisaema-inclusum",
@@ -893,7 +893,7 @@
            "section": "Attenuata",
            "accession": "sect. Attenuata",
            "powo": true,
-           "note": "Section Attenuata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Attenuata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in section Fimbriata."
           },
           {
            "id": "sp-arisaema-laminatum",
@@ -902,7 +902,7 @@
            "section": "Attenuata",
            "accession": "sect. Attenuata",
            "powo": true,
-           "note": "Section Attenuata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Attenuata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in section Fimbriata."
           }
          ],
          "note": "Support MP/ML: 96/91. Section Attenuata in the study's emended sense — A. fimbriatum split back out as its own section (Clade III)."
@@ -920,7 +920,7 @@
            "section": "Odorata",
            "accession": "sect. Odorata",
            "powo": true,
-           "note": "Section Odorata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Odorata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in section Attenuata."
           },
           {
            "id": "sp-arisaema-lidaense",
@@ -929,7 +929,7 @@
            "section": "Odorata",
            "accession": "sect. Odorata",
            "powo": true,
-           "note": "Section Odorata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Odorata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in section Attenuata."
           },
           {
            "id": "sp-arisaema-saxatile",
@@ -938,7 +938,7 @@
            "section": "Odorata",
            "accession": "sect. Odorata",
            "powo": true,
-           "note": "Section Odorata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Odorata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in section Attenuata."
           },
           {
            "id": "sp-arisaema-mairei",
@@ -947,7 +947,7 @@
            "section": "Odorata",
            "accession": "sect. Odorata",
            "powo": true,
-           "note": "Section Odorata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Odorata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in section Attenuata."
           },
           {
            "id": "sp-arisaema-yunnanense",
@@ -956,7 +956,7 @@
            "section": "Odorata",
            "accession": "sect. Odorata",
            "powo": true,
-           "note": "Section Odorata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Odorata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in section Attenuata."
           },
           {
            "id": "sp-arisaema-quinquelobatum",
@@ -964,7 +964,7 @@
            "rank": "species",
            "section": "Odorata",
            "accession": "sect. Odorata",
-           "note": "Section Odorata per the revised system of Ohi-Toma et al. (2016). Not in the site's POWO export under this name."
+           "note": "Section Odorata per the revised system of Ohi-Toma et al. (2016). Not in the site's POWO export under this name. Gusman & Gusman's monograph (2006) files it in section Attenuata."
           }
          ],
          "note": "Support MP/ML: 89/94. Section Odorata — a clean drawer: the molecular clade and the section coincide."
@@ -982,7 +982,7 @@
            "section": "Anomala",
            "accession": "sect. Anomala",
            "powo": true,
-           "note": "Section Anomala per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Anomala per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-garrettii",
@@ -991,7 +991,7 @@
            "section": "Anomala",
            "accession": "sect. Anomala",
            "powo": true,
-           "note": "Section Anomala per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Anomala per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-bannaense",
@@ -1000,7 +1000,7 @@
            "section": "Anomala",
            "accession": "sect. Anomala",
            "powo": true,
-           "note": "Section Anomala per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Anomala per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-umbrinum",
@@ -1009,7 +1009,7 @@
            "section": "Anomala",
            "accession": "sect. Anomala",
            "powo": true,
-           "note": "Section Anomala per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Anomala per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-filiforme",
@@ -1018,7 +1018,7 @@
            "section": "Anomala",
            "accession": "sect. Anomala",
            "powo": true,
-           "note": "Section Anomala per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Anomala per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-wrayi",
@@ -1027,7 +1027,7 @@
            "section": "Anomala",
            "accession": "sect. Anomala",
            "powo": true,
-           "note": "Section Anomala per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Anomala per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-scortechinii",
@@ -1036,7 +1036,7 @@
            "section": "Anomala",
            "accession": "sect. Anomala",
            "powo": true,
-           "note": "Section Anomala per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Anomala per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-rubrirhizomatum",
@@ -1045,7 +1045,7 @@
            "section": "Anomala",
            "accession": "sect. Anomala",
            "powo": true,
-           "note": "Section Anomala per the revised system of Ohi-Toma et al. (2016). The figure also lists A. calcareum here (synonyms in the latest classification)."
+           "note": "Section Anomala per the revised system of Ohi-Toma et al. (2016). The figure also lists A. calcareum here (synonyms in the latest classification). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-hainanense",
@@ -1054,7 +1054,7 @@
            "section": "Anomala",
            "accession": "sect. Anomala",
            "powo": true,
-           "note": "Section Anomala per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Anomala per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-petelotii",
@@ -1063,7 +1063,7 @@
            "section": "Anomala",
            "accession": "sect. Anomala",
            "powo": true,
-           "note": "Section Anomala per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Anomala per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-omkoiense",
@@ -1072,7 +1072,7 @@
            "section": "Anomala",
            "accession": "sect. Anomala",
            "powo": true,
-           "note": "Section Anomala per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Anomala per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-lihengianum",
@@ -1081,7 +1081,7 @@
            "section": "Anomala",
            "accession": "sect. Anomala",
            "powo": true,
-           "note": "Section Anomala per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Anomala per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-grapsospadix",
@@ -1090,7 +1090,7 @@
            "section": "Anomala",
            "accession": "sect. Anomala",
            "powo": true,
-           "note": "Section Anomala per the revised system of Ohi-Toma et al. (2016). The figure also lists A. nanjenense here (synonyms in the latest classification)."
+           "note": "Section Anomala per the revised system of Ohi-Toma et al. (2016). The figure also lists A. nanjenense here (synonyms in the latest classification). Gusman & Gusman's monograph (2006) files it in the same drawer."
           }
          ],
          "note": "Support MP/ML: 97/96. Section Anomala — a clean drawer: the molecular clade and the section coincide."
@@ -1108,7 +1108,7 @@
            "section": "Flagellarisaema",
            "accession": "sect. Flagellarisaema",
            "powo": true,
-           "note": "Section Flagellarisaema per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Flagellarisaema per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in section Tortuosa."
           },
           {
            "id": "sp-arisaema-dracontium",
@@ -1117,7 +1117,7 @@
            "section": "Flagellarisaema",
            "accession": "sect. Flagellarisaema",
            "powo": true,
-           "note": "Section Flagellarisaema per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Flagellarisaema per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in section Tortuosa."
           },
           {
            "id": "sp-arisaema-heterophyllum",
@@ -1126,7 +1126,7 @@
            "section": "Flagellarisaema",
            "accession": "sect. Flagellarisaema",
            "powo": true,
-           "note": "Section Flagellarisaema per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Flagellarisaema per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in section Tortuosa."
           },
           {
            "id": "sp-arisaema-cordatum",
@@ -1135,7 +1135,7 @@
            "section": "Flagellarisaema",
            "accession": "sect. Flagellarisaema",
            "powo": true,
-           "note": "Section Flagellarisaema per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Flagellarisaema per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-kiushianum",
@@ -1144,7 +1144,7 @@
            "section": "Flagellarisaema",
            "accession": "sect. Flagellarisaema",
            "powo": true,
-           "note": "Section Flagellarisaema per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Flagellarisaema per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-thunbergii",
@@ -1153,7 +1153,7 @@
            "section": "Flagellarisaema",
            "accession": "sect. Flagellarisaema",
            "powo": true,
-           "note": "Section Flagellarisaema per the revised system of Ohi-Toma et al. (2016). Sampled as ssp. autumnale and ssp. thunbergii and ssp. urashima."
+           "note": "Section Flagellarisaema per the revised system of Ohi-Toma et al. (2016). Sampled as ssp. autumnale and ssp. thunbergii and ssp. urashima. Gusman & Gusman's monograph (2006) files it in the same drawer."
           }
          ],
          "note": "Support MP/ML: 80/61. Section Flagellarisaema in Murata's sense (Gusman & Gusman filed the A. macrospathum–dracontium–heterophyllum trio under Tortuosa instead). Holds a North American pair: Renner et al. (2004) date A. dracontium + A. macrospathum against their Asian relatives at ~49 ± 12 My — the older of the genus's two Asia → North America crossings."
@@ -1171,7 +1171,7 @@
            "section": "Clavata",
            "accession": "sect. Clavata",
            "powo": true,
-           "note": "Section Clavata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Clavata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-ilanense",
@@ -1180,7 +1180,7 @@
            "section": "Clavata",
            "accession": "sect. Clavata",
            "powo": true,
-           "note": "Section Clavata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Clavata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-hunanense",
@@ -1189,7 +1189,7 @@
            "section": "Clavata",
            "accession": "sect. Clavata",
            "powo": true,
-           "note": "Section Clavata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Clavata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in section Tortuosa."
           },
           {
            "id": "sp-arisaema-negishii",
@@ -1198,7 +1198,7 @@
            "section": "Clavata",
            "accession": "sect. Clavata",
            "powo": true,
-           "note": "Section Clavata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Clavata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in section Tortuosa."
           },
           {
            "id": "sp-arisaema-heterocephalum",
@@ -1207,7 +1207,7 @@
            "section": "Clavata",
            "accession": "sect. Clavata",
            "powo": true,
-           "note": "Section Clavata per the revised system of Ohi-Toma et al. (2016). Sampled as ssp. heterocephalum and ssp. majus and ssp. okinawaense."
+           "note": "Section Clavata per the revised system of Ohi-Toma et al. (2016). Sampled as ssp. heterocephalum and ssp. majus and ssp. okinawaense. Gusman & Gusman's monograph (2006) files it in the same drawer."
           }
          ],
          "note": "Support MP/ML: 99/90. Section Clavata — a clean drawer: the molecular clade and the section coincide."
@@ -1225,7 +1225,7 @@
            "section": "Nepenthoidea",
            "accession": "sect. Nepenthoidea",
            "powo": true,
-           "note": "Section Nepenthoidea per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Nepenthoidea per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in section Flagellarisaema."
           },
           {
            "id": "sp-arisaema-meleagris",
@@ -1234,7 +1234,7 @@
            "section": "Nepenthoidea",
            "accession": "sect. Nepenthoidea",
            "powo": true,
-           "note": "Section Nepenthoidea per the revised system of Ohi-Toma et al. (2016). The figure also lists A. shimienense here (synonyms in the latest classification)."
+           "note": "Section Nepenthoidea per the revised system of Ohi-Toma et al. (2016). The figure also lists A. shimienense here (synonyms in the latest classification). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-nepenthoides",
@@ -1243,7 +1243,7 @@
            "section": "Nepenthoidea",
            "accession": "sect. Nepenthoidea",
            "powo": true,
-           "note": "Section Nepenthoidea per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Nepenthoidea per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-wattii",
@@ -1252,7 +1252,7 @@
            "section": "Nepenthoidea",
            "accession": "sect. Nepenthoidea",
            "powo": true,
-           "note": "Section Nepenthoidea per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Nepenthoidea per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-decipiens",
@@ -1261,7 +1261,7 @@
            "section": "Decipientia",
            "accession": "sect. Decipientia",
            "powo": true,
-           "note": "Section Decipientia per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Decipientia per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-sinii",
@@ -1270,7 +1270,7 @@
            "section": "Franchetiana",
            "accession": "sect. Franchetiana",
            "powo": true,
-           "note": "Section Franchetiana per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Franchetiana per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in section Clavata."
           },
           {
            "id": "sp-arisaema-fargesii",
@@ -1279,7 +1279,7 @@
            "section": "Franchetiana",
            "accession": "sect. Franchetiana",
            "powo": true,
-           "note": "Section Franchetiana per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Franchetiana per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-candidissimum",
@@ -1288,7 +1288,7 @@
            "section": "Franchetiana",
            "accession": "sect. Franchetiana",
            "powo": true,
-           "note": "Section Franchetiana per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Franchetiana per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-franchetianum",
@@ -1297,7 +1297,7 @@
            "section": "Franchetiana",
            "accession": "sect. Franchetiana",
            "powo": true,
-           "note": "Section Franchetiana per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Franchetiana per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-indet-myanmar",
@@ -1305,7 +1305,7 @@
            "rank": "species",
            "section": "Sinarisaema",
            "accession": "sp. — Myanmar",
-           "note": "An accession identified only to genus, from Myanmar, placed in section Sinarisaema's block of the figure."
+           "note": "An accession identified only to genus, from Myanmar, placed in section Sinarisaema's block of the figure. Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-muratae",
@@ -1314,7 +1314,7 @@
            "section": "Sinarisaema",
            "accession": "sect. Sinarisaema",
            "powo": true,
-           "note": "Section Sinarisaema per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Sinarisaema per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-exappendiculatum",
@@ -1323,7 +1323,7 @@
            "section": "Sinarisaema",
            "accession": "sect. Sinarisaema",
            "powo": true,
-           "note": "Section Sinarisaema per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Sinarisaema per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-erubescens",
@@ -1332,7 +1332,7 @@
            "section": "Sinarisaema",
            "accession": "sect. Sinarisaema",
            "powo": true,
-           "note": "Section Sinarisaema per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Sinarisaema per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-concinnum",
@@ -1341,7 +1341,7 @@
            "section": "Sinarisaema",
            "accession": "sect. Sinarisaema",
            "powo": true,
-           "note": "Section Sinarisaema per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Sinarisaema per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-ciliatum",
@@ -1350,7 +1350,7 @@
            "section": "Sinarisaema",
            "accession": "sect. Sinarisaema",
            "powo": true,
-           "note": "Section Sinarisaema per the revised system of Ohi-Toma et al. (2016). Sampled as var. ciliatum and var. l."
+           "note": "Section Sinarisaema per the revised system of Ohi-Toma et al. (2016). Sampled as var. ciliatum and var. l. Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-taiwanense",
@@ -1359,7 +1359,7 @@
            "section": "Sinarisaema",
            "accession": "sect. Sinarisaema",
            "powo": true,
-           "note": "Section Sinarisaema per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Sinarisaema per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-consanguineum",
@@ -1368,7 +1368,7 @@
            "section": "Sinarisaema",
            "accession": "sect. Sinarisaema",
            "powo": true,
-           "note": "Section Sinarisaema per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Sinarisaema per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-formosanum",
@@ -1377,7 +1377,7 @@
            "section": "Sinarisaema",
            "accession": "sect. Sinarisaema",
            "powo": true,
-           "note": "Section Sinarisaema per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Sinarisaema per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-polyphyllum",
@@ -1386,7 +1386,7 @@
            "section": "Sinarisaema",
            "accession": "sect. Sinarisaema",
            "powo": true,
-           "note": "Section Sinarisaema per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Sinarisaema per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-calcareum",
@@ -1395,7 +1395,7 @@
            "section": "Sinarisaema",
            "accession": "sect. Sinarisaema",
            "powo": true,
-           "note": "Section Sinarisaema per the revised system of Ohi-Toma et al. (2016). The figure also lists A. jinshajiangense here (synonyms in the latest classification)."
+           "note": "Section Sinarisaema per the revised system of Ohi-Toma et al. (2016). The figure also lists A. jinshajiangense here (synonyms in the latest classification). Gusman & Gusman's monograph (2006) files it in section Clavata."
           },
           {
            "id": "sp-arisaema-lobatum",
@@ -1404,7 +1404,7 @@
            "section": "Pistillata",
            "accession": "sect. Pistillata",
            "powo": true,
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in section Lobata."
           },
           {
            "id": "sp-arisaema-ternatipartitum",
@@ -1413,7 +1413,7 @@
            "section": "Pistillata",
            "accession": "sect. Pistillata",
            "powo": true,
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-triphyllum",
@@ -1422,7 +1422,7 @@
            "section": "Pistillata",
            "accession": "sect. Pistillata",
            "powo": true,
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-ringens",
@@ -1431,7 +1431,7 @@
            "section": "Pistillata",
            "accession": "sect. Pistillata",
            "powo": true,
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-inaense",
@@ -1440,7 +1440,7 @@
            "section": "Pistillata",
            "accession": "sect. Pistillata",
            "powo": true,
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-nagiense",
@@ -1449,7 +1449,7 @@
            "section": "Pistillata",
            "accession": "sect. Pistillata",
            "powo": true,
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-ovale",
@@ -1458,7 +1458,7 @@
            "section": "Pistillata",
            "accession": "sect. Pistillata",
            "powo": true,
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-nikoense",
@@ -1467,7 +1467,7 @@
            "section": "Pistillata",
            "accession": "sect. Pistillata",
            "powo": true,
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Sampled as ssp. alpicola and ssp. australe and ssp. brevicollum and ssp. nikoense."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Sampled as ssp. alpicola and ssp. australe and ssp. brevicollum and ssp. nikoense. Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-amurense",
@@ -1476,7 +1476,7 @@
            "section": "Pistillata",
            "accession": "sect. Pistillata",
            "powo": true,
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-sachalinense",
@@ -1485,7 +1485,7 @@
            "section": "Pistillata",
            "accession": "sect. Pistillata",
            "powo": true,
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-ogatae",
@@ -1494,7 +1494,7 @@
            "section": "Pistillata",
            "accession": "sect. Pistillata",
            "powo": true,
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-ishizuchiense",
@@ -1503,7 +1503,7 @@
            "section": "Pistillata",
            "accession": "sect. Pistillata",
            "powo": true,
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-kawashimae",
@@ -1512,7 +1512,7 @@
            "section": "Pistillata",
            "accession": "sect. Pistillata",
            "powo": true,
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-longipedunculatum",
@@ -1521,7 +1521,7 @@
            "section": "Pistillata",
            "accession": "sect. Pistillata",
            "powo": true,
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-aprile",
@@ -1530,7 +1530,7 @@
            "section": "Pistillata",
            "accession": "sect. Pistillata",
            "powo": true,
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-maximowiczii",
@@ -1539,7 +1539,7 @@
            "section": "Pistillata",
            "accession": "sect. Pistillata",
            "powo": true,
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-minamitanii",
@@ -1548,7 +1548,7 @@
            "section": "Pistillata",
            "accession": "sect. Pistillata",
            "powo": true,
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-serratum",
@@ -1557,7 +1557,7 @@
            "section": "Pistillata",
            "accession": "sect. Pistillata",
            "powo": true,
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-tashiroi",
@@ -1566,7 +1566,7 @@
            "section": "Pistillata",
            "accession": "sect. Pistillata",
            "powo": true,
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-unzenense",
@@ -1574,7 +1574,7 @@
            "rank": "species",
            "section": "Pistillata",
            "accession": "sect. Pistillata",
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Not an accepted name in the site's POWO export today — the Japanese Pistillata names have since been widely lumped."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Not an accepted name in the site's POWO export today — the Japanese Pistillata names have since been widely lumped. Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-iyoanum",
@@ -1583,7 +1583,7 @@
            "section": "Pistillata",
            "accession": "sect. Pistillata",
            "powo": true,
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Sampled as ssp. iyoanum and ssp. nakaianum."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Sampled as ssp. iyoanum and ssp. nakaianum. Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-maekawae",
@@ -1592,7 +1592,7 @@
            "section": "Pistillata",
            "accession": "sect. Pistillata",
            "powo": true,
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-suwoense",
@@ -1600,7 +1600,7 @@
            "rank": "species",
            "section": "Pistillata",
            "accession": "sect. Pistillata",
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). The figure also lists A. izuense here (synonyms in the latest classification). Not an accepted name in the site's POWO export today — the Japanese Pistillata names have since been widely lumped."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). The figure also lists A. izuense here (synonyms in the latest classification). Not an accepted name in the site's POWO export today — the Japanese Pistillata names have since been widely lumped. Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-longilaminum",
@@ -1608,7 +1608,7 @@
            "rank": "species",
            "section": "Pistillata",
            "accession": "sect. Pistillata",
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Not an accepted name in the site's POWO export today — the Japanese Pistillata names have since been widely lumped."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Not an accepted name in the site's POWO export today — the Japanese Pistillata names have since been widely lumped. Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-abei",
@@ -1617,7 +1617,7 @@
            "section": "Pistillata",
            "accession": "sect. Pistillata",
            "powo": true,
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-aequinoctiale",
@@ -1626,7 +1626,7 @@
            "section": "Pistillata",
            "accession": "sect. Pistillata",
            "powo": true,
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-bockii",
@@ -1635,7 +1635,7 @@
            "section": "Pistillata",
            "accession": "sect. Pistillata",
            "powo": true,
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). The figure also lists A. engleri here (synonyms in the latest classification)."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). The figure also lists A. engleri here (synonyms in the latest classification). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-ehimense",
@@ -1644,7 +1644,7 @@
            "section": "Pistillata",
            "accession": "sect. Pistillata",
            "powo": true,
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-galeiforme",
@@ -1652,7 +1652,7 @@
            "rank": "species",
            "section": "Pistillata",
            "accession": "sect. Pistillata",
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Not an accepted name in the site's POWO export today — the Japanese Pistillata names have since been widely lumped."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Not an accepted name in the site's POWO export today — the Japanese Pistillata names have since been widely lumped. Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-hatizyoense",
@@ -1660,7 +1660,7 @@
            "rank": "species",
            "section": "Pistillata",
            "accession": "sect. Pistillata",
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Not an accepted name in the site's POWO export today — the Japanese Pistillata names have since been widely lumped."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Not an accepted name in the site's POWO export today — the Japanese Pistillata names have since been widely lumped. Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-japonicum",
@@ -1669,7 +1669,7 @@
            "section": "Pistillata",
            "accession": "sect. Pistillata",
            "powo": true,
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-kishidae",
@@ -1678,7 +1678,7 @@
            "section": "Pistillata",
            "accession": "sect. Pistillata",
            "powo": true,
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-kuratae",
@@ -1687,7 +1687,7 @@
            "section": "Pistillata",
            "accession": "sect. Pistillata",
            "powo": true,
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-limbatum",
@@ -1696,7 +1696,7 @@
            "section": "Pistillata",
            "accession": "sect. Pistillata",
            "powo": true,
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-minus",
@@ -1705,7 +1705,7 @@
            "section": "Pistillata",
            "accession": "sect. Pistillata",
            "powo": true,
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-monophyllum",
@@ -1714,7 +1714,7 @@
            "section": "Pistillata",
            "accession": "sect. Pistillata",
            "powo": true,
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Sampled as var. atrolinguum and var. monophyllum."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Sampled as var. atrolinguum and var. monophyllum. Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-nambae",
@@ -1723,7 +1723,7 @@
            "section": "Pistillata",
            "accession": "sect. Pistillata",
            "powo": true,
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-planilaminum",
@@ -1731,7 +1731,7 @@
            "rank": "species",
            "section": "Pistillata",
            "accession": "sect. Pistillata",
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Not an accepted name in the site's POWO export today — the Japanese Pistillata names have since been widely lumped."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Not an accepted name in the site's POWO export today — the Japanese Pistillata names have since been widely lumped. Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-sazensoo",
@@ -1740,7 +1740,7 @@
            "section": "Pistillata",
            "accession": "sect. Pistillata",
            "powo": true,
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-seppikoense",
@@ -1749,7 +1749,7 @@
            "section": "Pistillata",
            "accession": "sect. Pistillata",
            "powo": true,
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-peninsulae",
@@ -1757,7 +1757,7 @@
            "rank": "species",
            "section": "Pistillata",
            "accession": "sect. Pistillata",
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). The figure also lists A. boreale here (synonyms in the latest classification). Not an accepted name in the site's POWO export today — the Japanese Pistillata names have since been widely lumped."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). The figure also lists A. boreale here (synonyms in the latest classification). Not an accepted name in the site's POWO export today — the Japanese Pistillata names have since been widely lumped. Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-pseudoangustatum",
@@ -1766,7 +1766,7 @@
            "section": "Pistillata",
            "accession": "sect. Pistillata",
            "powo": true,
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-solenochlamys",
@@ -1774,7 +1774,7 @@
            "rank": "species",
            "section": "Pistillata",
            "accession": "sect. Pistillata",
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Not an accepted name in the site's POWO export today — the Japanese Pistillata names have since been widely lumped."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Not an accepted name in the site's POWO export today — the Japanese Pistillata names have since been widely lumped. Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-takedae",
@@ -1782,7 +1782,7 @@
            "rank": "species",
            "section": "Pistillata",
            "accession": "sect. Pistillata",
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Not an accepted name in the site's POWO export today — the Japanese Pistillata names have since been widely lumped."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Not an accepted name in the site's POWO export today — the Japanese Pistillata names have since been widely lumped. Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-tosaense",
@@ -1791,7 +1791,7 @@
            "section": "Pistillata",
            "accession": "sect. Pistillata",
            "powo": true,
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-undulatifolium",
@@ -1800,7 +1800,7 @@
            "section": "Pistillata",
            "accession": "sect. Pistillata",
            "powo": true,
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Sampled as ssp. undulatifolium and ssp. uwajimense."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Sampled as ssp. undulatifolium and ssp. uwajimense. Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-yamatense",
@@ -1809,7 +1809,7 @@
            "section": "Pistillata",
            "accession": "sect. Pistillata",
            "powo": true,
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Sampled as ssp. sugimotoi and ssp. yamatense."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Sampled as ssp. sugimotoi and ssp. yamatense. Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-angustatum",
@@ -1818,7 +1818,7 @@
            "section": "Pistillata",
            "accession": "sect. Pistillata",
            "powo": true,
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-mayebarae",
@@ -1827,7 +1827,7 @@
            "section": "Pistillata",
            "accession": "sect. Pistillata",
            "powo": true,
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-cucullatum",
@@ -1836,7 +1836,7 @@
            "section": "Pistillata",
            "accession": "sect. Pistillata",
            "powo": true,
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-sikokianum",
@@ -1845,7 +1845,7 @@
            "section": "Pistillata",
            "accession": "sect. Pistillata",
            "powo": true,
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           }
          ],
          "note": "Support MP/ML: 56/70. The composite: sections Nepenthoidea, Decipientia, Franchetiana, Sinarisaema and Pistillata. Pistillata (A. lobatum through A. sikokianum) is a recent, mostly Japanese radiation — many of its species share identical plastid sequences, so much of the clade is drawn unresolved. A. triphyllum sits here too: its split from Asian A. amurense is the fossil-calibrated 18-My Beringian crossing the genus's whole clock hangs on."
@@ -15165,7 +15165,11 @@
                 "crown": 4.0,
                 "tips": 2
                },
-               "speciesCount": 2
+               "speciesCount": 2,
+               "ancestralRange": {
+                "area": "tropical America",
+                "p": 1.0
+               }
               }
              ],
              "chron": {
@@ -15173,7 +15177,11 @@
               "crown": 6.53,
               "tips": 3
              },
-             "speciesCount": 3
+             "speciesCount": 3,
+             "ancestralRange": {
+              "area": "tropical America",
+              "p": 1.0
+             }
             }
            ],
            "chron": {
@@ -15181,7 +15189,11 @@
             "crown": 8.37,
             "tips": 4
            },
-           "speciesCount": 4
+           "speciesCount": 4,
+           "ancestralRange": {
+            "area": "tropical America",
+            "p": 1.0
+           }
           }
          ],
          "chron": {
@@ -15189,7 +15201,11 @@
           "crown": 14.58,
           "tips": 5
          },
-         "speciesCount": 5
+         "speciesCount": 5,
+         "ancestralRange": {
+          "area": "tropical America",
+          "p": 1.0
+         }
         },
         {
          "id": "node-monstera-6",
@@ -15268,7 +15284,11 @@
                   "crown": 2.22,
                   "tips": 2
                  },
-                 "speciesCount": 2
+                 "speciesCount": 2,
+                 "ancestralRange": {
+                  "area": "tropical America",
+                  "p": 1.0
+                 }
                 },
                 {
                  "id": "node-monstera-11",
@@ -15334,7 +15354,11 @@
                       "crown": 2.16,
                       "tips": 2
                      },
-                     "speciesCount": 2
+                     "speciesCount": 2,
+                     "ancestralRange": {
+                      "area": "tropical America",
+                      "p": 1.0
+                     }
                     }
                    ],
                    "chron": {
@@ -15342,7 +15366,11 @@
                     "crown": 3.19,
                     "tips": 3
                    },
-                   "speciesCount": 3
+                   "speciesCount": 3,
+                   "ancestralRange": {
+                    "area": "tropical America",
+                    "p": 1.0
+                   }
                   }
                  ],
                  "chron": {
@@ -15350,7 +15378,11 @@
                   "crown": 5.58,
                   "tips": 4
                  },
-                 "speciesCount": 4
+                 "speciesCount": 4,
+                 "ancestralRange": {
+                  "area": "tropical America",
+                  "p": 1.0
+                 }
                 }
                ],
                "chron": {
@@ -15358,7 +15390,11 @@
                 "crown": 6.28,
                 "tips": 6
                },
-               "speciesCount": 6
+               "speciesCount": 6,
+               "ancestralRange": {
+                "area": "tropical America",
+                "p": 1.0
+               }
               }
              ],
              "chron": {
@@ -15366,7 +15402,11 @@
               "crown": 8.21,
               "tips": 7
              },
-             "speciesCount": 7
+             "speciesCount": 7,
+             "ancestralRange": {
+              "area": "tropical America",
+              "p": 1.0
+             }
             },
             {
              "id": "node-monstera-14",
@@ -15412,7 +15452,11 @@
                   "crown": 2.5,
                   "tips": 2
                  },
-                 "speciesCount": 2
+                 "speciesCount": 2,
+                 "ancestralRange": {
+                  "area": "tropical America",
+                  "p": 1.0
+                 }
                 },
                 {
                  "id": "node-monstera-17",
@@ -15462,7 +15506,11 @@
                     "crown": 2.06,
                     "tips": 2
                    },
-                   "speciesCount": 2
+                   "speciesCount": 2,
+                   "ancestralRange": {
+                    "area": "tropical America",
+                    "p": 1.0
+                   }
                   }
                  ],
                  "chron": {
@@ -15470,7 +15518,11 @@
                   "crown": 3.03,
                   "tips": 3
                  },
-                 "speciesCount": 3
+                 "speciesCount": 3,
+                 "ancestralRange": {
+                  "area": "tropical America",
+                  "p": 1.0
+                 }
                 }
                ],
                "chron": {
@@ -15478,7 +15530,11 @@
                 "crown": 5.2,
                 "tips": 5
                },
-               "speciesCount": 5
+               "speciesCount": 5,
+               "ancestralRange": {
+                "area": "tropical America",
+                "p": 1.0
+               }
               },
               {
                "id": "node-monstera-19",
@@ -15518,7 +15574,11 @@
                   "crown": 4.27,
                   "tips": 2
                  },
-                 "speciesCount": 2
+                 "speciesCount": 2,
+                 "ancestralRange": {
+                  "area": "tropical America",
+                  "p": 1.0
+                 }
                 },
                 {
                  "id": "node-monstera-21",
@@ -15574,7 +15634,11 @@
                       "crown": 0.49,
                       "tips": 2
                      },
-                     "speciesCount": 2
+                     "speciesCount": 2,
+                     "ancestralRange": {
+                      "area": "tropical America",
+                      "p": 1.0
+                     }
                     },
                     {
                      "id": "node-monstera-24",
@@ -15641,7 +15705,11 @@
                           "crown": 0.26,
                           "tips": 2
                          },
-                         "speciesCount": 2
+                         "speciesCount": 2,
+                         "ancestralRange": {
+                          "area": "tropical America",
+                          "p": 1.0
+                         }
                         }
                        ],
                        "chron": {
@@ -15649,7 +15717,11 @@
                         "crown": 0.53,
                         "tips": 3
                        },
-                       "speciesCount": 3
+                       "speciesCount": 3,
+                       "ancestralRange": {
+                        "area": "tropical America",
+                        "p": 1.0
+                       }
                       }
                      ],
                      "chron": {
@@ -15657,7 +15729,11 @@
                       "crown": 0.87,
                       "tips": 4
                      },
-                     "speciesCount": 4
+                     "speciesCount": 4,
+                     "ancestralRange": {
+                      "area": "tropical America",
+                      "p": 1.0
+                     }
                     }
                    ],
                    "chron": {
@@ -15665,7 +15741,11 @@
                     "crown": 1.77,
                     "tips": 6
                    },
-                   "speciesCount": 6
+                   "speciesCount": 6,
+                   "ancestralRange": {
+                    "area": "tropical America",
+                    "p": 1.0
+                   }
                   }
                  ],
                  "chron": {
@@ -15673,7 +15753,11 @@
                   "crown": 4.74,
                   "tips": 7
                  },
-                 "speciesCount": 7
+                 "speciesCount": 7,
+                 "ancestralRange": {
+                  "area": "tropical America",
+                  "p": 1.0
+                 }
                 }
                ],
                "chron": {
@@ -15681,7 +15765,11 @@
                 "crown": 6.32,
                 "tips": 9
                },
-               "speciesCount": 9
+               "speciesCount": 9,
+               "ancestralRange": {
+                "area": "tropical America",
+                "p": 1.0
+               }
               }
              ],
              "chron": {
@@ -15689,7 +15777,11 @@
               "crown": 7.81,
               "tips": 14
              },
-             "speciesCount": 14
+             "speciesCount": 14,
+             "ancestralRange": {
+              "area": "tropical America",
+              "p": 1.0
+             }
             }
            ],
            "chron": {
@@ -15697,7 +15789,11 @@
             "crown": 9.82,
             "tips": 21
            },
-           "speciesCount": 21
+           "speciesCount": 21,
+           "ancestralRange": {
+            "area": "tropical America",
+            "p": 1.0
+           }
           }
          ],
          "chron": {
@@ -15705,7 +15801,11 @@
           "crown": 15.71,
           "tips": 22
          },
-         "speciesCount": 22
+         "speciesCount": 22,
+         "ancestralRange": {
+          "area": "tropical America",
+          "p": 1.0
+         }
         }
        ],
        "chron": {
@@ -17411,10 +17511,12 @@
     "1.25.0 - the MONSTERA TIER: dated subtree from Zuluaga, Llano & Cameron 2019 (AMBG 104, Fig. 2) - crown 18.68 Ma, stem 28.03 Ma from Amydrium + part of Epipremnum, 27 tips (26 POWO-checked species + Monstera Croat 96437), 26 forks, all binary. The figure prints no node ages: ages are derived from the chronogram's vector geometry (gridline-calibrated axis), gated on the four crown ages the paper prints in prose (68.83 / 38.4 / 38.56 / 27.0 Ma, all reproduced within 0.16 Ma). Crown ancestral range: tropical America, P = 1.0.",
     "1.26.0 - the ARISAEMA TIER, undated (Anthurium-style): Ohi-Toma et al. 2016 (BJLS 182, Figs 1-3) - 9 clades (8 + the A. fimbriatum branch), 124 species-level rows from 157 figure tips, Murata-system section on every row (the study's 15-section treatment: Fimbriata resurrected, A. schimperianum -> sect. Arisaema), support values and non-mono sections on clade cards. Dates on cards from Renner, Zhang & Murata 2004 (18-My Beringian calibration; Africa-Himalaya split 31+-10 My; the older America crossing 49+-12 My; root <= 60 My). PIS gate: lobatum->sikokianum block matches the prose; POWO folder check: 11 names absent (9 = the since-lumped Japanese Pistillata names), flagged on their cards.",
     "1.27.0 - CARLSEN 2011 DISSERTATION AGES on the Anthurium tier, notes-only (the 1.23.0 Miranda precedent): genus crown ~27.2 Mya + crown ages on all 17 clade cards from the dissertation's Table 2 (r8s, root fixed 86 Mya, unpublished). Its clade numbers do NOT match the 2019 numbering (e.g. its 16 = Calomystrium = our 13; its 15 = Mexican epunctate = our 16 Andiphilum) - every mapping was made by MEMBERSHIP against Figure 2, 14 exact or subset matches, membership differences said on the cards (its 11 includes crenatum+venosum). Rendering untouched: no chron fields, the tier stays undated.",
-    "1.28.0 - NAUHEIMER TABLE S2 FULLY MINED (the 8.7.26 'resists extraction' verdict falls to Word-COM SaveAs -> docx): all 23 fossils extracted. The 7 Time-view diamonds gain formation-level tooltips and their constraint node numbers; the Petrocardium epithet's o-for-e misspelling corrected to cerrejonense (the Cerrejon Formation); the root constraint recorded (earliest monocot pollen, 125-139 Ma normal prior); the 15 discussed-but-unused fossils ship as chronology.fossilsDiscussed - DORMANT, deliberately not drawn as diamonds, because the study did not constrain with them (incl. Mayoa portugallica, the Crato aroid, Cobbania, and Arisaema hesperia - the Latah Formation fossil Renner 2004 and Carlsen 2011 both calibrate on)."
+    "1.28.0 - NAUHEIMER TABLE S2 FULLY MINED (the 8.7.26 'resists extraction' verdict falls to Word-COM SaveAs -> docx): all 23 fossils extracted. The 7 Time-view diamonds gain formation-level tooltips and their constraint node numbers; the Petrocardium epithet's o-for-e misspelling corrected to cerrejonense (the Cerrejon Formation); the root constraint recorded (earliest monocot pollen, 125-139 Ma normal prior); the 15 discussed-but-unused fossils ship as chronology.fossilsDiscussed - DORMANT, deliberately not drawn as diamonds, because the study did not constrain with them (incl. Mayoa portugallica, the Crato aroid, Cobbania, and Arisaema hesperia - the Latah Formation fossil Renner 2004 and Carlsen 2011 both calibrate on).",
+    "1.29.0 - MONSTERA ANCESTRAL RANGES: all 25 anon forks gain ancestralRange (the crown's printed 1/100/100 has ridden the genus row since 1.25.0), and the answer is the same at every one - tropical America, P = 1.0. Read from Fig. 2's DEC pies as vector fills pixel-classified per disc, palette anchored on the figure's own presence-square columns (Monstera's 27 row-squares prove column B = blue), calibrated on the crown's printed 1/100/100 (the fill circle sits inside the stroked outline - a naive disc reads a phantom white ring; sampled at 0.6r with a 3% noise floor, so a sliver below 3% would not register). Three leftover pies are corner pies, correctly unassigned. The genus never leaves the neotropics in this reconstruction.",
+    "1.30.0 - the GUSMAN LAYER on Arisaema: every species card now also names its section in Gusman & Gusman's 2006 monograph (the book growers own), read from Fig. 3's [G] column bars - a second classification riding as notes, the Murata/2016 system stays the tier's frame. Same drawer -> said in one word; different drawer -> named (e.g. schimperianum SIN, the macrospathum trio TOR, lobatum LOB, prazeri ATT). All 124 rows, block-label assignment gated 1:1, per-species conflicts asserted zero."
    ],
    "speciesCounts": "POWO master export, Araceae_Exports/EXCELS/_run_log.csv (validated accepted species).",
-   "version": "1.28.0",
+   "version": "1.30.0",
    "orthographicVariants": {
     "Stylochiton": "Treated as Stylochaeton Lepr. (MBB no. 34). The POWO export uses Stylochiton; which spelling Kew currently accepts is unconfirmed."
    },
