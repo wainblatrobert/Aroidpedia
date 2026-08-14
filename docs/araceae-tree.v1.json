@@ -663,7 +663,1196 @@
          "americas": 7,
          "euwasia": 4
         }
-       }
+       },
+       "children": [
+        {
+         "id": "clade-arisaema-i",
+         "name": "Clade I",
+         "rank": "clade",
+         "speciesCount": 5,
+         "children": [
+          {
+           "id": "sp-arisaema-flavum",
+           "name": "Arisaema flavum",
+           "rank": "species",
+           "section": "Dochafa",
+           "accession": "sect. Dochafa",
+           "powo": true,
+           "note": "Section Dochafa per the revised system of Ohi-Toma et al. (2016). Sampled as ssp. flavum and ssp. tibeticum."
+          },
+          {
+           "id": "sp-arisaema-tortuosum",
+           "name": "Arisaema tortuosum",
+           "rank": "species",
+           "section": "Tortuosa",
+           "accession": "sect. Tortuosa",
+           "powo": true,
+           "note": "Section Tortuosa per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-murrayi",
+           "name": "Arisaema murrayi",
+           "rank": "species",
+           "section": "Tortuosa",
+           "accession": "sect. Tortuosa",
+           "powo": true,
+           "note": "Section Tortuosa per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-sahyadricum",
+           "name": "Arisaema sahyadricum",
+           "rank": "species",
+           "section": "Tortuosa",
+           "accession": "sect. Tortuosa",
+           "note": "Section Tortuosa per the revised system of Ohi-Toma et al. (2016). Not in the site's POWO export under this name."
+          },
+          {
+           "id": "sp-arisaema-jacquemontii",
+           "name": "Arisaema jacquemontii",
+           "rank": "species",
+           "section": "Tenuipistillata",
+           "accession": "sect. Tenuipistillata",
+           "powo": true,
+           "note": "Section Tenuipistillata per the revised system of Ohi-Toma et al. (2016)."
+          }
+         ],
+         "note": "Support MP/ML: 56/71. Three of Murata's sections meet here: Dochafa (A. flavum), Tortuosa (the A. tortuosum group) and Tenuipistillata (A. jacquemontii — its other member, A. schimperianum, sits in Clade II, and this study moves it to section Arisaema accordingly)."
+        },
+        {
+         "id": "clade-arisaema-ii",
+         "name": "Clade II · Arisaema",
+         "rank": "clade",
+         "speciesCount": 10,
+         "children": [
+          {
+           "id": "sp-arisaema-schimperianum",
+           "name": "Arisaema schimperianum",
+           "rank": "species",
+           "section": "Arisaema",
+           "accession": "sect. Arisaema",
+           "powo": true,
+           "note": "Section Arisaema per the revised system of Ohi-Toma et al. (2016). Moved to section Arisaema by this study (from Tenuipistillata/Sinarisaema) — it is nested in Clade II. The genus's only East African species."
+          },
+          {
+           "id": "sp-arisaema-costatum",
+           "name": "Arisaema costatum",
+           "rank": "species",
+           "section": "Arisaema",
+           "accession": "sect. Arisaema",
+           "powo": true,
+           "note": "Section Arisaema per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-dahaiense",
+           "name": "Arisaema dahaiense",
+           "rank": "species",
+           "section": "Arisaema",
+           "accession": "sect. Arisaema",
+           "powo": true,
+           "note": "Section Arisaema per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-griffithii",
+           "name": "Arisaema griffithii",
+           "rank": "species",
+           "section": "Arisaema",
+           "accession": "sect. Arisaema",
+           "powo": true,
+           "note": "Section Arisaema per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-utile",
+           "name": "Arisaema utile",
+           "rank": "species",
+           "section": "Arisaema",
+           "accession": "sect. Arisaema",
+           "powo": true,
+           "note": "Section Arisaema per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-propinquum",
+           "name": "Arisaema propinquum",
+           "rank": "species",
+           "section": "Arisaema",
+           "accession": "sect. Arisaema",
+           "powo": true,
+           "note": "Section Arisaema per the revised system of Ohi-Toma et al. (2016). The figure also lists A. ostiolatum here (synonyms in the latest classification)."
+          },
+          {
+           "id": "sp-arisaema-speciosum",
+           "name": "Arisaema speciosum",
+           "rank": "species",
+           "section": "Arisaema",
+           "accession": "sect. Arisaema",
+           "powo": true,
+           "note": "Section Arisaema per the revised system of Ohi-Toma et al. (2016). Sampled as var. speciosum and var. ziroense."
+          },
+          {
+           "id": "sp-arisaema-wilsonii",
+           "name": "Arisaema wilsonii",
+           "rank": "species",
+           "section": "Arisaema",
+           "accession": "sect. Arisaema",
+           "powo": true,
+           "note": "Section Arisaema per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-asperatum",
+           "name": "Arisaema asperatum",
+           "rank": "species",
+           "section": "Arisaema",
+           "accession": "sect. Arisaema",
+           "powo": true,
+           "note": "Section Arisaema per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-elephas",
+           "name": "Arisaema elephas",
+           "rank": "species",
+           "section": "Arisaema",
+           "accession": "sect. Arisaema",
+           "powo": true,
+           "note": "Section Arisaema per the revised system of Ohi-Toma et al. (2016)."
+          }
+         ],
+         "note": "Support MP/ML: 97/95. Section Arisaema as emended by this study — including the East African A. schimperianum, formerly of Tenuipistillata/Sinarisaema. Renner et al. (2004) date its split from the Nepalese–Tibetan A. costatum at roughly 31 ± 10 My (19–32 My across methods) — an Oligocene/Miocene floristic link between East Africa, Arabia and the Himalaya."
+        },
+        {
+         "id": "clade-arisaema-iii",
+         "name": "Clade III · Fimbriata",
+         "rank": "clade",
+         "speciesCount": 1,
+         "children": [
+          {
+           "id": "sp-arisaema-fimbriatum",
+           "name": "Arisaema fimbriatum",
+           "rank": "species",
+           "section": "Fimbriata",
+           "accession": "sect. Fimbriata",
+           "powo": true,
+           "note": "Section Fimbriata per the revised system of Ohi-Toma et al. (2016)."
+          }
+         ],
+         "note": "A single branch with unique sequence variation: A. fimbriatum. This study resurrects section Fimbriata for it (Murata had synonymised it into Attenuata)."
+        },
+        {
+         "id": "clade-arisaema-iv",
+         "name": "Clade IV · Attenuata",
+         "rank": "clade",
+         "speciesCount": 7,
+         "children": [
+          {
+           "id": "sp-arisaema-roxburghii",
+           "name": "Arisaema roxburghii",
+           "rank": "species",
+           "section": "Attenuata",
+           "accession": "sect. Attenuata",
+           "powo": true,
+           "note": "Section Attenuata per the revised system of Ohi-Toma et al. (2016). The figure also lists A. harmandii here (synonyms in the latest classification)."
+          },
+          {
+           "id": "sp-arisaema-album",
+           "name": "Arisaema album",
+           "rank": "species",
+           "section": "Attenuata",
+           "accession": "sect. Attenuata",
+           "powo": true,
+           "note": "Section Attenuata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-penicillatum",
+           "name": "Arisaema penicillatum",
+           "rank": "species",
+           "section": "Attenuata",
+           "accession": "sect. Attenuata",
+           "powo": true,
+           "note": "Section Attenuata per the revised system of Ohi-Toma et al. (2016). The figure also lists A. matsudae here (synonyms in the latest classification)."
+          },
+          {
+           "id": "sp-arisaema-maxwellii",
+           "name": "Arisaema maxwellii",
+           "rank": "species",
+           "section": "Attenuata",
+           "accession": "sect. Attenuata",
+           "powo": true,
+           "note": "Section Attenuata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-microspadix",
+           "name": "Arisaema microspadix",
+           "rank": "species",
+           "section": "Attenuata",
+           "accession": "sect. Attenuata",
+           "powo": true,
+           "note": "Section Attenuata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-inclusum",
+           "name": "Arisaema inclusum",
+           "rank": "species",
+           "section": "Attenuata",
+           "accession": "sect. Attenuata",
+           "powo": true,
+           "note": "Section Attenuata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-laminatum",
+           "name": "Arisaema laminatum",
+           "rank": "species",
+           "section": "Attenuata",
+           "accession": "sect. Attenuata",
+           "powo": true,
+           "note": "Section Attenuata per the revised system of Ohi-Toma et al. (2016)."
+          }
+         ],
+         "note": "Support MP/ML: 96/91. Section Attenuata in the study's emended sense — A. fimbriatum split back out as its own section (Clade III)."
+        },
+        {
+         "id": "clade-arisaema-v",
+         "name": "Clade V · Odorata",
+         "rank": "clade",
+         "speciesCount": 6,
+         "children": [
+          {
+           "id": "sp-arisaema-prazeri",
+           "name": "Arisaema prazeri",
+           "rank": "species",
+           "section": "Odorata",
+           "accession": "sect. Odorata",
+           "powo": true,
+           "note": "Section Odorata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-lidaense",
+           "name": "Arisaema lidaense",
+           "rank": "species",
+           "section": "Odorata",
+           "accession": "sect. Odorata",
+           "powo": true,
+           "note": "Section Odorata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-saxatile",
+           "name": "Arisaema saxatile",
+           "rank": "species",
+           "section": "Odorata",
+           "accession": "sect. Odorata",
+           "powo": true,
+           "note": "Section Odorata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-mairei",
+           "name": "Arisaema mairei",
+           "rank": "species",
+           "section": "Odorata",
+           "accession": "sect. Odorata",
+           "powo": true,
+           "note": "Section Odorata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-yunnanense",
+           "name": "Arisaema yunnanense",
+           "rank": "species",
+           "section": "Odorata",
+           "accession": "sect. Odorata",
+           "powo": true,
+           "note": "Section Odorata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-quinquelobatum",
+           "name": "Arisaema quinquelobatum",
+           "rank": "species",
+           "section": "Odorata",
+           "accession": "sect. Odorata",
+           "note": "Section Odorata per the revised system of Ohi-Toma et al. (2016). Not in the site's POWO export under this name."
+          }
+         ],
+         "note": "Support MP/ML: 89/94. Section Odorata — a clean drawer: the molecular clade and the section coincide."
+        },
+        {
+         "id": "clade-arisaema-vi",
+         "name": "Clade VI · Anomala",
+         "rank": "clade",
+         "speciesCount": 13,
+         "children": [
+          {
+           "id": "sp-arisaema-balansae",
+           "name": "Arisaema balansae",
+           "rank": "species",
+           "section": "Anomala",
+           "accession": "sect. Anomala",
+           "powo": true,
+           "note": "Section Anomala per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-garrettii",
+           "name": "Arisaema garrettii",
+           "rank": "species",
+           "section": "Anomala",
+           "accession": "sect. Anomala",
+           "powo": true,
+           "note": "Section Anomala per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-bannaense",
+           "name": "Arisaema bannaense",
+           "rank": "species",
+           "section": "Anomala",
+           "accession": "sect. Anomala",
+           "powo": true,
+           "note": "Section Anomala per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-umbrinum",
+           "name": "Arisaema umbrinum",
+           "rank": "species",
+           "section": "Anomala",
+           "accession": "sect. Anomala",
+           "powo": true,
+           "note": "Section Anomala per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-filiforme",
+           "name": "Arisaema filiforme",
+           "rank": "species",
+           "section": "Anomala",
+           "accession": "sect. Anomala",
+           "powo": true,
+           "note": "Section Anomala per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-wrayi",
+           "name": "Arisaema wrayi",
+           "rank": "species",
+           "section": "Anomala",
+           "accession": "sect. Anomala",
+           "powo": true,
+           "note": "Section Anomala per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-scortechinii",
+           "name": "Arisaema scortechinii",
+           "rank": "species",
+           "section": "Anomala",
+           "accession": "sect. Anomala",
+           "powo": true,
+           "note": "Section Anomala per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-rubrirhizomatum",
+           "name": "Arisaema rubrirhizomatum",
+           "rank": "species",
+           "section": "Anomala",
+           "accession": "sect. Anomala",
+           "powo": true,
+           "note": "Section Anomala per the revised system of Ohi-Toma et al. (2016). The figure also lists A. calcareum here (synonyms in the latest classification)."
+          },
+          {
+           "id": "sp-arisaema-hainanense",
+           "name": "Arisaema hainanense",
+           "rank": "species",
+           "section": "Anomala",
+           "accession": "sect. Anomala",
+           "powo": true,
+           "note": "Section Anomala per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-petelotii",
+           "name": "Arisaema petelotii",
+           "rank": "species",
+           "section": "Anomala",
+           "accession": "sect. Anomala",
+           "powo": true,
+           "note": "Section Anomala per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-omkoiense",
+           "name": "Arisaema omkoiense",
+           "rank": "species",
+           "section": "Anomala",
+           "accession": "sect. Anomala",
+           "powo": true,
+           "note": "Section Anomala per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-lihengianum",
+           "name": "Arisaema lihengianum",
+           "rank": "species",
+           "section": "Anomala",
+           "accession": "sect. Anomala",
+           "powo": true,
+           "note": "Section Anomala per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-grapsospadix",
+           "name": "Arisaema grapsospadix",
+           "rank": "species",
+           "section": "Anomala",
+           "accession": "sect. Anomala",
+           "powo": true,
+           "note": "Section Anomala per the revised system of Ohi-Toma et al. (2016). The figure also lists A. nanjenense here (synonyms in the latest classification)."
+          }
+         ],
+         "note": "Support MP/ML: 97/96. Section Anomala — a clean drawer: the molecular clade and the section coincide."
+        },
+        {
+         "id": "clade-arisaema-vii",
+         "name": "Clade VII · Flagellarisaema",
+         "rank": "clade",
+         "speciesCount": 6,
+         "children": [
+          {
+           "id": "sp-arisaema-macrospathum",
+           "name": "Arisaema macrospathum",
+           "rank": "species",
+           "section": "Flagellarisaema",
+           "accession": "sect. Flagellarisaema",
+           "powo": true,
+           "note": "Section Flagellarisaema per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-dracontium",
+           "name": "Arisaema dracontium",
+           "rank": "species",
+           "section": "Flagellarisaema",
+           "accession": "sect. Flagellarisaema",
+           "powo": true,
+           "note": "Section Flagellarisaema per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-heterophyllum",
+           "name": "Arisaema heterophyllum",
+           "rank": "species",
+           "section": "Flagellarisaema",
+           "accession": "sect. Flagellarisaema",
+           "powo": true,
+           "note": "Section Flagellarisaema per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-cordatum",
+           "name": "Arisaema cordatum",
+           "rank": "species",
+           "section": "Flagellarisaema",
+           "accession": "sect. Flagellarisaema",
+           "powo": true,
+           "note": "Section Flagellarisaema per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-kiushianum",
+           "name": "Arisaema kiushianum",
+           "rank": "species",
+           "section": "Flagellarisaema",
+           "accession": "sect. Flagellarisaema",
+           "powo": true,
+           "note": "Section Flagellarisaema per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-thunbergii",
+           "name": "Arisaema thunbergii",
+           "rank": "species",
+           "section": "Flagellarisaema",
+           "accession": "sect. Flagellarisaema",
+           "powo": true,
+           "note": "Section Flagellarisaema per the revised system of Ohi-Toma et al. (2016). Sampled as ssp. autumnale and ssp. thunbergii and ssp. urashima."
+          }
+         ],
+         "note": "Support MP/ML: 80/61. Section Flagellarisaema in Murata's sense (Gusman & Gusman filed the A. macrospathum–dracontium–heterophyllum trio under Tortuosa instead). Holds a North American pair: Renner et al. (2004) date A. dracontium + A. macrospathum against their Asian relatives at ~49 ± 12 My — the older of the genus's two Asia → North America crossings."
+        },
+        {
+         "id": "clade-arisaema-viii",
+         "name": "Clade VIII · Clavata",
+         "rank": "clade",
+         "speciesCount": 5,
+         "children": [
+          {
+           "id": "sp-arisaema-clavatum",
+           "name": "Arisaema clavatum",
+           "rank": "species",
+           "section": "Clavata",
+           "accession": "sect. Clavata",
+           "powo": true,
+           "note": "Section Clavata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-ilanense",
+           "name": "Arisaema ilanense",
+           "rank": "species",
+           "section": "Clavata",
+           "accession": "sect. Clavata",
+           "powo": true,
+           "note": "Section Clavata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-hunanense",
+           "name": "Arisaema hunanense",
+           "rank": "species",
+           "section": "Clavata",
+           "accession": "sect. Clavata",
+           "powo": true,
+           "note": "Section Clavata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-negishii",
+           "name": "Arisaema negishii",
+           "rank": "species",
+           "section": "Clavata",
+           "accession": "sect. Clavata",
+           "powo": true,
+           "note": "Section Clavata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-heterocephalum",
+           "name": "Arisaema heterocephalum",
+           "rank": "species",
+           "section": "Clavata",
+           "accession": "sect. Clavata",
+           "powo": true,
+           "note": "Section Clavata per the revised system of Ohi-Toma et al. (2016). Sampled as ssp. heterocephalum and ssp. majus and ssp. okinawaense."
+          }
+         ],
+         "note": "Support MP/ML: 99/90. Section Clavata — a clean drawer: the molecular clade and the section coincide."
+        },
+        {
+         "id": "clade-arisaema-ix",
+         "name": "Clade IX",
+         "rank": "clade",
+         "speciesCount": 71,
+         "children": [
+          {
+           "id": "sp-arisaema-auriculatum",
+           "name": "Arisaema auriculatum",
+           "rank": "species",
+           "section": "Nepenthoidea",
+           "accession": "sect. Nepenthoidea",
+           "powo": true,
+           "note": "Section Nepenthoidea per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-meleagris",
+           "name": "Arisaema meleagris",
+           "rank": "species",
+           "section": "Nepenthoidea",
+           "accession": "sect. Nepenthoidea",
+           "powo": true,
+           "note": "Section Nepenthoidea per the revised system of Ohi-Toma et al. (2016). The figure also lists A. shimienense here (synonyms in the latest classification)."
+          },
+          {
+           "id": "sp-arisaema-nepenthoides",
+           "name": "Arisaema nepenthoides",
+           "rank": "species",
+           "section": "Nepenthoidea",
+           "accession": "sect. Nepenthoidea",
+           "powo": true,
+           "note": "Section Nepenthoidea per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-wattii",
+           "name": "Arisaema wattii",
+           "rank": "species",
+           "section": "Nepenthoidea",
+           "accession": "sect. Nepenthoidea",
+           "powo": true,
+           "note": "Section Nepenthoidea per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-decipiens",
+           "name": "Arisaema decipiens",
+           "rank": "species",
+           "section": "Decipientia",
+           "accession": "sect. Decipientia",
+           "powo": true,
+           "note": "Section Decipientia per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-sinii",
+           "name": "Arisaema sinii",
+           "rank": "species",
+           "section": "Franchetiana",
+           "accession": "sect. Franchetiana",
+           "powo": true,
+           "note": "Section Franchetiana per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-fargesii",
+           "name": "Arisaema fargesii",
+           "rank": "species",
+           "section": "Franchetiana",
+           "accession": "sect. Franchetiana",
+           "powo": true,
+           "note": "Section Franchetiana per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-candidissimum",
+           "name": "Arisaema candidissimum",
+           "rank": "species",
+           "section": "Franchetiana",
+           "accession": "sect. Franchetiana",
+           "powo": true,
+           "note": "Section Franchetiana per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-franchetianum",
+           "name": "Arisaema franchetianum",
+           "rank": "species",
+           "section": "Franchetiana",
+           "accession": "sect. Franchetiana",
+           "powo": true,
+           "note": "Section Franchetiana per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-indet-myanmar",
+           "name": "Arisaema",
+           "rank": "species",
+           "section": "Sinarisaema",
+           "accession": "sp. — Myanmar",
+           "note": "An accession identified only to genus, from Myanmar, placed in section Sinarisaema's block of the figure."
+          },
+          {
+           "id": "sp-arisaema-muratae",
+           "name": "Arisaema muratae",
+           "rank": "species",
+           "section": "Sinarisaema",
+           "accession": "sect. Sinarisaema",
+           "powo": true,
+           "note": "Section Sinarisaema per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-exappendiculatum",
+           "name": "Arisaema exappendiculatum",
+           "rank": "species",
+           "section": "Sinarisaema",
+           "accession": "sect. Sinarisaema",
+           "powo": true,
+           "note": "Section Sinarisaema per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-erubescens",
+           "name": "Arisaema erubescens",
+           "rank": "species",
+           "section": "Sinarisaema",
+           "accession": "sect. Sinarisaema",
+           "powo": true,
+           "note": "Section Sinarisaema per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-concinnum",
+           "name": "Arisaema concinnum",
+           "rank": "species",
+           "section": "Sinarisaema",
+           "accession": "sect. Sinarisaema",
+           "powo": true,
+           "note": "Section Sinarisaema per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-ciliatum",
+           "name": "Arisaema ciliatum",
+           "rank": "species",
+           "section": "Sinarisaema",
+           "accession": "sect. Sinarisaema",
+           "powo": true,
+           "note": "Section Sinarisaema per the revised system of Ohi-Toma et al. (2016). Sampled as var. ciliatum and var. l."
+          },
+          {
+           "id": "sp-arisaema-taiwanense",
+           "name": "Arisaema taiwanense",
+           "rank": "species",
+           "section": "Sinarisaema",
+           "accession": "sect. Sinarisaema",
+           "powo": true,
+           "note": "Section Sinarisaema per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-consanguineum",
+           "name": "Arisaema consanguineum",
+           "rank": "species",
+           "section": "Sinarisaema",
+           "accession": "sect. Sinarisaema",
+           "powo": true,
+           "note": "Section Sinarisaema per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-formosanum",
+           "name": "Arisaema formosanum",
+           "rank": "species",
+           "section": "Sinarisaema",
+           "accession": "sect. Sinarisaema",
+           "powo": true,
+           "note": "Section Sinarisaema per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-polyphyllum",
+           "name": "Arisaema polyphyllum",
+           "rank": "species",
+           "section": "Sinarisaema",
+           "accession": "sect. Sinarisaema",
+           "powo": true,
+           "note": "Section Sinarisaema per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-calcareum",
+           "name": "Arisaema calcareum",
+           "rank": "species",
+           "section": "Sinarisaema",
+           "accession": "sect. Sinarisaema",
+           "powo": true,
+           "note": "Section Sinarisaema per the revised system of Ohi-Toma et al. (2016). The figure also lists A. jinshajiangense here (synonyms in the latest classification)."
+          },
+          {
+           "id": "sp-arisaema-lobatum",
+           "name": "Arisaema lobatum",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "powo": true,
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-ternatipartitum",
+           "name": "Arisaema ternatipartitum",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "powo": true,
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-triphyllum",
+           "name": "Arisaema triphyllum",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "powo": true,
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-ringens",
+           "name": "Arisaema ringens",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "powo": true,
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-inaense",
+           "name": "Arisaema inaense",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "powo": true,
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-nagiense",
+           "name": "Arisaema nagiense",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "powo": true,
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-ovale",
+           "name": "Arisaema ovale",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "powo": true,
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-nikoense",
+           "name": "Arisaema nikoense",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "powo": true,
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Sampled as ssp. alpicola and ssp. australe and ssp. brevicollum and ssp. nikoense."
+          },
+          {
+           "id": "sp-arisaema-amurense",
+           "name": "Arisaema amurense",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "powo": true,
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-sachalinense",
+           "name": "Arisaema sachalinense",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "powo": true,
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-ogatae",
+           "name": "Arisaema ogatae",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "powo": true,
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-ishizuchiense",
+           "name": "Arisaema ishizuchiense",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "powo": true,
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-kawashimae",
+           "name": "Arisaema kawashimae",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "powo": true,
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-longipedunculatum",
+           "name": "Arisaema longipedunculatum",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "powo": true,
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-aprile",
+           "name": "Arisaema aprile",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "powo": true,
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-maximowiczii",
+           "name": "Arisaema maximowiczii",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "powo": true,
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-minamitanii",
+           "name": "Arisaema minamitanii",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "powo": true,
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-serratum",
+           "name": "Arisaema serratum",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "powo": true,
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-tashiroi",
+           "name": "Arisaema tashiroi",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "powo": true,
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-unzenense",
+           "name": "Arisaema unzenense",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Not an accepted name in the site's POWO export today — the Japanese Pistillata names have since been widely lumped."
+          },
+          {
+           "id": "sp-arisaema-iyoanum",
+           "name": "Arisaema iyoanum",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "powo": true,
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Sampled as ssp. iyoanum and ssp. nakaianum."
+          },
+          {
+           "id": "sp-arisaema-maekawae",
+           "name": "Arisaema maekawae",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "powo": true,
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-suwoense",
+           "name": "Arisaema suwoense",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). The figure also lists A. izuense here (synonyms in the latest classification). Not an accepted name in the site's POWO export today — the Japanese Pistillata names have since been widely lumped."
+          },
+          {
+           "id": "sp-arisaema-longilaminum",
+           "name": "Arisaema longilaminum",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Not an accepted name in the site's POWO export today — the Japanese Pistillata names have since been widely lumped."
+          },
+          {
+           "id": "sp-arisaema-abei",
+           "name": "Arisaema abei",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "powo": true,
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-aequinoctiale",
+           "name": "Arisaema aequinoctiale",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "powo": true,
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-bockii",
+           "name": "Arisaema bockii",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "powo": true,
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). The figure also lists A. engleri here (synonyms in the latest classification)."
+          },
+          {
+           "id": "sp-arisaema-ehimense",
+           "name": "Arisaema ehimense",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "powo": true,
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-galeiforme",
+           "name": "Arisaema galeiforme",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Not an accepted name in the site's POWO export today — the Japanese Pistillata names have since been widely lumped."
+          },
+          {
+           "id": "sp-arisaema-hatizyoense",
+           "name": "Arisaema hatizyoense",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Not an accepted name in the site's POWO export today — the Japanese Pistillata names have since been widely lumped."
+          },
+          {
+           "id": "sp-arisaema-japonicum",
+           "name": "Arisaema japonicum",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "powo": true,
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-kishidae",
+           "name": "Arisaema kishidae",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "powo": true,
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-kuratae",
+           "name": "Arisaema kuratae",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "powo": true,
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-limbatum",
+           "name": "Arisaema limbatum",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "powo": true,
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-minus",
+           "name": "Arisaema minus",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "powo": true,
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-monophyllum",
+           "name": "Arisaema monophyllum",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "powo": true,
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Sampled as var. atrolinguum and var. monophyllum."
+          },
+          {
+           "id": "sp-arisaema-nambae",
+           "name": "Arisaema nambae",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "powo": true,
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-planilaminum",
+           "name": "Arisaema planilaminum",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Not an accepted name in the site's POWO export today — the Japanese Pistillata names have since been widely lumped."
+          },
+          {
+           "id": "sp-arisaema-sazensoo",
+           "name": "Arisaema sazensoo",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "powo": true,
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-seppikoense",
+           "name": "Arisaema seppikoense",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "powo": true,
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-peninsulae",
+           "name": "Arisaema peninsulae",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). The figure also lists A. boreale here (synonyms in the latest classification). Not an accepted name in the site's POWO export today — the Japanese Pistillata names have since been widely lumped."
+          },
+          {
+           "id": "sp-arisaema-pseudoangustatum",
+           "name": "Arisaema pseudoangustatum",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "powo": true,
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-solenochlamys",
+           "name": "Arisaema solenochlamys",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Not an accepted name in the site's POWO export today — the Japanese Pistillata names have since been widely lumped."
+          },
+          {
+           "id": "sp-arisaema-takedae",
+           "name": "Arisaema takedae",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Not an accepted name in the site's POWO export today — the Japanese Pistillata names have since been widely lumped."
+          },
+          {
+           "id": "sp-arisaema-tosaense",
+           "name": "Arisaema tosaense",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "powo": true,
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-undulatifolium",
+           "name": "Arisaema undulatifolium",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "powo": true,
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Sampled as ssp. undulatifolium and ssp. uwajimense."
+          },
+          {
+           "id": "sp-arisaema-yamatense",
+           "name": "Arisaema yamatense",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "powo": true,
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Sampled as ssp. sugimotoi and ssp. yamatense."
+          },
+          {
+           "id": "sp-arisaema-angustatum",
+           "name": "Arisaema angustatum",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "powo": true,
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-mayebarae",
+           "name": "Arisaema mayebarae",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "powo": true,
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-cucullatum",
+           "name": "Arisaema cucullatum",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "powo": true,
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+          },
+          {
+           "id": "sp-arisaema-sikokianum",
+           "name": "Arisaema sikokianum",
+           "rank": "species",
+           "section": "Pistillata",
+           "accession": "sect. Pistillata",
+           "powo": true,
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016)."
+          }
+         ],
+         "note": "Support MP/ML: 56/70. The composite: sections Nepenthoidea, Decipientia, Franchetiana, Sinarisaema and Pistillata. Pistillata (A. lobatum through A. sikokianum) is a recent, mostly Japanese radiation — many of its species share identical plastid sequences, so much of the clade is drawn unresolved. A. triphyllum sits here too: its split from Asian A. amurense is the fossil-calibrated 18-My Beringian crossing the genus's whole clock hangs on."
+        }
+       ],
+       "speciesTierSource": "Ohi-Toma, Wu, Murata & Murata (2016), \"An updated genus-wide phylogenetic analysis of Arisaema (Araceae) with reference to sections\", Botanical Journal of the Linnean Society 182: 100-114, Figs 1-3; dates on the cards are Renner, Zhang & Murata (2004), American Journal of Botany 91(6): 881-888",
+       "speciesTierNote": "No dated species-level tree exists for Arisaema, so this tier shows grouping, not time — Renner, Zhang & Murata (2004)'s fossil-calibrated clock (an 18-My A. triphyllum-like infructescence from Spokane) puts the genus's origin possibly in the Oligocene, with the root constrained to at most 60 My, and dates the intercontinental splits quoted on the clade cards. The tier itself is Ohi-Toma et al. (2016): more than 150 accessions, four plastid non-coding regions, MP and ML — eight major clades and one unique branch (I-IX) whose relationships to each other are largely an unresolved polytomy, listed here in the study's drawn order. The sections of the Murata system are named on every species row; the study's own treatment recognises 15, resurrecting Fimbriata and moving A. schimperianum into section Arisaema. Most sections map cleanly onto clades — the exceptions are said so on their cards. 157 figure tips collapse to 124 species-level rows here; many Japanese Pistillata species share identical plastid sequences."
       },
       {
        "id": "genus-pinellia",
@@ -16219,10 +17408,11 @@
     "1.22.0 - the ANTHURIUM TIER: Carlsen & Croat's 18 supported clades (A, B, 1-16) with all 102 sampled species, undated by necessity (no dated Anthurium tree exists); the classical sections layered onto every species row and clade card per the reader's ruling — 10 of 15 sections are not natural groups and the cards say so.",
     "1.23.0 - Miranda et al. 2026 (Philippine Amorphophallus) as card notes on the Amorphophallus tier: polyphyly of the Philippine flora, two colonization routes, subgenus placements. Verified across all four supplementary trees; topology remains Pouchon 2023.",
     "1.24.0 - the Miranda membership layer: 129 species Pouchon never sampled attach to their subgenera as cited, undated group rows (49 subg. Amorphophallus incl. A. titanum, 23 Afrophallus, 16 Scutandrium, 41 Metandrium). Both Miranda analyses agree on every placement; A. kachinensis excluded as an inter-study conflict and noted on its card. Forks and ages remain Pouchon 2023 alone.",
-    "1.25.0 - the MONSTERA TIER: dated subtree from Zuluaga, Llano & Cameron 2019 (AMBG 104, Fig. 2) - crown 18.68 Ma, stem 28.03 Ma from Amydrium + part of Epipremnum, 27 tips (26 POWO-checked species + Monstera Croat 96437), 26 forks, all binary. The figure prints no node ages: ages are derived from the chronogram's vector geometry (gridline-calibrated axis), gated on the four crown ages the paper prints in prose (68.83 / 38.4 / 38.56 / 27.0 Ma, all reproduced within 0.16 Ma). Crown ancestral range: tropical America, P = 1.0."
+    "1.25.0 - the MONSTERA TIER: dated subtree from Zuluaga, Llano & Cameron 2019 (AMBG 104, Fig. 2) - crown 18.68 Ma, stem 28.03 Ma from Amydrium + part of Epipremnum, 27 tips (26 POWO-checked species + Monstera Croat 96437), 26 forks, all binary. The figure prints no node ages: ages are derived from the chronogram's vector geometry (gridline-calibrated axis), gated on the four crown ages the paper prints in prose (68.83 / 38.4 / 38.56 / 27.0 Ma, all reproduced within 0.16 Ma). Crown ancestral range: tropical America, P = 1.0.",
+    "1.26.0 - the ARISAEMA TIER, undated (Anthurium-style): Ohi-Toma et al. 2016 (BJLS 182, Figs 1-3) - 9 clades (8 + the A. fimbriatum branch), 124 species-level rows from 157 figure tips, Murata-system section on every row (the study's 15-section treatment: Fimbriata resurrected, A. schimperianum -> sect. Arisaema), support values and non-mono sections on clade cards. Dates on cards from Renner, Zhang & Murata 2004 (18-My Beringian calibration; Africa-Himalaya split 31+-10 My; the older America crossing 49+-12 My; root <= 60 My). PIS gate: lobatum->sikokianum block matches the prose; POWO folder check: 11 names absent (9 = the since-lumped Japanese Pistillata names), flagged on their cards."
    ],
    "speciesCounts": "POWO master export, Araceae_Exports/EXCELS/_run_log.csv (validated accepted species).",
-   "version": "1.25.0",
+   "version": "1.26.0",
    "orthographicVariants": {
     "Stylochiton": "Treated as Stylochaeton Lepr. (MBB no. 34). The POWO export uses Stylochiton; which spelling Kew currently accepts is unconfirmed."
    },
