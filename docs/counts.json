@@ -60,8 +60,11 @@
     "multiCategoryItems": [],
     "unclassifiedItems": []
   },
-  "unresolvedTags": {},
-  "updatedAt": "2026-08-13T09:21:24.273Z",
+  "unresolvedTags": {
+    "Angola?": 1,
+    "Borneo?": 1
+  },
+  "updatedAt": "2026-08-14T09:16:14.267Z",
   "source": "https://www.aroidpedia.com/journal",
   "totalItemsScanned": 406
 }
