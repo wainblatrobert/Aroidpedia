@@ -16265,7 +16265,7 @@
          "name": "Clade 16 · Andiphilum",
          "rank": "clade",
          "speciesCount": 8,
-         "note": "Support MP/ML/PP: 98/99/1.00. The molecular clade and the classical section coincide — one of the few drawers that survived the DNA. Sampled here: A. andicola (AND); A. parvispathum (AND); A. berriozabalense (AND); A. lancetillense (AND); A. clarinervium (AND); A. leuconeurum (AND); A. umbrosum (AND); A. pedatoradiatum (AND).",
+         "note": "Support MP/ML/PP: 98/99/1.00. The molecular clade and the classical section coincide — one of the few drawers that survived the DNA. Sampled here: A. andicola (AND); A. parvispathum (AND); A. berriozabalense (AND); A. lancetillense (AND); A. clarinervium (AND); A. leuconeurum (AND); A. umbrosum (AND); A. pedatoradiatum (AND). Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~2.9 Mya (its \"Mexican epunctate clade\" — Andiphilum before the 2017 resurrection).",
          "children": [
           {
            "id": "sp-anthurium-andicola",
@@ -16378,7 +16378,7 @@
          "name": "Clade 15",
          "rank": "clade",
          "speciesCount": 5,
-         "note": "Support MP/ML/PP: -/70/0.95. Classical sections mixed here: Polyneurium (3), Xialophyllium (2). Sampled here: A. cuspidatum (POLYN); A. urbanii (POLYN); A. longicaudatum (POLYN); A. mindense (XIA); A. microspadix (XIA).",
+         "note": "Support MP/ML/PP: -/70/0.95. Classical sections mixed here: Polyneurium (3), Xialophyllium (2). Sampled here: A. cuspidatum (POLYN); A. urbanii (POLYN); A. longicaudatum (POLYN); A. mindense (XIA); A. microspadix (XIA). Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~2.2 Mya (as sampled there, without A. longicaudatum).",
          "children": [
           {
            "id": "sp-anthurium-cuspidatum",
@@ -16427,7 +16427,7 @@
          "name": "Clade 14",
          "rank": "clade",
          "speciesCount": 4,
-         "note": "Support MP/ML/PP: -/75/1.00. Classical sections mixed here: Belolonchium (2), Semaeophyllium (1), no section (N/A) (1). Sampled here: A. furcatum (SEM); A. macleanii (BEL); A. pedatum — no section; A. tremulum (BEL).",
+         "note": "Support MP/ML/PP: -/75/1.00. Classical sections mixed here: Belolonchium (2), Semaeophyllium (1), no section (N/A) (1). Sampled here: A. furcatum (SEM); A. macleanii (BEL); A. pedatum — no section; A. tremulum (BEL). Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~1.4 Mya (the same four species).",
          "children": [
           {
            "id": "sp-anthurium-furcatum",
@@ -16466,7 +16466,7 @@
          "name": "Clade 13 · Calomystrium",
          "rank": "clade",
          "speciesCount": 7,
-         "note": "Support MP/ML/PP: 75/93/1.00. The molecular clade and the classical section coincide — one of the few drawers that survived the DNA. Sampled here: A. antioquiense (CAL); A. formosum (CAL); A. hoffmannii (CAL); A. obtusilobum (CAL); A. veitchii (CAL); A. curvispadix (CAL); A. huixtlense (CAL).",
+         "note": "Support MP/ML/PP: 75/93/1.00. The molecular clade and the classical section coincide — one of the few drawers that survived the DNA. Sampled here: A. antioquiense (CAL); A. formosum (CAL); A. hoffmannii (CAL); A. obtusilobum (CAL); A. veitchii (CAL); A. curvispadix (CAL); A. huixtlense (CAL). Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~1.5 Mya (its section Calomystrium clade, the same seven species).",
          "children": [
           {
            "id": "sp-anthurium-antioquiense",
@@ -16571,7 +16571,7 @@
          "name": "Clade 12",
          "rank": "clade",
          "speciesCount": 2,
-         "note": "Support MP/ML/PP: 86/90/0.99. Classical sections mixed here: Cardiolonchium (1), Pachyneurium ser. Pachyneurium (1). Sampled here: A. besseae (CAR); A. willifordii (PACpac).",
+         "note": "Support MP/ML/PP: 86/90/0.99. Classical sections mixed here: Cardiolonchium (1), Pachyneurium ser. Pachyneurium (1). Sampled here: A. besseae (CAR); A. willifordii (PACpac). Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~4.3 Mya (the same two species).",
          "children": [
           {
            "id": "sp-anthurium-besseae",
@@ -16596,7 +16596,7 @@
          "name": "Clade 11 · Multinervia",
          "rank": "clade",
          "speciesCount": 4,
-         "note": "Support MP/ML/PP: 82/99/1.00. The molecular clade and the classical section coincide — one of the few drawers that survived the DNA. Sampled here: A. oxyphyllum (PACmul); A. napaeum (PACmul); A. carchiense (PACmul); A. palenquense (PACmul).",
+         "note": "Support MP/ML/PP: 82/99/1.00. The molecular clade and the classical section coincide — one of the few drawers that survived the DNA. Sampled here: A. oxyphyllum (PACmul); A. napaeum (PACmul); A. carchiense (PACmul); A. palenquense (PACmul). Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~0.8 Mya (its Multinervia clade as sampled — three of these four species).",
          "children": [
           {
            "id": "sp-anthurium-oxyphyllum",
@@ -16637,7 +16637,7 @@
          "name": "Clade 10",
          "rank": "clade",
          "speciesCount": 4,
-         "note": "Support MP/ML/PP: 97/100/1.00. Classical sections mixed here: Decurrentia (2), Cardiolonchium (1), Polyneurium (1). Sampled here: A. lancea (CAR); A. cf. michelii (DEC); A. maculosum (POLYN); A. michelii (DEC).",
+         "note": "Support MP/ML/PP: 97/100/1.00. Classical sections mixed here: Decurrentia (2), Cardiolonchium (1), Polyneurium (1). Sampled here: A. lancea (CAR); A. cf. michelii (DEC); A. maculosum (POLYN); A. michelii (DEC). Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~4.9 Mya (as sampled there, without A. lancea).",
          "children": [
           {
            "id": "sp-anthurium-lancea",
@@ -16678,7 +16678,7 @@
          "name": "Clade 9",
          "rank": "clade",
          "speciesCount": 7,
-         "note": "Support MP/ML/PP: 95/98/1.00. Classical sections mixed here: Pachyneurium ser. Pachyneurium (6), Decurrentia (1). Sampled here: A. fornicifolium (DEC); A. spectabile (PACpac); A. bradeanum (PACpac); A. halmoorei (PACpac); A. schottianum (PACpac); A. spathiphyllum (PACpac); A. protensum (PACpac).",
+         "note": "Support MP/ML/PP: 95/98/1.00. Classical sections mixed here: Pachyneurium ser. Pachyneurium (6), Decurrentia (1). Sampled here: A. fornicifolium (DEC); A. spectabile (PACpac); A. bradeanum (PACpac); A. halmoorei (PACpac); A. schottianum (PACpac); A. spathiphyllum (PACpac); A. protensum (PACpac). Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~5.8 Mya (for this group PLUS A. crenatum and A. venosum — the dissertation drew them inside).",
          "children": [
           {
            "id": "sp-anthurium-fornicifolium",
@@ -16759,7 +16759,7 @@
          "name": "Clade 8 · Leptanthurium",
          "rank": "clade",
          "speciesCount": 3,
-         "note": "Support MP/ML/PP: 100/100/1.00. Drawn as section Leptanthurium by the study; classical sections of its species: Decurrentia (2), Leptanthurium (1). Sampled here: A. gracile (LEP); A. vittariifolium (DEC); A. sp. 4 (DEC).",
+         "note": "Support MP/ML/PP: 100/100/1.00. Drawn as section Leptanthurium by the study; classical sections of its species: Decurrentia (2), Leptanthurium (1). Sampled here: A. gracile (LEP); A. vittariifolium (DEC); A. sp. 4 (DEC). Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~3.0 Mya (its section Leptanthurium clade).",
          "children": [
           {
            "id": "sp-anthurium-gracile",
@@ -16792,7 +16792,7 @@
          "name": "Clade 7",
          "rank": "clade",
          "speciesCount": 8,
-         "note": "Support MP/ML/PP: 82/90/1.00. Classical sections mixed here: Porphyrochitonium (5), Digitinervium (3). Sampled here: A. bakeri (POR); A. lancifolium (POR); A. sp. 3 (DIG); A. margaricarpum (POR); A. ovatifolium (DIG); A. punctatum (POR); A. wendlingeri (POR); A. morae (DIG).",
+         "note": "Support MP/ML/PP: 82/90/1.00. Classical sections mixed here: Porphyrochitonium (5), Digitinervium (3). Sampled here: A. bakeri (POR); A. lancifolium (POR); A. sp. 3 (DIG); A. margaricarpum (POR); A. ovatifolium (DIG); A. punctatum (POR); A. wendlingeri (POR); A. morae (DIG). Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~4.1 Mya (the matching clade as sampled there).",
          "children": [
           {
            "id": "sp-anthurium-bakeri",
@@ -16865,7 +16865,7 @@
          "name": "Clade 6",
          "rank": "clade",
          "speciesCount": 3,
-         "note": "Support MP/ML/PP: 100/100/1.00. Classical sections mixed here: Porphyrochitonium (2), Digitinervium (1). Sampled here: A. bicollectivum (POR); A. peltigerum (DIG); A. friedrichsthalii (POR).",
+         "note": "Support MP/ML/PP: 100/100/1.00. Classical sections mixed here: Porphyrochitonium (2), Digitinervium (1). Sampled here: A. bicollectivum (POR); A. peltigerum (DIG); A. friedrichsthalii (POR). Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~2.6 Mya (as sampled there — A. friedrichsthalii + A. bicollectivum, without A. peltigerum).",
          "children": [
           {
            "id": "sp-anthurium-bicollectivum",
@@ -16898,7 +16898,7 @@
          "name": "Clade 5 · Tetraspermium",
          "rank": "clade",
          "speciesCount": 5,
-         "note": "Support MP/ML/PP: 93/100/1.00. The molecular clade and the classical section coincide — one of the few drawers that survived the DNA. Sampled here: A. citrifolium (TET); A. laciniosum (TET); A. cf. obtusum (TET); A. obtusum (TET); A. scandens (TET).",
+         "note": "Support MP/ML/PP: 93/100/1.00. The molecular clade and the classical section coincide — one of the few drawers that survived the DNA. Sampled here: A. citrifolium (TET); A. laciniosum (TET); A. cf. obtusum (TET); A. obtusum (TET); A. scandens (TET). Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~3.4 Mya (its section Tetraspermium clade, the same five species).",
          "children": [
           {
            "id": "sp-anthurium-citrifolium",
@@ -16947,7 +16947,7 @@
          "name": "Clade 4",
          "rank": "clade",
          "speciesCount": 3,
-         "note": "Support MP/ML/PP: 94/97/1.00. Classical sections mixed here: Belolonchium (3). Sampled here: A. chiapasense (BEL); A. lucens (BEL); A. verapazense (BEL).",
+         "note": "Support MP/ML/PP: 94/97/1.00. Classical sections mixed here: Belolonchium (3). Sampled here: A. chiapasense (BEL); A. lucens (BEL); A. verapazense (BEL). Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~4.3 Mya (its \"Mexican punctate clade\", the same three species).",
          "children": [
           {
            "id": "sp-anthurium-chiapasense",
@@ -16980,7 +16980,7 @@
          "name": "Clade 3 · Dactylophyllium",
          "rank": "clade",
          "speciesCount": 10,
-         "note": "Support MP/ML/PP: -/73/0.95. The molecular clade and the classical section coincide — one of the few drawers that survived the DNA. Sampled here: A. brevipedunculatum (DAC); A. clavigerum (DAC); A. sinuatum (DAC); A. digitatum (DAC); A. longissimum (DAC); A. thrinax (DAC); A. eminens (DAC); A. croatii (DAC); A. polydactylum (DAC); A. kunthii (DAC).",
+         "note": "Support MP/ML/PP: -/73/0.95. The molecular clade and the classical section coincide — one of the few drawers that survived the DNA. Sampled here: A. brevipedunculatum (DAC); A. clavigerum (DAC); A. sinuatum (DAC); A. digitatum (DAC); A. longissimum (DAC); A. thrinax (DAC); A. eminens (DAC); A. croatii (DAC); A. polydactylum (DAC); A. kunthii (DAC). Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~6.0 Mya (its \"palmate-leaves clade\").",
          "children": [
           {
            "id": "sp-anthurium-brevipedunculatum",
@@ -17069,7 +17069,7 @@
          "name": "Clade 2",
          "rank": "clade",
          "speciesCount": 6,
-         "note": "Support MP/ML/PP: -/70/0.99. Classical sections mixed here: no section (N/A) (4), Urospadix (2). Sampled here: A. acaule (URO); A. cordifolium — no section; A. willdenowii (URO); A. cordatum — no section; A. grandifolium — no section; A. dominicense — no section.",
+         "note": "Support MP/ML/PP: -/70/0.99. Classical sections mixed here: no section (N/A) (4), Urospadix (2). Sampled here: A. acaule (URO); A. cordifolium — no section; A. willdenowii (URO); A. cordatum — no section; A. grandifolium — no section; A. dominicense — no section. Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~6.2 Mya (its \"Caribbean clade\").",
          "children": [
           {
            "id": "sp-anthurium-acaule",
@@ -17118,7 +17118,7 @@
          "name": "Clade 1",
          "rank": "clade",
          "speciesCount": 9,
-         "note": "Support MP/ML/PP: 86/96/1.00. Classical sections mixed here: Urospadix (7), Chamaerepium (1), no section (N/A) (1). Sampled here: A. bellum (URO); A. longipes (URO); A. radicans (CHA); A. bromelicola — no section; A. harrisii (URO); A. lucidum (URO); A. olfersianum (URO); A. coriaceum (URO); A. parvum (URO).",
+         "note": "Support MP/ML/PP: 86/96/1.00. Classical sections mixed here: Urospadix (7), Chamaerepium (1), no section (N/A) (1). Sampled here: A. bellum (URO); A. longipes (URO); A. radicans (CHA); A. bromelicola — no section; A. harrisii (URO); A. lucidum (URO); A. olfersianum (URO); A. coriaceum (URO); A. parvum (URO). Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~5.6 Mya (its \"Brazilian clade\").",
          "children": [
           {
            "id": "sp-anthurium-bellum",
@@ -17197,7 +17197,7 @@
          "name": "Clade A · Polyphyllium",
          "rank": "clade",
          "speciesCount": 2,
-         "note": "Support MP/ML/PP: 99/100/1.00. The molecular clade and the classical section coincide — one of the few drawers that survived the DNA. Sampled here: A. flexile (POLYP); A. clidemioides (POLYP). The earliest divergent lineage in the genus.",
+         "note": "Support MP/ML/PP: 99/100/1.00. The molecular clade and the classical section coincide — one of the few drawers that survived the DNA. Sampled here: A. flexile (POLYP); A. clidemioides (POLYP). The earliest divergent lineage in the genus. Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~11.4 Mya (its Clade A matches this one exactly).",
          "children": [
           {
            "id": "sp-anthurium-flexile",
@@ -17227,7 +17227,7 @@
         }
        ],
        "speciesTierSource": "Carlsen & Croat (2013), Syst. Bot. 38(3): 576-588 — 102 species, chloroplast + nuclear; clades and sections per Carlsen & Croat (2019), Ann. Missouri Bot. Gard. 104(1): 69-82, fig. 1.",
-       "speciesTierNote": "No dated tree exists for Anthurium (even 2026 phylogenomics calls calibration future work), so this tier shows grouping, not time. The supported units are the study's numbered clades; the classical sections growers know are named on every species row — and 10 of the 15 sections tested are NOT natural groups. Clade A is the genus's earliest divergent lineage; everything else forms the strongly supported Clade B (99/100/1.00), whose internal backbone is largely unresolved — the numbered clades are listed in the study's own drawn order."
+       "speciesTierNote": "No PUBLISHED dated tree exists for Anthurium (even 2026 phylogenomics calls calibration future work), so this tier shows grouping, not time — but Carlsen's 2011 dissertation dated it once, unpublished (r8s, Pothoideae crown fixed at 86 Mya): genus crown ~27.2 Mya (Late Oligocene), the core radiation (its Clade B) ~8.9 Mya, and nearly all species-level diversification between ~12 Mya and the Holocene. Its clade ages are quoted on the clade cards; its clade NUMBERS differ from the 2019 numbering used here, so every match was made by membership, never by number. The supported units are the study's numbered clades; the classical sections growers know are named on every species row — and 10 of the 15 sections tested are NOT natural groups. Clade A is the genus's earliest divergent lineage; everything else forms the strongly supported Clade B (99/100/1.00), whose internal backbone is largely unresolved — the numbered clades are listed in the study's own drawn order."
       }
      ]
     },
@@ -17409,10 +17409,11 @@
     "1.23.0 - Miranda et al. 2026 (Philippine Amorphophallus) as card notes on the Amorphophallus tier: polyphyly of the Philippine flora, two colonization routes, subgenus placements. Verified across all four supplementary trees; topology remains Pouchon 2023.",
     "1.24.0 - the Miranda membership layer: 129 species Pouchon never sampled attach to their subgenera as cited, undated group rows (49 subg. Amorphophallus incl. A. titanum, 23 Afrophallus, 16 Scutandrium, 41 Metandrium). Both Miranda analyses agree on every placement; A. kachinensis excluded as an inter-study conflict and noted on its card. Forks and ages remain Pouchon 2023 alone.",
     "1.25.0 - the MONSTERA TIER: dated subtree from Zuluaga, Llano & Cameron 2019 (AMBG 104, Fig. 2) - crown 18.68 Ma, stem 28.03 Ma from Amydrium + part of Epipremnum, 27 tips (26 POWO-checked species + Monstera Croat 96437), 26 forks, all binary. The figure prints no node ages: ages are derived from the chronogram's vector geometry (gridline-calibrated axis), gated on the four crown ages the paper prints in prose (68.83 / 38.4 / 38.56 / 27.0 Ma, all reproduced within 0.16 Ma). Crown ancestral range: tropical America, P = 1.0.",
-    "1.26.0 - the ARISAEMA TIER, undated (Anthurium-style): Ohi-Toma et al. 2016 (BJLS 182, Figs 1-3) - 9 clades (8 + the A. fimbriatum branch), 124 species-level rows from 157 figure tips, Murata-system section on every row (the study's 15-section treatment: Fimbriata resurrected, A. schimperianum -> sect. Arisaema), support values and non-mono sections on clade cards. Dates on cards from Renner, Zhang & Murata 2004 (18-My Beringian calibration; Africa-Himalaya split 31+-10 My; the older America crossing 49+-12 My; root <= 60 My). PIS gate: lobatum->sikokianum block matches the prose; POWO folder check: 11 names absent (9 = the since-lumped Japanese Pistillata names), flagged on their cards."
+    "1.26.0 - the ARISAEMA TIER, undated (Anthurium-style): Ohi-Toma et al. 2016 (BJLS 182, Figs 1-3) - 9 clades (8 + the A. fimbriatum branch), 124 species-level rows from 157 figure tips, Murata-system section on every row (the study's 15-section treatment: Fimbriata resurrected, A. schimperianum -> sect. Arisaema), support values and non-mono sections on clade cards. Dates on cards from Renner, Zhang & Murata 2004 (18-My Beringian calibration; Africa-Himalaya split 31+-10 My; the older America crossing 49+-12 My; root <= 60 My). PIS gate: lobatum->sikokianum block matches the prose; POWO folder check: 11 names absent (9 = the since-lumped Japanese Pistillata names), flagged on their cards.",
+    "1.27.0 - CARLSEN 2011 DISSERTATION AGES on the Anthurium tier, notes-only (the 1.23.0 Miranda precedent): genus crown ~27.2 Mya + crown ages on all 17 clade cards from the dissertation's Table 2 (r8s, root fixed 86 Mya, unpublished). Its clade numbers do NOT match the 2019 numbering (e.g. its 16 = Calomystrium = our 13; its 15 = Mexican epunctate = our 16 Andiphilum) - every mapping was made by MEMBERSHIP against Figure 2, 14 exact or subset matches, membership differences said on the cards (its 11 includes crenatum+venosum). Rendering untouched: no chron fields, the tier stays undated."
    ],
    "speciesCounts": "POWO master export, Araceae_Exports/EXCELS/_run_log.csv (validated accepted species).",
-   "version": "1.26.0",
+   "version": "1.27.0",
    "orthographicVariants": {
     "Stylochiton": "Treated as Stylochaeton Lepr. (MBB no. 34). The POWO export uses Stylochiton; which spelling Kew currently accepts is unconfirmed."
    },
