@@ -10866,6 +10866,158 @@
             ],
             "pp": 1.0
            }
+          },
+          {
+           "id": "group-amorphophallus-afrophallus-miranda",
+           "name": "23 more species assigned here",
+           "rank": "clade",
+           "note": "Species the dated study (Pouchon et al. 2023) did not sample, placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159). Membership is cited, not re-analysed: these attach to the named subgenus, never to a dated fork — which is why they carry no ages. Both Miranda analyses agree on every name listed here.",
+           "chron": {
+            "stem": 11.43,
+            "tips": 23,
+            "note": "assigned by a later study — undated below this point"
+           },
+           "speciesCount": 23,
+           "children": [
+            {
+             "id": "sp-amorphophallus-abyssinicus",
+             "name": "Amorphophallus abyssinicus",
+             "rank": "species",
+             "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+            },
+            {
+             "id": "sp-amorphophallus-andranogidroensis",
+             "name": "Amorphophallus andranogidroensis",
+             "rank": "species",
+             "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+            },
+            {
+             "id": "sp-amorphophallus-angolensis",
+             "name": "Amorphophallus angolensis",
+             "rank": "species",
+             "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+            },
+            {
+             "id": "sp-amorphophallus-ankarana",
+             "name": "Amorphophallus ankarana",
+             "rank": "species",
+             "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+            },
+            {
+             "id": "sp-amorphophallus-antsingyensis",
+             "name": "Amorphophallus antsingyensis",
+             "rank": "species",
+             "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+            },
+            {
+             "id": "sp-amorphophallus-aphyllus",
+             "name": "Amorphophallus aphyllus",
+             "rank": "species",
+             "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+            },
+            {
+             "id": "sp-amorphophallus-baumannii",
+             "name": "Amorphophallus baumannii",
+             "rank": "species",
+             "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+            },
+            {
+             "id": "sp-amorphophallus-calabaricus",
+             "name": "Amorphophallus calabaricus",
+             "rank": "species",
+             "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+            },
+            {
+             "id": "sp-amorphophallus-canaliculatus",
+             "name": "Amorphophallus canaliculatus",
+             "rank": "species",
+             "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+            },
+            {
+             "id": "sp-amorphophallus-consimilis",
+             "name": "Amorphophallus consimilis",
+             "rank": "species",
+             "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+            },
+            {
+             "id": "sp-amorphophallus-dracontioides",
+             "name": "Amorphophallus dracontioides",
+             "rank": "species",
+             "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+            },
+            {
+             "id": "sp-amorphophallus-eichleri",
+             "name": "Amorphophallus eichleri",
+             "rank": "species",
+             "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+            },
+            {
+             "id": "sp-amorphophallus-elliottii",
+             "name": "Amorphophallus elliottii",
+             "rank": "species",
+             "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+            },
+            {
+             "id": "sp-amorphophallus-erythrorrhachis",
+             "name": "Amorphophallus erythrorrhachis",
+             "rank": "species",
+             "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+            },
+            {
+             "id": "sp-amorphophallus-hildebrandtii",
+             "name": "Amorphophallus hildebrandtii",
+             "rank": "species",
+             "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+            },
+            {
+             "id": "sp-amorphophallus-impressus",
+             "name": "Amorphophallus impressus",
+             "rank": "species",
+             "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+            },
+            {
+             "id": "sp-amorphophallus-johnsonii",
+             "name": "Amorphophallus johnsonii",
+             "rank": "species",
+             "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+            },
+            {
+             "id": "sp-amorphophallus-lewallei",
+             "name": "Amorphophallus lewallei",
+             "rank": "species",
+             "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+            },
+            {
+             "id": "sp-amorphophallus-mangelsdorffii",
+             "name": "Amorphophallus mangelsdorffii",
+             "rank": "species",
+             "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+            },
+            {
+             "id": "sp-amorphophallus-maximus",
+             "name": "Amorphophallus maximus",
+             "rank": "species",
+             "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+            },
+            {
+             "id": "sp-amorphophallus-perrieri",
+             "name": "Amorphophallus perrieri",
+             "rank": "species",
+             "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+            },
+            {
+             "id": "sp-amorphophallus-stuhlmannii",
+             "name": "Amorphophallus stuhlmannii",
+             "rank": "species",
+             "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+            },
+            {
+             "id": "sp-amorphophallus-zenkeri",
+             "name": "Amorphophallus zenkeri",
+             "rank": "species",
+             "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+            }
+           ]
           }
          ],
          "chron": {
@@ -11061,7 +11213,8 @@
                      "chron": {
                       "stem": 4.62,
                       "tips": 1
-                     }
+                     },
+                     "note": "Miranda et al. (2026, Pl. Ecol. Evol. 159) place this species in subg. Metandrium instead — the two studies disagree; the drawing follows the dated study."
                     },
                     {
                      "id": "node-amorphophallus-66",
@@ -11172,6 +11325,116 @@
               ],
               "pp": 1.0
              }
+            },
+            {
+             "id": "group-amorphophallus-scutandrium-miranda",
+             "name": "16 more species assigned here",
+             "rank": "clade",
+             "note": "Species the dated study (Pouchon et al. 2023) did not sample, placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159). Membership is cited, not re-analysed: these attach to the named subgenus, never to a dated fork — which is why they carry no ages. Both Miranda analyses agree on every name listed here.",
+             "chron": {
+              "stem": 18.15,
+              "tips": 16,
+              "note": "assigned by a later study — undated below this point"
+             },
+             "speciesCount": 16,
+             "children": [
+              {
+               "id": "sp-amorphophallus-albispathus",
+               "name": "Amorphophallus albispathus",
+               "rank": "species",
+               "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+              },
+              {
+               "id": "sp-amorphophallus-asterostigmatus",
+               "name": "Amorphophallus asterostigmatus",
+               "rank": "species",
+               "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+              },
+              {
+               "id": "sp-amorphophallus-corrugatus",
+               "name": "Amorphophallus corrugatus",
+               "rank": "species",
+               "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+              },
+              {
+               "id": "sp-amorphophallus-coudercii",
+               "name": "Amorphophallus coudercii",
+               "rank": "species",
+               "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+              },
+              {
+               "id": "sp-amorphophallus-fuscus",
+               "name": "Amorphophallus fuscus",
+               "rank": "species",
+               "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+              },
+              {
+               "id": "sp-amorphophallus-haematospadix",
+               "name": "Amorphophallus haematospadix",
+               "rank": "species",
+               "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+              },
+              {
+               "id": "sp-amorphophallus-hohenackeri",
+               "name": "Amorphophallus hohenackeri",
+               "rank": "species",
+               "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+              },
+              {
+               "id": "sp-amorphophallus-krausei",
+               "name": "Amorphophallus krausei",
+               "rank": "species",
+               "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+              },
+              {
+               "id": "sp-amorphophallus-lanceolatum",
+               "name": "Amorphophallus lanceolatum",
+               "rank": "species",
+               "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+              },
+              {
+               "id": "sp-amorphophallus-longituberosus",
+               "name": "Amorphophallus longituberosus",
+               "rank": "species",
+               "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+              },
+              {
+               "id": "sp-amorphophallus-maxwellii",
+               "name": "Amorphophallus maxwellii",
+               "rank": "species",
+               "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+              },
+              {
+               "id": "sp-amorphophallus-napalensis",
+               "name": "Amorphophallus napalensis",
+               "rank": "species",
+               "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+              },
+              {
+               "id": "sp-amorphophallus-saraburiensis",
+               "name": "Amorphophallus saraburiensis",
+               "rank": "species",
+               "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+              },
+              {
+               "id": "sp-amorphophallus-scutatus",
+               "name": "Amorphophallus scutatus",
+               "rank": "species",
+               "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+              },
+              {
+               "id": "sp-amorphophallus-smithsonianus",
+               "name": "Amorphophallus smithsonianus",
+               "rank": "species",
+               "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+              },
+              {
+               "id": "sp-amorphophallus-tenuispadix",
+               "name": "Amorphophallus tenuispadix",
+               "rank": "species",
+               "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+              }
+             ]
             }
            ],
            "chron": {
@@ -11475,6 +11738,314 @@
                 ],
                 "pp": 1.0
                }
+              },
+              {
+               "id": "group-amorphophallus-amorphophallus-miranda",
+               "name": "49 more species assigned here",
+               "rank": "clade",
+               "note": "Species the dated study (Pouchon et al. 2023) did not sample, placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159). Membership is cited, not re-analysed: these attach to the named subgenus, never to a dated fork — which is why they carry no ages. Both Miranda analyses agree on every name listed here.",
+               "chron": {
+                "stem": 17.31,
+                "tips": 49,
+                "note": "assigned by a later study — undated below this point"
+               },
+               "speciesCount": 49,
+               "children": [
+                {
+                 "id": "sp-amorphophallus-angulatus",
+                 "name": "Amorphophallus angulatus",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-beccarii",
+                 "name": "Amorphophallus beccarii",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-borneensis",
+                 "name": "Amorphophallus borneensis",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-boyceanus",
+                 "name": "Amorphophallus boyceanus",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-brachyphyllus",
+                 "name": "Amorphophallus brachyphyllus",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-bufo",
+                 "name": "Amorphophallus bufo",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-commutatus",
+                 "name": "Amorphophallus commutatus",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-dactylifer",
+                 "name": "Amorphophallus dactylifer",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-declinatus",
+                 "name": "Amorphophallus declinatus",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-decus-silvae",
+                 "name": "Amorphophallus decus-silvae",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-discophorus",
+                 "name": "Amorphophallus discophorus",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-eburneus",
+                 "name": "Amorphophallus eburneus",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-elegans",
+                 "name": "Amorphophallus elegans",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-flammeus",
+                 "name": "Amorphophallus flammeus",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-fontarumii",
+                 "name": "Amorphophallus fontarumii",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-galbra",
+                 "name": "Amorphophallus galbra",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-gigas",
+                 "name": "Amorphophallus gigas",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-hirsutus",
+                 "name": "Amorphophallus hirsutus",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-hottae",
+                 "name": "Amorphophallus hottae",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-julaihii",
+                 "name": "Amorphophallus julaihii",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-juliae",
+                 "name": "Amorphophallus juliae",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-koratensis",
+                 "name": "Amorphophallus koratensis",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-lambii",
+                 "name": "Amorphophallus lambii",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-longispathaceus",
+                 "name": "Amorphophallus longispathaceus",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-myosuroides",
+                 "name": "Amorphophallus myosuroides",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-niahensis",
+                 "name": "Amorphophallus niahensis",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-obscurus",
+                 "name": "Amorphophallus obscurus",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-ongsakulii",
+                 "name": "Amorphophallus ongsakulii",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-opertus",
+                 "name": "Amorphophallus opertus",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-palawenensis",
+                 "name": "Amorphophallus palawenensis",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-pendulus",
+                 "name": "Amorphophallus pendulus",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-plicatus",
+                 "name": "Amorphophallus plicatus",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-polyanthus",
+                 "name": "Amorphophallus polyanthus",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-pulchellus",
+                 "name": "Amorphophallus pulchellus",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-pusillus",
+                 "name": "Amorphophallus pusillus",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-rayongii",
+                 "name": "Amorphophallus rayongii",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-adamsensis",
+                 "name": "Amorphophallus adamsensis",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-rostratus",
+                 "name": "Amorphophallus rostratus",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-sagittarius",
+                 "name": "Amorphophallus sagittarius",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-salmoneus",
+                 "name": "Amorphophallus salmoneus",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-samarensis",
+                 "name": "Amorphophallus samarensis",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-scaber",
+                 "name": "Amorphophallus scaber",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-serrulatus",
+                 "name": "Amorphophallus serrulatus",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-spectabilis",
+                 "name": "Amorphophallus spectabilis",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-terrestris",
+                 "name": "Amorphophallus terrestris",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-tinekeae",
+                 "name": "Amorphophallus tinekeae",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-titanum",
+                 "name": "Amorphophallus titanum",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-urceolatus",
+                 "name": "Amorphophallus urceolatus",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-yaoi",
+                 "name": "Amorphophallus yaoi",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                }
+               ]
               }
              ],
              "chron": {
@@ -11943,6 +12514,266 @@
                 ],
                 "pp": 1.0
                }
+              },
+              {
+               "id": "group-amorphophallus-metandrium-miranda",
+               "name": "41 more species assigned here",
+               "rank": "clade",
+               "note": "Species the dated study (Pouchon et al. 2023) did not sample, placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159). Membership is cited, not re-analysed: these attach to the named subgenus, never to a dated fork — which is why they carry no ages. Both Miranda analyses agree on every name listed here.",
+               "chron": {
+                "stem": 17.46,
+                "tips": 41,
+                "note": "assigned by a later study — undated below this point"
+               },
+               "speciesCount": 41,
+               "children": [
+                {
+                 "id": "sp-amorphophallus-aberrans",
+                 "name": "Amorphophallus aberrans",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-amygdaloides",
+                 "name": "Amorphophallus amygdaloides",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-angustispathus",
+                 "name": "Amorphophallus angustispathus",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-atrorubens",
+                 "name": "Amorphophallus atrorubens",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-atroviridis",
+                 "name": "Amorphophallus atroviridis",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-brevispathus",
+                 "name": "Amorphophallus brevispathus",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-cirrifer",
+                 "name": "Amorphophallus cirrifer",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-croatii",
+                 "name": "Amorphophallus croatii",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-cruddasianus",
+                 "name": "Amorphophallus cruddasianus",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-dunnii",
+                 "name": "Amorphophallus dunnii",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-dzui",
+                 "name": "Amorphophallus dzui",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-gallowayi",
+                 "name": "Amorphophallus gallowayi",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-harmandii",
+                 "name": "Amorphophallus harmandii",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-hirtus",
+                 "name": "Amorphophallus hirtus",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-interruptus",
+                 "name": "Amorphophallus interruptus",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-josefbogneri",
+                 "name": "Amorphophallus josefbogneri",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-kiusianus",
+                 "name": "Amorphophallus kiusianus",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-konkanensis",
+                 "name": "Amorphophallus konkanensis",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-lanuginosus",
+                 "name": "Amorphophallus lanuginosus",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-linearis",
+                 "name": "Amorphophallus linearis",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-longicomus",
+                 "name": "Amorphophallus longicomus",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-longiconnectivus",
+                 "name": "Amorphophallus longiconnectivus",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-lunatus",
+                 "name": "Amorphophallus lunatus",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-macrorhizus",
+                 "name": "Amorphophallus macrorhizus",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-margaritifer",
+                 "name": "Amorphophallus margaritifer",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-operculatus",
+                 "name": "Amorphophallus operculatus",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-pilosus",
+                 "name": "Amorphophallus pilosus",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-prolificus",
+                 "name": "Amorphophallus prolificus",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-putii",
+                 "name": "Amorphophallus putii",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-pygmaeus",
+                 "name": "Amorphophallus pygmaeus",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-reflexus",
+                 "name": "Amorphophallus reflexus",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-saururus",
+                 "name": "Amorphophallus saururus",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-sinuatus",
+                 "name": "Amorphophallus sinuatus",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-sizemoreae",
+                 "name": "Amorphophallus sizemoreae",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-symonianus",
+                 "name": "Amorphophallus symonianus",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-synandrifer",
+                 "name": "Amorphophallus synandrifer",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-thaiensis",
+                 "name": "Amorphophallus thaiensis",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-tonkinensis",
+                 "name": "Amorphophallus tonkinensis",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-vogelianus",
+                 "name": "Amorphophallus vogelianus",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-xiei",
+                 "name": "Amorphophallus xiei",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                },
+                {
+                 "id": "sp-amorphophallus-yunnanensis",
+                 "name": "Amorphophallus yunnanensis",
+                 "rank": "species",
+                 "note": "Placed in this subgenus by Miranda et al. (2026, Pl. Ecol. Evol. 159) — a 187-taxon, three-marker genus-wide analysis; both of its analyses agree on the placement. Not sampled by the dated study, so it has no place on the time axis."
+                }
+               ]
               }
              ],
              "chron": {
@@ -14750,10 +15581,11 @@
     "1.20.0 - ancestral-range layer finished and audited: +14 leader-offset pies recovered (census by wedge-vertex + ring detection, global optimal assignment), 27 pieless forks proven absent, reader corrected (gray/dark pooled states -> 'other', overlapping pies isolated). Join-node 12.89 Ma re-read as Chocó & Andes + Amazonia 0.51 (was Amazonia 0.49 - same pie, true centre).",
     "1.21.0 - ancestral ranges on the Alocasia cladogram from Nauheimer 2012 Table S3 (a table parse joined on the existing figNode numbers): all 55 nodes, Lagrange primary, the two method-conflict nodes (26, 41) stated on the card. Out-of-Borneo reproduces: 35 of 55 optima contain Borneo.",
     "1.22.0 - the ANTHURIUM TIER: Carlsen & Croat's 18 supported clades (A, B, 1-16) with all 102 sampled species, undated by necessity (no dated Anthurium tree exists); the classical sections layered onto every species row and clade card per the reader's ruling — 10 of 15 sections are not natural groups and the cards say so.",
-    "1.23.0 - Miranda et al. 2026 (Philippine Amorphophallus) as card notes on the Amorphophallus tier: polyphyly of the Philippine flora, two colonization routes, subgenus placements. Verified across all four supplementary trees; topology remains Pouchon 2023."
+    "1.23.0 - Miranda et al. 2026 (Philippine Amorphophallus) as card notes on the Amorphophallus tier: polyphyly of the Philippine flora, two colonization routes, subgenus placements. Verified across all four supplementary trees; topology remains Pouchon 2023.",
+    "1.24.0 - the Miranda membership layer: 129 species Pouchon never sampled attach to their subgenera as cited, undated group rows (49 subg. Amorphophallus incl. A. titanum, 23 Afrophallus, 16 Scutandrium, 41 Metandrium). Both Miranda analyses agree on every placement; A. kachinensis excluded as an inter-study conflict and noted on its card. Forks and ages remain Pouchon 2023 alone."
    ],
    "speciesCounts": "POWO master export, Araceae_Exports/EXCELS/_run_log.csv (validated accepted species).",
-   "version": "1.23.0",
+   "version": "1.24.0",
    "orthographicVariants": {
     "Stylochiton": "Treated as Stylochaeton Lepr. (MBB no. 34). The POWO export uses Stylochiton; which spelling Kew currently accepts is unconfirmed."
    },
