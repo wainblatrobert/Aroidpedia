@@ -1,5 +1,5 @@
 {
-  "species": 194,
+  "species": 202,
   "cultivars": 53,
   "hybrids": 150,
   "hybridCultivars": 9,
@@ -14,8 +14,8 @@
       "hybridCultivars": 9
     },
     "Amorphophallus": {
-      "total": 76,
-      "species": 76,
+      "total": 84,
+      "species": 84,
       "cultivars": 0,
       "hybrids": 0,
       "hybridCultivars": 0
@@ -31,11 +31,11 @@
       }
     },
     "Amorphophallus": {
-      "total": 76,
-      "placed": 76,
+      "total": 84,
+      "placed": 84,
       "zones": {
         "africa": 17,
-        "asia": 59
+        "asia": 67
       }
     }
   },
@@ -61,10 +61,11 @@
     "unclassifiedItems": []
   },
   "unresolvedTags": {
+    "Myanmar ?": 1,
     "Angola?": 1,
     "Borneo?": 1
   },
-  "updatedAt": "2026-08-14T09:16:14.267Z",
+  "updatedAt": "2026-08-14T20:10:48.964Z",
   "source": "https://www.aroidpedia.com/journal",
-  "totalItemsScanned": 406
+  "totalItemsScanned": 414
 }
