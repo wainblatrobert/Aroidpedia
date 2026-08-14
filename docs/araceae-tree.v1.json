@@ -11486,7 +11486,8 @@
               ],
               "pp": 1.0
              },
-             "sampledCount": 9
+             "sampledCount": 9,
+             "note": "Most Philippine species belong here, but in several separate subclades — repeated arrivals rather than one radiation (Miranda et al. (2026, Pl. Ecol. Evol. 159): A. adamsensis, A. fontarumii, A. longispathaceus, A. palawenensis and others)."
             },
             {
              "id": "subgenus-amorphophallus-metandrium",
@@ -11496,7 +11497,7 @@
              "cladeCode": "CA-I",
              "typeSpecies": "Amorphophallus cirrifer Stapf",
              "distribution": "India and continental Southeast Asia (Burma, Thailand, Laos, Cambodia, Vietnam and southern and eastern China) to southern Japan, the Philippines and Indonesia.",
-             "note": "The only subgenus ever established before this study. Section Rhaphiophallus is polyphyletic across it and Scutandrium, so that section is not used here.",
+             "note": "The only subgenus ever established before this study. Section Rhaphiophallus is polyphyletic across it and Scutandrium, so that section is not used here. Miranda et al. (2026, Pl. Ecol. Evol. 159) place a Palawan collection here beside A. natolii — with the rest of the Philippine species in subg. Amorphophallus, which is what makes the archipelago's flora polyphyletic.",
              "speciesCount": 0,
              "assignment": "not assigned: the three Asian subgenera overlap in range, so their species can only be read off the study's figures, which are raster images",
              "figNode": 79,
@@ -11995,7 +11996,8 @@
         "note": "from the Amorphophallus study (Fig. 4), not the family chronogram the rest of this view is drawn from - which sampled three Amorphophallus and put the genus at 58.5 / 24.2 Ma. The stem here is the stem of Thomsonieae, monogeneric in this tree, so it is also the genus's. Ages are on that study's own calibration and are not strictly comparable with the genera around it."
        },
        "speciesTierSource": "Pouchon, Boyce, Roberts, Gitzendanner, Hetterscheid, Soltis, Soltis & Claudel (2023), \"Phylogenomic study of Amorphophallus (Alismatales; Araceae): when plastid DNA gene sequences help to resolve the backbone subgeneric delineation\", Journal of Systematics and Evolution 61(1): 64-79, Fig. 4 and Table S2",
-       "speciesTierNote": "The plastid phylogenomic tree. The four subgenera of Claudel et al. (2017) - Amorphophallus (SEA), Afrophallus (AFR), Metandrium (CA-I) and Scutandrium (CA-II) - are recovered as clades and dated here: the genus began to diversify about 22.6 Ma with Afrophallus splitting off first, and the three Asian subgenera separated within about 3 Ma of each other in the Early Miocene. Ages, 95% HPDs and posterior support are Table S2's; the topology is a read of Fig. 4, gated on the tip counts its own node numbering implies, on preorder contiguity, on the ages, and on every Afrophallus species being one of the 40 African Amorphophallus already in this tree. 36 of POWO's 246 species are sampled; the rest are not drawn."
+       "speciesTierNote": "The plastid phylogenomic tree. The four subgenera of Claudel et al. (2017) - Amorphophallus (SEA), Afrophallus (AFR), Metandrium (CA-I) and Scutandrium (CA-II) - are recovered as clades and dated here: the genus began to diversify about 22.6 Ma with Afrophallus splitting off first, and the three Asian subgenera separated within about 3 Ma of each other in the Early Miocene. Ages, 95% HPDs and posterior support are Table S2's; the topology is a read of Fig. 4, gated on the tip counts its own node numbering implies, on preorder contiguity, on the ages, and on every Afrophallus species being one of the 40 African Amorphophallus already in this tree. 36 of POWO's 246 species are sampled; the rest are not drawn.",
+       "note": "The Philippine species are polyphyletic — Miranda et al. (2026, Pl. Ecol. Evol. 159) placed 26 Philippine collections in a genus-wide tree and found them scattered across two subgenera, implying at least two colonization routes into the archipelago (northern and southern Southeast Asia/Borneo)."
       }
      ]
     },
@@ -14697,7 +14699,7 @@
   }
  ],
  "metadata": {
-  "updated": "2026-08-13",
+  "updated": "2026-08-14",
   "about": {
    "intro": [
     "This tree shows how the roughly 150 accepted genera of the arum family are grouped: first into subfamilies, then into tribes, and finally into the genera themselves.",
@@ -14747,10 +14749,11 @@
     "1.19.0 - Alocasia gageana renamed to Alocasia odora 'California' (the id is unchanged: an id is a permalink).",
     "1.20.0 - ancestral-range layer finished and audited: +14 leader-offset pies recovered (census by wedge-vertex + ring detection, global optimal assignment), 27 pieless forks proven absent, reader corrected (gray/dark pooled states -> 'other', overlapping pies isolated). Join-node 12.89 Ma re-read as Chocó & Andes + Amazonia 0.51 (was Amazonia 0.49 - same pie, true centre).",
     "1.21.0 - ancestral ranges on the Alocasia cladogram from Nauheimer 2012 Table S3 (a table parse joined on the existing figNode numbers): all 55 nodes, Lagrange primary, the two method-conflict nodes (26, 41) stated on the card. Out-of-Borneo reproduces: 35 of 55 optima contain Borneo.",
-    "1.22.0 - the ANTHURIUM TIER: Carlsen & Croat's 18 supported clades (A, B, 1-16) with all 102 sampled species, undated by necessity (no dated Anthurium tree exists); the classical sections layered onto every species row and clade card per the reader's ruling — 10 of 15 sections are not natural groups and the cards say so."
+    "1.22.0 - the ANTHURIUM TIER: Carlsen & Croat's 18 supported clades (A, B, 1-16) with all 102 sampled species, undated by necessity (no dated Anthurium tree exists); the classical sections layered onto every species row and clade card per the reader's ruling — 10 of 15 sections are not natural groups and the cards say so.",
+    "1.23.0 - Miranda et al. 2026 (Philippine Amorphophallus) as card notes on the Amorphophallus tier: polyphyly of the Philippine flora, two colonization routes, subgenus placements. Verified across all four supplementary trees; topology remains Pouchon 2023."
    ],
    "speciesCounts": "POWO master export, Araceae_Exports/EXCELS/_run_log.csv (validated accepted species).",
-   "version": "1.22.0",
+   "version": "1.23.0",
    "orthographicVariants": {
     "Stylochiton": "Treated as Stylochaeton Lepr. (MBB no. 34). The POWO export uses Stylochiton; which spelling Kew currently accepts is unconfirmed."
    },
