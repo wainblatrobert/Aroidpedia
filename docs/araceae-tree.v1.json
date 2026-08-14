@@ -13894,7 +13894,643 @@
         "zones": {
          "americas": 71
         }
-       }
+       },
+       "children": [
+        {
+         "id": "node-monstera-2",
+         "name": "node 2",
+         "anon": true,
+         "rank": "clade",
+         "children": [
+          {
+           "id": "species-monstera-florescanoana",
+           "name": "Monstera florescanoana",
+           "rank": "species",
+           "chron": {
+            "stem": 14.58,
+            "tips": 1
+           },
+           "powo": true
+          },
+          {
+           "id": "node-monstera-3",
+           "name": "node 3",
+           "anon": true,
+           "rank": "clade",
+           "children": [
+            {
+             "id": "species-monstera-filamentosa",
+             "name": "Monstera filamentosa",
+             "rank": "species",
+             "chron": {
+              "stem": 8.37,
+              "tips": 1
+             },
+             "powo": true
+            },
+            {
+             "id": "node-monstera-4",
+             "name": "node 4",
+             "anon": true,
+             "rank": "clade",
+             "children": [
+              {
+               "id": "species-monstera-dubia",
+               "name": "Monstera dubia",
+               "rank": "species",
+               "chron": {
+                "stem": 6.53,
+                "tips": 1
+               },
+               "powo": true
+              },
+              {
+               "id": "node-monstera-5",
+               "name": "node 5",
+               "anon": true,
+               "rank": "clade",
+               "children": [
+                {
+                 "id": "species-monstera-punctulata",
+                 "name": "Monstera punctulata",
+                 "rank": "species",
+                 "chron": {
+                  "stem": 4.0,
+                  "tips": 1
+                 },
+                 "powo": true
+                },
+                {
+                 "id": "species-monstera-tuberculata",
+                 "name": "Monstera tuberculata",
+                 "rank": "species",
+                 "chron": {
+                  "stem": 4.0,
+                  "tips": 1
+                 },
+                 "powo": true
+                }
+               ],
+               "chron": {
+                "stem": 6.53,
+                "crown": 4.0,
+                "tips": 2
+               },
+               "speciesCount": 2
+              }
+             ],
+             "chron": {
+              "stem": 8.37,
+              "crown": 6.53,
+              "tips": 3
+             },
+             "speciesCount": 3
+            }
+           ],
+           "chron": {
+            "stem": 14.58,
+            "crown": 8.37,
+            "tips": 4
+           },
+           "speciesCount": 4
+          }
+         ],
+         "chron": {
+          "stem": 18.68,
+          "crown": 14.58,
+          "tips": 5
+         },
+         "speciesCount": 5
+        },
+        {
+         "id": "node-monstera-6",
+         "name": "node 6",
+         "anon": true,
+         "rank": "clade",
+         "children": [
+          {
+           "id": "species-monstera-deliciosa",
+           "name": "Monstera deliciosa",
+           "rank": "species",
+           "chron": {
+            "stem": 15.71,
+            "tips": 1
+           },
+           "powo": true,
+           "note": "Sister to every other sampled Monstera except the five-species florescanoana group — it splits from them at 15.7 Ma in this study."
+          },
+          {
+           "id": "node-monstera-7",
+           "name": "node 7",
+           "anon": true,
+           "rank": "clade",
+           "children": [
+            {
+             "id": "node-monstera-8",
+             "name": "node 8",
+             "anon": true,
+             "rank": "clade",
+             "children": [
+              {
+               "id": "species-monstera-pittieri",
+               "name": "Monstera pittieri",
+               "rank": "species",
+               "chron": {
+                "stem": 8.21,
+                "tips": 1
+               },
+               "powo": true
+              },
+              {
+               "id": "node-monstera-9",
+               "name": "node 9",
+               "anon": true,
+               "rank": "clade",
+               "children": [
+                {
+                 "id": "node-monstera-10",
+                 "name": "node 10",
+                 "anon": true,
+                 "rank": "clade",
+                 "children": [
+                  {
+                   "id": "species-monstera-oreophila",
+                   "name": "Monstera oreophila",
+                   "rank": "species",
+                   "chron": {
+                    "stem": 2.22,
+                    "tips": 1
+                   },
+                   "powo": true
+                  },
+                  {
+                   "id": "species-monstera-egregia",
+                   "name": "Monstera egregia",
+                   "rank": "species",
+                   "chron": {
+                    "stem": 2.22,
+                    "tips": 1
+                   },
+                   "powo": true
+                  }
+                 ],
+                 "chron": {
+                  "stem": 6.28,
+                  "crown": 2.22,
+                  "tips": 2
+                 },
+                 "speciesCount": 2
+                },
+                {
+                 "id": "node-monstera-11",
+                 "name": "node 11",
+                 "anon": true,
+                 "rank": "clade",
+                 "children": [
+                  {
+                   "id": "species-monstera-acuminata",
+                   "name": "Monstera acuminata",
+                   "rank": "species",
+                   "chron": {
+                    "stem": 5.58,
+                    "tips": 1
+                   },
+                   "powo": true
+                  },
+                  {
+                   "id": "node-monstera-12",
+                   "name": "node 12",
+                   "anon": true,
+                   "rank": "clade",
+                   "children": [
+                    {
+                     "id": "species-monstera-siltepecana",
+                     "name": "Monstera siltepecana",
+                     "rank": "species",
+                     "chron": {
+                      "stem": 3.19,
+                      "tips": 1
+                     },
+                     "powo": true
+                    },
+                    {
+                     "id": "node-monstera-13",
+                     "name": "node 13",
+                     "anon": true,
+                     "rank": "clade",
+                     "children": [
+                      {
+                       "id": "species-monstera-buseyi",
+                       "name": "Monstera buseyi",
+                       "rank": "species",
+                       "chron": {
+                        "stem": 2.16,
+                        "tips": 1
+                       },
+                       "powo": true
+                      },
+                      {
+                       "id": "species-monstera-acacoyaguensis",
+                       "name": "Monstera acacoyaguensis",
+                       "rank": "species",
+                       "chron": {
+                        "stem": 2.16,
+                        "tips": 1
+                       },
+                       "powo": true
+                      }
+                     ],
+                     "chron": {
+                      "stem": 3.19,
+                      "crown": 2.16,
+                      "tips": 2
+                     },
+                     "speciesCount": 2
+                    }
+                   ],
+                   "chron": {
+                    "stem": 5.58,
+                    "crown": 3.19,
+                    "tips": 3
+                   },
+                   "speciesCount": 3
+                  }
+                 ],
+                 "chron": {
+                  "stem": 6.28,
+                  "crown": 5.58,
+                  "tips": 4
+                 },
+                 "speciesCount": 4
+                }
+               ],
+               "chron": {
+                "stem": 8.21,
+                "crown": 6.28,
+                "tips": 6
+               },
+               "speciesCount": 6
+              }
+             ],
+             "chron": {
+              "stem": 9.82,
+              "crown": 8.21,
+              "tips": 7
+             },
+             "speciesCount": 7
+            },
+            {
+             "id": "node-monstera-14",
+             "name": "node 14",
+             "anon": true,
+             "rank": "clade",
+             "children": [
+              {
+               "id": "node-monstera-15",
+               "name": "node 15",
+               "anon": true,
+               "rank": "clade",
+               "children": [
+                {
+                 "id": "node-monstera-16",
+                 "name": "node 16",
+                 "anon": true,
+                 "rank": "clade",
+                 "children": [
+                  {
+                   "id": "species-monstera-gracilis",
+                   "name": "Monstera gracilis",
+                   "rank": "species",
+                   "chron": {
+                    "stem": 2.5,
+                    "tips": 1
+                   },
+                   "powo": true
+                  },
+                  {
+                   "id": "species-monstera-obliqua",
+                   "name": "Monstera obliqua",
+                   "rank": "species",
+                   "chron": {
+                    "stem": 2.5,
+                    "tips": 1
+                   },
+                   "powo": true
+                  }
+                 ],
+                 "chron": {
+                  "stem": 5.2,
+                  "crown": 2.5,
+                  "tips": 2
+                 },
+                 "speciesCount": 2
+                },
+                {
+                 "id": "node-monstera-17",
+                 "name": "node 17",
+                 "anon": true,
+                 "rank": "clade",
+                 "children": [
+                  {
+                   "id": "species-monstera-xanthospatha",
+                   "name": "Monstera xanthospatha",
+                   "rank": "species",
+                   "chron": {
+                    "stem": 3.03,
+                    "tips": 1
+                   },
+                   "powo": true
+                  },
+                  {
+                   "id": "node-monstera-18",
+                   "name": "node 18",
+                   "anon": true,
+                   "rank": "clade",
+                   "children": [
+                    {
+                     "id": "species-monstera-subpinnata",
+                     "name": "Monstera subpinnata",
+                     "rank": "species",
+                     "chron": {
+                      "stem": 2.06,
+                      "tips": 1
+                     },
+                     "powo": true
+                    },
+                    {
+                     "id": "species-monstera-aureopinnata",
+                     "name": "Monstera aureopinnata",
+                     "rank": "species",
+                     "chron": {
+                      "stem": 2.06,
+                      "tips": 1
+                     },
+                     "powo": true
+                    }
+                   ],
+                   "chron": {
+                    "stem": 3.03,
+                    "crown": 2.06,
+                    "tips": 2
+                   },
+                   "speciesCount": 2
+                  }
+                 ],
+                 "chron": {
+                  "stem": 5.2,
+                  "crown": 3.03,
+                  "tips": 3
+                 },
+                 "speciesCount": 3
+                }
+               ],
+               "chron": {
+                "stem": 7.81,
+                "crown": 5.2,
+                "tips": 5
+               },
+               "speciesCount": 5
+              },
+              {
+               "id": "node-monstera-19",
+               "name": "node 19",
+               "anon": true,
+               "rank": "clade",
+               "children": [
+                {
+                 "id": "node-monstera-20",
+                 "name": "node 20",
+                 "anon": true,
+                 "rank": "clade",
+                 "children": [
+                  {
+                   "id": "species-monstera-integrifolia",
+                   "name": "Monstera integrifolia",
+                   "rank": "species",
+                   "chron": {
+                    "stem": 4.27,
+                    "tips": 1
+                   },
+                   "powo": true
+                  },
+                  {
+                   "id": "species-monstera-pinnatipartita",
+                   "name": "Monstera pinnatipartita",
+                   "rank": "species",
+                   "chron": {
+                    "stem": 4.27,
+                    "tips": 1
+                   },
+                   "powo": true
+                  }
+                 ],
+                 "chron": {
+                  "stem": 6.32,
+                  "crown": 4.27,
+                  "tips": 2
+                 },
+                 "speciesCount": 2
+                },
+                {
+                 "id": "node-monstera-21",
+                 "name": "node 21",
+                 "anon": true,
+                 "rank": "clade",
+                 "children": [
+                  {
+                   "id": "species-monstera-spruceana",
+                   "name": "Monstera spruceana",
+                   "rank": "species",
+                   "chron": {
+                    "stem": 4.74,
+                    "tips": 1
+                   },
+                   "powo": true
+                  },
+                  {
+                   "id": "node-monstera-22",
+                   "name": "node 22",
+                   "anon": true,
+                   "rank": "clade",
+                   "children": [
+                    {
+                     "id": "node-monstera-23",
+                     "name": "node 23",
+                     "anon": true,
+                     "rank": "clade",
+                     "children": [
+                      {
+                       "id": "species-monstera-adansonii",
+                       "name": "Monstera adansonii",
+                       "rank": "species",
+                       "chron": {
+                        "stem": 0.49,
+                        "tips": 1
+                       },
+                       "powo": true
+                      },
+                      {
+                       "id": "species-monstera-dissecta",
+                       "name": "Monstera dissecta",
+                       "rank": "species",
+                       "chron": {
+                        "stem": 0.49,
+                        "tips": 1
+                       },
+                       "powo": true
+                      }
+                     ],
+                     "chron": {
+                      "stem": 1.77,
+                      "crown": 0.49,
+                      "tips": 2
+                     },
+                     "speciesCount": 2
+                    },
+                    {
+                     "id": "node-monstera-24",
+                     "name": "node 24",
+                     "anon": true,
+                     "rank": "clade",
+                     "children": [
+                      {
+                       "id": "species-monstera-epipremnoides",
+                       "name": "Monstera epipremnoides",
+                       "rank": "species",
+                       "chron": {
+                        "stem": 0.87,
+                        "tips": 1
+                       },
+                       "powo": true
+                      },
+                      {
+                       "id": "node-monstera-25",
+                       "name": "node 25",
+                       "anon": true,
+                       "rank": "clade",
+                       "children": [
+                        {
+                         "id": "species-monstera-planadensis",
+                         "name": "Monstera planadensis",
+                         "rank": "species",
+                         "chron": {
+                          "stem": 0.53,
+                          "tips": 1
+                         },
+                         "powo": true
+                        },
+                        {
+                         "id": "node-monstera-26",
+                         "name": "node 26",
+                         "anon": true,
+                         "rank": "clade",
+                         "children": [
+                          {
+                           "id": "species-monstera-croat-96437",
+                           "name": "Monstera",
+                           "rank": "species",
+                           "accession": "Croat 96437",
+                           "note": "Identified only to genus — the study labels undetermined material by collector and number.",
+                           "chron": {
+                            "stem": 0.26,
+                            "tips": 1
+                           }
+                          },
+                          {
+                           "id": "species-monstera-lechleriana",
+                           "name": "Monstera lechleriana",
+                           "rank": "species",
+                           "chron": {
+                            "stem": 0.26,
+                            "tips": 1
+                           },
+                           "powo": true
+                          }
+                         ],
+                         "chron": {
+                          "stem": 0.53,
+                          "crown": 0.26,
+                          "tips": 2
+                         },
+                         "speciesCount": 2
+                        }
+                       ],
+                       "chron": {
+                        "stem": 0.87,
+                        "crown": 0.53,
+                        "tips": 3
+                       },
+                       "speciesCount": 3
+                      }
+                     ],
+                     "chron": {
+                      "stem": 1.77,
+                      "crown": 0.87,
+                      "tips": 4
+                     },
+                     "speciesCount": 4
+                    }
+                   ],
+                   "chron": {
+                    "stem": 4.74,
+                    "crown": 1.77,
+                    "tips": 6
+                   },
+                   "speciesCount": 6
+                  }
+                 ],
+                 "chron": {
+                  "stem": 6.32,
+                  "crown": 4.74,
+                  "tips": 7
+                 },
+                 "speciesCount": 7
+                }
+               ],
+               "chron": {
+                "stem": 7.81,
+                "crown": 6.32,
+                "tips": 9
+               },
+               "speciesCount": 9
+              }
+             ],
+             "chron": {
+              "stem": 9.82,
+              "crown": 7.81,
+              "tips": 14
+             },
+             "speciesCount": 14
+            }
+           ],
+           "chron": {
+            "stem": 15.71,
+            "crown": 9.82,
+            "tips": 21
+           },
+           "speciesCount": 21
+          }
+         ],
+         "chron": {
+          "stem": 18.68,
+          "crown": 15.71,
+          "tips": 22
+         },
+         "speciesCount": 22
+        }
+       ],
+       "chron": {
+        "stem": 28.03,
+        "crown": 18.68,
+        "tips": 27,
+        "note": "from the Monsteroideae study (Fig. 2), not the family chronogram the rest of this view is drawn from — ages are on that study's own fossil calibration and are not strictly comparable with the genera around it. The stem is the split from Amydrium plus part of Epipremnum, the sister group this study recovers for Monstera."
+       },
+       "ancestralRange": {
+        "area": "tropical America",
+        "p": 1.0
+       },
+       "speciesTierSource": "Zuluaga, Llano & Cameron (2019), \"Systematics, Biogeography, and Morphological Character Evolution of the Hemiepiphytic Subfamily Monsteroideae (Araceae)\", Annals of the Missouri Botanical Garden 104: 33-48, Fig. 2",
+       "speciesTierNote": "27 of the chronogram's 111 tips are Monstera: 26 named species and one specimen identified to genus (Croat 96437) — 28 of the 42 species then described were sampled (two M. adansonii accessions merge in the dating analysis), of POWO's 71 today. American Monstera is nested in an otherwise Old-World clade: its sister is Amydrium plus part of Epipremnum (splitting 28.0 Ma), a pattern the paper reads through the boreotropical hypothesis — the genus's closest fossil relatives are European — and, with Central and South America coded as separate areas, Monstera most probably moved from North/Central America into South America within the last 25 Ma. The figure prints no node ages: every age here is derived from the chronogram's vector geometry against its own 20-Ma gridlines, a derivation that reproduces all four crown ages the paper states in prose (Monsteroideae 68.83, Rhaphidophora clade 38.4, Heteropsis clade 38.56, Spathiphylleae 27.0 Ma) to within 0.16 Ma. Ancestral range at the crown: tropical America, P = 1.0 on the single chronogram and in 100 of 100 trees."
       },
       {
        "id": "genus-rhaphidophora",
@@ -15582,10 +16218,11 @@
     "1.21.0 - ancestral ranges on the Alocasia cladogram from Nauheimer 2012 Table S3 (a table parse joined on the existing figNode numbers): all 55 nodes, Lagrange primary, the two method-conflict nodes (26, 41) stated on the card. Out-of-Borneo reproduces: 35 of 55 optima contain Borneo.",
     "1.22.0 - the ANTHURIUM TIER: Carlsen & Croat's 18 supported clades (A, B, 1-16) with all 102 sampled species, undated by necessity (no dated Anthurium tree exists); the classical sections layered onto every species row and clade card per the reader's ruling — 10 of 15 sections are not natural groups and the cards say so.",
     "1.23.0 - Miranda et al. 2026 (Philippine Amorphophallus) as card notes on the Amorphophallus tier: polyphyly of the Philippine flora, two colonization routes, subgenus placements. Verified across all four supplementary trees; topology remains Pouchon 2023.",
-    "1.24.0 - the Miranda membership layer: 129 species Pouchon never sampled attach to their subgenera as cited, undated group rows (49 subg. Amorphophallus incl. A. titanum, 23 Afrophallus, 16 Scutandrium, 41 Metandrium). Both Miranda analyses agree on every placement; A. kachinensis excluded as an inter-study conflict and noted on its card. Forks and ages remain Pouchon 2023 alone."
+    "1.24.0 - the Miranda membership layer: 129 species Pouchon never sampled attach to their subgenera as cited, undated group rows (49 subg. Amorphophallus incl. A. titanum, 23 Afrophallus, 16 Scutandrium, 41 Metandrium). Both Miranda analyses agree on every placement; A. kachinensis excluded as an inter-study conflict and noted on its card. Forks and ages remain Pouchon 2023 alone.",
+    "1.25.0 - the MONSTERA TIER: dated subtree from Zuluaga, Llano & Cameron 2019 (AMBG 104, Fig. 2) - crown 18.68 Ma, stem 28.03 Ma from Amydrium + part of Epipremnum, 27 tips (26 POWO-checked species + Monstera Croat 96437), 26 forks, all binary. The figure prints no node ages: ages are derived from the chronogram's vector geometry (gridline-calibrated axis), gated on the four crown ages the paper prints in prose (68.83 / 38.4 / 38.56 / 27.0 Ma, all reproduced within 0.16 Ma). Crown ancestral range: tropical America, P = 1.0."
    ],
    "speciesCounts": "POWO master export, Araceae_Exports/EXCELS/_run_log.csv (validated accepted species).",
-   "version": "1.24.0",
+   "version": "1.25.0",
    "orthographicVariants": {
     "Stylochiton": "Treated as Stylochaeton Lepr. (MBB no. 34). The POWO export uses Stylochiton; which spelling Kew currently accepts is unconfirmed."
    },
