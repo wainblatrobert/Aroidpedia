@@ -15099,7 +15099,10 @@
             "stem": 14.58,
             "tips": 1
            },
-           "powo": true
+           "powo": true,
+           "section": "Monstera",
+           "accession": "sect. Monstera",
+           "note": "Section Monstera per Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656."
           },
           {
            "id": "node-monstera-3",
@@ -15118,7 +15121,7 @@
              "powo": true,
              "section": "Marcgraviopsis",
              "accession": "sect. Marcgraviopsis",
-             "note": "Section Marcgraviopsis per Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1)."
+             "note": "Section Marcgraviopsis per both revisions (Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1); Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656), which agree on every name they share."
             },
             {
              "id": "node-monstera-4",
@@ -15137,7 +15140,7 @@
                "powo": true,
                "section": "Marcgraviopsis",
                "accession": "sect. Marcgraviopsis",
-               "note": "Section Marcgraviopsis per Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1)."
+               "note": "Section Marcgraviopsis per both revisions (Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1); Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656), which agree on every name they share."
               },
               {
                "id": "node-monstera-5",
@@ -15156,7 +15159,7 @@
                  "powo": true,
                  "section": "Marcgraviopsis",
                  "accession": "sect. Marcgraviopsis",
-                 "note": "Section Marcgraviopsis per Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1)."
+                 "note": "Section Marcgraviopsis per both revisions (Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1); Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656), which agree on every name they share."
                 },
                 {
                  "id": "species-monstera-tuberculata",
@@ -15169,7 +15172,7 @@
                  "powo": true,
                  "section": "Echinospadix",
                  "accession": "sect. Echinospadix",
-                 "note": "The ONLY member of sect. Echinospadix (Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1)) — and the dated tree puts it nested among sect. Marcgraviopsis samples, one of the reasons the sections are held to be partly unnatural."
+                 "note": "The ONLY member of sect. Echinospadix (Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1); confirmed by Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656) — and the dated tree puts it nested among sect. Marcgraviopsis samples, one of the reasons the sections are held to be partly unnatural."
                 }
                ],
                "chron": {
@@ -15234,7 +15237,7 @@
             "tips": 1
            },
            "powo": true,
-           "note": "Sister to every other sampled Monstera except the five-species florescanoana group — it splits from them at 15.7 Ma in this study. Section Tornelia per Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1).",
+           "note": "Sister to every other sampled Monstera except the five-species florescanoana group — it splits from them at 15.7 Ma in this study. Section Tornelia per both revisions (Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1); Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656), which agree on every name they share.",
            "section": "Tornelia",
            "accession": "sect. Tornelia"
           },
@@ -15261,7 +15264,7 @@
                "powo": true,
                "section": "Marcgraviopsis",
                "accession": "sect. Marcgraviopsis",
-               "note": "Section Marcgraviopsis per Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1)."
+               "note": "Section Marcgraviopsis per both revisions (Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1); Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656), which agree on every name they share."
               },
               {
                "id": "node-monstera-9",
@@ -15286,7 +15289,7 @@
                    "powo": true,
                    "section": "Monstera",
                    "accession": "sect. Monstera",
-                   "note": "Section Monstera per Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1)."
+                   "note": "Section Monstera per both revisions (Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1); Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656), which agree on every name they share."
                   },
                   {
                    "id": "species-monstera-egregia",
@@ -15296,7 +15299,10 @@
                     "stem": 2.22,
                     "tips": 1
                    },
-                   "powo": true
+                   "powo": true,
+                   "section": "Monstera",
+                   "accession": "sect. Monstera",
+                   "note": "Section Monstera per Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656."
                   }
                  ],
                  "chron": {
@@ -15324,7 +15330,10 @@
                     "stem": 5.58,
                     "tips": 1
                    },
-                   "powo": true
+                   "powo": true,
+                   "section": "Marcgraviopsis",
+                   "accession": "sect. Marcgraviopsis",
+                   "note": "Section Marcgraviopsis per Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656. ⚠ In the dated tree it sits among sect. Monstera species rather than with its own section — one of the two cases the 2022 revision cites when it says Madison's sections are not natural groups."
                   },
                   {
                    "id": "node-monstera-12",
@@ -15340,7 +15349,10 @@
                       "stem": 3.19,
                       "tips": 1
                      },
-                     "powo": true
+                     "powo": true,
+                     "section": "Monstera",
+                     "accession": "sect. Monstera",
+                     "note": "Section Monstera per Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656."
                     },
                     {
                      "id": "node-monstera-13",
@@ -15359,7 +15371,7 @@
                        "powo": true,
                        "section": "Monstera",
                        "accession": "sect. Monstera",
-                       "note": "Section Monstera per Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1)."
+                       "note": "Section Monstera per both revisions (Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1); Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656), which agree on every name they share."
                       },
                       {
                        "id": "species-monstera-acacoyaguensis",
@@ -15369,7 +15381,10 @@
                         "stem": 2.16,
                         "tips": 1
                        },
-                       "powo": true
+                       "powo": true,
+                       "section": "Monstera",
+                       "accession": "sect. Monstera",
+                       "note": "Section Monstera per Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656."
                       }
                      ],
                      "chron": {
@@ -15470,7 +15485,7 @@
                    "powo": true,
                    "section": "Monstera",
                    "accession": "sect. Monstera",
-                   "note": "Section Monstera per Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1)."
+                   "note": "Section Monstera per both revisions (Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1); Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656), which agree on every name they share."
                   }
                  ],
                  "chron": {
@@ -15585,7 +15600,7 @@
                    "powo": true,
                    "section": "Monstera",
                    "accession": "sect. Monstera",
-                   "note": "Section Monstera per Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1)."
+                   "note": "Section Monstera per both revisions (Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1); Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656), which agree on every name they share."
                   },
                   {
                    "id": "species-monstera-pinnatipartita",
@@ -15598,7 +15613,7 @@
                    "powo": true,
                    "section": "Monstera",
                    "accession": "sect. Monstera",
-                   "note": "Section Monstera per Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1)."
+                   "note": "Section Monstera per both revisions (Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1); Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656), which agree on every name they share."
                   }
                  ],
                  "chron": {
@@ -15629,7 +15644,7 @@
                    "powo": true,
                    "section": "Marcgraviopsis",
                    "accession": "sect. Marcgraviopsis",
-                   "note": "Section Marcgraviopsis per Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1)."
+                   "note": "Section Marcgraviopsis per both revisions (Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1); Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656), which agree on every name they share. ⚠ In the dated tree it sits among sect. Monstera species rather than with its own section — the other case the 2022 revision cites against the sections being natural groups."
                   },
                   {
                    "id": "node-monstera-22",
@@ -15654,7 +15669,7 @@
                        "powo": true,
                        "section": "Monstera",
                        "accession": "sect. Monstera",
-                       "note": "Section Monstera per Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1)."
+                       "note": "Section Monstera per both revisions (Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1); Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656), which agree on every name they share."
                       },
                       {
                        "id": "species-monstera-dissecta",
@@ -15667,7 +15682,7 @@
                        "powo": true,
                        "section": "Monstera",
                        "accession": "sect. Monstera",
-                       "note": "Section Monstera per Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1)."
+                       "note": "Section Monstera per both revisions (Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1); Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656), which agree on every name they share."
                       }
                      ],
                      "chron": {
@@ -15698,7 +15713,7 @@
                        "powo": true,
                        "section": "Monstera",
                        "accession": "sect. Monstera",
-                       "note": "Section Monstera per Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1)."
+                       "note": "Section Monstera per both revisions (Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1); Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656), which agree on every name they share."
                       },
                       {
                        "id": "node-monstera-25",
@@ -15853,11 +15868,24 @@
         },
         {
          "id": "group-monstera-sect-monstera",
-         "name": "sect. Monstera — 17 more species",
+         "name": "sect. Monstera — 27 more species",
          "anon": false,
          "rank": "clade",
          "note": "Species the dated study (Zuluaga, Llano & Cameron 2019) did not sample, placed in this classical section by the taxonomic literature — membership is cited, not re-analysed, so these attach at the genus crown and carry no ages. Madison's sections are drawers, not proven clades: the 2022 revision itself notes that sampled Marcgraviopsis species do not all group together and that Echinospadix nests inside Marcgraviopsis in the molecular tree.",
          "children": [
+          {
+           "id": "species-monstera-alcirana",
+           "name": "Monstera alcirana",
+           "rank": "species",
+           "section": "Monstera",
+           "accession": "sect. Monstera",
+           "powo": true,
+           "chron": {
+            "stem": 18.68,
+            "tips": 1
+           },
+           "note": "Placed in sect. Monstera by Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656. Not sampled by the dated study."
+          },
           {
            "id": "species-monstera-alfaroi",
            "name": "Monstera alfaroi",
@@ -15869,7 +15897,33 @@
             "tips": 1
            },
            "powo": true,
-           "note": "Placed in sect. Monstera by Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1). Not sampled by the dated study."
+           "note": "Placed in sect. Monstera by both revisions (Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1); Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656), which agree on every name they share. Not sampled by the dated study."
+          },
+          {
+           "id": "species-monstera-bocatorensis",
+           "name": "Monstera bocatorensis",
+           "rank": "species",
+           "section": "Monstera",
+           "accession": "sect. Monstera",
+           "powo": true,
+           "chron": {
+            "stem": 18.68,
+            "tips": 1
+           },
+           "note": "Placed in sect. Monstera by Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656. Not sampled by the dated study."
+          },
+          {
+           "id": "species-monstera-coclensis",
+           "name": "Monstera coclensis",
+           "rank": "species",
+           "section": "Monstera",
+           "accession": "sect. Monstera",
+           "powo": true,
+           "chron": {
+            "stem": 18.68,
+            "tips": 1
+           },
+           "note": "Placed in sect. Monstera by Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656. Not sampled by the dated study."
           },
           {
            "id": "species-monstera-colossica",
@@ -15906,7 +15960,7 @@
             "tips": 1
            },
            "powo": true,
-           "note": "Placed in sect. Monstera by Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1). Not sampled by the dated study."
+           "note": "Placed in sect. Monstera by both revisions (Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1); Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656), which agree on every name they share. Not sampled by the dated study."
           },
           {
            "id": "species-monstera-croatii",
@@ -15919,7 +15973,20 @@
             "tips": 1
            },
            "powo": true,
-           "note": "Placed in sect. Monstera by Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1). Not sampled by the dated study."
+           "note": "Placed in sect. Monstera by both revisions (Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1); Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656), which agree on every name they share. Not sampled by the dated study."
+          },
+          {
+           "id": "species-monstera-donosoensis",
+           "name": "Monstera donosoensis",
+           "rank": "species",
+           "section": "Monstera",
+           "accession": "sect. Monstera",
+           "powo": true,
+           "chron": {
+            "stem": 18.68,
+            "tips": 1
+           },
+           "note": "Placed in sect. Monstera by Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656. Not sampled by the dated study."
           },
           {
            "id": "species-monstera-gambensis",
@@ -15932,7 +15999,33 @@
             "tips": 1
            },
            "powo": true,
-           "note": "Placed in sect. Monstera by Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1). Not sampled by the dated study."
+           "note": "Placed in sect. Monstera by both revisions (Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1); Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656), which agree on every name they share. Not sampled by the dated study."
+          },
+          {
+           "id": "species-monstera-gentryi",
+           "name": "Monstera gentryi",
+           "rank": "species",
+           "section": "Monstera",
+           "accession": "sect. Monstera",
+           "powo": true,
+           "chron": {
+            "stem": 18.68,
+            "tips": 1
+           },
+           "note": "Placed in sect. Monstera by Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656. Not sampled by the dated study."
+          },
+          {
+           "id": "species-monstera-gigas",
+           "name": "Monstera gigas",
+           "rank": "species",
+           "section": "Monstera",
+           "accession": "sect. Monstera",
+           "powo": true,
+           "chron": {
+            "stem": 18.68,
+            "tips": 1
+           },
+           "note": "Placed in sect. Monstera by Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656. Not sampled by the dated study."
           },
           {
            "id": "species-monstera-glaucescens",
@@ -15945,7 +16038,20 @@
             "tips": 1
            },
            "powo": true,
-           "note": "Placed in sect. Monstera by Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1). Not sampled by the dated study."
+           "note": "Placed in sect. Monstera by both revisions (Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1); Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656), which agree on every name they share. Not sampled by the dated study."
+          },
+          {
+           "id": "species-monstera-harrisoniorum",
+           "name": "Monstera harrisoniorum",
+           "rank": "species",
+           "section": "Monstera",
+           "accession": "sect. Monstera",
+           "powo": true,
+           "chron": {
+            "stem": 18.68,
+            "tips": 1
+           },
+           "note": "Placed in sect. Monstera by Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656. Not sampled by the dated study."
           },
           {
            "id": "species-monstera-juliusii",
@@ -15958,7 +16064,7 @@
             "tips": 1
            },
            "powo": true,
-           "note": "Placed in sect. Monstera by Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1). Not sampled by the dated study."
+           "note": "Placed in sect. Monstera by both revisions (Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1); Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656), which agree on every name they share. Not sampled by the dated study."
           },
           {
            "id": "species-monstera-lentii",
@@ -15971,7 +16077,7 @@
             "tips": 1
            },
            "powo": true,
-           "note": "Placed in sect. Monstera by Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1). Not sampled by the dated study."
+           "note": "Placed in sect. Monstera by both revisions (Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1); Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656), which agree on every name they share. Not sampled by the dated study."
           },
           {
            "id": "species-monstera-limitaris",
@@ -15984,7 +16090,7 @@
             "tips": 1
            },
            "powo": true,
-           "note": "Placed in sect. Monstera by Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1). Not sampled by the dated study."
+           "note": "Placed in sect. Monstera by both revisions (Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1); Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656), which agree on every name they share. Not sampled by the dated study."
           },
           {
            "id": "species-monstera-membranacea",
@@ -15997,7 +16103,20 @@
             "tips": 1
            },
            "powo": true,
-           "note": "Placed in sect. Monstera by Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1). Not sampled by the dated study."
+           "note": "Placed in sect. Monstera by both revisions (Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1); Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656), which agree on every name they share. Not sampled by the dated study."
+          },
+          {
+           "id": "species-monstera-minima",
+           "name": "Monstera minima",
+           "rank": "species",
+           "section": "Monstera",
+           "accession": "sect. Monstera",
+           "powo": true,
+           "chron": {
+            "stem": 18.68,
+            "tips": 1
+           },
+           "note": "Placed in sect. Monstera by Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656. Not sampled by the dated study."
           },
           {
            "id": "species-monstera-mittermeieri",
@@ -16010,7 +16129,7 @@
             "tips": 1
            },
            "powo": true,
-           "note": "Placed in sect. Monstera by Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1). Not sampled by the dated study."
+           "note": "Placed in sect. Monstera by both revisions (Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1); Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656), which agree on every name they share. Not sampled by the dated study."
           },
           {
            "id": "species-monstera-monteverdensis",
@@ -16023,7 +16142,20 @@
             "tips": 1
            },
            "powo": true,
-           "note": "Placed in sect. Monstera by Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1). Not sampled by the dated study."
+           "note": "Placed in sect. Monstera by both revisions (Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1); Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656), which agree on every name they share. Not sampled by the dated study."
+          },
+          {
+           "id": "species-monstera-ngabensis",
+           "name": "Monstera ngabensis",
+           "rank": "species",
+           "section": "Monstera",
+           "accession": "sect. Monstera",
+           "powo": true,
+           "chron": {
+            "stem": 18.68,
+            "tips": 1
+           },
+           "note": "Placed in sect. Monstera by Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656. Not sampled by the dated study."
           },
           {
            "id": "species-monstera-standleyana",
@@ -16036,7 +16168,7 @@
             "tips": 1
            },
            "powo": true,
-           "note": "Placed in sect. Monstera by Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1). Not sampled by the dated study."
+           "note": "Placed in sect. Monstera by both revisions (Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1); Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656), which agree on every name they share. Not sampled by the dated study."
           },
           {
            "id": "species-monstera-tablasensis",
@@ -16049,7 +16181,7 @@
             "tips": 1
            },
            "powo": true,
-           "note": "Placed in sect. Monstera by Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1). Not sampled by the dated study."
+           "note": "Placed in sect. Monstera by both revisions (Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1); Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656), which agree on every name they share. Not sampled by the dated study."
           },
           {
            "id": "species-monstera-tarrazuensis",
@@ -16062,7 +16194,20 @@
             "tips": 1
            },
            "powo": true,
-           "note": "Placed in sect. Monstera by Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1). Not sampled by the dated study."
+           "note": "Placed in sect. Monstera by both revisions (Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1); Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656), which agree on every name they share. Not sampled by the dated study."
+          },
+          {
+           "id": "species-monstera-titanum",
+           "name": "Monstera titanum",
+           "rank": "species",
+           "section": "Monstera",
+           "accession": "sect. Monstera",
+           "powo": true,
+           "chron": {
+            "stem": 18.68,
+            "tips": 1
+           },
+           "note": "Placed in sect. Monstera by Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656. Not sampled by the dated study."
           },
           {
            "id": "species-monstera-wilsoniensis",
@@ -16075,19 +16220,19 @@
             "tips": 1
            },
            "powo": true,
-           "note": "Placed in sect. Monstera by Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1). Not sampled by the dated study."
+           "note": "Placed in sect. Monstera by both revisions (Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1); Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656), which agree on every name they share. Not sampled by the dated study."
           }
          ],
          "chron": {
           "stem": 18.68,
-          "tips": 17,
+          "tips": 27,
           "note": "membership by citation; undated by design"
          },
-         "speciesCount": 17
+         "speciesCount": 27
         },
         {
          "id": "group-monstera-sect-marcgraviopsis",
-         "name": "sect. Marcgraviopsis — 4 more species",
+         "name": "sect. Marcgraviopsis — 5 more species",
          "anon": false,
          "rank": "clade",
          "note": "Species the dated study (Zuluaga, Llano & Cameron 2019) did not sample, placed in this classical section by the taxonomic literature — membership is cited, not re-analysed, so these attach at the genus crown and carry no ages. Madison's sections are drawers, not proven clades: the 2022 revision itself notes that sampled Marcgraviopsis species do not all group together and that Echinospadix nests inside Marcgraviopsis in the molecular tree.",
@@ -16103,7 +16248,20 @@
             "tips": 1
            },
            "powo": true,
-           "note": "Placed in sect. Marcgraviopsis by Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1). Not sampled by the dated study."
+           "note": "Placed in sect. Marcgraviopsis by both revisions (Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1); Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656), which agree on every name they share. Not sampled by the dated study."
+          },
+          {
+           "id": "species-monstera-guzmanjacobiae",
+           "name": "Monstera guzmanjacobiae",
+           "rank": "species",
+           "section": "Marcgraviopsis",
+           "accession": "sect. Marcgraviopsis",
+           "powo": true,
+           "chron": {
+            "stem": 18.68,
+            "tips": 1
+           },
+           "note": "Placed in sect. Marcgraviopsis by Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656. Not sampled by the dated study."
           },
           {
            "id": "species-monstera-luteynii",
@@ -16116,7 +16274,7 @@
             "tips": 1
            },
            "powo": true,
-           "note": "Placed in sect. Marcgraviopsis by Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1). Not sampled by the dated study."
+           "note": "Placed in sect. Marcgraviopsis by both revisions (Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1); Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656), which agree on every name they share. Not sampled by the dated study."
           },
           {
            "id": "species-monstera-molinae",
@@ -16129,7 +16287,7 @@
             "tips": 1
            },
            "powo": true,
-           "note": "Placed in sect. Marcgraviopsis by Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1). Not sampled by the dated study."
+           "note": "Placed in sect. Marcgraviopsis by both revisions (Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1); Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656), which agree on every name they share. Not sampled by the dated study."
           },
           {
            "id": "species-monstera-tenuis",
@@ -16142,23 +16300,36 @@
             "tips": 1
            },
            "powo": true,
-           "note": "Placed in sect. Marcgraviopsis by Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1). Not sampled by the dated study."
+           "note": "Placed in sect. Marcgraviopsis by both revisions (Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1); Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656), which agree on every name they share. Not sampled by the dated study."
           }
          ],
          "chron": {
           "stem": 18.68,
-          "tips": 4,
+          "tips": 5,
           "note": "membership by citation; undated by design"
          },
-         "speciesCount": 4
+         "speciesCount": 5
         },
         {
          "id": "group-monstera-sect-tornelia",
-         "name": "sect. Tornelia — 1 more species",
+         "name": "sect. Tornelia — 2 more species",
          "anon": false,
          "rank": "clade",
          "note": "Species the dated study (Zuluaga, Llano & Cameron 2019) did not sample, placed in this classical section by the taxonomic literature — membership is cited, not re-analysed, so these attach at the genus crown and carry no ages. Madison's sections are drawers, not proven clades: the 2022 revision itself notes that sampled Marcgraviopsis species do not all group together and that Echinospadix nests inside Marcgraviopsis in the molecular tree.",
          "children": [
+          {
+           "id": "species-monstera-maderaverde",
+           "name": "Monstera maderaverde",
+           "rank": "species",
+           "section": "Tornelia",
+           "accession": "sect. Tornelia",
+           "powo": true,
+           "chron": {
+            "stem": 18.68,
+            "tips": 1
+           },
+           "note": "Placed in sect. Tornelia by Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656. Not sampled by the dated study."
+          },
           {
            "id": "species-monstera-tacanaensis",
            "name": "Monstera tacanaensis",
@@ -16170,21 +16341,21 @@
             "tips": 1
            },
            "powo": true,
-           "note": "Placed in sect. Tornelia by Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1). Not sampled by the dated study."
+           "note": "Placed in sect. Tornelia by both revisions (Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1); Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656), which agree on every name they share. Not sampled by the dated study."
           }
          ],
          "chron": {
           "stem": 18.68,
-          "tips": 1,
+          "tips": 2,
           "note": "membership by citation; undated by design"
          },
-         "speciesCount": 1
+         "speciesCount": 2
         }
        ],
        "chron": {
         "stem": 28.03,
         "crown": 18.68,
-        "tips": 49,
+        "tips": 61,
         "note": "from the Monsteroideae study (Fig. 2), not the family chronogram the rest of this view is drawn from — ages are on that study's own fossil calibration and are not strictly comparable with the genera around it. The stem is the split from Amydrium plus part of Epipremnum, the sister group this study recovers for Monstera."
        },
        "ancestralRange": {
@@ -16192,7 +16363,7 @@
         "p": 1.0
        },
        "speciesTierSource": "Zuluaga, Llano & Cameron (2019), \"Systematics, Biogeography, and Morphological Character Evolution of the Hemiepiphytic Subfamily Monsteroideae (Araceae)\", Annals of the Missouri Botanical Garden 104: 33-48, Fig. 2",
-       "speciesTierNote": "27 of the chronogram's 111 tips are Monstera: 26 named species and one specimen identified to genus (Croat 96437) — 28 of the 42 species then described were sampled (two M. adansonii accessions merge in the dating analysis), of POWO's 71 today. American Monstera is nested in an otherwise Old-World clade: its sister is Amydrium plus part of Epipremnum (splitting 28.0 Ma), a pattern the paper reads through the boreotropical hypothesis — the genus's closest fossil relatives are European — and, with Central and South America coded as separate areas, Monstera most probably moved from North/Central America into South America within the last 25 Ma. The figure prints no node ages: every age here is derived from the chronogram's vector geometry against its own 20-Ma gridlines, a derivation that reproduces all four crown ages the paper states in prose (Monsteroideae 68.83, Rhaphidophora clade 38.4, Heteropsis clade 38.56, Spathiphylleae 27.0 Ma) to within 0.16 Ma. Ancestral range at the crown: tropical America, P = 1.0 on the single chronogram and in 100 of 100 trees. Since 1.31.0 the classical Madison sections ride the tier too: the 2022 Costa Rica revision (Cedeño-Fonseca, Hay & Blanco, Aroideana 45(1)) states sections for 15 of the sampled species, and 22 species the study never sampled hang at the genus crown in three cited section groups (17 sect. Monstera incl. the 2025 giants M. colossica and M. corana, 4 Marcgraviopsis, 1 Tornelia) — drawers, not clades: the revision itself calls the sections partly unnatural. 23 further unsampled species, mostly outside Costa Rica, have no sectional statement in the held literature; the Central America revision (Phytotaxa 656, 2024) would cover most of them."
+       "speciesTierNote": "27 of the chronogram's 111 tips are Monstera: 26 named species and one specimen identified to genus (Croat 96437) — 28 of the 42 species then described were sampled (two M. adansonii accessions merge in the dating analysis), of POWO's 71 today. American Monstera is nested in an otherwise Old-World clade: its sister is Amydrium plus part of Epipremnum (splitting 28.0 Ma), a pattern the paper reads through the boreotropical hypothesis — the genus's closest fossil relatives are European — and, with Central and South America coded as separate areas, Monstera most probably moved from North/Central America into South America within the last 25 Ma. The figure prints no node ages: every age here is derived from the chronogram's vector geometry against its own 20-Ma gridlines, a derivation that reproduces all four crown ages the paper states in prose (Monsteroideae 68.83, Rhaphidophora clade 38.4, Heteropsis clade 38.56, Spathiphylleae 27.0 Ma) to within 0.16 Ma. Ancestral range at the crown: tropical America, P = 1.0 on the single chronogram and in 100 of 100 trees. The classical Madison sections ride the tier too, from two revisions that agree on every name they share — the Costa Rica revision (Cedeño-Fonseca, Hay & Blanco 2022, Aroideana 45(1)) and the Central America monograph (Croat, Cedeño-Fonseca & Ortiz 2024, Phytotaxa 656, 52 treatments): 20 of the sampled species carry their section, and 34 species the dated study never sampled hang at the genus crown in three cited groups (27 sect. Monstera — including M. titanum, M. gigas and the 2025 giants M. colossica and M. corana — 5 Marcgraviopsis, 2 Tornelia). That is 54 of POWO's 71 species placed. They are drawers, not clades: both revisions say so, and this tree shows why — M. acuminata and M. spruceana (sect. Marcgraviopsis) sit among sect. Monstera species, and M. tuberculata, the only Echinospadix, nests inside a Marcgraviopsis group. The 13 species still unplaced are South American — outside both revisions, which are regional by design. (The 2024 monograph also treats M. boliviana as a synonym of M. obliqua; POWO still accepts it, and this tree follows POWO.)"
       },
       {
        "id": "genus-rhaphidophora",
@@ -17892,10 +18063,11 @@
     "1.29.0 - MONSTERA ANCESTRAL RANGES: all 25 anon forks gain ancestralRange (the crown's printed 1/100/100 has ridden the genus row since 1.25.0), and the answer is the same at every one - tropical America, P = 1.0. Read from Fig. 2's DEC pies as vector fills pixel-classified per disc, palette anchored on the figure's own presence-square columns (Monstera's 27 row-squares prove column B = blue), calibrated on the crown's printed 1/100/100 (the fill circle sits inside the stroked outline - a naive disc reads a phantom white ring; sampled at 0.6r with a 3% noise floor, so a sliver below 3% would not register). Three leftover pies are corner pies, correctly unassigned. The genus never leaves the neotropics in this reconstruction.",
     "1.30.0 - the GUSMAN LAYER on Arisaema: every species card now also names its section in Gusman & Gusman's 2006 monograph (the book growers own), read from Fig. 3's [G] column bars - a second classification riding as notes, the Murata/2016 system stays the tier's frame. Same drawer -> said in one word; different drawer -> named (e.g. schimperianum SIN, the macrospathum trio TOR, lobatum LOB, prazeri ATT). All 124 rows, block-label assignment gated 1:1, per-species conflicts asserted zero.",
     "1.31.0 - the MADISON-SECTIONS MEMBERSHIP LAYER on Monstera (the Miranda 1.24.0 doctrine: forks from one study, membership from many): 22 unsampled species attach at the genus crown in three cited section groups (sect. Monstera 17 incl. the 2025 novelties colossica + corana, Marcgraviopsis 4, Tornelia 1), and 15 sampled rows gain their cited section. Source: the held Costa Rica revision (Cedeno-Fonseca, Hay & Blanco 2022, Aroideana 45(1) - misfiled in the 2009p folder, found by content) + the 2025 Land-of-giants paper. Per-slice parsing gated on the mined file; two parser conflicts adjudicated (limitaris and tablasensis are sect. Monstera by their own Comments; the stray values were luteynii's and tacanaensis's). Echinospadix gets no group - its only member (tuberculata) is sampled, and its card now says it nests inside Marcgraviopsis in the molecular tree. 23 unsampled species (mostly non-CR) remain unplaced pending the Phytotaxa 656 acquisition.",
-    "Pouchon, Boyce, Roberts, Gitzendanner, Hetterscheid, Soltis, Soltis & Claudel (2023), Journal of Systematics and Evolution 61(1): 64-79, Table S2 node 27. Adjudicated 8.16.26 against this tree's chronology and NOT applied to any age. Pouchon dates crown Araceae at 94.14 Ma (95% HPD 76.37-113.98, BPP 1.00) against Nauheimer's 121.7 Ma (95% HPD 112.0-131.9). The intervals OVERLAP between 112.0 and 113.98 Ma, so the two are statistically compatible and the medians alone must not be quoted as a disagreement. The offset is a property of the calibration set, not a finding: Pouchon uses a younger root (Liliacidites, crown monocots 125.0 Ma vs 132 +/- 4.25), DROPS Albertarum pueri (72 Ma, Orontioideae stem - the deepest in-family constraint), and dates Lasioideae from Keratosperma allenbyense at 48.7 Ma against Lasioideaecidites hessei at 70 Ma; its ages run younger than both Givnish et al. (2018) and Nauheimer throughout the monocots. Nauheimer is kept because it is the family-scale study (132 Araceae taxa) where Pouchon samples 36 Amorphophallus species plus outgroups and the family age is a by-product - which is why its interval is nearly twice as wide. Pouchon remains the source for the Amorphophallus subgenus chronogram, where it is the better study. Full adjudication: literature archive DIGESTS/Chronology.md, 'RULING 8.16.26'."
+    "Pouchon, Boyce, Roberts, Gitzendanner, Hetterscheid, Soltis, Soltis & Claudel (2023), Journal of Systematics and Evolution 61(1): 64-79, Table S2 node 27. Adjudicated 8.16.26 against this tree's chronology and NOT applied to any age. Pouchon dates crown Araceae at 94.14 Ma (95% HPD 76.37-113.98, BPP 1.00) against Nauheimer's 121.7 Ma (95% HPD 112.0-131.9). The intervals OVERLAP between 112.0 and 113.98 Ma, so the two are statistically compatible and the medians alone must not be quoted as a disagreement. The offset is a property of the calibration set, not a finding: Pouchon uses a younger root (Liliacidites, crown monocots 125.0 Ma vs 132 +/- 4.25), DROPS Albertarum pueri (72 Ma, Orontioideae stem - the deepest in-family constraint), and dates Lasioideae from Keratosperma allenbyense at 48.7 Ma against Lasioideaecidites hessei at 70 Ma; its ages run younger than both Givnish et al. (2018) and Nauheimer throughout the monocots. Nauheimer is kept because it is the family-scale study (132 Araceae taxa) where Pouchon samples 36 Amorphophallus species plus outgroups and the family age is a by-product - which is why its interval is nearly twice as wide. Pouchon remains the source for the Amorphophallus subgenus chronogram, where it is the better study. Full adjudication: literature archive DIGESTS/Chronology.md, 'RULING 8.16.26'.",
+    "1.33.0 - the MADISON-SECTIONS LAYER EXTENDED with Croat, Cedeno-Fonseca & Ortiz 2024 (Phytotaxa 656, the 197-page Central America monograph, 52 numbered treatments): 12 more unsampled species placed (groups 22 -> 34: sect. Monstera 27 incl. titanum and gigas, Marcgraviopsis 5, Tornelia 2), 5 more sampled rows sectioned (15 -> 20), and every overlapping placement upgraded to a TWO-SOURCE citation - the two revisions agree on all 35 shared names, ZERO conflicts. 54 of POWO's 71 species now carry a section; the 13 that do not are South American, outside both regional revisions. Parse gated on the monograph's own 1..52 heading sequence (complete and alphabetical) - the gate the 2022 parse lacked; two slices hand-adjudicated (maderaverde is Tornelia, the Marcgraviopsis in its slice belongs to a compared species; wilsoniensis is Monstera, its slice swallowing the bibliography because it is treatment #52). M. acuminata and M. spruceana now carry the concrete section-vs-clade mismatch the 2022 revision names."
    ],
    "speciesCounts": "POWO master export, Araceae_Exports/EXCELS/_run_log.csv (validated accepted species).",
-   "version": "1.32.0",
+   "version": "1.33.0",
    "orthographicVariants": {
     "Stylochiton": "Treated as Stylochaeton Lepr. (MBB no. 34). The POWO export uses Stylochiton; which spelling Kew currently accepts is unconfirmed."
    },
