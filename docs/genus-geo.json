@@ -1,7 +1,7 @@
 {
- "version": "1.2.0",
- "generated": "2026-08-14",
- "source": "POWO/WCVP distribution API, native WGSRPD level-3 units",
+ "version": "1.4.0",
+ "generated": "2026-08-15",
+ "source": "POWO/WCVP distribution API, native WGSRPD level-3 units + journal-tag subunit refinement (additive)",
  "genera": {
   "Amorphophallus": {
    "speciesTotal": 246,
@@ -42,6 +42,7 @@
     "Niger": 3,
     "Zambia": 3,
     "Zimbabwe": 3,
+    "Yunnan": 3,
     "Angola": 3,
     "Senegal": 3,
     "Sierra Leone": 3,
@@ -55,6 +56,7 @@
     "Uganda": 2,
     "Congo": 2,
     "Gabon": 2,
+    "Sarawak": 2,
     "Guinea-Bissau": 2,
     "Mali": 2,
     "Nepal": 2,
@@ -65,6 +67,8 @@
     "Sri Lanka": 2,
     "Zambezi Region": 1,
     "Cabinda": 1,
+    "Luzon": 1,
+    "Panay": 1,
     "Queensland": 1,
     "Western Australia": 1,
     "Nicobar": 1,
@@ -129,12 +133,14 @@
     "Somalia": "SOM",
     "Philippines": "PHI",
     "China South-Central": "CHC",
+    "Yunnan": "L4",
     "Madagascar": "MDG",
     "Angola": "ANG",
     "Cabinda": "CAB",
     "Congo": "CON",
     "Gabon": "GAB",
     "Borneo": "BOR",
+    "Sarawak": "L4",
     "Myanmar": "MYA",
     "Java": "JAW",
     "Guinea-Bissau": "GNB",
@@ -154,6 +160,8 @@
     "Bangladesh": "BAN",
     "Nepal": "NEP",
     "Vietnam": "VIE",
+    "Luzon": "L4",
+    "Panay": "L4",
     "China Southeast": "CHS",
     "Cambodia": "CBD",
     "New Guinea": "NWG",
@@ -220,7 +228,8 @@
      "Thailand"
     ],
     "albus": [
-     "China South-Central"
+     "China South-Central",
+     "Yunnan"
     ],
     "allenii": [
      "Thailand"
@@ -241,7 +250,8 @@
      "Sudan-South Sudan"
     ],
     "angulatus": [
-     "Borneo"
+     "Borneo",
+     "Sarawak"
     ],
     "angustispathus": [
      "Myanmar"
@@ -335,7 +345,8 @@
      "Thailand"
     ],
     "brachyphyllus": [
-     "Borneo"
+     "Borneo",
+     "Sarawak"
     ],
     "brevipetiolatus": [
      "Laos"
@@ -344,7 +355,8 @@
      "Thailand"
     ],
     "bubenensis": [
-     "China South-Central"
+     "China South-Central",
+     "Yunnan"
     ],
     "bufo": [
      "Peninsular Malaysia",
@@ -381,6 +393,7 @@
      "Andaman Islands"
     ],
     "caudatus": [
+     "Luzon",
      "Philippines"
     ],
     "chlorospathus": [
@@ -391,6 +404,7 @@
      "Thailand"
     ],
     "cidarioides": [
+     "Panay",
      "Philippines"
     ],
     "cirrifer": [
@@ -402,7 +416,8 @@
     "coaetaneus": [
      "China South-Central",
      "China Southeast",
-     "Vietnam"
+     "Vietnam",
+     "Yunnan"
     ],
     "commutatus": [
      "India"
@@ -1160,9 +1175,12 @@
       "Borneo",
       "Java",
       "Lesser Sunda Islands",
+      "Luzon",
       "Maluku",
+      "Panay",
       "Peninsular Malaysia",
       "Philippines",
+      "Sarawak",
       "Sulawesi",
       "Sumatra"
      ]
@@ -1196,7 +1214,8 @@
      "members": [
       "China South-Central",
       "China Southeast",
-      "Hainan"
+      "Hainan",
+      "Yunnan"
      ]
     },
     "West Tropical Africa": {
@@ -1300,13 +1319,16 @@
       "Java",
       "Laos",
       "Lesser Sunda Islands",
+      "Luzon",
       "Maluku",
       "Myanmar",
       "Nepal",
       "New Guinea",
       "Nicobar",
+      "Panay",
       "Peninsular Malaysia",
       "Philippines",
+      "Sarawak",
       "Sri Lanka",
       "Sulawesi",
       "Sumatra",
@@ -1376,7 +1398,8 @@
       "Hainan",
       "Japan",
       "Nansei-shoto",
-      "Taiwan"
+      "Taiwan",
+      "Yunnan"
      ]
     },
     "Australasia": {
@@ -1998,6 +2021,7 @@
     "New Guinea": 15,
     "Philippines": 15,
     "Vietnam": 13,
+    "Papua New Guinea": 13,
     "Bangladesh": 10,
     "Myanmar": 10,
     "Thailand": 9,
@@ -2006,13 +2030,18 @@
     "China South-Central": 6,
     "Laos": 6,
     "Sumatra": 6,
+    "Sarawak": 6,
+    "Sabah": 6,
     "Java": 5,
     "East Himalaya": 5,
     "India": 5,
     "Peninsular Malaysia": 5,
+    "Yunnan": 4,
     "Bismarck Archipelago": 4,
+    "Brunei": 4,
     "Hainan": 4,
     "Cambodia": 4,
+    "Kalimantan": 4,
     "Lesser Sunda Islands": 3,
     "China Southeast": 3,
     "Nepal": 2,
@@ -2021,13 +2050,21 @@
     "Queensland": 2,
     "Sri Lanka": 2,
     "Taiwan": 2,
+    "Bali": 1,
+    "Lombok": 1,
     "New South Wales": 1,
     "West Himalaya": 1,
     "Andaman Islands": 1,
     "Nicobar": 1,
     "Lakshadweep": 1,
     "Solomon Is.": 1,
-    "Japan": 1
+    "Japan": 1,
+    "Alabat": 1,
+    "Biliran": 1,
+    "Leyte": 1,
+    "Luzon": 1,
+    "Mindanao": 1,
+    "Samar": 1
    },
    "doubtful": {},
    "introduced": {
@@ -2110,20 +2147,26 @@
     "Nepal": "NEP",
     "Thailand": "THA",
     "Vietnam": "VIE",
+    "Yunnan": "L4",
     "Bismarck Archipelago": "BIS",
     "New Guinea": "NWG",
     "Java": "JAW",
     "Lesser Sunda Islands": "LSI",
     "Sumatra": "SUM",
+    "Bali": "L4",
+    "Lombok": "L4",
     "Nansei-shoto": "NNS",
     "Philippines": "PHI",
     "Borneo": "BOR",
+    "Brunei": "L4",
     "Sulawesi": "SUL",
+    "Papua New Guinea": "L4",
     "Maluku": "MOL",
     "New South Wales": "NSW",
     "Queensland": "QLD",
     "Kermadec Is.": "KER",
     "New Zealand North": "NZN",
+    "Sarawak": "L4",
     "China Southeast": "CHS",
     "East Himalaya": "EHM",
     "Hainan": "CHH",
@@ -2139,6 +2182,7 @@
     "Tubuai Is.": "TUB",
     "Vanuatu": "VAN",
     "Windward Is.": "WIN",
+    "Sabah": "L4",
     "Andaman Islands": "AND",
     "India": "IND",
     "Nicobar": "NCB",
@@ -2184,7 +2228,14 @@
     "Venezuela": "VEN",
     "Venezuelan Antilles": "VNA",
     "Ascension": "ASC",
-    "Spain": "SPA"
+    "Spain": "SPA",
+    "Kalimantan": "L4",
+    "Alabat": "L4",
+    "Biliran": "L4",
+    "Leyte": "L4",
+    "Luzon": "L4",
+    "Mindanao": "L4",
+    "Samar": "L4"
    },
    "speciesPlaces": {
     "acuminata": [
@@ -2195,15 +2246,18 @@
      "Myanmar",
      "Nepal",
      "Thailand",
-     "Vietnam"
+     "Vietnam",
+     "Yunnan"
     ],
     "aequiloba": [
      "Bismarck Archipelago",
      "New Guinea"
     ],
     "alba": [
+     "Bali",
      "Java",
      "Lesser Sunda Islands",
+     "Lombok",
      "Sumatra"
     ],
     "arifolia": [
@@ -2217,7 +2271,8 @@
      "New Guinea"
     ],
     "azlanii": [
-     "Borneo"
+     "Borneo",
+     "Brunei"
     ],
     "baginda": [
      "Borneo"
@@ -2229,14 +2284,16 @@
      "Borneo"
     ],
     "boa": [
-     "New Guinea"
+     "New Guinea",
+     "Papua New Guinea"
     ],
     "boyceana": [
      "Philippines"
     ],
     "brancifolia": [
      "Maluku",
-     "New Guinea"
+     "New Guinea",
+     "Papua New Guinea"
     ],
     "brisbanensis": [
      "New South Wales",
@@ -2249,7 +2306,8 @@
      "Sulawesi"
     ],
     "chaii": [
-     "Borneo"
+     "Borneo",
+     "Sarawak"
     ],
     "clypeolata": [
      "Lesser Sunda Islands",
@@ -2274,7 +2332,9 @@
      "Philippines"
     ],
     "cuprea": [
-     "Borneo"
+     "Borneo",
+     "Sabah",
+     "Sarawak"
     ],
     "decipiens": [
      "Andaman Islands",
@@ -2288,7 +2348,8 @@
      "Vietnam"
     ],
     "devansayana": [
-     "New Guinea"
+     "New Guinea",
+     "Papua New Guinea"
     ],
     "epilithica": [
      "Myanmar"
@@ -2306,7 +2367,8 @@
      "Peninsular Malaysia"
     ],
     "flabellifera": [
-     "New Guinea"
+     "New Guinea",
+     "Papua New Guinea"
     ],
     "flemingiana": [
      "Java"
@@ -2337,7 +2399,8 @@
     ],
     "hollrungii": [
      "Bismarck Archipelago",
-     "New Guinea"
+     "New Guinea",
+     "Papua New Guinea"
     ],
     "hypoleuca": [
      "Thailand"
@@ -2366,11 +2429,13 @@
      "Sumatra"
     ],
     "lancifolia": [
-     "New Guinea"
+     "New Guinea",
+     "Papua New Guinea"
     ],
     "lauterbachiana": [
      "Bismarck Archipelago",
-     "New Guinea"
+     "New Guinea",
+     "Papua New Guinea"
     ],
     "lecomtei": [
      "Vietnam"
@@ -2389,13 +2454,15 @@
      "Sulawesi",
      "Sumatra",
      "Thailand",
-     "Vietnam"
+     "Vietnam",
+     "Yunnan"
     ],
     "macrorrhizos": [
      "Bismarck Archipelago",
      "Borneo",
      "Maluku",
      "New Guinea",
+     "Papua New Guinea",
      "Philippines",
      "Queensland",
      "Solomon Is.",
@@ -2417,7 +2484,8 @@
      "Borneo"
     ],
     "monticola": [
-     "New Guinea"
+     "New Guinea",
+     "Papua New Guinea"
     ],
     "navicularis": [
      "Assam",
@@ -2428,13 +2496,15 @@
      "Myanmar",
      "Nepal",
      "Thailand",
-     "Vietnam"
+     "Vietnam",
+     "Yunnan"
     ],
     "nebula": [
      "Borneo"
     ],
     "nicolsonii": [
-     "New Guinea"
+     "New Guinea",
+     "Papua New Guinea"
     ],
     "nycteris": [
      "Philippines"
@@ -2458,10 +2528,14 @@
      "Vietnam"
     ],
     "pangeran": [
-     "Borneo"
+     "Borneo",
+     "Sabah"
     ],
     "peltata": [
-     "Borneo"
+     "Borneo",
+     "Brunei",
+     "Kalimantan",
+     "Sarawak"
     ],
     "perakensis": [
      "Peninsular Malaysia",
@@ -2471,29 +2545,38 @@
      "Philippines"
     ],
     "princeps": [
-     "Borneo"
+     "Borneo",
+     "Brunei"
     ],
     "principiculus": [
-     "Borneo"
+     "Borneo",
+     "Brunei",
+     "Kalimantan",
+     "Sabah"
     ],
     "puber": [
      "Java",
      "Peninsular Malaysia"
     ],
     "puncakborneensis": [
-     "Borneo"
+     "Borneo",
+     "Sarawak"
     ],
     "puteri": [
-     "Borneo"
+     "Borneo",
+     "Sabah"
     ],
     "pyrospatha": [
-     "New Guinea"
+     "New Guinea",
+     "Papua New Guinea"
     ],
     "ramosii": [
      "Philippines"
     ],
     "reginae": [
-     "Borneo"
+     "Borneo",
+     "Kalimantan",
+     "Sarawak"
     ],
     "reginula": [
      "Borneo"
@@ -2520,7 +2603,10 @@
      "Philippines"
     ],
     "sarawakensis": [
-     "Borneo"
+     "Borneo",
+     "Kalimantan",
+     "Sabah",
+     "Sarawak"
     ],
     "scabriuscula": [
      "Borneo"
@@ -2529,7 +2615,8 @@
      "Philippines"
     ],
     "simonsiana": [
-     "New Guinea"
+     "New Guinea",
+     "Papua New Guinea"
     ],
     "sinuata": [
      "Philippines"
@@ -2547,16 +2634,25 @@
      "Vietnam"
     ],
     "wentii": [
-     "New Guinea"
+     "New Guinea",
+     "Papua New Guinea"
     ],
     "wongii": [
-     "Borneo"
+     "Borneo",
+     "Sabah"
     ],
     "yunqiana": [
-     "China South-Central"
+     "China South-Central",
+     "Yunnan"
     ],
     "zebrina": [
-     "Philippines"
+     "Alabat",
+     "Biliran",
+     "Leyte",
+     "Luzon",
+     "Mindanao",
+     "Philippines",
+     "Samar"
     ]
    },
    "doubtfulSpecies": {},
@@ -2564,12 +2660,24 @@
     "Malesia": {
      "count": 57,
      "members": [
+      "Alabat",
+      "Bali",
+      "Biliran",
       "Borneo",
+      "Brunei",
       "Java",
+      "Kalimantan",
       "Lesser Sunda Islands",
+      "Leyte",
+      "Lombok",
+      "Luzon",
       "Maluku",
+      "Mindanao",
       "Peninsular Malaysia",
       "Philippines",
+      "Sabah",
+      "Samar",
+      "Sarawak",
       "Sulawesi",
       "Sumatra"
      ]
@@ -2591,6 +2699,7 @@
      "members": [
       "Bismarck Archipelago",
       "New Guinea",
+      "Papua New Guinea",
       "Solomon Is."
      ]
     },
@@ -2612,7 +2721,8 @@
      "members": [
       "China South-Central",
       "China Southeast",
-      "Hainan"
+      "Hainan",
+      "Yunnan"
      ]
     },
     "Eastern Asia": {
@@ -2641,25 +2751,38 @@
       "Papuasia"
      ],
      "members": [
+      "Alabat",
       "Andaman Islands",
       "Assam",
+      "Bali",
       "Bangladesh",
+      "Biliran",
       "Bismarck Archipelago",
       "Borneo",
+      "Brunei",
       "Cambodia",
       "East Himalaya",
       "India",
       "Java",
+      "Kalimantan",
       "Lakshadweep",
       "Laos",
       "Lesser Sunda Islands",
+      "Leyte",
+      "Lombok",
+      "Luzon",
       "Maluku",
+      "Mindanao",
       "Myanmar",
       "Nepal",
       "New Guinea",
       "Nicobar",
+      "Papua New Guinea",
       "Peninsular Malaysia",
       "Philippines",
+      "Sabah",
+      "Samar",
+      "Sarawak",
       "Solomon Is.",
       "Sri Lanka",
       "Sulawesi",
@@ -2681,7 +2804,8 @@
       "Hainan",
       "Japan",
       "Nansei-shoto",
-      "Taiwan"
+      "Taiwan",
+      "Yunnan"
      ]
     },
     "Australasia": {
@@ -40341,5 +40465,22 @@
    "regions": {},
    "continents": {}
   }
+ },
+ "subunits": {
+  "Alabat": "Philippines",
+  "Bali": "Lesser Sunda Islands",
+  "Biliran": "Philippines",
+  "Brunei": "Borneo",
+  "Kalimantan": "Borneo",
+  "Leyte": "Philippines",
+  "Lombok": "Lesser Sunda Islands",
+  "Luzon": "Philippines",
+  "Mindanao": "Philippines",
+  "Panay": "Philippines",
+  "Papua New Guinea": "New Guinea",
+  "Sabah": "Borneo",
+  "Samar": "Philippines",
+  "Sarawak": "Borneo",
+  "Yunnan": "China South-Central"
  }
 }
