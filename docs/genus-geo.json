@@ -69,6 +69,7 @@
     "Cabinda": 1,
     "Luzon": 1,
     "Panay": 1,
+    "Kalimantan": 1,
     "Queensland": 1,
     "Western Australia": 1,
     "Nicobar": 1,
@@ -163,6 +164,7 @@
     "Luzon": "L4",
     "Panay": "L4",
     "China Southeast": "CHS",
+    "Kalimantan": "L4",
     "Cambodia": "CBD",
     "New Guinea": "NWG",
     "Northern Territory": "NTA",
@@ -427,7 +429,8 @@
      "Senegal"
     ],
     "costatus": [
-     "Borneo"
+     "Borneo",
+     "Kalimantan"
     ],
     "coudercii": [
      "Cambodia",
@@ -1174,6 +1177,7 @@
      "members": [
       "Borneo",
       "Java",
+      "Kalimantan",
       "Lesser Sunda Islands",
       "Luzon",
       "Maluku",
@@ -1278,18 +1282,18 @@
       "Taiwan"
      ]
     },
+    "Papuasia": {
+     "count": 2,
+     "members": [
+      "New Guinea"
+     ]
+    },
     "Australia": {
      "count": 2,
      "members": [
       "Northern Territory",
       "Queensland",
       "Western Australia"
-     ]
-    },
-    "Papuasia": {
-     "count": 2,
-     "members": [
-      "New Guinea"
      ]
     },
     "Southern Africa": {
@@ -1317,6 +1321,7 @@
       "East Himalaya",
       "India",
       "Java",
+      "Kalimantan",
       "Laos",
       "Lesser Sunda Islands",
       "Luzon",
@@ -2041,9 +2046,9 @@
     "Brunei": 4,
     "Hainan": 4,
     "Cambodia": 4,
-    "Kalimantan": 4,
     "Lesser Sunda Islands": 3,
     "China Southeast": 3,
+    "Kalimantan": 3,
     "Nepal": 2,
     "Nansei-shoto": 2,
     "Maluku": 2,
@@ -2066,7 +2071,9 @@
     "Mindanao": 1,
     "Samar": 1
    },
-   "doubtful": {},
+   "doubtful": {
+    "Kalimantan": 1
+   },
    "introduced": {
     "Cook Islands": 3,
     "Tubuai Is.": 3,
@@ -2604,7 +2611,6 @@
     ],
     "sarawakensis": [
      "Borneo",
-     "Kalimantan",
      "Sabah",
      "Sarawak"
     ],
@@ -2655,7 +2661,11 @@
      "Samar"
     ]
    },
-   "doubtfulSpecies": {},
+   "doubtfulSpecies": {
+    "Kalimantan": [
+     "sarawakensis"
+    ]
+   },
    "regions": {
     "Malesia": {
      "count": 57,
