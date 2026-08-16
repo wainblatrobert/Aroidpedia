@@ -1,0 +1,69 @@
+# =====================================================================
+# AROIDPEDIA - .gitignore
+#
+# This repo is BOTH the CDN for the live site (everything under docs/ is
+# served from GitHub Pages) and the host for the refresh automations. So
+# the rule here is narrow on purpose: ignore only build litter, and never
+# use a broad glob that could swallow a published asset.
+#
+# ⚠ In particular there is NO "*cache*" rule. docs/search-index-cache.json
+# is a PUBLISHED, COMMITTED file - the per-page lastmod record that makes
+# the nightly search-index crawl incremental. Ignoring it would throw the
+# cache away with each runner and quietly send every run back to crawling
+# all 380+ pages from cold, with nothing appearing to be wrong. The build
+# caches below are therefore named exactly, never matched by pattern.
+# =====================================================================
+
+# ---- Python -----------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ---- Node -------------------------------------------------------------
+# Nothing in this repo needs node_modules, but the climate builder does
+# `npm i geotiff` in its own workspace, and a stray install here would be
+# a very large accident.
+node_modules/
+npm-debug.log*
+
+# ---- Builder download caches ------------------------------------------
+# Natural Earth, WorldClim and POWO responses. These live on the Drive
+# beside their builders and are tens to hundreds of MB; the pipeline
+# READMEs say "never commit it" for each one. Listed here as a backstop in
+# case a builder is ever run from inside the repo.
+ne-cache/
+ne-cache-hd/
+climate-cache/
+powo-cache/
+
+# ---- Local backup copies ----------------------------------------------
+# House convention on the Drive is to park a pre-change copy beside the
+# file: places.json.bak-preIndia, shapes.json.before-laos,
+# araceae-tree.v1.json.bak-pre-1.32.0. Those belong in the working folder,
+# not in the published artifact - git history is the backup here.
+*.bak
+*.bak-*
+*.before-*
+
+# ---- Secrets ----------------------------------------------------------
+# Nothing in this repo reads a .env today. The rule exists so that adding
+# one later cannot be committed by reflex.
+.env
+.env.*
+!.env.example
+
+# ---- OS and editor litter ---------------------------------------------
+Thumbs.db
+desktop.ini
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# ---- Explicit keeps ---------------------------------------------------
+# Belt and braces: these are published assets and must always be tracked,
+# whatever a future rule above might otherwise match.
+!docs/search-index-cache.json
+!docs/**
