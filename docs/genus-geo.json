@@ -1,5 +1,5 @@
 {
- "version": "1.12.0",
+ "version": "1.13.0",
  "generated": "2026-08-16",
  "source": "POWO/WCVP distribution API, native WGSRPD level-3 units + journal-tag subunit refinement (additive)",
  "genera": {
@@ -1282,18 +1282,18 @@
       "Taiwan"
      ]
     },
+    "Papuasia": {
+     "count": 2,
+     "members": [
+      "New Guinea"
+     ]
+    },
     "Australia": {
      "count": 2,
      "members": [
       "Northern Territory",
       "Queensland",
       "Western Australia"
-     ]
-    },
-    "Papuasia": {
-     "count": 2,
-     "members": [
-      "New Guinea"
      ]
     },
     "Southern Africa": {
