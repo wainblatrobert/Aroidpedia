@@ -6285,28 +6285,49 @@ var GENERA = [
         delete doubtful[p]; delete doubtfulTag[p];
       });
     }
-    /* Which parents take the wash: the SMALLEST tagged ancestor of each
-       lit place, never every ancestor. Kalimantan wants Borneo, not
-       Borneo AND Indonesia - two translucent fills over the same ground
-       stack into a third tone, and the user's own example named the
-       island. Areas come from the feed. */
+    /* Which parents take the wash: the FEWEST tagged ancestors that
+       cover every lit place - most-covering first, smallest area as the
+       tie-break. Never every ancestor: two translucent fills over the
+       same ground stack into a third tone.
+       ⚠ "the smallest ancestor of each lit place" was the first rule and
+       it was WRONG, which only showed up against a live post. A. sarawakensis
+       (Sarawak, Sabah, Kalimantan) washed Borneo AND Malaysia, because
+       the feed's areas make Malaysia (27) smaller than Borneo (58) - so
+       it washed the Malay peninsula, 1,600 km from any record, as
+       "context". Coverage-first fixes it: Borneo covers all three lit
+       places, so Borneo alone. Kalimantan on its own still resolves to
+       Borneo over Indonesia (58 < 140), the example the user asked for. */
     var areas = (data && data.area) || {};
-    var wash = {};
+    var ancOf = {};
     hits.forEach(function(h){
-      var best = null, stack = (SUBPARENT[h] || []).slice(), guard = 0, seen = {};
+      var list = [], stack = (SUBPARENT[h] || []).slice(), guard = 0, seen = {};
       while (stack.length && guard++ < 50){
         var up = stack.pop();
         if (seen[up]) continue;
         seen[up] = 1;
-        if (parents.indexOf(up) >= 0 && known[up] &&
-            (best === null || (areas[up] || 0) < (areas[best] || 0))) best = up;
+        if (parents.indexOf(up) >= 0 && known[up] && list.indexOf(up) < 0) list.push(up);
         (SUBPARENT[up] || []).forEach(function(x){ stack.push(x); });
       }
-      if (best) wash[best] = 1;
+      ancOf[h] = list;
     });
+    var wash = [], need = hits.filter(function(h){ return ancOf[h].length; });
+    while (need.length){
+      var counts = {};
+      need.forEach(function(h){
+        ancOf[h].forEach(function(a){ counts[a] = (counts[a] || 0) + 1; });
+      });
+      var best = null;
+      Object.keys(counts).forEach(function(a){
+        if (best === null || counts[a] > counts[best] ||
+            (counts[a] === counts[best] && (areas[a] || 0) < (areas[best] || 0))) best = a;
+      });
+      if (best === null) break;
+      wash.push(best);
+      need = need.filter(function(h){ return ancOf[h].indexOf(best) < 0; });
+    }
     return { hits:hits, continents:continents, unmapped:unmapped,
              doubtful:doubtful, doubtfulTag:doubtfulTag,
-             parents:parents, wash:Object.keys(wash) };
+             parents:parents, wash:wash };
   }
 
   var apscHatchSeq = 0;
