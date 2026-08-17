@@ -1,5 +1,5 @@
 {
- "version": "1.16.0",
+ "version": "1.17.0",
  "generated": "2026-08-16",
  "source": "POWO/WCVP distribution API, native WGSRPD level-3 units + journal-tag subunit refinement (additive)",
  "genera": {
@@ -35,6 +35,8 @@
     "Ghana": 4,
     "Ivory Coast": 4,
     "Togo": 4,
+    "Yunnan": 4,
+    "Sarawak": 4,
     "Taiwan": 4,
     "Chad": 3,
     "Ethiopia": 3,
@@ -42,7 +44,6 @@
     "Niger": 3,
     "Zambia": 3,
     "Zimbabwe": 3,
-    "Yunnan": 3,
     "Angola": 3,
     "Senegal": 3,
     "Sierra Leone": 3,
@@ -56,7 +57,6 @@
     "Uganda": 2,
     "Congo": 2,
     "Gabon": 2,
-    "Sarawak": 2,
     "Guinea-Bissau": 2,
     "Mali": 2,
     "Nepal": 2,
@@ -72,7 +72,20 @@
     "Kalimantan": 1,
     "Queensland": 1,
     "Western Australia": 1,
+    "Oromia": 1,
+    "Khammouane": 1,
+    "Kanchanaburi": 1,
+    "Kayah": 1,
+    "Gia Lai": 1,
+    "Quảng Ngãi": 1,
+    "Amhara": 1,
+    "Ogun": 1,
+    "Plateau Department": 1,
+    "West Sumatra": 1,
+    "Lào Cai": 1,
     "Nicobar": 1,
+    "Karnataka": 1,
+    "Sabah": 1,
     "Japan": 1,
     "Nansei-shoto": 1,
     "Burundi": 1,
@@ -170,9 +183,22 @@
     "Northern Territory": "NTA",
     "Queensland": "QLD",
     "Western Australia": "WAU",
+    "Oromia": "L4",
+    "Khammouane": "L4",
+    "Kanchanaburi": "L4",
+    "Kayah": "L4",
+    "Gia Lai": "L4",
+    "Quảng Ngãi": "L4",
     "Mozambique": "MOZ",
+    "Amhara": "L4",
+    "Ogun": "L4",
+    "Plateau Department": "L4",
+    "West Sumatra": "L4",
+    "Lào Cai": "L4",
     "Taiwan": "TAI",
     "Nicobar": "NCB",
+    "Karnataka": "L4",
+    "Sabah": "L4",
     "Hainan": "CHH",
     "Japan": "JAP",
     "Nansei-shoto": "NNS",
@@ -548,21 +574,27 @@
     "gallaensis": [
      "Ethiopia",
      "Kenya",
+     "Oromia",
      "Somalia"
     ],
     "gallowayi": [
+     "Khammouane",
      "Laos"
     ],
     "gigas": [
      "Sumatra"
     ],
     "glaucophyllus": [
+     "Kanchanaburi",
      "Thailand"
     ],
     "gliruroides": [
+     "Kayah",
      "Myanmar"
     ],
     "glossophyllus": [
+     "Gia Lai",
+     "Quảng Ngãi",
      "Vietnam"
     ],
     "goetzei": [
@@ -571,14 +603,18 @@
      "Tanzania"
     ],
     "gomboczianus": [
+     "Amhara",
      "Ethiopia"
     ],
     "gracilior": [
      "Benin",
-     "Nigeria"
+     "Nigeria",
+     "Ogun",
+     "Plateau Department"
     ],
     "gracilis": [
-     "Sumatra"
+     "Sumatra",
+     "West Sumatra"
     ],
     "haematospadix": [
      "Peninsular Malaysia",
@@ -592,7 +628,9 @@
     ],
     "hayi": [
      "China South-Central",
-     "Vietnam"
+     "Lào Cai",
+     "Vietnam",
+     "Yunnan"
     ],
     "hemicryptus": [
      "Cambodia"
@@ -601,7 +639,8 @@
      "Taiwan"
     ],
     "hewittii": [
-     "Borneo"
+     "Borneo",
+     "Sarawak"
     ],
     "hildebrandtii": [
      "Madagascar"
@@ -614,10 +653,13 @@
      "Taiwan"
     ],
     "hohenackeri": [
-     "India"
+     "India",
+     "Karnataka"
     ],
     "hottae": [
-     "Borneo"
+     "Borneo",
+     "Sabah",
+     "Sarawak"
     ],
     "impressus": [
      "Malawi",
@@ -1165,9 +1207,15 @@
      "members": [
       "Andaman Islands",
       "Cambodia",
+      "Gia Lai",
+      "Kanchanaburi",
+      "Kayah",
+      "Khammouane",
       "Laos",
+      "Lào Cai",
       "Myanmar",
       "Nicobar",
+      "Quảng Ngãi",
       "Thailand",
       "Vietnam"
      ]
@@ -1184,9 +1232,11 @@
       "Panay",
       "Peninsular Malaysia",
       "Philippines",
+      "Sabah",
       "Sarawak",
       "Sulawesi",
-      "Sumatra"
+      "Sumatra",
+      "West Sumatra"
      ]
     },
     "West-Central Tropical Africa": {
@@ -1209,6 +1259,7 @@
       "Bangladesh",
       "East Himalaya",
       "India",
+      "Karnataka",
       "Nepal",
       "Sri Lanka"
      ]
@@ -1236,6 +1287,8 @@
       "Mali",
       "Niger",
       "Nigeria",
+      "Ogun",
+      "Plateau Department",
       "Senegal",
       "Sierra Leone",
       "Togo"
@@ -1268,8 +1321,10 @@
     "Northeast Tropical Africa": {
      "count": 7,
      "members": [
+      "Amhara",
       "Chad",
       "Ethiopia",
+      "Oromia",
       "Somalia",
       "Sudan-South Sudan"
      ]
@@ -1282,18 +1337,18 @@
       "Taiwan"
      ]
     },
-    "Papuasia": {
-     "count": 2,
-     "members": [
-      "New Guinea"
-     ]
-    },
     "Australia": {
      "count": 2,
      "members": [
       "Northern Territory",
       "Queensland",
       "Western Australia"
+     ]
+    },
+    "Papuasia": {
+     "count": 2,
+     "members": [
+      "New Guinea"
      ]
     },
     "Southern Africa": {
@@ -1319,12 +1374,18 @@
       "Borneo",
       "Cambodia",
       "East Himalaya",
+      "Gia Lai",
       "India",
       "Java",
       "Kalimantan",
+      "Kanchanaburi",
+      "Karnataka",
+      "Kayah",
+      "Khammouane",
       "Laos",
       "Lesser Sunda Islands",
       "Luzon",
+      "Lào Cai",
       "Maluku",
       "Myanmar",
       "Nepal",
@@ -1333,12 +1394,15 @@
       "Panay",
       "Peninsular Malaysia",
       "Philippines",
+      "Quảng Ngãi",
+      "Sabah",
       "Sarawak",
       "Sri Lanka",
       "Sulawesi",
       "Sumatra",
       "Thailand",
-      "Vietnam"
+      "Vietnam",
+      "West Sumatra"
      ]
     },
     "Africa": {
@@ -1353,6 +1417,7 @@
       "Western Indian Ocean"
      ],
      "members": [
+      "Amhara",
       "Angola",
       "Benin",
       "Burkina Faso",
@@ -1379,6 +1444,9 @@
       "Mozambique",
       "Niger",
       "Nigeria",
+      "Ogun",
+      "Oromia",
+      "Plateau Department",
       "Senegal",
       "Sierra Leone",
       "Somalia",
@@ -40478,19 +40546,31 @@
  },
  "subunits": {
   "Alabat": "Philippines",
+  "Amhara": "Ethiopia",
   "Bali": "Lesser Sunda Islands",
   "Biliran": "Philippines",
   "Brunei": "Borneo",
+  "Gia Lai": "Vietnam",
   "Kalimantan": "Borneo",
+  "Kanchanaburi": "Thailand",
+  "Karnataka": "India",
+  "Kayah": "Myanmar",
+  "Khammouane": "Laos",
   "Leyte": "Philippines",
   "Lombok": "Lesser Sunda Islands",
   "Luzon": "Philippines",
+  "Lào Cai": "Vietnam",
   "Mindanao": "Philippines",
+  "Ogun": "Nigeria",
+  "Oromia": "Ethiopia",
   "Panay": "Philippines",
   "Papua New Guinea": "New Guinea",
+  "Plateau Department": "Benin",
+  "Quảng Ngãi": "Vietnam",
   "Sabah": "Borneo",
   "Samar": "Philippines",
   "Sarawak": "Borneo",
+  "West Sumatra": "Sumatra",
   "Yunnan": "China South-Central"
  }
 }
