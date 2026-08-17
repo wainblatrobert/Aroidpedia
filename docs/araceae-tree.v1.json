@@ -15868,7 +15868,7 @@
         },
         {
          "id": "group-monstera-sect-monstera",
-         "name": "sect. Monstera — 27 more species",
+         "name": "sect. Monstera — 30 more species",
          "anon": false,
          "rank": "clade",
          "note": "Species the dated study (Zuluaga, Llano & Cameron 2019) did not sample, placed in this classical section by the taxonomic literature — membership is cited, not re-analysed, so these attach at the genus crown and carry no ages. Madison's sections are drawers, not proven clades: the 2022 revision itself notes that sampled Marcgraviopsis species do not all group together and that Echinospadix nests inside Marcgraviopsis in the molecular tree.",
@@ -15911,6 +15911,19 @@
             "tips": 1
            },
            "note": "Placed in sect. Monstera by Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656. Not sampled by the dated study."
+          },
+          {
+           "id": "species-monstera-cedenoi",
+           "name": "Monstera cedenoi",
+           "rank": "species",
+           "section": "Monstera",
+           "accession": "sect. Monstera",
+           "powo": true,
+           "chron": {
+            "stem": 18.68,
+            "tips": 1
+           },
+           "note": "Placed in sect. Monstera by Ortiz, Croat & Hughes (2024), Webbia 79(2): 305–310 — \"a member of sect. Monstera (sensu Madison 1977)\". It belongs to the M. oreophila complex, with M. gentryi, M. mittermeieri and M. oreophila. Not sampled by the dated study."
           },
           {
            "id": "species-monstera-coclensis",
@@ -16067,6 +16080,19 @@
            "note": "Placed in sect. Monstera by both revisions (Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1); Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656), which agree on every name they share. Not sampled by the dated study."
           },
           {
+           "id": "species-monstera-kikiae",
+           "name": "Monstera kikiae",
+           "rank": "species",
+           "section": "Monstera",
+           "accession": "sect. Monstera",
+           "powo": true,
+           "chron": {
+            "stem": 18.68,
+            "tips": 1
+           },
+           "note": "Placed in sect. Monstera by Zuluaga, Cedeño-Fonseca & Mittermeier (2021), Phytotaxa 527(2): 134–142, which describes it and M. momoi as new species of section Monstera from the Pacific slope of the Colombian Andes. Not sampled by the dated study."
+          },
+          {
            "id": "species-monstera-lentii",
            "name": "Monstera lentii",
            "rank": "species",
@@ -16130,6 +16156,19 @@
            },
            "powo": true,
            "note": "Placed in sect. Monstera by both revisions (Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1); Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656), which agree on every name they share. Not sampled by the dated study."
+          },
+          {
+           "id": "species-monstera-momoi",
+           "name": "Monstera momoi",
+           "rank": "species",
+           "section": "Monstera",
+           "accession": "sect. Monstera",
+           "powo": true,
+           "chron": {
+            "stem": 18.68,
+            "tips": 1
+           },
+           "note": "Placed in sect. Monstera by Zuluaga, Cedeño-Fonseca & Mittermeier (2021), Phytotaxa 527(2): 134–142, which describes it and M. kikiae as new species of section Monstera from the Pacific slope of the Colombian Andes. Not sampled by the dated study."
           },
           {
            "id": "species-monstera-monteverdensis",
@@ -16225,14 +16264,14 @@
          ],
          "chron": {
           "stem": 18.68,
-          "tips": 27,
+          "tips": 30,
           "note": "membership by citation; undated by design"
          },
-         "speciesCount": 27
+         "speciesCount": 30
         },
         {
          "id": "group-monstera-sect-marcgraviopsis",
-         "name": "sect. Marcgraviopsis — 5 more species",
+         "name": "sect. Marcgraviopsis — 8 more species",
          "anon": false,
          "rank": "clade",
          "note": "Species the dated study (Zuluaga, Llano & Cameron 2019) did not sample, placed in this classical section by the taxonomic literature — membership is cited, not re-analysed, so these attach at the genus crown and carry no ages. Madison's sections are drawers, not proven clades: the 2022 revision itself notes that sampled Marcgraviopsis species do not all group together and that Echinospadix nests inside Marcgraviopsis in the molecular tree.",
@@ -16251,6 +16290,19 @@
            "note": "Placed in sect. Marcgraviopsis by both revisions (Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1); Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656), which agree on every name they share. Not sampled by the dated study."
           },
           {
+           "id": "species-monstera-caribaea",
+           "name": "Monstera caribaea",
+           "rank": "species",
+           "section": "Marcgraviopsis",
+           "accession": "sect. Marcgraviopsis",
+           "powo": true,
+           "chron": {
+            "stem": 18.68,
+            "tips": 1
+           },
+           "note": "Placed in sect. Marcgraviopsis by Cedeño-Fonseca, Ortiz, Hay & Blanco (2023), Webbia 78(2): 107–116, which names the section in its own title. Not sampled by the dated study."
+          },
+          {
            "id": "species-monstera-guzmanjacobiae",
            "name": "Monstera guzmanjacobiae",
            "rank": "species",
@@ -16262,6 +16314,19 @@
             "tips": 1
            },
            "note": "Placed in sect. Marcgraviopsis by Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656. Not sampled by the dated study."
+          },
+          {
+           "id": "species-monstera-lamersiana",
+           "name": "Monstera lamersiana",
+           "rank": "species",
+           "section": "Marcgraviopsis",
+           "accession": "sect. Marcgraviopsis",
+           "powo": true,
+           "chron": {
+            "stem": 18.68,
+            "tips": 1
+           },
+           "note": "Placed in sect. Marcgraviopsis by Cedeño-Fonseca, Ortiz, Hay & Blanco (2023), Webbia 78(2): 107–116, which names the section in its own title. Not sampled by the dated study."
           },
           {
            "id": "species-monstera-luteynii",
@@ -16290,6 +16355,19 @@
            "note": "Placed in sect. Marcgraviopsis by both revisions (Cedeño-Fonseca, Hay & Blanco (2022), Aroideana 45(1); Croat, Cedeño-Fonseca & Ortiz (2024), Phytotaxa 656), which agree on every name they share. Not sampled by the dated study."
           },
           {
+           "id": "species-monstera-panamensis",
+           "name": "Monstera panamensis",
+           "rank": "species",
+           "section": "Marcgraviopsis",
+           "accession": "sect. Marcgraviopsis",
+           "powo": true,
+           "chron": {
+            "stem": 18.68,
+            "tips": 1
+           },
+           "note": "Placed in sect. Marcgraviopsis by Cedeño-Fonseca, Ortiz, Hay & Blanco (2023), Webbia 78(2): 107–116, which names the section in its own title. Not sampled by the dated study."
+          },
+          {
            "id": "species-monstera-tenuis",
            "name": "Monstera tenuis",
            "rank": "species",
@@ -16305,10 +16383,10 @@
          ],
          "chron": {
           "stem": 18.68,
-          "tips": 5,
+          "tips": 8,
           "note": "membership by citation; undated by design"
          },
-         "speciesCount": 5
+         "speciesCount": 8
         },
         {
          "id": "group-monstera-sect-tornelia",
@@ -16355,7 +16433,7 @@
        "chron": {
         "stem": 28.03,
         "crown": 18.68,
-        "tips": 61,
+        "tips": 67,
         "note": "from the Monsteroideae study (Fig. 2), not the family chronogram the rest of this view is drawn from — ages are on that study's own fossil calibration and are not strictly comparable with the genera around it. The stem is the split from Amydrium plus part of Epipremnum, the sister group this study recovers for Monstera."
        },
        "ancestralRange": {
@@ -16363,7 +16441,7 @@
         "p": 1.0
        },
        "speciesTierSource": "Zuluaga, Llano & Cameron (2019), \"Systematics, Biogeography, and Morphological Character Evolution of the Hemiepiphytic Subfamily Monsteroideae (Araceae)\", Annals of the Missouri Botanical Garden 104: 33-48, Fig. 2",
-       "speciesTierNote": "27 of the chronogram's 111 tips are Monstera: 26 named species and one specimen identified to genus (Croat 96437) — 28 of the 42 species then described were sampled (two M. adansonii accessions merge in the dating analysis), of POWO's 71 today. American Monstera is nested in an otherwise Old-World clade: its sister is Amydrium plus part of Epipremnum (splitting 28.0 Ma), a pattern the paper reads through the boreotropical hypothesis — the genus's closest fossil relatives are European — and, with Central and South America coded as separate areas, Monstera most probably moved from North/Central America into South America within the last 25 Ma. The figure prints no node ages: every age here is derived from the chronogram's vector geometry against its own 20-Ma gridlines, a derivation that reproduces all four crown ages the paper states in prose (Monsteroideae 68.83, Rhaphidophora clade 38.4, Heteropsis clade 38.56, Spathiphylleae 27.0 Ma) to within 0.16 Ma. Ancestral range at the crown: tropical America, P = 1.0 on the single chronogram and in 100 of 100 trees. The classical Madison sections ride the tier too, from two revisions that agree on every name they share — the Costa Rica revision (Cedeño-Fonseca, Hay & Blanco 2022, Aroideana 45(1)) and the Central America monograph (Croat, Cedeño-Fonseca & Ortiz 2024, Phytotaxa 656, 52 treatments): 20 of the sampled species carry their section, and 34 species the dated study never sampled hang at the genus crown in three cited groups (27 sect. Monstera — including M. titanum, M. gigas and the 2025 giants M. colossica and M. corana — 5 Marcgraviopsis, 2 Tornelia). That is 54 of POWO's 71 species placed. They are drawers, not clades: both revisions say so, and this tree shows why — M. acuminata and M. spruceana (sect. Marcgraviopsis) sit among sect. Monstera species, and M. tuberculata, the only Echinospadix, nests inside a Marcgraviopsis group. The 13 species still unplaced are South American — outside both revisions, which are regional by design. (The 2024 monograph also treats M. boliviana as a synonym of M. obliqua; POWO still accepts it, and this tree follows POWO.)"
+       "speciesTierNote": "27 of the chronogram's 111 tips are Monstera: 26 named species and one specimen identified to genus (Croat 96437) — 28 of the 42 species then described were sampled (two M. adansonii accessions merge in the dating analysis), of POWO's 71 today. American Monstera is nested in an otherwise Old-World clade: its sister is Amydrium plus part of Epipremnum (splitting 28.0 Ma), a pattern the paper reads through the boreotropical hypothesis — the genus's closest fossil relatives are European — and, with Central and South America coded as separate areas, Monstera most probably moved from North/Central America into South America within the last 25 Ma. The figure prints no node ages: every age here is derived from the chronogram's vector geometry against its own 20-Ma gridlines, a derivation that reproduces all four crown ages the paper states in prose (Monsteroideae 68.83, Rhaphidophora clade 38.4, Heteropsis clade 38.56, Spathiphylleae 27.0 Ma) to within 0.16 Ma. Ancestral range at the crown: tropical America, P = 1.0 on the single chronogram and in 100 of 100 trees. The classical Madison sections ride the tier too, from two revisions that agree on every name they share — the Costa Rica revision (Cedeño-Fonseca, Hay & Blanco 2022, Aroideana 45(1)) and the Central America monograph (Croat, Cedeño-Fonseca & Ortiz 2024, Phytotaxa 656, 52 treatments): 20 of the sampled species carry their section, and 34 species the dated study never sampled hang at the genus crown in three cited groups (30 sect. Monstera — including M. titanum, M. gigas and the 2025 giants M. colossica and M. corana — 8 Marcgraviopsis, 2 Tornelia), drawn from six revisions and species papers between 1977 and 2025. That is 58 of POWO's 71 species placed. They are drawers, not clades: both revisions say so, and this tree shows why — M. acuminata and M. spruceana (sect. Marcgraviopsis) sit among sect. Monstera species, and M. tuberculata, the only Echinospadix, nests inside a Marcgraviopsis group. The 13 species still unplaced are all South American, and they are unplaced because no one has published a section for them: six were described between 2004 and 2005 in papers that simply do not assign one (M. amargalensis, M. barrieri, M. cenepensis, M. kessleri, M. praetermissa, M. vasquezii — the 2023 Marcgraviopsis paper does note that the M. subpinnata–M. barrieri complex shingles like Marcgraviopsis but differs from it), and the other seven are sampled species this tree already dates. M. boliviana is a case of its own: both Madison (1977), who erected the sections, and the 2024 monograph treat it as a synonym of M. obliqua, so neither places it — POWO still accepts it, and this tree follows POWO."
       },
       {
        "id": "genus-rhaphidophora",
@@ -18064,10 +18142,11 @@
     "1.30.0 - the GUSMAN LAYER on Arisaema: every species card now also names its section in Gusman & Gusman's 2006 monograph (the book growers own), read from Fig. 3's [G] column bars - a second classification riding as notes, the Murata/2016 system stays the tier's frame. Same drawer -> said in one word; different drawer -> named (e.g. schimperianum SIN, the macrospathum trio TOR, lobatum LOB, prazeri ATT). All 124 rows, block-label assignment gated 1:1, per-species conflicts asserted zero.",
     "1.31.0 - the MADISON-SECTIONS MEMBERSHIP LAYER on Monstera (the Miranda 1.24.0 doctrine: forks from one study, membership from many): 22 unsampled species attach at the genus crown in three cited section groups (sect. Monstera 17 incl. the 2025 novelties colossica + corana, Marcgraviopsis 4, Tornelia 1), and 15 sampled rows gain their cited section. Source: the held Costa Rica revision (Cedeno-Fonseca, Hay & Blanco 2022, Aroideana 45(1) - misfiled in the 2009p folder, found by content) + the 2025 Land-of-giants paper. Per-slice parsing gated on the mined file; two parser conflicts adjudicated (limitaris and tablasensis are sect. Monstera by their own Comments; the stray values were luteynii's and tacanaensis's). Echinospadix gets no group - its only member (tuberculata) is sampled, and its card now says it nests inside Marcgraviopsis in the molecular tree. 23 unsampled species (mostly non-CR) remain unplaced pending the Phytotaxa 656 acquisition.",
     "Pouchon, Boyce, Roberts, Gitzendanner, Hetterscheid, Soltis, Soltis & Claudel (2023), Journal of Systematics and Evolution 61(1): 64-79, Table S2 node 27. Adjudicated 8.16.26 against this tree's chronology and NOT applied to any age. Pouchon dates crown Araceae at 94.14 Ma (95% HPD 76.37-113.98, BPP 1.00) against Nauheimer's 121.7 Ma (95% HPD 112.0-131.9). The intervals OVERLAP between 112.0 and 113.98 Ma, so the two are statistically compatible and the medians alone must not be quoted as a disagreement. The offset is a property of the calibration set, not a finding: Pouchon uses a younger root (Liliacidites, crown monocots 125.0 Ma vs 132 +/- 4.25), DROPS Albertarum pueri (72 Ma, Orontioideae stem - the deepest in-family constraint), and dates Lasioideae from Keratosperma allenbyense at 48.7 Ma against Lasioideaecidites hessei at 70 Ma; its ages run younger than both Givnish et al. (2018) and Nauheimer throughout the monocots. Nauheimer is kept because it is the family-scale study (132 Araceae taxa) where Pouchon samples 36 Amorphophallus species plus outgroups and the family age is a by-product - which is why its interval is nearly twice as wide. Pouchon remains the source for the Amorphophallus subgenus chronogram, where it is the better study. Full adjudication: literature archive DIGESTS/Chronology.md, 'RULING 8.16.26'.",
-    "1.33.0 - the MADISON-SECTIONS LAYER EXTENDED with Croat, Cedeno-Fonseca & Ortiz 2024 (Phytotaxa 656, the 197-page Central America monograph, 52 numbered treatments): 12 more unsampled species placed (groups 22 -> 34: sect. Monstera 27 incl. titanum and gigas, Marcgraviopsis 5, Tornelia 2), 5 more sampled rows sectioned (15 -> 20), and every overlapping placement upgraded to a TWO-SOURCE citation - the two revisions agree on all 35 shared names, ZERO conflicts. 54 of POWO's 71 species now carry a section; the 13 that do not are South American, outside both regional revisions. Parse gated on the monograph's own 1..52 heading sequence (complete and alphabetical) - the gate the 2022 parse lacked; two slices hand-adjudicated (maderaverde is Tornelia, the Marcgraviopsis in its slice belongs to a compared species; wilsoniensis is Monstera, its slice swallowing the bibliography because it is treatment #52). M. acuminata and M. spruceana now carry the concrete section-vs-clade mismatch the 2022 revision names."
+    "1.33.0 - the MADISON-SECTIONS LAYER EXTENDED with Croat, Cedeno-Fonseca & Ortiz 2024 (Phytotaxa 656, the 197-page Central America monograph, 52 numbered treatments): 12 more unsampled species placed (groups 22 -> 34: sect. Monstera 27 incl. titanum and gigas, Marcgraviopsis 5, Tornelia 2), 5 more sampled rows sectioned (15 -> 20), and every overlapping placement upgraded to a TWO-SOURCE citation - the two revisions agree on all 35 shared names, ZERO conflicts. 54 of POWO's 71 species now carry a section; the 13 that do not are South American, outside both regional revisions. Parse gated on the monograph's own 1..52 heading sequence (complete and alphabetical) - the gate the 2022 parse lacked; two slices hand-adjudicated (maderaverde is Tornelia, the Marcgraviopsis in its slice belongs to a compared species; wilsoniensis is Monstera, its slice swallowing the bibliography because it is treatment #52). M. acuminata and M. spruceana now carry the concrete section-vs-clade mismatch the 2022 revision names.",
+    "1.34.0 - the Monstera sections layer closed out as far as the literature allows: six more species placed from three papers acquired today - M. kikiae and M. momoi (sect. Monstera, Zuluaga, Cedeno-Fonseca & Mittermeier 2021, Phytotaxa 527(2), stated in its abstract); M. caribaea, M. lamersiana and M. panamensis (sect. Marcgraviopsis, Cedeno-Fonseca, Ortiz, Hay & Blanco 2023, Webbia 78(2), which names the section in its title); and M. cedenoi (sect. Monstera, Ortiz, Croat & Hughes 2024, Webbia 79(2), 'sensu Madison 1977'). Groups go 34 -> 40, and 58 of POWO's 71 species now carry a section. THE REMAINING SIX UNSAMPLED SPECIES HAVE NO PUBLISHED SECTION AT ALL - their 2004-2005 describing papers assign none, which the tier note now says outright rather than implying an archive gap. M. boliviana is sunk into M. obliqua by BOTH Madison 1977 (the sections' author, treatment 12) and the 2024 monograph; POWO accepts it and the tree follows POWO."
    ],
    "speciesCounts": "POWO master export, Araceae_Exports/EXCELS/_run_log.csv (validated accepted species).",
-   "version": "1.33.0",
+   "version": "1.34.0",
    "orthographicVariants": {
     "Stylochiton": "Treated as Stylochaeton Lepr. (MBB no. 34). The POWO export uses Stylochiton; which spelling Kew currently accepts is unconfirmed."
    },
