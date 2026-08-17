@@ -1,5 +1,9 @@
 # =====================================================================
 # AROIDPEDIA - DEPLOY ON JOURNAL PHOTO PUSH
+# FILE VERSION: v9   (8.17.26: also fires on docs/geo-hierarchy.json —
+#   the one published place -> country/region/continent/parent table the
+#   journal map's zoom views group by. Without the filter the feed sits
+#   in the repo and every grouped view falls back to ungrouped zones.)
 # FILE VERSION: v7   (8.13.26: also fires on docs/shapes-hd.json and
 #   docs/genus-geo.json — the GENUS RANGE MAP's high-detail shapes and
 #   per-genus species-count feed ship through the same no-wait lane.)
@@ -57,6 +61,9 @@ on:
       # v8 (8.14.26): the hosted footer bundle - the code injection is
       # a two-line loader now; every footer change ships through here.
       - "docs/footer.js"
+      # v9 (8.17.26): the geo hierarchy the journal map's Continents /
+      # Regions / Countries / Subzones views group by.
+      - "docs/geo-hierarchy.json"
   workflow_dispatch:
 
 permissions:
