@@ -6155,34 +6155,6 @@ var GENERA = [
        "Harari","Oromia","Somali Region",
        "Southern Nations","Tigray"
      ]],
-     /* TANZANIAN REGIONS, 8.16.26 - the third African level-4 set,
-        built for a Songea species. ⚠ SONGEA IS A DISTRICT (admin-2)
-        and Natural Earth's admin_1 layer stops at REGIONS, so the
-        unit here is RUVUMA, the region Songea sits in; Songea itself
-        belongs in the post's prose, not in a tag.
-        Tanzania is a single level-3 unit, so all 27 parent straight
-        to it. 27 tags from NE's 30 regions: the five island units
-        union into the two names anyone actually writes -
-        ZANZIBAR = the three Unguja regions (the ISLAND sense, which
-        is the one botanical literature uses) and PEMBA = the two
-        Pemba regions. Zanzibar deliberately does NOT mean the
-        semi-autonomous region: that would contain Pemba and make the
-        Pemba tag unreachable (the Hispaniola rule).
-        ⚠ SONGWE, split from Mbeya in 2016, is absent from this
-        Natural Earth vintage - a Songwe tag resolves to nothing, use
-        Mbeya, which still covers that ground here.
-        Same table as build-genus-geo's SUBUNITS (1.17.0). */
-     ["Tanzania", [
-       "Arusha","Dar es Salaam","Dodoma",
-       "Geita","Iringa","Kagera",
-       "Katavi","Kigoma","Kilimanjaro",
-       "Lindi","Manyara","Mara",
-       "Mbeya","Morogoro","Mtwara",
-       "Mwanza","Njombe","Pemba",
-       "Pwani","Rukwa","Ruvuma",
-       "Shinyanga","Simiyu","Singida",
-       "Tabora","Tanga","Zanzibar"
-     ]],
      /* MALAYSIAN STATES + PHILIPPINE PROVINCES, 8.16.26. The PH
         parent is the finest ISLAND the site draws, not the
         administrative region: Palawan files under a Luzon-area
@@ -6378,7 +6350,7 @@ var GENERA = [
     var COUNTRY_PARENT = {};
     ["Australia","Benin","Bolivia","China","Colombia","Costa Rica","Ecuador",
      "Ethiopia","India","Indonesia","Laos","Malaysia","Myanmar","Nigeria",
-     "Panama","Papua New Guinea","Peru","Philippines","Tanzania","Thailand",
+     "Panama","Papua New Guinea","Peru","Philippines","Thailand",
      "Venezuela","Vietnam"].forEach(function(c){ COUNTRY_PARENT[c] = 1; });
 
     var wash = [], need = hits.filter(function(h){ return ancOf[h].length; });
@@ -8641,14 +8613,19 @@ var GENERA = [
     return "frost-free areas of the tagged range";
   }
 
-  function buildRow(res, version, placeCount, forCultivar){
+  function buildRow(res, version, placeCount, forCultivar, fellBackTo){
     var row = el("div", "apsc-fact apsc-fact--clim");
     /* v68: on a cultivar the map is gone but this chart stays, because
        the wild parent's climate is the one thing on the page a grower
        can act on. It is relabelled so it can never read as the clone's
-       own range - it is where the mother species grows. */
+       own range - it is where the mother species grows.
+       v71: same honesty for the containing-place fallback - the label
+       names the place actually measured, so a country-scale envelope
+       can never be read as the province's own. */
     var climLabel = el("div", "apsc-fact__label",
-      forCultivar ? "Climate range · parent species" : "Climate range");
+      forCultivar ? "Climate range · parent species"
+                  : (fellBackTo ? "Climate range · " + fellBackTo
+                                : "Climate range"));
     row.appendChild(climLabel);
     var val = el("div", "apsc-fact__value");
     row.appendChild(val);
@@ -8896,13 +8873,39 @@ var GENERA = [
         if (!distRow.isConnected) return;       /* card was rebuilt/navigated away */
         var entries = places.map(function(t){ return { tag: t, p: cd.places[t] }; })
           .filter(function(x){ return x.p; });
+        /* v71: FALL BACK TO THE CONTAINING PLACE when the finer tags have
+           no climate row yet. climate.json is 1.4.0/146 places, built
+           before the level-4 expansion took shapes.json past 700, so a
+           province usually has no data - and once a subunit tag replaced
+           the country as the lit place, EIGHT live posts silently lost
+           their chart entirely (measured: gallowayi, glaucophyllus,
+           gliruroides, glossophyllus, gomboczianus, gracilior, gracilis,
+           hohenackeri). A country-scale envelope is a real answer for a
+           grower; no chart is not. The parent pills are already in the
+           DOM, so no new plumbing - and the label says which place was
+           measured, so this can never masquerade as the subunit's own.
+           Self-healing: the day climate.json gains the province, the
+           precise row wins and the fallback stops firing. */
+        var fellBackTo = null;
+        if (!entries.length){
+          var pchips = distRow.querySelectorAll("a.apsc-chip--parent");
+          var pnames = [].map.call(pchips, function(c){
+            return c.textContent.replace(/\s+/g, " ").trim();
+          }).filter(Boolean);
+          entries = pnames.map(function(t){ return { tag: t, p: cd.places[t] }; })
+            .filter(function(x){ return x.p; });
+          if (entries.length){
+            fellBackTo = entries.map(function(x){ return x.tag; }).join(" · ");
+          }
+        }
         if (!entries.length) return;
         var res = aggregate(entries);
         /* v68: the card hides the Distribution row on a cultivar
            (.apsc-fact--muted) - that same flag tells us to relabel */
         var forCultivar = !!(distRow.classList &&
                              distRow.classList.contains("apsc-fact--muted"));
-        var built = buildRow(res, cd.version, entries.length, forCultivar);
+        var built = buildRow(res, cd.version, entries.length,
+                             forCultivar, fellBackTo);
         /* v5 placement: the yearly line travels with Distribution in
            the follow panel; the charts row heads the rest panel. On
            pre-v35 markup (one panel, no --follow) the charts row
