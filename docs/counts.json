@@ -1,5 +1,5 @@
 {
-  "species": 213,
+  "species": 224,
   "cultivars": 53,
   "hybrids": 150,
   "hybridCultivars": 9,
@@ -14,8 +14,8 @@
       "hybridCultivars": 9
     },
     "Amorphophallus": {
-      "total": 95,
-      "species": 95,
+      "total": 106,
+      "species": 106,
       "cultivars": 0,
       "hybrids": 0,
       "hybridCultivars": 0
@@ -31,11 +31,11 @@
       }
     },
     "Amorphophallus": {
-      "total": 95,
-      "placed": 95,
+      "total": 106,
+      "placed": 106,
       "zones": {
-        "africa": 21,
-        "asia": 74,
+        "africa": 22,
+        "asia": 84,
         "austral": 1
       }
     }
@@ -52,8 +52,7 @@
       "Longiloba": 3,
       "Other": 3,
       "Puber": 3,
-      "Coriaceae": 1,
-      "Cuprea": 1
+      "Coriaceae": 1
     }
   },
   "diagnostics": {
@@ -62,12 +61,12 @@
     "unclassifiedItems": []
   },
   "unresolvedTags": {
+    "Sumatra ?": 1,
     "Myanmar ?": 1,
     "Angola?": 1,
-    "Kalimantan?": 1,
-    "Borneo?": 1
+    "Kalimantan?": 1
   },
-  "updatedAt": "2026-08-16T08:42:00.757Z",
+  "updatedAt": "2026-08-17T03:24:54.098Z",
   "source": "https://www.aroidpedia.com/journal",
-  "totalItemsScanned": 425
+  "totalItemsScanned": 436
 }
