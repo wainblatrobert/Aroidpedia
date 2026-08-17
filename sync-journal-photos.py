@@ -62,6 +62,11 @@ ROLE_NAMES = {
     "REPRODUCTIVE": "reproductive",
     "MAPS": "maps",
     "OTHER": "other",
+    # v8 (8.17.26): plates belonging to the STORY feature card - the
+    # expedition maps for A. incurvatus were the first. Natural sort, so
+    # the FIRST file is the one shown and the rest become selectable;
+    # the filename (minus any number prefix) is the selector's label.
+    "STORY": "story",
 }
 GALLERY_NAMES = {"VEG-GALLERY": "veg-gallery", "REP-GALLERY": "rep-gallery"}
 
@@ -69,6 +74,18 @@ GALLERY_NAMES = {"VEG-GALLERY": "veg-gallery", "REP-GALLERY": "rep-gallery"}
 def strip_order_prefix(name: str) -> str:
     """'4. VEGETATIVE' -> 'VEGETATIVE'; '10 MAPS' -> 'MAPS'."""
     return re.sub(r"^\d+\s*[.\-)]?\s*", "", name.strip()).upper()
+
+
+# v8 (8.17.26, user rule): anything whose name starts with DO NOT UPLOAD
+# is working material - alternates, sources, rejects - and never reaches
+# the repo. Applies to FILES and FOLDERS alike, at any depth, so a whole
+# scratch folder can be parked inside a role folder. Case- and
+# punctuation-tolerant so "Do-not-upload NOTES" is caught too.
+_NOUP = re.compile(r"^do[\s_-]*not[\s_-]*upload", re.I)
+
+
+def ignored(p: Path) -> bool:
+    return bool(_NOUP.match(p.name.strip()))
 
 
 def md5(p: Path) -> str:
@@ -127,6 +144,14 @@ def build_manifest(role_files: dict) -> dict:
                 match = md5_of.get(parent, {}).get(md5(f))
                 path = f"{parent}/{slugify_name(match.name)}" if match else f"{role}/{slugify_name(f.name)}"
                 entries.append({"f": path, "c": caption_of((match or f).name)})
+            elif role == "story":
+                # v8: the whole filename IS the label ("EXPEDITION
+                # RECONSTRUCTION", "ORIGINAL 1920 EXPEDITION MAP"), so it
+                # can be read straight onto the selector button. A leading
+                # sort number is stripped; caption_of's " - " rule would
+                # throw the name away entirely here.
+                label = re.sub(r"^\d+\s*[.\-)]?\s*", "", f.stem).strip()
+                entries.append({"f": f"{role}/{slugify_name(f.name)}", "c": label})
             else:
                 entries.append({"f": f"{role}/{slugify_name(f.name)}", "c": caption_of(f.name)})
         if entries:
@@ -147,14 +172,14 @@ def species_path(folder_name: str, genus: str) -> str | None:
 def role_dirs(sdir: Path):
     """Yield (role, dir) pairs for one species folder, numbered or not."""
     for d in sorted(sdir.iterdir()):
-        if not d.is_dir():
+        if not d.is_dir() or ignored(d):
             continue
         role = ROLE_NAMES.get(strip_order_prefix(d.name))
         if not role:
             continue
         yield role, d
         for g in sorted(d.iterdir()):
-            if g.is_dir():
+            if g.is_dir() and not ignored(g):
                 grole = GALLERY_NAMES.get(strip_order_prefix(g.name))
                 if grole:
                     yield grole, g
@@ -194,6 +219,8 @@ def main():
                 found_any_role = True
                 for photo in sorted(src_dir.iterdir(), key=lambda p: natural_key(p.name)):
                     if not photo.is_file() or photo.suffix.lower() not in (IMG_EXT | VID_EXT):
+                        continue
+                    if ignored(photo):          # v8: DO NOT UPLOAD *
                         continue
                     if photo.suffix.lower() in VID_EXT and photo.stat().st_size > 95 * 1048576:
                         print(f"SKIP >95MB (GitHub limit): {photo.name}")
