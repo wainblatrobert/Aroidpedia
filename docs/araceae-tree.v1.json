@@ -716,7 +716,7 @@
            "note": "Section Tenuipistillata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           }
          ],
-         "note": "Support MP/ML: 56/71. Three of Murata's sections meet here: Dochafa (A. flavum), Tortuosa (the A. tortuosum group) and Tenuipistillata (A. jacquemontii — its other member, A. schimperianum, sits in Clade II, and this study moves it to section Arisaema accordingly)."
+         "note": "Support MP/ML: 56/71. Three of Murata's sections meet here: Dochafa (Arisaema flavum), Tortuosa (the Arisaema tortuosum group) and Tenuipistillata (Arisaema jacquemontii — its other member, Arisaema schimperianum, sits in Clade II, and this study moves it to section Arisaema accordingly)."
         },
         {
          "id": "clade-arisaema-ii",
@@ -776,7 +776,7 @@
            "section": "Arisaema",
            "accession": "sect. Arisaema",
            "powo": true,
-           "note": "Section Arisaema per the revised system of Ohi-Toma et al. (2016). The figure also lists A. ostiolatum here (synonyms in the latest classification). Gusman & Gusman's monograph (2006) files it in the same drawer."
+           "note": "Section Arisaema per the revised system of Ohi-Toma et al. (2016). The figure also lists Arisaema ostiolatum here (synonyms in the latest classification). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-speciosum",
@@ -815,7 +815,7 @@
            "note": "Section Arisaema per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           }
          ],
-         "note": "Support MP/ML: 97/95. Section Arisaema as emended by this study — including the East African A. schimperianum, formerly of Tenuipistillata/Sinarisaema. Renner et al. (2004) date its split from the Nepalese–Tibetan A. costatum at roughly 31 ± 10 My (19–32 My across methods) — an Oligocene/Miocene floristic link between East Africa, Arabia and the Himalaya."
+         "note": "Support MP/ML: 97/95. Section Arisaema as emended by this study — including the East African Arisaema schimperianum, formerly of Tenuipistillata/Sinarisaema. Renner et al. (2004) date its split from the Nepalese–Tibetan Arisaema costatum at roughly 31 ± 10 My (19–32 My across methods) — an Oligocene/Miocene floristic link between East Africa, Arabia and the Himalaya."
         },
         {
          "id": "clade-arisaema-iii",
@@ -833,7 +833,7 @@
            "note": "Section Fimbriata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           }
          ],
-         "note": "A single branch with unique sequence variation: A. fimbriatum. This study resurrects section Fimbriata for it (Murata had synonymised it into Attenuata)."
+         "note": "A single branch with unique sequence variation: Arisaema fimbriatum. This study resurrects section Fimbriata for it (Murata had synonymised it into Attenuata)."
         },
         {
          "id": "clade-arisaema-iv",
@@ -848,7 +848,7 @@
            "section": "Attenuata",
            "accession": "sect. Attenuata",
            "powo": true,
-           "note": "Section Attenuata per the revised system of Ohi-Toma et al. (2016). The figure also lists A. harmandii here (synonyms in the latest classification). Gusman & Gusman's monograph (2006) files it in section Fimbriata."
+           "note": "Section Attenuata per the revised system of Ohi-Toma et al. (2016). The figure also lists Arisaema harmandii here (synonyms in the latest classification). Gusman & Gusman's monograph (2006) files it in section Fimbriata."
           },
           {
            "id": "sp-arisaema-album",
@@ -866,7 +866,7 @@
            "section": "Attenuata",
            "accession": "sect. Attenuata",
            "powo": true,
-           "note": "Section Attenuata per the revised system of Ohi-Toma et al. (2016). The figure also lists A. matsudae here (synonyms in the latest classification). Gusman & Gusman's monograph (2006) files it in section Fimbriata."
+           "note": "Section Attenuata per the revised system of Ohi-Toma et al. (2016). The figure also lists Arisaema matsudae here (synonyms in the latest classification). Gusman & Gusman's monograph (2006) files it in section Fimbriata."
           },
           {
            "id": "sp-arisaema-maxwellii",
@@ -905,7 +905,7 @@
            "note": "Section Attenuata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in section Fimbriata."
           }
          ],
-         "note": "Support MP/ML: 96/91. Section Attenuata in the study's emended sense — A. fimbriatum split back out as its own section (Clade III)."
+         "note": "Support MP/ML: 96/91. Section Attenuata in the study's emended sense — Arisaema fimbriatum split back out as its own section (Clade III)."
         },
         {
          "id": "clade-arisaema-v",
@@ -1045,7 +1045,7 @@
            "section": "Anomala",
            "accession": "sect. Anomala",
            "powo": true,
-           "note": "Section Anomala per the revised system of Ohi-Toma et al. (2016). The figure also lists A. calcareum here (synonyms in the latest classification). Gusman & Gusman's monograph (2006) files it in the same drawer."
+           "note": "Section Anomala per the revised system of Ohi-Toma et al. (2016). The figure also lists Arisaema calcareum here (synonyms in the latest classification). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-hainanense",
@@ -1090,7 +1090,7 @@
            "section": "Anomala",
            "accession": "sect. Anomala",
            "powo": true,
-           "note": "Section Anomala per the revised system of Ohi-Toma et al. (2016). The figure also lists A. nanjenense here (synonyms in the latest classification). Gusman & Gusman's monograph (2006) files it in the same drawer."
+           "note": "Section Anomala per the revised system of Ohi-Toma et al. (2016). The figure also lists Arisaema nanjenense here (synonyms in the latest classification). Gusman & Gusman's monograph (2006) files it in the same drawer."
           }
          ],
          "note": "Support MP/ML: 97/96. Section Anomala — a clean drawer: the molecular clade and the section coincide."
@@ -1156,7 +1156,7 @@
            "note": "Section Flagellarisaema per the revised system of Ohi-Toma et al. (2016). Sampled as ssp. autumnale and ssp. thunbergii and ssp. urashima. Gusman & Gusman's monograph (2006) files it in the same drawer."
           }
          ],
-         "note": "Support MP/ML: 80/61. Section Flagellarisaema in Murata's sense (Gusman & Gusman filed the A. macrospathum–dracontium–heterophyllum trio under Tortuosa instead). Holds a North American pair: Renner et al. (2004) date A. dracontium + A. macrospathum against their Asian relatives at ~49 ± 12 My — the older of the genus's two Asia → North America crossings."
+         "note": "Support MP/ML: 80/61. Section Flagellarisaema in Murata's sense (Gusman & Gusman filed the Arisaema macrospathum–dracontium–heterophyllum trio under Tortuosa instead). Holds a North American pair: Renner et al. (2004) date Arisaema dracontium + Arisaema macrospathum against their Asian relatives at ~49 ± 12 My — the older of the genus's two Asia → North America crossings."
         },
         {
          "id": "clade-arisaema-viii",
@@ -1234,7 +1234,7 @@
            "section": "Nepenthoidea",
            "accession": "sect. Nepenthoidea",
            "powo": true,
-           "note": "Section Nepenthoidea per the revised system of Ohi-Toma et al. (2016). The figure also lists A. shimienense here (synonyms in the latest classification). Gusman & Gusman's monograph (2006) files it in the same drawer."
+           "note": "Section Nepenthoidea per the revised system of Ohi-Toma et al. (2016). The figure also lists Arisaema shimienense here (synonyms in the latest classification). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-nepenthoides",
@@ -1395,7 +1395,7 @@
            "section": "Sinarisaema",
            "accession": "sect. Sinarisaema",
            "powo": true,
-           "note": "Section Sinarisaema per the revised system of Ohi-Toma et al. (2016). The figure also lists A. jinshajiangense here (synonyms in the latest classification). Gusman & Gusman's monograph (2006) files it in section Clavata."
+           "note": "Section Sinarisaema per the revised system of Ohi-Toma et al. (2016). The figure also lists Arisaema jinshajiangense here (synonyms in the latest classification). Gusman & Gusman's monograph (2006) files it in section Clavata."
           },
           {
            "id": "sp-arisaema-lobatum",
@@ -1600,7 +1600,7 @@
            "rank": "species",
            "section": "Pistillata",
            "accession": "sect. Pistillata",
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). The figure also lists A. izuense here (synonyms in the latest classification). Not an accepted name in the site's POWO export today — the Japanese Pistillata names have since been widely lumped. Gusman & Gusman's monograph (2006) files it in the same drawer."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). The figure also lists Arisaema izuense here (synonyms in the latest classification). Not an accepted name in the site's POWO export today — the Japanese Pistillata names have since been widely lumped. Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-longilaminum",
@@ -1635,7 +1635,7 @@
            "section": "Pistillata",
            "accession": "sect. Pistillata",
            "powo": true,
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). The figure also lists A. engleri here (synonyms in the latest classification). Gusman & Gusman's monograph (2006) files it in the same drawer."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). The figure also lists Arisaema engleri here (synonyms in the latest classification). Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-ehimense",
@@ -1757,7 +1757,7 @@
            "rank": "species",
            "section": "Pistillata",
            "accession": "sect. Pistillata",
-           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). The figure also lists A. boreale here (synonyms in the latest classification). Not an accepted name in the site's POWO export today — the Japanese Pistillata names have since been widely lumped. Gusman & Gusman's monograph (2006) files it in the same drawer."
+           "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). The figure also lists Arisaema boreale here (synonyms in the latest classification). Not an accepted name in the site's POWO export today — the Japanese Pistillata names have since been widely lumped. Gusman & Gusman's monograph (2006) files it in the same drawer."
           },
           {
            "id": "sp-arisaema-pseudoangustatum",
@@ -1848,11 +1848,11 @@
            "note": "Section Pistillata per the revised system of Ohi-Toma et al. (2016). Gusman & Gusman's monograph (2006) files it in the same drawer."
           }
          ],
-         "note": "Support MP/ML: 56/70. The composite: sections Nepenthoidea, Decipientia, Franchetiana, Sinarisaema and Pistillata. Pistillata (A. lobatum through A. sikokianum) is a recent, mostly Japanese radiation — many of its species share identical plastid sequences, so much of the clade is drawn unresolved. A. triphyllum sits here too: its split from Asian A. amurense is the fossil-calibrated 18-My Beringian crossing the genus's whole clock hangs on."
+         "note": "Support MP/ML: 56/70. The composite: sections Nepenthoidea, Decipientia, Franchetiana, Sinarisaema and Pistillata. Pistillata (Arisaema lobatum through Arisaema sikokianum) is a recent, mostly Japanese radiation — many of its species share identical plastid sequences, so much of the clade is drawn unresolved. Arisaema triphyllum sits here too: its split from Asian Arisaema amurense is the fossil-calibrated 18-My Beringian crossing the genus's whole clock hangs on."
         }
        ],
        "speciesTierSource": "Ohi-Toma, Wu, Murata & Murata (2016), \"An updated genus-wide phylogenetic analysis of Arisaema (Araceae) with reference to sections\", Botanical Journal of the Linnean Society 182: 100-114, Figs 1-3; dates on the cards are Renner, Zhang & Murata (2004), American Journal of Botany 91(6): 881-888",
-       "speciesTierNote": "No dated species-level tree exists for Arisaema, so this tier shows grouping, not time — Renner, Zhang & Murata (2004)'s fossil-calibrated clock (an 18-My A. triphyllum-like infructescence from Spokane) puts the genus's origin possibly in the Oligocene, with the root constrained to at most 60 My, and dates the intercontinental splits quoted on the clade cards. The tier itself is Ohi-Toma et al. (2016): more than 150 accessions, four plastid non-coding regions, MP and ML — eight major clades and one unique branch (I-IX) whose relationships to each other are largely an unresolved polytomy, listed here in the study's drawn order. The sections of the Murata system are named on every species row; the study's own treatment recognises 15, resurrecting Fimbriata and moving A. schimperianum into section Arisaema. Most sections map cleanly onto clades — the exceptions are said so on their cards. 157 figure tips collapse to 124 species-level rows here; many Japanese Pistillata species share identical plastid sequences."
+       "speciesTierNote": "No dated species-level tree exists for Arisaema, so this tier shows grouping, not time — Renner, Zhang & Murata (2004)'s fossil-calibrated clock (an 18-My Arisaema triphyllum-like infructescence from Spokane) puts the genus's origin possibly in the Oligocene, with the root constrained to at most 60 My, and dates the intercontinental splits quoted on the clade cards. The tier itself is Ohi-Toma et al. (2016): more than 150 accessions, four plastid non-coding regions, MP and ML — eight major clades and one unique branch (I-IX) whose relationships to each other are largely an unresolved polytomy, listed here in the study's drawn order. The sections of the Murata system are named on every species row; the study's own treatment recognises 15, resurrecting Fimbriata and moving Arisaema schimperianum into section Arisaema. Most sections map cleanly onto clades — the exceptions are said so on their cards. 157 figure tips collapse to 124 species-level rows here; many Japanese Pistillata species share identical plastid sequences."
       },
       {
        "id": "genus-pinellia",
@@ -3233,7 +3233,7 @@
              "name": "Clade B",
              "rank": "clade",
              "figNode": 43,
-             "note": "The massive caulescent species, including the edible A. macrorrhizos and three accessions of A. robusta.",
+             "note": "The massive caulescent species, including the edible Alocasia macrorrhizos and three accessions of Alocasia robusta.",
              "children": [
               {
                "id": "node-alocasia-47",
@@ -4568,7 +4568,7 @@
         }
        ],
        "speciesTierSource": "Nauheimer, Boyce & Renner (2012), \"Giant taro and its relatives: a phylogeny of the large genus Alocasia (Araceae) sheds light on Miocene floristic exchange in the Malesian region\", Molecular Phylogenetics and Evolution 63: 43-51, Fig. 4 and Table S3",
-       "speciesTierNote": "The NUCLEAR tree. Nuclear and plastid trees conflict in this study - the authors attribute it to chloroplast capture, and say the nuclear tree reflects morphology while the plastid one reflects geography. The nuclear tree is shown because it is the one whose clades the paper names and diagnoses. Alocasia is monophyletic only once A. hypnosa is excluded, and its closest relative is Colocasia gigantea - this tree's Leucocasia. Ages, 95% HPDs and posterior probabilities are Table S3's; the topology is the reconstruction of Fig. 4 set out in ALOCASIA CLADOGRAM 8.9.26. A. perakensis sits just OUTSIDE clade D here, as its sister, where the phylogram (Fig. 3b) draws it inside - the only membership difference between the two figures.",
+       "speciesTierNote": "The NUCLEAR tree. Nuclear and plastid trees conflict in this study - the authors attribute it to chloroplast capture, and say the nuclear tree reflects morphology while the plastid one reflects geography. The nuclear tree is shown because it is the one whose clades the paper names and diagnoses. Alocasia is monophyletic only once Alocasia hypnosa is excluded, and its closest relative is Colocasia gigantea - this tree's Leucocasia. Ages, 95% HPDs and posterior probabilities are Table S3's; the topology is the reconstruction of Fig. 4 set out in ALOCASIA CLADOGRAM 8.9.26. Alocasia perakensis sits just OUTSIDE clade D here, as its sister, where the phylogram (Fig. 3b) draws it inside - the only membership difference between the two figures.",
        "chron": {
         "stem": 24.11,
         "crown": 13.49,
@@ -12648,10 +12648,10 @@
              "id": "subgenus-amorphophallus-amorphophallus",
              "name": "Amorphophallus",
              "rank": "subgenus",
-             "authority": "autonym, typified by A. paeoniifolius",
+             "authority": "autonym, typified by Amorphophallus paeoniifolius",
              "cladeCode": "SEA",
              "typeSpecies": "Amorphophallus paeoniifolius (Dennst.) Nicolson",
-             "distribution": "All over Southeast Asia, from India eastwards via continental Southeast Asia and Indonesia to the Philippines and Australia (A. galbra).",
+             "distribution": "All over Southeast Asia, from India eastwards via continental Southeast Asia and Indonesia to the Philippines and Australia (Amorphophallus galbra).",
              "speciesCount": 0,
              "assignment": "not assigned: the three Asian subgenera overlap in range, so their species can only be read off the study's figures, which are raster images",
              "figNode": 69,
@@ -13247,7 +13247,7 @@
               "pp": 1.0
              },
              "sampledCount": 9,
-             "note": "Most Philippine species belong here, but in several separate subclades — repeated arrivals rather than one radiation (Miranda et al. (2026, Pl. Ecol. Evol. 159): A. adamsensis, A. fontarumii, A. longispathaceus, A. palawenensis and others)."
+             "note": "Most Philippine species belong here, but in several separate subclades — repeated arrivals rather than one radiation (Miranda et al. (2026, Pl. Ecol. Evol. 159): Amorphophallus adamsensis, Amorphophallus fontarumii, Amorphophallus longispathaceus, Amorphophallus palawenensis and others)."
             },
             {
              "id": "subgenus-amorphophallus-metandrium",
@@ -13257,7 +13257,7 @@
              "cladeCode": "CA-I",
              "typeSpecies": "Amorphophallus cirrifer Stapf",
              "distribution": "India and continental Southeast Asia (Burma, Thailand, Laos, Cambodia, Vietnam and southern and eastern China) to southern Japan, the Philippines and Indonesia.",
-             "note": "The only subgenus ever established before this study. Section Rhaphiophallus is polyphyletic across it and Scutandrium, so that section is not used here. Miranda et al. (2026, Pl. Ecol. Evol. 159) place a Palawan collection here beside A. natolii — with the rest of the Philippine species in subg. Amorphophallus, which is what makes the archipelago's flora polyphyletic.",
+             "note": "The only subgenus ever established before this study. Section Rhaphiophallus is polyphyletic across it and Scutandrium, so that section is not used here. Miranda et al. (2026, Pl. Ecol. Evol. 159) place a Palawan collection here beside Amorphophallus natolii — with the rest of the Philippine species in subg. Amorphophallus, which is what makes the archipelago's flora polyphyletic.",
              "speciesCount": 0,
              "assignment": "not assigned: the three Asian subgenera overlap in range, so their species can only be read off the study's figures, which are raster images",
              "figNode": 79,
@@ -15923,7 +15923,7 @@
             "stem": 18.68,
             "tips": 1
            },
-           "note": "Placed in sect. Monstera by Ortiz, Croat & Hughes (2024), Webbia 79(2): 305–310 — \"a member of sect. Monstera (sensu Madison 1977)\". It belongs to the M. oreophila complex, with M. gentryi, M. mittermeieri and M. oreophila. Not sampled by the dated study."
+           "note": "Placed in sect. Monstera by Ortiz, Croat & Hughes (2024), Webbia 79(2): 305–310 — \"a member of sect. Monstera (sensu Madison 1977)\". It belongs to the Monstera oreophila complex, with Monstera gentryi, Monstera mittermeieri and Monstera oreophila. Not sampled by the dated study."
           },
           {
            "id": "species-monstera-coclensis",
@@ -16090,7 +16090,7 @@
             "stem": 18.68,
             "tips": 1
            },
-           "note": "Placed in sect. Monstera by Zuluaga, Cedeño-Fonseca & Mittermeier (2021), Phytotaxa 527(2): 134–142, which describes it and M. momoi as new species of section Monstera from the Pacific slope of the Colombian Andes. Not sampled by the dated study."
+           "note": "Placed in sect. Monstera by Zuluaga, Cedeño-Fonseca & Mittermeier (2021), Phytotaxa 527(2): 134–142, which describes it and Monstera momoi as new species of section Monstera from the Pacific slope of the Colombian Andes. Not sampled by the dated study."
           },
           {
            "id": "species-monstera-lentii",
@@ -16168,7 +16168,7 @@
             "stem": 18.68,
             "tips": 1
            },
-           "note": "Placed in sect. Monstera by Zuluaga, Cedeño-Fonseca & Mittermeier (2021), Phytotaxa 527(2): 134–142, which describes it and M. kikiae as new species of section Monstera from the Pacific slope of the Colombian Andes. Not sampled by the dated study."
+           "note": "Placed in sect. Monstera by Zuluaga, Cedeño-Fonseca & Mittermeier (2021), Phytotaxa 527(2): 134–142, which describes it and Monstera kikiae as new species of section Monstera from the Pacific slope of the Colombian Andes. Not sampled by the dated study."
           },
           {
            "id": "species-monstera-monteverdensis",
@@ -16441,7 +16441,7 @@
         "p": 1.0
        },
        "speciesTierSource": "Zuluaga, Llano & Cameron (2019), \"Systematics, Biogeography, and Morphological Character Evolution of the Hemiepiphytic Subfamily Monsteroideae (Araceae)\", Annals of the Missouri Botanical Garden 104: 33-48, Fig. 2",
-       "speciesTierNote": "27 of the chronogram's 111 tips are Monstera: 26 named species and one specimen identified to genus (Croat 96437) — 28 of the 42 species then described were sampled (two M. adansonii accessions merge in the dating analysis), of POWO's 71 today. American Monstera is nested in an otherwise Old-World clade: its sister is Amydrium plus part of Epipremnum (splitting 28.0 Ma), a pattern the paper reads through the boreotropical hypothesis — the genus's closest fossil relatives are European — and, with Central and South America coded as separate areas, Monstera most probably moved from North/Central America into South America within the last 25 Ma. The figure prints no node ages: every age here is derived from the chronogram's vector geometry against its own 20-Ma gridlines, a derivation that reproduces all four crown ages the paper states in prose (Monsteroideae 68.83, Rhaphidophora clade 38.4, Heteropsis clade 38.56, Spathiphylleae 27.0 Ma) to within 0.16 Ma. Ancestral range at the crown: tropical America, P = 1.0 on the single chronogram and in 100 of 100 trees. The classical Madison sections ride the tier too, from two revisions that agree on every name they share — the Costa Rica revision (Cedeño-Fonseca, Hay & Blanco 2022, Aroideana 45(1)) and the Central America monograph (Croat, Cedeño-Fonseca & Ortiz 2024, Phytotaxa 656, 52 treatments): 20 of the sampled species carry their section, and 34 species the dated study never sampled hang at the genus crown in three cited groups (30 sect. Monstera — including M. titanum, M. gigas and the 2025 giants M. colossica and M. corana — 8 Marcgraviopsis, 2 Tornelia), drawn from six revisions and species papers between 1977 and 2025. That is 58 of POWO's 71 species placed. They are drawers, not clades: both revisions say so, and this tree shows why — M. acuminata and M. spruceana (sect. Marcgraviopsis) sit among sect. Monstera species, and M. tuberculata, the only Echinospadix, nests inside a Marcgraviopsis group. The 13 species still unplaced are all South American, and they are unplaced because no one has published a section for them: six were described between 2004 and 2005 in papers that simply do not assign one (M. amargalensis, M. barrieri, M. cenepensis, M. kessleri, M. praetermissa, M. vasquezii — the 2023 Marcgraviopsis paper does note that the M. subpinnata–M. barrieri complex shingles like Marcgraviopsis but differs from it), and the other seven are sampled species this tree already dates. M. boliviana is a case of its own: both Madison (1977), who erected the sections, and the 2024 monograph treat it as a synonym of M. obliqua, so neither places it — POWO still accepts it, and this tree follows POWO."
+       "speciesTierNote": "27 of the chronogram's 111 tips are Monstera: 26 named species and one specimen identified to genus (Croat 96437) — 28 of the 42 species then described were sampled (two Monstera adansonii accessions merge in the dating analysis), of POWO's 71 today. American Monstera is nested in an otherwise Old-World clade: its sister is Amydrium plus part of Epipremnum (splitting 28.0 Ma), a pattern the paper reads through the boreotropical hypothesis — the genus's closest fossil relatives are European — and, with Central and South America coded as separate areas, Monstera most probably moved from North/Central America into South America within the last 25 Ma. The figure prints no node ages: every age here is derived from the chronogram's vector geometry against its own 20-Ma gridlines, a derivation that reproduces all four crown ages the paper states in prose (Monsteroideae 68.83, Rhaphidophora clade 38.4, Heteropsis clade 38.56, Spathiphylleae 27.0 Ma) to within 0.16 Ma. Ancestral range at the crown: tropical America, P = 1.0 on the single chronogram and in 100 of 100 trees. The classical Madison sections ride the tier too, from two revisions that agree on every name they share — the Costa Rica revision (Cedeño-Fonseca, Hay & Blanco 2022, Aroideana 45(1)) and the Central America monograph (Croat, Cedeño-Fonseca & Ortiz 2024, Phytotaxa 656, 52 treatments): 20 of the sampled species carry their section, and 34 species the dated study never sampled hang at the genus crown in three cited groups (30 sect. Monstera — including Monstera titanum, Monstera gigas and the 2025 giants Monstera colossica and Monstera corana — 8 Marcgraviopsis, 2 Tornelia), drawn from six revisions and species papers between 1977 and 2025. That is 58 of POWO's 71 species placed. They are drawers, not clades: both revisions say so, and this tree shows why — Monstera acuminata and Monstera spruceana (sect. Marcgraviopsis) sit among sect. Monstera species, and Monstera tuberculata, the only Echinospadix, nests inside a Marcgraviopsis group. The 13 species still unplaced are all South American, and they are unplaced because no one has published a section for them: six were described between 2004 and 2005 in papers that simply do not assign one (Monstera amargalensis, Monstera barrieri, Monstera cenepensis, Monstera kessleri, Monstera praetermissa, Monstera vasquezii — the 2023 Marcgraviopsis paper does note that the Monstera subpinnata–Monstera barrieri complex shingles like Marcgraviopsis but differs from it), and the other seven are sampled species this tree already dates. Monstera boliviana is a case of its own: both Madison (1977), who erected the sections, and the 2024 monograph treat it as a synonym of Monstera obliqua, so neither places it — POWO still accepts it, and this tree follows POWO."
       },
       {
        "id": "genus-rhaphidophora",
@@ -16987,7 +16987,7 @@
          "name": "Clade 16 · Andiphilum",
          "rank": "clade",
          "speciesCount": 8,
-         "note": "Support MP/ML/PP: 98/99/1.00. The molecular clade and the classical section coincide — one of the few drawers that survived the DNA. Sampled here: A. andicola (AND); A. parvispathum (AND); A. berriozabalense (AND); A. lancetillense (AND); A. clarinervium (AND); A. leuconeurum (AND); A. umbrosum (AND); A. pedatoradiatum (AND). Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~2.9 Mya (its \"Mexican epunctate clade\" — Andiphilum before the 2017 resurrection).",
+         "note": "Support MP/ML/PP: 98/99/1.00. The molecular clade and the classical section coincide — one of the few drawers that survived the DNA. Sampled here: Anthurium andicola (AND); Anthurium parvispathum (AND); Anthurium berriozabalense (AND); Anthurium lancetillense (AND); Anthurium clarinervium (AND); Anthurium leuconeurum (AND); Anthurium umbrosum (AND); Anthurium pedatoradiatum (AND). Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~2.9 Mya (its \"Mexican epunctate clade\" — Andiphilum before the 2017 resurrection).",
          "children": [
           {
            "id": "sp-anthurium-andicola",
@@ -17100,7 +17100,7 @@
          "name": "Clade 15",
          "rank": "clade",
          "speciesCount": 5,
-         "note": "Support MP/ML/PP: -/70/0.95. Classical sections mixed here: Polyneurium (3), Xialophyllium (2). Sampled here: A. cuspidatum (POLYN); A. urbanii (POLYN); A. longicaudatum (POLYN); A. mindense (XIA); A. microspadix (XIA). Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~2.2 Mya (as sampled there, without A. longicaudatum).",
+         "note": "Support MP/ML/PP: -/70/0.95. Classical sections mixed here: Polyneurium (3), Xialophyllium (2). Sampled here: Anthurium cuspidatum (POLYN); Anthurium urbanii (POLYN); Anthurium longicaudatum (POLYN); Anthurium mindense (XIA); Anthurium microspadix (XIA). Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~2.2 Mya (as sampled there, without Anthurium longicaudatum).",
          "children": [
           {
            "id": "sp-anthurium-cuspidatum",
@@ -17149,7 +17149,7 @@
          "name": "Clade 14",
          "rank": "clade",
          "speciesCount": 4,
-         "note": "Support MP/ML/PP: -/75/1.00. Classical sections mixed here: Belolonchium (2), Semaeophyllium (1), no section (N/A) (1). Sampled here: A. furcatum (SEM); A. macleanii (BEL); A. pedatum — no section; A. tremulum (BEL). Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~1.4 Mya (the same four species).",
+         "note": "Support MP/ML/PP: -/75/1.00. Classical sections mixed here: Belolonchium (2), Semaeophyllium (1), no section (N/A) (1). Sampled here: Anthurium furcatum (SEM); Anthurium macleanii (BEL); Anthurium pedatum — no section; Anthurium tremulum (BEL). Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~1.4 Mya (the same four species).",
          "children": [
           {
            "id": "sp-anthurium-furcatum",
@@ -17188,7 +17188,7 @@
          "name": "Clade 13 · Calomystrium",
          "rank": "clade",
          "speciesCount": 7,
-         "note": "Support MP/ML/PP: 75/93/1.00. The molecular clade and the classical section coincide — one of the few drawers that survived the DNA. Sampled here: A. antioquiense (CAL); A. formosum (CAL); A. hoffmannii (CAL); A. obtusilobum (CAL); A. veitchii (CAL); A. curvispadix (CAL); A. huixtlense (CAL). Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~1.5 Mya (its section Calomystrium clade, the same seven species).",
+         "note": "Support MP/ML/PP: 75/93/1.00. The molecular clade and the classical section coincide — one of the few drawers that survived the DNA. Sampled here: Anthurium antioquiense (CAL); Anthurium formosum (CAL); Anthurium hoffmannii (CAL); Anthurium obtusilobum (CAL); Anthurium veitchii (CAL); Anthurium curvispadix (CAL); Anthurium huixtlense (CAL). Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~1.5 Mya (its section Calomystrium clade, the same seven species).",
          "children": [
           {
            "id": "sp-anthurium-antioquiense",
@@ -17293,7 +17293,7 @@
          "name": "Clade 12",
          "rank": "clade",
          "speciesCount": 2,
-         "note": "Support MP/ML/PP: 86/90/0.99. Classical sections mixed here: Cardiolonchium (1), Pachyneurium ser. Pachyneurium (1). Sampled here: A. besseae (CAR); A. willifordii (PACpac). Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~4.3 Mya (the same two species).",
+         "note": "Support MP/ML/PP: 86/90/0.99. Classical sections mixed here: Cardiolonchium (1), Pachyneurium ser. Pachyneurium (1). Sampled here: Anthurium besseae (CAR); Anthurium willifordii (PACpac). Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~4.3 Mya (the same two species).",
          "children": [
           {
            "id": "sp-anthurium-besseae",
@@ -17318,7 +17318,7 @@
          "name": "Clade 11 · Multinervia",
          "rank": "clade",
          "speciesCount": 4,
-         "note": "Support MP/ML/PP: 82/99/1.00. The molecular clade and the classical section coincide — one of the few drawers that survived the DNA. Sampled here: A. oxyphyllum (PACmul); A. napaeum (PACmul); A. carchiense (PACmul); A. palenquense (PACmul). Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~0.8 Mya (its Multinervia clade as sampled — three of these four species).",
+         "note": "Support MP/ML/PP: 82/99/1.00. The molecular clade and the classical section coincide — one of the few drawers that survived the DNA. Sampled here: Anthurium oxyphyllum (PACmul); Anthurium napaeum (PACmul); Anthurium carchiense (PACmul); Anthurium palenquense (PACmul). Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~0.8 Mya (its Multinervia clade as sampled — three of these four species).",
          "children": [
           {
            "id": "sp-anthurium-oxyphyllum",
@@ -17359,7 +17359,7 @@
          "name": "Clade 10",
          "rank": "clade",
          "speciesCount": 4,
-         "note": "Support MP/ML/PP: 97/100/1.00. Classical sections mixed here: Decurrentia (2), Cardiolonchium (1), Polyneurium (1). Sampled here: A. lancea (CAR); A. cf. michelii (DEC); A. maculosum (POLYN); A. michelii (DEC). Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~4.9 Mya (as sampled there, without A. lancea).",
+         "note": "Support MP/ML/PP: 97/100/1.00. Classical sections mixed here: Decurrentia (2), Cardiolonchium (1), Polyneurium (1). Sampled here: Anthurium lancea (CAR); A. cf. michelii (DEC); Anthurium maculosum (POLYN); Anthurium michelii (DEC). Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~4.9 Mya (as sampled there, without Anthurium lancea).",
          "children": [
           {
            "id": "sp-anthurium-lancea",
@@ -17400,7 +17400,7 @@
          "name": "Clade 9",
          "rank": "clade",
          "speciesCount": 7,
-         "note": "Support MP/ML/PP: 95/98/1.00. Classical sections mixed here: Pachyneurium ser. Pachyneurium (6), Decurrentia (1). Sampled here: A. fornicifolium (DEC); A. spectabile (PACpac); A. bradeanum (PACpac); A. halmoorei (PACpac); A. schottianum (PACpac); A. spathiphyllum (PACpac); A. protensum (PACpac). Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~5.8 Mya (for this group PLUS A. crenatum and A. venosum — the dissertation drew them inside).",
+         "note": "Support MP/ML/PP: 95/98/1.00. Classical sections mixed here: Pachyneurium ser. Pachyneurium (6), Decurrentia (1). Sampled here: Anthurium fornicifolium (DEC); Anthurium spectabile (PACpac); Anthurium bradeanum (PACpac); Anthurium halmoorei (PACpac); Anthurium schottianum (PACpac); Anthurium spathiphyllum (PACpac); Anthurium protensum (PACpac). Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~5.8 Mya (for this group PLUS Anthurium crenatum and Anthurium venosum — the dissertation drew them inside).",
          "children": [
           {
            "id": "sp-anthurium-fornicifolium",
@@ -17481,7 +17481,7 @@
          "name": "Clade 8 · Leptanthurium",
          "rank": "clade",
          "speciesCount": 3,
-         "note": "Support MP/ML/PP: 100/100/1.00. Drawn as section Leptanthurium by the study; classical sections of its species: Decurrentia (2), Leptanthurium (1). Sampled here: A. gracile (LEP); A. vittariifolium (DEC); A. sp. 4 (DEC). Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~3.0 Mya (its section Leptanthurium clade).",
+         "note": "Support MP/ML/PP: 100/100/1.00. Drawn as section Leptanthurium by the study; classical sections of its species: Decurrentia (2), Leptanthurium (1). Sampled here: Anthurium gracile (LEP); Anthurium vittariifolium (DEC); A. sp. 4 (DEC). Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~3.0 Mya (its section Leptanthurium clade).",
          "children": [
           {
            "id": "sp-anthurium-gracile",
@@ -17514,7 +17514,7 @@
          "name": "Clade 7",
          "rank": "clade",
          "speciesCount": 8,
-         "note": "Support MP/ML/PP: 82/90/1.00. Classical sections mixed here: Porphyrochitonium (5), Digitinervium (3). Sampled here: A. bakeri (POR); A. lancifolium (POR); A. sp. 3 (DIG); A. margaricarpum (POR); A. ovatifolium (DIG); A. punctatum (POR); A. wendlingeri (POR); A. morae (DIG). Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~4.1 Mya (the matching clade as sampled there).",
+         "note": "Support MP/ML/PP: 82/90/1.00. Classical sections mixed here: Porphyrochitonium (5), Digitinervium (3). Sampled here: Anthurium bakeri (POR); Anthurium lancifolium (POR); A. sp. 3 (DIG); Anthurium margaricarpum (POR); Anthurium ovatifolium (DIG); Anthurium punctatum (POR); Anthurium wendlingeri (POR); Anthurium morae (DIG). Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~4.1 Mya (the matching clade as sampled there).",
          "children": [
           {
            "id": "sp-anthurium-bakeri",
@@ -17587,7 +17587,7 @@
          "name": "Clade 6",
          "rank": "clade",
          "speciesCount": 3,
-         "note": "Support MP/ML/PP: 100/100/1.00. Classical sections mixed here: Porphyrochitonium (2), Digitinervium (1). Sampled here: A. bicollectivum (POR); A. peltigerum (DIG); A. friedrichsthalii (POR). Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~2.6 Mya (as sampled there — A. friedrichsthalii + A. bicollectivum, without A. peltigerum).",
+         "note": "Support MP/ML/PP: 100/100/1.00. Classical sections mixed here: Porphyrochitonium (2), Digitinervium (1). Sampled here: Anthurium bicollectivum (POR); Anthurium peltigerum (DIG); Anthurium friedrichsthalii (POR). Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~2.6 Mya (as sampled there — Anthurium friedrichsthalii + Anthurium bicollectivum, without Anthurium peltigerum).",
          "children": [
           {
            "id": "sp-anthurium-bicollectivum",
@@ -17620,7 +17620,7 @@
          "name": "Clade 5 · Tetraspermium",
          "rank": "clade",
          "speciesCount": 5,
-         "note": "Support MP/ML/PP: 93/100/1.00. The molecular clade and the classical section coincide — one of the few drawers that survived the DNA. Sampled here: A. citrifolium (TET); A. laciniosum (TET); A. cf. obtusum (TET); A. obtusum (TET); A. scandens (TET). Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~3.4 Mya (its section Tetraspermium clade, the same five species).",
+         "note": "Support MP/ML/PP: 93/100/1.00. The molecular clade and the classical section coincide — one of the few drawers that survived the DNA. Sampled here: Anthurium citrifolium (TET); Anthurium laciniosum (TET); A. cf. obtusum (TET); Anthurium obtusum (TET); Anthurium scandens (TET). Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~3.4 Mya (its section Tetraspermium clade, the same five species).",
          "children": [
           {
            "id": "sp-anthurium-citrifolium",
@@ -17669,7 +17669,7 @@
          "name": "Clade 4",
          "rank": "clade",
          "speciesCount": 3,
-         "note": "Support MP/ML/PP: 94/97/1.00. Classical sections mixed here: Belolonchium (3). Sampled here: A. chiapasense (BEL); A. lucens (BEL); A. verapazense (BEL). Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~4.3 Mya (its \"Mexican punctate clade\", the same three species).",
+         "note": "Support MP/ML/PP: 94/97/1.00. Classical sections mixed here: Belolonchium (3). Sampled here: Anthurium chiapasense (BEL); Anthurium lucens (BEL); Anthurium verapazense (BEL). Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~4.3 Mya (its \"Mexican punctate clade\", the same three species).",
          "children": [
           {
            "id": "sp-anthurium-chiapasense",
@@ -17702,7 +17702,7 @@
          "name": "Clade 3 · Dactylophyllium",
          "rank": "clade",
          "speciesCount": 10,
-         "note": "Support MP/ML/PP: -/73/0.95. The molecular clade and the classical section coincide — one of the few drawers that survived the DNA. Sampled here: A. brevipedunculatum (DAC); A. clavigerum (DAC); A. sinuatum (DAC); A. digitatum (DAC); A. longissimum (DAC); A. thrinax (DAC); A. eminens (DAC); A. croatii (DAC); A. polydactylum (DAC); A. kunthii (DAC). Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~6.0 Mya (its \"palmate-leaves clade\").",
+         "note": "Support MP/ML/PP: -/73/0.95. The molecular clade and the classical section coincide — one of the few drawers that survived the DNA. Sampled here: Anthurium brevipedunculatum (DAC); Anthurium clavigerum (DAC); Anthurium sinuatum (DAC); Anthurium digitatum (DAC); Anthurium longissimum (DAC); Anthurium thrinax (DAC); Anthurium eminens (DAC); Anthurium croatii (DAC); Anthurium polydactylum (DAC); Anthurium kunthii (DAC). Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~6.0 Mya (its \"palmate-leaves clade\").",
          "children": [
           {
            "id": "sp-anthurium-brevipedunculatum",
@@ -17791,7 +17791,7 @@
          "name": "Clade 2",
          "rank": "clade",
          "speciesCount": 6,
-         "note": "Support MP/ML/PP: -/70/0.99. Classical sections mixed here: no section (N/A) (4), Urospadix (2). Sampled here: A. acaule (URO); A. cordifolium — no section; A. willdenowii (URO); A. cordatum — no section; A. grandifolium — no section; A. dominicense — no section. Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~6.2 Mya (its \"Caribbean clade\").",
+         "note": "Support MP/ML/PP: -/70/0.99. Classical sections mixed here: no section (N/A) (4), Urospadix (2). Sampled here: Anthurium acaule (URO); Anthurium cordifolium — no section; Anthurium willdenowii (URO); Anthurium cordatum — no section; Anthurium grandifolium — no section; Anthurium dominicense — no section. Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~6.2 Mya (its \"Caribbean clade\").",
          "children": [
           {
            "id": "sp-anthurium-acaule",
@@ -17840,7 +17840,7 @@
          "name": "Clade 1",
          "rank": "clade",
          "speciesCount": 9,
-         "note": "Support MP/ML/PP: 86/96/1.00. Classical sections mixed here: Urospadix (7), Chamaerepium (1), no section (N/A) (1). Sampled here: A. bellum (URO); A. longipes (URO); A. radicans (CHA); A. bromelicola — no section; A. harrisii (URO); A. lucidum (URO); A. olfersianum (URO); A. coriaceum (URO); A. parvum (URO). Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~5.6 Mya (its \"Brazilian clade\").",
+         "note": "Support MP/ML/PP: 86/96/1.00. Classical sections mixed here: Urospadix (7), Chamaerepium (1), no section (N/A) (1). Sampled here: Anthurium bellum (URO); Anthurium longipes (URO); Anthurium radicans (CHA); Anthurium bromelicola — no section; Anthurium harrisii (URO); Anthurium lucidum (URO); Anthurium olfersianum (URO); Anthurium coriaceum (URO); Anthurium parvum (URO). Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~5.6 Mya (its \"Brazilian clade\").",
          "children": [
           {
            "id": "sp-anthurium-bellum",
@@ -17919,7 +17919,7 @@
          "name": "Clade A · Polyphyllium",
          "rank": "clade",
          "speciesCount": 2,
-         "note": "Support MP/ML/PP: 99/100/1.00. The molecular clade and the classical section coincide — one of the few drawers that survived the DNA. Sampled here: A. flexile (POLYP); A. clidemioides (POLYP). The earliest divergent lineage in the genus. Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~11.4 Mya (its Clade A matches this one exactly).",
+         "note": "Support MP/ML/PP: 99/100/1.00. The molecular clade and the classical section coincide — one of the few drawers that survived the DNA. Sampled here: Anthurium flexile (POLYP); Anthurium clidemioides (POLYP). The earliest divergent lineage in the genus. Carlsen's 2011 dissertation — the only dated Anthurium tree, unpublished, r8s with the Pothoideae crown fixed at 86 Mya put the crown of this clade at ~11.4 Mya (its Clade A matches this one exactly).",
          "children": [
           {
            "id": "sp-anthurium-flexile",
@@ -18077,7 +18077,7 @@
   }
  ],
  "metadata": {
-  "updated": "2026-08-16",
+  "updated": "2026-08-17",
   "about": {
    "intro": [
     "This tree shows how the roughly 150 accepted genera of the arum family are grouped: first into subfamilies, then into tribes, and finally into the genera themselves.",
@@ -18133,20 +18133,21 @@
     "1.21.0 - ancestral ranges on the Alocasia cladogram from Nauheimer 2012 Table S3 (a table parse joined on the existing figNode numbers): all 55 nodes, Lagrange primary, the two method-conflict nodes (26, 41) stated on the card. Out-of-Borneo reproduces: 35 of 55 optima contain Borneo.",
     "1.22.0 - the ANTHURIUM TIER: Carlsen & Croat's 18 supported clades (A, B, 1-16) with all 102 sampled species, undated by necessity (no dated Anthurium tree exists); the classical sections layered onto every species row and clade card per the reader's ruling — 10 of 15 sections are not natural groups and the cards say so.",
     "1.23.0 - Miranda et al. 2026 (Philippine Amorphophallus) as card notes on the Amorphophallus tier: polyphyly of the Philippine flora, two colonization routes, subgenus placements. Verified across all four supplementary trees; topology remains Pouchon 2023.",
-    "1.24.0 - the Miranda membership layer: 129 species Pouchon never sampled attach to their subgenera as cited, undated group rows (49 subg. Amorphophallus incl. A. titanum, 23 Afrophallus, 16 Scutandrium, 41 Metandrium). Both Miranda analyses agree on every placement; A. kachinensis excluded as an inter-study conflict and noted on its card. Forks and ages remain Pouchon 2023 alone.",
+    "1.24.0 - the Miranda membership layer: 129 species Pouchon never sampled attach to their subgenera as cited, undated group rows (49 subg. Amorphophallus incl. Amorphophallus titanum, 23 Afrophallus, 16 Scutandrium, 41 Metandrium). Both Miranda analyses agree on every placement; Amorphophallus kachinensis excluded as an inter-study conflict and noted on its card. Forks and ages remain Pouchon 2023 alone.",
     "1.25.0 - the MONSTERA TIER: dated subtree from Zuluaga, Llano & Cameron 2019 (AMBG 104, Fig. 2) - crown 18.68 Ma, stem 28.03 Ma from Amydrium + part of Epipremnum, 27 tips (26 POWO-checked species + Monstera Croat 96437), 26 forks, all binary. The figure prints no node ages: ages are derived from the chronogram's vector geometry (gridline-calibrated axis), gated on the four crown ages the paper prints in prose (68.83 / 38.4 / 38.56 / 27.0 Ma, all reproduced within 0.16 Ma). Crown ancestral range: tropical America, P = 1.0.",
-    "1.26.0 - the ARISAEMA TIER, undated (Anthurium-style): Ohi-Toma et al. 2016 (BJLS 182, Figs 1-3) - 9 clades (8 + the A. fimbriatum branch), 124 species-level rows from 157 figure tips, Murata-system section on every row (the study's 15-section treatment: Fimbriata resurrected, A. schimperianum -> sect. Arisaema), support values and non-mono sections on clade cards. Dates on cards from Renner, Zhang & Murata 2004 (18-My Beringian calibration; Africa-Himalaya split 31+-10 My; the older America crossing 49+-12 My; root <= 60 My). PIS gate: lobatum->sikokianum block matches the prose; POWO folder check: 11 names absent (9 = the since-lumped Japanese Pistillata names), flagged on their cards.",
+    "1.26.0 - the ARISAEMA TIER, undated (Anthurium-style): Ohi-Toma et al. 2016 (BJLS 182, Figs 1-3) - 9 clades (8 + the Arisaema fimbriatum branch), 124 species-level rows from 157 figure tips, Murata-system section on every row (the study's 15-section treatment: Fimbriata resurrected, Arisaema schimperianum -> sect. Arisaema), support values and non-mono sections on clade cards. Dates on cards from Renner, Zhang & Murata 2004 (18-My Beringian calibration; Africa-Himalaya split 31+-10 My; the older America crossing 49+-12 My; root <= 60 My). PIS gate: lobatum->sikokianum block matches the prose; POWO folder check: 11 names absent (9 = the since-lumped Japanese Pistillata names), flagged on their cards.",
     "1.27.0 - CARLSEN 2011 DISSERTATION AGES on the Anthurium tier, notes-only (the 1.23.0 Miranda precedent): genus crown ~27.2 Mya + crown ages on all 17 clade cards from the dissertation's Table 2 (r8s, root fixed 86 Mya, unpublished). Its clade numbers do NOT match the 2019 numbering (e.g. its 16 = Calomystrium = our 13; its 15 = Mexican epunctate = our 16 Andiphilum) - every mapping was made by MEMBERSHIP against Figure 2, 14 exact or subset matches, membership differences said on the cards (its 11 includes crenatum+venosum). Rendering untouched: no chron fields, the tier stays undated.",
     "1.28.0 - NAUHEIMER TABLE S2 FULLY MINED (the 8.7.26 'resists extraction' verdict falls to Word-COM SaveAs -> docx): all 23 fossils extracted. The 7 Time-view diamonds gain formation-level tooltips and their constraint node numbers; the Petrocardium epithet's o-for-e misspelling corrected to cerrejonense (the Cerrejon Formation); the root constraint recorded (earliest monocot pollen, 125-139 Ma normal prior); the 15 discussed-but-unused fossils ship as chronology.fossilsDiscussed - DORMANT, deliberately not drawn as diamonds, because the study did not constrain with them (incl. Mayoa portugallica, the Crato aroid, Cobbania, and Arisaema hesperia - the Latah Formation fossil Renner 2004 and Carlsen 2011 both calibrate on).",
     "1.29.0 - MONSTERA ANCESTRAL RANGES: all 25 anon forks gain ancestralRange (the crown's printed 1/100/100 has ridden the genus row since 1.25.0), and the answer is the same at every one - tropical America, P = 1.0. Read from Fig. 2's DEC pies as vector fills pixel-classified per disc, palette anchored on the figure's own presence-square columns (Monstera's 27 row-squares prove column B = blue), calibrated on the crown's printed 1/100/100 (the fill circle sits inside the stroked outline - a naive disc reads a phantom white ring; sampled at 0.6r with a 3% noise floor, so a sliver below 3% would not register). Three leftover pies are corner pies, correctly unassigned. The genus never leaves the neotropics in this reconstruction.",
     "1.30.0 - the GUSMAN LAYER on Arisaema: every species card now also names its section in Gusman & Gusman's 2006 monograph (the book growers own), read from Fig. 3's [G] column bars - a second classification riding as notes, the Murata/2016 system stays the tier's frame. Same drawer -> said in one word; different drawer -> named (e.g. schimperianum SIN, the macrospathum trio TOR, lobatum LOB, prazeri ATT). All 124 rows, block-label assignment gated 1:1, per-species conflicts asserted zero.",
     "1.31.0 - the MADISON-SECTIONS MEMBERSHIP LAYER on Monstera (the Miranda 1.24.0 doctrine: forks from one study, membership from many): 22 unsampled species attach at the genus crown in three cited section groups (sect. Monstera 17 incl. the 2025 novelties colossica + corana, Marcgraviopsis 4, Tornelia 1), and 15 sampled rows gain their cited section. Source: the held Costa Rica revision (Cedeno-Fonseca, Hay & Blanco 2022, Aroideana 45(1) - misfiled in the 2009p folder, found by content) + the 2025 Land-of-giants paper. Per-slice parsing gated on the mined file; two parser conflicts adjudicated (limitaris and tablasensis are sect. Monstera by their own Comments; the stray values were luteynii's and tacanaensis's). Echinospadix gets no group - its only member (tuberculata) is sampled, and its card now says it nests inside Marcgraviopsis in the molecular tree. 23 unsampled species (mostly non-CR) remain unplaced pending the Phytotaxa 656 acquisition.",
     "Pouchon, Boyce, Roberts, Gitzendanner, Hetterscheid, Soltis, Soltis & Claudel (2023), Journal of Systematics and Evolution 61(1): 64-79, Table S2 node 27. Adjudicated 8.16.26 against this tree's chronology and NOT applied to any age. Pouchon dates crown Araceae at 94.14 Ma (95% HPD 76.37-113.98, BPP 1.00) against Nauheimer's 121.7 Ma (95% HPD 112.0-131.9). The intervals OVERLAP between 112.0 and 113.98 Ma, so the two are statistically compatible and the medians alone must not be quoted as a disagreement. The offset is a property of the calibration set, not a finding: Pouchon uses a younger root (Liliacidites, crown monocots 125.0 Ma vs 132 +/- 4.25), DROPS Albertarum pueri (72 Ma, Orontioideae stem - the deepest in-family constraint), and dates Lasioideae from Keratosperma allenbyense at 48.7 Ma against Lasioideaecidites hessei at 70 Ma; its ages run younger than both Givnish et al. (2018) and Nauheimer throughout the monocots. Nauheimer is kept because it is the family-scale study (132 Araceae taxa) where Pouchon samples 36 Amorphophallus species plus outgroups and the family age is a by-product - which is why its interval is nearly twice as wide. Pouchon remains the source for the Amorphophallus subgenus chronogram, where it is the better study. Full adjudication: literature archive DIGESTS/Chronology.md, 'RULING 8.16.26'.",
-    "1.33.0 - the MADISON-SECTIONS LAYER EXTENDED with Croat, Cedeno-Fonseca & Ortiz 2024 (Phytotaxa 656, the 197-page Central America monograph, 52 numbered treatments): 12 more unsampled species placed (groups 22 -> 34: sect. Monstera 27 incl. titanum and gigas, Marcgraviopsis 5, Tornelia 2), 5 more sampled rows sectioned (15 -> 20), and every overlapping placement upgraded to a TWO-SOURCE citation - the two revisions agree on all 35 shared names, ZERO conflicts. 54 of POWO's 71 species now carry a section; the 13 that do not are South American, outside both regional revisions. Parse gated on the monograph's own 1..52 heading sequence (complete and alphabetical) - the gate the 2022 parse lacked; two slices hand-adjudicated (maderaverde is Tornelia, the Marcgraviopsis in its slice belongs to a compared species; wilsoniensis is Monstera, its slice swallowing the bibliography because it is treatment #52). M. acuminata and M. spruceana now carry the concrete section-vs-clade mismatch the 2022 revision names.",
-    "1.34.0 - the Monstera sections layer closed out as far as the literature allows: six more species placed from three papers acquired today - M. kikiae and M. momoi (sect. Monstera, Zuluaga, Cedeno-Fonseca & Mittermeier 2021, Phytotaxa 527(2), stated in its abstract); M. caribaea, M. lamersiana and M. panamensis (sect. Marcgraviopsis, Cedeno-Fonseca, Ortiz, Hay & Blanco 2023, Webbia 78(2), which names the section in its title); and M. cedenoi (sect. Monstera, Ortiz, Croat & Hughes 2024, Webbia 79(2), 'sensu Madison 1977'). Groups go 34 -> 40, and 58 of POWO's 71 species now carry a section. THE REMAINING SIX UNSAMPLED SPECIES HAVE NO PUBLISHED SECTION AT ALL - their 2004-2005 describing papers assign none, which the tier note now says outright rather than implying an archive gap. M. boliviana is sunk into M. obliqua by BOTH Madison 1977 (the sections' author, treatment 12) and the 2024 monograph; POWO accepts it and the tree follows POWO."
+    "1.33.0 - the MADISON-SECTIONS LAYER EXTENDED with Croat, Cedeno-Fonseca & Ortiz 2024 (Phytotaxa 656, the 197-page Central America monograph, 52 numbered treatments): 12 more unsampled species placed (groups 22 -> 34: sect. Monstera 27 incl. titanum and gigas, Marcgraviopsis 5, Tornelia 2), 5 more sampled rows sectioned (15 -> 20), and every overlapping placement upgraded to a TWO-SOURCE citation - the two revisions agree on all 35 shared names, ZERO conflicts. 54 of POWO's 71 species now carry a section; the 13 that do not are South American, outside both regional revisions. Parse gated on the monograph's own 1..52 heading sequence (complete and alphabetical) - the gate the 2022 parse lacked; two slices hand-adjudicated (maderaverde is Tornelia, the Marcgraviopsis in its slice belongs to a compared species; wilsoniensis is Monstera, its slice swallowing the bibliography because it is treatment #52). Monstera acuminata and Monstera spruceana now carry the concrete section-vs-clade mismatch the 2022 revision names.",
+    "1.34.0 - the Monstera sections layer closed out as far as the literature allows: six more species placed from three papers acquired today - Monstera kikiae and Monstera momoi (sect. Monstera, Zuluaga, Cedeno-Fonseca & Mittermeier 2021, Phytotaxa 527(2), stated in its abstract); Monstera caribaea, Monstera lamersiana and Monstera panamensis (sect. Marcgraviopsis, Cedeno-Fonseca, Ortiz, Hay & Blanco 2023, Webbia 78(2), which names the section in its title); and Monstera cedenoi (sect. Monstera, Ortiz, Croat & Hughes 2024, Webbia 79(2), 'sensu Madison 1977'). Groups go 34 -> 40, and 58 of POWO's 71 species now carry a section. THE REMAINING SIX UNSAMPLED SPECIES HAVE NO PUBLISHED SECTION AT ALL - their 2004-2005 describing papers assign none, which the tier note now says outright rather than implying an archive gap. Monstera boliviana is sunk into Monstera obliqua by BOTH Madison 1977 (the sections' author, treatment 12) and the 2024 monograph; POWO accepts it and the tree follows POWO.",
+    "1.35.0 - CONTRACTED BINOMIALS EXPANDED. 171 occurrences of the abbreviated form (genus initial, point, epithet) across note, speciesTierNote, authority and distribution fields were written out in full: Anthurium 93, Arisaema 27, Monstera 24, Amorphophallus 7, Alocasia 4, plus 14 in this provenance log. These are reader-facing - they appear in the species and clade cards opened from the tree - so they broke the site-wide never-contract-a-genus-name rule in live text while staying invisible to a grep of the page HTML, because the cards are built from this feed. Every initial was resolved from its ENCLOSING GENUS and never from the letter, because this archive has a real error on record from an initial that meant two different genera in one text; all 155 tree-body cases matched their own genus, with ZERO mismatches. TWO WERE DELIBERATELY LEFT ABBREVIATED - the Orontium and Nitophyllites names in the fossil affinity fields sit inside VERBATIM QUOTATIONS, and silently expanding a name inside a quotation would misrepresent the source. No topology, age, range, count or citation changed."
    ],
    "speciesCounts": "POWO master export, Araceae_Exports/EXCELS/_run_log.csv (validated accepted species).",
-   "version": "1.34.0",
+   "version": "1.35.0",
    "orthographicVariants": {
     "Stylochiton": "Treated as Stylochaeton Lepr. (MBB no. 34). The POWO export uses Stylochiton; which spelling Kew currently accepts is unconfirmed."
    },
