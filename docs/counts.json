@@ -27,7 +27,7 @@
       "placed": 159,
       "zones": {
         "asia": 158,
-        "austral": 2
+        "austral": 9
       }
     },
     "Amorphophallus": {
@@ -64,9 +64,10 @@
     "Sumatra ?": 1,
     "Myanmar ?": 1,
     "Angola?": 1,
+    "Tanitharyi": 1,
     "Kalimantan?": 1
   },
-  "updatedAt": "2026-08-17T08:56:00.745Z",
+  "updatedAt": "2026-08-18T08:49:50.823Z",
   "source": "https://www.aroidpedia.com/journal",
   "totalItemsScanned": 440
 }
