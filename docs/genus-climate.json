@@ -1,38 +1,95 @@
 {
- "version": "1.1.0",
- "generated": "2026-08-18T17:18:06.428Z",
- "source": "climate.json 1.9.0 + genus-geo.json 1.17.0",
- "method": "Per genus, its POWO places that have a climate row, weighted by the number of the genus's species recorded in each. koppen = [code, share, label] from prMed + (tnMed+txMed)/2 on the 'all' variant; A-group thresholds Af>=60mm driest month, Am>=100-MAP/25, else Aw. zones = the WTE temperature x moisture domains already in climate.json, same weighting. cover = share of the genus's places that had any climate row; show=false below 0.6 because a confident profile built from a minority of the range is worse than no row (Arum: 3 of 57 places).",
+ "version": "1.2.0",
+ "generated": "2026-08-18T17:28:22.744Z",
+ "source": "climate.json 1.10.0 + genus-geo.json 1.17.0",
+ "method": "Per genus, its POWO places that have a climate row, weighted by the number of the genus's species recorded in each. 1.2.0 (S2): each place contributes its PIXEL-LEVEL Koppen distribution (climate.json 1.10.0 `koppen`, Peel et al. 2007), read through the SAME variant the species card would pick for this genus (`variant`: warm strongholds -> warmMoist or warm, else ff; per-place fallback down to 'all'), rather than one class from aggregate medians. koppen = [coarse code, share, label] over nine buckets (Af/Am/Aw/B/Cf/Cs/Cw/D/E); koppenFull = [full KG code, share] for consumers that want the 30-class detail. zones = the WTE domains already in climate.json, same weighting. cover = share of the genus's places that had any climate row; show=false below 0.6.",
  "genera": {
   "Amorphophallus": {
    "places": 85,
    "withClimate": 85,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Aw",
-     0.578,
+     0.452,
      "savanna"
     ],
     [
      "Af",
-     0.181,
+     0.18,
      "rainforest"
     ],
     [
-     "Cs",
-     0.152,
-     "temperate seasonal"
+     "Cw",
+     0.163,
+     "winter-dry temperate"
     ],
     [
      "Am",
-     0.076,
+     0.146,
      "monsoon"
     ],
     [
+     "B",
+     0.029,
+     "arid"
+    ],
+    [
      "Cf",
-     0.013,
+     0.019,
      "temperate moist"
+    ],
+    [
+     "Cs",
+     0.011,
+     "mediterranean"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Aw",
+     0.452
+    ],
+    [
+     "Af",
+     0.18
+    ],
+    [
+     "Cwa",
+     0.158
+    ],
+    [
+     "Am",
+     0.146
+    ],
+    [
+     "BSh",
+     0.02
+    ],
+    [
+     "Cfa",
+     0.012
+    ],
+    [
+     "Csa",
+     0.01
+    ],
+    [
+     "BWh",
+     0.009
+    ],
+    [
+     "Cfb",
+     0.006
+    ],
+    [
+     "Cwb",
+     0.005
+    ],
+    [
+     "Csb",
+     0.001
     ]
    ],
    "zones": [
@@ -63,21 +120,72 @@
    "places": 10,
    "withClimate": 10,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     0.611,
+     0.484,
      "rainforest"
     ],
     [
      "Am",
-     0.361,
+     0.35,
      "monsoon"
     ],
     [
      "Aw",
-     0.028,
+     0.122,
      "savanna"
+    ],
+    [
+     "Cf",
+     0.035,
+     "temperate moist"
+    ],
+    [
+     "Cw",
+     0.005,
+     "winter-dry temperate"
+    ],
+    [
+     "Cs",
+     0.003,
+     "mediterranean"
+    ],
+    [
+     "B",
+     0.002,
+     "arid"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.484
+    ],
+    [
+     "Am",
+     0.35
+    ],
+    [
+     "Aw",
+     0.122
+    ],
+    [
+     "Cfb",
+     0.034
+    ],
+    [
+     "Cwb",
+     0.005
+    ],
+    [
+     "Csb",
+     0.003
+    ],
+    [
+     "BSh",
+     0.002
     ]
    ],
    "zones": [
@@ -92,16 +200,62 @@
    "places": 6,
    "withClimate": 6,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     0.5,
+     0.496,
      "rainforest"
     ],
     [
      "Aw",
-     0.5,
+     0.356,
      "savanna"
+    ],
+    [
+     "Am",
+     0.078,
+     "monsoon"
+    ],
+    [
+     "Cw",
+     0.068,
+     "winter-dry temperate"
+    ],
+    [
+     "Cf",
+     0.003,
+     "temperate moist"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.496
+    ],
+    [
+     "Aw",
+     0.356
+    ],
+    [
+     "Am",
+     0.078
+    ],
+    [
+     "Cwa",
+     0.065
+    ],
+    [
+     "Cwb",
+     0.003
+    ],
+    [
+     "Cfb",
+     0.003
+    ],
+    [
+     "Cfa",
+     0.001
     ]
    ],
    "zones": [
@@ -120,26 +274,71 @@
    "places": 20,
    "withClimate": 20,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
-     "Aw",
-     0.388,
-     "savanna"
-    ],
-    [
      "Af",
-     0.388,
+     0.336,
      "rainforest"
     ],
     [
-     "Cs",
-     0.2,
-     "temperate seasonal"
+     "Aw",
+     0.29,
+     "savanna"
+    ],
+    [
+     "Cw",
+     0.202,
+     "winter-dry temperate"
     ],
     [
      "Am",
-     0.025,
+     0.158,
      "monsoon"
+    ],
+    [
+     "Cf",
+     0.009,
+     "temperate moist"
+    ],
+    [
+     "Cs",
+     0.005,
+     "mediterranean"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.336
+    ],
+    [
+     "Aw",
+     0.29
+    ],
+    [
+     "Cwa",
+     0.199
+    ],
+    [
+     "Am",
+     0.158
+    ],
+    [
+     "Cfb",
+     0.005
+    ],
+    [
+     "Csa",
+     0.005
+    ],
+    [
+     "Cwb",
+     0.003
+    ],
+    [
+     "Cfa",
+     0.003
     ]
    ],
    "zones": [
@@ -158,11 +357,27 @@
    "places": 1,
    "withClimate": 1,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     1.0,
+     0.999,
      "rainforest"
+    ],
+    [
+     "Am",
+     0.001,
+     "monsoon"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.999
+    ],
+    [
+     "Am",
+     0.001
     ]
    ],
    "zones": [
@@ -177,16 +392,45 @@
    "places": 2,
    "withClimate": 2,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
+     "Aw",
+     0.377,
+     "savanna"
+    ],
+    [
+     "Am",
+     0.31,
+     "monsoon"
+    ],
+    [
      "Af",
-     0.667,
+     0.308,
      "rainforest"
     ],
     [
+     "Cf",
+     0.005,
+     "temperate moist"
+    ]
+   ],
+   "koppenFull": [
+    [
      "Aw",
-     0.333,
-     "savanna"
+     0.377
+    ],
+    [
+     "Am",
+     0.31
+    ],
+    [
+     "Af",
+     0.308
+    ],
+    [
+     "Cfb",
+     0.004
     ]
    ],
    "zones": [
@@ -201,36 +445,88 @@
    "places": 48,
    "withClimate": 48,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     0.515,
+     0.474,
      "rainforest"
     ],
     [
+     "Cw",
+     0.19,
+     "winter-dry temperate"
+    ],
+    [
      "Aw",
-     0.249,
+     0.182,
      "savanna"
     ],
     [
-     "Cs",
-     0.176,
-     "temperate seasonal"
-    ],
-    [
      "Am",
-     0.034,
+     0.111,
      "monsoon"
     ],
     [
      "Cf",
-     0.021,
+     0.035,
      "temperate moist"
     ],
     [
-     "D",
-     0.004,
-     "cold"
+     "Cs",
+     0.007,
+     "mediterranean"
+    ],
+    [
+     "B",
+     0.002,
+     "arid"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.474
+    ],
+    [
+     "Cwa",
+     0.186
+    ],
+    [
+     "Aw",
+     0.182
+    ],
+    [
+     "Am",
+     0.111
+    ],
+    [
+     "Cfa",
+     0.021
+    ],
+    [
+     "Cfb",
+     0.014
+    ],
+    [
+     "Csa",
+     0.007
+    ],
+    [
+     "Cwb",
+     0.003
+    ],
+    [
+     "BSh",
+     0.001
+    ],
+    [
+     "BSk",
+     0.001
+    ],
+    [
+     "BWh",
+     0.001
     ]
    ],
    "zones": [
@@ -257,11 +553,56 @@
    "places": 6,
    "withClimate": 6,
    "cover": 1.0,
+   "variant": "ff",
    "koppen": [
     [
      "Cs",
-     1.0,
-     "temperate seasonal"
+     0.629,
+     "mediterranean"
+    ],
+    [
+     "B",
+     0.323,
+     "arid"
+    ],
+    [
+     "Cf",
+     0.048,
+     "temperate moist"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Csa",
+     0.498
+    ],
+    [
+     "BWh",
+     0.255
+    ],
+    [
+     "Csb",
+     0.131
+    ],
+    [
+     "BSk",
+     0.042
+    ],
+    [
+     "Cfa",
+     0.036
+    ],
+    [
+     "BSh",
+     0.022
+    ],
+    [
+     "Cfb",
+     0.013
+    ],
+    [
+     "BWk",
+     0.004
     ]
    ],
    "zones": [
@@ -288,26 +629,71 @@
    "places": 15,
    "withClimate": 15,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     0.5,
+     0.452,
      "rainforest"
     ],
     [
-     "Cs",
-     0.227,
-     "temperate seasonal"
+     "Cw",
+     0.223,
+     "winter-dry temperate"
     ],
     [
      "Aw",
-     0.227,
+     0.191,
      "savanna"
     ],
     [
      "Am",
-     0.045,
+     0.103,
      "monsoon"
+    ],
+    [
+     "Cf",
+     0.029,
+     "temperate moist"
+    ],
+    [
+     "Cs",
+     0.002,
+     "mediterranean"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.452
+    ],
+    [
+     "Cwa",
+     0.22
+    ],
+    [
+     "Aw",
+     0.191
+    ],
+    [
+     "Am",
+     0.103
+    ],
+    [
+     "Cfa",
+     0.021
+    ],
+    [
+     "Cfb",
+     0.009
+    ],
+    [
+     "Cwb",
+     0.003
+    ],
+    [
+     "Csa",
+     0.002
     ]
    ],
    "zones": [
@@ -326,26 +712,71 @@
    "places": 15,
    "withClimate": 15,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     0.54,
+     0.522,
      "rainforest"
     ],
     [
      "Aw",
-     0.3,
+     0.23,
      "savanna"
     ],
     [
      "Am",
-     0.08,
+     0.122,
      "monsoon"
     ],
     [
+     "Cw",
+     0.114,
+     "winter-dry temperate"
+    ],
+    [
+     "Cf",
+     0.012,
+     "temperate moist"
+    ],
+    [
      "Cs",
-     0.08,
-     "temperate seasonal"
+     0.001,
+     "mediterranean"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.522
+    ],
+    [
+     "Aw",
+     0.23
+    ],
+    [
+     "Am",
+     0.122
+    ],
+    [
+     "Cwa",
+     0.11
+    ],
+    [
+     "Cfb",
+     0.007
+    ],
+    [
+     "Cfa",
+     0.005
+    ],
+    [
+     "Cwb",
+     0.003
+    ],
+    [
+     "Csa",
+     0.001
     ]
    ],
    "zones": [
@@ -364,16 +795,45 @@
    "places": 4,
    "withClimate": 4,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     0.8,
+     0.487,
      "rainforest"
     ],
     [
+     "Am",
+     0.324,
+     "monsoon"
+    ],
+    [
      "Aw",
-     0.2,
+     0.186,
      "savanna"
+    ],
+    [
+     "Cf",
+     0.002,
+     "temperate moist"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.487
+    ],
+    [
+     "Am",
+     0.324
+    ],
+    [
+     "Aw",
+     0.186
+    ],
+    [
+     "Cfb",
+     0.002
     ]
    ],
    "zones": [
@@ -388,11 +848,58 @@
    "places": 2,
    "withClimate": 2,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Aw",
-     1.0,
+     0.83,
      "savanna"
+    ],
+    [
+     "Am",
+     0.065,
+     "monsoon"
+    ],
+    [
+     "Cw",
+     0.062,
+     "winter-dry temperate"
+    ],
+    [
+     "Cs",
+     0.043,
+     "mediterranean"
+    ],
+    [
+     "Cf",
+     0.001,
+     "temperate moist"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Aw",
+     0.83
+    ],
+    [
+     "Am",
+     0.065
+    ],
+    [
+     "Cwa",
+     0.062
+    ],
+    [
+     "Csa",
+     0.043
+    ],
+    [
+     "Cwb",
+     0.001
+    ],
+    [
+     "Cfb",
+     0.001
     ]
    ],
    "zones": [
@@ -407,21 +914,84 @@
    "places": 30,
    "withClimate": 30,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Aw",
-     0.773,
+     0.724,
      "savanna"
     ],
     [
      "Am",
-     0.136,
+     0.144,
      "monsoon"
     ],
     [
+     "B",
+     0.048,
+     "arid"
+    ],
+    [
      "Cs",
-     0.091,
-     "temperate seasonal"
+     0.029,
+     "mediterranean"
+    ],
+    [
+     "Af",
+     0.028,
+     "rainforest"
+    ],
+    [
+     "Cw",
+     0.015,
+     "winter-dry temperate"
+    ],
+    [
+     "Cf",
+     0.012,
+     "temperate moist"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Aw",
+     0.724
+    ],
+    [
+     "Am",
+     0.144
+    ],
+    [
+     "BSh",
+     0.046
+    ],
+    [
+     "Af",
+     0.028
+    ],
+    [
+     "Csa",
+     0.024
+    ],
+    [
+     "Cfb",
+     0.012
+    ],
+    [
+     "Cwa",
+     0.007
+    ],
+    [
+     "Cwb",
+     0.007
+    ],
+    [
+     "Csb",
+     0.005
+    ],
+    [
+     "BWh",
+     0.002
     ]
    ],
    "zones": [
@@ -448,31 +1018,80 @@
    "places": 39,
    "withClimate": 38,
    "cover": 0.974,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     0.456,
+     0.386,
      "rainforest"
     ],
     [
      "Am",
-     0.333,
+     0.323,
      "monsoon"
     ],
     [
      "Aw",
-     0.201,
+     0.222,
      "savanna"
     ],
     [
      "Cf",
-     0.007,
+     0.044,
      "temperate moist"
     ],
     [
+     "Cw",
+     0.016,
+     "winter-dry temperate"
+    ],
+    [
      "Cs",
-     0.002,
-     "temperate seasonal"
+     0.004,
+     "mediterranean"
+    ],
+    [
+     "B",
+     0.004,
+     "arid"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.386
+    ],
+    [
+     "Am",
+     0.323
+    ],
+    [
+     "Aw",
+     0.222
+    ],
+    [
+     "Cfb",
+     0.028
+    ],
+    [
+     "Cfa",
+     0.016
+    ],
+    [
+     "Cwa",
+     0.009
+    ],
+    [
+     "Cwb",
+     0.007
+    ],
+    [
+     "BSh",
+     0.004
+    ],
+    [
+     "Csb",
+     0.004
     ]
    ],
    "zones": [
@@ -495,21 +1114,54 @@
    "places": 18,
    "withClimate": 18,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Aw",
-     0.646,
+     0.66,
      "savanna"
     ],
     [
      "Am",
-     0.292,
+     0.275,
      "monsoon"
     ],
     [
-     "Cs",
-     0.062,
-     "temperate seasonal"
+     "Af",
+     0.059,
+     "rainforest"
+    ],
+    [
+     "Cf",
+     0.004,
+     "temperate moist"
+    ],
+    [
+     "Cw",
+     0.002,
+     "winter-dry temperate"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Aw",
+     0.66
+    ],
+    [
+     "Am",
+     0.275
+    ],
+    [
+     "Af",
+     0.059
+    ],
+    [
+     "Cfb",
+     0.004
+    ],
+    [
+     "Cwb",
+     0.001
     ]
    ],
    "zones": [
@@ -528,26 +1180,67 @@
    "places": 6,
    "withClimate": 6,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     0.714,
+     0.733,
      "rainforest"
     ],
     [
      "Aw",
-     0.143,
+     0.153,
      "savanna"
     ],
     [
      "Am",
-     0.095,
+     0.089,
      "monsoon"
     ],
     [
+     "Cw",
+     0.013,
+     "winter-dry temperate"
+    ],
+    [
+     "Cf",
+     0.011,
+     "temperate moist"
+    ],
+    [
      "Cs",
-     0.048,
-     "temperate seasonal"
+     0.002,
+     "mediterranean"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.733
+    ],
+    [
+     "Aw",
+     0.153
+    ],
+    [
+     "Am",
+     0.089
+    ],
+    [
+     "Cfb",
+     0.011
+    ],
+    [
+     "Cwa",
+     0.011
+    ],
+    [
+     "Cwb",
+     0.002
+    ],
+    [
+     "Csa",
+     0.002
     ]
    ],
    "zones": [
@@ -562,11 +1255,27 @@
    "places": 1,
    "withClimate": 1,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     1.0,
+     0.999,
      "rainforest"
+    ],
+    [
+     "Am",
+     0.001,
+     "monsoon"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.999
+    ],
+    [
+     "Am",
+     0.001
     ]
    ],
    "zones": [
@@ -581,16 +1290,54 @@
    "places": 7,
    "withClimate": 7,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
+     "Cw",
+     0.472,
+     "winter-dry temperate"
+    ],
+    [
      "Aw",
-     0.5,
+     0.358,
      "savanna"
     ],
     [
+     "Am",
+     0.139,
+     "monsoon"
+    ],
+    [
      "Cs",
-     0.5,
-     "temperate seasonal"
+     0.029,
+     "mediterranean"
+    ],
+    [
+     "Af",
+     0.001,
+     "rainforest"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Cwa",
+     0.472
+    ],
+    [
+     "Aw",
+     0.358
+    ],
+    [
+     "Am",
+     0.139
+    ],
+    [
+     "Csa",
+     0.029
+    ],
+    [
+     "Af",
+     0.001
     ]
    ],
    "zones": [
@@ -609,36 +1356,134 @@
    "places": 100,
    "withClimate": 99,
    "cover": 0.99,
+   "variant": "warmMoist",
    "koppen": [
     [
-     "Cs",
-     0.336,
-     "temperate seasonal"
-    ],
-    [
-     "D",
-     0.223,
-     "cold"
+     "Cw",
+     0.307,
+     "winter-dry temperate"
     ],
     [
      "Cf",
-     0.192,
+     0.18,
      "temperate moist"
     ],
     [
+     "D",
+     0.167,
+     "cold"
+    ],
+    [
      "Aw",
-     0.192,
+     0.145,
      "savanna"
     ],
     [
+     "Am",
+     0.058,
+     "monsoon"
+    ],
+    [
+     "B",
+     0.052,
+     "arid"
+    ],
+    [
      "Af",
-     0.039,
+     0.045,
      "rainforest"
     ],
     [
+     "E",
+     0.029,
+     "polar"
+    ],
+    [
+     "Cs",
+     0.017,
+     "mediterranean"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Cwa",
+     0.301
+    ],
+    [
+     "Cfa",
+     0.177
+    ],
+    [
+     "Aw",
+     0.145
+    ],
+    [
+     "Dfb",
+     0.078
+    ],
+    [
      "Am",
-     0.018,
-     "monsoon"
+     0.058
+    ],
+    [
+     "Dfa",
+     0.048
+    ],
+    [
+     "Af",
+     0.045
+    ],
+    [
+     "ET",
+     0.029
+    ],
+    [
+     "BWh",
+     0.021
+    ],
+    [
+     "Csa",
+     0.016
+    ],
+    [
+     "BSk",
+     0.016
+    ],
+    [
+     "BWk",
+     0.013
+    ],
+    [
+     "Dwb",
+     0.012
+    ],
+    [
+     "Dfc",
+     0.011
+    ],
+    [
+     "Dwa",
+     0.011
+    ],
+    [
+     "Dwc",
+     0.006
+    ],
+    [
+     "Cwb",
+     0.006
+    ],
+    [
+     "Cfb",
+     0.003
+    ],
+    [
+     "BSh",
+     0.002
+    ],
+    [
+     "Dsc",
+     0.001
     ]
    ],
    "zones": [
@@ -697,16 +1542,74 @@
    "places": 27,
    "withClimate": 27,
    "cover": 1.0,
+   "variant": "warm",
    "koppen": [
     [
      "Cs",
-     0.886,
-     "temperate seasonal"
+     0.481,
+     "mediterranean"
+    ],
+    [
+     "B",
+     0.393,
+     "arid"
     ],
     [
      "Cf",
-     0.114,
+     0.098,
      "temperate moist"
+    ],
+    [
+     "Af",
+     0.023,
+     "rainforest"
+    ],
+    [
+     "Am",
+     0.006,
+     "monsoon"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Csa",
+     0.382
+    ],
+    [
+     "BWh",
+     0.29
+    ],
+    [
+     "Csb",
+     0.098
+    ],
+    [
+     "BSk",
+     0.065
+    ],
+    [
+     "Cfa",
+     0.062
+    ],
+    [
+     "Cfb",
+     0.035
+    ],
+    [
+     "BSh",
+     0.033
+    ],
+    [
+     "Af",
+     0.023
+    ],
+    [
+     "Am",
+     0.006
+    ],
+    [
+     "BWk",
+     0.006
     ]
    ],
    "zones": [
@@ -741,11 +1644,75 @@
    "places": 1,
    "withClimate": 1,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Aw",
-     1.0,
+     0.557,
      "savanna"
+    ],
+    [
+     "Af",
+     0.148,
+     "rainforest"
+    ],
+    [
+     "Cw",
+     0.146,
+     "winter-dry temperate"
+    ],
+    [
+     "Cf",
+     0.109,
+     "temperate moist"
+    ],
+    [
+     "Am",
+     0.037,
+     "monsoon"
+    ],
+    [
+     "Cs",
+     0.003,
+     "mediterranean"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Aw",
+     0.557
+    ],
+    [
+     "Af",
+     0.148
+    ],
+    [
+     "Cwa",
+     0.126
+    ],
+    [
+     "Cfa",
+     0.103
+    ],
+    [
+     "Am",
+     0.037
+    ],
+    [
+     "Cwb",
+     0.02
+    ],
+    [
+     "Cfb",
+     0.006
+    ],
+    [
+     "Csa",
+     0.002
+    ],
+    [
+     "Csb",
+     0.001
     ]
    ],
    "zones": [
@@ -760,21 +1727,129 @@
    "places": 57,
    "withClimate": 57,
    "cover": 1.0,
+   "variant": "warm",
    "koppen": [
     [
      "Cs",
-     0.748,
-     "temperate seasonal"
+     0.419,
+     "mediterranean"
+    ],
+    [
+     "B",
+     0.207,
+     "arid"
     ],
     [
      "Cf",
-     0.157,
+     0.185,
      "temperate moist"
     ],
     [
      "D",
-     0.094,
+     0.151,
      "cold"
+    ],
+    [
+     "E",
+     0.017,
+     "polar"
+    ],
+    [
+     "Af",
+     0.01,
+     "rainforest"
+    ],
+    [
+     "Cw",
+     0.009,
+     "winter-dry temperate"
+    ],
+    [
+     "Am",
+     0.002,
+     "monsoon"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Csa",
+     0.369
+    ],
+    [
+     "Dfb",
+     0.116
+    ],
+    [
+     "BWh",
+     0.099
+    ],
+    [
+     "Cfa",
+     0.097
+    ],
+    [
+     "Cfb",
+     0.088
+    ],
+    [
+     "BSk",
+     0.051
+    ],
+    [
+     "Csb",
+     0.05
+    ],
+    [
+     "BWk",
+     0.029
+    ],
+    [
+     "BSh",
+     0.028
+    ],
+    [
+     "Dfc",
+     0.018
+    ],
+    [
+     "ET",
+     0.017
+    ],
+    [
+     "Af",
+     0.01
+    ],
+    [
+     "Cwa",
+     0.008
+    ],
+    [
+     "Dfa",
+     0.008
+    ],
+    [
+     "Dsb",
+     0.003
+    ],
+    [
+     "Dsc",
+     0.003
+    ],
+    [
+     "Am",
+     0.002
+    ],
+    [
+     "Dsa",
+     0.002
+    ],
+    [
+     "Cwb",
+     0.001
+    ],
+    [
+     "Dwc",
+     0.001
     ]
    ],
    "zones": [
@@ -833,21 +1908,62 @@
    "places": 5,
    "withClimate": 5,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Aw",
-     0.615,
+     0.458,
      "savanna"
     ],
     [
      "Cf",
-     0.308,
+     0.432,
      "temperate moist"
     ],
     [
-     "Cs",
-     0.077,
-     "temperate seasonal"
+     "Cw",
+     0.088,
+     "winter-dry temperate"
+    ],
+    [
+     "Am",
+     0.013,
+     "monsoon"
+    ],
+    [
+     "Af",
+     0.009,
+     "rainforest"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Aw",
+     0.458
+    ],
+    [
+     "Cfa",
+     0.43
+    ],
+    [
+     "Cwa",
+     0.077
+    ],
+    [
+     "Am",
+     0.013
+    ],
+    [
+     "Cwb",
+     0.012
+    ],
+    [
+     "Af",
+     0.009
+    ],
+    [
+     "Cfb",
+     0.002
     ]
    ],
    "zones": [
@@ -866,11 +1982,27 @@
    "places": 1,
    "withClimate": 1,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     1.0,
+     0.999,
      "rainforest"
+    ],
+    [
+     "Am",
+     0.001,
+     "monsoon"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.999
+    ],
+    [
+     "Am",
+     0.001
     ]
    ],
    "zones": [
@@ -885,11 +2017,27 @@
    "places": 1,
    "withClimate": 1,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     1.0,
+     0.999,
      "rainforest"
+    ],
+    [
+     "Am",
+     0.001,
+     "monsoon"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.999
+    ],
+    [
+     "Am",
+     0.001
     ]
    ],
    "zones": [
@@ -904,11 +2052,27 @@
    "places": 1,
    "withClimate": 1,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     1.0,
+     0.999,
      "rainforest"
+    ],
+    [
+     "Am",
+     0.001,
+     "monsoon"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.999
+    ],
+    [
+     "Am",
+     0.001
     ]
    ],
    "zones": [
@@ -923,16 +2087,45 @@
    "places": 5,
    "withClimate": 5,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     0.964,
+     0.959,
      "rainforest"
     ],
     [
      "Aw",
-     0.036,
+     0.031,
      "savanna"
+    ],
+    [
+     "Am",
+     0.008,
+     "monsoon"
+    ],
+    [
+     "Cf",
+     0.002,
+     "temperate moist"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.959
+    ],
+    [
+     "Aw",
+     0.031
+    ],
+    [
+     "Am",
+     0.008
+    ],
+    [
+     "Cfb",
+     0.002
     ]
    ],
    "zones": [
@@ -947,16 +2140,56 @@
    "places": 21,
    "withClimate": 21,
    "cover": 1.0,
+   "variant": "ff",
    "koppen": [
     [
      "Cs",
-     0.966,
-     "temperate seasonal"
+     0.559,
+     "mediterranean"
+    ],
+    [
+     "B",
+     0.38,
+     "arid"
     ],
     [
      "Cf",
-     0.034,
+     0.061,
      "temperate moist"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Csa",
+     0.508
+    ],
+    [
+     "BWh",
+     0.217
+    ],
+    [
+     "BSh",
+     0.077
+    ],
+    [
+     "BSk",
+     0.057
+    ],
+    [
+     "Csb",
+     0.051
+    ],
+    [
+     "Cfb",
+     0.031
+    ],
+    [
+     "BWk",
+     0.03
+    ],
+    [
+     "Cfa",
+     0.029
     ]
    ],
    "zones": [
@@ -991,11 +2224,27 @@
    "places": 1,
    "withClimate": 1,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     1.0,
+     0.999,
      "rainforest"
+    ],
+    [
+     "Am",
+     0.001,
+     "monsoon"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.999
+    ],
+    [
+     "Am",
+     0.001
     ]
    ],
    "zones": [
@@ -1010,11 +2259,36 @@
    "places": 1,
    "withClimate": 1,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     1.0,
+     0.397,
      "rainforest"
+    ],
+    [
+     "Am",
+     0.349,
+     "monsoon"
+    ],
+    [
+     "Aw",
+     0.254,
+     "savanna"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.397
+    ],
+    [
+     "Am",
+     0.349
+    ],
+    [
+     "Aw",
+     0.254
     ]
    ],
    "zones": [
@@ -1029,11 +2303,27 @@
    "places": 2,
    "withClimate": 2,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     1.0,
+     0.998,
      "rainforest"
+    ],
+    [
+     "Am",
+     0.002,
+     "monsoon"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.998
+    ],
+    [
+     "Am",
+     0.002
     ]
    ],
    "zones": [
@@ -1048,11 +2338,27 @@
    "places": 1,
    "withClimate": 1,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     1.0,
+     0.999,
      "rainforest"
+    ],
+    [
+     "Am",
+     0.001,
+     "monsoon"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.999
+    ],
+    [
+     "Am",
+     0.001
     ]
    ],
    "zones": [
@@ -1067,11 +2373,27 @@
    "places": 1,
    "withClimate": 1,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     1.0,
+     0.999,
      "rainforest"
+    ],
+    [
+     "Am",
+     0.001,
+     "monsoon"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.999
+    ],
+    [
+     "Am",
+     0.001
     ]
    ],
    "zones": [
@@ -1086,11 +2408,27 @@
    "places": 1,
    "withClimate": 1,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     1.0,
+     0.999,
      "rainforest"
+    ],
+    [
+     "Am",
+     0.001,
+     "monsoon"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.999
+    ],
+    [
+     "Am",
+     0.001
     ]
    ],
    "zones": [
@@ -1105,31 +2443,80 @@
    "places": 18,
    "withClimate": 18,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     0.527,
+     0.406,
      "rainforest"
     ],
     [
-     "Aw",
-     0.309,
-     "savanna"
-    ],
-    [
      "Am",
-     0.127,
+     0.286,
      "monsoon"
     ],
     [
-     "Cs",
-     0.018,
-     "temperate seasonal"
+     "Aw",
+     0.263,
+     "savanna"
     ],
     [
      "Cf",
-     0.018,
+     0.036,
      "temperate moist"
+    ],
+    [
+     "Cw",
+     0.006,
+     "winter-dry temperate"
+    ],
+    [
+     "Cs",
+     0.001,
+     "mediterranean"
+    ],
+    [
+     "B",
+     0.001,
+     "arid"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.406
+    ],
+    [
+     "Am",
+     0.286
+    ],
+    [
+     "Aw",
+     0.263
+    ],
+    [
+     "Cfa",
+     0.021
+    ],
+    [
+     "Cfb",
+     0.016
+    ],
+    [
+     "Cwa",
+     0.003
+    ],
+    [
+     "Cwb",
+     0.003
+    ],
+    [
+     "Csb",
+     0.001
+    ],
+    [
+     "BSh",
+     0.001
     ]
    ],
    "zones": [
@@ -1148,26 +2535,124 @@
    "places": 72,
    "withClimate": 71,
    "cover": 0.986,
+   "variant": "warmMoist",
    "koppen": [
     [
      "D",
-     0.775,
+     0.813,
      "cold"
     ],
     [
      "Cf",
-     0.141,
+     0.095,
      "temperate moist"
     ],
     [
-     "Cs",
-     0.07,
-     "temperate seasonal"
+     "E",
+     0.035,
+     "polar"
     ],
     [
      "Af",
-     0.014,
+     0.025,
      "rainforest"
+    ],
+    [
+     "B",
+     0.015,
+     "arid"
+    ],
+    [
+     "Cs",
+     0.013,
+     "mediterranean"
+    ],
+    [
+     "Am",
+     0.003,
+     "monsoon"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Dfb",
+     0.406
+    ],
+    [
+     "Dfc",
+     0.204
+    ],
+    [
+     "Dfa",
+     0.085
+    ],
+    [
+     "Cfb",
+     0.073
+    ],
+    [
+     "Dwc",
+     0.059
+    ],
+    [
+     "ET",
+     0.034
+    ],
+    [
+     "Dwb",
+     0.03
+    ],
+    [
+     "Af",
+     0.025
+    ],
+    [
+     "Cfa",
+     0.021
+    ],
+    [
+     "Dwa",
+     0.012
+    ],
+    [
+     "Csa",
+     0.012
+    ],
+    [
+     "Dsc",
+     0.011
+    ],
+    [
+     "BSk",
+     0.011
+    ],
+    [
+     "BWk",
+     0.004
+    ],
+    [
+     "Dfd",
+     0.003
+    ],
+    [
+     "Am",
+     0.003
+    ],
+    [
+     "Cfc",
+     0.002
+    ],
+    [
+     "Dwd",
+     0.002
+    ],
+    [
+     "Csb",
+     0.002
+    ],
+    [
+     "EF",
+     0.001
     ]
    ],
    "zones": [
@@ -1210,11 +2695,88 @@
    "places": 2,
    "withClimate": 2,
    "cover": 1.0,
+   "variant": "warm",
    "koppen": [
     [
      "Aw",
-     1.0,
+     0.48,
      "savanna"
+    ],
+    [
+     "B",
+     0.409,
+     "arid"
+    ],
+    [
+     "Cs",
+     0.063,
+     "mediterranean"
+    ],
+    [
+     "Cf",
+     0.023,
+     "temperate moist"
+    ],
+    [
+     "Am",
+     0.016,
+     "monsoon"
+    ],
+    [
+     "Af",
+     0.007,
+     "rainforest"
+    ],
+    [
+     "Cw",
+     0.004,
+     "winter-dry temperate"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Aw",
+     0.48
+    ],
+    [
+     "BSh",
+     0.258
+    ],
+    [
+     "BWh",
+     0.151
+    ],
+    [
+     "Csb",
+     0.04
+    ],
+    [
+     "Csa",
+     0.023
+    ],
+    [
+     "Cfb",
+     0.022
+    ],
+    [
+     "Am",
+     0.016
+    ],
+    [
+     "Af",
+     0.007
+    ],
+    [
+     "Cwb",
+     0.004
+    ],
+    [
+     "Cwa",
+     0.001
+    ],
+    [
+     "Cfa",
+     0.001
     ]
    ],
    "zones": [
@@ -1229,11 +2791,75 @@
    "places": 1,
    "withClimate": 1,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Aw",
-     1.0,
+     0.557,
      "savanna"
+    ],
+    [
+     "Af",
+     0.148,
+     "rainforest"
+    ],
+    [
+     "Cw",
+     0.146,
+     "winter-dry temperate"
+    ],
+    [
+     "Cf",
+     0.109,
+     "temperate moist"
+    ],
+    [
+     "Am",
+     0.037,
+     "monsoon"
+    ],
+    [
+     "Cs",
+     0.003,
+     "mediterranean"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Aw",
+     0.557
+    ],
+    [
+     "Af",
+     0.148
+    ],
+    [
+     "Cwa",
+     0.126
+    ],
+    [
+     "Cfa",
+     0.103
+    ],
+    [
+     "Am",
+     0.037
+    ],
+    [
+     "Cwb",
+     0.02
+    ],
+    [
+     "Cfb",
+     0.006
+    ],
+    [
+     "Csa",
+     0.002
+    ],
+    [
+     "Csb",
+     0.001
     ]
    ],
    "zones": [
@@ -1248,21 +2874,63 @@
    "places": 20,
    "withClimate": 20,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Aw",
-     0.66,
+     0.639,
      "savanna"
     ],
     [
      "Am",
-     0.302,
+     0.288,
      "monsoon"
     ],
     [
-     "Cs",
-     0.038,
-     "temperate seasonal"
+     "Af",
+     0.051,
+     "rainforest"
+    ],
+    [
+     "B",
+     0.014,
+     "arid"
+    ],
+    [
+     "Cf",
+     0.007,
+     "temperate moist"
+    ],
+    [
+     "Cw",
+     0.001,
+     "winter-dry temperate"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Aw",
+     0.639
+    ],
+    [
+     "Am",
+     0.288
+    ],
+    [
+     "Af",
+     0.051
+    ],
+    [
+     "BSh",
+     0.014
+    ],
+    [
+     "Cfb",
+     0.007
+    ],
+    [
+     "Cwb",
+     0.001
     ]
    ],
    "zones": [
@@ -1285,16 +2953,72 @@
    "places": 4,
    "withClimate": 4,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     0.946,
+     0.526,
      "rainforest"
     ],
     [
      "Am",
-     0.054,
+     0.299,
      "monsoon"
+    ],
+    [
+     "Aw",
+     0.111,
+     "savanna"
+    ],
+    [
+     "Cf",
+     0.048,
+     "temperate moist"
+    ],
+    [
+     "Cw",
+     0.006,
+     "winter-dry temperate"
+    ],
+    [
+     "Cs",
+     0.006,
+     "mediterranean"
+    ],
+    [
+     "B",
+     0.004,
+     "arid"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.526
+    ],
+    [
+     "Am",
+     0.299
+    ],
+    [
+     "Aw",
+     0.111
+    ],
+    [
+     "Cfb",
+     0.048
+    ],
+    [
+     "Cwb",
+     0.006
+    ],
+    [
+     "Csb",
+     0.006
+    ],
+    [
+     "BSh",
+     0.004
     ]
    ],
    "zones": [
@@ -1309,11 +3033,75 @@
    "places": 1,
    "withClimate": 1,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Aw",
-     1.0,
+     0.557,
      "savanna"
+    ],
+    [
+     "Af",
+     0.148,
+     "rainforest"
+    ],
+    [
+     "Cw",
+     0.146,
+     "winter-dry temperate"
+    ],
+    [
+     "Cf",
+     0.109,
+     "temperate moist"
+    ],
+    [
+     "Am",
+     0.037,
+     "monsoon"
+    ],
+    [
+     "Cs",
+     0.003,
+     "mediterranean"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Aw",
+     0.557
+    ],
+    [
+     "Af",
+     0.148
+    ],
+    [
+     "Cwa",
+     0.126
+    ],
+    [
+     "Cfa",
+     0.103
+    ],
+    [
+     "Am",
+     0.037
+    ],
+    [
+     "Cwb",
+     0.02
+    ],
+    [
+     "Cfb",
+     0.006
+    ],
+    [
+     "Csa",
+     0.002
+    ],
+    [
+     "Csb",
+     0.001
     ]
    ],
    "zones": [
@@ -1328,11 +3116,36 @@
    "places": 2,
    "withClimate": 2,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     1.0,
+     0.99,
      "rainforest"
+    ],
+    [
+     "Cf",
+     0.008,
+     "temperate moist"
+    ],
+    [
+     "Am",
+     0.002,
+     "monsoon"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.99
+    ],
+    [
+     "Cfb",
+     0.008
+    ],
+    [
+     "Am",
+     0.002
     ]
    ],
    "zones": [
@@ -1347,31 +3160,98 @@
    "places": 18,
    "withClimate": 18,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
-     "Cs",
-     0.517,
-     "temperate seasonal"
+     "Cw",
+     0.542,
+     "winter-dry temperate"
     ],
     [
      "Aw",
-     0.362,
+     0.223,
      "savanna"
     ],
     [
+     "Am",
+     0.126,
+     "monsoon"
+    ],
+    [
      "Af",
-     0.069,
+     0.061,
      "rainforest"
     ],
     [
-     "D",
-     0.034,
-     "cold"
+     "Cs",
+     0.021,
+     "mediterranean"
     ],
     [
      "Cf",
-     0.017,
+     0.01,
      "temperate moist"
+    ],
+    [
+     "E",
+     0.01,
+     "polar"
+    ],
+    [
+     "B",
+     0.006,
+     "arid"
+    ],
+    [
+     "D",
+     0.002,
+     "cold"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Cwa",
+     0.538
+    ],
+    [
+     "Aw",
+     0.223
+    ],
+    [
+     "Am",
+     0.126
+    ],
+    [
+     "Af",
+     0.061
+    ],
+    [
+     "Csa",
+     0.021
+    ],
+    [
+     "ET",
+     0.01
+    ],
+    [
+     "Cfa",
+     0.01
+    ],
+    [
+     "Cwb",
+     0.004
+    ],
+    [
+     "BSk",
+     0.003
+    ],
+    [
+     "BWk",
+     0.003
+    ],
+    [
+     "Dwc",
+     0.001
     ]
    ],
    "zones": [
@@ -1394,11 +3274,72 @@
    "places": 1,
    "withClimate": 1,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     1.0,
+     0.621,
      "rainforest"
+    ],
+    [
+     "Aw",
+     0.19,
+     "savanna"
+    ],
+    [
+     "Am",
+     0.095,
+     "monsoon"
+    ],
+    [
+     "Cf",
+     0.056,
+     "temperate moist"
+    ],
+    [
+     "Cs",
+     0.014,
+     "mediterranean"
+    ],
+    [
+     "B",
+     0.012,
+     "arid"
+    ],
+    [
+     "Cw",
+     0.012,
+     "winter-dry temperate"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.621
+    ],
+    [
+     "Aw",
+     0.19
+    ],
+    [
+     "Am",
+     0.095
+    ],
+    [
+     "Cfb",
+     0.056
+    ],
+    [
+     "Csb",
+     0.014
+    ],
+    [
+     "BSh",
+     0.012
+    ],
+    [
+     "Cwb",
+     0.012
     ]
    ],
    "zones": [
@@ -1413,26 +3354,71 @@
    "places": 20,
    "withClimate": 20,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     0.59,
+     0.559,
      "rainforest"
     ],
     [
      "Aw",
-     0.325,
+     0.232,
      "savanna"
     ],
     [
+     "Am",
+     0.108,
+     "monsoon"
+    ],
+    [
+     "Cw",
+     0.085,
+     "winter-dry temperate"
+    ],
+    [
+     "Cf",
+     0.008,
+     "temperate moist"
+    ],
+    [
      "Cs",
-     0.068,
-     "temperate seasonal"
+     0.008,
+     "mediterranean"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.559
+    ],
+    [
+     "Aw",
+     0.232
     ],
     [
      "Am",
-     0.017,
-     "monsoon"
+     0.108
+    ],
+    [
+     "Cwa",
+     0.083
+    ],
+    [
+     "Csa",
+     0.008
+    ],
+    [
+     "Cfb",
+     0.006
+    ],
+    [
+     "Cfa",
+     0.002
+    ],
+    [
+     "Cwb",
+     0.002
     ]
    ],
    "zones": [
@@ -1451,21 +3437,80 @@
    "places": 32,
    "withClimate": 32,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Aw",
-     0.72,
+     0.671,
      "savanna"
     ],
     [
      "Am",
-     0.238,
+     0.24,
      "monsoon"
     ],
     [
-     "Cs",
+     "Af",
      0.043,
-     "temperate seasonal"
+     "rainforest"
+    ],
+    [
+     "Cf",
+     0.013,
+     "temperate moist"
+    ],
+    [
+     "Cs",
+     0.013,
+     "mediterranean"
+    ],
+    [
+     "Cw",
+     0.011,
+     "winter-dry temperate"
+    ],
+    [
+     "B",
+     0.008,
+     "arid"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Aw",
+     0.671
+    ],
+    [
+     "Am",
+     0.24
+    ],
+    [
+     "Af",
+     0.043
+    ],
+    [
+     "Cfb",
+     0.013
+    ],
+    [
+     "Csa",
+     0.011
+    ],
+    [
+     "BSh",
+     0.008
+    ],
+    [
+     "Cwb",
+     0.006
+    ],
+    [
+     "Cwa",
+     0.004
+    ],
+    [
+     "Csb",
+     0.002
     ]
    ],
    "zones": [
@@ -1492,16 +3537,54 @@
    "places": 16,
    "withClimate": 14,
    "cover": 0.875,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     0.964,
+     0.886,
      "rainforest"
     ],
     [
      "Am",
-     0.036,
+     0.057,
      "monsoon"
+    ],
+    [
+     "Cf",
+     0.039,
+     "temperate moist"
+    ],
+    [
+     "Aw",
+     0.017,
+     "savanna"
+    ],
+    [
+     "Cw",
+     0.001,
+     "winter-dry temperate"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.886
+    ],
+    [
+     "Am",
+     0.057
+    ],
+    [
+     "Cfb",
+     0.039
+    ],
+    [
+     "Aw",
+     0.017
+    ],
+    [
+     "Cwb",
+     0.001
     ]
    ],
    "zones": [
@@ -1520,31 +3603,84 @@
    "places": 36,
    "withClimate": 36,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
-     "Am",
-     0.401,
-     "monsoon"
-    ],
-    [
      "Af",
-     0.395,
+     0.368,
      "rainforest"
     ],
     [
+     "Am",
+     0.36,
+     "monsoon"
+    ],
+    [
      "Aw",
-     0.184,
+     0.219,
      "savanna"
     ],
     [
-     "Cs",
-     0.013,
-     "temperate seasonal"
+     "Cf",
+     0.042,
+     "temperate moist"
     ],
     [
-     "Cf",
+     "Cw",
      0.007,
-     "temperate moist"
+     "winter-dry temperate"
+    ],
+    [
+     "Cs",
+     0.002,
+     "mediterranean"
+    ],
+    [
+     "B",
+     0.002,
+     "arid"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.368
+    ],
+    [
+     "Am",
+     0.36
+    ],
+    [
+     "Aw",
+     0.219
+    ],
+    [
+     "Cfa",
+     0.022
+    ],
+    [
+     "Cfb",
+     0.021
+    ],
+    [
+     "Cwb",
+     0.005
+    ],
+    [
+     "BSh",
+     0.002
+    ],
+    [
+     "Csb",
+     0.002
+    ],
+    [
+     "Cwa",
+     0.001
+    ],
+    [
+     "Csa",
+     0.001
     ]
    ],
    "zones": [
@@ -1567,11 +3703,62 @@
    "places": 2,
    "withClimate": 2,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Aw",
-     1.0,
+     0.757,
      "savanna"
+    ],
+    [
+     "Am",
+     0.071,
+     "monsoon"
+    ],
+    [
+     "Af",
+     0.064,
+     "rainforest"
+    ],
+    [
+     "Cw",
+     0.064,
+     "winter-dry temperate"
+    ],
+    [
+     "Cf",
+     0.043,
+     "temperate moist"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Aw",
+     0.757
+    ],
+    [
+     "Am",
+     0.071
+    ],
+    [
+     "Af",
+     0.064
+    ],
+    [
+     "Cwa",
+     0.055
+    ],
+    [
+     "Cfa",
+     0.04
+    ],
+    [
+     "Cwb",
+     0.009
+    ],
+    [
+     "Cfb",
+     0.003
     ]
    ],
    "zones": [
@@ -1590,21 +3777,80 @@
    "places": 21,
    "withClimate": 21,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     0.522,
+     0.442,
      "rainforest"
     ],
     [
      "Am",
-     0.246,
+     0.297,
      "monsoon"
     ],
     [
      "Aw",
-     0.232,
+     0.227,
      "savanna"
+    ],
+    [
+     "Cf",
+     0.027,
+     "temperate moist"
+    ],
+    [
+     "Cw",
+     0.005,
+     "winter-dry temperate"
+    ],
+    [
+     "Cs",
+     0.001,
+     "mediterranean"
+    ],
+    [
+     "B",
+     0.001,
+     "arid"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.442
+    ],
+    [
+     "Am",
+     0.297
+    ],
+    [
+     "Aw",
+     0.227
+    ],
+    [
+     "Cfb",
+     0.017
+    ],
+    [
+     "Cfa",
+     0.01
+    ],
+    [
+     "Cwb",
+     0.003
+    ],
+    [
+     "Cwa",
+     0.003
+    ],
+    [
+     "Csb",
+     0.001
+    ],
+    [
+     "BSh",
+     0.001
     ]
    ],
    "zones": [
@@ -1623,16 +3869,52 @@
    "places": 13,
    "withClimate": 13,
    "cover": 1.0,
+   "variant": "warm",
    "koppen": [
     [
      "Cs",
-     0.846,
-     "temperate seasonal"
+     0.658,
+     "mediterranean"
     ],
     [
      "Cf",
-     0.154,
+     0.182,
      "temperate moist"
+    ],
+    [
+     "B",
+     0.161,
+     "arid"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Csa",
+     0.495
+    ],
+    [
+     "Csb",
+     0.162
+    ],
+    [
+     "Cfa",
+     0.134
+    ],
+    [
+     "BWh",
+     0.118
+    ],
+    [
+     "Cfb",
+     0.047
+    ],
+    [
+     "BSh",
+     0.027
+    ],
+    [
+     "BSk",
+     0.016
     ]
    ],
    "zones": [
@@ -1659,16 +3941,98 @@
    "places": 13,
    "withClimate": 13,
    "cover": 1.0,
+   "variant": "ff",
    "koppen": [
     [
+     "B",
+     0.618,
+     "arid"
+    ],
+    [
      "Cs",
-     0.655,
-     "temperate seasonal"
+     0.19,
+     "mediterranean"
     ],
     [
      "D",
-     0.345,
+     0.121,
      "cold"
+    ],
+    [
+     "E",
+     0.055,
+     "polar"
+    ],
+    [
+     "Cf",
+     0.016,
+     "temperate moist"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "BWh",
+     0.29
+    ],
+    [
+     "Csa",
+     0.185
+    ],
+    [
+     "BWk",
+     0.144
+    ],
+    [
+     "BSk",
+     0.114
+    ],
+    [
+     "BSh",
+     0.07
+    ],
+    [
+     "ET",
+     0.055
+    ],
+    [
+     "Dfb",
+     0.031
+    ],
+    [
+     "Dsb",
+     0.029
+    ],
+    [
+     "Dsc",
+     0.021
+    ],
+    [
+     "Dfc",
+     0.015
+    ],
+    [
+     "Dsa",
+     0.014
+    ],
+    [
+     "Cfb",
+     0.012
+    ],
+    [
+     "Dfa",
+     0.008
+    ],
+    [
+     "Csb",
+     0.005
+    ],
+    [
+     "Cfa",
+     0.004
+    ],
+    [
+     "Dwc",
+     0.002
     ]
    ],
    "zones": [
@@ -1707,16 +4071,67 @@
    "places": 4,
    "withClimate": 4,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
-     "Cs",
-     0.5,
-     "temperate seasonal"
+     "Aw",
+     0.423,
+     "savanna"
     ],
     [
+     "Cw",
+     0.389,
+     "winter-dry temperate"
+    ],
+    [
+     "Am",
+     0.175,
+     "monsoon"
+    ],
+    [
+     "Cs",
+     0.01,
+     "mediterranean"
+    ],
+    [
+     "Af",
+     0.003,
+     "rainforest"
+    ],
+    [
+     "B",
+     0.001,
+     "arid"
+    ]
+   ],
+   "koppenFull": [
+    [
      "Aw",
-     0.5,
-     "savanna"
+     0.423
+    ],
+    [
+     "Cwa",
+     0.388
+    ],
+    [
+     "Am",
+     0.175
+    ],
+    [
+     "Csa",
+     0.01
+    ],
+    [
+     "Af",
+     0.003
+    ],
+    [
+     "Cwb",
+     0.001
+    ],
+    [
+     "BSh",
+     0.001
     ]
    ],
    "zones": [
@@ -1735,31 +4150,71 @@
    "places": 39,
    "withClimate": 37,
    "cover": 0.949,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     0.586,
+     0.544,
      "rainforest"
     ],
     [
      "Aw",
-     0.19,
+     0.191,
      "savanna"
     ],
     [
-     "Cs",
-     0.155,
-     "temperate seasonal"
+     "Cw",
+     0.117,
+     "winter-dry temperate"
     ],
     [
      "Am",
-     0.034,
+     0.099,
      "monsoon"
     ],
     [
      "Cf",
-     0.034,
+     0.045,
      "temperate moist"
+    ],
+    [
+     "Cs",
+     0.004,
+     "mediterranean"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.544
+    ],
+    [
+     "Aw",
+     0.191
+    ],
+    [
+     "Cwa",
+     0.116
+    ],
+    [
+     "Am",
+     0.099
+    ],
+    [
+     "Cfa",
+     0.036
+    ],
+    [
+     "Cfb",
+     0.01
+    ],
+    [
+     "Csa",
+     0.004
+    ],
+    [
+     "Cwb",
+     0.001
     ]
    ],
    "zones": [
@@ -1778,11 +4233,27 @@
    "places": 1,
    "withClimate": 1,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     1.0,
+     0.999,
      "rainforest"
+    ],
+    [
+     "Am",
+     0.001,
+     "monsoon"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.999
+    ],
+    [
+     "Am",
+     0.001
     ]
    ],
    "zones": [
@@ -1797,11 +4268,45 @@
    "places": 1,
    "withClimate": 1,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
+     "Af",
+     0.76,
+     "rainforest"
+    ],
+    [
      "Am",
-     1.0,
+     0.207,
      "monsoon"
+    ],
+    [
+     "Aw",
+     0.02,
+     "savanna"
+    ],
+    [
+     "Cf",
+     0.013,
+     "temperate moist"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.76
+    ],
+    [
+     "Am",
+     0.207
+    ],
+    [
+     "Aw",
+     0.02
+    ],
+    [
+     "Cfb",
+     0.013
     ]
    ],
    "zones": [
@@ -1816,11 +4321,27 @@
    "places": 1,
    "withClimate": 1,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     1.0,
+     0.999,
      "rainforest"
+    ],
+    [
+     "Am",
+     0.001,
+     "monsoon"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.999
+    ],
+    [
+     "Am",
+     0.001
     ]
    ],
    "zones": [
@@ -1835,11 +4356,27 @@
    "places": 1,
    "withClimate": 1,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     1.0,
+     0.999,
      "rainforest"
+    ],
+    [
+     "Am",
+     0.001,
+     "monsoon"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.999
+    ],
+    [
+     "Am",
+     0.001
     ]
    ],
    "zones": [
@@ -1854,16 +4391,45 @@
    "places": 2,
    "withClimate": 2,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
+     "Aw",
+     0.61,
+     "savanna"
+    ],
+    [
      "Af",
-     0.5,
+     0.198,
      "rainforest"
     ],
     [
+     "Am",
+     0.18,
+     "monsoon"
+    ],
+    [
+     "Cf",
+     0.011,
+     "temperate moist"
+    ]
+   ],
+   "koppenFull": [
+    [
      "Aw",
-     0.5,
-     "savanna"
+     0.61
+    ],
+    [
+     "Af",
+     0.198
+    ],
+    [
+     "Am",
+     0.18
+    ],
+    [
+     "Cfa",
+     0.011
     ]
    ],
    "zones": [
@@ -1882,21 +4448,88 @@
    "places": 10,
    "withClimate": 10,
    "cover": 1.0,
+   "variant": "warm",
    "koppen": [
     [
      "Aw",
-     0.5,
+     0.487,
      "savanna"
     ],
     [
+     "B",
+     0.278,
+     "arid"
+    ],
+    [
+     "Cw",
+     0.076,
+     "winter-dry temperate"
+    ],
+    [
+     "Cf",
+     0.066,
+     "temperate moist"
+    ],
+    [
      "Cs",
-     0.455,
-     "temperate seasonal"
+     0.065,
+     "mediterranean"
     ],
     [
      "Am",
-     0.045,
+     0.016,
      "monsoon"
+    ],
+    [
+     "Af",
+     0.012,
+     "rainforest"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Aw",
+     0.487
+    ],
+    [
+     "BSh",
+     0.251
+    ],
+    [
+     "Cwa",
+     0.075
+    ],
+    [
+     "Cfa",
+     0.061
+    ],
+    [
+     "Csa",
+     0.048
+    ],
+    [
+     "BWh",
+     0.028
+    ],
+    [
+     "Csb",
+     0.017
+    ],
+    [
+     "Am",
+     0.016
+    ],
+    [
+     "Af",
+     0.012
+    ],
+    [
+     "Cfb",
+     0.005
+    ],
+    [
+     "Cwb",
+     0.001
     ]
    ],
    "zones": [
@@ -1915,21 +4548,67 @@
    "places": 4,
    "withClimate": 4,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Aw",
-     0.6,
+     0.417,
      "savanna"
     ],
     [
+     "Af",
+     0.25,
+     "rainforest"
+    ],
+    [
      "Am",
-     0.2,
+     0.22,
      "monsoon"
     ],
     [
-     "Cs",
-     0.2,
-     "temperate seasonal"
+     "Cf",
+     0.111,
+     "temperate moist"
+    ],
+    [
+     "B",
+     0.001,
+     "arid"
+    ],
+    [
+     "Cw",
+     0.001,
+     "winter-dry temperate"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Aw",
+     0.417
+    ],
+    [
+     "Af",
+     0.25
+    ],
+    [
+     "Am",
+     0.22
+    ],
+    [
+     "Cfa",
+     0.101
+    ],
+    [
+     "Cfb",
+     0.01
+    ],
+    [
+     "BSh",
+     0.001
+    ],
+    [
+     "Cwa",
+     0.001
     ]
    ],
    "zones": [
@@ -1948,11 +4627,27 @@
    "places": 1,
    "withClimate": 1,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     1.0,
+     0.999,
      "rainforest"
+    ],
+    [
+     "Am",
+     0.001,
+     "monsoon"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.999
+    ],
+    [
+     "Am",
+     0.001
     ]
    ],
    "zones": [
@@ -1967,11 +4662,88 @@
    "places": 2,
    "withClimate": 2,
    "cover": 1.0,
+   "variant": "ff",
    "koppen": [
     [
+     "B",
+     0.615,
+     "arid"
+    ],
+    [
+     "Cf",
+     0.295,
+     "temperate moist"
+    ],
+    [
+     "Aw",
+     0.071,
+     "savanna"
+    ],
+    [
+     "Cw",
+     0.016,
+     "winter-dry temperate"
+    ],
+    [
+     "Am",
+     0.002,
+     "monsoon"
+    ],
+    [
+     "Af",
+     0.001,
+     "rainforest"
+    ],
+    [
      "Cs",
-     1.0,
-     "temperate seasonal"
+     0.001,
+     "mediterranean"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "BSh",
+     0.364
+    ],
+    [
+     "Cfa",
+     0.219
+    ],
+    [
+     "BWh",
+     0.167
+    ],
+    [
+     "BSk",
+     0.083
+    ],
+    [
+     "Cfb",
+     0.077
+    ],
+    [
+     "Aw",
+     0.071
+    ],
+    [
+     "Cwa",
+     0.016
+    ],
+    [
+     "Am",
+     0.002
+    ],
+    [
+     "BWk",
+     0.001
+    ],
+    [
+     "Af",
+     0.001
+    ],
+    [
+     "Csa",
+     0.001
     ]
    ],
    "zones": [
@@ -1990,21 +4762,67 @@
    "places": 7,
    "withClimate": 7,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Aw",
-     0.667,
+     0.421,
      "savanna"
     ],
     [
+     "Cw",
+     0.239,
+     "winter-dry temperate"
+    ],
+    [
      "Af",
-     0.2,
+     0.205,
      "rainforest"
     ],
     [
+     "Am",
+     0.131,
+     "monsoon"
+    ],
+    [
      "Cs",
-     0.133,
-     "temperate seasonal"
+     0.003,
+     "mediterranean"
+    ],
+    [
+     "Cf",
+     0.001,
+     "temperate moist"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Aw",
+     0.421
+    ],
+    [
+     "Cwa",
+     0.232
+    ],
+    [
+     "Af",
+     0.205
+    ],
+    [
+     "Am",
+     0.131
+    ],
+    [
+     "Cwb",
+     0.007
+    ],
+    [
+     "Csa",
+     0.003
+    ],
+    [
+     "Cfa",
+     0.001
     ]
    ],
    "zones": [
@@ -2023,11 +4841,31 @@
    "places": 3,
    "withClimate": 3,
    "cover": 1.0,
+   "variant": "ff",
    "koppen": [
     [
      "Cs",
-     1.0,
-     "temperate seasonal"
+     0.914,
+     "mediterranean"
+    ],
+    [
+     "B",
+     0.086,
+     "arid"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Csa",
+     0.714
+    ],
+    [
+     "Csb",
+     0.2
+    ],
+    [
+     "BSk",
+     0.086
     ]
    ],
    "zones": [
@@ -2046,11 +4884,27 @@
    "places": 1,
    "withClimate": 1,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     1.0,
+     0.999,
      "rainforest"
+    ],
+    [
+     "Am",
+     0.001,
+     "monsoon"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.999
+    ],
+    [
+     "Am",
+     0.001
     ]
    ],
    "zones": [
@@ -2065,11 +4919,27 @@
    "places": 1,
    "withClimate": 1,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     1.0,
+     0.999,
      "rainforest"
+    ],
+    [
+     "Am",
+     0.001,
+     "monsoon"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.999
+    ],
+    [
+     "Am",
+     0.001
     ]
    ],
    "zones": [
@@ -2084,26 +4954,80 @@
    "places": 16,
    "withClimate": 16,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     0.548,
+     0.453,
      "rainforest"
     ],
     [
-     "Aw",
-     0.233,
-     "savanna"
-    ],
-    [
      "Am",
-     0.192,
+     0.271,
      "monsoon"
     ],
     [
+     "Aw",
+     0.216,
+     "savanna"
+    ],
+    [
      "Cf",
-     0.027,
+     0.047,
      "temperate moist"
+    ],
+    [
+     "Cw",
+     0.01,
+     "winter-dry temperate"
+    ],
+    [
+     "Cs",
+     0.001,
+     "mediterranean"
+    ],
+    [
+     "B",
+     0.001,
+     "arid"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.453
+    ],
+    [
+     "Am",
+     0.271
+    ],
+    [
+     "Aw",
+     0.216
+    ],
+    [
+     "Cfa",
+     0.031
+    ],
+    [
+     "Cfb",
+     0.015
+    ],
+    [
+     "Cwa",
+     0.007
+    ],
+    [
+     "Cwb",
+     0.003
+    ],
+    [
+     "Csb",
+     0.001
+    ],
+    [
+     "BSh",
+     0.001
     ]
    ],
    "zones": [
@@ -2122,11 +5046,45 @@
    "places": 2,
    "withClimate": 2,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     1.0,
+     0.92,
      "rainforest"
+    ],
+    [
+     "Cf",
+     0.044,
+     "temperate moist"
+    ],
+    [
+     "Am",
+     0.028,
+     "monsoon"
+    ],
+    [
+     "Aw",
+     0.008,
+     "savanna"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.92
+    ],
+    [
+     "Cfb",
+     0.044
+    ],
+    [
+     "Am",
+     0.028
+    ],
+    [
+     "Aw",
+     0.008
     ]
    ],
    "zones": [
@@ -2141,31 +5099,71 @@
    "places": 26,
    "withClimate": 26,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     0.738,
+     0.715,
      "rainforest"
     ],
     [
      "Aw",
-     0.137,
+     0.11,
      "savanna"
     ],
     [
-     "Cs",
-     0.077,
-     "temperate seasonal"
+     "Cw",
+     0.081,
+     "winter-dry temperate"
     ],
     [
      "Am",
-     0.039,
+     0.076,
      "monsoon"
     ],
     [
      "Cf",
-     0.009,
+     0.016,
      "temperate moist"
+    ],
+    [
+     "Cs",
+     0.002,
+     "mediterranean"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.715
+    ],
+    [
+     "Aw",
+     0.11
+    ],
+    [
+     "Cwa",
+     0.08
+    ],
+    [
+     "Am",
+     0.076
+    ],
+    [
+     "Cfb",
+     0.011
+    ],
+    [
+     "Cfa",
+     0.005
+    ],
+    [
+     "Csa",
+     0.002
+    ],
+    [
+     "Cwb",
+     0.001
     ]
    ],
    "zones": [
@@ -2184,11 +5182,27 @@
    "places": 1,
    "withClimate": 1,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     1.0,
+     0.999,
      "rainforest"
+    ],
+    [
+     "Am",
+     0.001,
+     "monsoon"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.999
+    ],
+    [
+     "Am",
+     0.001
     ]
    ],
    "zones": [
@@ -2203,11 +5217,27 @@
    "places": 1,
    "withClimate": 1,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     1.0,
+     0.999,
      "rainforest"
+    ],
+    [
+     "Am",
+     0.001,
+     "monsoon"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.999
+    ],
+    [
+     "Am",
+     0.001
     ]
    ],
    "zones": [
@@ -2222,11 +5252,62 @@
    "places": 1,
    "withClimate": 1,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Aw",
-     1.0,
+     0.674,
      "savanna"
+    ],
+    [
+     "Cw",
+     0.191,
+     "winter-dry temperate"
+    ],
+    [
+     "Cf",
+     0.122,
+     "temperate moist"
+    ],
+    [
+     "Am",
+     0.01,
+     "monsoon"
+    ],
+    [
+     "Af",
+     0.003,
+     "rainforest"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Aw",
+     0.674
+    ],
+    [
+     "Cwa",
+     0.166
+    ],
+    [
+     "Cfa",
+     0.119
+    ],
+    [
+     "Cwb",
+     0.025
+    ],
+    [
+     "Am",
+     0.01
+    ],
+    [
+     "Af",
+     0.003
+    ],
+    [
+     "Cfb",
+     0.003
     ]
    ],
    "zones": [
@@ -2241,21 +5322,72 @@
    "places": 3,
    "withClimate": 3,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
-     "Aw",
-     0.333,
-     "savanna"
-    ],
-    [
      "Af",
-     0.333,
+     0.503,
      "rainforest"
     ],
     [
+     "Aw",
+     0.278,
+     "savanna"
+    ],
+    [
      "Am",
-     0.333,
+     0.178,
      "monsoon"
+    ],
+    [
+     "Cf",
+     0.028,
+     "temperate moist"
+    ],
+    [
+     "Cs",
+     0.005,
+     "mediterranean"
+    ],
+    [
+     "B",
+     0.004,
+     "arid"
+    ],
+    [
+     "Cw",
+     0.004,
+     "winter-dry temperate"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.503
+    ],
+    [
+     "Aw",
+     0.278
+    ],
+    [
+     "Am",
+     0.178
+    ],
+    [
+     "Cfb",
+     0.027
+    ],
+    [
+     "Csb",
+     0.005
+    ],
+    [
+     "BSh",
+     0.004
+    ],
+    [
+     "Cwb",
+     0.004
     ]
    ],
    "zones": [
@@ -2270,16 +5402,45 @@
    "places": 2,
    "withClimate": 2,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     0.5,
+     0.431,
      "rainforest"
     ],
     [
+     "Am",
+     0.342,
+     "monsoon"
+    ],
+    [
      "Aw",
-     0.5,
+     0.22,
      "savanna"
+    ],
+    [
+     "Cf",
+     0.006,
+     "temperate moist"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.431
+    ],
+    [
+     "Am",
+     0.342
+    ],
+    [
+     "Aw",
+     0.22
+    ],
+    [
+     "Cfb",
+     0.006
     ]
    ],
    "zones": [
@@ -2294,11 +5455,27 @@
    "places": 1,
    "withClimate": 1,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     1.0,
+     0.999,
      "rainforest"
+    ],
+    [
+     "Am",
+     0.001,
+     "monsoon"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.999
+    ],
+    [
+     "Am",
+     0.001
     ]
    ],
    "zones": [
@@ -2313,16 +5490,54 @@
    "places": 3,
    "withClimate": 3,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     0.75,
+     0.733,
      "rainforest"
     ],
     [
      "Aw",
-     0.25,
+     0.213,
      "savanna"
+    ],
+    [
+     "Am",
+     0.049,
+     "monsoon"
+    ],
+    [
+     "Cf",
+     0.004,
+     "temperate moist"
+    ],
+    [
+     "Cw",
+     0.002,
+     "winter-dry temperate"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.733
+    ],
+    [
+     "Aw",
+     0.213
+    ],
+    [
+     "Am",
+     0.049
+    ],
+    [
+     "Cfb",
+     0.004
+    ],
+    [
+     "Cwa",
+     0.002
     ]
    ],
    "zones": [
@@ -2337,16 +5552,63 @@
    "places": 4,
    "withClimate": 4,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Aw",
-     0.957,
+     0.608,
      "savanna"
     ],
     [
+     "Af",
+     0.156,
+     "rainforest"
+    ],
+    [
+     "Cw",
+     0.101,
+     "winter-dry temperate"
+    ],
+    [
+     "Am",
+     0.1,
+     "monsoon"
+    ],
+    [
      "Cs",
-     0.043,
-     "temperate seasonal"
+     0.027,
+     "mediterranean"
+    ],
+    [
+     "Cf",
+     0.008,
+     "temperate moist"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Aw",
+     0.608
+    ],
+    [
+     "Af",
+     0.156
+    ],
+    [
+     "Cwa",
+     0.1
+    ],
+    [
+     "Am",
+     0.1
+    ],
+    [
+     "Csa",
+     0.027
+    ],
+    [
+     "Cfb",
+     0.008
     ]
    ],
    "zones": [
@@ -2365,36 +5627,106 @@
    "places": 22,
    "withClimate": 22,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
-     "Aw",
-     0.348,
-     "savanna"
+     "Cw",
+     0.309,
+     "winter-dry temperate"
     ],
     [
      "Af",
-     0.261,
+     0.274,
      "rainforest"
     ],
     [
-     "Cs",
-     0.261,
-     "temperate seasonal"
+     "Aw",
+     0.243,
+     "savanna"
     ],
     [
      "Am",
-     0.043,
+     0.096,
      "monsoon"
     ],
     [
      "Cf",
-     0.043,
+     0.029,
      "temperate moist"
     ],
     [
+     "E",
+     0.025,
+     "polar"
+    ],
+    [
+     "B",
+     0.014,
+     "arid"
+    ],
+    [
+     "Cs",
+     0.006,
+     "mediterranean"
+    ],
+    [
      "D",
-     0.043,
+     0.004,
      "cold"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Cwa",
+     0.307
+    ],
+    [
+     "Af",
+     0.274
+    ],
+    [
+     "Aw",
+     0.243
+    ],
+    [
+     "Am",
+     0.096
+    ],
+    [
+     "ET",
+     0.025
+    ],
+    [
+     "Cfa",
+     0.023
+    ],
+    [
+     "BSk",
+     0.007
+    ],
+    [
+     "BWk",
+     0.007
+    ],
+    [
+     "Csa",
+     0.006
+    ],
+    [
+     "Cfb",
+     0.006
+    ],
+    [
+     "Dwc",
+     0.003
+    ],
+    [
+     "Cwb",
+     0.002
+    ],
+    [
+     "Dsc",
+     0.001
     ]
    ],
    "zones": [
@@ -2417,21 +5749,63 @@
    "places": 19,
    "withClimate": 19,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Aw",
-     0.737,
+     0.72,
      "savanna"
     ],
     [
      "Am",
-     0.211,
+     0.199,
      "monsoon"
     ],
     [
-     "Cs",
-     0.053,
-     "temperate seasonal"
+     "B",
+     0.038,
+     "arid"
+    ],
+    [
+     "Af",
+     0.032,
+     "rainforest"
+    ],
+    [
+     "Cf",
+     0.009,
+     "temperate moist"
+    ],
+    [
+     "Cw",
+     0.001,
+     "winter-dry temperate"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Aw",
+     0.72
+    ],
+    [
+     "Am",
+     0.199
+    ],
+    [
+     "BSh",
+     0.038
+    ],
+    [
+     "Af",
+     0.032
+    ],
+    [
+     "Cfb",
+     0.009
+    ],
+    [
+     "Cwb",
+     0.001
     ]
    ],
    "zones": [
@@ -2454,16 +5828,84 @@
    "places": 5,
    "withClimate": 5,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
-     "Cs",
-     0.95,
-     "temperate seasonal"
+     "Aw",
+     0.781,
+     "savanna"
+    ],
+    [
+     "Cf",
+     0.074,
+     "temperate moist"
+    ],
+    [
+     "B",
+     0.056,
+     "arid"
     ],
     [
      "Af",
-     0.05,
+     0.047,
      "rainforest"
+    ],
+    [
+     "Cw",
+     0.024,
+     "winter-dry temperate"
+    ],
+    [
+     "Am",
+     0.013,
+     "monsoon"
+    ],
+    [
+     "Cs",
+     0.005,
+     "mediterranean"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Aw",
+     0.781
+    ],
+    [
+     "Cfa",
+     0.054
+    ],
+    [
+     "Af",
+     0.047
+    ],
+    [
+     "BSh",
+     0.026
+    ],
+    [
+     "Cwa",
+     0.024
+    ],
+    [
+     "Cfb",
+     0.019
+    ],
+    [
+     "BSk",
+     0.016
+    ],
+    [
+     "BWh",
+     0.014
+    ],
+    [
+     "Am",
+     0.013
+    ],
+    [
+     "Csa",
+     0.005
     ]
    ],
    "zones": [
@@ -2482,36 +5924,158 @@
    "places": 306,
    "withClimate": 303,
    "cover": 0.99,
+   "variant": "warmMoist",
    "koppen": [
     [
      "D",
-     0.294,
+     0.298,
      "cold"
     ],
     [
-     "Cs",
-     0.292,
-     "temperate seasonal"
-    ],
-    [
      "Cf",
-     0.18,
+     0.208,
      "temperate moist"
     ],
     [
+     "B",
+     0.138,
+     "arid"
+    ],
+    [
      "Aw",
-     0.134,
+     0.128,
      "savanna"
     ],
     [
+     "Cs",
+     0.073,
+     "mediterranean"
+    ],
+    [
      "Af",
-     0.066,
+     0.071,
      "rainforest"
     ],
     [
      "Am",
-     0.034,
+     0.045,
      "monsoon"
+    ],
+    [
+     "Cw",
+     0.025,
+     "winter-dry temperate"
+    ],
+    [
+     "E",
+     0.014,
+     "polar"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Cfa",
+     0.16
+    ],
+    [
+     "Dfb",
+     0.137
+    ],
+    [
+     "Aw",
+     0.128
+    ],
+    [
+     "Dfa",
+     0.077
+    ],
+    [
+     "Af",
+     0.071
+    ],
+    [
+     "BWh",
+     0.061
+    ],
+    [
+     "Dfc",
+     0.052
+    ],
+    [
+     "Csa",
+     0.049
+    ],
+    [
+     "Cfb",
+     0.047
+    ],
+    [
+     "Am",
+     0.045
+    ],
+    [
+     "BSk",
+     0.043
+    ],
+    [
+     "Csb",
+     0.024
+    ],
+    [
+     "Cwa",
+     0.023
+    ],
+    [
+     "BSh",
+     0.022
+    ],
+    [
+     "ET",
+     0.013
+    ],
+    [
+     "Dwc",
+     0.012
+    ],
+    [
+     "BWk",
+     0.012
+    ],
+    [
+     "Dwb",
+     0.007
+    ],
+    [
+     "Dwa",
+     0.004
+    ],
+    [
+     "Dsb",
+     0.003
+    ],
+    [
+     "Dsc",
+     0.003
+    ],
+    [
+     "Cwb",
+     0.003
+    ],
+    [
+     "Cfc",
+     0.002
+    ],
+    [
+     "Dfd",
+     0.001
+    ],
+    [
+     "Dsa",
+     0.001
+    ],
+    [
+     "EF",
+     0.001
     ]
    ],
    "zones": [
@@ -2582,26 +6146,71 @@
    "places": 13,
    "withClimate": 13,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Aw",
-     0.462,
+     0.328,
      "savanna"
     ],
     [
      "Af",
-     0.231,
+     0.256,
      "rainforest"
     ],
     [
-     "Cs",
-     0.231,
-     "temperate seasonal"
+     "Cw",
+     0.246,
+     "winter-dry temperate"
     ],
     [
      "Am",
-     0.077,
+     0.144,
      "monsoon"
+    ],
+    [
+     "Cf",
+     0.021,
+     "temperate moist"
+    ],
+    [
+     "Cs",
+     0.005,
+     "mediterranean"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Aw",
+     0.328
+    ],
+    [
+     "Af",
+     0.256
+    ],
+    [
+     "Cwa",
+     0.242
+    ],
+    [
+     "Am",
+     0.144
+    ],
+    [
+     "Cfa",
+     0.018
+    ],
+    [
+     "Csa",
+     0.005
+    ],
+    [
+     "Cwb",
+     0.004
+    ],
+    [
+     "Cfb",
+     0.003
     ]
    ],
    "zones": [
@@ -2620,11 +6229,36 @@
    "places": 1,
    "withClimate": 1,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     1.0,
+     0.397,
      "rainforest"
+    ],
+    [
+     "Am",
+     0.349,
+     "monsoon"
+    ],
+    [
+     "Aw",
+     0.254,
+     "savanna"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.397
+    ],
+    [
+     "Am",
+     0.349
+    ],
+    [
+     "Aw",
+     0.254
     ]
    ],
    "zones": [
@@ -2639,21 +6273,106 @@
    "places": 13,
    "withClimate": 11,
    "cover": 0.846,
+   "variant": "ff",
    "koppen": [
     [
      "D",
-     0.545,
+     0.481,
      "cold"
     ],
     [
-     "Cs",
-     0.364,
-     "temperate seasonal"
+     "Cf",
+     0.226,
+     "temperate moist"
     ],
     [
-     "Cf",
-     0.091,
-     "temperate moist"
+     "Cs",
+     0.203,
+     "mediterranean"
+    ],
+    [
+     "B",
+     0.056,
+     "arid"
+    ],
+    [
+     "E",
+     0.034,
+     "polar"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Dfc",
+     0.224
+    ],
+    [
+     "Csb",
+     0.171
+    ],
+    [
+     "Dfb",
+     0.13
+    ],
+    [
+     "Cfb",
+     0.116
+    ],
+    [
+     "Cfa",
+     0.097
+    ],
+    [
+     "ET",
+     0.034
+    ],
+    [
+     "Dwc",
+     0.033
+    ],
+    [
+     "Dfa",
+     0.032
+    ],
+    [
+     "Csa",
+     0.031
+    ],
+    [
+     "BSk",
+     0.03
+    ],
+    [
+     "Dsc",
+     0.026
+    ],
+    [
+     "Dsb",
+     0.025
+    ],
+    [
+     "BWh",
+     0.022
+    ],
+    [
+     "Cfc",
+     0.012
+    ],
+    [
+     "Dwb",
+     0.01
+    ],
+    [
+     "BWk",
+     0.002
+    ],
+    [
+     "BSh",
+     0.002
+    ],
+    [
+     "Dsa",
+     0.001
     ]
    ],
    "zones": [
@@ -2684,11 +6403,31 @@
    "places": 2,
    "withClimate": 2,
    "cover": 1.0,
+   "variant": "ff",
    "koppen": [
     [
      "Cf",
-     1.0,
+     0.999,
      "temperate moist"
+    ],
+    [
+     "Aw",
+     0.001,
+     "savanna"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Cfa",
+     0.867
+    ],
+    [
+     "Cfb",
+     0.132
+    ],
+    [
+     "Aw",
+     0.001
     ]
    ],
    "zones": [
@@ -2707,31 +6446,84 @@
    "places": 29,
    "withClimate": 29,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Am",
-     0.556,
+     0.39,
      "monsoon"
     ],
     [
      "Af",
-     0.215,
+     0.297,
      "rainforest"
     ],
     [
      "Aw",
-     0.202,
+     0.254,
      "savanna"
     ],
     [
-     "Cs",
-     0.018,
-     "temperate seasonal"
+     "Cf",
+     0.039,
+     "temperate moist"
     ],
     [
-     "Cf",
-     0.009,
-     "temperate moist"
+     "Cw",
+     0.012,
+     "winter-dry temperate"
+    ],
+    [
+     "B",
+     0.005,
+     "arid"
+    ],
+    [
+     "Cs",
+     0.004,
+     "mediterranean"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Am",
+     0.39
+    ],
+    [
+     "Af",
+     0.297
+    ],
+    [
+     "Aw",
+     0.254
+    ],
+    [
+     "Cfb",
+     0.021
+    ],
+    [
+     "Cfa",
+     0.018
+    ],
+    [
+     "Cwb",
+     0.007
+    ],
+    [
+     "BSh",
+     0.005
+    ],
+    [
+     "Cwa",
+     0.005
+    ],
+    [
+     "Csb",
+     0.002
+    ],
+    [
+     "Csa",
+     0.002
     ]
    ],
    "zones": [
@@ -2754,21 +6546,80 @@
    "places": 20,
    "withClimate": 20,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     0.5,
+     0.458,
      "rainforest"
     ],
     [
      "Am",
-     0.286,
+     0.308,
      "monsoon"
     ],
     [
      "Aw",
-     0.214,
+     0.202,
      "savanna"
+    ],
+    [
+     "Cf",
+     0.018,
+     "temperate moist"
+    ],
+    [
+     "Cw",
+     0.012,
+     "winter-dry temperate"
+    ],
+    [
+     "Cs",
+     0.002,
+     "mediterranean"
+    ],
+    [
+     "B",
+     0.001,
+     "arid"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.458
+    ],
+    [
+     "Am",
+     0.308
+    ],
+    [
+     "Aw",
+     0.202
+    ],
+    [
+     "Cfb",
+     0.013
+    ],
+    [
+     "Cwa",
+     0.006
+    ],
+    [
+     "Cwb",
+     0.006
+    ],
+    [
+     "Cfa",
+     0.004
+    ],
+    [
+     "Csb",
+     0.002
+    ],
+    [
+     "BSh",
+     0.001
     ]
    ],
    "zones": [
@@ -2787,11 +6638,27 @@
    "places": 1,
    "withClimate": 1,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     1.0,
+     0.999,
      "rainforest"
+    ],
+    [
+     "Am",
+     0.001,
+     "monsoon"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.999
+    ],
+    [
+     "Am",
+     0.001
     ]
    ],
    "zones": [
@@ -2806,11 +6673,27 @@
    "places": 1,
    "withClimate": 1,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     1.0,
+     0.999,
      "rainforest"
+    ],
+    [
+     "Am",
+     0.001,
+     "monsoon"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.999
+    ],
+    [
+     "Am",
+     0.001
     ]
    ],
    "zones": [
@@ -2825,16 +6708,67 @@
    "places": 13,
    "withClimate": 13,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Aw",
-     0.833,
+     0.688,
      "savanna"
     ],
     [
      "Am",
-     0.167,
+     0.238,
      "monsoon"
+    ],
+    [
+     "Af",
+     0.04,
+     "rainforest"
+    ],
+    [
+     "B",
+     0.027,
+     "arid"
+    ],
+    [
+     "Cf",
+     0.007,
+     "temperate moist"
+    ],
+    [
+     "Cw",
+     0.001,
+     "winter-dry temperate"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Aw",
+     0.688
+    ],
+    [
+     "Am",
+     0.238
+    ],
+    [
+     "Af",
+     0.04
+    ],
+    [
+     "BSh",
+     0.024
+    ],
+    [
+     "Cfb",
+     0.007
+    ],
+    [
+     "BWh",
+     0.003
+    ],
+    [
+     "Cwb",
+     0.001
     ]
    ],
    "zones": [
@@ -2857,11 +6791,27 @@
    "places": 1,
    "withClimate": 1,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     1.0,
+     0.999,
      "rainforest"
+    ],
+    [
+     "Am",
+     0.001,
+     "monsoon"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.999
+    ],
+    [
+     "Am",
+     0.001
     ]
    ],
    "zones": [
@@ -2876,15 +6826,16 @@
    "places": 21,
    "withClimate": 21,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Cf",
-     0.714,
+     0.592,
      "temperate moist"
     ],
     [
      "D",
-     0.19,
+     0.337,
      "cold"
     ],
     [
@@ -2893,9 +6844,44 @@
      "rainforest"
     ],
     [
-     "Cs",
-     0.048,
-     "temperate seasonal"
+     "Aw",
+     0.018,
+     "savanna"
+    ],
+    [
+     "Am",
+     0.006,
+     "monsoon"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Cfa",
+     0.59
+    ],
+    [
+     "Dfb",
+     0.209
+    ],
+    [
+     "Dfa",
+     0.128
+    ],
+    [
+     "Af",
+     0.048
+    ],
+    [
+     "Aw",
+     0.018
+    ],
+    [
+     "Am",
+     0.006
+    ],
+    [
+     "Cfb",
+     0.002
     ]
    ],
    "zones": [
@@ -2926,31 +6912,88 @@
    "places": 38,
    "withClimate": 38,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
-     "Cf",
-     0.523,
-     "temperate moist"
-    ],
-    [
      "D",
-     0.364,
+     0.47,
      "cold"
     ],
     [
-     "Cs",
-     0.068,
-     "temperate seasonal"
+     "Cf",
+     0.455,
+     "temperate moist"
     ],
     [
      "Aw",
-     0.023,
+     0.036,
      "savanna"
     ],
     [
      "Af",
-     0.023,
+     0.024,
      "rainforest"
+    ],
+    [
+     "Am",
+     0.008,
+     "monsoon"
+    ],
+    [
+     "B",
+     0.007,
+     "arid"
+    ],
+    [
+     "E",
+     0.001,
+     "polar"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Cfa",
+     0.454
+    ],
+    [
+     "Dfb",
+     0.251
+    ],
+    [
+     "Dfa",
+     0.189
+    ],
+    [
+     "Aw",
+     0.036
+    ],
+    [
+     "Dfc",
+     0.027
+    ],
+    [
+     "Af",
+     0.024
+    ],
+    [
+     "Am",
+     0.008
+    ],
+    [
+     "BSk",
+     0.007
+    ],
+    [
+     "Dsc",
+     0.002
+    ],
+    [
+     "Cfb",
+     0.001
+    ],
+    [
+     "ET",
+     0.001
     ]
    ],
    "zones": [
@@ -2989,31 +7032,84 @@
    "places": 40,
    "withClimate": 39,
    "cover": 0.975,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     0.446,
+     0.381,
      "rainforest"
     ],
     [
      "Am",
-     0.266,
+     0.298,
      "monsoon"
     ],
     [
      "Aw",
-     0.263,
+     0.253,
      "savanna"
     ],
     [
-     "Cs",
-     0.013,
-     "temperate seasonal"
+     "Cf",
+     0.048,
+     "temperate moist"
     ],
     [
-     "Cf",
-     0.012,
-     "temperate moist"
+     "Cw",
+     0.015,
+     "winter-dry temperate"
+    ],
+    [
+     "Cs",
+     0.003,
+     "mediterranean"
+    ],
+    [
+     "B",
+     0.002,
+     "arid"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.381
+    ],
+    [
+     "Am",
+     0.298
+    ],
+    [
+     "Aw",
+     0.253
+    ],
+    [
+     "Cfa",
+     0.026
+    ],
+    [
+     "Cfb",
+     0.022
+    ],
+    [
+     "Cwa",
+     0.009
+    ],
+    [
+     "Cwb",
+     0.006
+    ],
+    [
+     "Csb",
+     0.002
+    ],
+    [
+     "BSh",
+     0.002
+    ],
+    [
+     "Csa",
+     0.001
     ]
    ],
    "zones": [
@@ -3036,21 +7132,45 @@
    "places": 8,
    "withClimate": 8,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     0.583,
+     0.457,
      "rainforest"
     ],
     [
+     "Am",
+     0.316,
+     "monsoon"
+    ],
+    [
      "Aw",
-     0.333,
+     0.214,
      "savanna"
     ],
     [
+     "Cf",
+     0.013,
+     "temperate moist"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.457
+    ],
+    [
      "Am",
-     0.083,
-     "monsoon"
+     0.316
+    ],
+    [
+     "Aw",
+     0.214
+    ],
+    [
+     "Cfb",
+     0.013
     ]
    ],
    "zones": [
@@ -3065,16 +7185,63 @@
    "places": 2,
    "withClimate": 2,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
+     "Am",
+     0.604,
+     "monsoon"
+    ],
+    [
      "Af",
-     0.5,
+     0.289,
      "rainforest"
     ],
     [
+     "Aw",
+     0.075,
+     "savanna"
+    ],
+    [
+     "Cf",
+     0.029,
+     "temperate moist"
+    ],
+    [
+     "Cw",
+     0.004,
+     "winter-dry temperate"
+    ],
+    [
+     "Cs",
+     0.001,
+     "mediterranean"
+    ]
+   ],
+   "koppenFull": [
+    [
      "Am",
-     0.5,
-     "monsoon"
+     0.604
+    ],
+    [
+     "Af",
+     0.289
+    ],
+    [
+     "Aw",
+     0.075
+    ],
+    [
+     "Cfb",
+     0.029
+    ],
+    [
+     "Cwb",
+     0.004
+    ],
+    [
+     "Csb",
+     0.001
     ]
    ],
    "zones": [
@@ -3089,11 +7256,27 @@
    "places": 1,
    "withClimate": 1,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     1.0,
+     0.999,
      "rainforest"
+    ],
+    [
+     "Am",
+     0.001,
+     "monsoon"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.999
+    ],
+    [
+     "Am",
+     0.001
     ]
    ],
    "zones": [
@@ -3108,11 +7291,27 @@
    "places": 1,
    "withClimate": 1,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     1.0,
+     0.999,
      "rainforest"
+    ],
+    [
+     "Am",
+     0.001,
+     "monsoon"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.999
+    ],
+    [
+     "Am",
+     0.001
     ]
    ],
    "zones": [
@@ -3127,26 +7326,92 @@
    "places": 10,
    "withClimate": 10,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
-     "Cs",
-     0.536,
-     "temperate seasonal"
-    ],
-    [
-     "D",
-     0.25,
-     "cold"
+     "Cw",
+     0.507,
+     "winter-dry temperate"
     ],
     [
      "Cf",
-     0.179,
+     0.229,
      "temperate moist"
     ],
     [
+     "D",
+     0.167,
+     "cold"
+    ],
+    [
+     "B",
+     0.067,
+     "arid"
+    ],
+    [
      "Aw",
-     0.036,
+     0.025,
      "savanna"
+    ],
+    [
+     "Am",
+     0.003,
+     "monsoon"
+    ],
+    [
+     "E",
+     0.002,
+     "polar"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Cwa",
+     0.507
+    ],
+    [
+     "Cfa",
+     0.229
+    ],
+    [
+     "Dwb",
+     0.068
+    ],
+    [
+     "Dwa",
+     0.067
+    ],
+    [
+     "BSk",
+     0.038
+    ],
+    [
+     "BWk",
+     0.029
+    ],
+    [
+     "Aw",
+     0.025
+    ],
+    [
+     "Dwc",
+     0.022
+    ],
+    [
+     "Dfa",
+     0.007
+    ],
+    [
+     "Dfb",
+     0.003
+    ],
+    [
+     "Am",
+     0.003
+    ],
+    [
+     "ET",
+     0.002
     ]
    ],
    "zones": [
@@ -3173,11 +7438,27 @@
    "places": 1,
    "withClimate": 1,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     1.0,
+     0.999,
      "rainforest"
+    ],
+    [
+     "Am",
+     0.001,
+     "monsoon"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.999
+    ],
+    [
+     "Am",
+     0.001
     ]
    ],
    "zones": [
@@ -3192,36 +7473,92 @@
    "places": 129,
    "withClimate": 127,
    "cover": 0.984,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Aw",
-     0.417,
+     0.36,
      "savanna"
     ],
     [
-     "Cs",
-     0.228,
-     "temperate seasonal"
-    ],
-    [
-     "Af",
-     0.15,
-     "rainforest"
-    ],
-    [
      "Am",
-     0.142,
+     0.158,
      "monsoon"
     ],
     [
+     "Af",
+     0.154,
+     "rainforest"
+    ],
+    [
+     "B",
+     0.12,
+     "arid"
+    ],
+    [
      "Cf",
-     0.055,
+     0.109,
      "temperate moist"
     ],
     [
-     "D",
-     0.008,
-     "cold"
+     "Cw",
+     0.083,
+     "winter-dry temperate"
+    ],
+    [
+     "Cs",
+     0.015,
+     "mediterranean"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Aw",
+     0.36
+    ],
+    [
+     "Am",
+     0.158
+    ],
+    [
+     "Af",
+     0.154
+    ],
+    [
+     "Cfa",
+     0.088
+    ],
+    [
+     "Cwa",
+     0.074
+    ],
+    [
+     "BSh",
+     0.059
+    ],
+    [
+     "BWh",
+     0.057
+    ],
+    [
+     "Cfb",
+     0.021
+    ],
+    [
+     "Csa",
+     0.014
+    ],
+    [
+     "Cwb",
+     0.009
+    ],
+    [
+     "BSk",
+     0.005
+    ],
+    [
+     "Csb",
+     0.002
     ]
    ],
    "zones": [
@@ -3264,11 +7601,36 @@
    "places": 3,
    "withClimate": 3,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     1.0,
+     0.983,
      "rainforest"
+    ],
+    [
+     "Am",
+     0.011,
+     "monsoon"
+    ],
+    [
+     "Cf",
+     0.005,
+     "temperate moist"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.983
+    ],
+    [
+     "Am",
+     0.011
+    ],
+    [
+     "Cfb",
+     0.005
     ]
    ],
    "zones": [
@@ -3283,16 +7645,62 @@
    "places": 4,
    "withClimate": 4,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     0.75,
+     0.591,
      "rainforest"
     ],
     [
+     "Cw",
+     0.157,
+     "winter-dry temperate"
+    ],
+    [
+     "Am",
+     0.113,
+     "monsoon"
+    ],
+    [
      "Cf",
-     0.25,
+     0.088,
      "temperate moist"
+    ],
+    [
+     "Aw",
+     0.051,
+     "savanna"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.591
+    ],
+    [
+     "Cwa",
+     0.155
+    ],
+    [
+     "Am",
+     0.113
+    ],
+    [
+     "Cfa",
+     0.078
+    ],
+    [
+     "Aw",
+     0.051
+    ],
+    [
+     "Cfb",
+     0.011
+    ],
+    [
+     "Cwb",
+     0.002
     ]
    ],
    "zones": [
@@ -3311,36 +7719,110 @@
    "places": 37,
    "withClimate": 37,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     0.491,
+     0.459,
      "rainforest"
     ],
     [
      "Aw",
-     0.291,
+     0.204,
      "savanna"
     ],
     [
-     "Cs",
-     0.145,
-     "temperate seasonal"
-    ],
-    [
-     "D",
-     0.03,
-     "cold"
+     "Cw",
+     0.173,
+     "winter-dry temperate"
     ],
     [
      "Am",
-     0.03,
+     0.105,
      "monsoon"
     ],
     [
      "Cf",
-     0.012,
+     0.027,
      "temperate moist"
+    ],
+    [
+     "Cs",
+     0.017,
+     "mediterranean"
+    ],
+    [
+     "B",
+     0.007,
+     "arid"
+    ],
+    [
+     "E",
+     0.007,
+     "polar"
+    ],
+    [
+     "D",
+     0.001,
+     "cold"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.459
+    ],
+    [
+     "Aw",
+     0.204
+    ],
+    [
+     "Cwa",
+     0.169
+    ],
+    [
+     "Am",
+     0.105
+    ],
+    [
+     "Cfa",
+     0.018
+    ],
+    [
+     "Csa",
+     0.017
+    ],
+    [
+     "Cfb",
+     0.009
+    ],
+    [
+     "ET",
+     0.007
+    ],
+    [
+     "Cwb",
+     0.005
+    ],
+    [
+     "BSk",
+     0.003
+    ],
+    [
+     "BWk",
+     0.002
+    ],
+    [
+     "BSh",
+     0.002
+    ],
+    [
+     "BWh",
+     0.001
+    ],
+    [
+     "Dwc",
+     0.001
     ]
    ],
    "zones": [
@@ -3367,11 +7849,18 @@
    "places": 1,
    "withClimate": 1,
    "cover": 1.0,
+   "variant": "warm",
    "koppen": [
     [
      "Af",
      1.0,
      "rainforest"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     1.0
     ]
    ],
    "zones": [],
@@ -3381,16 +7870,45 @@
    "places": 4,
    "withClimate": 4,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Aw",
-     0.833,
+     0.688,
      "savanna"
     ],
     [
      "Am",
-     0.167,
+     0.285,
      "monsoon"
+    ],
+    [
+     "Af",
+     0.026,
+     "rainforest"
+    ],
+    [
+     "Cw",
+     0.001,
+     "winter-dry temperate"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Aw",
+     0.688
+    ],
+    [
+     "Am",
+     0.285
+    ],
+    [
+     "Af",
+     0.026
+    ],
+    [
+     "Cwb",
+     0.001
     ]
    ],
    "zones": [
@@ -3409,11 +7927,27 @@
    "places": 1,
    "withClimate": 1,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     1.0,
+     0.999,
      "rainforest"
+    ],
+    [
+     "Am",
+     0.001,
+     "monsoon"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.999
+    ],
+    [
+     "Am",
+     0.001
     ]
    ],
    "zones": [
@@ -3428,11 +7962,58 @@
    "places": 4,
    "withClimate": 4,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Aw",
-     1.0,
+     0.691,
      "savanna"
+    ],
+    [
+     "Cw",
+     0.15,
+     "winter-dry temperate"
+    ],
+    [
+     "Am",
+     0.15,
+     "monsoon"
+    ],
+    [
+     "Af",
+     0.007,
+     "rainforest"
+    ],
+    [
+     "Cf",
+     0.001,
+     "temperate moist"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Aw",
+     0.691
+    ],
+    [
+     "Am",
+     0.15
+    ],
+    [
+     "Cwa",
+     0.145
+    ],
+    [
+     "Af",
+     0.007
+    ],
+    [
+     "Cwb",
+     0.005
+    ],
+    [
+     "Cfa",
+     0.001
     ]
    ],
    "zones": [
@@ -3451,36 +8032,110 @@
    "places": 36,
    "withClimate": 36,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
+     "Cw",
+     0.334,
+     "winter-dry temperate"
+    ],
+    [
      "Aw",
-     0.407,
+     0.332,
      "savanna"
     ],
     [
-     "Cs",
-     0.352,
-     "temperate seasonal"
-    ],
-    [
-     "D",
-     0.093,
-     "cold"
-    ],
-    [
      "Am",
-     0.093,
+     0.135,
      "monsoon"
     ],
     [
-     "Cf",
-     0.037,
-     "temperate moist"
+     "B",
+     0.068,
+     "arid"
+    ],
+    [
+     "Cs",
+     0.045,
+     "mediterranean"
     ],
     [
      "Af",
-     0.019,
+     0.043,
      "rainforest"
+    ],
+    [
+     "E",
+     0.021,
+     "polar"
+    ],
+    [
+     "Cf",
+     0.018,
+     "temperate moist"
+    ],
+    [
+     "D",
+     0.004,
+     "cold"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Aw",
+     0.332
+    ],
+    [
+     "Cwa",
+     0.324
+    ],
+    [
+     "Am",
+     0.135
+    ],
+    [
+     "BWh",
+     0.055
+    ],
+    [
+     "Af",
+     0.043
+    ],
+    [
+     "Csa",
+     0.043
+    ],
+    [
+     "ET",
+     0.021
+    ],
+    [
+     "Cfa",
+     0.017
+    ],
+    [
+     "Cwb",
+     0.01
+    ],
+    [
+     "BSk",
+     0.006
+    ],
+    [
+     "BWk",
+     0.006
+    ],
+    [
+     "Dwc",
+     0.002
+    ],
+    [
+     "Csb",
+     0.002
+    ],
+    [
+     "Cfb",
+     0.002
     ]
    ],
    "zones": [
@@ -3511,36 +8166,110 @@
    "places": 56,
    "withClimate": 55,
    "cover": 0.982,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     0.468,
+     0.432,
      "rainforest"
     ],
     [
      "Aw",
-     0.27,
+     0.214,
      "savanna"
     ],
     [
-     "Cs",
-     0.169,
-     "temperate seasonal"
+     "Cw",
+     0.183,
+     "winter-dry temperate"
     ],
     [
      "Am",
-     0.05,
+     0.117,
      "monsoon"
     ],
     [
-     "D",
-     0.025,
-     "cold"
+     "Cf",
+     0.029,
+     "temperate moist"
     ],
     [
-     "Cf",
-     0.018,
-     "temperate moist"
+     "Cs",
+     0.008,
+     "mediterranean"
+    ],
+    [
+     "E",
+     0.008,
+     "polar"
+    ],
+    [
+     "B",
+     0.007,
+     "arid"
+    ],
+    [
+     "D",
+     0.001,
+     "cold"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.432
+    ],
+    [
+     "Aw",
+     0.214
+    ],
+    [
+     "Cwa",
+     0.179
+    ],
+    [
+     "Am",
+     0.117
+    ],
+    [
+     "Cfa",
+     0.017
+    ],
+    [
+     "Cfb",
+     0.012
+    ],
+    [
+     "Csa",
+     0.008
+    ],
+    [
+     "ET",
+     0.008
+    ],
+    [
+     "Cwb",
+     0.003
+    ],
+    [
+     "BSk",
+     0.003
+    ],
+    [
+     "BWk",
+     0.002
+    ],
+    [
+     "BSh",
+     0.001
+    ],
+    [
+     "Dwc",
+     0.001
+    ],
+    [
+     "BWh",
+     0.001
     ]
    ],
    "zones": [
@@ -3567,21 +8296,80 @@
    "places": 22,
    "withClimate": 22,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
-     "Am",
-     0.398,
-     "monsoon"
-    ],
-    [
      "Af",
-     0.387,
+     0.403,
      "rainforest"
     ],
     [
+     "Am",
+     0.359,
+     "monsoon"
+    ],
+    [
      "Aw",
-     0.215,
+     0.199,
      "savanna"
+    ],
+    [
+     "Cf",
+     0.026,
+     "temperate moist"
+    ],
+    [
+     "Cw",
+     0.009,
+     "winter-dry temperate"
+    ],
+    [
+     "Cs",
+     0.002,
+     "mediterranean"
+    ],
+    [
+     "B",
+     0.001,
+     "arid"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.403
+    ],
+    [
+     "Am",
+     0.359
+    ],
+    [
+     "Aw",
+     0.199
+    ],
+    [
+     "Cfb",
+     0.022
+    ],
+    [
+     "Cwb",
+     0.005
+    ],
+    [
+     "Cwa",
+     0.004
+    ],
+    [
+     "Cfa",
+     0.004
+    ],
+    [
+     "Csb",
+     0.002
+    ],
+    [
+     "BSh",
+     0.001
     ]
    ],
    "zones": [
@@ -3600,11 +8388,27 @@
    "places": 1,
    "withClimate": 1,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     1.0,
+     0.999,
      "rainforest"
+    ],
+    [
+     "Am",
+     0.001,
+     "monsoon"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.999
+    ],
+    [
+     "Am",
+     0.001
     ]
    ],
    "zones": [
@@ -3619,11 +8423,27 @@
    "places": 1,
    "withClimate": 1,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     1.0,
+     0.999,
      "rainforest"
+    ],
+    [
+     "Am",
+     0.001,
+     "monsoon"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.999
+    ],
+    [
+     "Am",
+     0.001
     ]
    ],
    "zones": [
@@ -3638,31 +8458,126 @@
    "places": 36,
    "withClimate": 36,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
-     "Cs",
-     0.423,
-     "temperate seasonal"
+     "Cw",
+     0.373,
+     "winter-dry temperate"
     ],
     [
      "Aw",
-     0.366,
+     0.296,
      "savanna"
     ],
     [
-     "D",
-     0.141,
-     "cold"
-    ],
-    [
      "Am",
-     0.042,
+     0.098,
      "monsoon"
     ],
     [
+     "B",
+     0.066,
+     "arid"
+    ],
+    [
+     "Cs",
+     0.051,
+     "mediterranean"
+    ],
+    [
      "Af",
-     0.028,
+     0.04,
      "rainforest"
+    ],
+    [
+     "E",
+     0.033,
+     "polar"
+    ],
+    [
+     "D",
+     0.027,
+     "cold"
+    ],
+    [
+     "Cf",
+     0.017,
+     "temperate moist"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Cwa",
+     0.363
+    ],
+    [
+     "Aw",
+     0.296
+    ],
+    [
+     "Am",
+     0.098
+    ],
+    [
+     "Csa",
+     0.049
+    ],
+    [
+     "BWh",
+     0.042
+    ],
+    [
+     "Af",
+     0.04
+    ],
+    [
+     "ET",
+     0.033
+    ],
+    [
+     "BSk",
+     0.012
+    ],
+    [
+     "BWk",
+     0.011
+    ],
+    [
+     "Dwb",
+     0.011
+    ],
+    [
+     "Cwb",
+     0.01
+    ],
+    [
+     "Dwa",
+     0.009
+    ],
+    [
+     "Cfb",
+     0.009
+    ],
+    [
+     "Cfa",
+     0.008
+    ],
+    [
+     "Dwc",
+     0.005
+    ],
+    [
+     "Csb",
+     0.002
+    ],
+    [
+     "Dsc",
+     0.001
+    ],
+    [
+     "Dfc",
+     0.001
     ]
    ],
    "zones": [
@@ -3701,16 +8616,54 @@
    "places": 4,
    "withClimate": 4,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Aw",
-     0.667,
+     0.643,
      "savanna"
     ],
     [
+     "Am",
+     0.176,
+     "monsoon"
+    ],
+    [
      "Af",
-     0.333,
+     0.17,
      "rainforest"
+    ],
+    [
+     "Cf",
+     0.01,
+     "temperate moist"
+    ],
+    [
+     "Cw",
+     0.001,
+     "winter-dry temperate"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Aw",
+     0.643
+    ],
+    [
+     "Am",
+     0.176
+    ],
+    [
+     "Af",
+     0.17
+    ],
+    [
+     "Cfa",
+     0.008
+    ],
+    [
+     "Cfb",
+     0.003
     ]
    ],
    "zones": [
@@ -3729,31 +8682,62 @@
    "places": 18,
    "withClimate": 18,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     0.897,
+     0.833,
      "rainforest"
     ],
     [
-     "Aw",
-     0.06,
-     "savanna"
-    ],
-    [
      "Am",
-     0.026,
+     0.067,
      "monsoon"
     ],
     [
-     "Cs",
-     0.009,
-     "temperate seasonal"
+     "Aw",
+     0.055,
+     "savanna"
+    ],
+    [
+     "Cw",
+     0.029,
+     "winter-dry temperate"
     ],
     [
      "Cf",
-     0.009,
+     0.016,
      "temperate moist"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.833
+    ],
+    [
+     "Am",
+     0.067
+    ],
+    [
+     "Aw",
+     0.055
+    ],
+    [
+     "Cwa",
+     0.027
+    ],
+    [
+     "Cfb",
+     0.012
+    ],
+    [
+     "Cfa",
+     0.005
+    ],
+    [
+     "Cwb",
+     0.002
     ]
    ],
    "zones": [
@@ -3772,11 +8756,27 @@
    "places": 1,
    "withClimate": 1,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     1.0,
+     0.999,
      "rainforest"
+    ],
+    [
+     "Am",
+     0.001,
+     "monsoon"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.999
+    ],
+    [
+     "Am",
+     0.001
     ]
    ],
    "zones": [
@@ -3791,11 +8791,27 @@
    "places": 1,
    "withClimate": 1,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     1.0,
+     0.999,
      "rainforest"
+    ],
+    [
+     "Am",
+     0.001,
+     "monsoon"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.999
+    ],
+    [
+     "Am",
+     0.001
     ]
    ],
    "zones": [
@@ -3810,31 +8826,71 @@
    "places": 26,
    "withClimate": 26,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     0.575,
+     0.563,
      "rainforest"
     ],
     [
      "Aw",
-     0.253,
+     0.195,
      "savanna"
     ],
     [
      "Am",
-     0.092,
+     0.125,
      "monsoon"
     ],
     [
-     "Cs",
-     0.069,
-     "temperate seasonal"
+     "Cw",
+     0.097,
+     "winter-dry temperate"
     ],
     [
-     "D",
-     0.011,
-     "cold"
+     "Cf",
+     0.01,
+     "temperate moist"
+    ],
+    [
+     "Cs",
+     0.009,
+     "mediterranean"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.563
+    ],
+    [
+     "Aw",
+     0.195
+    ],
+    [
+     "Am",
+     0.125
+    ],
+    [
+     "Cwa",
+     0.093
+    ],
+    [
+     "Csa",
+     0.009
+    ],
+    [
+     "Cfb",
+     0.009
+    ],
+    [
+     "Cwb",
+     0.004
+    ],
+    [
+     "Cfa",
+     0.002
     ]
    ],
    "zones": [
@@ -3853,21 +8909,45 @@
    "places": 3,
    "withClimate": 3,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
-     "Cs",
-     0.333,
-     "temperate seasonal"
+     "Af",
+     0.365,
+     "rainforest"
     ],
     [
      "Aw",
-     0.333,
+     0.347,
      "savanna"
     ],
     [
      "Am",
-     0.333,
+     0.279,
      "monsoon"
+    ],
+    [
+     "Cf",
+     0.009,
+     "temperate moist"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.365
+    ],
+    [
+     "Aw",
+     0.347
+    ],
+    [
+     "Am",
+     0.279
+    ],
+    [
+     "Cfb",
+     0.009
     ]
    ],
    "zones": [
@@ -3882,26 +8962,62 @@
    "places": 9,
    "withClimate": 9,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Aw",
-     0.643,
+     0.455,
      "savanna"
     ],
     [
      "Cf",
-     0.214,
+     0.379,
      "temperate moist"
     ],
     [
+     "Am",
+     0.08,
+     "monsoon"
+    ],
+    [
      "Af",
-     0.071,
+     0.058,
      "rainforest"
     ],
     [
-     "Cs",
-     0.071,
-     "temperate seasonal"
+     "Cw",
+     0.028,
+     "winter-dry temperate"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Aw",
+     0.455
+    ],
+    [
+     "Cfa",
+     0.373
+    ],
+    [
+     "Am",
+     0.08
+    ],
+    [
+     "Af",
+     0.058
+    ],
+    [
+     "Cwa",
+     0.024
+    ],
+    [
+     "Cfb",
+     0.005
+    ],
+    [
+     "Cwb",
+     0.004
     ]
    ],
    "zones": [
@@ -3924,26 +9040,84 @@
    "places": 31,
    "withClimate": 30,
    "cover": 0.968,
+   "variant": "warmMoist",
    "koppen": [
     [
-     "Am",
-     0.384,
-     "monsoon"
-    ],
-    [
      "Af",
-     0.329,
+     0.352,
      "rainforest"
     ],
     [
+     "Am",
+     0.341,
+     "monsoon"
+    ],
+    [
      "Aw",
-     0.28,
+     0.264,
      "savanna"
     ],
     [
+     "Cf",
+     0.028,
+     "temperate moist"
+    ],
+    [
+     "Cw",
+     0.009,
+     "winter-dry temperate"
+    ],
+    [
      "Cs",
-     0.006,
-     "temperate seasonal"
+     0.004,
+     "mediterranean"
+    ],
+    [
+     "B",
+     0.001,
+     "arid"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.352
+    ],
+    [
+     "Am",
+     0.341
+    ],
+    [
+     "Aw",
+     0.264
+    ],
+    [
+     "Cfb",
+     0.02
+    ],
+    [
+     "Cfa",
+     0.008
+    ],
+    [
+     "Cwb",
+     0.007
+    ],
+    [
+     "Csb",
+     0.003
+    ],
+    [
+     "Cwa",
+     0.002
+    ],
+    [
+     "Csa",
+     0.001
+    ],
+    [
+     "BSh",
+     0.001
     ]
    ],
    "zones": [
@@ -3962,36 +9136,150 @@
    "places": 232,
    "withClimate": 227,
    "cover": 0.978,
+   "variant": "warmMoist",
    "koppen": [
     [
-     "Cs",
-     0.29,
-     "temperate seasonal"
-    ],
-    [
      "D",
-     0.228,
+     0.234,
      "cold"
     ],
     [
-     "Aw",
-     0.158,
-     "savanna"
-    ],
-    [
      "Cf",
-     0.147,
+     0.182,
      "temperate moist"
     ],
     [
+     "Aw",
+     0.171,
+     "savanna"
+    ],
+    [
      "Af",
-     0.112,
+     0.121,
      "rainforest"
     ],
     [
+     "B",
+     0.093,
+     "arid"
+    ],
+    [
      "Am",
-     0.066,
+     0.069,
      "monsoon"
+    ],
+    [
+     "Cs",
+     0.068,
+     "mediterranean"
+    ],
+    [
+     "Cw",
+     0.052,
+     "winter-dry temperate"
+    ],
+    [
+     "E",
+     0.012,
+     "polar"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Aw",
+     0.171
+    ],
+    [
+     "Cfa",
+     0.123
+    ],
+    [
+     "Af",
+     0.121
+    ],
+    [
+     "Dfb",
+     0.119
+    ],
+    [
+     "Am",
+     0.069
+    ],
+    [
+     "Cfb",
+     0.058
+    ],
+    [
+     "Cwa",
+     0.047
+    ],
+    [
+     "Dfc",
+     0.045
+    ],
+    [
+     "Csa",
+     0.045
+    ],
+    [
+     "Dfa",
+     0.042
+    ],
+    [
+     "BSk",
+     0.034
+    ],
+    [
+     "BWh",
+     0.032
+    ],
+    [
+     "Csb",
+     0.023
+    ],
+    [
+     "BSh",
+     0.021
+    ],
+    [
+     "ET",
+     0.011
+    ],
+    [
+     "Dwc",
+     0.01
+    ],
+    [
+     "Dwb",
+     0.008
+    ],
+    [
+     "BWk",
+     0.006
+    ],
+    [
+     "Cwb",
+     0.005
+    ],
+    [
+     "Dwa",
+     0.005
+    ],
+    [
+     "Dsb",
+     0.001
+    ],
+    [
+     "Dsc",
+     0.001
+    ],
+    [
+     "Dfd",
+     0.001
+    ],
+    [
+     "Cfc",
+     0.001
     ]
    ],
    "zones": [
@@ -4058,21 +9346,80 @@
    "places": 15,
    "withClimate": 15,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     0.61,
+     0.495,
      "rainforest"
     ],
     [
      "Am",
-     0.28,
+     0.303,
      "monsoon"
     ],
     [
      "Aw",
-     0.11,
+     0.153,
      "savanna"
+    ],
+    [
+     "Cf",
+     0.034,
+     "temperate moist"
+    ],
+    [
+     "Cw",
+     0.007,
+     "winter-dry temperate"
+    ],
+    [
+     "Cs",
+     0.004,
+     "mediterranean"
+    ],
+    [
+     "B",
+     0.003,
+     "arid"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.495
+    ],
+    [
+     "Am",
+     0.303
+    ],
+    [
+     "Aw",
+     0.153
+    ],
+    [
+     "Cfb",
+     0.033
+    ],
+    [
+     "Cwb",
+     0.006
+    ],
+    [
+     "Csb",
+     0.004
+    ],
+    [
+     "BSh",
+     0.003
+    ],
+    [
+     "Cwa",
+     0.002
+    ],
+    [
+     "Cfa",
+     0.001
     ]
    ],
    "zones": [
@@ -4091,16 +9438,67 @@
    "places": 11,
    "withClimate": 11,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
-     "Cs",
-     0.514,
-     "temperate seasonal"
+     "Cw",
+     0.503,
+     "winter-dry temperate"
     ],
     [
      "Aw",
-     0.486,
+     0.313,
      "savanna"
+    ],
+    [
+     "Am",
+     0.154,
+     "monsoon"
+    ],
+    [
+     "Cf",
+     0.013,
+     "temperate moist"
+    ],
+    [
+     "Cs",
+     0.013,
+     "mediterranean"
+    ],
+    [
+     "Af",
+     0.003,
+     "rainforest"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Cwa",
+     0.501
+    ],
+    [
+     "Aw",
+     0.313
+    ],
+    [
+     "Am",
+     0.154
+    ],
+    [
+     "Cfa",
+     0.013
+    ],
+    [
+     "Csa",
+     0.013
+    ],
+    [
+     "Cwb",
+     0.003
+    ],
+    [
+     "Af",
+     0.003
     ]
    ],
    "zones": [
@@ -4119,21 +9517,88 @@
    "places": 33,
    "withClimate": 33,
    "cover": 1.0,
+   "variant": "warm",
    "koppen": [
     [
      "Aw",
-     0.686,
+     0.507,
      "savanna"
     ],
     [
-     "Cs",
-     0.2,
-     "temperate seasonal"
+     "B",
+     0.317,
+     "arid"
     ],
     [
      "Am",
-     0.114,
+     0.075,
      "monsoon"
+    ],
+    [
+     "Cs",
+     0.034,
+     "mediterranean"
+    ],
+    [
+     "Cw",
+     0.029,
+     "winter-dry temperate"
+    ],
+    [
+     "Af",
+     0.024,
+     "rainforest"
+    ],
+    [
+     "Cf",
+     0.014,
+     "temperate moist"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Aw",
+     0.507
+    ],
+    [
+     "BSh",
+     0.206
+    ],
+    [
+     "BWh",
+     0.11
+    ],
+    [
+     "Am",
+     0.075
+    ],
+    [
+     "Cwa",
+     0.027
+    ],
+    [
+     "Csa",
+     0.024
+    ],
+    [
+     "Af",
+     0.024
+    ],
+    [
+     "Cfa",
+     0.01
+    ],
+    [
+     "Csb",
+     0.009
+    ],
+    [
+     "Cfb",
+     0.003
+    ],
+    [
+     "Cwb",
+     0.002
     ]
    ],
    "zones": [
@@ -4164,21 +9629,82 @@
    "places": 35,
    "withClimate": 34,
    "cover": 0.971,
+   "variant": "warmMoist",
    "koppen": [
     [
      "D",
-     0.675,
+     0.745,
      "cold"
     ],
     [
      "Cf",
-     0.3,
+     0.226,
      "temperate moist"
     ],
     [
      "Af",
      0.025,
      "rainforest"
+    ],
+    [
+     "Cw",
+     0.003,
+     "winter-dry temperate"
+    ],
+    [
+     "E",
+     0.001,
+     "polar"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Dfb",
+     0.359
+    ],
+    [
+     "Cfa",
+     0.225
+    ],
+    [
+     "Dfa",
+     0.175
+    ],
+    [
+     "Dwb",
+     0.078
+    ],
+    [
+     "Dfc",
+     0.06
+    ],
+    [
+     "Dwa",
+     0.051
+    ],
+    [
+     "Af",
+     0.025
+    ],
+    [
+     "Dwc",
+     0.019
+    ],
+    [
+     "Cwa",
+     0.003
+    ],
+    [
+     "Dsc",
+     0.002
+    ],
+    [
+     "Cfb",
+     0.001
+    ],
+    [
+     "ET",
+     0.001
     ]
    ],
    "zones": [
@@ -4205,21 +9731,49 @@
    "places": 4,
    "withClimate": 4,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Aw",
-     0.5,
+     0.329,
      "savanna"
     ],
     [
-     "Cs",
-     0.25,
-     "temperate seasonal"
+     "Af",
+     0.286,
+     "rainforest"
     ],
     [
      "Am",
-     0.25,
+     0.245,
      "monsoon"
+    ],
+    [
+     "Cf",
+     0.14,
+     "temperate moist"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Aw",
+     0.329
+    ],
+    [
+     "Af",
+     0.286
+    ],
+    [
+     "Am",
+     0.245
+    ],
+    [
+     "Cfa",
+     0.133
+    ],
+    [
+     "Cfb",
+     0.007
     ]
    ],
    "zones": [
@@ -4238,26 +9792,84 @@
    "places": 31,
    "withClimate": 31,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Am",
-     0.478,
+     0.355,
      "monsoon"
     ],
     [
      "Aw",
-     0.287,
+     0.328,
      "savanna"
     ],
     [
      "Af",
-     0.191,
+     0.256,
      "rainforest"
     ],
     [
+     "Cf",
+     0.034,
+     "temperate moist"
+    ],
+    [
+     "Cw",
+     0.018,
+     "winter-dry temperate"
+    ],
+    [
      "Cs",
-     0.044,
-     "temperate seasonal"
+     0.008,
+     "mediterranean"
+    ],
+    [
+     "B",
+     0.002,
+     "arid"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Am",
+     0.355
+    ],
+    [
+     "Aw",
+     0.328
+    ],
+    [
+     "Af",
+     0.256
+    ],
+    [
+     "Cfb",
+     0.019
+    ],
+    [
+     "Cfa",
+     0.015
+    ],
+    [
+     "Cwb",
+     0.009
+    ],
+    [
+     "Cwa",
+     0.009
+    ],
+    [
+     "Csa",
+     0.004
+    ],
+    [
+     "Csb",
+     0.004
+    ],
+    [
+     "BSh",
+     0.002
     ]
    ],
    "zones": [
@@ -4280,31 +9892,62 @@
    "places": 9,
    "withClimate": 9,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Aw",
-     0.625,
+     0.468,
      "savanna"
     ],
     [
+     "Cf",
+     0.21,
+     "temperate moist"
+    ],
+    [
      "Af",
-     0.188,
+     0.156,
      "rainforest"
     ],
     [
      "Am",
-     0.062,
+     0.141,
      "monsoon"
     ],
     [
-     "Cs",
-     0.062,
-     "temperate seasonal"
+     "Cw",
+     0.024,
+     "winter-dry temperate"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Aw",
+     0.468
     ],
     [
-     "Cf",
-     0.062,
-     "temperate moist"
+     "Cfa",
+     0.207
+    ],
+    [
+     "Af",
+     0.156
+    ],
+    [
+     "Am",
+     0.141
+    ],
+    [
+     "Cwa",
+     0.021
+    ],
+    [
+     "Cwb",
+     0.003
+    ],
+    [
+     "Cfb",
+     0.003
     ]
    ],
    "zones": [
@@ -4323,11 +9966,27 @@
    "places": 1,
    "withClimate": 1,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     1.0,
+     0.999,
      "rainforest"
+    ],
+    [
+     "Am",
+     0.001,
+     "monsoon"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.999
+    ],
+    [
+     "Am",
+     0.001
     ]
    ],
    "zones": [
@@ -4342,11 +10001,67 @@
    "places": 2,
    "withClimate": 2,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Aw",
-     1.0,
+     0.657,
      "savanna"
+    ],
+    [
+     "Am",
+     0.123,
+     "monsoon"
+    ],
+    [
+     "Cw",
+     0.107,
+     "winter-dry temperate"
+    ],
+    [
+     "Cs",
+     0.073,
+     "mediterranean"
+    ],
+    [
+     "Af",
+     0.037,
+     "rainforest"
+    ],
+    [
+     "Cf",
+     0.003,
+     "temperate moist"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Aw",
+     0.657
+    ],
+    [
+     "Am",
+     0.123
+    ],
+    [
+     "Cwa",
+     0.106
+    ],
+    [
+     "Csa",
+     0.073
+    ],
+    [
+     "Af",
+     0.037
+    ],
+    [
+     "Cfb",
+     0.003
+    ],
+    [
+     "Cwb",
+     0.001
     ]
    ],
    "zones": [
@@ -4361,11 +10076,27 @@
    "places": 1,
    "withClimate": 1,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     1.0,
+     0.999,
      "rainforest"
+    ],
+    [
+     "Am",
+     0.001,
+     "monsoon"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.999
+    ],
+    [
+     "Am",
+     0.001
     ]
    ],
    "zones": [
@@ -4380,11 +10111,27 @@
    "places": 1,
    "withClimate": 1,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     1.0,
+     0.999,
      "rainforest"
+    ],
+    [
+     "Am",
+     0.001,
+     "monsoon"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.999
+    ],
+    [
+     "Am",
+     0.001
     ]
    ],
    "zones": [
@@ -4399,36 +10146,101 @@
    "places": 33,
    "withClimate": 31,
    "cover": 0.939,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Aw",
-     0.634,
+     0.482,
      "savanna"
     ],
     [
-     "Cs",
-     0.217,
-     "temperate seasonal"
-    ],
-    [
-     "Af",
-     0.075,
-     "rainforest"
-    ],
-    [
-     "D",
-     0.031,
-     "cold"
+     "Cw",
+     0.228,
+     "winter-dry temperate"
     ],
     [
      "Am",
-     0.025,
+     0.157,
      "monsoon"
     ],
     [
+     "Af",
+     0.08,
+     "rainforest"
+    ],
+    [
      "Cf",
-     0.019,
+     0.021,
      "temperate moist"
+    ],
+    [
+     "Cs",
+     0.015,
+     "mediterranean"
+    ],
+    [
+     "B",
+     0.01,
+     "arid"
+    ],
+    [
+     "D",
+     0.007,
+     "cold"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Aw",
+     0.482
+    ],
+    [
+     "Cwa",
+     0.222
+    ],
+    [
+     "Am",
+     0.157
+    ],
+    [
+     "Af",
+     0.08
+    ],
+    [
+     "Cfa",
+     0.019
+    ],
+    [
+     "Csa",
+     0.014
+    ],
+    [
+     "Cwb",
+     0.005
+    ],
+    [
+     "BSk",
+     0.005
+    ],
+    [
+     "BWk",
+     0.005
+    ],
+    [
+     "Dwc",
+     0.003
+    ],
+    [
+     "Dwb",
+     0.003
+    ],
+    [
+     "Dwa",
+     0.002
+    ],
+    [
+     "Cfb",
+     0.002
     ]
    ],
    "zones": [
@@ -4455,16 +10267,84 @@
    "places": 3,
    "withClimate": 3,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Aw",
-     0.667,
+     0.464,
      "savanna"
     ],
     [
      "Am",
-     0.333,
+     0.348,
      "monsoon"
+    ],
+    [
+     "Cw",
+     0.052,
+     "winter-dry temperate"
+    ],
+    [
+     "Af",
+     0.049,
+     "rainforest"
+    ],
+    [
+     "Cs",
+     0.048,
+     "mediterranean"
+    ],
+    [
+     "Cf",
+     0.038,
+     "temperate moist"
+    ],
+    [
+     "B",
+     0.001,
+     "arid"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Aw",
+     0.464
+    ],
+    [
+     "Am",
+     0.348
+    ],
+    [
+     "Af",
+     0.049
+    ],
+    [
+     "Cwa",
+     0.042
+    ],
+    [
+     "Cfa",
+     0.034
+    ],
+    [
+     "Csa",
+     0.03
+    ],
+    [
+     "Csb",
+     0.018
+    ],
+    [
+     "Cwb",
+     0.009
+    ],
+    [
+     "Cfb",
+     0.004
+    ],
+    [
+     "BSh",
+     0.001
     ]
    ],
    "zones": [
@@ -4479,16 +10359,72 @@
    "places": 3,
    "withClimate": 3,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     0.667,
+     0.593,
      "rainforest"
     ],
     [
      "Am",
-     0.333,
+     0.217,
      "monsoon"
+    ],
+    [
+     "Aw",
+     0.155,
+     "savanna"
+    ],
+    [
+     "Cf",
+     0.023,
+     "temperate moist"
+    ],
+    [
+     "Cs",
+     0.005,
+     "mediterranean"
+    ],
+    [
+     "B",
+     0.004,
+     "arid"
+    ],
+    [
+     "Cw",
+     0.004,
+     "winter-dry temperate"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.593
+    ],
+    [
+     "Am",
+     0.217
+    ],
+    [
+     "Aw",
+     0.155
+    ],
+    [
+     "Cfb",
+     0.023
+    ],
+    [
+     "Csb",
+     0.005
+    ],
+    [
+     "BSh",
+     0.004
+    ],
+    [
+     "Cwb",
+     0.004
     ]
    ],
    "zones": [
@@ -4503,21 +10439,71 @@
    "places": 18,
    "withClimate": 18,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     0.471,
+     0.351,
      "rainforest"
     ],
     [
+     "Am",
+     0.306,
+     "monsoon"
+    ],
+    [
      "Aw",
-     0.324,
+     0.284,
      "savanna"
     ],
     [
+     "Cf",
+     0.042,
+     "temperate moist"
+    ],
+    [
+     "Cw",
+     0.016,
+     "winter-dry temperate"
+    ],
+    [
+     "Cs",
+     0.001,
+     "mediterranean"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.351
+    ],
+    [
      "Am",
-     0.206,
-     "monsoon"
+     0.306
+    ],
+    [
+     "Aw",
+     0.284
+    ],
+    [
+     "Cfa",
+     0.024
+    ],
+    [
+     "Cfb",
+     0.018
+    ],
+    [
+     "Cwa",
+     0.01
+    ],
+    [
+     "Cwb",
+     0.006
+    ],
+    [
+     "Csb",
+     0.001
     ]
    ],
    "zones": [
@@ -4536,11 +10522,27 @@
    "places": 2,
    "withClimate": 2,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     1.0,
+     0.985,
      "rainforest"
+    ],
+    [
+     "Am",
+     0.016,
+     "monsoon"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.985
+    ],
+    [
+     "Am",
+     0.016
     ]
    ],
    "zones": [
@@ -4555,11 +10557,58 @@
    "places": 1,
    "withClimate": 1,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Aw",
-     1.0,
+     0.412,
      "savanna"
+    ],
+    [
+     "Cw",
+     0.401,
+     "winter-dry temperate"
+    ],
+    [
+     "Am",
+     0.169,
+     "monsoon"
+    ],
+    [
+     "Af",
+     0.014,
+     "rainforest"
+    ],
+    [
+     "Cf",
+     0.004,
+     "temperate moist"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Aw",
+     0.412
+    ],
+    [
+     "Cwa",
+     0.381
+    ],
+    [
+     "Am",
+     0.169
+    ],
+    [
+     "Cwb",
+     0.02
+    ],
+    [
+     "Af",
+     0.014
+    ],
+    [
+     "Cfa",
+     0.004
     ]
    ],
    "zones": [
@@ -4574,11 +10623,72 @@
    "places": 1,
    "withClimate": 1,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     1.0,
+     0.621,
      "rainforest"
+    ],
+    [
+     "Aw",
+     0.19,
+     "savanna"
+    ],
+    [
+     "Am",
+     0.095,
+     "monsoon"
+    ],
+    [
+     "Cf",
+     0.056,
+     "temperate moist"
+    ],
+    [
+     "Cs",
+     0.014,
+     "mediterranean"
+    ],
+    [
+     "B",
+     0.012,
+     "arid"
+    ],
+    [
+     "Cw",
+     0.012,
+     "winter-dry temperate"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.621
+    ],
+    [
+     "Aw",
+     0.19
+    ],
+    [
+     "Am",
+     0.095
+    ],
+    [
+     "Cfb",
+     0.056
+    ],
+    [
+     "Csb",
+     0.014
+    ],
+    [
+     "BSh",
+     0.012
+    ],
+    [
+     "Cwb",
+     0.012
     ]
    ],
    "zones": [
@@ -4593,36 +10703,142 @@
    "places": 168,
    "withClimate": 168,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
-     "Cs",
-     0.261,
-     "temperate seasonal"
-    ],
-    [
      "D",
-     0.25,
+     0.276,
      "cold"
     ],
     [
      "Cf",
-     0.201,
+     0.234,
      "temperate moist"
     ],
     [
      "Aw",
-     0.198,
+     0.177,
      "savanna"
     ],
     [
+     "B",
+     0.096,
+     "arid"
+    ],
+    [
      "Af",
-     0.067,
+     0.073,
      "rainforest"
     ],
     [
      "Am",
-     0.022,
+     0.048,
      "monsoon"
+    ],
+    [
+     "Cs",
+     0.047,
+     "mediterranean"
+    ],
+    [
+     "Cw",
+     0.047,
+     "winter-dry temperate"
+    ],
+    [
+     "E",
+     0.001,
+     "polar"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Cfa",
+     0.186
+    ],
+    [
+     "Aw",
+     0.177
+    ],
+    [
+     "Dfb",
+     0.146
+    ],
+    [
+     "Dfa",
+     0.096
+    ],
+    [
+     "Af",
+     0.073
+    ],
+    [
+     "Am",
+     0.048
+    ],
+    [
+     "Cfb",
+     0.047
+    ],
+    [
+     "Cwa",
+     0.043
+    ],
+    [
+     "BWh",
+     0.036
+    ],
+    [
+     "BSk",
+     0.029
+    ],
+    [
+     "BSh",
+     0.028
+    ],
+    [
+     "Csa",
+     0.027
+    ],
+    [
+     "Dfc",
+     0.025
+    ],
+    [
+     "Csb",
+     0.021
+    ],
+    [
+     "Cwb",
+     0.005
+    ],
+    [
+     "Dwa",
+     0.004
+    ],
+    [
+     "Dwb",
+     0.002
+    ],
+    [
+     "BWk",
+     0.002
+    ],
+    [
+     "Dsb",
+     0.001
+    ],
+    [
+     "Cfc",
+     0.001
+    ],
+    [
+     "ET",
+     0.001
+    ],
+    [
+     "Dsc",
+     0.001
     ]
    ],
    "zones": [
@@ -4677,36 +10893,109 @@
    "places": 86,
    "withClimate": 86,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Aw",
-     0.336,
+     0.34,
      "savanna"
     ],
     [
-     "Cs",
-     0.226,
-     "temperate seasonal"
-    ],
-    [
      "Cf",
-     0.161,
+     0.228,
      "temperate moist"
     ],
     [
      "Af",
-     0.146,
+     0.152,
      "rainforest"
     ],
     [
      "Am",
-     0.095,
+     0.113,
      "monsoon"
     ],
     [
+     "B",
+     0.063,
+     "arid"
+    ],
+    [
      "D",
-     0.036,
+     0.052,
      "cold"
+    ],
+    [
+     "Cs",
+     0.035,
+     "mediterranean"
+    ],
+    [
+     "Cw",
+     0.017,
+     "winter-dry temperate"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Aw",
+     0.34
+    ],
+    [
+     "Cfa",
+     0.211
+    ],
+    [
+     "Af",
+     0.152
+    ],
+    [
+     "Am",
+     0.113
+    ],
+    [
+     "Dfa",
+     0.038
+    ],
+    [
+     "BSh",
+     0.033
+    ],
+    [
+     "BWh",
+     0.025
+    ],
+    [
+     "Csa",
+     0.02
+    ],
+    [
+     "Cfb",
+     0.018
+    ],
+    [
+     "Csb",
+     0.015
+    ],
+    [
+     "Dfb",
+     0.014
+    ],
+    [
+     "Cwa",
+     0.012
+    ],
+    [
+     "Cwb",
+     0.004
+    ],
+    [
+     "BSk",
+     0.004
+    ],
+    [
+     "BWk",
+     0.001
     ]
    ],
    "zones": [
@@ -4745,31 +11034,84 @@
    "places": 34,
    "withClimate": 34,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     0.506,
+     0.449,
      "rainforest"
     ],
     [
-     "Aw",
-     0.245,
-     "savanna"
-    ],
-    [
      "Am",
-     0.22,
+     0.26,
      "monsoon"
     ],
     [
-     "Cs",
-     0.019,
-     "temperate seasonal"
+     "Aw",
+     0.235,
+     "savanna"
     ],
     [
      "Cf",
-     0.009,
+     0.041,
      "temperate moist"
+    ],
+    [
+     "Cw",
+     0.009,
+     "winter-dry temperate"
+    ],
+    [
+     "Cs",
+     0.004,
+     "mediterranean"
+    ],
+    [
+     "B",
+     0.002,
+     "arid"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.449
+    ],
+    [
+     "Am",
+     0.26
+    ],
+    [
+     "Aw",
+     0.235
+    ],
+    [
+     "Cfb",
+     0.022
+    ],
+    [
+     "Cfa",
+     0.019
+    ],
+    [
+     "Cwb",
+     0.004
+    ],
+    [
+     "Cwa",
+     0.004
+    ],
+    [
+     "Csb",
+     0.003
+    ],
+    [
+     "BSh",
+     0.002
+    ],
+    [
+     "Csa",
+     0.001
     ]
    ],
    "zones": [
@@ -4788,16 +11130,88 @@
    "places": 6,
    "withClimate": 6,
    "cover": 1.0,
+   "variant": "warm",
    "koppen": [
     [
      "Aw",
-     0.5,
+     0.445,
      "savanna"
     ],
     [
+     "B",
+     0.331,
+     "arid"
+    ],
+    [
+     "Cf",
+     0.118,
+     "temperate moist"
+    ],
+    [
      "Cs",
-     0.5,
-     "temperate seasonal"
+     0.055,
+     "mediterranean"
+    ],
+    [
+     "Cw",
+     0.041,
+     "winter-dry temperate"
+    ],
+    [
+     "Am",
+     0.008,
+     "monsoon"
+    ],
+    [
+     "Af",
+     0.002,
+     "rainforest"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Aw",
+     0.445
+    ],
+    [
+     "BSh",
+     0.281
+    ],
+    [
+     "Cfa",
+     0.111
+    ],
+    [
+     "BWh",
+     0.05
+    ],
+    [
+     "Cwa",
+     0.04
+    ],
+    [
+     "Csa",
+     0.04
+    ],
+    [
+     "Csb",
+     0.015
+    ],
+    [
+     "Am",
+     0.008
+    ],
+    [
+     "Cfb",
+     0.007
+    ],
+    [
+     "Af",
+     0.002
+    ],
+    [
+     "Cwb",
+     0.001
     ]
    ],
    "zones": [
@@ -4816,21 +11230,88 @@
    "places": 15,
    "withClimate": 15,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
-     "Cs",
-     0.833,
-     "temperate seasonal"
+     "B",
+     0.327,
+     "arid"
+    ],
+    [
+     "Cf",
+     0.296,
+     "temperate moist"
     ],
     [
      "Aw",
-     0.133,
+     0.203,
      "savanna"
     ],
     [
+     "Cw",
+     0.113,
+     "winter-dry temperate"
+    ],
+    [
+     "Cs",
+     0.031,
+     "mediterranean"
+    ],
+    [
      "Am",
-     0.033,
+     0.021,
      "monsoon"
+    ],
+    [
+     "Af",
+     0.009,
+     "rainforest"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "BSh",
+     0.261
+    ],
+    [
+     "Cfa",
+     0.209
+    ],
+    [
+     "Aw",
+     0.203
+    ],
+    [
+     "Cwa",
+     0.1
+    ],
+    [
+     "Cfb",
+     0.087
+    ],
+    [
+     "BSk",
+     0.066
+    ],
+    [
+     "Csa",
+     0.028
+    ],
+    [
+     "Am",
+     0.021
+    ],
+    [
+     "Cwb",
+     0.012
+    ],
+    [
+     "Af",
+     0.009
+    ],
+    [
+     "Csb",
+     0.003
     ]
    ],
    "zones": [
@@ -4857,11 +11338,71 @@
    "places": 1,
    "withClimate": 1,
    "cover": 1.0,
+   "variant": "warm",
    "koppen": [
     [
      "Aw",
-     1.0,
+     0.698,
      "savanna"
+    ],
+    [
+     "B",
+     0.214,
+     "arid"
+    ],
+    [
+     "Am",
+     0.037,
+     "monsoon"
+    ],
+    [
+     "Af",
+     0.035,
+     "rainforest"
+    ],
+    [
+     "Cf",
+     0.012,
+     "temperate moist"
+    ],
+    [
+     "Cw",
+     0.004,
+     "winter-dry temperate"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Aw",
+     0.698
+    ],
+    [
+     "BSh",
+     0.214
+    ],
+    [
+     "Am",
+     0.037
+    ],
+    [
+     "Af",
+     0.035
+    ],
+    [
+     "Cfb",
+     0.01
+    ],
+    [
+     "Cwa",
+     0.002
+    ],
+    [
+     "Cwb",
+     0.002
+    ],
+    [
+     "Cfa",
+     0.002
     ]
    ],
    "zones": [
@@ -4876,16 +11417,54 @@
    "places": 3,
    "withClimate": 3,
    "cover": 1.0,
+   "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     0.667,
+     0.554,
      "rainforest"
     ],
     [
      "Am",
-     0.333,
+     0.313,
      "monsoon"
+    ],
+    [
+     "Aw",
+     0.113,
+     "savanna"
+    ],
+    [
+     "Cf",
+     0.02,
+     "temperate moist"
+    ],
+    [
+     "Cw",
+     0.001,
+     "winter-dry temperate"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Af",
+     0.554
+    ],
+    [
+     "Am",
+     0.313
+    ],
+    [
+     "Aw",
+     0.113
+    ],
+    [
+     "Cfb",
+     0.02
+    ],
+    [
+     "Cwb",
+     0.001
     ]
    ],
    "zones": [
