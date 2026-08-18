@@ -68,6 +68,9 @@ on:
       # cards read (tree block v46). Built from climate.json + genus-geo
       # .json, so it is regenerated and pushed whenever either moves.
       - "docs/genus-climate.json"
+      # v11 (8.18.26): the per-species climate summaries (S4) — same
+      # derivation chain one level down, ~4.5k keys, its own feed.
+      - "docs/species-climate.json"
   workflow_dispatch:
 
 permissions:
