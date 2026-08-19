@@ -27,7 +27,7 @@
       "placed": 159,
       "zones": {
         "asia": 158,
-        "austral": 9
+        "austral": 16
       }
     },
     "Amorphophallus": {
@@ -67,7 +67,7 @@
     "Tanitharyi": 1,
     "Kalimantan?": 1
   },
-  "updatedAt": "2026-08-18T08:49:50.823Z",
+  "updatedAt": "2026-08-19T08:50:19.535Z",
   "source": "https://www.aroidpedia.com/journal",
   "totalItemsScanned": 440
 }
