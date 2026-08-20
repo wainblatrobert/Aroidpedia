@@ -5030,38 +5030,12 @@
      "authority": "M. Hotta",
      "children": [
       {
-       "id": "genus-furtadoa",
-       "name": "Furtadoa",
-       "rank": "genus",
-       "authority": "M. Hotta",
-       "mbbNumber": 46,
-       "speciesCount": 3,
-       "archiveUrl": "/furtadoa",
-       "image": {
-        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/furtadoa.webp",
-        "alt": "Furtadoa mixta",
-        "source": "Furtadoa mixta (Ridl.) M.Hotta Figure 127.jpg"
-       },
-       "range": {
-        "b": "asia",
-        "nw": false,
-        "ow": true,
-        "places": [
-         "Sumatera",
-         "Pen. Malaysia"
-        ],
-        "zones": {
-         "asia": 3
-        }
-       }
-      },
-      {
        "id": "genus-homalomena",
        "name": "Homalomena",
        "rank": "genus",
        "authority": "Schott",
        "mbbNumber": 47,
-       "speciesCount": 163,
+       "speciesCount": 177,
        "archiveUrl": "/homalomena",
        "range": {
         "b": "asia",
@@ -5116,7 +5090,15 @@
          "asia": 142,
          "austral": 22
         }
-       }
+       },
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/furtadoa.webp",
+        "alt": "Homalomena mixta",
+        "source": "Furtadoa mixta (Ridl.) M.Hotta Figure 127.jpg",
+        "note": "carried over when Furtadoa was sunk; the filename is left as furtadoa.webp on purpose"
+       },
+       "speciesCountPowo": 177,
+       "note": "Furtadoa M.Hotta (1981) is a heterotypic synonym of Homalomena (Plants of the World Online, checked 2026-08-20, where it is one of the genus's seven listed synonyms). Its three species are accepted here as Homalomena indrae (P.C.Boyce & S.Y.Wong) M.R.Hariri & A.S.D.Irsyam, Homalomena mixta Ridl. and Homalomena sumatrensis (M.Hotta) M.R.Hariri & A.S.D.Irsyam. Reproductive work published under the name Furtadoa is therefore Homalomena material."
       }
      ]
     },
@@ -20206,6 +20188,7 @@
     }
    ]
   },
-  "speciesCountRule": "1.36.0: a genus's speciesCount is the LARGER of POWO's accepted species and the journal archive's own species posts (user ruling 8.20.26 — POWO lags while a genus is being built out). The POWO figure is kept as speciesCountPowo on any node the rule touched."
+  "speciesCountRule": "1.36.0: a genus's speciesCount is the LARGER of POWO's accepted species and the journal archive's own species posts (user ruling 8.20.26 — POWO lags while a genus is being built out). The POWO figure is kept as speciesCountPowo on any node the rule touched.",
+  "furtadoaSink": "1.37.0: Furtadoa M.Hotta is sunk into Homalomena (POWO, checked 2026-08-20) and its genus node removed; the name survives as a synonym note on Homalomena. Homalomena's speciesCount moved 163 -> 177, POWO's current accepted figure, which already includes the three transferred species - it is not 163 + 3."
  }
 }
