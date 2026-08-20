@@ -2394,7 +2394,7 @@
        "rank": "genus",
        "authority": "G. Don",
        "mbbNumber": 104,
-       "speciesCount": 92,
+       "speciesCount": 118,
        "archiveUrl": "/alocasia",
        "image": {
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/alocasia.webp",
@@ -4592,7 +4592,8 @@
          "Sundaland (Asian mainland + Borneo)": 0.31
         },
         "sdiva": "Asian mainland"
-       }
+       },
+       "speciesCountPowo": 92
       },
       {
        "id": "genus-ariopsis",
@@ -14017,7 +14018,8 @@
        },
        "speciesTierSource": "Pouchon, Boyce, Roberts, Gitzendanner, Hetterscheid, Soltis, Soltis & Claudel (2023), \"Phylogenomic study of Amorphophallus (Alismatales; Araceae): when plastid DNA gene sequences help to resolve the backbone subgeneric delineation\", Journal of Systematics and Evolution 61(1): 64-79, Fig. 4 and Table S2",
        "speciesTierNote": "The plastid phylogenomic tree. The four subgenera of Claudel et al. (2017) - Amorphophallus (SEA), Afrophallus (AFR), Metandrium (CA-I) and Scutandrium (CA-II) - are recovered as clades and dated here: the genus began to diversify about 22.6 Ma with Afrophallus splitting off first, and the three Asian subgenera separated within about 3 Ma of each other in the Early Miocene. Ages, 95% HPDs and posterior support are Table S2's; the topology is a read of Fig. 4, gated on the tip counts its own node numbering implies, on preorder contiguity, on the ages, and on every Afrophallus species being one of the 40 African Amorphophallus already in this tree. 36 of POWO's 246 species are sampled; the rest are not drawn.",
-       "note": "The Philippine species are polyphyletic — Miranda et al. (2026, Pl. Ecol. Evol. 159) placed 26 Philippine collections in a genus-wide tree and found them scattered across two subgenera, implying at least two colonization routes into the archipelago (northern and southern Southeast Asia/Borneo)."
+       "note": "The Philippine species are polyphyletic — Miranda et al. (2026, Pl. Ecol. Evol. 159) placed 26 Philippine collections in a genus-wide tree and found them scattered across two subgenera, implying at least two colonization routes into the archipelago (northern and southern Southeast Asia/Borneo).",
+       "speciesCountPowo": 246
       }
      ]
     },
@@ -18077,7 +18079,7 @@
   }
  ],
  "metadata": {
-  "updated": "2026-08-17",
+  "updated": "2026-08-20",
   "about": {
    "intro": [
     "This tree shows how the roughly 150 accepted genera of the arum family are grouped: first into subfamilies, then into tribes, and finally into the genera themselves.",
@@ -20203,6 +20205,7 @@
      "ref": "Knowlton, 1926; Graham 1999; Renner et al., 2004a,b"
     }
    ]
-  }
+  },
+  "speciesCountRule": "1.36.0: a genus's speciesCount is the LARGER of POWO's accepted species and the journal archive's own species posts (user ruling 8.20.26 — POWO lags while a genus is being built out). The POWO figure is kept as speciesCountPowo on any node the rule touched."
  }
 }
