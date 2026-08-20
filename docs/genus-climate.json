@@ -1,7 +1,7 @@
 {
  "version": "1.2.0",
- "generated": "2026-08-20T06:33:40.733Z",
- "source": "climate.json 1.14.0 + genus-geo.json 1.18.0",
+ "generated": "2026-08-20T06:45:39.453Z",
+ "source": "climate.json 1.15.0 + genus-geo.json 1.18.0",
  "method": "Per genus, its POWO places that have a climate row, weighted by the number of the genus's species recorded in each. 1.2.0 (S2): each place contributes its PIXEL-LEVEL Koppen distribution (climate.json 1.10.0 `koppen`, Peel et al. 2007), read through the SAME variant the species card would pick for this genus (`variant`: warm strongholds -> warmMoist or warm, else ff; per-place fallback down to 'all'), rather than one class from aggregate medians. koppen = [coarse code, share, label] over nine buckets (Af/Am/Aw/B/Cf/Cs/Cw/D/E); koppenFull = [full KG code, share] for consumers that want the 30-class detail. zones = the WTE domains already in climate.json, same weighting. cover = share of the genus's places that had any climate row; show=false below 0.6.",
  "genera": {
   "Amorphophallus": {
