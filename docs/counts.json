@@ -1,5 +1,5 @@
 {
-  "species": 228,
+  "species": 232,
   "cultivars": 53,
   "hybrids": 150,
   "hybridCultivars": 9,
@@ -14,8 +14,8 @@
       "hybridCultivars": 9
     },
     "Amorphophallus": {
-      "total": 110,
-      "species": 110,
+      "total": 114,
+      "species": 114,
       "cultivars": 0,
       "hybrids": 0,
       "hybridCultivars": 0
@@ -31,11 +31,11 @@
       }
     },
     "Amorphophallus": {
-      "total": 110,
-      "placed": 110,
+      "total": 114,
+      "placed": 114,
       "zones": {
-        "africa": 23,
-        "asia": 87,
+        "africa": 24,
+        "asia": 90,
         "austral": 1
       }
     }
@@ -64,10 +64,14 @@
     "Sumatra ?": 1,
     "Myanmar ?": 1,
     "Angola?": 1,
-    "Tanitharyi": 1,
-    "Kalimantan?": 1
+    "Apayo": 1,
+    "Dinagat Islands": 1,
+    "Kalimantan?": 1,
+    "South Sumatra?": 1,
+    "South Kalimantan?": 1,
+    "Siem Riep": 1
   },
-  "updatedAt": "2026-08-19T08:50:19.535Z",
+  "updatedAt": "2026-08-20T08:51:53.219Z",
   "source": "https://www.aroidpedia.com/journal",
-  "totalItemsScanned": 440
+  "totalItemsScanned": 444
 }
