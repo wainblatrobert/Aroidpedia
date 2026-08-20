@@ -1,5 +1,5 @@
 {
- "version": "1.18.0",
+ "version": "1.19.0",
  "generated": "2026-08-16",
  "source": "POWO/WCVP distribution API, native WGSRPD level-3 units + journal-tag subunit refinement (additive)",
  "genera": {
@@ -17201,19 +17201,6 @@
    "speciesTotalPowo": 1,
    "speciesJournal": 0
   },
-  "Furtadoa": {
-   "speciesTotal": 0,
-   "places": {},
-   "doubtful": {},
-   "introduced": {},
-   "codes": {},
-   "speciesPlaces": {},
-   "doubtfulSpecies": {},
-   "regions": {},
-   "continents": {},
-   "speciesTotalPowo": 0,
-   "speciesJournal": 0
-  },
   "Galantharum": {
    "speciesTotal": 1,
    "places": {
@@ -18144,7 +18131,7 @@
    "speciesJournal": 0
   },
   "Homalomena": {
-   "speciesTotal": 163,
+   "speciesTotal": 177,
    "places": {
     "Borneo": 75,
     "Sumatra": 34,
@@ -18885,7 +18872,7 @@
      ]
     }
    },
-   "speciesTotalPowo": 163,
+   "speciesTotalPowo": 177,
    "speciesJournal": 0
   },
   "Hottarum": {
@@ -40879,5 +40866,6 @@
   "West Sumatra": "Sumatra",
   "Yunnan": "China South-Central"
  },
- "note18": "1.18.0 (8.20.26): speciesTotal is the LARGER of POWO and the journal's own species posts (user ruling - POWO is a floor while a genus is being built out, not a ceiling). speciesTotalPowo / speciesJournal carry both sources. Applied by 'apply-speciesTotal-max 8.20.26' over the 1.17.0 feed; build-genus-geo 1.18.0 computes the same rule at build time."
+ "note18": "1.18.0 (8.20.26): speciesTotal is the LARGER of POWO and the journal's own species posts (user ruling - POWO is a floor while a genus is being built out, not a ceiling). speciesTotalPowo / speciesJournal carry both sources. Applied by 'apply-speciesTotal-max 8.20.26' over the 1.17.0 feed; build-genus-geo 1.18.0 computes the same rule at build time.",
+ "note19": "1.19.0 (8.20.26): Furtadoa is sunk into Homalomena (POWO — it is one of the genus's seven heterotypic synonyms). Its empty genus entry is removed and Homalomena's speciesTotal moves 163 -> 177, POWO's current accepted figure, which already includes Homalomena indrae, H. mixta and H. sumatrensis. It is not 163 + 3. Matches phylogeny-tree DATA 1.37.0."
 }
