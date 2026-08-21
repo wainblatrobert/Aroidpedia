@@ -421,13 +421,13 @@
   },
   "Alocasia": {
    "places": 48,
-   "withClimate": 47,
-   "cover": 0.979,
+   "withClimate": 48,
+   "cover": 1.0,
    "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     0.472,
+     0.474,
      "rainforest"
     ],
     [
@@ -452,18 +452,18 @@
     ],
     [
      "B",
-     0.003,
+     0.002,
      "arid"
     ]
    ],
    "koppenFull": [
     [
      "Af",
-     0.472
+     0.474
     ],
     [
      "Cwa",
-     0.194
+     0.193
     ],
     [
      "Aw",
@@ -501,11 +501,11 @@
    "zones": [
     [
      "Tropical Moist",
-     0.75
+     0.751
     ],
     [
      "Sub Tropical Moist",
-     0.241
+     0.24
     ],
     [
      "Warm Temperate Dry",
@@ -3367,28 +3367,28 @@
   },
   "Cyrtosperma": {
    "places": 16,
-   "withClimate": 14,
-   "cover": 0.875,
+   "withClimate": 15,
+   "cover": 0.938,
    "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     0.878,
+     0.89,
      "rainforest"
     ],
     [
      "Am",
-     0.061,
+     0.055,
      "monsoon"
     ],
     [
      "Cf",
-     0.042,
+     0.038,
      "temperate moist"
     ],
     [
      "Aw",
-     0.018,
+     0.016,
      "savanna"
     ],
     [
@@ -3400,19 +3400,19 @@
    "koppenFull": [
     [
      "Af",
-     0.878
+     0.89
     ],
     [
      "Am",
-     0.061
+     0.055
     ],
     [
      "Cfb",
-     0.042
+     0.038
     ],
     [
      "Aw",
-     0.018
+     0.016
     ],
     [
      "Cwb",
@@ -3422,39 +3422,39 @@
    "zones": [
     [
      "Tropical Moist",
-     0.917
+     0.926
     ],
     [
      "Sub Tropical Moist",
-     0.083
+     0.074
     ]
    ],
    "show": true
   },
   "Dieffenbachia": {
    "places": 36,
-   "withClimate": 35,
-   "cover": 0.972,
+   "withClimate": 36,
+   "cover": 1.0,
    "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     0.37,
+     0.368,
      "rainforest"
     ],
     [
      "Am",
-     0.363,
+     0.36,
      "monsoon"
     ],
     [
      "Aw",
-     0.213,
+     0.219,
      "savanna"
     ],
     [
      "Cf",
-     0.043,
+     0.042,
      "temperate moist"
     ],
     [
@@ -3476,15 +3476,15 @@
    "koppenFull": [
     [
      "Af",
-     0.37
+     0.368
     ],
     [
      "Am",
-     0.363
+     0.36
     ],
     [
      "Aw",
-     0.213
+     0.219
     ],
     [
      "Cfa",
@@ -3514,7 +3514,7 @@
    "zones": [
     [
      "Tropical Moist",
-     0.907
+     0.908
     ],
     [
      "Sub Tropical Moist",
@@ -3967,60 +3967,60 @@
   },
   "Epipremnum": {
    "places": 39,
-   "withClimate": 38,
-   "cover": 0.974,
+   "withClimate": 39,
+   "cover": 1.0,
    "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     0.544,
+     0.559,
      "rainforest"
     ],
     [
      "Aw",
-     0.191,
+     0.185,
      "savanna"
     ],
     [
      "Cw",
-     0.121,
+     0.117,
      "winter-dry temperate"
     ],
     [
      "Am",
-     0.099,
+     0.095,
      "monsoon"
     ],
     [
      "Cf",
-     0.045,
+     0.044,
      "temperate moist"
     ]
    ],
    "koppenFull": [
     [
      "Af",
-     0.544
+     0.559
     ],
     [
      "Aw",
-     0.191
+     0.185
     ],
     [
      "Cwa",
-     0.12
+     0.116
     ],
     [
      "Am",
-     0.099
+     0.095
     ],
     [
      "Cfa",
-     0.036
+     0.034
     ],
     [
      "Cfb",
-     0.01
+     0.009
     ],
     [
      "Cwb",
@@ -4030,11 +4030,11 @@
    "zones": [
     [
      "Tropical Moist",
-     0.732
+     0.741
     ],
     [
      "Sub Tropical Moist",
-     0.268
+     0.259
     ]
    ],
    "show": true
@@ -4885,28 +4885,28 @@
   },
   "Homalomena": {
    "places": 26,
-   "withClimate": 25,
-   "cover": 0.962,
+   "withClimate": 26,
+   "cover": 1.0,
    "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     0.712,
+     0.715,
      "rainforest"
     ],
     [
      "Aw",
-     0.111,
+     0.11,
      "savanna"
     ],
     [
      "Cw",
-     0.084,
+     0.083,
      "winter-dry temperate"
     ],
     [
      "Am",
-     0.077,
+     0.076,
      "monsoon"
     ],
     [
@@ -4918,19 +4918,19 @@
    "koppenFull": [
     [
      "Af",
-     0.712
+     0.715
     ],
     [
      "Aw",
-     0.111
+     0.11
     ],
     [
      "Cwa",
-     0.083
+     0.082
     ],
     [
      "Am",
-     0.077
+     0.076
     ],
     [
      "Cfb",
@@ -4948,11 +4948,11 @@
    "zones": [
     [
      "Tropical Moist",
-     0.892
+     0.893
     ],
     [
      "Sub Tropical Moist",
-     0.108
+     0.107
     ]
    ],
    "show": true
@@ -5670,13 +5670,13 @@
   },
   "Lemna": {
    "places": 306,
-   "withClimate": 304,
-   "cover": 0.993,
+   "withClimate": 305,
+   "cover": 0.997,
    "variant": "warmMoist",
    "koppen": [
     [
      "D",
-     0.299,
+     0.298,
      "cold"
     ],
     [
@@ -5686,12 +5686,12 @@
     ],
     [
      "B",
-     0.138,
+     0.137,
      "arid"
     ],
     [
      "Aw",
-     0.126,
+     0.128,
      "savanna"
     ],
     [
@@ -5731,7 +5731,7 @@
     ],
     [
      "Aw",
-     0.126
+     0.128
     ],
     [
      "Dfa",
@@ -5759,7 +5759,7 @@
     ],
     [
      "BSk",
-     0.043
+     0.042
     ],
     [
      "Csa",
@@ -5783,7 +5783,7 @@
     ],
     [
      "Dwc",
-     0.013
+     0.012
     ],
     [
      "BWk",
@@ -5837,11 +5837,11 @@
     ],
     [
      "Tropical Moist",
-     0.167
+     0.168
     ],
     [
      "Sub Tropical Moist",
-     0.143
+     0.142
     ],
     [
      "Warm Temperate Dry",
@@ -6756,23 +6756,23 @@
   },
   "Philodendron": {
    "places": 40,
-   "withClimate": 38,
-   "cover": 0.95,
+   "withClimate": 39,
+   "cover": 0.975,
    "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     0.382,
+     0.381,
      "rainforest"
     ],
     [
      "Am",
-     0.299,
+     0.298,
      "monsoon"
     ],
     [
      "Aw",
-     0.251,
+     0.253,
      "savanna"
     ],
     [
@@ -6799,15 +6799,15 @@
    "koppenFull": [
     [
      "Af",
-     0.382
+     0.381
     ],
     [
      "Am",
-     0.299
+     0.298
     ],
     [
      "Aw",
-     0.251
+     0.253
     ],
     [
      "Cfa",
@@ -6837,7 +6837,7 @@
    "zones": [
     [
      "Tropical Moist",
-     0.877
+     0.878
     ],
     [
      "Sub Tropical Moist",
@@ -7426,38 +7426,38 @@
   },
   "Pothos": {
    "places": 37,
-   "withClimate": 36,
-   "cover": 0.973,
+   "withClimate": 37,
+   "cover": 1.0,
    "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     0.445,
+     0.459,
      "rainforest"
     ],
     [
      "Aw",
-     0.209,
+     0.204,
      "savanna"
     ],
     [
      "Cw",
-     0.195,
+     0.19,
      "winter-dry temperate"
     ],
     [
      "Am",
-     0.108,
+     0.105,
      "monsoon"
     ],
     [
      "Cf",
-     0.028,
+     0.027,
      "temperate moist"
     ],
     [
      "B",
-     0.008,
+     0.007,
      "arid"
     ],
     [
@@ -7474,19 +7474,19 @@
    "koppenFull": [
     [
      "Af",
-     0.445
+     0.459
     ],
     [
      "Aw",
-     0.209
+     0.204
     ],
     [
      "Cwa",
-     0.19
+     0.185
     ],
     [
      "Am",
-     0.108
+     0.105
     ],
     [
      "Cfa",
@@ -7494,7 +7494,7 @@
     ],
     [
      "Cfb",
-     0.01
+     0.009
     ],
     [
      "ET",
@@ -7528,15 +7528,15 @@
    "zones": [
     [
      "Tropical Moist",
-     0.719
+     0.726
     ],
     [
      "Sub Tropical Moist",
-     0.263
+     0.256
     ],
     [
      "Polar Dry",
-     0.013
+     0.012
     ],
     [
      "Warm Temperate Dry",
@@ -7851,33 +7851,33 @@
   },
   "Rhaphidophora": {
    "places": 56,
-   "withClimate": 55,
-   "cover": 0.982,
+   "withClimate": 56,
+   "cover": 1.0,
    "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     0.422,
+     0.434,
      "rainforest"
     ],
     [
      "Aw",
-     0.217,
+     0.213,
      "savanna"
     ],
     [
      "Cw",
-     0.195,
+     0.19,
      "winter-dry temperate"
     ],
     [
      "Am",
-     0.119,
+     0.117,
      "monsoon"
     ],
     [
      "Cf",
-     0.03,
+     0.029,
      "temperate moist"
     ],
     [
@@ -7899,23 +7899,23 @@
    "koppenFull": [
     [
      "Af",
-     0.422
+     0.434
     ],
     [
      "Aw",
-     0.217
+     0.213
     ],
     [
      "Cwa",
-     0.191
+     0.187
     ],
     [
      "Am",
-     0.119
+     0.117
     ],
     [
      "Cfa",
-     0.018
+     0.017
     ],
     [
      "Cfb",
@@ -7944,24 +7944,20 @@
     [
      "Dwc",
      0.001
-    ],
-    [
-     "BWh",
-     0.001
     ]
    ],
    "zones": [
     [
      "Tropical Moist",
-     0.692
+     0.699
     ],
     [
      "Sub Tropical Moist",
-     0.289
+     0.283
     ],
     [
      "Polar Dry",
-     0.015
+     0.014
     ],
     [
      "Warm Temperate Dry",
@@ -8341,13 +8337,13 @@
   },
   "Schismatoglottis": {
    "places": 18,
-   "withClimate": 17,
-   "cover": 0.944,
+   "withClimate": 18,
+   "cover": 1.0,
    "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     0.832,
+     0.833,
      "rainforest"
     ],
     [
@@ -8362,7 +8358,7 @@
     ],
     [
      "Cw",
-     0.03,
+     0.029,
      "winter-dry temperate"
     ],
     [
@@ -8374,7 +8370,7 @@
    "koppenFull": [
     [
      "Af",
-     0.832
+     0.833
     ],
     [
      "Am",
@@ -8386,7 +8382,7 @@
     ],
     [
      "Cwa",
-     0.028
+     0.027
     ],
     [
      "Cfb",
@@ -8404,11 +8400,11 @@
    "zones": [
     [
      "Tropical Moist",
-     0.939
+     0.94
     ],
     [
      "Sub Tropical Moist",
-     0.061
+     0.06
     ]
    ],
    "show": true
@@ -8485,52 +8481,52 @@
   },
   "Scindapsus": {
    "places": 26,
-   "withClimate": 25,
-   "cover": 0.962,
+   "withClimate": 26,
+   "cover": 1.0,
    "variant": "warmMoist",
    "koppen": [
     [
      "Af",
-     0.553,
+     0.563,
      "rainforest"
     ],
     [
      "Aw",
-     0.2,
+     0.195,
      "savanna"
     ],
     [
      "Am",
-     0.128,
+     0.125,
      "monsoon"
     ],
     [
      "Cw",
-     0.108,
+     0.106,
      "winter-dry temperate"
     ],
     [
      "Cf",
-     0.011,
+     0.01,
      "temperate moist"
     ]
    ],
    "koppenFull": [
     [
      "Af",
-     0.553
+     0.563
     ],
     [
      "Aw",
-     0.2
+     0.195
     ],
     [
      "Am",
-     0.128
+     0.125
     ],
     [
      "Cwa",
-     0.104
+     0.102
     ],
     [
      "Cfb",
@@ -8548,11 +8544,11 @@
    "zones": [
     [
      "Tropical Moist",
-     0.871
+     0.874
     ],
     [
      "Sub Tropical Moist",
-     0.129
+     0.126
     ]
    ],
    "show": true
@@ -8690,23 +8686,23 @@
   },
   "Spathiphyllum": {
    "places": 31,
-   "withClimate": 29,
-   "cover": 0.935,
+   "withClimate": 30,
+   "cover": 0.968,
    "variant": "warmMoist",
    "koppen": [
     [
-     "Am",
-     0.345,
-     "monsoon"
-    ],
-    [
      "Af",
-     0.344,
+     0.352,
      "rainforest"
     ],
     [
+     "Am",
+     0.341,
+     "monsoon"
+    ],
+    [
      "Aw",
-     0.268,
+     0.264,
      "savanna"
     ],
     [
@@ -8732,16 +8728,16 @@
    ],
    "koppenFull": [
     [
-     "Am",
-     0.345
+     "Af",
+     0.352
     ],
     [
-     "Af",
-     0.344
+     "Am",
+     0.341
     ],
     [
      "Aw",
-     0.268
+     0.264
     ],
     [
      "Cfb",
@@ -8771,11 +8767,11 @@
    "zones": [
     [
      "Tropical Moist",
-     0.883
+     0.884
     ],
     [
      "Sub Tropical Moist",
-     0.117
+     0.116
     ]
    ],
    "show": true
