@@ -1,16 +1,16 @@
 {
   "species": 232,
   "cultivars": 53,
-  "hybrids": 150,
+  "hybrids": 151,
   "hybridCultivars": 9,
   "unclassified": 0,
   "genera": 2,
   "byGenus": {
     "Alocasia": {
-      "total": 330,
+      "total": 331,
       "species": 118,
       "cultivars": 53,
-      "hybrids": 150,
+      "hybrids": 151,
       "hybridCultivars": 9
     },
     "Amorphophallus": {
@@ -23,7 +23,7 @@
   },
   "byGenusGeo": {
     "Alocasia": {
-      "total": 330,
+      "total": 331,
       "placed": 159,
       "zones": {
         "asia": 158,
@@ -50,8 +50,8 @@
       "Princeps": 8,
       "Macrorrhizos": 5,
       "Longiloba": 3,
-      "Other": 3,
       "Puber": 3,
+      "Other": 2,
       "Coriaceae": 1
     }
   },
@@ -61,17 +61,33 @@
     "unclassifiedItems": []
   },
   "unresolvedTags": {
+    "Eastern-GH": 1,
+    "Ashanti": 1,
+    "Greater Accra": 1,
+    "Volta": 1,
+    "Central-GH": 1,
+    "Brong-Ahafo": 1,
+    "Cascades": 1,
+    "Hauts-Bassins": 1,
+    "Savanes-CI": 1,
+    "Zanzan": 1,
+    "Nzérékoré": 1,
+    "Gbarpolu": 1,
+    "Nimba": 1,
+    "Lagunes": 1,
+    "Haut-Sassandra": 1,
+    "Marahoué": 1,
     "Sumatra ?": 1,
     "Myanmar ?": 1,
     "Angola?": 1,
-    "Apayo": 1,
+    "North Kivu": 1,
+    "Cavally": 1,
+    "Sinoe": 1,
     "Dinagat Islands": 1,
     "Kalimantan?": 1,
-    "South Sumatra?": 1,
-    "South Kalimantan?": 1,
-    "Siem Riep": 1
+    "South Sumatra?": 1
   },
-  "updatedAt": "2026-08-20T08:51:53.219Z",
+  "updatedAt": "2026-08-21T08:53:36.807Z",
   "source": "https://www.aroidpedia.com/journal",
-  "totalItemsScanned": 444
+  "totalItemsScanned": 445
 }
