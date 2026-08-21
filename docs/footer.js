@@ -5149,10 +5149,6 @@ var GENERA = [
     {key:"description",label:"Description",         alt:["SPECIES DESCRIPTION","CULTIVAR DESCRIPTION","DESCRIPTION","PLANT DESCRIPTION","MORPHOLOGY"]},
     {key:"inflorescence",label:"Inflorescence",     alt:["INFLORESCENCE","FLOWER","FLOWERS","INFLORESCENCE & FLOWERS"]},
     {key:"variegated",label:"Variegated forms",     alt:["VARIEGATED FORMS","VARIEGATION","VARIEGATES"]},
-    /* v120: PROPAGATION - the new sheet column seeded from the JLBG
-       leaf-petiole-cutting trials (2004-06). User ruling 8.20.26: sits
-       BEFORE ETYMOLOGY; the citation rides References, not the prose. */
-    {key:"propagation", label:"Propagation",       alt:["PROPAGATION","PROPAGATION NOTES"]},
     {key:"etymology", label:"Etymology",            alt:["ETYMOLOGY","NAME"]},
     {key:"notes",     label:"Notes",                alt:["NOTES","NOTE","REMARKS","BACKGROUND","HISTORY"]},
     /* v72: THE STORY - a feature narrative, lifted out of the body and
@@ -7304,15 +7300,44 @@ var GENERA = [
       });
     }
 
-    /* point localities (Himalaya today) that have no polygon */
+    /* point localities that have no polygon — Alabat, Himalaya and
+       Gilbert Is. today (the comment used to say "Himalaya today"). */
     hits.forEach(function(name){
       var dot = data.dots && data.dots[name];
       if (!dot) return;
       var c = document.createElementNS(NS,"circle");
-      c.setAttribute("cx", dot[0]); c.setAttribute("cy", -dot[1]); c.setAttribute("r", 1.4);
+      c.setAttribute("cx", dot[0]); c.setAttribute("cy", -dot[1]);
+      /* r is set by sizeDots() below — see the note there. */
       c.setAttribute("class", doubtful[name] ? "apsc-dot apsc-dot--doubtful" : "apsc-dot");
+      /* v120: it never carried a name, so it had no hover text and
+         nothing for assistive tech. */
+      var dttl = document.createElementNS(NS, "title");
+      dttl.textContent = name;
+      c.appendChild(dttl);
       svg.appendChild(c);
     });
+    /* ⚠⚠ v120: A CIRCLE'S r IS IN USER UNITS — DEGREES HERE — so a
+       fixed radius renders at a size that depends entirely on the
+       zoom. r=1.4 was ~3px on the world map and a 34px blob on
+       zebrina's 25°-wide view, covering ~310 km of ocean and the
+       province underneath. Scale it to the viewBox instead, and
+       recompute on EVERY viewBox change, because the map zooms and
+       pans. 0.0037 = 1.4 / 379.4, i.e. exactly the world-map look,
+       now held at every zoom rather than at one. */
+    function sizeDots(){
+      /* NO REGEX HERE ON PURPOSE. This line was written as split(/\s+/)
+         and a heredoc ate the backslash, leaving split(/s+/) - which
+         splits on the letter "s", found nothing, returned one element
+         and silently early-returned so no dot ever got a radius. The
+         viewBox is always written by us as join(" "), so a plain space
+         split is both correct and un-manglable. */
+      var vb = String(svg.getAttribute("viewBox") || "").trim().split(" ")
+        .filter(function(x){ return x !== ""; }).map(Number);
+      if (vb.length !== 4 || !(vb[2] > 0)) return;
+      var rr = (vb[2] * 0.0037).toFixed(4);
+      [].slice.call(svg.querySelectorAll("circle.apsc-dot"))
+        .forEach(function(c){ c.setAttribute("r", rr); });
+    }
 
     /* frame on the highlighted regions - AND on the context wash, which
        is the whole point of it: framing Kanchanaburi alone would show a
@@ -7346,6 +7371,7 @@ var GENERA = [
       zoom = [cx - w/2, cy - h/2, w, h];
     }
     svg.setAttribute("viewBox", zoom.join(" "));
+    sizeDots();
     svg.setAttribute("preserveAspectRatio","xMidYMid meet");
     svg.setAttribute("role","img");
     svg.setAttribute("aria-label","Distribution: " + hits.join(", "));
@@ -7358,8 +7384,11 @@ var GENERA = [
     var readout = el("div","apsc-map__hover");
     readout.setAttribute("aria-hidden","true");
     wrap.appendChild(readout);
+    /* ⚠ v120: "path" ALONE MISSED THE DOTS. A point locality draws as
+       a <circle>, which never matches closest("path"), so the readout
+       stayed blank over it even once it carried a title. */
     function nameAt(t){
-      var p = t && t.closest ? t.closest("path") : null;
+      var p = t && t.closest ? (t.closest("path") || t.closest("circle.apsc-dot")) : null;
       if (!p) return null;
       var ttl = p.querySelector("title");
       return ttl ? ttl.textContent : null;
@@ -7372,8 +7401,13 @@ var GENERA = [
     }
     svg.addEventListener("mouseover", function(e){
       var p = e.target.closest ? e.target.closest("path") : null;
+      /* v120: a point locality draws as a CIRCLE, which never matches
+         closest("path") - the readout stayed blank over Alabat. */
+      if (!p && e.target.closest) p = e.target.closest("circle.apsc-dot");
       var cls = p ? (p.getAttribute("class") || "") : "";
-      show(nameAt(e.target), /\bapsc-on\b/.test(cls), /apsc-on--doubtful/.test(cls));
+      /* a dot IS a record, so it reads "recorded here" like a lit shape */
+      show(nameAt(e.target), /\bapsc-on\b/.test(cls) || /\bapsc-dot\b/.test(cls),
+           /apsc-on--doubtful|apsc-dot--doubtful/.test(cls));
     });
     svg.addEventListener("mouseleave", function(){ show(null); });
     /* touch: a tap names the region instead of doing nothing */
@@ -7391,7 +7425,7 @@ var GENERA = [
          + / - step around the CENTRE of whatever is on screen. */
       var CUR = zoom.slice();
       var MINW = Math.min(zoom[2], full[2]) / 40;   /* stop at ~40x in */
-      function setVB(){ svg.setAttribute("viewBox", CUR.join(" ")); syncBtns(); }
+      function setVB(){ svg.setAttribute("viewBox", CUR.join(" ")); sizeDots(); syncBtns(); }
       /* v93: zoom about an arbitrary point, so the wheel keeps whatever is
          under the cursor under the cursor. The buttons pass the centre and
          so behave exactly as before. */
