@@ -1,8 +1,9 @@
 {
- "version": "1.21.0",
+ "version": "1.22.0",
  "generated": "2026-08-22",
  "note18": "1.18.0 (8.20.26): speciesTotal is the LARGER of POWO and the journal’s own species posts (user ruling - POWO is a floor while a genus is being built out, not a ceiling); speciesTotalPowo keeps POWO’s own figure for the sources line.",
  "note19": "1.19.0 (8.20.26): Furtadoa is sunk into Homalomena (POWO; one of the genus’s seven heterotypic synonyms). Its empty genus entry is removed and Homalomena carries the merged range.",
+ "note22": "1.22.0 (8.21.26): FULL 155-genus rebuild (the builder defaulted to Amorphophallus alone, so every other genus carried 8.16 data); the refine gate walks the SUBUNITS chain shallow-first (POWO speaks L3, so three-tier chains - East Kalimantan under Kalimantan under Borneo - always failed the direct-parent test); a mojibake ALIAS literal made SWC emit a broken San Andres key; POWO respelled Panama with its accent.",
  "note21": "1.21.0 (8.21.26): tag spellings fold through the tables’ variants before the SUBUNITS filter, so an aliased tag (Dinagat Islands → Surigao del Norte) reaches the genus maps.",
  "note20": "1.20.0 (8.21.26): the SUBUNITS registry is now EVERY *-l4-table.json in the scripts folder, globbed - the hand-wired chain had quietly stopped at the 8.16 batches, so Cambodia, Madagascar, Brazil/Mexico, the West-Africa sweep, Borneo’s divisions, Taiwan, China and the Africa smalls never reached the genus maps (caught on johnsonii’s Subzones view). Subunit vocabulary 27 -> 93; Amorphophallus places 85 -> 151.",
  "source": "POWO/WCVP distribution API, native WGSRPD level-3 units + journal-tag subunit refinement (additive)",
@@ -67,6 +68,7 @@
     "Malawi": 2,
     "Sudan-South Sudan": 2,
     "Uganda": 2,
+    "Ilocos Norte": 2,
     "Chumphon": 2,
     "Nakhon Si Thammarat": 2,
     "Phangnga": 2,
@@ -76,6 +78,7 @@
     "Mali": 2,
     "Lop Buri": 2,
     "Kerala": 2,
+    "South Kalimantan": 2,
     "Satun": 2,
     "Nepal": 2,
     "Ninh Bình": 2,
@@ -96,6 +99,8 @@
     "Tak": 1,
     "Uthai Thani": 1,
     "Zambezi Region": 1,
+    "Apayao": 1,
+    "Cagayan": 1,
     "Prachuap Khiri Khan": 1,
     "Ratchaburi": 1,
     "Trat": 1,
@@ -113,9 +118,10 @@
     "Johor": 1,
     "Pahang": 1,
     "Selangor": 1,
+    "Camarines Norte": 1,
     "Panay": 1,
+    "Iloilo": 1,
     "Goa": 1,
-    "South Kalimantan": 1,
     "Bình Thuận": 1,
     "Palawan": 1,
     "Central Java": 1,
@@ -236,6 +242,9 @@
     "Somalia": "SOM",
     "Philippines": "PHI",
     "Luzon": "L4",
+    "Apayao": "L4",
+    "Cagayan": "L4",
+    "Ilocos Norte": "L4",
     "Chumphon": "L4",
     "Kanchanaburi": "L4",
     "Nakhon Si Thammarat": "L4",
@@ -280,6 +289,7 @@
     "Arunachal Pradesh": "L4",
     "India": "IND",
     "Kerala": "L4",
+    "South Kalimantan": "L4",
     "Peninsular Malaysia": "MLY",
     "Satun": "L4",
     "Johor": "L4",
@@ -292,14 +302,15 @@
     "Nepal": "NEP",
     "Vietnam": "VIE",
     "Ninh Bình": "L4",
+    "Camarines Norte": "L4",
     "Panay": "L4",
+    "Iloilo": "L4",
     "Chiang Mai": "L4",
     "China Southeast": "CHS",
     "Goa": "L4",
     "Karnataka": "L4",
     "Maharashtra": "L4",
     "Kalimantan": "L4",
-    "South Kalimantan": "L4",
     "Cambodia": "CBD",
     "Bình Thuận": "L4",
     "Kachin": "L4",
@@ -420,6 +431,9 @@
      "Zimbabwe"
     ],
     "adamsensis": [
+     "Apayao",
+     "Cagayan",
+     "Ilocos Norte",
      "Luzon",
      "Philippines"
     ],
@@ -564,7 +578,8 @@
      "Kerala"
     ],
     "borneensis": [
-     "Borneo"
+     "Borneo",
+     "South Kalimantan"
     ],
     "boyceanus": [
      "Peninsular Malaysia",
@@ -627,6 +642,7 @@
      "Andaman Islands"
     ],
     "caudatus": [
+     "Camarines Norte",
      "Luzon",
      "Philippines"
     ],
@@ -638,6 +654,7 @@
      "Thailand"
     ],
     "cidarioides": [
+     "Iloilo",
      "Panay",
      "Philippines"
     ],
@@ -788,6 +805,7 @@
      "Laos"
     ],
     "flammeus": [
+     "Ilocos Norte",
      "Luzon",
      "Philippines"
     ],
@@ -1547,9 +1565,14 @@
     "Malesia": {
      "count": 72,
      "members": [
+      "Apayao",
       "Borneo",
+      "Cagayan",
+      "Camarines Norte",
       "Central Java",
       "East Java",
+      "Ilocos Norte",
+      "Iloilo",
       "Jambi",
       "Java",
       "Johor",
@@ -1564,9 +1587,12 @@
       "Peninsular Malaysia",
       "Perak",
       "Philippines",
+      "Quezon",
+      "Rizal",
       "Sabah",
       "Sarawak",
       "Selangor",
+      "South Kalimantan",
       "Southeast Sulawesi",
       "Sulawesi",
       "Sumatra",
@@ -1742,6 +1768,7 @@
      "members": [
       "Andaman Islands",
       "Andhra Pradesh",
+      "Apayao",
       "Arunachal Pradesh",
       "Assam",
       "Bangladesh",
@@ -1749,6 +1776,8 @@
       "Borneo",
       "Bà Rịa - Vũng Tàu",
       "Bình Thuận",
+      "Cagayan",
+      "Camarines Norte",
       "Cambodia",
       "Central Java",
       "Chiang Mai",
@@ -1758,6 +1787,8 @@
       "East Java",
       "Gia Lai",
       "Goa",
+      "Ilocos Norte",
+      "Iloilo",
       "India",
       "Jambi",
       "Java",
@@ -1797,16 +1828,19 @@
       "Phuket",
       "Prachin Buri",
       "Prachuap Khiri Khan",
+      "Quezon",
       "Quảng Ngãi",
       "Quảng Trị",
       "Ranong",
       "Ratchaburi",
+      "Rizal",
       "Sa Kaeo",
       "Sabah",
       "Saraburi",
       "Sarawak",
       "Satun",
       "Selangor",
+      "South Kalimantan",
       "Southeast Sulawesi",
       "Sri Lanka",
       "Sulawesi",
@@ -1940,6 +1974,8 @@
   },
   "Adelonema": {
    "speciesTotal": 16,
+   "speciesTotalPowo": 16,
+   "speciesJournal": 0,
    "places": {
     "Colombia": 11,
     "Ecuador": 6,
@@ -2091,12 +2127,12 @@
       "Suriname"
      ]
     }
-   },
-   "speciesTotalPowo": 16,
-   "speciesJournal": 0
+   }
   },
   "Aglaodorum": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "Borneo": 1,
     "Cambodia": 1,
@@ -2127,20 +2163,20 @@
    },
    "doubtfulSpecies": {},
    "regions": {
-    "Malesia": {
-     "count": 1,
-     "members": [
-      "Borneo",
-      "Peninsular Malaysia",
-      "Sumatra"
-     ]
-    },
     "Indo-China": {
      "count": 1,
      "members": [
       "Cambodia",
       "Thailand",
       "Vietnam"
+     ]
+    },
+    "Malesia": {
+     "count": 1,
+     "members": [
+      "Borneo",
+      "Peninsular Malaysia",
+      "Sumatra"
      ]
     }
    },
@@ -2160,12 +2196,12 @@
       "Vietnam"
      ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Aglaonema": {
    "speciesTotal": 26,
+   "speciesTotalPowo": 26,
+   "speciesJournal": 0,
    "places": {
     "Thailand": 9,
     "Myanmar": 7,
@@ -2453,12 +2489,12 @@
       "China Southeast"
      ]
     }
-   },
-   "speciesTotalPowo": 26,
-   "speciesJournal": 0
+   }
   },
   "Aia": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "Borneo": 1
    },
@@ -2491,12 +2527,12 @@
       "Borneo"
      ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Alloschemone": {
    "speciesTotal": 2,
+   "speciesTotalPowo": 2,
+   "speciesJournal": 0,
    "places": {
     "Brazil North": 2,
     "Bolivia": 1
@@ -2543,63 +2579,148 @@
       "Brazil North"
      ]
     }
-   },
-   "speciesTotalPowo": 2,
-   "speciesJournal": 0
+   }
   },
   "Alocasia": {
    "speciesTotal": 118,
+   "speciesTotalPowo": 91,
+   "speciesJournal": 118,
    "places": {
     "Borneo": 27,
+    "Sarawak": 16,
     "New Guinea": 15,
     "Philippines": 15,
     "Vietnam": 13,
-    "Papua New Guinea": 13,
+    "Papua New Guinea": 12,
     "Bangladesh": 10,
     "Myanmar": 10,
+    "Sabah": 10,
     "Thailand": 9,
+    "Luzon": 9,
+    "Mindanao": 9,
     "Assam": 8,
+    "Brunei": 8,
     "Sulawesi": 7,
+    "Kalimantan": 7,
     "China South-Central": 6,
     "Laos": 6,
+    "Madang": 6,
+    "Morobe": 6,
     "Sumatra": 6,
-    "Sarawak": 6,
-    "Sabah": 6,
+    "East Sepik": 5,
     "Java": 5,
     "East Himalaya": 5,
+    "Leyte": 5,
     "India": 5,
     "Peninsular Malaysia": 5,
     "Yunnan": 4,
     "Bismarck Archipelago": 4,
-    "Brunei": 4,
+    "Samar": 4,
     "Hainan": 4,
+    "Panay": 4,
     "Cambodia": 4,
+    "Laguna": 4,
+    "Papua": 3,
+    "Central Province": 3,
+    "West New Britain": 3,
     "Lesser Sunda Islands": 3,
+    "West Java": 3,
+    "West Sumatra": 3,
+    "East Kalimantan": 3,
     "China Southeast": 3,
-    "Kalimantan": 3,
+    "Sorsogon": 3,
+    "Quezon": 3,
+    "Rizal": 3,
+    "Perak": 3,
+    "Central Kalimantan": 3,
     "Nepal": 2,
+    "East New Britain": 2,
+    "Milne Bay": 2,
     "Nansei-shoto": 2,
+    "Ifugao": 2,
+    "North Sulawesi": 2,
+    "Negros Oriental": 2,
     "Maluku": 2,
+    "West Papua": 2,
+    "Gulf Province": 2,
+    "Sandaun": 2,
+    "Western Province": 2,
     "Queensland": 2,
+    "Agusan del Norte": 2,
+    "Surigao del Norte": 2,
     "Sri Lanka": 2,
     "Taiwan": 2,
+    "Palawan": 2,
+    "Capiz": 2,
+    "Kelantan": 2,
+    "Central Java": 2,
+    "Pahang": 2,
+    "Selangor": 2,
+    "Southern Highlands": 2,
+    "Eastern Highlands": 2,
+    "Antique": 2,
+    "West Kalimantan": 2,
+    "Chiang Mai": 1,
+    "Khon Kaen": 1,
+    "Phrae": 1,
     "Bali": 1,
     "Lombok": 1,
+    "Aceh": 1,
+    "Lampung": 1,
+    "Mountain Province": 1,
+    "Gorontalo": 1,
+    "South Sulawesi": 1,
+    "Cebu": 1,
+    "Bataan": 1,
     "New South Wales": 1,
+    "Agusan del Sur": 1,
     "West Himalaya": 1,
+    "Basilan": 1,
+    "Sulu": 1,
+    "Isabela": 1,
     "Andaman Islands": 1,
     "Nicobar": 1,
+    "Lạng Sơn": 1,
+    "Tanintharyi": 1,
+    "Bình Thuận": 1,
+    "Lâm Đồng": 1,
+    "Quảng Trị": 1,
+    "Meghalaya": 1,
+    "Sikkim": 1,
+    "Manipur": 1,
+    "Mizoram": 1,
+    "Tripura": 1,
+    "Pangasinan": 1,
+    "Zambales": 1,
+    "Chanthaburi": 1,
     "Lakshadweep": 1,
+    "South Sumatra": 1,
+    "Siem Reap": 1,
+    "Jambi": 1,
     "Solomon Is.": 1,
+    "Central Sulawesi": 1,
+    "Benguet": 1,
+    "Chimbu": 1,
+    "Western Highlands": 1,
+    "Aklan": 1,
     "Japan": 1,
+    "Negeri Sembilan": 1,
+    "Yala": 1,
+    "South Kalimantan": 1,
+    "Banten": 1,
+    "Jakarta": 1,
+    "Johor": 1,
+    "Terengganu": 1,
+    "Camarines Sur": 1,
+    "Sakon Nakhon": 1,
+    "Surigao del Sur": 1,
+    "Southeast Sulawesi": 1,
+    "Đà Nẵng": 1,
     "Alabat": 1,
-    "Biliran": 1,
-    "Leyte": 1,
-    "Luzon": 1,
-    "Mindanao": 1,
-    "Samar": 1
+    "Biliran": 1
    },
    "doubtful": {
+    "South Kalimantan": 1,
     "Kalimantan": 1
    },
    "introduced": {
@@ -2682,26 +2803,60 @@
     "Nepal": "NEP",
     "Thailand": "THA",
     "Vietnam": "VIE",
+    "Chiang Mai": "L4",
+    "Khon Kaen": "L4",
+    "Phrae": "L4",
     "Yunnan": "L4",
     "Bismarck Archipelago": "BIS",
     "New Guinea": "NWG",
+    "Papua": "L4",
+    "Central Province": "L4",
+    "East New Britain": "L4",
+    "East Sepik": "L4",
+    "Madang": "L4",
+    "Milne Bay": "L4",
+    "Morobe": "L4",
+    "West New Britain": "L4",
     "Java": "JAW",
     "Lesser Sunda Islands": "LSI",
     "Sumatra": "SUM",
     "Bali": "L4",
     "Lombok": "L4",
+    "West Java": "L4",
+    "Aceh": "L4",
+    "Lampung": "L4",
+    "West Sumatra": "L4",
     "Nansei-shoto": "NNS",
     "Philippines": "PHI",
+    "Luzon": "L4",
+    "Ifugao": "L4",
+    "Mountain Province": "L4",
     "Borneo": "BOR",
     "Brunei": "L4",
+    "East Kalimantan": "L4",
     "Sulawesi": "SUL",
+    "Gorontalo": "L4",
+    "North Sulawesi": "L4",
+    "South Sulawesi": "L4",
+    "Sarawak": "L4",
     "Papua New Guinea": "L4",
+    "Cebu": "L4",
+    "Mindanao": "L4",
+    "Negros Oriental": "L4",
+    "Bataan": "L4",
     "Maluku": "MOL",
+    "West Papua": "L4",
+    "Gulf Province": "L4",
+    "Sandaun": "L4",
+    "Western Province": "L4",
     "New South Wales": "NSW",
     "Queensland": "QLD",
     "Kermadec Is.": "KER",
     "New Zealand North": "NZN",
-    "Sarawak": "L4",
+    "Samar": "L4",
+    "Agusan del Norte": "L4",
+    "Agusan del Sur": "L4",
+    "Surigao del Norte": "L4",
     "China Southeast": "CHS",
     "East Himalaya": "EHM",
     "Hainan": "CHH",
@@ -2717,13 +2872,46 @@
     "Tubuai Is.": "TUB",
     "Vanuatu": "VAN",
     "Windward Is.": "WIN",
+    "Basilan": "L4",
+    "Leyte": "L4",
+    "Palawan": "L4",
+    "Panay": "L4",
+    "Sulu": "L4",
+    "Capiz": "L4",
+    "Isabela": "L4",
+    "Sorsogon": "L4",
+    "Kalimantan": "L4",
     "Sabah": "L4",
     "Andaman Islands": "AND",
     "India": "IND",
     "Nicobar": "NCB",
+    "Lạng Sơn": "L4",
+    "Tanintharyi": "L4",
     "Cambodia": "CBD",
+    "Bình Thuận": "L4",
+    "Lâm Đồng": "L4",
+    "Quảng Trị": "L4",
+    "Meghalaya": "L4",
+    "Sikkim": "L4",
     "Peninsular Malaysia": "MLY",
+    "Kelantan": "L4",
+    "Central Java": "L4",
+    "Manipur": "L4",
+    "Mizoram": "L4",
+    "Tripura": "L4",
+    "Pangasinan": "L4",
+    "Quezon": "L4",
+    "Rizal": "L4",
+    "Zambales": "L4",
+    "Chanthaburi": "L4",
     "Lakshadweep": "LDV",
+    "Pahang": "L4",
+    "Perak": "L4",
+    "Selangor": "L4",
+    "South Sumatra": "L4",
+    "Siem Reap": "L4",
+    "Jambi": "L4",
+    "Southern Highlands": "L4",
     "Solomon Is.": "SOL",
     "Arkansas": "ARK",
     "Brazil Northeast": "BZE",
@@ -2762,43 +2950,78 @@
     "Tuamotu": "TUA",
     "Venezuela": "VEN",
     "Venezuelan Antilles": "VNA",
+    "Laguna": "L4",
+    "Central Sulawesi": "L4",
+    "Benguet": "L4",
+    "Eastern Highlands": "L4",
+    "Chimbu": "L4",
+    "Western Highlands": "L4",
+    "Aklan": "L4",
+    "Antique": "L4",
     "Ascension": "ASC",
     "Spain": "SPA",
-    "Kalimantan": "L4",
+    "Central Kalimantan": "L4",
+    "Negeri Sembilan": "L4",
+    "Yala": "L4",
+    "South Kalimantan": "L4",
+    "West Kalimantan": "L4",
+    "Banten": "L4",
+    "Jakarta": "L4",
+    "Johor": "L4",
+    "Terengganu": "L4",
+    "Camarines Sur": "L4",
+    "Sakon Nakhon": "L4",
+    "Surigao del Sur": "L4",
+    "Southeast Sulawesi": "L4",
+    "Đà Nẵng": "L4",
     "Alabat": "L4",
-    "Biliran": "L4",
-    "Leyte": "L4",
-    "Luzon": "L4",
-    "Mindanao": "L4",
-    "Samar": "L4"
+    "Biliran": "L4"
    },
    "speciesPlaces": {
     "acuminata": [
      "Assam",
      "Bangladesh",
+     "Chiang Mai",
      "China South-Central",
+     "Khon Kaen",
      "Laos",
      "Myanmar",
      "Nepal",
+     "Phrae",
      "Thailand",
      "Vietnam",
      "Yunnan"
     ],
     "aequiloba": [
      "Bismarck Archipelago",
-     "New Guinea"
+     "Central Province",
+     "East New Britain",
+     "East Sepik",
+     "Madang",
+     "Milne Bay",
+     "Morobe",
+     "New Guinea",
+     "Papua",
+     "West New Britain"
     ],
     "alba": [
      "Bali",
      "Java",
      "Lesser Sunda Islands",
      "Lombok",
-     "Sumatra"
+     "Sumatra",
+     "West Java"
     ],
     "arifolia": [
-     "Sumatra"
+     "Aceh",
+     "Lampung",
+     "Sumatra",
+     "West Sumatra"
     ],
     "atropurpurea": [
+     "Ifugao",
+     "Luzon",
+     "Mountain Province",
      "Nansei-shoto",
      "Philippines"
     ],
@@ -2810,25 +3033,41 @@
      "Brunei"
     ],
     "baginda": [
-     "Borneo"
+     "Borneo",
+     "East Kalimantan"
     ],
     "balgooyi": [
+     "Gorontalo",
+     "North Sulawesi",
+     "South Sulawesi",
      "Sulawesi"
     ],
     "beccarii": [
-     "Borneo"
+     "Borneo",
+     "Brunei",
+     "Sarawak"
     ],
     "boa": [
      "New Guinea",
      "Papua New Guinea"
     ],
     "boyceana": [
+     "Bataan",
+     "Cebu",
+     "Luzon",
+     "Mindanao",
+     "Negros Oriental",
      "Philippines"
     ],
     "brancifolia": [
+     "Gulf Province",
+     "Madang",
      "Maluku",
      "New Guinea",
-     "Papua New Guinea"
+     "Papua",
+     "Sandaun",
+     "West Papua",
+     "Western Province"
     ],
     "brisbanensis": [
      "New South Wales",
@@ -2845,8 +3084,13 @@
      "Sarawak"
     ],
     "clypeolata": [
+     "Agusan del Norte",
+     "Agusan del Sur",
      "Lesser Sunda Islands",
-     "Philippines"
+     "Mindanao",
+     "Philippines",
+     "Samar",
+     "Surigao del Norte"
     ],
     "cucullata": [
      "Assam",
@@ -2864,10 +3108,21 @@
      "West Himalaya"
     ],
     "culionensis": [
-     "Philippines"
+     "Basilan",
+     "Capiz",
+     "Isabela",
+     "Leyte",
+     "Luzon",
+     "Mindanao",
+     "Palawan",
+     "Panay",
+     "Philippines",
+     "Sorsogon",
+     "Sulu"
     ],
     "cuprea": [
      "Borneo",
+     "Kalimantan",
      "Sabah",
      "Sarawak"
     ],
@@ -2880,33 +3135,48 @@
      "Nicobar"
     ],
     "decumbens": [
+     "Lạng Sơn",
      "Vietnam"
     ],
     "devansayana": [
+     "Madang",
      "New Guinea",
      "Papua New Guinea"
     ],
     "epilithica": [
-     "Myanmar"
+     "Myanmar",
+     "Tanintharyi"
     ],
     "evrardii": [
+     "Bình Thuận",
      "Cambodia",
+     "Lâm Đồng",
+     "Quảng Trị",
      "Vietnam"
     ],
     "fallax": [
      "Assam",
      "Bangladesh",
-     "East Himalaya"
+     "East Himalaya",
+     "Meghalaya",
+     "Sikkim"
     ],
     "farisii": [
+     "Kelantan",
      "Peninsular Malaysia"
     ],
     "flabellifera": [
+     "Central Province",
+     "East Sepik",
+     "Madang",
+     "Morobe",
      "New Guinea",
      "Papua New Guinea"
     ],
     "flemingiana": [
-     "Java"
+     "Central Java",
+     "Java",
+     "West Java"
     ],
     "fornicata": [
      "Assam",
@@ -2914,9 +3184,12 @@
      "East Himalaya",
      "India",
      "Laos",
+     "Manipur",
+     "Mizoram",
      "Myanmar",
      "Sri Lanka",
      "Thailand",
+     "Tripura",
      "Vietnam"
     ],
     "grata": [
@@ -2930,14 +3203,26 @@
      "Bangladesh"
     ],
     "heterophylla": [
-     "Philippines"
+     "Luzon",
+     "Mindanao",
+     "Pangasinan",
+     "Philippines",
+     "Quezon",
+     "Rizal",
+     "Zambales"
     ],
     "hollrungii": [
      "Bismarck Archipelago",
+     "East New Britain",
+     "East Sepik",
+     "Madang",
+     "Morobe",
      "New Guinea",
-     "Papua New Guinea"
+     "Papua New Guinea",
+     "West New Britain"
     ],
     "hypoleuca": [
+     "Chanthaburi",
      "Thailand"
     ],
     "indica": [
@@ -2951,26 +3236,46 @@
      "Vietnam"
     ],
     "infernalis": [
-     "Borneo"
+     "Borneo",
+     "Sarawak"
     ],
     "inornata": [
+     "Pahang",
      "Peninsular Malaysia",
-     "Sumatra"
+     "Perak",
+     "Selangor",
+     "South Sumatra",
+     "Sumatra",
+     "West Sumatra"
     ],
     "jiewhoei": [
-     "Cambodia"
+     "Cambodia",
+     "Siem Reap"
     ],
     "kerinciensis": [
-     "Sumatra"
+     "Jambi",
+     "Sumatra",
+     "West Sumatra"
     ],
     "lancifolia": [
+     "Central Province",
+     "East Sepik",
+     "Gulf Province",
+     "Madang",
      "New Guinea",
-     "Papua New Guinea"
+     "Papua",
+     "Papua New Guinea",
+     "Sandaun",
+     "Southern Highlands",
+     "West Papua",
+     "Western Province"
     ],
     "lauterbachiana": [
      "Bismarck Archipelago",
+     "East Sepik",
      "New Guinea",
-     "Papua New Guinea"
+     "Papua New Guinea",
+     "West New Britain"
     ],
     "lecomtei": [
      "Vietnam"
@@ -3004,21 +3309,39 @@
      "Sulawesi"
     ],
     "maquilingensis": [
-     "Philippines"
+     "Capiz",
+     "Laguna",
+     "Leyte",
+     "Luzon",
+     "Mindanao",
+     "Panay",
+     "Philippines",
+     "Sorsogon"
     ],
     "megawatiae": [
+     "Central Sulawesi",
      "Sulawesi"
     ],
     "melo": [
-     "Borneo"
+     "Borneo",
+     "Sabah"
     ],
     "micholitziana": [
-     "Philippines"
+     "Benguet",
+     "Ifugao",
+     "Laguna",
+     "Luzon",
+     "Philippines",
+     "Rizal"
     ],
     "minuscula": [
-     "Borneo"
+     "Borneo",
+     "Sarawak"
     ],
     "monticola": [
+     "Eastern Highlands",
+     "Milne Bay",
+     "Morobe",
      "New Guinea",
      "Papua New Guinea"
     ],
@@ -3035,13 +3358,22 @@
      "Yunnan"
     ],
     "nebula": [
-     "Borneo"
+     "Borneo",
+     "Sarawak"
     ],
     "nicolsonii": [
+     "Chimbu",
+     "Eastern Highlands",
+     "Morobe",
      "New Guinea",
-     "Papua New Guinea"
+     "Papua New Guinea",
+     "Southern Highlands",
+     "Western Highlands"
     ],
     "nycteris": [
+     "Aklan",
+     "Antique",
+     "Panay",
      "Philippines"
     ],
     "odora": [
@@ -3069,29 +3401,52 @@
     "peltata": [
      "Borneo",
      "Brunei",
+     "Central Kalimantan",
      "Kalimantan",
      "Sarawak"
     ],
     "perakensis": [
+     "Kelantan",
+     "Negeri Sembilan",
+     "Pahang",
      "Peninsular Malaysia",
-     "Thailand"
+     "Perak",
+     "Selangor",
+     "Thailand",
+     "Yala"
     ],
     "portei": [
+     "Laguna",
+     "Luzon",
      "Philippines"
     ],
     "princeps": [
      "Borneo",
-     "Brunei"
+     "Brunei",
+     "East Kalimantan",
+     "Kalimantan",
+     "Sabah",
+     "Sarawak",
+     "South Kalimantan",
+     "West Kalimantan"
     ],
     "principiculus": [
      "Borneo",
      "Brunei",
+     "East Kalimantan",
      "Kalimantan",
      "Sabah"
     ],
     "puber": [
+     "Banten",
+     "Central Java",
+     "Jakarta",
      "Java",
-     "Peninsular Malaysia"
+     "Johor",
+     "Peninsular Malaysia",
+     "Perak",
+     "Terengganu",
+     "West Java"
     ],
     "puncakborneensis": [
      "Borneo",
@@ -3102,14 +3457,26 @@
      "Sabah"
     ],
     "pyrospatha": [
+     "Morobe",
      "New Guinea",
      "Papua New Guinea"
     ],
     "ramosii": [
-     "Philippines"
+     "Antique",
+     "Camarines Sur",
+     "Laguna",
+     "Luzon",
+     "Negros Oriental",
+     "Panay",
+     "Philippines",
+     "Quezon",
+     "Rizal",
+     "Sorsogon"
     ],
     "reginae": [
      "Borneo",
+     "Brunei",
+     "Central Kalimantan",
      "Kalimantan",
      "Sarawak"
     ],
@@ -3117,24 +3484,32 @@
      "Borneo"
     ],
     "reversa": [
-     "Borneo"
+     "Borneo",
+     "Sarawak"
     ],
     "ridleyi": [
-     "Borneo"
+     "Borneo",
+     "Sarawak"
     ],
     "robusta": [
-     "Borneo"
+     "Borneo",
+     "Brunei",
+     "Kalimantan",
+     "Sabah",
+     "Sarawak"
     ],
     "rosea": [
      "Sumatra"
     ],
     "sakonakhonensis": [
+     "Sakon Nakhon",
      "Thailand"
     ],
     "salarkhanii": [
      "Bangladesh"
     ],
     "sanderiana": [
+     "Mindanao",
      "Philippines"
     ],
     "sarawakensis": [
@@ -3143,29 +3518,49 @@
      "Sarawak"
     ],
     "scabriuscula": [
-     "Borneo"
+     "Borneo",
+     "Brunei",
+     "Central Kalimantan",
+     "Kalimantan",
+     "Sabah",
+     "Sarawak",
+     "West Kalimantan"
     ],
     "scalprum": [
-     "Philippines"
+     "Agusan del Norte",
+     "Leyte",
+     "Mindanao",
+     "Philippines",
+     "Samar",
+     "Surigao del Norte",
+     "Surigao del Sur"
     ],
     "simonsiana": [
      "New Guinea",
      "Papua New Guinea"
     ],
     "sinuata": [
-     "Philippines"
+     "Leyte",
+     "Mindanao",
+     "Palawan",
+     "Philippines",
+     "Samar"
     ],
     "suhirmaniana": [
+     "Southeast Sulawesi",
      "Sulawesi"
     ],
     "tandurusa": [
+     "North Sulawesi",
      "Sulawesi"
     ],
     "venusta": [
-     "Borneo"
+     "Borneo",
+     "Sarawak"
     ],
     "vietnamensis": [
-     "Vietnam"
+     "Vietnam",
+     "Đà Nẵng"
     ],
     "wentii": [
      "New Guinea",
@@ -3186,10 +3581,14 @@
      "Luzon",
      "Mindanao",
      "Philippines",
+     "Quezon",
      "Samar"
     ]
    },
    "doubtfulSpecies": {
+    "South Kalimantan": [
+     "principiculus"
+    ],
     "Kalimantan": [
      "sarawakensis"
     ]
@@ -3198,47 +3597,126 @@
     "Malesia": {
      "count": 57,
      "members": [
+      "Aceh",
+      "Agusan del Norte",
+      "Agusan del Sur",
+      "Aklan",
       "Alabat",
+      "Antique",
       "Bali",
+      "Banten",
+      "Basilan",
+      "Bataan",
+      "Benguet",
       "Biliran",
       "Borneo",
       "Brunei",
+      "Camarines Sur",
+      "Capiz",
+      "Cebu",
+      "Central Java",
+      "Central Kalimantan",
+      "Central Sulawesi",
+      "East Kalimantan",
+      "Gorontalo",
+      "Ifugao",
+      "Isabela",
+      "Jakarta",
+      "Jambi",
       "Java",
+      "Johor",
       "Kalimantan",
+      "Kelantan",
+      "Laguna",
+      "Lampung",
       "Lesser Sunda Islands",
       "Leyte",
       "Lombok",
       "Luzon",
       "Maluku",
       "Mindanao",
+      "Mountain Province",
+      "Negeri Sembilan",
+      "Negros Oriental",
+      "North Sulawesi",
+      "Pahang",
+      "Palawan",
+      "Panay",
+      "Pangasinan",
       "Peninsular Malaysia",
+      "Perak",
       "Philippines",
+      "Quezon",
+      "Rizal",
       "Sabah",
       "Samar",
       "Sarawak",
+      "Selangor",
+      "Sorsogon",
+      "South Kalimantan",
+      "South Sulawesi",
+      "South Sumatra",
+      "Southeast Sulawesi",
       "Sulawesi",
-      "Sumatra"
+      "Sulu",
+      "Sumatra",
+      "Surigao del Norte",
+      "Surigao del Sur",
+      "Terengganu",
+      "West Java",
+      "West Kalimantan",
+      "West Sumatra",
+      "Zambales"
      ]
     },
     "Indo-China": {
      "count": 20,
      "members": [
       "Andaman Islands",
+      "Bình Thuận",
       "Cambodia",
+      "Chanthaburi",
+      "Chiang Mai",
+      "Khon Kaen",
       "Laos",
+      "Lâm Đồng",
+      "Lạng Sơn",
       "Myanmar",
       "Nicobar",
+      "Phrae",
+      "Quảng Trị",
+      "Sakon Nakhon",
+      "Siem Reap",
+      "Tanintharyi",
       "Thailand",
-      "Vietnam"
+      "Vietnam",
+      "Yala",
+      "Đà Nẵng"
      ]
     },
     "Papuasia": {
      "count": 15,
      "members": [
       "Bismarck Archipelago",
+      "Central Province",
+      "Chimbu",
+      "East New Britain",
+      "East Sepik",
+      "Eastern Highlands",
+      "Gulf Province",
+      "Madang",
+      "Milne Bay",
+      "Morobe",
       "New Guinea",
+      "Papua",
       "Papua New Guinea",
-      "Solomon Is."
+      "Sandaun",
+      "Solomon Is.",
+      "Southern Highlands",
+      "West New Britain",
+      "West Papua",
+      "Western Highlands",
+      "Western Province"
      ]
     },
     "Indian Subcontinent": {
@@ -3249,8 +3727,13 @@
       "East Himalaya",
       "India",
       "Lakshadweep",
+      "Manipur",
+      "Meghalaya",
+      "Mizoram",
       "Nepal",
+      "Sikkim",
       "Sri Lanka",
+      "Tripura",
       "West Himalaya"
      ]
     },
@@ -3289,45 +3772,129 @@
       "Papuasia"
      ],
      "members": [
+      "Aceh",
+      "Agusan del Norte",
+      "Agusan del Sur",
+      "Aklan",
       "Alabat",
       "Andaman Islands",
+      "Antique",
       "Assam",
       "Bali",
       "Bangladesh",
+      "Banten",
+      "Basilan",
+      "Bataan",
+      "Benguet",
       "Biliran",
       "Bismarck Archipelago",
       "Borneo",
       "Brunei",
+      "Bình Thuận",
+      "Camarines Sur",
       "Cambodia",
+      "Capiz",
+      "Cebu",
+      "Central Java",
+      "Central Kalimantan",
+      "Central Province",
+      "Central Sulawesi",
+      "Chanthaburi",
+      "Chiang Mai",
+      "Chimbu",
       "East Himalaya",
+      "East Kalimantan",
+      "East New Britain",
+      "East Sepik",
+      "Eastern Highlands",
+      "Gorontalo",
+      "Gulf Province",
+      "Ifugao",
       "India",
+      "Isabela",
+      "Jakarta",
+      "Jambi",
       "Java",
+      "Johor",
       "Kalimantan",
+      "Kelantan",
+      "Khon Kaen",
+      "Laguna",
       "Lakshadweep",
+      "Lampung",
       "Laos",
       "Lesser Sunda Islands",
       "Leyte",
       "Lombok",
       "Luzon",
+      "Lâm Đồng",
+      "Lạng Sơn",
+      "Madang",
       "Maluku",
+      "Manipur",
+      "Meghalaya",
+      "Milne Bay",
       "Mindanao",
+      "Mizoram",
+      "Morobe",
+      "Mountain Province",
       "Myanmar",
+      "Negeri Sembilan",
+      "Negros Oriental",
       "Nepal",
       "New Guinea",
       "Nicobar",
+      "North Sulawesi",
+      "Pahang",
+      "Palawan",
+      "Panay",
+      "Pangasinan",
+      "Papua",
       "Papua New Guinea",
       "Peninsular Malaysia",
+      "Perak",
       "Philippines",
+      "Phrae",
+      "Quezon",
+      "Quảng Trị",
+      "Rizal",
       "Sabah",
+      "Sakon Nakhon",
       "Samar",
+      "Sandaun",
       "Sarawak",
+      "Selangor",
+      "Siem Reap",
+      "Sikkim",
       "Solomon Is.",
+      "Sorsogon",
+      "South Kalimantan",
+      "South Sulawesi",
+      "South Sumatra",
+      "Southeast Sulawesi",
+      "Southern Highlands",
       "Sri Lanka",
       "Sulawesi",
+      "Sulu",
       "Sumatra",
+      "Surigao del Norte",
+      "Surigao del Sur",
+      "Tanintharyi",
+      "Terengganu",
       "Thailand",
+      "Tripura",
       "Vietnam",
-      "West Himalaya"
+      "West Himalaya",
+      "West Java",
+      "West Kalimantan",
+      "West New Britain",
+      "West Papua",
+      "West Sumatra",
+      "Western Highlands",
+      "Western Province",
+      "Yala",
+      "Zambales",
+      "Đà Nẵng"
      ]
     },
     "Temperate Asia": {
@@ -3356,12 +3923,12 @@
       "Queensland"
      ]
     }
-   },
-   "speciesTotalPowo": 91,
-   "speciesJournal": 118
+   }
   },
   "Ambrosina": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "Algeria": 1,
     "Corse": 1,
@@ -3438,12 +4005,12 @@
       "Sicilia"
      ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Amydrium": {
    "speciesTotal": 5,
+   "speciesTotalPowo": 5,
+   "speciesJournal": 0,
    "places": {
     "China South-Central": 2,
     "China Southeast": 2,
@@ -3589,12 +4156,12 @@
       "Hainan"
      ]
     }
-   },
-   "speciesTotalPowo": 5,
-   "speciesJournal": 0
+   }
   },
   "Anadendrum": {
    "speciesTotal": 15,
+   "speciesTotalPowo": 15,
+   "speciesJournal": 0,
    "places": {
     "Borneo": 7,
     "Sumatra": 6,
@@ -3786,12 +4353,12 @@
       "Hainan"
      ]
     }
-   },
-   "speciesTotalPowo": 15,
-   "speciesJournal": 0
+   }
   },
   "Anaphyllopsis": {
    "speciesTotal": 3,
+   "speciesTotalPowo": 3,
+   "speciesJournal": 0,
    "places": {
     "Brazil North": 2,
     "French Guiana": 1,
@@ -3850,12 +4417,12 @@
       "Venezuela"
      ]
     }
-   },
-   "speciesTotalPowo": 3,
-   "speciesJournal": 0
+   }
   },
   "Anaphyllum": {
    "speciesTotal": 2,
+   "speciesTotalPowo": 2,
+   "speciesJournal": 0,
    "places": {
     "India": 2,
     "Lakshadweep": 2
@@ -3897,12 +4464,12 @@
       "Lakshadweep"
      ]
     }
-   },
-   "speciesTotalPowo": 2,
-   "speciesJournal": 0
+   }
   },
   "Anchomanes": {
    "speciesTotal": 6,
+   "speciesTotalPowo": 6,
+   "speciesJournal": 0,
    "places": {
     "Tanzania": 3,
     "Nigeria": 3,
@@ -4042,6 +4609,14 @@
       "Gulf of Guinea Islands"
      ]
     },
+    "East Tropical Africa": {
+     "count": 3,
+     "members": [
+      "Kenya",
+      "Tanzania",
+      "Uganda"
+     ]
+    },
     "South Tropical Africa": {
      "count": 3,
      "members": [
@@ -4049,14 +4624,6 @@
       "Mozambique",
       "Zambia",
       "Zimbabwe"
-     ]
-    },
-    "East Tropical Africa": {
-     "count": 3,
-     "members": [
-      "Kenya",
-      "Tanzania",
-      "Uganda"
      ]
     },
     "West Tropical Africa": {
@@ -4128,12 +4695,12 @@
       "Zimbabwe"
      ]
     }
-   },
-   "speciesTotalPowo": 6,
-   "speciesJournal": 0
+   }
   },
   "Anthurium": {
    "speciesTotal": 1355,
+   "speciesTotalPowo": 1355,
+   "speciesJournal": 0,
    "places": {
     "Colombia": 417,
     "Ecuador": 390,
@@ -9098,12 +9665,12 @@
       "Mexico Southwest"
      ]
     }
-   },
-   "speciesTotalPowo": 1355,
-   "speciesJournal": 0
+   }
   },
   "Anubias": {
    "speciesTotal": 8,
+   "speciesTotalPowo": 8,
+   "speciesJournal": 0,
    "places": {
     "Liberia": 5,
     "Congo": 5,
@@ -9277,12 +9844,12 @@
       "Togo"
      ]
     }
-   },
-   "speciesTotalPowo": 8,
-   "speciesJournal": 0
+   }
   },
   "Apoballis": {
    "speciesTotal": 14,
+   "speciesTotalPowo": 14,
+   "speciesJournal": 0,
    "places": {
     "Sumatra": 11,
     "Peninsular Malaysia": 4,
@@ -9387,12 +9954,12 @@
       "Thailand"
      ]
     }
-   },
-   "speciesTotalPowo": 14,
-   "speciesJournal": 0
+   }
   },
   "Aridarum": {
    "speciesTotal": 5,
+   "speciesTotalPowo": 5,
+   "speciesJournal": 0,
    "places": {
     "Borneo": 5
    },
@@ -9437,12 +10004,12 @@
       "Borneo"
      ]
     }
-   },
-   "speciesTotalPowo": 5,
-   "speciesJournal": 0
+   }
   },
   "Ariopsis": {
    "speciesTotal": 3,
+   "speciesTotalPowo": 3,
+   "speciesJournal": 0,
    "places": {
     "India": 2,
     "Assam": 1,
@@ -9516,12 +10083,12 @@
       "Thailand"
      ]
     }
-   },
-   "speciesTotalPowo": 3,
-   "speciesJournal": 0
+   }
   },
   "Arisaema": {
    "speciesTotal": 212,
+   "speciesTotalPowo": 212,
+   "speciesJournal": 0,
    "places": {
     "China South-Central": 70,
     "Japan": 40,
@@ -10867,6 +11434,16 @@
       "Uganda"
      ]
     },
+    "Eastern Canada": {
+     "count": 4,
+     "members": [
+      "New Brunswick",
+      "Nova Scotia",
+      "Ontario",
+      "Prince Edward I.",
+      "Québec"
+     ]
+    },
     "North Central Usa": {
      "count": 4,
      "members": [
@@ -10880,16 +11457,6 @@
       "Oklahoma",
       "South Dakota",
       "Wisconsin"
-     ]
-    },
-    "Eastern Canada": {
-     "count": 4,
-     "members": [
-      "New Brunswick",
-      "Nova Scotia",
-      "Ontario",
-      "Prince Edward I.",
-      "Québec"
      ]
     },
     "Northeastern Usa": {
@@ -11111,12 +11678,12 @@
       "Wisconsin"
      ]
     }
-   },
-   "speciesTotalPowo": 212,
-   "speciesJournal": 0
+   }
   },
   "Arisarum": {
    "speciesTotal": 3,
+   "speciesTotalPowo": 3,
+   "speciesJournal": 0,
    "places": {
     "Spain": 3,
     "Italy": 2,
@@ -11340,12 +11907,12 @@
       "Türkiye"
      ]
     }
-   },
-   "speciesTotalPowo": 3,
-   "speciesJournal": 0
+   }
   },
   "Arophyton": {
    "speciesTotal": 7,
+   "speciesTotalPowo": 7,
+   "speciesJournal": 0,
    "places": {
     "Madagascar": 7
    },
@@ -11396,12 +11963,12 @@
       "Madagascar"
      ]
     }
-   },
-   "speciesTotalPowo": 7,
-   "speciesJournal": 0
+   }
   },
   "Arum": {
    "speciesTotal": 26,
+   "speciesTotalPowo": 26,
+   "speciesJournal": 0,
    "places": {
     "Türkiye": 13,
     "Kriti": 8,
@@ -11876,19 +12443,19 @@
       "Madeira"
      ]
     },
+    "China": {
+     "count": 1,
+     "members": [
+      "Tibet",
+      "Xinjiang"
+     ]
+    },
     "Indian Subcontinent": {
      "count": 1,
      "members": [
       "Nepal",
       "Pakistan",
       "West Himalaya"
-     ]
-    },
-    "China": {
-     "count": 1,
-     "members": [
-      "Tibet",
-      "Xinjiang"
      ]
     }
    },
@@ -11990,12 +12557,12 @@
       "West Himalaya"
      ]
     }
-   },
-   "speciesTotalPowo": 26,
-   "speciesJournal": 0
+   }
   },
   "Asterostigma": {
    "speciesTotal": 8,
+   "speciesTotalPowo": 8,
+   "speciesJournal": 0,
    "places": {
     "Brazil Southeast": 6,
     "Brazil South": 4,
@@ -12076,12 +12643,12 @@
       "Brazil West-Central"
      ]
     }
-   },
-   "speciesTotalPowo": 8,
-   "speciesJournal": 0
+   }
   },
   "Ayuantha": {
    "speciesTotal": 4,
+   "speciesTotalPowo": 4,
+   "speciesJournal": 0,
    "places": {
     "Borneo": 4
    },
@@ -12123,12 +12690,12 @@
       "Borneo"
      ]
     }
-   },
-   "speciesTotalPowo": 4,
-   "speciesJournal": 0
+   }
   },
   "Bakoa": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "Borneo": 1
    },
@@ -12161,12 +12728,12 @@
       "Borneo"
      ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Bakoaella": {
    "speciesTotal": 2,
+   "speciesTotalPowo": 2,
+   "speciesJournal": 0,
    "places": {
     "Borneo": 2
    },
@@ -12202,12 +12769,12 @@
       "Borneo"
      ]
     }
-   },
-   "speciesTotalPowo": 2,
-   "speciesJournal": 0
+   }
   },
   "Bau": {
    "speciesTotal": 26,
+   "speciesTotalPowo": 26,
+   "speciesJournal": 0,
    "places": {
     "Borneo": 24,
     "Peninsular Malaysia": 1,
@@ -12339,12 +12906,12 @@
       "Thailand"
      ]
     }
-   },
-   "speciesTotalPowo": 26,
-   "speciesJournal": 0
+   }
   },
   "Biarum": {
    "speciesTotal": 22,
+   "speciesTotalPowo": 22,
+   "speciesJournal": 0,
    "places": {
     "Türkiye": 12,
     "Lebanon-Syria": 8,
@@ -12588,12 +13155,12 @@
       "Tunisia"
      ]
     }
-   },
-   "speciesTotalPowo": 22,
-   "speciesJournal": 0
+   }
   },
   "Bidayuha": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "Borneo": 1
    },
@@ -12626,12 +13193,12 @@
       "Borneo"
      ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Bognera": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "Brazil North": 1
    },
@@ -12664,12 +13231,12 @@
       "Brazil North"
      ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Borneoa": {
    "speciesTotal": 22,
+   "speciesTotalPowo": 22,
+   "speciesJournal": 0,
    "places": {
     "Borneo": 21,
     "Peninsular Malaysia": 1
@@ -12769,12 +13336,12 @@
       "Peninsular Malaysia"
      ]
     }
-   },
-   "speciesTotalPowo": 22,
-   "speciesJournal": 0
+   }
   },
   "Boycea": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "Borneo": 1
    },
@@ -12807,12 +13374,12 @@
       "Borneo"
      ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Bucephalandra": {
    "speciesTotal": 32,
+   "speciesTotalPowo": 32,
+   "speciesJournal": 0,
    "places": {
     "Borneo": 32
    },
@@ -12938,12 +13505,12 @@
       "Borneo"
      ]
     }
-   },
-   "speciesTotalPowo": 32,
-   "speciesJournal": 0
+   }
   },
   "Burttianthus": {
    "speciesTotal": 9,
+   "speciesTotalPowo": 9,
+   "speciesJournal": 0,
    "places": {
     "Borneo": 9
    },
@@ -13000,12 +13567,12 @@
       "Borneo"
      ]
     }
-   },
-   "speciesTotalPowo": 9,
-   "speciesJournal": 0
+   }
   },
   "Caladium": {
    "speciesTotal": 18,
+   "speciesTotalPowo": 18,
+   "speciesJournal": 0,
    "places": {
     "Brazil North": 8,
     "Colombia": 8,
@@ -13292,12 +13859,12 @@
       "Venezuela"
      ]
     }
-   },
-   "speciesTotalPowo": 18,
-   "speciesJournal": 0
+   }
   },
   "Calla": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "Alaska": 1,
     "Alberta": 1,
@@ -13531,65 +14098,19 @@
    },
    "doubtfulSpecies": {},
    "regions": {
-    "Northeastern Usa": {
-     "count": 1,
-     "members": [
-      "Connecticut",
-      "Indiana",
-      "Maine",
-      "Massachusetts",
-      "Michigan",
-      "New Hampshire",
-      "New Jersey",
-      "New York",
-      "Ohio",
-      "Pennsylvania",
-      "Rhode I.",
-      "Vermont",
-      "West Virginia"
-     ]
-    },
     "Western Asia": {
      "count": 1,
      "members": [
       "Türkiye"
      ]
     },
-    "Subarctic America": {
+    "Western Canada": {
      "count": 1,
      "members": [
-      "Alaska",
-      "Northwest Territories",
-      "Yukon"
-     ]
-    },
-    "North Central Usa": {
-     "count": 1,
-     "members": [
-      "Illinois",
-      "Minnesota",
-      "North Dakota",
-      "Wisconsin"
-     ]
-    },
-    "China": {
-     "count": 1,
-     "members": [
-      "Inner Mongolia",
-      "Manchuria"
-     ]
-    },
-    "Eastern Asia": {
-     "count": 1,
-     "members": [
-      "Japan",
-      "Korea"
-     ]
-    },
-    "Southeastern Usa": {
-     "count": 1,
-     "members": [
-      "Maryland"
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Saskatchewan"
      ]
     },
     "Russian Far East": {
@@ -13603,57 +14124,13 @@
       "Sakhalin"
      ]
     },
-    "Southwestern Europe": {
+    "North Central Usa": {
      "count": 1,
      "members": [
-      "France"
-     ]
-    },
-    "Middle Europe": {
-     "count": 1,
-     "members": [
-      "Austria",
-      "Belgium",
-      "Czechia-Slovakia",
-      "Germany",
-      "Netherlands",
-      "Poland",
-      "Switzerland"
-     ]
-    },
-    "Western Canada": {
-     "count": 1,
-     "members": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Saskatchewan"
-     ]
-    },
-    "Eastern Europe": {
-     "count": 1,
-     "members": [
-      "Baltic States",
-      "Belarus",
-      "Central European Russia",
-      "East European Russia",
-      "North European Russia",
-      "Northwest European Russia",
-      "South European Russia",
-      "Ukraine"
-     ]
-    },
-    "Siberia": {
-     "count": 1,
-     "members": [
-      "Altay",
-      "Buryatiya",
-      "Chita",
-      "Irkutsk",
-      "Krasnoyarsk",
-      "Tuva",
-      "West Siberia",
-      "Yakutiya"
+      "Illinois",
+      "Minnesota",
+      "North Dakota",
+      "Wisconsin"
      ]
     },
     "Eastern Canada": {
@@ -13677,14 +14154,137 @@
       "Sweden"
      ]
     },
+    "Southeastern Usa": {
+     "count": 1,
+     "members": [
+      "Maryland"
+     ]
+    },
+    "Southwestern Europe": {
+     "count": 1,
+     "members": [
+      "France"
+     ]
+    },
+    "Northeastern Usa": {
+     "count": 1,
+     "members": [
+      "Connecticut",
+      "Indiana",
+      "Maine",
+      "Massachusetts",
+      "Michigan",
+      "New Hampshire",
+      "New Jersey",
+      "New York",
+      "Ohio",
+      "Pennsylvania",
+      "Rhode I.",
+      "Vermont",
+      "West Virginia"
+     ]
+    },
+    "China": {
+     "count": 1,
+     "members": [
+      "Inner Mongolia",
+      "Manchuria"
+     ]
+    },
+    "Eastern Europe": {
+     "count": 1,
+     "members": [
+      "Baltic States",
+      "Belarus",
+      "Central European Russia",
+      "East European Russia",
+      "North European Russia",
+      "Northwest European Russia",
+      "South European Russia",
+      "Ukraine"
+     ]
+    },
     "Southeastern Europe": {
      "count": 1,
      "members": [
       "Romania"
      ]
+    },
+    "Subarctic America": {
+     "count": 1,
+     "members": [
+      "Alaska",
+      "Northwest Territories",
+      "Yukon"
+     ]
+    },
+    "Eastern Asia": {
+     "count": 1,
+     "members": [
+      "Japan",
+      "Korea"
+     ]
+    },
+    "Siberia": {
+     "count": 1,
+     "members": [
+      "Altay",
+      "Buryatiya",
+      "Chita",
+      "Irkutsk",
+      "Krasnoyarsk",
+      "Tuva",
+      "West Siberia",
+      "Yakutiya"
+     ]
+    },
+    "Middle Europe": {
+     "count": 1,
+     "members": [
+      "Austria",
+      "Belgium",
+      "Czechia-Slovakia",
+      "Germany",
+      "Netherlands",
+      "Poland",
+      "Switzerland"
+     ]
     }
    },
    "continents": {
+    "Europe": {
+     "count": 1,
+     "regions": [
+      "Eastern Europe",
+      "Middle Europe",
+      "Northern Europe",
+      "Southeastern Europe",
+      "Southwestern Europe"
+     ],
+     "members": [
+      "Austria",
+      "Baltic States",
+      "Belarus",
+      "Belgium",
+      "Central European Russia",
+      "Czechia-Slovakia",
+      "Denmark",
+      "East European Russia",
+      "Finland",
+      "France",
+      "Germany",
+      "Netherlands",
+      "North European Russia",
+      "Northwest European Russia",
+      "Norway",
+      "Poland",
+      "Romania",
+      "South European Russia",
+      "Sweden",
+      "Switzerland",
+      "Ukraine"
+     ]
+    },
     "Northern America": {
      "count": 1,
      "regions": [
@@ -13730,39 +14330,6 @@
       "Yukon"
      ]
     },
-    "Europe": {
-     "count": 1,
-     "regions": [
-      "Eastern Europe",
-      "Middle Europe",
-      "Northern Europe",
-      "Southeastern Europe",
-      "Southwestern Europe"
-     ],
-     "members": [
-      "Austria",
-      "Baltic States",
-      "Belarus",
-      "Belgium",
-      "Central European Russia",
-      "Czechia-Slovakia",
-      "Denmark",
-      "East European Russia",
-      "Finland",
-      "France",
-      "Germany",
-      "Netherlands",
-      "North European Russia",
-      "Northwest European Russia",
-      "Norway",
-      "Poland",
-      "Romania",
-      "South European Russia",
-      "Sweden",
-      "Switzerland",
-      "Ukraine"
-     ]
-    },
     "Temperate Asia": {
      "count": 1,
      "regions": [
@@ -13794,12 +14361,12 @@
       "Yakutiya"
      ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Callopsis": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "Kenya": 1,
     "Tanzania": 1
@@ -13844,12 +14411,12 @@
       "Tanzania"
      ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Carlephyton": {
    "speciesTotal": 4,
+   "speciesTotalPowo": 4,
+   "speciesJournal": 0,
    "places": {
     "Madagascar": 4
    },
@@ -13891,12 +14458,12 @@
       "Madagascar"
      ]
     }
-   },
-   "speciesTotalPowo": 4,
-   "speciesJournal": 0
+   }
   },
   "Cercestis": {
    "speciesTotal": 10,
+   "speciesTotalPowo": 10,
+   "speciesJournal": 0,
    "places": {
     "Liberia": 6,
     "Ivory Coast": 5,
@@ -14093,12 +14660,12 @@
       "Uganda"
      ]
     }
-   },
-   "speciesTotalPowo": 10,
-   "speciesJournal": 0
+   }
   },
   "Chlorospatha": {
    "speciesTotal": 70,
+   "speciesTotalPowo": 70,
+   "speciesJournal": 0,
    "places": {
     "Colombia": 44,
     "Ecuador": 26,
@@ -14364,12 +14931,12 @@
       "Panama"
      ]
     }
-   },
-   "speciesTotalPowo": 70,
-   "speciesJournal": 0
+   }
   },
   "Colletogyne": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "Madagascar": 1
    },
@@ -14402,12 +14969,12 @@
       "Madagascar"
      ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Colobogynium": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "Borneo": 1,
     "Sumatra": 1
@@ -14445,12 +15012,12 @@
       "Sumatra"
      ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Colocasia": {
    "speciesTotal": 14,
+   "speciesTotalPowo": 14,
+   "speciesJournal": 0,
    "places": {
     "East Himalaya": 8,
     "Bangladesh": 7,
@@ -14881,12 +15448,12 @@
       "Tibet"
      ]
     }
-   },
-   "speciesTotalPowo": 14,
-   "speciesJournal": 0
+   }
   },
   "Croatiella": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "Ecuador": 1
    },
@@ -14919,12 +15486,12 @@
       "Ecuador"
      ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Cryptocoryne": {
    "speciesTotal": 75,
+   "speciesTotalPowo": 75,
+   "speciesJournal": 0,
    "places": {
     "Borneo": 28,
     "Philippines": 12,
@@ -15331,12 +15898,12 @@
       "China Southeast"
      ]
     }
-   },
-   "speciesTotalPowo": 75,
-   "speciesJournal": 0
+   }
   },
   "Culcasia": {
    "speciesTotal": 27,
+   "speciesTotalPowo": 27,
+   "speciesJournal": 0,
    "places": {
     "Cameroon": 18,
     "Gabon": 15,
@@ -15732,12 +16299,12 @@
       "Zimbabwe"
      ]
     }
-   },
-   "speciesTotalPowo": 27,
-   "speciesJournal": 0
+   }
   },
   "Cyrtosperma": {
    "speciesTotal": 15,
+   "speciesTotalPowo": 15,
+   "speciesJournal": 0,
    "places": {
     "New Guinea": 13,
     "Solomon Is.": 3,
@@ -15864,16 +16431,6 @@
       "Solomon Is."
      ]
     },
-    "Malesia": {
-     "count": 1,
-     "members": [
-      "Borneo",
-      "Java",
-      "Peninsular Malaysia",
-      "Philippines",
-      "Sumatra"
-     ]
-    },
     "Southwestern Pacific": {
      "count": 1,
      "members": [
@@ -15884,11 +16441,14 @@
       "Vanuatu"
      ]
     },
-    "Northwestern Pacific": {
+    "Malesia": {
      "count": 1,
      "members": [
-      "Caroline Is.",
-      "Marshall Is."
+      "Borneo",
+      "Java",
+      "Peninsular Malaysia",
+      "Philippines",
+      "Sumatra"
      ]
     },
     "South Central Pacific": {
@@ -15896,6 +16456,13 @@
      "members": [
       "Cook Islands",
       "Society Islands"
+     ]
+    },
+    "Northwestern Pacific": {
+     "count": 1,
+     "members": [
+      "Caroline Is.",
+      "Marshall Is."
      ]
     }
    },
@@ -15935,12 +16502,12 @@
       "Vanuatu"
      ]
     }
-   },
-   "speciesTotalPowo": 15,
-   "speciesJournal": 0
+   }
   },
   "Dieffenbachia": {
    "speciesTotal": 60,
+   "speciesTotalPowo": 60,
+   "speciesJournal": 0,
    "places": {
     "Colombia": 25,
     "Panama": 23,
@@ -16449,12 +17016,12 @@
       "Mexico Southwest"
      ]
     }
-   },
-   "speciesTotalPowo": 60,
-   "speciesJournal": 0
+   }
   },
   "Dracontioides": {
    "speciesTotal": 2,
+   "speciesTotalPowo": 2,
+   "speciesJournal": 0,
    "places": {
     "Brazil Northeast": 2,
     "Brazil Southeast": 1
@@ -16495,12 +17062,12 @@
       "Brazil Southeast"
      ]
     }
-   },
-   "speciesTotalPowo": 2,
-   "speciesJournal": 0
+   }
   },
   "Dracontium": {
    "speciesTotal": 29,
+   "speciesTotalPowo": 29,
+   "speciesJournal": 0,
    "places": {
     "Brazil North": 13,
     "Colombia": 8,
@@ -16780,12 +17347,12 @@
       "Mexico Southeast"
      ]
     }
-   },
-   "speciesTotalPowo": 29,
-   "speciesJournal": 0
+   }
   },
   "Dracunculus": {
    "speciesTotal": 2,
+   "speciesTotalPowo": 2,
+   "speciesJournal": 0,
    "places": {
     "Canary Is.": 1,
     "Madeira": 1,
@@ -16927,12 +17494,12 @@
       "Türkiye"
      ]
     }
-   },
-   "speciesTotalPowo": 2,
-   "speciesJournal": 0
+   }
   },
   "Eminium": {
    "speciesTotal": 8,
+   "speciesTotalPowo": 8,
+   "speciesJournal": 0,
    "places": {
     "Türkiye": 4,
     "Tadzhikistan": 3,
@@ -17074,12 +17641,12 @@
       "Egypt"
      ]
     }
-   },
-   "speciesTotalPowo": 8,
-   "speciesJournal": 0
+   }
   },
   "Englerarum": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "China South-Central": 1,
     "Laos": 1,
@@ -17104,12 +17671,6 @@
    },
    "doubtfulSpecies": {},
    "regions": {
-    "China": {
-     "count": 1,
-     "members": [
-      "China South-Central"
-     ]
-    },
     "Indo-China": {
      "count": 1,
      "members": [
@@ -17117,18 +17678,15 @@
       "Myanmar",
       "Thailand"
      ]
-    }
-   },
-   "continents": {
-    "Temperate Asia": {
+    },
+    "China": {
      "count": 1,
-     "regions": [
-      "China"
-     ],
      "members": [
       "China South-Central"
      ]
-    },
+    }
+   },
+   "continents": {
     "Tropical Asia": {
      "count": 1,
      "regions": [
@@ -17139,13 +17697,22 @@
       "Myanmar",
       "Thailand"
      ]
+    },
+    "Temperate Asia": {
+     "count": 1,
+     "regions": [
+      "China"
+     ],
+     "members": [
+      "China South-Central"
+     ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Epipremnum": {
    "speciesTotal": 15,
+   "speciesTotalPowo": 15,
+   "speciesJournal": 0,
    "places": {
     "New Guinea": 5,
     "Bismarck Archipelago": 3,
@@ -17419,13 +17986,6 @@
       "Solomon Is."
      ]
     },
-    "Australia": {
-     "count": 2,
-     "members": [
-      "Northern Territory",
-      "Queensland"
-     ]
-    },
     "Southwestern Pacific": {
      "count": 2,
      "members": [
@@ -17436,6 +17996,13 @@
       "Tonga",
       "Vanuatu",
       "Wallis-Futuna Is."
+     ]
+    },
+    "Australia": {
+     "count": 2,
+     "members": [
+      "Northern Territory",
+      "Queensland"
      ]
     },
     "South Central Pacific": {
@@ -17566,12 +18133,12 @@
       "Taiwan"
      ]
     }
-   },
-   "speciesTotalPowo": 15,
-   "speciesJournal": 0
+   }
   },
   "Fenestratarum": {
    "speciesTotal": 2,
+   "speciesTotalPowo": 2,
+   "speciesJournal": 0,
    "places": {
     "Borneo": 2
    },
@@ -17607,12 +18174,12 @@
       "Borneo"
      ]
     }
-   },
-   "speciesTotalPowo": 2,
-   "speciesJournal": 0
+   }
   },
   "Filarum": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "Peru": 1
    },
@@ -17645,12 +18212,12 @@
       "Peru"
      ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Galantharum": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "Borneo": 1
    },
@@ -17683,12 +18250,12 @@
       "Borneo"
      ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Gamogyne": {
    "speciesTotal": 6,
+   "speciesTotalPowo": 6,
+   "speciesJournal": 0,
    "places": {
     "Borneo": 6
    },
@@ -17736,12 +18303,12 @@
       "Borneo"
      ]
     }
-   },
-   "speciesTotalPowo": 6,
-   "speciesJournal": 0
+   }
   },
   "Gearum": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "Brazil North": 1,
     "Brazil West-Central": 1
@@ -17779,12 +18346,12 @@
       "Brazil West-Central"
      ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Gonatopus": {
    "speciesTotal": 5,
+   "speciesTotalPowo": 5,
+   "speciesJournal": 0,
    "places": {
     "Tanzania": 5,
     "Mozambique": 4,
@@ -17900,12 +18467,12 @@
       "Zimbabwe"
      ]
     }
-   },
-   "speciesTotalPowo": 5,
-   "speciesJournal": 0
+   }
   },
   "Gorgonidium": {
    "speciesTotal": 8,
+   "speciesTotalPowo": 8,
+   "speciesJournal": 0,
    "places": {
     "Bolivia": 6,
     "Peru": 2,
@@ -17979,12 +18546,12 @@
       "Peru"
      ]
     }
-   },
-   "speciesTotalPowo": 8,
-   "speciesJournal": 0
+   }
   },
   "Gosong": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "Borneo": 1
    },
@@ -18017,12 +18584,12 @@
       "Borneo"
      ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Gymnostachys": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "New South Wales": 1,
     "Queensland": 1
@@ -18060,12 +18627,12 @@
       "Queensland"
      ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Hapaline": {
    "speciesTotal": 9,
+   "speciesTotalPowo": 9,
+   "speciesJournal": 0,
    "places": {
     "Vietnam": 5,
     "Thailand": 4,
@@ -18171,12 +18738,12 @@
       "China South-Central"
      ]
     }
-   },
-   "speciesTotalPowo": 9,
-   "speciesJournal": 0
+   }
   },
   "Helicodiceros": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "Baleares": 1,
     "Corse": 1,
@@ -18219,12 +18786,12 @@
       "Sardegna"
      ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Hera": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "Borneo": 1
    },
@@ -18257,12 +18824,12 @@
       "Borneo"
      ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Heteroaridarum": {
    "speciesTotal": 3,
+   "speciesTotalPowo": 3,
+   "speciesJournal": 0,
    "places": {
     "Borneo": 3
    },
@@ -18301,12 +18868,12 @@
       "Borneo"
      ]
     }
-   },
-   "speciesTotalPowo": 3,
-   "speciesJournal": 0
+   }
   },
   "Heteropsis": {
    "speciesTotal": 19,
+   "speciesTotalPowo": 19,
+   "speciesJournal": 0,
    "places": {
     "Brazil North": 13,
     "Peru": 11,
@@ -18531,12 +19098,12 @@
       "Venezuela"
      ]
     }
-   },
-   "speciesTotalPowo": 19,
-   "speciesJournal": 0
+   }
   },
   "Holochlamys": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "Bismarck Archipelago": 1,
     "New Guinea": 1
@@ -18574,12 +19141,12 @@
       "New Guinea"
      ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Homalomena": {
-   "speciesTotal": 177,
+   "speciesTotal": 163,
+   "speciesTotalPowo": 163,
+   "speciesJournal": 0,
    "places": {
     "Borneo": 75,
     "Sumatra": 34,
@@ -19319,12 +19886,12 @@
       "Taiwan"
      ]
     }
-   },
-   "speciesTotalPowo": 177,
-   "speciesJournal": 0
+   }
   },
   "Hottarum": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "Borneo": 1
    },
@@ -19357,12 +19924,12 @@
       "Borneo"
      ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Ibania": {
    "speciesTotal": 12,
+   "speciesTotalPowo": 12,
+   "speciesJournal": 0,
    "places": {
     "Borneo": 12
    },
@@ -19428,12 +19995,12 @@
       "Borneo"
      ]
     }
-   },
-   "speciesTotalPowo": 12,
-   "speciesJournal": 0
+   }
   },
   "Idimanthus": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "Brazil Southeast": 1
    },
@@ -19466,12 +20033,12 @@
       "Brazil Southeast"
      ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Incarum": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "Bolivia": 1,
     "Ecuador": 1,
@@ -19514,12 +20081,12 @@
       "Peru"
      ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Jasarum": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "Guyana": 1,
     "Venezuela": 1
@@ -19557,12 +20124,12 @@
       "Venezuela"
      ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Josefia": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "Borneo": 1
    },
@@ -19595,12 +20162,12 @@
       "Borneo"
      ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Kiewia": {
    "speciesTotal": 3,
+   "speciesTotalPowo": 3,
+   "speciesJournal": 0,
    "places": {
     "Peninsular Malaysia": 2,
     "Thailand": 1,
@@ -19654,12 +20221,12 @@
       "Thailand"
      ]
     }
-   },
-   "speciesTotalPowo": 3,
-   "speciesJournal": 0
+   }
   },
   "Lagenandra": {
    "speciesTotal": 22,
+   "speciesTotalPowo": 22,
+   "speciesJournal": 0,
    "places": {
     "Sri Lanka": 14,
     "India": 7,
@@ -19768,12 +20335,12 @@
       "Sri Lanka"
      ]
     }
-   },
-   "speciesTotalPowo": 22,
-   "speciesJournal": 0
+   }
   },
   "Lasia": {
    "speciesTotal": 2,
+   "speciesTotalPowo": 2,
+   "speciesJournal": 0,
    "places": {
     "Borneo": 2,
     "Assam": 1,
@@ -19872,31 +20439,6 @@
       "Sumatra"
      ]
     },
-    "China": {
-     "count": 1,
-     "members": [
-      "China South-Central",
-      "China Southeast",
-      "Hainan",
-      "Tibet"
-     ]
-    },
-    "Eastern Asia": {
-     "count": 1,
-     "members": [
-      "Taiwan"
-     ]
-    },
-    "Indo-China": {
-     "count": 1,
-     "members": [
-      "Cambodia",
-      "Laos",
-      "Myanmar",
-      "Thailand",
-      "Vietnam"
-     ]
-    },
     "Papuasia": {
      "count": 1,
      "members": [
@@ -19912,6 +20454,31 @@
       "India",
       "Nepal",
       "Sri Lanka"
+     ]
+    },
+    "China": {
+     "count": 1,
+     "members": [
+      "China South-Central",
+      "China Southeast",
+      "Hainan",
+      "Tibet"
+     ]
+    },
+    "Indo-China": {
+     "count": 1,
+     "members": [
+      "Cambodia",
+      "Laos",
+      "Myanmar",
+      "Thailand",
+      "Vietnam"
+     ]
+    },
+    "Eastern Asia": {
+     "count": 1,
+     "members": [
+      "Taiwan"
      ]
     }
    },
@@ -19958,12 +20525,12 @@
       "Tibet"
      ]
     }
-   },
-   "speciesTotalPowo": 2,
-   "speciesJournal": 0
+   }
   },
   "Lasimorpha": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "Angola": 1,
     "Benin": 1,
@@ -20050,12 +20617,6 @@
       "Gulf of Guinea Islands"
      ]
     },
-    "South Tropical Africa": {
-     "count": 1,
-     "members": [
-      "Angola"
-     ]
-    },
     "West Tropical Africa": {
      "count": 1,
      "members": [
@@ -20070,6 +20631,12 @@
       "Senegal",
       "Sierra Leone",
       "Togo"
+     ]
+    },
+    "South Tropical Africa": {
+     "count": 1,
+     "members": [
+      "Angola"
      ]
     }
    },
@@ -20104,12 +20671,12 @@
       "Togo"
      ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Lazarum": {
    "speciesTotal": 16,
+   "speciesTotalPowo": 16,
+   "speciesJournal": 0,
    "places": {
     "Northern Territory": 9,
     "Queensland": 5,
@@ -20220,12 +20787,12 @@
       "New Guinea"
      ]
     }
-   },
-   "speciesTotalPowo": 16,
-   "speciesJournal": 0
+   }
   },
   "Lemna": {
    "speciesTotal": 13,
+   "speciesTotalPowo": 13,
+   "speciesJournal": 0,
    "places": {
     "Illinois": 9,
     "Nebraska": 9,
@@ -21896,19 +22463,6 @@
       "West Virginia"
      ]
     },
-    "Indian Subcontinent": {
-     "count": 6,
-     "members": [
-      "Assam",
-      "Bangladesh",
-      "East Himalaya",
-      "India",
-      "Nepal",
-      "Pakistan",
-      "Sri Lanka",
-      "West Himalaya"
-     ]
-    },
     "Caribbean": {
      "count": 6,
      "members": [
@@ -21928,6 +22482,19 @@
       "Turks-Caicos Is.",
       "Venezuelan Antilles",
       "Windward Is."
+     ]
+    },
+    "Indian Subcontinent": {
+     "count": 6,
+     "members": [
+      "Assam",
+      "Bangladesh",
+      "East Himalaya",
+      "India",
+      "Nepal",
+      "Pakistan",
+      "Sri Lanka",
+      "West Himalaya"
      ]
     },
     "Northwestern Usa": {
@@ -21978,77 +22545,6 @@
       "Yakutiya"
      ]
     },
-    "Malesia": {
-     "count": 4,
-     "members": [
-      "Borneo",
-      "Christmas I.",
-      "Cocos (Keeling) Is.",
-      "Java",
-      "Lesser Sunda Islands",
-      "Maluku",
-      "Peninsular Malaysia",
-      "Philippines",
-      "Sulawesi",
-      "Sumatra"
-     ]
-    },
-    "Brazil": {
-     "count": 4,
-     "members": [
-      "Brazil North",
-      "Brazil Northeast",
-      "Brazil South",
-      "Brazil Southeast",
-      "Brazil West-Central"
-     ]
-    },
-    "Southern South America": {
-     "count": 4,
-     "members": [
-      "Argentina Northeast",
-      "Argentina Northwest",
-      "Argentina South",
-      "Chile Central",
-      "Chile North",
-      "Paraguay",
-      "Uruguay"
-     ]
-    },
-    "China": {
-     "count": 4,
-     "members": [
-      "China North-Central",
-      "China South-Central",
-      "China Southeast",
-      "Hainan",
-      "Inner Mongolia",
-      "Manchuria",
-      "Qinghai",
-      "Xinjiang"
-     ]
-    },
-    "Eastern Asia": {
-     "count": 4,
-     "members": [
-      "Japan",
-      "Korea",
-      "Taiwan"
-     ]
-    },
-    "Australia": {
-     "count": 4,
-     "members": [
-      "New South Wales",
-      "Norfolk Is.",
-      "Northern Territory",
-      "Queensland",
-      "South Australia",
-      "Tasmania",
-      "Victoria",
-      "Western Australia"
-     ]
-    },
     "Indo-China": {
      "count": 4,
      "members": [
@@ -22069,23 +22565,6 @@
       "Western Sahara"
      ]
     },
-    "Northern South America": {
-     "count": 4,
-     "members": [
-      "French Guiana",
-      "Guyana",
-      "Suriname",
-      "Venezuela"
-     ]
-    },
-    "East Tropical Africa": {
-     "count": 4,
-     "members": [
-      "Kenya",
-      "Tanzania",
-      "Uganda"
-     ]
-    },
     "Central America": {
      "count": 4,
      "members": [
@@ -22098,6 +22577,94 @@
       "Panama"
      ]
     },
+    "Australia": {
+     "count": 4,
+     "members": [
+      "New South Wales",
+      "Norfolk Is.",
+      "Northern Territory",
+      "Queensland",
+      "South Australia",
+      "Tasmania",
+      "Victoria",
+      "Western Australia"
+     ]
+    },
+    "Southern South America": {
+     "count": 4,
+     "members": [
+      "Argentina Northeast",
+      "Argentina Northwest",
+      "Argentina South",
+      "Chile Central",
+      "Chile North",
+      "Paraguay",
+      "Uruguay"
+     ]
+    },
+    "East Tropical Africa": {
+     "count": 4,
+     "members": [
+      "Kenya",
+      "Tanzania",
+      "Uganda"
+     ]
+    },
+    "Brazil": {
+     "count": 4,
+     "members": [
+      "Brazil North",
+      "Brazil Northeast",
+      "Brazil South",
+      "Brazil Southeast",
+      "Brazil West-Central"
+     ]
+    },
+    "China": {
+     "count": 4,
+     "members": [
+      "China North-Central",
+      "China South-Central",
+      "China Southeast",
+      "Hainan",
+      "Inner Mongolia",
+      "Manchuria",
+      "Qinghai",
+      "Xinjiang"
+     ]
+    },
+    "Malesia": {
+     "count": 4,
+     "members": [
+      "Borneo",
+      "Christmas I.",
+      "Cocos (Keeling) Is.",
+      "Java",
+      "Lesser Sunda Islands",
+      "Maluku",
+      "Peninsular Malaysia",
+      "Philippines",
+      "Sulawesi",
+      "Sumatra"
+     ]
+    },
+    "Eastern Asia": {
+     "count": 4,
+     "members": [
+      "Japan",
+      "Korea",
+      "Taiwan"
+     ]
+    },
+    "Northern South America": {
+     "count": 4,
+     "members": [
+      "French Guiana",
+      "Guyana",
+      "Suriname",
+      "Venezuela"
+     ]
+    },
     "Middle Asia": {
      "count": 4,
      "members": [
@@ -22106,6 +22673,13 @@
       "Tadzhikistan",
       "Turkmenistan",
       "Uzbekistan"
+     ]
+    },
+    "Caucasus": {
+     "count": 4,
+     "members": [
+      "North Caucasus",
+      "Transcaucasus"
      ]
     },
     "Northern Europe": {
@@ -22136,13 +22710,6 @@
       "Ukraine"
      ]
     },
-    "Caucasus": {
-     "count": 4,
-     "members": [
-      "North Caucasus",
-      "Transcaucasus"
-     ]
-    },
     "Eastern Canada": {
      "count": 4,
      "members": [
@@ -22153,6 +22720,39 @@
       "Ontario",
       "Prince Edward I.",
       "Québec"
+     ]
+    },
+    "Southern Africa": {
+     "count": 3,
+     "members": [
+      "Botswana",
+      "Cape Provinces",
+      "Eswatini",
+      "Free State",
+      "KwaZulu-Natal",
+      "Lesotho",
+      "Namibia",
+      "Northern Provinces",
+      "Zambezi Region"
+     ]
+    },
+    "Northeast Tropical Africa": {
+     "count": 3,
+     "members": [
+      "Chad",
+      "Eritrea",
+      "Ethiopia",
+      "Somalia",
+      "Sudan-South Sudan"
+     ]
+    },
+    "Macaronesia": {
+     "count": 3,
+     "members": [
+      "Azores",
+      "Canary Is.",
+      "Cape Verde",
+      "Madeira"
      ]
     },
     "West-Central Tropical Africa": {
@@ -22170,37 +22770,29 @@
       "Rwanda"
      ]
     },
-    "Northeast Tropical Africa": {
+    "Southeastern Europe": {
      "count": 3,
      "members": [
-      "Chad",
-      "Eritrea",
-      "Ethiopia",
-      "Somalia",
-      "Sudan-South Sudan"
+      "Albania",
+      "Bulgaria",
+      "Greece",
+      "Italy",
+      "Kriti",
+      "NW. Balkan Pen.",
+      "Romania",
+      "Sicilia",
+      "Türkiye-in-Europe"
      ]
     },
-    "Southern Africa": {
+    "Southwestern Europe": {
      "count": 3,
      "members": [
-      "Botswana",
-      "Cape Provinces",
-      "Eswatini",
-      "Free State",
-      "KwaZulu-Natal",
-      "Lesotho",
-      "Namibia",
-      "Northern Provinces",
-      "Zambezi Region"
-     ]
-    },
-    "Macaronesia": {
-     "count": 3,
-     "members": [
-      "Azores",
-      "Canary Is.",
-      "Cape Verde",
-      "Madeira"
+      "Baleares",
+      "Corse",
+      "France",
+      "Portugal",
+      "Sardegna",
+      "Spain"
      ]
     },
     "Middle Europe": {
@@ -22216,36 +22808,13 @@
       "Switzerland"
      ]
     },
-    "Southwestern Europe": {
+    "Western Canada": {
      "count": 3,
      "members": [
-      "Baleares",
-      "Corse",
-      "France",
-      "Portugal",
-      "Sardegna",
-      "Spain"
-     ]
-    },
-    "Southeastern Europe": {
-     "count": 3,
-     "members": [
-      "Albania",
-      "Bulgaria",
-      "Greece",
-      "Italy",
-      "Kriti",
-      "NW. Balkan Pen.",
-      "Romania",
-      "Sicilia",
-      "Türkiye-in-Europe"
-     ]
-    },
-    "Subarctic America": {
-     "count": 3,
-     "members": [
-      "Alaska",
-      "Yukon"
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Saskatchewan"
      ]
     },
     "Russian Far East": {
@@ -22260,13 +22829,11 @@
       "Sakhalin"
      ]
     },
-    "Western Canada": {
+    "Subarctic America": {
      "count": 3,
      "members": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Saskatchewan"
+      "Alaska",
+      "Yukon"
      ]
     },
     "Papuasia": {
@@ -22290,6 +22857,12 @@
      "count": 2,
      "members": [
       "Mongolia"
+     ]
+    },
+    "North Central Pacific": {
+     "count": 1,
+     "members": [
+      "Hawaii"
      ]
     },
     "Northwestern Pacific": {
@@ -22325,12 +22898,6 @@
       "Senegal",
       "Sierra Leone",
       "Togo"
-     ]
-    },
-    "North Central Pacific": {
-     "count": 1,
-     "members": [
-      "Hawaii"
      ]
     },
     "Western Indian Ocean": {
@@ -22775,12 +23342,12 @@
       "Tonga"
      ]
     }
-   },
-   "speciesTotalPowo": 13,
-   "speciesJournal": 0
+   }
   },
   "Leucocasia": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "Bangladesh": 1,
     "Borneo": 1,
@@ -22837,10 +23404,11 @@
    },
    "doubtfulSpecies": {},
    "regions": {
-    "Indian Subcontinent": {
+    "China": {
      "count": 1,
      "members": [
-      "Bangladesh"
+      "China South-Central",
+      "China Southeast"
      ]
     },
     "Malesia": {
@@ -22853,13 +23421,6 @@
       "Sumatra"
      ]
     },
-    "China": {
-     "count": 1,
-     "members": [
-      "China South-Central",
-      "China Southeast"
-     ]
-    },
     "Indo-China": {
      "count": 1,
      "members": [
@@ -22869,19 +23430,15 @@
       "Thailand",
       "Vietnam"
      ]
+    },
+    "Indian Subcontinent": {
+     "count": 1,
+     "members": [
+      "Bangladesh"
+     ]
     }
    },
    "continents": {
-    "Temperate Asia": {
-     "count": 1,
-     "regions": [
-      "China"
-     ],
-     "members": [
-      "China South-Central",
-      "China Southeast"
-     ]
-    },
     "Tropical Asia": {
      "count": 1,
      "regions": [
@@ -22902,13 +23459,23 @@
       "Thailand",
       "Vietnam"
      ]
+    },
+    "Temperate Asia": {
+     "count": 1,
+     "regions": [
+      "China"
+     ],
+     "members": [
+      "China South-Central",
+      "China Southeast"
+     ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Lorenzia": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "Brazil North": 1
    },
@@ -22941,12 +23508,12 @@
       "Brazil North"
      ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Lysichiton": {
    "speciesTotal": 2,
+   "speciesTotalPowo": 2,
+   "speciesJournal": 0,
    "places": {
     "Alaska": 1,
     "Aleutian Is.": 1,
@@ -23021,10 +23588,10 @@
    },
    "doubtfulSpecies": {},
    "regions": {
-    "Western Canada": {
+    "Southwestern Usa": {
      "count": 1,
      "members": [
-      "British Columbia"
+      "California"
      ]
     },
     "Northwestern Usa": {
@@ -23036,17 +23603,17 @@
       "Washington"
      ]
     },
-    "Southwestern Usa": {
-     "count": 1,
-     "members": [
-      "California"
-     ]
-    },
     "Subarctic America": {
      "count": 1,
      "members": [
       "Alaska",
       "Aleutian Is."
+     ]
+    },
+    "Western Canada": {
+     "count": 1,
+     "members": [
+      "British Columbia"
      ]
     },
     "Eastern Asia": {
@@ -23099,12 +23666,12 @@
       "Sakhalin"
      ]
     }
-   },
-   "speciesTotalPowo": 2,
-   "speciesJournal": 0
+   }
   },
   "Mangonia": {
    "speciesTotal": 2,
+   "speciesTotalPowo": 2,
+   "speciesJournal": 0,
    "places": {
     "Uruguay": 2,
     "Brazil South": 1
@@ -23151,12 +23718,12 @@
       "Uruguay"
      ]
     }
-   },
-   "speciesTotalPowo": 2,
-   "speciesJournal": 0
+   }
   },
   "Monstera": {
    "speciesTotal": 71,
+   "speciesTotalPowo": 71,
+   "speciesJournal": 0,
    "places": {
     "Panama": 39,
     "Costa Rica": 38,
@@ -23725,12 +24292,12 @@
       "Mexico Southwest"
      ]
     }
-   },
-   "speciesTotalPowo": 71,
-   "speciesJournal": 0
+   }
   },
   "Montrichardia": {
    "speciesTotal": 2,
+   "speciesTotalPowo": 2,
+   "speciesJournal": 0,
    "places": {
     "Brazil North": 2,
     "Colombia": 2,
@@ -23813,6 +24380,15 @@
    },
    "doubtfulSpecies": {},
    "regions": {
+    "Northern South America": {
+     "count": 2,
+     "members": [
+      "French Guiana",
+      "Guyana",
+      "Suriname",
+      "Venezuela"
+     ]
+    },
     "Brazil": {
      "count": 2,
      "members": [
@@ -23830,23 +24406,6 @@
       "Peru"
      ]
     },
-    "Northern South America": {
-     "count": 2,
-     "members": [
-      "French Guiana",
-      "Guyana",
-      "Suriname",
-      "Venezuela"
-     ]
-    },
-    "Caribbean": {
-     "count": 1,
-     "members": [
-      "Leeward Is.",
-      "Trinidad and Tobago",
-      "Windward Is."
-     ]
-    },
     "Central America": {
      "count": 1,
      "members": [
@@ -23856,6 +24415,14 @@
       "Honduras",
       "Nicaragua",
       "Panama"
+     ]
+    },
+    "Caribbean": {
+     "count": 1,
+     "members": [
+      "Leeward Is.",
+      "Trinidad and Tobago",
+      "Windward Is."
      ]
     }
    },
@@ -23892,12 +24459,12 @@
       "Windward Is."
      ]
     }
-   },
-   "speciesTotalPowo": 2,
-   "speciesJournal": 0
+   }
   },
   "Nabalu": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "Borneo": 1
    },
@@ -23930,12 +24497,12 @@
       "Borneo"
      ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Naiadia": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "Borneo": 1
    },
@@ -23968,12 +24535,12 @@
       "Borneo"
      ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Nephthytis": {
    "speciesTotal": 5,
+   "speciesTotalPowo": 5,
+   "speciesJournal": 0,
    "places": {
     "Gabon": 5,
     "Congo": 4,
@@ -24091,12 +24658,12 @@
       "Sierra Leone"
      ]
     }
-   },
-   "speciesTotalPowo": 5,
-   "speciesJournal": 0
+   }
   },
   "Ooia": {
    "speciesTotal": 12,
+   "speciesTotalPowo": 12,
+   "speciesJournal": 0,
    "places": {
     "Borneo": 12
    },
@@ -24162,12 +24729,12 @@
       "Borneo"
      ]
     }
-   },
-   "speciesTotalPowo": 12,
-   "speciesJournal": 0
+   }
   },
   "Orontium": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "Alabama": 1,
     "Connecticut": 1,
@@ -24246,24 +24813,6 @@
    },
    "doubtfulSpecies": {},
    "regions": {
-    "South Central Usa": {
-     "count": 1,
-     "members": [
-      "Texas"
-     ]
-    },
-    "Northeastern Usa": {
-     "count": 1,
-     "members": [
-      "Connecticut",
-      "Massachusetts",
-      "New Jersey",
-      "New York",
-      "Pennsylvania",
-      "Rhode I.",
-      "West Virginia"
-     ]
-    },
     "Southeastern Usa": {
      "count": 1,
      "members": [
@@ -24280,6 +24829,24 @@
       "South Carolina",
       "Tennessee",
       "Virginia"
+     ]
+    },
+    "Northeastern Usa": {
+     "count": 1,
+     "members": [
+      "Connecticut",
+      "Massachusetts",
+      "New Jersey",
+      "New York",
+      "Pennsylvania",
+      "Rhode I.",
+      "West Virginia"
+     ]
+    },
+    "South Central Usa": {
+     "count": 1,
+     "members": [
+      "Texas"
      ]
     }
    },
@@ -24315,12 +24882,12 @@
       "West Virginia"
      ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Peltandra": {
    "speciesTotal": 2,
+   "speciesTotalPowo": 2,
+   "speciesJournal": 0,
    "places": {
     "Alabama": 2,
     "Florida": 2,
@@ -24479,6 +25046,25 @@
       "Virginia"
      ]
     },
+    "Eastern Canada": {
+     "count": 1,
+     "members": [
+      "Ontario",
+      "Québec"
+     ]
+    },
+    "North Central Usa": {
+     "count": 1,
+     "members": [
+      "Illinois",
+      "Iowa",
+      "Kansas",
+      "Minnesota",
+      "Missouri",
+      "Oklahoma",
+      "Wisconsin"
+     ]
+    },
     "Northeastern Usa": {
      "count": 1,
      "members": [
@@ -24497,29 +25083,10 @@
       "West Virginia"
      ]
     },
-    "North Central Usa": {
-     "count": 1,
-     "members": [
-      "Illinois",
-      "Iowa",
-      "Kansas",
-      "Minnesota",
-      "Missouri",
-      "Oklahoma",
-      "Wisconsin"
-     ]
-    },
     "South Central Usa": {
      "count": 1,
      "members": [
       "Texas"
-     ]
-    },
-    "Eastern Canada": {
-     "count": 1,
-     "members": [
-      "Ontario",
-      "Québec"
      ]
     },
     "Caribbean": {
@@ -24588,12 +25155,12 @@
       "Cuba"
      ]
     }
-   },
-   "speciesTotalPowo": 2,
-   "speciesJournal": 0
+   }
   },
   "Philodendron": {
    "speciesTotal": 624,
+   "speciesTotalPowo": 624,
+   "speciesJournal": 0,
    "places": {
     "Colombia": 242,
     "Ecuador": 153,
@@ -27482,12 +28049,12 @@
       "Mexico Southwest"
      ]
     }
-   },
-   "speciesTotalPowo": 624,
-   "speciesJournal": 0
+   }
   },
   "Philonotion": {
    "speciesTotal": 3,
+   "speciesTotalPowo": 3,
+   "speciesJournal": 0,
    "places": {
     "Venezuela": 3,
     "Brazil North": 2,
@@ -27541,18 +28108,18 @@
       "Venezuela"
      ]
     },
+    "Brazil": {
+     "count": 2,
+     "members": [
+      "Brazil North"
+     ]
+    },
     "Western South America": {
      "count": 2,
      "members": [
       "Bolivia",
       "Colombia",
       "Peru"
-     ]
-    },
-    "Brazil": {
-     "count": 2,
-     "members": [
-      "Brazil North"
      ]
     }
    },
@@ -27575,12 +28142,12 @@
       "Venezuela"
      ]
     }
-   },
-   "speciesTotalPowo": 3,
-   "speciesJournal": 0
+   }
   },
   "Phyllotaenium": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "Colombia": 1,
     "Panama": 1
@@ -27599,16 +28166,16 @@
    },
    "doubtfulSpecies": {},
    "regions": {
-    "Western South America": {
-     "count": 1,
-     "members": [
-      "Colombia"
-     ]
-    },
     "Central America": {
      "count": 1,
      "members": [
       "Panama"
+     ]
+    },
+    "Western South America": {
+     "count": 1,
+     "members": [
+      "Colombia"
      ]
     }
    },
@@ -27624,12 +28191,12 @@
       "Panama"
      ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Phymatarum": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "Borneo": 1
    },
@@ -27662,12 +28229,12 @@
       "Borneo"
      ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Pichinia": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "Borneo": 1
    },
@@ -27700,12 +28267,12 @@
       "Borneo"
      ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Pinellia": {
    "speciesTotal": 11,
+   "speciesTotalPowo": 11,
+   "speciesJournal": 0,
    "places": {
     "China Southeast": 9,
     "China South-Central": 6,
@@ -27844,12 +28411,12 @@
       "Taiwan"
      ]
     }
-   },
-   "speciesTotalPowo": 11,
-   "speciesJournal": 0
+   }
   },
   "Piptospatha": {
    "speciesTotal": 3,
+   "speciesTotalPowo": 3,
+   "speciesJournal": 0,
    "places": {
     "Borneo": 3
    },
@@ -27888,12 +28455,12 @@
       "Borneo"
      ]
     }
-   },
-   "speciesTotalPowo": 3,
-   "speciesJournal": 0
+   }
   },
   "Pistia": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "Afghanistan": 1,
     "Andaman Islands": 1,
@@ -28356,71 +28923,32 @@
    },
    "doubtfulSpecies": {},
    "regions": {
-    "Malesia": {
+    "Papuasia": {
      "count": 1,
      "members": [
-      "Borneo",
-      "Java",
-      "Maluku",
-      "Peninsular Malaysia",
-      "Philippines",
-      "Sulawesi",
-      "Sumatra"
+      "New Guinea"
      ]
     },
-    "Brazil": {
+    "Southeastern Usa": {
      "count": 1,
      "members": [
-      "Brazil North",
-      "Brazil Northeast",
-      "Brazil South",
-      "Brazil Southeast",
-      "Brazil West-Central"
+      "Florida",
+      "Louisiana",
+      "Mississippi"
      ]
     },
-    "Southern South America": {
+    "Southern Africa": {
      "count": 1,
      "members": [
-      "Argentina Northeast",
-      "Paraguay",
-      "Uruguay"
-     ]
-    },
-    "Indian Subcontinent": {
-     "count": 1,
-     "members": [
-      "Assam",
-      "Bangladesh",
-      "East Himalaya",
-      "India",
-      "Lakshadweep",
-      "Maldives",
-      "Nepal",
-      "Pakistan",
-      "Sri Lanka",
-      "West Himalaya"
-     ]
-    },
-    "China": {
-     "count": 1,
-     "members": [
-      "China South-Central",
-      "China Southeast",
-      "Hainan"
-     ]
-    },
-    "Eastern Asia": {
-     "count": 1,
-     "members": [
-      "Nansei-shoto",
-      "Taiwan"
-     ]
-    },
-    "Australia": {
-     "count": 1,
-     "members": [
-      "Northern Territory",
-      "Queensland"
+      "Botswana",
+      "Cape Provinces",
+      "Eswatini",
+      "Free State",
+      "KwaZulu-Natal",
+      "Lesotho",
+      "Namibia",
+      "Northern Provinces",
+      "Zambezi Region"
      ]
     },
     "Indo-China": {
@@ -28436,10 +28964,113 @@
       "Vietnam"
      ]
     },
+    "Western South America": {
+     "count": 1,
+     "members": [
+      "Bolivia",
+      "Colombia",
+      "Ecuador",
+      "Galápagos",
+      "Peru"
+     ]
+    },
     "Northern Africa": {
      "count": 1,
      "members": [
       "Egypt"
+     ]
+    },
+    "Northeast Tropical Africa": {
+     "count": 1,
+     "members": [
+      "Chad",
+      "Ethiopia",
+      "Somalia",
+      "Sudan-South Sudan"
+     ]
+    },
+    "Mexico": {
+     "count": 1,
+     "members": [
+      "Mexican Pacific Is.",
+      "Mexico Central",
+      "Mexico Gulf",
+      "Mexico Northeast",
+      "Mexico Northwest",
+      "Mexico Southeast",
+      "Mexico Southwest"
+     ]
+    },
+    "Central America": {
+     "count": 1,
+     "members": [
+      "Belize",
+      "Costa Rica",
+      "El Salvador",
+      "Guatemala",
+      "Honduras",
+      "Nicaragua",
+      "Panama"
+     ]
+    },
+    "Australia": {
+     "count": 1,
+     "members": [
+      "Northern Territory",
+      "Queensland"
+     ]
+    },
+    "Southern South America": {
+     "count": 1,
+     "members": [
+      "Argentina Northeast",
+      "Paraguay",
+      "Uruguay"
+     ]
+    },
+    "East Tropical Africa": {
+     "count": 1,
+     "members": [
+      "Kenya",
+      "Tanzania",
+      "Uganda"
+     ]
+    },
+    "Brazil": {
+     "count": 1,
+     "members": [
+      "Brazil North",
+      "Brazil Northeast",
+      "Brazil South",
+      "Brazil Southeast",
+      "Brazil West-Central"
+     ]
+    },
+    "China": {
+     "count": 1,
+     "members": [
+      "China South-Central",
+      "China Southeast",
+      "Hainan"
+     ]
+    },
+    "Malesia": {
+     "count": 1,
+     "members": [
+      "Borneo",
+      "Java",
+      "Maluku",
+      "Peninsular Malaysia",
+      "Philippines",
+      "Sulawesi",
+      "Sumatra"
+     ]
+    },
+    "Eastern Asia": {
+     "count": 1,
+     "members": [
+      "Nansei-shoto",
+      "Taiwan"
      ]
     },
     "West-Central Tropical Africa": {
@@ -28455,6 +29086,61 @@
       "Gabon",
       "Gulf of Guinea Islands",
       "Rwanda"
+     ]
+    },
+    "Caribbean": {
+     "count": 1,
+     "members": [
+      "Cuba",
+      "Dominican Republic",
+      "Haiti",
+      "Jamaica",
+      "Leeward Is.",
+      "Netherlands Antilles",
+      "Puerto Rico",
+      "Trinidad and Tobago",
+      "Venezuelan Antilles",
+      "Windward Is."
+     ]
+    },
+    "South Tropical Africa": {
+     "count": 1,
+     "members": [
+      "Angola",
+      "Malawi",
+      "Mozambique",
+      "Zambia",
+      "Zimbabwe"
+     ]
+    },
+    "Northern South America": {
+     "count": 1,
+     "members": [
+      "French Guiana",
+      "Guyana",
+      "Suriname",
+      "Venezuela"
+     ]
+    },
+    "Western Asia": {
+     "count": 1,
+     "members": [
+      "Afghanistan"
+     ]
+    },
+    "Indian Subcontinent": {
+     "count": 1,
+     "members": [
+      "Assam",
+      "Bangladesh",
+      "East Himalaya",
+      "India",
+      "Lakshadweep",
+      "Maldives",
+      "Nepal",
+      "Pakistan",
+      "Sri Lanka",
+      "West Himalaya"
      ]
     },
     "West Tropical Africa": {
@@ -28477,137 +29163,18 @@
       "Togo"
      ]
     },
-    "Western South America": {
-     "count": 1,
-     "members": [
-      "Bolivia",
-      "Colombia",
-      "Ecuador",
-      "Galápagos",
-      "Peru"
-     ]
-    },
-    "Northern South America": {
-     "count": 1,
-     "members": [
-      "French Guiana",
-      "Guyana",
-      "Suriname",
-      "Venezuela"
-     ]
-    },
-    "Southeastern Usa": {
-     "count": 1,
-     "members": [
-      "Florida",
-      "Louisiana",
-      "Mississippi"
-     ]
-    },
-    "Caribbean": {
-     "count": 1,
-     "members": [
-      "Cuba",
-      "Dominican Republic",
-      "Haiti",
-      "Jamaica",
-      "Leeward Is.",
-      "Netherlands Antilles",
-      "Puerto Rico",
-      "Trinidad and Tobago",
-      "Venezuelan Antilles",
-      "Windward Is."
-     ]
-    },
-    "Mexico": {
-     "count": 1,
-     "members": [
-      "Mexican Pacific Is.",
-      "Mexico Central",
-      "Mexico Gulf",
-      "Mexico Northeast",
-      "Mexico Northwest",
-      "Mexico Southeast",
-      "Mexico Southwest"
-     ]
-    },
-    "Papuasia": {
-     "count": 1,
-     "members": [
-      "New Guinea"
-     ]
-    },
-    "East Tropical Africa": {
-     "count": 1,
-     "members": [
-      "Kenya",
-      "Tanzania",
-      "Uganda"
-     ]
-    },
-    "Central America": {
-     "count": 1,
-     "members": [
-      "Belize",
-      "Costa Rica",
-      "El Salvador",
-      "Guatemala",
-      "Honduras",
-      "Nicaragua",
-      "Panama"
-     ]
-    },
-    "Western Asia": {
-     "count": 1,
-     "members": [
-      "Afghanistan"
-     ]
-    },
-    "Northeast Tropical Africa": {
-     "count": 1,
-     "members": [
-      "Chad",
-      "Ethiopia",
-      "Somalia",
-      "Sudan-South Sudan"
-     ]
-    },
-    "South Central Usa": {
-     "count": 1,
-     "members": [
-      "Texas"
-     ]
-    },
-    "South Tropical Africa": {
-     "count": 1,
-     "members": [
-      "Angola",
-      "Malawi",
-      "Mozambique",
-      "Zambia",
-      "Zimbabwe"
-     ]
-    },
-    "Southern Africa": {
-     "count": 1,
-     "members": [
-      "Botswana",
-      "Cape Provinces",
-      "Eswatini",
-      "Free State",
-      "KwaZulu-Natal",
-      "Lesotho",
-      "Namibia",
-      "Northern Provinces",
-      "Zambezi Region"
-     ]
-    },
     "Western Indian Ocean": {
      "count": 1,
      "members": [
       "Comoros",
       "Madagascar",
       "Mauritius"
+     ]
+    },
+    "South Central Usa": {
+     "count": 1,
+     "members": [
+      "Texas"
      ]
     }
    },
@@ -28647,53 +29214,6 @@
       "Thailand",
       "Vietnam",
       "West Himalaya"
-     ]
-    },
-    "Southern America": {
-     "count": 1,
-     "regions": [
-      "Brazil",
-      "Caribbean",
-      "Central America",
-      "Northern South America",
-      "Southern South America",
-      "Western South America"
-     ],
-     "members": [
-      "Argentina Northeast",
-      "Belize",
-      "Bolivia",
-      "Brazil North",
-      "Brazil Northeast",
-      "Brazil South",
-      "Brazil Southeast",
-      "Brazil West-Central",
-      "Colombia",
-      "Costa Rica",
-      "Cuba",
-      "Dominican Republic",
-      "Ecuador",
-      "El Salvador",
-      "French Guiana",
-      "Galápagos",
-      "Guatemala",
-      "Guyana",
-      "Haiti",
-      "Honduras",
-      "Jamaica",
-      "Leeward Is.",
-      "Netherlands Antilles",
-      "Nicaragua",
-      "Panama",
-      "Paraguay",
-      "Peru",
-      "Puerto Rico",
-      "Suriname",
-      "Trinidad and Tobago",
-      "Uruguay",
-      "Venezuela",
-      "Venezuelan Antilles",
-      "Windward Is."
      ]
     },
     "Northern America": {
@@ -28792,6 +29312,53 @@
       "Zimbabwe"
      ]
     },
+    "Southern America": {
+     "count": 1,
+     "regions": [
+      "Brazil",
+      "Caribbean",
+      "Central America",
+      "Northern South America",
+      "Southern South America",
+      "Western South America"
+     ],
+     "members": [
+      "Argentina Northeast",
+      "Belize",
+      "Bolivia",
+      "Brazil North",
+      "Brazil Northeast",
+      "Brazil South",
+      "Brazil Southeast",
+      "Brazil West-Central",
+      "Colombia",
+      "Costa Rica",
+      "Cuba",
+      "Dominican Republic",
+      "Ecuador",
+      "El Salvador",
+      "French Guiana",
+      "Galápagos",
+      "Guatemala",
+      "Guyana",
+      "Haiti",
+      "Honduras",
+      "Jamaica",
+      "Leeward Is.",
+      "Netherlands Antilles",
+      "Nicaragua",
+      "Panama",
+      "Paraguay",
+      "Peru",
+      "Puerto Rico",
+      "Suriname",
+      "Trinidad and Tobago",
+      "Uruguay",
+      "Venezuela",
+      "Venezuelan Antilles",
+      "Windward Is."
+     ]
+    },
     "Temperate Asia": {
      "count": 1,
      "regions": [
@@ -28808,12 +29375,12 @@
       "Taiwan"
      ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Podolasia": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "Borneo": 1,
     "Peninsular Malaysia": 1,
@@ -28856,12 +29423,12 @@
       "Sumatra"
      ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Pothoidium": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "Maluku": 1,
     "Philippines": 1,
@@ -28902,15 +29469,6 @@
     }
    },
    "continents": {
-    "Temperate Asia": {
-     "count": 1,
-     "regions": [
-      "Eastern Asia"
-     ],
-     "members": [
-      "Taiwan"
-     ]
-    },
     "Tropical Asia": {
      "count": 1,
      "regions": [
@@ -28921,13 +29479,22 @@
       "Philippines",
       "Sulawesi"
      ]
+    },
+    "Temperate Asia": {
+     "count": 1,
+     "regions": [
+      "Eastern Asia"
+     ],
+     "members": [
+      "Taiwan"
+     ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Pothos": {
    "speciesTotal": 66,
+   "speciesTotalPowo": 66,
+   "speciesJournal": 0,
    "places": {
     "Borneo": 22,
     "Peninsular Malaysia": 11,
@@ -29481,12 +30048,12 @@
       "Vanuatu"
      ]
     }
-   },
-   "speciesTotalPowo": 66,
-   "speciesJournal": 0
+   }
   },
   "Protarum": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "Seychelles": 1
    },
@@ -29519,12 +30086,12 @@
       "Seychelles"
      ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Pseudohydrosme": {
    "speciesTotal": 3,
+   "speciesTotalPowo": 3,
+   "speciesJournal": 0,
    "places": {
     "Gabon": 3,
     "Cameroon": 1,
@@ -29578,12 +30145,12 @@
       "Gabon"
      ]
     }
-   },
-   "speciesTotalPowo": 3,
-   "speciesJournal": 0
+   }
   },
   "Pursegloveia": {
    "speciesTotal": 7,
+   "speciesTotalPowo": 7,
+   "speciesJournal": 0,
    "places": {
     "Borneo": 7
    },
@@ -29634,12 +30201,12 @@
       "Borneo"
      ]
     }
-   },
-   "speciesTotalPowo": 7,
-   "speciesJournal": 0
+   }
   },
   "Pycnospatha": {
    "speciesTotal": 2,
+   "speciesTotalPowo": 2,
+   "speciesJournal": 0,
    "places": {
     "Thailand": 2,
     "Cambodia": 1,
@@ -29690,12 +30257,12 @@
       "Vietnam"
      ]
     }
-   },
-   "speciesTotalPowo": 2,
-   "speciesJournal": 0
+   }
   },
   "Remusatia": {
    "speciesTotal": 4,
+   "speciesTotalPowo": 4,
+   "speciesJournal": 0,
    "places": {
     "China South-Central": 4,
     "Assam": 3,
@@ -29847,6 +30414,15 @@
       "Tibet"
      ]
     },
+    "Indo-China": {
+     "count": 3,
+     "members": [
+      "Laos",
+      "Myanmar",
+      "Thailand",
+      "Vietnam"
+     ]
+    },
     "Indian Subcontinent": {
      "count": 3,
      "members": [
@@ -29859,27 +30435,24 @@
       "West Himalaya"
      ]
     },
-    "Indo-China": {
-     "count": 3,
-     "members": [
-      "Laos",
-      "Myanmar",
-      "Thailand",
-      "Vietnam"
-     ]
-    },
     "Eastern Asia": {
      "count": 2,
      "members": [
       "Taiwan"
      ]
     },
-    "Malesia": {
+    "Northeast Tropical Africa": {
      "count": 1,
      "members": [
-      "Christmas I.",
-      "Java",
-      "Lesser Sunda Islands"
+      "Ethiopia",
+      "Socotra"
+     ]
+    },
+    "Australia": {
+     "count": 1,
+     "members": [
+      "Northern Territory",
+      "Queensland"
      ]
     },
     "Arabian Peninsula": {
@@ -29895,13 +30468,6 @@
       "Tanzania"
      ]
     },
-    "Northeast Tropical Africa": {
-     "count": 1,
-     "members": [
-      "Ethiopia",
-      "Socotra"
-     ]
-    },
     "West Tropical Africa": {
      "count": 1,
      "members": [
@@ -29913,17 +30479,12 @@
       "Sierra Leone"
      ]
     },
-    "South Tropical Africa": {
+    "Malesia": {
      "count": 1,
      "members": [
-      "Zambia"
-     ]
-    },
-    "Australia": {
-     "count": 1,
-     "members": [
-      "Northern Territory",
-      "Queensland"
+      "Christmas I.",
+      "Java",
+      "Lesser Sunda Islands"
      ]
     },
     "Western Indian Ocean": {
@@ -29939,6 +30500,12 @@
       "Cameroon",
       "Central African Republic",
       "DR Congo"
+     ]
+    },
+    "South Tropical Africa": {
+     "count": 1,
+     "members": [
+      "Zambia"
      ]
     }
    },
@@ -29982,16 +30549,6 @@
       "West Himalaya"
      ]
     },
-    "Australasia": {
-     "count": 1,
-     "regions": [
-      "Australia"
-     ],
-     "members": [
-      "Northern Territory",
-      "Queensland"
-     ]
-    },
     "Africa": {
      "count": 1,
      "regions": [
@@ -30019,13 +30576,23 @@
       "Tanzania",
       "Zambia"
      ]
+    },
+    "Australasia": {
+     "count": 1,
+     "regions": [
+      "Australia"
+     ],
+     "members": [
+      "Northern Territory",
+      "Queensland"
+     ]
     }
-   },
-   "speciesTotalPowo": 4,
-   "speciesJournal": 0
+   }
   },
   "Rhaphidophora": {
    "speciesTotal": 105,
+   "speciesTotalPowo": 105,
+   "speciesJournal": 0,
    "places": {
     "New Guinea": 28,
     "Peninsular Malaysia": 18,
@@ -30872,12 +31439,12 @@
       "Vanuatu"
      ]
     }
-   },
-   "speciesTotalPowo": 105,
-   "speciesJournal": 0
+   }
   },
   "Rhodospatha": {
    "speciesTotal": 45,
+   "speciesTotalPowo": 45,
+   "speciesJournal": 0,
    "places": {
     "Panama": 14,
     "Venezuela": 12,
@@ -31211,12 +31778,12 @@
       "Mexico Southwest"
      ]
     }
-   },
-   "speciesTotalPowo": 45,
-   "speciesJournal": 0
+   }
   },
   "Rhynchopyle": {
    "speciesTotal": 7,
+   "speciesTotalPowo": 7,
+   "speciesJournal": 0,
    "places": {
     "Borneo": 7
    },
@@ -31267,12 +31834,12 @@
       "Borneo"
      ]
     }
-   },
-   "speciesTotalPowo": 7,
-   "speciesJournal": 0
+   }
   },
   "Sarawakia": {
    "speciesTotal": 5,
+   "speciesTotalPowo": 5,
+   "speciesJournal": 0,
    "places": {
     "Borneo": 5
    },
@@ -31317,12 +31884,12 @@
       "Borneo"
      ]
     }
-   },
-   "speciesTotalPowo": 5,
-   "speciesJournal": 0
+   }
   },
   "Sauromatum": {
    "speciesTotal": 11,
+   "speciesTotalPowo": 11,
+   "speciesJournal": 0,
    "places": {
     "East Himalaya": 6,
     "China South-Central": 6,
@@ -31543,13 +32110,11 @@
       "Sumatra"
      ]
     },
-    "South Tropical Africa": {
+    "Northeast Tropical Africa": {
      "count": 1,
      "members": [
-      "Angola",
-      "Malawi",
-      "Mozambique",
-      "Zambia"
+      "Ethiopia",
+      "Sudan-South Sudan"
      ]
     },
     "East Tropical Africa": {
@@ -31577,11 +32142,13 @@
       "Gulf of Guinea Islands"
      ]
     },
-    "Northeast Tropical Africa": {
+    "South Tropical Africa": {
      "count": 1,
      "members": [
-      "Ethiopia",
-      "Sudan-South Sudan"
+      "Angola",
+      "Malawi",
+      "Mozambique",
+      "Zambia"
      ]
     }
    },
@@ -31652,12 +32219,12 @@
       "Zambia"
      ]
     }
-   },
-   "speciesTotalPowo": 11,
-   "speciesJournal": 0
+   }
   },
   "Scaphispatha": {
    "speciesTotal": 2,
+   "speciesTotalPowo": 2,
+   "speciesJournal": 0,
    "places": {
     "Brazil North": 2,
     "Brazil West-Central": 2,
@@ -31715,12 +32282,12 @@
       "Brazil West-Central"
      ]
     }
-   },
-   "speciesTotalPowo": 2,
-   "speciesJournal": 0
+   }
   },
   "Schismatoglottis": {
    "speciesTotal": 97,
+   "speciesTotalPowo": 97,
+   "speciesJournal": 0,
    "places": {
     "Borneo": 54,
     "Philippines": 13,
@@ -32172,12 +32739,12 @@
       "Vanuatu"
      ]
     }
-   },
-   "speciesTotalPowo": 97,
-   "speciesJournal": 0
+   }
   },
   "Schottariella": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "Borneo": 1
    },
@@ -32210,12 +32777,12 @@
       "Borneo"
      ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Schottarum": {
    "speciesTotal": 3,
+   "speciesTotalPowo": 3,
+   "speciesJournal": 0,
    "places": {
     "Borneo": 3
    },
@@ -32254,12 +32821,12 @@
       "Borneo"
      ]
     }
-   },
-   "speciesTotalPowo": 3,
-   "speciesJournal": 0
+   }
   },
   "Scindapsus": {
    "speciesTotal": 35,
+   "speciesTotalPowo": 35,
+   "speciesJournal": 0,
    "places": {
     "Borneo": 16,
     "Sumatra": 11,
@@ -32603,12 +33170,12 @@
       "Hainan"
      ]
     }
-   },
-   "speciesTotalPowo": 35,
-   "speciesJournal": 0
+   }
   },
   "Spathantheum": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "Argentina Northwest": 1,
     "Bolivia": 1,
@@ -32630,17 +33197,17 @@
    },
    "doubtfulSpecies": {},
    "regions": {
+    "Southern South America": {
+     "count": 1,
+     "members": [
+      "Argentina Northwest"
+     ]
+    },
     "Western South America": {
      "count": 1,
      "members": [
       "Bolivia",
       "Peru"
-     ]
-    },
-    "Southern South America": {
-     "count": 1,
-     "members": [
-      "Argentina Northwest"
      ]
     }
    },
@@ -32657,12 +33224,12 @@
       "Peru"
      ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Spathicarpa": {
    "speciesTotal": 3,
+   "speciesTotalPowo": 3,
+   "speciesJournal": 0,
    "places": {
     "Brazil Northeast": 2,
     "Brazil Southeast": 2,
@@ -32756,12 +33323,12 @@
       "Uruguay"
      ]
     }
-   },
-   "speciesTotalPowo": 3,
-   "speciesJournal": 0
+   }
   },
   "Spathiphyllum": {
    "speciesTotal": 76,
+   "speciesTotalPowo": 76,
+   "speciesJournal": 0,
    "places": {
     "Colombia": 23,
     "Panama": 22,
@@ -33240,18 +33807,18 @@
       "Trinidad and Tobago"
      ]
     },
-    "Northwestern Pacific": {
-     "count": 1,
-     "members": [
-      "Caroline Is."
-     ]
-    },
     "Malesia": {
      "count": 1,
      "members": [
       "Maluku",
       "Philippines",
       "Sulawesi"
+     ]
+    },
+    "Northwestern Pacific": {
+     "count": 1,
+     "members": [
+      "Caroline Is."
      ]
     }
    },
@@ -33324,12 +33891,12 @@
       "Caroline Is."
      ]
     }
-   },
-   "speciesTotalPowo": 76,
-   "speciesJournal": 0
+   }
   },
   "Spirodela": {
    "speciesTotal": 4,
+   "speciesTotalPowo": 4,
+   "speciesJournal": 0,
    "places": {
     "China South-Central": 3,
     "Bangladesh": 2,
@@ -34144,6 +34711,50 @@
       "Tibet"
      ]
     },
+    "Indian Subcontinent": {
+     "count": 2,
+     "members": [
+      "Assam",
+      "Bangladesh",
+      "East Himalaya",
+      "India",
+      "Maldives",
+      "Nepal",
+      "Sri Lanka",
+      "West Himalaya"
+     ]
+    },
+    "Australia": {
+     "count": 2,
+     "members": [
+      "New South Wales",
+      "Norfolk Is.",
+      "Northern Territory",
+      "Queensland",
+      "South Australia",
+      "Tasmania",
+      "Victoria",
+      "Western Australia"
+     ]
+    },
+    "Southern Africa": {
+     "count": 2,
+     "members": [
+      "Botswana",
+      "Cape Provinces",
+      "Free State",
+      "KwaZulu-Natal",
+      "Northern Provinces"
+     ]
+    },
+    "Indo-China": {
+     "count": 2,
+     "members": [
+      "Myanmar",
+      "Thailand",
+      "Vietnam"
+     ]
+    },
     "Malesia": {
      "count": 2,
      "members": [
@@ -34176,50 +34787,6 @@
       "Zimbabwe"
      ]
     },
-    "Southern Africa": {
-     "count": 2,
-     "members": [
-      "Botswana",
-      "Cape Provinces",
-      "Free State",
-      "KwaZulu-Natal",
-      "Northern Provinces"
-     ]
-    },
-    "Australia": {
-     "count": 2,
-     "members": [
-      "New South Wales",
-      "Norfolk Is.",
-      "Northern Territory",
-      "Queensland",
-      "South Australia",
-      "Tasmania",
-      "Victoria",
-      "Western Australia"
-     ]
-    },
-    "Indian Subcontinent": {
-     "count": 2,
-     "members": [
-      "Assam",
-      "Bangladesh",
-      "East Himalaya",
-      "India",
-      "Maldives",
-      "Nepal",
-      "Sri Lanka",
-      "West Himalaya"
-     ]
-    },
-    "Indo-China": {
-     "count": 2,
-     "members": [
-      "Myanmar",
-      "Thailand",
-      "Vietnam"
-     ]
-    },
     "Western South America": {
      "count": 2,
      "members": [
@@ -34227,6 +34794,19 @@
       "Colombia",
       "Ecuador",
       "Peru"
+     ]
+    },
+    "Central America": {
+     "count": 2,
+     "members": [
+      "Belize",
+      "Central American Pacific Is.",
+      "Costa Rica",
+      "El Salvador",
+      "Guatemala",
+      "Honduras",
+      "Nicaragua",
+      "Panama"
      ]
     },
     "Caribbean": {
@@ -34242,17 +34822,17 @@
       "Windward Is."
      ]
     },
-    "Central America": {
-     "count": 2,
+    "Papuasia": {
+     "count": 1,
      "members": [
-      "Belize",
-      "Central American Pacific Is.",
-      "Costa Rica",
-      "El Salvador",
-      "Guatemala",
-      "Honduras",
-      "Nicaragua",
-      "Panama"
+      "New Guinea"
+     ]
+    },
+    "Western Indian Ocean": {
+     "count": 1,
+     "members": [
+      "Madagascar",
+      "Mauritius"
      ]
     },
     "Southwestern Pacific": {
@@ -34271,130 +34851,28 @@
       "New Zealand South"
      ]
     },
-    "Western Indian Ocean": {
-     "count": 1,
-     "members": [
-      "Madagascar",
-      "Mauritius"
-     ]
-    },
-    "Papuasia": {
-     "count": 1,
-     "members": [
-      "New Guinea"
-     ]
-    },
     "Middle Asia": {
      "count": 1,
      "members": [
       "Kazakhstan"
      ]
     },
-    "Middle Europe": {
+    "Western Canada": {
      "count": 1,
      "members": [
-      "Austria",
-      "Belgium",
-      "Czechia-Slovakia",
-      "Germany",
-      "Hungary",
-      "Netherlands",
-      "Poland",
-      "Switzerland"
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Saskatchewan"
      ]
     },
-    "Russian Far East": {
+    "Southwestern Usa": {
      "count": 1,
      "members": [
-      "Kamchatka",
-      "Khabarovsk",
-      "Kuril Is.",
-      "Primorye",
-      "Sakhalin"
-     ]
-    },
-    "Southwestern Europe": {
-     "count": 1,
-     "members": [
-      "Corse",
-      "France",
-      "Portugal",
-      "Sardegna",
-      "Spain"
-     ]
-    },
-    "Eastern Canada": {
-     "count": 1,
-     "members": [
-      "New Brunswick",
-      "Nova Scotia",
-      "Prince Edward I.",
-      "Québec"
-     ]
-    },
-    "Northern Europe": {
-     "count": 1,
-     "members": [
-      "Denmark",
-      "Finland",
-      "Great Britain",
-      "Ireland",
-      "Norway",
-      "Sweden"
-     ]
-    },
-    "Northern Africa": {
-     "count": 1,
-     "members": [
-      "Egypt",
-      "Morocco",
-      "Tunisia"
-     ]
-    },
-    "Southeastern Europe": {
-     "count": 1,
-     "members": [
-      "Albania",
-      "Bulgaria",
-      "Greece",
-      "Italy",
-      "Kriti",
-      "NW. Balkan Pen.",
-      "Romania",
-      "Sicilia",
-      "Türkiye-in-Europe"
-     ]
-    },
-    "West-Central Tropical Africa": {
-     "count": 1,
-     "members": [
-      "Burundi",
-      "Central African Republic",
-      "Congo",
-      "DR Congo",
-      "Rwanda"
-     ]
-    },
-    "Northwestern Usa": {
-     "count": 1,
-     "members": [
-      "Colorado",
-      "Idaho",
-      "Montana",
-      "Oregon",
-      "Washington",
-      "Wyoming"
-     ]
-    },
-    "West Tropical Africa": {
-     "count": 1,
-     "members": [
-      "Benin",
-      "Ghana",
-      "Ivory Coast",
-      "Nigeria",
-      "Senegal",
-      "Togo"
+      "Arizona",
+      "California",
+      "Nevada",
+      "Utah"
      ]
     },
     "Southeastern Usa": {
@@ -34416,13 +34894,49 @@
       "Virginia"
      ]
     },
-    "Southwestern Usa": {
+    "North Central Pacific": {
      "count": 1,
      "members": [
-      "Arizona",
-      "California",
-      "Nevada",
-      "Utah"
+      "Hawaii"
+     ]
+    },
+    "Southeastern Europe": {
+     "count": 1,
+     "members": [
+      "Albania",
+      "Bulgaria",
+      "Greece",
+      "Italy",
+      "Kriti",
+      "NW. Balkan Pen.",
+      "Romania",
+      "Sicilia",
+      "Türkiye-in-Europe"
+     ]
+    },
+    "Northern Africa": {
+     "count": 1,
+     "members": [
+      "Egypt",
+      "Morocco",
+      "Tunisia"
+     ]
+    },
+    "Northeast Tropical Africa": {
+     "count": 1,
+     "members": [
+      "Chad",
+      "Ethiopia",
+      "Sudan-South Sudan"
+     ]
+    },
+    "Eastern Canada": {
+     "count": 1,
+     "members": [
+      "New Brunswick",
+      "Nova Scotia",
+      "Prince Edward I.",
+      "Québec"
      ]
     },
     "Mexico": {
@@ -34437,10 +34951,48 @@
       "Mexico Southwest"
      ]
     },
-    "North Central Pacific": {
+    "Caucasus": {
      "count": 1,
      "members": [
-      "Hawaii"
+      "North Caucasus",
+      "Transcaucasus"
+     ]
+    },
+    "North Central Usa": {
+     "count": 1,
+     "members": [
+      "Illinois",
+      "Iowa",
+      "Kansas",
+      "Minnesota",
+      "Missouri",
+      "Nebraska",
+      "North Dakota",
+      "Oklahoma",
+      "South Dakota",
+      "Wisconsin"
+     ]
+    },
+    "Northwestern Usa": {
+     "count": 1,
+     "members": [
+      "Colorado",
+      "Idaho",
+      "Montana",
+      "Oregon",
+      "Washington",
+      "Wyoming"
+     ]
+    },
+    "Northern Europe": {
+     "count": 1,
+     "members": [
+      "Denmark",
+      "Finland",
+      "Great Britain",
+      "Ireland",
+      "Norway",
+      "Sweden"
      ]
     },
     "East Tropical Africa": {
@@ -34449,6 +35001,16 @@
       "Kenya",
       "Tanzania",
       "Uganda"
+     ]
+    },
+    "Southwestern Europe": {
+     "count": 1,
+     "members": [
+      "Corse",
+      "France",
+      "Portugal",
+      "Sardegna",
+      "Spain"
      ]
     },
     "Northeastern Usa": {
@@ -34469,6 +35031,34 @@
       "West Virginia"
      ]
     },
+    "Macaronesia": {
+     "count": 1,
+     "members": [
+      "Madeira"
+     ]
+    },
+    "West-Central Tropical Africa": {
+     "count": 1,
+     "members": [
+      "Burundi",
+      "Central African Republic",
+      "Congo",
+      "DR Congo",
+      "Rwanda"
+     ]
+    },
+    "Siberia": {
+     "count": 1,
+     "members": [
+      "Altay",
+      "Buryatiya",
+      "Irkutsk",
+      "Krasnoyarsk",
+      "Tuva",
+      "West Siberia",
+      "Yakutiya"
+     ]
+    },
     "Western Asia": {
      "count": 1,
      "members": [
@@ -34478,43 +35068,25 @@
       "Türkiye"
      ]
     },
-    "North Central Usa": {
+    "Russian Far East": {
      "count": 1,
      "members": [
-      "Illinois",
-      "Iowa",
-      "Kansas",
-      "Minnesota",
-      "Missouri",
-      "Nebraska",
-      "North Dakota",
-      "Oklahoma",
-      "South Dakota",
-      "Wisconsin"
+      "Kamchatka",
+      "Khabarovsk",
+      "Kuril Is.",
+      "Primorye",
+      "Sakhalin"
      ]
     },
-    "Northeast Tropical Africa": {
+    "West Tropical Africa": {
      "count": 1,
      "members": [
-      "Chad",
-      "Ethiopia",
-      "Sudan-South Sudan"
-     ]
-    },
-    "South Central Usa": {
-     "count": 1,
-     "members": [
-      "New Mexico",
-      "Texas"
-     ]
-    },
-    "Western Canada": {
-     "count": 1,
-     "members": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Saskatchewan"
+      "Benin",
+      "Ghana",
+      "Ivory Coast",
+      "Nigeria",
+      "Senegal",
+      "Togo"
      ]
     },
     "Eastern Europe": {
@@ -34531,39 +35103,24 @@
       "Ukraine"
      ]
     },
-    "Siberia": {
+    "South Central Usa": {
      "count": 1,
      "members": [
-      "Altay",
-      "Buryatiya",
-      "Irkutsk",
-      "Krasnoyarsk",
-      "Tuva",
-      "West Siberia",
-      "Yakutiya"
+      "New Mexico",
+      "Texas"
      ]
     },
-    "Macaronesia": {
+    "Middle Europe": {
      "count": 1,
      "members": [
-      "Madeira"
-     ]
-    },
-    "Caucasus": {
-     "count": 1,
-     "members": [
-      "North Caucasus",
-      "Transcaucasus"
-     ]
-    },
-    "Brazil": {
-     "count": 1,
-     "members": [
-      "Brazil North",
-      "Brazil Northeast",
-      "Brazil South",
-      "Brazil Southeast",
-      "Brazil West-Central"
+      "Austria",
+      "Belgium",
+      "Czechia-Slovakia",
+      "Germany",
+      "Hungary",
+      "Netherlands",
+      "Poland",
+      "Switzerland"
      ]
     },
     "Northern South America": {
@@ -34582,6 +35139,16 @@
       "Chile Central",
       "Paraguay",
       "Uruguay"
+     ]
+    },
+    "Brazil": {
+     "count": 1,
+     "members": [
+      "Brazil North",
+      "Brazil Northeast",
+      "Brazil South",
+      "Brazil Southeast",
+      "Brazil West-Central"
      ]
     }
    },
@@ -34627,19 +35194,6 @@
       "Türkiye",
       "West Siberia",
       "Yakutiya"
-     ]
-    },
-    "Pacific": {
-     "count": 2,
-     "regions": [
-      "North Central Pacific",
-      "Southwestern Pacific"
-     ],
-     "members": [
-      "Fiji",
-      "Hawaii",
-      "New Caledonia",
-      "Vanuatu"
      ]
     },
     "Tropical Asia": {
@@ -34743,6 +35297,19 @@
       "Zimbabwe"
      ]
     },
+    "Pacific": {
+     "count": 2,
+     "regions": [
+      "North Central Pacific",
+      "Southwestern Pacific"
+     ],
+     "members": [
+      "Fiji",
+      "Hawaii",
+      "New Caledonia",
+      "Vanuatu"
+     ]
+    },
     "Southern America": {
      "count": 2,
      "regions": [
@@ -34787,6 +35354,55 @@
       "Uruguay",
       "Venezuela",
       "Windward Is."
+     ]
+    },
+    "Europe": {
+     "count": 1,
+     "regions": [
+      "Eastern Europe",
+      "Middle Europe",
+      "Northern Europe",
+      "Southeastern Europe",
+      "Southwestern Europe"
+     ],
+     "members": [
+      "Albania",
+      "Austria",
+      "Baltic States",
+      "Belarus",
+      "Belgium",
+      "Bulgaria",
+      "Central European Russia",
+      "Corse",
+      "Czechia-Slovakia",
+      "Denmark",
+      "East European Russia",
+      "Finland",
+      "France",
+      "Germany",
+      "Great Britain",
+      "Greece",
+      "Hungary",
+      "Ireland",
+      "Italy",
+      "Kriti",
+      "Krym",
+      "NW. Balkan Pen.",
+      "Netherlands",
+      "North European Russia",
+      "Northwest European Russia",
+      "Norway",
+      "Poland",
+      "Portugal",
+      "Romania",
+      "Sardegna",
+      "Sicilia",
+      "South European Russia",
+      "Spain",
+      "Sweden",
+      "Switzerland",
+      "Türkiye-in-Europe",
+      "Ukraine"
      ]
     },
     "Northern America": {
@@ -34868,62 +35484,13 @@
       "Wisconsin",
       "Wyoming"
      ]
-    },
-    "Europe": {
-     "count": 1,
-     "regions": [
-      "Eastern Europe",
-      "Middle Europe",
-      "Northern Europe",
-      "Southeastern Europe",
-      "Southwestern Europe"
-     ],
-     "members": [
-      "Albania",
-      "Austria",
-      "Baltic States",
-      "Belarus",
-      "Belgium",
-      "Bulgaria",
-      "Central European Russia",
-      "Corse",
-      "Czechia-Slovakia",
-      "Denmark",
-      "East European Russia",
-      "Finland",
-      "France",
-      "Germany",
-      "Great Britain",
-      "Greece",
-      "Hungary",
-      "Ireland",
-      "Italy",
-      "Kriti",
-      "Krym",
-      "NW. Balkan Pen.",
-      "Netherlands",
-      "North European Russia",
-      "Northwest European Russia",
-      "Norway",
-      "Poland",
-      "Portugal",
-      "Romania",
-      "Sardegna",
-      "Sicilia",
-      "South European Russia",
-      "Spain",
-      "Sweden",
-      "Switzerland",
-      "Türkiye-in-Europe",
-      "Ukraine"
-     ]
     }
-   },
-   "speciesTotalPowo": 4,
-   "speciesJournal": 0
+   }
   },
   "Stenospermation": {
    "speciesTotal": 58,
+   "speciesTotalPowo": 58,
+   "speciesJournal": 0,
    "places": {
     "Colombia": 33,
     "Ecuador": 27,
@@ -35261,12 +35828,12 @@
       "Venezuela"
      ]
     }
-   },
-   "speciesTotalPowo": 58,
-   "speciesJournal": 0
+   }
   },
   "Steudnera": {
    "speciesTotal": 11,
+   "speciesTotalPowo": 11,
+   "speciesJournal": 0,
    "places": {
     "Assam": 5,
     "Myanmar": 5,
@@ -35412,12 +35979,12 @@
       "China Southeast"
      ]
     }
-   },
-   "speciesTotalPowo": 11,
-   "speciesJournal": 0
+   }
   },
   "Stylochiton": {
    "speciesTotal": 22,
+   "speciesTotalPowo": 22,
+   "speciesJournal": 0,
    "places": {
     "Tanzania": 9,
     "Mozambique": 5,
@@ -35719,12 +36286,12 @@
       "Zimbabwe"
      ]
     }
-   },
-   "speciesTotalPowo": 22,
-   "speciesJournal": 0
+   }
   },
   "Symplocarpus": {
    "speciesTotal": 6,
+   "speciesTotalPowo": 6,
+   "speciesJournal": 0,
    "places": {
     "Korea": 3,
     "Japan": 3,
@@ -35880,6 +36447,18 @@
       "Manchuria"
      ]
     },
+    "Southeastern Usa": {
+     "count": 1,
+     "members": [
+      "Delaware",
+      "District of Columbia",
+      "Kentucky",
+      "Maryland",
+      "North Carolina",
+      "Tennessee",
+      "Virginia"
+     ]
+    },
     "Northeastern Usa": {
      "count": 1,
      "members": [
@@ -35898,16 +36477,13 @@
       "West Virginia"
      ]
     },
-    "Southeastern Usa": {
+    "North Central Usa": {
      "count": 1,
      "members": [
-      "Delaware",
-      "District of Columbia",
-      "Kentucky",
-      "Maryland",
-      "North Carolina",
-      "Tennessee",
-      "Virginia"
+      "Illinois",
+      "Iowa",
+      "Minnesota",
+      "Wisconsin"
      ]
     },
     "Eastern Canada": {
@@ -35917,15 +36493,6 @@
       "Nova Scotia",
       "Ontario",
       "Québec"
-     ]
-    },
-    "North Central Usa": {
-     "count": 1,
-     "members": [
-      "Illinois",
-      "Iowa",
-      "Minnesota",
-      "Wisconsin"
      ]
     }
    },
@@ -35986,12 +36553,12 @@
       "Wisconsin"
      ]
     }
-   },
-   "speciesTotalPowo": 6,
-   "speciesJournal": 0
+   }
   },
   "Synandrospadix": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "Argentina Northwest": 1,
     "Bolivia": 1,
@@ -36016,18 +36583,18 @@
    },
    "doubtfulSpecies": {},
    "regions": {
-    "Western South America": {
-     "count": 1,
-     "members": [
-      "Bolivia",
-      "Peru"
-     ]
-    },
     "Southern South America": {
      "count": 1,
      "members": [
       "Argentina Northwest",
       "Paraguay"
+     ]
+    },
+    "Western South America": {
+     "count": 1,
+     "members": [
+      "Bolivia",
+      "Peru"
      ]
     }
    },
@@ -36045,12 +36612,12 @@
       "Peru"
      ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Syngonium": {
    "speciesTotal": 41,
+   "speciesTotalPowo": 41,
+   "speciesJournal": 0,
    "places": {
     "Panama": 19,
     "Costa Rica": 17,
@@ -36503,12 +37070,12 @@
       "Mexico Southwest"
      ]
     }
-   },
-   "speciesTotalPowo": 41,
-   "speciesJournal": 0
+   }
   },
   "Taccarum": {
    "speciesTotal": 6,
+   "speciesTotalPowo": 6,
+   "speciesJournal": 0,
    "places": {
     "Brazil North": 3,
     "Bolivia": 2,
@@ -36610,12 +37177,12 @@
       "Peru"
      ]
     }
-   },
-   "speciesTotalPowo": 6,
-   "speciesJournal": 0
+   }
   },
   "Tawaia": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "Borneo": 1
    },
@@ -36648,12 +37215,12 @@
       "Borneo"
      ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Theriophonum": {
    "speciesTotal": 6,
+   "speciesTotalPowo": 6,
+   "speciesJournal": 0,
    "places": {
     "India": 6,
     "Sri Lanka": 1
@@ -36706,12 +37273,12 @@
       "Sri Lanka"
      ]
     }
-   },
-   "speciesTotalPowo": 6,
-   "speciesJournal": 0
+   }
   },
   "Toga": {
    "speciesTotal": 6,
+   "speciesTotalPowo": 6,
+   "speciesJournal": 0,
    "places": {
     "Borneo": 6
    },
@@ -36759,12 +37326,12 @@
       "Borneo"
      ]
     }
-   },
-   "speciesTotalPowo": 6,
-   "speciesJournal": 0
+   }
   },
   "Tweeddalea": {
    "speciesTotal": 14,
+   "speciesTotalPowo": 14,
+   "speciesJournal": 0,
    "places": {
     "Borneo": 14
    },
@@ -36836,12 +37403,12 @@
       "Borneo"
      ]
     }
-   },
-   "speciesTotalPowo": 14,
-   "speciesJournal": 0
+   }
   },
   "Typhonium": {
    "speciesTotal": 79,
+   "speciesTotalPowo": 79,
+   "speciesJournal": 0,
    "places": {
     "Thailand": 43,
     "Vietnam": 26,
@@ -37409,12 +37976,12 @@
       "Queensland"
      ]
     }
-   },
-   "speciesTotalPowo": 79,
-   "speciesJournal": 0
+   }
   },
   "Typhonodorum": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "Comoros": 1,
     "Madagascar": 1,
@@ -37466,12 +38033,12 @@
       "Tanzania"
      ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Ulearum": {
    "speciesTotal": 2,
+   "speciesTotalPowo": 2,
+   "speciesJournal": 0,
    "places": {
     "Ecuador": 1,
     "Brazil North": 1,
@@ -37522,12 +38089,12 @@
       "Peru"
      ]
     }
-   },
-   "speciesTotalPowo": 2,
-   "speciesJournal": 0
+   }
   },
   "Urospatha": {
    "speciesTotal": 13,
+   "speciesTotalPowo": 13,
+   "speciesJournal": 0,
    "places": {
     "Colombia": 8,
     "Brazil North": 3,
@@ -37709,12 +38276,12 @@
       "Venezuela"
      ]
     }
-   },
-   "speciesTotalPowo": 13,
-   "speciesJournal": 0
+   }
   },
   "Vesta": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "Borneo": 1,
     "Peninsular Malaysia": 1
@@ -37752,12 +38319,12 @@
       "Peninsular Malaysia"
      ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Vietnamocasia": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "Vietnam": 1
    },
@@ -37790,12 +38357,12 @@
       "Vietnam"
      ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Vivaria": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "Ecuador": 1
    },
@@ -37828,12 +38395,12 @@
       "Ecuador"
      ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Wolffia": {
    "speciesTotal": 11,
+   "speciesTotalPowo": 11,
+   "speciesJournal": 0,
    "places": {
     "India": 4,
     "Bangladesh": 3,
@@ -38515,21 +39082,11 @@
       "Sumatra"
      ]
     },
-    "Northeastern Usa": {
+    "Southwestern Usa": {
      "count": 3,
      "members": [
-      "Connecticut",
-      "Indiana",
-      "Maine",
-      "Massachusetts",
-      "Michigan",
-      "New Hampshire",
-      "New Jersey",
-      "New York",
-      "Ohio",
-      "Pennsylvania",
-      "Vermont",
-      "West Virginia"
+      "California",
+      "Utah"
      ]
     },
     "North Central Usa": {
@@ -38566,18 +39123,28 @@
       "Virginia"
      ]
     },
-    "Southwestern Usa": {
-     "count": 3,
-     "members": [
-      "California",
-      "Utah"
-     ]
-    },
     "Eastern Canada": {
      "count": 3,
      "members": [
       "Ontario",
       "Québec"
+     ]
+    },
+    "Northeastern Usa": {
+     "count": 3,
+     "members": [
+      "Connecticut",
+      "Indiana",
+      "Maine",
+      "Massachusetts",
+      "Michigan",
+      "New Hampshire",
+      "New Jersey",
+      "New York",
+      "Ohio",
+      "Pennsylvania",
+      "Vermont",
+      "West Virginia"
      ]
     },
     "Western South America": {
@@ -38613,13 +39180,14 @@
       "Western Australia"
      ]
     },
-    "Eastern Asia": {
+    "Southern Africa": {
      "count": 2,
      "members": [
-      "Japan",
-      "Korea",
-      "Nansei-shoto",
-      "Taiwan"
+      "Botswana",
+      "Cape Provinces",
+      "Free State",
+      "KwaZulu-Natal",
+      "Northern Provinces"
      ]
     },
     "East Tropical Africa": {
@@ -38630,22 +39198,21 @@
       "Uganda"
      ]
     },
+    "Eastern Asia": {
+     "count": 2,
+     "members": [
+      "Japan",
+      "Korea",
+      "Nansei-shoto",
+      "Taiwan"
+     ]
+    },
     "South Tropical Africa": {
      "count": 2,
      "members": [
       "Angola",
       "Mozambique",
       "Zimbabwe"
-     ]
-    },
-    "Southern Africa": {
-     "count": 2,
-     "members": [
-      "Botswana",
-      "Cape Provinces",
-      "Free State",
-      "KwaZulu-Natal",
-      "Northern Provinces"
      ]
     },
     "Western Canada": {
@@ -38665,27 +39232,11 @@
       "Oregon"
      ]
     },
-    "Brazil": {
-     "count": 2,
-     "members": [
-      "Brazil North",
-      "Brazil Northeast",
-      "Brazil South",
-      "Brazil Southeast",
-      "Brazil West-Central"
-     ]
-    },
     "Northern South America": {
      "count": 2,
      "members": [
       "Suriname",
       "Venezuela"
-     ]
-    },
-    "South Central Usa": {
-     "count": 2,
-     "members": [
-      "Texas"
      ]
     },
     "Southern South America": {
@@ -38708,6 +39259,16 @@
       "Mexico Southwest"
      ]
     },
+    "Brazil": {
+     "count": 2,
+     "members": [
+      "Brazil North",
+      "Brazil Northeast",
+      "Brazil South",
+      "Brazil Southeast",
+      "Brazil West-Central"
+     ]
+    },
     "Central America": {
      "count": 2,
      "members": [
@@ -38716,45 +39277,16 @@
       "Honduras"
      ]
     },
+    "South Central Usa": {
+     "count": 2,
+     "members": [
+      "Texas"
+     ]
+    },
     "Papuasia": {
      "count": 1,
      "members": [
       "New Guinea"
-     ]
-    },
-    "Middle Europe": {
-     "count": 1,
-     "members": [
-      "Austria",
-      "Belgium",
-      "Czechia-Slovakia",
-      "Germany",
-      "Hungary",
-      "Netherlands",
-      "Poland"
-     ]
-    },
-    "Southwestern Europe": {
-     "count": 1,
-     "members": [
-      "Corse",
-      "France",
-      "Portugal",
-      "Spain"
-     ]
-    },
-    "Northern Europe": {
-     "count": 1,
-     "members": [
-      "Great Britain"
-     ]
-    },
-    "Northern Africa": {
-     "count": 1,
-     "members": [
-      "Algeria",
-      "Morocco",
-      "Tunisia"
      ]
     },
     "Southeastern Europe": {
@@ -38768,12 +39300,61 @@
       "Sicilia"
      ]
     },
+    "Northern Africa": {
+     "count": 1,
+     "members": [
+      "Algeria",
+      "Morocco",
+      "Tunisia"
+     ]
+    },
+    "Northeast Tropical Africa": {
+     "count": 1,
+     "members": [
+      "Ethiopia"
+     ]
+    },
+    "Caucasus": {
+     "count": 1,
+     "members": [
+      "North Caucasus",
+      "Transcaucasus"
+     ]
+    },
+    "Northern Europe": {
+     "count": 1,
+     "members": [
+      "Great Britain"
+     ]
+    },
+    "Southwestern Europe": {
+     "count": 1,
+     "members": [
+      "Corse",
+      "France",
+      "Portugal",
+      "Spain"
+     ]
+    },
+    "Macaronesia": {
+     "count": 1,
+     "members": [
+      "Canary Is."
+     ]
+    },
     "West-Central Tropical Africa": {
      "count": 1,
      "members": [
       "Burundi",
       "DR Congo",
       "Rwanda"
+     ]
+    },
+    "Western Asia": {
+     "count": 1,
+     "members": [
+      "Iran",
+      "Lebanon-Syria"
      ]
     },
     "West Tropical Africa": {
@@ -38788,19 +39369,6 @@
       "Togo"
      ]
     },
-    "Western Asia": {
-     "count": 1,
-     "members": [
-      "Iran",
-      "Lebanon-Syria"
-     ]
-    },
-    "Northeast Tropical Africa": {
-     "count": 1,
-     "members": [
-      "Ethiopia"
-     ]
-    },
     "Eastern Europe": {
      "count": 1,
      "members": [
@@ -38811,23 +39379,22 @@
       "Ukraine"
      ]
     },
-    "Caucasus": {
-     "count": 1,
-     "members": [
-      "North Caucasus",
-      "Transcaucasus"
-     ]
-    },
-    "Macaronesia": {
-     "count": 1,
-     "members": [
-      "Canary Is."
-     ]
-    },
     "Western Indian Ocean": {
      "count": 1,
      "members": [
       "Madagascar"
+     ]
+    },
+    "Middle Europe": {
+     "count": 1,
+     "members": [
+      "Austria",
+      "Belgium",
+      "Czechia-Slovakia",
+      "Germany",
+      "Hungary",
+      "Netherlands",
+      "Poland"
      ]
     },
     "New Zealand": {
@@ -39013,28 +39580,6 @@
       "Western Australia"
      ]
     },
-    "Temperate Asia": {
-     "count": 2,
-     "regions": [
-      "Caucasus",
-      "China",
-      "Eastern Asia",
-      "Western Asia"
-     ],
-     "members": [
-      "China South-Central",
-      "China Southeast",
-      "Hainan",
-      "Iran",
-      "Japan",
-      "Korea",
-      "Lebanon-Syria",
-      "Nansei-shoto",
-      "North Caucasus",
-      "Taiwan",
-      "Transcaucasus"
-     ]
-    },
     "Africa": {
      "count": 2,
      "regions": [
@@ -39078,6 +39623,28 @@
       "Zimbabwe"
      ]
     },
+    "Temperate Asia": {
+     "count": 2,
+     "regions": [
+      "Caucasus",
+      "China",
+      "Eastern Asia",
+      "Western Asia"
+     ],
+     "members": [
+      "China South-Central",
+      "China Southeast",
+      "Hainan",
+      "Iran",
+      "Japan",
+      "Korea",
+      "Lebanon-Syria",
+      "Nansei-shoto",
+      "North Caucasus",
+      "Taiwan",
+      "Transcaucasus"
+     ]
+    },
     "Europe": {
      "count": 1,
      "regions": [
@@ -39113,12 +39680,12 @@
       "Ukraine"
      ]
     }
-   },
-   "speciesTotalPowo": 11,
-   "speciesJournal": 0
+   }
   },
   "Wolffiella": {
    "speciesTotal": 10,
+   "speciesTotalPowo": 10,
+   "speciesJournal": 0,
    "places": {
     "Bolivia": 4,
     "Florida": 3,
@@ -39497,6 +40064,15 @@
       "Mexico Southeast"
      ]
     },
+    "Northern South America": {
+     "count": 4,
+     "members": [
+      "French Guiana",
+      "Guyana",
+      "Suriname",
+      "Venezuela"
+     ]
+    },
     "Brazil": {
      "count": 4,
      "members": [
@@ -39505,15 +40081,6 @@
       "Brazil South",
       "Brazil Southeast",
       "Brazil West-Central"
-     ]
-    },
-    "Northern South America": {
-     "count": 4,
-     "members": [
-      "French Guiana",
-      "Guyana",
-      "Suriname",
-      "Venezuela"
      ]
     },
     "Southeastern Usa": {
@@ -39551,20 +40118,19 @@
       "Texas"
      ]
     },
-    "West-Central Tropical Africa": {
-     "count": 2,
-     "members": [
-      "Cameroon",
-      "Central African Republic",
-      "DR Congo",
-      "Rwanda"
-     ]
-    },
     "Northeast Tropical Africa": {
      "count": 2,
      "members": [
       "Chad",
       "Sudan-South Sudan"
+     ]
+    },
+    "East Tropical Africa": {
+     "count": 2,
+     "members": [
+      "Kenya",
+      "Tanzania",
+      "Uganda"
      ]
     },
     "West Tropical Africa": {
@@ -39578,12 +40144,19 @@
       "Togo"
      ]
     },
-    "East Tropical Africa": {
+    "West-Central Tropical Africa": {
      "count": 2,
      "members": [
-      "Kenya",
-      "Tanzania",
-      "Uganda"
+      "Cameroon",
+      "Central African Republic",
+      "DR Congo",
+      "Rwanda"
+     ]
+    },
+    "Southwestern Usa": {
+     "count": 2,
+     "members": [
+      "California"
      ]
     },
     "Southern South America": {
@@ -39595,12 +40168,6 @@
       "Chile Central",
       "Paraguay",
       "Uruguay"
-     ]
-    },
-    "Southwestern Usa": {
-     "count": 2,
-     "members": [
-      "California"
      ]
     },
     "Caribbean": {
@@ -39616,16 +40183,6 @@
       "Windward Is."
      ]
     },
-    "Northeastern Usa": {
-     "count": 1,
-     "members": [
-      "Indiana",
-      "Massachusetts",
-      "New Jersey",
-      "Ohio",
-      "Pennsylvania"
-     ]
-    },
     "North Central Usa": {
      "count": 1,
      "members": [
@@ -39638,6 +40195,16 @@
      "count": 1,
      "members": [
       "Washington"
+     ]
+    },
+    "Northeastern Usa": {
+     "count": 1,
+     "members": [
+      "Indiana",
+      "Massachusetts",
+      "New Jersey",
+      "Ohio",
+      "Pennsylvania"
      ]
     },
     "Arabian Peninsula": {
@@ -39789,12 +40356,12 @@
       "Saudi Arabia"
      ]
     }
-   },
-   "speciesTotalPowo": 10,
-   "speciesJournal": 0
+   }
   },
   "Xanthosoma": {
    "speciesTotal": 199,
+   "speciesTotalPowo": 199,
+   "speciesJournal": 0,
    "places": {
     "Colombia": 52,
     "Ecuador": 51,
@@ -40811,12 +41378,12 @@
       "India"
      ]
     }
-   },
-   "speciesTotalPowo": 199,
-   "speciesJournal": 0
+   }
   },
   "Zamioculcas": {
    "speciesTotal": 1,
+   "speciesTotalPowo": 1,
+   "speciesJournal": 0,
    "places": {
     "Kenya": 1,
     "KwaZulu-Natal": 1,
@@ -40847,6 +41414,13 @@
    },
    "doubtfulSpecies": {},
    "regions": {
+    "East Tropical Africa": {
+     "count": 1,
+     "members": [
+      "Kenya",
+      "Tanzania"
+     ]
+    },
     "Southern Africa": {
      "count": 1,
      "members": [
@@ -40859,13 +41433,6 @@
       "Malawi",
       "Mozambique",
       "Zimbabwe"
-     ]
-    },
-    "East Tropical Africa": {
-     "count": 1,
-     "members": [
-      "Kenya",
-      "Tanzania"
      ]
     }
    },
@@ -40886,12 +41453,12 @@
       "Zimbabwe"
      ]
     }
-   },
-   "speciesTotalPowo": 1,
-   "speciesJournal": 0
+   }
   },
   "Zantedeschia": {
    "speciesTotal": 8,
+   "speciesTotalPowo": 8,
+   "speciesJournal": 0,
    "places": {
     "Northern Provinces": 6,
     "KwaZulu-Natal": 4,
@@ -41102,17 +41669,17 @@
       "Tanzania"
      ]
     },
+    "West Tropical Africa": {
+     "count": 1,
+     "members": [
+      "Nigeria"
+     ]
+    },
     "West-Central Tropical Africa": {
      "count": 1,
      "members": [
       "Cameroon",
       "DR Congo"
-     ]
-    },
-    "West Tropical Africa": {
-     "count": 1,
-     "members": [
-      "Nigeria"
      ]
     }
    },
@@ -41144,12 +41711,12 @@
       "Zimbabwe"
      ]
     }
-   },
-   "speciesTotalPowo": 8,
-   "speciesJournal": 0
+   }
   },
   "Zomicarpa": {
    "speciesTotal": 2,
+   "speciesTotalPowo": 2,
+   "speciesJournal": 0,
    "places": {
     "Brazil Northeast": 2
    },
@@ -41185,12 +41752,12 @@
       "Brazil Northeast"
      ]
     }
-   },
-   "speciesTotalPowo": 2,
-   "speciesJournal": 0
+   }
   },
   "Zomicarpella": {
    "speciesTotal": 2,
+   "speciesTotalPowo": 2,
+   "speciesJournal": 0,
    "places": {
     "Brazil North": 1,
     "Colombia": 1,
@@ -41241,12 +41808,12 @@
       "Peru"
      ]
     }
-   },
-   "speciesTotalPowo": 2,
-   "speciesJournal": 0
+   }
   },
   "Acontias": {
    "speciesTotal": 0,
+   "speciesTotalPowo": 0,
+   "speciesJournal": 0,
    "places": {},
    "doubtful": {},
    "introduced": {},
@@ -41254,12 +41821,12 @@
    "speciesPlaces": {},
    "doubtfulSpecies": {},
    "regions": {},
-   "continents": {},
-   "speciesTotalPowo": 0,
-   "speciesJournal": 0
+   "continents": {}
   },
   "Afrorhaphidophora": {
    "speciesTotal": 0,
+   "speciesTotalPowo": 0,
+   "speciesJournal": 0,
    "places": {},
    "doubtful": {},
    "introduced": {},
@@ -41267,12 +41834,12 @@
    "speciesPlaces": {},
    "doubtfulSpecies": {},
    "regions": {},
-   "continents": {},
-   "speciesTotalPowo": 0,
-   "speciesJournal": 0
+   "continents": {}
   },
   "Allopythion": {
    "speciesTotal": 0,
+   "speciesTotalPowo": 0,
+   "speciesJournal": 0,
    "places": {},
    "doubtful": {},
    "introduced": {},
@@ -41280,18 +41847,65 @@
    "speciesPlaces": {},
    "doubtfulSpecies": {},
    "regions": {},
-   "continents": {},
+   "continents": {}
+  },
+  "Araceae_Master_Genus_List": {
+   "speciesTotal": 0,
    "speciesTotalPowo": 0,
-   "speciesJournal": 0
+   "speciesJournal": 0,
+   "places": {},
+   "doubtful": {},
+   "introduced": {},
+   "codes": {},
+   "speciesPlaces": {},
+   "doubtfulSpecies": {},
+   "regions": {},
+   "continents": {}
+  },
+  "Araceae_Master_Species_List": {
+   "speciesTotal": 0,
+   "speciesTotalPowo": 0,
+   "speciesJournal": 0,
+   "places": {},
+   "doubtful": {},
+   "introduced": {},
+   "codes": {},
+   "speciesPlaces": {},
+   "doubtfulSpecies": {},
+   "regions": {},
+   "continents": {}
+  },
+  "Furtadoa": {
+   "speciesTotal": 0,
+   "speciesTotalPowo": 0,
+   "speciesJournal": 0,
+   "places": {},
+   "doubtful": {},
+   "introduced": {},
+   "codes": {},
+   "speciesPlaces": {},
+   "doubtfulSpecies": {},
+   "regions": {},
+   "continents": {}
   }
  },
  "subunits": {
+  "Aceh": "Sumatra",
+  "Agusan del Norte": "Mindanao",
+  "Agusan del Sur": "Mindanao",
+  "Aklan": "Panay",
   "Alabat": "Philippines",
   "Amhara": "Ethiopia",
   "Andhra Pradesh": "India",
+  "Antique": "Panay",
+  "Apayao": "Luzon",
   "Arunachal Pradesh": "East Himalaya",
   "Ashanti": "Ghana",
   "Bali": "Lesser Sunda Islands",
+  "Banten": "Java",
+  "Basilan": "Philippines",
+  "Bataan": "Luzon",
+  "Benguet": "Luzon",
   "Biliran": "Philippines",
   "Bolikhamsai": "Laos",
   "Borgou": "Benin",
@@ -41299,21 +41913,42 @@
   "Brunei": "Borneo",
   "Bà Rịa - Vũng Tàu": "Vietnam",
   "Bình Thuận": "Vietnam",
+  "Cagayan": "Luzon",
+  "Camarines Norte": "Luzon",
+  "Camarines Sur": "Luzon",
+  "Capiz": "Panay",
   "Cascades": "Burkina Faso",
   "Cavally": "Ivory Coast",
+  "Cebu": "Philippines",
   "Central Java": "Java",
+  "Central Kalimantan": "Kalimantan",
+  "Central Province": "Papua New Guinea",
+  "Central Sulawesi": "Sulawesi",
   "Central-GH": "Ghana",
+  "Chanthaburi": "Thailand",
   "Chiang Mai": "Thailand",
   "Chiang Rai": "Thailand",
+  "Chimbu": "Papua New Guinea",
   "Chumphon": "Thailand",
   "East Java": "Java",
+  "East Kalimantan": "Kalimantan",
+  "East New Britain": "Papua New Guinea",
+  "East Sepik": "Papua New Guinea",
+  "Eastern Highlands": "Papua New Guinea",
   "Eastern-GH": "Ghana",
   "Gbarpolu": "Liberia",
   "Gia Lai": "Vietnam",
   "Goa": "India",
+  "Gorontalo": "Sulawesi",
   "Greater Accra": "Ghana",
+  "Gulf Province": "Papua New Guinea",
   "Haut-Sassandra": "Ivory Coast",
   "Hauts-Bassins": "Burkina Faso",
+  "Ifugao": "Luzon",
+  "Ilocos Norte": "Luzon",
+  "Iloilo": "Panay",
+  "Isabela": "Luzon",
+  "Jakarta": "Java",
   "Jambi": "Sumatra",
   "Johor": "Peninsular Malaysia",
   "Kachin": "Myanmar",
@@ -41323,39 +41958,57 @@
   "Karnataka": "India",
   "Kayah": "Myanmar",
   "Kayes": "Mali",
+  "Kelantan": "Peninsular Malaysia",
   "Kerala": "India",
   "Khammouane": "Laos",
+  "Khon Kaen": "Thailand",
   "Kiên Giang": "Vietnam",
   "Krabi": "Thailand",
+  "Laguna": "Luzon",
   "Lagunes": "Ivory Coast",
+  "Lampung": "Sumatra",
   "Leyte": "Philippines",
   "Loei": "Thailand",
   "Lombok": "Lesser Sunda Islands",
   "Lop Buri": "Thailand",
   "Luzon": "Philippines",
   "Lào Cai": "Vietnam",
+  "Lâm Đồng": "Vietnam",
+  "Lạng Sơn": "Vietnam",
+  "Madang": "Papua New Guinea",
   "Mahajanga": "Madagascar",
   "Maharashtra": "India",
+  "Manipur": "Assam",
   "Marahoué": "Ivory Coast",
+  "Meghalaya": "Assam",
   "Miaoli": "Taiwan",
+  "Milne Bay": "Papua New Guinea",
   "Mindanao": "Philippines",
+  "Mizoram": "Assam",
+  "Morobe": "Papua New Guinea",
+  "Mountain Province": "Luzon",
   "Nakhon Si Thammarat": "Thailand",
   "Nantou": "Taiwan",
   "Negeri Sembilan": "Peninsular Malaysia",
+  "Negros Oriental": "Philippines",
   "New Taipei": "Taiwan",
   "Nimba": "Liberia",
   "Ninh Bình": "Vietnam",
   "Nord-Kivu": "DR Congo",
+  "North Sulawesi": "Sulawesi",
   "Nzérékoré": "Guinea",
   "Ogun": "Nigeria",
   "Oromia": "Ethiopia",
   "Pahang": "Peninsular Malaysia",
   "Palawan": "Philippines",
   "Panay": "Philippines",
+  "Pangasinan": "Luzon",
+  "Papua": "New Guinea",
   "Papua New Guinea": "New Guinea",
   "Perak": "Peninsular Malaysia",
   "Phangnga": "Thailand",
   "Phatthalung": "Thailand",
+  "Phrae": "Thailand",
   "Phuket": "Thailand",
   "Plateau Department": "Benin",
   "Prachin Buri": "Thailand",
@@ -41369,30 +42022,51 @@
   "Ruvuma": "Tanzania",
   "Sa Kaeo": "Thailand",
   "Sabah": "Borneo",
+  "Sakon Nakhon": "Thailand",
   "Samar": "Philippines",
+  "Sandaun": "Papua New Guinea",
   "Saraburi": "Thailand",
   "Sarawak": "Borneo",
   "Satun": "Thailand",
   "Savanes-CI": "Ivory Coast",
   "Selangor": "Peninsular Malaysia",
+  "Siem Reap": "Cambodia",
   "Sikasso": "Mali",
+  "Sikkim": "East Himalaya",
   "Sinoe": "Liberia",
+  "Sorsogon": "Luzon",
   "South Kalimantan": "Kalimantan",
+  "South Sulawesi": "Sulawesi",
+  "South Sumatra": "Sumatra",
   "Southeast Sulawesi": "Sulawesi",
+  "Southern Highlands": "Papua New Guinea",
+  "Sulu": "Philippines",
   "Surat Thani": "Thailand",
+  "Surigao del Norte": "Mindanao",
+  "Surigao del Sur": "Mindanao",
   "Taichung": "Taiwan",
   "Tainan": "Taiwan",
   "Taipei": "Taiwan",
   "Tak": "Thailand",
   "Tanintharyi": "Myanmar",
   "Telangana": "India",
+  "Terengganu": "Peninsular Malaysia",
   "Trat": "Thailand",
+  "Tripura": "Assam",
   "Udon Thani": "Thailand",
   "Uthai Thani": "Thailand",
   "Volta": "Ghana",
   "West Java": "Java",
+  "West Kalimantan": "Kalimantan",
+  "West New Britain": "Papua New Guinea",
+  "West Papua": "New Guinea",
   "West Sumatra": "Sumatra",
+  "Western Highlands": "Papua New Guinea",
+  "Western Province": "Papua New Guinea",
+  "Yala": "Thailand",
   "Yunnan": "China South-Central",
-  "Zanzan": "Ivory Coast"
+  "Zambales": "Luzon",
+  "Zanzan": "Ivory Coast",
+  "Đà Nẵng": "Vietnam"
  }
 }
