@@ -1,5 +1,5 @@
 {
-  "species": 232,
+  "species": 242,
   "cultivars": 53,
   "hybrids": 151,
   "hybridCultivars": 9,
@@ -14,8 +14,8 @@
       "hybridCultivars": 9
     },
     "Amorphophallus": {
-      "total": 114,
-      "species": 114,
+      "total": 124,
+      "species": 124,
       "cultivars": 0,
       "hybrids": 0,
       "hybridCultivars": 0
@@ -31,11 +31,11 @@
       }
     },
     "Amorphophallus": {
-      "total": 114,
-      "placed": 114,
+      "total": 124,
+      "placed": 124,
       "zones": {
         "africa": 24,
-        "asia": 90,
+        "asia": 100,
         "austral": 1
       }
     }
@@ -61,6 +61,13 @@
     "unclassifiedItems": []
   },
   "unresolvedTags": {
+    "New Taipei": 1,
+    "Kaohsiung": 1,
+    "Taichung": 1,
+    "Miaoli": 1,
+    "Nantou": 1,
+    "Tainan": 1,
+    "Taipei": 1,
     "Eastern-GH": 1,
     "Ashanti": 1,
     "Greater Accra": 1,
@@ -77,17 +84,10 @@
     "Lagunes": 1,
     "Haut-Sassandra": 1,
     "Marahoué": 1,
-    "Sumatra ?": 1,
-    "Myanmar ?": 1,
-    "Angola?": 1,
-    "North Kivu": 1,
-    "Cavally": 1,
-    "Sinoe": 1,
-    "Dinagat Islands": 1,
-    "Kalimantan?": 1,
-    "South Sumatra?": 1
+    "Kayes": 1,
+    "Sikasso": 1
   },
-  "updatedAt": "2026-08-21T08:53:36.807Z",
+  "updatedAt": "2026-08-22T06:25:40.848Z",
   "source": "https://www.aroidpedia.com/journal",
-  "totalItemsScanned": 445
+  "totalItemsScanned": 455
 }
