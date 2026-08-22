@@ -1,10 +1,15 @@
 {
- "version": "1.19.0",
- "generated": "2026-08-16",
+ "version": "1.20.0",
+ "generated": "2026-08-22",
+ "note18": "1.18.0 (8.20.26): speciesTotal is the LARGER of POWO and the journal’s own species posts (user ruling - POWO is a floor while a genus is being built out, not a ceiling); speciesTotalPowo keeps POWO’s own figure for the sources line.",
+ "note19": "1.19.0 (8.20.26): Furtadoa is sunk into Homalomena (POWO; one of the genus’s seven heterotypic synonyms). Its empty genus entry is removed and Homalomena carries the merged range.",
+ "note20": "1.20.0 (8.21.26): the SUBUNITS registry is now EVERY *-l4-table.json in the scripts folder, globbed - the hand-wired chain had quietly stopped at the 8.16 batches, so Cambodia, Madagascar, Brazil/Mexico, the West-Africa sweep, Borneo’s divisions, Taiwan, China and the Africa smalls never reached the genus maps (caught on johnsonii’s Subzones view). Subunit vocabulary 27 -> 93; Amorphophallus places 85 -> 151.",
  "source": "POWO/WCVP distribution API, native WGSRPD level-3 units + journal-tag subunit refinement (additive)",
  "genera": {
   "Amorphophallus": {
    "speciesTotal": 246,
+   "speciesTotalPowo": 246,
+   "speciesJournal": 114,
    "places": {
     "Thailand": 63,
     "Vietnam": 40,
@@ -19,11 +24,14 @@
     "China South-Central": 12,
     "Cambodia": 9,
     "Madagascar": 8,
+    "Sarawak": 8,
     "Java": 8,
+    "Kanchanaburi": 7,
     "Benin": 6,
     "Cameroon": 6,
     "Nigeria": 6,
     "Tanzania": 6,
+    "Khammouane": 6,
     "East Himalaya": 6,
     "Andaman Islands": 6,
     "Assam": 6,
@@ -32,11 +40,12 @@
     "Burkina Faso": 5,
     "Central African Republic": 5,
     "Kenya": 5,
+    "Luzon": 5,
     "Ghana": 4,
     "Ivory Coast": 4,
     "Togo": 4,
     "Yunnan": 4,
-    "Sarawak": 4,
+    "Bolikhamsai": 4,
     "Taiwan": 4,
     "Chad": 3,
     "Ethiopia": 3,
@@ -48,44 +57,106 @@
     "Senegal": 3,
     "Sierra Leone": 3,
     "Sulawesi": 3,
+    "Saraburi": 3,
     "Liberia": 3,
     "Gambia": 3,
+    "West Sumatra": 3,
     "Mozambique": 3,
     "Lesser Sunda Islands": 3,
     "Malawi": 2,
     "Sudan-South Sudan": 2,
     "Uganda": 2,
+    "Chumphon": 2,
+    "Nakhon Si Thammarat": 2,
+    "Phangnga": 2,
     "Congo": 2,
     "Gabon": 2,
     "Guinea-Bissau": 2,
     "Mali": 2,
+    "Lop Buri": 2,
+    "Kerala": 2,
+    "Satun": 2,
     "Nepal": 2,
+    "Ninh Bình": 2,
+    "Karnataka": 2,
+    "Kalimantan": 2,
+    "Phuket": 2,
+    "Surat Thani": 2,
+    "Krabi": 2,
     "New Guinea": 2,
     "Northern Territory": 2,
     "Somalia": 2,
     "Hainan": 2,
     "Sri Lanka": 2,
+    "Tak": 1,
+    "Uthai Thani": 1,
     "Zambezi Region": 1,
+    "Prachuap Khiri Khan": 1,
+    "Ratchaburi": 1,
+    "Trat": 1,
     "Cabinda": 1,
-    "Luzon": 1,
+    "West Java": 1,
+    "Southeast Sulawesi": 1,
+    "Loei": 1,
+    "Udon Thani": 1,
+    "Prachin Buri": 1,
+    "Sa Kaeo": 1,
+    "Cavally": 1,
+    "Sinoe": 1,
+    "Arunachal Pradesh": 1,
+    "Johor": 1,
+    "Pahang": 1,
+    "Selangor": 1,
     "Panay": 1,
-    "Kalimantan": 1,
+    "Chiang Mai": 1,
+    "Goa": 1,
+    "Maharashtra": 1,
+    "South Kalimantan": 1,
+    "Bình Thuận": 1,
+    "Kachin": 1,
+    "Palawan": 1,
+    "Central Java": 1,
+    "East Java": 1,
+    "Perak": 1,
+    "Ranong": 1,
+    "Tanintharyi": 1,
+    "Negeri Sembilan": 1,
+    "Phatthalung": 1,
+    "Mahajanga": 1,
+    "Bà Rịa - Vũng Tàu": 1,
+    "Rizal": 1,
+    "Quezon": 1,
     "Queensland": 1,
     "Western Australia": 1,
     "Oromia": 1,
-    "Khammouane": 1,
-    "Kanchanaburi": 1,
     "Kayah": 1,
     "Gia Lai": 1,
     "Quảng Ngãi": 1,
     "Amhara": 1,
     "Ogun": 1,
     "Plateau Department": 1,
-    "West Sumatra": 1,
     "Lào Cai": 1,
     "Nicobar": 1,
-    "Karnataka": 1,
     "Sabah": 1,
+    "Ruvuma": 1,
+    "Jambi": 1,
+    "Ashanti": 1,
+    "Borgou": 1,
+    "Brong-Ahafo": 1,
+    "Cascades": 1,
+    "Central-GH": 1,
+    "Eastern-GH": 1,
+    "Gbarpolu": 1,
+    "Greater Accra": 1,
+    "Haut-Sassandra": 1,
+    "Hauts-Bassins": 1,
+    "Lagunes": 1,
+    "Marahoué": 1,
+    "Nimba": 1,
+    "Nzérékoré": 1,
+    "Savanes-CI": 1,
+    "Volta": 1,
+    "Zanzan": 1,
     "Japan": 1,
     "Nansei-shoto": 1,
     "Burundi": 1,
@@ -123,6 +194,8 @@
    },
    "codes": {
     "Thailand": "THA",
+    "Tak": "L4",
+    "Uthai Thani": "L4",
     "Benin": "BEN",
     "Burkina Faso": "BKN",
     "Cameroon": "CMN",
@@ -146,6 +219,14 @@
     "Zimbabwe": "ZIM",
     "Somalia": "SOM",
     "Philippines": "PHI",
+    "Luzon": "L4",
+    "Chumphon": "L4",
+    "Kanchanaburi": "L4",
+    "Nakhon Si Thammarat": "L4",
+    "Phangnga": "L4",
+    "Prachuap Khiri Khan": "L4",
+    "Ratchaburi": "L4",
+    "Trat": "L4",
     "China South-Central": "CHC",
     "Yunnan": "L4",
     "Madagascar": "MDG",
@@ -157,35 +238,74 @@
     "Sarawak": "L4",
     "Myanmar": "MYA",
     "Java": "JAW",
+    "West Java": "L4",
     "Guinea-Bissau": "GNB",
     "Mali": "MLI",
     "Senegal": "SEN",
     "Sierra Leone": "SIE",
     "Laos": "LAO",
+    "Bolikhamsai": "L4",
     "Sulawesi": "SUL",
+    "Southeast Sulawesi": "L4",
     "Sumatra": "SUM",
+    "Lop Buri": "L4",
+    "Saraburi": "L4",
+    "Loei": "L4",
+    "Udon Thani": "L4",
+    "Prachin Buri": "L4",
+    "Sa Kaeo": "L4",
+    "Khammouane": "L4",
     "Liberia": "LBR",
+    "Cavally": "L4",
+    "Sinoe": "L4",
     "Gambia": "GAM",
     "East Himalaya": "EHM",
+    "Arunachal Pradesh": "L4",
     "India": "IND",
+    "Kerala": "L4",
     "Peninsular Malaysia": "MLY",
+    "Satun": "L4",
+    "Johor": "L4",
+    "Pahang": "L4",
+    "Selangor": "L4",
+    "West Sumatra": "L4",
     "Andaman Islands": "AND",
     "Assam": "ASS",
     "Bangladesh": "BAN",
     "Nepal": "NEP",
     "Vietnam": "VIE",
-    "Luzon": "L4",
+    "Ninh Bình": "L4",
     "Panay": "L4",
+    "Chiang Mai": "L4",
     "China Southeast": "CHS",
+    "Goa": "L4",
+    "Karnataka": "L4",
+    "Maharashtra": "L4",
     "Kalimantan": "L4",
+    "South Kalimantan": "L4",
     "Cambodia": "CBD",
+    "Bình Thuận": "L4",
+    "Kachin": "L4",
+    "Palawan": "L4",
+    "Central Java": "L4",
+    "East Java": "L4",
+    "Perak": "L4",
+    "Phuket": "L4",
+    "Ranong": "L4",
+    "Surat Thani": "L4",
+    "Tanintharyi": "L4",
+    "Krabi": "L4",
+    "Negeri Sembilan": "L4",
+    "Phatthalung": "L4",
+    "Mahajanga": "L4",
+    "Bà Rịa - Vũng Tàu": "L4",
+    "Rizal": "L4",
+    "Quezon": "L4",
     "New Guinea": "NWG",
     "Northern Territory": "NTA",
     "Queensland": "QLD",
     "Western Australia": "WAU",
     "Oromia": "L4",
-    "Khammouane": "L4",
-    "Kanchanaburi": "L4",
     "Kayah": "L4",
     "Gia Lai": "L4",
     "Quảng Ngãi": "L4",
@@ -193,12 +313,29 @@
     "Amhara": "L4",
     "Ogun": "L4",
     "Plateau Department": "L4",
-    "West Sumatra": "L4",
     "Lào Cai": "L4",
     "Taiwan": "TAI",
     "Nicobar": "NCB",
-    "Karnataka": "L4",
     "Sabah": "L4",
+    "Ruvuma": "L4",
+    "Jambi": "L4",
+    "Ashanti": "L4",
+    "Borgou": "L4",
+    "Brong-Ahafo": "L4",
+    "Cascades": "L4",
+    "Central-GH": "L4",
+    "Eastern-GH": "L4",
+    "Gbarpolu": "L4",
+    "Greater Accra": "L4",
+    "Haut-Sassandra": "L4",
+    "Hauts-Bassins": "L4",
+    "Lagunes": "L4",
+    "Marahoué": "L4",
+    "Nimba": "L4",
+    "Nzérékoré": "L4",
+    "Savanes-CI": "L4",
+    "Volta": "L4",
+    "Zanzan": "L4",
     "Hainan": "CHH",
     "Japan": "JAP",
     "Nansei-shoto": "NNS",
@@ -224,7 +361,9 @@
    },
    "speciesPlaces": {
     "aberrans": [
-     "Thailand"
+     "Tak",
+     "Thailand",
+     "Uthai Thani"
     ],
     "abyssinicus": [
      "Benin",
@@ -250,19 +389,29 @@
      "Zimbabwe"
     ],
     "adamsensis": [
+     "Luzon",
      "Philippines"
     ],
     "albispathus": [
-     "Thailand"
+     "Chumphon",
+     "Kanchanaburi",
+     "Nakhon Si Thammarat",
+     "Phangnga",
+     "Prachuap Khiri Khan",
+     "Ratchaburi",
+     "Thailand",
+     "Trat"
     ],
     "albus": [
      "China South-Central",
      "Yunnan"
     ],
     "allenii": [
+     "Kanchanaburi",
      "Thailand"
     ],
     "amygdaloides": [
+     "Kanchanaburi",
      "Thailand"
     ],
     "andranogidroensis": [
@@ -288,7 +437,8 @@
      "Madagascar"
     ],
     "annulifer": [
-     "Java"
+     "Java",
+     "West Java"
     ],
     "antsingyensis": [
      "Madagascar"
@@ -305,35 +455,48 @@
      "Togo"
     ],
     "arcuspadix": [
+     "Bolikhamsai",
      "Laos"
     ],
     "ardii": [
+     "Southeast Sulawesi",
      "Sulawesi"
     ],
     "asper": [
      "Sumatra"
     ],
     "asterostigmatus": [
+     "Lop Buri",
+     "Saraburi",
      "Thailand"
     ],
     "atrorubens": [
-     "Thailand"
+     "Loei",
+     "Thailand",
+     "Udon Thani"
     ],
     "atroviridis": [
+     "Lop Buri",
+     "Saraburi",
      "Thailand"
     ],
     "bangkokensis": [
+     "Prachin Buri",
      "Thailand"
     ],
     "bantae": [
+     "Sa Kaeo",
      "Thailand"
     ],
     "barbatus": [
+     "Khammouane",
      "Laos"
     ],
     "barthlottii": [
+     "Cavally",
      "Ivory Coast",
-     "Liberia"
+     "Liberia",
+     "Sinoe"
     ],
     "baumannii": [
      "Benin",
@@ -357,19 +520,23 @@
      "DR Congo"
     ],
     "bognerianus": [
+     "Arunachal Pradesh",
      "East Himalaya"
     ],
     "bolikhamxayensis": [
+     "Bolikhamsai",
      "Laos"
     ],
     "bonaccordensis": [
-     "India"
+     "India",
+     "Kerala"
     ],
     "borneensis": [
      "Borneo"
     ],
     "boyceanus": [
      "Peninsular Malaysia",
+     "Satun",
      "Thailand"
     ],
     "brachyphyllus": [
@@ -377,9 +544,11 @@
      "Sarawak"
     ],
     "brevipetiolatus": [
+     "Bolikhamsai",
      "Laos"
     ],
     "brevispathus": [
+     "Saraburi",
      "Thailand"
     ],
     "bubenensis": [
@@ -387,8 +556,12 @@
      "Yunnan"
     ],
     "bufo": [
+     "Johor",
+     "Pahang",
      "Peninsular Malaysia",
-     "Sumatra"
+     "Selangor",
+     "Sumatra",
+     "West Sumatra"
     ],
     "bulbifer": [
      "Andaman Islands",
@@ -411,6 +584,7 @@
      "Gabon"
     ],
     "candidissimus": [
+     "Ninh Bình",
      "Vietnam"
     ],
     "carneus": [
@@ -436,9 +610,11 @@
      "Philippines"
     ],
     "cirrifer": [
+     "Chiang Mai",
      "Thailand"
     ],
     "claudelii": [
+     "Khammouane",
      "Laos"
     ],
     "coaetaneus": [
@@ -448,7 +624,11 @@
      "Yunnan"
     ],
     "commutatus": [
-     "India"
+     "Goa",
+     "India",
+     "Karnataka",
+     "Kerala",
+     "Maharashtra"
     ],
     "consimilis": [
      "Gambia",
@@ -456,7 +636,8 @@
     ],
     "costatus": [
      "Borneo",
-     "Kalimantan"
+     "Kalimantan",
+     "South Kalimantan"
     ],
     "coudercii": [
      "Cambodia",
@@ -465,29 +646,38 @@
      "Vietnam"
     ],
     "crinitus": [
+     "Bình Thuận",
      "Vietnam"
     ],
     "crispifolius": [
+     "Khammouane",
      "Laos"
     ],
     "croatii": [
+     "Bolikhamsai",
+     "Khammouane",
      "Laos"
     ],
     "cruddasianus": [
+     "Kachin",
      "Laos",
      "Myanmar",
      "Thailand"
     ],
     "curvistylis": [
+     "Kanchanaburi",
      "Thailand"
     ],
     "declinatus": [
+     "Palawan",
      "Philippines"
     ],
     "decus-silvae": [
+     "Central Java",
      "Java"
     ],
     "discophorus": [
+     "East Java",
      "Java"
     ],
     "dracontioides": [
@@ -508,43 +698,65 @@
      "China Southeast"
     ],
     "dzui": [
+     "Ninh Bình",
      "Vietnam"
     ],
     "eburneus": [
-     "Borneo"
+     "Borneo",
+     "Sarawak"
     ],
     "echinatus": [
+     "Kanchanaburi",
      "Thailand"
     ],
     "eichleri": [
      "DR Congo"
     ],
     "elatus": [
+     "Chumphon",
      "Myanmar",
+     "Nakhon Si Thammarat",
      "Peninsular Malaysia",
+     "Perak",
+     "Phangnga",
+     "Phuket",
+     "Ranong",
+     "Satun",
+     "Surat Thani",
+     "Tanintharyi",
      "Thailand"
     ],
     "elegans": [
+     "Krabi",
+     "Negeri Sembilan",
      "Peninsular Malaysia",
+     "Phatthalung",
      "Thailand"
     ],
     "elliotii": [
      "Sierra Leone"
     ],
     "erythrorrhachis": [
-     "Madagascar"
+     "Madagascar",
+     "Mahajanga"
     ],
     "excentricus": [
+     "Krabi",
      "Peninsular Malaysia",
+     "Phuket",
+     "Surat Thani",
      "Thailand"
     ],
     "fallax": [
+     "Bà Rịa - Vũng Tàu",
      "Vietnam"
     ],
     "ferruginosus": [
+     "Khammouane",
      "Laos"
     ],
     "flammeus": [
+     "Luzon",
      "Philippines"
     ],
     "flotoi": [
@@ -554,13 +766,17 @@
      "Vietnam"
     ],
     "fontarumii": [
-     "Philippines"
+     "Luzon",
+     "Philippines",
+     "Rizal"
     ],
     "forbesii": [
      "Sumatra"
     ],
     "fornicatus": [
-     "Philippines"
+     "Luzon",
+     "Philippines",
+     "Quezon"
     ],
     "fuscus": [
      "Thailand"
@@ -647,7 +863,8 @@
     ],
     "hirsutus": [
      "Nicobar",
-     "Sumatra"
+     "Sumatra",
+     "West Sumatra"
     ],
     "hirtus": [
      "Taiwan"
@@ -663,34 +880,58 @@
     ],
     "impressus": [
      "Malawi",
+     "Ruvuma",
      "Tanzania"
     ],
     "incurvatus": [
+     "Jambi",
      "Sumatra"
     ],
     "infundibuliformis": [
-     "Borneo"
+     "Borneo",
+     "Kalimantan",
+     "Sarawak"
     ],
     "interruptus": [
      "Vietnam"
     ],
     "johnsonii": [
+     "Ashanti",
      "Benin",
+     "Borgou",
+     "Brong-Ahafo",
      "Burkina Faso",
+     "Cascades",
+     "Central-GH",
+     "Eastern-GH",
+     "Gbarpolu",
      "Ghana",
+     "Greater Accra",
      "Guinea",
+     "Haut-Sassandra",
+     "Hauts-Bassins",
      "Ivory Coast",
+     "Lagunes",
      "Liberia",
-     "Mali"
+     "Mali",
+     "Marahoué",
+     "Nimba",
+     "Nzérékoré",
+     "Savanes-CI",
+     "Volta",
+     "Zanzan"
     ],
     "josefbogneri": [
+     "Kanchanaburi",
      "Thailand"
     ],
     "julaihii": [
-     "Borneo"
+     "Borneo",
+     "Sarawak"
     ],
     "juliae": [
-     "Borneo"
+     "Borneo",
+     "Sarawak"
     ],
     "kachinensis": [
      "China South-Central",
@@ -1206,17 +1447,44 @@
      "count": 124,
      "members": [
       "Andaman Islands",
+      "Bolikhamsai",
+      "Bà Rịa - Vũng Tàu",
+      "Bình Thuận",
       "Cambodia",
+      "Chiang Mai",
+      "Chumphon",
       "Gia Lai",
+      "Kachin",
       "Kanchanaburi",
       "Kayah",
       "Khammouane",
+      "Krabi",
       "Laos",
+      "Loei",
+      "Lop Buri",
       "Lào Cai",
       "Myanmar",
+      "Nakhon Si Thammarat",
       "Nicobar",
+      "Ninh Bình",
+      "Phangnga",
+      "Phatthalung",
+      "Phuket",
+      "Prachin Buri",
+      "Prachuap Khiri Khan",
       "Quảng Ngãi",
+      "Ranong",
+      "Ratchaburi",
+      "Sa Kaeo",
+      "Saraburi",
+      "Satun",
+      "Surat Thani",
+      "Tak",
+      "Tanintharyi",
       "Thailand",
+      "Trat",
+      "Udon Thani",
+      "Uthai Thani",
       "Vietnam"
      ]
     },
@@ -1224,18 +1492,29 @@
      "count": 72,
      "members": [
       "Borneo",
+      "Central Java",
+      "East Java",
+      "Jambi",
       "Java",
+      "Johor",
       "Kalimantan",
       "Lesser Sunda Islands",
       "Luzon",
       "Maluku",
+      "Negeri Sembilan",
+      "Pahang",
+      "Palawan",
       "Panay",
       "Peninsular Malaysia",
+      "Perak",
       "Philippines",
       "Sabah",
       "Sarawak",
+      "Selangor",
+      "Southeast Sulawesi",
       "Sulawesi",
       "Sumatra",
+      "West Java",
       "West Sumatra"
      ]
     },
@@ -1255,11 +1534,15 @@
     "Indian Subcontinent": {
      "count": 21,
      "members": [
+      "Arunachal Pradesh",
       "Assam",
       "Bangladesh",
       "East Himalaya",
+      "Goa",
       "India",
       "Karnataka",
+      "Kerala",
+      "Maharashtra",
       "Nepal",
       "Sri Lanka"
      ]
@@ -1276,22 +1559,41 @@
     "West Tropical Africa": {
      "count": 11,
      "members": [
+      "Ashanti",
       "Benin",
+      "Borgou",
+      "Brong-Ahafo",
       "Burkina Faso",
+      "Cascades",
+      "Cavally",
+      "Central-GH",
+      "Eastern-GH",
       "Gambia",
+      "Gbarpolu",
       "Ghana",
+      "Greater Accra",
       "Guinea",
       "Guinea-Bissau",
+      "Haut-Sassandra",
+      "Hauts-Bassins",
       "Ivory Coast",
+      "Lagunes",
       "Liberia",
       "Mali",
+      "Marahoué",
       "Niger",
       "Nigeria",
+      "Nimba",
+      "Nzérékoré",
       "Ogun",
       "Plateau Department",
+      "Savanes-CI",
       "Senegal",
       "Sierra Leone",
-      "Togo"
+      "Sinoe",
+      "Togo",
+      "Volta",
+      "Zanzan"
      ]
     },
     "South Tropical Africa": {
@@ -1308,6 +1610,7 @@
      "count": 8,
      "members": [
       "Kenya",
+      "Ruvuma",
       "Tanzania",
       "Uganda"
      ]
@@ -1315,7 +1618,8 @@
     "Western Indian Ocean": {
      "count": 8,
      "members": [
-      "Madagascar"
+      "Madagascar",
+      "Mahajanga"
      ]
     },
     "Northeast Tropical Africa": {
@@ -1369,39 +1673,81 @@
      ],
      "members": [
       "Andaman Islands",
+      "Arunachal Pradesh",
       "Assam",
       "Bangladesh",
+      "Bolikhamsai",
       "Borneo",
+      "Bà Rịa - Vũng Tàu",
+      "Bình Thuận",
       "Cambodia",
+      "Central Java",
+      "Chiang Mai",
+      "Chumphon",
       "East Himalaya",
+      "East Java",
       "Gia Lai",
+      "Goa",
       "India",
+      "Jambi",
       "Java",
+      "Johor",
+      "Kachin",
       "Kalimantan",
       "Kanchanaburi",
       "Karnataka",
       "Kayah",
+      "Kerala",
       "Khammouane",
+      "Krabi",
       "Laos",
       "Lesser Sunda Islands",
+      "Loei",
+      "Lop Buri",
       "Luzon",
       "Lào Cai",
+      "Maharashtra",
       "Maluku",
       "Myanmar",
+      "Nakhon Si Thammarat",
+      "Negeri Sembilan",
       "Nepal",
       "New Guinea",
       "Nicobar",
+      "Ninh Bình",
+      "Pahang",
+      "Palawan",
       "Panay",
       "Peninsular Malaysia",
+      "Perak",
+      "Phangnga",
+      "Phatthalung",
       "Philippines",
+      "Phuket",
+      "Prachin Buri",
+      "Prachuap Khiri Khan",
       "Quảng Ngãi",
+      "Ranong",
+      "Ratchaburi",
+      "Sa Kaeo",
       "Sabah",
+      "Saraburi",
       "Sarawak",
+      "Satun",
+      "Selangor",
+      "Southeast Sulawesi",
       "Sri Lanka",
       "Sulawesi",
       "Sumatra",
+      "Surat Thani",
+      "Tak",
+      "Tanintharyi",
       "Thailand",
+      "Trat",
+      "Udon Thani",
+      "Uthai Thani",
       "Vietnam",
+      "West Java",
       "West Sumatra"
      ]
     },
@@ -1419,43 +1765,64 @@
      "members": [
       "Amhara",
       "Angola",
+      "Ashanti",
       "Benin",
+      "Borgou",
+      "Brong-Ahafo",
       "Burkina Faso",
       "Burundi",
       "Cabinda",
       "Cameroon",
+      "Cascades",
+      "Cavally",
       "Central African Republic",
+      "Central-GH",
       "Chad",
       "Congo",
       "DR Congo",
+      "Eastern-GH",
       "Ethiopia",
       "Gabon",
       "Gambia",
+      "Gbarpolu",
       "Ghana",
+      "Greater Accra",
       "Guinea",
       "Guinea-Bissau",
       "Gulf of Guinea Islands",
+      "Haut-Sassandra",
+      "Hauts-Bassins",
       "Ivory Coast",
       "Kenya",
+      "Lagunes",
       "Liberia",
       "Madagascar",
+      "Mahajanga",
       "Malawi",
       "Mali",
+      "Marahoué",
       "Mozambique",
       "Niger",
       "Nigeria",
+      "Nimba",
+      "Nzérékoré",
       "Ogun",
       "Oromia",
       "Plateau Department",
+      "Ruvuma",
+      "Savanes-CI",
       "Senegal",
       "Sierra Leone",
+      "Sinoe",
       "Somalia",
       "Sudan-South Sudan",
       "Tanzania",
       "Togo",
       "Uganda",
+      "Volta",
       "Zambezi Region",
       "Zambia",
+      "Zanzan",
       "Zimbabwe"
      ]
     },
@@ -1486,9 +1853,7 @@
       "Western Australia"
      ]
     }
-   },
-   "speciesTotalPowo": 246,
-   "speciesJournal": 114
+   }
   },
   "Adelonema": {
    "speciesTotal": 16,
@@ -40840,32 +41205,96 @@
  "subunits": {
   "Alabat": "Philippines",
   "Amhara": "Ethiopia",
+  "Arunachal Pradesh": "East Himalaya",
+  "Ashanti": "Ghana",
   "Bali": "Lesser Sunda Islands",
   "Biliran": "Philippines",
+  "Bolikhamsai": "Laos",
+  "Borgou": "Benin",
+  "Brong-Ahafo": "Ghana",
   "Brunei": "Borneo",
+  "Bà Rịa - Vũng Tàu": "Vietnam",
+  "Bình Thuận": "Vietnam",
+  "Cascades": "Burkina Faso",
+  "Cavally": "Ivory Coast",
+  "Central Java": "Java",
+  "Central-GH": "Ghana",
+  "Chiang Mai": "Thailand",
+  "Chumphon": "Thailand",
+  "East Java": "Java",
+  "Eastern-GH": "Ghana",
+  "Gbarpolu": "Liberia",
   "Gia Lai": "Vietnam",
+  "Goa": "India",
+  "Greater Accra": "Ghana",
+  "Haut-Sassandra": "Ivory Coast",
+  "Hauts-Bassins": "Burkina Faso",
+  "Jambi": "Sumatra",
+  "Johor": "Peninsular Malaysia",
+  "Kachin": "Myanmar",
   "Kalimantan": "Borneo",
   "Kanchanaburi": "Thailand",
   "Karnataka": "India",
   "Kayah": "Myanmar",
+  "Kerala": "India",
   "Khammouane": "Laos",
+  "Krabi": "Thailand",
+  "Lagunes": "Ivory Coast",
   "Leyte": "Philippines",
+  "Loei": "Thailand",
   "Lombok": "Lesser Sunda Islands",
+  "Lop Buri": "Thailand",
   "Luzon": "Philippines",
   "Lào Cai": "Vietnam",
+  "Mahajanga": "Madagascar",
+  "Maharashtra": "India",
+  "Marahoué": "Ivory Coast",
   "Mindanao": "Philippines",
+  "Nakhon Si Thammarat": "Thailand",
+  "Negeri Sembilan": "Peninsular Malaysia",
+  "Nimba": "Liberia",
+  "Ninh Bình": "Vietnam",
+  "Nzérékoré": "Guinea",
   "Ogun": "Nigeria",
   "Oromia": "Ethiopia",
+  "Pahang": "Peninsular Malaysia",
+  "Palawan": "Philippines",
   "Panay": "Philippines",
   "Papua New Guinea": "New Guinea",
+  "Perak": "Peninsular Malaysia",
+  "Phangnga": "Thailand",
+  "Phatthalung": "Thailand",
+  "Phuket": "Thailand",
   "Plateau Department": "Benin",
+  "Prachin Buri": "Thailand",
+  "Prachuap Khiri Khan": "Thailand",
+  "Quezon": "Luzon",
   "Quảng Ngãi": "Vietnam",
+  "Ranong": "Thailand",
+  "Ratchaburi": "Thailand",
+  "Rizal": "Luzon",
+  "Ruvuma": "Tanzania",
+  "Sa Kaeo": "Thailand",
   "Sabah": "Borneo",
   "Samar": "Philippines",
+  "Saraburi": "Thailand",
   "Sarawak": "Borneo",
+  "Satun": "Thailand",
+  "Savanes-CI": "Ivory Coast",
+  "Selangor": "Peninsular Malaysia",
+  "Sinoe": "Liberia",
+  "South Kalimantan": "Kalimantan",
+  "Southeast Sulawesi": "Sulawesi",
+  "Surat Thani": "Thailand",
+  "Tak": "Thailand",
+  "Tanintharyi": "Myanmar",
+  "Trat": "Thailand",
+  "Udon Thani": "Thailand",
+  "Uthai Thani": "Thailand",
+  "Volta": "Ghana",
+  "West Java": "Java",
   "West Sumatra": "Sumatra",
-  "Yunnan": "China South-Central"
- },
- "note18": "1.18.0 (8.20.26): speciesTotal is the LARGER of POWO and the journal's own species posts (user ruling - POWO is a floor while a genus is being built out, not a ceiling). speciesTotalPowo / speciesJournal carry both sources. Applied by 'apply-speciesTotal-max 8.20.26' over the 1.17.0 feed; build-genus-geo 1.18.0 computes the same rule at build time.",
- "note19": "1.19.0 (8.20.26): Furtadoa is sunk into Homalomena (POWO — it is one of the genus's seven heterotypic synonyms). Its empty genus entry is removed and Homalomena's speciesTotal moves 163 -> 177, POWO's current accepted figure, which already includes Homalomena indrae, H. mixta and H. sumatrensis. It is not 163 + 3. Matches phylogeny-tree DATA 1.37.0."
+  "Yunnan": "China South-Central",
+  "Zanzan": "Ivory Coast"
+ }
 }
