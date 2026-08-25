@@ -61,6 +61,8 @@
     "unclassifiedItems": []
   },
   "unresolvedTags": {
+    "Sylhet": 2,
+    "Moulvibazar": 2,
     "New Taipei": 1,
     "Kaohsiung": 1,
     "Taichung": 1,
@@ -83,11 +85,9 @@
     "Nimba": 1,
     "Lagunes": 1,
     "Haut-Sassandra": 1,
-    "Marahoué": 1,
-    "Kayes": 1,
-    "Sikasso": 1
+    "Marahoué": 1
   },
-  "updatedAt": "2026-08-24T08:59:45.869Z",
+  "updatedAt": "2026-08-25T08:54:43.163Z",
   "source": "https://www.aroidpedia.com/journal",
   "totalItemsScanned": 455
 }
