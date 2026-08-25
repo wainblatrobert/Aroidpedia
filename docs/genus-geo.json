@@ -1,6 +1,6 @@
 {
- "version": "1.22.0",
- "generated": "2026-08-22",
+ "version": "1.23.0",
+ "generated": "2026-08-25",
  "note18": "1.18.0 (8.20.26): speciesTotal is the LARGER of POWO and the journal’s own species posts (user ruling - POWO is a floor while a genus is being built out, not a ceiling); speciesTotalPowo keeps POWO’s own figure for the sources line.",
  "note19": "1.19.0 (8.20.26): Furtadoa is sunk into Homalomena (POWO; one of the genus’s seven heterotypic synonyms). Its empty genus entry is removed and Homalomena carries the merged range.",
  "note22": "1.22.0 (8.21.26): FULL 155-genus rebuild (the builder defaulted to Amorphophallus alone, so every other genus carried 8.16 data); the refine gate walks the SUBUNITS chain shallow-first (POWO speaks L3, so three-tier chains - East Kalimantan under Kalimantan under Borneo - always failed the direct-parent test); a mojibake ALIAS literal made SWC emit a broken San Andres key; POWO respelled Panama with its accent.",
@@ -1735,18 +1735,18 @@
       "Taiwan"
      ]
     },
+    "Papuasia": {
+     "count": 2,
+     "members": [
+      "New Guinea"
+     ]
+    },
     "Australia": {
      "count": 2,
      "members": [
       "Northern Territory",
       "Queensland",
       "Western Australia"
-     ]
-    },
-    "Papuasia": {
-     "count": 2,
-     "members": [
-      "New Guinea"
      ]
     },
     "Southern Africa": {
@@ -2163,20 +2163,20 @@
    },
    "doubtfulSpecies": {},
    "regions": {
-    "Indo-China": {
-     "count": 1,
-     "members": [
-      "Cambodia",
-      "Thailand",
-      "Vietnam"
-     ]
-    },
     "Malesia": {
      "count": 1,
      "members": [
       "Borneo",
       "Peninsular Malaysia",
       "Sumatra"
+     ]
+    },
+    "Indo-China": {
+     "count": 1,
+     "members": [
+      "Cambodia",
+      "Thailand",
+      "Vietnam"
      ]
     }
    },
@@ -2690,6 +2690,8 @@
     "Manipur": 1,
     "Mizoram": 1,
     "Tripura": 1,
+    "Sylhet": 1,
+    "Moulvibazar": 1,
     "Pangasinan": 1,
     "Zambales": 1,
     "Chanthaburi": 1,
@@ -2899,6 +2901,8 @@
     "Manipur": "L4",
     "Mizoram": "L4",
     "Tripura": "L4",
+    "Sylhet": "L4",
+    "Moulvibazar": "L4",
     "Pangasinan": "L4",
     "Quezon": "L4",
     "Rizal": "L4",
@@ -3200,7 +3204,9 @@
      "Vietnam"
     ],
     "hararganjensis": [
-     "Bangladesh"
+     "Bangladesh",
+     "Moulvibazar",
+     "Sylhet"
     ],
     "heterophylla": [
      "Luzon",
@@ -3730,9 +3736,11 @@
       "Manipur",
       "Meghalaya",
       "Mizoram",
+      "Moulvibazar",
       "Nepal",
       "Sikkim",
       "Sri Lanka",
+      "Sylhet",
       "Tripura",
       "West Himalaya"
      ]
@@ -3837,6 +3845,7 @@
       "Mindanao",
       "Mizoram",
       "Morobe",
+      "Moulvibazar",
       "Mountain Province",
       "Myanmar",
       "Negeri Sembilan",
@@ -3879,6 +3888,7 @@
       "Sumatra",
       "Surigao del Norte",
       "Surigao del Sur",
+      "Sylhet",
       "Tanintharyi",
       "Terengganu",
       "Thailand",
@@ -3966,18 +3976,18 @@
       "Sicilia"
      ]
     },
-    "Southwestern Europe": {
-     "count": 1,
-     "members": [
-      "Corse",
-      "Sardegna"
-     ]
-    },
     "Northern Africa": {
      "count": 1,
      "members": [
       "Algeria",
       "Tunisia"
+     ]
+    },
+    "Southwestern Europe": {
+     "count": 1,
+     "members": [
+      "Corse",
+      "Sardegna"
      ]
     }
    },
@@ -4609,14 +4619,6 @@
       "Gulf of Guinea Islands"
      ]
     },
-    "East Tropical Africa": {
-     "count": 3,
-     "members": [
-      "Kenya",
-      "Tanzania",
-      "Uganda"
-     ]
-    },
     "South Tropical Africa": {
      "count": 3,
      "members": [
@@ -4624,6 +4626,14 @@
       "Mozambique",
       "Zambia",
       "Zimbabwe"
+     ]
+    },
+    "East Tropical Africa": {
+     "count": 3,
+     "members": [
+      "Kenya",
+      "Tanzania",
+      "Uganda"
      ]
     },
     "West Tropical Africa": {
@@ -11434,31 +11444,6 @@
       "Uganda"
      ]
     },
-    "Eastern Canada": {
-     "count": 4,
-     "members": [
-      "New Brunswick",
-      "Nova Scotia",
-      "Ontario",
-      "Prince Edward I.",
-      "Québec"
-     ]
-    },
-    "North Central Usa": {
-     "count": 4,
-     "members": [
-      "Illinois",
-      "Iowa",
-      "Kansas",
-      "Minnesota",
-      "Missouri",
-      "Nebraska",
-      "North Dakota",
-      "Oklahoma",
-      "South Dakota",
-      "Wisconsin"
-     ]
-    },
     "Northeastern Usa": {
      "count": 4,
      "members": [
@@ -11477,10 +11462,35 @@
       "West Virginia"
      ]
     },
+    "North Central Usa": {
+     "count": 4,
+     "members": [
+      "Illinois",
+      "Iowa",
+      "Kansas",
+      "Minnesota",
+      "Missouri",
+      "Nebraska",
+      "North Dakota",
+      "Oklahoma",
+      "South Dakota",
+      "Wisconsin"
+     ]
+    },
     "South Central Usa": {
      "count": 4,
      "members": [
       "Texas"
+     ]
+    },
+    "Eastern Canada": {
+     "count": 4,
+     "members": [
+      "New Brunswick",
+      "Nova Scotia",
+      "Ontario",
+      "Prince Edward I.",
+      "Québec"
      ]
     },
     "Russian Far East": {
@@ -11834,6 +11844,12 @@
       "Madeira"
      ]
     },
+    "Caucasus": {
+     "count": 1,
+     "members": [
+      "Transcaucasus"
+     ]
+    },
     "Western Asia": {
      "count": 1,
      "members": [
@@ -11843,12 +11859,6 @@
       "Palestine",
       "Sinai",
       "Türkiye"
-     ]
-    },
-    "Caucasus": {
-     "count": 1,
-     "members": [
-      "Transcaucasus"
      ]
     }
    },
@@ -12443,19 +12453,19 @@
       "Madeira"
      ]
     },
-    "China": {
-     "count": 1,
-     "members": [
-      "Tibet",
-      "Xinjiang"
-     ]
-    },
     "Indian Subcontinent": {
      "count": 1,
      "members": [
       "Nepal",
       "Pakistan",
       "West Himalaya"
+     ]
+    },
+    "China": {
+     "count": 1,
+     "members": [
+      "Tibet",
+      "Xinjiang"
      ]
     }
    },
@@ -13812,12 +13822,6 @@
       "Venezuela"
      ]
     },
-    "Southern South America": {
-     "count": 1,
-     "members": [
-      "Argentina Northwest"
-     ]
-    },
     "Central America": {
      "count": 1,
      "members": [
@@ -13825,6 +13829,12 @@
       "Honduras",
       "Nicaragua",
       "Panama"
+     ]
+    },
+    "Southern South America": {
+     "count": 1,
+     "members": [
+      "Argentina Northwest"
      ]
     }
    },
@@ -14098,19 +14108,13 @@
    },
    "doubtfulSpecies": {},
    "regions": {
-    "Western Asia": {
+    "Northern Europe": {
      "count": 1,
      "members": [
-      "Türkiye"
-     ]
-    },
-    "Western Canada": {
-     "count": 1,
-     "members": [
-      "Alberta",
-      "British Columbia",
-      "Manitoba",
-      "Saskatchewan"
+      "Denmark",
+      "Finland",
+      "Norway",
+      "Sweden"
      ]
     },
     "Russian Far East": {
@@ -14124,46 +14128,11 @@
       "Sakhalin"
      ]
     },
-    "North Central Usa": {
+    "China": {
      "count": 1,
      "members": [
-      "Illinois",
-      "Minnesota",
-      "North Dakota",
-      "Wisconsin"
-     ]
-    },
-    "Eastern Canada": {
-     "count": 1,
-     "members": [
-      "Labrador",
-      "New Brunswick",
-      "Newfoundland",
-      "Nova Scotia",
-      "Ontario",
-      "Prince Edward I.",
-      "Québec"
-     ]
-    },
-    "Northern Europe": {
-     "count": 1,
-     "members": [
-      "Denmark",
-      "Finland",
-      "Norway",
-      "Sweden"
-     ]
-    },
-    "Southeastern Usa": {
-     "count": 1,
-     "members": [
-      "Maryland"
-     ]
-    },
-    "Southwestern Europe": {
-     "count": 1,
-     "members": [
-      "France"
+      "Inner Mongolia",
+      "Manchuria"
      ]
     },
     "Northeastern Usa": {
@@ -14184,11 +14153,73 @@
       "West Virginia"
      ]
     },
-    "China": {
+    "Subarctic America": {
      "count": 1,
      "members": [
-      "Inner Mongolia",
-      "Manchuria"
+      "Alaska",
+      "Northwest Territories",
+      "Yukon"
+     ]
+    },
+    "Southeastern Usa": {
+     "count": 1,
+     "members": [
+      "Maryland"
+     ]
+    },
+    "Western Canada": {
+     "count": 1,
+     "members": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Saskatchewan"
+     ]
+    },
+    "North Central Usa": {
+     "count": 1,
+     "members": [
+      "Illinois",
+      "Minnesota",
+      "North Dakota",
+      "Wisconsin"
+     ]
+    },
+    "Southwestern Europe": {
+     "count": 1,
+     "members": [
+      "France"
+     ]
+    },
+    "Eastern Canada": {
+     "count": 1,
+     "members": [
+      "Labrador",
+      "New Brunswick",
+      "Newfoundland",
+      "Nova Scotia",
+      "Ontario",
+      "Prince Edward I.",
+      "Québec"
+     ]
+    },
+    "Southeastern Europe": {
+     "count": 1,
+     "members": [
+      "Romania"
+     ]
+    },
+    "Siberia": {
+     "count": 1,
+     "members": [
+      "Altay",
+      "Buryatiya",
+      "Chita",
+      "Irkutsk",
+      "Krasnoyarsk",
+      "Tuva",
+      "West Siberia",
+      "Yakutiya"
      ]
     },
     "Eastern Europe": {
@@ -14204,20 +14235,6 @@
       "Ukraine"
      ]
     },
-    "Southeastern Europe": {
-     "count": 1,
-     "members": [
-      "Romania"
-     ]
-    },
-    "Subarctic America": {
-     "count": 1,
-     "members": [
-      "Alaska",
-      "Northwest Territories",
-      "Yukon"
-     ]
-    },
     "Eastern Asia": {
      "count": 1,
      "members": [
@@ -14225,17 +14242,10 @@
       "Korea"
      ]
     },
-    "Siberia": {
+    "Western Asia": {
      "count": 1,
      "members": [
-      "Altay",
-      "Buryatiya",
-      "Chita",
-      "Irkutsk",
-      "Krasnoyarsk",
-      "Tuva",
-      "West Siberia",
-      "Yakutiya"
+      "Türkiye"
      ]
     },
     "Middle Europe": {
@@ -16431,16 +16441,6 @@
       "Solomon Is."
      ]
     },
-    "Southwestern Pacific": {
-     "count": 1,
-     "members": [
-      "Fiji",
-      "Gilbert Is.",
-      "Samoa",
-      "Santa Cruz Is.",
-      "Vanuatu"
-     ]
-    },
     "Malesia": {
      "count": 1,
      "members": [
@@ -16451,6 +16451,13 @@
       "Sumatra"
      ]
     },
+    "Northwestern Pacific": {
+     "count": 1,
+     "members": [
+      "Caroline Is.",
+      "Marshall Is."
+     ]
+    },
     "South Central Pacific": {
      "count": 1,
      "members": [
@@ -16458,11 +16465,14 @@
       "Society Islands"
      ]
     },
-    "Northwestern Pacific": {
+    "Southwestern Pacific": {
      "count": 1,
      "members": [
-      "Caroline Is.",
-      "Marshall Is."
+      "Fiji",
+      "Gilbert Is.",
+      "Samoa",
+      "Santa Cruz Is.",
+      "Vanuatu"
      ]
     }
    },
@@ -17440,17 +17450,17 @@
       "Türkiye"
      ]
     },
+    "Northern Africa": {
+     "count": 1,
+     "members": [
+      "Algeria"
+     ]
+    },
     "Southwestern Europe": {
      "count": 1,
      "members": [
       "Corse",
       "Sardegna"
-     ]
-    },
-    "Northern Africa": {
-     "count": 1,
-     "members": [
-      "Algeria"
      ]
     }
    },
@@ -20439,10 +20449,29 @@
       "Sumatra"
      ]
     },
+    "China": {
+     "count": 1,
+     "members": [
+      "China South-Central",
+      "China Southeast",
+      "Hainan",
+      "Tibet"
+     ]
+    },
     "Papuasia": {
      "count": 1,
      "members": [
       "New Guinea"
+     ]
+    },
+    "Indo-China": {
+     "count": 1,
+     "members": [
+      "Cambodia",
+      "Laos",
+      "Myanmar",
+      "Thailand",
+      "Vietnam"
      ]
     },
     "Indian Subcontinent": {
@@ -20454,25 +20483,6 @@
       "India",
       "Nepal",
       "Sri Lanka"
-     ]
-    },
-    "China": {
-     "count": 1,
-     "members": [
-      "China South-Central",
-      "China Southeast",
-      "Hainan",
-      "Tibet"
-     ]
-    },
-    "Indo-China": {
-     "count": 1,
-     "members": [
-      "Cambodia",
-      "Laos",
-      "Myanmar",
-      "Thailand",
-      "Vietnam"
      ]
     },
     "Eastern Asia": {
@@ -20600,23 +20610,6 @@
    },
    "doubtfulSpecies": {},
    "regions": {
-    "Northeast Tropical Africa": {
-     "count": 1,
-     "members": [
-      "Chad"
-     ]
-    },
-    "West-Central Tropical Africa": {
-     "count": 1,
-     "members": [
-      "Cameroon",
-      "Central African Republic",
-      "Congo",
-      "DR Congo",
-      "Gabon",
-      "Gulf of Guinea Islands"
-     ]
-    },
     "West Tropical Africa": {
      "count": 1,
      "members": [
@@ -20637,6 +20630,23 @@
      "count": 1,
      "members": [
       "Angola"
+     ]
+    },
+    "West-Central Tropical Africa": {
+     "count": 1,
+     "members": [
+      "Cameroon",
+      "Central African Republic",
+      "Congo",
+      "DR Congo",
+      "Gabon",
+      "Gulf of Guinea Islands"
+     ]
+    },
+    "Northeast Tropical Africa": {
+     "count": 1,
+     "members": [
+      "Chad"
      ]
     }
    },
@@ -22384,6 +22394,13 @@
     ]
    },
    "regions": {
+    "South Central Usa": {
+     "count": 9,
+     "members": [
+      "New Mexico",
+      "Texas"
+     ]
+    },
     "Southeastern Usa": {
      "count": 9,
      "members": [
@@ -22416,13 +22433,6 @@
       "Oklahoma",
       "South Dakota",
       "Wisconsin"
-     ]
-    },
-    "South Central Usa": {
-     "count": 9,
-     "members": [
-      "New Mexico",
-      "Texas"
      ]
     },
     "Southwestern Usa": {
@@ -22463,6 +22473,19 @@
       "West Virginia"
      ]
     },
+    "Indian Subcontinent": {
+     "count": 6,
+     "members": [
+      "Assam",
+      "Bangladesh",
+      "East Himalaya",
+      "India",
+      "Nepal",
+      "Pakistan",
+      "Sri Lanka",
+      "West Himalaya"
+     ]
+    },
     "Caribbean": {
      "count": 6,
      "members": [
@@ -22484,19 +22507,6 @@
       "Windward Is."
      ]
     },
-    "Indian Subcontinent": {
-     "count": 6,
-     "members": [
-      "Assam",
-      "Bangladesh",
-      "East Himalaya",
-      "India",
-      "Nepal",
-      "Pakistan",
-      "Sri Lanka",
-      "West Himalaya"
-     ]
-    },
     "Northwestern Usa": {
      "count": 6,
      "members": [
@@ -22506,16 +22516,6 @@
       "Oregon",
       "Washington",
       "Wyoming"
-     ]
-    },
-    "Western South America": {
-     "count": 5,
-     "members": [
-      "Bolivia",
-      "Colombia",
-      "Ecuador",
-      "Galápagos",
-      "Peru"
      ]
     },
     "Western Asia": {
@@ -22532,6 +22532,16 @@
       "Türkiye"
      ]
     },
+    "Western South America": {
+     "count": 5,
+     "members": [
+      "Bolivia",
+      "Colombia",
+      "Ecuador",
+      "Galápagos",
+      "Peru"
+     ]
+    },
     "Siberia": {
      "count": 5,
      "members": [
@@ -22545,24 +22555,27 @@
       "Yakutiya"
      ]
     },
-    "Indo-China": {
+    "Malesia": {
      "count": 4,
      "members": [
-      "Cambodia",
-      "Myanmar",
-      "Thailand",
-      "Vietnam"
+      "Borneo",
+      "Christmas I.",
+      "Cocos (Keeling) Is.",
+      "Java",
+      "Lesser Sunda Islands",
+      "Maluku",
+      "Peninsular Malaysia",
+      "Philippines",
+      "Sulawesi",
+      "Sumatra"
      ]
     },
-    "Northern Africa": {
+    "East Tropical Africa": {
      "count": 4,
      "members": [
-      "Algeria",
-      "Egypt",
-      "Libya",
-      "Morocco",
-      "Tunisia",
-      "Western Sahara"
+      "Kenya",
+      "Tanzania",
+      "Uganda"
      ]
     },
     "Central America": {
@@ -22602,24 +22615,6 @@
       "Uruguay"
      ]
     },
-    "East Tropical Africa": {
-     "count": 4,
-     "members": [
-      "Kenya",
-      "Tanzania",
-      "Uganda"
-     ]
-    },
-    "Brazil": {
-     "count": 4,
-     "members": [
-      "Brazil North",
-      "Brazil Northeast",
-      "Brazil South",
-      "Brazil Southeast",
-      "Brazil West-Central"
-     ]
-    },
     "China": {
      "count": 4,
      "members": [
@@ -22633,27 +22628,23 @@
       "Xinjiang"
      ]
     },
-    "Malesia": {
+    "Indo-China": {
      "count": 4,
      "members": [
-      "Borneo",
-      "Christmas I.",
-      "Cocos (Keeling) Is.",
-      "Java",
-      "Lesser Sunda Islands",
-      "Maluku",
-      "Peninsular Malaysia",
-      "Philippines",
-      "Sulawesi",
-      "Sumatra"
+      "Cambodia",
+      "Myanmar",
+      "Thailand",
+      "Vietnam"
      ]
     },
-    "Eastern Asia": {
+    "Brazil": {
      "count": 4,
      "members": [
-      "Japan",
-      "Korea",
-      "Taiwan"
+      "Brazil North",
+      "Brazil Northeast",
+      "Brazil South",
+      "Brazil Southeast",
+      "Brazil West-Central"
      ]
     },
     "Northern South America": {
@@ -22665,21 +22656,23 @@
       "Venezuela"
      ]
     },
-    "Middle Asia": {
+    "Northern Africa": {
      "count": 4,
      "members": [
-      "Kazakhstan",
-      "Kirgizstan",
-      "Tadzhikistan",
-      "Turkmenistan",
-      "Uzbekistan"
+      "Algeria",
+      "Egypt",
+      "Libya",
+      "Morocco",
+      "Tunisia",
+      "Western Sahara"
      ]
     },
-    "Caucasus": {
+    "Eastern Asia": {
      "count": 4,
      "members": [
-      "North Caucasus",
-      "Transcaucasus"
+      "Japan",
+      "Korea",
+      "Taiwan"
      ]
     },
     "Northern Europe": {
@@ -22708,6 +22701,23 @@
       "Northwest European Russia",
       "South European Russia",
       "Ukraine"
+     ]
+    },
+    "Middle Asia": {
+     "count": 4,
+     "members": [
+      "Kazakhstan",
+      "Kirgizstan",
+      "Tadzhikistan",
+      "Turkmenistan",
+      "Uzbekistan"
+     ]
+    },
+    "Caucasus": {
+     "count": 4,
+     "members": [
+      "North Caucasus",
+      "Transcaucasus"
      ]
     },
     "Eastern Canada": {
@@ -22746,15 +22756,6 @@
       "Sudan-South Sudan"
      ]
     },
-    "Macaronesia": {
-     "count": 3,
-     "members": [
-      "Azores",
-      "Canary Is.",
-      "Cape Verde",
-      "Madeira"
-     ]
-    },
     "West-Central Tropical Africa": {
      "count": 3,
      "members": [
@@ -22770,18 +22771,13 @@
       "Rwanda"
      ]
     },
-    "Southeastern Europe": {
+    "Macaronesia": {
      "count": 3,
      "members": [
-      "Albania",
-      "Bulgaria",
-      "Greece",
-      "Italy",
-      "Kriti",
-      "NW. Balkan Pen.",
-      "Romania",
-      "Sicilia",
-      "Türkiye-in-Europe"
+      "Azores",
+      "Canary Is.",
+      "Cape Verde",
+      "Madeira"
      ]
     },
     "Southwestern Europe": {
@@ -22808,6 +22804,20 @@
       "Switzerland"
      ]
     },
+    "Southeastern Europe": {
+     "count": 3,
+     "members": [
+      "Albania",
+      "Bulgaria",
+      "Greece",
+      "Italy",
+      "Kriti",
+      "NW. Balkan Pen.",
+      "Romania",
+      "Sicilia",
+      "Türkiye-in-Europe"
+     ]
+    },
     "Western Canada": {
      "count": 3,
      "members": [
@@ -22815,6 +22825,13 @@
       "British Columbia",
       "Manitoba",
       "Saskatchewan"
+     ]
+    },
+    "Subarctic America": {
+     "count": 3,
+     "members": [
+      "Alaska",
+      "Yukon"
      ]
     },
     "Russian Far East": {
@@ -22829,20 +22846,6 @@
       "Sakhalin"
      ]
     },
-    "Subarctic America": {
-     "count": 3,
-     "members": [
-      "Alaska",
-      "Yukon"
-     ]
-    },
-    "Papuasia": {
-     "count": 2,
-     "members": [
-      "Bismarck Archipelago",
-      "New Guinea"
-     ]
-    },
     "South Tropical Africa": {
      "count": 2,
      "members": [
@@ -22853,22 +22856,17 @@
       "Zimbabwe"
      ]
     },
+    "Papuasia": {
+     "count": 2,
+     "members": [
+      "Bismarck Archipelago",
+      "New Guinea"
+     ]
+    },
     "Mongolia": {
      "count": 2,
      "members": [
       "Mongolia"
-     ]
-    },
-    "North Central Pacific": {
-     "count": 1,
-     "members": [
-      "Hawaii"
-     ]
-    },
-    "Northwestern Pacific": {
-     "count": 1,
-     "members": [
-      "Caroline Is."
      ]
     },
     "Southwestern Pacific": {
@@ -22878,6 +22876,26 @@
       "New Caledonia",
       "Samoa",
       "Tonga"
+     ]
+    },
+    "Northwestern Pacific": {
+     "count": 1,
+     "members": [
+      "Caroline Is."
+     ]
+    },
+    "Western Indian Ocean": {
+     "count": 1,
+     "members": [
+      "Aldabra",
+      "Chagos Archipelago",
+      "Comoros",
+      "Madagascar",
+      "Mauritius",
+      "Mozambique Channel Is.",
+      "Rodrigues",
+      "Réunion",
+      "Seychelles"
      ]
     },
     "West Tropical Africa": {
@@ -22900,18 +22918,10 @@
       "Togo"
      ]
     },
-    "Western Indian Ocean": {
+    "North Central Pacific": {
      "count": 1,
      "members": [
-      "Aldabra",
-      "Chagos Archipelago",
-      "Comoros",
-      "Madagascar",
-      "Mauritius",
-      "Mozambique Channel Is.",
-      "Rodrigues",
-      "Réunion",
-      "Seychelles"
+      "Hawaii"
      ]
     },
     "New Zealand": {
@@ -23404,13 +23414,6 @@
    },
    "doubtfulSpecies": {},
    "regions": {
-    "China": {
-     "count": 1,
-     "members": [
-      "China South-Central",
-      "China Southeast"
-     ]
-    },
     "Malesia": {
      "count": 1,
      "members": [
@@ -23435,6 +23438,13 @@
      "count": 1,
      "members": [
       "Bangladesh"
+     ]
+    },
+    "China": {
+     "count": 1,
+     "members": [
+      "China South-Central",
+      "China Southeast"
      ]
     }
    },
@@ -23588,6 +23598,19 @@
    },
    "doubtfulSpecies": {},
    "regions": {
+    "Subarctic America": {
+     "count": 1,
+     "members": [
+      "Alaska",
+      "Aleutian Is."
+     ]
+    },
+    "Western Canada": {
+     "count": 1,
+     "members": [
+      "British Columbia"
+     ]
+    },
     "Southwestern Usa": {
      "count": 1,
      "members": [
@@ -23601,19 +23624,6 @@
       "Montana",
       "Oregon",
       "Washington"
-     ]
-    },
-    "Subarctic America": {
-     "count": 1,
-     "members": [
-      "Alaska",
-      "Aleutian Is."
-     ]
-    },
-    "Western Canada": {
-     "count": 1,
-     "members": [
-      "British Columbia"
      ]
     },
     "Eastern Asia": {
@@ -24380,6 +24390,15 @@
    },
    "doubtfulSpecies": {},
    "regions": {
+    "Western South America": {
+     "count": 2,
+     "members": [
+      "Bolivia",
+      "Colombia",
+      "Ecuador",
+      "Peru"
+     ]
+    },
     "Northern South America": {
      "count": 2,
      "members": [
@@ -24397,13 +24416,12 @@
       "Brazil Southeast"
      ]
     },
-    "Western South America": {
-     "count": 2,
+    "Caribbean": {
+     "count": 1,
      "members": [
-      "Bolivia",
-      "Colombia",
-      "Ecuador",
-      "Peru"
+      "Leeward Is.",
+      "Trinidad and Tobago",
+      "Windward Is."
      ]
     },
     "Central America": {
@@ -24415,14 +24433,6 @@
       "Honduras",
       "Nicaragua",
       "Panama"
-     ]
-    },
-    "Caribbean": {
-     "count": 1,
-     "members": [
-      "Leeward Is.",
-      "Trinidad and Tobago",
-      "Windward Is."
      ]
     }
    },
@@ -24831,6 +24841,12 @@
       "Virginia"
      ]
     },
+    "South Central Usa": {
+     "count": 1,
+     "members": [
+      "Texas"
+     ]
+    },
     "Northeastern Usa": {
      "count": 1,
      "members": [
@@ -24841,12 +24857,6 @@
       "Pennsylvania",
       "Rhode I.",
       "West Virginia"
-     ]
-    },
-    "South Central Usa": {
-     "count": 1,
-     "members": [
-      "Texas"
      ]
     }
    },
@@ -25046,25 +25056,6 @@
       "Virginia"
      ]
     },
-    "Eastern Canada": {
-     "count": 1,
-     "members": [
-      "Ontario",
-      "Québec"
-     ]
-    },
-    "North Central Usa": {
-     "count": 1,
-     "members": [
-      "Illinois",
-      "Iowa",
-      "Kansas",
-      "Minnesota",
-      "Missouri",
-      "Oklahoma",
-      "Wisconsin"
-     ]
-    },
     "Northeastern Usa": {
      "count": 1,
      "members": [
@@ -25083,10 +25074,29 @@
       "West Virginia"
      ]
     },
+    "North Central Usa": {
+     "count": 1,
+     "members": [
+      "Illinois",
+      "Iowa",
+      "Kansas",
+      "Minnesota",
+      "Missouri",
+      "Oklahoma",
+      "Wisconsin"
+     ]
+    },
     "South Central Usa": {
      "count": 1,
      "members": [
       "Texas"
+     ]
+    },
+    "Eastern Canada": {
+     "count": 1,
+     "members": [
+      "Ontario",
+      "Québec"
      ]
     },
     "Caribbean": {
@@ -28108,18 +28118,18 @@
       "Venezuela"
      ]
     },
-    "Brazil": {
-     "count": 2,
-     "members": [
-      "Brazil North"
-     ]
-    },
     "Western South America": {
      "count": 2,
      "members": [
       "Bolivia",
       "Colombia",
       "Peru"
+     ]
+    },
+    "Brazil": {
+     "count": 2,
+     "members": [
+      "Brazil North"
      ]
     }
    },
@@ -28166,16 +28176,16 @@
    },
    "doubtfulSpecies": {},
    "regions": {
-    "Central America": {
-     "count": 1,
-     "members": [
-      "Panama"
-     ]
-    },
     "Western South America": {
      "count": 1,
      "members": [
       "Colombia"
+     ]
+    },
+    "Central America": {
+     "count": 1,
+     "members": [
+      "Panama"
      ]
     }
    },
@@ -28923,18 +28933,46 @@
    },
    "doubtfulSpecies": {},
    "regions": {
+    "Malesia": {
+     "count": 1,
+     "members": [
+      "Borneo",
+      "Java",
+      "Maluku",
+      "Peninsular Malaysia",
+      "Philippines",
+      "Sulawesi",
+      "Sumatra"
+     ]
+    },
+    "East Tropical Africa": {
+     "count": 1,
+     "members": [
+      "Kenya",
+      "Tanzania",
+      "Uganda"
+     ]
+    },
+    "South Tropical Africa": {
+     "count": 1,
+     "members": [
+      "Angola",
+      "Malawi",
+      "Mozambique",
+      "Zambia",
+      "Zimbabwe"
+     ]
+    },
     "Papuasia": {
      "count": 1,
      "members": [
       "New Guinea"
      ]
     },
-    "Southeastern Usa": {
+    "South Central Usa": {
      "count": 1,
      "members": [
-      "Florida",
-      "Louisiana",
-      "Mississippi"
+      "Texas"
      ]
     },
     "Southern Africa": {
@@ -28949,56 +28987,6 @@
       "Namibia",
       "Northern Provinces",
       "Zambezi Region"
-     ]
-    },
-    "Indo-China": {
-     "count": 1,
-     "members": [
-      "Andaman Islands",
-      "Cambodia",
-      "Laos",
-      "Myanmar",
-      "Nicobar",
-      "South China Sea",
-      "Thailand",
-      "Vietnam"
-     ]
-    },
-    "Western South America": {
-     "count": 1,
-     "members": [
-      "Bolivia",
-      "Colombia",
-      "Ecuador",
-      "Galápagos",
-      "Peru"
-     ]
-    },
-    "Northern Africa": {
-     "count": 1,
-     "members": [
-      "Egypt"
-     ]
-    },
-    "Northeast Tropical Africa": {
-     "count": 1,
-     "members": [
-      "Chad",
-      "Ethiopia",
-      "Somalia",
-      "Sudan-South Sudan"
-     ]
-    },
-    "Mexico": {
-     "count": 1,
-     "members": [
-      "Mexican Pacific Is.",
-      "Mexico Central",
-      "Mexico Gulf",
-      "Mexico Northeast",
-      "Mexico Northwest",
-      "Mexico Southeast",
-      "Mexico Southwest"
      ]
     },
     "Central America": {
@@ -29028,24 +29016,6 @@
       "Uruguay"
      ]
     },
-    "East Tropical Africa": {
-     "count": 1,
-     "members": [
-      "Kenya",
-      "Tanzania",
-      "Uganda"
-     ]
-    },
-    "Brazil": {
-     "count": 1,
-     "members": [
-      "Brazil North",
-      "Brazil Northeast",
-      "Brazil South",
-      "Brazil Southeast",
-      "Brazil West-Central"
-     ]
-    },
     "China": {
      "count": 1,
      "members": [
@@ -29054,93 +29024,29 @@
       "Hainan"
      ]
     },
-    "Malesia": {
+    "Northeast Tropical Africa": {
      "count": 1,
      "members": [
-      "Borneo",
-      "Java",
-      "Maluku",
-      "Peninsular Malaysia",
-      "Philippines",
-      "Sulawesi",
-      "Sumatra"
+      "Chad",
+      "Ethiopia",
+      "Somalia",
+      "Sudan-South Sudan"
      ]
     },
-    "Eastern Asia": {
+    "Western Indian Ocean": {
      "count": 1,
      "members": [
-      "Nansei-shoto",
-      "Taiwan"
+      "Comoros",
+      "Madagascar",
+      "Mauritius"
      ]
     },
-    "West-Central Tropical Africa": {
+    "Southeastern Usa": {
      "count": 1,
      "members": [
-      "Burundi",
-      "Cabinda",
-      "Cameroon",
-      "Central African Republic",
-      "Congo",
-      "DR Congo",
-      "Equatorial Guinea",
-      "Gabon",
-      "Gulf of Guinea Islands",
-      "Rwanda"
-     ]
-    },
-    "Caribbean": {
-     "count": 1,
-     "members": [
-      "Cuba",
-      "Dominican Republic",
-      "Haiti",
-      "Jamaica",
-      "Leeward Is.",
-      "Netherlands Antilles",
-      "Puerto Rico",
-      "Trinidad and Tobago",
-      "Venezuelan Antilles",
-      "Windward Is."
-     ]
-    },
-    "South Tropical Africa": {
-     "count": 1,
-     "members": [
-      "Angola",
-      "Malawi",
-      "Mozambique",
-      "Zambia",
-      "Zimbabwe"
-     ]
-    },
-    "Northern South America": {
-     "count": 1,
-     "members": [
-      "French Guiana",
-      "Guyana",
-      "Suriname",
-      "Venezuela"
-     ]
-    },
-    "Western Asia": {
-     "count": 1,
-     "members": [
-      "Afghanistan"
-     ]
-    },
-    "Indian Subcontinent": {
-     "count": 1,
-     "members": [
-      "Assam",
-      "Bangladesh",
-      "East Himalaya",
-      "India",
-      "Lakshadweep",
-      "Maldives",
-      "Nepal",
-      "Pakistan",
-      "Sri Lanka",
-      "West Himalaya"
+      "Florida",
+      "Louisiana",
+      "Mississippi"
      ]
     },
     "West Tropical Africa": {
@@ -29163,22 +29069,136 @@
       "Togo"
      ]
     },
-    "Western Indian Ocean": {
+    "Indo-China": {
      "count": 1,
      "members": [
-      "Comoros",
-      "Madagascar",
-      "Mauritius"
+      "Andaman Islands",
+      "Cambodia",
+      "Laos",
+      "Myanmar",
+      "Nicobar",
+      "South China Sea",
+      "Thailand",
+      "Vietnam"
      ]
     },
-    "South Central Usa": {
+    "Indian Subcontinent": {
      "count": 1,
      "members": [
-      "Texas"
+      "Assam",
+      "Bangladesh",
+      "East Himalaya",
+      "India",
+      "Lakshadweep",
+      "Maldives",
+      "Nepal",
+      "Pakistan",
+      "Sri Lanka",
+      "West Himalaya"
+     ]
+    },
+    "Mexico": {
+     "count": 1,
+     "members": [
+      "Mexican Pacific Is.",
+      "Mexico Central",
+      "Mexico Gulf",
+      "Mexico Northeast",
+      "Mexico Northwest",
+      "Mexico Southeast",
+      "Mexico Southwest"
+     ]
+    },
+    "Brazil": {
+     "count": 1,
+     "members": [
+      "Brazil North",
+      "Brazil Northeast",
+      "Brazil South",
+      "Brazil Southeast",
+      "Brazil West-Central"
+     ]
+    },
+    "Northern South America": {
+     "count": 1,
+     "members": [
+      "French Guiana",
+      "Guyana",
+      "Suriname",
+      "Venezuela"
+     ]
+    },
+    "West-Central Tropical Africa": {
+     "count": 1,
+     "members": [
+      "Burundi",
+      "Cabinda",
+      "Cameroon",
+      "Central African Republic",
+      "Congo",
+      "DR Congo",
+      "Equatorial Guinea",
+      "Gabon",
+      "Gulf of Guinea Islands",
+      "Rwanda"
+     ]
+    },
+    "Western Asia": {
+     "count": 1,
+     "members": [
+      "Afghanistan"
+     ]
+    },
+    "Western South America": {
+     "count": 1,
+     "members": [
+      "Bolivia",
+      "Colombia",
+      "Ecuador",
+      "Galápagos",
+      "Peru"
+     ]
+    },
+    "Northern Africa": {
+     "count": 1,
+     "members": [
+      "Egypt"
+     ]
+    },
+    "Caribbean": {
+     "count": 1,
+     "members": [
+      "Cuba",
+      "Dominican Republic",
+      "Haiti",
+      "Jamaica",
+      "Leeward Is.",
+      "Netherlands Antilles",
+      "Puerto Rico",
+      "Trinidad and Tobago",
+      "Venezuelan Antilles",
+      "Windward Is."
+     ]
+    },
+    "Eastern Asia": {
+     "count": 1,
+     "members": [
+      "Nansei-shoto",
+      "Taiwan"
      ]
     }
    },
    "continents": {
+    "Australasia": {
+     "count": 1,
+     "regions": [
+      "Australia"
+     ],
+     "members": [
+      "Northern Territory",
+      "Queensland"
+     ]
+    },
     "Tropical Asia": {
      "count": 1,
      "regions": [
@@ -29216,35 +29236,51 @@
       "West Himalaya"
      ]
     },
-    "Northern America": {
+    "Southern America": {
      "count": 1,
      "regions": [
-      "Mexico",
-      "South Central Usa",
-      "Southeastern Usa"
+      "Brazil",
+      "Caribbean",
+      "Central America",
+      "Northern South America",
+      "Southern South America",
+      "Western South America"
      ],
      "members": [
-      "Florida",
-      "Louisiana",
-      "Mexican Pacific Is.",
-      "Mexico Central",
-      "Mexico Gulf",
-      "Mexico Northeast",
-      "Mexico Northwest",
-      "Mexico Southeast",
-      "Mexico Southwest",
-      "Mississippi",
-      "Texas"
-     ]
-    },
-    "Australasia": {
-     "count": 1,
-     "regions": [
-      "Australia"
-     ],
-     "members": [
-      "Northern Territory",
-      "Queensland"
+      "Argentina Northeast",
+      "Belize",
+      "Bolivia",
+      "Brazil North",
+      "Brazil Northeast",
+      "Brazil South",
+      "Brazil Southeast",
+      "Brazil West-Central",
+      "Colombia",
+      "Costa Rica",
+      "Cuba",
+      "Dominican Republic",
+      "Ecuador",
+      "El Salvador",
+      "French Guiana",
+      "Galápagos",
+      "Guatemala",
+      "Guyana",
+      "Haiti",
+      "Honduras",
+      "Jamaica",
+      "Leeward Is.",
+      "Netherlands Antilles",
+      "Nicaragua",
+      "Panama",
+      "Paraguay",
+      "Peru",
+      "Puerto Rico",
+      "Suriname",
+      "Trinidad and Tobago",
+      "Uruguay",
+      "Venezuela",
+      "Venezuelan Antilles",
+      "Windward Is."
      ]
     },
     "Africa": {
@@ -29312,51 +29348,25 @@
       "Zimbabwe"
      ]
     },
-    "Southern America": {
+    "Northern America": {
      "count": 1,
      "regions": [
-      "Brazil",
-      "Caribbean",
-      "Central America",
-      "Northern South America",
-      "Southern South America",
-      "Western South America"
+      "Mexico",
+      "South Central Usa",
+      "Southeastern Usa"
      ],
      "members": [
-      "Argentina Northeast",
-      "Belize",
-      "Bolivia",
-      "Brazil North",
-      "Brazil Northeast",
-      "Brazil South",
-      "Brazil Southeast",
-      "Brazil West-Central",
-      "Colombia",
-      "Costa Rica",
-      "Cuba",
-      "Dominican Republic",
-      "Ecuador",
-      "El Salvador",
-      "French Guiana",
-      "Galápagos",
-      "Guatemala",
-      "Guyana",
-      "Haiti",
-      "Honduras",
-      "Jamaica",
-      "Leeward Is.",
-      "Netherlands Antilles",
-      "Nicaragua",
-      "Panama",
-      "Paraguay",
-      "Peru",
-      "Puerto Rico",
-      "Suriname",
-      "Trinidad and Tobago",
-      "Uruguay",
-      "Venezuela",
-      "Venezuelan Antilles",
-      "Windward Is."
+      "Florida",
+      "Louisiana",
+      "Mexican Pacific Is.",
+      "Mexico Central",
+      "Mexico Gulf",
+      "Mexico Northeast",
+      "Mexico Northwest",
+      "Mexico Southeast",
+      "Mexico Southwest",
+      "Mississippi",
+      "Texas"
      ]
     },
     "Temperate Asia": {
@@ -30441,11 +30451,57 @@
       "Taiwan"
      ]
     },
+    "Malesia": {
+     "count": 1,
+     "members": [
+      "Christmas I.",
+      "Java",
+      "Lesser Sunda Islands"
+     ]
+    },
+    "West-Central Tropical Africa": {
+     "count": 1,
+     "members": [
+      "Cameroon",
+      "Central African Republic",
+      "DR Congo"
+     ]
+    },
+    "Western Indian Ocean": {
+     "count": 1,
+     "members": [
+      "Comoros",
+      "Madagascar"
+     ]
+    },
     "Northeast Tropical Africa": {
      "count": 1,
      "members": [
       "Ethiopia",
       "Socotra"
+     ]
+    },
+    "East Tropical Africa": {
+     "count": 1,
+     "members": [
+      "Tanzania"
+     ]
+    },
+    "South Tropical Africa": {
+     "count": 1,
+     "members": [
+      "Zambia"
+     ]
+    },
+    "West Tropical Africa": {
+     "count": 1,
+     "members": [
+      "Guinea",
+      "Guinea-Bissau",
+      "Ivory Coast",
+      "Liberia",
+      "Nigeria",
+      "Sierra Leone"
      ]
     },
     "Australia": {
@@ -30460,52 +30516,6 @@
      "members": [
       "Oman",
       "Yemen"
-     ]
-    },
-    "East Tropical Africa": {
-     "count": 1,
-     "members": [
-      "Tanzania"
-     ]
-    },
-    "West Tropical Africa": {
-     "count": 1,
-     "members": [
-      "Guinea",
-      "Guinea-Bissau",
-      "Ivory Coast",
-      "Liberia",
-      "Nigeria",
-      "Sierra Leone"
-     ]
-    },
-    "Malesia": {
-     "count": 1,
-     "members": [
-      "Christmas I.",
-      "Java",
-      "Lesser Sunda Islands"
-     ]
-    },
-    "Western Indian Ocean": {
-     "count": 1,
-     "members": [
-      "Comoros",
-      "Madagascar"
-     ]
-    },
-    "West-Central Tropical Africa": {
-     "count": 1,
-     "members": [
-      "Cameroon",
-      "Central African Republic",
-      "DR Congo"
-     ]
-    },
-    "South Tropical Africa": {
-     "count": 1,
-     "members": [
-      "Zambia"
      ]
     }
    },
@@ -32110,6 +32120,16 @@
       "Sumatra"
      ]
     },
+    "West-Central Tropical Africa": {
+     "count": 1,
+     "members": [
+      "Cameroon",
+      "Central African Republic",
+      "DR Congo",
+      "Gabon",
+      "Gulf of Guinea Islands"
+     ]
+    },
     "Northeast Tropical Africa": {
      "count": 1,
      "members": [
@@ -32125,23 +32145,6 @@
       "Uganda"
      ]
     },
-    "Arabian Peninsula": {
-     "count": 1,
-     "members": [
-      "Saudi Arabia",
-      "Yemen"
-     ]
-    },
-    "West-Central Tropical Africa": {
-     "count": 1,
-     "members": [
-      "Cameroon",
-      "Central African Republic",
-      "DR Congo",
-      "Gabon",
-      "Gulf of Guinea Islands"
-     ]
-    },
     "South Tropical Africa": {
      "count": 1,
      "members": [
@@ -32149,6 +32152,13 @@
       "Malawi",
       "Mozambique",
       "Zambia"
+     ]
+    },
+    "Arabian Peninsula": {
+     "count": 1,
+     "members": [
+      "Saudi Arabia",
+      "Yemen"
      ]
     }
    },
@@ -33197,17 +33207,17 @@
    },
    "doubtfulSpecies": {},
    "regions": {
-    "Southern South America": {
-     "count": 1,
-     "members": [
-      "Argentina Northwest"
-     ]
-    },
     "Western South America": {
      "count": 1,
      "members": [
       "Bolivia",
       "Peru"
+     ]
+    },
+    "Southern South America": {
+     "count": 1,
+     "members": [
+      "Argentina Northwest"
      ]
     }
    },
@@ -34711,6 +34721,48 @@
       "Tibet"
      ]
     },
+    "Malesia": {
+     "count": 2,
+     "members": [
+      "Borneo",
+      "Christmas I.",
+      "Cocos (Keeling) Is.",
+      "Java",
+      "Lesser Sunda Islands",
+      "Maluku",
+      "Peninsular Malaysia",
+      "Philippines",
+      "Sulawesi",
+      "Sumatra"
+     ]
+    },
+    "South Tropical Africa": {
+     "count": 2,
+     "members": [
+      "Malawi",
+      "Mozambique",
+      "Zambia",
+      "Zimbabwe"
+     ]
+    },
+    "Indo-China": {
+     "count": 2,
+     "members": [
+      "Myanmar",
+      "Thailand",
+      "Vietnam"
+     ]
+    },
+    "Southern Africa": {
+     "count": 2,
+     "members": [
+      "Botswana",
+      "Cape Provinces",
+      "Free State",
+      "KwaZulu-Natal",
+      "Northern Provinces"
+     ]
+    },
     "Indian Subcontinent": {
      "count": 2,
      "members": [
@@ -34737,63 +34789,12 @@
       "Western Australia"
      ]
     },
-    "Southern Africa": {
-     "count": 2,
-     "members": [
-      "Botswana",
-      "Cape Provinces",
-      "Free State",
-      "KwaZulu-Natal",
-      "Northern Provinces"
-     ]
-    },
-    "Indo-China": {
-     "count": 2,
-     "members": [
-      "Myanmar",
-      "Thailand",
-      "Vietnam"
-     ]
-    },
-    "Malesia": {
-     "count": 2,
-     "members": [
-      "Borneo",
-      "Christmas I.",
-      "Cocos (Keeling) Is.",
-      "Java",
-      "Lesser Sunda Islands",
-      "Maluku",
-      "Peninsular Malaysia",
-      "Philippines",
-      "Sulawesi",
-      "Sumatra"
-     ]
-    },
     "Eastern Asia": {
      "count": 2,
      "members": [
       "Japan",
       "Korea",
       "Taiwan"
-     ]
-    },
-    "South Tropical Africa": {
-     "count": 2,
-     "members": [
-      "Malawi",
-      "Mozambique",
-      "Zambia",
-      "Zimbabwe"
-     ]
-    },
-    "Western South America": {
-     "count": 2,
-     "members": [
-      "Bolivia",
-      "Colombia",
-      "Ecuador",
-      "Peru"
      ]
     },
     "Central America": {
@@ -34809,6 +34810,15 @@
       "Panama"
      ]
     },
+    "Western South America": {
+     "count": 2,
+     "members": [
+      "Bolivia",
+      "Colombia",
+      "Ecuador",
+      "Peru"
+     ]
+    },
     "Caribbean": {
      "count": 2,
      "members": [
@@ -34822,25 +34832,11 @@
       "Windward Is."
      ]
     },
-    "Papuasia": {
-     "count": 1,
-     "members": [
-      "New Guinea"
-     ]
-    },
     "Western Indian Ocean": {
      "count": 1,
      "members": [
       "Madagascar",
       "Mauritius"
-     ]
-    },
-    "Southwestern Pacific": {
-     "count": 1,
-     "members": [
-      "Fiji",
-      "New Caledonia",
-      "Vanuatu"
      ]
     },
     "New Zealand": {
@@ -34851,10 +34847,55 @@
       "New Zealand South"
      ]
     },
-    "Middle Asia": {
+    "Papuasia": {
      "count": 1,
      "members": [
-      "Kazakhstan"
+      "New Guinea"
+     ]
+    },
+    "Southwestern Pacific": {
+     "count": 1,
+     "members": [
+      "Fiji",
+      "New Caledonia",
+      "Vanuatu"
+     ]
+    },
+    "Northern Europe": {
+     "count": 1,
+     "members": [
+      "Denmark",
+      "Finland",
+      "Great Britain",
+      "Ireland",
+      "Norway",
+      "Sweden"
+     ]
+    },
+    "Northeastern Usa": {
+     "count": 1,
+     "members": [
+      "Connecticut",
+      "Indiana",
+      "Maine",
+      "Massachusetts",
+      "Michigan",
+      "New Hampshire",
+      "New Jersey",
+      "New York",
+      "Ohio",
+      "Pennsylvania",
+      "Rhode I.",
+      "Vermont",
+      "West Virginia"
+     ]
+    },
+    "East Tropical Africa": {
+     "count": 1,
+     "members": [
+      "Kenya",
+      "Tanzania",
+      "Uganda"
      ]
     },
     "Western Canada": {
@@ -34866,13 +34907,54 @@
       "Saskatchewan"
      ]
     },
-    "Southwestern Usa": {
+    "South Central Usa": {
      "count": 1,
      "members": [
-      "Arizona",
-      "California",
-      "Nevada",
-      "Utah"
+      "New Mexico",
+      "Texas"
+     ]
+    },
+    "Southwestern Europe": {
+     "count": 1,
+     "members": [
+      "Corse",
+      "France",
+      "Portugal",
+      "Sardegna",
+      "Spain"
+     ]
+    },
+    "Eastern Europe": {
+     "count": 1,
+     "members": [
+      "Baltic States",
+      "Belarus",
+      "Central European Russia",
+      "East European Russia",
+      "Krym",
+      "North European Russia",
+      "Northwest European Russia",
+      "South European Russia",
+      "Ukraine"
+     ]
+    },
+    "Northwestern Usa": {
+     "count": 1,
+     "members": [
+      "Colorado",
+      "Idaho",
+      "Montana",
+      "Oregon",
+      "Washington",
+      "Wyoming"
+     ]
+    },
+    "Northeast Tropical Africa": {
+     "count": 1,
+     "members": [
+      "Chad",
+      "Ethiopia",
+      "Sudan-South Sudan"
      ]
     },
     "Southeastern Usa": {
@@ -34894,10 +34976,105 @@
       "Virginia"
      ]
     },
+    "North Central Usa": {
+     "count": 1,
+     "members": [
+      "Illinois",
+      "Iowa",
+      "Kansas",
+      "Minnesota",
+      "Missouri",
+      "Nebraska",
+      "North Dakota",
+      "Oklahoma",
+      "South Dakota",
+      "Wisconsin"
+     ]
+    },
+    "Eastern Canada": {
+     "count": 1,
+     "members": [
+      "New Brunswick",
+      "Nova Scotia",
+      "Prince Edward I.",
+      "Québec"
+     ]
+    },
+    "West Tropical Africa": {
+     "count": 1,
+     "members": [
+      "Benin",
+      "Ghana",
+      "Ivory Coast",
+      "Nigeria",
+      "Senegal",
+      "Togo"
+     ]
+    },
+    "Mexico": {
+     "count": 1,
+     "members": [
+      "Mexican Pacific Is.",
+      "Mexico Central",
+      "Mexico Gulf",
+      "Mexico Northeast",
+      "Mexico Northwest",
+      "Mexico Southeast",
+      "Mexico Southwest"
+     ]
+    },
     "North Central Pacific": {
      "count": 1,
      "members": [
       "Hawaii"
+     ]
+    },
+    "Middle Europe": {
+     "count": 1,
+     "members": [
+      "Austria",
+      "Belgium",
+      "Czechia-Slovakia",
+      "Germany",
+      "Hungary",
+      "Netherlands",
+      "Poland",
+      "Switzerland"
+     ]
+    },
+    "Southwestern Usa": {
+     "count": 1,
+     "members": [
+      "Arizona",
+      "California",
+      "Nevada",
+      "Utah"
+     ]
+    },
+    "West-Central Tropical Africa": {
+     "count": 1,
+     "members": [
+      "Burundi",
+      "Central African Republic",
+      "Congo",
+      "DR Congo",
+      "Rwanda"
+     ]
+    },
+    "Russian Far East": {
+     "count": 1,
+     "members": [
+      "Kamchatka",
+      "Khabarovsk",
+      "Kuril Is.",
+      "Primorye",
+      "Sakhalin"
+     ]
+    },
+    "Middle Asia": {
+     "count": 1,
+     "members": [
+      "Kazakhstan"
      ]
     },
     "Southeastern Europe": {
@@ -34914,41 +35091,19 @@
       "Türkiye-in-Europe"
      ]
     },
-    "Northern Africa": {
+    "Western Asia": {
      "count": 1,
      "members": [
-      "Egypt",
-      "Morocco",
-      "Tunisia"
+      "Iran",
+      "Lebanon-Syria",
+      "Palestine",
+      "Türkiye"
      ]
     },
-    "Northeast Tropical Africa": {
+    "Macaronesia": {
      "count": 1,
      "members": [
-      "Chad",
-      "Ethiopia",
-      "Sudan-South Sudan"
-     ]
-    },
-    "Eastern Canada": {
-     "count": 1,
-     "members": [
-      "New Brunswick",
-      "Nova Scotia",
-      "Prince Edward I.",
-      "Québec"
-     ]
-    },
-    "Mexico": {
-     "count": 1,
-     "members": [
-      "Mexican Pacific Is.",
-      "Mexico Central",
-      "Mexico Gulf",
-      "Mexico Northeast",
-      "Mexico Northwest",
-      "Mexico Southeast",
-      "Mexico Southwest"
+      "Madeira"
      ]
     },
     "Caucasus": {
@@ -34958,93 +35113,12 @@
       "Transcaucasus"
      ]
     },
-    "North Central Usa": {
+    "Northern Africa": {
      "count": 1,
      "members": [
-      "Illinois",
-      "Iowa",
-      "Kansas",
-      "Minnesota",
-      "Missouri",
-      "Nebraska",
-      "North Dakota",
-      "Oklahoma",
-      "South Dakota",
-      "Wisconsin"
-     ]
-    },
-    "Northwestern Usa": {
-     "count": 1,
-     "members": [
-      "Colorado",
-      "Idaho",
-      "Montana",
-      "Oregon",
-      "Washington",
-      "Wyoming"
-     ]
-    },
-    "Northern Europe": {
-     "count": 1,
-     "members": [
-      "Denmark",
-      "Finland",
-      "Great Britain",
-      "Ireland",
-      "Norway",
-      "Sweden"
-     ]
-    },
-    "East Tropical Africa": {
-     "count": 1,
-     "members": [
-      "Kenya",
-      "Tanzania",
-      "Uganda"
-     ]
-    },
-    "Southwestern Europe": {
-     "count": 1,
-     "members": [
-      "Corse",
-      "France",
-      "Portugal",
-      "Sardegna",
-      "Spain"
-     ]
-    },
-    "Northeastern Usa": {
-     "count": 1,
-     "members": [
-      "Connecticut",
-      "Indiana",
-      "Maine",
-      "Massachusetts",
-      "Michigan",
-      "New Hampshire",
-      "New Jersey",
-      "New York",
-      "Ohio",
-      "Pennsylvania",
-      "Rhode I.",
-      "Vermont",
-      "West Virginia"
-     ]
-    },
-    "Macaronesia": {
-     "count": 1,
-     "members": [
-      "Madeira"
-     ]
-    },
-    "West-Central Tropical Africa": {
-     "count": 1,
-     "members": [
-      "Burundi",
-      "Central African Republic",
-      "Congo",
-      "DR Congo",
-      "Rwanda"
+      "Egypt",
+      "Morocco",
+      "Tunisia"
      ]
     },
     "Siberia": {
@@ -35059,75 +35133,21 @@
       "Yakutiya"
      ]
     },
-    "Western Asia": {
-     "count": 1,
-     "members": [
-      "Iran",
-      "Lebanon-Syria",
-      "Palestine",
-      "Türkiye"
-     ]
-    },
-    "Russian Far East": {
-     "count": 1,
-     "members": [
-      "Kamchatka",
-      "Khabarovsk",
-      "Kuril Is.",
-      "Primorye",
-      "Sakhalin"
-     ]
-    },
-    "West Tropical Africa": {
-     "count": 1,
-     "members": [
-      "Benin",
-      "Ghana",
-      "Ivory Coast",
-      "Nigeria",
-      "Senegal",
-      "Togo"
-     ]
-    },
-    "Eastern Europe": {
-     "count": 1,
-     "members": [
-      "Baltic States",
-      "Belarus",
-      "Central European Russia",
-      "East European Russia",
-      "Krym",
-      "North European Russia",
-      "Northwest European Russia",
-      "South European Russia",
-      "Ukraine"
-     ]
-    },
-    "South Central Usa": {
-     "count": 1,
-     "members": [
-      "New Mexico",
-      "Texas"
-     ]
-    },
-    "Middle Europe": {
-     "count": 1,
-     "members": [
-      "Austria",
-      "Belgium",
-      "Czechia-Slovakia",
-      "Germany",
-      "Hungary",
-      "Netherlands",
-      "Poland",
-      "Switzerland"
-     ]
-    },
     "Northern South America": {
      "count": 1,
      "members": [
       "Suriname",
       "Venezuela"
+     ]
+    },
+    "Brazil": {
+     "count": 1,
+     "members": [
+      "Brazil North",
+      "Brazil Northeast",
+      "Brazil South",
+      "Brazil Southeast",
+      "Brazil West-Central"
      ]
     },
     "Southern South America": {
@@ -35139,16 +35159,6 @@
       "Chile Central",
       "Paraguay",
       "Uruguay"
-     ]
-    },
-    "Brazil": {
-     "count": 1,
-     "members": [
-      "Brazil North",
-      "Brazil Northeast",
-      "Brazil South",
-      "Brazil Southeast",
-      "Brazil West-Central"
      ]
     }
    },
@@ -35196,6 +35206,26 @@
       "Yakutiya"
      ]
     },
+    "Australasia": {
+     "count": 2,
+     "regions": [
+      "Australia",
+      "New Zealand"
+     ],
+     "members": [
+      "Chatham Is.",
+      "New South Wales",
+      "New Zealand North",
+      "New Zealand South",
+      "Norfolk Is.",
+      "Northern Territory",
+      "Queensland",
+      "South Australia",
+      "Tasmania",
+      "Victoria",
+      "Western Australia"
+     ]
+    },
     "Tropical Asia": {
      "count": 2,
      "regions": [
@@ -35227,26 +35257,6 @@
       "Thailand",
       "Vietnam",
       "West Himalaya"
-     ]
-    },
-    "Australasia": {
-     "count": 2,
-     "regions": [
-      "Australia",
-      "New Zealand"
-     ],
-     "members": [
-      "Chatham Is.",
-      "New South Wales",
-      "New Zealand North",
-      "New Zealand South",
-      "Norfolk Is.",
-      "Northern Territory",
-      "Queensland",
-      "South Australia",
-      "Tasmania",
-      "Victoria",
-      "Western Australia"
      ]
     },
     "Africa": {
@@ -36459,24 +36469,6 @@
       "Virginia"
      ]
     },
-    "Northeastern Usa": {
-     "count": 1,
-     "members": [
-      "Connecticut",
-      "Indiana",
-      "Maine",
-      "Massachusetts",
-      "Michigan",
-      "New Hampshire",
-      "New Jersey",
-      "New York",
-      "Ohio",
-      "Pennsylvania",
-      "Rhode I.",
-      "Vermont",
-      "West Virginia"
-     ]
-    },
     "North Central Usa": {
      "count": 1,
      "members": [
@@ -36493,6 +36485,24 @@
       "Nova Scotia",
       "Ontario",
       "Québec"
+     ]
+    },
+    "Northeastern Usa": {
+     "count": 1,
+     "members": [
+      "Connecticut",
+      "Indiana",
+      "Maine",
+      "Massachusetts",
+      "Michigan",
+      "New Hampshire",
+      "New Jersey",
+      "New York",
+      "Ohio",
+      "Pennsylvania",
+      "Rhode I.",
+      "Vermont",
+      "West Virginia"
      ]
     }
    },
@@ -36583,18 +36593,18 @@
    },
    "doubtfulSpecies": {},
    "regions": {
-    "Southern South America": {
-     "count": 1,
-     "members": [
-      "Argentina Northwest",
-      "Paraguay"
-     ]
-    },
     "Western South America": {
      "count": 1,
      "members": [
       "Bolivia",
       "Peru"
+     ]
+    },
+    "Southern South America": {
+     "count": 1,
+     "members": [
+      "Argentina Northwest",
+      "Paraguay"
      ]
     }
    },
@@ -38006,17 +38016,17 @@
    },
    "doubtfulSpecies": {},
    "regions": {
-    "East Tropical Africa": {
-     "count": 1,
-     "members": [
-      "Tanzania"
-     ]
-    },
     "Western Indian Ocean": {
      "count": 1,
      "members": [
       "Comoros",
       "Madagascar"
+     ]
+    },
+    "East Tropical Africa": {
+     "count": 1,
+     "members": [
+      "Tanzania"
      ]
     }
    },
@@ -39089,19 +39099,21 @@
       "Utah"
      ]
     },
-    "North Central Usa": {
+    "Northeastern Usa": {
      "count": 3,
      "members": [
-      "Illinois",
-      "Iowa",
-      "Kansas",
-      "Minnesota",
-      "Missouri",
-      "Nebraska",
-      "North Dakota",
-      "Oklahoma",
-      "South Dakota",
-      "Wisconsin"
+      "Connecticut",
+      "Indiana",
+      "Maine",
+      "Massachusetts",
+      "Michigan",
+      "New Hampshire",
+      "New Jersey",
+      "New York",
+      "Ohio",
+      "Pennsylvania",
+      "Vermont",
+      "West Virginia"
      ]
     },
     "Southeastern Usa": {
@@ -39123,28 +39135,26 @@
       "Virginia"
      ]
     },
+    "North Central Usa": {
+     "count": 3,
+     "members": [
+      "Illinois",
+      "Iowa",
+      "Kansas",
+      "Minnesota",
+      "Missouri",
+      "Nebraska",
+      "North Dakota",
+      "Oklahoma",
+      "South Dakota",
+      "Wisconsin"
+     ]
+    },
     "Eastern Canada": {
      "count": 3,
      "members": [
       "Ontario",
       "Québec"
-     ]
-    },
-    "Northeastern Usa": {
-     "count": 3,
-     "members": [
-      "Connecticut",
-      "Indiana",
-      "Maine",
-      "Massachusetts",
-      "Michigan",
-      "New Hampshire",
-      "New Jersey",
-      "New York",
-      "Ohio",
-      "Pennsylvania",
-      "Vermont",
-      "West Virginia"
      ]
     },
     "Western South America": {
@@ -39180,6 +39190,22 @@
       "Western Australia"
      ]
     },
+    "East Tropical Africa": {
+     "count": 2,
+     "members": [
+      "Kenya",
+      "Tanzania",
+      "Uganda"
+     ]
+    },
+    "South Tropical Africa": {
+     "count": 2,
+     "members": [
+      "Angola",
+      "Mozambique",
+      "Zimbabwe"
+     ]
+    },
     "Southern Africa": {
      "count": 2,
      "members": [
@@ -39190,14 +39216,6 @@
       "Northern Provinces"
      ]
     },
-    "East Tropical Africa": {
-     "count": 2,
-     "members": [
-      "Kenya",
-      "Tanzania",
-      "Uganda"
-     ]
-    },
     "Eastern Asia": {
      "count": 2,
      "members": [
@@ -39205,14 +39223,6 @@
       "Korea",
       "Nansei-shoto",
       "Taiwan"
-     ]
-    },
-    "South Tropical Africa": {
-     "count": 2,
-     "members": [
-      "Angola",
-      "Mozambique",
-      "Zimbabwe"
      ]
     },
     "Western Canada": {
@@ -39239,14 +39249,10 @@
       "Venezuela"
      ]
     },
-    "Southern South America": {
+    "South Central Usa": {
      "count": 2,
      "members": [
-      "Argentina Northeast",
-      "Argentina Northwest",
-      "Chile Central",
-      "Paraguay",
-      "Uruguay"
+      "Texas"
      ]
     },
     "Mexico": {
@@ -39277,48 +39283,20 @@
       "Honduras"
      ]
     },
-    "South Central Usa": {
+    "Southern South America": {
      "count": 2,
      "members": [
-      "Texas"
+      "Argentina Northeast",
+      "Argentina Northwest",
+      "Chile Central",
+      "Paraguay",
+      "Uruguay"
      ]
     },
     "Papuasia": {
      "count": 1,
      "members": [
       "New Guinea"
-     ]
-    },
-    "Southeastern Europe": {
-     "count": 1,
-     "members": [
-      "Bulgaria",
-      "Greece",
-      "Italy",
-      "NW. Balkan Pen.",
-      "Romania",
-      "Sicilia"
-     ]
-    },
-    "Northern Africa": {
-     "count": 1,
-     "members": [
-      "Algeria",
-      "Morocco",
-      "Tunisia"
-     ]
-    },
-    "Northeast Tropical Africa": {
-     "count": 1,
-     "members": [
-      "Ethiopia"
-     ]
-    },
-    "Caucasus": {
-     "count": 1,
-     "members": [
-      "North Caucasus",
-      "Transcaucasus"
      ]
     },
     "Northern Europe": {
@@ -39336,25 +39314,26 @@
       "Spain"
      ]
     },
-    "Macaronesia": {
+    "Eastern Europe": {
      "count": 1,
      "members": [
-      "Canary Is."
+      "Baltic States",
+      "Central European Russia",
+      "East European Russia",
+      "South European Russia",
+      "Ukraine"
      ]
     },
-    "West-Central Tropical Africa": {
+    "Northeast Tropical Africa": {
      "count": 1,
      "members": [
-      "Burundi",
-      "DR Congo",
-      "Rwanda"
+      "Ethiopia"
      ]
     },
-    "Western Asia": {
+    "Western Indian Ocean": {
      "count": 1,
      "members": [
-      "Iran",
-      "Lebanon-Syria"
+      "Madagascar"
      ]
     },
     "West Tropical Africa": {
@@ -39369,22 +39348,6 @@
       "Togo"
      ]
     },
-    "Eastern Europe": {
-     "count": 1,
-     "members": [
-      "Baltic States",
-      "Central European Russia",
-      "East European Russia",
-      "South European Russia",
-      "Ukraine"
-     ]
-    },
-    "Western Indian Ocean": {
-     "count": 1,
-     "members": [
-      "Madagascar"
-     ]
-    },
     "Middle Europe": {
      "count": 1,
      "members": [
@@ -39395,6 +39358,53 @@
       "Hungary",
       "Netherlands",
       "Poland"
+     ]
+    },
+    "West-Central Tropical Africa": {
+     "count": 1,
+     "members": [
+      "Burundi",
+      "DR Congo",
+      "Rwanda"
+     ]
+    },
+    "Southeastern Europe": {
+     "count": 1,
+     "members": [
+      "Bulgaria",
+      "Greece",
+      "Italy",
+      "NW. Balkan Pen.",
+      "Romania",
+      "Sicilia"
+     ]
+    },
+    "Western Asia": {
+     "count": 1,
+     "members": [
+      "Iran",
+      "Lebanon-Syria"
+     ]
+    },
+    "Macaronesia": {
+     "count": 1,
+     "members": [
+      "Canary Is."
+     ]
+    },
+    "Caucasus": {
+     "count": 1,
+     "members": [
+      "North Caucasus",
+      "Transcaucasus"
+     ]
+    },
+    "Northern Africa": {
+     "count": 1,
+     "members": [
+      "Algeria",
+      "Morocco",
+      "Tunisia"
      ]
     },
     "New Zealand": {
@@ -40118,6 +40128,15 @@
       "Texas"
      ]
     },
+    "West-Central Tropical Africa": {
+     "count": 2,
+     "members": [
+      "Cameroon",
+      "Central African Republic",
+      "DR Congo",
+      "Rwanda"
+     ]
+    },
     "Northeast Tropical Africa": {
      "count": 2,
      "members": [
@@ -40144,30 +40163,10 @@
       "Togo"
      ]
     },
-    "West-Central Tropical Africa": {
-     "count": 2,
-     "members": [
-      "Cameroon",
-      "Central African Republic",
-      "DR Congo",
-      "Rwanda"
-     ]
-    },
     "Southwestern Usa": {
      "count": 2,
      "members": [
       "California"
-     ]
-    },
-    "Southern South America": {
-     "count": 2,
-     "members": [
-      "Argentina Northeast",
-      "Argentina Northwest",
-      "Argentina South",
-      "Chile Central",
-      "Paraguay",
-      "Uruguay"
      ]
     },
     "Caribbean": {
@@ -40181,6 +40180,27 @@
       "Puerto Rico",
       "Trinidad and Tobago",
       "Windward Is."
+     ]
+    },
+    "Southern South America": {
+     "count": 2,
+     "members": [
+      "Argentina Northeast",
+      "Argentina Northwest",
+      "Argentina South",
+      "Chile Central",
+      "Paraguay",
+      "Uruguay"
+     ]
+    },
+    "Northeastern Usa": {
+     "count": 1,
+     "members": [
+      "Indiana",
+      "Massachusetts",
+      "New Jersey",
+      "Ohio",
+      "Pennsylvania"
      ]
     },
     "North Central Usa": {
@@ -40197,26 +40217,16 @@
       "Washington"
      ]
     },
-    "Northeastern Usa": {
+    "Northern Africa": {
      "count": 1,
      "members": [
-      "Indiana",
-      "Massachusetts",
-      "New Jersey",
-      "Ohio",
-      "Pennsylvania"
+      "Egypt"
      ]
     },
     "Arabian Peninsula": {
      "count": 1,
      "members": [
       "Saudi Arabia"
-     ]
-    },
-    "Northern Africa": {
-     "count": 1,
-     "members": [
-      "Egypt"
      ]
     }
    },
@@ -41414,11 +41424,12 @@
    },
    "doubtfulSpecies": {},
    "regions": {
-    "East Tropical Africa": {
+    "South Tropical Africa": {
      "count": 1,
      "members": [
-      "Kenya",
-      "Tanzania"
+      "Malawi",
+      "Mozambique",
+      "Zimbabwe"
      ]
     },
     "Southern Africa": {
@@ -41427,12 +41438,11 @@
       "KwaZulu-Natal"
      ]
     },
-    "South Tropical Africa": {
+    "East Tropical Africa": {
      "count": 1,
      "members": [
-      "Malawi",
-      "Mozambique",
-      "Zimbabwe"
+      "Kenya",
+      "Tanzania"
      ]
     }
    },
@@ -41663,6 +41673,13 @@
       "Zimbabwe"
      ]
     },
+    "West-Central Tropical Africa": {
+     "count": 1,
+     "members": [
+      "Cameroon",
+      "DR Congo"
+     ]
+    },
     "East Tropical Africa": {
      "count": 1,
      "members": [
@@ -41673,13 +41690,6 @@
      "count": 1,
      "members": [
       "Nigeria"
-     ]
-    },
-    "West-Central Tropical Africa": {
-     "count": 1,
-     "members": [
-      "Cameroon",
-      "DR Congo"
      ]
     }
    },
@@ -41986,6 +41996,7 @@
   "Mindanao": "Philippines",
   "Mizoram": "Assam",
   "Morobe": "Papua New Guinea",
+  "Moulvibazar": "Sylhet",
   "Mountain Province": "Luzon",
   "Nakhon Si Thammarat": "Thailand",
   "Nantou": "Taiwan",
@@ -42044,6 +42055,7 @@
   "Surat Thani": "Thailand",
   "Surigao del Norte": "Mindanao",
   "Surigao del Sur": "Mindanao",
+  "Sylhet": "Bangladesh",
   "Taichung": "Taiwan",
   "Tainan": "Taiwan",
   "Taipei": "Taiwan",
