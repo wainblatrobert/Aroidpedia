@@ -61,14 +61,19 @@
     "unclassifiedItems": []
   },
   "unresolvedTags": {
+    "Kaohsiung": 3,
+    "Taichung": 3,
+    "Nantou": 3,
+    "Tainan": 3,
+    "Changhua": 2,
+    "Pingtung": 2,
+    "Yunlin": 2,
+    "Chiayi City": 2,
+    "Chiayi": 2,
     "Sylhet": 2,
     "Moulvibazar": 2,
     "New Taipei": 1,
-    "Kaohsiung": 1,
-    "Taichung": 1,
     "Miaoli": 1,
-    "Nantou": 1,
-    "Tainan": 1,
     "Taipei": 1,
     "Eastern-GH": 1,
     "Ashanti": 1,
@@ -80,14 +85,9 @@
     "Hauts-Bassins": 1,
     "Savanes-CI": 1,
     "Zanzan": 1,
-    "Nzérékoré": 1,
-    "Gbarpolu": 1,
-    "Nimba": 1,
-    "Lagunes": 1,
-    "Haut-Sassandra": 1,
-    "Marahoué": 1
+    "Nzérékoré": 1
   },
-  "updatedAt": "2026-08-25T08:54:43.163Z",
+  "updatedAt": "2026-08-26T08:57:02.671Z",
   "source": "https://www.aroidpedia.com/journal",
   "totalItemsScanned": 455
 }
