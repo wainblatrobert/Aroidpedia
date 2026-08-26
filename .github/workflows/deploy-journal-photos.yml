@@ -1,5 +1,12 @@
 # =====================================================================
 # AROIDPEDIA - DEPLOY ON JOURNAL PHOTO PUSH
+# FILE VERSION: v10  (8.26.26: also fires on docs/*-morphology/** -
+#   the morphology guide photo folders, exactly the gap v5 closed for
+#   the pollination ones. MEASURED, not assumed: the seven Croat plates
+#   pushed to docs/philodendron-morphology/ returned 200 from raw and
+#   404 from Pages five minutes after the push. Earlier morphology
+#   folders LOOKED fine only because an unrelated push in the filter
+#   (footer.js) had swept them into a deploy minutes before.)
 # FILE VERSION: v9   (8.17.26: also fires on docs/geo-hierarchy.json —
 #   the one published place -> country/region/continent/parent table the
 #   journal map's zoom views group by. Without the filter the feed sits
@@ -53,6 +60,7 @@ on:
       # v5 (8.12.26): the guide-page photo folders (monstera-pollination,
       # alocasia-pollination, ...) ship through the same lane.
       - "docs/*-pollination/**"
+      - "docs/*-morphology/**"
       # v6 (8.13.26): the field-card PDFs (docs root, uppercase).
       - "docs/*-QUICK-GUIDE.pdf"
       # v7 (8.13.26): the genus range map's data files.
