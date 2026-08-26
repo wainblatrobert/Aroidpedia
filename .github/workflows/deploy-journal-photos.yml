@@ -1,6 +1,6 @@
 # =====================================================================
 # AROIDPEDIA - DEPLOY ON JOURNAL PHOTO PUSH
-# FILE VERSION: v10  (8.26.26: also fires on docs/*-morphology/** -
+# FILE VERSION: v11  (8.26.26: also fires on docs/*-morphology/** -
 #   the morphology guide photo folders, exactly the gap v5 closed for
 #   the pollination ones. MEASURED, not assumed: the seven Croat plates
 #   pushed to docs/philodendron-morphology/ returned 200 from raw and
@@ -44,6 +44,10 @@
 name: Deploy journal photos
 
 on:
+  # v11 (8.26.26): a missed deploy could not be re-run by hand, which
+  # is how the morphology folders went unnoticed - they kept riding
+  # other pushes. This makes the lane triggerable from the Actions tab.
+  workflow_dispatch:
   push:
     branches: [main]
     paths:
@@ -72,6 +76,8 @@ on:
       # v9 (8.17.26): the geo hierarchy the journal map's Continents /
       # Regions / Countries / Subzones views group by.
       - "docs/geo-hierarchy.json"
+      # v11 (8.26.26): the morphology guide photo folders - the same gap
+      # v5 closed for the pollination ones.
       # v10 (8.18.26): the per-genus climate summary the phylogeny genus
       # cards read (tree block v46). Built from climate.json + genus-geo
       # .json, so it is regenerated and pushed whenever either moves.
