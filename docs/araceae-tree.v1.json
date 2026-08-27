@@ -15160,9 +15160,11 @@
                 }
                ],
                "chron": {
-                "stem": 6.53,
                 "crown": 4.0,
-                "tips": 2
+                "crownHpd": [
+                 1.07,
+                 8.16
+                ]
                },
                "speciesCount": 2,
                "ancestralRange": {
@@ -15172,9 +15174,11 @@
               }
              ],
              "chron": {
-              "stem": 8.37,
               "crown": 6.53,
-              "tips": 3
+              "crownHpd": [
+               2.63,
+               11.48
+              ]
              },
              "speciesCount": 3,
              "ancestralRange": {
@@ -15184,9 +15188,11 @@
             }
            ],
            "chron": {
-            "stem": 14.58,
             "crown": 8.37,
-            "tips": 4
+            "crownHpd": [
+             3.92,
+             14.07
+            ]
            },
            "speciesCount": 4,
            "ancestralRange": {
@@ -15196,9 +15202,11 @@
           }
          ],
          "chron": {
-          "stem": 18.68,
           "crown": 14.58,
-          "tips": 5
+          "crownHpd": [
+           8.26,
+           21.81
+          ]
          },
          "speciesCount": 5,
          "ancestralRange": {
@@ -15290,9 +15298,11 @@
                   }
                  ],
                  "chron": {
-                  "stem": 6.28,
                   "crown": 2.22,
-                  "tips": 2
+                  "crownHpd": [
+                   0.06,
+                   6.72
+                  ]
                  },
                  "speciesCount": 2,
                  "ancestralRange": {
@@ -15372,9 +15382,11 @@
                       }
                      ],
                      "chron": {
-                      "stem": 3.19,
                       "crown": 2.16,
-                      "tips": 2
+                      "crownHpd": [
+                       0.56,
+                       4.51
+                      ]
                      },
                      "speciesCount": 2,
                      "ancestralRange": {
@@ -15384,9 +15396,11 @@
                     }
                    ],
                    "chron": {
-                    "stem": 5.58,
                     "crown": 3.19,
-                    "tips": 3
+                    "crownHpd": [
+                     1.11,
+                     6.25
+                    ]
                    },
                    "speciesCount": 3,
                    "ancestralRange": {
@@ -15396,9 +15410,11 @@
                   }
                  ],
                  "chron": {
-                  "stem": 6.28,
                   "crown": 5.58,
-                  "tips": 4
+                  "crownHpd": [
+                   2.38,
+                   9.75
+                  ]
                  },
                  "speciesCount": 4,
                  "ancestralRange": {
@@ -15408,9 +15424,11 @@
                 }
                ],
                "chron": {
-                "stem": 8.21,
                 "crown": 6.28,
-                "tips": 6
+                "crownHpd": [
+                 2.86,
+                 10.39
+                ]
                },
                "speciesCount": 6,
                "ancestralRange": {
@@ -15420,9 +15438,11 @@
               }
              ],
              "chron": {
-              "stem": 9.82,
               "crown": 8.21,
-              "tips": 7
+              "crownHpd": [
+               4.4,
+               12.9
+              ]
              },
              "speciesCount": 7,
              "ancestralRange": {
@@ -15473,9 +15493,11 @@
                   }
                  ],
                  "chron": {
-                  "stem": 5.2,
                   "crown": 2.5,
-                  "tips": 2
+                  "crownHpd": [
+                   0.68,
+                   5.05
+                  ]
                  },
                  "speciesCount": 2,
                  "ancestralRange": {
@@ -15527,9 +15549,11 @@
                     }
                    ],
                    "chron": {
-                    "stem": 3.03,
                     "crown": 2.06,
-                    "tips": 2
+                    "crownHpd": [
+                     0.12,
+                     5.17
+                    ]
                    },
                    "speciesCount": 2,
                    "ancestralRange": {
@@ -15539,9 +15563,11 @@
                   }
                  ],
                  "chron": {
-                  "stem": 5.2,
                   "crown": 3.03,
-                  "tips": 3
+                  "crownHpd": [
+                   0.49,
+                   6.25
+                  ]
                  },
                  "speciesCount": 3,
                  "ancestralRange": {
@@ -15551,9 +15577,11 @@
                 }
                ],
                "chron": {
-                "stem": 7.81,
                 "crown": 5.2,
-                "tips": 5
+                "crownHpd": [
+                 2.29,
+                 8.57
+                ]
                },
                "speciesCount": 5,
                "ancestralRange": {
@@ -15601,9 +15629,11 @@
                   }
                  ],
                  "chron": {
-                  "stem": 6.32,
                   "crown": 4.27,
-                  "tips": 2
+                  "crownHpd": [
+                   1.59,
+                   7.46
+                  ]
                  },
                  "speciesCount": 2,
                  "ancestralRange": {
@@ -15670,9 +15700,11 @@
                       }
                      ],
                      "chron": {
-                      "stem": 1.77,
                       "crown": 0.49,
-                      "tips": 2
+                      "crownHpd": [
+                       0.0,
+                       1.84
+                      ]
                      },
                      "speciesCount": 2,
                      "ancestralRange": {
@@ -15744,9 +15776,11 @@
                           }
                          ],
                          "chron": {
-                          "stem": 0.53,
                           "crown": 0.26,
-                          "tips": 2
+                          "crownHpd": [
+                           0.0,
+                           1.13
+                          ]
                          },
                          "speciesCount": 2,
                          "ancestralRange": {
@@ -15756,9 +15790,11 @@
                         }
                        ],
                        "chron": {
-                        "stem": 0.87,
                         "crown": 0.53,
-                        "tips": 3
+                        "crownHpd": [
+                         0.0,
+                         1.63
+                        ]
                        },
                        "speciesCount": 3,
                        "ancestralRange": {
@@ -15768,9 +15804,11 @@
                       }
                      ],
                      "chron": {
-                      "stem": 1.77,
                       "crown": 0.87,
-                      "tips": 4
+                      "crownHpd": [
+                       0.1,
+                       2.23
+                      ]
                      },
                      "speciesCount": 4,
                      "ancestralRange": {
@@ -15780,9 +15818,11 @@
                     }
                    ],
                    "chron": {
-                    "stem": 4.74,
                     "crown": 1.77,
-                    "tips": 6
+                    "crownHpd": [
+                     0.45,
+                     3.71
+                    ]
                    },
                    "speciesCount": 6,
                    "ancestralRange": {
@@ -15792,9 +15832,11 @@
                   }
                  ],
                  "chron": {
-                  "stem": 6.32,
                   "crown": 4.74,
-                  "tips": 7
+                  "crownHpd": [
+                   2.16,
+                   8.03
+                  ]
                  },
                  "speciesCount": 7,
                  "ancestralRange": {
@@ -15804,9 +15846,11 @@
                 }
                ],
                "chron": {
-                "stem": 7.81,
                 "crown": 6.32,
-                "tips": 9
+                "crownHpd": [
+                 3.51,
+                 9.99
+                ]
                },
                "speciesCount": 9,
                "ancestralRange": {
@@ -15816,9 +15860,11 @@
               }
              ],
              "chron": {
-              "stem": 9.82,
               "crown": 7.81,
-              "tips": 14
+              "crownHpd": [
+               4.61,
+               11.85
+              ]
              },
              "speciesCount": 14,
              "ancestralRange": {
@@ -15828,9 +15874,11 @@
             }
            ],
            "chron": {
-            "stem": 15.71,
             "crown": 9.82,
-            "tips": 21
+            "crownHpd": [
+             5.78,
+             14.71
+            ]
            },
            "speciesCount": 21,
            "ancestralRange": {
@@ -15840,9 +15888,11 @@
           }
          ],
          "chron": {
-          "stem": 18.68,
           "crown": 15.71,
-          "tips": 22
+          "crownHpd": [
+           9.76,
+           22.92
+          ]
          },
          "speciesCount": 22,
          "ancestralRange": {
