@@ -16417,8 +16417,16 @@
        "chron": {
         "stem": 28.03,
         "crown": 18.68,
+        "crownHpd": [
+         11.63,
+         27.07
+        ],
         "tips": 67,
-        "note": "from the Monsteroideae study (Fig. 2), not the family chronogram the rest of this view is drawn from — ages are on that study's own fossil calibration and are not strictly comparable with the genera around it. The stem is the split from Amydrium plus part of Epipremnum, the sister group this study recovers for Monstera."
+        "stemHpd": [
+         18.71,
+         38.85
+        ],
+        "note": "from the Monsteroideae study (Fig. 2), not the family chronogram the rest of this view is drawn from — ages are on that study's own fossil calibration and are not strictly comparable with the genera around it. The stem is the split from Amydrium plus part of Epipremnum, the sister group this study recovers for Monstera. The two ages were read off that study's Fig. 2, and its Table S6 independently gives 28.0 and 18.7 for the same two nodes (134 and 135), confirming them to within 0.03 Ma; the 95% HPD intervals are Table S6's, which the figure never printed."
        },
        "ancestralRange": {
         "area": "tropical America",
