@@ -69,6 +69,8 @@ on:
       - "docs/*-QUICK-GUIDE.pdf"
       # v7 (8.13.26): the genus range map's data files.
       - "docs/shapes-hd.json"
+      # F6 (8.28.26): the shared-arc topology feed the maps decode.
+      - "docs/shapes-topo.json"
       - "docs/genus-geo.json"
       # v8 (8.14.26): the hosted footer bundle - the code injection is
       # a two-line loader now; every footer change ships through here.
