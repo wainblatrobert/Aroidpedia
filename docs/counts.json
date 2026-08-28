@@ -75,6 +75,7 @@
     "Kuching": 2,
     "Changhua": 2,
     "Chiayi City": 2,
+    "Sudan-South Sudan": 2,
     "Sylhet": 2,
     "Moulvibazar": 2,
     "Chongqing": 1,
@@ -84,10 +85,9 @@
     "New Taipei": 1,
     "Miaoli": 1,
     "Taipei": 1,
-    "Hsinchu": 1,
-    "Hualien": 1
+    "Hsinchu": 1
   },
-  "updatedAt": "2026-08-27T19:02:45.085Z",
+  "updatedAt": "2026-08-28T20:13:47.307Z",
   "source": "https://www.aroidpedia.com/journal",
   "totalItemsScanned": 455
 }
