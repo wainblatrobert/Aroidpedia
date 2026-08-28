@@ -1,5 +1,7 @@
 # =====================================================================
 # AROIDPEDIA - DEPLOY ON JOURNAL PHOTO PUSH
+# FILE VERSION: v12  (8.28.26: also fires on docs/*-identification/**
+#   - the same gap, a third time; see the v12 note in the paths block.)
 # FILE VERSION: v11  (8.26.26: also fires on docs/*-morphology/** -
 #   the morphology guide photo folders, exactly the gap v5 closed for
 #   the pollination ones. MEASURED, not assumed: the seven Croat plates
@@ -65,6 +67,15 @@ on:
       # alocasia-pollination, ...) ship through the same lane.
       - "docs/*-pollination/**"
       - "docs/*-morphology/**"
+      # v12 (8.28.26): and the identification guide photo folders - the
+      # SAME gap a third time. docs/aroid-identification/ was pushed with
+      # two figures and Pages served 404 for both, because no pattern
+      # here matched. MEASURED, not assumed.
+      # /!\ EVERY NEW SECTION NEEDS ITS LINE HERE. The pattern is per
+      # suffix, so a new cluster's folder is invisible to this lane until
+      # someone adds it, and the failure is silent: the push succeeds,
+      # the repo updates, and the live site never changes.
+      - "docs/*-identification/**"
       # v6 (8.13.26): the field-card PDFs (docs root, uppercase).
       - "docs/*-QUICK-GUIDE.pdf"
       # v7 (8.13.26): the genus range map's data files.
