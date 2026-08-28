@@ -85,7 +85,6 @@ on:
       # v11 (8.18.26): the per-species climate summaries (S4) — same
       # derivation chain one level down, ~4.5k keys, its own feed.
       - "docs/species-climate.json"
-  workflow_dispatch:
 
 permissions:
   contents: read
