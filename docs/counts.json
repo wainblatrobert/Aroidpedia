@@ -1,21 +1,21 @@
 {
-  "species": 242,
-  "cultivars": 53,
+  "species": 366,
+  "cultivars": 54,
   "hybrids": 151,
   "hybridCultivars": 9,
   "unclassified": 0,
   "genera": 2,
   "byGenus": {
     "Alocasia": {
-      "total": 331,
+      "total": 332,
       "species": 118,
-      "cultivars": 53,
+      "cultivars": 54,
       "hybrids": 151,
       "hybridCultivars": 9
     },
     "Amorphophallus": {
-      "total": 124,
-      "species": 124,
+      "total": 248,
+      "species": 248,
       "cultivars": 0,
       "hybrids": 0,
       "hybridCultivars": 0
@@ -23,7 +23,7 @@
   },
   "byGenusGeo": {
     "Alocasia": {
-      "total": 331,
+      "total": 332,
       "placed": 159,
       "zones": {
         "asia": 158,
@@ -31,12 +31,12 @@
       }
     },
     "Amorphophallus": {
-      "total": 124,
-      "placed": 124,
+      "total": 248,
+      "placed": 247,
       "zones": {
-        "africa": 24,
-        "asia": 100,
-        "austral": 1
+        "africa": 40,
+        "asia": 207,
+        "austral": 2
       }
     }
   },
@@ -61,33 +61,33 @@
     "unclassifiedItems": []
   },
   "unresolvedTags": {
+    "Pingtung": 4,
+    "Nantou": 4,
+    "Tainan": 4,
+    "Yunlin": 4,
+    "Chiayi City": 3,
+    "Changhua": 3,
+    "Kuching": 3,
     "Kaohsiung": 3,
     "Taichung": 3,
-    "Nantou": 3,
-    "Tainan": 3,
-    "Pingtung": 3,
     "Chiayi": 3,
-    "Yunlin": 3,
+    "Bandundu": 2,
+    "Katanga": 2,
+    "Miri": 2,
     "Guangdong": 2,
     "Hong Kong": 2,
     "Guangxi": 2,
     "Kapit": 2,
-    "Kuching": 2,
-    "Changhua": 2,
-    "Chiayi City": 2,
     "Sudan-South Sudan": 2,
     "Sylhet": 2,
     "Moulvibazar": 2,
-    "Chongqing": 1,
-    "Guizhou": 1,
-    "Sichuan": 1,
-    "Hubei": 1,
-    "New Taipei": 1,
-    "Miaoli": 1,
-    "Taipei": 1,
-    "Hsinchu": 1
+    "General Santos": 1,
+    "Samarahan": 1,
+    "Serian": 1,
+    "Bubanza": 1,
+    "Mbale": 1
   },
-  "updatedAt": "2026-08-29T13:48:25.689Z",
+  "updatedAt": "2026-08-30T08:03:00.433Z",
   "source": "https://www.aroidpedia.com/journal",
-  "totalItemsScanned": 455
+  "totalItemsScanned": 580
 }
