@@ -1,0 +1,97 @@
+# =====================================================================
+# NO PHOTOS TO PAGES
+#
+# GitHub Pages caps a PUBLISHED SITE at 1 GB. On 8.30.26 docs/journal
+# had reached 1.52 GB carrying photos for ONE genus of about 150, and
+# because a Pages deploy re-uploads the whole tree - there is no
+# incremental deploy - every run was pushing over a gigabyte to publish
+# a 1.8 KB counts.json.
+#
+# The photos now live on Cloudflare R2 behind img.aroidpedia.com. What
+# belongs in docs/journal from here on is manifest.json and nothing
+# else: ~1.6 KB per species naming content-hashed keys that R2 serves.
+#
+# This job exists because the failure mode is SILENT. Re-adding a copy
+# step to the sync script would not error; it would quietly rebuild the
+# 1.5 GB, and nobody would notice until a deploy started failing again.
+# So the guard is mechanical: adding an image under docs/journal fails
+# the push, and the message says where images actually go.
+#
+# It checks files ADDED, not files PRESENT, because the original 1.5 GB
+# is deliberately still in the tree as the rollback net for the cutover
+# and is removed in its own commit once that has held.
+# =====================================================================
+
+name: No photos to Pages
+
+on:
+  push:
+    paths:
+      - "docs/journal/**"
+  pull_request:
+    paths:
+      - "docs/journal/**"
+
+permissions:
+  contents: read
+
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out with history
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Fail if an image was added under docs/journal
+        run: |
+          set -euo pipefail
+
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            BASE="${{ github.event.pull_request.base.sha }}"
+          else
+            BASE="${{ github.event.before }}"
+          fi
+
+          # A new branch, or the first push, reports an all-zero "before".
+          if [ -z "${BASE}" ] || [ "${BASE}" = "0000000000000000000000000000000000000000" ]; then
+            BASE="$(git rev-parse HEAD~1 2>/dev/null || true)"
+          fi
+          if [ -z "${BASE}" ]; then
+            echo "No comparable base commit; nothing to check."
+            exit 0
+          fi
+
+          ADDED="$(git diff --name-only --diff-filter=A "${BASE}" HEAD -- 'docs/journal' \
+                   | grep -Ei '\.(jpe?g|png|webp|gif|mp4|webm|m4v)$' || true)"
+
+          if [ -n "${ADDED}" ]; then
+            COUNT="$(printf '%s\n' "${ADDED}" | wc -l | tr -d ' ')"
+            echo "::error::${COUNT} image file(s) were added under docs/journal."
+            printf '%s\n' "${ADDED}" | head -20 | sed 's/^/    /'
+            echo ""
+            echo "Photos belong on Cloudflare R2, not on GitHub Pages - Pages caps a"
+            echo "published site at 1 GB and re-uploads the WHOLE tree on every deploy."
+            echo ""
+            echo "Publish them with:"
+            echo "    python sync-journal-photos.py --genus <Genus> --push"
+            echo ""
+            echo "which runs scripts/derive_media.py (resize, dedupe, content-hash)"
+            echo "then scripts/publish_media.py (upload to R2, write the manifest)."
+            echo "Only manifest.json should ever land in docs/journal."
+            exit 1
+          fi
+
+          echo "No images added under docs/journal."
+
+      - name: Report the published size
+        if: always()
+        run: |
+          echo "docs/ is currently $(du -sh docs | cut -f1)."
+          echo "GitHub Pages refuses to publish above 1 GB."
+          echo "Images still present under docs/journal (the pre-cutover rollback net):"
+          find docs/journal -type f \
+            \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \
+               -o -iname '*.gif' -o -iname '*.mp4' -o -iname '*.webm' \) \
+            | wc -l

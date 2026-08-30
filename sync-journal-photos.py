@@ -1,6 +1,29 @@
 #!/usr/bin/env python3
 """
-sync-journal-photos.py - one command to publish species photos to GitHub Pages.
+sync-journal-photos.py - one command to publish species photos.
+
+v9 (8.30.26): PHOTOS NO LONGER GO TO GITHUB. GitHub Pages caps a
+published site at 1 GB and docs/journal had reached 1.52 GB carrying one
+genus of about 150, so the images moved to Cloudflare R2 behind
+img.aroidpedia.com. THIS SCRIPT NO LONGER COPIES A SINGLE IMAGE INTO
+docs/. It is now an orchestrator over the two steps that do the work:
+
+    scripts/derive_media.py   Drive originals -> resized, deduped,
+                              content-hashed derivatives in staging/,
+                              plus the manifest and the state file
+    scripts/publish_media.py  staging/ -> R2 (images), docs/ (manifests)
+
+What still lands in the repo is the manifest - about 1.6 KB per species -
+and state/<genus>.json. Everything else is served from R2 with a one-year
+immutable cache, because derive_media names each file after the md5 of
+its own bytes.
+
+The command shape is unchanged, so the old muscle memory still works;
+what changed is where the bytes end up.
+
+/!\ DO NOT reintroduce a copy into docs/journal. The workflow
+no-photos-to-pages.yml fails any push that adds an image there, and the
+1 GB ceiling is the reason it exists.
 
 v7 (8.14.26): COMPARISON PLATES. Files in OTHER whose stem is
 "comparison" / "Comparison 2" / "Comparison 1 - <caption>" (case-free,
@@ -43,7 +66,9 @@ Usage:
     python sync-journal-photos.py --genus Amorphophallus
     ... add --push to copy, commit and push (default is a dry-run report)
 """
-import argparse, hashlib, json, re, shutil, subprocess
+import argparse, hashlib, json, re, shutil, subprocess, sys
+
+NL_MARK = "\n"   # a bare newline for report spacing
 from pathlib import Path
 
 GENERA_ROOT = Path(r"G:\My Drive\PlantsV2\Aroidpedia\GENERA")
@@ -185,101 +210,73 @@ def role_dirs(sdir: Path):
                     yield grole, g
 
 
+def run(step, args_list):
+    """Run a pipeline step, streaming its output. UTF-8 is pinned because
+    this box decodes subprocess output as cp1252 by default, and the step
+    reports carry characters that would die inside a reader thread."""
+    print(NL_MARK + '=== ' + step + ' ' + '=' * max(4, 56 - len(step)))
+    r = subprocess.run([sys.executable, str(REPO / 'scripts' / step)] + args_list,
+                       cwd=REPO, encoding='utf-8', errors='replace')
+    if r.returncode != 0:
+        sys.exit(step + ' failed (' + str(r.returncode) + '); nothing committed.')
+
+
 def main():
+    # Children write straight to the terminal; without this the parent's
+    # own lines buffer and surface after theirs, which reads as the wrong
+    # order of events.
+    sys.stdout.reconfigure(line_buffering=True)
+
     ap = argparse.ArgumentParser()
-    ap.add_argument("--push", action="store_true", help="copy + commit + push (default: dry-run)")
+    ap.add_argument("--push", action="store_true",
+                    help="derive, upload to R2, write manifests, commit and push")
     ap.add_argument("--genus", help="limit to one genus")
-    ap.add_argument("--species", help='limit to one species folder, e.g. "Amorphophallus dracontioides"')
+    ap.add_argument("--species", help='one species folder, e.g. "Amorphophallus dumboi"')
     args = ap.parse_args()
 
-    copies, removals, skipped_hybrids, collisions, manifests = [], [], [], [], []
+    # The thing this version exists to prevent.
+    strays = [p for p in DEST_ROOT.rglob("*")
+              if p.is_file() and p.suffix.lower() in (IMG_EXT | VID_EXT)]
+    if strays:
+        print(str(len(strays)) + ' legacy image file(s) still sit under docs/journal.')
+        print('They are the rollback net for the 8.30.26 R2 cutover and get')
+        print('deleted in their own commit once it has held. Nothing here adds to them.')
 
-    for gdir in sorted(GENERA_ROOT.glob(args.genus or "*")):
-        if not gdir.is_dir():
-            continue
-        genus = gdir.name
-        species_root = gdir / f"Species - {genus}"
-        if not species_root.is_dir():
-            continue
-        for sdir in sorted(species_root.iterdir()):
-            if not sdir.is_dir():
-                continue
-            if args.species and sdir.name.lower() != args.species.lower():
-                continue
-            slug = species_path(sdir.name, genus)
-            if slug is None:
-                if " x " in sdir.name.lower():
-                    skipped_hybrids.append(sdir.name)
-                continue
+    sel = []
+    if args.genus:
+        sel += ["--genus", args.genus]
+    if args.species:
+        sel += ["--species", args.species]
+    run("derive_media.py", sel)
 
-            expected = {}          # repo path -> source path
-            role_files = {}
-            found_any_role = False
-            for role, src_dir in role_dirs(sdir):
-                found_any_role = True
-                for photo in sorted(src_dir.iterdir(), key=lambda p: natural_key(p.name)):
-                    if not photo.is_file() or photo.suffix.lower() not in (IMG_EXT | VID_EXT):
-                        continue
-                    if ignored(photo):          # v8: DO NOT UPLOAD *
-                        continue
-                    if photo.suffix.lower() in VID_EXT and photo.stat().st_size > 95 * 1048576:
-                        print(f"SKIP >95MB (GitHub limit): {photo.name}")
-                        continue
-                    role_files.setdefault(role, []).append(photo)
-                    dest = DEST_ROOT / slug / role / slugify_name(photo.name)
-                    if dest in expected:
-                        collisions.append(str(dest.relative_to(REPO)))
-                        continue
-                    expected[dest] = photo
-                    if not (dest.exists() and md5(dest) == md5(photo)):
-                        copies.append((photo, dest))
+    # publish_media selects on slugs, not Drive folder names.
+    psel = []
+    if args.genus:
+        psel += ["--genus", args.genus.lower()]
+    if args.species:
+        psel += ["--species", args.species.split()[-1].lower()]
+    run("publish_media.py", psel + (["--push", "--manifests"] if args.push else []))
 
-            # v5: the photo manifest the card fetches (bodies carry no imgs).
-            # Only when the species actually has photos - empty folders get none.
-            if found_any_role and role_files:
-                mpath = DEST_ROOT / slug / "manifest.json"
-                mjson = json.dumps(build_manifest(role_files), ensure_ascii=False,
-                                   sort_keys=True, separators=(",", ":"))
-                expected[mpath] = None
-                if not (mpath.exists() and mpath.read_text(encoding="utf-8") == mjson):
-                    manifests.append((mpath, mjson))
-
-            sdest = DEST_ROOT / slug
-            if sdest.is_dir() and found_any_role:
-                for f in sdest.rglob("*"):
-                    if f.is_file() and f not in expected:
-                        removals.append(f)
-
-    for src, dest in copies:
-        print(f"{'COPY ' if args.push else 'WOULD COPY '} {src.parent.name}\\{src.name}  ->  {dest.relative_to(REPO)}")
-        if args.push:
-            dest.parent.mkdir(parents=True, exist_ok=True)
-            shutil.copy2(src, dest)
-    for mpath, mjson in manifests:
-        print(f"{'WRITE ' if args.push else 'WOULD WRITE '} {mpath.relative_to(REPO)}")
-        if args.push:
-            mpath.parent.mkdir(parents=True, exist_ok=True)
-            mpath.write_text(mjson, encoding="utf-8")
-    for f in removals:
-        print(f"{'REMOVE' if args.push else 'WOULD REMOVE'}  {f.relative_to(REPO)}")
-        if args.push:
-            f.unlink()
-    for c in collisions:
-        print(f"NAME COLLISION (two files slugify identically, second skipped): {c}")
-    if skipped_hybrids:
-        print(f"Skipped {len(skipped_hybrids)} hybrid folder(s) (not yet supported)")
-    if not copies and not removals and not manifests:
-        print("Nothing to do - repo already mirrors the subfolders.")
+    if not args.push:
+        print(NL_MARK + 'DRY RUN. Nothing uploaded, written or committed. Add --push.')
         return
 
-    if args.push and (copies or removals or manifests):
-        subprocess.run(["git", "add", "-A", "docs/journal"], cwd=REPO, check=True)
-        subprocess.run(["git", "commit", "-m", f"Sync journal photos ({len(copies)} copied, {len(removals)} removed, {len(manifests)} manifests)"],
-                       cwd=REPO, check=True)
-        subprocess.run(["git", "push"], cwd=REPO, check=True)
-        print(f"\nPushed. Pages deploy takes a minute or two.")
-    else:
-        print(f"\n{len(copies)} copy / {len(removals)} removal(s) pending. Re-run with --push to do it.")
+    # Only manifests and state are tracked; the images live in R2.
+    subprocess.run(["git", "add", "-A", "docs/journal", "state"], cwd=REPO, check=True)
+    staged = subprocess.run(["git", "diff", "--cached", "--name-only"], cwd=REPO,
+                            capture_output=True, encoding='utf-8',
+                            errors='replace').stdout or ''
+    if not staged.strip():
+        print(NL_MARK + 'Nothing changed. The repo already matches the Drive.')
+        return
+
+    n = len([l for l in staged.splitlines() if l.strip()])
+    subprocess.run(["git", "commit", "-m",
+                    'Sync journal photos (' + str(n) + ' manifest/state file(s)); images to R2'],
+                   cwd=REPO, check=True)
+    subprocess.run(["git", "push"], cwd=REPO, check=True)
+    print(NL_MARK + 'Pushed. Manifests deploy in a minute or two. The images were',
+          'already on R2 before the commit, so no page can 404 in between.')
 
 
 if __name__ == "__main__":

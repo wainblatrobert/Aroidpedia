@@ -137,6 +137,15 @@ def main() -> None:
         sp_dir = man.parent
         slug = f"{sp_dir.parent.name}/{sp_dir.name}"
 
+        # The MANIFEST is the authority on what is in use - never the files
+        # present in staging. derive_media skips work it has already done, so a
+        # staged file can legitimately be absent; deriving "referenced" from the
+        # directory would then class live objects as orphans and --prune would
+        # delete them.
+        for entries in json.loads(man.read_text(encoding="utf-8"))["roles"].values():
+            for e in entries:
+                referenced.add("journal/" + slug + "/" + e["f"])
+
         for f in sorted(sp_dir.rglob("*")):
             if not f.is_file() or f.name == "manifest.json":
                 continue

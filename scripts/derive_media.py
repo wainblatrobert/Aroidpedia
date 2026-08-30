@@ -66,7 +66,7 @@ IMG_EXT, VID_EXT = sjp.IMG_EXT, sjp.VID_EXT
 # THE RECIPE. Bump RECIPE whenever anything below changes, or the state file
 # will happily report "unchanged" for files derived under the old rules.
 # ---------------------------------------------------------------------------
-RECIPE = 1
+RECIPE = 2      # v2: state nested per species (see load_state)
 
 QUALITY = 82
 THRESHOLD = 1000 * 1024        # at or under this, copy the original verbatim
@@ -161,6 +161,30 @@ def build_manifest(order: list, keyed: dict) -> dict:
     return {"version": 1, "roles": roles}
 
 
+def load_state(genus: str) -> dict:
+    """The genus state file, or an empty one when it is missing or stale.
+
+    Keyed BY SPECIES then by source md5. Keying by source md5 alone was wrong:
+    one scanned page can be filed under two species (the Kunth 1841 Enumeratio
+    page covers both sylvaticus and margaritifer), and the second species
+    silently overwrote the first's entry."""
+    p = REPO / "state" / f"{genus.lower()}.json"
+    if p.exists():
+        try:
+            prev = json.loads(p.read_text(encoding="utf-8"))
+            if prev.get("recipe") == RECIPE and isinstance(prev.get("species"), dict):
+                return prev
+        except json.JSONDecodeError:
+            pass
+    return {"recipe": RECIPE, "species": {}}
+
+
+def save_state(genus: str, state: dict) -> None:
+    p = REPO / "state" / f"{genus.lower()}.json"
+    p.parent.mkdir(parents=True, exist_ok=True)
+    p.write_text(json.dumps(state, indent=1, sort_keys=True), encoding="utf-8")
+
+
 def species_dirs(genus_filter, species_filter):
     for gdir in sorted(GENERA_ROOT.glob(genus_filter or "*")):
         if not gdir.is_dir():
@@ -198,7 +222,7 @@ def main() -> None:
                  f"{GENERA_ROOT}. Derivatives never write there.")
 
     tot_src = tot_out = 0
-    n_files = n_derived = n_verbatim = n_dup = 0
+    n_files = n_derived = n_verbatim = n_dup = n_cached = 0
     species_seen = 0
 
     for genus, sdir, slug in species_dirs(args.genus, args.species):
@@ -218,16 +242,38 @@ def main() -> None:
 
         species_seen += 1
         species_dir = out_root / "journal" / slug
+        state = load_state(genus)
+        prev = state["species"].get(slug, {})
         by_derived: dict[str, str] = {}      # derived md5 -> winning key
         keyed: dict[Path, str] = {}
         state_files: dict[str, dict] = {}
 
         print(f"\n{slug}  ({len(order)} file(s))")
         for role, src in order:
-            derived, ext, note = derive(src, role, args.threshold)
             n_files += 1
             tot_src += src.stat().st_size
 
+            # Unchanged source, same recipe, and the derivative is still on
+            # disk: reuse it rather than decoding a 30 MB scan again. This is
+            # what makes a re-run seconds instead of twenty minutes.
+            smd5 = sjp.md5(src)
+            was = prev.get(smd5)
+            if was and (species_dir / was["key"]).exists():
+                keyed[src] = was["key"]
+                state_files[smd5] = was
+                # Two sources can share one derived file. Count its bytes once,
+                # or the reported total inflates by every duplicate.
+                if was["derived_md5"] in by_derived:
+                    n_dup += 1
+                else:
+                    by_derived[was["derived_md5"]] = was["key"]
+                    tot_out += was["bytes"]
+                    n_cached += 1
+                if args.report:
+                    print(f"  cache {src.name[:52]:54} -> {was['key']}")
+                continue
+
+            derived, ext, note = derive(src, role, args.threshold)
             dm = md5_bytes(derived)
             if dm in by_derived:
                 keyed[src] = by_derived[dm]
@@ -254,7 +300,7 @@ def main() -> None:
                 print(f"  {src.name[:52]:54} {src.stat().st_size/1024:8.0f}K"
                       f" -> {len(derived)/1024:7.0f}K ({pct:5.1f}%)  {note}")
 
-            state_files[sjp.md5(src)] = {
+            state_files[smd5] = {
                 "key": key, "bytes": len(derived), "derived_md5": dm,
             }
 
@@ -265,20 +311,8 @@ def main() -> None:
                        separators=(",", ":")),
             encoding="utf-8")
 
-        state_path = REPO / "state" / f"{genus.lower()}.json"
-        state_path.parent.mkdir(parents=True, exist_ok=True)
-        state = {"recipe": RECIPE, "files": {}}
-        if state_path.exists():
-            try:
-                prev = json.loads(state_path.read_text(encoding="utf-8"))
-                if prev.get("recipe") == RECIPE:
-                    state = prev
-            except json.JSONDecodeError:
-                pass
-        state["recipe"] = RECIPE
-        state.setdefault("files", {}).update(state_files)
-        state_path.write_text(json.dumps(state, indent=1, sort_keys=True),
-                              encoding="utf-8")
+        state["species"][slug] = state_files
+        save_state(genus, state)
 
     if not n_files:
         sys.exit("Nothing matched. Check --genus / --species.")
@@ -286,7 +320,7 @@ def main() -> None:
     print("\n" + "-" * 62)
     print(f"species        {species_seen}")
     print(f"files read     {n_files}   ({n_derived} recompressed, "
-          f"{n_verbatim} verbatim, {n_dup} deduped)")
+          f"{n_verbatim} verbatim, {n_dup} deduped, {n_cached} reused from state)")
     print(f"originals      {tot_src / 1048576:9.1f} MB")
     print(f"derivatives    {tot_out / 1048576:9.1f} MB    "
           f"({tot_src / max(tot_out, 1):.1f}x smaller)")
