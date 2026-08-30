@@ -185,7 +185,15 @@ def save_state(genus: str, state: dict) -> None:
     p.write_text(json.dumps(state, indent=1, sort_keys=True), encoding="utf-8")
 
 
-def species_dirs(genus_filter, species_filter):
+def species_dirs(genus_filter, species_filter, skipped: list):
+    """Yield (genus, dir, slug) for every publishable species folder.
+
+    Folders that do not resolve to a slug are appended to `skipped` rather than
+    passed over in silence. sjp.species_path declines a hybrid (" x " in the
+    name) and anything whose first word is not the genus, and that is a large
+    share of some genera - Alocasia publishes 332 entries of which only 118 are
+    plain species. Skipping 64% of a genus without a word is exactly the silent
+    failure this project keeps writing traps about."""
     for gdir in sorted(GENERA_ROOT.glob(genus_filter or "*")):
         if not gdir.is_dir():
             continue
@@ -201,6 +209,8 @@ def species_dirs(genus_filter, species_filter):
             slug = sjp.species_path(sdir.name, genus)
             if slug:
                 yield genus, sdir, slug
+            else:
+                skipped.append(sdir.name)
 
 
 def main() -> None:
@@ -225,7 +235,9 @@ def main() -> None:
     n_files = n_derived = n_verbatim = n_dup = n_cached = 0
     species_seen = 0
 
-    for genus, sdir, slug in species_dirs(args.genus, args.species):
+    skipped: list[str] = []
+    no_roles: list[str] = []
+    for genus, sdir, slug in species_dirs(args.genus, args.species, skipped):
         order: list[tuple[str, Path]] = []
         for role, src_dir in sjp.role_dirs(sdir):
             for photo in sorted(src_dir.iterdir(), key=lambda p: sjp.natural_key(p.name)):
@@ -238,6 +250,11 @@ def main() -> None:
                     continue
                 order.append((role, photo))
         if not order:
+            # The folder is named correctly but carries no numbered role
+            # subfolder (1. HERO, 2. PROTOLOGUE, ...), so there is nothing to
+            # publish. Distinguished from `skipped` because the fix is
+            # different: this one needs the photos filed, not renamed.
+            no_roles.append(sdir.name)
             continue
 
         species_seen += 1
@@ -315,7 +332,29 @@ def main() -> None:
         save_state(genus, state)
 
     if not n_files:
-        sys.exit("Nothing matched. Check --genus / --species.")
+        # Say WHICH wall was hit. "Nothing matched" alone sent one session
+        # hunting a --genus typo when the real answer was that the genus's
+        # photos had never been filed into role subfolders.
+        if no_roles:
+            print(f"{len(no_roles)} species folder(s) matched, but NONE carries a "
+                  "numbered role subfolder")
+            print("(1. HERO, 2. PROTOLOGUE, 4. VEGETATIVE, ...), so there is nothing "
+                  "to publish yet.")
+            print("The photos are sitting loose in the species folder and need filing "
+                  "first. Examples:")
+            for s in no_roles[:8]:
+                print(f"  {s}")
+            if len(no_roles) > 8:
+                print(f"  ... and {len(no_roles) - 8} more")
+        elif skipped:
+            print(f"No publishable species folder. {len(skipped)} folder(s) were "
+                  "declined by name")
+            print("(a hybrid formula, or a first word that is not the genus):")
+            for s in skipped[:8]:
+                print(f"  {s}")
+        else:
+            print("Nothing matched. Check --genus / --species.")
+        sys.exit(1)
 
     print("\n" + "-" * 62)
     print(f"species        {species_seen}")
@@ -325,6 +364,16 @@ def main() -> None:
     print(f"derivatives    {tot_out / 1048576:9.1f} MB    "
           f"({tot_src / max(tot_out, 1):.1f}x smaller)")
     print(f"staged in      {out_root}")
+
+    if skipped:
+        print("")
+        print(f"SKIPPED {len(skipped)} folder(s) - hybrids, cultivars, or a name whose")
+        print("first word is not the genus. These publish NO photos:")
+        for s in skipped[:15]:
+            print(f"  {s}")
+        if len(skipped) > 15:
+            print(f"  ... and {len(skipped) - 15} more")
+
 
 
 if __name__ == "__main__":
