@@ -54,6 +54,12 @@ powo-cache/
 .env.*
 !.env.example
 
+# ---- Derivative staging -----------------------------------------------
+# derive_media.py writes the resized, content-hashed copies here before
+# they go to R2. Hundreds of MB, entirely regenerable from the Drive
+# originals, and never served from this repo.
+staging/
+
 # ---- OS and editor litter ---------------------------------------------
 Thumbs.db
 desktop.ini

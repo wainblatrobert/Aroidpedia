@@ -91,6 +91,7 @@ jobs:
 
       # v2: replaces the bare `git commit && git push`.
       - name: Commit updated counts
+        id: commit
         run: |
           set -euo pipefail
 
@@ -101,6 +102,7 @@ jobs:
 
           if git diff --quiet -- docs/counts.json; then
             echo "No count changes to commit."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
@@ -117,6 +119,7 @@ jobs:
 
             if git diff --quiet -- docs/counts.json; then
               echo "Remote already carries these counts. Nothing to push."
+              echo "changed=false" >> "$GITHUB_OUTPUT"
               exit 0
             fi
 
@@ -125,6 +128,7 @@ jobs:
 
             if git push origin "HEAD:${BRANCH}"; then
               echo "Pushed on attempt ${attempt}."
+              echo "changed=true" >> "$GITHUB_OUTPUT"
               exit 0
             fi
 
@@ -148,14 +152,22 @@ jobs:
             exit 1
           fi
 
+      # v3 (8.30.26): a Pages deploy re-uploads the WHOLE docs tree - there
+      # is no incremental deploy - so a run that changed nothing was still
+      # tarring and pushing over a gigabyte, twice a day. Gate the three
+      # publish steps on the commit step's own verdict. Matches the gate
+      # aroidpedia-search-index.yml has carried since it was written.
       - name: Configure Pages
+        if: steps.commit.outputs.changed == 'true'
         uses: actions/configure-pages@v6
 
       - name: Upload /docs as Pages artifact
+        if: steps.commit.outputs.changed == 'true'
         uses: actions/upload-pages-artifact@v5
         with:
           path: "docs"
 
       - name: Deploy to GitHub Pages
         id: deployment
+        if: steps.commit.outputs.changed == 'true'
         uses: actions/deploy-pages@v5
