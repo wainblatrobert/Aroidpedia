@@ -1,0 +1,89 @@
+{
+ "_readme": [
+  "Hand-curated per-genus values that CANNOT be derived from the tree.",
+  "Consumed by scripts/build-genus-roster.mjs.",
+  "",
+  "hand: 'left' | 'right' - which side the hero title sits on. Optional.",
+  "logo/i16/i32/i180/i192/i512: Squarespace-hosted asset URLs. Optional;",
+  "anything omitted falls back to AP.MASTER at runtime, so a genus with",
+  "no artwork yet needs no entry here at all.",
+  "",
+  "DO NOT put 'ascend' here. Subfamily and tribe are generated from",
+  "docs/araceae-tree.v1.json so the hero and the phylogeny page cannot",
+  "disagree; the build FAILS if it finds an ascend key. Fix the tree.",
+  "",
+  "Seeded 2026-08-31 from the 14 rows typed into header injection v15."
+ ],
+ "alocasia": {
+  "hand": "right",
+  "logo": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/d2628d02-c782-4713-b3d1-6df79c44f955/Alocasia.png?content-type=image%2Fpng",
+  "i16": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/36127fb3-affd-4b59-a03f-8b40599f282f/fav-alocasia-16.png?content-type=image%2Fpng",
+  "i32": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/2463f1a5-7925-4f06-84c2-b59a2eef96c0/fav-alocasia-32.png?content-type=image%2Fpng"
+ },
+ "amorphophallus": {
+  "hand": "left",
+  "logo": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/45ae5ad6-2fa5-4966-96d0-abb61a0e1fe2/Amorphophallus.png?content-type=image%2Fpng",
+  "i16": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/fbbe10c6-1ded-4a72-b56d-9274793f3c0e/fav-amorphophallus-16.png?content-type=image%2Fpng",
+  "i32": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/0661078b-d2f8-4c32-ba1a-29e69d04ef1e/fav-amorphophallus-32.png?content-type=image%2Fpng"
+ },
+ "anthurium": {
+  "logo": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/7c9d2099-5488-4a6e-8c9b-c0977e55e547/Anthurium.png?content-type=image%2Fpng",
+  "i16": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/10b431ff-23eb-4bf5-927b-fb73566eb1d3/fav-anthurium-16.png?content-type=image%2Fpng",
+  "i32": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/ed11f76b-5409-4d19-9157-9cc9dacf6c58/fav-anthurium-32.png?content-type=image%2Fpng"
+ },
+ "arisaema": {
+  "logo": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/1eb94309-26bb-47c1-a65e-3ebce31007f9/Arisaema.png?content-type=image%2Fpng",
+  "i16": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/eafd336e-1a45-42fb-8f52-058d51d0a1d9/fav-arisaema-16.png?content-type=image%2Fpng",
+  "i32": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/281f52f4-0ad2-4ba1-8483-c6f2e377e8a0/fav-arisaema-32.png?content-type=image%2Fpng"
+ },
+ "cyrtosperma": {
+  "logo": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/528df27a-a32a-4639-b363-d2efa0538893/Cyrtosperma.png?content-type=image%2Fpng",
+  "i16": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/bc508917-bc35-4ce2-a9be-1eebf3818a2d/fav-cyrtosperma-16.png?content-type=image%2Fpng",
+  "i32": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/6bcb00c7-45d6-4f5f-8010-316359421a3c/fav-cyrtosperma-32.png?content-type=image%2Fpng"
+ },
+ "epipremnum": {
+  "logo": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/1ca6bdab-89e2-4393-aa86-c606756a4756/Epipremnum.png?content-type=image%2Fpng",
+  "i16": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/7e6b862d-11a1-4860-94b1-56a882ccc4f1/fav-epipremnum-16.png?content-type=image%2Fpng",
+  "i32": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/e8b94078-19dc-464d-bc71-2e2f819fbe0c/fav-epipremnum-32.png?content-type=image%2Fpng"
+ },
+ "homalomena": {
+  "logo": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/8896a7ef-e86e-45da-9b8a-99b7355248ef/Homalomena.png?content-type=image%2Fpng",
+  "i16": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/88766321-7cae-48f0-a065-5e2ffb8106fe/fav-homalomena-16.png?content-type=image%2Fpng",
+  "i32": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/db5d877e-680c-4115-86ce-a452a9e1afd8/fav-homalomena-32.png?content-type=image%2Fpng"
+ },
+ "monstera": {
+  "logo": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/dadd69d1-2388-4f57-9023-92bccbda7b18/Monstera.png?content-type=image%2Fpng",
+  "i16": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/df636163-66bc-4d7a-9eae-c780bb4ecf3b/fav-monstera-16.png?content-type=image%2Fpng",
+  "i32": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/d0155185-f656-4d8e-98f1-9d8c4b7dd9d6/fav-monstera-32.png?content-type=image%2Fpng"
+ },
+ "philodendron": {
+  "logo": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/8ded2de6-7a38-443c-870c-f0be4c47255c/Philodendron.png?content-type=image%2Fpng",
+  "i16": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/b4003b31-959e-408d-8f8b-1b31eff8e6b3/fav-philodendron-16.png?content-type=image%2Fpng",
+  "i32": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/31ac64b8-0534-4b87-967a-3bfc712e7c34/fav-philodendron-32.png?content-type=image%2Fpng"
+ },
+ "rhaphidophora": {
+  "logo": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/2726a443-0700-4968-ab7f-5ea9c8ef5731/Rhaphidophora.png?content-type=image%2Fpng",
+  "i16": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/ef86ac83-ee14-4e8c-bc90-7210b04fdff9/fav-rhaphidophora-16.png?content-type=image%2Fpng",
+  "i32": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/2d314379-5f7c-4dba-ada2-f4dd270c20f6/fav-rhaphidophora-32.png?content-type=image%2Fpng"
+ },
+ "schismatoglottis": {
+  "logo": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/d895ce7a-ebb8-493a-bcd0-a545efcf96a4/Schismatoglottis.png?content-type=image%2Fpng",
+  "i16": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/03442967-7b83-446d-b30b-57c614bb0b85/fav-schismatoglottis-16.png?content-type=image%2Fpng",
+  "i32": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/ca885a25-e17b-4aa9-9567-af09e61f4c81/fav-schismatoglottis-32.png?content-type=image%2Fpng"
+ },
+ "scindapsus": {
+  "logo": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/46b2204d-9549-45e9-8b10-1d420db4a0d5/Scindapsus.png?content-type=image%2Fpng",
+  "i16": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/6b59b99a-8ab0-4587-aef6-b00e129ad9a8/fav-scindapsus-16.png?content-type=image%2Fpng",
+  "i32": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/4c974f7a-8d14-436e-96af-fba241efdd30/fav-scindapsus-32.png?content-type=image%2Fpng"
+ },
+ "syngonium": {
+  "logo": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/7e90738f-10d2-4d45-967a-07c1e216a3b5/Syngonium.png?content-type=image%2Fpng",
+  "i16": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/51945aa8-4813-4abc-962d-21ed87542707/fav-syngonium-16.png?content-type=image%2Fpng",
+  "i32": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/9580499a-3e09-475e-be35-15eb49ea940e/fav-syngonium-32.png?content-type=image%2Fpng"
+ },
+ "xanthosoma": {
+  "logo": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/d477f0f0-0108-4016-a25e-4d02992973cc/Xanthosoma.png?content-type=image%2Fpng",
+  "i16": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/6cb420ea-ecf7-4244-9015-4f29b52142d7/fav-xanthosoma-16.png?content-type=image%2Fpng",
+  "i32": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/20303cb9-4eb3-4193-9b83-128272c4caf1/fav-xanthosoma-32.png?content-type=image%2Fpng"
+ }
+}

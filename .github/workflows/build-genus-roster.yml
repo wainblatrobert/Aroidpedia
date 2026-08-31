@@ -1,0 +1,172 @@
+# =====================================================================
+# AROIDPEDIA - BUILD GENUS ROSTER
+# FILE VERSION: v1   (2026-08-31)
+# Path in repo: .github/workflows/build-genus-roster.yml
+#
+# WHAT IT BUILDS
+#   docs/genus-roster.json  - all 150 genera: slug, name, subfamily,
+#                             tribe, plus any artwork. For blocks that
+#                             can fetch (the cream section header, and
+#                             anything future).
+#   docs/header-roster.js   - the same data as a paste-ready
+#                             `AP.GENERA = { ... };` literal for the
+#                             Squarespace header injection.
+#
+# WHY THE HEADER GETS A PASTE AND NOT A FETCH
+# The per-genus LOGO SWAP writes a <style> into <head> before the
+# header paints - that is the reason it lives in the header at all. A
+# fetched roster would leave AP.genus unknown at paint time, the master
+# logo would paint and then change, and the block would reintroduce the
+# flash it exists to prevent. So this workflow generates the CODE. The
+# paste is unchanged from how the roster already works; what changes is
+# that it is generated from the tree and covers every genus.
+#
+# WHY NO SCHEDULE
+# The inputs change when someone edits the tree or adds artwork, which
+# is rare. update-counts.yml v2 documents what a daily cron cost here -
+# it queued behind the other "pages" jobs and pushed onto a stale main
+# nearly every day. Path-filtered push + manual dispatch has neither
+# problem. The push loop below is kept anyway, because this shares the
+# same concurrency group.
+#
+# WHY THE PUSH LOOP (carried from update-counts.yml v2)
+#   `ref: ${{ github.ref_name }}` names the BRANCH, not the run's
+#   pinned SHA, so a job released from the queue starts at the real
+#   current tip. The fetch/reset/retry loop then re-bases onto the true
+#   remote tip. Both generated files are fully regenerated every run and
+#   never hand-edited, so there is no merge to perform - reset --hard,
+#   never `pull --rebase`, which could stop on a conflict and hang.
+#   The built files are parked in RUNNER_TEMP first, because the reset
+#   would otherwise destroy what is being committed.
+# =====================================================================
+name: Build Aroidpedia Genus Roster
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "docs/araceae-tree.v1.json"
+      - "data/genus-roster-overrides.json"
+      - "scripts/build-genus-roster.mjs"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build-genus-roster:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v5
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+
+      - name: Set up Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+
+      - name: Build roster
+        run: node scripts/build-genus-roster.mjs
+
+      # The generated AP.GENERA literal is pasted into a live site's
+      # header. If it does not parse, the roster is gone and with it the
+      # genus detection every block downstream depends on - so it is
+      # parsed and counted here rather than in a browser.
+      - name: Verify the generated roster
+        run: |
+          set -euo pipefail
+          node -e '
+            const fs = require("fs");
+            const AP = {};
+            new Function("AP", fs.readFileSync("docs/header-roster.js","utf8"))(AP);
+            const G = AP.GENERA || {};
+            const n = Object.keys(G).length;
+            if (n < 100) { console.error("::error::only " + n + " rows - expected ~150"); process.exit(1); }
+            const bad = Object.keys(G).filter(s => !/^[a-z][a-z-]*$/.test(s));
+            if (bad.length) { console.error("::error::bad slugs: " + bad.join(", ")); process.exit(1); }
+            const noSub = Object.entries(G).filter(([, r]) => !r.ascend || !r.ascend.sub);
+            if (noSub.length) { console.error("::error::rows with no subfamily: " + noSub.length); process.exit(1); }
+            const j = JSON.parse(fs.readFileSync("docs/genus-roster.json","utf8"));
+            if (Object.keys(j.genera).length !== n) { console.error("::error::json/js row count differ"); process.exit(1); }
+            console.log("OK: " + n + " rows, all slugs valid, all have a subfamily.");
+          '
+
+      - name: Commit generated roster
+        id: commit
+        run: |
+          set -euo pipefail
+          BRANCH="${GITHUB_REF_NAME}"
+
+          git config user.name  "github-actions"
+          git config user.email "github-actions@github.com"
+
+          if git diff --quiet -- docs/genus-roster.json docs/header-roster.js; then
+            echo "Roster unchanged."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          cp docs/genus-roster.json "${RUNNER_TEMP}/genus-roster.json"
+          cp docs/header-roster.js  "${RUNNER_TEMP}/header-roster.js"
+
+          for attempt in 1 2 3 4 5; do
+            git fetch origin "+refs/heads/${BRANCH}:refs/remotes/origin/${BRANCH}"
+            git reset --hard "origin/${BRANCH}"
+
+            mkdir -p docs
+            cp "${RUNNER_TEMP}/genus-roster.json" docs/genus-roster.json
+            cp "${RUNNER_TEMP}/header-roster.js"  docs/header-roster.js
+
+            if git diff --quiet -- docs/genus-roster.json docs/header-roster.js; then
+              echo "Remote already carries this roster. Nothing to push."
+              echo "changed=false" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+
+            git add docs/genus-roster.json docs/header-roster.js
+            git commit -m "Build genus roster from the Araceae tree"
+
+            if git push origin "HEAD:${BRANCH}"; then
+              echo "Pushed on attempt ${attempt}."
+              echo "changed=true" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+
+            echo "Push rejected on attempt ${attempt} - remote moved. Retrying."
+            sleep $(( attempt * 5 ))
+          done
+
+          echo "::error::Could not push the roster after 5 attempts."
+          exit 1
+
+      # ⚠ A Pages deploy re-uploads the WHOLE docs tree; there is no
+      # incremental deploy. Gate the publish steps on the commit step's
+      # verdict, the same way update-counts.yml v3 and the search-index
+      # workflow do.
+      - name: Configure Pages
+        if: steps.commit.outputs.changed == 'true'
+        uses: actions/configure-pages@v6
+
+      - name: Upload /docs as Pages artifact
+        if: steps.commit.outputs.changed == 'true'
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: "docs"
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        if: steps.commit.outputs.changed == 'true'
+        uses: actions/deploy-pages@v5

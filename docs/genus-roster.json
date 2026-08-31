@@ -1,0 +1,1103 @@
+{
+ "version": "1.0.0",
+ "generated": "2026-08-31",
+ "source": "docs/araceae-tree.v1.json + data/genus-roster-overrides.json",
+ "note": "ascend is generated from the tree and must be corrected there, not here.",
+ "count": 150,
+ "genera": {
+  "adelonema": {
+   "name": "Adelonema",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Philodendreae"
+   }
+  },
+  "aglaodorum": {
+   "name": "Aglaodorum",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Aglaonemateae"
+   }
+  },
+  "aglaonema": {
+   "name": "Aglaonema",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Aglaonemateae"
+   }
+  },
+  "aia": {
+   "name": "Aia",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Schismatoglottideae"
+   }
+  },
+  "alloschemone": {
+   "name": "Alloschemone",
+   "ascend": {
+    "sub": "Monsteroideae",
+    "tribe": "Monstereae"
+   }
+  },
+  "alocasia": {
+   "name": "Alocasia",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Colocasieae"
+   },
+   "hand": "right",
+   "logo": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/d2628d02-c782-4713-b3d1-6df79c44f955/Alocasia.png?content-type=image%2Fpng",
+   "i16": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/36127fb3-affd-4b59-a03f-8b40599f282f/fav-alocasia-16.png?content-type=image%2Fpng",
+   "i32": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/2463f1a5-7925-4f06-84c2-b59a2eef96c0/fav-alocasia-32.png?content-type=image%2Fpng"
+  },
+  "ambrosina": {
+   "name": "Ambrosina",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Ambrosineae"
+   }
+  },
+  "amorphophallus": {
+   "name": "Amorphophallus",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Thomsonieae"
+   },
+   "hand": "left",
+   "logo": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/45ae5ad6-2fa5-4966-96d0-abb61a0e1fe2/Amorphophallus.png?content-type=image%2Fpng",
+   "i16": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/fbbe10c6-1ded-4a72-b56d-9274793f3c0e/fav-amorphophallus-16.png?content-type=image%2Fpng",
+   "i32": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/0661078b-d2f8-4c32-ba1a-29e69d04ef1e/fav-amorphophallus-32.png?content-type=image%2Fpng"
+  },
+  "amydrium": {
+   "name": "Amydrium",
+   "ascend": {
+    "sub": "Monsteroideae",
+    "tribe": "Monstereae"
+   }
+  },
+  "anadendrum": {
+   "name": "Anadendrum",
+   "ascend": {
+    "sub": "Monsteroideae",
+    "tribe": "Anadendreae"
+   }
+  },
+  "anaphyllopsis": {
+   "name": "Anaphyllopsis",
+   "ascend": {
+    "sub": "Lasioideae",
+    "tribe": "Dracontieae"
+   }
+  },
+  "anaphyllum": {
+   "name": "Anaphyllum",
+   "ascend": {
+    "sub": "Lasioideae",
+    "tribe": "Lasieae"
+   }
+  },
+  "anchomanes": {
+   "name": "Anchomanes",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Nephthytideae"
+   }
+  },
+  "anthurium": {
+   "name": "Anthurium",
+   "ascend": {
+    "sub": "Pothoideae",
+    "tribe": "Anthurieae"
+   },
+   "logo": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/7c9d2099-5488-4a6e-8c9b-c0977e55e547/Anthurium.png?content-type=image%2Fpng",
+   "i16": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/10b431ff-23eb-4bf5-927b-fb73566eb1d3/fav-anthurium-16.png?content-type=image%2Fpng",
+   "i32": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/ed11f76b-5409-4d19-9157-9cc9dacf6c58/fav-anthurium-32.png?content-type=image%2Fpng"
+  },
+  "anubias": {
+   "name": "Anubias",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Anubiadeae"
+   }
+  },
+  "apoballis": {
+   "name": "Apoballis",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Schismatoglottideae"
+   }
+  },
+  "aridarum": {
+   "name": "Aridarum",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Schismatoglottideae"
+   }
+  },
+  "ariopsis": {
+   "name": "Ariopsis",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Colocasieae"
+   }
+  },
+  "arisaema": {
+   "name": "Arisaema",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Arisaemateae"
+   },
+   "logo": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/1eb94309-26bb-47c1-a65e-3ebce31007f9/Arisaema.png?content-type=image%2Fpng",
+   "i16": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/eafd336e-1a45-42fb-8f52-058d51d0a1d9/fav-arisaema-16.png?content-type=image%2Fpng",
+   "i32": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/281f52f4-0ad2-4ba1-8483-c6f2e377e8a0/fav-arisaema-32.png?content-type=image%2Fpng"
+  },
+  "arisarum": {
+   "name": "Arisarum",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Arisareae"
+   }
+  },
+  "arophyton": {
+   "name": "Arophyton",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Arophyteae"
+   }
+  },
+  "arum": {
+   "name": "Arum",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Areae"
+   }
+  },
+  "asterostigma": {
+   "name": "Asterostigma",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Spathicarpeae"
+   }
+  },
+  "ayuantha": {
+   "name": "Ayuantha",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Schismatoglottideae"
+   }
+  },
+  "bakoa": {
+   "name": "Bakoa",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Schismatoglottideae"
+   }
+  },
+  "bakoaella": {
+   "name": "Bakoaella",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Schismatoglottideae"
+   }
+  },
+  "bau": {
+   "name": "Bau",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Schismatoglottideae"
+   }
+  },
+  "biarum": {
+   "name": "Biarum",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Areae"
+   }
+  },
+  "bidayuha": {
+   "name": "Bidayuha",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Schismatoglottideae"
+   }
+  },
+  "bognera": {
+   "name": "Bognera",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Dieffenbachieae"
+   }
+  },
+  "borneoa": {
+   "name": "Borneoa",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Schismatoglottideae"
+   }
+  },
+  "boycea": {
+   "name": "Boycea",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Aglaonemateae"
+   }
+  },
+  "bucephalandra": {
+   "name": "Bucephalandra",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Schismatoglottideae"
+   }
+  },
+  "burttianthus": {
+   "name": "Burttianthus",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Schismatoglottideae"
+   }
+  },
+  "caladium": {
+   "name": "Caladium",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Caladieae"
+   }
+  },
+  "calla": {
+   "name": "Calla",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": ""
+   }
+  },
+  "callopsis": {
+   "name": "Callopsis",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Callopsideae"
+   }
+  },
+  "carlephyton": {
+   "name": "Carlephyton",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Arophyteae"
+   }
+  },
+  "cercestis": {
+   "name": "Cercestis",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Culcasieae"
+   }
+  },
+  "chlorospatha": {
+   "name": "Chlorospatha",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Caladieae"
+   }
+  },
+  "colletogyne": {
+   "name": "Colletogyne",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Arophyteae"
+   }
+  },
+  "colobogynium": {
+   "name": "Colobogynium",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Schismatoglottideae"
+   }
+  },
+  "colocasia": {
+   "name": "Colocasia",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Colocasieae"
+   }
+  },
+  "croatiella": {
+   "name": "Croatiella",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Spathicarpeae"
+   }
+  },
+  "cryptocoryne": {
+   "name": "Cryptocoryne",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Cryptocoryneae"
+   }
+  },
+  "culcasia": {
+   "name": "Culcasia",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Culcasieae"
+   }
+  },
+  "cyrtosperma": {
+   "name": "Cyrtosperma",
+   "ascend": {
+    "sub": "Lasioideae",
+    "tribe": "Lasieae"
+   },
+   "logo": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/528df27a-a32a-4639-b363-d2efa0538893/Cyrtosperma.png?content-type=image%2Fpng",
+   "i16": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/bc508917-bc35-4ce2-a9be-1eebf3818a2d/fav-cyrtosperma-16.png?content-type=image%2Fpng",
+   "i32": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/6bcb00c7-45d6-4f5f-8010-316359421a3c/fav-cyrtosperma-32.png?content-type=image%2Fpng"
+  },
+  "dieffenbachia": {
+   "name": "Dieffenbachia",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Dieffenbachieae"
+   }
+  },
+  "dracontioides": {
+   "name": "Dracontioides",
+   "ascend": {
+    "sub": "Lasioideae",
+    "tribe": "Dracontieae"
+   }
+  },
+  "dracontium": {
+   "name": "Dracontium",
+   "ascend": {
+    "sub": "Lasioideae",
+    "tribe": "Dracontieae"
+   }
+  },
+  "dracunculus": {
+   "name": "Dracunculus",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Areae"
+   }
+  },
+  "eminium": {
+   "name": "Eminium",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Areae"
+   }
+  },
+  "englerarum": {
+   "name": "Englerarum",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": ""
+   }
+  },
+  "epipremnum": {
+   "name": "Epipremnum",
+   "ascend": {
+    "sub": "Monsteroideae",
+    "tribe": "Monstereae"
+   },
+   "logo": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/1ca6bdab-89e2-4393-aa86-c606756a4756/Epipremnum.png?content-type=image%2Fpng",
+   "i16": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/7e6b862d-11a1-4860-94b1-56a882ccc4f1/fav-epipremnum-16.png?content-type=image%2Fpng",
+   "i32": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/e8b94078-19dc-464d-bc71-2e2f819fbe0c/fav-epipremnum-32.png?content-type=image%2Fpng"
+  },
+  "fenestratarum": {
+   "name": "Fenestratarum",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Schismatoglottideae"
+   }
+  },
+  "filarum": {
+   "name": "Filarum",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Zomicarpeae"
+   }
+  },
+  "galantharum": {
+   "name": "Galantharum",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Schismatoglottideae"
+   }
+  },
+  "gamogyne": {
+   "name": "Gamogyne",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Schismatoglottideae"
+   }
+  },
+  "gearum": {
+   "name": "Gearum",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Spathicarpeae"
+   }
+  },
+  "gonatopus": {
+   "name": "Gonatopus",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Zamioculcadeae"
+   }
+  },
+  "gorgonidium": {
+   "name": "Gorgonidium",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Spathicarpeae"
+   }
+  },
+  "gosong": {
+   "name": "Gosong",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Schismatoglottideae"
+   }
+  },
+  "gymnostachys": {
+   "name": "Gymnostachys",
+   "ascend": {
+    "sub": "Gymnostachydoideae",
+    "tribe": ""
+   }
+  },
+  "hapaline": {
+   "name": "Hapaline",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Caladieae"
+   }
+  },
+  "helicodiceros": {
+   "name": "Helicodiceros",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Areae"
+   }
+  },
+  "hera": {
+   "name": "Hera",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Schismatoglottideae"
+   }
+  },
+  "heteroaridarum": {
+   "name": "Heteroaridarum",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Schismatoglottideae"
+   }
+  },
+  "heteropsis": {
+   "name": "Heteropsis",
+   "ascend": {
+    "sub": "Monsteroideae",
+    "tribe": "Heteropsideae"
+   }
+  },
+  "holochlamys": {
+   "name": "Holochlamys",
+   "ascend": {
+    "sub": "Monsteroideae",
+    "tribe": "Spathiphylleae"
+   }
+  },
+  "homalomena": {
+   "name": "Homalomena",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Homalomeneae"
+   },
+   "logo": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/8896a7ef-e86e-45da-9b8a-99b7355248ef/Homalomena.png?content-type=image%2Fpng",
+   "i16": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/88766321-7cae-48f0-a065-5e2ffb8106fe/fav-homalomena-16.png?content-type=image%2Fpng",
+   "i32": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/db5d877e-680c-4115-86ce-a452a9e1afd8/fav-homalomena-32.png?content-type=image%2Fpng"
+  },
+  "hottarum": {
+   "name": "Hottarum",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Schismatoglottideae"
+   }
+  },
+  "ibania": {
+   "name": "Ibania",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Schismatoglottideae"
+   }
+  },
+  "idimanthus": {
+   "name": "Idimanthus",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Caladieae"
+   }
+  },
+  "incarum": {
+   "name": "Incarum",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Spathicarpeae"
+   }
+  },
+  "jasarum": {
+   "name": "Jasarum",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Caladieae"
+   }
+  },
+  "josefia": {
+   "name": "Josefia",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Schismatoglottideae"
+   }
+  },
+  "kiewia": {
+   "name": "Kiewia",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Schismatoglottideae"
+   }
+  },
+  "lagenandra": {
+   "name": "Lagenandra",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Cryptocoryneae"
+   }
+  },
+  "lasia": {
+   "name": "Lasia",
+   "ascend": {
+    "sub": "Lasioideae",
+    "tribe": "Lasieae"
+   }
+  },
+  "lasimorpha": {
+   "name": "Lasimorpha",
+   "ascend": {
+    "sub": "Lasioideae",
+    "tribe": "Lasieae"
+   }
+  },
+  "lazarum": {
+   "name": "Lazarum",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Areae"
+   }
+  },
+  "lemna": {
+   "name": "Lemna",
+   "ascend": {
+    "sub": "Lemnoideae",
+    "tribe": ""
+   }
+  },
+  "leucocasia": {
+   "name": "Leucocasia",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": ""
+   }
+  },
+  "lorenzia": {
+   "name": "Lorenzia",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Spathicarpeae"
+   }
+  },
+  "lysichiton": {
+   "name": "Lysichiton",
+   "ascend": {
+    "sub": "Orontioideae",
+    "tribe": ""
+   }
+  },
+  "mangonia": {
+   "name": "Mangonia",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Spathicarpeae"
+   }
+  },
+  "monstera": {
+   "name": "Monstera",
+   "ascend": {
+    "sub": "Monsteroideae",
+    "tribe": "Monstereae"
+   },
+   "logo": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/dadd69d1-2388-4f57-9023-92bccbda7b18/Monstera.png?content-type=image%2Fpng",
+   "i16": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/df636163-66bc-4d7a-9eae-c780bb4ecf3b/fav-monstera-16.png?content-type=image%2Fpng",
+   "i32": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/d0155185-f656-4d8e-98f1-9d8c4b7dd9d6/fav-monstera-32.png?content-type=image%2Fpng"
+  },
+  "montrichardia": {
+   "name": "Montrichardia",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Montrichardieae"
+   }
+  },
+  "nabalu": {
+   "name": "Nabalu",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Schismatoglottideae"
+   }
+  },
+  "naiadia": {
+   "name": "Naiadia",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Schismatoglottideae"
+   }
+  },
+  "nephthytis": {
+   "name": "Nephthytis",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Nephthytideae"
+   }
+  },
+  "ooia": {
+   "name": "Ooia",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Schismatoglottideae"
+   }
+  },
+  "orontium": {
+   "name": "Orontium",
+   "ascend": {
+    "sub": "Orontioideae",
+    "tribe": ""
+   }
+  },
+  "pedicellarum": {
+   "name": "Pedicellarum",
+   "ascend": {
+    "sub": "Pothoideae",
+    "tribe": "Potheae"
+   }
+  },
+  "peltandra": {
+   "name": "Peltandra",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Peltandreae"
+   }
+  },
+  "philodendron": {
+   "name": "Philodendron",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Philodendreae"
+   },
+   "logo": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/8ded2de6-7a38-443c-870c-f0be4c47255c/Philodendron.png?content-type=image%2Fpng",
+   "i16": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/b4003b31-959e-408d-8f8b-1b31eff8e6b3/fav-philodendron-16.png?content-type=image%2Fpng",
+   "i32": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/31ac64b8-0534-4b87-967a-3bfc712e7c34/fav-philodendron-32.png?content-type=image%2Fpng"
+  },
+  "philonotion": {
+   "name": "Philonotion",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Philonotieae"
+   }
+  },
+  "phyllotaenium": {
+   "name": "Phyllotaenium",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Caladieae"
+   }
+  },
+  "phymatarum": {
+   "name": "Phymatarum",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Schismatoglottideae"
+   }
+  },
+  "pichinia": {
+   "name": "Pichinia",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Schismatoglottideae"
+   }
+  },
+  "pinellia": {
+   "name": "Pinellia",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Arisaemateae"
+   }
+  },
+  "piptospatha": {
+   "name": "Piptospatha",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Schismatoglottideae"
+   }
+  },
+  "pistia": {
+   "name": "Pistia",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Pistieae"
+   }
+  },
+  "podolasia": {
+   "name": "Podolasia",
+   "ascend": {
+    "sub": "Lasioideae",
+    "tribe": "Lasieae"
+   }
+  },
+  "pothoidium": {
+   "name": "Pothoidium",
+   "ascend": {
+    "sub": "Pothoideae",
+    "tribe": "Potheae"
+   }
+  },
+  "pothos": {
+   "name": "Pothos",
+   "ascend": {
+    "sub": "Pothoideae",
+    "tribe": "Potheae"
+   }
+  },
+  "protarum": {
+   "name": "Protarum",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Colocasieae"
+   }
+  },
+  "pseudohydrosme": {
+   "name": "Pseudohydrosme",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Nephthytideae"
+   }
+  },
+  "pursegloveia": {
+   "name": "Pursegloveia",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Schismatoglottideae"
+   }
+  },
+  "pycnospatha": {
+   "name": "Pycnospatha",
+   "ascend": {
+    "sub": "Lasioideae",
+    "tribe": "Lasieae"
+   }
+  },
+  "remusatia": {
+   "name": "Remusatia",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Colocasieae"
+   }
+  },
+  "rhaphidophora": {
+   "name": "Rhaphidophora",
+   "ascend": {
+    "sub": "Monsteroideae",
+    "tribe": "Monstereae"
+   },
+   "logo": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/2726a443-0700-4968-ab7f-5ea9c8ef5731/Rhaphidophora.png?content-type=image%2Fpng",
+   "i16": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/ef86ac83-ee14-4e8c-bc90-7210b04fdff9/fav-rhaphidophora-16.png?content-type=image%2Fpng",
+   "i32": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/2d314379-5f7c-4dba-ada2-f4dd270c20f6/fav-rhaphidophora-32.png?content-type=image%2Fpng"
+  },
+  "rhodospatha": {
+   "name": "Rhodospatha",
+   "ascend": {
+    "sub": "Monsteroideae",
+    "tribe": "Monstereae"
+   }
+  },
+  "rhynchopyle": {
+   "name": "Rhynchopyle",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Schismatoglottideae"
+   }
+  },
+  "sarawakia": {
+   "name": "Sarawakia",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Schismatoglottideae"
+   }
+  },
+  "sauromatum": {
+   "name": "Sauromatum",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Areae"
+   }
+  },
+  "scaphispatha": {
+   "name": "Scaphispatha",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Caladieae"
+   }
+  },
+  "schismatoglottis": {
+   "name": "Schismatoglottis",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Schismatoglottideae"
+   },
+   "logo": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/d895ce7a-ebb8-493a-bcd0-a545efcf96a4/Schismatoglottis.png?content-type=image%2Fpng",
+   "i16": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/03442967-7b83-446d-b30b-57c614bb0b85/fav-schismatoglottis-16.png?content-type=image%2Fpng",
+   "i32": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/ca885a25-e17b-4aa9-9567-af09e61f4c81/fav-schismatoglottis-32.png?content-type=image%2Fpng"
+  },
+  "schottariella": {
+   "name": "Schottariella",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Schismatoglottideae"
+   }
+  },
+  "schottarum": {
+   "name": "Schottarum",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Schismatoglottideae"
+   }
+  },
+  "scindapsus": {
+   "name": "Scindapsus",
+   "ascend": {
+    "sub": "Monsteroideae",
+    "tribe": "Monstereae"
+   },
+   "logo": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/46b2204d-9549-45e9-8b10-1d420db4a0d5/Scindapsus.png?content-type=image%2Fpng",
+   "i16": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/6b59b99a-8ab0-4587-aef6-b00e129ad9a8/fav-scindapsus-16.png?content-type=image%2Fpng",
+   "i32": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/4c974f7a-8d14-436e-96af-fba241efdd30/fav-scindapsus-32.png?content-type=image%2Fpng"
+  },
+  "spathantheum": {
+   "name": "Spathantheum",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Spathicarpeae"
+   }
+  },
+  "spathicarpa": {
+   "name": "Spathicarpa",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Spathicarpeae"
+   }
+  },
+  "spathiphyllum": {
+   "name": "Spathiphyllum",
+   "ascend": {
+    "sub": "Monsteroideae",
+    "tribe": "Spathiphylleae"
+   }
+  },
+  "spirodela": {
+   "name": "Spirodela",
+   "ascend": {
+    "sub": "Lemnoideae",
+    "tribe": ""
+   }
+  },
+  "stenospermation": {
+   "name": "Stenospermation",
+   "ascend": {
+    "sub": "Monsteroideae",
+    "tribe": "Monstereae"
+   }
+  },
+  "steudnera": {
+   "name": "Steudnera",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Colocasieae"
+   }
+  },
+  "stylochaeton": {
+   "name": "Stylochaeton",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Stylochaetoneae"
+   }
+  },
+  "symplocarpus": {
+   "name": "Symplocarpus",
+   "ascend": {
+    "sub": "Orontioideae",
+    "tribe": ""
+   }
+  },
+  "synandrospadix": {
+   "name": "Synandrospadix",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Spathicarpeae"
+   }
+  },
+  "syngonium": {
+   "name": "Syngonium",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Caladieae"
+   },
+   "logo": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/7e90738f-10d2-4d45-967a-07c1e216a3b5/Syngonium.png?content-type=image%2Fpng",
+   "i16": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/51945aa8-4813-4abc-962d-21ed87542707/fav-syngonium-16.png?content-type=image%2Fpng",
+   "i32": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/9580499a-3e09-475e-be35-15eb49ea940e/fav-syngonium-32.png?content-type=image%2Fpng"
+  },
+  "taccarum": {
+   "name": "Taccarum",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Spathicarpeae"
+   }
+  },
+  "tawaia": {
+   "name": "Tawaia",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Schismatoglottideae"
+   }
+  },
+  "theriophonum": {
+   "name": "Theriophonum",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Areae"
+   }
+  },
+  "toga": {
+   "name": "Toga",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Schismatoglottideae"
+   }
+  },
+  "tweeddalea": {
+   "name": "Tweeddalea",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Schismatoglottideae"
+   }
+  },
+  "typhonium": {
+   "name": "Typhonium",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Areae"
+   }
+  },
+  "typhonodorum": {
+   "name": "Typhonodorum",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Peltandreae"
+   }
+  },
+  "ulearum": {
+   "name": "Ulearum",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Zomicarpeae"
+   }
+  },
+  "urospatha": {
+   "name": "Urospatha",
+   "ascend": {
+    "sub": "Lasioideae",
+    "tribe": "Lasieae"
+   }
+  },
+  "vesta": {
+   "name": "Vesta",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Schismatoglottideae"
+   }
+  },
+  "vietnamocasia": {
+   "name": "Vietnamocasia",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": ""
+   }
+  },
+  "vivaria": {
+   "name": "Vivaria",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Spathicarpeae"
+   }
+  },
+  "wolffia": {
+   "name": "Wolffia",
+   "ascend": {
+    "sub": "Lemnoideae",
+    "tribe": ""
+   }
+  },
+  "wolffiella": {
+   "name": "Wolffiella",
+   "ascend": {
+    "sub": "Lemnoideae",
+    "tribe": ""
+   }
+  },
+  "xanthosoma": {
+   "name": "Xanthosoma",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Caladieae"
+   },
+   "logo": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/d477f0f0-0108-4016-a25e-4d02992973cc/Xanthosoma.png?content-type=image%2Fpng",
+   "i16": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/6cb420ea-ecf7-4244-9015-4f29b52142d7/fav-xanthosoma-16.png?content-type=image%2Fpng",
+   "i32": "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/20303cb9-4eb3-4193-9b83-128272c4caf1/fav-xanthosoma-32.png?content-type=image%2Fpng"
+  },
+  "zamioculcas": {
+   "name": "Zamioculcas",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Zamioculcadeae"
+   }
+  },
+  "zantedeschia": {
+   "name": "Zantedeschia",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Zantedeschieae"
+   }
+  },
+  "zomicarpa": {
+   "name": "Zomicarpa",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Zomicarpeae"
+   }
+  },
+  "zomicarpella": {
+   "name": "Zomicarpella",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": "Zomicarpeae"
+   }
+  }
+ }
+}
