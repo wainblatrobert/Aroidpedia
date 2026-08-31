@@ -1,0 +1,141 @@
+# =====================================================================
+# AROIDPEDIA - BUILD TIMELINES
+# FILE VERSION: v1   (2026-08-31)
+# Path in repo: .github/workflows/build-timelines.yml
+#
+# Rebuilds Timelines/<genus> and Timelines/<genus>_mobile for all 153
+# genera from data/species-years.json.
+#
+# NO PAGES DEPLOY. The timeline block fetches these from
+# raw.githubusercontent.com/.../main/Timelines/<genus>, not from Pages,
+# so a commit is all that is needed. That also keeps this workflow out
+# of the "pages" concurrency group the other three fight over, and off
+# the >1GB docs artifact.
+#
+# THE HUMAN STEP, and there is only one: when the POWO exports are
+# refreshed, run
+#     python scripts/extract-species-years.py
+# locally (the exports live on Google Drive; Actions cannot see them)
+# and commit data/species-years.json. This workflow does the rest.
+#
+# The push loop is the one from update-counts.yml v2 - `ref` names the
+# BRANCH so a queued job starts from the real tip, and fetch/reset/retry
+# rebases onto the true remote head. The specs are fully regenerated
+# every run and never hand-edited, so the generated file simply wins;
+# reset --hard rather than `pull --rebase`, which could stop on a
+# conflict and hang the job.
+# =====================================================================
+name: Build Aroidpedia Timelines
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/species-years.json"
+      - "data/timeline-template.json"
+      - "data/timeline-mobile.json"
+      - "data/timeline-overrides.json"
+      - "scripts/build-timelines.mjs"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: "timelines"
+  cancel-in-progress: false
+
+jobs:
+  build-timelines:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v5
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+
+      - name: Set up Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+
+      - name: Build timelines
+        run: node scripts/build-timelines.mjs
+
+      # These files are fetched and handed straight to vega.parse() on a
+      # live page. A malformed one is a blank section, so the shape is
+      # checked here rather than in a browser.
+      - name: Verify the generated specs
+        run: |
+          set -euo pipefail
+          node -e '
+            const fs = require("fs");
+            const files = fs.readdirSync("Timelines");
+            if (files.length < 200) { console.error("::error::only " + files.length + " spec files"); process.exit(1); }
+            let bad = 0;
+            for (const f of files) {
+              let s;
+              try { s = JSON.parse(fs.readFileSync("Timelines/" + f, "utf8")); }
+              catch (e) { console.error("::error::" + f + " is not valid JSON: " + e.message); bad++; continue; }
+              const ds = (s.data || []).find(d => d.name === "dataset");
+              const problems = [];
+              if (!/vega\/v5\.json$/.test(s.$schema || "")) problems.push("not a vega v5 spec");
+              if (!ds || !Array.isArray(ds.values) || !ds.values.length) problems.push("empty dataset");
+              else {
+                if (!ds.values.every(v => Number.isInteger(v.domain) && typeof v.label === "string" && v.label))
+                  problems.push("malformed dataset row");
+                const yrs = ds.values.map(v => v.domain);
+                if (yrs.some((y, i) => i && y <= yrs[i - 1])) problems.push("years not strictly ascending");
+                const init = (s.signals || []).find(g => g.name === "domain");
+                if (!init || init.init !== "[" + yrs[0] + ", year(now())]") problems.push("domain init != first year");
+              }
+              const wantW = f.endsWith("_mobile") ? 300 : 1050;
+              if (s.width !== wantW) problems.push("width " + s.width + " != " + wantW);
+              if (problems.length) { console.error("::error::" + f + ": " + problems.join("; ")); bad++; }
+            }
+            if (bad) { console.error("::error::" + bad + " spec file(s) failed"); process.exit(1); }
+            console.log("OK: " + files.length + " spec files, all valid.");
+          '
+
+      - name: Commit timelines
+        run: |
+          set -euo pipefail
+          BRANCH="${GITHUB_REF_NAME}"
+
+          git config user.name  "github-actions"
+          git config user.email "github-actions@github.com"
+
+          if git diff --quiet -- Timelines; then
+            echo "Timelines unchanged."
+            exit 0
+          fi
+
+          TMP="${RUNNER_TEMP}/Timelines"
+          rm -rf "$TMP"; cp -r Timelines "$TMP"
+
+          for attempt in 1 2 3 4 5; do
+            git fetch origin "+refs/heads/${BRANCH}:refs/remotes/origin/${BRANCH}"
+            git reset --hard "origin/${BRANCH}"
+
+            rm -rf Timelines; cp -r "$TMP" Timelines
+
+            if git diff --quiet -- Timelines; then
+              echo "Remote already carries these timelines."
+              exit 0
+            fi
+
+            git add -A Timelines
+            git commit -m "Rebuild genus timelines from the POWO species years"
+
+            if git push origin "HEAD:${BRANCH}"; then
+              echo "Pushed on attempt ${attempt}."
+              exit 0
+            fi
+
+            echo "Push rejected on attempt ${attempt} - remote moved. Retrying."
+            sleep $(( attempt * 5 ))
+          done
+
+          echo "::error::Could not push timelines after 5 attempts."
+          exit 1

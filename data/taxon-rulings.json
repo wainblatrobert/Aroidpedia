@@ -1,0 +1,57 @@
+{
+ "_readme": [
+  "EDITORIAL RULINGS THAT OVERRIDE THE POWO EXPORT.",
+  "",
+  "House rule, stated 2026-08-31: a published journal article trumps POWO.",
+  "The POWO export is the base list, not the verdict. Where Aroidpedia has",
+  "decided otherwise, the decision lives here and the extractor applies it.",
+  "",
+  "  exclude  a name POWO accepts that we do not. Dropped from the data.",
+  "  include  a name POWO has dropped (or never carried) that we keep.",
+  "           Needs a year, because it is not coming from the export.",
+  "",
+  "Every entry carries a reason. `source` is the citation that settles it —",
+  "fill it in when the paper is to hand; `authority` records whose ruling it",
+  "is in the meantime. An entry with neither is a note to self, not a fact.",
+  "",
+  "Consumed by scripts/extract-species-years.py, which prints every ruling",
+  "it applied and FAILS if one no longer matches (see below), so a ruling",
+  "cannot quietly rot after POWO catches up.",
+  "",
+  "Keys are genus slugs, lowercase."
+ ],
+
+ "alocasia": {
+  "exclude": [
+   {
+    "name": "Alocasia augustiana",
+    "reason": "Invalid; = Alocasia aequiloba. POWO/Kew recognise it, Aroidpedia does not.",
+    "authority": "Alistair Hay",
+    "source": ""
+   }
+  ],
+  "include": [
+   {
+    "name": "Alocasia okinawensis",
+    "year": 1965,
+    "reason": "Valid. POWO no longer lists it; the published treatment stands.",
+    "authority": "Aroidpedia editorial, 2026-08-31",
+    "source": ""
+   },
+   {
+    "name": "Alocasia rivularis",
+    "year": 2017,
+    "reason": "Valid. POWO no longer lists it; the published treatment stands.",
+    "authority": "Aroidpedia editorial, 2026-08-31",
+    "source": ""
+   },
+   {
+    "name": "Alocasia lihengiae",
+    "year": 2020,
+    "reason": "Valid. POWO no longer lists it; the published treatment stands.",
+    "authority": "Aroidpedia editorial, 2026-08-31",
+    "source": ""
+   }
+  ]
+ }
+}

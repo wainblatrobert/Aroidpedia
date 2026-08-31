@@ -1,0 +1,14 @@
+{
+ "_readme": [
+  "Optional cosmetic per-genus knobs. Both control how far a tall stack of",
+  "labels may ride above the timeline, so they matter only where many",
+  "species share one year. Omit a genus entirely and it takes the defaults",
+  "(top 18, labelFloor -9) -- the values the live Alocasia spec uses.",
+  "amorphophallus is recorded here because its live spec differs.",
+  "These are the ONLY hand-set numbers in the whole pipeline."
+ ],
+ "amorphophallus": {
+  "paddingTop": 20,
+  "labelFloor": -11
+ }
+}

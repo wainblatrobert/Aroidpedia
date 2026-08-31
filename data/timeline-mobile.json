@@ -1,0 +1,38 @@
+{
+ "_readme": [
+  "Desktop -> mobile: set each of these JSON paths to the given value.",
+  "Derived by diffing the live Timelines/alocasia against alocasia_mobile,",
+  "then confirmed to be the SAME 15 paths for amorphophallus. Genus-",
+  "independent, which is what makes generating the _mobile file safe.",
+  "String paths ending in .signal/.expr are whole-string replacements."
+ ],
+ "width": 300,
+ "padding": {
+  "left": 40,
+  "right": 61
+ },
+ "signals": {
+  "sH": 44,
+  "sN": 16,
+  "tC": 18,
+  "mO": 8
+ },
+ "textSubstitutions": [
+  [
+   "(datum['maxLen'] + 7) * 6.1 + 30",
+   "(datum['maxLen'] + 7) * 7.32 + 30"
+  ],
+  [
+   "datum['lineCount'] * 14",
+   "datum['lineCount'] * 17"
+  ],
+  [
+   "min(max(datum['x'], -77 + datum['boxW']/2), width + 75 - datum['boxW']/2)",
+   "min(max(datum['x'], -38 + datum['boxW']/2), width + 59 - datum['boxW']/2)"
+  ]
+ ],
+ "milestoneLabels": {
+  "fontSize": 12,
+  "lineHeight": 17
+ }
+}

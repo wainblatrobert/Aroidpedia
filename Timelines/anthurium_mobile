@@ -1,0 +1,1645 @@
+{
+ "$schema": "https://vega.github.io/schema/vega/v5.json",
+ "description": "a serpentine timeline. The serpentine shape can be an option for instances where an oblong canvas is not ideal. The shape can be customized using many of the signals below. Input bindings have been included for demonstration purposes",
+ "background": null,
+ "padding": {
+  "top": 18,
+  "right": 61,
+  "bottom": 41,
+  "left": 40
+ },
+ "width": 300,
+ "signals": [
+  {
+   "name": "width",
+   "init": "width",
+   "bindDisabled": {
+    "name": "straight width",
+    "input": "range",
+    "min": 0,
+    "max": 2000,
+    "step": 1
+   },
+   "on": [
+    {
+     "events": [
+      {
+       "signal": "annotations"
+      }
+     ],
+     "update": "width+1"
+    },
+    {
+     "events": [
+      {
+       "signal": "annotations"
+      }
+     ],
+     "update": "width-1"
+    },
+    {
+     "events": [
+      {
+       "signal": "mO"
+      }
+     ],
+     "update": "width+1"
+    },
+    {
+     "events": [
+      {
+       "signal": "mO"
+      }
+     ],
+     "update": "width-1"
+    },
+    {
+     "events": [
+      {
+       "signal": "tLO"
+      }
+     ],
+     "update": "width+1"
+    },
+    {
+     "events": [
+      {
+       "signal": "tLO"
+      }
+     ],
+     "update": "width-1"
+    },
+    {
+     "events": [
+      {
+       "signal": "sN"
+      }
+     ],
+     "update": "width+1"
+    },
+    {
+     "events": [
+      {
+       "signal": "sN"
+      }
+     ],
+     "update": "width-1"
+    },
+    {
+     "events": [
+      {
+       "signal": "mO"
+      }
+     ],
+     "update": "height+1"
+    },
+    {
+     "events": [
+      {
+       "signal": "mO"
+      }
+     ],
+     "update": "height-1"
+    },
+    {
+     "events": [
+      {
+       "signal": "tLO"
+      }
+     ],
+     "update": "height+1"
+    },
+    {
+     "events": [
+      {
+       "signal": "tLO"
+      }
+     ],
+     "update": "height-1"
+    }
+   ]
+  },
+  {
+   "name": "sH",
+   "description": "serpentine: diameter of arcs",
+   "value": 44,
+   "bindDisabled": {
+    "name": "arc diameter",
+    "input": "range",
+    "min": 0,
+    "max": 400,
+    "step": 1
+   }
+  },
+  {
+   "name": "labelsOnHover",
+   "description": "milestone: show labels on hover only",
+   "value": true,
+   "bindDisabled": {
+    "name": "hover labels",
+    "input": "checkbox"
+   }
+  },
+  {
+   "name": "sN",
+   "description": "serpentine: number of arcs",
+   "value": 16,
+   "bindDisabled": {
+    "name": "# of arcs",
+    "input": "range",
+    "min": 0,
+    "max": 20,
+    "step": 1
+   }
+  },
+  {
+   "name": "tC",
+   "description": "ticks: number of axis ticks to display on the timeline",
+   "value": 18,
+   "bindDisabled": {
+    "name": "tick count",
+    "input": "range",
+    "min": 0,
+    "max": 100,
+    "step": 1
+   }
+  },
+  {
+   "name": "tLO",
+   "description": "ticks: the offset for the tick labels",
+   "value": 15
+  },
+  {
+   "name": "mO",
+   "description": "milestone: the offset for the milestone markers",
+   "value": 8,
+   "bindDisabled": {
+    "name": "milestone offset",
+    "input": "range",
+    "min": 0,
+    "max": 1,
+    "step": 0.5
+   }
+  },
+  {
+   "name": "sR0P",
+   "description": "serpentine: percentage of width of canvas for the start of the timeline",
+   "value": 0,
+   "bindDisabled": {
+    "name": "timeline x0 %",
+    "input": "range",
+    "min": 0,
+    "max": 1,
+    "step": 0.01
+   }
+  },
+  {
+   "name": "sLP",
+   "description": "serpentine: percentage of total length of canvas for the end of the timeline",
+   "value": 1,
+   "bindDisabled": {
+    "name": "timeline len %",
+    "input": "range",
+    "min": 0,
+    "max": 1,
+    "step": 0.01
+   }
+  },
+  {
+   "name": "annotationStart",
+   "value": "",
+   "bindDisabled": {
+    "name": "start annotation",
+    "input": "text"
+   }
+  },
+  {
+   "name": "annotationEnd",
+   "value": "Today",
+   "bindDisabled": {
+    "name": "end annotation",
+    "input": "text"
+   }
+  },
+  {
+   "name": "includeArrows",
+   "value": true,
+   "bindDisabled": {
+    "name": "include arrows",
+    "input": "checkbox"
+   }
+  },
+  {
+   "name": "sT",
+   "description": "serpentine: thicknes of the line",
+   "value": 5,
+   "bindDisabled": {
+    "name": "line thickness",
+    "input": "range",
+    "min": 1,
+    "max": 10,
+    "step": 0.5
+   }
+  },
+  {
+   "name": "domain",
+   "init": "[1829, year(now())]",
+   "description": "serpentine: manually set the domain extent for the timeline, otherwise set to null to have the domain calculated for you"
+  },
+  {
+   "name": "sRange",
+   "description": "serpentine: range for the serpentine scale",
+   "update": "[sR0P*width,sL*sLP]"
+  },
+  {
+   "name": "annotations",
+   "description": "serpentine: annotations that appear at the start and end of the timeline",
+   "update": "{start: (isValid(annotationStart) ? annotationStart : ''), end: (isValid(annotationEnd) ? annotationEnd : '')}"
+  },
+  {
+   "name": "sD",
+   "update": "[2, 2]",
+   "description": "serpentine: dash array for the serpentine line"
+  },
+  {
+   "name": "reverse",
+   "description": "serpentine: boolean to indicate whether the scale for the timeline should be reversed",
+   "value": false
+  },
+  {
+   "name": "sPct",
+   "description": "serpentine: percentage of width for the straight portions of the timeline",
+   "value": 1,
+   "update": "sPct < 0.25 ? 0 : sPct < 0.75 ? 0.5 : 1"
+  },
+  {
+   "name": "sW",
+   "description": "serpentine: horizontal length of straight segments",
+   "update": "sPct*width"
+  },
+  {
+   "name": "sL",
+   "description": "serpentine: total length of line",
+   "update": "(sN+1)*sW+(sN)*sH*PI/2"
+  },
+  {
+   "name": "sA",
+   "description": "serpentine: length of an arc segment",
+   "update": "(sH*PI/2)"
+  },
+  {
+   "name": "sWsA",
+   "description": "serpentine: length of a line + arc segment",
+   "update": "(sW + sH*PI/2)"
+  },
+  {
+   "name": "sDomain",
+   "description": "serpentine: domain for the serpentine scale",
+   "init": "domain ? domain : [+extent(pluck(data('dataset'), 'domain'))[0], +extent(pluck(data('dataset'), 'domain'))[1]]"
+  },
+  {
+   "name": "hoverFocus",
+   "value": 0,
+   "on": [
+    {
+     "events": {
+      "type": "mouseover"
+     },
+     "update": "isValid(datum) && isValid(isValid(datum['domain'])) ? datum : null"
+    },
+    {
+     "events": {
+      "type": "mouseout"
+     },
+     "update": "null"
+    }
+   ]
+  },
+  {
+   "name": "cursor",
+   "value": "default",
+   "on": [
+    {
+     "events": {
+      "type": "mouseover"
+     },
+     "update": "'pointer'"
+    },
+    {
+     "events": {
+      "type": "mouseout"
+     },
+     "update": "'default'"
+    }
+   ]
+  },
+  {
+   "name": "height",
+   "description": "calculated height",
+   "update": "extent(pluck(data('serpentine'), 'y'))[1]"
+  }
+ ],
+ "scales": [
+  {
+   "name": "sS1",
+   "type": "linear",
+   "zero": false,
+   "reverse": {
+    "signal": "reverse"
+   },
+   "domain": {
+    "signal": "sDomain"
+   },
+   "range": {
+    "signal": "sRange"
+   }
+  },
+  {
+   "name": "leaf",
+   "type": "linear",
+   "domain": [
+    1,
+    15
+   ],
+   "range": [
+    "#c8d6bf",
+    "#5f6f52"
+   ],
+   "clamp": true
+  }
+ ],
+ "marks": [
+  {
+   "name": "axis_group",
+   "description": "group containing all the axis marks - annotations, domain, arrow indicators, tick lines, tick labels on straightaways, tick labels on arcs",
+   "type": "group",
+   "marks": [
+    {
+     "name": "annotations",
+     "description": "Text marks that appear at the start and end of the timeline. Configured using the 'annotations' signal",
+     "from": {
+      "data": "domain_extent"
+     },
+     "on": [
+      {
+       "trigger": "annotations",
+       "modify": "annotations"
+      }
+     ],
+     "type": "text",
+     "interactive": false,
+     "encode": {
+      "update": {
+       "x": {
+        "field": "x"
+       },
+       "y": {
+        "field": "y"
+       },
+       "text": {
+        "signal": "datum['category'] === 'start' ? annotations['start'] : annotations['end']"
+       },
+       "fontSize": {
+        "value": 10
+       },
+       "baseline": {
+        "value": "middle"
+       },
+       "align": {
+        "field": "align"
+       },
+       "angle": {
+        "field": "angle"
+       },
+       "dx": {
+        "field": "dx"
+       },
+       "dy": {
+        "signal": "1"
+       },
+       "fill": {
+        "value": "#8a8172"
+       }
+      }
+     }
+    },
+    {
+     "name": "serpentine_line",
+     "description": "The serpentine-shaped line that acts as the axis domain line",
+     "type": "line",
+     "from": {
+      "data": "serpentine"
+     },
+     "interactive": false,
+     "encode": {
+      "update": {
+       "x": {
+        "field": "x"
+       },
+       "y": {
+        "field": "y"
+       },
+       "strokeDash": {
+        "signal": "sD"
+       },
+       "stroke": {
+        "value": "#8a9a7b"
+       },
+       "strokeWidth": {
+        "signal": "sT"
+       }
+      }
+     }
+    },
+    {
+     "name": "arrow_marks",
+     "description": "The arrows to indicate direction that appear at the beginning and end of each arc+straightaway combonation",
+     "type": "text",
+     "from": {
+      "data": "segment_ends"
+     },
+     "interactive": false,
+     "encode": {
+      "update": {
+       "x": {
+        "field": "x"
+       },
+       "y": {
+        "field": "y"
+       },
+       "dy": {
+        "value": 1
+       },
+       "text": {
+        "value": "➤"
+       },
+       "fontSize": {
+        "signal": "18"
+       },
+       "fill": {
+        "value": "#8a9a7b"
+       },
+       "stroke": {
+        "value": "#f6f1e7"
+       },
+       "strokeWidth": {
+        "value": 1
+       },
+       "angle": {
+        "signal": "datum['direction'] === '→' ? 0 : 180"
+       },
+       "align": {
+        "value": "center"
+       },
+       "baseline": {
+        "value": "middle"
+       }
+      }
+     }
+    },
+    {
+     "name": "tick_marks",
+     "description": "The line (text mark) designated to each tick",
+     "from": {
+      "data": "ticks"
+     },
+     "type": "text",
+     "interactive": false,
+     "encode": {
+      "update": {
+       "x": {
+        "field": "x"
+       },
+       "y": {
+        "field": "y"
+       },
+       "dy": {
+        "signal": "2.5*( datum['type'] === 'straight' ? 1 : datum['side'] === 'right' ? (round(datum['alpha']*(180/PI)) >= 90 ? -1 : 4) : (round(datum['alpha']*(180/PI)) > 89 ? -1 : 4))"
+       },
+       "text": {
+        "signal": "'|'"
+       },
+       "fontSize": {
+        "signal": "7"
+       },
+       "fill": {
+        "value": "#8a8172"
+       },
+       "angle": {
+        "field": "labelAngle"
+       },
+       "align": {
+        "value": "center"
+       },
+       "baseline": {
+        "signal": "datum['type'] === 'straight' ? 'top' : 'bottom'"
+       }
+      }
+     }
+    },
+    {
+     "name": "tick_labels_straight",
+     "description": "The straightaway tick labels",
+     "from": {
+      "data": "ticks"
+     },
+     "type": "text",
+     "interactive": false,
+     "encode": {
+      "update": {
+       "x": {
+        "field": "x"
+       },
+       "y": {
+        "field": "y"
+       },
+       "dy": {
+        "field": "dy"
+       },
+       "text": {
+        "field": "domain"
+       },
+       "fontSize": {
+        "signal": "10"
+       },
+       "fill": {
+        "value": "#8a8172"
+       },
+       "align": {
+        "value": "center"
+       },
+       "angle": {
+        "field": "labelAngle"
+       },
+       "baseline": {
+        "signal": "datum['type'] === 'straight' ? 'top' : 'bottom'"
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "milestone_connecting_lines",
+   "description": "The milestone lines that connect the markers to labels",
+   "from": {
+    "data": "milestones"
+   },
+   "type": "text",
+   "interactive": false,
+   "encode": {
+    "update": {
+     "text": {
+      "signal": "'|'"
+     },
+     "x": {
+      "field": "x"
+     },
+     "y": {
+      "field": "y"
+     },
+     "fontSize": {
+      "value": 1
+     },
+     "fontWeight": {
+      "value": 10
+     },
+     "dy": {
+      "signal": "datum['type'] === 'arc' && (round(datum['alpha']*(180/PI)) > 89) ? 0.35 * (mO+3.5) : datum['dy']/2"
+     },
+     "align": {
+      "value": "center"
+     },
+     "baseline": {
+      "value": "middle"
+     },
+     "angle": {
+      "field": "labelAngle"
+     },
+     "fillOpacity": {
+      "value": 0.35
+     },
+     "opacity": {
+      "signal": "isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 1 : labelsOnHover ? 0 : 1"
+     }
+    }
+   }
+  },
+  {
+   "name": "milestone_markers",
+   "description": "The milestone timeline markers",
+   "from": {
+    "data": "milestones"
+   },
+   "type": "symbol",
+   "interactive": true,
+   "encode": {
+    "update": {
+     "x": {
+      "field": "x"
+     },
+     "y": {
+      "field": "y"
+     },
+     "size": {
+      "signal": "(10 + 50 * datum['eventCount'])"
+     },
+     "fill": {
+      "scale": "leaf",
+      "field": "eventCount"
+     },
+     "stroke": {
+      "signal": "isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? '#7A2E3B' : '#f6f1e7'"
+     },
+     "strokeWidth": {
+      "value": 1.5
+     },
+     "cursor": {
+      "signal": "isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 'pointer' : 'default'"
+     }
+    }
+   }
+  },
+  {
+   "name": "milestone_label_backgrounds",
+   "description": "The white backgrounds for milestone labels",
+   "from": {
+    "data": "milestones"
+   },
+   "type": "rect",
+   "interactive": false,
+   "aria": false,
+   "encode": {
+    "update": {
+     "width": {
+      "field": "boxW"
+     },
+     "height": {
+      "field": "boxH"
+     },
+     "fill": {
+      "value": "#fbf8f1"
+     },
+     "stroke": {
+      "value": "#e0d7c4"
+     },
+     "strokeWidth": {
+      "value": 1
+     },
+     "cornerRadius": {
+      "value": 2
+     },
+     "opacity": {
+      "signal": "isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 1 : labelsOnHover ? 0 : 1"
+     },
+     "y": {
+      "signal": "min(max((datum['type'] === 'straight' && (datum['y'] + 8 + datum['lineCount'] * 17 + 8) <= height ? datum['y'] + 8 : datum['y'] - 8 - datum['lineCount'] * 17), -9), height + 46 - datum['boxH']) - 7"
+     },
+     "xc": {
+      "signal": "min(max(datum['x'], -38 + datum['boxW']/2), width + 59 - datum['boxW']/2)"
+     }
+    }
+   }
+  },
+  {
+   "name": "milestone_labels",
+   "description": "The milestone labels",
+   "from": {
+    "data": "milestones"
+   },
+   "type": "text",
+   "interactive": false,
+   "encode": {
+    "update": {
+     "x": {
+      "signal": "min(max(datum['x'], -38 + datum['boxW']/2), width + 59 - datum['boxW']/2)"
+     },
+     "y": {
+      "signal": "min(max((datum['type'] === 'straight' && (datum['y'] + 8 + datum['lineCount'] * 17 + 8) <= height ? datum['y'] + 8 : datum['y'] - 8 - datum['lineCount'] * 17), -9), height + 46 - datum['boxH'])"
+     },
+     "text": {
+      "signal": "datum['domain'] + ' - ' + datum['displayLabel']"
+     },
+     "lineBreak": {
+      "value": ", "
+     },
+     "fontSize": {
+      "value": 12
+     },
+     "fill": {
+      "value": "#2f2a24"
+     },
+     "align": {
+      "value": "center"
+     },
+     "baseline": {
+      "value": "top"
+     },
+     "opacity": {
+      "signal": "isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 1 : labelsOnHover ? 0 : 1"
+     },
+     "lineHeight": {
+      "value": 17
+     }
+    }
+   }
+  }
+ ],
+ "data": [
+  {
+   "name": "dataset",
+   "values": [
+    {
+     "domain": 1829,
+     "label": "Anthurium acaule, Anthurium cordatum, Anthurium crassinervium, Anthurium digitatum, Anthurium macrophyllum, Anthurium myosuroides, Anthurium palmatum"
+    },
+    {
+     "domain": 1834,
+     "label": "Anthurium gracile"
+    },
+    {
+     "domain": 1839,
+     "label": "Anthurium coriaceum, Anthurium harrisii, Anthurium longifolium, Anthurium microphyllum, Anthurium obtusifolium, Anthurium pentaphyllum, Anthurium sagittatum"
+    },
+    {
+     "domain": 1841,
+     "label": "Anthurium angustatum, Anthurium breviscapum, Anthurium cartilagineum, Anthurium crenatum, Anthurium gaudichaudianum, Anthurium grandifolium, Anthurium hookeri, Anthurium humboldtianum, Anthurium intermedium, Anthurium lucidum, Anthurium luschnathianum, Anthurium pedatum, Anthurium podophyllum, Anthurium quinquenervium, Anthurium schlechtendalii, Anthurium sellowianum, Anthurium subsagittatum, Anthurium trinervium, Anthurium willdenowii"
+    },
+    {
+     "domain": 1845,
+     "label": "Anthurium clavigerum, Anthurium corallinum, Anthurium decurrens, Anthurium flavescens, Anthurium kunthii, Anthurium oxycarpum, Anthurium peltatum"
+    },
+    {
+     "domain": 1846,
+     "label": "Anthurium nitidum, Anthurium reticulatum, Anthurium stipitatum"
+    },
+    {
+     "domain": 1848,
+     "label": "Anthurium amoenum"
+    },
+    {
+     "domain": 1849,
+     "label": "Anthurium andicola, Anthurium umbrosum"
+    },
+    {
+     "domain": 1853,
+     "label": "Anthurium nymphaeifolium, Anthurium ochranthum, Anthurium wagenerianum"
+    },
+    {
+     "domain": 1855,
+     "label": "Anthurium affine, Anthurium augustinum, Anthurium consobrinum, Anthurium eminens, Anthurium friedrichsthalii, Anthurium galeottii, Anthurium radicans, Anthurium signatum, Anthurium striatum"
+    },
+    {
+     "domain": 1857,
+     "label": "Anthurium bogotense, Anthurium bredemeyeri, Anthurium consimile, Anthurium lindenianum, Anthurium oxybelium, Anthurium purdieanum, Anthurium scherzerianum, Anthurium sinuatum, Anthurium subtrilobum"
+    },
+    {
+     "domain": 1858,
+     "label": "Anthurium agnatum, Anthurium dominicense, Anthurium flexile, Anthurium formosum, Anthurium hoffmannii, Anthurium lancifolium, Anthurium macleanii, Anthurium microspadix, Anthurium obliquatum, Anthurium obtusilobum, Anthurium oerstedianum, Anthurium pallens, Anthurium protensum, Anthurium spectabile, Anthurium subcordatum, Anthurium subhastatum"
+    },
+    {
+     "domain": 1859,
+     "label": "Anthurium bellum, Anthurium illepidum, Anthurium kastelskii, Anthurium pedatoradiatum"
+    },
+    {
+     "domain": 1860,
+     "label": "Anthurium aduncum, Anthurium concinnatum, Anthurium dombeyanum, Anthurium fendleri, Anthurium imperiale, Anthurium langsdorffii, Anthurium lechlerianum, Anthurium metallicum, Anthurium panduriforme, Anthurium sagittaria, Anthurium solitarium, Anthurium triphyllum, Anthurium urvilleanum"
+    },
+    {
+     "domain": 1861,
+     "label": "Anthurium subsignatum"
+    },
+    {
+     "domain": 1862,
+     "label": "Anthurium comtum, Anthurium jilekii, Anthurium leuconeurum, Anthurium macrospadix, Anthurium malyi"
+    },
+    {
+     "domain": 1863,
+     "label": "Anthurium gladiifolium"
+    },
+    {
+     "domain": 1865,
+     "label": "Anthurium grande, Anthurium magnificum"
+    },
+    {
+     "domain": 1866,
+     "label": "Anthurium gymnopus, Anthurium regale, Anthurium venosum"
+    },
+    {
+     "domain": 1867,
+     "label": "Anthurium geitnerianum"
+    },
+    {
+     "domain": 1868,
+     "label": "Anthurium martianum"
+    },
+    {
+     "domain": 1871,
+     "label": "Anthurium emarginatum"
+    },
+    {
+     "domain": 1872,
+     "label": "Anthurium binotii, Anthurium roezlii"
+    },
+    {
+     "domain": 1873,
+     "label": "Anthurium crystallinum"
+    },
+    {
+     "domain": 1875,
+     "label": "Anthurium cuspidatum, Anthurium wallisii"
+    },
+    {
+     "domain": 1876,
+     "label": "Anthurium bakeri, Anthurium brownii, Anthurium veitchii"
+    },
+    {
+     "domain": 1877,
+     "label": "Anthurium andraeanum, Anthurium spathiphyllum, Anthurium trilobum"
+    },
+    {
+     "domain": 1878,
+     "label": "Anthurium gustavii, Anthurium regnellianum, Anthurium scandens, Anthurium trifidum, Anthurium warocqueanum"
+    },
+    {
+     "domain": 1879,
+     "label": "Anthurium cultrifolium, Anthurium fraseri, Anthurium montanum, Anthurium salvinii, Anthurium walujewii"
+    },
+    {
+     "domain": 1880,
+     "label": "Anthurium parvum"
+    },
+    {
+     "domain": 1882,
+     "label": "Anthurium longipes"
+    },
+    {
+     "domain": 1883,
+     "label": "Anthurium crassifolium, Anthurium splendidum"
+    },
+    {
+     "domain": 1884,
+     "label": "Anthurium lievensii"
+    },
+    {
+     "domain": 1885,
+     "label": "Anthurium carinatum, Anthurium caucanum, Anthurium cupreum, Anthurium denudatum, Anthurium flavidum, Anthurium hygrophilum, Anthurium inconspicuum, Anthurium parvispathum, Anthurium pulchellum, Anthurium sanguineum, Anthurium subtriangulare, Anthurium tolimense, Anthurium truncatulum"
+    },
+    {
+     "domain": 1886,
+     "label": "Anthurium punctatum, Anthurium roraimense, Anthurium subulatum"
+    },
+    {
+     "domain": 1887,
+     "label": "Anthurium acutum, Anthurium purpureum"
+    },
+    {
+     "domain": 1888,
+     "label": "Anthurium chamberlainii"
+    },
+    {
+     "domain": 1889,
+     "label": "Anthurium cymbiforme"
+    },
+    {
+     "domain": 1895,
+     "label": "Anthurium sylvestre"
+    },
+    {
+     "domain": 1898,
+     "label": "Anthurium acutangulum, Anthurium acutifolium, Anthurium acutissimum, Anthurium andinum, Anthurium angosturense, Anthurium angustilaminatum, Anthurium angustisectum, Anthurium aureum, Anthurium balaoanum, Anthurium buganum, Anthurium caramantae, Anthurium coerulescens, Anthurium crassivenium, Anthurium cubense, Anthurium daguense, Anthurium deflexum, Anthurium durandii, Anthurium dussii, Anthurium ecuadorense, Anthurium eggersii, Anthurium eichleri, Anthurium eximium, Anthurium filiforme, Anthurium flavoviride, Anthurium funiferum, Anthurium giganteum, Anthurium gualeanum, Anthurium guanacense, Anthurium guayaquilense, Anthurium hacumense, Anthurium hieronymi, Anthurium incurvatum, Anthurium incurvum, Anthurium inzanum, Anthurium karstenianum, Anthurium lehmannii, Anthurium lindmanianum, Anthurium longegeniculatum, Anthurium longicaudatum, Anthurium longicuspidatum, Anthurium longistamineum, Anthurium monticola, Anthurium mourae, Anthurium multinervium, Anthurium napaeum, Anthurium nicolasianum, Anthurium nigrescens, Anthurium nitidulum, Anthurium organense, Anthurium ovatifolium, Anthurium pallatangense, Anthurium pallidiflorum, Anthurium paludosum, Anthurium paraguayense, Anthurium pichinchae, Anthurium pittieri, Anthurium ranchoanum, Anthurium rigidifolium, Anthurium sarmentosum, Anthurium seleri, Anthurium silvicola, Anthurium sodiroanum, Anthurium stuebelii, Anthurium subcaudatum, Anthurium subcoerulescens, Anthurium sulcatum, Anthurium supianum, Anthurium talamancae, Anthurium tenerum, Anthurium tenuicaule, Anthurium tenuifolium, Anthurium tonduzii, Anthurium truncicola, Anthurium umbricola, Anthurium velutinum, Anthurium viridescens, Anthurium yarumalense"
+    },
+    {
+     "domain": 1901,
+     "label": "Anthurium argyrostachyum, Anthurium aristatum, Anthurium atroviride, Anthurium brachypodum, Anthurium citrifolium, Anthurium clathratum, Anthurium corrugatum, Anthurium cymbispatha, Anthurium dolichostachyum, Anthurium exstipulatum, Anthurium furcatum, Anthurium hastifolium, Anthurium interruptum, Anthurium laciniosum, Anthurium lancea, Anthurium latemarginatum, Anthurium lloense, Anthurium macrourum, Anthurium maculosum, Anthurium margaricarpum, Anthurium mindense, Anthurium miniatum, Anthurium nemorale, Anthurium ochreatum, Anthurium oreophilum, Anthurium orientale, Anthurium oxyphyllum, Anthurium platyglossum, Anthurium polyphlebium, Anthurium praealtum, Anthurium pulverulentum, Anthurium radiatum, Anthurium riofrioi, Anthurium rivulare, Anthurium rugulosum, Anthurium sagittale, Anthurium striatipes, Anthurium striolatum, Anthurium tremulum, Anthurium umbraculum, Anthurium variegatum, Anthurium versicolor, Anthurium vomeriforme"
+    },
+    {
+     "domain": 1903,
+     "label": "Anthurium anceps, Anthurium auritum, Anthurium conterminum, Anthurium cordulatum, Anthurium dendrobates, Anthurium dolichophyllum, Anthurium geniculatum, Anthurium leonianum, Anthurium marmoratum, Anthurium masfense, Anthurium rimbachii, Anthurium saccardoi, Anthurium subtruncatum, Anthurium tricarinatum"
+    },
+    {
+     "domain": 1904,
+     "label": "Anthurium pendulifolium"
+    },
+    {
+     "domain": 1905,
+     "label": "Anthurium alatum, Anthurium albidum, Anthurium albispatha, Anthurium albovirescens, Anthurium alegriasense, Anthurium antioquiense, Anthurium barbacoasense, Anthurium barclayanum, Anthurium brevipes, Anthurium bullianum, Anthurium bullosum, Anthurium cabrerense, Anthurium cachabianum, Anthurium cainarachense, Anthurium camposii, Anthurium canaliculatum, Anthurium carneospadix, Anthurium caulorrhizum, Anthurium chorense, Anthurium coripatense, Anthurium cupreonitens, Anthurium curvatum, Anthurium cuspidiferum, Anthurium draconopterum, Anthurium ernesti, Anthurium esmeraldense, Anthurium fasciale, Anthurium flavolineatum, Anthurium fuscopunctatum, Anthurium gaffurii, Anthurium glanduligerum, Anthurium glaucophyllum, Anthurium huallagense, Anthurium huanucense, Anthurium jenmanii, Anthurium julospadix, Anthurium latissimum, Anthurium lineolatum, Anthurium lingua, Anthurium linguifolium, Anthurium loefgrenii, Anthurium lucorum, Anthurium lutescens, Anthurium macrolonchium, Anthurium marginellum, Anthurium maximum, Anthurium membranaceum, Anthurium monzonense, Anthurium multisulcatum, Anthurium myosurus, Anthurium navasii, Anthurium nitens, Anthurium obtusatum, Anthurium parambae, Anthurium pedunculare, Anthurium pellucidopunctatum, Anthurium peltigerum, Anthurium pirottae, Anthurium plantagineum, Anthurium pohlianum, Anthurium polystictum, Anthurium prominens, Anthurium psilostachyum, Anthurium quinquesulcatum, Anthurium rhizophorum, Anthurium riparium, Anthurium rotundilobum, Anthurium rupestre, Anthurium sagittellum, Anthurium scaberulum, Anthurium septuplinervium, Anthurium spathulifolium, Anthurium subcarinatum, Anthurium tarapotense, Anthurium tenuispica, Anthurium tonianum, Anthurium trianae, Anthurium trisectum, Anthurium uleanum, Anthurium validinervium, Anthurium verapazense, Anthurium vestitum, Anthurium vittariifolium, Anthurium weberbaueri"
+    },
+    {
+     "domain": 1906,
+     "label": "Anthurium brittonianum, Anthurium conspicuum, Anthurium cordiforme, Anthurium forgetii, Anthurium occidentale, Anthurium paucinerve, Anthurium plurisulcatum, Anthurium polyneuron, Anthurium resectum"
+    },
+    {
+     "domain": 1908,
+     "label": "Anthurium bimarginatum, Anthurium candolleanum, Anthurium oreodoxa, Anthurium treleasei"
+    },
+    {
+     "domain": 1910,
+     "label": "Anthurium buchtienii"
+    },
+    {
+     "domain": 1914,
+     "label": "Anthurium watermaliense"
+    },
+    {
+     "domain": 1916,
+     "label": "Anthurium colonicum"
+    },
+    {
+     "domain": 1924,
+     "label": "Anthurium aripoense"
+    },
+    {
+     "domain": 1925,
+     "label": "Anthurium hoehnei, Anthurium marense, Anthurium michelii"
+    },
+    {
+     "domain": 1926,
+     "label": "Anthurium antrophyoides"
+    },
+    {
+     "domain": 1927,
+     "label": "Anthurium tilaranense"
+    },
+    {
+     "domain": 1929,
+     "label": "Anthurium expansum, Anthurium potarense"
+    },
+    {
+     "domain": 1930,
+     "label": "Anthurium gracilipedunculatum, Anthurium longispadiceum, Anthurium macbridei, Anthurium schunkei, Anthurium siccisilvarum"
+    },
+    {
+     "domain": 1932,
+     "label": "Anthurium concolor, Anthurium conjunctum, Anthurium fatoense, Anthurium idmense, Anthurium ottonis, Anthurium petrophilum, Anthurium ramonense, Anthurium validifolium, Anthurium yurimaguense"
+    },
+    {
+     "domain": 1937,
+     "label": "Anthurium ericae, Anthurium pastasanum, Anthurium rhodorhizum"
+    },
+    {
+     "domain": 1938,
+     "label": "Anthurium ceratiinum, Anthurium lucens"
+    },
+    {
+     "domain": 1940,
+     "label": "Anthurium chiapasense, Anthurium chiriquense, Anthurium clidemioides, Anthurium davidsoniae, Anthurium herthae, Anthurium pachyspathum, Anthurium silvigaudens"
+    },
+    {
+     "domain": 1947,
+     "label": "Anthurium longissimum, Anthurium retiferum, Anthurium titanium"
+    },
+    {
+     "domain": 1948,
+     "label": "Anthurium maguirei"
+    },
+    {
+     "domain": 1950,
+     "label": "Anthurium huixtlense, Anthurium nakamurae, Anthurium parasiticum"
+    },
+    {
+     "domain": 1951,
+     "label": "Anthurium ptarianum"
+    },
+    {
+     "domain": 1952,
+     "label": "Anthurium beltianum, Anthurium berriozabalense, Anthurium clarinervium, Anthurium macdougallii, Anthurium machetioides, Anthurium terryae"
+    },
+    {
+     "domain": 1953,
+     "label": "Anthurium atropurpureum, Anthurium fontoides, Anthurium nemoricola, Anthurium pluviaticum, Anthurium tikunorum"
+    },
+    {
+     "domain": 1954,
+     "label": "Anthurium macarenense, Anthurium macrocephalum"
+    },
+    {
+     "domain": 1956,
+     "label": "Anthurium lezamae"
+    },
+    {
+     "domain": 1957,
+     "label": "Anthurium chamulense, Anthurium cleistanthum, Anthurium icanense, Anthurium lacerdae, Anthurium ocotepecense, Anthurium pilonense, Anthurium riograndicola"
+    },
+    {
+     "domain": 1958,
+     "label": "Anthurium apaporanum, Anthurium nanum"
+    },
+    {
+     "domain": 1959,
+     "label": "Anthurium cerropelonense, Anthurium nizandense, Anthurium polyschistum, Anthurium subovatum"
+    },
+    {
+     "domain": 1960,
+     "label": "Anthurium cerrobaulense"
+    },
+    {
+     "domain": 1962,
+     "label": "Anthurium yetlense"
+    },
+    {
+     "domain": 1964,
+     "label": "Anthurium infectorium"
+    },
+    {
+     "domain": 1965,
+     "label": "Anthurium wendlingeri"
+    },
+    {
+     "domain": 1966,
+     "label": "Anthurium andreslovinense, Anthurium cordatotriangulum, Anthurium lanjouwii, Anthurium rionegrense"
+    },
+    {
+     "domain": 1967,
+     "label": "Anthurium longipeltatum"
+    },
+    {
+     "domain": 1970,
+     "label": "Anthurium sucrii, Anthurium xanthophylloides"
+    },
+    {
+     "domain": 1971,
+     "label": "Anthurium mancuniense"
+    },
+    {
+     "domain": 1975,
+     "label": "Anthurium bonplandii, Anthurium caripense, Anthurium huautlense, Anthurium julianii, Anthurium lilacinum, Anthurium nubicola, Anthurium paradisicum, Anthurium pariense, Anthurium smaragdinum, Anthurium tamaense, Anthurium tatei, Anthurium wurdackii, Anthurium yutajense"
+    },
+    {
+     "domain": 1978,
+     "label": "Anthurium arisaemoides, Anthurium brevipedunculatum, Anthurium croatii, Anthurium cutucuense, Anthurium dressleri, Anthurium erskinei, Anthurium grex-avium, Anthurium incomptum, Anthurium polydactylum, Anthurium superbum, Anthurium thrinax"
+    },
+    {
+     "domain": 1979,
+     "label": "Anthurium alatipedunculatum, Anthurium angustispadix, Anthurium austin-smithii, Anthurium brenesii, Anthurium burgeri, Anthurium caperatum, Anthurium carnosum, Anthurium clavatum, Anthurium cotobrusii, Anthurium lentii, Anthurium louisii, Anthurium monteverdense, Anthurium prolatum, Anthurium ravenii, Anthurium schottianum, Anthurium seibertii, Anthurium standleyi, Anthurium testaceum, Anthurium upalaense, Anthurium utleyorum"
+    },
+    {
+     "domain": 1980,
+     "label": "Anthurium amnicola"
+    },
+    {
+     "domain": 1981,
+     "label": "Anthurium cerrocampanense, Anthurium circinatum, Anthurium coclense, Anthurium dwyeri, Anthurium luteynii, Anthurium purpureospathum, Anthurium rotundistigmatum, Anthurium salvadorense, Anthurium sanctifidense, Anthurium vallense"
+    },
+    {
+     "domain": 1983,
+     "label": "Anthurium coleomischum"
+    },
+    {
+     "domain": 1984,
+     "label": "Anthurium armeniense, Anthurium halmoorei, Anthurium lancetillense, Anthurium nelsonii, Anthurium rzedowskii"
+    },
+    {
+     "domain": 1986,
+     "label": "Anthurium alticola, Anthurium angustilobum, Anthurium antonioanum, Anthurium aroense, Anthurium barryi, Anthurium bernardii, Anthurium berryi, Anthurium betanianum, Anthurium brevispadix, Anthurium caloveboranum, Anthurium caraboboense, Anthurium cartiense, Anthurium cataniapoense, Anthurium cerropirrense, Anthurium chorranum, Anthurium chromostachyum, Anthurium cinereopetiolatum, Anthurium collinsii, Anthurium colonense, Anthurium coloradense, Anthurium correae, Anthurium crassilaminum, Anthurium crassiradix, Anthurium crassitepalum, Anthurium cuasicanum, Anthurium cucullispathum, Anthurium curvilaminum, Anthurium curvispadix, Anthurium davidsei, Anthurium dichrophyllum, Anthurium dukei, Anthurium erythrostachyum, Anthurium fernandezii, Anthurium folsomianum, Anthurium foreroanum, Anthurium fragrantissimum, Anthurium fusiforme, Anthurium gehrigeri, Anthurium gentryi, Anthurium ginesii, Anthurium globosum, Anthurium gonzalezii, Anthurium gracililaminum, Anthurium gracilispadix, Anthurium guanchezii, Anthurium hammelii, Anthurium hebetatum, Anthurium hornitense, Anthurium humoense, Anthurium hutchisonii, Anthurium impolitum, Anthurium jefense, Anthurium kallunkiae, Anthurium kamemotoanum, Anthurium lactifructum, Anthurium leptocaule, Anthurium llanense, Anthurium longistipitatum, Anthurium madisonianum, Anthurium malianum, Anthurium marinoanum, Anthurium melastomatis, Anthurium nervatum, Anthurium niqueanum, Anthurium oxystachyum, Anthurium pageanum, Anthurium panamense, Anthurium papillilaminum, Anthurium pauciflorum, Anthurium pendens, Anthurium perijanum, Anthurium pirrense, Anthurium platyrhizum, Anthurium pseudospectabile, Anthurium puberulinervium, Anthurium redolens, Anthurium roseospadix, Anthurium rubrifructum, Anthurium rupicola, Anthurium sagawae, Anthurium sapense, Anthurium smithii, Anthurium subrotundum, Anthurium subscriptum, Anthurium supraglandulum, Anthurium sytsmae, Anthurium tacarcunense, Anthurium tachiranum, Anthurium teribense, Anthurium tutense, Anthurium tysonii, Anthurium wedelianum, Anthurium xanthoneurum"
+    },
+    {
+     "domain": 1987,
+     "label": "Anthurium plowmanii"
+    },
+    {
+     "domain": 1988,
+     "label": "Anthurium vinillense"
+    },
+    {
+     "domain": 1989,
+     "label": "Anthurium iramireziae"
+    },
+    {
+     "domain": 1991,
+     "label": "Anthurium anorianum, Anthurium asplundii, Anthurium basirotundum, Anthurium bradeanum, Anthurium bucayanum, Anthurium bushii, Anthurium campii, Anthurium carchiense, Anthurium caucavallense, Anthurium cowanii, Anthurium curtispadix, Anthurium galactospadix, Anthurium glaucospadix, Anthurium hagsaterianum, Anthurium harlingianum, Anthurium holm-nielsenii, Anthurium johnsoniae, Anthurium jureianum, Anthurium knappiae, Anthurium krukovii, Anthurium lennartii, Anthurium llewellynii, Anthurium manabianum, Anthurium manuanum, Anthurium narinoense, Anthurium obscurinervium, Anthurium pachylaminum, Anthurium palenquense, Anthurium penningtonii, Anthurium pranceanum, Anthurium reflexinervium, Anthurium remotigeniculatum, Anthurium santiagoense, Anthurium sarukhanianum, Anthurium simpsonii, Anthurium solomonii, Anthurium soukupii, Anthurium sparreorum, Anthurium tenaense, Anthurium vaupesianum, Anthurium willifordii"
+    },
+    {
+     "domain": 1993,
+     "label": "Anthurium bittneri"
+    },
+    {
+     "domain": 1996,
+     "label": "Anthurium balslevii, Anthurium cabuyalense, Anthurium cupulispathum, Anthurium hebetatilaminum, Anthurium jaramilloi, Anthurium jimenae, Anthurium magnifolium, Anthurium nigropunctatum, Anthurium rodrigueziae, Anthurium silanchense"
+    },
+    {
+     "domain": 1997,
+     "label": "Anthurium limonense, Anthurium obtusum"
+    },
+    {
+     "domain": 1999,
+     "label": "Anthurium minarum"
+    },
+    {
+     "domain": 2000,
+     "label": "Anthurium bromelicola, Anthurium maricense"
+    },
+    {
+     "domain": 2001,
+     "label": "Anthurium faustomirandae, Anthurium megapetiolatum"
+    },
+    {
+     "domain": 2002,
+     "label": "Anthurium ensifolium, Anthurium obpyriforme"
+    },
+    {
+     "domain": 2003,
+     "label": "Anthurium anchicayense, Anthurium cogolloanum, Anthurium salgarense"
+    },
+    {
+     "domain": 2004,
+     "label": "Anthurium acanthospadix, Anthurium acutibacca, Anthurium amargalense, Anthurium ancuashii, Anthurium arusiense, Anthurium atramentarium, Anthurium chimborazense, Anthurium chrysolithos, Anthurium churutense, Anthurium colonchense, Anthurium constrictum, Anthurium debile, Anthurium fontellanum, Anthurium galeanoae, Anthurium grandicataphyllum, Anthurium hodgei, Anthurium johnmackii, Anthurium licium, Anthurium lucioi, Anthurium macphersonii, Anthurium modicum, Anthurium morae, Anthurium moronense, Anthurium pallidicaudex, Anthurium pinkleyi, Anthurium promininerve, Anthurium ramoncaracasii, Anthurium rotundatum, Anthurium silverstonei, Anthurium soejartoi, Anthurium subaequans, Anthurium ternifolium, Anthurium variilobum"
+    },
+    {
+     "domain": 2005,
+     "label": "Anthurium acebeyae, Anthurium ameliae, Anthurium apanui, Anthurium atamainii, Anthurium baguense, Anthurium beckii, Anthurium besseae, Anthurium bocainense, Anthurium brent-berlinii, Anthurium ceronii, Anthurium chinchipense, Anthurium chinimense, Anthurium curicuriariense, Anthurium darcyi, Anthurium diazii, Anthurium effusilobum, Anthurium fornicifolium, Anthurium fragrans, Anthurium galileanum, Anthurium giraldoi, Anthurium hamiltonii, Anthurium huampamiense, Anthurium huashikatii, Anthurium kayapii, Anthurium kugkumasii, Anthurium kusuense, Anthurium leonii, Anthurium leveaui, Anthurium ligulare, Anthurium luxurians, Anthurium macdanielii, Anthurium magdae, Anthurium mariae, Anthurium moonenii, Anthurium mostaceroi, Anthurium ottobuchtienii, Anthurium payaminoense, Anthurium penae, Anthurium piurensis, Anthurium quipuscoae, Anthurium rojasiae, Anthurium santaritense, Anthurium shinumas, Anthurium sidneyi, Anthurium stephanii, Anthurium tsamajainii, Anthurium tunquii, Anthurium viridispathum, Anthurium whitmorei, Anthurium yamayakatense, Anthurium yungasense"
+    },
+    {
+     "domain": 2006,
+     "label": "Anthurium albertiae, Anthurium arenasense, Anthurium barreranum, Anthurium barrieri, Anthurium bayae, Anthurium boudetii, Anthurium bragae, Anthurium calimense, Anthurium coleorrhiza, Anthurium cordobense, Anthurium cylindratum, Anthurium fragae, Anthurium gomesianum, Anthurium hinoideum, Anthurium holquinianum, Anthurium isidroense, Anthurium joaquinense, Anthurium langendoenii, Anthurium lautum, Anthurium lygrum, Anthurium malagaense, Anthurium oxyanthum, Anthurium perviride, Anthurium phyllobaris, Anthurium remotum, Anthurium rubrivellus, Anthurium simonii, Anthurium unense, Anthurium verrucosum, Anthurium victorii, Anthurium wattii, Anthurium wintersii"
+    },
+    {
+     "domain": 2007,
+     "label": "Anthurium callejasii, Anthurium chocoense, Anthurium guatemalense, Anthurium ianthinopodum, Anthurium palacioanum, Anthurium vanderknaapii, Anthurium werffii"
+    },
+    {
+     "domain": 2008,
+     "label": "Anthurium alcatrazense, Anthurium alluriquinense, Anthurium carpishense, Anthurium cerrateae, Anthurium chacoense, Anthurium cuyabenoense, Anthurium debilipeltatum, Anthurium dolichocnemum, Anthurium effusispathum, Anthurium fosteri, Anthurium huacamayoense, Anthurium iltisii, Anthurium ionanthum, Anthurium josei, Anthurium linganii, Anthurium lojtnantii, Anthurium longissimilobum, Anthurium longiusculum, Anthurium loretense, Anthurium naviculare, Anthurium nutibarense, Anthurium pescadilloense, Anthurium pradoense, Anthurium puberulum, Anthurium pucayacuense, Anthurium pulcachense, Anthurium samamaense, Anthurium sebastianense, Anthurium timplowmanii, Anthurium ventanasense, Anthurium warintsense, Anthurium zuluagae"
+    },
+    {
+     "domain": 2009,
+     "label": "Anthurium benavidesiae, Anthurium bernalii, Anthurium chucunesense, Anthurium gerherrerae, Anthurium gracilistipum, Anthurium herrerae, Anthurium keatingii, Anthurium lakei, Anthurium martae, Anthurium melampyi, Anthurium nestorpazii, Anthurium pazii, Anthurium pendulispadix, Anthurium planadense, Anthurium protrudens, Anthurium restrepoae, Anthurium ricaurtense, Anthurium terracola"
+    },
+    {
+     "domain": 2010,
+     "label": "Anthurium achupallense, Anthurium algentryi, Anthurium alstonii, Anthurium altobueyense, Anthurium angelopolisense, Anthurium arbelaezii, Anthurium birdseyanum, Anthurium boekei, Anthurium bogneri, Anthurium caldodsonii, Anthurium cardenasii, Anthurium cirinoi, Anthurium clarkei, Anthurium cocornaense, Anthurium collettianum, Anthurium cotejense, Anthurium cremersii, Anthurium delannayi, Anthurium dorbayae, Anthurium dylanii, Anthurium espinae, Anthurium gaskinii, Anthurium huberi, Anthurium jesusii, Anthurium kajekaii, Anthurium kunayalense, Anthurium libanoense, Anthurium lynniae, Anthurium maasii, Anthurium mendietae, Anthurium merlei, Anthurium miaziense, Anthurium molle, Anthurium munchiquense, Anthurium nangaritense, Anthurium novitaense, Anthurium palmarense, Anthurium paraguasense, Anthurium patens, Anthurium pichindense, Anthurium pulidoae, Anthurium quinindense, Anthurium ramosense, Anthurium ramosii, Anthurium recavum, Anthurium renteriae, Anthurium sierpense, Anthurium suramaense, Anthurium teimosoanum, Anthurium tomasiae, Anthurium torraense, Anthurium triciafrankiae, Anthurium uasadiensis, Anthurium venadoense, Anthurium vientense, Anthurium werneri, Anthurium yatacuense"
+    },
+    {
+     "domain": 2011,
+     "label": "Anthurium apiaense, Anthurium aylwardianum, Anthurium benktsparrei, Anthurium bicordoense, Anthurium boosianum, Anthurium cipoense, Anthurium diversicaudex, Anthurium genferryae, Anthurium hatschbachii, Anthurium marleenianum, Anthurium molaui, Anthurium morii, Anthurium polynervium, Anthurium porcesitoense, Anthurium punkuyocense, Anthurium raimundii, Anthurium riojaense, Anthurium straminopetiolum, Anthurium talmonii, Anthurium truncatum, Anthurium zappiae"
+    },
+    {
+     "domain": 2012,
+     "label": "Anthurium chequitavense, Anthurium macropodum, Anthurium mateoi, Anthurium monteagudoi, Anthurium queirozianum, Anthurium ribeiroi, Anthurium riodocense, Anthurium rodvasquezii, Anthurium siqueirae, Anthurium valenzuelae, Anthurium zeneidae"
+    },
+    {
+     "domain": 2013,
+     "label": "Anthurium alturaense, Anthurium aromoense, Anthurium banderasense, Anthurium becerrae, Anthurium betsyae, Anthurium breviapiculum, Anthurium cascajalense, Anthurium churchilliorum, Anthurium deminutum, Anthurium donovaniae, Anthurium granulineare, Anthurium guanghuae, Anthurium haltonii, Anthurium henryi, Anthurium horridum, Anthurium imazaense, Anthurium ingramii, Anthurium kareniae, Anthurium laminense, Anthurium lilafructum, Anthurium luteospathum, Anthurium magrewii, Anthurium paloraense, Anthurium penonomense, Anthurium quinonesiae, Anthurium riocojimiesense, Anthurium roubikii, Anthurium suethompsoniae, Anthurium trujilloi"
+    },
+    {
+     "domain": 2014,
+     "label": "Anthurium angustifolium, Anthurium bantanum, Anthurium cronembergerae, Anthurium jaimeanum, Anthurium pahumense, Anthurium rioacimense, Anthurium sakuraguianum, Anthurium viridivinosum"
+    },
+    {
+     "domain": 2015,
+     "label": "Anthurium abajoense, Anthurium alcogolloi, Anthurium batistae, Anthurium blanquitense, Anthurium cachoeirense, Anthurium carrasquillanum, Anthurium coicoyanense, Anthurium combeimense, Anthurium curtipedunculum, Anthurium dabeibaense, Anthurium elquincense, Anthurium espiranzaense, Anthurium frontinoense, Anthurium hempeanum, Anthurium juanguillermoi, Anthurium monteazulense, Anthurium ovidioi, Anthurium oyuelae, Anthurium pedrazae, Anthurium poloense, Anthurium sanjorgense, Anthurium sneidernii, Anthurium tortuosum, Anthurium triangulopetiolum, Anthurium yanacochense"
+    },
+    {
+     "domain": 2016,
+     "label": "Anthurium albispadix, Anthurium annularum, Anthurium christeliae, Anthurium chucantiense, Anthurium filamatamaense, Anthurium intactum, Anthurium lasabanetaense, Anthurium mucuri, Anthurium palosecense, Anthurium roseonaviculare, Anthurium solanoi, Anthurium suffusum"
+    },
+    {
+     "domain": 2017,
+     "label": "Anthurium altaverapazense, Anthurium alvinii, Anthurium archilae, Anthurium baldinii, Anthurium cerrofrioense, Anthurium cerrosantiagoense, Anthurium hartmanii, Anthurium idimae, Anthurium mikeneei, Anthurium santamariae, Anthurium totontepecense, Anthurium viridifusiforme"
+    },
+    {
+     "domain": 2018,
+     "label": "Anthurium aciculare, Anthurium aciforme, Anthurium atroguttatum, Anthurium boylei, Anthurium caparaoense, Anthurium carmenense, Anthurium cobbiae, Anthurium dalmauii, Anthurium debile-emarginatum, Anthurium dichromum, Anthurium elisalevyae, Anthurium erythrospadix, Anthurium gelpii, Anthurium griseosessile, Anthurium jorgemendietanum, Anthurium melanochlorum, Anthurium misturatum, Anthurium mongonense, Anthurium narae, Anthurium narvaezii, Anthurium pseudonigrescens, Anthurium toisanense"
+    },
+    {
+     "domain": 2019,
+     "label": "Anthurium bruxellense, Anthurium chuchubiense, Anthurium cornejoi, Anthurium decipiens, Anthurium decursivum, Anthurium erythrospathaceum, Anthurium hannoniae, Anthurium harleyi, Anthurium impolitoellipticum, Anthurium kinsingeriae, Anthurium longeinternodum, Anthurium mansellii, Anthurium marcusianum, Anthurium martinellii, Anthurium pandurilaminum, Anthurium petiolicarinatum, Anthurium pseudotalamancae, Anthurium rosselianum, Anthurium temponiae, Anthurium theofiloanum, Anthurium trangulohastatum, Anthurium waramirezii"
+    },
+    {
+     "domain": 2020,
+     "label": "Anthurium alfaroi, Anthurium amistadense, Anthurium arandae, Anthurium arcuatum, Anthurium armbrusteri, Anthurium atrovinosum, Anthurium brigadeiroense, Anthurium bustamanteae, Anthurium carlablackiae, Anthurium castillomontii, Anthurium clewellii, Anthurium copense, Anthurium ellenbergii, Anthurium fogdeniorum, Anthurium fortunense, Anthurium hayanum, Anthurium ixtlanense, Anthurium kirkdukeorum, Anthurium laevigatum, Anthurium laevum, Anthurium leptos, Anthurium lucilanum, Anthurium lutheri, Anthurium luzense, Anthurium macveaniae, Anthurium marginervium, Anthurium mausethii, Anthurium maxakali, Anthurium minutipustulum, Anthurium miritiparanaense, Anthurium ngabebuglense, Anthurium nomdiosense, Anthurium novencidoanum, Anthurium oistophyllum, Anthurium orlando-ortizii, Anthurium orlandoi, Anthurium picadoae, Anthurium ptenospathum, Anthurium pucuroense, Anthurium raphaelense, Anthurium ratonense, Anthurium rectinervium, Anthurium rociorojasiae, Anthurium roseonervium, Anthurium sagrilloanum, Anthurium siapidaarae, Anthurium sixaolense, Anthurium sonaense, Anthurium taylorianum, Anthurium tenuireticulum, Anthurium tifense, Anthurium tubualaense"
+    },
+    {
+     "domain": 2021,
+     "label": "Anthurium alegrense, Anthurium alfcardozoi, Anthurium barbourii, Anthurium bomboizense, Anthurium camiloi, Anthurium chloron, Anthurium coltovarense, Anthurium corrientense, Anthurium dillonii, Anthurium ferryae, Anthurium galipanense, Anthurium gallardoae, Anthurium georgetatei, Anthurium grahamii, Anthurium guaicaipurense, Anthurium hansonianum, Anthurium ivanportillae, Anthurium jamboense, Anthurium katherineshawiae, Anthurium lapecaense, Anthurium lapoanum, Anthurium longistrorsum, Anthurium losencuentrosense, Anthurium mayoanum, Anthurium muyunense, Anthurium nigrolaminum, Anthurium oneillii, Anthurium pallidispadix, Anthurium perezfarrerae, Anthurium perlatum, Anthurium philipii, Anthurium pseudoclavigerum, Anthurium ronliesneri, Anthurium schulenbergii, Anthurium sterilispadix, Anthurium toasae, Anthurium waiwaimense, Anthurium walhertii, Anthurium walterlewisianum, Anthurium yankuamense"
+    },
+    {
+     "domain": 2022,
+     "label": "Anthurium abelardoi, Anthurium acaimense, Anthurium alatipetiolum, Anthurium albifructum, Anthurium alejandroi, Anthurium alexandri, Anthurium alexespinosae, Anthurium angelamorae, Anthurium ariztutense, Anthurium attenuatifolium, Anthurium aurantiifructum, Anthurium bajobonitense, Anthurium barfodii, Anthurium belenense, Anthurium bergii, Anthurium berguidoi, Anthurium billdarcyi, Anthurium billhahnii, Anthurium boqueronense, Anthurium botijaense, Anthurium bovinii, Anthurium bratsiense, Anthurium breedlovei, Anthurium brunneum, Anthurium bueyense, Anthurium caldasii, Anthurium carrionii, Anthurium certeguense, Anthurium chaconii, Anthurium chiriacoense, Anthurium churchillii, Anthurium claudiae, Anthurium cojimiesense, Anthurium comincoense, Anthurium coquiense, Anthurium cuadrosii, Anthurium davidneillii, Anthurium deneversii, Anthurium diabloense, Anthurium diversurense, Anthurium doroteryense, Anthurium duocostatum, Anthurium edtysonii, Anthurium flagellum, Anthurium floresii, Anthurium fredmulleri, Anthurium friedrichii, Anthurium gerardoi, Anthurium gladysmartineziae, Anthurium glandulicostum, Anthurium granditepalum, Anthurium gregneversii, Anthurium gruesoi, Anthurium guaboense, Anthurium guadalupeae, Anthurium habitense, Anthurium heathlongiorum, Anthurium heraclioanum, Anthurium hoellii, Anthurium holyi, Anthurium hughchurchillii, Anthurium iguanitense, Anthurium insolitum, Anthurium ixtenamense, Anthurium jaimefolsomii, Anthurium jicoteense, Anthurium jimfolsomii, Anthurium jimgribianum, Anthurium jimwestii, Anthurium kensytsmae, Anthurium kittredgeanum, Anthurium koesteri, Anthurium kubickii, Anthurium lamanense, Anthurium lellingeri, Anthurium lobinii, Anthurium loratum, Anthurium luzmariae, Anthurium mercadoi, Anthurium mercedesense, Anthurium micosense, Anthurium minimum, Anthurium minutiareolum, Anthurium minutiglandulum, Anthurium miriamiae, Anthurium mittermeieri, Anthurium monroi, Anthurium morrisii, Anthurium muscidiradix, Anthurium neei, Anthurium nonoense, Anthurium nutans, Anthurium oblitum, Anthurium oblongispicum, Anthurium omarescobarii, Anthurium orellanense, Anthurium orosiense, Anthurium ortizii, Anthurium pacevedoi, Anthurium pacificum, Anthurium pallidifibrum, Anthurium palmitasense, Anthurium paulmaasii, Anthurium pedernalense, Anthurium perangustum, Anthurium peregrinense, Anthurium polancoi, Anthurium prominor, Anthurium purpuribacca, Anthurium robertii, Anthurium sabanitense, Anthurium scottmorii, Anthurium sknappiae, Anthurium stockwellii, Anthurium sueae, Anthurium sukutense, Anthurium sursumtepalum, Anthurium tacotalpense, Anthurium tarapuiense, Anthurium tarrazuense, Anthurium tayuticense, Anthurium toroense, Anthurium tsaiae, Anthurium tscuiense, Anthurium tuquesense, Anthurium unguiense, Anthurium ustupoense, Anthurium vanninii, Anthurium veraguense, Anthurium victoriense, Anthurium viridiflavum, Anthurium vlastimilii, Anthurium wellingae, Anthurium wiehleri, Anthurium xanthum, Anthurium yatuense, Anthurium zachdufranianum, Anthurium zakii, Anthurium zapatae, Anthurium zhui"
+    },
+    {
+     "domain": 2023,
+     "label": "Anthurium guerreroense, Anthurium hentrichianum, Anthurium huaytae, Anthurium ivoniae, Anthurium knopflmacherianum, Anthurium matabanchoyae, Anthurium pluricarinatum, Anthurium superimpendens"
+    },
+    {
+     "domain": 2024,
+     "label": "Anthurium amplexispathum, Anthurium anomalum, Anthurium antisanense, Anthurium argyrophyllum, Anthurium bellissimum, Anthurium capixaba, Anthurium caquetense, Anthurium cascantei, Anthurium correctum, Anthurium dairon-cardenasii, Anthurium embera, Anthurium florenciense, Anthurium gallegoanum, Anthurium gleasonii, Anthurium itacarense, Anthurium laetevirens, Anthurium marcocorreae, Anthurium mariposense, Anthurium niveospadix, Anthurium pacoraense, Anthurium patriciaroseroae, Anthurium pedrovianae, Anthurium phlebodes, Anthurium rulandii, Anthurium shankarii, Anthurium sodiroi, Anthurium thomascroatii, Anthurium tiswatl, Anthurium vishwanathii, Anthurium wounaanense, Anthurium yapense"
+    },
+    {
+     "domain": 2025,
+     "label": "Anthurium aguindae, Anthurium aldavei, Anthurium alvaroperezii, Anthurium andagoyense, Anthurium andaquiense, Anthurium angustiattenuatum, Anthurium asanzae, Anthurium bojbroi, Anthurium bongarense, Anthurium boquetense, Anthurium boscoense, Anthurium bricenoense, Anthurium brucesteinii, Anthurium castilloae, Anthurium cerro-oscuroense, Anthurium changuilense, Anthurium charalense, Anthurium chulluense, Anthurium clementinense, Anthurium coaiqueresense, Anthurium cogolloi, Anthurium corazonense, Anthurium corcovadense, Anthurium cornbonanum, Anthurium dauroense, Anthurium divisoriense, Anthurium dylanhannonii, Anthurium echeverryae, Anthurium eloroense, Anthurium elpanense, Anthurium elsworthii, Anthurium espinalii, Anthurium florianwerneri, Anthurium grantii, Anthurium granulatum, Anthurium guaparense, Anthurium guatapense, Anthurium guausaense, Anthurium guayasense, Anthurium guttalineatum, Anthurium hermescuadrosii, Anthurium hitchcockii, Anthurium hollinense, Anthurium huilense, Anthurium ibaguense, Anthurium ilinizasense, Anthurium ingvarii, Anthurium jojoae, Anthurium jorgei, Anthurium kyburzii, Anthurium lasierpense, Anthurium latecollectivum, Anthurium longiluteum, Anthurium lorenanum, Anthurium marroninum, Anthurium marulandae, Anthurium memoriae, Anthurium minutisinus, Anthurium mistratoense, Anthurium mutatense, Anthurium niedermannianum, Anthurium oaxacaense, Anthurium palcazuense, Anthurium pepeportillae, Anthurium petraeum, Anthurium pinillae, Anthurium pitalitoense, Anthurium punctitepalum, Anthurium retinervium, Anthurium reubarbarum, Anthurium riotoritoense, Anthurium rioverdense, Anthurium risaraldense, Anthurium roblesii, Anthurium romeliense, Anthurium romolerouxiae, Anthurium roquesevillae, Anthurium rubioanum, Anthurium sandanielense, Anthurium santanderense, Anthurium sarriae, Anthurium scherblevyorum, Anthurium sobeliae, Anthurium steinii, Anthurium terminus, Anthurium trapichense, Anthurium tuckerae, Anthurium tulcanense, Anthurium vergelense, Anthurium villagarzonense, Anthurium viridifructum, Anthurium walteri, Anthurium yambitarense, Anthurium yaruvaldense, Anthurium zalesskii"
+    }
+   ]
+  },
+  {
+   "name": "label_metrics",
+   "source": "dataset",
+   "transform": [
+    {
+     "type": "formula",
+     "expr": "length(split(datum['label'], ',')) > 15 ? join(slice(split(datum['label'], ','), 0, 15), ',') + ', +' + (length(split(datum['label'], ',')) - 15) + ' more' : datum['label']",
+     "as": "displayLabel"
+    },
+    {
+     "type": "formula",
+     "expr": "split(datum['displayLabel'], ', ')",
+     "as": "tokens"
+    },
+    {
+     "type": "formula",
+     "expr": "length(datum['tokens'])",
+     "as": "lineCount"
+    },
+    {
+     "type": "flatten",
+     "fields": [
+      "tokens"
+     ],
+     "as": [
+      "token"
+     ]
+    },
+    {
+     "type": "formula",
+     "expr": "length(datum['token'])",
+     "as": "tokLen"
+    },
+    {
+     "type": "aggregate",
+     "groupby": [
+      "domain",
+      "lineCount"
+     ],
+     "fields": [
+      "tokLen"
+     ],
+     "ops": [
+      "max"
+     ],
+     "as": [
+      "maxLen"
+     ]
+    },
+    {
+     "type": "formula",
+     "expr": "(datum['maxLen'] + 7) * 7.32 + 30",
+     "as": "boxW"
+    },
+    {
+     "type": "formula",
+     "expr": "datum['lineCount'] * 17 + 14",
+     "as": "boxH"
+    }
+   ]
+  },
+  {
+   "name": "serpentineDomain",
+   "values": [
+    {}
+   ],
+   "transform": [
+    {
+     "type": "formula",
+     "expr": "sequence(sDomain[0],sDomain[1], 0.1 )",
+     "as": "domain"
+    },
+    {
+     "type": "flatten",
+     "fields": [
+      "domain"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "milestoneDomain",
+   "source": "dataset",
+   "transform": [
+    {
+     "type": "project",
+     "fields": [
+      "domain"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "tickDomain",
+   "values": [
+    {}
+   ],
+   "transform": [
+    {
+     "type": "formula",
+     "expr": "sequence(1,tC+1, 1)",
+     "as": "id"
+    },
+    {
+     "type": "flatten",
+     "fields": [
+      "id"
+     ]
+    },
+    {
+     "type": "formula",
+     "expr": "datum['id'] === 1 ? sDomain[0] : datum['id'] === tC ? sDomain[1] : null",
+     "as": "domain"
+    },
+    {
+     "type": "formula",
+     "expr": "round(isValid(datum['domain']) ? datum['domain'] : (sDomain[0] + (sDomain[1]-sDomain[0])*((datum['id']-1)/(tC-1))))",
+     "as": "domain"
+    },
+    {
+     "type": "project",
+     "fields": [
+      "domain"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "componentEncodings",
+   "values": [
+    {
+     "category": "start"
+    },
+    {
+     "category": "serpentine"
+    },
+    {
+     "category": "milestone"
+    },
+    {
+     "category": "tick"
+    },
+    {
+     "category": "end"
+    }
+   ],
+   "transform": [
+    {
+     "type": "formula",
+     "expr": "now()",
+     "as": "timestamp"
+    },
+    {
+     "type": "formula",
+     "expr": "datum['category'] === 'start' ? [sDomain[reverse ? 1 : 0]] : datum['category'] === 'serpentine' ? pluck(data('serpentineDomain'), 'domain') : datum['category'] === 'milestone' ? pluck(data('dataset'), 'domain') : datum['category']==='tick' ? pluck(data('tickDomain'), 'domain') : datum['category'] === 'end' ? [sDomain[reverse ? 0 : 1]] : null",
+     "as": "domain"
+    },
+    {
+     "type": "flatten",
+     "fields": [
+      "domain"
+     ]
+    },
+    {
+     "type": "formula",
+     "expr": "+datum['domain']",
+     "as": "domain"
+    },
+    {
+     "type": "window",
+     "ops": [
+      "row_number"
+     ],
+     "sort": {
+      "field": "domain"
+     },
+     "groupby": [
+      "category"
+     ],
+     "as": [
+      "id"
+     ]
+    },
+    {
+     "type": "formula",
+     "expr": "scale('sS1', datum['domain'])",
+     "as": "sK"
+    },
+    {
+     "type": "formula",
+     "expr": "floor(datum['sK'] / (sW + sH*PI/2))",
+     "as": "i"
+    },
+    {
+     "type": "formula",
+     "expr": "datum['sK'] % (sW + sH*PI/2)",
+     "as": "r"
+    },
+    {
+     "type": "formula",
+     "expr": "(datum['r'] - sW)/(sH/2)",
+     "as": "alpha"
+    },
+    {
+     "type": "formula",
+     "expr": "(((datum['i']+1)*sWsA)-sA) >= datum['sK'] ? 'straight' : 'arc'",
+     "as": "type"
+    },
+    {
+     "type": "formula",
+     "expr": "(datum['i']%2 == 0) ? min(datum['r'],sW) : max(sW-datum['r'], 0)",
+     "as": "xStraight"
+    },
+    {
+     "type": "formula",
+     "expr": "datum['type'] === 'straight' ? datum['xStraight'] : datum['xStraight'] + (datum['i']%2 == 0 ? sin(datum['alpha'])*sH/2 : -sin(datum['alpha'])*sH/2)",
+     "as": "x"
+    },
+    {
+     "type": "formula",
+     "expr": "datum['type'] === 'straight' ? datum['i']*sH : (datum['i']*sH) + (1 - cos(datum['alpha']))*sH/2",
+     "as": "y"
+    },
+    {
+     "type": "formula",
+     "expr": "datum['type'] === 'straight' ? null : datum['i']%2===0?'right':'left'",
+     "as": "side"
+    },
+    {
+     "type": "formula",
+     "expr": "datum['type'] === 'straight' ? null : datum['alpha']<PI/2?'top':'bottom'",
+     "as": "hemisphere"
+    },
+    {
+     "type": "formula",
+     "expr": "datum['type'] === 'straight' ? 0 : (datum['side'] === 'left' ? -1 : 1) *datum['alpha']*(180/PI)+(datum['alpha'] < PI/2 ? 0 : 180)",
+     "as": "labelAngle"
+    },
+    {
+     "type": "formula",
+     "expr": "datum['i']%2===0 ?'→':'←'",
+     "as": "direction"
+    },
+    {
+     "type": "formula",
+     "expr": "datum['type'] === 'straight' ? datum['direction'] : datum['side'] === 'left' ? datum['hemisphere'] === 'top'? '←' : '→' :  datum['hemisphere'] === 'top'? '→' : '←'",
+     "as": "direction"
+    }
+   ]
+  },
+  {
+   "name": "serpentine",
+   "source": "componentEncodings",
+   "transform": [
+    {
+     "type": "filter",
+     "expr": "datum['category'] === 'serpentine'"
+    }
+   ]
+  },
+  {
+   "name": "ticks",
+   "source": "componentEncodings",
+   "transform": [
+    {
+     "type": "filter",
+     "expr": "datum['category'] === 'tick'"
+    },
+    {
+     "type": "formula",
+     "expr": "!isValid(datum['side']) ? (tLO+3.5) : datum['side'] === 'right' ? (round(datum['alpha']*(180/PI)) >= 90 ? -1 : 1.75) * (tLO+3.5) : (round(datum['alpha']*(180/PI)) > 89 ? -1 : 1.75) * (tLO+3.5)",
+     "as": "dy"
+    }
+   ]
+  },
+  {
+   "name": "domain_extent",
+   "source": "componentEncodings",
+   "transform": [
+    {
+     "type": "filter",
+     "expr": "datum['category'] === 'start' || datum['category'] === 'end'"
+    },
+    {
+     "type": "formula",
+     "expr": "datum['category'] === 'start' ? 'right' : datum['direction'] === '←' && datum['type'] === 'straight' ? 'right' : datum['side'] === 'left' ? 'right' : 'left'",
+     "as": "align"
+    },
+    {
+     "type": "formula",
+     "expr": "datum['category'] === 'start' ? -tLO-5 :  datum['direction'] === '←'  && datum['type'] === 'straight' ? -tLO-5 : datum['side'] === 'left' ? -tLO-5 : tLO+5",
+     "as": "dx"
+    }
+   ]
+  },
+  {
+   "name": "segment_ends",
+   "source": "componentEncodings",
+   "transform": [
+    {
+     "type": "filter",
+     "expr": "includeArrows && datum['category'] === 'serpentine'"
+    },
+    {
+     "type": "joinaggregate",
+     "fields": [
+      "id",
+      "id"
+     ],
+     "ops": [
+      "min",
+      "max"
+     ],
+     "groupby": [
+      "i"
+     ],
+     "as": [
+      "minId",
+      "maxId"
+     ]
+    },
+    {
+     "type": "filter",
+     "expr": "datum['id'] === (reverse ? datum['maxId'] : datum['minId'])"
+    }
+   ]
+  },
+  {
+   "name": "milestones",
+   "source": "componentEncodings",
+   "transform": [
+    {
+     "type": "filter",
+     "expr": "datum['category'] === 'milestone'"
+    },
+    {
+     "type": "lookup",
+     "key": "domain",
+     "from": "dataset",
+     "fields": [
+      "domain"
+     ],
+     "values": [
+      "label",
+      "color"
+     ]
+    },
+    {
+     "type": "formula",
+     "expr": "(isValid(hoverFocus) && hoverFocus['domain'] === datum['domain']) ? 1 : (isValid(hoverFocus) && hoverFocus['domain'] !== datum['domain']) ? 0.4 : 0",
+     "as": "fillOpacity"
+    },
+    {
+     "type": "formula",
+     "expr": "min(15, length(split(datum['label'], ',')))",
+     "as": "eventCount"
+    },
+    {
+     "type": "window",
+     "ops": [
+      "row_number"
+     ],
+     "sort": {
+      "field": "domain"
+     },
+     "as": [
+      "id"
+     ]
+    },
+    {
+     "type": "formula",
+     "expr": "10 + 200 * datum['eventCount']",
+     "as": "size"
+    },
+    {
+     "type": "formula",
+     "expr": "length(split(datum['label'], ',')) > 15 ? join(slice(split(datum['label'], ','), 0, 15), ',') + ', +' + (length(split(datum['label'], ',')) - 15) + ' more' : datum['label']",
+     "as": "displayLabel"
+    },
+    {
+     "type": "lookup",
+     "from": "label_metrics",
+     "key": "domain",
+     "fields": [
+      "domain"
+     ],
+     "values": [
+      "boxW",
+      "boxH",
+      "lineCount"
+     ]
+    },
+    {
+     "type": "collect",
+     "sort": {
+      "field": "size",
+      "order": "descending"
+     }
+    }
+   ]
+  }
+ ],
+ "autosize": {
+  "type": "none"
+ },
+ "config": {
+  "font": "IBM Plex Mono",
+  "text": {
+   "font": "IBM Plex Mono"
+  }
+ }
+}

@@ -1,0 +1,1533 @@
+{
+ "$schema": "https://vega.github.io/schema/vega/v5.json",
+ "description": "a serpentine timeline. The serpentine shape can be an option for instances where an oblong canvas is not ideal. The shape can be customized using many of the signals below. Input bindings have been included for demonstration purposes",
+ "background": null,
+ "padding": {
+  "top": 18,
+  "right": 61,
+  "bottom": 41,
+  "left": 40
+ },
+ "width": 300,
+ "signals": [
+  {
+   "name": "width",
+   "init": "width",
+   "bindDisabled": {
+    "name": "straight width",
+    "input": "range",
+    "min": 0,
+    "max": 2000,
+    "step": 1
+   },
+   "on": [
+    {
+     "events": [
+      {
+       "signal": "annotations"
+      }
+     ],
+     "update": "width+1"
+    },
+    {
+     "events": [
+      {
+       "signal": "annotations"
+      }
+     ],
+     "update": "width-1"
+    },
+    {
+     "events": [
+      {
+       "signal": "mO"
+      }
+     ],
+     "update": "width+1"
+    },
+    {
+     "events": [
+      {
+       "signal": "mO"
+      }
+     ],
+     "update": "width-1"
+    },
+    {
+     "events": [
+      {
+       "signal": "tLO"
+      }
+     ],
+     "update": "width+1"
+    },
+    {
+     "events": [
+      {
+       "signal": "tLO"
+      }
+     ],
+     "update": "width-1"
+    },
+    {
+     "events": [
+      {
+       "signal": "sN"
+      }
+     ],
+     "update": "width+1"
+    },
+    {
+     "events": [
+      {
+       "signal": "sN"
+      }
+     ],
+     "update": "width-1"
+    },
+    {
+     "events": [
+      {
+       "signal": "mO"
+      }
+     ],
+     "update": "height+1"
+    },
+    {
+     "events": [
+      {
+       "signal": "mO"
+      }
+     ],
+     "update": "height-1"
+    },
+    {
+     "events": [
+      {
+       "signal": "tLO"
+      }
+     ],
+     "update": "height+1"
+    },
+    {
+     "events": [
+      {
+       "signal": "tLO"
+      }
+     ],
+     "update": "height-1"
+    }
+   ]
+  },
+  {
+   "name": "sH",
+   "description": "serpentine: diameter of arcs",
+   "value": 44,
+   "bindDisabled": {
+    "name": "arc diameter",
+    "input": "range",
+    "min": 0,
+    "max": 400,
+    "step": 1
+   }
+  },
+  {
+   "name": "labelsOnHover",
+   "description": "milestone: show labels on hover only",
+   "value": true,
+   "bindDisabled": {
+    "name": "hover labels",
+    "input": "checkbox"
+   }
+  },
+  {
+   "name": "sN",
+   "description": "serpentine: number of arcs",
+   "value": 16,
+   "bindDisabled": {
+    "name": "# of arcs",
+    "input": "range",
+    "min": 0,
+    "max": 20,
+    "step": 1
+   }
+  },
+  {
+   "name": "tC",
+   "description": "ticks: number of axis ticks to display on the timeline",
+   "value": 18,
+   "bindDisabled": {
+    "name": "tick count",
+    "input": "range",
+    "min": 0,
+    "max": 100,
+    "step": 1
+   }
+  },
+  {
+   "name": "tLO",
+   "description": "ticks: the offset for the tick labels",
+   "value": 15
+  },
+  {
+   "name": "mO",
+   "description": "milestone: the offset for the milestone markers",
+   "value": 8,
+   "bindDisabled": {
+    "name": "milestone offset",
+    "input": "range",
+    "min": 0,
+    "max": 1,
+    "step": 0.5
+   }
+  },
+  {
+   "name": "sR0P",
+   "description": "serpentine: percentage of width of canvas for the start of the timeline",
+   "value": 0,
+   "bindDisabled": {
+    "name": "timeline x0 %",
+    "input": "range",
+    "min": 0,
+    "max": 1,
+    "step": 0.01
+   }
+  },
+  {
+   "name": "sLP",
+   "description": "serpentine: percentage of total length of canvas for the end of the timeline",
+   "value": 1,
+   "bindDisabled": {
+    "name": "timeline len %",
+    "input": "range",
+    "min": 0,
+    "max": 1,
+    "step": 0.01
+   }
+  },
+  {
+   "name": "annotationStart",
+   "value": "",
+   "bindDisabled": {
+    "name": "start annotation",
+    "input": "text"
+   }
+  },
+  {
+   "name": "annotationEnd",
+   "value": "Today",
+   "bindDisabled": {
+    "name": "end annotation",
+    "input": "text"
+   }
+  },
+  {
+   "name": "includeArrows",
+   "value": true,
+   "bindDisabled": {
+    "name": "include arrows",
+    "input": "checkbox"
+   }
+  },
+  {
+   "name": "sT",
+   "description": "serpentine: thicknes of the line",
+   "value": 5,
+   "bindDisabled": {
+    "name": "line thickness",
+    "input": "range",
+    "min": 1,
+    "max": 10,
+    "step": 0.5
+   }
+  },
+  {
+   "name": "domain",
+   "init": "[1829, year(now())]",
+   "description": "serpentine: manually set the domain extent for the timeline, otherwise set to null to have the domain calculated for you"
+  },
+  {
+   "name": "sRange",
+   "description": "serpentine: range for the serpentine scale",
+   "update": "[sR0P*width,sL*sLP]"
+  },
+  {
+   "name": "annotations",
+   "description": "serpentine: annotations that appear at the start and end of the timeline",
+   "update": "{start: (isValid(annotationStart) ? annotationStart : ''), end: (isValid(annotationEnd) ? annotationEnd : '')}"
+  },
+  {
+   "name": "sD",
+   "update": "[2, 2]",
+   "description": "serpentine: dash array for the serpentine line"
+  },
+  {
+   "name": "reverse",
+   "description": "serpentine: boolean to indicate whether the scale for the timeline should be reversed",
+   "value": false
+  },
+  {
+   "name": "sPct",
+   "description": "serpentine: percentage of width for the straight portions of the timeline",
+   "value": 1,
+   "update": "sPct < 0.25 ? 0 : sPct < 0.75 ? 0.5 : 1"
+  },
+  {
+   "name": "sW",
+   "description": "serpentine: horizontal length of straight segments",
+   "update": "sPct*width"
+  },
+  {
+   "name": "sL",
+   "description": "serpentine: total length of line",
+   "update": "(sN+1)*sW+(sN)*sH*PI/2"
+  },
+  {
+   "name": "sA",
+   "description": "serpentine: length of an arc segment",
+   "update": "(sH*PI/2)"
+  },
+  {
+   "name": "sWsA",
+   "description": "serpentine: length of a line + arc segment",
+   "update": "(sW + sH*PI/2)"
+  },
+  {
+   "name": "sDomain",
+   "description": "serpentine: domain for the serpentine scale",
+   "init": "domain ? domain : [+extent(pluck(data('dataset'), 'domain'))[0], +extent(pluck(data('dataset'), 'domain'))[1]]"
+  },
+  {
+   "name": "hoverFocus",
+   "value": 0,
+   "on": [
+    {
+     "events": {
+      "type": "mouseover"
+     },
+     "update": "isValid(datum) && isValid(isValid(datum['domain'])) ? datum : null"
+    },
+    {
+     "events": {
+      "type": "mouseout"
+     },
+     "update": "null"
+    }
+   ]
+  },
+  {
+   "name": "cursor",
+   "value": "default",
+   "on": [
+    {
+     "events": {
+      "type": "mouseover"
+     },
+     "update": "'pointer'"
+    },
+    {
+     "events": {
+      "type": "mouseout"
+     },
+     "update": "'default'"
+    }
+   ]
+  },
+  {
+   "name": "height",
+   "description": "calculated height",
+   "update": "extent(pluck(data('serpentine'), 'y'))[1]"
+  }
+ ],
+ "scales": [
+  {
+   "name": "sS1",
+   "type": "linear",
+   "zero": false,
+   "reverse": {
+    "signal": "reverse"
+   },
+   "domain": {
+    "signal": "sDomain"
+   },
+   "range": {
+    "signal": "sRange"
+   }
+  },
+  {
+   "name": "leaf",
+   "type": "linear",
+   "domain": [
+    1,
+    15
+   ],
+   "range": [
+    "#c8d6bf",
+    "#5f6f52"
+   ],
+   "clamp": true
+  }
+ ],
+ "marks": [
+  {
+   "name": "axis_group",
+   "description": "group containing all the axis marks - annotations, domain, arrow indicators, tick lines, tick labels on straightaways, tick labels on arcs",
+   "type": "group",
+   "marks": [
+    {
+     "name": "annotations",
+     "description": "Text marks that appear at the start and end of the timeline. Configured using the 'annotations' signal",
+     "from": {
+      "data": "domain_extent"
+     },
+     "on": [
+      {
+       "trigger": "annotations",
+       "modify": "annotations"
+      }
+     ],
+     "type": "text",
+     "interactive": false,
+     "encode": {
+      "update": {
+       "x": {
+        "field": "x"
+       },
+       "y": {
+        "field": "y"
+       },
+       "text": {
+        "signal": "datum['category'] === 'start' ? annotations['start'] : annotations['end']"
+       },
+       "fontSize": {
+        "value": 10
+       },
+       "baseline": {
+        "value": "middle"
+       },
+       "align": {
+        "field": "align"
+       },
+       "angle": {
+        "field": "angle"
+       },
+       "dx": {
+        "field": "dx"
+       },
+       "dy": {
+        "signal": "1"
+       },
+       "fill": {
+        "value": "#8a8172"
+       }
+      }
+     }
+    },
+    {
+     "name": "serpentine_line",
+     "description": "The serpentine-shaped line that acts as the axis domain line",
+     "type": "line",
+     "from": {
+      "data": "serpentine"
+     },
+     "interactive": false,
+     "encode": {
+      "update": {
+       "x": {
+        "field": "x"
+       },
+       "y": {
+        "field": "y"
+       },
+       "strokeDash": {
+        "signal": "sD"
+       },
+       "stroke": {
+        "value": "#8a9a7b"
+       },
+       "strokeWidth": {
+        "signal": "sT"
+       }
+      }
+     }
+    },
+    {
+     "name": "arrow_marks",
+     "description": "The arrows to indicate direction that appear at the beginning and end of each arc+straightaway combonation",
+     "type": "text",
+     "from": {
+      "data": "segment_ends"
+     },
+     "interactive": false,
+     "encode": {
+      "update": {
+       "x": {
+        "field": "x"
+       },
+       "y": {
+        "field": "y"
+       },
+       "dy": {
+        "value": 1
+       },
+       "text": {
+        "value": "➤"
+       },
+       "fontSize": {
+        "signal": "18"
+       },
+       "fill": {
+        "value": "#8a9a7b"
+       },
+       "stroke": {
+        "value": "#f6f1e7"
+       },
+       "strokeWidth": {
+        "value": 1
+       },
+       "angle": {
+        "signal": "datum['direction'] === '→' ? 0 : 180"
+       },
+       "align": {
+        "value": "center"
+       },
+       "baseline": {
+        "value": "middle"
+       }
+      }
+     }
+    },
+    {
+     "name": "tick_marks",
+     "description": "The line (text mark) designated to each tick",
+     "from": {
+      "data": "ticks"
+     },
+     "type": "text",
+     "interactive": false,
+     "encode": {
+      "update": {
+       "x": {
+        "field": "x"
+       },
+       "y": {
+        "field": "y"
+       },
+       "dy": {
+        "signal": "2.5*( datum['type'] === 'straight' ? 1 : datum['side'] === 'right' ? (round(datum['alpha']*(180/PI)) >= 90 ? -1 : 4) : (round(datum['alpha']*(180/PI)) > 89 ? -1 : 4))"
+       },
+       "text": {
+        "signal": "'|'"
+       },
+       "fontSize": {
+        "signal": "7"
+       },
+       "fill": {
+        "value": "#8a8172"
+       },
+       "angle": {
+        "field": "labelAngle"
+       },
+       "align": {
+        "value": "center"
+       },
+       "baseline": {
+        "signal": "datum['type'] === 'straight' ? 'top' : 'bottom'"
+       }
+      }
+     }
+    },
+    {
+     "name": "tick_labels_straight",
+     "description": "The straightaway tick labels",
+     "from": {
+      "data": "ticks"
+     },
+     "type": "text",
+     "interactive": false,
+     "encode": {
+      "update": {
+       "x": {
+        "field": "x"
+       },
+       "y": {
+        "field": "y"
+       },
+       "dy": {
+        "field": "dy"
+       },
+       "text": {
+        "field": "domain"
+       },
+       "fontSize": {
+        "signal": "10"
+       },
+       "fill": {
+        "value": "#8a8172"
+       },
+       "align": {
+        "value": "center"
+       },
+       "angle": {
+        "field": "labelAngle"
+       },
+       "baseline": {
+        "signal": "datum['type'] === 'straight' ? 'top' : 'bottom'"
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "milestone_connecting_lines",
+   "description": "The milestone lines that connect the markers to labels",
+   "from": {
+    "data": "milestones"
+   },
+   "type": "text",
+   "interactive": false,
+   "encode": {
+    "update": {
+     "text": {
+      "signal": "'|'"
+     },
+     "x": {
+      "field": "x"
+     },
+     "y": {
+      "field": "y"
+     },
+     "fontSize": {
+      "value": 1
+     },
+     "fontWeight": {
+      "value": 10
+     },
+     "dy": {
+      "signal": "datum['type'] === 'arc' && (round(datum['alpha']*(180/PI)) > 89) ? 0.35 * (mO+3.5) : datum['dy']/2"
+     },
+     "align": {
+      "value": "center"
+     },
+     "baseline": {
+      "value": "middle"
+     },
+     "angle": {
+      "field": "labelAngle"
+     },
+     "fillOpacity": {
+      "value": 0.35
+     },
+     "opacity": {
+      "signal": "isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 1 : labelsOnHover ? 0 : 1"
+     }
+    }
+   }
+  },
+  {
+   "name": "milestone_markers",
+   "description": "The milestone timeline markers",
+   "from": {
+    "data": "milestones"
+   },
+   "type": "symbol",
+   "interactive": true,
+   "encode": {
+    "update": {
+     "x": {
+      "field": "x"
+     },
+     "y": {
+      "field": "y"
+     },
+     "size": {
+      "signal": "(10 + 50 * datum['eventCount'])"
+     },
+     "fill": {
+      "scale": "leaf",
+      "field": "eventCount"
+     },
+     "stroke": {
+      "signal": "isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? '#7A2E3B' : '#f6f1e7'"
+     },
+     "strokeWidth": {
+      "value": 1.5
+     },
+     "cursor": {
+      "signal": "isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 'pointer' : 'default'"
+     }
+    }
+   }
+  },
+  {
+   "name": "milestone_label_backgrounds",
+   "description": "The white backgrounds for milestone labels",
+   "from": {
+    "data": "milestones"
+   },
+   "type": "rect",
+   "interactive": false,
+   "aria": false,
+   "encode": {
+    "update": {
+     "width": {
+      "field": "boxW"
+     },
+     "height": {
+      "field": "boxH"
+     },
+     "fill": {
+      "value": "#fbf8f1"
+     },
+     "stroke": {
+      "value": "#e0d7c4"
+     },
+     "strokeWidth": {
+      "value": 1
+     },
+     "cornerRadius": {
+      "value": 2
+     },
+     "opacity": {
+      "signal": "isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 1 : labelsOnHover ? 0 : 1"
+     },
+     "y": {
+      "signal": "min(max((datum['type'] === 'straight' && (datum['y'] + 8 + datum['lineCount'] * 17 + 8) <= height ? datum['y'] + 8 : datum['y'] - 8 - datum['lineCount'] * 17), -9), height + 46 - datum['boxH']) - 7"
+     },
+     "xc": {
+      "signal": "min(max(datum['x'], -38 + datum['boxW']/2), width + 59 - datum['boxW']/2)"
+     }
+    }
+   }
+  },
+  {
+   "name": "milestone_labels",
+   "description": "The milestone labels",
+   "from": {
+    "data": "milestones"
+   },
+   "type": "text",
+   "interactive": false,
+   "encode": {
+    "update": {
+     "x": {
+      "signal": "min(max(datum['x'], -38 + datum['boxW']/2), width + 59 - datum['boxW']/2)"
+     },
+     "y": {
+      "signal": "min(max((datum['type'] === 'straight' && (datum['y'] + 8 + datum['lineCount'] * 17 + 8) <= height ? datum['y'] + 8 : datum['y'] - 8 - datum['lineCount'] * 17), -9), height + 46 - datum['boxH'])"
+     },
+     "text": {
+      "signal": "datum['domain'] + ' - ' + datum['displayLabel']"
+     },
+     "lineBreak": {
+      "value": ", "
+     },
+     "fontSize": {
+      "value": 12
+     },
+     "fill": {
+      "value": "#2f2a24"
+     },
+     "align": {
+      "value": "center"
+     },
+     "baseline": {
+      "value": "top"
+     },
+     "opacity": {
+      "signal": "isValid(hoverFocus) && datum['label'] === hoverFocus['label'] ? 1 : labelsOnHover ? 0 : 1"
+     },
+     "lineHeight": {
+      "value": 17
+     }
+    }
+   }
+  }
+ ],
+ "data": [
+  {
+   "name": "dataset",
+   "values": [
+    {
+     "domain": 1829,
+     "label": "Philodendron grandifolium, Philodendron hederaceum, Philodendron lacerum, Philodendron pinnatifidum, Philodendron tripartitum"
+    },
+    {
+     "domain": 1837,
+     "label": "Philodendron bipinnatifidum, Philodendron crassinervium, Philodendron speciosum"
+    },
+    {
+     "domain": 1839,
+     "label": "Philodendron fragrantissimum"
+    },
+    {
+     "domain": 1841,
+     "label": "Philodendron corcovadense, Philodendron guttiferum, Philodendron imbe, Philodendron linnaei, Philodendron oblongum, Philodendron panduriforme, Philodendron pedatum, Philodendron simsii"
+    },
+    {
+     "domain": 1845,
+     "label": "Philodendron alatum, Philodendron cruentum, Philodendron deltoideum, Philodendron fibrillosum, Philodendron heterophyllum, Philodendron membranaceum, Philodendron squamiferum"
+    },
+    {
+     "domain": 1849,
+     "label": "Philodendron inaequilaterum, Philodendron sagittifolium"
+    },
+    {
+     "domain": 1853,
+     "label": "Philodendron auritum, Philodendron eximium, Philodendron obtusilobum, Philodendron ornatum, Philodendron quinquenervium, Philodendron radiatum"
+    },
+    {
+     "domain": 1854,
+     "label": "Philodendron muricatum, Philodendron ruizii"
+    },
+    {
+     "domain": 1855,
+     "label": "Philodendron advena, Philodendron bipennifolium, Philodendron erubescens, Philodendron hastatum, Philodendron latifolium, Philodendron lingulatum, Philodendron micranthum, Philodendron modestum, Philodendron pterotum, Philodendron tenue, Philodendron warszewiczii"
+    },
+    {
+     "domain": 1856,
+     "label": "Philodendron adamantinum, Philodendron adhatodifolium, Philodendron alternans, Philodendron consanguineum, Philodendron cordatum, Philodendron curvilobum, Philodendron deflexum, Philodendron ecordatum, Philodendron elaphoglossoides, Philodendron giganteum, Philodendron inconcinnum, Philodendron insigne, Philodendron jacquinii, Philodendron lindenii, Philodendron linguifolium, Philodendron propinquum, Philodendron rudgeanum, Philodendron thaliifolium, Philodendron variifolium, Philodendron verrucosum, Philodendron wullschlaegelii"
+    },
+    {
+     "domain": 1857,
+     "label": "Philodendron macroglossum, Philodendron sonderianum"
+    },
+    {
+     "domain": 1858,
+     "label": "Philodendron anisotomum, Philodendron aurantiifolium"
+    },
+    {
+     "domain": 1859,
+     "label": "Philodendron blanchetianum, Philodendron brevispathum, Philodendron fraternum, Philodendron holtonianum, Philodendron inops, Philodendron mathewsii, Philodendron placidum, Philodendron seguine, Philodendron subincisum, Philodendron tweedieanum"
+    },
+    {
+     "domain": 1860,
+     "label": "Philodendron lechlerianum, Philodendron ligulatum, Philodendron martini, Philodendron megalophyllum, Philodendron ochrostemon, Philodendron populneum, Philodendron sphalerum, Philodendron splitgerberi, Philodendron wendlandii"
+    },
+    {
+     "domain": 1862,
+     "label": "Philodendron longilaminatum, Philodendron recurvifolium"
+    },
+    {
+     "domain": 1864,
+     "label": "Philodendron aemulum, Philodendron schottii"
+    },
+    {
+     "domain": 1865,
+     "label": "Philodendron robustum, Philodendron schottianum"
+    },
+    {
+     "domain": 1867,
+     "label": "Philodendron lindenianum, Philodendron lundii"
+    },
+    {
+     "domain": 1871,
+     "label": "Philodendron williamsii"
+    },
+    {
+     "domain": 1872,
+     "label": "Philodendron roezlii"
+    },
+    {
+     "domain": 1873,
+     "label": "Philodendron melanochrysum"
+    },
+    {
+     "domain": 1874,
+     "label": "Philodendron melinonii"
+    },
+    {
+     "domain": 1876,
+     "label": "Philodendron gloriosum"
+    },
+    {
+     "domain": 1878,
+     "label": "Philodendron brasiliense, Philodendron mexicanum, Philodendron minarum, Philodendron pinnatilobum, Philodendron serpens"
+    },
+    {
+     "domain": 1879,
+     "label": "Philodendron pteropus, Philodendron surinamense, Philodendron undulatum"
+    },
+    {
+     "domain": 1883,
+     "label": "Philodendron mamei, Philodendron sodiroi"
+    },
+    {
+     "domain": 1885,
+     "label": "Philodendron cuneatum, Philodendron glaziovii, Philodendron lehmannii, Philodendron montanum"
+    },
+    {
+     "domain": 1895,
+     "label": "Philodendron devansayeanum"
+    },
+    {
+     "domain": 1899,
+     "label": "Philodendron acuminatissimum, Philodendron angustisectum, Philodendron bahiense, Philodendron balaoanum, Philodendron chimboanum, Philodendron dussii, Philodendron graveolens, Philodendron gualeanum, Philodendron houlletianum, Philodendron krugii, Philodendron longipes, Philodendron martianum, Philodendron multispadiceum, Philodendron purpureoviride, Philodendron rubrocinctum, Philodendron smithii, Philodendron viride, Philodendron wallisii"
+    },
+    {
+     "domain": 1901,
+     "label": "Philodendron crassum"
+    },
+    {
+     "domain": 1905,
+     "label": "Philodendron angustialatum, Philodendron bogotense, Philodendron chanchamayense, Philodendron densivenium, Philodendron ernestii, Philodendron huanucense, Philodendron juninense, Philodendron loefgrenii, Philodendron musifolium, Philodendron myrmecophilum, Philodendron nanegalense, Philodendron obliquifolium, Philodendron oligospermum, Philodendron pulchellum, Philodendron quitense, Philodendron riparium, Philodendron tarmense, Philodendron tenuipes, Philodendron traunii, Philodendron uleanum, Philodendron validinervium, Philodendron weberbaueri, Philodendron wittianum"
+    },
+    {
+     "domain": 1913,
+     "label": "Philodendron acreanum, Philodendron brandtianum, Philodendron callosum, Philodendron caudatum, Philodendron distantilobum, Philodendron elegans, Philodendron fendleri, Philodendron grandipes, Philodendron leucanthum, Philodendron longistilum, Philodendron macropodum, Philodendron maculatum, Philodendron maximum, Philodendron pachycaule, Philodendron pachyphyllum, Philodendron panamense, Philodendron paxianum, Philodendron quinquelobum, Philodendron rigidifolium, Philodendron roraimae, Philodendron saxicola, Philodendron stenophyllum, Philodendron subhastatum, Philodendron sulcatum"
+    },
+    {
+     "domain": 1916,
+     "label": "Philodendron teretipes"
+    },
+    {
+     "domain": 1920,
+     "label": "Philodendron petraeum"
+    },
+    {
+     "domain": 1928,
+     "label": "Philodendron missionum"
+    },
+    {
+     "domain": 1929,
+     "label": "Philodendron dioscoreoides, Philodendron platypodum"
+    },
+    {
+     "domain": 1930,
+     "label": "Philodendron woronowii"
+    },
+    {
+     "domain": 1931,
+     "label": "Philodendron tatei"
+    },
+    {
+     "domain": 1932,
+     "label": "Philodendron acutifolium, Philodendron basivaginatum, Philodendron divaricatum, Philodendron heteropleurum, Philodendron killipii"
+    },
+    {
+     "domain": 1937,
+     "label": "Philodendron brenesii"
+    },
+    {
+     "domain": 1939,
+     "label": "Philodendron solimoesense"
+    },
+    {
+     "domain": 1940,
+     "label": "Philodendron eburneum, Philodendron herthae, Philodendron pastazanum, Philodendron popenoei"
+    },
+    {
+     "domain": 1943,
+     "label": "Philodendron rojasianum"
+    },
+    {
+     "domain": 1949,
+     "label": "Philodendron escuintlense"
+    },
+    {
+     "domain": 1951,
+     "label": "Philodendron englerianum, Philodendron krauseanum, Philodendron lancigerum"
+    },
+    {
+     "domain": 1952,
+     "label": "Philodendron auriculatum, Philodendron microstictum"
+    },
+    {
+     "domain": 1956,
+     "label": "Philodendron camposportoanum"
+    },
+    {
+     "domain": 1957,
+     "label": "Philodendron applanatum, Philodendron burle-marxii, Philodendron edmundoi, Philodendron goeldii, Philodendron mello-barretoanum, Philodendron pulchrum, Philodendron renauxii"
+    },
+    {
+     "domain": 1958,
+     "label": "Philodendron colombianum"
+    },
+    {
+     "domain": 1962,
+     "label": "Philodendron bazii, Philodendron glanduliferum, Philodendron leyvae"
+    },
+    {
+     "domain": 1963,
+     "label": "Philodendron dyscarpium"
+    },
+    {
+     "domain": 1964,
+     "label": "Philodendron barrosoanum, Philodendron craspedodromum, Philodendron dressleri, Philodendron grazielae, Philodendron remifolium"
+    },
+    {
+     "domain": 1965,
+     "label": "Philodendron jodavisianum"
+    },
+    {
+     "domain": 1967,
+     "label": "Philodendron auyantepuiense"
+    },
+    {
+     "domain": 1975,
+     "label": "Philodendron ampullaceum, Philodendron aristeguietae, Philodendron atabapoense, Philodendron chimantae, Philodendron danteanum, Philodendron dunstervilleorum, Philodendron henry-pittieri, Philodendron hylaeae, Philodendron lemae, Philodendron maguirei, Philodendron maroae, Philodendron meridense, Philodendron mesae, Philodendron phlebodes, Philodendron pimichinese, Philodendron rhodoaxis, Philodendron santodominguense, Philodendron spruceanum, Philodendron steyermarkii, Philodendron trujilloi, Philodendron venezuelense, Philodendron venustum, Philodendron vinaceum"
+    },
+    {
+     "domain": 1977,
+     "label": "Philodendron cruentospathum, Philodendron platypetiolatum, Philodendron pogonocaule, Philodendron senatocarpium, Philodendron ventricosum"
+    },
+    {
+     "domain": 1979,
+     "label": "Philodendron leal-costae"
+    },
+    {
+     "domain": 1981,
+     "label": "Philodendron simmondsii"
+    },
+    {
+     "domain": 1983,
+     "label": "Philodendron davidsonii, Philodendron pseudoundulatum, Philodendron rugosum"
+    },
+    {
+     "domain": 1986,
+     "label": "Philodendron amplisinum, Philodendron anaadu, Philodendron appunii, Philodendron azulitense, Philodendron beniteziae, Philodendron borgesii, Philodendron buntingianum, Philodendron calatheifolium, Philodendron canaimae, Philodendron cataniapoense, Philodendron consobrinum, Philodendron davidsei, Philodendron delascioi, Philodendron effusilobum, Philodendron exile, Philodendron guaiquinimae, Philodendron liesneri, Philodendron marahuacae, Philodendron multinervum, Philodendron orionis, Philodendron peraiense, Philodendron perplexum, Philodendron strictum, Philodendron sucrense, Philodendron tachirense, Philodendron triangulare, Philodendron venosum, Philodendron victoriae, Philodendron wurdackii, Philodendron yavitense"
+    },
+    {
+     "domain": 1987,
+     "label": "Philodendron kautskyi, Philodendron spiritus-sancti"
+    },
+    {
+     "domain": 1988,
+     "label": "Philodendron conforme, Philodendron holstii, Philodendron mawarinumae, Philodendron nebulense, Philodendron peperomioides, Philodendron samayense, Philodendron scitulum, Philodendron simulans, Philodendron yutajense"
+    },
+    {
+     "domain": 1989,
+     "label": "Philodendron triplum"
+    },
+    {
+     "domain": 1991,
+     "label": "Philodendron dardanianum, Philodendron uliginosum"
+    },
+    {
+     "domain": 1992,
+     "label": "Philodendron alliodorum, Philodendron ensifolium, Philodendron herbaceum, Philodendron opacum, Philodendron standleyi"
+    },
+    {
+     "domain": 1994,
+     "label": "Philodendron cremersii, Philodendron duckei, Philodendron guianense"
+    },
+    {
+     "domain": 1995,
+     "label": "Philodendron billietiae"
+    },
+    {
+     "domain": 1996,
+     "label": "Philodendron brandii, Philodendron burgeri, Philodendron croatii, Philodendron elegantulum, Philodendron gonzalezii, Philodendron hooveri, Philodendron ichthyoderma, Philodendron rayanum, Philodendron rodrigueziae, Philodendron romeroi, Philodendron tuerckheimii"
+    },
+    {
+     "domain": 1997,
+     "label": "Philodendron albisuccus, Philodendron alticola, Philodendron angustilobum, Philodendron annulatum, Philodendron antonioanum, Philodendron aromaticum, Philodendron bakeri, Philodendron biribiriense, Philodendron breedlovei, Philodendron brewsterense, Philodendron brunneicaule, Philodendron chiriquense, Philodendron chirripoense, Philodendron cipoense, Philodendron clewellii, Philodendron coloradense, Philodendron copense, Philodendron correae, Philodendron cotobrusense, Philodendron cotonense, Philodendron crassispathum, Philodendron cretosum, Philodendron dodsonii, Philodendron dolichophyllum, Philodendron dominicalense, Philodendron dwyeri, Philodendron edenudatum, Philodendron ferrugineum, Philodendron findens, Philodendron folsomii, Philodendron fortunense, Philodendron gigas, Philodendron granulare, Philodendron grayumii, Philodendron hammelii, Philodendron hebetatum, Philodendron heleniae, Philodendron immixtum, Philodendron jefense, Philodendron knappiae, Philodendron lazorii, Philodendron lentii, Philodendron llanense, Philodendron madronense, Philodendron malesevichiae, Philodendron morii, Philodendron niqueanum, Philodendron pirrense, Philodendron pseudauriculatum, Philodendron purulhense, Philodendron rhizomatosum, Philodendron roseospathum, Philodendron scalarinerve, Philodendron sousae, Philodendron squamicaule, Philodendron squamipetiolatum, Philodendron straminicaule, Philodendron sulcicaule, Philodendron thalassicum, Philodendron tysonii, Philodendron ubigantupense, Philodendron utleyanum, Philodendron verapazense, Philodendron wilburii, Philodendron zhuanum"
+    },
+    {
+     "domain": 1998,
+     "label": "Philodendron altomacaense, Philodendron appendiculatum, Philodendron fragile, Philodendron hatschbachii, Philodendron roseopetiolatum"
+    },
+    {
+     "domain": 2000,
+     "label": "Philodendron flumineum, Philodendron mayoi, Philodendron venustifoliatum"
+    },
+    {
+     "domain": 2001,
+     "label": "Philodendron asplundii, Philodendron hopkinsianum, Philodendron simonianum, Philodendron tortum, Philodendron toshibae, Philodendron vargealtense"
+    },
+    {
+     "domain": 2003,
+     "label": "Philodendron humile, Philodendron nullinervium, Philodendron paludicola, Philodendron stenolobum, Philodendron tenuispadix, Philodendron xanadu"
+    },
+    {
+     "domain": 2004,
+     "label": "Philodendron amargalense, Philodendron aureimarginatum, Philodendron campii, Philodendron cardosoi, Philodendron clarkei, Philodendron danielii, Philodendron laticiferum, Philodendron longipedunculatum, Philodendron moonenii, Philodendron paucinervium, Philodendron pusillum, Philodendron roseocataphyllum, Philodendron sparreorum, Philodendron werkhoveniae"
+    },
+    {
+     "domain": 2005,
+     "label": "Philodendron ampamii, Philodendron ancuashii, Philodendron avenium, Philodendron barbourii, Philodendron brent-berlinii, Philodendron carinatum, Philodendron condorcanquense, Philodendron cotapatense, Philodendron huashikatii, Philodendron kroemeri, Philodendron palaciosii, Philodendron parvilobum, Philodendron pedunculum, Philodendron reticulatum, Philodendron swartiae"
+    },
+    {
+     "domain": 2006,
+     "label": "Philodendron huaynacapacense, Philodendron rimachii, Philodendron ushanum, Philodendron wadedavisii"
+    },
+    {
+     "domain": 2007,
+     "label": "Philodendron longirrhizum, Philodendron scherberichii, Philodendron scottmorianum"
+    },
+    {
+     "domain": 2008,
+     "label": "Philodendron baudoense, Philodendron canicaule, Philodendron chrysocarpum, Philodendron coriaceum, Philodendron discretivenium, Philodendron dryanderae, Philodendron furcatum, Philodendron heterocraspedon, Philodendron lupinum, Philodendron millerianum, Philodendron monsalveae, Philodendron ninoanum, Philodendron oblanceolatum, Philodendron polliciforme, Philodendron rhodospathiphyllum, Philodendron rubromaculatum, Philodendron striatum, Philodendron suberosum, Philodendron tricostatum, Philodendron trojitense, Philodendron venulosum"
+    },
+    {
+     "domain": 2010,
+     "label": "Philodendron aurantiispadix, Philodendron cardonii, Philodendron devianum, Philodendron fibrosum, Philodendron grenandii, Philodendron jonkerorum, Philodendron mcphersonii, Philodendron merenbergense, Philodendron misahualliense, Philodendron narinoense, Philodendron patriciae, Philodendron pipolyi, Philodendron planadense, Philodendron prominulinervium, Philodendron puhuangii, Philodendron silverstonei, Philodendron urraoense, Philodendron verrucapetiolum"
+    },
+    {
+     "domain": 2011,
+     "label": "Philodendron bernardopazii, Philodendron delinksii, Philodendron ricardoi"
+    },
+    {
+     "domain": 2012,
+     "label": "Philodendron ayangannense, Philodendron bicolor, Philodendron follii, Philodendron geniculatum, Philodendron kaieteurense, Philodendron longilobatum, Philodendron nadruzianum, Philodendron pierrelianum, Philodendron pokigronense, Philodendron ruthianum"
+    },
+    {
+     "domain": 2013,
+     "label": "Philodendron alonsoae, Philodendron atratum, Philodendron attenuatum, Philodendron caracaraiense, Philodendron carajasense, Philodendron caranoense, Philodendron davidneillii, Philodendron edwinii, Philodendron genevieveanum, Philodendron grahamii, Philodendron gribianum, Philodendron joaosilvae, Philodendron linganii, Philodendron macarenense, Philodendron marcocorreanum, Philodendron meieri, Philodendron pseudoverrucosum, Philodendron rhodospermum, Philodendron ricaurtense, Philodendron sanmarcoense, Philodendron schmidtiae, Philodendron werneri"
+    },
+    {
+     "domain": 2014,
+     "label": "Philodendron alanbrantii, Philodendron arbelaezii, Philodendron bayae, Philodendron bernardoi, Philodendron bomboizense, Philodendron brantii, Philodendron camarae, Philodendron candamoense, Philodendron fosteri, Philodendron meridionale"
+    },
+    {
+     "domain": 2015,
+     "label": "Philodendron luisae, Philodendron rheophyticum"
+    },
+    {
+     "domain": 2016,
+     "label": "Philodendron alatisulcatum, Philodendron alatiundulatum, Philodendron angosturense, Philodendron anthracyne, Philodendron apiculatum, Philodendron bethoweniae, Philodendron bonifaziae, Philodendron curvipetiolatum, Philodendron delannayi, Philodendron delgadoae, Philodendron esmeraldense, Philodendron fibraecataphyllum, Philodendron gardeniodorum, Philodendron hannoniae, Philodendron jimenae, Philodendron luteonervium, Philodendron lynnhannoniae, Philodendron magnum, Philodendron mansellii, Philodendron melanoneuron, Philodendron melanum, Philodendron mentiens, Philodendron ovatoluteum, Philodendron pambilarense, Philodendron parvidactylum, Philodendron profundisulcatum, Philodendron quelalii, Philodendron rugapetiolatum, Philodendron sharoniae"
+    },
+    {
+     "domain": 2017,
+     "label": "Philodendron camiloanum, Philodendron melloi"
+    },
+    {
+     "domain": 2019,
+     "label": "Philodendron bucayense, Philodendron galotipazii, Philodendron guadalupense, Philodendron guizaense, Philodendron hughclarkei, Philodendron hyalinum, Philodendron josefinense, Philodendron kressii, Philodendron lemorae, Philodendron mashpiense, Philodendron mazorcalense, Philodendron mendozae, Philodendron meraense, Philodendron merizaldense, Philodendron mesayense, Philodendron monteagudoi, Philodendron montemariense, Philodendron nievense, Philodendron nigrifactum, Philodendron picoranense, Philodendron prancei, Philodendron rubioi, Philodendron sabaletense"
+    },
+    {
+     "domain": 2020,
+     "label": "Philodendron guadarramanum, Philodendron luxurians, Philodendron theofiloanum"
+    },
+    {
+     "domain": 2021,
+     "label": "Philodendron cuangosense, Philodendron nangaritense, Philodendron paloraense"
+    },
+    {
+     "domain": 2022,
+     "label": "Philodendron ayalae, Philodendron cerrojefense, Philodendron chepiganense, Philodendron coibense, Philodendron darienense, Philodendron fasciculatum, Philodendron florianetlii, Philodendron gentryi, Philodendron guasagandense, Philodendron ishichimiense, Philodendron longilobum, Philodendron manuelii, Philodendron marcarlsoniae, Philodendron martinezii, Philodendron minesianum, Philodendron monroi, Philodendron narvaezii, Philodendron nelsonzamorae, Philodendron oxycataphyllum, Philodendron palmicola, Philodendron rex, Philodendron rio-pretense, Philodendron rocioae, Philodendron rubrijuvenile, Philodendron samudioense, Philodendron trisectifolium"
+    },
+    {
+     "domain": 2023,
+     "label": "Philodendron agudeloi, Philodendron arevaloi, Philodendron crystallum, Philodendron dalyi, Philodendron josephii, Philodendron madalenense"
+    },
+    {
+     "domain": 2024,
+     "label": "Philodendron noelii, Philodendron renateae"
+    }
+   ]
+  },
+  {
+   "name": "label_metrics",
+   "source": "dataset",
+   "transform": [
+    {
+     "type": "formula",
+     "expr": "length(split(datum['label'], ',')) > 15 ? join(slice(split(datum['label'], ','), 0, 15), ',') + ', +' + (length(split(datum['label'], ',')) - 15) + ' more' : datum['label']",
+     "as": "displayLabel"
+    },
+    {
+     "type": "formula",
+     "expr": "split(datum['displayLabel'], ', ')",
+     "as": "tokens"
+    },
+    {
+     "type": "formula",
+     "expr": "length(datum['tokens'])",
+     "as": "lineCount"
+    },
+    {
+     "type": "flatten",
+     "fields": [
+      "tokens"
+     ],
+     "as": [
+      "token"
+     ]
+    },
+    {
+     "type": "formula",
+     "expr": "length(datum['token'])",
+     "as": "tokLen"
+    },
+    {
+     "type": "aggregate",
+     "groupby": [
+      "domain",
+      "lineCount"
+     ],
+     "fields": [
+      "tokLen"
+     ],
+     "ops": [
+      "max"
+     ],
+     "as": [
+      "maxLen"
+     ]
+    },
+    {
+     "type": "formula",
+     "expr": "(datum['maxLen'] + 7) * 7.32 + 30",
+     "as": "boxW"
+    },
+    {
+     "type": "formula",
+     "expr": "datum['lineCount'] * 17 + 14",
+     "as": "boxH"
+    }
+   ]
+  },
+  {
+   "name": "serpentineDomain",
+   "values": [
+    {}
+   ],
+   "transform": [
+    {
+     "type": "formula",
+     "expr": "sequence(sDomain[0],sDomain[1], 0.1 )",
+     "as": "domain"
+    },
+    {
+     "type": "flatten",
+     "fields": [
+      "domain"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "milestoneDomain",
+   "source": "dataset",
+   "transform": [
+    {
+     "type": "project",
+     "fields": [
+      "domain"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "tickDomain",
+   "values": [
+    {}
+   ],
+   "transform": [
+    {
+     "type": "formula",
+     "expr": "sequence(1,tC+1, 1)",
+     "as": "id"
+    },
+    {
+     "type": "flatten",
+     "fields": [
+      "id"
+     ]
+    },
+    {
+     "type": "formula",
+     "expr": "datum['id'] === 1 ? sDomain[0] : datum['id'] === tC ? sDomain[1] : null",
+     "as": "domain"
+    },
+    {
+     "type": "formula",
+     "expr": "round(isValid(datum['domain']) ? datum['domain'] : (sDomain[0] + (sDomain[1]-sDomain[0])*((datum['id']-1)/(tC-1))))",
+     "as": "domain"
+    },
+    {
+     "type": "project",
+     "fields": [
+      "domain"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "componentEncodings",
+   "values": [
+    {
+     "category": "start"
+    },
+    {
+     "category": "serpentine"
+    },
+    {
+     "category": "milestone"
+    },
+    {
+     "category": "tick"
+    },
+    {
+     "category": "end"
+    }
+   ],
+   "transform": [
+    {
+     "type": "formula",
+     "expr": "now()",
+     "as": "timestamp"
+    },
+    {
+     "type": "formula",
+     "expr": "datum['category'] === 'start' ? [sDomain[reverse ? 1 : 0]] : datum['category'] === 'serpentine' ? pluck(data('serpentineDomain'), 'domain') : datum['category'] === 'milestone' ? pluck(data('dataset'), 'domain') : datum['category']==='tick' ? pluck(data('tickDomain'), 'domain') : datum['category'] === 'end' ? [sDomain[reverse ? 0 : 1]] : null",
+     "as": "domain"
+    },
+    {
+     "type": "flatten",
+     "fields": [
+      "domain"
+     ]
+    },
+    {
+     "type": "formula",
+     "expr": "+datum['domain']",
+     "as": "domain"
+    },
+    {
+     "type": "window",
+     "ops": [
+      "row_number"
+     ],
+     "sort": {
+      "field": "domain"
+     },
+     "groupby": [
+      "category"
+     ],
+     "as": [
+      "id"
+     ]
+    },
+    {
+     "type": "formula",
+     "expr": "scale('sS1', datum['domain'])",
+     "as": "sK"
+    },
+    {
+     "type": "formula",
+     "expr": "floor(datum['sK'] / (sW + sH*PI/2))",
+     "as": "i"
+    },
+    {
+     "type": "formula",
+     "expr": "datum['sK'] % (sW + sH*PI/2)",
+     "as": "r"
+    },
+    {
+     "type": "formula",
+     "expr": "(datum['r'] - sW)/(sH/2)",
+     "as": "alpha"
+    },
+    {
+     "type": "formula",
+     "expr": "(((datum['i']+1)*sWsA)-sA) >= datum['sK'] ? 'straight' : 'arc'",
+     "as": "type"
+    },
+    {
+     "type": "formula",
+     "expr": "(datum['i']%2 == 0) ? min(datum['r'],sW) : max(sW-datum['r'], 0)",
+     "as": "xStraight"
+    },
+    {
+     "type": "formula",
+     "expr": "datum['type'] === 'straight' ? datum['xStraight'] : datum['xStraight'] + (datum['i']%2 == 0 ? sin(datum['alpha'])*sH/2 : -sin(datum['alpha'])*sH/2)",
+     "as": "x"
+    },
+    {
+     "type": "formula",
+     "expr": "datum['type'] === 'straight' ? datum['i']*sH : (datum['i']*sH) + (1 - cos(datum['alpha']))*sH/2",
+     "as": "y"
+    },
+    {
+     "type": "formula",
+     "expr": "datum['type'] === 'straight' ? null : datum['i']%2===0?'right':'left'",
+     "as": "side"
+    },
+    {
+     "type": "formula",
+     "expr": "datum['type'] === 'straight' ? null : datum['alpha']<PI/2?'top':'bottom'",
+     "as": "hemisphere"
+    },
+    {
+     "type": "formula",
+     "expr": "datum['type'] === 'straight' ? 0 : (datum['side'] === 'left' ? -1 : 1) *datum['alpha']*(180/PI)+(datum['alpha'] < PI/2 ? 0 : 180)",
+     "as": "labelAngle"
+    },
+    {
+     "type": "formula",
+     "expr": "datum['i']%2===0 ?'→':'←'",
+     "as": "direction"
+    },
+    {
+     "type": "formula",
+     "expr": "datum['type'] === 'straight' ? datum['direction'] : datum['side'] === 'left' ? datum['hemisphere'] === 'top'? '←' : '→' :  datum['hemisphere'] === 'top'? '→' : '←'",
+     "as": "direction"
+    }
+   ]
+  },
+  {
+   "name": "serpentine",
+   "source": "componentEncodings",
+   "transform": [
+    {
+     "type": "filter",
+     "expr": "datum['category'] === 'serpentine'"
+    }
+   ]
+  },
+  {
+   "name": "ticks",
+   "source": "componentEncodings",
+   "transform": [
+    {
+     "type": "filter",
+     "expr": "datum['category'] === 'tick'"
+    },
+    {
+     "type": "formula",
+     "expr": "!isValid(datum['side']) ? (tLO+3.5) : datum['side'] === 'right' ? (round(datum['alpha']*(180/PI)) >= 90 ? -1 : 1.75) * (tLO+3.5) : (round(datum['alpha']*(180/PI)) > 89 ? -1 : 1.75) * (tLO+3.5)",
+     "as": "dy"
+    }
+   ]
+  },
+  {
+   "name": "domain_extent",
+   "source": "componentEncodings",
+   "transform": [
+    {
+     "type": "filter",
+     "expr": "datum['category'] === 'start' || datum['category'] === 'end'"
+    },
+    {
+     "type": "formula",
+     "expr": "datum['category'] === 'start' ? 'right' : datum['direction'] === '←' && datum['type'] === 'straight' ? 'right' : datum['side'] === 'left' ? 'right' : 'left'",
+     "as": "align"
+    },
+    {
+     "type": "formula",
+     "expr": "datum['category'] === 'start' ? -tLO-5 :  datum['direction'] === '←'  && datum['type'] === 'straight' ? -tLO-5 : datum['side'] === 'left' ? -tLO-5 : tLO+5",
+     "as": "dx"
+    }
+   ]
+  },
+  {
+   "name": "segment_ends",
+   "source": "componentEncodings",
+   "transform": [
+    {
+     "type": "filter",
+     "expr": "includeArrows && datum['category'] === 'serpentine'"
+    },
+    {
+     "type": "joinaggregate",
+     "fields": [
+      "id",
+      "id"
+     ],
+     "ops": [
+      "min",
+      "max"
+     ],
+     "groupby": [
+      "i"
+     ],
+     "as": [
+      "minId",
+      "maxId"
+     ]
+    },
+    {
+     "type": "filter",
+     "expr": "datum['id'] === (reverse ? datum['maxId'] : datum['minId'])"
+    }
+   ]
+  },
+  {
+   "name": "milestones",
+   "source": "componentEncodings",
+   "transform": [
+    {
+     "type": "filter",
+     "expr": "datum['category'] === 'milestone'"
+    },
+    {
+     "type": "lookup",
+     "key": "domain",
+     "from": "dataset",
+     "fields": [
+      "domain"
+     ],
+     "values": [
+      "label",
+      "color"
+     ]
+    },
+    {
+     "type": "formula",
+     "expr": "(isValid(hoverFocus) && hoverFocus['domain'] === datum['domain']) ? 1 : (isValid(hoverFocus) && hoverFocus['domain'] !== datum['domain']) ? 0.4 : 0",
+     "as": "fillOpacity"
+    },
+    {
+     "type": "formula",
+     "expr": "min(15, length(split(datum['label'], ',')))",
+     "as": "eventCount"
+    },
+    {
+     "type": "window",
+     "ops": [
+      "row_number"
+     ],
+     "sort": {
+      "field": "domain"
+     },
+     "as": [
+      "id"
+     ]
+    },
+    {
+     "type": "formula",
+     "expr": "10 + 200 * datum['eventCount']",
+     "as": "size"
+    },
+    {
+     "type": "formula",
+     "expr": "length(split(datum['label'], ',')) > 15 ? join(slice(split(datum['label'], ','), 0, 15), ',') + ', +' + (length(split(datum['label'], ',')) - 15) + ' more' : datum['label']",
+     "as": "displayLabel"
+    },
+    {
+     "type": "lookup",
+     "from": "label_metrics",
+     "key": "domain",
+     "fields": [
+      "domain"
+     ],
+     "values": [
+      "boxW",
+      "boxH",
+      "lineCount"
+     ]
+    },
+    {
+     "type": "collect",
+     "sort": {
+      "field": "size",
+      "order": "descending"
+     }
+    }
+   ]
+  }
+ ],
+ "autosize": {
+  "type": "none"
+ },
+ "config": {
+  "font": "IBM Plex Mono",
+  "text": {
+   "font": "IBM Plex Mono"
+  }
+ }
+}

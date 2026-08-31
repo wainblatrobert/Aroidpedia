@@ -1,0 +1,8220 @@
+{
+ "version": "1.0.0",
+ "generated": "2026-08-31",
+ "source": "POWO genus exports (Araceae_Exports/EXCELS), sheet SPECIES",
+ "exportsOldest": "2026-04-01",
+ "exportsNewest": "2026-04-02",
+ "note": "Species only. Hybrid rows and undated rows are excluded; see scripts/extract-species-years.py for the rules. Editorial rulings in data/taxon-rulings.json override the export.",
+ "rulingsApplied": [
+  "alocasia: excluded Alocasia augustiana (Invalid; = Alocasia aequiloba. POWO/Kew recognise it, Aroidp)",
+  "alocasia: kept Alocasia okinawensis (1965), absent from POWO",
+  "alocasia: kept Alocasia rivularis (2017), absent from POWO",
+  "alocasia: kept Alocasia lihengiae (2020), absent from POWO"
+ ],
+ "generaCount": 153,
+ "speciesCount": 4703,
+ "genera": {
+  "acontias": {
+   "name": "Acontias",
+   "years": {
+    "1860": [
+     "Acontias conspurcatus",
+     "Acontias hoffmannii",
+     "Acontias riedelianus",
+     "Acontias striatipes"
+    ],
+    "1859": [
+     "Acontias cubensis"
+    ],
+    "1866": [
+     "Acontias diversifolius"
+    ],
+    "1832": [
+     "Acontias hastifolius",
+     "Acontias helleborifolius"
+    ],
+    "1839": [
+     "Acontias luridus"
+    ],
+    "1856": [
+     "Acontias pentaphyllus",
+     "Acontias plumieri"
+    ],
+    "1864": [
+     "Acontias platylobus"
+    ],
+    "1841": [
+     "Acontias variegatus"
+    ],
+    "1858": [
+     "Acontias wendlandii"
+    ]
+   }
+  },
+  "adelonema": {
+   "name": "Adelonema",
+   "years": {
+    "2016": [
+     "Adelonema allenii",
+     "Adelonema crinipes",
+     "Adelonema hammelii",
+     "Adelonema kvistii",
+     "Adelonema mofflerianum",
+     "Adelonema orientale",
+     "Adelonema pallidinervium",
+     "Adelonema panamense",
+     "Adelonema peltatum",
+     "Adelonema picturatum",
+     "Adelonema roezlii",
+     "Adelonema speariae",
+     "Adelonema wallisii",
+     "Adelonema wendlandii",
+     "Adelonema yanamonoense"
+    ],
+    "1860": [
+     "Adelonema erythropus"
+    ]
+   }
+  },
+  "afrorhaphidophora": {
+   "name": "Afrorhaphidophora",
+   "years": {
+    "1906": [
+     "Afrorhaphidophora africana",
+     "Afrorhaphidophora pusilla"
+    ]
+   }
+  },
+  "aglaodorum": {
+   "name": "Aglaodorum",
+   "years": {
+    "1858": [
+     "Aglaodorum griffithii"
+    ]
+   }
+  },
+  "aglaonema": {
+   "name": "Aglaonema",
+   "years": {
+    "1893": [
+     "Aglaonema birmanicum",
+     "Aglaonema nicobaricum",
+     "Aglaonema pumilum",
+     "Aglaonema rotundum"
+    ],
+    "1915": [
+     "Aglaonema brevispathum",
+     "Aglaonema cochinchinense",
+     "Aglaonema cordifolium",
+     "Aglaonema vittatum"
+    ],
+    "1997": [
+     "Aglaonema chermsiriwattanae"
+    ],
+    "1856": [
+     "Aglaonema commutatum"
+    ],
+    "1892": [
+     "Aglaonema costatum"
+    ],
+    "1905": [
+     "Aglaonema densinervium"
+    ],
+    "1998": [
+     "Aglaonema flemingianum"
+    ],
+    "1859": [
+     "Aglaonema hookerianum"
+    ],
+    "2021": [
+     "Aglaonema manabendrae"
+    ],
+    "1837": [
+     "Aglaonema marantifolium",
+     "Aglaonema simplex"
+    ],
+    "1879": [
+     "Aglaonema modestum"
+    ],
+    "1887": [
+     "Aglaonema nebulosum"
+    ],
+    "1841": [
+     "Aglaonema nitidum",
+     "Aglaonema pictum"
+    ],
+    "1898": [
+     "Aglaonema ovatum",
+     "Aglaonema philippinense"
+    ],
+    "1894": [
+     "Aglaonema robeleynii"
+    ],
+    "2018": [
+     "Aglaonema tassae"
+    ],
+    "1980": [
+     "Aglaonema tricolor"
+    ]
+   }
+  },
+  "aia": {
+   "name": "Aia",
+   "years": {
+    "2024": [
+     "Aia tseui"
+    ]
+   }
+  },
+  "allopythion": {
+   "name": "Allopythion",
+   "years": {
+    "1858": [
+     "Allopythion hookeri"
+    ]
+   }
+  },
+  "alloschemone": {
+   "name": "Alloschemone",
+   "years": {
+    "2001": [
+     "Alloschemone inopinata"
+    ],
+    "1908": [
+     "Alloschemone occidentalis"
+    ]
+   }
+  },
+  "alocasia": {
+   "name": "Alocasia",
+   "years": {
+    "1859": [
+     "Alocasia acuminata",
+     "Alocasia decipiens",
+     "Alocasia fallax"
+    ],
+    "1895": [
+     "Alocasia aequiloba"
+    ],
+    "1852": [
+     "Alocasia alba"
+    ],
+    "1901": [
+     "Alocasia arifolia"
+    ],
+    "1920": [
+     "Alocasia atropurpurea",
+     "Alocasia grata",
+     "Alocasia lecomtei"
+    ],
+    "2016": [
+     "Alocasia azlanii"
+    ],
+    "2011": [
+     "Alocasia baginda"
+    ],
+    "1998": [
+     "Alocasia balgooyi",
+     "Alocasia flemingiana",
+     "Alocasia kerinciensis",
+     "Alocasia minuscula",
+     "Alocasia pangeran",
+     "Alocasia principiculus",
+     "Alocasia puteri",
+     "Alocasia reginula",
+     "Alocasia ridleyi",
+     "Alocasia suhirmaniana",
+     "Alocasia venusta",
+     "Alocasia wongii"
+    ],
+    "1879": [
+     "Alocasia beccarii",
+     "Alocasia scabriuscula"
+    ],
+    "1991": [
+     "Alocasia boa",
+     "Alocasia flabellifera",
+     "Alocasia monticola",
+     "Alocasia nicolsonii",
+     "Alocasia pyrospatha"
+    ],
+    "1999": [
+     "Alocasia boyceana",
+     "Alocasia clypeolata",
+     "Alocasia ramosii",
+     "Alocasia scalprum"
+    ],
+    "1990": [
+     "Alocasia brancifolia",
+     "Alocasia lauterbachiana"
+    ],
+    "1915": [
+     "Alocasia brisbanensis",
+     "Alocasia inornata"
+    ],
+    "1939": [
+     "Alocasia cadieri",
+     "Alocasia decumbens"
+    ],
+    "1898": [
+     "Alocasia celebica",
+     "Alocasia hollrungii"
+    ],
+    "2007": [
+     "Alocasia chaii",
+     "Alocasia infernalis",
+     "Alocasia nycteris"
+    ],
+    "1839": [
+     "Alocasia cucullata",
+     "Alocasia macrorrhizos"
+    ],
+    "1905": [
+     "Alocasia culionensis"
+    ],
+    "1861": [
+     "Alocasia cuprea"
+    ],
+    "1912": [
+     "Alocasia devansayana",
+     "Alocasia lancifolia",
+     "Alocasia micholitziana"
+    ],
+    "2022": [
+     "Alocasia epilithica"
+    ],
+    "2013": [
+     "Alocasia evrardii",
+     "Alocasia vietnamensis"
+    ],
+    "2017": [
+     "Alocasia farisii",
+     "Alocasia rivularis"
+    ],
+    "1854": [
+     "Alocasia fornicata"
+    ],
+    "1903": [
+     "Alocasia hainanica"
+    ],
+    "2018": [
+     "Alocasia hararganjensis",
+     "Alocasia salarkhanii"
+    ],
+    "1908": [
+     "Alocasia heterophylla"
+    ],
+    "2008": [
+     "Alocasia hypoleuca"
+    ],
+    "1846": [
+     "Alocasia indica",
+     "Alocasia odora"
+    ],
+    "2010": [
+     "Alocasia jiewhoei"
+    ],
+    "1856": [
+     "Alocasia longiloba",
+     "Alocasia puber"
+    ],
+    "1918": [
+     "Alocasia maquilingensis"
+    ],
+    "2003": [
+     "Alocasia megawatiae"
+    ],
+    "1997": [
+     "Alocasia melo"
+    ],
+    "1855": [
+     "Alocasia navicularis"
+    ],
+    "2000": [
+     "Alocasia nebula"
+    ],
+    "1967": [
+     "Alocasia peltata",
+     "Alocasia robusta",
+     "Alocasia sarawakensis"
+    ],
+    "1887": [
+     "Alocasia perakensis"
+    ],
+    "1862": [
+     "Alocasia portei",
+     "Alocasia zebrina"
+    ],
+    "1888": [
+     "Alocasia princeps"
+    ],
+    "2020": [
+     "Alocasia lihengiae",
+     "Alocasia puncakborneensis",
+     "Alocasia yunqiana"
+    ],
+    "1884": [
+     "Alocasia reginae",
+     "Alocasia sanderiana"
+    ],
+    "1890": [
+     "Alocasia reversa"
+    ],
+    "2024": [
+     "Alocasia rosea",
+     "Alocasia sakonakhonensis"
+    ],
+    "1994": [
+     "Alocasia simonsiana"
+    ],
+    "1885": [
+     "Alocasia sinuata"
+    ],
+    "2023": [
+     "Alocasia tandurusa"
+    ],
+    "1916": [
+     "Alocasia wentii"
+    ],
+    "1965": [
+     "Alocasia okinawensis"
+    ]
+   }
+  },
+  "ambrosina": {
+   "name": "Ambrosina",
+   "years": {
+    "1764": [
+     "Ambrosina bassii"
+    ]
+   }
+  },
+  "amorphophallus": {
+   "name": "Amorphophallus",
+   "years": {
+    "1994": [
+     "Amorphophallus aberrans",
+     "Amorphophallus albispathus",
+     "Amorphophallus angulatus",
+     "Amorphophallus angustispathus",
+     "Amorphophallus annulifer",
+     "Amorphophallus atroviridis",
+     "Amorphophallus bonaccordensis",
+     "Amorphophallus cicatricifer",
+     "Amorphophallus costatus",
+     "Amorphophallus curvistylis",
+     "Amorphophallus declinatus",
+     "Amorphophallus excentricus",
+     "Amorphophallus glossophyllus",
+     "Amorphophallus hayi",
+     "Amorphophallus infundibuliformis",
+     "Amorphophallus konkanensis",
+     "Amorphophallus lanuginosus",
+     "Amorphophallus linguiformis",
+     "Amorphophallus maxwellii",
+     "Amorphophallus opertus",
+     "Amorphophallus pilosus",
+     "Amorphophallus pusillus",
+     "Amorphophallus pygmaeus",
+     "Amorphophallus rhizomatosus",
+     "Amorphophallus rostratus",
+     "Amorphophallus rugosus",
+     "Amorphophallus salmoneus",
+     "Amorphophallus scaber",
+     "Amorphophallus tenuispadix",
+     "Amorphophallus tenuistylis",
+     "Amorphophallus verticillatus"
+    ],
+    "1901": [
+     "Amorphophallus abyssinicus",
+     "Amorphophallus angolensis",
+     "Amorphophallus baumannii",
+     "Amorphophallus calabaricus",
+     "Amorphophallus dracontioides",
+     "Amorphophallus gallaensis",
+     "Amorphophallus goetzei",
+     "Amorphophallus johnsonii",
+     "Amorphophallus maximus",
+     "Amorphophallus mossambicensis",
+     "Amorphophallus preussii",
+     "Amorphophallus staudtii",
+     "Amorphophallus zenkeri"
+    ],
+    "2013": [
+     "Amorphophallus adamsensis",
+     "Amorphophallus hemicryptus",
+     "Amorphophallus nicolaii",
+     "Amorphophallus pulchellus"
+    ],
+    "1984": [
+     "Amorphophallus albus"
+    ],
+    "2019": [
+     "Amorphophallus allenii",
+     "Amorphophallus crinitus",
+     "Amorphophallus malkmus-husseinii",
+     "Amorphophallus umbrinus",
+     "Amorphophallus villosus"
+    ],
+    "2001": [
+     "Amorphophallus amygdaloides",
+     "Amorphophallus atrorubens",
+     "Amorphophallus boyceanus",
+     "Amorphophallus brachyphyllus",
+     "Amorphophallus dzui",
+     "Amorphophallus longicomus",
+     "Amorphophallus obscurus",
+     "Amorphophallus ochroleucus",
+     "Amorphophallus polyanthus",
+     "Amorphophallus saururus",
+     "Amorphophallus scutatus",
+     "Amorphophallus sizemoreae",
+     "Amorphophallus symonianus",
+     "Amorphophallus synandrifer",
+     "Amorphophallus tinekeae",
+     "Amorphophallus venustus"
+    ],
+    "2006": [
+     "Amorphophallus andranogidroensis",
+     "Amorphophallus croatii",
+     "Amorphophallus erythrorrhachis",
+     "Amorphophallus fuscus",
+     "Amorphophallus gallowayi",
+     "Amorphophallus glaucophyllus",
+     "Amorphophallus josefbogneri",
+     "Amorphophallus laoticus",
+     "Amorphophallus lunatus",
+     "Amorphophallus myosuroides",
+     "Amorphophallus ongsakulii",
+     "Amorphophallus prolificus",
+     "Amorphophallus reflexus",
+     "Amorphophallus schmidtiae",
+     "Amorphophallus serrulatus",
+     "Amorphophallus tuberculatus",
+     "Amorphophallus xiei"
+    ],
+    "1999": [
+     "Amorphophallus ankarana",
+     "Amorphophallus antsingyensis",
+     "Amorphophallus taurostigma"
+    ],
+    "1936": [
+     "Amorphophallus aphyllus",
+     "Amorphophallus plicatus"
+    ],
+    "2012": [
+     "Amorphophallus arcuspadix",
+     "Amorphophallus bolikhamxayensis",
+     "Amorphophallus brevipetiolatus",
+     "Amorphophallus crispifolius",
+     "Amorphophallus fallax",
+     "Amorphophallus ferruginosus",
+     "Amorphophallus kuznetsovii",
+     "Amorphophallus lanceolatus",
+     "Amorphophallus macrophyllus",
+     "Amorphophallus natolii",
+     "Amorphophallus terrestris",
+     "Amorphophallus thaiensis"
+    ],
+    "2020": [
+     "Amorphophallus ardii",
+     "Amorphophallus caudatus",
+     "Amorphophallus cidarioides",
+     "Amorphophallus fornicatus",
+     "Amorphophallus rayongii",
+     "Amorphophallus urceolatus",
+     "Amorphophallus yaoi"
+    ],
+    "1911": [
+     "Amorphophallus asper",
+     "Amorphophallus borneensis",
+     "Amorphophallus carnosus",
+     "Amorphophallus dunnii",
+     "Amorphophallus forbesii",
+     "Amorphophallus gliruroides",
+     "Amorphophallus harmandii",
+     "Amorphophallus hildebrandtii",
+     "Amorphophallus hohenackeri",
+     "Amorphophallus interruptus",
+     "Amorphophallus kachinensis",
+     "Amorphophallus krausei",
+     "Amorphophallus longispathaceus",
+     "Amorphophallus longituberosus",
+     "Amorphophallus mekongensis",
+     "Amorphophallus perakensis",
+     "Amorphophallus stuhlmannii",
+     "Amorphophallus tonkinensis",
+     "Amorphophallus yunnanensis"
+    ],
+    "1992": [
+     "Amorphophallus asterostigmatus",
+     "Amorphophallus hottae",
+     "Amorphophallus palawanensis"
+    ],
+    "1941": [
+     "Amorphophallus bangkokensis",
+     "Amorphophallus brevispathus",
+     "Amorphophallus koratensis",
+     "Amorphophallus linearis",
+     "Amorphophallus napiger",
+     "Amorphophallus putii",
+     "Amorphophallus saraburensis"
+    ],
+    "2024": [
+     "Amorphophallus bantae",
+     "Amorphophallus leptosoma",
+     "Amorphophallus samarensis"
+    ],
+    "2015": [
+     "Amorphophallus barbatus",
+     "Amorphophallus claudelii",
+     "Amorphophallus khammouanensis"
+    ],
+    "1997": [
+     "Amorphophallus barthlottii",
+     "Amorphophallus canaliculatus",
+     "Amorphophallus impressus",
+     "Amorphophallus margretae",
+     "Amorphophallus richardsiae"
+    ],
+    "1880": [
+     "Amorphophallus beccarii",
+     "Amorphophallus gracilis"
+    ],
+    "1922": [
+     "Amorphophallus bequaertii",
+     "Amorphophallus elegans",
+     "Amorphophallus incurvatus",
+     "Amorphophallus obovoideus"
+    ],
+    "2009": [
+     "Amorphophallus bognerianus"
+    ],
+    "2016": [
+     "Amorphophallus bubenensis",
+     "Amorphophallus kienluongensis"
+    ],
+    "1909": [
+     "Amorphophallus bufo"
+    ],
+    "1837": [
+     "Amorphophallus bulbifer",
+     "Amorphophallus consimilis",
+     "Amorphophallus margaritifer",
+     "Amorphophallus muelleri",
+     "Amorphophallus variabilis"
+    ],
+    "2021": [
+     "Amorphophallus calcicola",
+     "Amorphophallus minimus"
+    ],
+    "2017": [
+     "Amorphophallus candidissimus",
+     "Amorphophallus shyamsalilianus"
+    ],
+    "1904": [
+     "Amorphophallus carneus",
+     "Amorphophallus minor"
+    ],
+    "1893": [
+     "Amorphophallus chlorospathus",
+     "Amorphophallus elatus",
+     "Amorphophallus galbra",
+     "Amorphophallus haematospadix",
+     "Amorphophallus longistylus",
+     "Amorphophallus oncophyllus",
+     "Amorphophallus prainii",
+     "Amorphophallus purpurascens",
+     "Amorphophallus sparsiflorus"
+    ],
+    "1924": [
+     "Amorphophallus cirrifer",
+     "Amorphophallus mildbraedii"
+    ],
+    "1986": [
+     "Amorphophallus coaetaneus",
+     "Amorphophallus coudercii",
+     "Amorphophallus napalensis",
+     "Amorphophallus nicolsonianus",
+     "Amorphophallus pendulus"
+    ],
+    "1879": [
+     "Amorphophallus commutatus",
+     "Amorphophallus spectabilis",
+     "Amorphophallus titanum"
+    ],
+    "1898": [
+     "Amorphophallus cruddasianus"
+    ],
+    "1920": [
+     "Amorphophallus decus-silvae",
+     "Amorphophallus discophorus",
+     "Amorphophallus hewittii",
+     "Amorphophallus paucisectus",
+     "Amorphophallus subcymbiformis"
+    ],
+    "2022": [
+     "Amorphophallus dumboi",
+     "Amorphophallus flammeus",
+     "Amorphophallus fontarumii",
+     "Amorphophallus mayoi",
+     "Amorphophallus wasa"
+    ],
+    "1989": [
+     "Amorphophallus eburneus",
+     "Amorphophallus smithsonianus"
+    ],
+    "1985": [
+     "Amorphophallus echinatus",
+     "Amorphophallus sumawongii"
+    ],
+    "1889": [
+     "Amorphophallus eichleri"
+    ],
+    "1894": [
+     "Amorphophallus elliotii"
+    ],
+    "2018": [
+     "Amorphophallus flotoi",
+     "Amorphophallus ravenii"
+    ],
+    "1862": [
+     "Amorphophallus gigas",
+     "Amorphophallus hirsutus"
+    ],
+    "1950": [
+     "Amorphophallus gomboczianus"
+    ],
+    "1939": [
+     "Amorphophallus gracilior"
+    ],
+    "1903": [
+     "Amorphophallus henryi",
+     "Amorphophallus hirtus"
+    ],
+    "2004": [
+     "Amorphophallus julaihii"
+    ],
+    "2010": [
+     "Amorphophallus juliae",
+     "Amorphophallus niahensis",
+     "Amorphophallus suwidjianus"
+    ],
+    "1913": [
+     "Amorphophallus kiusianus"
+    ],
+    "1858": [
+     "Amorphophallus konjac"
+    ],
+    "1878": [
+     "Amorphophallus lacourii"
+    ],
+    "1982": [
+     "Amorphophallus lambii"
+    ],
+    "1993": [
+     "Amorphophallus lewallei",
+     "Amorphophallus mullendersii"
+    ],
+    "1995": [
+     "Amorphophallus longiconnectivus"
+    ],
+    "1915": [
+     "Amorphophallus luzoniensis"
+    ],
+    "1841": [
+     "Amorphophallus lyratus",
+     "Amorphophallus sylvaticus"
+    ],
+    "1912": [
+     "Amorphophallus macrorhizus",
+     "Amorphophallus merrillii"
+    ],
+    "2003": [
+     "Amorphophallus mangelsdorffii",
+     "Amorphophallus operculatus",
+     "Amorphophallus sinuatus",
+     "Amorphophallus vogelianus"
+    ],
+    "2023": [
+     "Amorphophallus mirabilis",
+     "Amorphophallus opalinus",
+     "Amorphophallus sakonnakhonensis"
+    ],
+    "1940": [
+     "Amorphophallus mysorensis"
+    ],
+    "1977": [
+     "Amorphophallus paeoniifolius"
+    ],
+    "2014": [
+     "Amorphophallus perrieri"
+    ],
+    "2007": [
+     "Amorphophallus ranchanensis"
+    ],
+    "1953": [
+     "Amorphophallus sagittarius"
+    ],
+    "1988": [
+     "Amorphophallus yuloensis"
+    ]
+   }
+  },
+  "amydrium": {
+   "name": "Amydrium",
+   "years": {
+    "1979": [
+     "Amydrium hainanense",
+     "Amydrium sinense"
+    ],
+    "1863": [
+     "Amydrium humile"
+    ],
+    "1968": [
+     "Amydrium medium",
+     "Amydrium zippelianum"
+    ]
+   }
+  },
+  "anadendrum": {
+   "name": "Anadendrum",
+   "years": {
+    "1864": [
+     "Anadendrum affine",
+     "Anadendrum cordatum"
+    ],
+    "1902": [
+     "Anadendrum angustifolium"
+    ],
+    "2009": [
+     "Anadendrum badium",
+     "Anadendrum griseum",
+     "Anadendrum marcesovaginatum"
+    ],
+    "2010": [
+     "Anadendrum calcicola",
+     "Anadendrum muluensis"
+    ],
+    "2019": [
+     "Anadendrum chlorospathum"
+    ],
+    "1999": [
+     "Anadendrum ellipticum"
+    ],
+    "1893": [
+     "Anadendrum latifolium"
+    ],
+    "1857": [
+     "Anadendrum marginatum",
+     "Anadendrum montanum"
+    ],
+    "1920": [
+     "Anadendrum microstachyum",
+     "Anadendrum superans"
+    ]
+   }
+  },
+  "anaphyllopsis": {
+   "name": "Anaphyllopsis",
+   "years": {
+    "1989": [
+     "Anaphyllopsis americana",
+     "Anaphyllopsis cururuana",
+     "Anaphyllopsis pinnata"
+    ]
+   }
+  },
+  "anaphyllum": {
+   "name": "Anaphyllum",
+   "years": {
+    "1911": [
+     "Anaphyllum beddomei"
+    ],
+    "1858": [
+     "Anaphyllum wightii"
+    ]
+   }
+  },
+  "anchomanes": {
+   "name": "Anchomanes",
+   "years": {
+    "1905": [
+     "Anchomanes abbreviatus"
+    ],
+    "1892": [
+     "Anchomanes boehmii"
+    ],
+    "1913": [
+     "Anchomanes dalzielii",
+     "Anchomanes nigritianus"
+    ],
+    "1879": [
+     "Anchomanes difformis"
+    ],
+    "1899": [
+     "Anchomanes giganteus"
+    ]
+   }
+  },
+  "anthurium": {
+   "name": "Anthurium",
+   "years": {
+    "2015": [
+     "Anthurium abajoense",
+     "Anthurium alcogolloi",
+     "Anthurium batistae",
+     "Anthurium blanquitense",
+     "Anthurium cachoeirense",
+     "Anthurium carrasquillanum",
+     "Anthurium coicoyanense",
+     "Anthurium combeimense",
+     "Anthurium curtipedunculum",
+     "Anthurium dabeibaense",
+     "Anthurium elquincense",
+     "Anthurium espiranzaense",
+     "Anthurium frontinoense",
+     "Anthurium hempeanum",
+     "Anthurium juanguillermoi",
+     "Anthurium monteazulense",
+     "Anthurium ovidioi",
+     "Anthurium oyuelae",
+     "Anthurium pedrazae",
+     "Anthurium poloense",
+     "Anthurium sanjorgense",
+     "Anthurium sneidernii",
+     "Anthurium tortuosum",
+     "Anthurium triangulopetiolum",
+     "Anthurium yanacochense"
+    ],
+    "2022": [
+     "Anthurium abelardoi",
+     "Anthurium acaimense",
+     "Anthurium alatipetiolum",
+     "Anthurium albifructum",
+     "Anthurium alejandroi",
+     "Anthurium alexandri",
+     "Anthurium alexespinosae",
+     "Anthurium angelamorae",
+     "Anthurium ariztutense",
+     "Anthurium attenuatifolium",
+     "Anthurium aurantiifructum",
+     "Anthurium bajobonitense",
+     "Anthurium barfodii",
+     "Anthurium belenense",
+     "Anthurium bergii",
+     "Anthurium berguidoi",
+     "Anthurium billdarcyi",
+     "Anthurium billhahnii",
+     "Anthurium boqueronense",
+     "Anthurium botijaense",
+     "Anthurium bovinii",
+     "Anthurium bratsiense",
+     "Anthurium breedlovei",
+     "Anthurium brunneum",
+     "Anthurium bueyense",
+     "Anthurium caldasii",
+     "Anthurium carrionii",
+     "Anthurium certeguense",
+     "Anthurium chaconii",
+     "Anthurium chiriacoense",
+     "Anthurium churchillii",
+     "Anthurium claudiae",
+     "Anthurium cojimiesense",
+     "Anthurium comincoense",
+     "Anthurium coquiense",
+     "Anthurium cuadrosii",
+     "Anthurium davidneillii",
+     "Anthurium deneversii",
+     "Anthurium diabloense",
+     "Anthurium diversurense",
+     "Anthurium doroteryense",
+     "Anthurium duocostatum",
+     "Anthurium edtysonii",
+     "Anthurium flagellum",
+     "Anthurium floresii",
+     "Anthurium fredmulleri",
+     "Anthurium friedrichii",
+     "Anthurium gerardoi",
+     "Anthurium gladysmartineziae",
+     "Anthurium glandulicostum",
+     "Anthurium granditepalum",
+     "Anthurium gregneversii",
+     "Anthurium gruesoi",
+     "Anthurium guaboense",
+     "Anthurium guadalupeae",
+     "Anthurium habitense",
+     "Anthurium heathlongiorum",
+     "Anthurium heraclioanum",
+     "Anthurium hoellii",
+     "Anthurium holyi",
+     "Anthurium hughchurchillii",
+     "Anthurium iguanitense",
+     "Anthurium insolitum",
+     "Anthurium ixtenamense",
+     "Anthurium jaimefolsomii",
+     "Anthurium jicoteense",
+     "Anthurium jimfolsomii",
+     "Anthurium jimgribianum",
+     "Anthurium jimwestii",
+     "Anthurium kensytsmae",
+     "Anthurium kittredgeanum",
+     "Anthurium koesteri",
+     "Anthurium kubickii",
+     "Anthurium lamanense",
+     "Anthurium lellingeri",
+     "Anthurium lobinii",
+     "Anthurium loratum",
+     "Anthurium luzmariae",
+     "Anthurium mercadoi",
+     "Anthurium mercedesense",
+     "Anthurium micosense",
+     "Anthurium minimum",
+     "Anthurium minutiareolum",
+     "Anthurium minutiglandulum",
+     "Anthurium miriamiae",
+     "Anthurium mittermeieri",
+     "Anthurium monroi",
+     "Anthurium morrisii",
+     "Anthurium muscidiradix",
+     "Anthurium neei",
+     "Anthurium nonoense",
+     "Anthurium nutans",
+     "Anthurium oblitum",
+     "Anthurium oblongispicum",
+     "Anthurium omarescobarii",
+     "Anthurium orellanense",
+     "Anthurium orosiense",
+     "Anthurium ortizii",
+     "Anthurium pacevedoi",
+     "Anthurium pacificum",
+     "Anthurium pallidifibrum",
+     "Anthurium palmitasense",
+     "Anthurium paulmaasii",
+     "Anthurium pedernalense",
+     "Anthurium perangustum",
+     "Anthurium peregrinense",
+     "Anthurium polancoi",
+     "Anthurium prominor",
+     "Anthurium purpuribacca",
+     "Anthurium robertii",
+     "Anthurium sabanitense",
+     "Anthurium scottmorii",
+     "Anthurium sknappiae",
+     "Anthurium stockwellii",
+     "Anthurium sueae",
+     "Anthurium sukutense",
+     "Anthurium sursumtepalum",
+     "Anthurium tacotalpense",
+     "Anthurium tarapuiense",
+     "Anthurium tarrazuense",
+     "Anthurium tayuticense",
+     "Anthurium toroense",
+     "Anthurium tsaiae",
+     "Anthurium tscuiense",
+     "Anthurium tuquesense",
+     "Anthurium unguiense",
+     "Anthurium ustupoense",
+     "Anthurium vanninii",
+     "Anthurium veraguense",
+     "Anthurium victoriense",
+     "Anthurium viridiflavum",
+     "Anthurium vlastimilii",
+     "Anthurium wellingae",
+     "Anthurium wiehleri",
+     "Anthurium xanthum",
+     "Anthurium yatuense",
+     "Anthurium zachdufranianum",
+     "Anthurium zakii",
+     "Anthurium zapatae",
+     "Anthurium zhui"
+    ],
+    "2004": [
+     "Anthurium acanthospadix",
+     "Anthurium acutibacca",
+     "Anthurium amargalense",
+     "Anthurium ancuashii",
+     "Anthurium arusiense",
+     "Anthurium atramentarium",
+     "Anthurium chimborazense",
+     "Anthurium chrysolithos",
+     "Anthurium churutense",
+     "Anthurium colonchense",
+     "Anthurium constrictum",
+     "Anthurium debile",
+     "Anthurium fontellanum",
+     "Anthurium galeanoae",
+     "Anthurium grandicataphyllum",
+     "Anthurium hodgei",
+     "Anthurium johnmackii",
+     "Anthurium licium",
+     "Anthurium lucioi",
+     "Anthurium macphersonii",
+     "Anthurium modicum",
+     "Anthurium morae",
+     "Anthurium moronense",
+     "Anthurium pallidicaudex",
+     "Anthurium pinkleyi",
+     "Anthurium promininerve",
+     "Anthurium ramoncaracasii",
+     "Anthurium rotundatum",
+     "Anthurium silverstonei",
+     "Anthurium soejartoi",
+     "Anthurium subaequans",
+     "Anthurium ternifolium",
+     "Anthurium variilobum"
+    ],
+    "1829": [
+     "Anthurium acaule",
+     "Anthurium cordatum",
+     "Anthurium crassinervium",
+     "Anthurium digitatum",
+     "Anthurium macrophyllum",
+     "Anthurium myosuroides",
+     "Anthurium palmatum"
+    ],
+    "2005": [
+     "Anthurium acebeyae",
+     "Anthurium ameliae",
+     "Anthurium apanui",
+     "Anthurium atamainii",
+     "Anthurium baguense",
+     "Anthurium beckii",
+     "Anthurium besseae",
+     "Anthurium bocainense",
+     "Anthurium brent-berlinii",
+     "Anthurium ceronii",
+     "Anthurium chinchipense",
+     "Anthurium chinimense",
+     "Anthurium curicuriariense",
+     "Anthurium darcyi",
+     "Anthurium diazii",
+     "Anthurium effusilobum",
+     "Anthurium fornicifolium",
+     "Anthurium fragrans",
+     "Anthurium galileanum",
+     "Anthurium giraldoi",
+     "Anthurium hamiltonii",
+     "Anthurium huampamiense",
+     "Anthurium huashikatii",
+     "Anthurium kayapii",
+     "Anthurium kugkumasii",
+     "Anthurium kusuense",
+     "Anthurium leonii",
+     "Anthurium leveaui",
+     "Anthurium ligulare",
+     "Anthurium luxurians",
+     "Anthurium macdanielii",
+     "Anthurium magdae",
+     "Anthurium mariae",
+     "Anthurium moonenii",
+     "Anthurium mostaceroi",
+     "Anthurium ottobuchtienii",
+     "Anthurium payaminoense",
+     "Anthurium penae",
+     "Anthurium piurensis",
+     "Anthurium quipuscoae",
+     "Anthurium rojasiae",
+     "Anthurium santaritense",
+     "Anthurium shinumas",
+     "Anthurium sidneyi",
+     "Anthurium stephanii",
+     "Anthurium tsamajainii",
+     "Anthurium tunquii",
+     "Anthurium viridispathum",
+     "Anthurium whitmorei",
+     "Anthurium yamayakatense",
+     "Anthurium yungasense"
+    ],
+    "2010": [
+     "Anthurium achupallense",
+     "Anthurium algentryi",
+     "Anthurium alstonii",
+     "Anthurium altobueyense",
+     "Anthurium angelopolisense",
+     "Anthurium arbelaezii",
+     "Anthurium birdseyanum",
+     "Anthurium boekei",
+     "Anthurium bogneri",
+     "Anthurium caldodsonii",
+     "Anthurium cardenasii",
+     "Anthurium cirinoi",
+     "Anthurium clarkei",
+     "Anthurium cocornaense",
+     "Anthurium collettianum",
+     "Anthurium cotejense",
+     "Anthurium cremersii",
+     "Anthurium delannayi",
+     "Anthurium dorbayae",
+     "Anthurium dylanii",
+     "Anthurium espinae",
+     "Anthurium gaskinii",
+     "Anthurium huberi",
+     "Anthurium jesusii",
+     "Anthurium kajekaii",
+     "Anthurium kunayalense",
+     "Anthurium libanoense",
+     "Anthurium lynniae",
+     "Anthurium maasii",
+     "Anthurium mendietae",
+     "Anthurium merlei",
+     "Anthurium miaziense",
+     "Anthurium molle",
+     "Anthurium munchiquense",
+     "Anthurium nangaritense",
+     "Anthurium novitaense",
+     "Anthurium palmarense",
+     "Anthurium paraguasense",
+     "Anthurium patens",
+     "Anthurium pichindense",
+     "Anthurium pulidoae",
+     "Anthurium quinindense",
+     "Anthurium ramosense",
+     "Anthurium ramosii",
+     "Anthurium recavum",
+     "Anthurium renteriae",
+     "Anthurium sierpense",
+     "Anthurium suramaense",
+     "Anthurium teimosoanum",
+     "Anthurium tomasiae",
+     "Anthurium torraense",
+     "Anthurium triciafrankiae",
+     "Anthurium uasadiensis",
+     "Anthurium venadoense",
+     "Anthurium vientense",
+     "Anthurium werneri",
+     "Anthurium yatacuense"
+    ],
+    "2018": [
+     "Anthurium aciculare",
+     "Anthurium aciforme",
+     "Anthurium atroguttatum",
+     "Anthurium boylei",
+     "Anthurium caparaoense",
+     "Anthurium carmenense",
+     "Anthurium cobbiae",
+     "Anthurium dalmauii",
+     "Anthurium debile-emarginatum",
+     "Anthurium dichromum",
+     "Anthurium elisalevyae",
+     "Anthurium erythrospadix",
+     "Anthurium gelpii",
+     "Anthurium griseosessile",
+     "Anthurium jorgemendietanum",
+     "Anthurium melanochlorum",
+     "Anthurium misturatum",
+     "Anthurium mongonense",
+     "Anthurium narae",
+     "Anthurium narvaezii",
+     "Anthurium pseudonigrescens",
+     "Anthurium toisanense"
+    ],
+    "1898": [
+     "Anthurium acutangulum",
+     "Anthurium acutifolium",
+     "Anthurium acutissimum",
+     "Anthurium andinum",
+     "Anthurium angosturense",
+     "Anthurium angustilaminatum",
+     "Anthurium angustisectum",
+     "Anthurium aureum",
+     "Anthurium balaoanum",
+     "Anthurium buganum",
+     "Anthurium caramantae",
+     "Anthurium coerulescens",
+     "Anthurium crassivenium",
+     "Anthurium cubense",
+     "Anthurium daguense",
+     "Anthurium deflexum",
+     "Anthurium durandii",
+     "Anthurium dussii",
+     "Anthurium ecuadorense",
+     "Anthurium eggersii",
+     "Anthurium eichleri",
+     "Anthurium eximium",
+     "Anthurium filiforme",
+     "Anthurium flavoviride",
+     "Anthurium funiferum",
+     "Anthurium giganteum",
+     "Anthurium gualeanum",
+     "Anthurium guanacense",
+     "Anthurium guayaquilense",
+     "Anthurium hacumense",
+     "Anthurium hieronymi",
+     "Anthurium incurvatum",
+     "Anthurium incurvum",
+     "Anthurium inzanum",
+     "Anthurium karstenianum",
+     "Anthurium lehmannii",
+     "Anthurium lindmanianum",
+     "Anthurium longegeniculatum",
+     "Anthurium longicaudatum",
+     "Anthurium longicuspidatum",
+     "Anthurium longistamineum",
+     "Anthurium monticola",
+     "Anthurium mourae",
+     "Anthurium multinervium",
+     "Anthurium napaeum",
+     "Anthurium nicolasianum",
+     "Anthurium nigrescens",
+     "Anthurium nitidulum",
+     "Anthurium organense",
+     "Anthurium ovatifolium",
+     "Anthurium pallatangense",
+     "Anthurium pallidiflorum",
+     "Anthurium paludosum",
+     "Anthurium paraguayense",
+     "Anthurium pichinchae",
+     "Anthurium pittieri",
+     "Anthurium ranchoanum",
+     "Anthurium rigidifolium",
+     "Anthurium sarmentosum",
+     "Anthurium seleri",
+     "Anthurium silvicola",
+     "Anthurium sodiroanum",
+     "Anthurium stuebelii",
+     "Anthurium subcaudatum",
+     "Anthurium subcoerulescens",
+     "Anthurium sulcatum",
+     "Anthurium supianum",
+     "Anthurium talamancae",
+     "Anthurium tenerum",
+     "Anthurium tenuicaule",
+     "Anthurium tenuifolium",
+     "Anthurium tonduzii",
+     "Anthurium truncicola",
+     "Anthurium umbricola",
+     "Anthurium velutinum",
+     "Anthurium viridescens",
+     "Anthurium yarumalense"
+    ],
+    "1887": [
+     "Anthurium acutum",
+     "Anthurium purpureum"
+    ],
+    "1860": [
+     "Anthurium aduncum",
+     "Anthurium concinnatum",
+     "Anthurium dombeyanum",
+     "Anthurium fendleri",
+     "Anthurium imperiale",
+     "Anthurium langsdorffii",
+     "Anthurium lechlerianum",
+     "Anthurium metallicum",
+     "Anthurium panduriforme",
+     "Anthurium sagittaria",
+     "Anthurium solitarium",
+     "Anthurium triphyllum",
+     "Anthurium urvilleanum"
+    ],
+    "1855": [
+     "Anthurium affine",
+     "Anthurium augustinum",
+     "Anthurium consobrinum",
+     "Anthurium eminens",
+     "Anthurium friedrichsthalii",
+     "Anthurium galeottii",
+     "Anthurium radicans",
+     "Anthurium signatum",
+     "Anthurium striatum"
+    ],
+    "1858": [
+     "Anthurium agnatum",
+     "Anthurium dominicense",
+     "Anthurium flexile",
+     "Anthurium formosum",
+     "Anthurium hoffmannii",
+     "Anthurium lancifolium",
+     "Anthurium macleanii",
+     "Anthurium microspadix",
+     "Anthurium obliquatum",
+     "Anthurium obtusilobum",
+     "Anthurium oerstedianum",
+     "Anthurium pallens",
+     "Anthurium protensum",
+     "Anthurium spectabile",
+     "Anthurium subcordatum",
+     "Anthurium subhastatum"
+    ],
+    "2025": [
+     "Anthurium aguindae",
+     "Anthurium aldavei",
+     "Anthurium alvaroperezii",
+     "Anthurium andagoyense",
+     "Anthurium andaquiense",
+     "Anthurium angustiattenuatum",
+     "Anthurium asanzae",
+     "Anthurium bojbroi",
+     "Anthurium bongarense",
+     "Anthurium boquetense",
+     "Anthurium boscoense",
+     "Anthurium bricenoense",
+     "Anthurium brucesteinii",
+     "Anthurium castilloae",
+     "Anthurium cerro-oscuroense",
+     "Anthurium changuilense",
+     "Anthurium charalense",
+     "Anthurium chulluense",
+     "Anthurium clementinense",
+     "Anthurium coaiqueresense",
+     "Anthurium cogolloi",
+     "Anthurium corazonense",
+     "Anthurium corcovadense",
+     "Anthurium cornbonanum",
+     "Anthurium dauroense",
+     "Anthurium divisoriense",
+     "Anthurium dylanhannonii",
+     "Anthurium echeverryae",
+     "Anthurium eloroense",
+     "Anthurium elpanense",
+     "Anthurium elsworthii",
+     "Anthurium espinalii",
+     "Anthurium florianwerneri",
+     "Anthurium grantii",
+     "Anthurium granulatum",
+     "Anthurium guaparense",
+     "Anthurium guatapense",
+     "Anthurium guausaense",
+     "Anthurium guayasense",
+     "Anthurium guttalineatum",
+     "Anthurium hermescuadrosii",
+     "Anthurium hitchcockii",
+     "Anthurium hollinense",
+     "Anthurium huilense",
+     "Anthurium ibaguense",
+     "Anthurium ilinizasense",
+     "Anthurium ingvarii",
+     "Anthurium jojoae",
+     "Anthurium jorgei",
+     "Anthurium kyburzii",
+     "Anthurium lasierpense",
+     "Anthurium latecollectivum",
+     "Anthurium longiluteum",
+     "Anthurium lorenanum",
+     "Anthurium marroninum",
+     "Anthurium marulandae",
+     "Anthurium memoriae",
+     "Anthurium minutisinus",
+     "Anthurium mistratoense",
+     "Anthurium mutatense",
+     "Anthurium niedermannianum",
+     "Anthurium oaxacaense",
+     "Anthurium palcazuense",
+     "Anthurium pepeportillae",
+     "Anthurium petraeum",
+     "Anthurium pinillae",
+     "Anthurium pitalitoense",
+     "Anthurium punctitepalum",
+     "Anthurium retinervium",
+     "Anthurium reubarbarum",
+     "Anthurium riotoritoense",
+     "Anthurium rioverdense",
+     "Anthurium risaraldense",
+     "Anthurium roblesii",
+     "Anthurium romeliense",
+     "Anthurium romolerouxiae",
+     "Anthurium roquesevillae",
+     "Anthurium rubioanum",
+     "Anthurium sandanielense",
+     "Anthurium santanderense",
+     "Anthurium sarriae",
+     "Anthurium scherblevyorum",
+     "Anthurium sobeliae",
+     "Anthurium steinii",
+     "Anthurium terminus",
+     "Anthurium trapichense",
+     "Anthurium tuckerae",
+     "Anthurium tulcanense",
+     "Anthurium vergelense",
+     "Anthurium villagarzonense",
+     "Anthurium viridifructum",
+     "Anthurium walteri",
+     "Anthurium yambitarense",
+     "Anthurium yaruvaldense",
+     "Anthurium zalesskii"
+    ],
+    "1979": [
+     "Anthurium alatipedunculatum",
+     "Anthurium angustispadix",
+     "Anthurium austin-smithii",
+     "Anthurium brenesii",
+     "Anthurium burgeri",
+     "Anthurium caperatum",
+     "Anthurium carnosum",
+     "Anthurium clavatum",
+     "Anthurium cotobrusii",
+     "Anthurium lentii",
+     "Anthurium louisii",
+     "Anthurium monteverdense",
+     "Anthurium prolatum",
+     "Anthurium ravenii",
+     "Anthurium schottianum",
+     "Anthurium seibertii",
+     "Anthurium standleyi",
+     "Anthurium testaceum",
+     "Anthurium upalaense",
+     "Anthurium utleyorum"
+    ],
+    "1905": [
+     "Anthurium alatum",
+     "Anthurium albidum",
+     "Anthurium albispatha",
+     "Anthurium albovirescens",
+     "Anthurium alegriasense",
+     "Anthurium antioquiense",
+     "Anthurium barbacoasense",
+     "Anthurium barclayanum",
+     "Anthurium brevipes",
+     "Anthurium bullianum",
+     "Anthurium bullosum",
+     "Anthurium cabrerense",
+     "Anthurium cachabianum",
+     "Anthurium cainarachense",
+     "Anthurium camposii",
+     "Anthurium canaliculatum",
+     "Anthurium carneospadix",
+     "Anthurium caulorrhizum",
+     "Anthurium chorense",
+     "Anthurium coripatense",
+     "Anthurium cupreonitens",
+     "Anthurium curvatum",
+     "Anthurium cuspidiferum",
+     "Anthurium draconopterum",
+     "Anthurium ernesti",
+     "Anthurium esmeraldense",
+     "Anthurium fasciale",
+     "Anthurium flavolineatum",
+     "Anthurium fuscopunctatum",
+     "Anthurium gaffurii",
+     "Anthurium glanduligerum",
+     "Anthurium glaucophyllum",
+     "Anthurium huallagense",
+     "Anthurium huanucense",
+     "Anthurium jenmanii",
+     "Anthurium julospadix",
+     "Anthurium latissimum",
+     "Anthurium lineolatum",
+     "Anthurium lingua",
+     "Anthurium linguifolium",
+     "Anthurium loefgrenii",
+     "Anthurium lucorum",
+     "Anthurium lutescens",
+     "Anthurium macrolonchium",
+     "Anthurium marginellum",
+     "Anthurium maximum",
+     "Anthurium membranaceum",
+     "Anthurium monzonense",
+     "Anthurium multisulcatum",
+     "Anthurium myosurus",
+     "Anthurium navasii",
+     "Anthurium nitens",
+     "Anthurium obtusatum",
+     "Anthurium parambae",
+     "Anthurium pedunculare",
+     "Anthurium pellucidopunctatum",
+     "Anthurium peltigerum",
+     "Anthurium pirottae",
+     "Anthurium plantagineum",
+     "Anthurium pohlianum",
+     "Anthurium polystictum",
+     "Anthurium prominens",
+     "Anthurium psilostachyum",
+     "Anthurium quinquesulcatum",
+     "Anthurium rhizophorum",
+     "Anthurium riparium",
+     "Anthurium rotundilobum",
+     "Anthurium rupestre",
+     "Anthurium sagittellum",
+     "Anthurium scaberulum",
+     "Anthurium septuplinervium",
+     "Anthurium spathulifolium",
+     "Anthurium subcarinatum",
+     "Anthurium tarapotense",
+     "Anthurium tenuispica",
+     "Anthurium tonianum",
+     "Anthurium trianae",
+     "Anthurium trisectum",
+     "Anthurium uleanum",
+     "Anthurium validinervium",
+     "Anthurium verapazense",
+     "Anthurium vestitum",
+     "Anthurium vittariifolium",
+     "Anthurium weberbaueri"
+    ],
+    "2006": [
+     "Anthurium albertiae",
+     "Anthurium arenasense",
+     "Anthurium barreranum",
+     "Anthurium barrieri",
+     "Anthurium bayae",
+     "Anthurium boudetii",
+     "Anthurium bragae",
+     "Anthurium calimense",
+     "Anthurium coleorrhiza",
+     "Anthurium cordobense",
+     "Anthurium cylindratum",
+     "Anthurium fragae",
+     "Anthurium gomesianum",
+     "Anthurium hinoideum",
+     "Anthurium holquinianum",
+     "Anthurium isidroense",
+     "Anthurium joaquinense",
+     "Anthurium langendoenii",
+     "Anthurium lautum",
+     "Anthurium lygrum",
+     "Anthurium malagaense",
+     "Anthurium oxyanthum",
+     "Anthurium perviride",
+     "Anthurium phyllobaris",
+     "Anthurium remotum",
+     "Anthurium rubrivellus",
+     "Anthurium simonii",
+     "Anthurium unense",
+     "Anthurium verrucosum",
+     "Anthurium victorii",
+     "Anthurium wattii",
+     "Anthurium wintersii"
+    ],
+    "2016": [
+     "Anthurium albispadix",
+     "Anthurium annularum",
+     "Anthurium christeliae",
+     "Anthurium chucantiense",
+     "Anthurium filamatamaense",
+     "Anthurium intactum",
+     "Anthurium lasabanetaense",
+     "Anthurium mucuri",
+     "Anthurium palosecense",
+     "Anthurium roseonaviculare",
+     "Anthurium solanoi",
+     "Anthurium suffusum"
+    ],
+    "2008": [
+     "Anthurium alcatrazense",
+     "Anthurium alluriquinense",
+     "Anthurium carpishense",
+     "Anthurium cerrateae",
+     "Anthurium chacoense",
+     "Anthurium cuyabenoense",
+     "Anthurium debilipeltatum",
+     "Anthurium dolichocnemum",
+     "Anthurium effusispathum",
+     "Anthurium fosteri",
+     "Anthurium huacamayoense",
+     "Anthurium iltisii",
+     "Anthurium ionanthum",
+     "Anthurium josei",
+     "Anthurium linganii",
+     "Anthurium lojtnantii",
+     "Anthurium longissimilobum",
+     "Anthurium longiusculum",
+     "Anthurium loretense",
+     "Anthurium naviculare",
+     "Anthurium nutibarense",
+     "Anthurium pescadilloense",
+     "Anthurium pradoense",
+     "Anthurium puberulum",
+     "Anthurium pucayacuense",
+     "Anthurium pulcachense",
+     "Anthurium samamaense",
+     "Anthurium sebastianense",
+     "Anthurium timplowmanii",
+     "Anthurium ventanasense",
+     "Anthurium warintsense",
+     "Anthurium zuluagae"
+    ],
+    "2021": [
+     "Anthurium alegrense",
+     "Anthurium alfcardozoi",
+     "Anthurium barbourii",
+     "Anthurium bomboizense",
+     "Anthurium camiloi",
+     "Anthurium chloron",
+     "Anthurium coltovarense",
+     "Anthurium corrientense",
+     "Anthurium dillonii",
+     "Anthurium ferryae",
+     "Anthurium galipanense",
+     "Anthurium gallardoae",
+     "Anthurium georgetatei",
+     "Anthurium grahamii",
+     "Anthurium guaicaipurense",
+     "Anthurium hansonianum",
+     "Anthurium ivanportillae",
+     "Anthurium jamboense",
+     "Anthurium katherineshawiae",
+     "Anthurium lapecaense",
+     "Anthurium lapoanum",
+     "Anthurium longistrorsum",
+     "Anthurium losencuentrosense",
+     "Anthurium mayoanum",
+     "Anthurium muyunense",
+     "Anthurium nigrolaminum",
+     "Anthurium oneillii",
+     "Anthurium pallidispadix",
+     "Anthurium perezfarrerae",
+     "Anthurium perlatum",
+     "Anthurium philipii",
+     "Anthurium pseudoclavigerum",
+     "Anthurium ronliesneri",
+     "Anthurium schulenbergii",
+     "Anthurium sterilispadix",
+     "Anthurium toasae",
+     "Anthurium waiwaimense",
+     "Anthurium walhertii",
+     "Anthurium walterlewisianum",
+     "Anthurium yankuamense"
+    ],
+    "2020": [
+     "Anthurium alfaroi",
+     "Anthurium amistadense",
+     "Anthurium arandae",
+     "Anthurium arcuatum",
+     "Anthurium armbrusteri",
+     "Anthurium atrovinosum",
+     "Anthurium brigadeiroense",
+     "Anthurium bustamanteae",
+     "Anthurium carlablackiae",
+     "Anthurium castillomontii",
+     "Anthurium clewellii",
+     "Anthurium copense",
+     "Anthurium ellenbergii",
+     "Anthurium fogdeniorum",
+     "Anthurium fortunense",
+     "Anthurium hayanum",
+     "Anthurium ixtlanense",
+     "Anthurium kirkdukeorum",
+     "Anthurium laevigatum",
+     "Anthurium laevum",
+     "Anthurium leptos",
+     "Anthurium lucilanum",
+     "Anthurium lutheri",
+     "Anthurium luzense",
+     "Anthurium macveaniae",
+     "Anthurium marginervium",
+     "Anthurium mausethii",
+     "Anthurium maxakali",
+     "Anthurium minutipustulum",
+     "Anthurium miritiparanaense",
+     "Anthurium ngabebuglense",
+     "Anthurium nomdiosense",
+     "Anthurium novencidoanum",
+     "Anthurium oistophyllum",
+     "Anthurium orlando-ortizii",
+     "Anthurium orlandoi",
+     "Anthurium picadoae",
+     "Anthurium ptenospathum",
+     "Anthurium pucuroense",
+     "Anthurium raphaelense",
+     "Anthurium ratonense",
+     "Anthurium rectinervium",
+     "Anthurium rociorojasiae",
+     "Anthurium roseonervium",
+     "Anthurium sagrilloanum",
+     "Anthurium siapidaarae",
+     "Anthurium sixaolense",
+     "Anthurium sonaense",
+     "Anthurium taylorianum",
+     "Anthurium tenuireticulum",
+     "Anthurium tifense",
+     "Anthurium tubualaense"
+    ],
+    "2017": [
+     "Anthurium altaverapazense",
+     "Anthurium alvinii",
+     "Anthurium archilae",
+     "Anthurium baldinii",
+     "Anthurium cerrofrioense",
+     "Anthurium cerrosantiagoense",
+     "Anthurium hartmanii",
+     "Anthurium idimae",
+     "Anthurium mikeneei",
+     "Anthurium santamariae",
+     "Anthurium totontepecense",
+     "Anthurium viridifusiforme"
+    ],
+    "1986": [
+     "Anthurium alticola",
+     "Anthurium angustilobum",
+     "Anthurium antonioanum",
+     "Anthurium aroense",
+     "Anthurium barryi",
+     "Anthurium bernardii",
+     "Anthurium berryi",
+     "Anthurium betanianum",
+     "Anthurium brevispadix",
+     "Anthurium caloveboranum",
+     "Anthurium caraboboense",
+     "Anthurium cartiense",
+     "Anthurium cataniapoense",
+     "Anthurium cerropirrense",
+     "Anthurium chorranum",
+     "Anthurium chromostachyum",
+     "Anthurium cinereopetiolatum",
+     "Anthurium collinsii",
+     "Anthurium colonense",
+     "Anthurium coloradense",
+     "Anthurium correae",
+     "Anthurium crassilaminum",
+     "Anthurium crassiradix",
+     "Anthurium crassitepalum",
+     "Anthurium cuasicanum",
+     "Anthurium cucullispathum",
+     "Anthurium curvilaminum",
+     "Anthurium curvispadix",
+     "Anthurium davidsei",
+     "Anthurium dichrophyllum",
+     "Anthurium dukei",
+     "Anthurium erythrostachyum",
+     "Anthurium fernandezii",
+     "Anthurium folsomianum",
+     "Anthurium foreroanum",
+     "Anthurium fragrantissimum",
+     "Anthurium fusiforme",
+     "Anthurium gehrigeri",
+     "Anthurium gentryi",
+     "Anthurium ginesii",
+     "Anthurium globosum",
+     "Anthurium gonzalezii",
+     "Anthurium gracililaminum",
+     "Anthurium gracilispadix",
+     "Anthurium guanchezii",
+     "Anthurium hammelii",
+     "Anthurium hebetatum",
+     "Anthurium hornitense",
+     "Anthurium humoense",
+     "Anthurium hutchisonii",
+     "Anthurium impolitum",
+     "Anthurium jefense",
+     "Anthurium kallunkiae",
+     "Anthurium kamemotoanum",
+     "Anthurium lactifructum",
+     "Anthurium leptocaule",
+     "Anthurium llanense",
+     "Anthurium longistipitatum",
+     "Anthurium madisonianum",
+     "Anthurium malianum",
+     "Anthurium marinoanum",
+     "Anthurium melastomatis",
+     "Anthurium nervatum",
+     "Anthurium niqueanum",
+     "Anthurium oxystachyum",
+     "Anthurium pageanum",
+     "Anthurium panamense",
+     "Anthurium papillilaminum",
+     "Anthurium pauciflorum",
+     "Anthurium pendens",
+     "Anthurium perijanum",
+     "Anthurium pirrense",
+     "Anthurium platyrhizum",
+     "Anthurium pseudospectabile",
+     "Anthurium puberulinervium",
+     "Anthurium redolens",
+     "Anthurium roseospadix",
+     "Anthurium rubrifructum",
+     "Anthurium rupicola",
+     "Anthurium sagawae",
+     "Anthurium sapense",
+     "Anthurium smithii",
+     "Anthurium subrotundum",
+     "Anthurium subscriptum",
+     "Anthurium supraglandulum",
+     "Anthurium sytsmae",
+     "Anthurium tacarcunense",
+     "Anthurium tachiranum",
+     "Anthurium teribense",
+     "Anthurium tutense",
+     "Anthurium tysonii",
+     "Anthurium wedelianum",
+     "Anthurium xanthoneurum"
+    ],
+    "2013": [
+     "Anthurium alturaense",
+     "Anthurium aromoense",
+     "Anthurium banderasense",
+     "Anthurium becerrae",
+     "Anthurium betsyae",
+     "Anthurium breviapiculum",
+     "Anthurium cascajalense",
+     "Anthurium churchilliorum",
+     "Anthurium deminutum",
+     "Anthurium donovaniae",
+     "Anthurium granulineare",
+     "Anthurium guanghuae",
+     "Anthurium haltonii",
+     "Anthurium henryi",
+     "Anthurium horridum",
+     "Anthurium imazaense",
+     "Anthurium ingramii",
+     "Anthurium kareniae",
+     "Anthurium laminense",
+     "Anthurium lilafructum",
+     "Anthurium luteospathum",
+     "Anthurium magrewii",
+     "Anthurium paloraense",
+     "Anthurium penonomense",
+     "Anthurium quinonesiae",
+     "Anthurium riocojimiesense",
+     "Anthurium roubikii",
+     "Anthurium suethompsoniae",
+     "Anthurium trujilloi"
+    ],
+    "1980": [
+     "Anthurium amnicola"
+    ],
+    "1848": [
+     "Anthurium amoenum"
+    ],
+    "2024": [
+     "Anthurium amplexispathum",
+     "Anthurium anomalum",
+     "Anthurium antisanense",
+     "Anthurium argyrophyllum",
+     "Anthurium bellissimum",
+     "Anthurium capixaba",
+     "Anthurium caquetense",
+     "Anthurium cascantei",
+     "Anthurium correctum",
+     "Anthurium dairon-cardenasii",
+     "Anthurium embera",
+     "Anthurium florenciense",
+     "Anthurium gallegoanum",
+     "Anthurium gleasonii",
+     "Anthurium itacarense",
+     "Anthurium laetevirens",
+     "Anthurium marcocorreae",
+     "Anthurium mariposense",
+     "Anthurium niveospadix",
+     "Anthurium pacoraense",
+     "Anthurium patriciaroseroae",
+     "Anthurium pedrovianae",
+     "Anthurium phlebodes",
+     "Anthurium rulandii",
+     "Anthurium shankarii",
+     "Anthurium sodiroi",
+     "Anthurium thomascroatii",
+     "Anthurium tiswatl",
+     "Anthurium vishwanathii",
+     "Anthurium wounaanense",
+     "Anthurium yapense"
+    ],
+    "1903": [
+     "Anthurium anceps",
+     "Anthurium auritum",
+     "Anthurium conterminum",
+     "Anthurium cordulatum",
+     "Anthurium dendrobates",
+     "Anthurium dolichophyllum",
+     "Anthurium geniculatum",
+     "Anthurium leonianum",
+     "Anthurium marmoratum",
+     "Anthurium masfense",
+     "Anthurium rimbachii",
+     "Anthurium saccardoi",
+     "Anthurium subtruncatum",
+     "Anthurium tricarinatum"
+    ],
+    "2003": [
+     "Anthurium anchicayense",
+     "Anthurium cogolloanum",
+     "Anthurium salgarense"
+    ],
+    "1849": [
+     "Anthurium andicola",
+     "Anthurium umbrosum"
+    ],
+    "1877": [
+     "Anthurium andraeanum",
+     "Anthurium spathiphyllum",
+     "Anthurium trilobum"
+    ],
+    "1966": [
+     "Anthurium andreslovinense",
+     "Anthurium cordatotriangulum",
+     "Anthurium lanjouwii",
+     "Anthurium rionegrense"
+    ],
+    "1841": [
+     "Anthurium angustatum",
+     "Anthurium breviscapum",
+     "Anthurium cartilagineum",
+     "Anthurium crenatum",
+     "Anthurium gaudichaudianum",
+     "Anthurium grandifolium",
+     "Anthurium hookeri",
+     "Anthurium humboldtianum",
+     "Anthurium intermedium",
+     "Anthurium lucidum",
+     "Anthurium luschnathianum",
+     "Anthurium pedatum",
+     "Anthurium podophyllum",
+     "Anthurium quinquenervium",
+     "Anthurium schlechtendalii",
+     "Anthurium sellowianum",
+     "Anthurium subsagittatum",
+     "Anthurium trinervium",
+     "Anthurium willdenowii"
+    ],
+    "2014": [
+     "Anthurium angustifolium",
+     "Anthurium bantanum",
+     "Anthurium cronembergerae",
+     "Anthurium jaimeanum",
+     "Anthurium pahumense",
+     "Anthurium rioacimense",
+     "Anthurium sakuraguianum",
+     "Anthurium viridivinosum"
+    ],
+    "1991": [
+     "Anthurium anorianum",
+     "Anthurium asplundii",
+     "Anthurium basirotundum",
+     "Anthurium bradeanum",
+     "Anthurium bucayanum",
+     "Anthurium bushii",
+     "Anthurium campii",
+     "Anthurium carchiense",
+     "Anthurium caucavallense",
+     "Anthurium cowanii",
+     "Anthurium curtispadix",
+     "Anthurium galactospadix",
+     "Anthurium glaucospadix",
+     "Anthurium hagsaterianum",
+     "Anthurium harlingianum",
+     "Anthurium holm-nielsenii",
+     "Anthurium johnsoniae",
+     "Anthurium jureianum",
+     "Anthurium knappiae",
+     "Anthurium krukovii",
+     "Anthurium lennartii",
+     "Anthurium llewellynii",
+     "Anthurium manabianum",
+     "Anthurium manuanum",
+     "Anthurium narinoense",
+     "Anthurium obscurinervium",
+     "Anthurium pachylaminum",
+     "Anthurium palenquense",
+     "Anthurium penningtonii",
+     "Anthurium pranceanum",
+     "Anthurium reflexinervium",
+     "Anthurium remotigeniculatum",
+     "Anthurium santiagoense",
+     "Anthurium sarukhanianum",
+     "Anthurium simpsonii",
+     "Anthurium solomonii",
+     "Anthurium soukupii",
+     "Anthurium sparreorum",
+     "Anthurium tenaense",
+     "Anthurium vaupesianum",
+     "Anthurium willifordii"
+    ],
+    "1926": [
+     "Anthurium antrophyoides"
+    ],
+    "1958": [
+     "Anthurium apaporanum",
+     "Anthurium nanum"
+    ],
+    "2011": [
+     "Anthurium apiaense",
+     "Anthurium aylwardianum",
+     "Anthurium benktsparrei",
+     "Anthurium bicordoense",
+     "Anthurium boosianum",
+     "Anthurium cipoense",
+     "Anthurium diversicaudex",
+     "Anthurium genferryae",
+     "Anthurium hatschbachii",
+     "Anthurium marleenianum",
+     "Anthurium molaui",
+     "Anthurium morii",
+     "Anthurium polynervium",
+     "Anthurium porcesitoense",
+     "Anthurium punkuyocense",
+     "Anthurium raimundii",
+     "Anthurium riojaense",
+     "Anthurium straminopetiolum",
+     "Anthurium talmonii",
+     "Anthurium truncatum",
+     "Anthurium zappiae"
+    ],
+    "1901": [
+     "Anthurium argyrostachyum",
+     "Anthurium aristatum",
+     "Anthurium atroviride",
+     "Anthurium brachypodum",
+     "Anthurium citrifolium",
+     "Anthurium clathratum",
+     "Anthurium corrugatum",
+     "Anthurium cymbispatha",
+     "Anthurium dolichostachyum",
+     "Anthurium exstipulatum",
+     "Anthurium furcatum",
+     "Anthurium hastifolium",
+     "Anthurium interruptum",
+     "Anthurium laciniosum",
+     "Anthurium lancea",
+     "Anthurium latemarginatum",
+     "Anthurium lloense",
+     "Anthurium macrourum",
+     "Anthurium maculosum",
+     "Anthurium margaricarpum",
+     "Anthurium mindense",
+     "Anthurium miniatum",
+     "Anthurium nemorale",
+     "Anthurium ochreatum",
+     "Anthurium oreophilum",
+     "Anthurium orientale",
+     "Anthurium oxyphyllum",
+     "Anthurium platyglossum",
+     "Anthurium polyphlebium",
+     "Anthurium praealtum",
+     "Anthurium pulverulentum",
+     "Anthurium radiatum",
+     "Anthurium riofrioi",
+     "Anthurium rivulare",
+     "Anthurium rugulosum",
+     "Anthurium sagittale",
+     "Anthurium striatipes",
+     "Anthurium striolatum",
+     "Anthurium tremulum",
+     "Anthurium umbraculum",
+     "Anthurium variegatum",
+     "Anthurium versicolor",
+     "Anthurium vomeriforme"
+    ],
+    "1924": [
+     "Anthurium aripoense"
+    ],
+    "1978": [
+     "Anthurium arisaemoides",
+     "Anthurium brevipedunculatum",
+     "Anthurium croatii",
+     "Anthurium cutucuense",
+     "Anthurium dressleri",
+     "Anthurium erskinei",
+     "Anthurium grex-avium",
+     "Anthurium incomptum",
+     "Anthurium polydactylum",
+     "Anthurium superbum",
+     "Anthurium thrinax"
+    ],
+    "1984": [
+     "Anthurium armeniense",
+     "Anthurium halmoorei",
+     "Anthurium lancetillense",
+     "Anthurium nelsonii",
+     "Anthurium rzedowskii"
+    ],
+    "1953": [
+     "Anthurium atropurpureum",
+     "Anthurium fontoides",
+     "Anthurium nemoricola",
+     "Anthurium pluviaticum",
+     "Anthurium tikunorum"
+    ],
+    "1876": [
+     "Anthurium bakeri",
+     "Anthurium brownii",
+     "Anthurium veitchii"
+    ],
+    "1996": [
+     "Anthurium balslevii",
+     "Anthurium cabuyalense",
+     "Anthurium cupulispathum",
+     "Anthurium hebetatilaminum",
+     "Anthurium jaramilloi",
+     "Anthurium jimenae",
+     "Anthurium magnifolium",
+     "Anthurium nigropunctatum",
+     "Anthurium rodrigueziae",
+     "Anthurium silanchense"
+    ],
+    "1859": [
+     "Anthurium bellum",
+     "Anthurium illepidum",
+     "Anthurium kastelskii",
+     "Anthurium pedatoradiatum"
+    ],
+    "1952": [
+     "Anthurium beltianum",
+     "Anthurium berriozabalense",
+     "Anthurium clarinervium",
+     "Anthurium macdougallii",
+     "Anthurium machetioides",
+     "Anthurium terryae"
+    ],
+    "2009": [
+     "Anthurium benavidesiae",
+     "Anthurium bernalii",
+     "Anthurium chucunesense",
+     "Anthurium gerherrerae",
+     "Anthurium gracilistipum",
+     "Anthurium herrerae",
+     "Anthurium keatingii",
+     "Anthurium lakei",
+     "Anthurium martae",
+     "Anthurium melampyi",
+     "Anthurium nestorpazii",
+     "Anthurium pazii",
+     "Anthurium pendulispadix",
+     "Anthurium planadense",
+     "Anthurium protrudens",
+     "Anthurium restrepoae",
+     "Anthurium ricaurtense",
+     "Anthurium terracola"
+    ],
+    "1908": [
+     "Anthurium bimarginatum",
+     "Anthurium candolleanum",
+     "Anthurium oreodoxa",
+     "Anthurium treleasei"
+    ],
+    "1872": [
+     "Anthurium binotii",
+     "Anthurium roezlii"
+    ],
+    "1993": [
+     "Anthurium bittneri"
+    ],
+    "1857": [
+     "Anthurium bogotense",
+     "Anthurium bredemeyeri",
+     "Anthurium consimile",
+     "Anthurium lindenianum",
+     "Anthurium oxybelium",
+     "Anthurium purdieanum",
+     "Anthurium scherzerianum",
+     "Anthurium sinuatum",
+     "Anthurium subtrilobum"
+    ],
+    "1975": [
+     "Anthurium bonplandii",
+     "Anthurium caripense",
+     "Anthurium huautlense",
+     "Anthurium julianii",
+     "Anthurium lilacinum",
+     "Anthurium nubicola",
+     "Anthurium paradisicum",
+     "Anthurium pariense",
+     "Anthurium smaragdinum",
+     "Anthurium tamaense",
+     "Anthurium tatei",
+     "Anthurium wurdackii",
+     "Anthurium yutajense"
+    ],
+    "1906": [
+     "Anthurium brittonianum",
+     "Anthurium conspicuum",
+     "Anthurium cordiforme",
+     "Anthurium forgetii",
+     "Anthurium occidentale",
+     "Anthurium paucinerve",
+     "Anthurium plurisulcatum",
+     "Anthurium polyneuron",
+     "Anthurium resectum"
+    ],
+    "2000": [
+     "Anthurium bromelicola",
+     "Anthurium maricense"
+    ],
+    "2019": [
+     "Anthurium bruxellense",
+     "Anthurium chuchubiense",
+     "Anthurium cornejoi",
+     "Anthurium decipiens",
+     "Anthurium decursivum",
+     "Anthurium erythrospathaceum",
+     "Anthurium hannoniae",
+     "Anthurium harleyi",
+     "Anthurium impolitoellipticum",
+     "Anthurium kinsingeriae",
+     "Anthurium longeinternodum",
+     "Anthurium mansellii",
+     "Anthurium marcusianum",
+     "Anthurium martinellii",
+     "Anthurium pandurilaminum",
+     "Anthurium petiolicarinatum",
+     "Anthurium pseudotalamancae",
+     "Anthurium rosselianum",
+     "Anthurium temponiae",
+     "Anthurium theofiloanum",
+     "Anthurium trangulohastatum",
+     "Anthurium waramirezii"
+    ],
+    "1910": [
+     "Anthurium buchtienii"
+    ],
+    "2007": [
+     "Anthurium callejasii",
+     "Anthurium chocoense",
+     "Anthurium guatemalense",
+     "Anthurium ianthinopodum",
+     "Anthurium palacioanum",
+     "Anthurium vanderknaapii",
+     "Anthurium werffii"
+    ],
+    "1885": [
+     "Anthurium carinatum",
+     "Anthurium caucanum",
+     "Anthurium cupreum",
+     "Anthurium denudatum",
+     "Anthurium flavidum",
+     "Anthurium hygrophilum",
+     "Anthurium inconspicuum",
+     "Anthurium parvispathum",
+     "Anthurium pulchellum",
+     "Anthurium sanguineum",
+     "Anthurium subtriangulare",
+     "Anthurium tolimense",
+     "Anthurium truncatulum"
+    ],
+    "1938": [
+     "Anthurium ceratiinum",
+     "Anthurium lucens"
+    ],
+    "1960": [
+     "Anthurium cerrobaulense"
+    ],
+    "1981": [
+     "Anthurium cerrocampanense",
+     "Anthurium circinatum",
+     "Anthurium coclense",
+     "Anthurium dwyeri",
+     "Anthurium luteynii",
+     "Anthurium purpureospathum",
+     "Anthurium rotundistigmatum",
+     "Anthurium salvadorense",
+     "Anthurium sanctifidense",
+     "Anthurium vallense"
+    ],
+    "1959": [
+     "Anthurium cerropelonense",
+     "Anthurium nizandense",
+     "Anthurium polyschistum",
+     "Anthurium subovatum"
+    ],
+    "1888": [
+     "Anthurium chamberlainii"
+    ],
+    "1957": [
+     "Anthurium chamulense",
+     "Anthurium cleistanthum",
+     "Anthurium icanense",
+     "Anthurium lacerdae",
+     "Anthurium ocotepecense",
+     "Anthurium pilonense",
+     "Anthurium riograndicola"
+    ],
+    "2012": [
+     "Anthurium chequitavense",
+     "Anthurium macropodum",
+     "Anthurium mateoi",
+     "Anthurium monteagudoi",
+     "Anthurium queirozianum",
+     "Anthurium ribeiroi",
+     "Anthurium riodocense",
+     "Anthurium rodvasquezii",
+     "Anthurium siqueirae",
+     "Anthurium valenzuelae",
+     "Anthurium zeneidae"
+    ],
+    "1940": [
+     "Anthurium chiapasense",
+     "Anthurium chiriquense",
+     "Anthurium clidemioides",
+     "Anthurium davidsoniae",
+     "Anthurium herthae",
+     "Anthurium pachyspathum",
+     "Anthurium silvigaudens"
+    ],
+    "1845": [
+     "Anthurium clavigerum",
+     "Anthurium corallinum",
+     "Anthurium decurrens",
+     "Anthurium flavescens",
+     "Anthurium kunthii",
+     "Anthurium oxycarpum",
+     "Anthurium peltatum"
+    ],
+    "1983": [
+     "Anthurium coleomischum"
+    ],
+    "1916": [
+     "Anthurium colonicum"
+    ],
+    "1862": [
+     "Anthurium comtum",
+     "Anthurium jilekii",
+     "Anthurium leuconeurum",
+     "Anthurium macrospadix",
+     "Anthurium malyi"
+    ],
+    "1932": [
+     "Anthurium concolor",
+     "Anthurium conjunctum",
+     "Anthurium fatoense",
+     "Anthurium idmense",
+     "Anthurium ottonis",
+     "Anthurium petrophilum",
+     "Anthurium ramonense",
+     "Anthurium validifolium",
+     "Anthurium yurimaguense"
+    ],
+    "1839": [
+     "Anthurium coriaceum",
+     "Anthurium harrisii",
+     "Anthurium longifolium",
+     "Anthurium microphyllum",
+     "Anthurium obtusifolium",
+     "Anthurium pentaphyllum",
+     "Anthurium sagittatum"
+    ],
+    "1883": [
+     "Anthurium crassifolium",
+     "Anthurium splendidum"
+    ],
+    "1873": [
+     "Anthurium crystallinum"
+    ],
+    "1879": [
+     "Anthurium cultrifolium",
+     "Anthurium fraseri",
+     "Anthurium montanum",
+     "Anthurium salvinii",
+     "Anthurium walujewii"
+    ],
+    "1875": [
+     "Anthurium cuspidatum",
+     "Anthurium wallisii"
+    ],
+    "1889": [
+     "Anthurium cymbiforme"
+    ],
+    "1871": [
+     "Anthurium emarginatum"
+    ],
+    "2002": [
+     "Anthurium ensifolium",
+     "Anthurium obpyriforme"
+    ],
+    "1937": [
+     "Anthurium ericae",
+     "Anthurium pastasanum",
+     "Anthurium rhodorhizum"
+    ],
+    "1929": [
+     "Anthurium expansum",
+     "Anthurium potarense"
+    ],
+    "2001": [
+     "Anthurium faustomirandae",
+     "Anthurium megapetiolatum"
+    ],
+    "1867": [
+     "Anthurium geitnerianum"
+    ],
+    "1863": [
+     "Anthurium gladiifolium"
+    ],
+    "1834": [
+     "Anthurium gracile"
+    ],
+    "1930": [
+     "Anthurium gracilipedunculatum",
+     "Anthurium longispadiceum",
+     "Anthurium macbridei",
+     "Anthurium schunkei",
+     "Anthurium siccisilvarum"
+    ],
+    "1865": [
+     "Anthurium grande",
+     "Anthurium magnificum"
+    ],
+    "2023": [
+     "Anthurium guerreroense",
+     "Anthurium hentrichianum",
+     "Anthurium huaytae",
+     "Anthurium ivoniae",
+     "Anthurium knopflmacherianum",
+     "Anthurium matabanchoyae",
+     "Anthurium pluricarinatum",
+     "Anthurium superimpendens"
+    ],
+    "1878": [
+     "Anthurium gustavii",
+     "Anthurium regnellianum",
+     "Anthurium scandens",
+     "Anthurium trifidum",
+     "Anthurium warocqueanum"
+    ],
+    "1866": [
+     "Anthurium gymnopus",
+     "Anthurium regale",
+     "Anthurium venosum"
+    ],
+    "1925": [
+     "Anthurium hoehnei",
+     "Anthurium marense",
+     "Anthurium michelii"
+    ],
+    "1950": [
+     "Anthurium huixtlense",
+     "Anthurium nakamurae",
+     "Anthurium parasiticum"
+    ],
+    "1964": [
+     "Anthurium infectorium"
+    ],
+    "1989": [
+     "Anthurium iramireziae"
+    ],
+    "1956": [
+     "Anthurium lezamae"
+    ],
+    "1884": [
+     "Anthurium lievensii"
+    ],
+    "1997": [
+     "Anthurium limonense",
+     "Anthurium obtusum"
+    ],
+    "1967": [
+     "Anthurium longipeltatum"
+    ],
+    "1882": [
+     "Anthurium longipes"
+    ],
+    "1947": [
+     "Anthurium longissimum",
+     "Anthurium retiferum",
+     "Anthurium titanium"
+    ],
+    "1954": [
+     "Anthurium macarenense",
+     "Anthurium macrocephalum"
+    ],
+    "1948": [
+     "Anthurium maguirei"
+    ],
+    "1971": [
+     "Anthurium mancuniense"
+    ],
+    "1868": [
+     "Anthurium martianum"
+    ],
+    "1999": [
+     "Anthurium minarum"
+    ],
+    "1846": [
+     "Anthurium nitidum",
+     "Anthurium reticulatum",
+     "Anthurium stipitatum"
+    ],
+    "1853": [
+     "Anthurium nymphaeifolium",
+     "Anthurium ochranthum",
+     "Anthurium wagenerianum"
+    ],
+    "1880": [
+     "Anthurium parvum"
+    ],
+    "1904": [
+     "Anthurium pendulifolium"
+    ],
+    "1987": [
+     "Anthurium plowmanii"
+    ],
+    "1951": [
+     "Anthurium ptarianum"
+    ],
+    "1886": [
+     "Anthurium punctatum",
+     "Anthurium roraimense",
+     "Anthurium subulatum"
+    ],
+    "1861": [
+     "Anthurium subsignatum"
+    ],
+    "1970": [
+     "Anthurium sucrii",
+     "Anthurium xanthophylloides"
+    ],
+    "1895": [
+     "Anthurium sylvestre"
+    ],
+    "1927": [
+     "Anthurium tilaranense"
+    ],
+    "1988": [
+     "Anthurium vinillense"
+    ],
+    "1914": [
+     "Anthurium watermaliense"
+    ],
+    "1965": [
+     "Anthurium wendlingeri"
+    ],
+    "1962": [
+     "Anthurium yetlense"
+    ]
+   }
+  },
+  "anubias": {
+   "name": "Anubias",
+   "years": {
+    "1857": [
+     "Anubias afzelii"
+    ],
+    "1860": [
+     "Anubias barteri"
+    ],
+    "1939": [
+     "Anubias gigantea",
+     "Anubias gracilis"
+    ],
+    "1901": [
+     "Anubias gilletii"
+    ],
+    "1893": [
+     "Anubias hastifolia"
+    ],
+    "1879": [
+     "Anubias heterophylla"
+    ],
+    "1910": [
+     "Anubias pynaertii"
+    ]
+   }
+  },
+  "apoballis": {
+   "name": "Apoballis",
+   "years": {
+    "2010": [
+     "Apoballis acuminatissima",
+     "Apoballis belophylla",
+     "Apoballis brevipes",
+     "Apoballis grandiflora",
+     "Apoballis hastifolia",
+     "Apoballis javanica",
+     "Apoballis longicaulis",
+     "Apoballis mutata",
+     "Apoballis okadae",
+     "Apoballis ovata",
+     "Apoballis rupestris",
+     "Apoballis sagittifolia"
+    ],
+    "2023": [
+     "Apoballis linguiformis",
+     "Apoballis ridleyana"
+    ]
+   }
+  },
+  "aridarum": {
+   "name": "Aridarum",
+   "years": {
+    "2017": [
+     "Aridarum chamaesyce"
+    ],
+    "2013": [
+     "Aridarum embalohense"
+    ],
+    "2000": [
+     "Aridarum incavatum"
+    ],
+    "1913": [
+     "Aridarum montanum"
+    ],
+    "2014": [
+     "Aridarum pendek"
+    ]
+   }
+  },
+  "ariopsis": {
+   "name": "Ariopsis",
+   "years": {
+    "2020": [
+     "Ariopsis macrosperma"
+    ],
+    "1839": [
+     "Ariopsis peltata"
+    ],
+    "2002": [
+     "Ariopsis protanthera"
+    ]
+   }
+  },
+  "arisaema": {
+   "name": "Arisaema",
+   "years": {
+    "1980": [
+     "Arisaema abei",
+     "Arisaema kawashimae"
+    ],
+    "1903": [
+     "Arisaema acuminatum",
+     "Arisaema asperatum",
+     "Arisaema cordatum"
+    ],
+    "1932": [
+     "Arisaema aequinoctiale",
+     "Arisaema iyoanum",
+     "Arisaema limbatum",
+     "Arisaema petelotii"
+    ],
+    "1987": [
+     "Arisaema agasthyanum"
+    ],
+    "1880": [
+     "Arisaema album",
+     "Arisaema penicillatum"
+    ],
+    "1859": [
+     "Arisaema amurense",
+     "Arisaema concinnum",
+     "Arisaema consanguineum",
+     "Arisaema fraternum",
+     "Arisaema schimperianum"
+    ],
+    "2018": [
+     "Arisaema anatinum",
+     "Arisaema chenii",
+     "Arisaema longitubum"
+    ],
+    "1878": [
+     "Arisaema angustatum",
+     "Arisaema sikokianum"
+    ],
+    "1887": [
+     "Arisaema anomalum",
+     "Arisaema wrayi"
+    ],
+    "1983": [
+     "Arisaema aprile",
+     "Arisaema nilamburense"
+    ],
+    "1977": [
+     "Arisaema aridum",
+     "Arisaema austroyunnanense",
+     "Arisaema calcareum",
+     "Arisaema ciliatum",
+     "Arisaema dahaiense",
+     "Arisaema hainanense",
+     "Arisaema lingyunense",
+     "Arisaema tengtsungense"
+    ],
+    "2017": [
+     "Arisaema arunachalensis",
+     "Arisaema peerumedense"
+    ],
+    "1936": [
+     "Arisaema attenuatum",
+     "Arisaema constrictum",
+     "Arisaema handelii",
+     "Arisaema hunanense",
+     "Arisaema peltatum",
+     "Arisaema sarracenioides"
+    ],
+    "1911": [
+     "Arisaema auriculatum",
+     "Arisaema barbatum",
+     "Arisaema clavatum",
+     "Arisaema elephas",
+     "Arisaema fargesii",
+     "Arisaema meleagris",
+     "Arisaema saxatile",
+     "Arisaema souliei",
+     "Arisaema yunnanense"
+    ],
+    "2025": [
+     "Arisaema autumnale",
+     "Arisaema bulbilferum",
+     "Arisaema cordigerum",
+     "Arisaema globiceps",
+     "Arisaema hui",
+     "Arisaema mengii",
+     "Arisaema nayamakkadense",
+     "Arisaema pulchellum",
+     "Arisaema sceptrum",
+     "Arisaema yulaoense"
+    ],
+    "2005": [
+     "Arisaema averyanovii",
+     "Arisaema parisifolium",
+     "Arisaema rostratum"
+    ],
+    "1920": [
+     "Arisaema balansae",
+     "Arisaema bonatianum",
+     "Arisaema pallidum",
+     "Arisaema pierreanum",
+     "Arisaema wilsonii"
+    ],
+    "1988": [
+     "Arisaema bannaense",
+     "Arisaema pingbianense"
+    ],
+    "1933": [
+     "Arisaema barnesii",
+     "Arisaema translucens"
+    ],
+    "1925": [
+     "Arisaema bathycoleum",
+     "Arisaema ogatae"
+    ],
+    "1900": [
+     "Arisaema bockii"
+    ],
+    "1999": [
+     "Arisaema bogneri",
+     "Arisaema burmaense",
+     "Arisaema jethompsonii"
+    ],
+    "1860": [
+     "Arisaema bottae",
+     "Arisaema flavum",
+     "Arisaema utile"
+    ],
+    "2016": [
+     "Arisaema brinchangense",
+     "Arisaema langbiangense"
+    ],
+    "2010": [
+     "Arisaema brucei",
+     "Arisaema rubrirhizomatum"
+    ],
+    "1917": [
+     "Arisaema candidissimum",
+     "Arisaema kishidae",
+     "Arisaema monophyllum"
+    ],
+    "1879": [
+     "Arisaema caudatum",
+     "Arisaema galeatum"
+    ],
+    "2014": [
+     "Arisaema chauvanminhii",
+     "Arisaema madhuanum",
+     "Arisaema nonghinense"
+    ],
+    "1941": [
+     "Arisaema chumponense",
+     "Arisaema garrettii",
+     "Arisaema pattaniense",
+     "Arisaema siamicum",
+     "Arisaema sukotaiense",
+     "Arisaema tashiroi"
+    ],
+    "2013": [
+     "Arisaema claviforme",
+     "Arisaema honbaense",
+     "Arisaema pseudoangustatum"
+    ],
+    "2000": [
+     "Arisaema condaoense",
+     "Arisaema echinoides",
+     "Arisaema victoriae",
+     "Arisaema xuanweiense",
+     "Arisaema zhui"
+    ],
+    "1832": [
+     "Arisaema costatum",
+     "Arisaema dracontium",
+     "Arisaema echinatum",
+     "Arisaema erubescens",
+     "Arisaema ringens",
+     "Arisaema serratum",
+     "Arisaema speciosum",
+     "Arisaema tortuosum",
+     "Arisaema triphyllum"
+    ],
+    "1962": [
+     "Arisaema cucullatum"
+    ],
+    "1857": [
+     "Arisaema decipiens",
+     "Arisaema propinquum"
+    ],
+    "1989": [
+     "Arisaema ehimense"
+    ],
+    "1850": [
+     "Arisaema enneaphyllum"
+    ],
+    "1965": [
+     "Arisaema exappendiculatum"
+    ],
+    "1836": [
+     "Arisaema filiforme",
+     "Arisaema heterophyllum",
+     "Arisaema intermedium",
+     "Arisaema jacquemontii",
+     "Arisaema japonicum",
+     "Arisaema laminatum",
+     "Arisaema leschenaultii",
+     "Arisaema thunbergii"
+    ],
+    "1884": [
+     "Arisaema fimbriatum"
+    ],
+    "2019": [
+     "Arisaema fischeri",
+     "Arisaema melanostoma",
+     "Arisaema subulatum"
+    ],
+    "1915": [
+     "Arisaema formosanum",
+     "Arisaema grapsospadix",
+     "Arisaema mairei",
+     "Arisaema silvestrii"
+    ],
+    "1881": [
+     "Arisaema franchetianum",
+     "Arisaema lobatum"
+    ],
+    "2009": [
+     "Arisaema ghaticum"
+    ],
+    "1856": [
+     "Arisaema griffithii",
+     "Arisaema ornatum",
+     "Arisaema quinatum"
+    ],
+    "2012": [
+     "Arisaema guangxiense",
+     "Arisaema lushuiense"
+    ],
+    "2023": [
+     "Arisaema guanwuense"
+    ],
+    "1928": [
+     "Arisaema heterocephalum",
+     "Arisaema maximowiczii"
+    ],
+    "1996": [
+     "Arisaema ilanense"
+    ],
+    "2008": [
+     "Arisaema inaense",
+     "Arisaema maekawae",
+     "Arisaema nagiense"
+    ],
+    "1893": [
+     "Arisaema inclusum",
+     "Arisaema petiolulatum",
+     "Arisaema prazeri",
+     "Arisaema scortechinii",
+     "Arisaema wattii"
+    ],
+    "1956": [
+     "Arisaema ishizuchiense"
+    ],
+    "1995": [
+     "Arisaema jingdongense"
+    ],
+    "2024": [
+     "Arisaema jiufushanense",
+     "Arisaema tridens"
+    ],
+    "2020": [
+     "Arisaema kayahense",
+     "Arisaema liemiana"
+    ],
+    "1912": [
+     "Arisaema kerrii"
+    ],
+    "1918": [
+     "Arisaema kiushianum",
+     "Arisaema negishii"
+    ],
+    "1981": [
+     "Arisaema kuratae",
+     "Arisaema minamitanii"
+    ],
+    "1898": [
+     "Arisaema lackneri"
+    ],
+    "1914": [
+     "Arisaema lichiangense"
+    ],
+    "2003": [
+     "Arisaema lidaense",
+     "Arisaema lihengianum",
+     "Arisaema maxwellii",
+     "Arisaema pachystachyum",
+     "Arisaema sizemoreae"
+    ],
+    "1966": [
+     "Arisaema longipedunculatum",
+     "Arisaema nambae"
+    ],
+    "1840": [
+     "Arisaema macrospathum"
+    ],
+    "1940": [
+     "Arisaema mayebarae",
+     "Arisaema psittacus"
+    ],
+    "2004": [
+     "Arisaema menglaense"
+    ],
+    "1905": [
+     "Arisaema microspadix",
+     "Arisaema polyphyllum",
+     "Arisaema umbrinum"
+    ],
+    "1910": [
+     "Arisaema mildbraedii"
+    ],
+    "1986": [
+     "Arisaema minus",
+     "Arisaema mooneyanum",
+     "Arisaema sachalinense",
+     "Arisaema somalense"
+    ],
+    "2007": [
+     "Arisaema muratae"
+    ],
+    "1985": [
+     "Arisaema muricaudatum",
+     "Arisaema taiwanense",
+     "Arisaema ulugurense"
+    ],
+    "1848": [
+     "Arisaema murrayi"
+    ],
+    "1831": [
+     "Arisaema nepenthoides"
+    ],
+    "1929": [
+     "Arisaema nikoense",
+     "Arisaema undulatifolium",
+     "Arisaema wardii",
+     "Arisaema yamatense"
+    ],
+    "1994": [
+     "Arisaema odoratum"
+    ],
+    "2001": [
+     "Arisaema omkoiense"
+    ],
+    "1935": [
+     "Arisaema ovale",
+     "Arisaema tuberculatum"
+    ],
+    "1992": [
+     "Arisaema pangii",
+     "Arisaema pianmaense"
+    ],
+    "1892": [
+     "Arisaema parvum"
+    ],
+    "1901": [
+     "Arisaema pusillum",
+     "Arisaema ruwenzoricum",
+     "Arisaema sazensoo",
+     "Arisaema stewardsonii",
+     "Arisaema ternatipartitum",
+     "Arisaema tosaense"
+    ],
+    "1922": [
+     "Arisaema ramulosum"
+    ],
+    "1841": [
+     "Arisaema roxburghii"
+    ],
+    "1991": [
+     "Arisaema saddlepeakense"
+    ],
+    "1949": [
+     "Arisaema seppikoense"
+    ],
+    "1971": [
+     "Arisaema setosum"
+    ],
+    "1930": [
+     "Arisaema sinii"
+    ],
+    "1968": [
+     "Arisaema smitinandii"
+    ],
+    "1973": [
+     "Arisaema vexillatum"
+    ],
+    "2022": [
+     "Arisaema vietnamense"
+    ],
+    "2011": [
+     "Arisaema wangmoense"
+    ]
+   }
+  },
+  "arisarum": {
+   "name": "Arisarum",
+   "years": {
+    "1816": [
+     "Arisarum proboscideum"
+    ],
+    "1845": [
+     "Arisarum simorrhinum"
+    ],
+    "1810": [
+     "Arisarum vulgare"
+    ]
+   }
+  },
+  "arophyton": {
+   "name": "Arophyton",
+   "years": {
+    "1972": [
+     "Arophyton buchetii",
+     "Arophyton crassifolium",
+     "Arophyton humbertii",
+     "Arophyton rhizomatosum"
+    ],
+    "1939": [
+     "Arophyton pedatum",
+     "Arophyton simplex"
+    ],
+    "1928": [
+     "Arophyton tripartitum"
+    ]
+   }
+  },
+  "arum": {
+   "name": "Arum",
+   "years": {
+    "1993": [
+     "Arum apulum"
+    ],
+    "1858": [
+     "Arum besserianum"
+    ],
+    "1857": [
+     "Arum concinnatum",
+     "Arum nigrum"
+    ],
+    "1854": [
+     "Arum creticum",
+     "Arum hygrophilum",
+     "Arum palaestinum",
+     "Arum rupicola"
+    ],
+    "1844": [
+     "Arum cylindraceum"
+    ],
+    "1912": [
+     "Arum cyrenaicum"
+    ],
+    "1816": [
+     "Arum dioscoridis"
+    ],
+    "1983": [
+     "Arum euxinum"
+    ],
+    "1856": [
+     "Arum gratum"
+    ],
+    "1981": [
+     "Arum hainesii"
+    ],
+    "1917": [
+     "Arum idaeum"
+    ],
+    "1768": [
+     "Arum italicum"
+    ],
+    "1836": [
+     "Arum jacquemontii"
+    ],
+    "1873": [
+     "Arum korolkowii"
+    ],
+    "1913": [
+     "Arum lucanum"
+    ],
+    "1753": [
+     "Arum maculatum"
+    ],
+    "2007": [
+     "Arum megobrebi"
+    ],
+    "2023": [
+     "Arum meryemianum"
+    ],
+    "1808": [
+     "Arum orientale"
+    ],
+    "1782": [
+     "Arum pictum"
+    ],
+    "1987": [
+     "Arum purpureospathum"
+    ],
+    "1995": [
+     "Arum sintenisii"
+    ]
+   }
+  },
+  "asterostigma": {
+   "name": "Asterostigma",
+   "years": {
+    "1997": [
+     "Asterostigma cryptostylum"
+    ],
+    "1969": [
+     "Asterostigma cubense"
+    ],
+    "1999": [
+     "Asterostigma lombardii"
+    ],
+    "1891": [
+     "Asterostigma luridum",
+     "Asterostigma riedelianum"
+    ],
+    "1856": [
+     "Asterostigma luschnathianum"
+    ],
+    "2003": [
+     "Asterostigma reticulatum"
+    ],
+    "1859": [
+     "Asterostigma tweedieanum"
+    ]
+   }
+  },
+  "ayuantha": {
+   "name": "Ayuantha",
+   "years": {
+    "2024": [
+     "Ayuantha evelyniae",
+     "Ayuantha petri",
+     "Ayuantha platystigma",
+     "Ayuantha pudenda"
+    ]
+   }
+  },
+  "bakoa": {
+   "name": "Bakoa",
+   "years": {
+    "2008": [
+     "Bakoa lucens"
+    ]
+   }
+  },
+  "bakoaella": {
+   "name": "Bakoaella",
+   "years": {
+    "2018": [
+     "Bakoaella nakamotoi",
+     "Bakoaella sicula"
+    ]
+   }
+  },
+  "bau": {
+   "name": "Bau",
+   "years": {
+    "2024": [
+     "Bau adoceta",
+     "Bau amosyui",
+     "Bau antu",
+     "Bau brevicuspis",
+     "Bau camera-lucida",
+     "Bau elegans",
+     "Bau gui",
+     "Bau hayi",
+     "Bau hendrikii",
+     "Bau inculta",
+     "Bau latevaginata",
+     "Bau liniae",
+     "Bau matangensis",
+     "Bau meriraiensis",
+     "Bau metallica",
+     "Bau multinervia",
+     "Bau nervosa",
+     "Bau pellucida",
+     "Bau pocong",
+     "Bau porpax",
+     "Bau puberulipes",
+     "Bau reticosa",
+     "Bau simonii",
+     "Bau tessellata",
+     "Bau turbata",
+     "Bau ulusarikeiensis"
+    ]
+   }
+  },
+  "biarum": {
+   "name": "Biarum",
+   "years": {
+    "1948": [
+     "Biarum aleppicum"
+    ],
+    "1880": [
+     "Biarum angustatum"
+    ],
+    "1966": [
+     "Biarum auraniticum"
+    ],
+    "1836": [
+     "Biarum bovei",
+     "Biarum olivieri"
+    ],
+    "1879": [
+     "Biarum carduchorum",
+     "Biarum eximium",
+     "Biarum pyrami"
+    ],
+    "1926": [
+     "Biarum carratracense"
+    ],
+    "1884": [
+     "Biarum crispulum"
+    ],
+    "1938": [
+     "Biarum davisii"
+    ],
+    "1976": [
+     "Biarum dispar"
+    ],
+    "1989": [
+     "Biarum ditschianum"
+    ],
+    "1865": [
+     "Biarum fraasianum"
+    ],
+    "2025": [
+     "Biarum gulsenianum",
+     "Biarum persicum"
+    ],
+    "1980": [
+     "Biarum kotschyi",
+     "Biarum syriacum"
+    ],
+    "2006": [
+     "Biarum marmarisense"
+    ],
+    "1999": [
+     "Biarum mendax"
+    ],
+    "1853": [
+     "Biarum rhopalospadix"
+    ],
+    "2016": [
+     "Biarum rifatii"
+    ],
+    "1920": [
+     "Biarum straussii"
+    ],
+    "1832": [
+     "Biarum tenuifolium"
+    ]
+   }
+  },
+  "bidayuha": {
+   "name": "Bidayuha",
+   "years": {
+    "2018": [
+     "Bidayuha crassispatha"
+    ]
+   }
+  },
+  "bognera": {
+   "name": "Bognera",
+   "years": {
+    "1984": [
+     "Bognera recondita"
+    ]
+   }
+  },
+  "borneoa": {
+   "name": "Borneoa",
+   "years": {
+    "2024": [
+     "Borneoa asperata",
+     "Borneoa barbata",
+     "Borneoa ciliata",
+     "Borneoa crinitissima",
+     "Borneoa crypta",
+     "Borneoa dilecta",
+     "Borneoa ferruginea",
+     "Borneoa gampsospadix",
+     "Borneoa gillianiae",
+     "Borneoa hottae",
+     "Borneoa jelandii",
+     "Borneoa mira",
+     "Borneoa mons",
+     "Borneoa persistens",
+     "Borneoa pyrrhias",
+     "Borneoa scortechinii",
+     "Borneoa sejuncta",
+     "Borneoa shaleicola",
+     "Borneoa tahubangensis",
+     "Borneoa tegorae",
+     "Borneoa thelephora",
+     "Borneoa zainuddinii"
+    ],
+    "2025": [
+     "Borneoa rawogensis"
+    ]
+   }
+  },
+  "boycea": {
+   "name": "Boycea",
+   "years": {
+    "2022": [
+     "Boycea bintuluensis"
+    ]
+   }
+  },
+  "bucephalandra": {
+   "name": "Bucephalandra",
+   "years": {
+    "2022": [
+     "Bucephalandra adei"
+    ],
+    "2014": [
+     "Bucephalandra akantha",
+     "Bucephalandra aurantiitheca",
+     "Bucephalandra belindae",
+     "Bucephalandra bogneri",
+     "Bucephalandra chimaera",
+     "Bucephalandra chrysokoupa",
+     "Bucephalandra diabolica",
+     "Bucephalandra elliptica",
+     "Bucephalandra forcipula",
+     "Bucephalandra goliath",
+     "Bucephalandra kerangas",
+     "Bucephalandra kishii",
+     "Bucephalandra micrantha",
+     "Bucephalandra minotaur",
+     "Bucephalandra muluensis",
+     "Bucephalandra oblanceolata",
+     "Bucephalandra oncophora",
+     "Bucephalandra pubes",
+     "Bucephalandra sordidula",
+     "Bucephalandra spathulifolia",
+     "Bucephalandra tetana",
+     "Bucephalandra ultramafica",
+     "Bucephalandra vespula",
+     "Bucephalandra yengiae"
+    ],
+    "1995": [
+     "Bucephalandra catherineae"
+    ],
+    "2018": [
+     "Bucephalandra danumensis"
+    ],
+    "2016": [
+     "Bucephalandra filiformis"
+    ],
+    "1984": [
+     "Bucephalandra gigantea"
+    ],
+    "2000": [
+     "Bucephalandra magnifolia"
+    ],
+    "1858": [
+     "Bucephalandra motleyana"
+    ],
+    "2012": [
+     "Bucephalandra pygmaea"
+    ]
+   }
+  },
+  "burttianthus": {
+   "name": "Burttianthus",
+   "years": {
+    "2018": [
+     "Burttianthus caulescens",
+     "Burttianthus hansenii",
+     "Burttianthus longipedunculatus",
+     "Burttianthus orestus",
+     "Burttianthus purseglovei",
+     "Burttianthus spissus",
+     "Burttianthus veluntandrus"
+    ],
+    "2023": [
+     "Burttianthus rejangicus",
+     "Burttianthus solus"
+    ]
+   }
+  },
+  "caladium": {
+   "name": "Caladium",
+   "years": {
+    "2013": [
+     "Caladium amazonicum",
+     "Caladium intermedium"
+    ],
+    "1984": [
+     "Caladium andreanum"
+    ],
+    "1800": [
+     "Caladium bicolor"
+    ],
+    "2009": [
+     "Caladium clavatum",
+     "Caladium praetermissum"
+    ],
+    "1975": [
+     "Caladium coerulescens"
+    ],
+    "2019": [
+     "Caladium cortesiae",
+     "Caladium palaciosii",
+     "Caladium stevensonii"
+    ],
+    "1854": [
+     "Caladium humboldtii"
+    ],
+    "1855": [
+     "Caladium macrotites",
+     "Caladium picturatum"
+    ],
+    "1858": [
+     "Caladium schomburgkii"
+    ],
+    "1853": [
+     "Caladium smaragdinum"
+    ],
+    "1885": [
+     "Caladium steudnerifolium"
+    ],
+    "1986": [
+     "Caladium steyermarkii"
+    ],
+    "1981": [
+     "Caladium ternatum"
+    ],
+    "1991": [
+     "Caladium tuberosum"
+    ]
+   }
+  },
+  "calla": {
+   "name": "Calla",
+   "years": {
+    "1753": [
+     "Calla palustris"
+    ]
+   }
+  },
+  "callopsis": {
+   "name": "Callopsis",
+   "years": {
+    "1895": [
+     "Callopsis volkensii"
+    ]
+   }
+  },
+  "carlephyton": {
+   "name": "Carlephyton",
+   "years": {
+    "2012": [
+     "Carlephyton darainense"
+    ],
+    "1972": [
+     "Carlephyton diegoense",
+     "Carlephyton glaucophyllum"
+    ],
+    "1919": [
+     "Carlephyton madagascariense"
+    ],
+    "2025": [
+     "Carlephyton sajoreciae"
+    ]
+   }
+  },
+  "cercestis": {
+   "name": "Cercestis",
+   "years": {
+    "1857": [
+     "Cercestis afzelii"
+    ],
+    "2025": [
+     "Cercestis blancii"
+    ],
+    "1986": [
+     "Cercestis camerunensis",
+     "Cercestis mirabilis"
+    ],
+    "1892": [
+     "Cercestis congensis"
+    ],
+    "1899": [
+     "Cercestis dinklagei"
+    ],
+    "2010": [
+     "Cercestis hepperi"
+    ],
+    "1909": [
+     "Cercestis ivorensis"
+    ],
+    "1901": [
+     "Cercestis kamerunianus"
+    ],
+    "1911": [
+     "Cercestis sagittatus"
+    ],
+    "1995": [
+     "Cercestis taiensis"
+    ]
+   }
+  },
+  "chlorospatha": {
+   "name": "Chlorospatha",
+   "years": {
+    "2004": [
+     "Chlorospatha amalfiensis",
+     "Chlorospatha antioquiensis",
+     "Chlorospatha betancurii",
+     "Chlorospatha callejasii",
+     "Chlorospatha cogolloi",
+     "Chlorospatha luteynii",
+     "Chlorospatha macphersonii",
+     "Chlorospatha nicolsonii"
+    ],
+    "1981": [
+     "Chlorospatha atropurpurea",
+     "Chlorospatha castula",
+     "Chlorospatha cutucuensis",
+     "Chlorospatha dodsonii",
+     "Chlorospatha ilensis",
+     "Chlorospatha lehmannii",
+     "Chlorospatha longipoda",
+     "Chlorospatha mirabilis"
+    ],
+    "2015": [
+     "Chlorospatha bayae",
+     "Chlorospatha boosii",
+     "Chlorospatha bullata",
+     "Chlorospatha caldasensis",
+     "Chlorospatha caliensis",
+     "Chlorospatha carchiensis",
+     "Chlorospatha cedralensis",
+     "Chlorospatha chocoensis",
+     "Chlorospatha congensis",
+     "Chlorospatha engleri",
+     "Chlorospatha giraldoi",
+     "Chlorospatha grayumii",
+     "Chlorospatha hannoniae",
+     "Chlorospatha hastata",
+     "Chlorospatha huilensis",
+     "Chlorospatha jaramilloi",
+     "Chlorospatha limonensis",
+     "Chlorospatha litensis",
+     "Chlorospatha longiloba",
+     "Chlorospatha maculata",
+     "Chlorospatha mansellii",
+     "Chlorospatha morae",
+     "Chlorospatha munchiquensis",
+     "Chlorospatha nambiensis",
+     "Chlorospatha narinoensis",
+     "Chlorospatha noramurphyae",
+     "Chlorospatha oblongifolia",
+     "Chlorospatha plowmanii",
+     "Chlorospatha portillae",
+     "Chlorospatha pubescens",
+     "Chlorospatha queremalensis",
+     "Chlorospatha risaraldensis",
+     "Chlorospatha sagittata",
+     "Chlorospatha sizemoreae",
+     "Chlorospatha stellasarreae",
+     "Chlorospatha sucumbensis",
+     "Chlorospatha timbiquensis",
+     "Chlorospatha tokioensis",
+     "Chlorospatha yatacuensis",
+     "Chlorospatha yaupiensis"
+    ],
+    "1985": [
+     "Chlorospatha besseae",
+     "Chlorospatha corrugata"
+    ],
+    "2010": [
+     "Chlorospatha bogneri",
+     "Chlorospatha planadensis",
+     "Chlorospatha ricaurtensis"
+    ],
+    "1986": [
+     "Chlorospatha croatiana",
+     "Chlorospatha gentryi",
+     "Chlorospatha hammeliana"
+    ],
+    "2007": [
+     "Chlorospatha feuersteiniae",
+     "Chlorospatha hastifolia"
+    ],
+    "1878": [
+     "Chlorospatha kolbii"
+    ],
+    "1991": [
+     "Chlorospatha kressii"
+    ],
+    "2019": [
+     "Chlorospatha minima",
+     "Chlorospatha silverstonei"
+    ]
+   }
+  },
+  "colletogyne": {
+   "name": "Colletogyne",
+   "years": {
+    "1939": [
+     "Colletogyne perrieri"
+    ]
+   }
+  },
+  "colobogynium": {
+   "name": "Colobogynium",
+   "years": {
+    "2023": [
+     "Colobogynium variegatum"
+    ]
+   }
+  },
+  "colocasia": {
+   "name": "Colocasia",
+   "years": {
+    "2019": [
+     "Colocasia adiana"
+    ],
+    "1859": [
+     "Colocasia affinis",
+     "Colocasia fallax"
+    ],
+    "2013": [
+     "Colocasia boyceana",
+     "Colocasia dibangensis"
+    ],
+    "1832": [
+     "Colocasia esculenta"
+    ],
+    "1854": [
+     "Colocasia fontanesii"
+    ],
+    "2018": [
+     "Colocasia hassanii"
+    ],
+    "2020": [
+     "Colocasia kachinensis"
+    ],
+    "2001": [
+     "Colocasia lihengiae"
+    ],
+    "1893": [
+     "Colocasia mannii"
+    ],
+    "2004": [
+     "Colocasia menglaensis"
+    ],
+    "1996": [
+     "Colocasia oresbia"
+    ],
+    "2022": [
+     "Colocasia spongifolia"
+    ]
+   }
+  },
+  "croatiella": {
+   "name": "Croatiella",
+   "years": {
+    "2005": [
+     "Croatiella integrifolia"
+    ]
+   }
+  },
+  "cryptocoryne": {
+   "name": "Cryptocoryne",
+   "years": {
+    "1893": [
+     "Cryptocoryne affinis",
+     "Cryptocoryne elliptica"
+    ],
+    "1975": [
+     "Cryptocoryne alba",
+     "Cryptocoryne bogneri"
+    ],
+    "1991": [
+     "Cryptocoryne annamica"
+    ],
+    "1919": [
+     "Cryptocoryne aponogetifolia",
+     "Cryptocoryne pygmaea"
+    ],
+    "2016": [
+     "Cryptocoryne aura",
+     "Cryptocoryne wongsoi"
+    ],
+    "1879": [
+     "Cryptocoryne auriculata",
+     "Cryptocoryne ferruginea",
+     "Cryptocoryne lingua",
+     "Cryptocoryne longicauda",
+     "Cryptocoryne pallidinervia",
+     "Cryptocoryne striolata"
+    ],
+    "2007": [
+     "Cryptocoryne bangkaensis"
+    ],
+    "2017": [
+     "Cryptocoryne bastmeijeri",
+     "Cryptocoryne erwinii",
+     "Cryptocoryne isae",
+     "Cryptocoryne regina",
+     "Cryptocoryne sahalii"
+    ],
+    "1885": [
+     "Cryptocoryne beckettii"
+    ],
+    "1883": [
+     "Cryptocoryne bullosa"
+    ],
+    "1832": [
+     "Cryptocoryne ciliata"
+    ],
+    "1857": [
+     "Cryptocoryne cognata",
+     "Cryptocoryne consobrina",
+     "Cryptocoryne thwaitesii",
+     "Cryptocoryne walkeri"
+    ],
+    "1851": [
+     "Cryptocoryne cordata"
+    ],
+    "1999": [
+     "Cryptocoryne coronata"
+    ],
+    "1920": [
+     "Cryptocoryne crispatula"
+    ],
+    "1900": [
+     "Cryptocoryne cruddasiana"
+    ],
+    "1976": [
+     "Cryptocoryne decus-silvae",
+     "Cryptocoryne jacobsenii"
+    ],
+    "1977": [
+     "Cryptocoryne dewitii"
+    ],
+    "1983": [
+     "Cryptocoryne edithiae",
+     "Cryptocoryne moehlmannii"
+    ],
+    "2023": [
+     "Cryptocoryne esquerionii",
+     "Cryptocoryne vinzelii",
+     "Cryptocoryne zamboangaensis"
+    ],
+    "1970": [
+     "Cryptocoryne fusca",
+     "Cryptocoryne parva"
+    ],
+    "1898": [
+     "Cryptocoryne grabowskii",
+     "Cryptocoryne nevillii"
+    ],
+    "1856": [
+     "Cryptocoryne griffithii"
+    ],
+    "1985": [
+     "Cryptocoryne hudoroi"
+    ],
+    "2004": [
+     "Cryptocoryne ideii",
+     "Cryptocoryne sivadasanii"
+    ],
+    "2018": [
+     "Cryptocoryne joshanii"
+    ],
+    "1982": [
+     "Cryptocoryne keei"
+    ],
+    "2010": [
+     "Cryptocoryne loeiensis",
+     "Cryptocoryne mekongensis",
+     "Cryptocoryne tambraparaniana"
+    ],
+    "2014": [
+     "Cryptocoryne matakensis"
+    ],
+    "1910": [
+     "Cryptocoryne minima",
+     "Cryptocoryne versteegii"
+    ],
+    "2005": [
+     "Cryptocoryne noritoi",
+     "Cryptocoryne zaidiana"
+    ],
+    "1935": [
+     "Cryptocoryne nurii"
+    ],
+    "2022": [
+     "Cryptocoryne paglaterasiana",
+     "Cryptocoryne palawanensis",
+     "Cryptocoryne verrucosa"
+    ],
+    "1863": [
+     "Cryptocoryne pontederiifolia"
+    ],
+    "1841": [
+     "Cryptocoryne retrospiralis"
+    ],
+    "1971": [
+     "Cryptocoryne schulzei"
+    ],
+    "1962": [
+     "Cryptocoryne scurrilis"
+    ],
+    "1941": [
+     "Cryptocoryne siamensis"
+    ],
+    "1830": [
+     "Cryptocoryne spiralis"
+    ],
+    "2020": [
+     "Cryptocoryne tirtadinatae"
+    ],
+    "2002": [
+     "Cryptocoryne uenoi",
+     "Cryptocoryne yujii"
+    ],
+    "1954": [
+     "Cryptocoryne undulata"
+    ],
+    "1905": [
+     "Cryptocoryne usteriana"
+    ],
+    "1994": [
+     "Cryptocoryne vietnamensis"
+    ],
+    "1980": [
+     "Cryptocoryne villosa"
+    ],
+    "2012": [
+     "Cryptocoryne waseri"
+    ],
+    "1958": [
+     "Cryptocoryne wendtii"
+    ]
+   }
+  },
+  "culcasia": {
+   "name": "Culcasia",
+   "years": {
+    "1865": [
+     "Culcasia angolensis"
+    ],
+    "1984": [
+     "Culcasia annetii",
+     "Culcasia bosii",
+     "Culcasia ekongoloi",
+     "Culcasia sanagensis",
+     "Culcasia simiarum"
+    ],
+    "1910": [
+     "Culcasia caudata"
+    ],
+    "1899": [
+     "Culcasia dinklagei",
+     "Culcasia falcifolia",
+     "Culcasia lanceolata",
+     "Culcasia obliquifolia",
+     "Culcasia striolata"
+    ],
+    "1967": [
+     "Culcasia glandulosa"
+    ],
+    "1901": [
+     "Culcasia insulana",
+     "Culcasia parviflora"
+    ],
+    "1904": [
+     "Culcasia liberica"
+    ],
+    "1905": [
+     "Culcasia longevaginata"
+    ],
+    "1934": [
+     "Culcasia loukandensis"
+    ],
+    "1887": [
+     "Culcasia mannii"
+    ],
+    "1985": [
+     "Culcasia orientalis"
+    ],
+    "1917": [
+     "Culcasia panduriformis"
+    ],
+    "1980": [
+     "Culcasia rotundifolia"
+    ],
+    "1922": [
+     "Culcasia sapinii"
+    ],
+    "1803": [
+     "Culcasia scandens"
+    ],
+    "1892": [
+     "Culcasia tenuifolia"
+    ],
+    "1983": [
+     "Culcasia tepoensis"
+    ]
+   }
+  },
+  "cyrtosperma": {
+   "name": "Cyrtosperma",
+   "years": {
+    "1988": [
+     "Cyrtosperma beccarianum",
+     "Cyrtosperma bougainvillense",
+     "Cyrtosperma brassii",
+     "Cyrtosperma carrii",
+     "Cyrtosperma gressittiorum",
+     "Cyrtosperma kokodense"
+    ],
+    "1920": [
+     "Cyrtosperma cuspidispathum"
+    ],
+    "1910": [
+     "Cyrtosperma giganteum"
+    ],
+    "2001": [
+     "Cyrtosperma hambalii"
+    ],
+    "2024": [
+     "Cyrtosperma hayii",
+     "Cyrtosperma prasinispathum"
+    ],
+    "1882": [
+     "Cyrtosperma johnstonii"
+    ],
+    "1879": [
+     "Cyrtosperma macrotum"
+    ],
+    "1857": [
+     "Cyrtosperma merkusii"
+    ],
+    "2020": [
+     "Cyrtosperma timikense"
+    ]
+   }
+  },
+  "dieffenbachia": {
+   "name": "Dieffenbachia",
+   "years": {
+    "1915": [
+     "Dieffenbachia aglaonematifolia",
+     "Dieffenbachia brittonii",
+     "Dieffenbachia cannifolia",
+     "Dieffenbachia longispatha",
+     "Dieffenbachia parvifolia",
+     "Dieffenbachia pittieri"
+    ],
+    "1874": [
+     "Dieffenbachia antioquensis",
+     "Dieffenbachia lancifolia",
+     "Dieffenbachia parlatorei"
+    ],
+    "1898": [
+     "Dieffenbachia aurantiaca"
+    ],
+    "2021": [
+     "Dieffenbachia batistae",
+     "Dieffenbachia mortoniana"
+    ],
+    "1999": [
+     "Dieffenbachia beachiana"
+    ],
+    "1871": [
+     "Dieffenbachia bowmanni",
+     "Dieffenbachia imperialis"
+    ],
+    "2004": [
+     "Dieffenbachia burgeri",
+     "Dieffenbachia copensis",
+     "Dieffenbachia crebripistillata",
+     "Dieffenbachia davidsei",
+     "Dieffenbachia fortunensis",
+     "Dieffenbachia fosteri",
+     "Dieffenbachia galdamesiae",
+     "Dieffenbachia horichii",
+     "Dieffenbachia isthmia",
+     "Dieffenbachia killipii",
+     "Dieffenbachia lutheri",
+     "Dieffenbachia nitidipetiolata",
+     "Dieffenbachia obscurinervia",
+     "Dieffenbachia panamensis",
+     "Dieffenbachia standleyi"
+    ],
+    "2000": [
+     "Dieffenbachia concinna",
+     "Dieffenbachia grayumiana",
+     "Dieffenbachia hammelii",
+     "Dieffenbachia tonduzii"
+    ],
+    "1905": [
+     "Dieffenbachia cordata",
+     "Dieffenbachia weberbaueri"
+    ],
+    "1856": [
+     "Dieffenbachia costata"
+    ],
+    "1885": [
+     "Dieffenbachia daguensis",
+     "Dieffenbachia enderi"
+    ],
+    "1988": [
+     "Dieffenbachia duidae"
+    ],
+    "1966": [
+     "Dieffenbachia elegans"
+    ],
+    "1890": [
+     "Dieffenbachia fournieri"
+    ],
+    "1906": [
+     "Dieffenbachia gracilis"
+    ],
+    "1938": [
+     "Dieffenbachia herthae"
+    ],
+    "1845": [
+     "Dieffenbachia humilis",
+     "Dieffenbachia macrophylla",
+     "Dieffenbachia obliqua"
+    ],
+    "1878": [
+     "Dieffenbachia leopoldii"
+    ],
+    "1892": [
+     "Dieffenbachia meleagris",
+     "Dieffenbachia olbia"
+    ],
+    "1858": [
+     "Dieffenbachia oerstedii",
+     "Dieffenbachia wendlandii"
+    ],
+    "1929": [
+     "Dieffenbachia paludicola"
+    ],
+    "2017": [
+     "Dieffenbachia rodriguezii"
+    ],
+    "1832": [
+     "Dieffenbachia seguine"
+    ],
+    "1876": [
+     "Dieffenbachia shuttleworthii"
+    ],
+    "2023": [
+     "Dieffenbachia simoneae"
+    ],
+    "1866": [
+     "Dieffenbachia weirii"
+    ],
+    "2005": [
+     "Dieffenbachia williamsii",
+     "Dieffenbachia wurdackii"
+    ]
+   }
+  },
+  "dracontioides": {
+   "name": "Dracontioides",
+   "years": {
+    "1911": [
+     "Dracontioides desciscens"
+    ],
+    "2005": [
+     "Dracontioides salvianii"
+    ]
+   }
+  },
+  "dracontium": {
+   "name": "Dracontium",
+   "years": {
+    "1885": [
+     "Dracontium albostipes",
+     "Dracontium annulatum"
+    ],
+    "2004": [
+     "Dracontium amazonense",
+     "Dracontium angustispathum",
+     "Dracontium asperispathum",
+     "Dracontium bogneri",
+     "Dracontium grandispathum",
+     "Dracontium grayumianum",
+     "Dracontium guianense",
+     "Dracontium peruvianum",
+     "Dracontium plowmanii",
+     "Dracontium prancei"
+    ],
+    "1859": [
+     "Dracontium asperum"
+    ],
+    "2018": [
+     "Dracontium constantinoi"
+    ],
+    "1995": [
+     "Dracontium croatii"
+    ],
+    "1844": [
+     "Dracontium dubium"
+    ],
+    "1879": [
+     "Dracontium gigas"
+    ],
+    "2007": [
+     "Dracontium iquitense"
+    ],
+    "2015": [
+     "Dracontium laetum",
+     "Dracontium narae"
+    ],
+    "1905": [
+     "Dracontium longipes"
+    ],
+    "1981": [
+     "Dracontium margaretae"
+    ],
+    "2002": [
+     "Dracontium nivosum"
+    ],
+    "1898": [
+     "Dracontium pittieri"
+    ],
+    "1753": [
+     "Dracontium polyphyllum"
+    ],
+    "1911": [
+     "Dracontium purdieanum"
+    ],
+    "1949": [
+     "Dracontium soconuscum"
+    ],
+    "1996": [
+     "Dracontium spruceanum"
+    ],
+    "1914": [
+     "Dracontium ulei"
+    ]
+   }
+  },
+  "dracunculus": {
+   "name": "Dracunculus",
+   "years": {
+    "1841": [
+     "Dracunculus canariensis"
+    ],
+    "1832": [
+     "Dracunculus vulgaris"
+    ]
+   }
+  },
+  "eminium": {
+   "name": "Eminium",
+   "years": {
+    "1920": [
+     "Eminium alberti"
+    ],
+    "1891": [
+     "Eminium intortum",
+     "Eminium lehmannii"
+    ],
+    "2008": [
+     "Eminium jaegeri"
+    ],
+    "1991": [
+     "Eminium koenenianum"
+    ],
+    "1856": [
+     "Eminium rauwolffii",
+     "Eminium spiculatum"
+    ],
+    "1941": [
+     "Eminium regelii"
+    ]
+   }
+  },
+  "englerarum": {
+   "name": "Englerarum",
+   "years": {
+    "2022": [
+     "Englerarum montanum"
+    ]
+   }
+  },
+  "epipremnum": {
+   "name": "Epipremnum",
+   "years": {
+    "1880": [
+     "Epipremnum amplissimum"
+    ],
+    "1964": [
+     "Epipremnum aureum"
+    ],
+    "1901": [
+     "Epipremnum carolinense"
+    ],
+    "1920": [
+     "Epipremnum ceramense",
+     "Epipremnum papuanum",
+     "Epipremnum silvaticum"
+    ],
+    "1898": [
+     "Epipremnum dahlii",
+     "Epipremnum falcifolium"
+    ],
+    "1857": [
+     "Epipremnum giganteum"
+    ],
+    "1910": [
+     "Epipremnum meeboldii"
+    ],
+    "1863": [
+     "Epipremnum moluccanum"
+    ],
+    "1911": [
+     "Epipremnum moszkowskii"
+    ],
+    "1879": [
+     "Epipremnum nobile"
+    ],
+    "1916": [
+     "Epipremnum obtusum"
+    ],
+    "1908": [
+     "Epipremnum pinnatum"
+    ]
+   }
+  },
+  "fenestratarum": {
+   "name": "Fenestratarum",
+   "years": {
+    "2014": [
+     "Fenestratarum culum"
+    ],
+    "2015": [
+     "Fenestratarum mulyadii"
+    ]
+   }
+  },
+  "filarum": {
+   "name": "Filarum",
+   "years": {
+    "1967": [
+     "Filarum manserichense"
+    ]
+   }
+  },
+  "furtadoa": {
+   "name": "Furtadoa",
+   "years": {
+    "2016": [
+     "Furtadoa indrae"
+    ],
+    "1985": [
+     "Furtadoa mixta"
+    ],
+    "1981": [
+     "Furtadoa sumatrensis"
+    ]
+   }
+  },
+  "galantharum": {
+   "name": "Galantharum",
+   "years": {
+    "2015": [
+     "Galantharum kishii"
+    ]
+   }
+  },
+  "gamogyne": {
+   "name": "Gamogyne",
+   "years": {
+    "2018": [
+     "Gamogyne bella",
+     "Gamogyne colata",
+     "Gamogyne deceptrix",
+     "Gamogyne helix",
+     "Gamogyne lurida"
+    ],
+    "1882": [
+     "Gamogyne burbidgei"
+    ]
+   }
+  },
+  "gearum": {
+   "name": "Gearum",
+   "years": {
+    "1882": [
+     "Gearum brasiliense"
+    ]
+   }
+  },
+  "gonatopus": {
+   "name": "Gonatopus",
+   "years": {
+    "1901": [
+     "Gonatopus angustus"
+    ],
+    "1879": [
+     "Gonatopus boivinii"
+    ],
+    "1985": [
+     "Gonatopus clavatus"
+    ],
+    "1978": [
+     "Gonatopus marattioides",
+     "Gonatopus petiolulatus"
+    ]
+   }
+  },
+  "gorgonidium": {
+   "name": "Gorgonidium",
+   "years": {
+    "2008": [
+     "Gorgonidium beckianum"
+    ],
+    "2002": [
+     "Gorgonidium bulbostylum"
+    ],
+    "2003": [
+     "Gorgonidium cardenasianum",
+     "Gorgonidium intermedium",
+     "Gorgonidium striatum"
+    ],
+    "1864": [
+     "Gorgonidium mirabile"
+    ],
+    "1988": [
+     "Gorgonidium vargasii",
+     "Gorgonidium vermicidum"
+    ]
+   }
+  },
+  "gosong": {
+   "name": "Gosong",
+   "years": {
+    "2018": [
+     "Gosong brevipedunculata"
+    ]
+   }
+  },
+  "gymnostachys": {
+   "name": "Gymnostachys",
+   "years": {
+    "1810": [
+     "Gymnostachys anceps"
+    ]
+   }
+  },
+  "hapaline": {
+   "name": "Hapaline",
+   "years": {
+    "1908": [
+     "Hapaline appendiculata"
+    ],
+    "1858": [
+     "Hapaline benthamiana"
+    ],
+    "1893": [
+     "Hapaline brownii"
+    ],
+    "1996": [
+     "Hapaline celatrix"
+    ],
+    "1941": [
+     "Hapaline colaniae",
+     "Hapaline kerrii"
+    ],
+    "1977": [
+     "Hapaline ellipticifolia"
+    ],
+    "2022": [
+     "Hapaline kimthoae"
+    ],
+    "2006": [
+     "Hapaline locii"
+    ]
+   }
+  },
+  "helicodiceros": {
+   "name": "Helicodiceros",
+   "years": {
+    "1879": [
+     "Helicodiceros muscivorus"
+    ]
+   }
+  },
+  "hera": {
+   "name": "Hera",
+   "years": {
+    "2018": [
+     "Hera hebe"
+    ]
+   }
+  },
+  "heteroaridarum": {
+   "name": "Heteroaridarum",
+   "years": {
+    "1976": [
+     "Heteroaridarum borneense"
+    ],
+    "2018": [
+     "Heteroaridarum crassum",
+     "Heteroaridarum nicolsonii"
+    ]
+   }
+  },
+  "heteropsis": {
+   "name": "Heteropsis",
+   "years": {
+    "1910": [
+     "Heteropsis boliviana"
+    ],
+    "2009": [
+     "Heteropsis croatii",
+     "Heteropsis duckeana",
+     "Heteropsis robusta"
+    ],
+    "1908": [
+     "Heteropsis ecuadorensis"
+    ],
+    "1979": [
+     "Heteropsis flexuosa"
+    ],
+    "1939": [
+     "Heteropsis linearis",
+     "Heteropsis macrophylla"
+    ],
+    "1905": [
+     "Heteropsis longispathacea",
+     "Heteropsis rigidifolia"
+    ],
+    "1953": [
+     "Heteropsis melinonii"
+    ],
+    "1841": [
+     "Heteropsis oblongifolia",
+     "Heteropsis salicifolia"
+    ],
+    "1925": [
+     "Heteropsis peruviana"
+    ],
+    "2014": [
+     "Heteropsis reticulata",
+     "Heteropsis vasquezii"
+    ],
+    "1856": [
+     "Heteropsis spruceana"
+    ],
+    "1986": [
+     "Heteropsis steyermarkii",
+     "Heteropsis tenuispadix"
+    ]
+   }
+  },
+  "holochlamys": {
+   "name": "Holochlamys",
+   "years": {
+    "1883": [
+     "Holochlamys beccarii"
+    ]
+   }
+  },
+  "homalomena": {
+   "name": "Homalomena",
+   "years": {
+    "2020": [
+     "Homalomena acuminata",
+     "Homalomena anthurioides",
+     "Homalomena benedikii",
+     "Homalomena cataractae",
+     "Homalomena hottae",
+     "Homalomena pexa",
+     "Homalomena portae-inferni",
+     "Homalomena ridleyi"
+    ],
+    "1999": [
+     "Homalomena adiensis",
+     "Homalomena davidiana",
+     "Homalomena hooglandii",
+     "Homalomena jacobsiana",
+     "Homalomena kalkmanii",
+     "Homalomena magna",
+     "Homalomena melanesica",
+     "Homalomena producta",
+     "Homalomena soniae",
+     "Homalomena steenisiana"
+    ],
+    "1922": [
+     "Homalomena aeneifolia",
+     "Homalomena asperifolia",
+     "Homalomena cristata",
+     "Homalomena doctersii",
+     "Homalomena obscurifolia",
+     "Homalomena silvatica",
+     "Homalomena subemarginata"
+    ],
+    "2011": [
+     "Homalomena agens",
+     "Homalomena debilicrista",
+     "Homalomena kualakohensis",
+     "Homalomena matangae",
+     "Homalomena terajaensis",
+     "Homalomena vittifolia",
+     "Homalomena wongii"
+    ],
+    "2008": [
+     "Homalomena ardua",
+     "Homalomena josefii",
+     "Homalomena pseudogeniculata",
+     "Homalomena striatieopetiolata",
+     "Homalomena vietnamensis"
+    ],
+    "1902": [
+     "Homalomena argentea",
+     "Homalomena curtisii"
+    ],
+    "1832": [
+     "Homalomena aromatica",
+     "Homalomena cordata",
+     "Homalomena occulta"
+    ],
+    "2010": [
+     "Homalomena asmae",
+     "Homalomena atrox",
+     "Homalomena clandestina",
+     "Homalomena galbana",
+     "Homalomena giamensis",
+     "Homalomena hanneae",
+     "Homalomena sengkenyang",
+     "Homalomena symplocarpifolia",
+     "Homalomena vivens"
+    ],
+    "2023": [
+     "Homalomena atlas",
+     "Homalomena bengohensis",
+     "Homalomena latisinus",
+     "Homalomena perplexa"
+    ],
+    "1916": [
+     "Homalomena atroviridis",
+     "Homalomena distans",
+     "Homalomena pulleana",
+     "Homalomena robusta",
+     "Homalomena stollei"
+    ],
+    "2013": [
+     "Homalomena baangongensis",
+     "Homalomena gastrofructa",
+     "Homalomena ibanorum",
+     "Homalomena limnogena",
+     "Homalomena passa",
+     "Homalomena velutipedunculata"
+    ],
+    "1912": [
+     "Homalomena batoeensis",
+     "Homalomena consobrina",
+     "Homalomena curvata",
+     "Homalomena latifrons",
+     "Homalomena metallica",
+     "Homalomena nigrescens",
+     "Homalomena palawanensis",
+     "Homalomena peekelii",
+     "Homalomena philippinensis",
+     "Homalomena saxorum",
+     "Homalomena schlechteri",
+     "Homalomena tenuispadix",
+     "Homalomena tonkinensis",
+     "Homalomena treubii"
+    ],
+    "1863": [
+     "Homalomena bellula"
+    ],
+    "1905": [
+     "Homalomena borneensis",
+     "Homalomena havilandii",
+     "Homalomena lancea",
+     "Homalomena lauterbachii",
+     "Homalomena ovalifolia",
+     "Homalomena sarawakensis"
+    ],
+    "1923": [
+     "Homalomena burkilliana",
+     "Homalomena obovata"
+    ],
+    "2014": [
+     "Homalomena caput-gorgonis",
+     "Homalomena cowleyae",
+     "Homalomena imitator",
+     "Homalomena mutans",
+     "Homalomena prolixa",
+     "Homalomena scutata",
+     "Homalomena selaburensis",
+     "Homalomena stella",
+     "Homalomena succincta"
+    ],
+    "1939": [
+     "Homalomena confusa",
+     "Homalomena corneri",
+     "Homalomena gillii",
+     "Homalomena hendersonii",
+     "Homalomena kiahii",
+     "Homalomena korthalsii",
+     "Homalomena montana"
+    ],
+    "2017": [
+     "Homalomena electra",
+     "Homalomena lambirensis",
+     "Homalomena niahensis"
+    ],
+    "1880": [
+     "Homalomena elegans",
+     "Homalomena subcordata"
+    ],
+    "2002": [
+     "Homalomena elegantula",
+     "Homalomena expedita"
+    ],
+    "1985": [
+     "Homalomena gadutensis",
+     "Homalomena hastata",
+     "Homalomena megalophylla",
+     "Homalomena padangensis",
+     "Homalomena rusdii"
+    ],
+    "1864": [
+     "Homalomena gaudichaudii"
+    ],
+    "2015": [
+     "Homalomena gempal",
+     "Homalomena marasmiella",
+     "Homalomena simunii"
+    ],
+    "1893": [
+     "Homalomena griffithii",
+     "Homalomena humilis",
+     "Homalomena lancifolia",
+     "Homalomena nutans",
+     "Homalomena pontederifolia",
+     "Homalomena scortechinii",
+     "Homalomena truncata"
+    ],
+    "1977": [
+     "Homalomena hainanensis"
+    ],
+    "2016": [
+     "Homalomena hasei",
+     "Homalomena mobula",
+     "Homalomena plicata",
+     "Homalomena squamis-draconis"
+    ],
+    "2012": [
+     "Homalomena hypsiantha",
+     "Homalomena stongensis",
+     "Homalomena tirtae"
+    ],
+    "2003": [
+     "Homalomena impudica"
+    ],
+    "1885": [
+     "Homalomena insignis"
+    ],
+    "2021": [
+     "Homalomena joanneae",
+     "Homalomena puncticulosa",
+     "Homalomena santubongensis"
+    ],
+    "1919": [
+     "Homalomena kelungensis"
+    ],
+    "2019": [
+     "Homalomena kionsomensis"
+    ],
+    "1908": [
+     "Homalomena lindenii"
+    ],
+    "1934": [
+     "Homalomena longipes"
+    ],
+    "1851": [
+     "Homalomena major",
+     "Homalomena minor",
+     "Homalomena rostrata"
+    ],
+    "1967": [
+     "Homalomena minutissima"
+    ],
+    "1993": [
+     "Homalomena monandra"
+    ],
+    "2022": [
+     "Homalomena nathanielii"
+    ],
+    "1879": [
+     "Homalomena ovata",
+     "Homalomena punctulata"
+    ],
+    "1957": [
+     "Homalomena pendula"
+    ],
+    "2005": [
+     "Homalomena pineodora"
+    ],
+    "2024": [
+     "Homalomena punctifolia",
+     "Homalomena sigmoidea"
+    ],
+    "2007": [
+     "Homalomena pyrospatha"
+    ],
+    "1841": [
+     "Homalomena rubescens"
+    ],
+    "1869": [
+     "Homalomena singaporensis"
+    ],
+    "1994": [
+     "Homalomena vagans"
+    ],
+    "1859": [
+     "Homalomena wallichii",
+     "Homalomena zollingeri"
+    ]
+   }
+  },
+  "hottarum": {
+   "name": "Hottarum",
+   "years": {
+    "1978": [
+     "Hottarum truncatum"
+    ]
+   }
+  },
+  "ibania": {
+   "name": "Ibania",
+   "years": {
+    "2024": [
+     "Ibania belonis",
+     "Ibania fossae",
+     "Ibania gaesa",
+     "Ibania gangsai",
+     "Ibania gephyra",
+     "Ibania imbakensis",
+     "Ibania patentinervia",
+     "Ibania pectinervia",
+     "Ibania pichinensis",
+     "Ibania puncakborneensis",
+     "Ibania retinervia",
+     "Ibania smaragdina"
+    ]
+   }
+  },
+  "idimanthus": {
+   "name": "Idimanthus",
+   "years": {
+    "2018": [
+     "Idimanthus amorphophalloides"
+    ]
+   }
+  },
+  "incarum": {
+   "name": "Incarum",
+   "years": {
+    "2005": [
+     "Incarum pavonii"
+    ]
+   }
+  },
+  "jasarum": {
+   "name": "Jasarum",
+   "years": {
+    "1977": [
+     "Jasarum steyermarkii"
+    ]
+   }
+  },
+  "josefia": {
+   "name": "Josefia",
+   "years": {
+    "2023": [
+     "Josefia intricata"
+    ]
+   }
+  },
+  "kiewia": {
+   "name": "Kiewia",
+   "years": {
+    "2018": [
+     "Kiewia perakensis",
+     "Kiewia ridleyi",
+     "Kiewia teijsmannii"
+    ]
+   }
+  },
+  "lagenandra": {
+   "name": "Lagenandra",
+   "years": {
+    "1978": [
+     "Lagenandra bogneri",
+     "Lagenandra erosa"
+    ],
+    "2018": [
+     "Lagenandra cherupuzhica"
+    ],
+    "1986": [
+     "Lagenandra dewitii"
+    ],
+    "1987": [
+     "Lagenandra gomezii"
+    ],
+    "1983": [
+     "Lagenandra jacobsenii",
+     "Lagenandra praetermissa"
+    ],
+    "2021": [
+     "Lagenandra kalugalensis",
+     "Lagenandra srilankensis",
+     "Lagenandra wayambae"
+    ],
+    "2001": [
+     "Lagenandra keralensis"
+    ],
+    "1864": [
+     "Lagenandra koenigii",
+     "Lagenandra lancifolia",
+     "Lagenandra ovata"
+    ],
+    "2023": [
+     "Lagenandra kunkichirimuseumensis",
+     "Lagenandra limbusleviterapertae"
+    ],
+    "1931": [
+     "Lagenandra meeboldii"
+    ],
+    "1984": [
+     "Lagenandra nairii"
+    ],
+    "2022": [
+     "Lagenandra peradeniyae"
+    ],
+    "1879": [
+     "Lagenandra thwaitesii"
+    ],
+    "1852": [
+     "Lagenandra toxicaria"
+    ],
+    "1968": [
+     "Lagenandra undulata"
+    ]
+   }
+  },
+  "lasia": {
+   "name": "Lasia",
+   "years": {
+    "1920": [
+     "Lasia concinna"
+    ],
+    "1864": [
+     "Lasia spinosa"
+    ]
+   }
+  },
+  "lasimorpha": {
+   "name": "Lasimorpha",
+   "years": {
+    "1857": [
+     "Lasimorpha senegalensis"
+    ]
+   }
+  },
+  "lazarum": {
+   "name": "Lazarum",
+   "years": {
+    "2022": [
+     "Lazarum alismifolium",
+     "Lazarum angustilobum",
+     "Lazarum brownii",
+     "Lazarum cochleare",
+     "Lazarum eliosurum",
+     "Lazarum johnsonianum",
+     "Lazarum jonesii",
+     "Lazarum liliifolium",
+     "Lazarum nudibaccatum",
+     "Lazarum peltandroides",
+     "Lazarum praetermissum",
+     "Lazarum russell-smithii",
+     "Lazarum taylorii",
+     "Lazarum weipanum",
+     "Lazarum wilbertii"
+    ],
+    "1992": [
+     "Lazarum mirabile"
+    ]
+   }
+  },
+  "lemna": {
+   "name": "Lemna",
+   "years": {
+    "1859": [
+     "Lemna aequinoctialis"
+    ],
+    "2022": [
+     "Lemna bistrosa"
+    ],
+    "1895": [
+     "Lemna disperma"
+    ],
+    "1753": [
+     "Lemna gibba",
+     "Lemna minor",
+     "Lemna trisulca"
+    ],
+    "2013": [
+     "Lemna landoltii"
+    ],
+    "1816": [
+     "Lemna minuta"
+    ],
+    "1965": [
+     "Lemna obscura"
+    ],
+    "1843": [
+     "Lemna perpusilla"
+    ],
+    "1871": [
+     "Lemna tenera"
+    ],
+    "1975": [
+     "Lemna turionifera"
+    ],
+    "1864": [
+     "Lemna valdiviana"
+    ]
+   }
+  },
+  "leucocasia": {
+   "name": "Leucocasia",
+   "years": {
+    "1857": [
+     "Leucocasia gigantea"
+    ]
+   }
+  },
+  "lorenzia": {
+   "name": "Lorenzia",
+   "years": {
+    "2012": [
+     "Lorenzia umbrosa"
+    ]
+   }
+  },
+  "lysichiton": {
+   "name": "Lysichiton",
+   "years": {
+    "1932": [
+     "Lysichiton americanus"
+    ],
+    "1857": [
+     "Lysichiton camtschatcensis"
+    ]
+   }
+  },
+  "mangonia": {
+   "name": "Mangonia",
+   "years": {
+    "1857": [
+     "Mangonia tweedieana"
+    ],
+    "1973": [
+     "Mangonia uruguaya"
+    ]
+   }
+  },
+  "monstera": {
+   "name": "Monstera",
+   "years": {
+    "1949": [
+     "Monstera acacoyaguensis"
+    ],
+    "1855": [
+     "Monstera acuminata",
+     "Monstera tenuis"
+    ],
+    "1830": [
+     "Monstera adansonii"
+    ],
+    "2020": [
+     "Monstera alcirana",
+     "Monstera alfaroi",
+     "Monstera croatii",
+     "Monstera gambensis",
+     "Monstera guzmanjacobiae",
+     "Monstera juliusii",
+     "Monstera monteverdensis",
+     "Monstera tarrazuensis",
+     "Monstera wilsoniensis"
+    ],
+    "2004": [
+     "Monstera amargalensis",
+     "Monstera praetermissa"
+    ],
+    "2018": [
+     "Monstera anomala",
+     "Monstera integrifolia",
+     "Monstera limitaris"
+    ],
+    "2005": [
+     "Monstera aureopinnata",
+     "Monstera barrieri",
+     "Monstera cenepensis",
+     "Monstera kessleri",
+     "Monstera vasquezii"
+    ],
+    "2021": [
+     "Monstera bocatorensis",
+     "Monstera donosoensis",
+     "Monstera gentryi",
+     "Monstera gigas",
+     "Monstera kikiae",
+     "Monstera mittermeieri",
+     "Monstera momoi",
+     "Monstera titanum"
+    ],
+    "1910": [
+     "Monstera boliviana"
+    ],
+    "1997": [
+     "Monstera buseyi",
+     "Monstera filamentosa",
+     "Monstera glaucescens",
+     "Monstera lentii",
+     "Monstera molinae"
+    ],
+    "2023": [
+     "Monstera caribaea",
+     "Monstera lamersiana",
+     "Monstera panamensis"
+    ],
+    "2024": [
+     "Monstera cedenoi",
+     "Monstera coclensis",
+     "Monstera harrisoniorum",
+     "Monstera ngabensis"
+    ],
+    "1987": [
+     "Monstera costaricensis",
+     "Monstera dissecta"
+    ],
+    "1849": [
+     "Monstera deliciosa"
+    ],
+    "1908": [
+     "Monstera dubia"
+    ],
+    "1864": [
+     "Monstera egregia"
+    ],
+    "1905": [
+     "Monstera epipremnoides",
+     "Monstera pittieri"
+    ],
+    "2010": [
+     "Monstera florescanoana",
+     "Monstera planadensis"
+    ],
+    "1879": [
+     "Monstera gracilis",
+     "Monstera punctulata",
+     "Monstera subpinnata"
+    ],
+    "1860": [
+     "Monstera lechleriana"
+    ],
+    "1977": [
+     "Monstera luteynii",
+     "Monstera membranacea",
+     "Monstera minima",
+     "Monstera oreophila",
+     "Monstera xanthospatha"
+    ],
+    "2012": [
+     "Monstera maderaverde"
+    ],
+    "1845": [
+     "Monstera obliqua"
+    ],
+    "1857": [
+     "Monstera pinnatipartita"
+    ],
+    "1950": [
+     "Monstera siltepecana"
+    ],
+    "1878": [
+     "Monstera spruceana"
+    ],
+    "1967": [
+     "Monstera standleyana"
+    ],
+    "2022": [
+     "Monstera tablasensis"
+    ],
+    "1972": [
+     "Monstera tacanaensis"
+    ],
+    "1939": [
+     "Monstera tuberculata"
+    ]
+   }
+  },
+  "montrichardia": {
+   "name": "Montrichardia",
+   "years": {
+    "1854": [
+     "Montrichardia arborescens",
+     "Montrichardia linifera"
+    ]
+   }
+  },
+  "nabalu": {
+   "name": "Nabalu",
+   "years": {
+    "2018": [
+     "Nabalu corneri"
+    ]
+   }
+  },
+  "naiadia": {
+   "name": "Naiadia",
+   "years": {
+    "2018": [
+     "Naiadia zygoseta"
+    ]
+   }
+  },
+  "nephthytis": {
+   "name": "Nephthytis",
+   "years": {
+    "1857": [
+     "Nephthytis afzelii"
+    ],
+    "1986": [
+     "Nephthytis hallaei"
+    ],
+    "1994": [
+     "Nephthytis mayombensis"
+    ],
+    "1901": [
+     "Nephthytis poissonii"
+    ],
+    "1980": [
+     "Nephthytis swainei"
+    ]
+   }
+  },
+  "ooia": {
+   "name": "Ooia",
+   "years": {
+    "2016": [
+     "Ooia altar",
+     "Ooia basalticola",
+     "Ooia glans",
+     "Ooia havilandii",
+     "Ooia manduensis",
+     "Ooia secta",
+     "Ooia suavis"
+    ],
+    "2010": [
+     "Ooia grabowskii",
+     "Ooia kinabaluensis"
+    ],
+    "2013": [
+     "Ooia paxilla"
+    ],
+    "2023": [
+     "Ooia sayapensis",
+     "Ooia ulusenagangensis"
+    ]
+   }
+  },
+  "orontium": {
+   "name": "Orontium",
+   "years": {
+    "1753": [
+     "Orontium aquaticum"
+    ]
+   }
+  },
+  "peltandra": {
+   "name": "Peltandra",
+   "years": {
+    "1894": [
+     "Peltandra sagittifolia"
+    ],
+    "1832": [
+     "Peltandra virginica"
+    ]
+   }
+  },
+  "philodendron": {
+   "name": "Philodendron",
+   "years": {
+    "1913": [
+     "Philodendron acreanum",
+     "Philodendron brandtianum",
+     "Philodendron callosum",
+     "Philodendron caudatum",
+     "Philodendron distantilobum",
+     "Philodendron elegans",
+     "Philodendron fendleri",
+     "Philodendron grandipes",
+     "Philodendron leucanthum",
+     "Philodendron longistilum",
+     "Philodendron macropodum",
+     "Philodendron maculatum",
+     "Philodendron maximum",
+     "Philodendron pachycaule",
+     "Philodendron pachyphyllum",
+     "Philodendron panamense",
+     "Philodendron paxianum",
+     "Philodendron quinquelobum",
+     "Philodendron rigidifolium",
+     "Philodendron roraimae",
+     "Philodendron saxicola",
+     "Philodendron stenophyllum",
+     "Philodendron subhastatum",
+     "Philodendron sulcatum"
+    ],
+    "1899": [
+     "Philodendron acuminatissimum",
+     "Philodendron angustisectum",
+     "Philodendron bahiense",
+     "Philodendron balaoanum",
+     "Philodendron chimboanum",
+     "Philodendron dussii",
+     "Philodendron graveolens",
+     "Philodendron gualeanum",
+     "Philodendron houlletianum",
+     "Philodendron krugii",
+     "Philodendron longipes",
+     "Philodendron martianum",
+     "Philodendron multispadiceum",
+     "Philodendron purpureoviride",
+     "Philodendron rubrocinctum",
+     "Philodendron smithii",
+     "Philodendron viride",
+     "Philodendron wallisii"
+    ],
+    "1932": [
+     "Philodendron acutifolium",
+     "Philodendron basivaginatum",
+     "Philodendron divaricatum",
+     "Philodendron heteropleurum",
+     "Philodendron killipii"
+    ],
+    "1856": [
+     "Philodendron adamantinum",
+     "Philodendron adhatodifolium",
+     "Philodendron alternans",
+     "Philodendron consanguineum",
+     "Philodendron cordatum",
+     "Philodendron curvilobum",
+     "Philodendron deflexum",
+     "Philodendron ecordatum",
+     "Philodendron elaphoglossoides",
+     "Philodendron giganteum",
+     "Philodendron inconcinnum",
+     "Philodendron insigne",
+     "Philodendron jacquinii",
+     "Philodendron lindenii",
+     "Philodendron linguifolium",
+     "Philodendron propinquum",
+     "Philodendron rudgeanum",
+     "Philodendron thaliifolium",
+     "Philodendron variifolium",
+     "Philodendron verrucosum",
+     "Philodendron wullschlaegelii"
+    ],
+    "1855": [
+     "Philodendron advena",
+     "Philodendron bipennifolium",
+     "Philodendron erubescens",
+     "Philodendron hastatum",
+     "Philodendron latifolium",
+     "Philodendron lingulatum",
+     "Philodendron micranthum",
+     "Philodendron modestum",
+     "Philodendron pterotum",
+     "Philodendron tenue",
+     "Philodendron warszewiczii"
+    ],
+    "1864": [
+     "Philodendron aemulum",
+     "Philodendron schottii"
+    ],
+    "2023": [
+     "Philodendron agudeloi",
+     "Philodendron arevaloi",
+     "Philodendron crystallum",
+     "Philodendron dalyi",
+     "Philodendron josephii",
+     "Philodendron madalenense"
+    ],
+    "2014": [
+     "Philodendron alanbrantii",
+     "Philodendron arbelaezii",
+     "Philodendron bayae",
+     "Philodendron bernardoi",
+     "Philodendron bomboizense",
+     "Philodendron brantii",
+     "Philodendron camarae",
+     "Philodendron candamoense",
+     "Philodendron fosteri",
+     "Philodendron meridionale"
+    ],
+    "2016": [
+     "Philodendron alatisulcatum",
+     "Philodendron alatiundulatum",
+     "Philodendron angosturense",
+     "Philodendron anthracyne",
+     "Philodendron apiculatum",
+     "Philodendron bethoweniae",
+     "Philodendron bonifaziae",
+     "Philodendron curvipetiolatum",
+     "Philodendron delannayi",
+     "Philodendron delgadoae",
+     "Philodendron esmeraldense",
+     "Philodendron fibraecataphyllum",
+     "Philodendron gardeniodorum",
+     "Philodendron hannoniae",
+     "Philodendron jimenae",
+     "Philodendron luteonervium",
+     "Philodendron lynnhannoniae",
+     "Philodendron magnum",
+     "Philodendron mansellii",
+     "Philodendron melanoneuron",
+     "Philodendron melanum",
+     "Philodendron mentiens",
+     "Philodendron ovatoluteum",
+     "Philodendron pambilarense",
+     "Philodendron parvidactylum",
+     "Philodendron profundisulcatum",
+     "Philodendron quelalii",
+     "Philodendron rugapetiolatum",
+     "Philodendron sharoniae"
+    ],
+    "1845": [
+     "Philodendron alatum",
+     "Philodendron cruentum",
+     "Philodendron deltoideum",
+     "Philodendron fibrillosum",
+     "Philodendron heterophyllum",
+     "Philodendron membranaceum",
+     "Philodendron squamiferum"
+    ],
+    "1997": [
+     "Philodendron albisuccus",
+     "Philodendron alticola",
+     "Philodendron angustilobum",
+     "Philodendron annulatum",
+     "Philodendron antonioanum",
+     "Philodendron aromaticum",
+     "Philodendron bakeri",
+     "Philodendron biribiriense",
+     "Philodendron breedlovei",
+     "Philodendron brewsterense",
+     "Philodendron brunneicaule",
+     "Philodendron chiriquense",
+     "Philodendron chirripoense",
+     "Philodendron cipoense",
+     "Philodendron clewellii",
+     "Philodendron coloradense",
+     "Philodendron copense",
+     "Philodendron correae",
+     "Philodendron cotobrusense",
+     "Philodendron cotonense",
+     "Philodendron crassispathum",
+     "Philodendron cretosum",
+     "Philodendron dodsonii",
+     "Philodendron dolichophyllum",
+     "Philodendron dominicalense",
+     "Philodendron dwyeri",
+     "Philodendron edenudatum",
+     "Philodendron ferrugineum",
+     "Philodendron findens",
+     "Philodendron folsomii",
+     "Philodendron fortunense",
+     "Philodendron gigas",
+     "Philodendron granulare",
+     "Philodendron grayumii",
+     "Philodendron hammelii",
+     "Philodendron hebetatum",
+     "Philodendron heleniae",
+     "Philodendron immixtum",
+     "Philodendron jefense",
+     "Philodendron knappiae",
+     "Philodendron lazorii",
+     "Philodendron lentii",
+     "Philodendron llanense",
+     "Philodendron madronense",
+     "Philodendron malesevichiae",
+     "Philodendron morii",
+     "Philodendron niqueanum",
+     "Philodendron pirrense",
+     "Philodendron pseudauriculatum",
+     "Philodendron purulhense",
+     "Philodendron rhizomatosum",
+     "Philodendron roseospathum",
+     "Philodendron scalarinerve",
+     "Philodendron sousae",
+     "Philodendron squamicaule",
+     "Philodendron squamipetiolatum",
+     "Philodendron straminicaule",
+     "Philodendron sulcicaule",
+     "Philodendron thalassicum",
+     "Philodendron tysonii",
+     "Philodendron ubigantupense",
+     "Philodendron utleyanum",
+     "Philodendron verapazense",
+     "Philodendron wilburii",
+     "Philodendron zhuanum"
+    ],
+    "1992": [
+     "Philodendron alliodorum",
+     "Philodendron ensifolium",
+     "Philodendron herbaceum",
+     "Philodendron opacum",
+     "Philodendron standleyi"
+    ],
+    "2013": [
+     "Philodendron alonsoae",
+     "Philodendron atratum",
+     "Philodendron attenuatum",
+     "Philodendron caracaraiense",
+     "Philodendron carajasense",
+     "Philodendron caranoense",
+     "Philodendron davidneillii",
+     "Philodendron edwinii",
+     "Philodendron genevieveanum",
+     "Philodendron grahamii",
+     "Philodendron gribianum",
+     "Philodendron joaosilvae",
+     "Philodendron linganii",
+     "Philodendron macarenense",
+     "Philodendron marcocorreanum",
+     "Philodendron meieri",
+     "Philodendron pseudoverrucosum",
+     "Philodendron rhodospermum",
+     "Philodendron ricaurtense",
+     "Philodendron sanmarcoense",
+     "Philodendron schmidtiae",
+     "Philodendron werneri"
+    ],
+    "1998": [
+     "Philodendron altomacaense",
+     "Philodendron appendiculatum",
+     "Philodendron fragile",
+     "Philodendron hatschbachii",
+     "Philodendron roseopetiolatum"
+    ],
+    "2004": [
+     "Philodendron amargalense",
+     "Philodendron aureimarginatum",
+     "Philodendron campii",
+     "Philodendron cardosoi",
+     "Philodendron clarkei",
+     "Philodendron danielii",
+     "Philodendron laticiferum",
+     "Philodendron longipedunculatum",
+     "Philodendron moonenii",
+     "Philodendron paucinervium",
+     "Philodendron pusillum",
+     "Philodendron roseocataphyllum",
+     "Philodendron sparreorum",
+     "Philodendron werkhoveniae"
+    ],
+    "2005": [
+     "Philodendron ampamii",
+     "Philodendron ancuashii",
+     "Philodendron avenium",
+     "Philodendron barbourii",
+     "Philodendron brent-berlinii",
+     "Philodendron carinatum",
+     "Philodendron condorcanquense",
+     "Philodendron cotapatense",
+     "Philodendron huashikatii",
+     "Philodendron kroemeri",
+     "Philodendron palaciosii",
+     "Philodendron parvilobum",
+     "Philodendron pedunculum",
+     "Philodendron reticulatum",
+     "Philodendron swartiae"
+    ],
+    "1986": [
+     "Philodendron amplisinum",
+     "Philodendron anaadu",
+     "Philodendron appunii",
+     "Philodendron azulitense",
+     "Philodendron beniteziae",
+     "Philodendron borgesii",
+     "Philodendron buntingianum",
+     "Philodendron calatheifolium",
+     "Philodendron canaimae",
+     "Philodendron cataniapoense",
+     "Philodendron consobrinum",
+     "Philodendron davidsei",
+     "Philodendron delascioi",
+     "Philodendron effusilobum",
+     "Philodendron exile",
+     "Philodendron guaiquinimae",
+     "Philodendron liesneri",
+     "Philodendron marahuacae",
+     "Philodendron multinervum",
+     "Philodendron orionis",
+     "Philodendron peraiense",
+     "Philodendron perplexum",
+     "Philodendron strictum",
+     "Philodendron sucrense",
+     "Philodendron tachirense",
+     "Philodendron triangulare",
+     "Philodendron venosum",
+     "Philodendron victoriae",
+     "Philodendron wurdackii",
+     "Philodendron yavitense"
+    ],
+    "1975": [
+     "Philodendron ampullaceum",
+     "Philodendron aristeguietae",
+     "Philodendron atabapoense",
+     "Philodendron chimantae",
+     "Philodendron danteanum",
+     "Philodendron dunstervilleorum",
+     "Philodendron henry-pittieri",
+     "Philodendron hylaeae",
+     "Philodendron lemae",
+     "Philodendron maguirei",
+     "Philodendron maroae",
+     "Philodendron meridense",
+     "Philodendron mesae",
+     "Philodendron phlebodes",
+     "Philodendron pimichinese",
+     "Philodendron rhodoaxis",
+     "Philodendron santodominguense",
+     "Philodendron spruceanum",
+     "Philodendron steyermarkii",
+     "Philodendron trujilloi",
+     "Philodendron venezuelense",
+     "Philodendron venustum",
+     "Philodendron vinaceum"
+    ],
+    "1905": [
+     "Philodendron angustialatum",
+     "Philodendron bogotense",
+     "Philodendron chanchamayense",
+     "Philodendron densivenium",
+     "Philodendron ernestii",
+     "Philodendron huanucense",
+     "Philodendron juninense",
+     "Philodendron loefgrenii",
+     "Philodendron musifolium",
+     "Philodendron myrmecophilum",
+     "Philodendron nanegalense",
+     "Philodendron obliquifolium",
+     "Philodendron oligospermum",
+     "Philodendron pulchellum",
+     "Philodendron quitense",
+     "Philodendron riparium",
+     "Philodendron tarmense",
+     "Philodendron tenuipes",
+     "Philodendron traunii",
+     "Philodendron uleanum",
+     "Philodendron validinervium",
+     "Philodendron weberbaueri",
+     "Philodendron wittianum"
+    ],
+    "1858": [
+     "Philodendron anisotomum",
+     "Philodendron aurantiifolium"
+    ],
+    "1957": [
+     "Philodendron applanatum",
+     "Philodendron burle-marxii",
+     "Philodendron edmundoi",
+     "Philodendron goeldii",
+     "Philodendron mello-barretoanum",
+     "Philodendron pulchrum",
+     "Philodendron renauxii"
+    ],
+    "2001": [
+     "Philodendron asplundii",
+     "Philodendron hopkinsianum",
+     "Philodendron simonianum",
+     "Philodendron tortum",
+     "Philodendron toshibae",
+     "Philodendron vargealtense"
+    ],
+    "2010": [
+     "Philodendron aurantiispadix",
+     "Philodendron cardonii",
+     "Philodendron devianum",
+     "Philodendron fibrosum",
+     "Philodendron grenandii",
+     "Philodendron jonkerorum",
+     "Philodendron mcphersonii",
+     "Philodendron merenbergense",
+     "Philodendron misahualliense",
+     "Philodendron narinoense",
+     "Philodendron patriciae",
+     "Philodendron pipolyi",
+     "Philodendron planadense",
+     "Philodendron prominulinervium",
+     "Philodendron puhuangii",
+     "Philodendron silverstonei",
+     "Philodendron urraoense",
+     "Philodendron verrucapetiolum"
+    ],
+    "1952": [
+     "Philodendron auriculatum",
+     "Philodendron microstictum"
+    ],
+    "1853": [
+     "Philodendron auritum",
+     "Philodendron eximium",
+     "Philodendron obtusilobum",
+     "Philodendron ornatum",
+     "Philodendron quinquenervium",
+     "Philodendron radiatum"
+    ],
+    "1967": [
+     "Philodendron auyantepuiense"
+    ],
+    "2022": [
+     "Philodendron ayalae",
+     "Philodendron cerrojefense",
+     "Philodendron chepiganense",
+     "Philodendron coibense",
+     "Philodendron darienense",
+     "Philodendron fasciculatum",
+     "Philodendron florianetlii",
+     "Philodendron gentryi",
+     "Philodendron guasagandense",
+     "Philodendron ishichimiense",
+     "Philodendron longilobum",
+     "Philodendron manuelii",
+     "Philodendron marcarlsoniae",
+     "Philodendron martinezii",
+     "Philodendron minesianum",
+     "Philodendron monroi",
+     "Philodendron narvaezii",
+     "Philodendron nelsonzamorae",
+     "Philodendron oxycataphyllum",
+     "Philodendron palmicola",
+     "Philodendron rex",
+     "Philodendron rio-pretense",
+     "Philodendron rocioae",
+     "Philodendron rubrijuvenile",
+     "Philodendron samudioense",
+     "Philodendron trisectifolium"
+    ],
+    "2012": [
+     "Philodendron ayangannense",
+     "Philodendron bicolor",
+     "Philodendron follii",
+     "Philodendron geniculatum",
+     "Philodendron kaieteurense",
+     "Philodendron longilobatum",
+     "Philodendron nadruzianum",
+     "Philodendron pierrelianum",
+     "Philodendron pokigronense",
+     "Philodendron ruthianum"
+    ],
+    "1964": [
+     "Philodendron barrosoanum",
+     "Philodendron craspedodromum",
+     "Philodendron dressleri",
+     "Philodendron grazielae",
+     "Philodendron remifolium"
+    ],
+    "2008": [
+     "Philodendron baudoense",
+     "Philodendron canicaule",
+     "Philodendron chrysocarpum",
+     "Philodendron coriaceum",
+     "Philodendron discretivenium",
+     "Philodendron dryanderae",
+     "Philodendron furcatum",
+     "Philodendron heterocraspedon",
+     "Philodendron lupinum",
+     "Philodendron millerianum",
+     "Philodendron monsalveae",
+     "Philodendron ninoanum",
+     "Philodendron oblanceolatum",
+     "Philodendron polliciforme",
+     "Philodendron rhodospathiphyllum",
+     "Philodendron rubromaculatum",
+     "Philodendron striatum",
+     "Philodendron suberosum",
+     "Philodendron tricostatum",
+     "Philodendron trojitense",
+     "Philodendron venulosum"
+    ],
+    "1962": [
+     "Philodendron bazii",
+     "Philodendron glanduliferum",
+     "Philodendron leyvae"
+    ],
+    "2011": [
+     "Philodendron bernardopazii",
+     "Philodendron delinksii",
+     "Philodendron ricardoi"
+    ],
+    "1995": [
+     "Philodendron billietiae"
+    ],
+    "1837": [
+     "Philodendron bipinnatifidum",
+     "Philodendron crassinervium",
+     "Philodendron speciosum"
+    ],
+    "1859": [
+     "Philodendron blanchetianum",
+     "Philodendron brevispathum",
+     "Philodendron fraternum",
+     "Philodendron holtonianum",
+     "Philodendron inops",
+     "Philodendron mathewsii",
+     "Philodendron placidum",
+     "Philodendron seguine",
+     "Philodendron subincisum",
+     "Philodendron tweedieanum"
+    ],
+    "1996": [
+     "Philodendron brandii",
+     "Philodendron burgeri",
+     "Philodendron croatii",
+     "Philodendron elegantulum",
+     "Philodendron gonzalezii",
+     "Philodendron hooveri",
+     "Philodendron ichthyoderma",
+     "Philodendron rayanum",
+     "Philodendron rodrigueziae",
+     "Philodendron romeroi",
+     "Philodendron tuerckheimii"
+    ],
+    "1878": [
+     "Philodendron brasiliense",
+     "Philodendron mexicanum",
+     "Philodendron minarum",
+     "Philodendron pinnatilobum",
+     "Philodendron serpens"
+    ],
+    "1937": [
+     "Philodendron brenesii"
+    ],
+    "2019": [
+     "Philodendron bucayense",
+     "Philodendron galotipazii",
+     "Philodendron guadalupense",
+     "Philodendron guizaense",
+     "Philodendron hughclarkei",
+     "Philodendron hyalinum",
+     "Philodendron josefinense",
+     "Philodendron kressii",
+     "Philodendron lemorae",
+     "Philodendron mashpiense",
+     "Philodendron mazorcalense",
+     "Philodendron mendozae",
+     "Philodendron meraense",
+     "Philodendron merizaldense",
+     "Philodendron mesayense",
+     "Philodendron monteagudoi",
+     "Philodendron montemariense",
+     "Philodendron nievense",
+     "Philodendron nigrifactum",
+     "Philodendron picoranense",
+     "Philodendron prancei",
+     "Philodendron rubioi",
+     "Philodendron sabaletense"
+    ],
+    "2017": [
+     "Philodendron camiloanum",
+     "Philodendron melloi"
+    ],
+    "1956": [
+     "Philodendron camposportoanum"
+    ],
+    "1958": [
+     "Philodendron colombianum"
+    ],
+    "1988": [
+     "Philodendron conforme",
+     "Philodendron holstii",
+     "Philodendron mawarinumae",
+     "Philodendron nebulense",
+     "Philodendron peperomioides",
+     "Philodendron samayense",
+     "Philodendron scitulum",
+     "Philodendron simulans",
+     "Philodendron yutajense"
+    ],
+    "1841": [
+     "Philodendron corcovadense",
+     "Philodendron guttiferum",
+     "Philodendron imbe",
+     "Philodendron linnaei",
+     "Philodendron oblongum",
+     "Philodendron panduriforme",
+     "Philodendron pedatum",
+     "Philodendron simsii"
+    ],
+    "1901": [
+     "Philodendron crassum"
+    ],
+    "1994": [
+     "Philodendron cremersii",
+     "Philodendron duckei",
+     "Philodendron guianense"
+    ],
+    "1977": [
+     "Philodendron cruentospathum",
+     "Philodendron platypetiolatum",
+     "Philodendron pogonocaule",
+     "Philodendron senatocarpium",
+     "Philodendron ventricosum"
+    ],
+    "2021": [
+     "Philodendron cuangosense",
+     "Philodendron nangaritense",
+     "Philodendron paloraense"
+    ],
+    "1885": [
+     "Philodendron cuneatum",
+     "Philodendron glaziovii",
+     "Philodendron lehmannii",
+     "Philodendron montanum"
+    ],
+    "1991": [
+     "Philodendron dardanianum",
+     "Philodendron uliginosum"
+    ],
+    "1983": [
+     "Philodendron davidsonii",
+     "Philodendron pseudoundulatum",
+     "Philodendron rugosum"
+    ],
+    "1895": [
+     "Philodendron devansayeanum"
+    ],
+    "1929": [
+     "Philodendron dioscoreoides",
+     "Philodendron platypodum"
+    ],
+    "1963": [
+     "Philodendron dyscarpium"
+    ],
+    "1940": [
+     "Philodendron eburneum",
+     "Philodendron herthae",
+     "Philodendron pastazanum",
+     "Philodendron popenoei"
+    ],
+    "1951": [
+     "Philodendron englerianum",
+     "Philodendron krauseanum",
+     "Philodendron lancigerum"
+    ],
+    "1949": [
+     "Philodendron escuintlense"
+    ],
+    "2000": [
+     "Philodendron flumineum",
+     "Philodendron mayoi",
+     "Philodendron venustifoliatum"
+    ],
+    "1839": [
+     "Philodendron fragrantissimum"
+    ],
+    "1876": [
+     "Philodendron gloriosum"
+    ],
+    "1829": [
+     "Philodendron grandifolium",
+     "Philodendron hederaceum",
+     "Philodendron lacerum",
+     "Philodendron pinnatifidum",
+     "Philodendron tripartitum"
+    ],
+    "2020": [
+     "Philodendron guadarramanum",
+     "Philodendron luxurians",
+     "Philodendron theofiloanum"
+    ],
+    "2006": [
+     "Philodendron huaynacapacense",
+     "Philodendron rimachii",
+     "Philodendron ushanum",
+     "Philodendron wadedavisii"
+    ],
+    "2003": [
+     "Philodendron humile",
+     "Philodendron nullinervium",
+     "Philodendron paludicola",
+     "Philodendron stenolobum",
+     "Philodendron tenuispadix",
+     "Philodendron xanadu"
+    ],
+    "1849": [
+     "Philodendron inaequilaterum",
+     "Philodendron sagittifolium"
+    ],
+    "1965": [
+     "Philodendron jodavisianum"
+    ],
+    "1987": [
+     "Philodendron kautskyi",
+     "Philodendron spiritus-sancti"
+    ],
+    "1979": [
+     "Philodendron leal-costae"
+    ],
+    "1860": [
+     "Philodendron lechlerianum",
+     "Philodendron ligulatum",
+     "Philodendron martini",
+     "Philodendron megalophyllum",
+     "Philodendron ochrostemon",
+     "Philodendron populneum",
+     "Philodendron sphalerum",
+     "Philodendron splitgerberi",
+     "Philodendron wendlandii"
+    ],
+    "1867": [
+     "Philodendron lindenianum",
+     "Philodendron lundii"
+    ],
+    "1862": [
+     "Philodendron longilaminatum",
+     "Philodendron recurvifolium"
+    ],
+    "2007": [
+     "Philodendron longirrhizum",
+     "Philodendron scherberichii",
+     "Philodendron scottmorianum"
+    ],
+    "2015": [
+     "Philodendron luisae",
+     "Philodendron rheophyticum"
+    ],
+    "1857": [
+     "Philodendron macroglossum",
+     "Philodendron sonderianum"
+    ],
+    "1883": [
+     "Philodendron mamei",
+     "Philodendron sodiroi"
+    ],
+    "1873": [
+     "Philodendron melanochrysum"
+    ],
+    "1874": [
+     "Philodendron melinonii"
+    ],
+    "1928": [
+     "Philodendron missionum"
+    ],
+    "1854": [
+     "Philodendron muricatum",
+     "Philodendron ruizii"
+    ],
+    "2024": [
+     "Philodendron noelii",
+     "Philodendron renateae"
+    ],
+    "1920": [
+     "Philodendron petraeum"
+    ],
+    "1879": [
+     "Philodendron pteropus",
+     "Philodendron surinamense",
+     "Philodendron undulatum"
+    ],
+    "1865": [
+     "Philodendron robustum",
+     "Philodendron schottianum"
+    ],
+    "1872": [
+     "Philodendron roezlii"
+    ],
+    "1943": [
+     "Philodendron rojasianum"
+    ],
+    "1981": [
+     "Philodendron simmondsii"
+    ],
+    "1939": [
+     "Philodendron solimoesense"
+    ],
+    "1931": [
+     "Philodendron tatei"
+    ],
+    "1916": [
+     "Philodendron teretipes"
+    ],
+    "1989": [
+     "Philodendron triplum"
+    ],
+    "1871": [
+     "Philodendron williamsii"
+    ],
+    "1930": [
+     "Philodendron woronowii"
+    ]
+   }
+  },
+  "philonotion": {
+   "name": "Philonotion",
+   "years": {
+    "2010": [
+     "Philonotion americanum",
+     "Philonotion bolivaranum"
+    ],
+    "1857": [
+     "Philonotion spruceanum"
+    ]
+   }
+  },
+  "phyllotaenium": {
+   "name": "Phyllotaenium",
+   "years": {
+    "1872": [
+     "Phyllotaenium lindenii"
+    ]
+   }
+  },
+  "phymatarum": {
+   "name": "Phymatarum",
+   "years": {
+    "1965": [
+     "Phymatarum borneense"
+    ]
+   }
+  },
+  "pichinia": {
+   "name": "Pichinia",
+   "years": {
+    "2010": [
+     "Pichinia disticha"
+    ]
+   }
+  },
+  "pinellia": {
+   "name": "Pinellia",
+   "years": {
+    "1908": [
+     "Pinellia browniana"
+    ],
+    "1902": [
+     "Pinellia cordata"
+    ],
+    "2024": [
+     "Pinellia discolor"
+    ],
+    "2013": [
+     "Pinellia hunanensis"
+    ],
+    "1889": [
+     "Pinellia integrifolia"
+    ],
+    "1857": [
+     "Pinellia pedatisecta"
+    ],
+    "1935": [
+     "Pinellia peltata"
+    ],
+    "1984": [
+     "Pinellia polyphylla"
+    ],
+    "1901": [
+     "Pinellia ternata"
+    ],
+    "1856": [
+     "Pinellia tripartita"
+    ],
+    "1986": [
+     "Pinellia yaoluopingensis"
+    ]
+   }
+  },
+  "piptospatha": {
+   "name": "Piptospatha",
+   "years": {
+    "1879": [
+     "Piptospatha insignis"
+    ],
+    "1908": [
+     "Piptospatha remiformis"
+    ],
+    "2010": [
+     "Piptospatha repens"
+    ]
+   }
+  },
+  "pistia": {
+   "name": "Pistia",
+   "years": {
+    "1753": [
+     "Pistia stratiotes"
+    ]
+   }
+  },
+  "podolasia": {
+   "name": "Podolasia",
+   "years": {
+    "1882": [
+     "Podolasia stipitata"
+    ]
+   }
+  },
+  "pothoidium": {
+   "name": "Pothoidium",
+   "years": {
+    "1857": [
+     "Pothoidium lobbianum"
+    ]
+   }
+  },
+  "pothos": {
+   "name": "Pothos",
+   "years": {
+    "1929": [
+     "Pothos armatus"
+    ],
+    "1966": [
+     "Pothos atropurpurascens"
+    ],
+    "1856": [
+     "Pothos barberianus",
+     "Pothos hookeri",
+     "Pothos longipes",
+     "Pothos motleyanus",
+     "Pothos oxyphyllus",
+     "Pothos thomsonianus"
+    ],
+    "1879": [
+     "Pothos beccarianus",
+     "Pothos brevistylus",
+     "Pothos clavatus",
+     "Pothos inaequilaterus",
+     "Pothos insignis",
+     "Pothos papuanus"
+    ],
+    "2020": [
+     "Pothos boyceanus",
+     "Pothos degenerans",
+     "Pothos ecclesiae",
+     "Pothos fractiflexus",
+     "Pothos paiei"
+    ],
+    "1936": [
+     "Pothos brassii"
+    ],
+    "1920": [
+     "Pothos brevivaginatus",
+     "Pothos englerianus",
+     "Pothos longivaginatus"
+    ],
+    "1948": [
+     "Pothos chinensis"
+    ],
+    "1989": [
+     "Pothos crassipedunculatus"
+    ],
+    "1893": [
+     "Pothos curtisii",
+     "Pothos kingii",
+     "Pothos lancifolius",
+     "Pothos macrocephalus"
+    ],
+    "1922": [
+     "Pothos cuspidatus",
+     "Pothos mirabilis"
+    ],
+    "1851": [
+     "Pothos cylindricus",
+     "Pothos junghuhnii",
+     "Pothos roxburghii"
+    ],
+    "2024": [
+     "Pothos deleonii"
+    ],
+    "1916": [
+     "Pothos dolichophyllus",
+     "Pothos falcifolius",
+     "Pothos gracillimus",
+     "Pothos polystachyus"
+    ],
+    "2000": [
+     "Pothos dzui",
+     "Pothos gigantipes",
+     "Pothos kerrii",
+     "Pothos pilulifer"
+    ],
+    "1995": [
+     "Pothos grandis"
+    ],
+    "1898": [
+     "Pothos hellwigii"
+    ],
+    "1994": [
+     "Pothos keralensis"
+    ],
+    "2002": [
+     "Pothos laurifolius",
+     "Pothos oliganthus",
+     "Pothos volans"
+    ],
+    "1860": [
+     "Pothos leptostachyus"
+    ],
+    "1895": [
+     "Pothos luzonensis"
+    ],
+    "1905": [
+     "Pothos ovatifolius",
+     "Pothos philippinensis"
+    ],
+    "1988": [
+     "Pothos parvispadix"
+    ],
+    "2019": [
+     "Pothos pugnax"
+    ],
+    "1837": [
+     "Pothos remotiflorus"
+    ],
+    "1917": [
+     "Pothos repens"
+    ],
+    "1923": [
+     "Pothos salicifolius"
+    ],
+    "1753": [
+     "Pothos scandens"
+    ],
+    "1820": [
+     "Pothos tener"
+    ],
+    "2013": [
+     "Pothos tirunelveliensis"
+    ],
+    "1941": [
+     "Pothos touranensis"
+    ],
+    "2022": [
+     "Pothos venustus"
+    ],
+    "1910": [
+     "Pothos versteegii"
+    ],
+    "2017": [
+     "Pothos vietnamensis"
+    ],
+    "1863": [
+     "Pothos zippelii"
+    ]
+   }
+  },
+  "protarum": {
+   "name": "Protarum",
+   "years": {
+    "1901": [
+     "Protarum sechellarum"
+    ]
+   }
+  },
+  "pseudohydrosme": {
+   "name": "Pseudohydrosme",
+   "years": {
+    "2021": [
+     "Pseudohydrosme bogneri"
+    ],
+    "1892": [
+     "Pseudohydrosme buettneri",
+     "Pseudohydrosme gabunensis"
+    ]
+   }
+  },
+  "pursegloveia": {
+   "name": "Pursegloveia",
+   "years": {
+    "2018": [
+     "Pursegloveia aegis",
+     "Pursegloveia ashtonii",
+     "Pursegloveia burttii",
+     "Pursegloveia kazuyae",
+     "Pursegloveia minima",
+     "Pursegloveia orientalis"
+    ],
+    "2020": [
+     "Pursegloveia imbakensis"
+    ]
+   }
+  },
+  "pycnospatha": {
+   "name": "Pycnospatha",
+   "years": {
+    "1941": [
+     "Pycnospatha arietina",
+     "Pycnospatha palmata"
+    ]
+   }
+  },
+  "remusatia": {
+   "name": "Remusatia",
+   "years": {
+    "1857": [
+     "Remusatia hookeriana"
+    ],
+    "1992": [
+     "Remusatia pumila"
+    ],
+    "1832": [
+     "Remusatia vivipara"
+    ],
+    "2002": [
+     "Remusatia yunnanensis"
+    ]
+   }
+  },
+  "rhaphidophora": {
+   "name": "Rhaphidophora",
+   "years": {
+    "1915": [
+     "Rhaphidophora acuminata"
+    ],
+    "1897": [
+     "Rhaphidophora africana",
+     "Rhaphidophora australasica",
+     "Rhaphidophora pusilla"
+    ],
+    "1863": [
+     "Rhaphidophora angustata",
+     "Rhaphidophora korthalsii",
+     "Rhaphidophora montana",
+     "Rhaphidophora spathacea"
+    ],
+    "2000": [
+     "Rhaphidophora araea",
+     "Rhaphidophora balgooyi",
+     "Rhaphidophora cretosa",
+     "Rhaphidophora floresensis",
+     "Rhaphidophora hayi",
+     "Rhaphidophora okapensis",
+     "Rhaphidophora sabit",
+     "Rhaphidophora ustulata"
+    ],
+    "2001": [
+     "Rhaphidophora banosensis",
+     "Rhaphidophora cravenschoddeana",
+     "Rhaphidophora cryptantha",
+     "Rhaphidophora fortis",
+     "Rhaphidophora gorokensis",
+     "Rhaphidophora guamensis",
+     "Rhaphidophora intonsa",
+     "Rhaphidophora intrusa",
+     "Rhaphidophora jubata",
+     "Rhaphidophora kokodensis",
+     "Rhaphidophora mima",
+     "Rhaphidophora pilosa",
+     "Rhaphidophora waria"
+    ],
+    "1880": [
+     "Rhaphidophora beccarii",
+     "Rhaphidophora conica",
+     "Rhaphidophora megastigma",
+     "Rhaphidophora puberula",
+     "Rhaphidophora tenuis"
+    ],
+    "2016": [
+     "Rhaphidophora bogneri"
+    ],
+    "1908": [
+     "Rhaphidophora bonii",
+     "Rhaphidophora crassicaulis",
+     "Rhaphidophora cylindrosperma",
+     "Rhaphidophora foraminifera",
+     "Rhaphidophora moluccensis",
+     "Rhaphidophora philippinensis",
+     "Rhaphidophora teysmanniana",
+     "Rhaphidophora tonkinensis"
+    ],
+    "1916": [
+     "Rhaphidophora brevispathacea",
+     "Rhaphidophora discolor",
+     "Rhaphidophora stolleana"
+    ],
+    "1925": [
+     "Rhaphidophora burkilliana"
+    ],
+    "1860": [
+     "Rhaphidophora calophylla",
+     "Rhaphidophora hookeri",
+     "Rhaphidophora lancifolia",
+     "Rhaphidophora lobbii"
+    ],
+    "1941": [
+     "Rhaphidophora chevalieri",
+     "Rhaphidophora laichauensis",
+     "Rhaphidophora sulcata"
+    ],
+    "1920": [
+     "Rhaphidophora conocephala",
+     "Rhaphidophora talamauana"
+    ],
+    "1999": [
+     "Rhaphidophora corneri",
+     "Rhaphidophora nicolsonii"
+    ],
+    "1893": [
+     "Rhaphidophora crassifolia",
+     "Rhaphidophora maingayi",
+     "Rhaphidophora minor",
+     "Rhaphidophora tetrasperma"
+    ],
+    "1898": [
+     "Rhaphidophora dahlii",
+     "Rhaphidophora formosana",
+     "Rhaphidophora geniculata",
+     "Rhaphidophora koordersii",
+     "Rhaphidophora megasperma",
+     "Rhaphidophora peeploides"
+    ],
+    "1857": [
+     "Rhaphidophora decursiva",
+     "Rhaphidophora glauca",
+     "Rhaphidophora hongkongensis",
+     "Rhaphidophora peepla",
+     "Rhaphidophora pertusa"
+    ],
+    "1992": [
+     "Rhaphidophora dulongensis"
+    ],
+    "1905": [
+     "Rhaphidophora elliptica",
+     "Rhaphidophora falcata",
+     "Rhaphidophora perkinsiae",
+     "Rhaphidophora sarasinorum"
+    ],
+    "1921": [
+     "Rhaphidophora elliptifolia"
+    ],
+    "1910": [
+     "Rhaphidophora elmeri",
+     "Rhaphidophora monticola",
+     "Rhaphidophora versteegii"
+    ],
+    "2015": [
+     "Rhaphidophora lacduongensis"
+    ],
+    "1966": [
+     "Rhaphidophora latevaginata"
+    ],
+    "1962": [
+     "Rhaphidophora liukiuensis"
+    ],
+    "1977": [
+     "Rhaphidophora luchunensis",
+     "Rhaphidophora megaphylla"
+    ],
+    "2022": [
+     "Rhaphidophora microperforata",
+     "Rhaphidophora muluensis"
+    ],
+    "1912": [
+     "Rhaphidophora microspadix",
+     "Rhaphidophora pachyphylla",
+     "Rhaphidophora schlechteri",
+     "Rhaphidophora stenophylla"
+    ],
+    "2019": [
+     "Rhaphidophora neglecta"
+    ],
+    "1889": [
+     "Rhaphidophora neoguineensis"
+    ],
+    "1922": [
+     "Rhaphidophora oligosperma",
+     "Rhaphidophora parvifolia",
+     "Rhaphidophora ternatensis"
+    ],
+    "1909": [
+     "Rhaphidophora ovoidea"
+    ],
+    "1993": [
+     "Rhaphidophora petrieana"
+    ],
+    "2017": [
+     "Rhaphidophora sonlaensis"
+    ],
+    "1978": [
+     "Rhaphidophora spuria"
+    ],
+    "1879": [
+     "Rhaphidophora sylvestris"
+    ],
+    "1911": [
+     "Rhaphidophora todayensis"
+    ],
+    "2005": [
+     "Rhaphidophora typha"
+    ]
+   }
+  },
+  "rhodospatha": {
+   "name": "Rhodospatha",
+   "years": {
+    "2005": [
+     "Rhodospatha acosta-solisii",
+     "Rhodospatha brent-berlinii",
+     "Rhodospatha katipas",
+     "Rhodospatha mukuntakia",
+     "Rhodospatha piushaduka"
+    ],
+    "2023": [
+     "Rhodospatha antonensis",
+     "Rhodospatha osaensis",
+     "Rhodospatha ovatifolia"
+    ],
+    "2024": [
+     "Rhodospatha antonioana",
+     "Rhodospatha burgeri",
+     "Rhodospatha dressleri",
+     "Rhodospatha guanchensis",
+     "Rhodospatha heraclioana",
+     "Rhodospatha knappiae",
+     "Rhodospatha morii",
+     "Rhodospatha vandanilssoniae"
+    ],
+    "2012": [
+     "Rhodospatha arborescens"
+    ],
+    "1975": [
+     "Rhodospatha badilloi",
+     "Rhodospatha bolivarana",
+     "Rhodospatha perezii"
+    ],
+    "2021": [
+     "Rhodospatha barbourii",
+     "Rhodospatha neillii"
+    ],
+    "1988": [
+     "Rhodospatha brachypoda",
+     "Rhodospatha cardonae"
+    ],
+    "1908": [
+     "Rhodospatha dammeri",
+     "Rhodospatha densinervia",
+     "Rhodospatha dissidens",
+     "Rhodospatha kraenzlinii",
+     "Rhodospatha robusta",
+     "Rhodospatha statutii"
+    ],
+    "1986": [
+     "Rhodospatha falconensis",
+     "Rhodospatha guasareensis",
+     "Rhodospatha steyermarkii"
+    ],
+    "1913": [
+     "Rhodospatha forgetii"
+    ],
+    "1858": [
+     "Rhodospatha heliconiifolia"
+    ],
+    "2010": [
+     "Rhodospatha herrerae"
+    ],
+    "1845": [
+     "Rhodospatha latifolia",
+     "Rhodospatha oblongata"
+    ],
+    "1905": [
+     "Rhodospatha longipes"
+    ],
+    "2004": [
+     "Rhodospatha monsalveae"
+    ],
+    "1857": [
+     "Rhodospatha moritziana"
+    ],
+    "2000": [
+     "Rhodospatha pellucida"
+    ],
+    "2019": [
+     "Rhodospatha rupicola"
+    ],
+    "1929": [
+     "Rhodospatha venosa"
+    ],
+    "1864": [
+     "Rhodospatha wendlandii"
+    ]
+   }
+  },
+  "rhynchopyle": {
+   "name": "Rhynchopyle",
+   "years": {
+    "1880": [
+     "Rhynchopyle elongata",
+     "Rhynchopyle marginata"
+    ],
+    "2018": [
+     "Rhynchopyle impolita",
+     "Rhynchopyle loi",
+     "Rhynchopyle nivea",
+     "Rhynchopyle pileata",
+     "Rhynchopyle viridistigma"
+    ]
+   }
+  },
+  "sarawakia": {
+   "name": "Sarawakia",
+   "years": {
+    "2024": [
+     "Sarawakia clausula",
+     "Sarawakia cyria",
+     "Sarawakia larynx",
+     "Sarawakia petradoxa",
+     "Sarawakia rejangica"
+    ]
+   }
+  },
+  "sauromatum": {
+   "name": "Sauromatum",
+   "years": {
+    "1903": [
+     "Sauromatum brevipes"
+    ],
+    "2010": [
+     "Sauromatum brevipilosum",
+     "Sauromatum diversifolium",
+     "Sauromatum giganteum",
+     "Sauromatum hirsutum",
+     "Sauromatum tentaculatum"
+    ],
+    "1999": [
+     "Sauromatum gaoligongense"
+    ],
+    "1856": [
+     "Sauromatum horsfieldii"
+    ],
+    "2022": [
+     "Sauromatum listeri"
+    ],
+    "2019": [
+     "Sauromatum paramjitii"
+    ],
+    "1841": [
+     "Sauromatum venosum"
+    ]
+   }
+  },
+  "scaphispatha": {
+   "name": "Scaphispatha",
+   "years": {
+    "1860": [
+     "Scaphispatha gracilis"
+    ],
+    "2005": [
+     "Scaphispatha robusta"
+    ]
+   }
+  },
+  "schismatoglottis": {
+   "name": "Schismatoglottis",
+   "years": {
+    "1912": [
+     "Schismatoglottis acutangula",
+     "Schismatoglottis acutifolia",
+     "Schismatoglottis bifasciata",
+     "Schismatoglottis canaliculata",
+     "Schismatoglottis djamuensis",
+     "Schismatoglottis emarginata",
+     "Schismatoglottis eximia",
+     "Schismatoglottis glauca",
+     "Schismatoglottis grabowskii",
+     "Schismatoglottis harmandii",
+     "Schismatoglottis hellwigiana",
+     "Schismatoglottis irrorata",
+     "Schismatoglottis luzonensis",
+     "Schismatoglottis merrillii",
+     "Schismatoglottis mindanaoana",
+     "Schismatoglottis motleyana",
+     "Schismatoglottis nieuwenhuisii",
+     "Schismatoglottis penangensis",
+     "Schismatoglottis pumila",
+     "Schismatoglottis tenuifolia",
+     "Schismatoglottis trifasciata",
+     "Schismatoglottis winkleri"
+    ],
+    "2021": [
+     "Schismatoglottis adducta",
+     "Schismatoglottis caesia",
+     "Schismatoglottis giamensis",
+     "Schismatoglottis laxipistillata",
+     "Schismatoglottis pantiensis",
+     "Schismatoglottis roh"
+    ],
+    "2000": [
+     "Schismatoglottis ahmadii",
+     "Schismatoglottis bogneri",
+     "Schismatoglottis clarae",
+     "Schismatoglottis clemensiorum",
+     "Schismatoglottis decipiens",
+     "Schismatoglottis ecaudata",
+     "Schismatoglottis edanoi",
+     "Schismatoglottis eymae",
+     "Schismatoglottis lingua",
+     "Schismatoglottis moodii",
+     "Schismatoglottis niahensis",
+     "Schismatoglottis samarensis",
+     "Schismatoglottis silamensis",
+     "Schismatoglottis trusmadiensis",
+     "Schismatoglottis unifolia",
+     "Schismatoglottis venusta",
+     "Schismatoglottis viridissima",
+     "Schismatoglottis wongii"
+    ],
+    "1922": [
+     "Schismatoglottis angustifolia",
+     "Schismatoglottis diversicolor",
+     "Schismatoglottis engleriana",
+     "Schismatoglottis parvifolia",
+     "Schismatoglottis plurivenia",
+     "Schismatoglottis potamophila",
+     "Schismatoglottis pseudocalyptrata",
+     "Schismatoglottis ruttenii",
+     "Schismatoglottis sublaxiflora",
+     "Schismatoglottis vanvuurenii",
+     "Schismatoglottis wahaiana"
+    ],
+    "2003": [
+     "Schismatoglottis ardenii"
+    ],
+    "2022": [
+     "Schismatoglottis auyongii"
+    ],
+    "2016": [
+     "Schismatoglottis baangongensis"
+    ],
+    "1905": [
+     "Schismatoglottis bitaeniata"
+    ],
+    "2018": [
+     "Schismatoglottis cadierei"
+    ],
+    "1846": [
+     "Schismatoglottis calyptrata"
+    ],
+    "2019": [
+     "Schismatoglottis clivemarshii",
+     "Schismatoglottis priapica",
+     "Schismatoglottis roseopedes",
+     "Schismatoglottis serratodentata"
+    ],
+    "1966": [
+     "Schismatoglottis colocasioidea",
+     "Schismatoglottis muluensis"
+    ],
+    "1879": [
+     "Schismatoglottis conoidea"
+    ],
+    "1997": [
+     "Schismatoglottis convolvula"
+    ],
+    "1911": [
+     "Schismatoglottis cordifolia"
+    ],
+    "2020": [
+     "Schismatoglottis guabatuensis"
+    ],
+    "1977": [
+     "Schismatoglottis hainanensis"
+    ],
+    "2012": [
+     "Schismatoglottis heterodoxa",
+     "Schismatoglottis ranchanensis"
+    ],
+    "2011": [
+     "Schismatoglottis ifugaoensis"
+    ],
+    "1916": [
+     "Schismatoglottis klossii"
+    ],
+    "1856": [
+     "Schismatoglottis longipes"
+    ],
+    "1881": [
+     "Schismatoglottis longispatha"
+    ],
+    "2017": [
+     "Schismatoglottis lowiae",
+     "Schismatoglottis saafiei"
+    ],
+    "2023": [
+     "Schismatoglottis minuta"
+    ],
+    "1863": [
+     "Schismatoglottis modesta"
+    ],
+    "1885": [
+     "Schismatoglottis neoguineensis"
+    ],
+    "1858": [
+     "Schismatoglottis picta"
+    ],
+    "2015": [
+     "Schismatoglottis prietoi"
+    ],
+    "1884": [
+     "Schismatoglottis pulchra"
+    ],
+    "1880": [
+     "Schismatoglottis pusilla"
+    ],
+    "1864": [
+     "Schismatoglottis riparia"
+    ],
+    "1979": [
+     "Schismatoglottis schottii"
+    ],
+    "2013": [
+     "Schismatoglottis scintillans"
+    ],
+    "1969": [
+     "Schismatoglottis subundulata"
+    ],
+    "1896": [
+     "Schismatoglottis trivittata",
+     "Schismatoglottis zonata"
+    ],
+    "1893": [
+     "Schismatoglottis wallichii"
+    ],
+    "1898": [
+     "Schismatoglottis warburgiana"
+    ]
+   }
+  },
+  "schottariella": {
+   "name": "Schottariella",
+   "years": {
+    "2009": [
+     "Schottariella mirifica"
+    ]
+   }
+  },
+  "schottarum": {
+   "name": "Schottarum",
+   "years": {
+    "2022": [
+     "Schottarum inconspicuum"
+    ],
+    "2013": [
+     "Schottarum josefii"
+    ],
+    "2008": [
+     "Schottarum sarikeense"
+    ]
+   }
+  },
+  "scindapsus": {
+   "name": "Scindapsus",
+   "years": {
+    "1922": [
+     "Scindapsus alpinus",
+     "Scindapsus altissimus",
+     "Scindapsus roseus",
+     "Scindapsus splendidus",
+     "Scindapsus suffruticosus"
+    ],
+    "1880": [
+     "Scindapsus beccarii",
+     "Scindapsus crassipes"
+    ],
+    "1937": [
+     "Scindapsus carolinensis"
+    ],
+    "1879": [
+     "Scindapsus coriaceus",
+     "Scindapsus geniculatus",
+     "Scindapsus longipes"
+    ],
+    "1908": [
+     "Scindapsus curranii",
+     "Scindapsus salomoniensis",
+     "Scindapsus subcordatus"
+    ],
+    "1851": [
+     "Scindapsus cuscuaria"
+    ],
+    "1916": [
+     "Scindapsus cuscuarioides"
+    ],
+    "1905": [
+     "Scindapsus falcifolius",
+     "Scindapsus rupestris"
+    ],
+    "1920": [
+     "Scindapsus glaucescens",
+     "Scindapsus javanicus",
+     "Scindapsus mamillifer"
+    ],
+    "1898": [
+     "Scindapsus grandifolius",
+     "Scindapsus treubii"
+    ],
+    "1856": [
+     "Scindapsus hederaceus",
+     "Scindapsus marantifolius"
+    ],
+    "2015": [
+     "Scindapsus kinabaluensis"
+    ],
+    "1966": [
+     "Scindapsus latifolius"
+    ],
+    "1926": [
+     "Scindapsus longistipitatus"
+    ],
+    "1994": [
+     "Scindapsus lucens"
+    ],
+    "1945": [
+     "Scindapsus maclurei"
+    ],
+    "1832": [
+     "Scindapsus officinalis"
+    ],
+    "1893": [
+     "Scindapsus perakensis",
+     "Scindapsus scortechinii"
+    ],
+    "1842": [
+     "Scindapsus pictus"
+    ],
+    "1912": [
+     "Scindapsus schlechteri"
+    ]
+   }
+  },
+  "spathantheum": {
+   "name": "Spathantheum",
+   "years": {
+    "1859": [
+     "Spathantheum orbignyanum"
+    ]
+   }
+  },
+  "spathicarpa": {
+   "name": "Spathicarpa",
+   "years": {
+    "1858": [
+     "Spathicarpa gardneri"
+    ],
+    "1831": [
+     "Spathicarpa hastifolia"
+    ],
+    "1879": [
+     "Spathicarpa lanceolata"
+    ]
+   }
+  },
+  "spathiphyllum": {
+   "name": "Spathiphyllum",
+   "years": {
+    "2011": [
+     "Spathiphyllum abelianum",
+     "Spathiphyllum pygmaeum"
+    ],
+    "2024": [
+     "Spathiphyllum almirantense",
+     "Spathiphyllum ayalae",
+     "Spathiphyllum bobdressleri",
+     "Spathiphyllum bonyicense",
+     "Spathiphyllum cardonanum",
+     "Spathiphyllum clewellii",
+     "Spathiphyllum cotonense",
+     "Spathiphyllum darienense",
+     "Spathiphyllum guadalupense",
+     "Spathiphyllum hannonii",
+     "Spathiphyllum hentrichianum",
+     "Spathiphyllum hubertkrusei",
+     "Spathiphyllum kennedyae",
+     "Spathiphyllum luteynii",
+     "Spathiphyllum morii",
+     "Spathiphyllum munniae",
+     "Spathiphyllum ortizii"
+    ],
+    "1858": [
+     "Spathiphyllum atrovirens",
+     "Spathiphyllum fulvovirens",
+     "Spathiphyllum wendlandii"
+    ],
+    "2005": [
+     "Spathiphyllum barbourii",
+     "Spathiphyllum brent-berlinii",
+     "Spathiphyllum buntingianum",
+     "Spathiphyllum diazii"
+    ],
+    "1988": [
+     "Spathiphyllum bariense",
+     "Spathiphyllum mawarinumae"
+    ],
+    "1857": [
+     "Spathiphyllum blandum",
+     "Spathiphyllum commutatum",
+     "Spathiphyllum cuspidatum",
+     "Spathiphyllum phryniifolium",
+     "Spathiphyllum schomburgkii"
+    ],
+    "1853": [
+     "Spathiphyllum brevirostre",
+     "Spathiphyllum cannifolium",
+     "Spathiphyllum friedrichsthalii",
+     "Spathiphyllum gardneri",
+     "Spathiphyllum humboldtii"
+    ],
+    "1879": [
+     "Spathiphyllum cochlearispathum"
+    ],
+    "2021": [
+     "Spathiphyllum croatii",
+     "Spathiphyllum davidneillii"
+    ],
+    "2004": [
+     "Spathiphyllum dressleri"
+    ],
+    "1878": [
+     "Spathiphyllum floribundum",
+     "Spathiphyllum patinii"
+    ],
+    "2023": [
+     "Spathiphyllum frailescanense",
+     "Spathiphyllum mixtecorum"
+    ],
+    "2019": [
+     "Spathiphyllum globulispadix"
+    ],
+    "1960": [
+     "Spathiphyllum gracile",
+     "Spathiphyllum jejunum",
+     "Spathiphyllum kalbreyeri",
+     "Spathiphyllum maguirei",
+     "Spathiphyllum matudae",
+     "Spathiphyllum minus",
+     "Spathiphyllum monachinoi",
+     "Spathiphyllum neblinae",
+     "Spathiphyllum patulinervum"
+    ],
+    "1905": [
+     "Spathiphyllum grandifolium",
+     "Spathiphyllum laeve",
+     "Spathiphyllum quindiuense",
+     "Spathiphyllum tenerum"
+    ],
+    "1968": [
+     "Spathiphyllum grazielae",
+     "Spathiphyllum schlechteri"
+    ],
+    "2020": [
+     "Spathiphyllum ivanportillae"
+    ],
+    "1932": [
+     "Spathiphyllum juninense"
+    ],
+    "1832": [
+     "Spathiphyllum lanceifolium"
+    ],
+    "1860": [
+     "Spathiphyllum lechlerianum"
+    ],
+    "2022": [
+     "Spathiphyllum maldonadoanum",
+     "Spathiphyllum wilfridoanum"
+    ],
+    "1997": [
+     "Spathiphyllum montanum"
+    ],
+    "1870": [
+     "Spathiphyllum ortgiesii"
+    ],
+    "1975": [
+     "Spathiphyllum perezii"
+    ],
+    "1976": [
+     "Spathiphyllum silvicola",
+     "Spathiphyllum uspanapaense"
+    ],
+    "1967": [
+     "Spathiphyllum solomonense"
+    ],
+    "1877": [
+     "Spathiphyllum wallisii"
+    ],
+    "1940": [
+     "Spathiphyllum zetekianum"
+    ]
+   }
+  },
+  "spirodela": {
+   "name": "Spirodela",
+   "years": {
+    "1868": [
+     "Spirodela oligorrhiza"
+    ],
+    "1839": [
+     "Spirodela polyrhiza"
+    ],
+    "1898": [
+     "Spirodela punctata"
+    ],
+    "1983": [
+     "Spirodela sichuanensis"
+    ]
+   }
+  },
+  "stenospermation": {
+   "name": "Stenospermation",
+   "years": {
+    "1908": [
+     "Stenospermation adsimile",
+     "Stenospermation brachypodum",
+     "Stenospermation gracile",
+     "Stenospermation hilligii",
+     "Stenospermation interruptum",
+     "Stenospermation peripense",
+     "Stenospermation subellipticum"
+    ],
+    "2023": [
+     "Stenospermation albifolium",
+     "Stenospermation melidae",
+     "Stenospermation selvaflorense"
+    ],
+    "1963": [
+     "Stenospermation ammiticum"
+    ],
+    "1860": [
+     "Stenospermation amomifolium"
+    ],
+    "2005": [
+     "Stenospermation ancuashii",
+     "Stenospermation dictyoneurum",
+     "Stenospermation parvum"
+    ],
+    "1905": [
+     "Stenospermation andreanum",
+     "Stenospermation angosturense",
+     "Stenospermation crassifolium",
+     "Stenospermation densiovulatum",
+     "Stenospermation flavescens",
+     "Stenospermation latifolium",
+     "Stenospermation longifolium",
+     "Stenospermation longipetiolatum",
+     "Stenospermation robustum",
+     "Stenospermation sessile",
+     "Stenospermation weberbaueri"
+    ],
+    "1885": [
+     "Stenospermation angustifolium",
+     "Stenospermation marantifolium"
+    ],
+    "1977": [
+     "Stenospermation arborescens",
+     "Stenospermation zeacarpium"
+    ],
+    "1932": [
+     "Stenospermation archeri"
+    ],
+    "2010": [
+     "Stenospermation benavidesae",
+     "Stenospermation gentryi",
+     "Stenospermation laevis",
+     "Stenospermation longispadix",
+     "Stenospermation olgae"
+    ],
+    "2021": [
+     "Stenospermation condorense",
+     "Stenospermation longistamineum"
+    ],
+    "2022": [
+     "Stenospermation coques"
+    ],
+    "2007": [
+     "Stenospermation ellipticum",
+     "Stenospermation escobariae",
+     "Stenospermation flavum",
+     "Stenospermation glaucophyllum",
+     "Stenospermation monsalvae",
+     "Stenospermation velutinum"
+    ],
+    "1953": [
+     "Stenospermation maguirei"
+    ],
+    "1997": [
+     "Stenospermation majus",
+     "Stenospermation pteropus"
+    ],
+    "1858": [
+     "Stenospermation mathewsii",
+     "Stenospermation spruceanum"
+    ],
+    "1894": [
+     "Stenospermation multiovulatum"
+    ],
+    "1988": [
+     "Stenospermation nebulense"
+    ],
+    "1951": [
+     "Stenospermation pittieri"
+    ],
+    "1859": [
+     "Stenospermation popayanense"
+    ],
+    "1907": [
+     "Stenospermation rusbyi"
+    ],
+    "1975": [
+     "Stenospermation steyermarkii"
+    ],
+    "1914": [
+     "Stenospermation ulei"
+    ],
+    "1875": [
+     "Stenospermation wallisii"
+    ]
+   }
+  },
+  "steudnera": {
+   "name": "Steudnera",
+   "years": {
+    "1893": [
+     "Steudnera assamica",
+     "Steudnera capitellata",
+     "Steudnera colocasioides",
+     "Steudnera griffithii"
+    ],
+    "1862": [
+     "Steudnera colocasiifolia"
+    ],
+    "1874": [
+     "Steudnera discolor"
+    ],
+    "1920": [
+     "Steudnera gagei",
+     "Steudnera henryana"
+    ],
+    "2018": [
+     "Steudnera hoanglienica"
+    ],
+    "1941": [
+     "Steudnera kerrii"
+    ],
+    "1903": [
+     "Steudnera virosa"
+    ]
+   }
+  },
+  "stylochiton": {
+   "name": "Stylochiton",
+   "years": {
+    "1892": [
+     "Stylochiton angolensis"
+    ],
+    "1985": [
+     "Stylochiton bogneri",
+     "Stylochiton milneanus"
+    ],
+    "1901": [
+     "Stylochiton borumensis",
+     "Stylochiton grandis",
+     "Stylochiton puberulus",
+     "Stylochiton salaamicus"
+    ],
+    "1984": [
+     "Stylochiton crassispathus"
+    ],
+    "1930": [
+     "Stylochiton cuculliferus"
+    ],
+    "1936": [
+     "Stylochiton euryphyllus"
+    ],
+    "2023": [
+     "Stylochiton glaucophyllus",
+     "Stylochiton sekhukhuniensis"
+    ],
+    "1834": [
+     "Stylochiton hypogeus"
+    ],
+    "1994": [
+     "Stylochiton kornasii",
+     "Stylochiton shabaensis"
+    ],
+    "1867": [
+     "Stylochiton lancifolius"
+    ],
+    "2011": [
+     "Stylochiton malaissei",
+     "Stylochiton pilosus"
+    ],
+    "1853": [
+     "Stylochiton natalensis"
+    ],
+    "1990": [
+     "Stylochiton oligocarpus"
+    ],
+    "2012": [
+     "Stylochiton tortispathus"
+    ],
+    "1899": [
+     "Stylochiton zenkeri"
+    ]
+   }
+  },
+  "symplocarpus": {
+   "name": "Symplocarpus",
+   "years": {
+    "2005": [
+     "Symplocarpus egorovii"
+    ],
+    "1817": [
+     "Symplocarpus foetidus"
+    ],
+    "2021": [
+     "Symplocarpus koreanus"
+    ],
+    "2002": [
+     "Symplocarpus nabekuraensis"
+    ],
+    "1928": [
+     "Symplocarpus nipponicus"
+    ],
+    "1991": [
+     "Symplocarpus renifolius"
+    ]
+   }
+  },
+  "synandrospadix": {
+   "name": "Synandrospadix",
+   "years": {
+    "1883": [
+     "Synandrospadix vermitoxicus"
+    ]
+   }
+  },
+  "syngonium": {
+   "name": "Syngonium",
+   "years": {
+    "2019": [
+     "Syngonium adsettiorum",
+     "Syngonium bastimentoense",
+     "Syngonium brewsterense",
+     "Syngonium churchillii",
+     "Syngonium litense",
+     "Syngonium purpureospathum",
+     "Syngonium tacotalpense"
+    ],
+    "1858": [
+     "Syngonium angustatum",
+     "Syngonium hoffmannii",
+     "Syngonium salvadorense",
+     "Syngonium wendlandii"
+    ],
+    "1982": [
+     "Syngonium armigerum",
+     "Syngonium chocoanum",
+     "Syngonium crassifolium",
+     "Syngonium dodsonianum",
+     "Syngonium foreroanum",
+     "Syngonium gentryanum",
+     "Syngonium glaucopetiolatum",
+     "Syngonium hastiferum",
+     "Syngonium laterinervium",
+     "Syngonium llanoense",
+     "Syngonium sparreorum",
+     "Syngonium steyermarkii",
+     "Syngonium triphyllum"
+    ],
+    "1829": [
+     "Syngonium auritum"
+    ],
+    "1997": [
+     "Syngonium castroi",
+     "Syngonium rayi"
+    ],
+    "1950": [
+     "Syngonium chiapense"
+    ],
+    "1966": [
+     "Syngonium erythrophyllum",
+     "Syngonium mauroanum",
+     "Syngonium standleyanum"
+    ],
+    "1905": [
+     "Syngonium hastifolium",
+     "Syngonium yurimaguense"
+    ],
+    "1920": [
+     "Syngonium macrophyllum"
+    ],
+    "1975": [
+     "Syngonium meridense"
+    ],
+    "1859": [
+     "Syngonium neglectum"
+    ],
+    "1980": [
+     "Syngonium oduberi"
+    ],
+    "1860": [
+     "Syngonium peliocladum",
+     "Syngonium schottianum"
+    ],
+    "1851": [
+     "Syngonium podophyllum"
+    ],
+    "1965": [
+     "Syngonium sagittatum"
+    ]
+   }
+  },
+  "taccarum": {
+   "name": "Taccarum",
+   "years": {
+    "1927": [
+     "Taccarum caudatum"
+    ],
+    "2003": [
+     "Taccarum crassispathum"
+    ],
+    "1879": [
+     "Taccarum peregrinum"
+    ],
+    "1914": [
+     "Taccarum ulei"
+    ],
+    "1880": [
+     "Taccarum warmingii"
+    ],
+    "1858": [
+     "Taccarum weddellianum"
+    ]
+   }
+  },
+  "tawaia": {
+   "name": "Tawaia",
+   "years": {
+    "2018": [
+     "Tawaia sabahensis"
+    ]
+   }
+  },
+  "theriophonum": {
+   "name": "Theriophonum",
+   "years": {
+    "2022": [
+     "Theriophonum blumei"
+    ],
+    "1853": [
+     "Theriophonum dalzellii"
+    ],
+    "1981": [
+     "Theriophonum fischeri"
+    ],
+    "1880": [
+     "Theriophonum infaustum"
+    ],
+    "1895": [
+     "Theriophonum minutum"
+    ],
+    "1969": [
+     "Theriophonum sivaganganum"
+    ]
+   }
+  },
+  "toga": {
+   "name": "Toga",
+   "years": {
+    "2018": [
+     "Toga alatensis",
+     "Toga hippocrepis",
+     "Toga perplexa",
+     "Toga rostrata",
+     "Toga surukensis",
+     "Toga unca"
+    ]
+   }
+  },
+  "tweeddalea": {
+   "name": "Tweeddalea",
+   "years": {
+    "2024": [
+     "Tweeddalea bauensis",
+     "Tweeddalea bulbifera",
+     "Tweeddalea confinis",
+     "Tweeddalea dulosa",
+     "Tweeddalea erecta",
+     "Tweeddalea hayana",
+     "Tweeddalea iliata",
+     "Tweeddalea jitinae",
+     "Tweeddalea maelii",
+     "Tweeddalea mayoana",
+     "Tweeddalea monoplacenta",
+     "Tweeddalea multiflora",
+     "Tweeddalea nicolsonii",
+     "Tweeddalea roseospatha"
+    ]
+   }
+  },
+  "typhonium": {
+   "name": "Typhonium",
+   "years": {
+    "1942": [
+     "Typhonium acetosella",
+     "Typhonium laoticum",
+     "Typhonium sagittariifolium",
+     "Typhonium violifolium"
+    ],
+    "2001": [
+     "Typhonium adnatum",
+     "Typhonium bachmaense",
+     "Typhonium bognerianum",
+     "Typhonium digitatum",
+     "Typhonium echinulatum",
+     "Typhonium gagnepainii",
+     "Typhonium gallowayi",
+     "Typhonium glaucum",
+     "Typhonium griseum",
+     "Typhonium lineare",
+     "Typhonium medusae",
+     "Typhonium orbifolium",
+     "Typhonium pedunculatum",
+     "Typhonium penicillatum",
+     "Typhonium pusillum",
+     "Typhonium reflexum",
+     "Typhonium saraburiense",
+     "Typhonium subglobosum",
+     "Typhonium varians"
+    ],
+    "1977": [
+     "Typhonium albidinervium",
+     "Typhonium trifoliatum"
+    ],
+    "1987": [
+     "Typhonium albispathum"
+    ],
+    "2015": [
+     "Typhonium attapeuense",
+     "Typhonium khonkaenense"
+    ],
+    "2021": [
+     "Typhonium aungmyintwinii",
+     "Typhonium edule",
+     "Typhonium phuocbinhense",
+     "Typhonium vietnamense"
+    ],
+    "2007": [
+     "Typhonium baoshanense"
+    ],
+    "2024": [
+     "Typhonium bicolor",
+     "Typhonium culaochamense",
+     "Typhonium fornicatum",
+     "Typhonium karsticola",
+     "Typhonium obtusum",
+     "Typhonium pallescens",
+     "Typhonium parvum",
+     "Typhonium vinicolor"
+    ],
+    "1981": [
+     "Typhonium blumei"
+    ],
+    "1852": [
+     "Typhonium bulbiferum"
+    ],
+    "2000": [
+     "Typhonium circinnatum"
+    ],
+    "2006": [
+     "Typhonium conchiforme",
+     "Typhonium sinhabaedyae",
+     "Typhonium tubispathum"
+    ],
+    "1968": [
+     "Typhonium cordifolium"
+    ],
+    "2013": [
+     "Typhonium corrugatum",
+     "Typhonium ramosum"
+    ],
+    "2017": [
+     "Typhonium dongnaiense",
+     "Typhonium muaklekense",
+     "Typhonium thatsonense"
+    ],
+    "2018": [
+     "Typhonium elatum"
+    ],
+    "1904": [
+     "Typhonium filiforme",
+     "Typhonium fultum",
+     "Typhonium pedatisectum"
+    ],
+    "1837": [
+     "Typhonium flagelliforme"
+    ],
+    "1853": [
+     "Typhonium gracile",
+     "Typhonium roxburghii"
+    ],
+    "2023": [
+     "Typhonium hangiae",
+     "Typhonium praelongum"
+    ],
+    "1994": [
+     "Typhonium hayatae"
+    ],
+    "1998": [
+     "Typhonium huense"
+    ],
+    "1983": [
+     "Typhonium hunanense"
+    ],
+    "1898": [
+     "Typhonium inopinatum",
+     "Typhonium pottingeri"
+    ],
+    "2002": [
+     "Typhonium jinpingense",
+     "Typhonium watanabei"
+    ],
+    "2022": [
+     "Typhonium kbangense"
+    ],
+    "2010": [
+     "Typhonium praecox",
+     "Typhonium vermiforme"
+    ],
+    "2012": [
+     "Typhonium rhizomatosum",
+     "Typhonium supraneeae",
+     "Typhonium viridispathum"
+    ],
+    "2020": [
+     "Typhonium sagaingense"
+    ],
+    "1997": [
+     "Typhonium smitinandii"
+    ],
+    "2009": [
+     "Typhonium stigmatilobatum"
+    ],
+    "1829": [
+     "Typhonium trilobatum"
+    ]
+   }
+  },
+  "typhonodorum": {
+   "name": "Typhonodorum",
+   "years": {
+    "1857": [
+     "Typhonodorum lindleyanum"
+    ]
+   }
+  },
+  "ulearum": {
+   "name": "Ulearum",
+   "years": {
+    "2003": [
+     "Ulearum donburnsii"
+    ],
+    "1905": [
+     "Ulearum sagittatum"
+    ]
+   }
+  },
+  "urospatha": {
+   "name": "Urospatha",
+   "years": {
+    "1878": [
+     "Urospatha angustiloba"
+    ],
+    "1959": [
+     "Urospatha antisylleptica"
+    ],
+    "2021": [
+     "Urospatha bogneri"
+    ],
+    "2020": [
+     "Urospatha caribaea"
+    ],
+    "1853": [
+     "Urospatha caudata",
+     "Urospatha meyeri",
+     "Urospatha sagittifolia"
+    ],
+    "1905": [
+     "Urospatha edwallii",
+     "Urospatha loefgreniana"
+    ],
+    "1857": [
+     "Urospatha grandis",
+     "Urospatha riedeliana"
+    ],
+    "1958": [
+     "Urospatha somnolenta"
+    ],
+    "1988": [
+     "Urospatha wurdackii"
+    ]
+   }
+  },
+  "vesta": {
+   "name": "Vesta",
+   "years": {
+    "2018": [
+     "Vesta longifolia"
+    ]
+   }
+  },
+  "vietnamocasia": {
+   "name": "Vietnamocasia",
+   "years": {
+    "2017": [
+     "Vietnamocasia dauae"
+    ]
+   }
+  },
+  "vivaria": {
+   "name": "Vivaria",
+   "years": {
+    "2022": [
+     "Vivaria calvasensis"
+    ]
+   }
+  },
+  "wolffia": {
+   "name": "Wolffia",
+   "years": {
+    "1980": [
+     "Wolffia angusta",
+     "Wolffia elongata"
+    ],
+    "1857": [
+     "Wolffia arrhiza"
+    ],
+    "1972": [
+     "Wolffia australiana"
+    ],
+    "1986": [
+     "Wolffia borealis"
+    ],
+    "1849": [
+     "Wolffia brasiliensis"
+    ],
+    "1865": [
+     "Wolffia columbiana"
+    ],
+    "1868": [
+     "Wolffia cylindracea"
+    ],
+    "1970": [
+     "Wolffia globosa"
+    ],
+    "1866": [
+     "Wolffia microscopica"
+    ],
+    "1994": [
+     "Wolffia neglecta"
+    ]
+   }
+  },
+  "wolffiella": {
+   "name": "Wolffiella",
+   "years": {
+    "1992": [
+     "Wolffiella caudata"
+    ],
+    "1895": [
+     "Wolffiella denticulata",
+     "Wolffiella gladiata",
+     "Wolffiella lingulata",
+     "Wolffiella oblonga"
+    ],
+    "1949": [
+     "Wolffiella hyalina",
+     "Wolffiella repanda",
+     "Wolffiella welwitschii"
+    ],
+    "1980": [
+     "Wolffiella neotropica",
+     "Wolffiella rotunda"
+    ]
+   }
+  },
+  "xanthosoma": {
+   "name": "Xanthosoma",
+   "years": {
+    "2017": [
+     "Xanthosoma acevedoi",
+     "Xanthosoma acutilobum",
+     "Xanthosoma alpayacuense",
+     "Xanthosoma amacayacuense",
+     "Xanthosoma anderssonii",
+     "Xanthosoma asplundii",
+     "Xanthosoma australe",
+     "Xanthosoma bakhuisense",
+     "Xanthosoma barbacoasense",
+     "Xanthosoma barbourii",
+     "Xanthosoma barinasense",
+     "Xanthosoma berlinii",
+     "Xanthosoma betancurii",
+     "Xanthosoma buntingianum",
+     "Xanthosoma calcaense",
+     "Xanthosoma callejasii",
+     "Xanthosoma camposii",
+     "Xanthosoma caquetense",
+     "Xanthosoma caucavallense",
+     "Xanthosoma ceronii",
+     "Xanthosoma cerrosapense",
+     "Xanthosoma chaparense",
+     "Xanthosoma cinchonaense",
+     "Xanthosoma corentynense",
+     "Xanthosoma crassilaminum",
+     "Xanthosoma crassinervium",
+     "Xanthosoma cremersii",
+     "Xanthosoma cundinamarcense",
+     "Xanthosoma danielsii",
+     "Xanthosoma daulense",
+     "Xanthosoma davidsmithii",
+     "Xanthosoma davidsonii",
+     "Xanthosoma debelliae",
+     "Xanthosoma delannayi",
+     "Xanthosoma diazii",
+     "Xanthosoma dodsonii",
+     "Xanthosoma epipetricum",
+     "Xanthosoma fonnegrae",
+     "Xanthosoma foreroi",
+     "Xanthosoma fuentesii",
+     "Xanthosoma galianoi",
+     "Xanthosoma gillespieae",
+     "Xanthosoma giraldoi",
+     "Xanthosoma gonzalezii",
+     "Xanthosoma grayumii",
+     "Xanthosoma guaramacalense",
+     "Xanthosoma hammelii",
+     "Xanthosoma hannoniae",
+     "Xanthosoma harlingianum",
+     "Xanthosoma huilense",
+     "Xanthosoma jaramilloi",
+     "Xanthosoma jatunsachense",
+     "Xanthosoma jorgeramosii",
+     "Xanthosoma killipii",
+     "Xanthosoma knappiae",
+     "Xanthosoma kressii",
+     "Xanthosoma kvistii",
+     "Xanthosoma lagunaense",
+     "Xanthosoma laselvaense",
+     "Xanthosoma liesneri",
+     "Xanthosoma linganii",
+     "Xanthosoma lojaense",
+     "Xanthosoma lojtnantii",
+     "Xanthosoma longepedunculum",
+     "Xanthosoma luteynii",
+     "Xanthosoma macarenense",
+     "Xanthosoma mansellii",
+     "Xanthosoma mariquitense",
+     "Xanthosoma mashpiense",
+     "Xanthosoma monteagudoi",
+     "Xanthosoma muluwataya",
+     "Xanthosoma munchiquense",
+     "Xanthosoma mutataense",
+     "Xanthosoma nambiense",
+     "Xanthosoma nangaritzense",
+     "Xanthosoma nestorpazii",
+     "Xanthosoma nowickii",
+     "Xanthosoma nunezii",
+     "Xanthosoma ollgaardii",
+     "Xanthosoma ortizii",
+     "Xanthosoma oyuelae",
+     "Xanthosoma pailaense",
+     "Xanthosoma palaciosii",
+     "Xanthosoma palenquense",
+     "Xanthosoma panguiense",
+     "Xanthosoma paruimaense",
+     "Xanthosoma pennellii",
+     "Xanthosoma petaquillense",
+     "Xanthosoma petersiae",
+     "Xanthosoma piquambiense",
+     "Xanthosoma pulcachense",
+     "Xanthosoma purpureomaculatum",
+     "Xanthosoma reinae",
+     "Xanthosoma renteriae",
+     "Xanthosoma reticulatum",
+     "Xanthosoma rupununiense",
+     "Xanthosoma sandiaense",
+     "Xanthosoma sanintiae",
+     "Xanthosoma scherberichii",
+     "Xanthosoma schunkei",
+     "Xanthosoma silverstonei",
+     "Xanthosoma sinnamaryense",
+     "Xanthosoma sizemoreae",
+     "Xanthosoma stergiosii",
+     "Xanthosoma tachiraense",
+     "Xanthosoma thompsoniae",
+     "Xanthosoma trinitense",
+     "Xanthosoma tuberculatum",
+     "Xanthosoma tuberquiae",
+     "Xanthosoma ucumariense",
+     "Xanthosoma vargasii",
+     "Xanthosoma villaricense",
+     "Xanthosoma wurdackii",
+     "Xanthosoma yarumalense",
+     "Xanthosoma zamoraense"
+    ],
+    "2003": [
+     "Xanthosoma acutum",
+     "Xanthosoma lucens",
+     "Xanthosoma pulchrum"
+    ],
+    "1986": [
+     "Xanthosoma akkermansii",
+     "Xanthosoma bolivaranum",
+     "Xanthosoma caladioides",
+     "Xanthosoma maroae",
+     "Xanthosoma plowmanii"
+    ],
+    "1981": [
+     "Xanthosoma aristeguietae",
+     "Xanthosoma fractum",
+     "Xanthosoma stenospathum",
+     "Xanthosoma striatipes",
+     "Xanthosoma viviparum"
+    ],
+    "1869": [
+     "Xanthosoma auriculatum"
+    ],
+    "2005": [
+     "Xanthosoma baguense",
+     "Xanthosoma latestigmatum",
+     "Xanthosoma mariae",
+     "Xanthosoma paradoxum",
+     "Xanthosoma puberulum",
+     "Xanthosoma seideliae"
+    ],
+    "1975": [
+     "Xanthosoma bayo",
+     "Xanthosoma caulotuberculatum",
+     "Xanthosoma longilobum",
+     "Xanthosoma nitidum",
+     "Xanthosoma orinocense",
+     "Xanthosoma pariense",
+     "Xanthosoma peltatum",
+     "Xanthosoma saguasense",
+     "Xanthosoma trilobum"
+    ],
+    "1841": [
+     "Xanthosoma belophyllum"
+    ],
+    "1920": [
+     "Xanthosoma bilineatum",
+     "Xanthosoma brasiliense",
+     "Xanthosoma eggersii",
+     "Xanthosoma ulei"
+    ],
+    "1862": [
+     "Xanthosoma blandum",
+     "Xanthosoma maximiliani"
+    ],
+    "1905": [
+     "Xanthosoma brevispathaceum",
+     "Xanthosoma daguense",
+     "Xanthosoma flavomaculatum",
+     "Xanthosoma tarapotense",
+     "Xanthosoma yucatanense"
+    ],
+    "2024": [
+     "Xanthosoma camiloi"
+    ],
+    "1855": [
+     "Xanthosoma caracu"
+    ],
+    "1856": [
+     "Xanthosoma conspurcatum",
+     "Xanthosoma striolatum",
+     "Xanthosoma undipes"
+    ],
+    "1988": [
+     "Xanthosoma contractum",
+     "Xanthosoma exiguum",
+     "Xanthosoma mafaffoides"
+    ],
+    "1906": [
+     "Xanthosoma cordatum"
+    ],
+    "1912": [
+     "Xanthosoma cordifolium"
+    ],
+    "1865": [
+     "Xanthosoma cubense",
+     "Xanthosoma helleborifolium",
+     "Xanthosoma riedelianum"
+    ],
+    "1997": [
+     "Xanthosoma dealbatum"
+    ],
+    "1995": [
+     "Xanthosoma granvillei"
+    ],
+    "2022": [
+     "Xanthosoma gratiae"
+    ],
+    "2019": [
+     "Xanthosoma guayaquilense",
+     "Xanthosoma perssonii"
+    ],
+    "2007": [
+     "Xanthosoma guttatum",
+     "Xanthosoma hebetatum",
+     "Xanthosoma narinoense"
+    ],
+    "2010": [
+     "Xanthosoma herrerae"
+    ],
+    "1914": [
+     "Xanthosoma hylaeae"
+    ],
+    "2021": [
+     "Xanthosoma isabellanum"
+    ],
+    "1957": [
+     "Xanthosoma mendozae"
+    ],
+    "1849": [
+     "Xanthosoma mexicanum"
+    ],
+    "2014": [
+     "Xanthosoma nodosum"
+    ],
+    "2013": [
+     "Xanthosoma pedatisectum",
+     "Xanthosoma rubrispathum"
+    ],
+    "1878": [
+     "Xanthosoma pentaphyllum",
+     "Xanthosoma platylobum"
+    ],
+    "2012": [
+     "Xanthosoma poecile"
+    ],
+    "1854": [
+     "Xanthosoma poeppigii"
+    ],
+    "1999": [
+     "Xanthosoma pottii"
+    ],
+    "1845": [
+     "Xanthosoma pubescens"
+    ],
+    "2000": [
+     "Xanthosoma riparium"
+    ],
+    "1853": [
+     "Xanthosoma robustum"
+    ],
+    "1832": [
+     "Xanthosoma sagittifolium"
+    ],
+    "1927": [
+     "Xanthosoma syngoniifolium"
+    ],
+    "2011": [
+     "Xanthosoma taioba"
+    ],
+    "1932": [
+     "Xanthosoma trichophyllum"
+    ],
+    "1978": [
+     "Xanthosoma weeksii"
+    ],
+    "1937": [
+     "Xanthosoma wendlandii"
+    ]
+   }
+  },
+  "zamioculcas": {
+   "name": "Zamioculcas",
+   "years": {
+    "1905": [
+     "Zamioculcas zamiifolia"
+    ]
+   }
+  },
+  "zantedeschia": {
+   "name": "Zantedeschia",
+   "years": {
+    "1826": [
+     "Zantedeschia aethiopica"
+    ],
+    "1880": [
+     "Zantedeschia albomaculata"
+    ],
+    "1915": [
+     "Zantedeschia elliottiana"
+    ],
+    "1961": [
+     "Zantedeschia jucunda"
+    ],
+    "1989": [
+     "Zantedeschia odorata"
+    ],
+    "1898": [
+     "Zantedeschia pentlandii"
+    ],
+    "1883": [
+     "Zantedeschia rehmannii"
+    ],
+    "1996": [
+     "Zantedeschia valida"
+    ]
+   }
+  },
+  "zomicarpa": {
+   "name": "Zomicarpa",
+   "years": {
+    "1856": [
+     "Zomicarpa pythonium"
+    ],
+    "1862": [
+     "Zomicarpa steigeriana"
+    ]
+   }
+  },
+  "zomicarpella": {
+   "name": "Zomicarpella",
+   "years": {
+    "1997": [
+     "Zomicarpella amazonica"
+    ],
+    "1881": [
+     "Zomicarpella maculata"
+    ]
+   }
+  }
+ }
+}
