@@ -1,4 +1,4 @@
-/* AROIDPEDIA footer bundle — built 2026-08-30 from FILE v198 by build-footer-bundle v1.
+/* AROIDPEDIA footer bundle — built 2026-08-31 from FILE v198 by build-footer-bundle v1.
    GENERATED FILE — never edit here; edit the master .txt in
    "WEBSITE/Squarespace CSS/" and rebuild. 16 styles, 40 scripts, 0 external. */
 (function(){
@@ -1159,7 +1159,7 @@ var GENERA = [
   /* v4: journal availability for the species panel — the published
      post list, never a crawl (house law) */
   var SEARCH_URL = "https://wainblatrobert.github.io/Aroidpedia/search-index.json";
-  var VERSION = "apgm-v33-file-v197";
+  var VERSION = "apgm-v34-file-v198";
   var NS = "http://www.w3.org/2000/svg";
 
   /* ==== F6 (8.28.26) — THE SHARED-ARC TOPOLOGY LOADER ==============
@@ -1803,6 +1803,40 @@ var GENERA = [
         ghostPaths[c] = p;
       });
     })();
+    /* v34: THE FRAME CONTAINS WHAT THE MAP PAINTS. HOME was fitted to
+       the RECORDED zones alone, but the political views also paint the
+       country ghosts created above - a country whose zones carry data
+       lights WHOLE (v22's law, the Australia case the grower asked
+       for). Arum records only Xinjiang and Tibet, so all of China
+       paints 30 deg past the right edge: the map loaded clipped and
+       lopsided (grower). Every genus was cut a little - China's
+       northern tip on Alocasia, Australia's south on Amorphophallus.
+       The frame GROWS ONLY WHERE A GHOST EXCEEDS IT and keeps the
+       recorded range's own padding: re-fitting the whole frame around
+       the ghosts re-pads an already-padded frame, which cost Alocasia
+       15% of its scale to cure a 2 deg clip. The ghosts only exist by
+       here (they need MULTI), so the fit happens now - before the
+       labels, which size off HOME. */
+    (function(){
+      var gb = [1e9, 1e9, -1e9, -1e9];
+      Object.keys(ghostPaths).forEach(function(c){
+        if (!ghostPaths[c].classList.contains("apgm-cg")) return;
+        if (shapes.shapes[c]) bboxInto(shapes.shapes[c], gb);
+      });
+      if (gb[0] > 1e8) return;                     /* no country ghosts */
+      var f = [HOME[0], HOME[1], HOME[0] + HOME[2], HOME[1] + HOME[3]];
+      /* a hair of margin so a country never sits flush on the rim */
+      var mx = HOME[2] * 0.012, my = HOME[3] * 0.012, grew = 0;
+      if (gb[0] - mx < f[0]){ f[0] = gb[0] - mx; grew = 1; }
+      if (gb[1] - my < f[1]){ f[1] = gb[1] - my; grew = 1; }
+      if (gb[2] + mx > f[2]){ f[2] = gb[2] + mx; grew = 1; }
+      if (gb[3] + my > f[3]){ f[3] = gb[3] + my; grew = 1; }
+      if (!grew) return;
+      HOME[0] = f[0]; HOME[1] = f[1];
+      HOME[2] = f[2] - f[0]; HOME[3] = f[3] - f[1];
+      CUR = HOME.slice();
+      setVB();
+    })();
     /* v27: GHOSTS STACK BY DEPTH - hovering inside a division ghost
        read "Malaysian Borneo" or "East Kalimantan" wherever the
        container ghost happened to be created later and sat on top.
@@ -1849,8 +1883,30 @@ var GENERA = [
        map is pixel-identical and a wider map keeps the labels the same
        GEOGRAPHIC size as the tuned reference. */
     var LBASE = Math.min(HOME[2], 95);
+    /* v34: AN ISLAND LABEL BELONGS TO A GENUS THAT REACHES IT. The
+       loop drew every label whose SHAPE existed, so the Arum map -
+       Europe to the Himalaya - captioned BORNEO, LUZON and MINDANAO
+       over empty dark ocean. A label now needs the island in the
+       genus's range, or a recorded unit inside it (Sarawak alone
+       keeps Borneo's label). */
+    var labOK = {}, REC = {};
+    zones.concat(doubt).forEach(function(z){
+      REC[z] = 1;
+      /* upward: an island that CONTAINS a record keeps its label -
+         Sarawak alone still captions Borneo */
+      var cur = z, gd = 0;
+      while (cur && gd++ < 8){ labOK[cur] = 1; cur = (HP[cur] || {}).parent; }
+    });
+    /* downward: an island INSIDE a recorded place keeps it too - the
+       archive files some Amorphophallus at Philippines, which lights
+       Mindanao's ground, so Mindanao stays captioned. */
+    function labInside(nm){
+      var cur = (HP[nm] || {}).parent, gd = 0;
+      while (cur && gd++ < 8){ if (REC[cur]) return 1; cur = (HP[cur] || {}).parent; }
+      return 0;
+    }
     ((hier && hier.mapLabels) || []).forEach(function(nm){
-      if (!shapes.shapes[nm]) return;
+      if (!shapes.shapes[nm] || (!labOK[nm] && !labInside(nm))) return;
       var lb = [1e9, 1e9, -1e9, -1e9];
       bboxInto(shapes.shapes[nm], lb);
       var cx = (lb[0] + lb[2]) / 2, cy = (lb[1] + lb[3]) / 2;
@@ -6311,11 +6367,6 @@ var GENERA = [
        beside the photos themselves */
     MANIFEST_BASE  : "https://wainblatrobert.github.io/Aroidpedia/journal/",
 
-    /* v149 (8.30.26): the photos themselves, on R2 behind the site's own
-       domain. Manifest paths are resolved against THIS, not MANIFEST_BASE
-       - see loadManifest below. Changing hosts is a one-line edit here. */
-    PHOTO_BASE     : "https://img.aroidpedia.com/journal/",
-
     /* map framing: pad the highlighted bbox by this fraction of its
        larger side, never zoom tighter than this many degrees, and keep
        the frame between these two aspect ratios.
@@ -7109,10 +7160,9 @@ var GENERA = [
     var m = /\/([a-z0-9]+)-([a-z0-9-]+)\/?$/.exec(location.pathname);
     if (!m) return Promise.resolve(null);
     var base = CFG.MANIFEST_BASE + m[1] + "/" + m[2] + "/";
-    var photos = CFG.PHOTO_BASE + m[1] + "/" + m[2] + "/";
     return fetch(base + "manifest.json", {mode:"cors"})
       .then(function(r){ if (!r.ok) throw new Error(r.status); return r.json(); })
-      .then(function(j){ if (j) j.__base = photos; return j; })
+      .then(function(j){ if (j) j.__base = base; return j; })
       .catch(function(){ return null; });
   }
 
@@ -11495,7 +11545,7 @@ var GENERA = [
 
       /* v28: stamp the running version where a live check can read it —
          the deployed injection has no filename to carry it. */
-      mount.setAttribute("data-apsc-version", "card-v149-file-v198");
+      mount.setAttribute("data-apsc-version", "card-v148-file-v198");
       if (window.console && console.info){
         console.info("[species card] card v40 (seam standoff)" + parsed.found +
                      " labelled sections · building.");
