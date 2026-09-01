@@ -28,9 +28,11 @@ on:
   push:
     paths:
       - "docs/journal/**"
+      - "docs/footer.js"
   pull_request:
     paths:
       - "docs/journal/**"
+      - "docs/footer.js"
 
 permissions:
   contents: read
@@ -84,6 +86,58 @@ jobs:
           fi
 
           echo "No images added under docs/journal."
+
+      # =================================================================
+      # THE COUPLING. On 9.1.26 every journal photo on the site became a
+      # broken link, and nothing detected it but a human looking at a page.
+      #
+      # The R2 cutover shipped card-v149-file-v198, which resolves manifest
+      # keys against PHOTO_BASE. A CONCURRENT LANE then built its own
+      # "FILE v198" from a master predating that change, and v199-v207 all
+      # descended from it - so PHOTO_BASE was silently dropped for six
+      # versions. Because docs/journal now holds only manifests, and every
+      # `f` in one is a content-hashed key that exists ONLY on R2, a card
+      # without PHOTO_BASE resolves them against Pages, where those
+      # filenames have never existed.
+      #
+      # The bundle looked fine. The manifests looked fine. Only the pair
+      # was wrong, which is why this checks the PAIR.
+      # =================================================================
+      - name: Manifests and the bundle must agree on where photos live
+        run: |
+          set -euo pipefail
+
+          HASHED="$(grep -rl '"f":"[a-z-]*/[0-9a-f]\{8\}-' docs/journal \
+                    --include=manifest.json 2>/dev/null | wc -l | tr -d ' ')"
+
+          if [ "${HASHED}" = "0" ]; then
+            echo "No manifest names a content-hashed key; nothing to couple."
+            exit 0
+          fi
+
+          echo "${HASHED} manifest(s) name content-hashed R2 keys."
+
+          MISSING=""
+          grep -q 'PHOTO_BASE' docs/footer.js || MISSING="PHOTO_BASE"
+          grep -q '__base = photos' docs/footer.js \
+            || MISSING="${MISSING:+${MISSING} and }__base = photos"
+
+          if [ -n "${MISSING}" ]; then
+            echo "::error::docs/footer.js is missing ${MISSING}."
+            echo ""
+            echo "Those manifests name keys that exist ONLY on img.aroidpedia.com."
+            echo "A bundle without PHOTO_BASE resolves them against GitHub Pages,"
+            echo "where they have never existed - so EVERY journal photo on EVERY"
+            echo "species page becomes a broken link."
+            echo ""
+            echo "This is almost always a concurrent-lane merge: a footer master"
+            echo "built from an older snapshot silently drops the constant."
+            echo "Re-apply it to the CURRENT master (identify it by its"
+            echo "data-apsc-version stamp, never by filename), rebuild, redeploy."
+            exit 1
+          fi
+
+          echo "docs/footer.js carries PHOTO_BASE and resolves __base from it."
 
       - name: Report the published size
         if: always()
