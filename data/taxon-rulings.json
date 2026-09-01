@@ -10,24 +10,23 @@
   "  include  a name POWO has dropped (or never carried) that we keep.",
   "           Needs a year, because it is not coming from the export.",
   "",
-  "Every entry carries a reason. `source` is the citation that settles it —",
-  "fill it in when the paper is to hand; `authority` records whose ruling it",
-  "is in the meantime. An entry with neither is a note to self, not a fact.",
+  "`authority` records whose ruling it is. A CITATION IS NOT REQUIRED --",
+  "user ruling 2026-09-01. These are Aroidpedia's own editorial calls and",
+  "stand on that; the checker does not ask for a source.",
   "",
   "Consumed by scripts/extract-species-years.py, which prints every ruling",
-  "it applied and FAILS if one no longer matches (see below), so a ruling",
-  "cannot quietly rot after POWO catches up.",
+  "it applied and FAILS if one no longer matches -- if POWO starts listing",
+  "an `include` or drops an `exclude`, the run stops and names the entry, so",
+  "a ruling cannot quietly rot after POWO catches up.",
   "",
   "Keys are genus slugs, lowercase."
  ],
-
  "alocasia": {
   "exclude": [
    {
     "name": "Alocasia augustiana",
     "reason": "Invalid; = Alocasia aequiloba. POWO/Kew recognise it, Aroidpedia does not.",
-    "authority": "Alistair Hay",
-    "source": ""
+    "authority": "Alistair Hay"
    }
   ],
   "include": [
@@ -36,21 +35,19 @@
     "year": 1965,
     "reason": "Valid. POWO no longer lists it; the published treatment stands.",
     "authority": "Aroidpedia editorial, 2026-08-31",
-    "source": ""
+    "note": "ON HOLD for a species page 2026-09-01: the Japanese protologue is not held. The ruling stands and the name stays in the data; only the page is blocked."
    },
    {
     "name": "Alocasia rivularis",
     "year": 2017,
     "reason": "Valid. POWO no longer lists it; the published treatment stands.",
-    "authority": "Aroidpedia editorial, 2026-08-31",
-    "source": ""
+    "authority": "Aroidpedia editorial, 2026-08-31"
    },
    {
     "name": "Alocasia lihengiae",
     "year": 2020,
     "reason": "Valid. POWO no longer lists it; the published treatment stands.",
-    "authority": "Aroidpedia editorial, 2026-08-31",
-    "source": ""
+    "authority": "Aroidpedia editorial, 2026-08-31"
    }
   ]
  }

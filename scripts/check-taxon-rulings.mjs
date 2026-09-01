@@ -92,12 +92,15 @@ for (const [slug, r] of Object.entries(RULINGS)) {
       console.log(`      timeline data ${mark(inTimeline)}   ${inTimeline}`);
       console.log(`      genus-geo     ${mark(inGeo)}   ${inGeo}`);
       console.log(`      published page${mark(hasPage)}   ${hasPage}`);
-      if (!e.source) console.log(`      ⚠ no source recorded (authority: ${e.authority || 'none'})`);
+      // A citation is NOT required — user ruling 2026-09-01. These are
+      // Aroidpedia's own calls and stand on the authority line alone.
+      if (e.note) console.log(`      note: ${e.note}`);
 
       if (kind === 'exclude' && hasPage)
         bad.push(`${name} is ruled INVALID but has a published page — merge or unpublish it`);
       if (kind === 'include' && !hasPage)
-        console.log(`      → ruled valid but unpublished: a page is owed`);
+        console.log(e.note ? `      → unpublished, and on hold (see note)`
+                           : `      → ruled valid but unpublished: a page is owed`);
       if (kind === 'exclude' && inGeo)
         console.log(`      → still in genus-geo; harmless if its localities are covered by the accepted name`);
     }

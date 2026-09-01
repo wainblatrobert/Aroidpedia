@@ -209,8 +209,17 @@ def main():
     print("hybrid rows cut   : %d" % tot_hy)
     print("undated rows cut  : %d" % tot_ny)
     print("export file dates : %s .. %s" % (oldest, newest))
-    if newest < (datetime.date.today() - datetime.timedelta(days=120)).isoformat():
-        print("!! the newest export is over 120 days old - consider re-exporting")
+    # Refresh cadence is ANNUAL by decision (user, 2026-09-01): the current
+    # exports are 2026-04 and the next pull is due APRIL 2027. Warning at 120
+    # days cried wolf every run for a set of files that is deliberately a year
+    # old, so the threshold is the actual schedule instead.
+    due = datetime.date(2027, 4, 1)
+    today = datetime.date.today()
+    if today >= due:
+        print("!! POWO refresh is DUE (scheduled April 2027) - re-export, then "
+              "re-run this script and commit data/species-years.json")
+    else:
+        print("next POWO refresh: April 2027 (%d days)" % (due - today).days)
     if ruling_log:
         print("editorial rulings applied (%d):" % len(ruling_log))
         for r in ruling_log:
