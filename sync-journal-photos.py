@@ -284,6 +284,29 @@ def main():
         print('They are the rollback net for the 8.30.26 R2 cutover and get')
         print('deleted in their own commit once it has held. Nothing here adds to them.')
 
+    # v9 (1.9.26): PRUNE STAGING BEFORE DERIVING. staging/ is cumulative and
+    # nothing ever removed from it, so a folder staged under an OLD naming rule
+    # lives on and publish_media keeps re-emitting its manifest into docs/ -
+    # which is how `arum/'sooi'/` and `arum/italicum-x-arum-maculatum/`
+    # (multiplication sign) came BACK twice after being deleted, silently
+    # recreating the exact mis-slugged directories the species_path fixes had
+    # just removed. Anything in staging that no longer corresponds to a Drive
+    # folder under the current rule is stale by definition.
+    if args.genus and not args.species:
+        stage_g = REPO / "staging" / "journal" / args.genus.lower()
+        sdir = GENERA_ROOT / args.genus / f"Species - {args.genus}"
+        if stage_g.is_dir() and sdir.is_dir():
+            want = set()
+            for d in sdir.iterdir():
+                if d.is_dir() and not ignored(d):
+                    sp = species_path(d.name, args.genus)
+                    if sp:
+                        want.add(sp.split("/", 1)[1])
+            for d in sorted(stage_g.iterdir()):
+                if d.is_dir() and d.name not in want:
+                    shutil.rmtree(d)
+                    print("pruned stale staging dir: " + d.name)
+
     sel = []
     if args.genus:
         sel += ["--genus", args.genus]
