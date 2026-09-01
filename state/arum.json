@@ -1,0 +1,2373 @@
+{
+ "recipe": 2,
+ "species": {
+  "arum/'sooi'": {
+   "2c85791f5e18e96645d06aa90da11161": {
+    "bytes": 101356,
+    "derived_md5": "2c85791f5e18e96645d06aa90da11161",
+    "key": "vegetative/2c85791f-angelo-porcelli.jpg"
+   },
+   "5d2deb9d9143ef33235a80a6349c7dcb": {
+    "bytes": 117973,
+    "derived_md5": "5d2deb9d9143ef33235a80a6349c7dcb",
+    "key": "hero/5d2deb9d-angelo-porcelli-2.jpg"
+   },
+   "5fa1fc562d938f92d99f9d8bca857162": {
+    "bytes": 109969,
+    "derived_md5": "5fa1fc562d938f92d99f9d8bca857162",
+    "key": "reproductive/5fa1fc56-angelo-porcelli-3.jpg"
+   }
+  },
+  "arum/apulum": {
+   "28623eeb10c1c6b4d7ee95ba8643330b": {
+    "bytes": 425871,
+    "derived_md5": "28623eeb10c1c6b4d7ee95ba8643330b",
+    "key": "hero/28623eeb-arum-apulum-leonardo-ancillotto.jpg"
+   },
+   "34bdcc7d873f81a26c73785f795a0ca4": {
+    "bytes": 249958,
+    "derived_md5": "34bdcc7d873f81a26c73785f795a0ca4",
+    "key": "other/34bdcc7d-powo-arum-apulum-02.jpg"
+   },
+   "4c6730712ee0adc47b8849d3f77b5149": {
+    "bytes": 94359,
+    "derived_md5": "4c6730712ee0adc47b8849d3f77b5149",
+    "key": "reproductive/4c673071-david-scherberich-1.jpg"
+   },
+   "92e5f80afbfdb517baa8c76c0e6fd3dc": {
+    "bytes": 147423,
+    "derived_md5": "b769b5ff50b6f38b6c45b6e3f7825b42",
+    "key": "maps/b769b5ff-arum-apulum-distribution-map-boyce-1993-map-9.jpg"
+   },
+   "c51e0c024026015e629f2ee1d9b640e8": {
+    "bytes": 228823,
+    "derived_md5": "c51e0c024026015e629f2ee1d9b640e8",
+    "key": "reproductive/c51e0c02-powo-arum-apulum-01.jpg"
+   }
+  },
+  "arum/besserianum": {
+   "1d3f9f81134171b9c0bd583173fd84ce": {
+    "bytes": 399381,
+    "derived_md5": "1d3f9f81134171b9c0bd583173fd84ce",
+    "key": "vegetative/1d3f9f81-arum-besserianum-dmytro-svyrydiuk-65.jpg"
+   },
+   "20b3429cb9e059148945059ae5b3c92a": {
+    "bytes": 106800,
+    "derived_md5": "20b3429cb9e059148945059ae5b3c92a",
+    "key": "reproductive/20b3429c-david-scherberich-4.jpg"
+   },
+   "5266d44b130ca9f7022de9d6cacad3fb": {
+    "bytes": 405258,
+    "derived_md5": "5266d44b130ca9f7022de9d6cacad3fb",
+    "key": "vegetative/5266d44b-arum-besserianum-dmytro-svyrydiuk-48.jpg"
+   },
+   "537f9c4a9598f8ba7d054e13d7c191c0": {
+    "bytes": 512357,
+    "derived_md5": "dbd87ea2de8223b74cfaeec775784831",
+    "key": "protologue/dbd87ea2-arum-besserianum-protologue-oesterreichische-botanische-zeitschrift-8-349-schott-1858.jpg"
+   },
+   "781304b58f8beb935e1271280c794e9a": {
+    "bytes": 118962,
+    "derived_md5": "781304b58f8beb935e1271280c794e9a",
+    "key": "reproductive/781304b5-david-scherberich-2.jpg"
+   },
+   "7947b199cdc6a6b8e59c26865af087e8": {
+    "bytes": 473809,
+    "derived_md5": "7947b199cdc6a6b8e59c26865af087e8",
+    "key": "reproductive/7947b199-arum-besserianum-diana-tudor-6.jpg"
+   },
+   "8b53b21005b84e5e2cf25834f483b116": {
+    "bytes": 382774,
+    "derived_md5": "8b53b21005b84e5e2cf25834f483b116",
+    "key": "vegetative/8b53b210-arum-besserianum-andrii-churilov-12.jpg"
+   },
+   "90e49d1c53134ca66871c1530750a5ba": {
+    "bytes": 247163,
+    "derived_md5": "90e49d1c53134ca66871c1530750a5ba",
+    "key": "vegetative/90e49d1c-arum-besserianum-alexander-baransky-3.jpg"
+   },
+   "940fcc13b619cf141aea1d27bd9a0998": {
+    "bytes": 327887,
+    "derived_md5": "940fcc13b619cf141aea1d27bd9a0998",
+    "key": "reproductive/940fcc13-arum-besserianum-dmytro-svyrydiuk-124.jpg"
+   },
+   "9a5825c4a0c749e7448aaaa6e20a05ca": {
+    "bytes": 416145,
+    "derived_md5": "9a5825c4a0c749e7448aaaa6e20a05ca",
+    "key": "reproductive/9a5825c4-arum-besserianum-dmytro-svyrydiuk-103.jpg"
+   },
+   "a9a03552291a5dbe08b5c2a8c53a0c63": {
+    "bytes": 139620,
+    "derived_md5": "a9a03552291a5dbe08b5c2a8c53a0c63",
+    "key": "reproductive/a9a03552-david-scherberich-1.jpg"
+   },
+   "ac7d90cef149fc3a7af37bb75e7e3831": {
+    "bytes": 339637,
+    "derived_md5": "ac7d90cef149fc3a7af37bb75e7e3831",
+    "key": "reproductive/ac7d90ce-arum-besserianum-dmytro-svyrydiuk-126.jpg"
+   },
+   "b1017663d7de3476168daaa13fa6820d": {
+    "bytes": 443355,
+    "derived_md5": "b1017663d7de3476168daaa13fa6820d",
+    "key": "reproductive/b1017663-arum-besserianum-anastasia-davydova.jpg"
+   },
+   "bac2b1261dc76ff9985c2b6eb165226c": {
+    "bytes": 674591,
+    "derived_md5": "bac2b1261dc76ff9985c2b6eb165226c",
+    "key": "reproductive/bac2b126-arum-besserianum-alexandr-stanislavschi.jpg"
+   },
+   "bd047a2f0941d194495a00c271c8c40e": {
+    "bytes": 198860,
+    "derived_md5": "bd047a2f0941d194495a00c271c8c40e",
+    "key": "other/bd047a2f-powo-arum-besserianum-01.jpg"
+   },
+   "d44f44bee2860d01eb2dc7b913d6de5d": {
+    "bytes": 82618,
+    "derived_md5": "d44f44bee2860d01eb2dc7b913d6de5d",
+    "key": "reproductive/d44f44be-david-scherberich-3.jpg"
+   },
+   "d6f01831e86ff50a345a1c0dfeedef3e": {
+    "bytes": 339776,
+    "derived_md5": "d6f01831e86ff50a345a1c0dfeedef3e",
+    "key": "reproductive/d6f01831-arum-besserianum-dmytro-svyrydiuk-108.jpg"
+   },
+   "f2fe73b66d85ca1b26b47787f85cb05c": {
+    "bytes": 132173,
+    "derived_md5": "f2fe73b66d85ca1b26b47787f85cb05c",
+    "key": "reproductive/f2fe73b6-484528293-9746544672046398-6923324255379949521-n.jpg"
+   },
+   "f4f6987299b8acfd7b33a666ee7c9343": {
+    "bytes": 589827,
+    "derived_md5": "f4f6987299b8acfd7b33a666ee7c9343",
+    "key": "reproductive/f4f69872-arum-besserianum-marian-tarasenko.jpg"
+   }
+  },
+  "arum/brunneoviolaceum": {
+   "11ebd9a529edf7b02e2fb2c35520bf59": {
+    "bytes": 70341,
+    "derived_md5": "11ebd9a529edf7b02e2fb2c35520bf59",
+    "key": "reproductive/11ebd9a5-arum-brunneoviolaceum-corazza-cortopassi-4.jpg"
+   },
+   "43928d6adb2b363dd19f087a4f6d8dc4": {
+    "bytes": 119158,
+    "derived_md5": "43928d6adb2b363dd19f087a4f6d8dc4",
+    "key": "hero/43928d6a-arum-brunneoviolaceum-corazza-cortopassi-3.jpg"
+   },
+   "6af626783999701210da25d7b12fb51a": {
+    "bytes": 258952,
+    "derived_md5": "6af626783999701210da25d7b12fb51a",
+    "key": "reproductive/6af62678-arum-brunneoviolaceum-corazza-cortopassi-2.jpg"
+   },
+   "6b5025a7c884744b62cc7365be4e2704": {
+    "bytes": 480646,
+    "derived_md5": "6b5025a7c884744b62cc7365be4e2704",
+    "key": "vegetative/6b5025a7-arum-brunneoviolaceum-corazza-cortopassi-1.jpg"
+   },
+   "6e261ce0715e7dcd9a16ca2f5f065d5c": {
+    "bytes": 212286,
+    "derived_md5": "6e261ce0715e7dcd9a16ca2f5f065d5c",
+    "key": "reproductive/6e261ce0-arum-brunneoviolaceum-corazza-cortopassi-1.jpg"
+   }
+  },
+  "arum/concinnatum": {
+   "00793b33dfdfe7cd6c978947920b6bec": {
+    "bytes": 90051,
+    "derived_md5": "00793b33dfdfe7cd6c978947920b6bec",
+    "key": "reproductive/00793b33-powo-arum-concinnatum-03.jpg"
+   },
+   "077d4dd1a6964b8b7a5b50ed9031ca05": {
+    "bytes": 679544,
+    "derived_md5": "077d4dd1a6964b8b7a5b50ed9031ca05",
+    "key": "vegetative/077d4dd1-arum-concinnatum-mpapathe.jpg"
+   },
+   "0c36e784ba87d94ae605cd3d9df9791c": {
+    "bytes": 477309,
+    "derived_md5": "332bd5fcb5e9267ddddf8e004d1776e4",
+    "key": "other/332bd5fc-arum-concinnatum-icones-aroidearum-t-36-published-as-arum-byzantinum-clusius-referable-to-a-concinnatum-per-boyce-1993-schott-1857.jpg"
+   },
+   "18758354082c256827a0e42f81dfc4c5": {
+    "bytes": 794897,
+    "derived_md5": "77f645ddc5b9a1fae2aea4e5931b3e99",
+    "key": "other/77f645dd-arum-concinnatum-icones-aroidearum-t-34-published-as-arum-byzantinum-clusius-referable-to-a-concinnatum-per-boyce-1993-schott-1857.jpg"
+   },
+   "1a15b76f3e087c47f46c769a5972d91a": {
+    "bytes": 153874,
+    "derived_md5": "1a15b76f3e087c47f46c769a5972d91a",
+    "key": "reproductive/1a15b76f-david-scherberich-1.jpg"
+   },
+   "28b925aab10a6dd6bee00e792e089a2d": {
+    "bytes": 408527,
+    "derived_md5": "28b925aab10a6dd6bee00e792e089a2d",
+    "key": "reproductive/28b925aa-arum-concinnatum-gemma-5.jpg"
+   },
+   "2d64e765a41d95dc1a010348d534b080": {
+    "bytes": 116141,
+    "derived_md5": "2d64e765a41d95dc1a010348d534b080",
+    "key": "reproductive/2d64e765-powo-arum-concinnatum-01.jpg"
+   },
+   "3d0233006a6d3410594c53ebebaf03ed": {
+    "bytes": 539063,
+    "derived_md5": "7e4d08f53ac824baa7ba2cf19fb7ec4d",
+    "key": "other/7e4d08f5-arum-concinnatum-icones-aroidearum-t-35-published-as-arum-byzantinum-clusius-referable-to-a-concinnatum-per-boyce-1993-schott-1857.jpg"
+   },
+   "42d964078f4e11fa453a7200e5018b65": {
+    "bytes": 334641,
+    "derived_md5": "42d964078f4e11fa453a7200e5018b65",
+    "key": "hero/42d96407-arum-concinnatum-millpondrj-2.jpg"
+   },
+   "480bf2db77cf4c5ff6fe4fd9520f4f31": {
+    "bytes": 286963,
+    "derived_md5": "480bf2db77cf4c5ff6fe4fd9520f4f31",
+    "key": "reproductive/480bf2db-powo-arum-concinnatum-02.jpg"
+   },
+   "4e2988ee9ac9710a4ef080025670ed36": {
+    "bytes": 874735,
+    "derived_md5": "4e2988ee9ac9710a4ef080025670ed36",
+    "key": "reproductive/4e2988ee-arum-concinnatum-anna-gheissari.jpg"
+   },
+   "56490411f663baaed02fce444c42830b": {
+    "bytes": 348648,
+    "derived_md5": "56490411f663baaed02fce444c42830b",
+    "key": "reproductive/56490411-arum-concinnatum-alexcm-5.jpg"
+   },
+   "65de9badca6fe75f5f8bfa1aea5c21e3": {
+    "bytes": 161521,
+    "derived_md5": "65de9badca6fe75f5f8bfa1aea5c21e3",
+    "key": "reproductive/65de9bad-david-scherberich-3.jpg"
+   },
+   "7fefa2d5b23693ab22614740ee1d3c9c": {
+    "bytes": 565220,
+    "derived_md5": "37b286a7f092d458462901136a0c514a",
+    "key": "protologue/37b286a7-arum-concinnatum-icones-aroidearum-t-40-schott-1857.jpg"
+   },
+   "81d228e568b44924fb700c682b81132b": {
+    "bytes": 434814,
+    "derived_md5": "81d228e568b44924fb700c682b81132b",
+    "key": "vegetative/81d228e5-arum-concinnatum-katrin.jpg"
+   },
+   "8e510c1e1b086a390f59b069c003649b": {
+    "bytes": 244144,
+    "derived_md5": "8e510c1e1b086a390f59b069c003649b",
+    "key": "reproductive/8e510c1e-arum-concinnatum-nicolas-helitas-6.jpg"
+   },
+   "9aad22f680c389c02eb74ad79303334a": {
+    "bytes": 295604,
+    "derived_md5": "9aad22f680c389c02eb74ad79303334a",
+    "key": "reproductive/9aad22f6-arum-concinnatum-felix-riegel-5.jpg"
+   },
+   "a2e2381e86d7fb953c1c61ceead599b2": {
+    "bytes": 199262,
+    "derived_md5": "a2e2381e86d7fb953c1c61ceead599b2",
+    "key": "reproductive/a2e2381e-david-scherberich-2.jpg"
+   },
+   "ef29ab60d7d671c9c22f61e7464128dd": {
+    "bytes": 148119,
+    "derived_md5": "eb3e3c9f4949f54cbe2f4ccb3afecbe0",
+    "key": "maps/eb3e3c9f-arum-concinnatum-distribution-map-boyce-1993.jpg"
+   },
+   "f82e171a99ed1103ee4dfcfab480a779": {
+    "bytes": 770616,
+    "derived_md5": "59082a53fc0bae146434427e1122a05b",
+    "key": "protologue/59082a53-arum-concinnatum-icones-aroidearum-t-39-schott-1857.jpg"
+   }
+  },
+  "arum/creticum": {
+   "0248b87ee782f4d10b725afd679cdfa0": {
+    "bytes": 160317,
+    "derived_md5": "0248b87ee782f4d10b725afd679cdfa0",
+    "key": "reproductive/0248b87e-david-scherberich-2.jpg"
+   },
+   "16b97d4b74e611e6131fc036dffdcf8e": {
+    "bytes": 206502,
+    "derived_md5": "b44fdb5e4558b8dcb0ddad0c0ad18a83",
+    "key": "reproductive/b44fdb5e-arum-creticum-bsakhuja.jpg"
+   },
+   "17d8e2fa98f253d289089d04f564f3d7": {
+    "bytes": 382097,
+    "derived_md5": "17d8e2fa98f253d289089d04f564f3d7",
+    "key": "hero/17d8e2fa-arum-creticum-felix-riegel-19.jpg"
+   },
+   "1f9e826b6ba795a44ea6b913f867279b": {
+    "bytes": 114373,
+    "derived_md5": "1f9e826b6ba795a44ea6b913f867279b",
+    "key": "reproductive/1f9e826b-david-scherberich-4.jpg"
+   },
+   "283724860d1301e4cf68ce14051811f5": {
+    "bytes": 105032,
+    "derived_md5": "283724860d1301e4cf68ce14051811f5",
+    "key": "reproductive/28372486-powo-arum-creticum-01.jpg"
+   },
+   "30dcce790d6b04dfdfa780634fe50831": {
+    "bytes": 49648,
+    "derived_md5": "30dcce790d6b04dfdfa780634fe50831",
+    "key": "reproductive/30dcce79-powo-arum-creticum-02.jpg"
+   },
+   "3fbaea35eceb838239f9934fb6832128": {
+    "bytes": 144363,
+    "derived_md5": "3fbaea35eceb838239f9934fb6832128",
+    "key": "reproductive/3fbaea35-arum-creticum-adriench.jpg"
+   },
+   "44726aa357440af181ceb24829476236": {
+    "bytes": 461309,
+    "derived_md5": "44726aa357440af181ceb24829476236",
+    "key": "reproductive/44726aa3-arum-creticum-eleftherios-katsillis-2.jpg"
+   },
+   "4d640aa1a75322a77445b6b3ed349ddb": {
+    "bytes": 313165,
+    "derived_md5": "4d640aa1a75322a77445b6b3ed349ddb",
+    "key": "reproductive/4d640aa1-arum-creticum-felix-riegel-10.jpg"
+   },
+   "53f649f4bb7053183f11d2c04f2a7a54": {
+    "bytes": 243258,
+    "derived_md5": "53f649f4bb7053183f11d2c04f2a7a54",
+    "key": "reproductive/53f649f4-arum-creticum-felix-riegel-15.jpg"
+   },
+   "7c150e107a6adba878cf974b7666ddcd": {
+    "bytes": 178884,
+    "derived_md5": "7c150e107a6adba878cf974b7666ddcd",
+    "key": "reproductive/7c150e10-powo-arum-creticum-03.jpg"
+   },
+   "90a6bd49fdc5ef5564df0a13692e0a9a": {
+    "bytes": 929785,
+    "derived_md5": "90a6bd49fdc5ef5564df0a13692e0a9a",
+    "key": "vegetative/90a6bd49-arum-creticum-josefwirth-2.jpg"
+   },
+   "a11008a3ae5d322ac193908f9f51d66b": {
+    "bytes": 484335,
+    "derived_md5": "a11008a3ae5d322ac193908f9f51d66b",
+    "key": "reproductive/a11008a3-arum-creticum-rosirosirosi-2.jpg"
+   },
+   "adcdcc8eefe6da035ef3175bafcb4513": {
+    "bytes": 203859,
+    "derived_md5": "adcdcc8eefe6da035ef3175bafcb4513",
+    "key": "reproductive/adcdcc8e-arum-creticum-felix-riegel-5.jpg"
+   },
+   "bd631af4d490d11d772c949576754e77": {
+    "bytes": 223410,
+    "derived_md5": "a48c8ebf672c8c4612ce9e63687c3a7d",
+    "key": "maps/a48c8ebf-arum-creticum-distribution-map-boyce-1993.jpg"
+   },
+   "c63035a81dd68449b3e0240547597df2": {
+    "bytes": 205738,
+    "derived_md5": "c63035a81dd68449b3e0240547597df2",
+    "key": "reproductive/c63035a8-arum-creticum-felix-riegel-13.jpg"
+   },
+   "cecf5c50669722667dde7bc31ccd2dc6": {
+    "bytes": 56675,
+    "derived_md5": "cecf5c50669722667dde7bc31ccd2dc6",
+    "key": "reproductive/cecf5c50-david-scherberich-3.jpg"
+   },
+   "d0062f75792d0eef3625a8363d60ef68": {
+    "bytes": 190881,
+    "derived_md5": "d0062f75792d0eef3625a8363d60ef68",
+    "key": "reproductive/d0062f75-david-scherberich-1.jpg"
+   },
+   "d7d175a1b4dcd6252844d0e1880a6511": {
+    "bytes": 329129,
+    "derived_md5": "d7d175a1b4dcd6252844d0e1880a6511",
+    "key": "reproductive/d7d175a1-arum-creticum-felix-riegel-11.jpg"
+   },
+   "e3c82531ee5d9899a56e330d0de82f2d": {
+    "bytes": 481228,
+    "derived_md5": "e3c82531ee5d9899a56e330d0de82f2d",
+    "key": "reproductive/e3c82531-arum-creticum-alexcm-3.jpg"
+   },
+   "e88f7df399aab484bee2f05aa145fa74": {
+    "bytes": 311956,
+    "derived_md5": "e88f7df399aab484bee2f05aa145fa74",
+    "key": "reproductive/e88f7df3-arum-creticum-alexcm-2.jpg"
+   },
+   "f968efad1b91bb41c3fd208f968e8d35": {
+    "bytes": 516208,
+    "derived_md5": "a3cf74563182d4d690daeae913551234",
+    "key": "protologue/a3cf7456-arum-creticum-protologue-diagnoses-plantarum-orientalium-novarum-13-9-boissier-1854.jpg"
+   }
+  },
+  "arum/cylindraceum": {
+   "1484a2730db9a36bcfe12c56b7055200": {
+    "bytes": 471060,
+    "derived_md5": "1484a2730db9a36bcfe12c56b7055200",
+    "key": "hero/1484a273-arum-cylindraceum-francesco-scelsa.jpg"
+   },
+   "1ac53c783510e393f3e660e44805c607": {
+    "bytes": 220081,
+    "derived_md5": "3dfc2e8698c51f6afad5c40a54cfbd4b",
+    "key": "maps/3dfc2e86-arum-cylindraceum-distribution-map-boyce-1993-map-5-as-arum-alpinum.jpg"
+   },
+   "40605e015d892dfd917ece2402d0c256": {
+    "bytes": 419144,
+    "derived_md5": "40605e015d892dfd917ece2402d0c256",
+    "key": "reproductive/40605e01-arum-cylindraceum-nannka-4.jpg"
+   },
+   "418f720317495ab0982b7b33060f425c": {
+    "bytes": 106566,
+    "derived_md5": "418f720317495ab0982b7b33060f425c",
+    "key": "reproductive/418f7203-arum-cylindraceum-alexander-w-nsche.jpg"
+   },
+   "45457cca48d0e3e6cf4ca7c03fc153d8": {
+    "bytes": 140688,
+    "derived_md5": "45457cca48d0e3e6cf4ca7c03fc153d8",
+    "key": "reproductive/45457cca-arum-cylindraceum-christian-gilli-3.jpg"
+   },
+   "45ef8c8a5204a4f84c59d60c9414bcf1": {
+    "bytes": 653515,
+    "derived_md5": "ac688920d4feb4f54d9e6c1ae96788c8",
+    "key": "protologue/ac688920-arum-cylindraceum-protologue-florae-siculae-synopsis-2-2-597-gussone-1844.jpg"
+   },
+   "4b99789e8b0cef502703321c78f80cc7": {
+    "bytes": 217900,
+    "derived_md5": "4b99789e8b0cef502703321c78f80cc7",
+    "key": "reproductive/4b99789e-powo-arum-cylindraceum-01.jpg"
+   },
+   "6566b68bc6ce5ecbc46b1ba8669e297d": {
+    "bytes": 242299,
+    "derived_md5": "6566b68bc6ce5ecbc46b1ba8669e297d",
+    "key": "reproductive/6566b68b-powo-arum-cylindraceum-02.jpg"
+   },
+   "658804ba706ba34ab36a5f5e42955bb0": {
+    "bytes": 350677,
+    "derived_md5": "658804ba706ba34ab36a5f5e42955bb0",
+    "key": "reproductive/658804ba-arum-cylindraceum-diana-tudor-4.jpg"
+   },
+   "6aecb1ad0e7eec48bba1f43a0ec3b396": {
+    "bytes": 193536,
+    "derived_md5": "6aecb1ad0e7eec48bba1f43a0ec3b396",
+    "key": "reproductive/6aecb1ad-arum-cylindraceum-christian-gilli-4.jpg"
+   },
+   "718990245d6a379ec7e6a1b20673b9f7": {
+    "bytes": 109153,
+    "derived_md5": "718990245d6a379ec7e6a1b20673b9f7",
+    "key": "reproductive/71899024-david-scherberich-5.jpg"
+   },
+   "84abe35bd6dadf6ad288340d881bc9aa": {
+    "bytes": 268002,
+    "derived_md5": "84abe35bd6dadf6ad288340d881bc9aa",
+    "key": "reproductive/84abe35b-arum-cylindraceum-franck-le-driant-5.jpg"
+   },
+   "8fd14a01611e437115b5e825fa7ea988": {
+    "bytes": 540934,
+    "derived_md5": "8fd14a01611e437115b5e825fa7ea988",
+    "key": "vegetative/8fd14a01-arum-cylindraceum-fazakas-bendeg-z-5.jpg"
+   },
+   "9f3cf915df9f885d82353e377178f1a4": {
+    "bytes": 333227,
+    "derived_md5": "9f3cf915df9f885d82353e377178f1a4",
+    "key": "reproductive/9f3cf915-arum-cylindraceum-marcin-scelina-2.jpg"
+   },
+   "a44290158e8106849f33d15b9cf5163e": {
+    "bytes": 92402,
+    "derived_md5": "a44290158e8106849f33d15b9cf5163e",
+    "key": "reproductive/a4429015-arum-cylindraceum-alexander-w-nsche-2.jpg"
+   },
+   "aff52ac904e2b15b4317f4fef6bac8eb": {
+    "bytes": 328907,
+    "derived_md5": "aff52ac904e2b15b4317f4fef6bac8eb",
+    "key": "reproductive/aff52ac9-arum-cylindraceum-korda-m-rton.jpg"
+   },
+   "b2ba9b38042e4d3e7f3809ea38a795d5": {
+    "bytes": 202623,
+    "derived_md5": "b2ba9b38042e4d3e7f3809ea38a795d5",
+    "key": "reproductive/b2ba9b38-arum-cylindraceum-alphons-3.jpg"
+   },
+   "d8be23d65ac8c782a33aa6af18783092": {
+    "bytes": 122816,
+    "derived_md5": "d8be23d65ac8c782a33aa6af18783092",
+    "key": "reproductive/d8be23d6-david-scherberich-1.jpg"
+   },
+   "de5038bc9bfabdd4c0538aa356ed42b7": {
+    "bytes": 323041,
+    "derived_md5": "de5038bc9bfabdd4c0538aa356ed42b7",
+    "key": "reproductive/de5038bc-arum-cylindraceum-franck-le-driant-3.jpg"
+   },
+   "e8e507a0dddd4aed4ec34ec204c81d54": {
+    "bytes": 198920,
+    "derived_md5": "e8e507a0dddd4aed4ec34ec204c81d54",
+    "key": "other/e8e507a0-powo-arum-cylindraceum-03.jpg"
+   },
+   "ebe0118211a8deb6f4da8bd9bd520a03": {
+    "bytes": 149636,
+    "derived_md5": "ebe0118211a8deb6f4da8bd9bd520a03",
+    "key": "reproductive/ebe01182-david-scherberich-2.jpg"
+   },
+   "f12596205483cb65b50b12a9bc078f6f": {
+    "bytes": 52013,
+    "derived_md5": "f12596205483cb65b50b12a9bc078f6f",
+    "key": "reproductive/f1259620-david-scherberich-3.jpg"
+   },
+   "fb54c93b6e0f0a99d9ef97a1bc1068bd": {
+    "bytes": 364823,
+    "derived_md5": "fb54c93b6e0f0a99d9ef97a1bc1068bd",
+    "key": "reproductive/fb54c93b-arum-cylindraceum-nikolaj-gervig-correll.jpg"
+   },
+   "ff07cb620bdfefac5f7c46bd88dc16eb": {
+    "bytes": 87144,
+    "derived_md5": "ff07cb620bdfefac5f7c46bd88dc16eb",
+    "key": "reproductive/ff07cb62-david-scherberich-4.jpg"
+   }
+  },
+  "arum/cyrenaicum": {
+   "012121c98f1117f38000fad2c60b278e": {
+    "bytes": 181361,
+    "derived_md5": "012121c98f1117f38000fad2c60b278e",
+    "key": "reproductive/012121c9-arum-cyrenaicum-konstantinos-kalaentzis.jpg"
+   },
+   "05245d02f09fbcb2d6c3d06403a2c399": {
+    "bytes": 187152,
+    "derived_md5": "05245d02f09fbcb2d6c3d06403a2c399",
+    "key": "reproductive/05245d02-arum-cyrenaicum-abdulnaser-abdulkarim-13.jpg"
+   },
+   "119b8f62a3f65ec62158a77fb48c0fb7": {
+    "bytes": 168715,
+    "derived_md5": "119b8f62a3f65ec62158a77fb48c0fb7",
+    "key": "reproductive/119b8f62-arum-cyrenaicum-abdulnaser-abdulkarim-10.jpg"
+   },
+   "147e83c25803c109e66ca4c33945ecff": {
+    "bytes": 568740,
+    "derived_md5": "108fb01010bc08979d1477d17df66a3c",
+    "key": "protologue/108fb010-arum-cyrenaicum-protologue-bulletin-de-la-societe-botanique-de-geneve-ser-2-4-159-hruby-1912.jpg"
+   },
+   "1efc8494555469b8c55d838e3c9dd9c2": {
+    "bytes": 189638,
+    "derived_md5": "1efc8494555469b8c55d838e3c9dd9c2",
+    "key": "vegetative/1efc8494-arum-cyrenaicum-fotis-samaritakis-3.jpg"
+   },
+   "45960708321150a24d7933dcec4377cb": {
+    "bytes": 830943,
+    "derived_md5": "45960708321150a24d7933dcec4377cb",
+    "key": "maps/45960708-arum-cyrenaicum-distribution-map-boyce-1993.png"
+   },
+   "4fbd244af5b96f12dbb15edb8baa079c": {
+    "bytes": 73444,
+    "derived_md5": "4fbd244af5b96f12dbb15edb8baa079c",
+    "key": "reproductive/4fbd244a-powo-arum-cyrenaicum-02.jpg"
+   },
+   "6b01583e3a0814f43ea9928c214a979c": {
+    "bytes": 195023,
+    "derived_md5": "6b01583e3a0814f43ea9928c214a979c",
+    "key": "hero/6b01583e-powo-arum-cyrenaicum-03.jpg"
+   },
+   "97d30c5ff08de6408aebf03af2e393a6": {
+    "bytes": 179438,
+    "derived_md5": "97d30c5ff08de6408aebf03af2e393a6",
+    "key": "reproductive/97d30c5f-david-scherberich-1.jpg"
+   },
+   "e20dd8fb48fcd1e303572599269fb090": {
+    "bytes": 96021,
+    "derived_md5": "e20dd8fb48fcd1e303572599269fb090",
+    "key": "reproductive/e20dd8fb-powo-arum-cyrenaicum-01.jpg"
+   }
+  },
+  "arum/dioscoridis": {
+   "0bc78ce13b50a7a6d77c7858616e392c": {
+    "bytes": 180443,
+    "derived_md5": "0bc78ce13b50a7a6d77c7858616e392c",
+    "key": "reproductive/0bc78ce1-david-scherberich-11.jpg"
+   },
+   "10ed4863b0b837caa978b85a1b19777d": {
+    "bytes": 121018,
+    "derived_md5": "10ed4863b0b837caa978b85a1b19777d",
+    "key": "reproductive/10ed4863-david-scherberich-9.jpg"
+   },
+   "17af369d88b55fb687f873ddd4a22048": {
+    "bytes": 382726,
+    "derived_md5": "17af369d88b55fb687f873ddd4a22048",
+    "key": "reproductive/17af369d-arum-dioscoridis-kikibaira.jpg"
+   },
+   "23fd57ddd21136e64dd96c335c82e865": {
+    "bytes": 385351,
+    "derived_md5": "23fd57ddd21136e64dd96c335c82e865",
+    "key": "reproductive/23fd57dd-powo-arum-dioscoridis-02.jpg"
+   },
+   "272bdccf56aab1b6f5f0b5a8cf206288": {
+    "bytes": 225475,
+    "derived_md5": "272bdccf56aab1b6f5f0b5a8cf206288",
+    "key": "reproductive/272bdccf-david-scherberich-10.jpg"
+   },
+   "273b983052968e3df37420b13ef3d2cd": {
+    "bytes": 170367,
+    "derived_md5": "273b983052968e3df37420b13ef3d2cd",
+    "key": "reproductive/273b9830-david-scherberich-8.jpg"
+   },
+   "33c96767eea2033480963f29b1a1bda8": {
+    "bytes": 445652,
+    "derived_md5": "33c96767eea2033480963f29b1a1bda8",
+    "key": "vegetative/33c96767-arum-dioscoridis-allisunbeam-6.jpg"
+   },
+   "3866ea2afa33d52f91fd3430ab51e118": {
+    "bytes": 441379,
+    "derived_md5": "3866ea2afa33d52f91fd3430ab51e118",
+    "key": "reproductive/3866ea2a-arum-dioscoridis-daniela-mangiola.jpg"
+   },
+   "42e06d0c61561d38e6034828f4fec55c": {
+    "bytes": 96445,
+    "derived_md5": "42e06d0c61561d38e6034828f4fec55c",
+    "key": "reproductive/42e06d0c-david-scherberich-2.jpg"
+   },
+   "50a244d545e2b36a32cdff8b05ce4b8e": {
+    "bytes": 440953,
+    "derived_md5": "50a244d545e2b36a32cdff8b05ce4b8e",
+    "key": "vegetative/50a244d5-arum-dioscoridis-allisunbeam.jpg"
+   },
+   "52c15f87f49de40a6e1908fff6977b26": {
+    "bytes": 316745,
+    "derived_md5": "52c15f87f49de40a6e1908fff6977b26",
+    "key": "reproductive/52c15f87-arum-dioscoridis-angelamoonjones.jpg"
+   },
+   "5c5bb1d14359cf4c5c8ec36d30638f7e": {
+    "bytes": 104641,
+    "derived_md5": "5c5bb1d14359cf4c5c8ec36d30638f7e",
+    "key": "reproductive/5c5bb1d1-david-scherberich-7.jpg"
+   },
+   "6221abec17067e2b76f4a4a8321d5482": {
+    "bytes": 512050,
+    "derived_md5": "6221abec17067e2b76f4a4a8321d5482",
+    "key": "reproductive/6221abec-arum-dioscoridis-dzhus-maxim-2.jpg"
+   },
+   "62c986e996227f0b71a51b40a0785298": {
+    "bytes": 160861,
+    "derived_md5": "e92c8a41e4d7883d903d652dd410a3f1",
+    "key": "maps/e92c8a41-arum-dioscoridis-distribution-map-boyce-1993.jpg"
+   },
+   "66c30a8618711cb09115d36902fd05de": {
+    "bytes": 107319,
+    "derived_md5": "66c30a8618711cb09115d36902fd05de",
+    "key": "vegetative/66c30a86-david-scherberich-6.jpg"
+   },
+   "699fe53095aa9663a24acaa31d92a5ab": {
+    "bytes": 553121,
+    "derived_md5": "699fe53095aa9663a24acaa31d92a5ab",
+    "key": "reproductive/699fe530-arum-dioscoridis-eleftherios-katsillis-5.jpg"
+   },
+   "6d1ed4dae08f345b92907495ca4030ef": {
+    "bytes": 469170,
+    "derived_md5": "45aba59cbbf5e4ab0e226730ec8522d8",
+    "key": "other/45aba59c-arum-dioscoridis-icones-aroidearum-t-32-as-arum-spectabile-schott-1857.jpg"
+   },
+   "7306e9e21a8f2f14cdfe10f449ec45e6": {
+    "bytes": 671191,
+    "derived_md5": "7e4a43751484a82dead9652c26bd2c0b",
+    "key": "other/7e4a4375-arum-dioscoridis-icones-aroidearum-t-31-as-arum-spectabile-schott-1857.jpg"
+   },
+   "74c5f5736d0dc33a64690e9bc32eb506": {
+    "bytes": 96810,
+    "derived_md5": "74c5f5736d0dc33a64690e9bc32eb506",
+    "key": "reproductive/74c5f573-david-scherberich-3.jpg"
+   },
+   "7a23d0ae5b712ee99fd97e95c692c9ef": {
+    "bytes": 537745,
+    "derived_md5": "726544691f4e50d2519a2dcf8597ac3a",
+    "key": "other/72654469-arum-dioscoridis-icones-aroidearum-t-33-as-arum-spectabile-schott-1857.jpg"
+   },
+   "8312764469109ca166cd2fc31cec1a7b": {
+    "bytes": 370749,
+    "derived_md5": "8312764469109ca166cd2fc31cec1a7b",
+    "key": "reproductive/83127644-arum-dioscoridis-g-k-e-co-kun-2.jpg"
+   },
+   "9088a07b52a0f55c91650df9430fd00e": {
+    "bytes": 113193,
+    "derived_md5": "9088a07b52a0f55c91650df9430fd00e",
+    "key": "reproductive/9088a07b-david-scherberich-4.jpg"
+   },
+   "91a57533adff937fea29c5f5fd9ed88d": {
+    "bytes": 606664,
+    "derived_md5": "91a57533adff937fea29c5f5fd9ed88d",
+    "key": "reproductive/91a57533-arum-dioscoridis-ahlers.jpg"
+   },
+   "a314ac96c5559bc46778ded9c4383674": {
+    "bytes": 118796,
+    "derived_md5": "a314ac96c5559bc46778ded9c4383674",
+    "key": "reproductive/a314ac96-arum-dioscoridis-andy-goerdel-texas-master-naturalist-good-water-chapter-4.jpg"
+   },
+   "a54ced80fb7b99a04928024c4f79b78b": {
+    "bytes": 472863,
+    "derived_md5": "a54ced80fb7b99a04928024c4f79b78b",
+    "key": "reproductive/a54ced80-arum-dioscoridis-amit-goldstein.jpg"
+   },
+   "b773da19d7e47f087a4ba5ef8b36445c": {
+    "bytes": 543308,
+    "derived_md5": "b773da19d7e47f087a4ba5ef8b36445c",
+    "key": "reproductive/b773da19-arum-dioscoridis-alonre-2.jpg"
+   },
+   "b8c0d4cc037f412618f625c4e2947175": {
+    "bytes": 578899,
+    "derived_md5": "b8c0d4cc037f412618f625c4e2947175",
+    "key": "reproductive/b8c0d4cc-arum-dioscoridis-alpenhuhn.jpg"
+   },
+   "c98f058e8eabd2f150838b480efdfa96": {
+    "bytes": 555692,
+    "derived_md5": "c98f058e8eabd2f150838b480efdfa96",
+    "key": "protologue/c98f058e-arum-dioscoridis-protologue-florae-graecae-prodromus-2-245-sibthorp-and-smith-1816.jpg"
+   },
+   "d07fb09f811b64a6984edcd6e06ccf6c": {
+    "bytes": 104386,
+    "derived_md5": "d07fb09f811b64a6984edcd6e06ccf6c",
+    "key": "vegetative/d07fb09f-david-scherberich-5.jpg"
+   },
+   "e49e21c486407448907ae5fc8f877e92": {
+    "bytes": 305807,
+    "derived_md5": "e49e21c486407448907ae5fc8f877e92",
+    "key": "hero/e49e21c4-arum-dioscoridis-allisunbeam-3.jpg"
+   },
+   "e63a33ed5882bc0da417fd4524522521": {
+    "bytes": 103462,
+    "derived_md5": "e63a33ed5882bc0da417fd4524522521",
+    "key": "reproductive/e63a33ed-powo-arum-dioscoridis-01.jpg"
+   },
+   "f25ecd7e7250215ed7a3ae07f1feb9cb": {
+    "bytes": 242926,
+    "derived_md5": "f25ecd7e7250215ed7a3ae07f1feb9cb",
+    "key": "reproductive/f25ecd7e-powo-arum-dioscoridis-03.jpg"
+   },
+   "f9c0a176a71419fb07c30ce419c8233f": {
+    "bytes": 109397,
+    "derived_md5": "f9c0a176a71419fb07c30ce419c8233f",
+    "key": "reproductive/f9c0a176-david-scherberich-1.jpg"
+   }
+  },
+  "arum/euxinum": {
+   "0603f3b9a828406c4c1851991c166a5a": {
+    "bytes": 683881,
+    "derived_md5": "0603f3b9a828406c4c1851991c166a5a",
+    "key": "reproductive/0603f3b9-arum-euxinum-devrimk.jpg"
+   },
+   "08076cc59b90659ff19744b3331a1a18": {
+    "bytes": 86702,
+    "derived_md5": "08076cc59b90659ff19744b3331a1a18",
+    "key": "reproductive/08076cc5-david-scherberich-4.jpg"
+   },
+   "4ddb2c1cae3595e7c30bf98d9b94d04c": {
+    "bytes": 90946,
+    "derived_md5": "4ddb2c1cae3595e7c30bf98d9b94d04c",
+    "key": "reproductive/4ddb2c1c-david-scherberich-2.jpg"
+   },
+   "57300bc29db793cce9f4538927fe98e3": {
+    "bytes": 111384,
+    "derived_md5": "57300bc29db793cce9f4538927fe98e3",
+    "key": "reproductive/57300bc2-powo-arum-euxinum-03.jpg"
+   },
+   "67f8ce61a8f4d62972e8e90eafa8412f": {
+    "bytes": 272280,
+    "derived_md5": "67f8ce61a8f4d62972e8e90eafa8412f",
+    "key": "vegetative/67f8ce61-arum-euxinum-ay-enur-okur-4.jpg"
+   },
+   "6b73613a6780402ab32a9adeb8d45fc9": {
+    "bytes": 116386,
+    "derived_md5": "6b73613a6780402ab32a9adeb8d45fc9",
+    "key": "reproductive/6b73613a-david-scherberich-1.jpg"
+   },
+   "73bf095fe49d2fecf32870220b499b1a": {
+    "bytes": 639481,
+    "derived_md5": "73bf095fe49d2fecf32870220b499b1a",
+    "key": "reproductive/73bf095f-arum-euxinum-ori-fragman-sapir-3.jpg"
+   },
+   "7cbd5ee05a8f01106c132df43a81beee": {
+    "bytes": 845816,
+    "derived_md5": "7cbd5ee05a8f01106c132df43a81beee",
+    "key": "maps/7cbd5ee0-arum-euxinum-distribution-map-boyce-1993.png"
+   },
+   "945edd08765381c3f3a7c61832693554": {
+    "bytes": 291937,
+    "derived_md5": "945edd08765381c3f3a7c61832693554",
+    "key": "reproductive/945edd08-powo-arum-euxinum-01.jpg"
+   },
+   "9dc7de58db226bfa1bde7fdf08ca7dda": {
+    "bytes": 170087,
+    "derived_md5": "9dc7de58db226bfa1bde7fdf08ca7dda",
+    "key": "reproductive/9dc7de58-powo-arum-euxinum-02.jpg"
+   },
+   "b1aec0c3576fff40f0a40dfe3d0d93df": {
+    "bytes": 541436,
+    "derived_md5": "b1aec0c3576fff40f0a40dfe3d0d93df",
+    "key": "hero/b1aec0c3-arum-euxinum-ori-fragman-sapir.jpg"
+   },
+   "ded2925b3697c8fcadd1edd1835b16a6": {
+    "bytes": 98966,
+    "derived_md5": "ded2925b3697c8fcadd1edd1835b16a6",
+    "key": "reproductive/ded2925b-david-scherberich-3.jpg"
+   },
+   "f8a7f30d8e7afae6fe36a227a8d7160e": {
+    "bytes": 186961,
+    "derived_md5": "f8a7f30d8e7afae6fe36a227a8d7160e",
+    "key": "reproductive/f8a7f30d-david-scherberich-5.jpg"
+   }
+  },
+  "arum/gratum": {
+   "026fb6696f019d37797d09065db427fe": {
+    "bytes": 162627,
+    "derived_md5": "ea135aee8d02af3816136f9ad4925e05",
+    "key": "maps/ea135aee-arum-gratum-distribution-map-boyce-1993.jpg"
+   },
+   "1eba929e96f1e7a6a0039fb6a7dfddbc": {
+    "bytes": 238068,
+    "derived_md5": "1eba929e96f1e7a6a0039fb6a7dfddbc",
+    "key": "reproductive/1eba929e-powo-arum-gratum-01.jpg"
+   },
+   "4dd5d76fe1c43d18dc3998edb55b5597": {
+    "bytes": 182118,
+    "derived_md5": "4dd5d76fe1c43d18dc3998edb55b5597",
+    "key": "reproductive/4dd5d76f-powo-arum-gratum-03.jpg"
+   },
+   "652f97175cc3ebd6cf8d28d0fa74abeb": {
+    "bytes": 541498,
+    "derived_md5": "652f97175cc3ebd6cf8d28d0fa74abeb",
+    "key": "protologue/652f9717-arum-gratum-protologue-synopsis-aroidearum-11-schott-1856.jpg"
+   },
+   "9ed5af452ca1f82b282bff600d297d03": {
+    "bytes": 547876,
+    "derived_md5": "9ed5af452ca1f82b282bff600d297d03",
+    "key": "reproductive/9ed5af45-arum-gratum-ramazanakkaya.jpg"
+   },
+   "d96040392ed84f2076c8c8b937b148d1": {
+    "bytes": 155158,
+    "derived_md5": "d96040392ed84f2076c8c8b937b148d1",
+    "key": "hero/d9604039-powo-arum-gratum-02.jpg"
+   }
+  },
+  "arum/hainesii": {
+   "2f1ecb66217f3537b75487a0ae7b4616": {
+    "bytes": 766247,
+    "derived_md5": "2f1ecb66217f3537b75487a0ae7b4616",
+    "key": "maps/2f1ecb66-arum-hainesii-distribution-map-boyce-1993.png"
+   },
+   "6aaaa876a88418f7440bcf2eb38ce7af": {
+    "bytes": 286694,
+    "derived_md5": "6aaaa876a88418f7440bcf2eb38ce7af",
+    "key": "hero/6aaaa876-powo-arum-hainesii-01.jpg"
+   }
+  },
+  "arum/hygrophilum": {
+   "0157c5ef9a93b73a63fc6d258ca2c886": {
+    "bytes": 134484,
+    "derived_md5": "0157c5ef9a93b73a63fc6d258ca2c886",
+    "key": "reproductive/0157c5ef-david-scherberich-1.jpg"
+   },
+   "03d2932bd8d83916744d8b6552f88da0": {
+    "bytes": 163229,
+    "derived_md5": "03d2932bd8d83916744d8b6552f88da0",
+    "key": "reproductive/03d2932b-arum-hygrophilum-cscheibl-4.jpg"
+   },
+   "0415459612d67ad45b1859bedd910c55": {
+    "bytes": 20605,
+    "derived_md5": "0415459612d67ad45b1859bedd910c55",
+    "key": "vegetative/04154596-hygrophilum-1.jpeg"
+   },
+   "0a4a2788c131d83c08d3d9f111395f62": {
+    "bytes": 443952,
+    "derived_md5": "0a4a2788c131d83c08d3d9f111395f62",
+    "key": "reproductive/0a4a2788-arum-hygrophilum-sigalgeva-22.jpg"
+   },
+   "14d122f2720490028aecdc2106b36740": {
+    "bytes": 510497,
+    "derived_md5": "14d122f2720490028aecdc2106b36740",
+    "key": "vegetative/14d122f2-arum-hygrophilum-nili8n.jpg"
+   },
+   "19885eaf04993813e3653d14f6c5cc03": {
+    "bytes": 11428,
+    "derived_md5": "19885eaf04993813e3653d14f6c5cc03",
+    "key": "reproductive/19885eaf-hygrophilum-2.jpeg"
+   },
+   "21836f842f17c9df6dad69527cb3e5bb": {
+    "bytes": 172922,
+    "derived_md5": "21836f842f17c9df6dad69527cb3e5bb",
+    "key": "vegetative/21836f84-powo-arum-hygrophilum-01.jpg"
+   },
+   "26e925bd167fee6cfc2165f52302dbb1": {
+    "bytes": 734035,
+    "derived_md5": "26e925bd167fee6cfc2165f52302dbb1",
+    "key": "vegetative/26e925bd-arum-hygrophilum-shadow-hills-nature-journal-club-terri-mando.jpg"
+   },
+   "37100948c84d58955f5d0fd78b22b310": {
+    "bytes": 494384,
+    "derived_md5": "37100948c84d58955f5d0fd78b22b310",
+    "key": "reproductive/37100948-arum-hygrophilum-salzgurke-3.jpg"
+   },
+   "68e274dee6ee3efc7ee762120677bc35": {
+    "bytes": 105184,
+    "derived_md5": "68e274dee6ee3efc7ee762120677bc35",
+    "key": "reproductive/68e274de-powo-arum-hygrophilum-03.jpg"
+   },
+   "6b8a0b232a1c5e82ac3e8a37470b3b78": {
+    "bytes": 559049,
+    "derived_md5": "7b45d484fd6a873cfd588522144368a0",
+    "key": "protologue/7b45d484-arum-hygrophilum-protologue-diagnoses-plantarum-orientalium-novarum-13-8-boissier-1854.jpg"
+   },
+   "7cbd5ee05a8f01106c132df43a81beee": {
+    "bytes": 845816,
+    "derived_md5": "7cbd5ee05a8f01106c132df43a81beee",
+    "key": "maps/7cbd5ee0-arum-hygrophilum-distribution-map-boyce-1993.png"
+   },
+   "7d662f5e2678eedc82b238dcf524b482": {
+    "bytes": 10043,
+    "derived_md5": "7d662f5e2678eedc82b238dcf524b482",
+    "key": "vegetative/7d662f5e-hygrophilum-5.jpeg"
+   },
+   "af3bd89374aad80d7f9a0b75560b0552": {
+    "bytes": 261692,
+    "derived_md5": "af3bd89374aad80d7f9a0b75560b0552",
+    "key": "reproductive/af3bd893-arum-hygrophilum-estrella-alfaro-saiz.jpg"
+   },
+   "b256aa0af0fe6ec572845851d558047a": {
+    "bytes": 469555,
+    "derived_md5": "b256aa0af0fe6ec572845851d558047a",
+    "key": "vegetative/b256aa0a-arum-hygrophilum-hiphipforay.jpg"
+   },
+   "bb7c8791dfda86bde10f15806f04d761": {
+    "bytes": 14153,
+    "derived_md5": "bb7c8791dfda86bde10f15806f04d761",
+    "key": "reproductive/bb7c8791-hygrophilum-3.jpeg"
+   },
+   "ccf76066fb41bcb38a78e227ce148c8a": {
+    "bytes": 101733,
+    "derived_md5": "ccf76066fb41bcb38a78e227ce148c8a",
+    "key": "reproductive/ccf76066-david-scherberich-5.jpg"
+   },
+   "d0da20f07fc45cea7cd29db9fccdedda": {
+    "bytes": 97847,
+    "derived_md5": "d0da20f07fc45cea7cd29db9fccdedda",
+    "key": "reproductive/d0da20f0-david-scherberich-3.jpg"
+   },
+   "d1c915dd6fefb0536e743a63e930eb8b": {
+    "bytes": 97763,
+    "derived_md5": "d1c915dd6fefb0536e743a63e930eb8b",
+    "key": "reproductive/d1c915dd-david-scherberich-4.jpg"
+   },
+   "eba9a2ce6ea954b030b98208b7478ccd": {
+    "bytes": 63163,
+    "derived_md5": "eba9a2ce6ea954b030b98208b7478ccd",
+    "key": "reproductive/eba9a2ce-powo-arum-hygrophilum-02.jpg"
+   },
+   "efa9cf7de2470996cc30c41f9f4517a1": {
+    "bytes": 237277,
+    "derived_md5": "efa9cf7de2470996cc30c41f9f4517a1",
+    "key": "hero/efa9cf7d-arum-hygrophilum-antoine-simon.jpg"
+   },
+   "f0220ab164e3470abdfee4fe70c2c8e6": {
+    "bytes": 305329,
+    "derived_md5": "f0220ab164e3470abdfee4fe70c2c8e6",
+    "key": "reproductive/f0220ab1-arum-hygrophilum-neveur27-2.jpg"
+   },
+   "fa31030db3807843d44eaf07a1038b54": {
+    "bytes": 102181,
+    "derived_md5": "fa31030db3807843d44eaf07a1038b54",
+    "key": "reproductive/fa31030d-david-scherberich-2.jpg"
+   },
+   "fefc5e9c8a00f7310c0bc3f53bccce68": {
+    "bytes": 15434,
+    "derived_md5": "fefc5e9c8a00f7310c0bc3f53bccce68",
+    "key": "vegetative/fefc5e9c-hygrophilum-4.jpeg"
+   }
+  },
+  "arum/idaeum": {
+   "06cea5ec331d5ca0d391572c3ab1ba3d": {
+    "bytes": 554440,
+    "derived_md5": "06cea5ec331d5ca0d391572c3ab1ba3d",
+    "key": "reproductive/06cea5ec-arum-idaeum-kacper-le-niak.jpg"
+   },
+   "0854a4f8b13c56a1240d70526643a1a1": {
+    "bytes": 344245,
+    "derived_md5": "0854a4f8b13c56a1240d70526643a1a1",
+    "key": "reproductive/0854a4f8-arum-idaeum-charlie-hunt.jpg"
+   },
+   "12db46d5e184868b12cdd1d6642aabcb": {
+    "bytes": 141753,
+    "derived_md5": "12db46d5e184868b12cdd1d6642aabcb",
+    "key": "reproductive/12db46d5-arum-idaeum-williamdomenge9-3.jpg"
+   },
+   "1c7f1a097d448f4d6414a1824383a48c": {
+    "bytes": 152329,
+    "derived_md5": "c0f5eee79110ffd576e8e2c3fe5d7f8c",
+    "key": "maps/c0f5eee7-arum-idaeum-distribution-map-boyce-1993-map-23.jpg"
+   },
+   "2113f5eb54ab34ec4251e89ec375fc2f": {
+    "bytes": 601368,
+    "derived_md5": "2d6dbde2be955f5674c07158d381238a",
+    "key": "protologue/2d6dbde2-arum-idaeum-protologue-bulletin-de-la-societe-botanique-de-france-63-11-cousturier-and-gandoger-1917.jpg"
+   },
+   "3c54eff4e556b1aed5617e0e5c026ec4": {
+    "bytes": 112688,
+    "derived_md5": "3c54eff4e556b1aed5617e0e5c026ec4",
+    "key": "reproductive/3c54eff4-david-scherberich-1.jpg"
+   },
+   "7556613a007b40a60a22eff1c5a1cfe5": {
+    "bytes": 445919,
+    "derived_md5": "7556613a007b40a60a22eff1c5a1cfe5",
+    "key": "reproductive/7556613a-arum-idaeum-charlie-hunt-2.jpg"
+   },
+   "8032a162a8c3db764af761f9bb6900b6": {
+    "bytes": 245118,
+    "derived_md5": "8032a162a8c3db764af761f9bb6900b6",
+    "key": "other/8032a162-powo-arum-idaeum-03.jpg"
+   },
+   "8ac706e01151d571ddf2f961cf2ae70e": {
+    "bytes": 202194,
+    "derived_md5": "8ac706e01151d571ddf2f961cf2ae70e",
+    "key": "reproductive/8ac706e0-arum-idaeum-felix-riegel-9.jpg"
+   },
+   "8b05fc5b61fd521720e4e462b768e7d0": {
+    "bytes": 184178,
+    "derived_md5": "8b05fc5b61fd521720e4e462b768e7d0",
+    "key": "reproductive/8b05fc5b-arum-idaeum-williamdomenge9-2.jpg"
+   },
+   "97ce3b9d48de0b76a86412aea4273a28": {
+    "bytes": 322828,
+    "derived_md5": "97ce3b9d48de0b76a86412aea4273a28",
+    "key": "reproductive/97ce3b9d-arum-idaeum-alexcm-2.jpg"
+   },
+   "b1a4b3a8ec6990ce12839c1eb0db47a3": {
+    "bytes": 254232,
+    "derived_md5": "b1a4b3a8ec6990ce12839c1eb0db47a3",
+    "key": "reproductive/b1a4b3a8-powo-arum-idaeum-01.jpg"
+   },
+   "bfff1704e37cc1b0f69c7737bef90d20": {
+    "bytes": 326154,
+    "derived_md5": "bfff1704e37cc1b0f69c7737bef90d20",
+    "key": "reproductive/bfff1704-arum-idaeum-wolfgang-bittermann.jpg"
+   },
+   "c0f836b91f71926fbdb048d3c4bb8f0f": {
+    "bytes": 92121,
+    "derived_md5": "c0f836b91f71926fbdb048d3c4bb8f0f",
+    "key": "reproductive/c0f836b9-powo-arum-idaeum-02.jpg"
+   },
+   "c376c17fcdf248098e31c5e52239f6e8": {
+    "bytes": 465545,
+    "derived_md5": "c376c17fcdf248098e31c5e52239f6e8",
+    "key": "reproductive/c376c17f-arum-idaeum-christophe-girod.jpg"
+   }
+  },
+  "arum/italicum": {
+   "00a65f5493efb541dc59c2c9470db7bc": {
+    "bytes": 424988,
+    "derived_md5": "00a65f5493efb541dc59c2c9470db7bc",
+    "key": "vegetative/00a65f54-arum-italicum-a2b-3.jpg"
+   },
+   "0b61a900e6d13545710d4d98791327f1": {
+    "bytes": 198461,
+    "derived_md5": "0b61a900e6d13545710d4d98791327f1",
+    "key": "reproductive/0b61a900-arum-italicum-franck-le-driant.jpg"
+   },
+   "10f66d13f19d85f1e645c4ccd35a5f84": {
+    "bytes": 659568,
+    "derived_md5": "10f66d13f19d85f1e645c4ccd35a5f84",
+    "key": "hero/10f66d13-arum-italicum-aqualily-3.jpg"
+   },
+   "131a0f74fd3228200c058120875af6a7": {
+    "bytes": 344994,
+    "derived_md5": "131a0f74fd3228200c058120875af6a7",
+    "key": "reproductive/131a0f74-arum-italicum-kiel-kaiser-4.jpg"
+   },
+   "14570a7f6edeaf4d858cb75c73e961ee": {
+    "bytes": 232884,
+    "derived_md5": "74d65ee7dba4968940563a9d1b9ee95b",
+    "key": "reproductive/74d65ee7-arum-italicum-danmarquand-3.jpg"
+   },
+   "147f28dbaf929274849a5a0be2173f1c": {
+    "bytes": 375372,
+    "derived_md5": "147f28dbaf929274849a5a0be2173f1c",
+    "key": "reproductive/147f28db-arum-italicum-pmgaspar-6.jpg"
+   },
+   "16dd5bc3aa32db617c721e1f492547fa": {
+    "bytes": 231177,
+    "derived_md5": "16dd5bc3aa32db617c721e1f492547fa",
+    "key": "reproductive/16dd5bc3-david-scherberich-1.jpg"
+   },
+   "18ec79fdaba3f638f69ad17676a238ba": {
+    "bytes": 243037,
+    "derived_md5": "18ec79fdaba3f638f69ad17676a238ba",
+    "key": "reproductive/18ec79fd-arum-italicum-susan-dean-thomas.jpg"
+   },
+   "1dba2f1773af2113a4e6e9b7592ecc36": {
+    "bytes": 294962,
+    "derived_md5": "1dba2f1773af2113a4e6e9b7592ecc36",
+    "key": "reproductive/1dba2f17-arum-italicum-khettab-sara.jpg"
+   },
+   "240fe9df867782264ac80bd874b653e2": {
+    "bytes": 613424,
+    "derived_md5": "240fe9df867782264ac80bd874b653e2",
+    "key": "reproductive/240fe9df-arum-italicum-tarek-bejaoui-8.jpg"
+   },
+   "29119136bebea04fffe5381565054824": {
+    "bytes": 350266,
+    "derived_md5": "29119136bebea04fffe5381565054824",
+    "key": "reproductive/29119136-arum-italicum-hannah-g-3.jpg"
+   },
+   "2f24a8ca2208589bfcc78ecfe485656b": {
+    "bytes": 232184,
+    "derived_md5": "b6bb4b24c1763cbe040aa3aca5cc72c4",
+    "key": "maps/b6bb4b24-arum-italicum-distribution-map-boyce-1993.jpg"
+   },
+   "37caa702c26ea58d415f8d633bfd07d2": {
+    "bytes": 193885,
+    "derived_md5": "37caa702c26ea58d415f8d633bfd07d2",
+    "key": "reproductive/37caa702-powo-arum-italicum-03.jpg"
+   },
+   "3d4f0fd0cfcdec8c1d9e04821260d9b0": {
+    "bytes": 59953,
+    "derived_md5": "3d4f0fd0cfcdec8c1d9e04821260d9b0",
+    "key": "reproductive/3d4f0fd0-david-scherberich-3.jpg"
+   },
+   "42643203d921c3d9d1f9d2a0dd7563e7": {
+    "bytes": 240209,
+    "derived_md5": "42643203d921c3d9d1f9d2a0dd7563e7",
+    "key": "reproductive/42643203-arum-italicum-bernard-nogu-s.jpg"
+   },
+   "4960fe8bc13d963abc16773571a0faf1": {
+    "bytes": 253352,
+    "derived_md5": "4960fe8bc13d963abc16773571a0faf1",
+    "key": "reproductive/4960fe8b-arum-italicum-aur-lien-bour-6.jpg"
+   },
+   "682ff2536a9febb86bda878bb5f90ead": {
+    "bytes": 515802,
+    "derived_md5": "682ff2536a9febb86bda878bb5f90ead",
+    "key": "reproductive/682ff253-arum-italicum-daniel-k-hler.jpg"
+   },
+   "72b2e552595b9c31adfcb9ccf7007082": {
+    "bytes": 572578,
+    "derived_md5": "72b2e552595b9c31adfcb9ccf7007082",
+    "key": "reproductive/72b2e552-powo-arum-italicum-02.jpg"
+   },
+   "84141d23665801fae4d4bd06a48db721": {
+    "bytes": 175524,
+    "derived_md5": "84141d23665801fae4d4bd06a48db721",
+    "key": "reproductive/84141d23-david-scherberich-2.jpg"
+   },
+   "8c3fa176aa3100b4e61379e464087204": {
+    "bytes": 391394,
+    "derived_md5": "8c3fa176aa3100b4e61379e464087204",
+    "key": "reproductive/8c3fa176-arum-italicum-pedro-f-pereira.jpg"
+   },
+   "904d37a8cf2632d7ded79b1620ca004c": {
+    "bytes": 786041,
+    "derived_md5": "904d37a8cf2632d7ded79b1620ca004c",
+    "key": "reproductive/904d37a8-arum-italicum-z-zangado-7.jpg"
+   },
+   "9993fcb4c1c1d9a0d2a1c43e3b3c133f": {
+    "bytes": 79302,
+    "derived_md5": "9993fcb4c1c1d9a0d2a1c43e3b3c133f",
+    "key": "vegetative/9993fcb4-arum-italicum-amedeo-nannini-2.jpg"
+   },
+   "b4731bc895611f000ad9a4d682636235": {
+    "bytes": 552732,
+    "derived_md5": "b4731bc895611f000ad9a4d682636235",
+    "key": "vegetative/b4731bc8-arum-italicum-aqualily.jpg"
+   },
+   "bd0ab768b822691c6a54e6cd1efb5ddf": {
+    "bytes": 349668,
+    "derived_md5": "bd0ab768b822691c6a54e6cd1efb5ddf",
+    "key": "reproductive/bd0ab768-arum-italicum-pere-valls.jpg"
+   },
+   "c438f1bc2db493dcd0e7558dd2e0fbea": {
+    "bytes": 59462,
+    "derived_md5": "c438f1bc2db493dcd0e7558dd2e0fbea",
+    "key": "reproductive/c438f1bc-david-scherberich-4.jpg"
+   },
+   "ceaff4176b311e05626b67591825eb1b": {
+    "bytes": 831871,
+    "derived_md5": "d7cce8fbe37545ca368f19dda082406e",
+    "key": "protologue/d7cce8fb-arum-italicum-protologue-the-gardeners-dictionary-ed-8-no-2-miller-1768.jpg"
+   },
+   "d2a17febba4148ed5065e6baa099e994": {
+    "bytes": 105423,
+    "derived_md5": "d2a17febba4148ed5065e6baa099e994",
+    "key": "reproductive/d2a17feb-powo-arum-italicum-01.jpg"
+   },
+   "e36be3e24dd27201602b1bbb43245a0a": {
+    "bytes": 187073,
+    "derived_md5": "e36be3e24dd27201602b1bbb43245a0a",
+    "key": "reproductive/e36be3e2-arum-italicum-beatriz-machado-3.jpg"
+   },
+   "e3704ec4958acfb9bfd9c27bdd264f5b": {
+    "bytes": 552145,
+    "derived_md5": "e3704ec4958acfb9bfd9c27bdd264f5b",
+    "key": "reproductive/e3704ec4-arum-italicum-emilio-and-jar.jpg"
+   },
+   "f90296d910bcf014d7d39c1bde56cb26": {
+    "bytes": 708648,
+    "derived_md5": "f90296d910bcf014d7d39c1bde56cb26",
+    "key": "reproductive/f90296d9-arum-italicum-antonio-goncalves.jpg"
+   }
+  },
+  "arum/italicum-'chui'": {
+   "5706e2f7203d13f771bd8eeb6dd48c62": {
+    "bytes": 262159,
+    "derived_md5": "5706e2f7203d13f771bd8eeb6dd48c62",
+    "key": "reproductive/5706e2f7-chris-cotterell.jpg"
+   },
+   "59f902ee0ecb59d98e91f2d325261a29": {
+    "bytes": 164134,
+    "derived_md5": "59f902ee0ecb59d98e91f2d325261a29",
+    "key": "hero/59f902ee-bulbonomads.webp"
+   }
+  },
+  "arum/jacquemontii": {
+   "522313c138ab16ecdbfcd5f84a55d158": {
+    "bytes": 164968,
+    "derived_md5": "41acef55f4a65045a54f892ca3fd6e55",
+    "key": "maps/41acef55-arum-jacquemontii-distribution-map-boyce-1993-map-17.jpg"
+   },
+   "a8a41cba0d79273b5da1acf7f76286fc": {
+    "bytes": 189265,
+    "derived_md5": "a8a41cba0d79273b5da1acf7f76286fc",
+    "key": "reproductive/a8a41cba-powo-arum-jacquemontii-01.jpg"
+   },
+   "cb6ea9d594f7be8530dd6796a9020185": {
+    "bytes": 199421,
+    "derived_md5": "cb6ea9d594f7be8530dd6796a9020185",
+    "key": "other/cb6ea9d5-powo-arum-jacquemontii-03.jpg"
+   },
+   "e3484579c3979fcbedb122eb1bf95487": {
+    "bytes": 204195,
+    "derived_md5": "e3484579c3979fcbedb122eb1bf95487",
+    "key": "hero/e3484579-powo-arum-jacquemontii-02.jpg"
+   },
+   "e981eed895d4e8e0e4a93f67fe113f16": {
+    "bytes": 571438,
+    "derived_md5": "e981eed895d4e8e0e4a93f67fe113f16",
+    "key": "protologue/e981eed8-arum-jacquemontii-protologue-rumphia-1-118-blume-1836.jpg"
+   }
+  },
+  "arum/korolkowii": {
+   "0cbecd1d70f49db5491671e91849b8ab": {
+    "bytes": 485685,
+    "derived_md5": "0cbecd1d70f49db5491671e91849b8ab",
+    "key": "reproductive/0cbecd1d-arum-korolkowii-7.jpg"
+   },
+   "2a586742d9889e74030da1bd0a760e20": {
+    "bytes": 353681,
+    "derived_md5": "2a586742d9889e74030da1bd0a760e20",
+    "key": "reproductive/2a586742-arum-korolkowii-kamola-akbarova.jpg"
+   },
+   "2d92490c3f392dac5523773a2a6bb463": {
+    "bytes": 115871,
+    "derived_md5": "2d92490c3f392dac5523773a2a6bb463",
+    "key": "reproductive/2d92490c-powo-arum-korolkowii-03.jpg"
+   },
+   "3bc670416d50d852167a99ca3bea4c46": {
+    "bytes": 368671,
+    "derived_md5": "3bc670416d50d852167a99ca3bea4c46",
+    "key": "reproductive/3bc67041-arum-korolkowii-6.jpg"
+   },
+   "48d6af073c476fffd97ce764c44ef936": {
+    "bytes": 241868,
+    "derived_md5": "48d6af073c476fffd97ce764c44ef936",
+    "key": "reproductive/48d6af07-arum-korolkowii-mohammad-reza-ehsanimarani.jpg"
+   },
+   "607562bb4d64ec3511b6fc78be65c537": {
+    "bytes": 155050,
+    "derived_md5": "bab820fb1c0a0d7a4a3bfe0f8e844646",
+    "key": "maps/bab820fb-arum-korolkowii-distribution-map-boyce-1993-map-18.jpg"
+   },
+   "7856bce0379f88f79d531d9ab996d93c": {
+    "bytes": 158478,
+    "derived_md5": "7856bce0379f88f79d531d9ab996d93c",
+    "key": "reproductive/7856bce0-powo-arum-korolkowii-02.jpg"
+   },
+   "7a7d795808a0372bd7a448376c5ad7a6": {
+    "bytes": 547482,
+    "derived_md5": "7a7d795808a0372bd7a448376c5ad7a6",
+    "key": "vegetative/7a7d7958-arum-korolkowii-vladimir-epiktetov-3.jpg"
+   },
+   "89fa567e28e4fa0c0d1316493a2fafd9": {
+    "bytes": 745251,
+    "derived_md5": "89fa567e28e4fa0c0d1316493a2fafd9",
+    "key": "reproductive/89fa567e-arum-korolkowii-11.jpg"
+   },
+   "9b98669870c89457cc63114b0b3f306b": {
+    "bytes": 826154,
+    "derived_md5": "9b98669870c89457cc63114b0b3f306b",
+    "key": "vegetative/9b986698-arum-korolkowii-komiljon-saidov.jpg"
+   },
+   "a2ccd5166affd52702633ce24fffc540": {
+    "bytes": 155665,
+    "derived_md5": "a2ccd5166affd52702633ce24fffc540",
+    "key": "reproductive/a2ccd516-arum-korolkowii-ori-fragman-sapir-3.jpg"
+   },
+   "bf1e1ae17bb12dd42a4e0640b345e721": {
+    "bytes": 264508,
+    "derived_md5": "bf1e1ae17bb12dd42a4e0640b345e721",
+    "key": "hero/bf1e1ae1-powo-arum-korolkowii-01.jpg"
+   },
+   "c2529b07c0897fec054b60ec4265d94f": {
+    "bytes": 473211,
+    "derived_md5": "c2529b07c0897fec054b60ec4265d94f",
+    "key": "reproductive/c2529b07-arum-korolkowii-gulzoda-ermatova-5.jpg"
+   },
+   "cd70b2d9ff078dae42e9cf30d45ba41e": {
+    "bytes": 1007687,
+    "derived_md5": "cd70b2d9ff078dae42e9cf30d45ba41e",
+    "key": "protologue/cd70b2d9-arum-korolkowii-protologue-acta-horti-petropolitani-2-407-regel-1873.jpg"
+   }
+  },
+  "arum/lucanum": {
+   "13ef550d48de9ca8191c5dc269f329c4": {
+    "bytes": 429122,
+    "derived_md5": "77e6795036b8b0cd6d9ef0c1d68bbcf4",
+    "key": "protologue/77e67950-arum-lucanum-protologue-bullettino-dell-orto-botanico-della-regia-universita-di-napoli-3-409-cavara-and-grande-1913-p409.jpg"
+   },
+   "1838ecfd265fdeff2388043ee79a5098": {
+    "bytes": 177126,
+    "derived_md5": "1838ecfd265fdeff2388043ee79a5098",
+    "key": "other/1838ecfd-powo-arum-lucanum-03.jpg"
+   },
+   "3a932c07326a7859da53632bc6cdef2b": {
+    "bytes": 909191,
+    "derived_md5": "3a932c07326a7859da53632bc6cdef2b",
+    "key": "reproductive/3a932c07-arum-lucanum-gabriele-la-grasta.jpg"
+   },
+   "53a7b7caedbc3c00e4285adb98b2217f": {
+    "bytes": 275542,
+    "derived_md5": "53a7b7caedbc3c00e4285adb98b2217f",
+    "key": "hero/53a7b7ca-powo-arum-lucanum-02.jpg"
+   },
+   "9d40062a57adef146b0d3b40f91ab67a": {
+    "bytes": 274972,
+    "derived_md5": "9d40062a57adef146b0d3b40f91ab67a",
+    "key": "reproductive/9d40062a-powo-arum-lucanum-01.jpg"
+   },
+   "d869fa3c37fe335e7c5426ff0bf260e8": {
+    "bytes": 150853,
+    "derived_md5": "28e6d648450a9baac3a347036a296872",
+    "key": "maps/28e6d648-arum-lucanum-distribution-map-boyce-1993-map-8.jpg"
+   },
+   "db1edf21f01d4ab5fbcf402261c156ec": {
+    "bytes": 472917,
+    "derived_md5": "45b2068aa1bc375be52d462a7a070577",
+    "key": "protologue/45b2068a-arum-lucanum-protologue-bullettino-dell-orto-botanico-della-regia-universita-di-napoli-3-410-cavara-and-grande-1913-p410-cont.jpg"
+   }
+  },
+  "arum/maculatum": {
+   "007f9db42fae83fd19ba74746f80377e": {
+    "bytes": 478993,
+    "derived_md5": "007f9db42fae83fd19ba74746f80377e",
+    "key": "reproductive/007f9db4-arum-maculatum-ale-zv-ra-4.jpg"
+   },
+   "03a76de37572b6f7cb7b8ccae22d64a2": {
+    "bytes": 297355,
+    "derived_md5": "d446e9b67ca0d659e5ff7091330a67b8",
+    "key": "maps/d446e9b6-arum-maculatum-distribution-map-boyce-1993-map-1.jpg"
+   },
+   "26a13441476a66e533af474dc27b6b9d": {
+    "bytes": 627208,
+    "derived_md5": "26a13441476a66e533af474dc27b6b9d",
+    "key": "vegetative/26a13441-arum-maculatum-frx-10.jpg"
+   },
+   "2a5dc4c94d09a32672b40afd11c9eadf": {
+    "bytes": 497480,
+    "derived_md5": "2a5dc4c94d09a32672b40afd11c9eadf",
+    "key": "reproductive/2a5dc4c9-arum-maculatum-frederik.jpg"
+   },
+   "3a2fd6f387cb072f216ea112f3981a23": {
+    "bytes": 142301,
+    "derived_md5": "3a2fd6f387cb072f216ea112f3981a23",
+    "key": "reproductive/3a2fd6f3-arum-maculatum-miroslav-mari.jpg"
+   },
+   "3de0a68a34bf15d35f31a8e13d569354": {
+    "bytes": 132120,
+    "derived_md5": "3de0a68a34bf15d35f31a8e13d569354",
+    "key": "reproductive/3de0a68a-arum-maculatum-wildlifethueringen23.jpg"
+   },
+   "3fb8b6273778e824ac2e34b468cd8e94": {
+    "bytes": 361506,
+    "derived_md5": "3fb8b6273778e824ac2e34b468cd8e94",
+    "key": "reproductive/3fb8b627-arum-maculatum-ahmed-muj-inovi-2.jpg"
+   },
+   "401ca82ea14721585c47130ffe8c65e5": {
+    "bytes": 389705,
+    "derived_md5": "401ca82ea14721585c47130ffe8c65e5",
+    "key": "reproductive/401ca82e-arum-maculatum-jannic-justen.jpg"
+   },
+   "429f417a19546ac779a583b211219806": {
+    "bytes": 160718,
+    "derived_md5": "429f417a19546ac779a583b211219806",
+    "key": "reproductive/429f417a-powo-arum-maculatum-01.jpg"
+   },
+   "45ab35e1ab1f83193ca6c09eade385da": {
+    "bytes": 71770,
+    "derived_md5": "45ab35e1ab1f83193ca6c09eade385da",
+    "key": "vegetative/45ab35e1-arum-maculatum-alex-martin-verner-4.jpg"
+   },
+   "4918e558126abca50a1bcf1bc5f2679c": {
+    "bytes": 718275,
+    "derived_md5": "4918e558126abca50a1bcf1bc5f2679c",
+    "key": "reproductive/4918e558-arum-maculatum-radu-l.jpg"
+   },
+   "4b8759d2d1622d30099aafa0cc0a98d2": {
+    "bytes": 621245,
+    "derived_md5": "4b8759d2d1622d30099aafa0cc0a98d2",
+    "key": "reproductive/4b8759d2-arum-maculatum-albie-cockayne.jpg"
+   },
+   "575d4be0034bdab24d4f327085014b0a": {
+    "bytes": 717743,
+    "derived_md5": "21c2fe34af70d0189247e0f67d695200",
+    "key": "protologue/21c2fe34-arum-maculatum-protologue-species-plantarum-2-966-linnaeus-1753.jpg"
+   },
+   "5843c1dd664c664779f0d275af7b70fc": {
+    "bytes": 169487,
+    "derived_md5": "5843c1dd664c664779f0d275af7b70fc",
+    "key": "reproductive/5843c1dd-arum-maculatum-connie-walker.jpg"
+   },
+   "5bc4bd67ac16ddd2e60b6fee43bfa33f": {
+    "bytes": 268242,
+    "derived_md5": "5bc4bd67ac16ddd2e60b6fee43bfa33f",
+    "key": "reproductive/5bc4bd67-arum-maculatum-b-phalan-4.jpg"
+   },
+   "618e1a3afd06c3f85097c4f3de7e08c7": {
+    "bytes": 469018,
+    "derived_md5": "618e1a3afd06c3f85097c4f3de7e08c7",
+    "key": "reproductive/618e1a3a-arum-maculatum-au3nland-13.jpg"
+   },
+   "67f0fda142009b7b8b60551572b3620c": {
+    "bytes": 382452,
+    "derived_md5": "67f0fda142009b7b8b60551572b3620c",
+    "key": "reproductive/67f0fda1-arum-maculatum-grzegorz-grzejszczak-2.jpg"
+   },
+   "6d12751ebf19a0bdf255dd191631a562": {
+    "bytes": 198210,
+    "derived_md5": "6d12751ebf19a0bdf255dd191631a562",
+    "key": "reproductive/6d12751e-arum-maculatum-alenka-mihoric.jpg"
+   },
+   "6dee7ae94342416e4253e4a13c53ce91": {
+    "bytes": 810387,
+    "derived_md5": "6dee7ae94342416e4253e4a13c53ce91",
+    "key": "reproductive/6dee7ae9-arum-maculatum-barbara-van-cleve-3.jpg"
+   },
+   "75fd2efcc35dc59996fa9cffcc6aaf5f": {
+    "bytes": 509121,
+    "derived_md5": "75fd2efcc35dc59996fa9cffcc6aaf5f",
+    "key": "vegetative/75fd2efc-arum-maculatum-charlotte-cy.jpg"
+   },
+   "79023a1ff5018fd89e8958953f178a16": {
+    "bytes": 499090,
+    "derived_md5": "79023a1ff5018fd89e8958953f178a16",
+    "key": "vegetative/79023a1f-arum-maculatum-florirudolf-2.jpg"
+   },
+   "857b6ff17071d15b146373aedd7cbb1d": {
+    "bytes": 489576,
+    "derived_md5": "857b6ff17071d15b146373aedd7cbb1d",
+    "key": "vegetative/857b6ff1-arum-maculatum-florence-miller.jpg"
+   },
+   "85bb740da44dd8966c985abd4e58cbad": {
+    "bytes": 606285,
+    "derived_md5": "85bb740da44dd8966c985abd4e58cbad",
+    "key": "reproductive/85bb740d-arum-maculatum-barbara-van-cleve-4.jpg"
+   },
+   "8c6852861d247e398087503160a0f4aa": {
+    "bytes": 446236,
+    "derived_md5": "8c6852861d247e398087503160a0f4aa",
+    "key": "reproductive/8c685286-arum-maculatum-elisabeth-kaltenegger.jpg"
+   },
+   "8f11d788b9fc73b6874cc7867e8b1637": {
+    "bytes": 483633,
+    "derived_md5": "8f11d788b9fc73b6874cc7867e8b1637",
+    "key": "reproductive/8f11d788-arum-maculatum-barbara-van-cleve-5.jpg"
+   },
+   "92d80495838de267b76320e3d10b291a": {
+    "bytes": 616594,
+    "derived_md5": "92d80495838de267b76320e3d10b291a",
+    "key": "reproductive/92d80495-arum-maculatum-b-phalan-2.jpg"
+   },
+   "9c5e07afcbb474be314fc962d03da337": {
+    "bytes": 235880,
+    "derived_md5": "9c5e07afcbb474be314fc962d03da337",
+    "key": "reproductive/9c5e07af-david-scherberich-1.jpg"
+   },
+   "a925a8245943e24856cb10c0b5888e18": {
+    "bytes": 372245,
+    "derived_md5": "a925a8245943e24856cb10c0b5888e18",
+    "key": "vegetative/a925a824-arum-maculatum-ciaron.jpg"
+   },
+   "af33d8ffc57fc928e8dfb3eef798d250": {
+    "bytes": 61565,
+    "derived_md5": "af33d8ffc57fc928e8dfb3eef798d250",
+    "key": "reproductive/af33d8ff-david-scherberich-3.jpg"
+   },
+   "ba58267524dcec0073e2162e13704b89": {
+    "bytes": 125122,
+    "derived_md5": "ba58267524dcec0073e2162e13704b89",
+    "key": "reproductive/ba582675-powo-arum-maculatum-03.jpg"
+   },
+   "bdaf9e0662893a8d9e7c2c531a4c2e17": {
+    "bytes": 240262,
+    "derived_md5": "bdaf9e0662893a8d9e7c2c531a4c2e17",
+    "key": "reproductive/bdaf9e06-arum-maculatum-jonas-v.jpg"
+   },
+   "bde58bf7789f5335b98b2435311ffbbd": {
+    "bytes": 134059,
+    "derived_md5": "bde58bf7789f5335b98b2435311ffbbd",
+    "key": "reproductive/bde58bf7-david-scherberich-2.jpg"
+   },
+   "c851232186719586afac6f41cd720f31": {
+    "bytes": 147963,
+    "derived_md5": "c851232186719586afac6f41cd720f31",
+    "key": "reproductive/c8512321-arum-maculatum-exner-tam-s.jpg"
+   },
+   "d094c05bea620b60aee50783fcbe9eef": {
+    "bytes": 355977,
+    "derived_md5": "d094c05bea620b60aee50783fcbe9eef",
+    "key": "hero/d094c05b-arum-maculatum-d-h-mmerli.jpg"
+   },
+   "e3ed99670e15b20a48cd0921006a7ed1": {
+    "bytes": 177636,
+    "derived_md5": "e3ed99670e15b20a48cd0921006a7ed1",
+    "key": "reproductive/e3ed9967-powo-arum-maculatum-02.jpg"
+   },
+   "edeaeeddf821386106129ca899f284fb": {
+    "bytes": 406391,
+    "derived_md5": "edeaeeddf821386106129ca899f284fb",
+    "key": "reproductive/edeaeedd-arum-maculatum-c-fenoll.jpg"
+   },
+   "f57679a239f3e05ab2f9ae2664d5e5e0": {
+    "bytes": 99857,
+    "derived_md5": "f57679a239f3e05ab2f9ae2664d5e5e0",
+    "key": "reproductive/f57679a2-david-scherberich-4.jpg"
+   },
+   "f71ea1d4e98b9a3e529b2a67ae2c1b26": {
+    "bytes": 671242,
+    "derived_md5": "f71ea1d4e98b9a3e529b2a67ae2c1b26",
+    "key": "reproductive/f71ea1d4-arum-maculatum-a-hill.jpg"
+   }
+  },
+  "arum/megobrebi": {
+   "19d99e441e2814e2681213327c66bcbf": {
+    "bytes": 155140,
+    "derived_md5": "19d99e441e2814e2681213327c66bcbf",
+    "key": "reproductive/19d99e44-david-scherberich-2.jpg"
+   },
+   "1e545ad0466e2b7ed3e0d20c3d9b30de": {
+    "bytes": 471516,
+    "derived_md5": "1e545ad0466e2b7ed3e0d20c3d9b30de",
+    "key": "reproductive/1e545ad0-arum-megobrebi-julia-shumilkina.jpg"
+   },
+   "52ead4ed2bb7fb83da0aa59009cb72c4": {
+    "bytes": 445370,
+    "derived_md5": "52ead4ed2bb7fb83da0aa59009cb72c4",
+    "key": "hero/52ead4ed-arum-megobrebi-give-peace-a-chance.jpg"
+   },
+   "64d5e079855f5c3619615ccb08d6d165": {
+    "bytes": 162739,
+    "derived_md5": "64d5e079855f5c3619615ccb08d6d165",
+    "key": "other/64d5e079-powo-arum-megobrebi-01.jpg"
+   },
+   "6e86ac82f4fd5c5b0d23391aa5e70c07": {
+    "bytes": 649937,
+    "derived_md5": "6e86ac82f4fd5c5b0d23391aa5e70c07",
+    "key": "vegetative/6e86ac82-arum-megobrebi-nikita-tiunov-11.jpg"
+   },
+   "7354e4b1a3fd3a41c4cf37063394171f": {
+    "bytes": 263562,
+    "derived_md5": "7354e4b1a3fd3a41c4cf37063394171f",
+    "key": "reproductive/7354e4b1-arum-megobrebi-ketevan-peikrishvili.jpg"
+   },
+   "808da4eaec0de0bea628049b22fd190b": {
+    "bytes": 399321,
+    "derived_md5": "808da4eaec0de0bea628049b22fd190b",
+    "key": "reproductive/808da4ea-arum-megobrebi-markus-ackermann-6.jpg"
+   },
+   "9015fba9b115fa7e2ad27091b7de437f": {
+    "bytes": 657120,
+    "derived_md5": "9015fba9b115fa7e2ad27091b7de437f",
+    "key": "vegetative/9015fba9-arum-megobrebi-kirill-kotov-4.jpg"
+   },
+   "9ec5a26f985d9f6a06c5b2edb8c593e2": {
+    "bytes": 187668,
+    "derived_md5": "9ec5a26f985d9f6a06c5b2edb8c593e2",
+    "key": "reproductive/9ec5a26f-david-scherberich.jpg"
+   },
+   "a04ad7ae3187b87f9fd947b0e60fb0d5": {
+    "bytes": 307292,
+    "derived_md5": "a04ad7ae3187b87f9fd947b0e60fb0d5",
+    "key": "reproductive/a04ad7ae-arum-megobrebi-markus-ackermann-7.jpg"
+   },
+   "ce788368c9f15acaaa799e9013831dd6": {
+    "bytes": 537820,
+    "derived_md5": "ce788368c9f15acaaa799e9013831dd6",
+    "key": "reproductive/ce788368-arum-megobrebi-2.jpg"
+   },
+   "dc0349d936d35f40d7f65d845afa16b8": {
+    "bytes": 596440,
+    "derived_md5": "dc0349d936d35f40d7f65d845afa16b8",
+    "key": "vegetative/dc0349d9-arum-megobrebi-nikita-tiunov-2.jpg"
+   }
+  },
+  "arum/meryemianum": {
+   "0a3c7bb064975b24e84ec2a31e5233ef": {
+    "bytes": 355607,
+    "derived_md5": "9463cdfea262429739e39e06a8c37b89",
+    "key": "maps/9463cdfe-arum-meryemianum-distribution-map-turkiye-yayilis-haritasi-figure-2-bagbahce-bilim-dergisi-10-1-yildirim-2023.jpg"
+   },
+   "69a025165ffd69b460a084dda9d8bf05": {
+    "bytes": 231283,
+    "derived_md5": "69a025165ffd69b460a084dda9d8bf05",
+    "key": "reproductive/69a02516-arum-meryemianum-mehmet-elik-2.jpg"
+   },
+   "9faf250e24bc23a4cd517fa19f3782e8": {
+    "bytes": 527537,
+    "derived_md5": "9faf250e24bc23a4cd517fa19f3782e8",
+    "key": "hero/9faf250e-arum-meryemianum-mehmet-elik.jpg"
+   },
+   "e62dda23e0f107db60f31db67e0e3385": {
+    "bytes": 663244,
+    "derived_md5": "e62dda23e0f107db60f31db67e0e3385",
+    "key": "reproductive/e62dda23-arum-meryemianum-mehmet-elik-3.jpg"
+   }
+  },
+  "arum/nigrum": {
+   "156884b9f1797cfc8da9375f6a7cd14c": {
+    "bytes": 620549,
+    "derived_md5": "ca01f364b0b44fbd7ce84937a141cba0",
+    "key": "other/ca01f364-arum-nigrum-icones-aroidearum-t-37-schott-1857.jpg"
+   },
+   "1ddf6713c6980623f73e8cb7836256d2": {
+    "bytes": 173903,
+    "derived_md5": "87307d146b2aea667ca686939de1eaee",
+    "key": "maps/87307d14-arum-nigrum-distribution-map-boyce-1993-map-10.jpg"
+   },
+   "468407194ba5bc01ee82fc463b6163f8": {
+    "bytes": 336966,
+    "derived_md5": "468407194ba5bc01ee82fc463b6163f8",
+    "key": "reproductive/46840719-arum-nigrum-rosey-jarvis.jpg"
+   },
+   "49519539d84f620116a32814d7f5b67e": {
+    "bytes": 606162,
+    "derived_md5": "49519539d84f620116a32814d7f5b67e",
+    "key": "hero/49519539-arum-nigrum-ewa.jpg"
+   },
+   "9d2fd9bb4677ea1319b535a081859bf1": {
+    "bytes": 276601,
+    "derived_md5": "9d2fd9bb4677ea1319b535a081859bf1",
+    "key": "reproductive/9d2fd9bb-arum-nigrum.jpg"
+   },
+   "b521e6307f95f67ea24649ead6d5f1bd": {
+    "bytes": 82070,
+    "derived_md5": "b521e6307f95f67ea24649ead6d5f1bd",
+    "key": "reproductive/b521e630-powo-arum-nigrum-02.jpg"
+   },
+   "cba6255928f5a8125ccd2ede1c1a95be": {
+    "bytes": 375445,
+    "derived_md5": "cba6255928f5a8125ccd2ede1c1a95be",
+    "key": "reproductive/cba62559-arum-nigrum-benjamin-schwartz-3.jpg"
+   },
+   "d6520fd2b36e7e942fe63bc0afb866d7": {
+    "bytes": 716417,
+    "derived_md5": "d6520fd2b36e7e942fe63bc0afb866d7",
+    "key": "vegetative/d6520fd2-arum-nigrum-arsenii.jpg"
+   },
+   "df53c2431adc489d50c5f33ec8f3c917": {
+    "bytes": 139005,
+    "derived_md5": "df53c2431adc489d50c5f33ec8f3c917",
+    "key": "reproductive/df53c243-powo-arum-nigrum-01.jpg"
+   },
+   "f0bb4068214339ea09e20701cdfa487f": {
+    "bytes": 459349,
+    "derived_md5": "201829d7bc15d75aa1eba6234327f5b9",
+    "key": "other/201829d7-arum-nigrum-icones-aroidearum-t-38-schott-1857.jpg"
+   },
+   "f293fd7eb114832041c91ab5ffe1fa5b": {
+    "bytes": 172692,
+    "derived_md5": "f293fd7eb114832041c91ab5ffe1fa5b",
+    "key": "other/f293fd7e-powo-arum-nigrum-03.jpg"
+   },
+   "f6016994126ba84161a25e8445f27c65": {
+    "bytes": 574819,
+    "derived_md5": "dc5b3d82415727f04512feb9ae32d6f5",
+    "key": "protologue/dc5b3d82-arum-nigrum-protologue-oesterreichisches-botanisches-wochenblatt-7-213-schott-1857.jpg"
+   },
+   "fb911c78b9ff0d10b5d0b92e8830cceb": {
+    "bytes": 377400,
+    "derived_md5": "fb911c78b9ff0d10b5d0b92e8830cceb",
+    "key": "vegetative/fb911c78-arum-nigrum-mirko-ubovi.jpg"
+   }
+  },
+  "arum/orientale": {
+   "09c3c912aec47fc6bfe53296f7f0b8a3": {
+    "bytes": 75027,
+    "derived_md5": "09c3c912aec47fc6bfe53296f7f0b8a3",
+    "key": "reproductive/09c3c912-powo-arum-orientale-02.jpg"
+   },
+   "1a764a379e0bfc43c33d692d6a09a13e": {
+    "bytes": 630621,
+    "derived_md5": "1a764a379e0bfc43c33d692d6a09a13e",
+    "key": "vegetative/1a764a37-arum-orientale-2.jpg"
+   },
+   "27298e2026221611189d42c7fd0923b1": {
+    "bytes": 387246,
+    "derived_md5": "27298e2026221611189d42c7fd0923b1",
+    "key": "reproductive/27298e20-arum-orientale-5.jpg"
+   },
+   "2eb590c6457a924303403c6ea8c6b3ff": {
+    "bytes": 530011,
+    "derived_md5": "2eb590c6457a924303403c6ea8c6b3ff",
+    "key": "reproductive/2eb590c6-arum-orientale-lullula-m.jpg"
+   },
+   "3e3aacdac48a024b64f12822cecfd213": {
+    "bytes": 167401,
+    "derived_md5": "3e3aacdac48a024b64f12822cecfd213",
+    "key": "reproductive/3e3aacda-arum-orientale-aleksei-baushev-4.jpg"
+   },
+   "5c78c8b5cbd3bcbf1a41fb3986e6a99e": {
+    "bytes": 755627,
+    "derived_md5": "5c78c8b5cbd3bcbf1a41fb3986e6a99e",
+    "key": "protologue/5c78c8b5-arum-orientale-protologue-flora-taurico-caucasica-2-407-marschall-von-bieberstein-1808.jpg"
+   },
+   "5daa1bfa0583a5e4942483368d8ee242": {
+    "bytes": 88807,
+    "derived_md5": "5daa1bfa0583a5e4942483368d8ee242",
+    "key": "reproductive/5daa1bfa-powo-arum-orientale-03.jpg"
+   },
+   "5e9f573c351a8db569ec5fff24e735ee": {
+    "bytes": 741611,
+    "derived_md5": "5e9f573c351a8db569ec5fff24e735ee",
+    "key": "reproductive/5e9f573c-arum-orientale-alexandra.jpg"
+   },
+   "76529de8c97261f4b384f5991510bcd9": {
+    "bytes": 239413,
+    "derived_md5": "76529de8c97261f4b384f5991510bcd9",
+    "key": "reproductive/76529de8-arum-orientale-mirko-ubovi-11.jpg"
+   },
+   "932c1d71efbba48711579d24927d3a8a": {
+    "bytes": 403231,
+    "derived_md5": "932c1d71efbba48711579d24927d3a8a",
+    "key": "reproductive/932c1d71-arum-orientale-aleksandrabrusova-3.jpg"
+   },
+   "9c37812159852d935c6b7086a95f2192": {
+    "bytes": 581424,
+    "derived_md5": "9c37812159852d935c6b7086a95f2192",
+    "key": "hero/9c378121-arum-orientale-alexey-zyryanov-2.jpg"
+   },
+   "9e1bbfc3671e088a3774ce25fe8ac388": {
+    "bytes": 496341,
+    "derived_md5": "9e1bbfc3671e088a3774ce25fe8ac388",
+    "key": "vegetative/9e1bbfc3-arum-orientale-2.jpg"
+   },
+   "a408be4255d8fab6e4e6ebd477d37f51": {
+    "bytes": 707196,
+    "derived_md5": "a408be4255d8fab6e4e6ebd477d37f51",
+    "key": "vegetative/a408be42-arum-orientale-demina-masha-2.jpg"
+   },
+   "aa8adc66051af90270f2e93ab5056231": {
+    "bytes": 773920,
+    "derived_md5": "aa8adc66051af90270f2e93ab5056231",
+    "key": "vegetative/aa8adc66-arum-orientale-alexandr.jpg"
+   },
+   "ab607f8bc3512f38a6f3ee700d81faec": {
+    "bytes": 227526,
+    "derived_md5": "ab607f8bc3512f38a6f3ee700d81faec",
+    "key": "reproductive/ab607f8b-arum-orientale-75.jpg"
+   },
+   "aca59b39c41c9cb7098672b00ed9a7e4": {
+    "bytes": 435377,
+    "derived_md5": "aca59b39c41c9cb7098672b00ed9a7e4",
+    "key": "vegetative/aca59b39-arum-orientale-th-o-philippe-11.jpg"
+   },
+   "c260adc2d173d964d3c3b35c73be3e7e": {
+    "bytes": 235766,
+    "derived_md5": "c260adc2d173d964d3c3b35c73be3e7e",
+    "key": "reproductive/c260adc2-arum-orientale-72.jpg"
+   },
+   "ccf3f4549e3381f6ac63fd053457ee8d": {
+    "bytes": 552578,
+    "derived_md5": "ccf3f4549e3381f6ac63fd053457ee8d",
+    "key": "vegetative/ccf3f454-arum-orientale-stevem4560-16.jpg"
+   },
+   "d02ed444678f3f234804d6d5c2c9386d": {
+    "bytes": 246845,
+    "derived_md5": "d02ed444678f3f234804d6d5c2c9386d",
+    "key": "reproductive/d02ed444-arum-orientale-max-kindler-4.jpg"
+   },
+   "d2b99842484a00fcb252cd044c54faf2": {
+    "bytes": 755111,
+    "derived_md5": "d2b99842484a00fcb252cd044c54faf2",
+    "key": "reproductive/d2b99842-arum-orientale-aleksei-baushev-2.jpg"
+   },
+   "d3e9485a717a673c3b9a408d64bce257": {
+    "bytes": 371619,
+    "derived_md5": "d3e9485a717a673c3b9a408d64bce257",
+    "key": "reproductive/d3e9485a-arum-orientale-th-o-philippe-8.jpg"
+   },
+   "d49769179356035ab5186df636466f5d": {
+    "bytes": 421831,
+    "derived_md5": "d49769179356035ab5186df636466f5d",
+    "key": "vegetative/d4976917-arum-orientale-alexey-zyryanov.jpg"
+   },
+   "d8904f0429a7fcb4c5469582ac8d95ef": {
+    "bytes": 523876,
+    "derived_md5": "d8904f0429a7fcb4c5469582ac8d95ef",
+    "key": "vegetative/d8904f04-arum-orientale-julia-v-shner-5.jpg"
+   },
+   "dfd4f8b5cd10bee230f630bae4d6a473": {
+    "bytes": 201986,
+    "derived_md5": "798e1a5d7703cea0183474b63c79ddf3",
+    "key": "maps/798e1a5d-arum-orientale-distribution-map-boyce-1993-map-6.jpg"
+   },
+   "e2fb61967471cfd7486df792533aa329": {
+    "bytes": 277707,
+    "derived_md5": "e2fb61967471cfd7486df792533aa329",
+    "key": "reproductive/e2fb6196-arum-orientale-elena-kirichok.jpg"
+   },
+   "f1b5d98fe0b15fb9e3b69332e4b184f8": {
+    "bytes": 220911,
+    "derived_md5": "f1b5d98fe0b15fb9e3b69332e4b184f8",
+    "key": "reproductive/f1b5d98f-arum-orientale-aleksandrzubar.jpg"
+   },
+   "f3586150966f18c523df8687b42dc9c5": {
+    "bytes": 92231,
+    "derived_md5": "f3586150966f18c523df8687b42dc9c5",
+    "key": "reproductive/f3586150-powo-arum-orientale-01.jpg"
+   },
+   "f5dcf80c91b4c07acfca3be3d29a2ab3": {
+    "bytes": 198701,
+    "derived_md5": "f5dcf80c91b4c07acfca3be3d29a2ab3",
+    "key": "reproductive/f5dcf80c-arum-orientale-82.jpg"
+   }
+  },
+  "arum/palaestinum": {
+   "0c3f119a8987ce921f7bbaa6bf747545": {
+    "bytes": 318032,
+    "derived_md5": "0c3f119a8987ce921f7bbaa6bf747545",
+    "key": "reproductive/0c3f119a-arum-palaestinum-abedalsalam-6.jpg"
+   },
+   "0ff14d20595e26e09c1bfe66bbc415a2": {
+    "bytes": 234751,
+    "derived_md5": "0ff14d20595e26e09c1bfe66bbc415a2",
+    "key": "reproductive/0ff14d20-arum-palaestinum-bsltvolunteer.jpg"
+   },
+   "122673b5f9818e66f93a98a63ec2270f": {
+    "bytes": 221683,
+    "derived_md5": "122673b5f9818e66f93a98a63ec2270f",
+    "key": "reproductive/122673b5-arum-palaestinum-anna-gardner-2.jpg"
+   },
+   "1a75d927fd0820c18a6720d28ad3c4fa": {
+    "bytes": 386205,
+    "derived_md5": "1a75d927fd0820c18a6720d28ad3c4fa",
+    "key": "reproductive/1a75d927-arum-palaestinum-bobasil-9.jpg"
+   },
+   "209e34e5208efc3fe4566d3364f06c99": {
+    "bytes": 189706,
+    "derived_md5": "209e34e5208efc3fe4566d3364f06c99",
+    "key": "reproductive/209e34e5-arum-palaestinum-elliot-meyers-8.jpg"
+   },
+   "30e931d9229d84ebb2a28a5c6d83cc17": {
+    "bytes": 221452,
+    "derived_md5": "30e931d9229d84ebb2a28a5c6d83cc17",
+    "key": "reproductive/30e931d9-arum-palaestinum-uriah-resheff-12.jpg"
+   },
+   "39ecd5b8583a98394e891c674262edb2": {
+    "bytes": 550870,
+    "derived_md5": "34b2453d7b524dfa881c56b5836c936a",
+    "key": "protologue/34b2453d-arum-palaestinum-protologue-diagnoses-plantarum-orientalium-novarum-13-6-boissier-1854.jpg"
+   },
+   "3a8301d5197d617c4e86d26e939d4920": {
+    "bytes": 422874,
+    "derived_md5": "3a8301d5197d617c4e86d26e939d4920",
+    "key": "vegetative/3a8301d5-arum-palaestinum-ron-vanderhoff-6.jpg"
+   },
+   "47d73fea64cc3f6126e27bce21b49549": {
+    "bytes": 435001,
+    "derived_md5": "47d73fea64cc3f6126e27bce21b49549",
+    "key": "vegetative/47d73fea-arum-palaestinum-abedalsalam-20.jpg"
+   },
+   "4dd0b4aa0efba7b11d28b50e6b1cf18b": {
+    "bytes": 450659,
+    "derived_md5": "4dd0b4aa0efba7b11d28b50e6b1cf18b",
+    "key": "reproductive/4dd0b4aa-arum-palaestinum-sarah-mayhoub-7.jpg"
+   },
+   "504dbae296857ac17579c0900e2f6cfb": {
+    "bytes": 186192,
+    "derived_md5": "504dbae296857ac17579c0900e2f6cfb",
+    "key": "reproductive/504dbae2-powo-arum-palaestinum-01.jpg"
+   },
+   "59cfb35fb75bf6e9a38c1b6917eb0a70": {
+    "bytes": 306860,
+    "derived_md5": "59cfb35fb75bf6e9a38c1b6917eb0a70",
+    "key": "vegetative/59cfb35f-arum-palaestinum-bobasil-22.jpg"
+   },
+   "637d2c74ab63bcc79ac258977429fa94": {
+    "bytes": 158465,
+    "derived_md5": "637d2c74ab63bcc79ac258977429fa94",
+    "key": "reproductive/637d2c74-arum-palaestinum-jodibturner-5.jpg"
+   },
+   "65037d68103ebe113c77d97f04bf9e28": {
+    "bytes": 296568,
+    "derived_md5": "65037d68103ebe113c77d97f04bf9e28",
+    "key": "reproductive/65037d68-arum-palaestinum-abedalsalam-13.jpg"
+   },
+   "6ef111005ca4e278581024b846ca6c3c": {
+    "bytes": 473955,
+    "derived_md5": "6ef111005ca4e278581024b846ca6c3c",
+    "key": "reproductive/6ef11100-arum-palaestinum-avid607-3.jpg"
+   },
+   "7b2ba218bf05217e7e646abb848238fa": {
+    "bytes": 85464,
+    "derived_md5": "7b2ba218bf05217e7e646abb848238fa",
+    "key": "reproductive/7b2ba218-arum-palaestinum-griffin-chaffin-quiray.jpg"
+   },
+   "7e7143789821af74e10491b618892b4a": {
+    "bytes": 330552,
+    "derived_md5": "7e7143789821af74e10491b618892b4a",
+    "key": "reproductive/7e714378-arum-palaestinum-abedalsalam-11.jpg"
+   },
+   "828e107932b5121f5ada4830f4e510aa": {
+    "bytes": 336176,
+    "derived_md5": "828e107932b5121f5ada4830f4e510aa",
+    "key": "reproductive/828e1079-powo-arum-palaestinum-02.jpg"
+   },
+   "9e08a2f93e0abbda8c77bbc3714191c6": {
+    "bytes": 247064,
+    "derived_md5": "9e08a2f93e0abbda8c77bbc3714191c6",
+    "key": "reproductive/9e08a2f9-arum-palaestinum-abedalsalam-5.jpg"
+   },
+   "a07e4a5fb8fdd0fa1fdfab4595c5b304": {
+    "bytes": 109086,
+    "derived_md5": "a07e4a5fb8fdd0fa1fdfab4595c5b304",
+    "key": "hero/a07e4a5f-arum-palaestinum-yehuda-sar-shalom-4.jpg"
+   },
+   "a197efc5d6e5df60dcc82de2780bafd1": {
+    "bytes": 304399,
+    "derived_md5": "a197efc5d6e5df60dcc82de2780bafd1",
+    "key": "reproductive/a197efc5-arum-palaestinum-jodibturner.jpg"
+   },
+   "a96601fcdfa6cb63b09c947088d48817": {
+    "bytes": 299932,
+    "derived_md5": "a96601fcdfa6cb63b09c947088d48817",
+    "key": "reproductive/a96601fc-arum-palaestinum-abedalsalam-2.jpg"
+   },
+   "b6a387c1b5cc96aa461403cc9bd4cb57": {
+    "bytes": 466563,
+    "derived_md5": "b6a387c1b5cc96aa461403cc9bd4cb57",
+    "key": "reproductive/b6a387c1-arum-palaestinum-natirelover523.jpg"
+   },
+   "ba202a786123d68720979fc5a2133722": {
+    "bytes": 314283,
+    "derived_md5": "ba202a786123d68720979fc5a2133722",
+    "key": "reproductive/ba202a78-arum-palaestinum-aaron.jpg"
+   },
+   "c778b10036d4988760d1f65ddbfbeb82": {
+    "bytes": 485724,
+    "derived_md5": "c778b10036d4988760d1f65ddbfbeb82",
+    "key": "reproductive/c778b100-arum-palaestinum-abedalsalam-22.jpg"
+   },
+   "d07506f6f2eb3c8745f071350a6d5f49": {
+    "bytes": 149457,
+    "derived_md5": "772ad4337487bf3bac0b8373e9245d76",
+    "key": "maps/772ad433-arum-palaestinum-distribution-map-boyce-1993-map-22.jpg"
+   },
+   "d2fe3ac8f4abcabdd2e9089c0d4514b7": {
+    "bytes": 198759,
+    "derived_md5": "d2fe3ac8f4abcabdd2e9089c0d4514b7",
+    "key": "reproductive/d2fe3ac8-powo-arum-palaestinum-03.jpg"
+   },
+   "d9cd1066e221e55882d7dcfa8535966e": {
+    "bytes": 416825,
+    "derived_md5": "d9cd1066e221e55882d7dcfa8535966e",
+    "key": "reproductive/d9cd1066-arum-palaestinum-itamar-zemel-4.jpg"
+   },
+   "db9ba4e47b0216a438e7a5febd9901c9": {
+    "bytes": 384183,
+    "derived_md5": "db9ba4e47b0216a438e7a5febd9901c9",
+    "key": "vegetative/db9ba4e4-arum-palaestinum-fred-watson.jpg"
+   },
+   "dce8ce5ff308a4802145c13dbc5d0aa7": {
+    "bytes": 374906,
+    "derived_md5": "dce8ce5ff308a4802145c13dbc5d0aa7",
+    "key": "vegetative/dce8ce5f-arum-palaestinum-abedalsalam-21.jpg"
+   },
+   "de9c9880f787bbcba7fb802f731059de": {
+    "bytes": 581289,
+    "derived_md5": "de9c9880f787bbcba7fb802f731059de",
+    "key": "reproductive/de9c9880-arum-palaestinum-rafi-amar-7.jpg"
+   },
+   "e26b59c6bb2b396b9bd46cc590651185": {
+    "bytes": 250421,
+    "derived_md5": "e26b59c6bb2b396b9bd46cc590651185",
+    "key": "reproductive/e26b59c6-arum-palaestinum-ron-frumkin-9.jpg"
+   },
+   "ebcc1fd60f239f76d9ee68c1542ed064": {
+    "bytes": 963766,
+    "derived_md5": "ebcc1fd60f239f76d9ee68c1542ed064",
+    "key": "vegetative/ebcc1fd6-arum-palaestinum-trystin-knowland-2.jpg"
+   }
+  },
+  "arum/pictum": {
+   "039b3ff0926583986cc3294ef2398cbd": {
+    "bytes": 576928,
+    "derived_md5": "9982115059cac1eb6d1d1a62a987a288",
+    "key": "protologue/99821150-arum-pictum-protologue-supplementum-plantarum-410-linnaeus-f-1782.jpg"
+   },
+   "24bb9f5bfcd2ab4e51f76a87569719a1": {
+    "bytes": 259408,
+    "derived_md5": "24bb9f5bfcd2ab4e51f76a87569719a1",
+    "key": "reproductive/24bb9f5b-powo-arum-pictum-03.jpg"
+   },
+   "28807f7b13dfb63037e1610e89173da1": {
+    "bytes": 819661,
+    "derived_md5": "28807f7b13dfb63037e1610e89173da1",
+    "key": "vegetative/28807f7b-arum-pictum-jane-concannon.jpg"
+   },
+   "2d7eeafe51e6c3b0f133a931a6f18506": {
+    "bytes": 523418,
+    "derived_md5": "2d7eeafe51e6c3b0f133a931a6f18506",
+    "key": "vegetative/2d7eeafe-arum-pictum-ale-zv-ra-5.jpg"
+   },
+   "368111eb55853390ee9b9504341f421b": {
+    "bytes": 773994,
+    "derived_md5": "368111eb55853390ee9b9504341f421b",
+    "key": "vegetative/368111eb-arum-pictum-piermario-maculan.jpg"
+   },
+   "3f99f66d3a70149579079b0e28a6f060": {
+    "bytes": 599319,
+    "derived_md5": "3f99f66d3a70149579079b0e28a6f060",
+    "key": "reproductive/3f99f66d-arum-pictum-andrea-benocci-3.jpg"
+   },
+   "4c97d9bbfbcc796a30ddce2c641bbbb6": {
+    "bytes": 871494,
+    "derived_md5": "4c97d9bbfbcc796a30ddce2c641bbbb6",
+    "key": "vegetative/4c97d9bb-arum-pictum-andre-burati.jpg"
+   },
+   "583152c84c97fe95b9ced8e708c0b893": {
+    "bytes": 775616,
+    "derived_md5": "583152c84c97fe95b9ced8e708c0b893",
+    "key": "hero/583152c8-arum-pictum-pieter-prins-5.jpg"
+   },
+   "59a5005602bfa54079653edf1d7f24ef": {
+    "bytes": 173907,
+    "derived_md5": "59a5005602bfa54079653edf1d7f24ef",
+    "key": "reproductive/59a50056-arum-pictum-marcienne-2.jpg"
+   },
+   "5def616b89815426a137813101346afa": {
+    "bytes": 488536,
+    "derived_md5": "5def616b89815426a137813101346afa",
+    "key": "reproductive/5def616b-arum-pictum-jctmacro.jpg"
+   },
+   "627bfd44326db9f926765381e809fdd7": {
+    "bytes": 633708,
+    "derived_md5": "627bfd44326db9f926765381e809fdd7",
+    "key": "reproductive/627bfd44-arum-pictum-martin-romet.jpg"
+   },
+   "771cdcdc7c2c356f07b56a1e50852835": {
+    "bytes": 620342,
+    "derived_md5": "771cdcdc7c2c356f07b56a1e50852835",
+    "key": "reproductive/771cdcdc-arum-pictum-alexandre-passos.jpg"
+   },
+   "79b1167865024bbace920c4387f292cd": {
+    "bytes": 612961,
+    "derived_md5": "79b1167865024bbace920c4387f292cd",
+    "key": "reproductive/79b11678-arum-pictum-nathanah.jpg"
+   },
+   "810c0d33d3df6c997ad0234688b6f61c": {
+    "bytes": 11637,
+    "derived_md5": "810c0d33d3df6c997ad0234688b6f61c",
+    "key": "reproductive/810c0d33-powo-arum-pictum-01.jpg"
+   },
+   "a9b43e9a9d0d6be39299f5b6554aafa7": {
+    "bytes": 220604,
+    "derived_md5": "a9b43e9a9d0d6be39299f5b6554aafa7",
+    "key": "reproductive/a9b43e9a-arum-pictum-joachim-louis.jpg"
+   },
+   "bd631af4d490d11d772c949576754e77": {
+    "bytes": 223410,
+    "derived_md5": "a48c8ebf672c8c4612ce9e63687c3a7d",
+    "key": "maps/a48c8ebf-arum-pictum-distribution-map-boyce-1993.jpg"
+   },
+   "bdc35bc3d303bd4609d03874b40f2ba0": {
+    "bytes": 496446,
+    "derived_md5": "bdc35bc3d303bd4609d03874b40f2ba0",
+    "key": "vegetative/bdc35bc3-arum-pictum-carlos-jim-nez.jpg"
+   },
+   "c02577cbc37bf01ba6ceba7024142890": {
+    "bytes": 821240,
+    "derived_md5": "c02577cbc37bf01ba6ceba7024142890",
+    "key": "reproductive/c02577cb-arum-pictum-hanka-sokolov-2.jpg"
+   },
+   "c5ca41a6eac0d80f20b8e598cdc20fe5": {
+    "bytes": 224893,
+    "derived_md5": "c5ca41a6eac0d80f20b8e598cdc20fe5",
+    "key": "reproductive/c5ca41a6-david-scherberich-2.jpg"
+   },
+   "e381fb297a4fc905cf4cf86238bd7588": {
+    "bytes": 395254,
+    "derived_md5": "e381fb297a4fc905cf4cf86238bd7588",
+    "key": "reproductive/e381fb29-arum-pictum-boris-mittermeier.jpg"
+   },
+   "e393478070ff486c1396bc045eaf7f79": {
+    "bytes": 255260,
+    "derived_md5": "e393478070ff486c1396bc045eaf7f79",
+    "key": "reproductive/e3934780-arum-pictum-jacques-hallot.jpg"
+   },
+   "ea04614f3c7187bb8a43bbbe5c11d5d9": {
+    "bytes": 107116,
+    "derived_md5": "ea04614f3c7187bb8a43bbbe5c11d5d9",
+    "key": "reproductive/ea04614f-powo-arum-pictum-02.jpg"
+   },
+   "efdf192c0a6a7fdbc04eb0fc2e20f31a": {
+    "bytes": 825041,
+    "derived_md5": "efdf192c0a6a7fdbc04eb0fc2e20f31a",
+    "key": "reproductive/efdf192c-arum-pictum-christian-neumann.jpg"
+   },
+   "fd8a1d9a285a0ba5a64d4454e778d139": {
+    "bytes": 99382,
+    "derived_md5": "fd8a1d9a285a0ba5a64d4454e778d139",
+    "key": "reproductive/fd8a1d9a-david-scherberich-1.jpg"
+   }
+  },
+  "arum/purpureospathum": {
+   "00076af5f6a8996c0c61be80c377c21e": {
+    "bytes": 617755,
+    "derived_md5": "00076af5f6a8996c0c61be80c377c21e",
+    "key": "vegetative/00076af5-arum-purpureospathum-tomopteris-2.jpg"
+   },
+   "0e10e6126e0558fd13e59ceda2d3f7f0": {
+    "bytes": 147968,
+    "derived_md5": "0e10e6126e0558fd13e59ceda2d3f7f0",
+    "key": "reproductive/0e10e612-arum-purpureospathum-fotis-samaritakis-3.jpg"
+   },
+   "183db8904a94195d8963d346e117dedf": {
+    "bytes": 194495,
+    "derived_md5": "183db8904a94195d8963d346e117dedf",
+    "key": "reproductive/183db890-david-scherberich-1.jpg"
+   },
+   "19710142966b6ba3e3fc893726d1aad9": {
+    "bytes": 141464,
+    "derived_md5": "19710142966b6ba3e3fc893726d1aad9",
+    "key": "hero/19710142-arum-purpureospathum-fotis-samaritakis-2.jpg"
+   },
+   "2a999e1a4d0852b0c3b829adfa36e839": {
+    "bytes": 396338,
+    "derived_md5": "2a999e1a4d0852b0c3b829adfa36e839",
+    "key": "reproductive/2a999e1a-powo-arum-purpureospathum-03.jpg"
+   },
+   "33f8643fd73f4a87a6177b3f8f5e9caf": {
+    "bytes": 88997,
+    "derived_md5": "33f8643fd73f4a87a6177b3f8f5e9caf",
+    "key": "reproductive/33f8643f-powo-arum-purpureospathum-01.jpg"
+   },
+   "39e6c9a0f67cab1582a2a4ef9fff1f7d": {
+    "bytes": 69472,
+    "derived_md5": "39e6c9a0f67cab1582a2a4ef9fff1f7d",
+    "key": "reproductive/39e6c9a0-david-scherberich-2.jpg"
+   },
+   "49be102a11d479b64eddc1ae3d2c7764": {
+    "bytes": 522108,
+    "derived_md5": "49be102a11d479b64eddc1ae3d2c7764",
+    "key": "reproductive/49be102a-arum-purpureospathum-tomopteris-4.jpg"
+   },
+   "66e5a6daf0cc5bdd3f1b20e1c5c48871": {
+    "bytes": 132341,
+    "derived_md5": "66e5a6daf0cc5bdd3f1b20e1c5c48871",
+    "key": "reproductive/66e5a6da-david-scherberich-3.jpg"
+   },
+   "77a4e646fac53b50cfe384c07fd4b7ee": {
+    "bytes": 504059,
+    "derived_md5": "77a4e646fac53b50cfe384c07fd4b7ee",
+    "key": "reproductive/77a4e646-arum-purpureospathum-l-der-klaus.jpg"
+   },
+   "99fa4002cfd2b0d5c5ba39de2fbaa5ee": {
+    "bytes": 886778,
+    "derived_md5": "99fa4002cfd2b0d5c5ba39de2fbaa5ee",
+    "key": "maps/99fa4002-arum-purpureospathum-distribution-map-boyce-1993-map-12.png"
+   },
+   "d8e8ae116f9d21fe719358912cea115d": {
+    "bytes": 87165,
+    "derived_md5": "d8e8ae116f9d21fe719358912cea115d",
+    "key": "reproductive/d8e8ae11-powo-arum-purpureospathum-02.jpg"
+   },
+   "e683ae66e32ae6f68853d7b2a433a4fe": {
+    "bytes": 652066,
+    "derived_md5": "e683ae66e32ae6f68853d7b2a433a4fe",
+    "key": "vegetative/e683ae66-arum-purpureospathum-tomopteris-5.jpg"
+   },
+   "f3d1e6935d2e51ed65070a009771c87f": {
+    "bytes": 686307,
+    "derived_md5": "f3d1e6935d2e51ed65070a009771c87f",
+    "key": "reproductive/f3d1e693-arum-purpureospathum-yves-bas-3.jpg"
+   }
+  },
+  "arum/rupicola": {
+   "012fbcf4a46fad53a11cf0daeb94138c": {
+    "bytes": 531979,
+    "derived_md5": "012fbcf4a46fad53a11cf0daeb94138c",
+    "key": "hero/012fbcf4-arum-rupicola-mustafa-g-kmen-6.jpg"
+   },
+   "06bc7098e5030f8190a2bbf6e3850c05": {
+    "bytes": 259452,
+    "derived_md5": "06bc7098e5030f8190a2bbf6e3850c05",
+    "key": "reproductive/06bc7098-arum-rupicola-arya-aras-2.jpg"
+   },
+   "22cd3235ae31e46353df8ee0964d8dde": {
+    "bytes": 252318,
+    "derived_md5": "3eea480e21ebadc550c982fd6f841e92",
+    "key": "maps/3eea480e-arum-rupicola-distribution-map-boyce-1993.jpg"
+   },
+   "25284652fd33b84b074ea70be808c7a8": {
+    "bytes": 622227,
+    "derived_md5": "25284652fd33b84b074ea70be808c7a8",
+    "key": "vegetative/25284652-arum-rupicola-akkar-trail.jpg"
+   },
+   "2ba932432535c4ce71648e685dfe538d": {
+    "bytes": 590517,
+    "derived_md5": "2ba932432535c4ce71648e685dfe538d",
+    "key": "reproductive/2ba93243-arum-rupicola-mehmet-elik-3.jpg"
+   },
+   "3135af463b33c9e43464e30f9c94402c": {
+    "bytes": 123659,
+    "derived_md5": "3135af463b33c9e43464e30f9c94402c",
+    "key": "reproductive/3135af46-david-scherberich-2.jpg"
+   },
+   "3263b2ebd03df5b749177141d8135450": {
+    "bytes": 548689,
+    "derived_md5": "3263b2ebd03df5b749177141d8135450",
+    "key": "reproductive/3263b2eb-arum-rupicola-ron-frumkin-3.jpg"
+   },
+   "4ddf745ed7a5076c4f3f314b1ed6c430": {
+    "bytes": 211678,
+    "derived_md5": "4ddf745ed7a5076c4f3f314b1ed6c430",
+    "key": "reproductive/4ddf745e-arum-rupicola-adriench.jpg"
+   },
+   "5fd948e103be8cf0ab422748daac23a4": {
+    "bytes": 721961,
+    "derived_md5": "5fd948e103be8cf0ab422748daac23a4",
+    "key": "vegetative/5fd948e1-arum-rupicola-denis-ivanov-2.jpg"
+   },
+   "63ecd529bafe5dffefd5b1a3eab6fad9": {
+    "bytes": 618807,
+    "derived_md5": "63ecd529bafe5dffefd5b1a3eab6fad9",
+    "key": "reproductive/63ecd529-arum-rupicola-yehuda-sar-shalom-3.jpg"
+   },
+   "65976c8f07d3ea5001c23eb125720b96": {
+    "bytes": 520574,
+    "derived_md5": "65976c8f07d3ea5001c23eb125720b96",
+    "key": "reproductive/65976c8f-arum-rupicola-zg-r-ko-ak-3.jpg"
+   },
+   "781036d4986c4b11a96b4a2450676068": {
+    "bytes": 85264,
+    "derived_md5": "781036d4986c4b11a96b4a2450676068",
+    "key": "reproductive/781036d4-arum-rupicola-mustafacelebi9738.jpg"
+   },
+   "7b2b844a1b347e70ce7da7da6de75220": {
+    "bytes": 147549,
+    "derived_md5": "7b2b844a1b347e70ce7da7da6de75220",
+    "key": "reproductive/7b2b844a-david-scherberich-1.jpg"
+   },
+   "8bdd8b28686086895ce16e7663bea32b": {
+    "bytes": 122909,
+    "derived_md5": "8bdd8b28686086895ce16e7663bea32b",
+    "key": "reproductive/8bdd8b28-david-scherberich-3.jpg"
+   },
+   "95d9df03eb407740c7e279ed3b261261": {
+    "bytes": 142234,
+    "derived_md5": "95d9df03eb407740c7e279ed3b261261",
+    "key": "reproductive/95d9df03-arum-rupicola-adriench-2.jpg"
+   },
+   "b26c8799008cdf92c0a9cc7c7b61247c": {
+    "bytes": 47250,
+    "derived_md5": "b26c8799008cdf92c0a9cc7c7b61247c",
+    "key": "reproductive/b26c8799-powo-arum-rupicola-01.jpg"
+   },
+   "beee13c3f235b477f84b871020454346": {
+    "bytes": 572169,
+    "derived_md5": "beee13c3f235b477f84b871020454346",
+    "key": "reproductive/beee13c3-arum-rupicola-yehuda-sar-shalom-4.jpg"
+   },
+   "bf38c3047bd7188b2f80b68873ed4ae6": {
+    "bytes": 59484,
+    "derived_md5": "bf38c3047bd7188b2f80b68873ed4ae6",
+    "key": "reproductive/bf38c304-powo-arum-rupicola-03.jpg"
+   },
+   "c5f3c9dd15b937221d23ed0a71db434f": {
+    "bytes": 80762,
+    "derived_md5": "c5f3c9dd15b937221d23ed0a71db434f",
+    "key": "reproductive/c5f3c9dd-powo-arum-rupicola-02.jpg"
+   },
+   "df020fb9dd02505c59a5d8ee9ca56a9f": {
+    "bytes": 485475,
+    "derived_md5": "df020fb9dd02505c59a5d8ee9ca56a9f",
+    "key": "reproductive/df020fb9-arum-rupicola-mustafa-g-kmen-5.jpg"
+   },
+   "dfe2b4854ccd51cd8f8ff617d6da8742": {
+    "bytes": 233927,
+    "derived_md5": "dfe2b4854ccd51cd8f8ff617d6da8742",
+    "key": "vegetative/dfe2b485-arum-rupicola-ibrahim-hirory-2.jpg"
+   },
+   "e07532d97e97b5f6b60e62f8bfea94d1": {
+    "bytes": 414256,
+    "derived_md5": "e07532d97e97b5f6b60e62f8bfea94d1",
+    "key": "reproductive/e07532d9-arum-rupicola-thomas-silberfeld-5.jpg"
+   },
+   "fa5feea8260041855ed8a3d407bb86b8": {
+    "bytes": 525759,
+    "derived_md5": "a75e70b979678fd29f2639cd3534011f",
+    "key": "protologue/a75e70b9-arum-rupicola-protologue-diagnoses-plantarum-orientalium-novarum-13-7-boissier-1854.jpg"
+   }
+  },
+  "arum/sintenisii": {
+   "0d781290899e7f36589ee7af9236ec79": {
+    "bytes": 174715,
+    "derived_md5": "0d781290899e7f36589ee7af9236ec79",
+    "key": "reproductive/0d781290-powo-arum-sintenisii-02.jpg"
+   },
+   "18dabc6cb4511fad8ac9bb13c08c94a3": {
+    "bytes": 177863,
+    "derived_md5": "18dabc6cb4511fad8ac9bb13c08c94a3",
+    "key": "reproductive/18dabc6c-david-scherberich-1.jpg"
+   },
+   "243df9566ab7f992ff243a01a8d96343": {
+    "bytes": 307305,
+    "derived_md5": "243df9566ab7f992ff243a01a8d96343",
+    "key": "reproductive/243df956-arum-sintenisii-zarek.jpg"
+   },
+   "50ffa6858d8703880b54bb278b8d9d6e": {
+    "bytes": 558763,
+    "derived_md5": "50ffa6858d8703880b54bb278b8d9d6e",
+    "key": "reproductive/50ffa685-arum-sintenisii-alenka-mihoric-3.jpg"
+   },
+   "5a32927672ca103934e61bb3fcb9c342": {
+    "bytes": 545045,
+    "derived_md5": "5a32927672ca103934e61bb3fcb9c342",
+    "key": "reproductive/5a329276-arum-sintenisii-dijana-dubrovi.jpg"
+   },
+   "64ddf20f46e973887f264f373a926955": {
+    "bytes": 180411,
+    "derived_md5": "64ddf20f46e973887f264f373a926955",
+    "key": "reproductive/64ddf20f-david-scherberich-4.jpg"
+   },
+   "65404cc97ea37de3979094be63471ca7": {
+    "bytes": 405549,
+    "derived_md5": "65404cc97ea37de3979094be63471ca7",
+    "key": "hero/65404cc9-arum-sintenisii-zarek-2.jpg"
+   },
+   "6cfa309c7d22ef29875e6816dabb9e8a": {
+    "bytes": 211793,
+    "derived_md5": "6cfa309c7d22ef29875e6816dabb9e8a",
+    "key": "reproductive/6cfa309c-powo-arum-sintenisii-03.jpg"
+   },
+   "afaf96b4dffdf40dc12e2d1420a0c8a9": {
+    "bytes": 51721,
+    "derived_md5": "afaf96b4dffdf40dc12e2d1420a0c8a9",
+    "key": "other/afaf96b4-pnt-01077-eleni-mcloughlin-arum-sintenisii-2-original.jpg"
+   },
+   "c346c1ae45baf30a4f71eac4b267ac82": {
+    "bytes": 448086,
+    "derived_md5": "c346c1ae45baf30a4f71eac4b267ac82",
+    "key": "vegetative/c346c1ae-arum-sintenisii-zarek-3.jpg"
+   },
+   "c796d5cee72510ed538ab30774d2a3fd": {
+    "bytes": 156281,
+    "derived_md5": "c796d5cee72510ed538ab30774d2a3fd",
+    "key": "reproductive/c796d5ce-david-scherberich-2.jpg"
+   },
+   "dfd4f8b5cd10bee230f630bae4d6a473": {
+    "bytes": 201986,
+    "derived_md5": "798e1a5d7703cea0183474b63c79ddf3",
+    "key": "maps/798e1a5d-arum-sintenisii-distribution-map-boyce-1993-map-6-panel-b-as-arum-orientale-subsp-sintenisii.jpg"
+   },
+   "e288ceae00cf8e8fc08ea8d0220a6d66": {
+    "bytes": 154257,
+    "derived_md5": "e288ceae00cf8e8fc08ea8d0220a6d66",
+    "key": "reproductive/e288ceae-powo-arum-sintenisii-01.jpg"
+   },
+   "ecd87df288be95f82350030e3a8852b8": {
+    "bytes": 57225,
+    "derived_md5": "ecd87df288be95f82350030e3a8852b8",
+    "key": "reproductive/ecd87df2-david-scherberich-3.jpg"
+   }
+  }
+ }
+}
