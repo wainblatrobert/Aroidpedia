@@ -1,11 +1,11 @@
 {
  "version": "1.23.0",
  "generated": "2026-08-27",
- "note18": "1.18.0 (8.20.26): speciesTotal is the LARGER of POWO and the journal’s own species posts (user ruling - POWO is a floor while a genus is being built out, not a ceiling); speciesTotalPowo keeps POWO’s own figure for the sources line.",
- "note19": "1.19.0 (8.20.26): Furtadoa is sunk into Homalomena (POWO; one of the genus’s seven heterotypic synonyms). Its empty genus entry is removed and Homalomena carries the merged range.",
+ "note18": "1.18.0 (8.20.26): speciesTotal is the LARGER of POWO and the journal\u2019s own species posts (user ruling - POWO is a floor while a genus is being built out, not a ceiling); speciesTotalPowo keeps POWO\u2019s own figure for the sources line.",
+ "note19": "1.19.0 (8.20.26): Furtadoa is sunk into Homalomena (POWO; one of the genus\u2019s seven heterotypic synonyms). Its empty genus entry is removed and Homalomena carries the merged range.",
  "note22": "1.22.0 (8.21.26): FULL 155-genus rebuild (the builder defaulted to Amorphophallus alone, so every other genus carried 8.16 data); the refine gate walks the SUBUNITS chain shallow-first (POWO speaks L3, so three-tier chains - East Kalimantan under Kalimantan under Borneo - always failed the direct-parent test); a mojibake ALIAS literal made SWC emit a broken San Andres key; POWO respelled Panama with its accent.",
- "note21": "1.21.0 (8.21.26): tag spellings fold through the tables’ variants before the SUBUNITS filter, so an aliased tag (Dinagat Islands → Surigao del Norte) reaches the genus maps.",
- "note20": "1.20.0 (8.21.26): the SUBUNITS registry is now EVERY *-l4-table.json in the scripts folder, globbed - the hand-wired chain had quietly stopped at the 8.16 batches, so Cambodia, Madagascar, Brazil/Mexico, the West-Africa sweep, Borneo’s divisions, Taiwan, China and the Africa smalls never reached the genus maps (caught on johnsonii’s Subzones view). Subunit vocabulary 27 -> 93; Amorphophallus places 85 -> 151.",
+ "note21": "1.21.0 (8.21.26): tag spellings fold through the tables\u2019 variants before the SUBUNITS filter, so an aliased tag (Dinagat Islands \u2192 Surigao del Norte) reaches the genus maps.",
+ "note20": "1.20.0 (8.21.26): the SUBUNITS registry is now EVERY *-l4-table.json in the scripts folder, globbed - the hand-wired chain had quietly stopped at the 8.16 batches, so Cambodia, Madagascar, Brazil/Mexico, the West-Africa sweep, Borneo\u2019s divisions, Taiwan, China and the Africa smalls never reached the genus maps (caught on johnsonii\u2019s Subzones view). Subunit vocabulary 27 -> 93; Amorphophallus places 85 -> 151.",
  "source": "POWO/WCVP distribution API, native WGSRPD level-3 units + journal-tag subunit refinement (additive)",
  "genera": {
   "Amorphophallus": {
@@ -64,7 +64,7 @@
     "Liberia": 3,
     "Gambia": 3,
     "West Sumatra": 3,
-    "Ninh Bình": 3,
+    "Ninh B\u00ecnh": 3,
     "Mozambique": 3,
     "Chiayi": 3,
     "Kaohsiung": 3,
@@ -110,7 +110,7 @@
     "Phuket": 2,
     "Surat Thani": 2,
     "Krabi": 2,
-    "Bà Rịa - Vũng Tàu": 2,
+    "B\u00e0 R\u1ecba - V\u0169ng T\u00e0u": 2,
     "Gia Lai": 2,
     "New Guinea": 2,
     "Northern Territory": 2,
@@ -145,13 +145,13 @@
     "Pahang": 1,
     "Selangor": 1,
     "Chhattisgarh": 1,
-    "Ogooué-Ivindo": 1,
+    "Ogoou\u00e9-Ivindo": 1,
     "Camarines Norte": 1,
     "Panay": 1,
     "Iloilo": 1,
     "Goa": 1,
     "Dakar": 1,
-    "Bình Thuận": 1,
+    "B\u00ecnh Thu\u1eadn": 1,
     "Palawan": 1,
     "Central Java": 1,
     "East Java": 1,
@@ -167,7 +167,7 @@
     "Phatthalung": 1,
     "Chaiyaphum": 1,
     "Chon Buri": 1,
-    "Hồ Chí Minh": 1,
+    "H\u1ed3 Ch\u00ed Minh": 1,
     "Kampong Chhnang": 1,
     "Mukdahan": 1,
     "Ubon Ratchathani": 1,
@@ -177,19 +177,19 @@
     "Western Australia": 1,
     "Oromia": 1,
     "Kayah": 1,
-    "Quảng Ngãi": 1,
+    "Qu\u1ea3ng Ng\u00e3i": 1,
     "Katanga": 1,
     "Morogoro": 1,
     "Zambezia": 1,
     "Amhara": 1,
     "Ogun": 1,
     "Plateau Department": 1,
-    "Lào Cai": 1,
+    "L\u00e0o Cai": 1,
     "Nicobar": 1,
     "Taitung": 1,
     "Sabah": 1,
     "Jambi": 1,
-    "Hà Nội": 1,
+    "H\u00e0 N\u1ed9i": 1,
     "Ashanti": 1,
     "Brong-Ahafo": 1,
     "Cascades": 1,
@@ -201,9 +201,9 @@
     "Hauts-Bassins": 1,
     "Kayes": 1,
     "Lagunes": 1,
-    "Marahoué": 1,
+    "Marahou\u00e9": 1,
     "Nimba": 1,
-    "Nzérékoré": 1,
+    "Nz\u00e9r\u00e9kor\u00e9": 1,
     "Savanes-CI": 1,
     "Sikasso": 1,
     "Volta": 1,
@@ -211,8 +211,8 @@
     "Miri": 1,
     "Kapit": 1,
     "Chiang Rai": 1,
-    "Quảng Trị": 1,
-    "Kiên Giang": 1,
+    "Qu\u1ea3ng Tr\u1ecb": 1,
+    "Ki\u00ean Giang": 1,
     "Japan": 1,
     "Nansei-shoto": 1,
     "Fujian": 1,
@@ -365,9 +365,9 @@
     "Bangladesh": "BAN",
     "Nepal": "NEP",
     "Chhattisgarh": "L4",
-    "Ogooué-Ivindo": "L4",
+    "Ogoou\u00e9-Ivindo": "L4",
     "Vietnam": "VIE",
-    "Ninh Bình": "L4",
+    "Ninh B\u00ecnh": "L4",
     "Camarines Norte": "L4",
     "Panay": "L4",
     "Iloilo": "L4",
@@ -379,7 +379,7 @@
     "Dakar": "L4",
     "Kalimantan": "L4",
     "Cambodia": "CBD",
-    "Bình Thuận": "L4",
+    "B\u00ecnh Thu\u1eadn": "L4",
     "Kachin": "L4",
     "Palawan": "L4",
     "Central Java": "L4",
@@ -401,11 +401,11 @@
     "Krabi": "L4",
     "Negeri Sembilan": "L4",
     "Phatthalung": "L4",
-    "Bà Rịa - Vũng Tàu": "L4",
+    "B\u00e0 R\u1ecba - V\u0169ng T\u00e0u": "L4",
     "Chaiyaphum": "L4",
     "Chon Buri": "L4",
     "Gia Lai": "L4",
-    "Hồ Chí Minh": "L4",
+    "H\u1ed3 Ch\u00ed Minh": "L4",
     "Kampong Chhnang": "L4",
     "Mukdahan": "L4",
     "Ubon Ratchathani": "L4",
@@ -417,7 +417,7 @@
     "Western Australia": "WAU",
     "Oromia": "L4",
     "Kayah": "L4",
-    "Quảng Ngãi": "L4",
+    "Qu\u1ea3ng Ng\u00e3i": "L4",
     "Mozambique": "MOZ",
     "Katanga": "L4",
     "Morogoro": "L4",
@@ -426,7 +426,7 @@
     "Amhara": "L4",
     "Ogun": "L4",
     "Plateau Department": "L4",
-    "Lào Cai": "L4",
+    "L\u00e0o Cai": "L4",
     "Kratie": "L4",
     "Taiwan": "TAI",
     "Changhua": "L4",
@@ -443,7 +443,7 @@
     "Taitung": "L4",
     "Sabah": "L4",
     "Jambi": "L4",
-    "Hà Nội": "L4",
+    "H\u00e0 N\u1ed9i": "L4",
     "Ashanti": "L4",
     "Brong-Ahafo": "L4",
     "Cascades": "L4",
@@ -455,9 +455,9 @@
     "Hauts-Bassins": "L4",
     "Kayes": "L4",
     "Lagunes": "L4",
-    "Marahoué": "L4",
+    "Marahou\u00e9": "L4",
     "Nimba": "L4",
-    "Nzérékoré": "L4",
+    "Nz\u00e9r\u00e9kor\u00e9": "L4",
     "Savanes-CI": "L4",
     "Sikasso": "L4",
     "Volta": "L4",
@@ -465,8 +465,8 @@
     "Miri": "L4",
     "Kapit": "L4",
     "Chiang Rai": "L4",
-    "Quảng Trị": "L4",
-    "Kiên Giang": "L4",
+    "Qu\u1ea3ng Tr\u1ecb": "L4",
+    "Ki\u00ean Giang": "L4",
     "Hainan": "CHH",
     "Japan": "JAP",
     "Nansei-shoto": "NNS",
@@ -751,10 +751,10 @@
     ],
     "canaliculatus": [
      "Gabon",
-     "Ogooué-Ivindo"
+     "Ogoou\u00e9-Ivindo"
     ],
     "candidissimus": [
-     "Ninh Bình",
+     "Ninh B\u00ecnh",
      "Vietnam"
     ],
     "carneus": [
@@ -821,7 +821,7 @@
      "Vietnam"
     ],
     "crinitus": [
-     "Bình Thuận",
+     "B\u00ecnh Thu\u1eadn",
      "Vietnam"
     ],
     "crispifolius": [
@@ -882,7 +882,7 @@
      "Hong Kong"
     ],
     "dzui": [
-     "Ninh Bình",
+     "Ninh B\u00ecnh",
      "Vietnam"
     ],
     "eburneus": [
@@ -933,7 +933,7 @@
      "Thailand"
     ],
     "fallax": [
-     "Bà Rịa - Vũng Tàu",
+     "B\u00e0 R\u1ecba - V\u0169ng T\u00e0u",
      "Vietnam"
     ],
     "ferruginosus": [
@@ -950,7 +950,7 @@
      "Chaiyaphum",
      "Chon Buri",
      "Gia Lai",
-     "Hồ Chí Minh",
+     "H\u1ed3 Ch\u00ed Minh",
      "Kampong Chhnang",
      "Laos",
      "Loei",
@@ -1006,7 +1006,7 @@
     ],
     "glossophyllus": [
      "Gia Lai",
-     "Quảng Ngãi",
+     "Qu\u1ea3ng Ng\u00e3i",
      "Vietnam"
     ],
     "goetzei": [
@@ -1044,7 +1044,7 @@
     ],
     "hayi": [
      "China South-Central",
-     "Lào Cai",
+     "L\u00e0o Cai",
      "Vietnam",
      "Yunnan"
     ],
@@ -1116,8 +1116,8 @@
      "Sarawak"
     ],
     "interruptus": [
-     "Hà Nội",
-     "Ninh Bình",
+     "H\u00e0 N\u1ed9i",
+     "Ninh B\u00ecnh",
      "Vietnam"
     ],
     "johnsonii": [
@@ -1140,9 +1140,9 @@
      "Lagunes",
      "Liberia",
      "Mali",
-     "Marahoué",
+     "Marahou\u00e9",
      "Nimba",
-     "Nzérékoré",
+     "Nz\u00e9r\u00e9kor\u00e9",
      "Savanes-CI",
      "Sikasso",
      "Volta",
@@ -1170,7 +1170,7 @@
      "Kachin",
      "Laos",
      "Myanmar",
-     "Quảng Trị",
+     "Qu\u1ea3ng Tr\u1ecb",
      "Thailand",
      "Vietnam",
      "Yunnan"
@@ -1180,7 +1180,7 @@
      "Laos"
     ],
     "kienluongensis": [
-     "Kiên Giang",
+     "Ki\u00ean Giang",
      "Vietnam"
     ],
     "kiusianus": [
@@ -1247,7 +1247,7 @@
      "Vietnam"
     ],
     "kuznetsovii": [
-     "Bà Rịa - Vũng Tàu",
+     "B\u00e0 R\u1ecba - V\u0169ng T\u00e0u",
      "Vietnam"
     ],
     "lacourii": [
@@ -1722,8 +1722,8 @@
       "Andaman Islands",
       "Bago",
       "Bolikhamsai",
-      "Bà Rịa - Vũng Tàu",
-      "Bình Thuận",
+      "B\u00e0 R\u1ecba - V\u0169ng T\u00e0u",
+      "B\u00ecnh Thu\u1eadn",
       "Cambodia",
       "Chaiyaphum",
       "Champasak",
@@ -1732,33 +1732,33 @@
       "Chon Buri",
       "Chumphon",
       "Gia Lai",
-      "Hà Nội",
-      "Hồ Chí Minh",
+      "H\u00e0 N\u1ed9i",
+      "H\u1ed3 Ch\u00ed Minh",
       "Kachin",
       "Kampong Chhnang",
       "Kanchanaburi",
       "Kayah",
       "Khammouane",
-      "Kiên Giang",
+      "Ki\u00ean Giang",
       "Krabi",
       "Kratie",
       "Laos",
       "Loei",
       "Lop Buri",
-      "Lào Cai",
+      "L\u00e0o Cai",
       "Mukdahan",
       "Myanmar",
       "Nakhon Ratchasima",
       "Nakhon Si Thammarat",
       "Nicobar",
-      "Ninh Bình",
+      "Ninh B\u00ecnh",
       "Phangnga",
       "Phatthalung",
       "Phuket",
       "Prachin Buri",
       "Prachuap Khiri Khan",
-      "Quảng Ngãi",
-      "Quảng Trị",
+      "Qu\u1ea3ng Ng\u00e3i",
+      "Qu\u1ea3ng Tr\u1ecb",
       "Ranong",
       "Ratchaburi",
       "Sa Kaeo",
@@ -1830,7 +1830,7 @@
       "Gulf of Guinea Islands",
       "Katanga",
       "Nord-Kivu",
-      "Ogooué-Ivindo",
+      "Ogoou\u00e9-Ivindo",
       "Sud-Kivu"
      ]
     },
@@ -1904,11 +1904,11 @@
       "Lagunes",
       "Liberia",
       "Mali",
-      "Marahoué",
+      "Marahou\u00e9",
       "Niger",
       "Nigeria",
       "Nimba",
-      "Nzérékoré",
+      "Nz\u00e9r\u00e9kor\u00e9",
       "Ogun",
       "Plateau Department",
       "Savanes-CI",
@@ -2032,8 +2032,8 @@
       "Bangladesh",
       "Bolikhamsai",
       "Borneo",
-      "Bà Rịa - Vũng Tàu",
-      "Bình Thuận",
+      "B\u00e0 R\u1ecba - V\u0169ng T\u00e0u",
+      "B\u00ecnh Thu\u1eadn",
       "Cagayan",
       "Camarines Norte",
       "Cambodia",
@@ -2049,8 +2049,8 @@
       "East Java",
       "Gia Lai",
       "Goa",
-      "Hà Nội",
-      "Hồ Chí Minh",
+      "H\u00e0 N\u1ed9i",
+      "H\u1ed3 Ch\u00ed Minh",
       "Ilocos Norte",
       "Iloilo",
       "India",
@@ -2066,7 +2066,7 @@
       "Kayah",
       "Kerala",
       "Khammouane",
-      "Kiên Giang",
+      "Ki\u00ean Giang",
       "Krabi",
       "Kratie",
       "Kuching",
@@ -2075,7 +2075,7 @@
       "Loei",
       "Lop Buri",
       "Luzon",
-      "Lào Cai",
+      "L\u00e0o Cai",
       "Maharashtra",
       "Maluku",
       "Miri",
@@ -2087,7 +2087,7 @@
       "Nepal",
       "New Guinea",
       "Nicobar",
-      "Ninh Bình",
+      "Ninh B\u00ecnh",
       "Pahang",
       "Palawan",
       "Panay",
@@ -2100,8 +2100,8 @@
       "Prachin Buri",
       "Prachuap Khiri Khan",
       "Quezon",
-      "Quảng Ngãi",
-      "Quảng Trị",
+      "Qu\u1ea3ng Ng\u00e3i",
+      "Qu\u1ea3ng Tr\u1ecb",
       "Ranong",
       "Ratchaburi",
       "Rizal",
@@ -2191,7 +2191,7 @@
       "Mahajanga",
       "Malawi",
       "Mali",
-      "Marahoué",
+      "Marahou\u00e9",
       "Melaky",
       "Morogoro",
       "Mozambique",
@@ -2199,8 +2199,8 @@
       "Nigeria",
       "Nimba",
       "Nord-Kivu",
-      "Nzérékoré",
-      "Ogooué-Ivindo",
+      "Nz\u00e9r\u00e9kor\u00e9",
+      "Ogoou\u00e9-Ivindo",
       "Ogun",
       "Oromia",
       "Plateau Department",
@@ -2992,11 +2992,11 @@
     "Isabela": 1,
     "Andaman Islands": 1,
     "Nicobar": 1,
-    "Lạng Sơn": 1,
+    "L\u1ea1ng S\u01a1n": 1,
     "Tanintharyi": 1,
-    "Bình Thuận": 1,
-    "Lâm Đồng": 1,
-    "Quảng Trị": 1,
+    "B\u00ecnh Thu\u1eadn": 1,
+    "L\u00e2m \u0110\u1ed3ng": 1,
+    "Qu\u1ea3ng Tr\u1ecb": 1,
     "Meghalaya": 1,
     "Sikkim": 1,
     "Manipur": 1,
@@ -3029,7 +3029,7 @@
     "Sakon Nakhon": 1,
     "Surigao del Sur": 1,
     "Southeast Sulawesi": 1,
-    "Đà Nẵng": 1,
+    "\u0110\u00e0 N\u1eb5ng": 1,
     "Alabat": 1,
     "Biliran": 1
    },
@@ -3067,7 +3067,7 @@
     "Dominican Republic": 1,
     "East Himalaya": 1,
     "Fiji": 1,
-    "Galápagos": 1,
+    "Gal\u00e1pagos": 1,
     "Gilbert Is.": 1,
     "Guinea": 1,
     "Gulf of Guinea Islands": 1,
@@ -3199,12 +3199,12 @@
     "Andaman Islands": "AND",
     "India": "IND",
     "Nicobar": "NCB",
-    "Lạng Sơn": "L4",
+    "L\u1ea1ng S\u01a1n": "L4",
     "Tanintharyi": "L4",
     "Cambodia": "CBD",
-    "Bình Thuận": "L4",
-    "Lâm Đồng": "L4",
-    "Quảng Trị": "L4",
+    "B\u00ecnh Thu\u1eadn": "L4",
+    "L\u00e2m \u0110\u1ed3ng": "L4",
+    "Qu\u1ea3ng Tr\u1ecb": "L4",
     "Meghalaya": "L4",
     "Sikkim": "L4",
     "Peninsular Malaysia": "MLY",
@@ -3236,7 +3236,7 @@
     "Cuba": "CUB",
     "Dominican Republic": "DOM",
     "Fiji": "FIJ",
-    "Galápagos": "GAL",
+    "Gal\u00e1pagos": "GAL",
     "Gilbert Is.": "GIL",
     "Guinea": "GUI",
     "Gulf of Guinea Islands": "GGI",
@@ -3289,7 +3289,7 @@
     "Sakon Nakhon": "L4",
     "Surigao del Sur": "L4",
     "Southeast Sulawesi": "L4",
-    "Đà Nẵng": "L4",
+    "\u0110\u00e0 N\u1eb5ng": "L4",
     "Alabat": "L4",
     "Biliran": "L4"
    },
@@ -3451,7 +3451,7 @@
      "Nicobar"
     ],
     "decumbens": [
-     "Lạng Sơn",
+     "L\u1ea1ng S\u01a1n",
      "Vietnam"
     ],
     "devansayana": [
@@ -3464,10 +3464,10 @@
      "Tanintharyi"
     ],
     "evrardii": [
-     "Bình Thuận",
+     "B\u00ecnh Thu\u1eadn",
      "Cambodia",
-     "Lâm Đồng",
-     "Quảng Trị",
+     "L\u00e2m \u0110\u1ed3ng",
+     "Qu\u1ea3ng Tr\u1ecb",
      "Vietnam"
     ],
     "fallax": [
@@ -3878,7 +3878,7 @@
     ],
     "vietnamensis": [
      "Vietnam",
-     "Đà Nẵng"
+     "\u0110\u00e0 N\u1eb5ng"
     ],
     "wentii": [
      "New Guinea",
@@ -3991,25 +3991,25 @@
      "count": 20,
      "members": [
       "Andaman Islands",
-      "Bình Thuận",
+      "B\u00ecnh Thu\u1eadn",
       "Cambodia",
       "Chanthaburi",
       "Chiang Mai",
       "Khon Kaen",
       "Laos",
-      "Lâm Đồng",
-      "Lạng Sơn",
+      "L\u00e2m \u0110\u1ed3ng",
+      "L\u1ea1ng S\u01a1n",
       "Myanmar",
       "Nicobar",
       "Phrae",
-      "Quảng Trị",
+      "Qu\u1ea3ng Tr\u1ecb",
       "Sakon Nakhon",
       "Siem Reap",
       "Tanintharyi",
       "Thailand",
       "Vietnam",
       "Yala",
-      "Đà Nẵng"
+      "\u0110\u00e0 N\u1eb5ng"
      ]
     },
     "Papuasia": {
@@ -4110,7 +4110,7 @@
       "Bismarck Archipelago",
       "Borneo",
       "Brunei",
-      "Bình Thuận",
+      "B\u00ecnh Thu\u1eadn",
       "Camarines Sur",
       "Cambodia",
       "Capiz",
@@ -4147,8 +4147,8 @@
       "Leyte",
       "Lombok",
       "Luzon",
-      "Lâm Đồng",
-      "Lạng Sơn",
+      "L\u00e2m \u0110\u1ed3ng",
+      "L\u1ea1ng S\u01a1n",
       "Madang",
       "Maluku",
       "Manipur",
@@ -4177,7 +4177,7 @@
       "Philippines",
       "Phrae",
       "Quezon",
-      "Quảng Trị",
+      "Qu\u1ea3ng Tr\u1ecb",
       "Rizal",
       "Sabah",
       "Sakon Nakhon",
@@ -4216,7 +4216,7 @@
       "Western Province",
       "Yala",
       "Zambales",
-      "Đà Nẵng"
+      "\u0110\u00e0 N\u1eb5ng"
      ]
     },
     "Temperate Asia": {
@@ -5057,7 +5057,7 @@
     "Venezuelan Antilles": 3,
     "Puerto Rico": 3,
     "Paraguay": 3,
-    "San Andrés y Providencia": 1,
+    "San Andr\u00e9s y Providencia": 1,
     "Dominican Republic": 1,
     "Argentina Northeast": 1,
     "Mexico Northeast": 1,
@@ -5110,7 +5110,7 @@
     "Jamaica": "JAM",
     "Leeward Is.": "LEE",
     "Netherlands Antilles": "NLA",
-    "San Andrés y Providencia": "SWC",
+    "San Andr\u00e9s y Providencia": "SWC",
     "Dominican Republic": "DOM",
     "Puerto Rico": "PUE",
     "Cuba": "CUB",
@@ -6225,7 +6225,7 @@
     "crassinervium": [
      "Colombia",
      "Netherlands Antilles",
-     "San Andrés y Providencia",
+     "San Andr\u00e9s y Providencia",
      "Venezuela",
      "Venezuelan Antilles"
     ],
@@ -9912,7 +9912,7 @@
       "Leeward Is.",
       "Netherlands Antilles",
       "Puerto Rico",
-      "San Andrés y Providencia",
+      "San Andr\u00e9s y Providencia",
       "Trinidad and Tobago",
       "Venezuelan Antilles",
       "Windward Is."
@@ -9966,7 +9966,7 @@
       "Paraguay",
       "Peru",
       "Puerto Rico",
-      "San Andrés y Providencia",
+      "San Andr\u00e9s y Providencia",
       "Suriname",
       "Trinidad and Tobago",
       "Venezuela",
@@ -10452,7 +10452,7 @@
     "New York": 4,
     "Ohio": 4,
     "Pennsylvania": 4,
-    "Québec": 4,
+    "Qu\u00e9bec": 4,
     "South Carolina": 4,
     "Texas": 4,
     "Vermont": 4,
@@ -10576,7 +10576,7 @@
     "Oklahoma": "OKL",
     "Ontario": "ONT",
     "Pennsylvania": "PEN",
-    "Québec": "QUE",
+    "Qu\u00e9bec": "QUE",
     "South Carolina": "SCA",
     "Tennessee": "TEN",
     "Texas": "TEX",
@@ -10850,7 +10850,7 @@
      "Oklahoma",
      "Ontario",
      "Pennsylvania",
-     "Québec",
+     "Qu\u00e9bec",
      "South Carolina",
      "Tennessee",
      "Texas",
@@ -11337,7 +11337,7 @@
      "Ohio",
      "Ontario",
      "Pennsylvania",
-     "Québec",
+     "Qu\u00e9bec",
      "Rhode I.",
      "South Carolina",
      "Tennessee",
@@ -11482,7 +11482,7 @@
      "Nova Scotia",
      "Ohio",
      "Pennsylvania",
-     "Québec",
+     "Qu\u00e9bec",
      "Rhode I.",
      "Tennessee",
      "Vermont",
@@ -11567,7 +11567,7 @@
      "Ontario",
      "Pennsylvania",
      "Prince Edward I.",
-     "Québec",
+     "Qu\u00e9bec",
      "Rhode I.",
      "South Carolina",
      "South Dakota",
@@ -11802,7 +11802,7 @@
       "Nova Scotia",
       "Ontario",
       "Prince Edward I.",
-      "Québec"
+      "Qu\u00e9bec"
      ]
     },
     "Russian Far East": {
@@ -11988,7 +11988,7 @@
       "Ontario",
       "Pennsylvania",
       "Prince Edward I.",
-      "Québec",
+      "Qu\u00e9bec",
       "Rhode I.",
       "South Carolina",
       "South Dakota",
@@ -12033,7 +12033,7 @@
     "Sicilia": 1,
     "Sinai": 1,
     "Transcaucasus": 1,
-    "Türkiye": 1
+    "T\u00fcrkiye": 1
    },
    "doubtful": {},
    "introduced": {
@@ -12069,7 +12069,7 @@
     "Sicilia": "SIC",
     "Sinai": "SIN",
     "Transcaucasus": "TCS",
-    "Türkiye": "TUR"
+    "T\u00fcrkiye": "TUR"
    },
    "speciesPlaces": {
     "proboscideum": [
@@ -12111,7 +12111,7 @@
      "Spain",
      "Transcaucasus",
      "Tunisia",
-     "Türkiye"
+     "T\u00fcrkiye"
     ]
    },
    "doubtfulSpecies": {},
@@ -12170,7 +12170,7 @@
       "Lebanon-Syria",
       "Palestine",
       "Sinai",
-      "Türkiye"
+      "T\u00fcrkiye"
      ]
     }
    },
@@ -12226,7 +12226,7 @@
       "Palestine",
       "Sinai",
       "Transcaucasus",
-      "Türkiye"
+      "T\u00fcrkiye"
      ]
     }
    }
@@ -12292,7 +12292,7 @@
    "speciesTotalPowo": 26,
    "speciesJournal": 0,
    "places": {
-    "Türkiye": 13,
+    "T\u00fcrkiye": 13,
     "Kriti": 8,
     "Lebanon-Syria": 7,
     "Italy": 6,
@@ -12303,7 +12303,7 @@
     "Transcaucasus": 5,
     "East Aegean Is.": 4,
     "Bulgaria": 4,
-    "Türkiye-in-Europe": 4,
+    "T\u00fcrkiye-in-Europe": 4,
     "Albania": 4,
     "Poland": 3,
     "Ukraine": 3,
@@ -12348,7 +12348,8 @@
     "Belgium": 1,
     "Ireland": 1,
     "Netherlands": 1,
-    "South European Russia": 1
+    "South European Russia": 1,
+    "Moldova": 2
    },
    "doubtful": {},
    "introduced": {
@@ -12381,7 +12382,7 @@
     "East Aegean Is.": "EAI",
     "Greece": "GRC",
     "Kriti": "KRI",
-    "Türkiye": "TUR",
+    "T\u00fcrkiye": "TUR",
     "Austria": "AUT",
     "Bulgaria": "BUL",
     "Corse": "COR",
@@ -12397,7 +12398,7 @@
     "Spain": "SPA",
     "Sweden": "SWE",
     "Switzerland": "SWI",
-    "Türkiye-in-Europe": "TUE",
+    "T\u00fcrkiye-in-Europe": "TUE",
     "Libya": "LBY",
     "Lebanon-Syria": "LBS",
     "Palestine": "PAL",
@@ -12460,12 +12461,12 @@
      "East Aegean Is.",
      "Greece",
      "Kriti",
-     "Türkiye"
+     "T\u00fcrkiye"
     ],
     "creticum": [
      "East Aegean Is.",
      "Kriti",
-     "Türkiye"
+     "T\u00fcrkiye"
     ],
     "cylindraceum": [
      "Austria",
@@ -12487,8 +12488,8 @@
      "Spain",
      "Sweden",
      "Switzerland",
-     "Türkiye",
-     "Türkiye-in-Europe"
+     "T\u00fcrkiye",
+     "T\u00fcrkiye-in-Europe"
     ],
     "cyrenaicum": [
      "Kriti",
@@ -12499,10 +12500,10 @@
      "East Aegean Is.",
      "Lebanon-Syria",
      "Palestine",
-     "Türkiye"
+     "T\u00fcrkiye"
     ],
     "euxinum": [
-     "Türkiye"
+     "T\u00fcrkiye"
     ],
     "gratum": [
      "Lebanon-Syria"
@@ -12515,7 +12516,7 @@
      "Lebanon-Syria",
      "Morocco",
      "Palestine",
-     "Türkiye"
+     "T\u00fcrkiye"
     ],
     "idaeum": [
      "Kriti"
@@ -12548,8 +12549,8 @@
      "Switzerland",
      "Transcaucasus",
      "Tunisia",
-     "Türkiye",
-     "Türkiye-in-Europe"
+     "T\u00fcrkiye",
+     "T\u00fcrkiye-in-Europe"
     ],
     "jacquemontii": [
      "Afghanistan",
@@ -12591,6 +12592,7 @@
      "Italy",
      "Kriti",
      "Krym",
+     "Moldova",
      "NW. Balkan Pen.",
      "Netherlands",
      "Poland",
@@ -12599,16 +12601,16 @@
      "Sweden",
      "Switzerland",
      "Transcaucasus",
-     "Türkiye",
-     "Türkiye-in-Europe",
+     "T\u00fcrkiye",
+     "T\u00fcrkiye-in-Europe",
      "Ukraine"
     ],
     "megobrebi": [
      "Transcaucasus",
-     "Türkiye"
+     "T\u00fcrkiye"
     ],
     "meryemianum": [
-     "Türkiye"
+     "T\u00fcrkiye"
     ],
     "nigrum": [
      "Greece",
@@ -12623,14 +12625,15 @@
      "Hungary",
      "Krym",
      "Lebanon-Syria",
+     "Moldova",
      "NW. Balkan Pen.",
      "North Caucasus",
      "Palestine",
      "Romania",
      "South European Russia",
      "Transcaucasus",
-     "Türkiye",
-     "Türkiye-in-Europe",
+     "T\u00fcrkiye",
+     "T\u00fcrkiye-in-Europe",
      "Ukraine"
     ],
     "palaestinum": [
@@ -12654,11 +12657,11 @@
      "Lebanon-Syria",
      "Palestine",
      "Transcaucasus",
-     "Türkiye"
+     "T\u00fcrkiye"
     ],
     "sintenisii": [
      "Cyprus",
-     "Türkiye"
+     "T\u00fcrkiye"
     ]
    },
    "doubtfulSpecies": {},
@@ -12673,7 +12676,7 @@
       "Iraq",
       "Lebanon-Syria",
       "Palestine",
-      "Türkiye"
+      "T\u00fcrkiye"
      ]
     },
     "Southeastern Europe": {
@@ -12687,7 +12690,7 @@
       "NW. Balkan Pen.",
       "Romania",
       "Sicilia",
-      "Türkiye-in-Europe"
+      "T\u00fcrkiye-in-Europe"
      ]
     },
     "Middle Europe": {
@@ -12714,6 +12717,7 @@
      "count": 4,
      "members": [
       "Krym",
+      "Moldova",
       "South European Russia",
       "Ukraine"
      ]
@@ -12805,7 +12809,7 @@
       "Tibet",
       "Transcaucasus",
       "Turkmenistan",
-      "Türkiye",
+      "T\u00fcrkiye",
       "Uzbekistan",
       "Xinjiang"
      ]
@@ -12837,6 +12841,7 @@
       "Italy",
       "Kriti",
       "Krym",
+      "Moldova",
       "NW. Balkan Pen.",
       "Netherlands",
       "Poland",
@@ -12848,7 +12853,7 @@
       "Spain",
       "Sweden",
       "Switzerland",
-      "Türkiye-in-Europe",
+      "T\u00fcrkiye-in-Europe",
       "Ukraine"
      ]
     },
@@ -13235,7 +13240,7 @@
    "speciesTotalPowo": 22,
    "speciesJournal": 0,
    "places": {
-    "Türkiye": 12,
+    "T\u00fcrkiye": 12,
     "Lebanon-Syria": 8,
     "Palestine": 5,
     "Spain": 4,
@@ -13261,7 +13266,7 @@
    "introduced": {},
    "codes": {
     "Lebanon-Syria": "LBS",
-    "Türkiye": "TUR",
+    "T\u00fcrkiye": "TUR",
     "Palestine": "PAL",
     "Iran": "IRN",
     "Iraq": "IRQ",
@@ -13285,7 +13290,7 @@
    "speciesPlaces": {
     "aleppicum": [
      "Lebanon-Syria",
-     "Türkiye"
+     "T\u00fcrkiye"
     ],
     "angustatum": [
      "Lebanon-Syria",
@@ -13299,20 +13304,20 @@
      "Iraq",
      "Lebanon-Syria",
      "Palestine",
-     "Türkiye"
+     "T\u00fcrkiye"
     ],
     "carduchorum": [
      "Iran",
      "Iraq",
      "Lebanon-Syria",
-     "Türkiye"
+     "T\u00fcrkiye"
     ],
     "carratracense": [
      "Spain"
     ],
     "crispulum": [
      "Lebanon-Syria",
-     "Türkiye"
+     "T\u00fcrkiye"
     ],
     "davisii": [
      "Kriti"
@@ -13327,21 +13332,21 @@
     ],
     "ditschianum": [
      "East Aegean Is.",
-     "Türkiye"
+     "T\u00fcrkiye"
     ],
     "eximium": [
      "Palestine",
-     "Türkiye"
+     "T\u00fcrkiye"
     ],
     "fraasianum": [
      "Greece"
     ],
     "kotschyi": [
-     "Türkiye"
+     "T\u00fcrkiye"
     ],
     "marmarisense": [
      "East Aegean Is.",
-     "Türkiye"
+     "T\u00fcrkiye"
     ],
     "mendax": [
      "Portugal",
@@ -13355,13 +13360,13 @@
     "pyrami": [
      "Lebanon-Syria",
      "Palestine",
-     "Türkiye"
+     "T\u00fcrkiye"
     ],
     "rhopalospadix": [
      "Greece"
     ],
     "rifatii": [
-     "Türkiye"
+     "T\u00fcrkiye"
     ],
     "straussii": [
      "Iran",
@@ -13369,7 +13374,7 @@
     ],
     "syriacum": [
      "Lebanon-Syria",
-     "Türkiye"
+     "T\u00fcrkiye"
     ],
     "tenuifolium": [
      "Albania",
@@ -13383,7 +13388,7 @@
      "Sardegna",
      "Sicilia",
      "Spain",
-     "Türkiye"
+     "T\u00fcrkiye"
     ]
    },
    "doubtfulSpecies": {},
@@ -13397,7 +13402,7 @@
       "Lebanon-Syria",
       "Palestine",
       "Sinai",
-      "Türkiye"
+      "T\u00fcrkiye"
      ]
     },
     "Southwestern Europe": {
@@ -13443,7 +13448,7 @@
       "Lebanon-Syria",
       "Palestine",
       "Sinai",
-      "Türkiye"
+      "T\u00fcrkiye"
      ]
     },
     "Europe": {
@@ -14243,7 +14248,7 @@
     "Poland": 1,
     "Primorye": 1,
     "Prince Edward I.": 1,
-    "Québec": 1,
+    "Qu\u00e9bec": 1,
     "Rhode I.": 1,
     "Romania": 1,
     "Sakhalin": 1,
@@ -14252,7 +14257,7 @@
     "Sweden": 1,
     "Switzerland": 1,
     "Tuva": 1,
-    "Türkiye": 1,
+    "T\u00fcrkiye": 1,
     "Ukraine": 1,
     "Vermont": 1,
     "West Siberia": 1,
@@ -14322,7 +14327,7 @@
     "Poland": "POL",
     "Primorye": "PRM",
     "Prince Edward I.": "PEI",
-    "Québec": "QUE",
+    "Qu\u00e9bec": "QUE",
     "Rhode I.": "RHO",
     "Romania": "ROM",
     "Sakhalin": "SAK",
@@ -14331,7 +14336,7 @@
     "Sweden": "SWE",
     "Switzerland": "SWI",
     "Tuva": "TVA",
-    "Türkiye": "TUR",
+    "T\u00fcrkiye": "TUR",
     "Ukraine": "UKR",
     "Vermont": "VER",
     "West Siberia": "WSB",
@@ -14399,7 +14404,7 @@
      "Poland",
      "Primorye",
      "Prince Edward I.",
-     "Québec",
+     "Qu\u00e9bec",
      "Rhode I.",
      "Romania",
      "Sakhalin",
@@ -14408,7 +14413,7 @@
      "Sweden",
      "Switzerland",
      "Tuva",
-     "Türkiye",
+     "T\u00fcrkiye",
      "Ukraine",
      "Vermont",
      "West Siberia",
@@ -14512,7 +14517,7 @@
       "Nova Scotia",
       "Ontario",
       "Prince Edward I.",
-      "Québec"
+      "Qu\u00e9bec"
      ]
     },
     "Southeastern Europe": {
@@ -14557,7 +14562,7 @@
     "Western Asia": {
      "count": 1,
      "members": [
-      "Türkiye"
+      "T\u00fcrkiye"
      ]
     },
     "Middle Europe": {
@@ -14643,7 +14648,7 @@
       "Ontario",
       "Pennsylvania",
       "Prince Edward I.",
-      "Québec",
+      "Qu\u00e9bec",
       "Rhode I.",
       "Saskatchewan",
       "Vermont",
@@ -14678,7 +14683,7 @@
       "Primorye",
       "Sakhalin",
       "Tuva",
-      "Türkiye",
+      "T\u00fcrkiye",
       "West Siberia",
       "Yakutiya"
      ]
@@ -15396,7 +15401,7 @@
     "Easter Is.": 1,
     "Ecuador": 1,
     "Florida": 1,
-    "Galápagos": 1,
+    "Gal\u00e1pagos": 1,
     "Gambia": 1,
     "Gilbert Is.": 1,
     "Guinea": 1,
@@ -15460,7 +15465,7 @@
     "Tuamotu": 1,
     "Tunisia": 1,
     "Tuvalu": 1,
-    "Türkiye": 1,
+    "T\u00fcrkiye": 1,
     "Vanuatu": 1,
     "Venezuela": 1,
     "Venezuelan Antilles": 1,
@@ -15520,7 +15525,7 @@
     "Easter Is.": "EAS",
     "Ecuador": "ECU",
     "Florida": "FLA",
-    "Galápagos": "GAL",
+    "Gal\u00e1pagos": "GAL",
     "Gambia": "GAM",
     "Gilbert Is.": "GIL",
     "Guinea": "GUI",
@@ -15584,7 +15589,7 @@
     "Tuamotu": "TUA",
     "Tunisia": "TUN",
     "Tuvalu": "TUV",
-    "Türkiye": "TUR",
+    "T\u00fcrkiye": "TUR",
     "Vanuatu": "VAN",
     "Venezuela": "VEN",
     "Venezuelan Antilles": "VNA",
@@ -17688,7 +17693,7 @@
     "Kriti": 1,
     "NW. Balkan Pen.": 1,
     "Sardegna": 1,
-    "Türkiye": 1
+    "T\u00fcrkiye": 1
    },
    "doubtful": {},
    "introduced": {
@@ -17710,7 +17715,7 @@
     "Kriti": "KRI",
     "NW. Balkan Pen.": "YUG",
     "Sardegna": "SAR",
-    "Türkiye": "TUR",
+    "T\u00fcrkiye": "TUR",
     "France": "FRA",
     "Great Britain": "GRB",
     "Ireland": "IRE",
@@ -17732,7 +17737,7 @@
      "Kriti",
      "NW. Balkan Pen.",
      "Sardegna",
-     "Türkiye"
+     "T\u00fcrkiye"
     ]
    },
    "doubtfulSpecies": {},
@@ -17759,7 +17764,7 @@
      "count": 1,
      "members": [
       "East Aegean Is.",
-      "Türkiye"
+      "T\u00fcrkiye"
      ]
     },
     "Northern Africa": {
@@ -17813,7 +17818,7 @@
      ],
      "members": [
       "East Aegean Is.",
-      "Türkiye"
+      "T\u00fcrkiye"
      ]
     }
    }
@@ -17823,7 +17828,7 @@
    "speciesTotalPowo": 8,
    "speciesJournal": 0,
    "places": {
-    "Türkiye": 4,
+    "T\u00fcrkiye": 4,
     "Tadzhikistan": 3,
     "Uzbekistan": 3,
     "Lebanon-Syria": 3,
@@ -17845,7 +17850,7 @@
     "Turkmenistan": "TKM",
     "Uzbekistan": "UZB",
     "Lebanon-Syria": "LBS",
-    "Türkiye": "TUR",
+    "T\u00fcrkiye": "TUR",
     "Iran": "IRN",
     "Kazakhstan": "KAZ",
     "Kirgizstan": "KGZ",
@@ -17863,13 +17868,13 @@
     ],
     "intortum": [
      "Lebanon-Syria",
-     "Türkiye"
+     "T\u00fcrkiye"
     ],
     "jaegeri": [
      "Iran"
     ],
     "koenenianum": [
-     "Türkiye"
+     "T\u00fcrkiye"
     ],
     "lehmannii": [
      "Afghanistan",
@@ -17883,7 +17888,7 @@
      "Iran",
      "Iraq",
      "Lebanon-Syria",
-     "Türkiye"
+     "T\u00fcrkiye"
     ],
     "regelii": [
      "Kazakhstan",
@@ -17898,7 +17903,7 @@
      "Lebanon-Syria",
      "Palestine",
      "Sinai",
-     "Türkiye"
+     "T\u00fcrkiye"
     ]
    },
    "doubtfulSpecies": {},
@@ -17912,7 +17917,7 @@
       "Lebanon-Syria",
       "Palestine",
       "Sinai",
-      "Türkiye"
+      "T\u00fcrkiye"
      ]
     },
     "Middle Asia": {
@@ -17950,7 +17955,7 @@
       "Sinai",
       "Tadzhikistan",
       "Turkmenistan",
-      "Türkiye",
+      "T\u00fcrkiye",
       "Uzbekistan"
      ]
     },
@@ -21184,11 +21189,11 @@
     "North Caucasus": 4,
     "Sweden": 4,
     "Transcaucasus": 4,
-    "Türkiye": 4,
+    "T\u00fcrkiye": 4,
     "Ukraine": 4,
     "Washington": 4,
     "Connecticut": 4,
-    "Québec": 4,
+    "Qu\u00e9bec": 4,
     "Vermont": 4,
     "West Virginia": 4,
     "Bangladesh": 3,
@@ -21259,7 +21264,7 @@
     "Spain": 3,
     "Switzerland": 3,
     "Tadzhikistan": 3,
-    "Türkiye-in-Europe": 3,
+    "T\u00fcrkiye-in-Europe": 3,
     "Uruguay": 3,
     "Uzbekistan": 3,
     "Alaska": 3,
@@ -21354,7 +21359,7 @@
     "Fiji": 1,
     "French Guiana": 1,
     "Gabon": 1,
-    "Galápagos": 1,
+    "Gal\u00e1pagos": 1,
     "Gambia": 1,
     "Ghana": 1,
     "Guinea": 1,
@@ -21382,13 +21387,13 @@
     "Nigeria": 1,
     "Rodrigues": 1,
     "Rwanda": 1,
-    "Réunion": 1,
+    "R\u00e9union": 1,
     "Samoa": 1,
     "Senegal": 1,
     "Seychelles": 1,
     "Sierra Leone": 1,
     "Somalia": 1,
-    "San Andrés y Providencia": 1,
+    "San Andr\u00e9s y Providencia": 1,
     "Sri Lanka": 1,
     "Sulawesi": 1,
     "Togo": 1,
@@ -21408,7 +21413,7 @@
     "Azores": 1,
     "Cyprus": 1,
     "East Himalaya": 1,
-    "Føroyar": 1,
+    "F\u00f8royar": 1,
     "Hainan": 1,
     "Iceland": 1,
     "Iraq": 1,
@@ -21450,7 +21455,7 @@
     "New Zealand North": 1,
     "Sweden": 1,
     "Ascension": 1,
-    "Galápagos": 1,
+    "Gal\u00e1pagos": 1,
     "Northern Territory": 1,
     "Queensland": 1,
     "South Australia": 1,
@@ -21555,7 +21560,7 @@
     "Free State": "OFS",
     "French Guiana": "FRG",
     "Gabon": "GAB",
-    "Galápagos": "GAL",
+    "Gal\u00e1pagos": "GAL",
     "Gambia": "GAM",
     "Georgia": "GEO",
     "Ghana": "GHA",
@@ -21628,14 +21633,14 @@
     "Queensland": "QLD",
     "Rodrigues": "ROD",
     "Rwanda": "RWA",
-    "Réunion": "REU",
+    "R\u00e9union": "REU",
     "Samoa": "SAM",
     "Senegal": "SEN",
     "Seychelles": "SEY",
     "Sierra Leone": "SIE",
     "Somalia": "SOM",
     "South Carolina": "SCA",
-    "San Andrés y Providencia": "SWC",
+    "San Andr\u00e9s y Providencia": "SWC",
     "Sri Lanka": "SRL",
     "Sudan-South Sudan": "SUD",
     "Sulawesi": "SUL",
@@ -21731,8 +21736,8 @@
     "Tadzhikistan": "TZK",
     "Transcaucasus": "TCS",
     "Tunisia": "TUN",
-    "Türkiye": "TUR",
-    "Türkiye-in-Europe": "TUE",
+    "T\u00fcrkiye": "TUR",
+    "T\u00fcrkiye-in-Europe": "TUE",
     "Uruguay": "URU",
     "Utah": "UTA",
     "Uzbekistan": "UZB",
@@ -21751,7 +21756,7 @@
     "Connecticut": "CNT",
     "Cyprus": "CYP",
     "East Himalaya": "EHM",
-    "Føroyar": "FOR",
+    "F\u00f8royar": "FOR",
     "Hainan": "CHH",
     "Iceland": "ICE",
     "Indiana": "INI",
@@ -21778,7 +21783,7 @@
     "Pennsylvania": "PEN",
     "Primorye": "PRM",
     "Prince Edward I.": "PEI",
-    "Québec": "QUE",
+    "Qu\u00e9bec": "QUE",
     "Rhode I.": "RHO",
     "Sakhalin": "SAK",
     "Saskatchewan": "SAS",
@@ -21866,7 +21871,7 @@
      "Free State",
      "French Guiana",
      "Gabon",
-     "Galápagos",
+     "Gal\u00e1pagos",
      "Gambia",
      "Georgia",
      "Ghana",
@@ -21939,9 +21944,9 @@
      "Queensland",
      "Rodrigues",
      "Rwanda",
-     "Réunion",
+     "R\u00e9union",
      "Samoa",
-     "San Andrés y Providencia",
+     "San Andr\u00e9s y Providencia",
      "Senegal",
      "Seychelles",
      "Sierra Leone",
@@ -22083,8 +22088,8 @@
      "Texas",
      "Transcaucasus",
      "Tunisia",
-     "Türkiye",
-     "Türkiye-in-Europe",
+     "T\u00fcrkiye",
+     "T\u00fcrkiye-in-Europe",
      "Ukraine",
      "Uruguay",
      "Utah",
@@ -22147,7 +22152,7 @@
      "Finland",
      "Florida",
      "France",
-     "Føroyar",
+     "F\u00f8royar",
      "Georgia",
      "Germany",
      "Great Britain",
@@ -22234,7 +22239,7 @@
      "Primorye",
      "Prince Edward I.",
      "Qinghai",
-     "Québec",
+     "Qu\u00e9bec",
      "Rhode I.",
      "Romania",
      "Sakhalin",
@@ -22257,8 +22262,8 @@
      "Tunisia",
      "Turkmenistan",
      "Tuva",
-     "Türkiye",
-     "Türkiye-in-Europe",
+     "T\u00fcrkiye",
+     "T\u00fcrkiye-in-Europe",
      "Uganda",
      "Ukraine",
      "Utah",
@@ -22383,7 +22388,7 @@
      "Ohio",
      "Oklahoma",
      "Pennsylvania",
-     "Québec",
+     "Qu\u00e9bec",
      "Rhode I.",
      "Tennessee",
      "Texas",
@@ -22512,7 +22517,7 @@
      "Portugal",
      "Primorye",
      "Queensland",
-     "Québec",
+     "Qu\u00e9bec",
      "Rhode I.",
      "Romania",
      "Sakhalin",
@@ -22535,8 +22540,8 @@
      "Texas",
      "Transcaucasus",
      "Tuva",
-     "Türkiye",
-     "Türkiye-in-Europe",
+     "T\u00fcrkiye",
+     "T\u00fcrkiye-in-Europe",
      "Uganda",
      "Ukraine",
      "Utah",
@@ -22607,7 +22612,7 @@
      "Pennsylvania",
      "Primorye",
      "Prince Edward I.",
-     "Québec",
+     "Qu\u00e9bec",
      "Rhode I.",
      "Sakhalin",
      "Saskatchewan",
@@ -22615,7 +22620,7 @@
      "Sweden",
      "Texas",
      "Transcaucasus",
-     "Türkiye",
+     "T\u00fcrkiye",
      "Ukraine",
      "Utah",
      "Vermont",
@@ -22812,7 +22817,7 @@
       "Leeward Is.",
       "Netherlands Antilles",
       "Puerto Rico",
-      "San Andrés y Providencia",
+      "San Andr\u00e9s y Providencia",
       "Trinidad and Tobago",
       "Turks-Caicos Is.",
       "Venezuelan Antilles",
@@ -22841,7 +22846,7 @@
       "Lebanon-Syria",
       "Palestine",
       "Sinai",
-      "Türkiye"
+      "T\u00fcrkiye"
      ]
     },
     "Western South America": {
@@ -22850,7 +22855,7 @@
       "Bolivia",
       "Colombia",
       "Ecuador",
-      "Galápagos",
+      "Gal\u00e1pagos",
       "Peru"
      ]
     },
@@ -22992,7 +22997,7 @@
      "members": [
       "Denmark",
       "Finland",
-      "Føroyar",
+      "F\u00f8royar",
       "Great Britain",
       "Iceland",
       "Ireland",
@@ -23041,7 +23046,7 @@
       "Nova Scotia",
       "Ontario",
       "Prince Edward I.",
-      "Québec"
+      "Qu\u00e9bec"
      ]
     },
     "Southern Africa": {
@@ -23127,7 +23132,7 @@
       "NW. Balkan Pen.",
       "Romania",
       "Sicilia",
-      "Türkiye-in-Europe"
+      "T\u00fcrkiye-in-Europe"
      ]
     },
     "Western Canada": {
@@ -23206,7 +23211,7 @@
       "Mauritius",
       "Mozambique Channel Is.",
       "Rodrigues",
-      "Réunion",
+      "R\u00e9union",
       "Seychelles"
      ]
     },
@@ -23322,7 +23327,7 @@
       "Oregon",
       "Pennsylvania",
       "Prince Edward I.",
-      "Québec",
+      "Qu\u00e9bec",
       "Rhode I.",
       "Saskatchewan",
       "South Carolina",
@@ -23408,7 +23413,7 @@
       "Ecuador",
       "El Salvador",
       "French Guiana",
-      "Galápagos",
+      "Gal\u00e1pagos",
       "Guatemala",
       "Guyana",
       "Haiti",
@@ -23421,7 +23426,7 @@
       "Paraguay",
       "Peru",
       "Puerto Rico",
-      "San Andrés y Providencia",
+      "San Andr\u00e9s y Providencia",
       "Suriname",
       "Trinidad and Tobago",
       "Turks-Caicos Is.",
@@ -23486,7 +23491,7 @@
       "Transcaucasus",
       "Turkmenistan",
       "Tuva",
-      "Türkiye",
+      "T\u00fcrkiye",
       "Uzbekistan",
       "West Siberia",
       "Xinjiang",
@@ -23579,7 +23584,7 @@
       "Northern Provinces",
       "Rodrigues",
       "Rwanda",
-      "Réunion",
+      "R\u00e9union",
       "Senegal",
       "Seychelles",
       "Sierra Leone",
@@ -23619,7 +23624,7 @@
       "East European Russia",
       "Finland",
       "France",
-      "Føroyar",
+      "F\u00f8royar",
       "Germany",
       "Great Britain",
       "Greece",
@@ -23644,7 +23649,7 @@
       "Svalbard",
       "Sweden",
       "Switzerland",
-      "Türkiye-in-Europe",
+      "T\u00fcrkiye-in-Europe",
       "Ukraine"
      ]
     },
@@ -25241,7 +25246,7 @@
     "Oklahoma": 1,
     "Ontario": 1,
     "Pennsylvania": 1,
-    "Québec": 1,
+    "Qu\u00e9bec": 1,
     "Rhode I.": 1,
     "Tennessee": 1,
     "Texas": 1,
@@ -25286,7 +25291,7 @@
     "Oklahoma": "OKL",
     "Ontario": "ONT",
     "Pennsylvania": "PEN",
-    "Québec": "QUE",
+    "Qu\u00e9bec": "QUE",
     "Rhode I.": "RHO",
     "Tennessee": "TEN",
     "Texas": "TEX",
@@ -25336,7 +25341,7 @@
      "Oklahoma",
      "Ontario",
      "Pennsylvania",
-     "Québec",
+     "Qu\u00e9bec",
      "Rhode I.",
      "South Carolina",
      "Tennessee",
@@ -25408,7 +25413,7 @@
      "count": 1,
      "members": [
       "Ontario",
-      "Québec"
+      "Qu\u00e9bec"
      ]
     },
     "Caribbean": {
@@ -25457,7 +25462,7 @@
       "Oklahoma",
       "Ontario",
       "Pennsylvania",
-      "Québec",
+      "Qu\u00e9bec",
       "Rhode I.",
       "South Carolina",
       "Tennessee",
@@ -28829,7 +28834,7 @@
     "Free State": 1,
     "French Guiana": 1,
     "Gabon": 1,
-    "Galápagos": 1,
+    "Gal\u00e1pagos": 1,
     "Gambia": 1,
     "Ghana": 1,
     "Guatemala": 1,
@@ -28945,7 +28950,7 @@
     "Samoa": 1,
     "South Carolina": 1,
     "St.Helena": 1,
-    "Türkiye": 1,
+    "T\u00fcrkiye": 1,
     "Ukraine": 1
    },
    "codes": {
@@ -28994,7 +28999,7 @@
     "Free State": "OFS",
     "French Guiana": "FRG",
     "Gabon": "GAB",
-    "Galápagos": "GAL",
+    "Gal\u00e1pagos": "GAL",
     "Gambia": "GAM",
     "Ghana": "GHA",
     "Guatemala": "GUA",
@@ -29107,7 +29112,7 @@
     "Samoa": "SAM",
     "South Carolina": "SCA",
     "St.Helena": "STH",
-    "Türkiye": "TUR",
+    "T\u00fcrkiye": "TUR",
     "Ukraine": "UKR"
    },
    "speciesPlaces": {
@@ -29156,7 +29161,7 @@
      "Free State",
      "French Guiana",
      "Gabon",
-     "Galápagos",
+     "Gal\u00e1pagos",
      "Gambia",
      "Ghana",
      "Guatemala",
@@ -29467,7 +29472,7 @@
       "Bolivia",
       "Colombia",
       "Ecuador",
-      "Galápagos",
+      "Gal\u00e1pagos",
       "Peru"
      ]
     },
@@ -29574,7 +29579,7 @@
       "Ecuador",
       "El Salvador",
       "French Guiana",
-      "Galápagos",
+      "Gal\u00e1pagos",
       "Guatemala",
       "Guyana",
       "Haiti",
@@ -29857,7 +29862,7 @@
     "Vanuatu": 1
    },
    "doubtful": {
-    "Réunion": 1
+    "R\u00e9union": 1
    },
    "introduced": {},
    "codes": {
@@ -29897,7 +29902,7 @@
     "Lesser Sunda Islands": "LSI",
     "Madagascar": "MDG",
     "Seychelles": "SEY",
-    "Réunion": "REU",
+    "R\u00e9union": "REU",
     "Vanuatu": "VAN"
    },
    "speciesPlaces": {
@@ -30200,7 +30205,7 @@
     ]
    },
    "doubtfulSpecies": {
-    "Réunion": [
+    "R\u00e9union": [
      "scandens"
     ]
    },
@@ -34397,7 +34402,7 @@
     "Primorye": 1,
     "Prince Edward I.": 1,
     "Qinghai": 1,
-    "Québec": 1,
+    "Qu\u00e9bec": 1,
     "Rhode I.": 1,
     "Romania": 1,
     "Rwanda": 1,
@@ -34423,8 +34428,8 @@
     "Trinidad and Tobago": 1,
     "Tunisia": 1,
     "Tuva": 1,
-    "Türkiye": 1,
-    "Türkiye-in-Europe": 1,
+    "T\u00fcrkiye": 1,
+    "T\u00fcrkiye-in-Europe": 1,
     "Uganda": 1,
     "Ukraine": 1,
     "Utah": 1,
@@ -34496,8 +34501,8 @@
     "Sri Lanka": 1,
     "Tennessee": 1,
     "Texas": 1,
-    "Türkiye": 1,
-    "Türkiye-in-Europe": 1,
+    "T\u00fcrkiye": 1,
+    "T\u00fcrkiye-in-Europe": 1,
     "Venezuela": 1,
     "Virginia": 1,
     "West Virginia": 1,
@@ -34586,8 +34591,8 @@
     "Sri Lanka": "SRL",
     "Tennessee": "TEN",
     "Texas": "TEX",
-    "Türkiye": "TUR",
-    "Türkiye-in-Europe": "TUE",
+    "T\u00fcrkiye": "TUR",
+    "T\u00fcrkiye-in-Europe": "TUE",
     "Venezuela": "VEN",
     "Virginia": "VRG",
     "West Virginia": "WVA",
@@ -34700,7 +34705,7 @@
     "Primorye": "PRM",
     "Prince Edward I.": "PEI",
     "Qinghai": "CHQ",
-    "Québec": "QUE",
+    "Qu\u00e9bec": "QUE",
     "Rhode I.": "RHO",
     "Romania": "ROM",
     "Rwanda": "RWA",
@@ -34939,7 +34944,7 @@
      "Puerto Rico",
      "Qinghai",
      "Queensland",
-     "Québec",
+     "Qu\u00e9bec",
      "Rhode I.",
      "Romania",
      "Rwanda",
@@ -34969,8 +34974,8 @@
      "Trinidad and Tobago",
      "Tunisia",
      "Tuva",
-     "Türkiye",
-     "Türkiye-in-Europe",
+     "T\u00fcrkiye",
+     "T\u00fcrkiye-in-Europe",
      "Uganda",
      "Ukraine",
      "Utah",
@@ -35309,7 +35314,7 @@
       "New Brunswick",
       "Nova Scotia",
       "Prince Edward I.",
-      "Québec"
+      "Qu\u00e9bec"
      ]
     },
     "West Tropical Africa": {
@@ -35400,7 +35405,7 @@
       "NW. Balkan Pen.",
       "Romania",
       "Sicilia",
-      "Türkiye-in-Europe"
+      "T\u00fcrkiye-in-Europe"
      ]
     },
     "Western Asia": {
@@ -35409,7 +35414,7 @@
       "Iran",
       "Lebanon-Syria",
       "Palestine",
-      "Türkiye"
+      "T\u00fcrkiye"
      ]
     },
     "Macaronesia": {
@@ -35513,7 +35518,7 @@
       "Tibet",
       "Transcaucasus",
       "Tuva",
-      "Türkiye",
+      "T\u00fcrkiye",
       "West Siberia",
       "Yakutiya"
      ]
@@ -35723,7 +35728,7 @@
       "Spain",
       "Sweden",
       "Switzerland",
-      "Türkiye-in-Europe",
+      "T\u00fcrkiye-in-Europe",
       "Ukraine"
      ]
     },
@@ -35791,7 +35796,7 @@
       "Oregon",
       "Pennsylvania",
       "Prince Edward I.",
-      "Québec",
+      "Qu\u00e9bec",
       "Rhode I.",
       "Saskatchewan",
       "South Carolina",
@@ -36640,7 +36645,7 @@
     "Ohio": 1,
     "Ontario": 1,
     "Pennsylvania": 1,
-    "Québec": 1,
+    "Qu\u00e9bec": 1,
     "Rhode I.": 1,
     "Tennessee": 1,
     "Vermont": 1,
@@ -36676,7 +36681,7 @@
     "Ohio": "OHI",
     "Ontario": "ONT",
     "Pennsylvania": "PEN",
-    "Québec": "QUE",
+    "Qu\u00e9bec": "QUE",
     "Rhode I.": "RHO",
     "Tennessee": "TEN",
     "Vermont": "VER",
@@ -36716,7 +36721,7 @@
      "Ohio",
      "Ontario",
      "Pennsylvania",
-     "Québec",
+     "Qu\u00e9bec",
      "Rhode I.",
      "Tennessee",
      "Vermont",
@@ -36796,7 +36801,7 @@
       "New Brunswick",
       "Nova Scotia",
       "Ontario",
-      "Québec"
+      "Qu\u00e9bec"
      ]
     },
     "Northeastern Usa": {
@@ -36866,7 +36871,7 @@
       "Ohio",
       "Ontario",
       "Pennsylvania",
-      "Québec",
+      "Qu\u00e9bec",
       "Rhode I.",
       "Tennessee",
       "Vermont",
@@ -36960,7 +36965,7 @@
     "Jamaica": 2,
     "Bolivia": 2,
     "El Salvador": 2,
-    "San Andrés y Providencia": 1,
+    "San Andr\u00e9s y Providencia": 1,
     "Cuba": 1,
     "Dominican Republic": 1,
     "Haiti": 1,
@@ -37015,7 +37020,7 @@
     "Mexico Southeast": "MXT",
     "Mexico Southwest": "MXS",
     "Nicaragua": "NIC",
-    "San Andrés y Providencia": "SWC",
+    "San Andr\u00e9s y Providencia": "SWC",
     "Bahamas": "BAH",
     "Bismarck Archipelago": "BIS",
     "Brazil North": "BZN",
@@ -37072,7 +37077,7 @@
      "Mexico Southwest",
      "Nicaragua",
      "Panama",
-     "San Andrés y Providencia"
+     "San Andr\u00e9s y Providencia"
     ],
     "armigerum": [
      "Costa Rica",
@@ -37316,7 +37321,7 @@
       "Dominican Republic",
       "Haiti",
       "Jamaica",
-      "San Andrés y Providencia",
+      "San Andr\u00e9s y Providencia",
       "Trinidad and Tobago",
       "Venezuelan Antilles"
      ]
@@ -37372,7 +37377,7 @@
       "Nicaragua",
       "Panama",
       "Peru",
-      "San Andrés y Providencia",
+      "San Andr\u00e9s y Providencia",
       "Suriname",
       "Trinidad and Tobago",
       "Venezuela",
@@ -38764,7 +38769,7 @@
     "Iowa": 2,
     "New Hampshire": 2,
     "Oregon": 2,
-    "Québec": 2,
+    "Qu\u00e9bec": 2,
     "South Dakota": 2,
     "Utah": 2,
     "Alabama": 2,
@@ -39010,7 +39015,7 @@
     "Ontario": "ONT",
     "Oregon": "ORE",
     "Pennsylvania": "PEN",
-    "Québec": "QUE",
+    "Qu\u00e9bec": "QUE",
     "South Dakota": "SDA",
     "Tennessee": "TEN",
     "Utah": "UTA",
@@ -39188,7 +39193,7 @@
      "Ontario",
      "Oregon",
      "Pennsylvania",
-     "Québec",
+     "Qu\u00e9bec",
      "South Dakota",
      "Tennessee",
      "Utah",
@@ -39315,7 +39320,7 @@
      "Oregon",
      "Paraguay",
      "Pennsylvania",
-     "Québec",
+     "Qu\u00e9bec",
      "Saskatchewan",
      "South Carolina",
      "South Dakota",
@@ -39466,7 +39471,7 @@
      "count": 3,
      "members": [
       "Ontario",
-      "Québec"
+      "Qu\u00e9bec"
      ]
     },
     "Western South America": {
@@ -39832,7 +39837,7 @@
       "Ontario",
       "Oregon",
       "Pennsylvania",
-      "Québec",
+      "Qu\u00e9bec",
       "Saskatchewan",
       "South Carolina",
       "South Dakota",
@@ -40744,7 +40749,7 @@
     "DR Congo": 1,
     "Easter Is.": 1,
     "Gabon": 1,
-    "Galápagos": 1,
+    "Gal\u00e1pagos": 1,
     "Gilbert Is.": 1,
     "Guinea": 1,
     "Guinea-Bissau": 1,
@@ -40813,7 +40818,7 @@
     "DR Congo": "ZAI",
     "Easter Is.": "EAS",
     "Gabon": "GAB",
-    "Galápagos": "GAL",
+    "Gal\u00e1pagos": "GAL",
     "Gilbert Is.": "GIL",
     "Guinea": "GUI",
     "Guinea-Bissau": "GNB",
@@ -41834,7 +41839,7 @@
     "Philippines": 1,
     "Portugal": 1,
     "Puerto Rico": 1,
-    "Réunion": 1,
+    "R\u00e9union": 1,
     "Sardegna": 1,
     "Sicilia": 1,
     "Society Islands": 1,
@@ -41845,7 +41850,7 @@
     "Trinidad and Tobago": 1,
     "Tristan da Cunha": 1,
     "Tunisia": 1,
-    "Türkiye": 1,
+    "T\u00fcrkiye": 1,
     "Victoria": 1,
     "Western Australia": 1,
     "Zimbabwe": 1
@@ -41891,7 +41896,7 @@
     "Philippines": "PHI",
     "Portugal": "POR",
     "Puerto Rico": "PUE",
-    "Réunion": "REU",
+    "R\u00e9union": "REU",
     "Sardegna": "SAR",
     "Sicilia": "SIC",
     "Society Islands": "SCI",
@@ -41902,7 +41907,7 @@
     "Trinidad and Tobago": "TRT",
     "Tristan da Cunha": "TDC",
     "Tunisia": "TUN",
-    "Türkiye": "TUR",
+    "T\u00fcrkiye": "TUR",
     "Victoria": "VIC",
     "Western Australia": "WAU",
     "Zimbabwe": "ZIM",
@@ -42239,8 +42244,8 @@
   "Borgou": "Benin",
   "Brong-Ahafo": "Ghana",
   "Brunei": "Borneo",
-  "Bà Rịa - Vũng Tàu": "Vietnam",
-  "Bình Thuận": "Vietnam",
+  "B\u00e0 R\u1ecba - V\u0169ng T\u00e0u": "Vietnam",
+  "B\u00ecnh Thu\u1eadn": "Vietnam",
   "Cagayan": "Luzon",
   "Camarines Norte": "Luzon",
   "Camarines Sur": "Luzon",
@@ -42292,8 +42297,8 @@
   "Hualien": "Taiwan",
   "Hubei": "China South-Central",
   "Hunan": "China Southeast",
-  "Hà Nội": "Vietnam",
-  "Hồ Chí Minh": "Vietnam",
+  "H\u00e0 N\u1ed9i": "Vietnam",
+  "H\u1ed3 Ch\u00ed Minh": "Vietnam",
   "Ifugao": "Luzon",
   "Ilocos Norte": "Luzon",
   "Iloilo": "Panay",
@@ -42320,7 +42325,7 @@
   "Khon Kaen": "Thailand",
   "Kindia": "Guinea",
   "Kinmen": "Taiwan",
-  "Kiên Giang": "Vietnam",
+  "Ki\u00ean Giang": "Vietnam",
   "Krabi": "Thailand",
   "Kratie": "Cambodia",
   "Kuching": "Sarawak",
@@ -42332,14 +42337,14 @@
   "Lombok": "Lesser Sunda Islands",
   "Lop Buri": "Thailand",
   "Luzon": "Philippines",
-  "Lào Cai": "Vietnam",
-  "Lâm Đồng": "Vietnam",
-  "Lạng Sơn": "Vietnam",
+  "L\u00e0o Cai": "Vietnam",
+  "L\u00e2m \u0110\u1ed3ng": "Vietnam",
+  "L\u1ea1ng S\u01a1n": "Vietnam",
   "Madang": "Papua New Guinea",
   "Mahajanga": "Madagascar",
   "Maharashtra": "India",
   "Manipur": "Assam",
-  "Marahoué": "Ivory Coast",
+  "Marahou\u00e9": "Ivory Coast",
   "Meghalaya": "Assam",
   "Melaky": "Mahajanga",
   "Miaoli": "Taiwan",
@@ -42359,11 +42364,11 @@
   "Negros Oriental": "Philippines",
   "New Taipei": "Taiwan",
   "Nimba": "Liberia",
-  "Ninh Bình": "Vietnam",
+  "Ninh B\u00ecnh": "Vietnam",
   "Nord-Kivu": "DR Congo",
   "North Sulawesi": "Sulawesi",
-  "Nzérékoré": "Guinea",
-  "Ogooué-Ivindo": "Gabon",
+  "Nz\u00e9r\u00e9kor\u00e9": "Guinea",
+  "Ogoou\u00e9-Ivindo": "Gabon",
   "Ogun": "Nigeria",
   "Oromia": "Ethiopia",
   "Pahang": "Peninsular Malaysia",
@@ -42382,8 +42387,8 @@
   "Prachin Buri": "Thailand",
   "Prachuap Khiri Khan": "Thailand",
   "Quezon": "Luzon",
-  "Quảng Ngãi": "Vietnam",
-  "Quảng Trị": "Vietnam",
+  "Qu\u1ea3ng Ng\u00e3i": "Vietnam",
+  "Qu\u1ea3ng Tr\u1ecb": "Vietnam",
   "Ranong": "Thailand",
   "Ratchaburi": "Thailand",
   "Rizal": "Luzon",
@@ -42446,6 +42451,6 @@
   "Zanzan": "Ivory Coast",
   "Zhejiang": "China Southeast",
   "Zou": "Benin",
-  "Đà Nẵng": "Vietnam"
+  "\u0110\u00e0 N\u1eb5ng": "Vietnam"
  }
 }
