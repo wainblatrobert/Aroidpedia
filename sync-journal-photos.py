@@ -185,13 +185,29 @@ def build_manifest(role_files: dict) -> dict:
 
 
 def species_path(folder_name: str, genus: str) -> str | None:
-    """'Amorphophallus decus-silvae' -> 'amorphophallus/decus-silvae'."""
+    """'Amorphophallus decus-silvae' -> 'amorphophallus/decus-silvae'.
+
+    v7 (1.9.26): QUOTES ARE STRIPPED, not hyphenated. The card finds a post's
+    photos by taking its slug and dropping the genus, and every published
+    cultivar slug drops the quotes - Alocasia 'Amazonica' is
+    `alocasia-amazonica`. Without this, the 8.31.26 Arum sync wrote
+    `arum/'sooi'/` and `arum/italicum-'chui'/` while the posts would be
+    `arum-sooi` and `arum-italicum-chui`, so the card would look for
+    `arum/sooi/`, miss, and render a cultivar with no photos and no error.
+    Straight and curly quotes both appear: the Drive folders are typed with a
+    straight apostrophe, the live post titles use the curly one.
+    """
     if " x " in folder_name.lower():
         return None
     parts = folder_name.split()
     if len(parts) < 2 or parts[0].lower() != genus.lower():
         return None
-    return parts[0].lower() + "/" + "-".join(p.lower() for p in parts[1:])
+    clean = [p.lower().replace("'", "").replace("’", "").replace("‘", "")
+             for p in parts[1:]]
+    clean = [p for p in clean if p]
+    if not clean:
+        return None
+    return parts[0].lower() + "/" + "-".join(clean)
 
 
 def role_dirs(sdir: Path):
