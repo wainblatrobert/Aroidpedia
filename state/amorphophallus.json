@@ -6632,6 +6632,11 @@
    }
   },
   "amorphophallus/konkanensis": {
+   "01050e792e3d004d052f821f15d4dbbf": {
+    "bytes": 13188,
+    "derived_md5": "01050e792e3d004d052f821f15d4dbbf",
+    "key": "reproductive/01050e79-am-konk-kinn-fig2c-female-zone.jpg"
+   },
    "03a58c467357c67070319da17f11a392": {
     "bytes": 71892,
     "derived_md5": "03a58c467357c67070319da17f11a392",
@@ -6646,6 +6651,26 @@
     "bytes": 26245,
     "derived_md5": "0e742a736da79fe65e75ca8112cba015",
     "key": "reproductive/0e742a73-am-konk-08.jpg"
+   },
+   "13e8e8fd122fd6abd2f8211a55008f04": {
+    "bytes": 3976,
+    "derived_md5": "13e8e8fd122fd6abd2f8211a55008f04",
+    "key": "reproductive/13e8e8fd-am-konk-kinn-fig2i-floral-detail.jpg"
+   },
+   "1b3d77c6261bf343a4e31d19c572e64d": {
+    "bytes": 38529,
+    "derived_md5": "1b3d77c6261bf343a4e31d19c572e64d",
+    "key": "vegetative/1b3d77c6-am-konk-kinn-fig1b-tuber-with-roots.jpg"
+   },
+   "1dcd1e5754acd7079de2aa85b80f5f4e": {
+    "bytes": 7509,
+    "derived_md5": "1dcd1e5754acd7079de2aa85b80f5f4e",
+    "key": "reproductive/1dcd1e57-am-konk-kinn-fig2f-appendix.jpg"
+   },
+   "1f93bacfe5bfea6530d7488108c72d76": {
+    "bytes": 28281,
+    "derived_md5": "1f93bacfe5bfea6530d7488108c72d76",
+    "key": "reproductive/1f93bacf-am-konk-kinn-fig2b-inflorescence.jpg"
    },
    "2144a9af2df6229ede225e5e37153e54": {
     "bytes": 26956,
@@ -6682,6 +6707,11 @@
     "derived_md5": "5915e7e445e1e6e59cfe1ac070099314",
     "key": "vegetative/5915e7e4-konkanensistuber.jpg"
    },
+   "5e18c64df75aabd78d5d3c282c244822": {
+    "bytes": 27268,
+    "derived_md5": "5e18c64df75aabd78d5d3c282c244822",
+    "key": "reproductive/5e18c64d-am-konk-kinn-fig2a-habit-flowering.jpg"
+   },
    "62a3bb25d5d3c195b9db493baaf1bba5": {
     "bytes": 80956,
     "derived_md5": "62a3bb25d5d3c195b9db493baaf1bba5",
@@ -6696,6 +6726,11 @@
     "bytes": 94062,
     "derived_md5": "67c2495af9ba953523385d8c7fe2a1d7",
     "key": "reproductive/67c2495a-konkanensis5yadav.jpg"
+   },
+   "696151e89cc38a9dddc487f6d4d374bf": {
+    "bytes": 24530,
+    "derived_md5": "696151e89cc38a9dddc487f6d4d374bf",
+    "key": "vegetative/696151e8-am-konk-kinn-fig1c-petiole.jpg"
    },
    "71bb58e1b499db9a5c0d699ade19957e": {
     "bytes": 36322,
@@ -6732,6 +6767,11 @@
     "derived_md5": "8eedf5acb02593bb477c1e6573c6d6b5",
     "key": "reproductive/8eedf5ac-am-konk-16.jpg"
    },
+   "9548273bb4a4a26162486820281d6c36": {
+    "bytes": 3649,
+    "derived_md5": "9548273bb4a4a26162486820281d6c36",
+    "key": "reproductive/9548273b-am-konk-kinn-fig2h-floral-detail.jpg"
+   },
    "98e25886eb53e173074eb81c6f6e744f": {
     "bytes": 28379,
     "derived_md5": "98e25886eb53e173074eb81c6f6e744f",
@@ -6747,6 +6787,11 @@
     "derived_md5": "9c0d46648e714ee2d10698f4fdf40632",
     "key": "reproductive/9c0d4664-amokonkanensis-ham1406e.jpg"
    },
+   "ab3e0fbfb71aa3a3d09b72caf6f76a0b": {
+    "bytes": 12798,
+    "derived_md5": "ab3e0fbfb71aa3a3d09b72caf6f76a0b",
+    "key": "reproductive/ab3e0fbf-am-konk-kinn-fig2d-neuter-zone.jpg"
+   },
    "b0811bba434c79e11bbbc60561ea50b7": {
     "bytes": 54951,
     "derived_md5": "b0811bba434c79e11bbbc60561ea50b7",
@@ -6761,6 +6806,11 @@
     "bytes": 28756,
     "derived_md5": "bbc9065af81be79f6c60b0663dd35f01",
     "key": "reproductive/bbc9065a-am-konk-17.jpg"
+   },
+   "bc588caa8ca3a3f6d5acb77e88709203": {
+    "bytes": 69832,
+    "derived_md5": "bc588caa8ca3a3f6d5acb77e88709203",
+    "key": "vegetative/bc588caa-am-konk-kinn-fig1d-leaf.jpg"
    },
    "c1a4f21e109ac6cb8943cbab0e1f9533": {
     "bytes": 39962,
@@ -6782,6 +6832,11 @@
     "derived_md5": "ccde68af03223a3e9412d2a757ba033a",
     "key": "reproductive/ccde68af-amokonkanensis-ham1407d.jpg"
    },
+   "d95d30be6a716b73303c38e1f420129f": {
+    "bytes": 162005,
+    "derived_md5": "d95d30be6a716b73303c38e1f420129f",
+    "key": "vegetative/d95d30be-am-konk-kinn-fig1a-habit.jpg"
+   },
    "dc21538bf75f6210ac5e82c624093478": {
     "bytes": 57793,
     "derived_md5": "dc21538bf75f6210ac5e82c624093478",
@@ -6792,15 +6847,30 @@
     "derived_md5": "de15257b4909b43a40e5cac166ac50ca",
     "key": "reproductive/de15257b-am-konk-07.jpg"
    },
+   "e49213eafdce1452ee174115fca6fb9f": {
+    "bytes": 3401,
+    "derived_md5": "e49213eafdce1452ee174115fca6fb9f",
+    "key": "reproductive/e49213ea-am-konk-kinn-fig2g-floral-detail.jpg"
+   },
    "e559337b523b8740b3ea5928fb9548f2": {
     "bytes": 23474,
     "derived_md5": "e559337b523b8740b3ea5928fb9548f2",
     "key": "reproductive/e559337b-am-konk-06.jpg"
    },
+   "e9aad3e6aa771eff20e7da01059a36d6": {
+    "bytes": 10090,
+    "derived_md5": "e9aad3e6aa771eff20e7da01059a36d6",
+    "key": "reproductive/e9aad3e6-am-konk-kinn-fig2e-male-zone.jpg"
+   },
    "ea88419290024d9ac603f24ad08525b7": {
     "bytes": 50967,
     "derived_md5": "ea88419290024d9ac603f24ad08525b7",
     "key": "reproductive/ea884192-am-konk-13.jpg"
+   },
+   "eec2ae03cd9875ac78581953dfe41dec": {
+    "bytes": 14740,
+    "derived_md5": "eec2ae03cd9875ac78581953dfe41dec",
+    "key": "vegetative/eec2ae03-am-konk-kinn-fig1e-leaf-portion.jpg"
    },
    "fd067f1e08703d7a137bd0b6615d4124": {
     "bytes": 32239,
