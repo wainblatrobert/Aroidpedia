@@ -142,6 +142,13 @@
     "key": "reproductive/f4f69872-arum-besserianum-marian-tarasenko.jpg"
    }
   },
+  "arum/blackspot": {
+   "3d51eb3c1d071fbc546081a5362d0eec": {
+    "bytes": 68927,
+    "derived_md5": "3d51eb3c1d071fbc546081a5362d0eec",
+    "key": "hero/3d51eb3c-arum-blackspot-monksilver-nursery.jpg"
+   }
+  },
   "arum/brunneoviolaceum": {
    "11ebd9a529edf7b02e2fb2c35520bf59": {
     "bytes": 70341,
@@ -167,6 +174,28 @@
     "bytes": 212286,
     "derived_md5": "6e261ce0715e7dcd9a16ca2f5f065d5c",
     "key": "reproductive/6e261ce0-arum-brunneoviolaceum-corazza-cortopassi-1.jpg"
+   }
+  },
+  "arum/chameleon": {
+   "193db167c2d7d1064e0bbdbf8882c56a": {
+    "bytes": 49798,
+    "derived_md5": "193db167c2d7d1064e0bbdbf8882c56a",
+    "key": "hero/193db167-arum-chameleon-monksilver-nursery.jpg"
+   },
+   "4233130132ff29ae3b4c20c1b54bc9f7": {
+    "bytes": 78867,
+    "derived_md5": "4233130132ff29ae3b4c20c1b54bc9f7",
+    "key": "other/42331301-arum-chameleon-monksilver-nursery-3.jpg"
+   },
+   "481566f8b23a7b3dfca8eb59795e9202": {
+    "bytes": 89255,
+    "derived_md5": "481566f8b23a7b3dfca8eb59795e9202",
+    "key": "other/481566f8-arum-chameleon-monksilver-nursery-4.jpg"
+   },
+   "a8cb76db6d8f6c595ad68ddd7f88cf30": {
+    "bytes": 60200,
+    "derived_md5": "a8cb76db6d8f6c595ad68ddd7f88cf30",
+    "key": "other/a8cb76db-arum-chameleon-monksilver-nursery-2.jpg"
    }
   },
   "arum/concinnatum": {
@@ -269,6 +298,23 @@
     "bytes": 770616,
     "derived_md5": "59082a53fc0bae146434427e1122a05b",
     "key": "protologue/59082a53-arum-concinnatum-icones-aroidearum-t-39-schott-1857.jpg"
+   }
+  },
+  "arum/concinnatum-agia-vavara": {
+   "d425a20a5aa613f75e3265d36b954ecc": {
+    "bytes": 91029,
+    "derived_md5": "d425a20a5aa613f75e3265d36b954ecc",
+    "key": "other/d425a20a-arum-concinnatum-agia-vavara-monksilver-nursery-3.jpg"
+   },
+   "e6a993f733c3dd247742620ead0e9808": {
+    "bytes": 61096,
+    "derived_md5": "e6a993f733c3dd247742620ead0e9808",
+    "key": "hero/e6a993f7-arum-concinnatum-agia-vavara-monksilver-nursery.jpg"
+   },
+   "eaf9b416111bef56bf916810904788ff": {
+    "bytes": 58039,
+    "derived_md5": "eaf9b416111bef56bf916810904788ff",
+    "key": "other/eaf9b416-arum-concinnatum-agia-vavara-monksilver-nursery-2.jpg"
    }
   },
   "arum/creticum": {
@@ -381,6 +427,23 @@
     "bytes": 516208,
     "derived_md5": "a3cf74563182d4d690daeae913551234",
     "key": "protologue/a3cf7456-arum-creticum-protologue-diagnoses-plantarum-orientalium-novarum-13-9-boissier-1854.jpg"
+   }
+  },
+  "arum/creticum-marmaris-white": {
+   "6f5b6f2e894c9a13ff6cda9f8482ba30": {
+    "bytes": 118671,
+    "derived_md5": "6f5b6f2e894c9a13ff6cda9f8482ba30",
+    "key": "other/6f5b6f2e-arum-creticum-marmaris-white-monksilver-nursery-2.jpg"
+   },
+   "ae01b4e07fbd68ecd361ee56ec54cb45": {
+    "bytes": 118236,
+    "derived_md5": "ae01b4e07fbd68ecd361ee56ec54cb45",
+    "key": "other/ae01b4e0-arum-creticum-marmaris-white-monksilver-nursery-3.jpg"
+   },
+   "b8b9e6c4ece692207b566238c8572268": {
+    "bytes": 101100,
+    "derived_md5": "b8b9e6c4ece692207b566238c8572268",
+    "key": "hero/b8b9e6c4-arum-creticum-marmaris-white-monksilver-nursery.jpg"
    }
   },
   "arum/cylindraceum": {
@@ -555,6 +618,18 @@
     "bytes": 96021,
     "derived_md5": "e20dd8fb48fcd1e303572599269fb090",
     "key": "reproductive/e20dd8fb-powo-arum-cyrenaicum-01.jpg"
+   }
+  },
+  "arum/cyrenaicum-\u00d7-arum-concinnatum": {
+   "42d964078f4e11fa453a7200e5018b65": {
+    "bytes": 334641,
+    "derived_md5": "42d964078f4e11fa453a7200e5018b65",
+    "key": "pollen-parent/42d96407-arum-concinnatum-millpondrj-2.jpg"
+   },
+   "6b01583e3a0814f43ea9928c214a979c": {
+    "bytes": 195023,
+    "derived_md5": "6b01583e3a0814f43ea9928c214a979c",
+    "key": "ovule-parent/6b01583e-powo-arum-cyrenaicum-03.jpg"
    }
   },
   "arum/dioscoridis": {
@@ -824,10 +899,10 @@
    }
   },
   "arum/hainesii": {
-   "2f1ecb66217f3537b75487a0ae7b4616": {
-    "bytes": 766247,
-    "derived_md5": "2f1ecb66217f3537b75487a0ae7b4616",
-    "key": "maps/2f1ecb66-arum-hainesii-distribution-map-boyce-1993.png"
+   "064bf1a09eb2b67af43bba2d90f87470": {
+    "bytes": 843814,
+    "derived_md5": "064bf1a09eb2b67af43bba2d90f87470",
+    "key": "maps/064bf1a0-arum-hainesii-distribution-map-boyce-1993.png"
    },
    "6aaaa876a88418f7440bcf2eb38ce7af": {
     "bytes": 286694,
@@ -1198,6 +1273,64 @@
     "key": "hero/59f902ee-bulbonomads.webp"
    }
   },
+  "arum/italicum-angelique": {
+   "0d978fabd22642492c856efa598e5b4b": {
+    "bytes": 66431,
+    "derived_md5": "0d978fabd22642492c856efa598e5b4b",
+    "key": "hero/0d978fab-arum-italicum-angelique-monksilver-nursery.jpg"
+   },
+   "3c0c79a66111472a87c339f36f390843": {
+    "bytes": 69215,
+    "derived_md5": "3c0c79a66111472a87c339f36f390843",
+    "key": "other/3c0c79a6-arum-italicum-angelique-monksilver-nursery-2.jpg"
+   }
+  },
+  "arum/italicum-ann-macnab": {
+   "0dbd06234ff053d54486cdf318d8eadb": {
+    "bytes": 93902,
+    "derived_md5": "0dbd06234ff053d54486cdf318d8eadb",
+    "key": "other/0dbd0623-arum-italicum-ann-macnab-monksilver-nursery-2.jpg"
+   },
+   "58726de8216585b7fe7aa1e52c795af0": {
+    "bytes": 87519,
+    "derived_md5": "58726de8216585b7fe7aa1e52c795af0",
+    "key": "hero/58726de8-arum-italicum-ann-macnab-monksilver-nursery.jpg"
+   }
+  },
+  "arum/italicum-bill-baker": {
+   "3afcaaf6852b9491f6dc9c9b4c600a31": {
+    "bytes": 66312,
+    "derived_md5": "3afcaaf6852b9491f6dc9c9b4c600a31",
+    "key": "hero/3afcaaf6-arum-italicum-bill-baker-monksilver-nursery.jpg"
+   },
+   "ffb6fe2cddd6df17f3fa0a2dad344e2e": {
+    "bytes": 91288,
+    "derived_md5": "ffb6fe2cddd6df17f3fa0a2dad344e2e",
+    "key": "other/ffb6fe2c-arum-italicum-bill-baker-monksilver-nursery-2.jpg"
+   }
+  },
+  "arum/italicum-caroline-hayes": {
+   "18f19818aa52f14288664b97dd935b41": {
+    "bytes": 79728,
+    "derived_md5": "18f19818aa52f14288664b97dd935b41",
+    "key": "other/18f19818-arum-italicum-caroline-hayes-monksilver-nursery-4.jpg"
+   },
+   "326412f2277ad4011c0d17429c6f2f5d": {
+    "bytes": 62431,
+    "derived_md5": "326412f2277ad4011c0d17429c6f2f5d",
+    "key": "hero/326412f2-arum-italicum-caroline-hayes-monksilver-nursery.jpg"
+   },
+   "3a6cfcfdafeabcffcde140aad64c48ca": {
+    "bytes": 49449,
+    "derived_md5": "3a6cfcfdafeabcffcde140aad64c48ca",
+    "key": "other/3a6cfcfd-arum-italicum-caroline-hayes-monksilver-nursery-2.jpg"
+   },
+   "60e6fad800f41694dbaeb4c8bef6252d": {
+    "bytes": 63168,
+    "derived_md5": "60e6fad800f41694dbaeb4c8bef6252d",
+    "key": "other/60e6fad8-arum-italicum-caroline-hayes-monksilver-nursery-3.jpg"
+   }
+  },
   "arum/italicum-chui": {
    "5706e2f7203d13f771bd8eeb6dd48c62": {
     "bytes": 262159,
@@ -1208,6 +1341,272 @@
     "bytes": 164134,
     "derived_md5": "59f902ee0ecb59d98e91f2d325261a29",
     "key": "hero/59f902ee-bulbonomads.webp"
+   }
+  },
+  "arum/italicum-filigree": {
+   "a7d29f96c800d1f6e9baeada90cbd368": {
+    "bytes": 66951,
+    "derived_md5": "a7d29f96c800d1f6e9baeada90cbd368",
+    "key": "other/a7d29f96-arum-italicum-filigree-monksilver-nursery-2.jpg"
+   },
+   "bf89e8e37263ce3da63fb73a91dd75a5": {
+    "bytes": 73227,
+    "derived_md5": "bf89e8e37263ce3da63fb73a91dd75a5",
+    "key": "other/bf89e8e3-arum-italicum-filigree-monksilver-nursery-3.jpg"
+   },
+   "e53bf6fc18abcb6225450253b8ce39d9": {
+    "bytes": 69329,
+    "derived_md5": "e53bf6fc18abcb6225450253b8ce39d9",
+    "key": "hero/e53bf6fc-arum-italicum-filigree-monksilver-nursery.jpg"
+   }
+  },
+  "arum/italicum-godzilla": {
+   "377be959053ce540fc773c5d4106fcd6": {
+    "bytes": 85319,
+    "derived_md5": "377be959053ce540fc773c5d4106fcd6",
+    "key": "other/377be959-arum-italicum-godzilla-monksilver-nursery-2.jpg"
+   },
+   "94b6a1b1360789bc941b26e3b46a8549": {
+    "bytes": 82627,
+    "derived_md5": "94b6a1b1360789bc941b26e3b46a8549",
+    "key": "hero/94b6a1b1-arum-italicum-godzilla-monksilver-nursery.jpg"
+   }
+  },
+  "arum/italicum-gold-rush": {
+   "2e1baf33205286777740834aa9f64a4c": {
+    "bytes": 79447,
+    "derived_md5": "2e1baf33205286777740834aa9f64a4c",
+    "key": "other/2e1baf33-arum-italicum-gold-rush-monksilver-nursery-2.jpg"
+   },
+   "3e88bafd95bb722507ac3594ed0dee9c": {
+    "bytes": 74404,
+    "derived_md5": "3e88bafd95bb722507ac3594ed0dee9c",
+    "key": "hero/3e88bafd-arum-italicum-gold-rush-monksilver-nursery.jpg"
+   }
+  },
+  "arum/italicum-green-gift": {
+   "034dd1872ce40e0759012462ba1e3b18": {
+    "bytes": 73151,
+    "derived_md5": "034dd1872ce40e0759012462ba1e3b18",
+    "key": "hero/034dd187-arum-italicum-green-gift-monksilver-nursery.jpg"
+   },
+   "79866ebfaaf9ab037b886c415ab1a7bf": {
+    "bytes": 86141,
+    "derived_md5": "79866ebfaaf9ab037b886c415ab1a7bf",
+    "key": "other/79866ebf-arum-italicum-green-gift-monksilver-nursery-2.jpg"
+   },
+   "faa8e74be140d44aca9b59278176eabd": {
+    "bytes": 90992,
+    "derived_md5": "faa8e74be140d44aca9b59278176eabd",
+    "key": "other/faa8e74b-arum-italicum-green-gift-monksilver-nursery-3.jpg"
+   }
+  },
+  "arum/italicum-grunspan": {
+   "41ebd8df1cad19c3cf89dc580a00af69": {
+    "bytes": 81523,
+    "derived_md5": "41ebd8df1cad19c3cf89dc580a00af69",
+    "key": "other/41ebd8df-arum-italicum-grunspan-monksilver-nursery-2.jpg"
+   },
+   "4fc552a74f8ae8adb2d6d57bc40bc9da": {
+    "bytes": 72145,
+    "derived_md5": "4fc552a74f8ae8adb2d6d57bc40bc9da",
+    "key": "hero/4fc552a7-arum-italicum-grunspan-monksilver-nursery.jpg"
+   },
+   "c36a52eca3050fe98375df2b6cc28da4": {
+    "bytes": 69553,
+    "derived_md5": "c36a52eca3050fe98375df2b6cc28da4",
+    "key": "other/c36a52ec-arum-italicum-grunspan-monksilver-nursery-3.jpg"
+   }
+  },
+  "arum/italicum-marks-star": {
+   "1b5dabcb87c3f5d0f67d93b8d03a08e6": {
+    "bytes": 54504,
+    "derived_md5": "1b5dabcb87c3f5d0f67d93b8d03a08e6",
+    "key": "hero/1b5dabcb-arum-italicum-mark-s-star-monksilver-nursery.jpg"
+   },
+   "9365ace616c831ad1d1bfc9a293c97f5": {
+    "bytes": 55508,
+    "derived_md5": "9365ace616c831ad1d1bfc9a293c97f5",
+    "key": "other/9365ace6-arum-italicum-mark-s-star-monksilver-nursery-3.jpg"
+   },
+   "9d2bc32b6d8b69e70c1f44d4943a1bfb": {
+    "bytes": 83464,
+    "derived_md5": "9d2bc32b6d8b69e70c1f44d4943a1bfb",
+    "key": "other/9d2bc32b-arum-italicum-mark-s-star-monksilver-nursery-2.jpg"
+   }
+  },
+  "arum/italicum-marmoratum": {
+   "83fc11c5df0ca6380acb423bc9cc5f83": {
+    "bytes": 129254,
+    "derived_md5": "83fc11c5df0ca6380acb423bc9cc5f83",
+    "key": "hero/83fc11c5-arum-italicum-marmoratum-monksilver-nursery.jpg"
+   },
+   "c9793816a6c74e943ce3bbeed78dc724": {
+    "bytes": 103885,
+    "derived_md5": "c9793816a6c74e943ce3bbeed78dc724",
+    "key": "other/c9793816-arum-italicum-marmoratum-monksilver-nursery-2.jpg"
+   },
+   "fffb70b2f3d3db024fb23f9476da154a": {
+    "bytes": 91922,
+    "derived_md5": "fffb70b2f3d3db024fb23f9476da154a",
+    "key": "other/fffb70b2-arum-italicum-marmoratum-monksilver-nursery-3.jpg"
+   }
+  },
+  "arum/italicum-monksilver": {
+   "3de21b7962dd34241d31fa34132e326a": {
+    "bytes": 80625,
+    "derived_md5": "3de21b7962dd34241d31fa34132e326a",
+    "key": "other/3de21b79-arum-italicum-monksilver-monksilver-nursery-2.jpg"
+   },
+   "a97c99747487653e8afa1910fafc0da8": {
+    "bytes": 59484,
+    "derived_md5": "a97c99747487653e8afa1910fafc0da8",
+    "key": "hero/a97c9974-arum-italicum-monksilver-monksilver-nursery.jpg"
+   }
+  },
+  "arum/italicum-nancy-lindsay": {
+   "48ab42f8e0a758dd4e9faa92823432e0": {
+    "bytes": 57615,
+    "derived_md5": "48ab42f8e0a758dd4e9faa92823432e0",
+    "key": "hero/48ab42f8-arum-italicum-nancy-lindsay-monksilver-nursery.jpg"
+   },
+   "73f9b7644e04c439a5be334b26da93bd": {
+    "bytes": 76286,
+    "derived_md5": "73f9b7644e04c439a5be334b26da93bd",
+    "key": "other/73f9b764-arum-italicum-nancy-lindsay-monksilver-nursery-2.jpg"
+   }
+  },
+  "arum/italicum-pixie": {
+   "93b7ed1fbfde60836611075ad8b071a0": {
+    "bytes": 102968,
+    "derived_md5": "93b7ed1fbfde60836611075ad8b071a0",
+    "key": "hero/93b7ed1f-arum-italicum-pixie-monksilver-nursery.jpg"
+   },
+   "958baefaccfae1fac403828b0bb43c33": {
+    "bytes": 100785,
+    "derived_md5": "958baefaccfae1fac403828b0bb43c33",
+    "key": "other/958baefa-arum-italicum-pixie-monksilver-nursery-2.jpg"
+   }
+  },
+  "arum/italicum-sandy-macnab": {
+   "5b19f762f79c2ee82832eb81caf04b5b": {
+    "bytes": 63981,
+    "derived_md5": "5b19f762f79c2ee82832eb81caf04b5b",
+    "key": "hero/5b19f762-arum-italicum-sandy-macnab-monksilver-nursery.jpg"
+   },
+   "8754cb10e5a8146c7b23d6ef675d1840": {
+    "bytes": 60555,
+    "derived_md5": "8754cb10e5a8146c7b23d6ef675d1840",
+    "key": "other/8754cb10-arum-italicum-sandy-macnab-monksilver-nursery-2.jpg"
+   },
+   "bc0461931ea43d1919147a834c4b6cbf": {
+    "bytes": 79266,
+    "derived_md5": "bc0461931ea43d1919147a834c4b6cbf",
+    "key": "other/bc046193-arum-italicum-sandy-macnab-monksilver-nursery-3.jpg"
+   }
+  },
+  "arum/italicum-silberpfeil": {
+   "9df58dcc91618e5625b45375d0debbf6": {
+    "bytes": 70829,
+    "derived_md5": "9df58dcc91618e5625b45375d0debbf6",
+    "key": "hero/9df58dcc-arum-italicum-silberpfeil-monksilver-nursery.jpg"
+   },
+   "bef4cdb028b22289e492506610fe22db": {
+    "bytes": 123085,
+    "derived_md5": "bef4cdb028b22289e492506610fe22db",
+    "key": "other/bef4cdb0-arum-italicum-silberpfeil-monksilver-nursery-2.jpg"
+   },
+   "f251f644fe7b79a2865bc198ab121e2c": {
+    "bytes": 110381,
+    "derived_md5": "f251f644fe7b79a2865bc198ab121e2c",
+    "key": "other/f251f644-arum-italicum-silberpfeil-monksilver-nursery-3.jpg"
+   }
+  },
+  "arum/italicum-taffs-giant": {
+   "2b7c0c088cee1686b7ce68b9e10bda62": {
+    "bytes": 68769,
+    "derived_md5": "2b7c0c088cee1686b7ce68b9e10bda62",
+    "key": "hero/2b7c0c08-arum-italicum-taff-s-giant-monksilver-nursery.jpg"
+   },
+   "da4913e7685293bebbce0258fee43333": {
+    "bytes": 78193,
+    "derived_md5": "da4913e7685293bebbce0258fee43333",
+    "key": "other/da4913e7-arum-italicum-taff-s-giant-monksilver-nursery-2.jpg"
+   }
+  },
+  "arum/italicum-tiny": {
+   "8264559bb8d9808ff2cdbf34114ad81c": {
+    "bytes": 145781,
+    "derived_md5": "8264559bb8d9808ff2cdbf34114ad81c",
+    "key": "other/8264559b-arum-italicum-tiny-monksilver-nursery-2.jpg"
+   },
+   "b1787ea729c72e4643932f6471e64d5e": {
+    "bytes": 149732,
+    "derived_md5": "b1787ea729c72e4643932f6471e64d5e",
+    "key": "hero/b1787ea7-arum-italicum-tiny-monksilver-nursery.jpg"
+   }
+  },
+  "arum/italicum-white-winter": {
+   "511b91795b542720c438f28ec4e1b3a5": {
+    "bytes": 73686,
+    "derived_md5": "511b91795b542720c438f28ec4e1b3a5",
+    "key": "hero/511b9179-arum-italicum-white-winter-monksilver-nursery.jpg"
+   },
+   "6fee577e7add0b7d9b750aeb704c56ff": {
+    "bytes": 61162,
+    "derived_md5": "6fee577e7add0b7d9b750aeb704c56ff",
+    "key": "other/6fee577e-arum-italicum-white-winter-monksilver-nursery-2.jpg"
+   },
+   "b802e32a5ab8e4db92cc9066a84845a1": {
+    "bytes": 54122,
+    "derived_md5": "b802e32a5ab8e4db92cc9066a84845a1",
+    "key": "other/b802e32a-arum-italicum-white-winter-monksilver-nursery-3.jpg"
+   }
+  },
+  "arum/italicum-xxl": {
+   "2d0c0960f11b8bb03b19c3303fd0c31b": {
+    "bytes": 78460,
+    "derived_md5": "2d0c0960f11b8bb03b19c3303fd0c31b",
+    "key": "other/2d0c0960-arum-italicum-xxl-monksilver-nursery-2.jpg"
+   },
+   "4bb03d5ac4eff861bf43866b9ff83f7b": {
+    "bytes": 57082,
+    "derived_md5": "4bb03d5ac4eff861bf43866b9ff83f7b",
+    "key": "other/4bb03d5a-arum-italicum-xxl-monksilver-nursery-3.jpg"
+   },
+   "e0742faf618e0a5ff388bebe9496324e": {
+    "bytes": 69827,
+    "derived_md5": "e0742faf618e0a5ff388bebe9496324e",
+    "key": "hero/e0742faf-arum-italicum-xxl-monksilver-nursery.jpg"
+   }
+  },
+  "arum/italicum-\u00d7-arum-maculatum": {
+   "10f66d13f19d85f1e645c4ccd35a5f84": {
+    "bytes": 659568,
+    "derived_md5": "10f66d13f19d85f1e645c4ccd35a5f84",
+    "key": "ovule-parent/10f66d13-arum-italicum-aqualily-3.jpg"
+   },
+   "d094c05bea620b60aee50783fcbe9eef": {
+    "bytes": 355977,
+    "derived_md5": "d094c05bea620b60aee50783fcbe9eef",
+    "key": "pollen-parent/d094c05b-arum-maculatum-d-h-mmerli.jpg"
+   }
+  },
+  "arum/itma": {
+   "03e753fa55d4a8a0ae3d725d8373522a": {
+    "bytes": 77504,
+    "derived_md5": "03e753fa55d4a8a0ae3d725d8373522a",
+    "key": "hero/03e753fa-arum-itma-monksilver-nursery.jpg"
+   },
+   "a5b7982da4ca1a6f9000c858dcc9b3e0": {
+    "bytes": 126290,
+    "derived_md5": "a5b7982da4ca1a6f9000c858dcc9b3e0",
+    "key": "other/a5b7982d-arum-itma-monksilver-nursery-2.jpg"
+   },
+   "d427d2a6c1de15d6a0df35f6ba08d4ca": {
+    "bytes": 114200,
+    "derived_md5": "d427d2a6c1de15d6a0df35f6ba08d4ca",
+    "key": "other/d427d2a6-arum-itma-monksilver-nursery-3.jpg"
    }
   },
   "arum/jacquemontii": {
@@ -1307,6 +1706,18 @@
     "bytes": 1007687,
     "derived_md5": "cd70b2d9ff078dae42e9cf30d45ba41e",
     "key": "protologue/cd70b2d9-arum-korolkowii-protologue-acta-horti-petropolitani-2-407-regel-1873.jpg"
+   }
+  },
+  "arum/love-child": {
+   "10f66d13f19d85f1e645c4ccd35a5f84": {
+    "bytes": 659568,
+    "derived_md5": "10f66d13f19d85f1e645c4ccd35a5f84",
+    "key": "ovule-parent/10f66d13-arum-italicum-aqualily-3.jpg"
+   },
+   "e49e21c486407448907ae5fc8f877e92": {
+    "bytes": 305807,
+    "derived_md5": "e49e21c486407448907ae5fc8f877e92",
+    "key": "pollen-parent/e49e21c4-arum-dioscoridis-allisunbeam-3.jpg"
    }
   },
   "arum/lucanum": {
@@ -1536,6 +1947,74 @@
     "bytes": 671242,
     "derived_md5": "f71ea1d4e98b9a3e529b2a67ae2c1b26",
     "key": "reproductive/f71ea1d4-arum-maculatum-a-hill.jpg"
+   }
+  },
+  "arum/maculatum-bakovci": {
+   "435c4583126cbcffe613f92509ca38d3": {
+    "bytes": 65911,
+    "derived_md5": "435c4583126cbcffe613f92509ca38d3",
+    "key": "hero/435c4583-arum-maculatum-bakovci-monksilver-nursery.jpg"
+   },
+   "43d9a511e3d570f487cb167c20042e21": {
+    "bytes": 62577,
+    "derived_md5": "43d9a511e3d570f487cb167c20042e21",
+    "key": "other/43d9a511-arum-maculatum-bakovci-monksilver-nursery-3.jpg"
+   },
+   "9c7c44bf1093ae530739d9a16b58b86d": {
+    "bytes": 74355,
+    "derived_md5": "9c7c44bf1093ae530739d9a16b58b86d",
+    "key": "other/9c7c44bf-arum-maculatum-bakovci-monksilver-nursery-4.jpg"
+   },
+   "cf103640bbe9c142b1532c63acf7b358": {
+    "bytes": 92977,
+    "derived_md5": "cf103640bbe9c142b1532c63acf7b358",
+    "key": "other/cf103640-arum-maculatum-bakovci-monksilver-nursery-2.jpg"
+   }
+  },
+  "arum/maculatum-fletcher": {
+   "68c94a2106ecf2138d9d3bb4d5952e3b": {
+    "bytes": 87326,
+    "derived_md5": "68c94a2106ecf2138d9d3bb4d5952e3b",
+    "key": "hero/68c94a21-arum-maculatum-fletcher-monksilver-nursery.jpg"
+   },
+   "9d07564817cd28f7e90c5210254ed323": {
+    "bytes": 99204,
+    "derived_md5": "9d07564817cd28f7e90c5210254ed323",
+    "key": "other/9d075648-arum-maculatum-fletcher-monksilver-nursery-2.jpg"
+   },
+   "b3d87b6502644fd9c6d26f6240cfe90d": {
+    "bytes": 126272,
+    "derived_md5": "b3d87b6502644fd9c6d26f6240cfe90d",
+    "key": "other/b3d87b65-arum-maculatum-fletcher-monksilver-nursery-3.jpg"
+   }
+  },
+  "arum/maculatum-lady-of-devon": {
+   "7ae5e6e312bea22f76e08434d39f42fc": {
+    "bytes": 81627,
+    "derived_md5": "7ae5e6e312bea22f76e08434d39f42fc",
+    "key": "hero/7ae5e6e3-arum-maculatum-lady-of-devon-monksilver-nursery.jpg"
+   },
+   "85bd4810335e0eee04b3d4a2a6534bce": {
+    "bytes": 106535,
+    "derived_md5": "85bd4810335e0eee04b3d4a2a6534bce",
+    "key": "other/85bd4810-arum-maculatum-lady-of-devon-monksilver-nursery-3.jpg"
+   }
+  },
+  "arum/margaret-owen": {
+   "1943da3cb2a6746e5aaa1f7147b2d1f9": {
+    "bytes": 98668,
+    "derived_md5": "1943da3cb2a6746e5aaa1f7147b2d1f9",
+    "key": "other/1943da3c-arum-margaret-owen-monksilver-nursery-3.jpg"
+   },
+   "d13f3fbea75e88c93f377280db19a145": {
+    "bytes": 89834,
+    "derived_md5": "d13f3fbea75e88c93f377280db19a145",
+    "key": "other/d13f3fbe-arum-margaret-owen-monksilver-nursery-2.jpg"
+   },
+   "fc89db8eb12aeb26940a94ec3dd549bb": {
+    "bytes": 75077,
+    "derived_md5": "fc89db8eb12aeb26940a94ec3dd549bb",
+    "key": "hero/fc89db8e-arum-margaret-owen-monksilver-nursery.jpg"
    }
   },
   "arum/megobrebi": {
@@ -2382,6 +2861,11 @@
    }
   },
   "arum/sooi": {
+   "1484a2730db9a36bcfe12c56b7055200": {
+    "bytes": 471060,
+    "derived_md5": "1484a2730db9a36bcfe12c56b7055200",
+    "key": "ovule-parent/1484a273-arum-cylindraceum-francesco-scelsa.jpg"
+   },
    "2c85791f5e18e96645d06aa90da11161": {
     "bytes": 101356,
     "derived_md5": "2c85791f5e18e96645d06aa90da11161",
@@ -2396,6 +2880,45 @@
     "bytes": 109969,
     "derived_md5": "5fa1fc562d938f92d99f9d8bca857162",
     "key": "reproductive/5fa1fc56-angelo-porcelli-3.jpg"
+   },
+   "d094c05bea620b60aee50783fcbe9eef": {
+    "bytes": 355977,
+    "derived_md5": "d094c05bea620b60aee50783fcbe9eef",
+    "key": "pollen-parent/d094c05b-arum-maculatum-d-h-mmerli.jpg"
+   }
+  },
+  "arum/splish-splash": {
+   "3d6a74096e560a25a948cd7cff5c6671": {
+    "bytes": 64348,
+    "derived_md5": "3d6a74096e560a25a948cd7cff5c6671",
+    "key": "other/3d6a7409-arum-splish-splash-monksilver-nursery-3.jpg"
+   },
+   "72e8b78acb35e2f4f71d582183772c5b": {
+    "bytes": 63986,
+    "derived_md5": "72e8b78acb35e2f4f71d582183772c5b",
+    "key": "hero/72e8b78a-arum-splish-splash-monksilver-nursery.jpg"
+   },
+   "a5b20e29932665fea231a4c38b0f9b6a": {
+    "bytes": 88868,
+    "derived_md5": "a5b20e29932665fea231a4c38b0f9b6a",
+    "key": "other/a5b20e29-arum-splish-splash-monksilver-nursery-2.jpg"
+   }
+  },
+  "arum/streaked-spectre": {
+   "035a400fa43aa8cf4ccac6c23518968b": {
+    "bytes": 67053,
+    "derived_md5": "035a400fa43aa8cf4ccac6c23518968b",
+    "key": "hero/035a400f-arum-streaked-spectre-monksilver-nursery.jpg"
+   },
+   "727f619890733c14699d63fec04f9c58": {
+    "bytes": 78688,
+    "derived_md5": "727f619890733c14699d63fec04f9c58",
+    "key": "other/727f6198-arum-streaked-spectre-monksilver-nursery-2.jpg"
+   },
+   "c99aba2469e6ee11391966f09f5ec6b9": {
+    "bytes": 50453,
+    "derived_md5": "c99aba2469e6ee11391966f09f5ec6b9",
+    "key": "other/c99aba24-arum-streaked-spectre-monksilver-nursery-3.jpg"
    }
   }
  }
