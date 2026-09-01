@@ -1,12 +1,12 @@
 {
  "genus": "Amorphophallus",
  "slug": "amorphophallus",
- "compiled": "2026-08-01",
+ "compiled": "2026-09-01",
  "source": "https://www.aroidpedia.com/amorphophallus",
- "taxon_count": 56,
- "source_count": 103,
- "cited_count": 56,
- "gap_count": 0,
+ "taxon_count": 248,
+ "source_count": 120,
+ "cited_count": 64,
+ "gap_count": 184,
  "pdf": "Aroidpedia-Amorphophallus-Bibliography.pdf",
  "kew_excluded_from_bibliography": true,
  "bibliography": [
@@ -37,19 +37,6 @@
    "host": "banglajol.info"
   },
   {
-   "title": "Biodiversity of Gabon",
-   "url": "https://gabonbiota.org/portal/taxa/index.php?tid=10204&taxauthid=1&clid=0",
-   "taxa": [
-    {
-     "name": "AMORPHOPHALLUS CANALICULATUS",
-     "url": "https://www.aroidpedia.com/journal/amorphophallus-canaliculatus",
-     "kind": "Species"
-    }
-   ],
-   "count": 1,
-   "host": "gabonbiota.org"
-  },
-  {
    "title": "Biodiversité du Gabon",
    "url": "https://gabonbiota.org/portal/taxa/index.php?taxauthid=1&taxon=1775&clid=23",
    "taxa": [
@@ -76,7 +63,7 @@
    "host": "repository.naturalis.nl"
   },
   {
-   "title": "Blumea 39: 237 (1994)",
+   "title": "Blumea 39: (1994) P.251",
    "url": "https://repository.naturalis.nl/pub/525950",
    "taxa": [
     {
@@ -128,9 +115,19 @@
      "name": "AMORPHOPHALLUS COSTATUS",
      "url": "https://www.aroidpedia.com/journal/amorphophallus-costatus",
      "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS CURVISTYLIS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-curvistylis",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS DECLINATUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-declinatus",
+     "kind": "Species"
     }
    ],
-   "count": 10,
+   "count": 12,
    "host": "repository.naturalis.nl"
   },
   {
@@ -214,6 +211,32 @@
    "host": "protectedareas.mg"
   },
   {
+   "title": "Bulletin du Jardin Botanique de Buitenzorg (Bogor now) Ser. 3 V1 (1920) P.369",
+   "url": "http://www.biodiversitylibrary.org/page/5020548",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS DECUS-SILVAE",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-decus-silvae",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "biodiversitylibrary.org"
+  },
+  {
+   "title": "Bulletin du Jardin Botanique de Buitenzorg (Bogor now) Ser. 3 V1 (1920) P.371",
+   "url": "http://www.biodiversitylibrary.org/page/5020550",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS DISCOPHORUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-discophorus",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "biodiversitylibrary.org"
+  },
+  {
    "title": "Central African Plants",
    "url": "http://www.centralafricanplants.senckenberg.de/root/index.php?page_id=34&id=9898",
    "taxa": [
@@ -277,19 +300,6 @@
    ],
    "count": 1,
    "host": "dineshvalke.blogspot.com"
-  },
-  {
-   "title": "e-Flora of India",
-   "url": "https://efloraofindia.com/efi/amorphophallus-bulbifer/",
-   "taxa": [
-    {
-     "name": "AMORPHOPHALLUS BULBIFER",
-     "url": "https://www.aroidpedia.com/journal/amorphophallus-bulbifer",
-     "kind": "Species"
-    }
-   ],
-   "count": 1,
-   "host": "efloraofindia.com"
   },
   {
    "title": "e-Flora of Thailand",
@@ -505,6 +515,19 @@
    "host": "biodiversitylibrary.org"
   },
   {
+   "title": "Flora of Tropical Africa V8 (1902) P. 137",
+   "url": "https://plants.jstor.org/stable/10.5555/al.ap.flora.flota014459",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS CONSIMILIS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-consimilis",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "plants.jstor.org"
+  },
+  {
    "title": "Flora of West Tropical Africa Vol 2 (1936) P. 362",
    "url": "https://archive.org/details/flora-west-tropical-africa_1936-02_2_part-2/page/362/mode/2up",
    "taxa": [
@@ -544,6 +567,24 @@
    "host": "african-plants.org"
   },
   {
+   "title": "The genusAmorphophallusin Java - Reinwardtia Vol 13 (2009) P.3-4",
+   "url": "https://biologyjournal.brin.go.id/index.php/reinwardtia/article/view/329/299",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS ANNULIFER",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-annulifer",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS DECUS-SILVAE",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-decus-silvae",
+     "kind": "Species"
+    }
+   ],
+   "count": 2,
+   "host": "biologyjournal.brin.go.id"
+  },
+  {
    "title": "Guihaia V3 (1986) P. 183",
    "url": "http://gxzw.ijournals.cn/gxzw/ch/reader/create_pdf.aspx?file_no=198603006&year_id=1986&quarter_id=3&falg=1",
    "taxa": [
@@ -555,6 +596,32 @@
    ],
    "count": 1,
    "host": "gxzw.ijournals.cn"
+  },
+  {
+   "title": "Journal of Botany V24 (1886) P.305",
+   "url": "http://www.biodiversitylibrary.org/page/35636135",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS CONSIMILIS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-consimilis",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "biodiversitylibrary.org"
+  },
+  {
+   "title": "The Journal of the Asiatic Society of Bengal V.67 Pt.2 (1898) - P.305",
+   "url": "http://www.biodiversitylibrary.org/page/35583438",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS CRUDDASIANUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-cruddasianus",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "biodiversitylibrary.org"
   },
   {
    "title": "Journal of the Federated Malay States Museums V.4 (1911) P.89",
@@ -779,37 +846,11 @@
   },
   {
    "title": "Alan Galloway",
-   "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/borneensis/",
-   "taxa": [
-    {
-     "name": "AMORPHOPHALLUS BORNEENSIS",
-     "url": "https://www.aroidpedia.com/journal/amorphophallus-borneensis",
-     "kind": "Species"
-    }
-   ],
-   "count": 1,
-   "host": "alangallowaybotanicals.com"
-  },
-  {
-   "title": "Alan Galloway",
    "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/boyceanus/",
    "taxa": [
     {
      "name": "AMORPHOPHALLUS BOYCEANUS",
      "url": "https://www.aroidpedia.com/journal/amorphophallus-boyceanus",
-     "kind": "Species"
-    }
-   ],
-   "count": 1,
-   "host": "alangallowaybotanicals.com"
-  },
-  {
-   "title": "Alan Galloway",
-   "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/brachyphyllus/",
-   "taxa": [
-    {
-     "name": "AMORPHOPHALLUS BRACHYPHYLLUS",
-     "url": "https://www.aroidpedia.com/journal/amorphophallus-brachyphyllus",
      "kind": "Species"
     }
    ],
@@ -986,17 +1027,108 @@
    "host": "alangallowaybotanicals.com"
   },
   {
-   "title": "Llifle",
-   "url": "https://llifle.com/Encyclopedia/BULBS/Family/Araceae/33463/Amorphophallus_bulbifer",
+   "title": "Alan Galloway",
+   "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/crinitus/",
    "taxa": [
     {
-     "name": "AMORPHOPHALLUS BULBIFER",
-     "url": "https://www.aroidpedia.com/journal/amorphophallus-bulbifer",
+     "name": "AMORPHOPHALLUS CRINITUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-crinitus",
      "kind": "Species"
     }
    ],
    "count": 1,
-   "host": "llifle.com"
+   "host": "alangallowaybotanicals.com"
+  },
+  {
+   "title": "Alan Galloway",
+   "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/crispifolius/",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS CRISPIFOLIUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-crispifolius",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "alangallowaybotanicals.com"
+  },
+  {
+   "title": "Alan Galloway",
+   "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/croatii/",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS CROATII",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-croatii",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "alangallowaybotanicals.com"
+  },
+  {
+   "title": "Alan Galloway",
+   "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/cruddasianus/",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS CRUDDASIANUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-cruddasianus",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "alangallowaybotanicals.com"
+  },
+  {
+   "title": "Alan Galloway",
+   "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/curvistylis/",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS CURVISTYLIS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-curvistylis",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "alangallowaybotanicals.com"
+  },
+  {
+   "title": "Alan Galloway",
+   "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/declinatus/",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS DECLINATUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-declinatus",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "alangallowaybotanicals.com"
+  },
+  {
+   "title": "Alan Galloway",
+   "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/decus-silvae/",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS DECUS-SILVAE",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-decus-silvae",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "alangallowaybotanicals.com"
+  },
+  {
+   "title": "Alan Galloway",
+   "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/discophorus/",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS DISCOPHORUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-discophorus",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "alangallowaybotanicals.com"
   },
   {
    "title": "Monographiae Phanerogamarum V.2 (1879) P.319",
@@ -1051,6 +1183,19 @@
    "host": "nsojournals.onlinelibrary.wiley.com"
   },
   {
+   "title": "Notes on the genus Amorphophallus Blume ex Decne. (Araceae) of northwestern Luzon, Philippines, including a new species",
+   "url": "https://www.researchgate.net/publication/359210682_Notes_on_the_genus_Amorphophallus_Blume_ex_Decne_Araceae_of_northwestern_Luzon_Philippines_including_a_new_species",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS ADAMSENSIS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-adamsensis",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "researchgate.net"
+  },
+  {
    "title": "Notulae systematicae v.8-9 (1939-1941) P. 117",
    "url": "https://www.biodiversitylibrary.org/page/6525694",
    "taxa": [
@@ -1075,6 +1220,37 @@
    ],
    "count": 1,
    "host": "biodiversitylibrary.org"
+  },
+  {
+   "title": "Das Pflanzenreich H.48 (1911) P.101",
+   "url": "http://www.biodiversitylibrary.org/page/20872534",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS CRUDDASIANUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-cruddasianus",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "biodiversitylibrary.org"
+  },
+  {
+   "title": "Das Pflanzenreich IV.23c (Araceae-Lasioideae), Fig. 36: 104 (1911)",
+   "url": "https://bibdigital.rjb.csic.es/medias/8f/8a/5c/83/8f8a5c83-0362-4ea1-ae14-c04ae79644a4/files/O_ENG_2.pdf",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS ABYSSINICUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-abyssinicus",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS APHYLLUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-aphyllus",
+     "kind": "Species"
+    }
+   ],
+   "count": 2,
+   "host": "bibdigital.rjb.csic.es"
   },
   {
    "title": "Das Pflanzenreich V.48 (1911) P.79",
@@ -1181,6 +1357,74 @@
    "host": "biodiversitylibrary.org"
   },
   {
+   "title": "Propagation of Amorphophallus by Leaf Petiole Cuttings — Juniper Level Botanic Garden",
+   "url": "https://www.juniperlevelbotanicgarden.org/propagation-of-amorphophallus-by-leaf-petiole-cuttings/",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS ABERRANS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-aberrans",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS ABYSSINICUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-abyssinicus",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS ALBISPATHUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-albispathus",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS ASTEROSTIGMATUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-asterostigmatus",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS ATROVIRIDIS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-atroviridis",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS BREVIPETIOLATUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-brevipetiolatus",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS BUFO",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-bufo",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS BULBIFER",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-bulbifer",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS CARNEUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-carneus",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS COAETANEUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-coaetaneus",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS CRUDDASIANUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-cruddasianus",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS CURVISTYLIS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-curvistylis",
+     "kind": "Species"
+    }
+   ],
+   "count": 12,
+   "host": "juniperlevelbotanicgarden.org"
+  },
+  {
    "title": "Rheedea V.10 (2000) P.63-67: Rediscovery of Amorphophallus carnosus (Araceae), a rare and narrow endemic species from South Andaman, India",
    "url": "https://rheedea.in/storages/submission/file/1530790455.pdf",
    "taxa": [
@@ -1194,12 +1438,181 @@
    "host": "rheedea.in"
   },
   {
+   "title": "Aroideana 19 (1996): P. 7-131",
+   "url": "https://www.researchgate.net/publication/283567478_Everything_you_always_wanted_to_know_about_Amorphophallus_but_were_afraid_to_stick_your_nose_into",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS ABYSSINICUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-abyssinicus",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS ALBISPATHUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-albispathus",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS ALBUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-albus",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS ANGOLENSIS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-angolensis",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS ANGULATUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-angulatus",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS ANKARANA",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-ankarana",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS ANNULIFER",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-annulifer",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS ANTSINGYENSIS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-antsingyensis",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS APHYLLUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-aphyllus",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS ASTEROSTIGMATUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-asterostigmatus",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS ATROVIRIDIS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-atroviridis",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS BARTHLOTTII",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-barthlottii",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS BECCARII",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-beccarii",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS BORNEENSIS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-borneensis",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS BRACHYPHYLLUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-brachyphyllus",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS BULBIFER",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-bulbifer",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS CANALICULATUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-canaliculatus",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS CARNEUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-carneus",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS CICATRICIFER",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-cicatricifer",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS CIRRIFER",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-cirrifer",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS COAETANEUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-coaetaneus",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS COMMUTATUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-commutatus",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS COSTATUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-costatus",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS COUDERCII",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-coudercii",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS CURVISTYLIS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-curvistylis",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS DECLINATUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-declinatus",
+     "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS DECUS-SILVAE",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-decus-silvae",
+     "kind": "Species"
+    }
+   ],
+   "count": 27,
+   "host": "researchgate.net"
+  },
+  {
+   "title": "Aroideana 19 (1996): P.7-131",
+   "url": "https://Aroideana 19 (1996):P7 - 131 | https://www.researchgate.net/publication/283567478_Everything_you_always_wanted_to_know_about_Amorphophallus_but_were_afraid_to_stick_your_nose_into",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS BUFO",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-bufo",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "aroideana 19 (1996):p7 - 131 | https:"
+  },
+  {
    "title": "Aroideana 29 (2006) P.48",
    "url": "http://www.aroid.org/member/vault.php?file=aroideana/Aroideana29.pdf",
    "taxa": [
     {
      "name": "AMORPHOPHALLUS ANDRANOGIDROENSIS",
      "url": "https://www.aroidpedia.com/journal/amorphophallus-andranogidroensis",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "aroid.org"
+  },
+  {
+   "title": "Aroideana 29 (2006) P.53",
+   "url": "https://www.aroid.org/aroideana/aroideana-v29",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS CROATII",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-croatii",
      "kind": "Species"
     }
    ],
@@ -1245,9 +1658,14 @@
      "name": "AMORPHOPHALLUS BOLIKHAMXAYENSIS",
      "url": "https://www.aroidpedia.com/journal/amorphophallus-bolikhamxayensis",
      "kind": "Species"
+    },
+    {
+     "name": "AMORPHOPHALLUS CRISPIFOLIUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-crispifolius",
+     "kind": "Species"
     }
    ],
-   "count": 1,
+   "count": 2,
    "host": "aroid.org"
   },
   {
@@ -1266,6 +1684,19 @@
     }
    ],
    "count": 2,
+   "host": "aroid.org"
+  },
+  {
+   "title": "Aroideana 42 (1) (2019) P.48",
+   "url": "https://www.aroid.org/aroideana/aroideana-v42n1",
+   "taxa": [
+    {
+     "name": "AMORPHOPHALLUS CRINITUS",
+     "url": "https://www.aroidpedia.com/journal/amorphophallus-crinitus",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
    "host": "aroid.org"
   },
   {
@@ -1457,6 +1888,11 @@
      "title": "e-Flora of Thailand",
      "url": "https://botany.dnp.go.th/eflora/floraspecies.html?tdcode=04862",
      "key": "https://botany.dnp.go.th/eflora/floraspecies.html?tdcode=04862"
+    },
+    {
+     "title": "Propagation of Amorphophallus by Leaf Petiole Cuttings — Juniper Level Botanic Garden",
+     "url": "https://www.juniperlevelbotanicgarden.org/propagation-of-amorphophallus-by-leaf-petiole-cuttings/",
+     "key": "https://www.juniperlevelbotanicgarden.org/propagation-of-amorphophallus-by-leaf-petiole-cuttings"
     }
    ]
   },
@@ -1478,6 +1914,16 @@
      "key": "https://www.jstor.org/stable/3997194"
     },
     {
+     "title": "Aroideana 19 (1996): P. 7-131",
+     "url": "https://www.researchgate.net/publication/283567478_Everything_you_always_wanted_to_know_about_Amorphophallus_but_were_afraid_to_stick_your_nose_into",
+     "key": "https://www.researchgate.net/publication/283567478_everything_you_always_wanted_to_know_about_amorphophallus_but_were_afraid_to_stick_your_nose_into"
+    },
+    {
+     "title": "Das Pflanzenreich IV.23c (Araceae-Lasioideae), Fig. 25: 72 (1911)",
+     "url": "https://bibdigital.rjb.csic.es/medias/8f/8a/5c/83/8f8a5c83-0362-4ea1-ae14-c04ae79644a4/files/O_ENG_2.pdf",
+     "key": "https://bibdigital.rjb.csic.es/medias/8f/8a/5c/83/8f8a5c83-0362-4ea1-ae14-c04ae79644a4/files/o_eng_2.pdf"
+    },
+    {
      "title": "African Plants Portal",
      "url": "https://african-plants.org/portal/taxa/index.php?tid=12972",
      "key": "https://african-plants.org/portal/taxa/index.php?tid=12972"
@@ -1486,6 +1932,11 @@
      "title": "Tropicos",
      "url": "https://tropicos.org/name/40012273",
      "key": "https://tropicos.org/name/40012273"
+    },
+    {
+     "title": "Propagation of Amorphophallus by Leaf Petiole Cuttings — Juniper Level Botanic Garden",
+     "url": "https://www.juniperlevelbotanicgarden.org/propagation-of-amorphophallus-by-leaf-petiole-cuttings/",
+     "key": "https://www.juniperlevelbotanicgarden.org/propagation-of-amorphophallus-by-leaf-petiole-cuttings"
     }
    ]
   },
@@ -1500,6 +1951,11 @@
      "title": "Flora of Tropical Africa V.8 (1901-1902) P.160",
      "url": "https://www.biodiversitylibrary.org/page/378810",
      "key": "https://www.biodiversitylibrary.org/page/378810"
+    },
+    {
+     "title": "Notes on the genus Amorphophallus Blume ex Decne. (Araceae) of northwestern Luzon, Philippines, including a new species",
+     "url": "https://www.researchgate.net/publication/359210682_Notes_on_the_genus_Amorphophallus_Blume_ex_Decne_Araceae_of_northwestern_Luzon_Philippines_including_a_new_species",
+     "key": "https://www.researchgate.net/publication/359210682_notes_on_the_genus_amorphophallus_blume_ex_decne_araceae_of_northwestern_luzon_philippines_including_a_new_species"
     }
    ]
   },
@@ -1516,6 +1972,11 @@
      "key": "https://repository.naturalis.nl/pub/525950"
     },
     {
+     "title": "Aroideana 19 (1996): P. 7-131",
+     "url": "https://www.researchgate.net/publication/283567478_Everything_you_always_wanted_to_know_about_Amorphophallus_but_were_afraid_to_stick_your_nose_into",
+     "key": "https://www.researchgate.net/publication/283567478_everything_you_always_wanted_to_know_about_amorphophallus_but_were_afraid_to_stick_your_nose_into"
+    },
+    {
      "title": "e-Flora of Thailand",
      "url": "https://botany.dnp.go.th/eflora/floraSpecies.html?tdcode=04863",
      "key": "https://botany.dnp.go.th/eflora/floraspecies.html?tdcode=04863"
@@ -1524,6 +1985,11 @@
      "title": "Alan Galloway",
      "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/albispathus/",
      "key": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/albispathus"
+    },
+    {
+     "title": "Propagation of Amorphophallus by Leaf Petiole Cuttings — Juniper Level Botanic Garden",
+     "url": "https://www.juniperlevelbotanicgarden.org/propagation-of-amorphophallus-by-leaf-petiole-cuttings/",
+     "key": "https://www.juniperlevelbotanicgarden.org/propagation-of-amorphophallus-by-leaf-petiole-cuttings"
     }
    ]
   },
@@ -1538,6 +2004,11 @@
      "title": "Flora of China",
      "url": "http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=250095403",
      "key": "http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=250095403"
+    },
+    {
+     "title": "Aroideana 19 (1996): P. 7-131",
+     "url": "https://www.researchgate.net/publication/283567478_Everything_you_always_wanted_to_know_about_Amorphophallus_but_were_afraid_to_stick_your_nose_into",
+     "key": "https://www.researchgate.net/publication/283567478_everything_you_always_wanted_to_know_about_amorphophallus_but_were_afraid_to_stick_your_nose_into"
     }
    ]
   },
@@ -1611,6 +2082,11 @@
      "key": "https://gabonbiota.org/portal/taxa/index.php?taxauthid=1&taxon=1775&clid=23"
     },
     {
+     "title": "Aroideana 19 (1996):P7 - 131",
+     "url": "https://www.researchgate.net/publication/283567478_Everything_you_always_wanted_to_know_about_Amorphophallus_but_were_afraid_to_stick_your_nose_into",
+     "key": "https://www.researchgate.net/publication/283567478_everything_you_always_wanted_to_know_about_amorphophallus_but_were_afraid_to_stick_your_nose_into"
+    },
+    {
      "title": "Central African Plants",
      "url": "http://www.centralafricanplants.senckenberg.de/root/index.php?page_id=34&id=9898",
      "key": "http://www.centralafricanplants.senckenberg.de/root/index.php?page_id=34&id=9898"
@@ -1633,6 +2109,11 @@
      "title": "Blumea 39: 241 (1994)",
      "url": "https://repository.naturalis.nl/pub/525950",
      "key": "https://repository.naturalis.nl/pub/525950"
+    },
+    {
+     "title": "Aroideana 19 (1996): P. 7-131",
+     "url": "https://www.researchgate.net/publication/283567478_Everything_you_always_wanted_to_know_about_Amorphophallus_but_were_afraid_to_stick_your_nose_into",
+     "key": "https://www.researchgate.net/publication/283567478_everything_you_always_wanted_to_know_about_amorphophallus_but_were_afraid_to_stick_your_nose_into"
     }
    ]
   },
@@ -1663,6 +2144,11 @@
    "kew": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1006811-1",
    "refs": [
     {
+     "title": "Aroideana 19 (1996): P. 7-131",
+     "url": "https://www.researchgate.net/publication/283567478_Everything_you_always_wanted_to_know_about_Amorphophallus_but_were_afraid_to_stick_your_nose_into",
+     "key": "https://www.researchgate.net/publication/283567478_everything_you_always_wanted_to_know_about_amorphophallus_but_were_afraid_to_stick_your_nose_into"
+    },
+    {
      "title": "Alan Galloway",
      "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/ankarana/",
      "key": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/ankarana"
@@ -1685,6 +2171,16 @@
      "title": "Blumea 39: 243 (1994)",
      "url": "https://repository.naturalis.nl/pub/525950",
      "key": "https://repository.naturalis.nl/pub/525950"
+    },
+    {
+     "title": "Aroideana 19 (1996): P. 7-131",
+     "url": "https://www.researchgate.net/publication/283567478_Everything_you_always_wanted_to_know_about_Amorphophallus_but_were_afraid_to_stick_your_nose_into",
+     "key": "https://www.researchgate.net/publication/283567478_everything_you_always_wanted_to_know_about_amorphophallus_but_were_afraid_to_stick_your_nose_into"
+    },
+    {
+     "title": "The genusAmorphophallusin Java - Reinwardtia Vol 13 (2009) P.3",
+     "url": "https://biologyjournal.brin.go.id/index.php/reinwardtia/article/view/329/299",
+     "key": "https://biologyjournal.brin.go.id/index.php/reinwardtia/article/view/329/299"
     }
    ]
   },
@@ -1699,6 +2195,11 @@
      "title": "Botanische Jahrbücher für Systematik, Pflanzengeschichte und Pflanzengeographie Volume 121 (1999) P.2",
      "url": "https://protectedareas.mg/document/show/257819",
      "key": "https://protectedareas.mg/document/show/257819"
+    },
+    {
+     "title": "Aroideana 19 (1996): P. 7-131",
+     "url": "https://www.researchgate.net/publication/283567478_Everything_you_always_wanted_to_know_about_Amorphophallus_but_were_afraid_to_stick_your_nose_into",
+     "key": "https://www.researchgate.net/publication/283567478_everything_you_always_wanted_to_know_about_amorphophallus_but_were_afraid_to_stick_your_nose_into"
     },
     {
      "title": "Alan Galloway",
@@ -1723,6 +2224,16 @@
      "title": "Flora of West Tropical Africa Vol 2 (1936) P. 362",
      "url": "https://archive.org/details/flora-west-tropical-africa_1936-02_2_part-2/page/362/mode/2up",
      "key": "https://archive.org/details/flora-west-tropical-africa_1936-02_2_part-2/page/362/mode/2up"
+    },
+    {
+     "title": "Aroideana 19 (1996): P. 7-131",
+     "url": "https://www.researchgate.net/publication/283567478_Everything_you_always_wanted_to_know_about_Amorphophallus_but_were_afraid_to_stick_your_nose_into",
+     "key": "https://www.researchgate.net/publication/283567478_everything_you_always_wanted_to_know_about_amorphophallus_but_were_afraid_to_stick_your_nose_into"
+    },
+    {
+     "title": "Das Pflanzenreich IV.23c (Araceae-Lasioideae), Fig. 36: 104 (1911)",
+     "url": "https://bibdigital.rjb.csic.es/medias/8f/8a/5c/83/8f8a5c83-0362-4ea1-ae14-c04ae79644a4/files/O_ENG_2.pdf",
+     "key": "https://bibdigital.rjb.csic.es/medias/8f/8a/5c/83/8f8a5c83-0362-4ea1-ae14-c04ae79644a4/files/o_eng_2.pdf"
     },
     {
      "title": "Alan Galloway",
@@ -1801,6 +2312,11 @@
      "key": "https://repository.naturalis.nl/pub/524945/blum1992036002008.pdf"
     },
     {
+     "title": "Aroideana 19 (1996): P. 7-131",
+     "url": "https://www.researchgate.net/publication/283567478_Everything_you_always_wanted_to_know_about_Amorphophallus_but_were_afraid_to_stick_your_nose_into",
+     "key": "https://www.researchgate.net/publication/283567478_everything_you_always_wanted_to_know_about_amorphophallus_but_were_afraid_to_stick_your_nose_into"
+    },
+    {
      "title": "e-Flora of Thailand",
      "url": "https://botany.dnp.go.th/eflora/floraSpecies.html?tdcode=04865",
      "key": "https://botany.dnp.go.th/eflora/floraspecies.html?tdcode=04865"
@@ -1814,6 +2330,11 @@
      "title": "Aroidpictures.fr",
      "url": "http://www.aroidpictures.fr/GENERA/AMORPHOPHALLUS/amoasterostigmatus.html",
      "key": "http://www.aroidpictures.fr/genera/amorphophallus/amoasterostigmatus.html"
+    },
+    {
+     "title": "Propagation of Amorphophallus by Leaf Petiole Cuttings — Juniper Level Botanic Garden",
+     "url": "https://www.juniperlevelbotanicgarden.org/propagation-of-amorphophallus-by-leaf-petiole-cuttings/",
+     "key": "https://www.juniperlevelbotanicgarden.org/propagation-of-amorphophallus-by-leaf-petiole-cuttings"
     }
    ]
   },
@@ -1854,6 +2375,11 @@
      "key": "https://repository.naturalis.nl/pub/525950"
     },
     {
+     "title": "Aroideana 19 (1996): P. 7-131",
+     "url": "https://www.researchgate.net/publication/283567478_Everything_you_always_wanted_to_know_about_Amorphophallus_but_were_afraid_to_stick_your_nose_into",
+     "key": "https://www.researchgate.net/publication/283567478_everything_you_always_wanted_to_know_about_amorphophallus_but_were_afraid_to_stick_your_nose_into"
+    },
+    {
      "title": "e-Flora of Thailand",
      "url": "https://botany.dnp.go.th/eflora/floraSpecies.html?tdcode=04867",
      "key": "https://botany.dnp.go.th/eflora/floraspecies.html?tdcode=04867"
@@ -1862,6 +2388,11 @@
      "title": "Alan Galloway",
      "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/atroviridis/",
      "key": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/atroviridis"
+    },
+    {
+     "title": "Propagation ofAmorphophallusby Leaf Petiole Cuttings — Juniper Level Botanic Garden",
+     "url": "https://www.juniperlevelbotanicgarden.org/propagation-of-amorphophallus-by-leaf-petiole-cuttings/",
+     "key": "https://www.juniperlevelbotanicgarden.org/propagation-of-amorphophallus-by-leaf-petiole-cuttings"
     }
    ]
   },
@@ -1935,6 +2466,11 @@
      "key": "https://bioone.org/journals/willdenowia/volume-27/issue-1_2f_2/wi.27.2713/notes-on-the-genus-amorphophallus-araceae--6-six-new/10.3372/wi.27.2713.pdf"
     },
     {
+     "title": "Aroideana 19 (1996): P. 7-131",
+     "url": "https://www.researchgate.net/publication/283567478_Everything_you_always_wanted_to_know_about_Amorphophallus_but_were_afraid_to_stick_your_nose_into",
+     "key": "https://www.researchgate.net/publication/283567478_everything_you_always_wanted_to_know_about_amorphophallus_but_were_afraid_to_stick_your_nose_into"
+    },
+    {
      "title": "Moretto et al. 2024 – Catharsius: La Revue 18",
      "url": "https://www.researchgate.net/publication/332510751_Pollination_of_Amorphophallus_barthlottii_and_A_abyssinicus_subsp_akeassii_Araceae_by_dung_beetles_Insecta_Coleoptera_Scarabaeoidea_Pollinisation_d'Amorphophallus_barthlottii_et_A_abyssinicus_Araceae_",
      "key": "https://www.researchgate.net/publication/332510751_pollination_of_amorphophallus_barthlottii_and_a_abyssinicus_subsp_akeassii_araceae_by_dung_beetles_insecta_coleoptera_scarabaeoidea_pollinisation_d'amorphophallus_barthlottii_et_a_abyssinicus_araceae_"
@@ -1971,6 +2507,11 @@
      "title": "Botanische Jahrbücher für Systematik, Pflanzengeschichte und Pflanzengeographie V.1 (1881) P.182",
      "url": "https://www.biodiversitylibrary.org/page/42969922",
      "key": "https://www.biodiversitylibrary.org/page/42969922"
+    },
+    {
+     "title": "Aroideana 19 (1996): P. 7-131",
+     "url": "https://www.researchgate.net/publication/283567478_Everything_you_always_wanted_to_know_about_Amorphophallus_but_were_afraid_to_stick_your_nose_into",
+     "key": "https://www.researchgate.net/publication/283567478_everything_you_always_wanted_to_know_about_amorphophallus_but_were_afraid_to_stick_your_nose_into"
     }
    ]
   },
@@ -2053,9 +2594,19 @@
      "key": "https://www.biodiversitylibrary.org/page/20872512"
     },
     {
+     "title": "Aroideana 19 (1996): P. 7-131",
+     "url": "https://www.researchgate.net/publication/283567478_Everything_you_always_wanted_to_know_about_Amorphophallus_but_were_afraid_to_stick_your_nose_into",
+     "key": "https://www.researchgate.net/publication/283567478_everything_you_always_wanted_to_know_about_amorphophallus_but_were_afraid_to_stick_your_nose_into"
+    },
+    {
      "title": "Alan Galloway",
-     "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/borneensis/",
-     "key": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/borneensis"
+     "url": "https://www.researchgate.net/publication/283567478_Everything_you_always_wanted_to_know_about_Amorphophallus_but_were_afraid_to_stick_your_nose_into",
+     "key": "https://www.researchgate.net/publication/283567478_everything_you_always_wanted_to_know_about_amorphophallus_but_were_afraid_to_stick_your_nose_into"
+    },
+    {
+     "title": "Additiona",
+     "url": "https://www.researchgate.net/publication/283567478_Everything_you_always_wanted_to_know_about_Amorphophallus_but_were_afraid_to_stick_your_nose_into",
+     "key": "https://www.researchgate.net/publication/283567478_everything_you_always_wanted_to_know_about_amorphophallus_but_were_afraid_to_stick_your_nose_into"
     }
    ]
   },
@@ -2096,9 +2647,19 @@
      "key": "https://repository.naturalis.nl/pub/524756/blum2001046002005.pdf"
     },
     {
+     "title": "Aroideana 19 (1996): P. 7-131",
+     "url": "https://www.researchgate.net/publication/283567478_Everything_you_always_wanted_to_know_about_Amorphophallus_but_were_afraid_to_stick_your_nose_into",
+     "key": "https://www.researchgate.net/publication/283567478_everything_you_always_wanted_to_know_about_amorphophallus_but_were_afraid_to_stick_your_nose_into"
+    },
+    {
      "title": "Alan Galloway",
-     "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/brachyphyllus/",
-     "key": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/brachyphyllus"
+     "url": "https://www.researchgate.net/publication/283567478_Everything_you_always_wanted_to_know_about_Amorphophallus_but_were_afraid_to_stick_your_nose_into",
+     "key": "https://www.researchgate.net/publication/283567478_everything_you_always_wanted_to_know_about_amorphophallus_but_were_afraid_to_stick_your_nose_into"
+    },
+    {
+     "title": "Additiona",
+     "url": "https://www.researchgate.net/publication/283567478_Everything_you_always_wanted_to_know_about_Amorphophallus_but_were_afraid_to_stick_your_nose_into",
+     "key": "https://www.researchgate.net/publication/283567478_everything_you_always_wanted_to_know_about_amorphophallus_but_were_afraid_to_stick_your_nose_into"
     }
    ]
   },
@@ -2118,6 +2679,11 @@
      "title": "Alan Galloway",
      "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/brevipetiolatus/",
      "key": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/brevipetiolatus"
+    },
+    {
+     "title": "Propagation of Amorphophallus by Leaf Petiole Cuttings — Juniper Level Botanic Garden",
+     "url": "https://www.juniperlevelbotanicgarden.org/propagation-of-amorphophallus-by-leaf-petiole-cuttings/",
+     "key": "https://www.juniperlevelbotanicgarden.org/propagation-of-amorphophallus-by-leaf-petiole-cuttings"
     }
    ]
   },
@@ -2182,9 +2748,19 @@
      "key": "https://repository.naturalis.nl/pub/525950"
     },
     {
+     "title": "Aroideana 19 (1996): P.7-131",
+     "url": "https://Aroideana 19 (1996):P7 - 131 | https://www.researchgate.net/publication/283567478_Everything_you_always_wanted_to_know_about_Amorphophallus_but_were_afraid_to_stick_your_nose_into",
+     "key": "https://aroideana 19 (1996):p7 - 131 | https://www.researchgate.net/publication/283567478_everything_you_always_wanted_to_know_about_amorphophallus_but_were_afraid_to_stick_your_nose_into"
+    },
+    {
      "title": "Alan Galloway",
      "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/bufo/",
      "key": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/bufo"
+    },
+    {
+     "title": "Propagation ofAmorphophallusby Leaf Petiole Cuttings — Juniper Level Botanic Garden",
+     "url": "https://www.juniperlevelbotanicgarden.org/propagation-of-amorphophallus-by-leaf-petiole-cuttings/",
+     "key": "https://www.juniperlevelbotanicgarden.org/propagation-of-amorphophallus-by-leaf-petiole-cuttings"
     }
    ]
   },
@@ -2201,14 +2777,19 @@
      "key": "https://www.biodiversitylibrary.org/item/127618"
     },
     {
+     "title": "Aroideana 19 (1996): P. 7-131",
+     "url": "https://www.researchgate.net/publication/283567478_Everything_you_always_wanted_to_know_about_Amorphophallus_but_were_afraid_to_stick_your_nose_into",
+     "key": "https://www.researchgate.net/publication/283567478_everything_you_always_wanted_to_know_about_amorphophallus_but_were_afraid_to_stick_your_nose_into"
+    },
+    {
      "title": "e-Flora of India",
-     "url": "https://efloraofindia.com/efi/amorphophallus-bulbifer/",
-     "key": "https://efloraofindia.com/efi/amorphophallus-bulbifer"
+     "url": "https://www.researchgate.net/publication/283567478_Everything_you_always_wanted_to_know_about_Amorphophallus_but_were_afraid_to_stick_your_nose_into",
+     "key": "https://www.researchgate.net/publication/283567478_everything_you_always_wanted_to_know_about_amorphophallus_but_were_afraid_to_stick_your_nose_into"
     },
     {
      "title": "Llifle",
-     "url": "https://llifle.com/Encyclopedia/BULBS/Family/Araceae/33463/Amorphophallus_bulbifer",
-     "key": "https://llifle.com/encyclopedia/bulbs/family/araceae/33463/amorphophallus_bulbifer"
+     "url": "https://www.researchgate.net/publication/283567478_Everything_you_always_wanted_to_know_about_Amorphophallus_but_were_afraid_to_stick_your_nose_into",
+     "key": "https://www.researchgate.net/publication/283567478_everything_you_always_wanted_to_know_about_amorphophallus_but_were_afraid_to_stick_your_nose_into"
     },
     {
      "title": "Alan Galloway",
@@ -2219,6 +2800,11 @@
      "title": "KARYOMORPHOLOGICAL ANALYSIS OF SOME EDIBLE AROIDS OF UPPER BRAHMAPUTRA VALLEY OF ASSAM",
      "url": "https://www.researchgate.net/publication/369976715_KARYOMORPHOLOGICAL_ANALYSIS_OF_SOME_EDIBLE_AROIDS_OF_UPPER_BRAHMAPUTRA_VALLEY_OF_ASSAM",
      "key": "https://www.researchgate.net/publication/369976715_karyomorphological_analysis_of_some_edible_aroids_of_upper_brahmaputra_valley_of_assam"
+    },
+    {
+     "title": "Propagation ofAmorphophallusby Leaf Petiole Cuttings — Juniper Level Botanic Garden",
+     "url": "https://www.juniperlevelbotanicgarden.org/propagation-of-amorphophallus-by-leaf-petiole-cuttings/",
+     "key": "https://www.juniperlevelbotanicgarden.org/propagation-of-amorphophallus-by-leaf-petiole-cuttings"
     }
    ]
   },
@@ -2251,6 +2837,14 @@
    ]
   },
   {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-calladoi",
+   "slug": "amorphophallus-calladoi",
+   "name": "AMORPHOPHALLUS CALLADOI",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
    "url": "https://www.aroidpedia.com/journal/amorphophallus-canaliculatus",
    "slug": "amorphophallus-canaliculatus",
    "name": "AMORPHOPHALLUS CANALICULATUS",
@@ -2263,9 +2857,19 @@
      "key": "https://www.jstor.org/stable/3997194"
     },
     {
+     "title": "Aroideana 19 (1996): P. 7-131",
+     "url": "https://www.researchgate.net/publication/283567478_Everything_you_always_wanted_to_know_about_Amorphophallus_but_were_afraid_to_stick_your_nose_into",
+     "key": "https://www.researchgate.net/publication/283567478_everything_you_always_wanted_to_know_about_amorphophallus_but_were_afraid_to_stick_your_nose_into"
+    },
+    {
      "title": "Biodiversity of Gabon",
-     "url": "https://gabonbiota.org/portal/taxa/index.php?tid=10204&taxauthid=1&clid=0",
-     "key": "https://gabonbiota.org/portal/taxa/index.php?tid=10204&taxauthid=1&clid=0"
+     "url": "https://www.researchgate.net/publication/283567478_Everything_you_always_wanted_to_know_about_Amorphophallus_but_were_afraid_to_stick_your_nose_into",
+     "key": "https://www.researchgate.net/publication/283567478_everything_you_always_wanted_to_know_about_amorphophallus_but_were_afraid_to_stick_your_nose_into"
+    },
+    {
+     "title": "P",
+     "url": "https://www.researchgate.net/publication/283567478_Everything_you_always_wanted_to_know_about_Amorphophallus_but_were_afraid_to_stick_your_nose_into",
+     "key": "https://www.researchgate.net/publication/283567478_everything_you_always_wanted_to_know_about_amorphophallus_but_were_afraid_to_stick_your_nose_into"
     }
    ]
   },
@@ -2296,9 +2900,19 @@
      "key": "https://www.biodiversitylibrary.org/page/41726321"
     },
     {
+     "title": "Aroideana 19 (1996): P. 7-131",
+     "url": "https://www.researchgate.net/publication/283567478_Everything_you_always_wanted_to_know_about_Amorphophallus_but_were_afraid_to_stick_your_nose_into",
+     "key": "https://www.researchgate.net/publication/283567478_everything_you_always_wanted_to_know_about_amorphophallus_but_were_afraid_to_stick_your_nose_into"
+    },
+    {
      "title": "Alan Galloway",
      "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/carneus/",
      "key": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/carneus"
+    },
+    {
+     "title": "Propagation ofAmorphophallusby Leaf Petiole Cuttings — Juniper Level Botanic Garden",
+     "url": "https://www.juniperlevelbotanicgarden.org/propagation-of-amorphophallus-by-leaf-petiole-cuttings/",
+     "key": "https://www.juniperlevelbotanicgarden.org/propagation-of-amorphophallus-by-leaf-petiole-cuttings"
     }
    ]
   },
@@ -2372,6 +2986,11 @@
      "key": "https://repository.naturalis.nl/pub/525950"
     },
     {
+     "title": "Aroideana 19 (1996): P. 7-131",
+     "url": "https://www.researchgate.net/publication/283567478_Everything_you_always_wanted_to_know_about_Amorphophallus_but_were_afraid_to_stick_your_nose_into",
+     "key": "https://www.researchgate.net/publication/283567478_everything_you_always_wanted_to_know_about_amorphophallus_but_were_afraid_to_stick_your_nose_into"
+    },
+    {
      "title": "Alan Galloway",
      "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/cicatricifer/",
      "key": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/cicatricifer"
@@ -2403,6 +3022,11 @@
      "title": "Curtis’ Botanical Magazine Vol 149 (1923) TAB. 9000",
      "url": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015063471695&seq=137",
      "key": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015063471695&seq=137"
+    },
+    {
+     "title": "Aroideana 19 (1996): P. 7-131",
+     "url": "https://www.researchgate.net/publication/283567478_Everything_you_always_wanted_to_know_about_Amorphophallus_but_were_afraid_to_stick_your_nose_into",
+     "key": "https://www.researchgate.net/publication/283567478_everything_you_always_wanted_to_know_about_amorphophallus_but_were_afraid_to_stick_your_nose_into"
     },
     {
      "title": "Alan Galloway",
@@ -2448,6 +3072,11 @@
      "key": "https://repository.naturalis.nl/pub/525950"
     },
     {
+     "title": "Aroideana 19 (1996): P. 7-131",
+     "url": "https://www.researchgate.net/publication/283567478_Everything_you_always_wanted_to_know_about_Amorphophallus_but_were_afraid_to_stick_your_nose_into",
+     "key": "https://www.researchgate.net/publication/283567478_everything_you_always_wanted_to_know_about_amorphophallus_but_were_afraid_to_stick_your_nose_into"
+    },
+    {
      "title": "eFlora of China Vol 23 Page 24",
      "url": "http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=242302691",
      "key": "http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=242302691"
@@ -2456,6 +3085,11 @@
      "title": "Alan Galloway",
      "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/coaetaneus/",
      "key": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/coaetaneus"
+    },
+    {
+     "title": "Propagation of Amorphophallus by Leaf Petiole Cuttings — Juniper Level Botanic Garden",
+     "url": "https://www.juniperlevelbotanicgarden.org/propagation-of-amorphophallus-by-leaf-petiole-cuttings/",
+     "key": "https://www.juniperlevelbotanicgarden.org/propagation-of-amorphophallus-by-leaf-petiole-cuttings"
     }
    ]
   },
@@ -2470,6 +3104,11 @@
      "title": "Monographiae Phanerogamarum V.2 (1879) P.319",
      "url": "http://www.biodiversitylibrary.org/page/31869983",
      "key": "http://www.biodiversitylibrary.org/page/31869983"
+    },
+    {
+     "title": "Aroideana 19 (1996): P. 7-131",
+     "url": "https://www.researchgate.net/publication/283567478_Everything_you_always_wanted_to_know_about_Amorphophallus_but_were_afraid_to_stick_your_nose_into",
+     "key": "https://www.researchgate.net/publication/283567478_everything_you_always_wanted_to_know_about_amorphophallus_but_were_afraid_to_stick_your_nose_into"
     },
     {
      "title": "A Taxonomic Revision of Amorphophallus Blume ex Decne. Sect. Conophallus (Schott) Engl. (Araceae) in India",
@@ -2506,6 +3145,16 @@
      "key": "http://www.biodiversitylibrary.org/page/41039971"
     },
     {
+     "title": "Journal of Botany V24 (1886) P.305",
+     "url": "http://www.biodiversitylibrary.org/page/35636135",
+     "key": "http://www.biodiversitylibrary.org/page/35636135"
+    },
+    {
+     "title": "Flora of Tropical Africa V8 (1902) P. 137",
+     "url": "https://plants.jstor.org/stable/10.5555/al.ap.flora.flota014459",
+     "key": "https://plants.jstor.org/stable/10.5555/al.ap.flora.flota014459"
+    },
+    {
      "title": "Alan Galloway",
      "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/consimilis/",
      "key": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/consimilis"
@@ -2523,6 +3172,11 @@
      "title": "Blumea 39: 247 (1994)",
      "url": "https://repository.naturalis.nl/pub/525950",
      "key": "https://repository.naturalis.nl/pub/525950"
+    },
+    {
+     "title": "Aroideana 19 (1996): P. 7-131",
+     "url": "https://www.researchgate.net/publication/283567478_Everything_you_always_wanted_to_know_about_Amorphophallus_but_were_afraid_to_stick_your_nose_into",
+     "key": "https://www.researchgate.net/publication/283567478_everything_you_always_wanted_to_know_about_amorphophallus_but_were_afraid_to_stick_your_nose_into"
     }
    ]
   },
@@ -2544,11 +3198,1667 @@
      "key": "https://www.aroid.org/aroideana/aroideana-v8n3"
     },
     {
+     "title": "Aroideana 19 (1996): P. 7-131",
+     "url": "https://www.researchgate.net/publication/283567478_Everything_you_always_wanted_to_know_about_Amorphophallus_but_were_afraid_to_stick_your_nose_into",
+     "key": "https://www.researchgate.net/publication/283567478_everything_you_always_wanted_to_know_about_amorphophallus_but_were_afraid_to_stick_your_nose_into"
+    },
+    {
      "title": "Alan Galloway",
      "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/coudercii/",
      "key": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/coudercii"
     }
    ]
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-crinitus",
+   "slug": "amorphophallus-crinitus",
+   "name": "AMORPHOPHALLUS CRINITUS",
+   "kind": "Species",
+   "kew": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77201385-1",
+   "refs": [
+    {
+     "title": "Aroideana 42 (1) (2019) P.48",
+     "url": "https://www.aroid.org/aroideana/aroideana-v42n1",
+     "key": "https://www.aroid.org/aroideana/aroideana-v42n1"
+    },
+    {
+     "title": "Alan Galloway",
+     "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/crinitus/",
+     "key": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/crinitus"
+    }
+   ]
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-crispifolius",
+   "slug": "amorphophallus-crispifolius",
+   "name": "AMORPHOPHALLUS CRISPIFOLIUS",
+   "kind": "Species",
+   "kew": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77127641-1",
+   "refs": [
+    {
+     "title": "Aroideana 35 (2012) P.57",
+     "url": "https://www.aroid.org/aroideana/aroideana-v35",
+     "key": "https://www.aroid.org/aroideana/aroideana-v35"
+    },
+    {
+     "title": "Alan Galloway",
+     "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/crispifolius/",
+     "key": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/crispifolius"
+    }
+   ]
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-croatii",
+   "slug": "amorphophallus-croatii",
+   "name": "AMORPHOPHALLUS CROATII",
+   "kind": "Species",
+   "kew": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:60443280-2",
+   "refs": [
+    {
+     "title": "Aroideana 29 (2006) P.53",
+     "url": "https://www.aroid.org/aroideana/aroideana-v29",
+     "key": "https://www.aroid.org/aroideana/aroideana-v29"
+    },
+    {
+     "title": "Alan Galloway",
+     "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/croatii/",
+     "key": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/croatii"
+    }
+   ]
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-cruddasianus",
+   "slug": "amorphophallus-cruddasianus",
+   "name": "AMORPHOPHALLUS CRUDDASIANUS",
+   "kind": "Species",
+   "kew": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:84326-1",
+   "refs": [
+    {
+     "title": "The Journal of the Asiatic Society of Bengal V.67 Pt.2 (1898) - P.305",
+     "url": "http://www.biodiversitylibrary.org/page/35583438",
+     "key": "http://www.biodiversitylibrary.org/page/35583438"
+    },
+    {
+     "title": "Das Pflanzenreich H.48 (1911) P.101",
+     "url": "http://www.biodiversitylibrary.org/page/20872534",
+     "key": "http://www.biodiversitylibrary.org/page/20872534"
+    },
+    {
+     "title": "Alan Galloway",
+     "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/cruddasianus/",
+     "key": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/cruddasianus"
+    },
+    {
+     "title": "Propagation of Amorphophallus by Leaf Petiole Cuttings — Juniper Level Botanic Garden",
+     "url": "https://www.juniperlevelbotanicgarden.org/propagation-of-amorphophallus-by-leaf-petiole-cuttings/",
+     "key": "https://www.juniperlevelbotanicgarden.org/propagation-of-amorphophallus-by-leaf-petiole-cuttings"
+    }
+   ]
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-curvistylis",
+   "slug": "amorphophallus-curvistylis",
+   "name": "AMORPHOPHALLUS CURVISTYLIS",
+   "kind": "Species",
+   "kew": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:979837-1",
+   "refs": [
+    {
+     "title": "Blumea 39: (1994) P.251",
+     "url": "https://repository.naturalis.nl/pub/525950",
+     "key": "https://repository.naturalis.nl/pub/525950"
+    },
+    {
+     "title": "Aroideana 19 (1996): P. 7-131",
+     "url": "https://www.researchgate.net/publication/283567478_Everything_you_always_wanted_to_know_about_Amorphophallus_but_were_afraid_to_stick_your_nose_into",
+     "key": "https://www.researchgate.net/publication/283567478_everything_you_always_wanted_to_know_about_amorphophallus_but_were_afraid_to_stick_your_nose_into"
+    },
+    {
+     "title": "Alan Galloway",
+     "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/curvistylis/",
+     "key": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/curvistylis"
+    },
+    {
+     "title": "Propagation of Amorphophallus by Leaf Petiole Cuttings — Juniper Level Botanic Garden",
+     "url": "https://www.juniperlevelbotanicgarden.org/propagation-of-amorphophallus-by-leaf-petiole-cuttings/",
+     "key": "https://www.juniperlevelbotanicgarden.org/propagation-of-amorphophallus-by-leaf-petiole-cuttings"
+    }
+   ]
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-declinatus",
+   "slug": "amorphophallus-declinatus",
+   "name": "AMORPHOPHALLUS DECLINATUS",
+   "kind": "Species",
+   "kew": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:979839-1",
+   "refs": [
+    {
+     "title": "Blumea 39: (1994) P.252",
+     "url": "https://repository.naturalis.nl/pub/525950",
+     "key": "https://repository.naturalis.nl/pub/525950"
+    },
+    {
+     "title": "Aroideana 19 (1996): P. 7-131",
+     "url": "https://www.researchgate.net/publication/283567478_Everything_you_always_wanted_to_know_about_Amorphophallus_but_were_afraid_to_stick_your_nose_into",
+     "key": "https://www.researchgate.net/publication/283567478_everything_you_always_wanted_to_know_about_amorphophallus_but_were_afraid_to_stick_your_nose_into"
+    },
+    {
+     "title": "Alan Galloway",
+     "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/declinatus/",
+     "key": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/declinatus"
+    }
+   ]
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-decus-silvae",
+   "slug": "amorphophallus-decus-silvae",
+   "name": "AMORPHOPHALLUS DECUS-SILVAE",
+   "kind": "Species",
+   "kew": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:84328-1",
+   "refs": [
+    {
+     "title": "Bulletin du Jardin Botanique de Buitenzorg (Bogor now) Ser. 3 V1 (1920) P.369",
+     "url": "http://www.biodiversitylibrary.org/page/5020548",
+     "key": "http://www.biodiversitylibrary.org/page/5020548"
+    },
+    {
+     "title": "The genusAmorphophallusin Java - Reinwardtia Vol 13 (2009) P.3-4",
+     "url": "https://biologyjournal.brin.go.id/index.php/reinwardtia/article/view/329/299",
+     "key": "https://biologyjournal.brin.go.id/index.php/reinwardtia/article/view/329/299"
+    },
+    {
+     "title": "Aroideana 19 (1996): P. 7-131",
+     "url": "https://www.researchgate.net/publication/283567478_Everything_you_always_wanted_to_know_about_Amorphophallus_but_were_afraid_to_stick_your_nose_into",
+     "key": "https://www.researchgate.net/publication/283567478_everything_you_always_wanted_to_know_about_amorphophallus_but_were_afraid_to_stick_your_nose_into"
+    },
+    {
+     "title": "Alan Galloway",
+     "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/decus-silvae/",
+     "key": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/decus-silvae"
+    }
+   ]
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-discophorus",
+   "slug": "amorphophallus-discophorus",
+   "name": "AMORPHOPHALLUS DISCOPHORUS",
+   "kind": "Species",
+   "kew": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:84330-1",
+   "refs": [
+    {
+     "title": "Bulletin du Jardin Botanique de Buitenzorg (Bogor now) Ser. 3 V1 (1920) P.371",
+     "url": "http://www.biodiversitylibrary.org/page/5020550",
+     "key": "http://www.biodiversitylibrary.org/page/5020550"
+    },
+    {
+     "title": "Alan Galloway",
+     "url": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/discophorus/",
+     "key": "https://alangallowaybotanicals.com/plants/aroids/amorphophallus/id/discophorus"
+    }
+   ]
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-dracontioides",
+   "slug": "amorphophallus-dracontioides",
+   "name": "AMORPHOPHALLUS DRACONTIOIDES",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-dumboi",
+   "slug": "amorphophallus-dumboi",
+   "name": "AMORPHOPHALLUS DUMBOI",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-dunnii",
+   "slug": "amorphophallus-dunnii",
+   "name": "AMORPHOPHALLUS DUNNII",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-dzui",
+   "slug": "amorphophallus-dzui",
+   "name": "AMORPHOPHALLUS DZUI",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-eburneus",
+   "slug": "amorphophallus-eburneus",
+   "name": "AMORPHOPHALLUS EBURNEUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-echinatus",
+   "slug": "amorphophallus-echinatus",
+   "name": "AMORPHOPHALLUS ECHINATUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-eichleri",
+   "slug": "amorphophallus-eichleri",
+   "name": "AMORPHOPHALLUS EICHLERI",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-elatus",
+   "slug": "amorphophallus-elatus",
+   "name": "AMORPHOPHALLUS ELATUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-elegans",
+   "slug": "amorphophallus-elegans",
+   "name": "AMORPHOPHALLUS ELEGANS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-elliotii",
+   "slug": "amorphophallus-elliotii",
+   "name": "AMORPHOPHALLUS ELLIOTII",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-erythrorrhachis",
+   "slug": "amorphophallus-erythrorrhachis",
+   "name": "AMORPHOPHALLUS ERYTHRORRHACHIS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-excentricus",
+   "slug": "amorphophallus-excentricus",
+   "name": "AMORPHOPHALLUS EXCENTRICUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-fallax",
+   "slug": "amorphophallus-fallax",
+   "name": "AMORPHOPHALLUS FALLAX",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-ferruginosus",
+   "slug": "amorphophallus-ferruginosus",
+   "name": "AMORPHOPHALLUS FERRUGINOSUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-flammeus",
+   "slug": "amorphophallus-flammeus",
+   "name": "AMORPHOPHALLUS FLAMMEUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-flotoi",
+   "slug": "amorphophallus-flotoi",
+   "name": "AMORPHOPHALLUS FLOTOI",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-fontarumii",
+   "slug": "amorphophallus-fontarumii",
+   "name": "AMORPHOPHALLUS FONTARUMII",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-forbesii",
+   "slug": "amorphophallus-forbesii",
+   "name": "AMORPHOPHALLUS FORBESII",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-fornicatus",
+   "slug": "amorphophallus-fornicatus",
+   "name": "AMORPHOPHALLUS FORNICATUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-fuscus",
+   "slug": "amorphophallus-fuscus",
+   "name": "AMORPHOPHALLUS FUSCUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-galbra",
+   "slug": "amorphophallus-galbra",
+   "name": "AMORPHOPHALLUS GALBRA",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-gallaensis",
+   "slug": "amorphophallus-gallaensis",
+   "name": "AMORPHOPHALLUS GALLAENSIS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-gallowayi",
+   "slug": "amorphophallus-gallowayi",
+   "name": "AMORPHOPHALLUS GALLOWAYI",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-gigas",
+   "slug": "amorphophallus-gigas",
+   "name": "AMORPHOPHALLUS GIGAS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-glaucophyllus",
+   "slug": "amorphophallus-glaucophyllus",
+   "name": "AMORPHOPHALLUS GLAUCOPHYLLUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-gliruroides",
+   "slug": "amorphophallus-gliruroides",
+   "name": "AMORPHOPHALLUS GLIRUROIDES",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-glossophyllus",
+   "slug": "amorphophallus-glossophyllus",
+   "name": "AMORPHOPHALLUS GLOSSOPHYLLUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-goetzei",
+   "slug": "amorphophallus-goetzei",
+   "name": "AMORPHOPHALLUS GOETZEI",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-gomboczianus",
+   "slug": "amorphophallus-gomboczianus",
+   "name": "AMORPHOPHALLUS GOMBOCZIANUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-gracilior",
+   "slug": "amorphophallus-gracilior",
+   "name": "AMORPHOPHALLUS GRACILIOR",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-gracilis",
+   "slug": "amorphophallus-gracilis",
+   "name": "AMORPHOPHALLUS GRACILIS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-haematospadix",
+   "slug": "amorphophallus-haematospadix",
+   "name": "AMORPHOPHALLUS HAEMATOSPADIX",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-harmandii",
+   "slug": "amorphophallus-harmandii",
+   "name": "AMORPHOPHALLUS HARMANDII",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-hayi",
+   "slug": "amorphophallus-hayi",
+   "name": "AMORPHOPHALLUS HAYI",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-hemicryptus",
+   "slug": "amorphophallus-hemicryptus",
+   "name": "AMORPHOPHALLUS HEMICRYPTUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-henryi",
+   "slug": "amorphophallus-henryi",
+   "name": "AMORPHOPHALLUS HENRYI",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-hewittii",
+   "slug": "amorphophallus-hewittii",
+   "name": "AMORPHOPHALLUS HEWITTII",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-hildebrandtii",
+   "slug": "amorphophallus-hildebrandtii",
+   "name": "AMORPHOPHALLUS HILDEBRANDTII",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-hirsutus",
+   "slug": "amorphophallus-hirsutus",
+   "name": "AMORPHOPHALLUS HIRSUTUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-hirtus",
+   "slug": "amorphophallus-hirtus",
+   "name": "AMORPHOPHALLUS HIRTUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-hohenackeri",
+   "slug": "amorphophallus-hohenackeri",
+   "name": "AMORPHOPHALLUS HOHENACKERI",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-hottae",
+   "slug": "amorphophallus-hottae",
+   "name": "AMORPHOPHALLUS HOTTAE",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-impressus",
+   "slug": "amorphophallus-impressus",
+   "name": "AMORPHOPHALLUS IMPRESSUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-incurvatus",
+   "slug": "amorphophallus-incurvatus",
+   "name": "AMORPHOPHALLUS INCURVATUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-infundibuliformis",
+   "slug": "amorphophallus-infundibuliformis",
+   "name": "AMORPHOPHALLUS INFUNDIBULIFORMIS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-interruptus",
+   "slug": "amorphophallus-interruptus",
+   "name": "AMORPHOPHALLUS INTERRUPTUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-johnsonii",
+   "slug": "amorphophallus-johnsonii",
+   "name": "AMORPHOPHALLUS JOHNSONII",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-josefbogneri",
+   "slug": "amorphophallus-josefbogneri",
+   "name": "AMORPHOPHALLUS JOSEFBOGNERI",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-julaihii",
+   "slug": "amorphophallus-julaihii",
+   "name": "AMORPHOPHALLUS JULAIHII",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-juliae",
+   "slug": "amorphophallus-juliae",
+   "name": "AMORPHOPHALLUS JULIAE",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-kachinensis",
+   "slug": "amorphophallus-kachinensis",
+   "name": "AMORPHOPHALLUS KACHINENSIS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-khammouanensis",
+   "slug": "amorphophallus-khammouanensis",
+   "name": "AMORPHOPHALLUS KHAMMOUANENSIS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-khanhhoaensis",
+   "slug": "amorphophallus-khanhhoaensis",
+   "name": "AMORPHOPHALLUS KHANHHOAENSIS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-kienluongensis",
+   "slug": "amorphophallus-kienluongensis",
+   "name": "AMORPHOPHALLUS KIENLUONGENSIS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-kiusianus",
+   "slug": "amorphophallus-kiusianus",
+   "name": "AMORPHOPHALLUS KIUSIANUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-konjac",
+   "slug": "amorphophallus-konjac",
+   "name": "AMORPHOPHALLUS KONJAC",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-konkanensis",
+   "slug": "amorphophallus-konkanensis",
+   "name": "AMORPHOPHALLUS KONKANENSIS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-koratensis",
+   "slug": "amorphophallus-koratensis",
+   "name": "AMORPHOPHALLUS KORATENSIS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-krausei",
+   "slug": "amorphophallus-krausei",
+   "name": "AMORPHOPHALLUS KRAUSEI",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-kuznetsovii",
+   "slug": "amorphophallus-kuznetsovii",
+   "name": "AMORPHOPHALLUS KUZNETSOVII",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-lacourii",
+   "slug": "amorphophallus-lacourii",
+   "name": "AMORPHOPHALLUS LACOURII",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-lambii",
+   "slug": "amorphophallus-lambii",
+   "name": "AMORPHOPHALLUS LAMBII",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-lanceolatus",
+   "slug": "amorphophallus-lanceolatus",
+   "name": "AMORPHOPHALLUS LANCEOLATUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-lanuginosus",
+   "slug": "amorphophallus-lanuginosus",
+   "name": "AMORPHOPHALLUS LANUGINOSUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-laoticus",
+   "slug": "amorphophallus-laoticus",
+   "name": "AMORPHOPHALLUS LAOTICUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-leptosoma",
+   "slug": "amorphophallus-leptosoma",
+   "name": "AMORPHOPHALLUS LEPTOSOMA",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-lewallei",
+   "slug": "amorphophallus-lewallei",
+   "name": "AMORPHOPHALLUS LEWALLEI",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-linearis",
+   "slug": "amorphophallus-linearis",
+   "name": "AMORPHOPHALLUS LINEARIS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-linguiformis",
+   "slug": "amorphophallus-linguiformis",
+   "name": "AMORPHOPHALLUS LINGUIFORMIS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-longicomus",
+   "slug": "amorphophallus-longicomus",
+   "name": "AMORPHOPHALLUS LONGICOMUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-longiconnectivus",
+   "slug": "amorphophallus-longiconnectivus",
+   "name": "AMORPHOPHALLUS LONGICONNECTIVUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-longispathaceus",
+   "slug": "amorphophallus-longispathaceus",
+   "name": "AMORPHOPHALLUS LONGISPATHACEUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-longistylus",
+   "slug": "amorphophallus-longistylus",
+   "name": "AMORPHOPHALLUS LONGISTYLUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-longituberosus",
+   "slug": "amorphophallus-longituberosus",
+   "name": "AMORPHOPHALLUS LONGITUBEROSUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-lunatus",
+   "slug": "amorphophallus-lunatus",
+   "name": "AMORPHOPHALLUS LUNATUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-luzoniensis",
+   "slug": "amorphophallus-luzoniensis",
+   "name": "AMORPHOPHALLUS LUZONIENSIS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-lyratus",
+   "slug": "amorphophallus-lyratus",
+   "name": "AMORPHOPHALLUS LYRATUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-macrophyllus",
+   "slug": "amorphophallus-macrophyllus",
+   "name": "AMORPHOPHALLUS MACROPHYLLUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-macrorhizus",
+   "slug": "amorphophallus-macrorhizus",
+   "name": "AMORPHOPHALLUS MACRORHIZUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-malkmus-husseinii",
+   "slug": "amorphophallus-malkmus-husseinii",
+   "name": "AMORPHOPHALLUS MALKMUS-HUSSEINII",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-mangelsdorffii",
+   "slug": "amorphophallus-mangelsdorffii",
+   "name": "AMORPHOPHALLUS MANGELSDORFFII",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-margaritifer",
+   "slug": "amorphophallus-margaritifer",
+   "name": "AMORPHOPHALLUS MARGARITIFER",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-margretae",
+   "slug": "amorphophallus-margretae",
+   "name": "AMORPHOPHALLUS MARGRETAE",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-maximus",
+   "slug": "amorphophallus-maximus",
+   "name": "AMORPHOPHALLUS MAXIMUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-maxwellii",
+   "slug": "amorphophallus-maxwellii",
+   "name": "AMORPHOPHALLUS MAXWELLII",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-mayoi",
+   "slug": "amorphophallus-mayoi",
+   "name": "AMORPHOPHALLUS MAYOI",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-mekongensis",
+   "slug": "amorphophallus-mekongensis",
+   "name": "AMORPHOPHALLUS MEKONGENSIS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-merrillii",
+   "slug": "amorphophallus-merrillii",
+   "name": "AMORPHOPHALLUS MERRILLII",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-mildbraedii",
+   "slug": "amorphophallus-mildbraedii",
+   "name": "AMORPHOPHALLUS MILDBRAEDII",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-minimus",
+   "slug": "amorphophallus-minimus",
+   "name": "AMORPHOPHALLUS MINIMUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-minor",
+   "slug": "amorphophallus-minor",
+   "name": "AMORPHOPHALLUS MINOR",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-mirabilis",
+   "slug": "amorphophallus-mirabilis",
+   "name": "AMORPHOPHALLUS MIRABILIS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-mossambicensis",
+   "slug": "amorphophallus-mossambicensis",
+   "name": "AMORPHOPHALLUS MOSSAMBICENSIS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-muelleri",
+   "slug": "amorphophallus-muelleri",
+   "name": "AMORPHOPHALLUS MUELLERI",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-mullendersii",
+   "slug": "amorphophallus-mullendersii",
+   "name": "AMORPHOPHALLUS MULLENDERSII",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-myosuroides",
+   "slug": "amorphophallus-myosuroides",
+   "name": "AMORPHOPHALLUS MYOSUROIDES",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-mysorensis",
+   "slug": "amorphophallus-mysorensis",
+   "name": "AMORPHOPHALLUS MYSORENSIS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-napalensis",
+   "slug": "amorphophallus-napalensis",
+   "name": "AMORPHOPHALLUS NAPALENSIS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-napiger",
+   "slug": "amorphophallus-napiger",
+   "name": "AMORPHOPHALLUS NAPIGER",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-natolii",
+   "slug": "amorphophallus-natolii",
+   "name": "AMORPHOPHALLUS NATOLII",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-niahensis",
+   "slug": "amorphophallus-niahensis",
+   "name": "AMORPHOPHALLUS NIAHENSIS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-nicolaii",
+   "slug": "amorphophallus-nicolaii",
+   "name": "AMORPHOPHALLUS NICOLAII",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-nicolsonianus",
+   "slug": "amorphophallus-nicolsonianus",
+   "name": "AMORPHOPHALLUS NICOLSONIANUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-obovoideus",
+   "slug": "amorphophallus-obovoideus",
+   "name": "AMORPHOPHALLUS OBOVOIDEUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-obscurus",
+   "slug": "amorphophallus-obscurus",
+   "name": "AMORPHOPHALLUS OBSCURUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-ochroleucus",
+   "slug": "amorphophallus-ochroleucus",
+   "name": "AMORPHOPHALLUS OCHROLEUCUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-oncophyllus",
+   "slug": "amorphophallus-oncophyllus",
+   "name": "AMORPHOPHALLUS ONCOPHYLLUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-ongsakulii",
+   "slug": "amorphophallus-ongsakulii",
+   "name": "AMORPHOPHALLUS ONGSAKULII",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-opalinus",
+   "slug": "amorphophallus-opalinus",
+   "name": "AMORPHOPHALLUS OPALINUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-operculatus",
+   "slug": "amorphophallus-operculatus",
+   "name": "AMORPHOPHALLUS OPERCULATUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-opertus",
+   "slug": "amorphophallus-opertus",
+   "name": "AMORPHOPHALLUS OPERTUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-paeoniifolius",
+   "slug": "amorphophallus-paeoniifolius",
+   "name": "AMORPHOPHALLUS PAEONIIFOLIUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-palawanensis",
+   "slug": "amorphophallus-palawanensis",
+   "name": "AMORPHOPHALLUS PALAWANENSIS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-paucisectus",
+   "slug": "amorphophallus-paucisectus",
+   "name": "AMORPHOPHALLUS PAUCISECTUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-pendulus",
+   "slug": "amorphophallus-pendulus",
+   "name": "AMORPHOPHALLUS PENDULUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-perakensis",
+   "slug": "amorphophallus-perakensis",
+   "name": "AMORPHOPHALLUS PERAKENSIS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-perrieri",
+   "slug": "amorphophallus-perrieri",
+   "name": "AMORPHOPHALLUS PERRIERI",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-pilosus",
+   "slug": "amorphophallus-pilosus",
+   "name": "AMORPHOPHALLUS PILOSUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-plicatus",
+   "slug": "amorphophallus-plicatus",
+   "name": "AMORPHOPHALLUS PLICATUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-polyanthus",
+   "slug": "amorphophallus-polyanthus",
+   "name": "AMORPHOPHALLUS POLYANTHUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-prainii",
+   "slug": "amorphophallus-prainii",
+   "name": "AMORPHOPHALLUS PRAINII",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-preussii",
+   "slug": "amorphophallus-preussii",
+   "name": "AMORPHOPHALLUS PREUSSII",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-prolificus",
+   "slug": "amorphophallus-prolificus",
+   "name": "AMORPHOPHALLUS PROLIFICUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-pulchellus",
+   "slug": "amorphophallus-pulchellus",
+   "name": "AMORPHOPHALLUS PULCHELLUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-purpurascens",
+   "slug": "amorphophallus-purpurascens",
+   "name": "AMORPHOPHALLUS PURPURASCENS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-pusillus",
+   "slug": "amorphophallus-pusillus",
+   "name": "AMORPHOPHALLUS PUSILLUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-putii",
+   "slug": "amorphophallus-putii",
+   "name": "AMORPHOPHALLUS PUTII",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-pygmaeus",
+   "slug": "amorphophallus-pygmaeus",
+   "name": "AMORPHOPHALLUS PYGMAEUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-ranchanensis",
+   "slug": "amorphophallus-ranchanensis",
+   "name": "AMORPHOPHALLUS RANCHANENSIS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-ravenii",
+   "slug": "amorphophallus-ravenii",
+   "name": "AMORPHOPHALLUS RAVENII",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-rayongii",
+   "slug": "amorphophallus-rayongii",
+   "name": "AMORPHOPHALLUS RAYONGII",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-reflexus",
+   "slug": "amorphophallus-reflexus",
+   "name": "AMORPHOPHALLUS REFLEXUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-rhizomatosus",
+   "slug": "amorphophallus-rhizomatosus",
+   "name": "AMORPHOPHALLUS RHIZOMATOSUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-richardsiae",
+   "slug": "amorphophallus-richardsiae",
+   "name": "AMORPHOPHALLUS RICHARDSIAE",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-rostratus",
+   "slug": "amorphophallus-rostratus",
+   "name": "AMORPHOPHALLUS ROSTRATUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-rugosus",
+   "slug": "amorphophallus-rugosus",
+   "name": "AMORPHOPHALLUS RUGOSUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-sagittarius",
+   "slug": "amorphophallus-sagittarius",
+   "name": "AMORPHOPHALLUS SAGITTARIUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-sakonnakhonensis",
+   "slug": "amorphophallus-sakonnakhonensis",
+   "name": "AMORPHOPHALLUS SAKONNAKHONENSIS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-salmoneus",
+   "slug": "amorphophallus-salmoneus",
+   "name": "AMORPHOPHALLUS SALMONEUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-samarensis",
+   "slug": "amorphophallus-samarensis",
+   "name": "AMORPHOPHALLUS SAMARENSIS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-saraburensis",
+   "slug": "amorphophallus-saraburensis",
+   "name": "AMORPHOPHALLUS SARABURENSIS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-saururus",
+   "slug": "amorphophallus-saururus",
+   "name": "AMORPHOPHALLUS SAURURUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-scaber",
+   "slug": "amorphophallus-scaber",
+   "name": "AMORPHOPHALLUS SCABER",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-schmidtiae",
+   "slug": "amorphophallus-schmidtiae",
+   "name": "AMORPHOPHALLUS SCHMIDTIAE",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-scutatus",
+   "slug": "amorphophallus-scutatus",
+   "name": "AMORPHOPHALLUS SCUTATUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-serrulatus",
+   "slug": "amorphophallus-serrulatus",
+   "name": "AMORPHOPHALLUS SERRULATUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-shyamsalilianus",
+   "slug": "amorphophallus-shyamsalilianus",
+   "name": "AMORPHOPHALLUS SHYAMSALILIANUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-sinuatus",
+   "slug": "amorphophallus-sinuatus",
+   "name": "AMORPHOPHALLUS SINUATUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-sizemoreae",
+   "slug": "amorphophallus-sizemoreae",
+   "name": "AMORPHOPHALLUS SIZEMOREAE",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-smithsonianus",
+   "slug": "amorphophallus-smithsonianus",
+   "name": "AMORPHOPHALLUS SMITHSONIANUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-sparsiflorus",
+   "slug": "amorphophallus-sparsiflorus",
+   "name": "AMORPHOPHALLUS SPARSIFLORUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-spectabilis",
+   "slug": "amorphophallus-spectabilis",
+   "name": "AMORPHOPHALLUS SPECTABILIS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-staudtii",
+   "slug": "amorphophallus-staudtii",
+   "name": "AMORPHOPHALLUS STAUDTII",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-stuhlmannii",
+   "slug": "amorphophallus-stuhlmannii",
+   "name": "AMORPHOPHALLUS STUHLMANNII",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-subcymbiformis",
+   "slug": "amorphophallus-subcymbiformis",
+   "name": "AMORPHOPHALLUS SUBCYMBIFORMIS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-sumawongii",
+   "slug": "amorphophallus-sumawongii",
+   "name": "AMORPHOPHALLUS SUMAWONGII",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-suwidjianus",
+   "slug": "amorphophallus-suwidjianus",
+   "name": "AMORPHOPHALLUS SUWIDJIANUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-sylvaticus",
+   "slug": "amorphophallus-sylvaticus",
+   "name": "AMORPHOPHALLUS SYLVATICUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-symonianus",
+   "slug": "amorphophallus-symonianus",
+   "name": "AMORPHOPHALLUS SYMONIANUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-synandrifer",
+   "slug": "amorphophallus-synandrifer",
+   "name": "AMORPHOPHALLUS SYNANDRIFER",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-taurostigma",
+   "slug": "amorphophallus-taurostigma",
+   "name": "AMORPHOPHALLUS TAUROSTIGMA",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-tenuispadix",
+   "slug": "amorphophallus-tenuispadix",
+   "name": "AMORPHOPHALLUS TENUISPADIX",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-tenuistylis",
+   "slug": "amorphophallus-tenuistylis",
+   "name": "AMORPHOPHALLUS TENUISTYLIS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-terrestris",
+   "slug": "amorphophallus-terrestris",
+   "name": "AMORPHOPHALLUS TERRESTRIS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-teuszii",
+   "slug": "amorphophallus-teuszii",
+   "name": "AMORPHOPHALLUS TEUSZII",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-thaiensis",
+   "slug": "amorphophallus-thaiensis",
+   "name": "AMORPHOPHALLUS THAIENSIS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-tinekeae",
+   "slug": "amorphophallus-tinekeae",
+   "name": "AMORPHOPHALLUS TINEKEAE",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-titanum",
+   "slug": "amorphophallus-titanum",
+   "name": "AMORPHOPHALLUS TITANUM",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-tonkinensis",
+   "slug": "amorphophallus-tonkinensis",
+   "name": "AMORPHOPHALLUS TONKINENSIS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-tuberculatus",
+   "slug": "amorphophallus-tuberculatus",
+   "name": "AMORPHOPHALLUS TUBERCULATUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-umbrinus",
+   "slug": "amorphophallus-umbrinus",
+   "name": "AMORPHOPHALLUS UMBRINUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-urceolatus",
+   "slug": "amorphophallus-urceolatus",
+   "name": "AMORPHOPHALLUS URCEOLATUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-variabilis",
+   "slug": "amorphophallus-variabilis",
+   "name": "AMORPHOPHALLUS VARIABILIS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-venustus",
+   "slug": "amorphophallus-venustus",
+   "name": "AMORPHOPHALLUS VENUSTUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-verticillatus",
+   "slug": "amorphophallus-verticillatus",
+   "name": "AMORPHOPHALLUS VERTICILLATUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-villosus",
+   "slug": "amorphophallus-villosus",
+   "name": "AMORPHOPHALLUS VILLOSUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-vogelianus",
+   "slug": "amorphophallus-vogelianus",
+   "name": "AMORPHOPHALLUS VOGELIANUS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-wasa",
+   "slug": "amorphophallus-wasa",
+   "name": "AMORPHOPHALLUS WASA",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-xiei",
+   "slug": "amorphophallus-xiei",
+   "name": "AMORPHOPHALLUS XIEI",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-yaoi",
+   "slug": "amorphophallus-yaoi",
+   "name": "AMORPHOPHALLUS YAOI",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-yuloensis",
+   "slug": "amorphophallus-yuloensis",
+   "name": "AMORPHOPHALLUS YULOENSIS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-yunnanensis",
+   "slug": "amorphophallus-yunnanensis",
+   "name": "AMORPHOPHALLUS YUNNANENSIS",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/amorphophallus-zenkeri",
+   "slug": "amorphophallus-zenkeri",
+   "name": "AMORPHOPHALLUS ZENKERI",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
   }
  ]
 }

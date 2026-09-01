@@ -1,12 +1,12 @@
 {
  "genus": "Alocasia",
  "slug": "alocasia",
- "compiled": "2026-08-01",
+ "compiled": "2026-09-01",
  "source": "https://www.aroidpedia.com/alocasia",
- "taxon_count": 329,
- "source_count": 192,
- "cited_count": 98,
- "gap_count": 231,
+ "taxon_count": 333,
+ "source_count": 198,
+ "cited_count": 99,
+ "gap_count": 234,
  "pdf": "Aroidpedia-Alocasia-Bibliography.pdf",
  "kew_excluded_from_bibliography": true,
  "bibliography": [
@@ -35,39 +35,6 @@
    ],
    "count": 1,
    "host": "biodiversitylibrary.org"
-  },
-  {
-   "title": "A. Hay & R. Wise: The genus Alocasia in Australasia - BLUMEA 35 (1991) (P. 515)",
-   "url": "https://repository.naturalis.nl/pub/525733",
-   "taxa": [
-    {
-     "name": "ALOCASIA BRANCIFOLIA",
-     "url": "https://www.aroidpedia.com/journal/alocasia-brancifolia",
-     "kind": "Species"
-    },
-    {
-     "name": "ALOCASIA BRISBANENSIS",
-     "url": "https://www.aroidpedia.com/journal/alocasia-brisbanensis",
-     "kind": "Species"
-    },
-    {
-     "name": "ALOCASIA HOLLRUNGII",
-     "url": "https://www.aroidpedia.com/journal/alocasia-hollrungii",
-     "kind": "Species"
-    },
-    {
-     "name": "ALOCASIA LAUTERBACHIANA",
-     "url": "https://www.aroidpedia.com/journal/alocasia-lauterbachiana",
-     "kind": "Species"
-    },
-    {
-     "name": "ALOCASIA WENTII",
-     "url": "https://www.aroidpedia.com/journal/alocasia-wentii",
-     "kind": "Species"
-    }
-   ],
-   "count": 5,
-   "host": "repository.naturalis.nl"
   },
   {
    "title": "The American Florist: a weekly journal v.7 P.209 (1891-1892)",
@@ -311,30 +278,7 @@
    "host": "babel.hathitrust.org"
   },
   {
-   "title": "Acta Phytotax. Geobot. 22: 159 (1967)",
-   "url": "https://www.jstage.jst.go.jp/article/bunruichiri/22/4-6/22_KJ00001078002/_pdf/-char/en",
-   "taxa": [
-    {
-     "name": "ALOCASIA PELTATA",
-     "url": "https://www.aroidpedia.com/journal/alocasia-peltata",
-     "kind": "Species"
-    },
-    {
-     "name": "ALOCASIA ROBUSTA",
-     "url": "https://www.aroidpedia.com/journal/alocasia-robusta",
-     "kind": "Species"
-    },
-    {
-     "name": "ALOCASIA SARAWAKENSIS",
-     "url": "https://www.aroidpedia.com/journal/alocasia-sarawakensis",
-     "kind": "Species"
-    }
-   ],
-   "count": 3,
-   "host": "jstage.jst.go.jp"
-  },
-  {
-   "title": "The Cultivated Alocasia | David Burnett | Aroideana",
+   "title": "Burnett, D. 1984. The cultivated Alocasia. Aroideana 7(3–4): 68–162.",
    "url": "https://www.aroid.org/aroideana/aroideana-v7n3",
    "taxa": [
     {
@@ -391,10 +335,38 @@
      "name": "ALOCASIA ZEBRINA ‘TIGRINA’",
      "url": "https://www.aroidpedia.com/journal/alocasia-zebrina-tigrina",
      "kind": "Cultivar"
+    },
+    {
+     "name": "ALOCASIA ‘ARGYREA’",
+     "url": "https://www.aroidpedia.com/journal/alocasia-argyrea",
+     "kind": "Hybrid"
     }
    ],
-   "count": 11,
+   "count": 12,
    "host": "aroid.org"
+  },
+  {
+   "title": "Acta Phytotax. Geobot. 22: 159 (1967)",
+   "url": "https://www.jstage.jst.go.jp/article/bunruichiri/22/4-6/22_KJ00001078002/_pdf/-char/en",
+   "taxa": [
+    {
+     "name": "ALOCASIA PELTATA",
+     "url": "https://www.aroidpedia.com/journal/alocasia-peltata",
+     "kind": "Species"
+    },
+    {
+     "name": "ALOCASIA ROBUSTA",
+     "url": "https://www.aroidpedia.com/journal/alocasia-robusta",
+     "kind": "Species"
+    },
+    {
+     "name": "ALOCASIA SARAWAKENSIS",
+     "url": "https://www.aroidpedia.com/journal/alocasia-sarawakensis",
+     "kind": "Species"
+    }
+   ],
+   "count": 3,
+   "host": "jstage.jst.go.jp"
   },
   {
    "title": "Curtis' Botanical Magazine 17:16 (2000)",
@@ -486,6 +458,19 @@
    ],
    "count": 1,
    "host": "efloraofindia.com"
+  },
+  {
+   "title": "Engler, A. & K. Krause. 1920. Das Pflanzenreich IV.23E (Araceae–Colocasioideae)",
+   "url": "https://archive.org/details/daspflanzenreich70engluoft",
+   "taxa": [
+    {
+     "name": "ALOCASIA ‘ARGYREA’",
+     "url": "https://www.aroidpedia.com/journal/alocasia-argyrea",
+     "kind": "Hybrid"
+    }
+   ],
+   "count": 1,
+   "host": "archive.org"
   },
   {
    "title": "Enumeratio plantarum omnium hucusque cognitarum v.3 P.41 (1841)",
@@ -698,6 +683,19 @@
    "host": "biodiversitylibrary.org"
   },
   {
+   "title": "The Garden 63 (1903)",
+   "url": "https://archive.org/details/gardenillustrate6303lond",
+   "taxa": [
+    {
+     "name": "ALOCASIA ‘ARGYREA’",
+     "url": "https://www.aroidpedia.com/journal/alocasia-argyrea",
+     "kind": "Hybrid"
+    }
+   ],
+   "count": 1,
+   "host": "archive.org"
+  },
+  {
    "title": "The Garden's Bulleting Singapore 51: 29 (1999)",
    "url": "https://www.biodiversitylibrary.org/page/43578419",
    "taxa": [
@@ -852,6 +850,19 @@
    ],
    "count": 1,
    "host": "biodiversitylibrary.org"
+  },
+  {
+   "title": "The Gardening World Illustrated 13 (1896–97).",
+   "url": "https://archive.org/details/gardeningworldil1318unse",
+   "taxa": [
+    {
+     "name": "ALOCASIA ‘ARGYREA’",
+     "url": "https://www.aroidpedia.com/journal/alocasia-argyrea",
+     "kind": "Hybrid"
+    }
+   ],
+   "count": 1,
+   "host": "archive.org"
   },
   {
    "title": "The gardening world illustrated v.1 (1885) P.341",
@@ -1427,6 +1438,57 @@
    "host": "bibdigital.rjb.csic.es"
   },
   {
+   "title": "Hay, A. & Wise, R. (1991). “The genusAlocasia(Araceae) in Australasia.”Blumea35: 499–545",
+   "url": "https://repository.naturalis.nl/pub/525733",
+   "taxa": [
+    {
+     "name": "ALOCASIA BRANCIFOLIA",
+     "url": "https://www.aroidpedia.com/journal/alocasia-brancifolia",
+     "kind": "Species"
+    },
+    {
+     "name": "ALOCASIA BRISBANENSIS",
+     "url": "https://www.aroidpedia.com/journal/alocasia-brisbanensis",
+     "kind": "Species"
+    },
+    {
+     "name": "ALOCASIA HOLLRUNGII",
+     "url": "https://www.aroidpedia.com/journal/alocasia-hollrungii",
+     "kind": "Species"
+    },
+    {
+     "name": "ALOCASIA LANCIFOLIA",
+     "url": "https://www.aroidpedia.com/journal/alocasia-lancifolia",
+     "kind": "Species"
+    },
+    {
+     "name": "ALOCASIA LAUTERBACHIANA",
+     "url": "https://www.aroidpedia.com/journal/alocasia-lauterbachiana",
+     "kind": "Species"
+    },
+    {
+     "name": "ALOCASIA WENTII",
+     "url": "https://www.aroidpedia.com/journal/alocasia-wentii",
+     "kind": "Species"
+    }
+   ],
+   "count": 6,
+   "host": "repository.naturalis.nl"
+  },
+  {
+   "title": "Herbarium Specimen: Alocasia lecomtei",
+   "url": "https://science.mnhn.fr/institution/mnhn/collection/p/item/p00751093?listCount=9&listIndex=1",
+   "taxa": [
+    {
+     "name": "ALOCASIA LECOMTEI",
+     "url": "https://www.aroidpedia.com/journal/alocasia-lecomtei",
+     "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "science.mnhn.fr"
+  },
+  {
    "title": "Histoire naturelle des végétaux V.12 (1846) P.47",
    "url": "https://www.biodiversitylibrary.org/page/31474748",
    "taxa": [
@@ -1564,6 +1626,19 @@
      "name": "ALOCASIA MACRORRHIZOS",
      "url": "https://www.aroidpedia.com/journal/alocasia-macrorrhizos",
      "kind": "Species"
+    }
+   ],
+   "count": 1,
+   "host": "archive.org"
+  },
+  {
+   "title": "Index Londinensis 1: (Alocasia).",
+   "url": "https://archive.org/details/CAT77684583001",
+   "taxa": [
+    {
+     "name": "ALOCASIA ‘ARGYREA’",
+     "url": "https://www.aroidpedia.com/journal/alocasia-argyrea",
+     "kind": "Hybrid"
     }
    ],
    "count": 1,
@@ -1817,6 +1892,19 @@
    "host": "researchgate.net"
   },
   {
+   "title": "Möllers Deutsche Gärtner-Zeitung 26 (No. 12): 135–137. 1911.",
+   "url": "https://archive.org/details/MllersDeutscheGrtnerZeitungLudwigMller26.Jg.1911/page/n162",
+   "taxa": [
+    {
+     "name": "ALOCASIA ‘ARGYREA’",
+     "url": "https://www.aroidpedia.com/journal/alocasia-argyrea",
+     "kind": "Hybrid"
+    }
+   ],
+   "count": 1,
+   "host": "archive.org"
+  },
+  {
    "title": "Nguyen V. D., Croat T. B., Luu H. T., Lee C. Y., Lee J. & de Kok R.: Two new species of Alocasia (Araceae, Colocasieae) from Vietnam. – Willdenowia 43: 293 – 299. December 2013. – ISSN 0511-9618; © 2013 BGBM Berlin-Dahlem.",
    "url": "http://dx.doi.org/10.3372/wi.43.43209",
    "taxa": [
@@ -1934,12 +2022,12 @@
    "host": "researchgate.net"
   },
   {
-   "title": "Das Pflanzenreich :regni vegetablilis conspectus (Heft 70-71: P. 90) (1919-1920)",
-   "url": "https://www.biodiversitylibrary.org/page/16814973",
+   "title": "Das Pflanzenreich v.71 (1920) Addendum P.132",
+   "url": "https://www.biodiversitylibrary.org/page/16815015",
    "taxa": [
     {
-     "name": "ALOCASIA LECOMTEI",
-     "url": "https://www.aroidpedia.com/journal/alocasia-lecomtei",
+     "name": "ALOCASIA ATROPURPUREA",
+     "url": "https://www.aroidpedia.com/journal/alocasia-atropurpurea",
      "kind": "Species"
     }
    ],
@@ -1947,12 +2035,12 @@
    "host": "biodiversitylibrary.org"
   },
   {
-   "title": "Das Pflanzenreich v.71 (1920) Addendum P.132",
-   "url": "https://www.biodiversitylibrary.org/page/16815015",
+   "title": "Das Pflanzenreich: regni vegetablilis conspectus (Heft 70-71: P. 90) (1919-1920)",
+   "url": "https://www.biodiversitylibrary.org/page/16814973",
    "taxa": [
     {
-     "name": "ALOCASIA ATROPURPUREA",
-     "url": "https://www.aroidpedia.com/journal/alocasia-atropurpurea",
+     "name": "ALOCASIA LECOMTEI",
+     "url": "https://www.aroidpedia.com/journal/alocasia-lecomtei",
      "kind": "Species"
     }
    ],
@@ -2113,7 +2201,7 @@
     },
     {
      "name": "ALOCASIA ROSEUS",
-     "url": "https://www.aroidpedia.com/journal/alocasia-roseus",
+     "url": "https://www.aroidpedia.com/journal/alocasia-rosea",
      "kind": "Species"
     }
    ],
@@ -2901,6 +2989,14 @@
    "refs": []
   },
   {
+   "url": "https://www.aroidpedia.com/journal/alocasia-longiloba-watsoniana",
+   "slug": "alocasia-longiloba-watsoniana",
+   "name": "ALOCASIA LONGILOBA ‘WATSONIANA’",
+   "kind": "Cultivar",
+   "kew": null,
+   "refs": []
+  },
+  {
    "url": "https://www.aroidpedia.com/journal/alocasia-macrorrhizos-baby-ray",
    "slug": "alocasia-macrorrhizos-baby-ray",
    "name": "ALOCASIA MACRORRHIZOS ‘BABY RAY’",
@@ -3302,7 +3398,38 @@
    "name": "ALOCASIA ‘ARGYREA’",
    "kind": "Hybrid",
    "kew": null,
-   "refs": []
+   "refs": [
+    {
+     "title": "The Gardening World Illustrated 13 (1896–97).",
+     "url": "https://archive.org/details/gardeningworldil1318unse",
+     "key": "https://archive.org/details/gardeningworldil1318unse"
+    },
+    {
+     "title": "The Garden 63 (1903)",
+     "url": "https://archive.org/details/gardenillustrate6303lond",
+     "key": "https://archive.org/details/gardenillustrate6303lond"
+    },
+    {
+     "title": "Engler, A. & K. Krause. 1920. Das Pflanzenreich IV.23E (Araceae–Colocasioideae)",
+     "url": "https://archive.org/details/daspflanzenreich70engluoft",
+     "key": "https://archive.org/details/daspflanzenreich70engluoft"
+    },
+    {
+     "title": "Index Londinensis 1: (Alocasia).",
+     "url": "https://archive.org/details/CAT77684583001",
+     "key": "https://archive.org/details/cat77684583001"
+    },
+    {
+     "title": "Burnett, D. 1984. The cultivated Alocasia. Aroideana 7(3–4): 68–162.",
+     "url": "https://www.aroid.org/aroideana/aroideana-v7n3",
+     "key": "https://www.aroid.org/aroideana/aroideana-v7n3"
+    },
+    {
+     "title": "Möllers Deutsche Gärtner-Zeitung 26 (No. 12): 135–137. 1911.",
+     "url": "https://archive.org/details/MllersDeutscheGrtnerZeitungLudwigMller26.Jg.1911/page/n162",
+     "key": "https://archive.org/details/mllersdeutschegrtnerzeitungludwigmller26.jg.1911/page/n162"
+    }
+   ]
   },
   {
    "url": "https://www.aroidpedia.com/journal/alocasia-ariana",
@@ -3684,6 +3811,14 @@
    "url": "https://www.aroidpedia.com/journal/alocasia-grim-reaper",
    "slug": "alocasia-grim-reaper",
    "name": "ALOCASIA ‘GRIM REAPER’",
+   "kind": "Hybrid",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-hora-yan",
+   "slug": "alocasia-hora-yan",
+   "name": "ALOCASIA ‘HORA-YAN’",
    "kind": "Hybrid",
    "kew": null,
    "refs": []
@@ -4180,6 +4315,14 @@
    "url": "https://www.aroidpedia.com/journal/alocasia-sedenii",
    "slug": "alocasia-sedenii",
    "name": "ALOCASIA ‘SEDENII’",
+   "kind": "Hybrid",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-segoro-biru",
+   "slug": "alocasia-segoro-biru",
+   "name": "ALOCASIA ‘SEGORO BIRU’",
    "kind": "Hybrid",
    "kew": null,
    "refs": []
@@ -5451,6 +5594,11 @@
      "title": "Nova Guinea : résultats de l'expédition scientifique néerlandaise à la Nouvelle-Guinée (V8:807) (1912)",
      "url": "https://www.biodiversitylibrary.org/page/11445407",
      "key": "https://www.biodiversitylibrary.org/page/11445407"
+    },
+    {
+     "title": "Hay, A. & Wise, R. (1991). “The genusAlocasia(Araceae) in Australasia.”Blumea35: 499–545",
+     "url": "https://repository.naturalis.nl/pub/525733",
+     "key": "https://repository.naturalis.nl/pub/525733"
     }
    ]
   },
@@ -5506,7 +5654,7 @@
    "kew": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:84189-1",
    "refs": [
     {
-     "title": "Das Pflanzenreich :regni vegetablilis conspectus (Heft 70-71: P. 90) (1919-1920)",
+     "title": "Das Pflanzenreich: regni vegetablilis conspectus (Heft 70-71: P. 90) (1919-1920)",
      "url": "https://www.biodiversitylibrary.org/page/16814973",
      "key": "https://www.biodiversitylibrary.org/page/16814973"
     },
@@ -5514,6 +5662,11 @@
      "title": "Flore générale de l'Indo-Chine (v.6: P.1151)",
      "url": "https://www.biodiversitylibrary.org/page/60749801",
      "key": "https://www.biodiversitylibrary.org/page/60749801"
+    },
+    {
+     "title": "Herbarium Specimen: Alocasia lecomtei",
+     "url": "https://science.mnhn.fr/institution/mnhn/collection/p/item/p00751093?listCount=9&listIndex=1",
+     "key": "https://science.mnhn.fr/institution/mnhn/collection/p/item/p00751093?listcount=9&listindex=1"
     }
    ]
   },
@@ -6157,8 +6310,8 @@
    ]
   },
   {
-   "url": "https://www.aroidpedia.com/journal/alocasia-roseus",
-   "slug": "alocasia-roseus",
+   "url": "https://www.aroidpedia.com/journal/alocasia-rosea",
+   "slug": "alocasia-rosea",
    "name": "ALOCASIA ROSEUS",
    "kind": "Species",
    "kew": null,
@@ -6715,6 +6868,14 @@
    "slug": "alocasia-yucatan-princess",
    "name": "ALOCASIA ‘YUCATAN PRINCESS’*",
    "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/journal/alocasia-roseus",
+   "slug": "alocasia-roseus",
+   "name": "ALOCASIA ROSEUS",
+   "kind": "Unclassified",
    "kew": null,
    "refs": []
   }
