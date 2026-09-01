@@ -92,7 +92,17 @@ ROLE_NAMES = {
     # the FIRST file is the one shown and the rest become selectable;
     # the filename (minus any number prefix) is the selector's label.
     "STORY": "story",
+    # v7 (1.9.26): HYBRIDS ONLY. Photographs of the two PARENT taxa, shown as
+    # inline panels beside the cross. They are pictures of a DIFFERENT PLANT -
+    # Arum 'Sooi's ovule panel is a photograph of Arum cylindraceum - so they
+    # must never be folded into this post's More photos grid, or the archive
+    # silently misattributes them. Optional: a hybrid with no parent photos
+    # simply gets no panels.
+    "OVULE PARENT": "ovule-parent",
+    "POLLEN PARENT": "pollen-parent",
 }
+# roles that are NOT this plant and must stay out of the More photos archive
+FOREIGN_ROLES = {"ovule-parent", "pollen-parent"}
 GALLERY_NAMES = {"VEG-GALLERY": "veg-gallery", "REP-GALLERY": "rep-gallery"}
 
 
