@@ -1,0 +1,12 @@
+import { chromium } from 'playwright';
+import fs from 'fs';
+const R = 'C:/Users/nli0490/Claude/Aroidpedia/docs/';
+const b = await chromium.launch({ channel: 'chrome', headless: true });
+const p = await b.newPage({ viewport: { width: 1500, height: 1100 } });
+p.on('pageerror', e => console.log('PAGEERROR:', String(e).slice(0, 300)));
+p.on('console', m => { if (m.type()==='error') console.log('CONSOLE ERR:', m.text().slice(0,300)); });
+await p.route('**/footer.js*', r => r.fulfill({ body: fs.readFileSync(R+'footer.js','utf8'), contentType:'application/javascript', headers:{'access-control-allow-origin':'*'} }));
+await p.goto('https://www.aroidpedia.com/alocasia', { waitUntil:'networkidle', timeout:120000 });
+await p.waitForTimeout(12000);
+console.log('map present:', await p.evaluate(() => !!document.querySelector('.apgm svg')));
+await b.close();

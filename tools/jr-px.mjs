@@ -1,0 +1,32 @@
+import { chromium } from 'playwright';
+import fs from 'fs';
+const NEW = fs.readFileSync('G:/My Drive/PlantsV2/Aroidpedia/WEBSITE/Squarespace CSS/AROID JOURNAL/JOURNAL PAGE 8.28.26 v20.26.txt','utf8');
+const SP = 'C:/Users/nli0490/AppData/Local/Temp/claude/C--Users-nli0490-Claude/ffd95950-679d-45b8-a877-704ff4ac7e9a/scratchpad/';
+const b = await chromium.launch({ channel: 'chrome', headless: true });
+const p = await b.newPage({ viewport: { width: 1500, height: 1100 } });
+await p.route('**/journal*', async route => {
+  if (route.request().resourceType() !== 'document') return route.continue();
+  const resp = await route.fetch();
+  let html = await resp.text();
+  const lines = NEW.replace(/\r\n/g,'\n').split('\n');
+  const first = lines.find(l=>l.trim()).trim(), last = [...lines].reverse().find(l=>l.trim()).trim();
+  const i = html.indexOf(first), j = html.lastIndexOf(last);
+  if (i>=0 && j>i) html = html.slice(0,i)+NEW+html.slice(j+last.length);
+  await route.fulfill({ response: resp, body: html });
+});
+await p.goto('https://www.aroidpedia.com/journal', { waitUntil:'networkidle', timeout:120000 });
+await p.waitForTimeout(14000);
+await p.evaluate(() => { const fb=[...document.querySelectorAll('button')].find(x=>/filter/i.test(x.textContent)); if(fb) fb.click(); });
+await p.waitForTimeout(1000);
+await p.evaluate(() => { const r = document.querySelector('.ap-jr-svg').getBoundingClientRect(); window.scrollTo(0, r.top + window.scrollY - 80); });
+await p.waitForTimeout(400);
+await p.evaluate(() => document.querySelector('.ap-jr-view[data-view="regions"]').click());
+await p.waitForTimeout(1000);
+console.log(JSON.stringify(await p.evaluate(() => {
+  const svg = document.querySelector('.ap-jr-svg');
+  const vb = svg.viewBox.baseVal, sr = svg.getBoundingClientRect();
+  const S=(lon,lat)=>({x:Math.round(sr.x+(lon-vb.x)/vb.width*sr.width), y:Math.round(sr.y+(-lat-vb.y)/vb.height*sr.height)});
+  return { BD:S(90.2,23.9), India:S(79,22) };
+})));
+await p.screenshot({ path: SP+'v26-regions-px.png', animations:'disabled' });
+await b.close();

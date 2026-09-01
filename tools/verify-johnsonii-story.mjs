@@ -1,0 +1,26 @@
+import { chromium } from "playwright";
+const browser = await chromium.launch({ channel: "chrome", headless: true });
+const page = await browser.newPage({ viewport: { width: 1400, height: 1000 } });
+await page.goto("https://www.aroidpedia.com/journal/amorphophallus-johnsonii", { waitUntil: "networkidle", timeout: 60000 });
+await page.waitForTimeout(3000);
+await page.evaluate(() => document.querySelector(".apsc-story")?.scrollIntoView({ block: "center" }));
+await page.waitForTimeout(2000);
+const d = await page.evaluate(async () => {
+  const out = { version: document.querySelector("[data-apsc-version]")?.getAttribute("data-apsc-version") };
+  const s = document.querySelector(".apsc-story");
+  if (!s) return { ...out, story: "MISSING" };
+  out.title = s.querySelector("h1,h2,h3")?.textContent.trim();
+  out.paragraphs = s.querySelectorAll(".apsc-story__prose p").length;
+  out.buttons = [...s.querySelectorAll(".apsc-story__pick")].map(b => b.textContent.trim());
+  const img = s.querySelector(".apsc-story__plate img");
+  if (img && !img.complete) await new Promise(r => { img.onload = r; setTimeout(r, 4000); });
+  out.plate = img ? { file: decodeURIComponent(img.src.split("/").pop()), size: Math.round(img.getBoundingClientRect().width) + "x" + Math.round(img.getBoundingClientRect().height), alt: img.alt } : null;
+  out.markerLeak = /STORY TITLE:/.test(s.textContent) || /^STORY:/m.test(s.textContent);
+  const body = document.body.innerText;
+  out.ecology = body.includes("Found in Ghanaian rain forest");
+  out.ecologyHeading = body.includes("ECOLOGY");
+  out.storyTextInProse = s.textContent.includes("nail varnish");
+  return out;
+});
+console.log(JSON.stringify(d, null, 1));
+await browser.close();

@@ -1,0 +1,20 @@
+import { chromium } from 'playwright';
+const SP = 'C:/Users/nli0490/AppData/Local/Temp/claude/C--Users-nli0490-Claude/ffd95950-679d-45b8-a877-704ff4ac7e9a/scratchpad/';
+const b = await chromium.launch({ channel: 'chrome', headless: true });
+const p = await b.newPage({ viewport: { width: 1500, height: 1100 } });
+await p.goto('https://www.aroidpedia.com/alocasia', { waitUntil: 'networkidle', timeout: 120000 });
+await p.waitForTimeout(13000);
+console.log('live stamp:', await p.evaluate(() => document.querySelector('.apgm').getAttribute('data-apgm-version')));
+console.log('live Borneo leader:', await p.evaluate(() => {
+  const lines = [...document.querySelectorAll('.apgm-maplead')];
+  const lbls = [...document.querySelectorAll('.apgm-maplabel')];
+  const i = lbls.findIndex(t => t.textContent === 'Borneo');
+  return lines[i] ? lines[i].getAttribute('x1') + ',' + lines[i].getAttribute('y1') : '?';
+}));
+await p.evaluate(() => { Array.from(document.querySelectorAll('.apgm [data-view]')).find(x => x.dataset.view === 'regions').click(); });
+await p.waitForTimeout(800);
+const svgH = await p.$('.apgm svg');
+await svgH.scrollIntoViewIfNeeded(); await p.waitForTimeout(300);
+await svgH.screenshot({ path: SP + 'live-v26-regions.png', animations: 'disabled' });
+console.log('done');
+await b.close();

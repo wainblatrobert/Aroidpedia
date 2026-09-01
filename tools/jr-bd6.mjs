@@ -1,0 +1,28 @@
+import { chromium } from 'playwright';
+const SP = 'C:/Users/nli0490/AppData/Local/Temp/claude/C--Users-nli0490-Claude/ffd95950-679d-45b8-a877-704ff4ac7e9a/scratchpad/';
+const b = await chromium.launch({ channel: 'chrome', headless: true });
+const p = await b.newPage({ viewport: { width: 1500, height: 1100 } });
+await p.goto('https://www.aroidpedia.com/journal', { waitUntil: 'networkidle', timeout: 120000 });
+await p.waitForTimeout(14000);
+await p.evaluate(() => { const fb=[...document.querySelectorAll('button')].find(x=>/filter/i.test(x.textContent)); if(fb) fb.click(); });
+await p.waitForTimeout(1000);
+await p.evaluate(() => { const r = document.querySelector('.ap-jr-svg').getBoundingClientRect(); window.scrollTo(0, r.top + window.scrollY - 80); });
+await p.waitForTimeout(400);
+await p.evaluate(() => document.querySelector('.ap-jr-view[data-view="regions"]').click());
+await p.waitForTimeout(1000);
+const clip = await p.evaluate(() => {
+  const svg = document.querySelector('.ap-jr-svg');
+  const vb = svg.viewBox.baseVal, sr = svg.getBoundingClientRect();
+  const S = (lon, lat) => ({ x: sr.x + (lon - vb.x)/vb.width*sr.width, y: sr.y + (-lat - vb.y)/vb.height*sr.height });
+  const a = S(86, 27.5), c = S(95, 20);
+  return { x: a.x, y: a.y, width: c.x - a.x, height: c.y - a.y };
+});
+await p.screenshot({ path: SP+'bd-A-asis.png', clip, animations: 'disabled' });
+await p.evaluate(() => { const st = document.createElement('style'); st.id='t1'; st.textContent='.ap-jr-gb path{display:none!important}'; document.head.appendChild(st); });
+await p.waitForTimeout(200);
+await p.screenshot({ path: SP+'bd-B-nogb.png', clip, animations: 'disabled' });
+await p.evaluate(() => { const st = document.createElement('style'); st.id='t2'; st.textContent='.ap-jr-svg .s.sub{stroke:transparent!important}'; document.head.appendChild(st); });
+await p.waitForTimeout(200);
+await p.screenshot({ path: SP+'bd-C-nogb-nosub.png', clip, animations: 'disabled' });
+console.log('saved');
+await b.close();

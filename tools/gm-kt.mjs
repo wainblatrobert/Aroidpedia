@@ -1,0 +1,24 @@
+import { chromium } from 'playwright';
+import fs from 'fs';
+const JS = fs.readFileSync('C:/Users/nli0490/Claude/Aroidpedia/docs/footer.js', 'utf8');
+const HIER = fs.readFileSync('C:/Users/nli0490/Claude/Aroidpedia/docs/geo-hierarchy.json', 'utf8');
+const HD = fs.readFileSync('C:/Users/nli0490/Claude/Aroidpedia/docs/shapes-hd.json', 'utf8');
+const TOPO = fs.readFileSync('C:/Users/nli0490/Claude/Aroidpedia/docs/shapes-topo.json', 'utf8');
+const b = await chromium.launch({ channel: 'chrome', headless: true });
+const p = await b.newPage({ viewport: { width: 1500, height: 1100 } });
+const j = (body) => (r) => r.fulfill({ body, contentType: 'application/json', headers: { 'access-control-allow-origin': '*' } });
+await p.route('**/footer.js*', r => r.fulfill({ body: JS, contentType: 'application/javascript', headers: { 'access-control-allow-origin': '*' } }));
+await p.route('**/geo-hierarchy.json*', j(HIER));
+await p.route('**/shapes-hd.json*', j(HD));
+await p.route('**/shapes-topo.json*', j(TOPO));
+await p.goto('https://www.aroidpedia.com/alocasia', { waitUntil: 'networkidle', timeout: 120000 });
+await p.waitForTimeout(13000);
+await p.evaluate(() => { Array.from(document.querySelectorAll('.apgm [data-view]')).find(x => x.dataset.view === 'divisions').click(); });
+await p.waitForTimeout(800);
+console.log(await p.evaluate(() => {
+  const n = document.querySelector('.apgm svg [data-zone="Kutai Timur"]');
+  n.dispatchEvent(new MouseEvent('mouseover', { bubbles: true }));
+  const h = document.querySelector('.apgm [data-on]');
+  return 'KT dispatch reads: ' + (h ? h.textContent.trim().slice(0, 46) : '-');
+}));
+await b.close();

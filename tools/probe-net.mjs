@@ -1,0 +1,13 @@
+import { chromium } from "playwright";
+import fs from "node:fs";
+const js = fs.readFileSync("C:/Users/nli0490/Claude/Aroidpedia/docs/footer.js","utf8");
+const b = await chromium.launch({ channel:"chrome", headless:true });
+const ctx = await b.newContext({ viewport:{width:1440,height:900} });
+await ctx.route("**/footer.js*", r => r.fulfill({status:200,contentType:"application/javascript",body:js}));
+const p = await ctx.newPage();
+const urls = [];
+p.on("request", r => { const u = r.url(); if (/\.json/i.test(u)) urls.push(u); });
+await p.goto("https://www.aroidpedia.com/journal/amorphophallus-dracontioides",{waitUntil:"networkidle",timeout:60000});
+await p.waitForTimeout(4000);
+console.log([...new Set(urls)].join("\n"));
+await b.close();
