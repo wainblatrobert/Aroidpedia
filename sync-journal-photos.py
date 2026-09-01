@@ -212,10 +212,26 @@ def species_path(folder_name: str, genus: str) -> str | None:
     parts = folder_name.split()
     if len(parts) < 2 or parts[0].lower() != genus.lower():
         return None
-    clean = [p.lower().replace("'", "").replace("’", "").replace("‘", "")
-             for p in parts[1:]]
-    clean = [p for p in clean if p]
-    if not clean:
+    g = genus.lower()
+    clean = []
+    for p in parts[1:]:
+        p = p.lower().replace("'", "").replace("’", "").replace("‘", "")
+        # v8 (1.9.26): A FORMAL HYBRID FORMULA. "Arum italicum × Arum
+        # maculatum" is a real post; the lowercase " x " folders above are
+        # breeders' working material (Amorphophallus has 8, Alocasia 10) and
+        # stay skipped. The multiplication sign becomes "x" and the REPEATED
+        # GENUS is dropped, so the folder resolves to `italicum-x-maculatum`
+        # and matches the post slug `arum-italicum-x-maculatum`. Left alone it
+        # produced `italicum-×-arum-maculatum`, which the card could never
+        # find - the same silent miss the quotes caused.
+        if p == "×":
+            p = "x"
+        if p == g:
+            continue
+        if p:
+            clean.append(p)
+    # nothing but the cross sign left is a stray folder ("Alocasia ×")
+    if not clean or not any(c != "x" for c in clean):
         return None
     return parts[0].lower() + "/" + "-".join(clean)
 
