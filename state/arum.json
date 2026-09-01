@@ -177,6 +177,11 @@
    }
   },
   "arum/chameleon": {
+   "17233bc7ca6ed08391bccf0b728ceb5b": {
+    "bytes": 570635,
+    "derived_md5": "17233bc7ca6ed08391bccf0b728ceb5b",
+    "key": "hero/17233bc7-arum-chameleon-ballyrobert-gardens.jpg"
+   },
    "193db167c2d7d1064e0bbdbf8882c56a": {
     "bytes": 49798,
     "derived_md5": "193db167c2d7d1064e0bbdbf8882c56a",
@@ -191,6 +196,11 @@
     "bytes": 89255,
     "derived_md5": "481566f8b23a7b3dfca8eb59795e9202",
     "key": "other/481566f8-arum-chameleon-monksilver-nursery-4.jpg"
+   },
+   "a13cc1c4344834554b6bbd651f89fd87": {
+    "bytes": 334764,
+    "derived_md5": "a13cc1c4344834554b6bbd651f89fd87",
+    "key": "other/a13cc1c4-arum-chameleon-ballyrobert-gardens-2.jpg"
    },
    "a8cb76db6d8f6c595ad68ddd7f88cf30": {
     "bytes": 60200,
@@ -315,6 +325,18 @@
     "bytes": 58039,
     "derived_md5": "eaf9b416111bef56bf916810904788ff",
     "key": "other/eaf9b416-arum-concinnatum-agia-vavara-monksilver-nursery-2.jpg"
+   }
+  },
+  "arum/concinnatum-far-and-away": {
+   "1ccd5820d7b027b53055632d3b28799f": {
+    "bytes": 128903,
+    "derived_md5": "1ccd5820d7b027b53055632d3b28799f",
+    "key": "hero/1ccd5820-arum-concinnatum-far-and-away-juniper-level-botanic-garden.jpg"
+   },
+   "6acdb27160e5becac3530b2ed0e5de51": {
+    "bytes": 117823,
+    "derived_md5": "6acdb27160e5becac3530b2ed0e5de51",
+    "key": "other/6acdb271-arum-concinnatum-far-and-away-juniper-level-botanic-garden-2.jpg"
    }
   },
   "arum/creticum": {
@@ -1534,6 +1556,13 @@
     "key": "other/f251f644-arum-italicum-silberpfeil-monksilver-nursery-3.jpg"
    }
   },
+  "arum/italicum-spotted-jack": {
+   "c79f48871dcd7c9a46fd7e4cc788e3b9": {
+    "bytes": 143984,
+    "derived_md5": "c79f48871dcd7c9a46fd7e4cc788e3b9",
+    "key": "hero/c79f4887-arum-italicum-spotted-jack-cotswold-garden-flowers.jpg"
+   }
+  },
   "arum/italicum-taffs-giant": {
    "2b7c0c088cee1686b7ce68b9e10bda62": {
     "bytes": 68769,
@@ -1737,6 +1766,21 @@
     "bytes": 659568,
     "derived_md5": "10f66d13f19d85f1e645c4ccd35a5f84",
     "key": "ovule-parent/10f66d13-arum-italicum-aqualily-3.jpg"
+   },
+   "379b054497a0c44fb8b8df76c9e1e1c9": {
+    "bytes": 207434,
+    "derived_md5": "379b054497a0c44fb8b8df76c9e1e1c9",
+    "key": "other/379b0544-arum-love-child-juniper-level-botanic-garden-3.jpg"
+   },
+   "6f79bf4694235e64a0c9f74bed26158a": {
+    "bytes": 98652,
+    "derived_md5": "6f79bf4694235e64a0c9f74bed26158a",
+    "key": "hero/6f79bf46-arum-love-child-juniper-level-botanic-garden.jpg"
+   },
+   "86ff2e9d027270dde02b78a1350ee9ba": {
+    "bytes": 131167,
+    "derived_md5": "86ff2e9d027270dde02b78a1350ee9ba",
+    "key": "other/86ff2e9d-arum-love-child-juniper-level-botanic-garden-2.jpg"
    },
    "e49e21c486407448907ae5fc8f877e92": {
     "bytes": 305807,
