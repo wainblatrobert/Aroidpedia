@@ -1,10 +1,10 @@
 {
-  "species": 366,
+  "species": 393,
   "cultivars": 54,
   "hybrids": 151,
   "hybridCultivars": 9,
   "unclassified": 0,
-  "genera": 2,
+  "genera": 3,
   "byGenus": {
     "Alocasia": {
       "total": 332,
@@ -16,6 +16,13 @@
     "Amorphophallus": {
       "total": 248,
       "species": 248,
+      "cultivars": 0,
+      "hybrids": 0,
+      "hybridCultivars": 0
+    },
+    "Arum": {
+      "total": 27,
+      "species": 27,
       "cultivars": 0,
       "hybrids": 0,
       "hybridCultivars": 0
@@ -37,6 +44,15 @@
         "africa": 40,
         "asia": 207,
         "austral": 2
+      }
+    },
+    "Arum": {
+      "total": 27,
+      "placed": 27,
+      "zones": {
+        "africa": 3,
+        "euwasia": 16,
+        "asia": 19
       }
     }
   },
@@ -61,33 +77,33 @@
     "unclassifiedItems": []
   },
   "unresolvedTags": {
-    "Pingtung": 4,
-    "Nantou": 4,
-    "Tainan": 4,
-    "Yunlin": 4,
-    "Chiayi City": 3,
-    "Changhua": 3,
-    "Kuching": 3,
-    "Kaohsiung": 3,
-    "Taichung": 3,
-    "Chiayi": 3,
-    "Bandundu": 2,
-    "Katanga": 2,
-    "Miri": 2,
-    "Guangdong": 2,
-    "Hong Kong": 2,
-    "Guangxi": 2,
-    "Kapit": 2,
-    "Sudan-South Sudan": 2,
-    "Sylhet": 2,
-    "Moulvibazar": 2,
-    "General Santos": 1,
-    "Samarahan": 1,
-    "Serian": 1,
-    "Bubanza": 1,
-    "Mbale": 1
+    "Türkiye": 15,
+    "Kriti": 8,
+    "Lebanon": 7,
+    "Syria": 7,
+    "Cyprus": 6,
+    "Italy": 6,
+    "Greece": 6,
+    "Armenia": 5,
+    "Azerbaijan": 5,
+    "Georgia-GE": 5,
+    "Israel": 5,
+    "Jordan": 5,
+    "Palestinian Territories": 5,
+    "Bosnia and Herzegovina": 5,
+    "Croatia": 5,
+    "Montenegro": 5,
+    "East Aegean Is-": 4,
+    "France": 4,
+    "Albania": 4,
+    "Bulgaria": 4,
+    "Kosovo": 4,
+    "North Macedonia": 4,
+    "Poland": 4,
+    "Serbia": 4,
+    "Slovenia": 4
   },
-  "updatedAt": "2026-09-01T13:27:53.641Z",
+  "updatedAt": "2026-09-01T22:49:39.010Z",
   "source": "https://www.aroidpedia.com/journal",
-  "totalItemsScanned": 580
+  "totalItemsScanned": 607
 }
