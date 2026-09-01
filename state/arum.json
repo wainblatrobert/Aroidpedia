@@ -620,6 +620,18 @@
     "key": "reproductive/e20dd8fb-powo-arum-cyrenaicum-01.jpg"
    }
   },
+  "arum/cyrenaicum-x-concinnatum": {
+   "42d964078f4e11fa453a7200e5018b65": {
+    "bytes": 334641,
+    "derived_md5": "42d964078f4e11fa453a7200e5018b65",
+    "key": "pollen-parent/42d96407-arum-concinnatum-millpondrj-2.jpg"
+   },
+   "6b01583e3a0814f43ea9928c214a979c": {
+    "bytes": 195023,
+    "derived_md5": "6b01583e3a0814f43ea9928c214a979c",
+    "key": "ovule-parent/6b01583e-powo-arum-cyrenaicum-03.jpg"
+   }
+  },
   "arum/cyrenaicum-\u00d7-arum-concinnatum": {
    "42d964078f4e11fa453a7200e5018b65": {
     "bytes": 334641,
@@ -1561,6 +1573,18 @@
     "bytes": 54122,
     "derived_md5": "b802e32a5ab8e4db92cc9066a84845a1",
     "key": "other/b802e32a-arum-italicum-white-winter-monksilver-nursery-3.jpg"
+   }
+  },
+  "arum/italicum-x-maculatum": {
+   "10f66d13f19d85f1e645c4ccd35a5f84": {
+    "bytes": 659568,
+    "derived_md5": "10f66d13f19d85f1e645c4ccd35a5f84",
+    "key": "ovule-parent/10f66d13-arum-italicum-aqualily-3.jpg"
+   },
+   "d094c05bea620b60aee50783fcbe9eef": {
+    "bytes": 355977,
+    "derived_md5": "d094c05bea620b60aee50783fcbe9eef",
+    "key": "pollen-parent/d094c05b-arum-maculatum-d-h-mmerli.jpg"
    }
   },
   "arum/italicum-xxl": {
