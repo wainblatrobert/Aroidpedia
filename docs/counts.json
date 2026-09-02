@@ -1,8 +1,8 @@
 {
   "species": 393,
-  "cultivars": 54,
-  "hybrids": 151,
-  "hybridCultivars": 9,
+  "cultivars": 64,
+  "hybrids": 155,
+  "hybridCultivars": 15,
   "unclassified": 0,
   "genera": 3,
   "byGenus": {
@@ -21,11 +21,11 @@
       "hybridCultivars": 0
     },
     "Arum": {
-      "total": 27,
+      "total": 47,
       "species": 27,
-      "cultivars": 0,
-      "hybrids": 0,
-      "hybridCultivars": 0
+      "cultivars": 10,
+      "hybrids": 4,
+      "hybridCultivars": 6
     }
   },
   "byGenusGeo": {
@@ -47,7 +47,7 @@
       }
     },
     "Arum": {
-      "total": 27,
+      "total": 47,
       "placed": 27,
       "zones": {
         "africa": 3,
@@ -103,7 +103,7 @@
     "Serbia": 4,
     "Slovenia": 4
   },
-  "updatedAt": "2026-09-01T22:49:39.010Z",
+  "updatedAt": "2026-09-02T00:25:59.825Z",
   "source": "https://www.aroidpedia.com/journal",
-  "totalItemsScanned": 607
+  "totalItemsScanned": 627
 }
