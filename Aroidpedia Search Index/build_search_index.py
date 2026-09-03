@@ -136,7 +136,7 @@ from datetime import datetime, timezone
 
 import requests
 
-SITE = "https://www.aroidpedia.com"
+SITE = os.environ.get("AP_SITE", "https://www.aroidpedia.com").rstrip("/")   # AP_SITE overrides for a local test
 COLLECTION_PATH = "/journal"
 COLLECTION_ID = "5ecf40ddda96fb2d2d4da53e"      # from the live site
 OUT_PATH = os.path.join("docs", "search-index.json")
@@ -255,6 +255,22 @@ def slug(s):
 
 def title_from_slug(s):
     return " ".join(w.capitalize() for w in str(s or "").split("-") if w)
+
+
+# ------------------------------------------------------------ fetch: API 0
+def fetch_records_file():
+    """/records.json - the whole journal in one static file (9.3.26).
+
+    Since the cut-over to Cloudflare Pages the site is an Astro build, not
+    Squarespace, so none of the ?format=json endpoints below exist any more.
+    The site publishes every record it is built from at /records.json, in the
+    same collection shape ({"items": [...]}, Squarespace field names), so the
+    rest of this script is unchanged. One request; no throttling needed.
+    The old fetchers stay as fallbacks and simply return nothing now."""
+    data = get(f"{SITE}/records.json")
+    if not data or not isinstance(data, dict):
+        return []
+    return data.get("items") or []
 
 
 # ------------------------------------------------------------ fetch: API 1
@@ -489,7 +505,8 @@ def fetch_via_sitemap():
 def fetch_items():
     """Returns (items, source_name, cache_to_write_or_None)."""
     # One call would beat 481, so it's still worth asking.
-    for name, fn in (("collection JSON", fetch_collection_json),
+    for name, fn in (("site records.json", fetch_records_file),
+                     ("collection JSON", fetch_collection_json),
                      ("open content API", fetch_open_api)):
         log(f"  trying {name} ...")
         items = fn()

@@ -408,7 +408,30 @@ function pickBucket(matched) {
   return null;
 }
 
+/* v7 (9.3.26): the site is an Astro build on Cloudflare Pages now, not
+   Squarespace, so the ?format=json collection pages no longer exist. The
+   site publishes every record it is built from at /records.json in the
+   same collection shape ({ items: [...] }, Squarespace field names) - one
+   request, and countCollection() is untouched. The paging crawl below is
+   kept only as a fallback. */
+async function fetchRecordsFile() {
+  const url = `${SITE_ORIGIN}/records.json`;
+  console.log("Fetching:", url);
+  const response = await fetch(url, { headers: { "User-Agent": "Aroidpedia Counts Bot" } });
+  if (!response.ok) throw new Error(`Fetch failed ${response.status}: ${url}`);
+  const data = await response.json();
+  const items = getItems(data);
+  if (!items.length) throw new Error(`records.json carried no items: ${url}`);
+  console.log(`records.json: ${items.length} items (generated ${data.generated || "?"})`);
+  return items;
+}
+
 async function fetchAllJournalItems() {
+  try {
+    return await fetchRecordsFile();
+  } catch (e) {
+    console.warn(`records.json unavailable (${e.message}); falling back to the collection crawl.`);
+  }
   let allItems = [];
   let nextUrl = COLLECTION_PATH;
   let guard = 0;
