@@ -55,7 +55,7 @@ GENERA = [
     {"name": "Amorphophallus", "slug": "amorphophallus"},
 ]
 
-SITE    = "https://www.aroidpedia.com"
+SITE    = os.environ.get("AP_SITE", "https://www.aroidpedia.com").rstrip("/")   # AP_SITE overrides for a local test
 OUT_DIR = "docs"
 
 # Kew POWO links are a per-taxon database lookup, not literature. Each taxon has
@@ -151,6 +151,23 @@ def journal_items():
     global _JOURNAL_CACHE
     if _JOURNAL_CACHE is not None:
         return _JOURNAL_CACHE
+
+    # 9.3.26: the site is an Astro build on Cloudflare Pages now, not
+    # Squarespace, so the ?format=json endpoint below no longer exists. The
+    # site publishes every record it is built from at /records.json in the
+    # same collection shape ({"items": [...]}, Squarespace field names, full
+    # body HTML) - one request. The paginated crawl stays only as a fallback.
+    try:
+        r = SESSION.get(f"{SITE}/records.json", timeout=TIMEOUT)
+        if r.status_code == 200:
+            items = (r.json() or {}).get("items") or []
+            if items:
+                print(f"  records.json: {len(items)} posts")
+                _JOURNAL_CACHE = items
+                return items
+        print(f"  ! records.json HTTP {r.status_code}; falling back", file=sys.stderr)
+    except Exception as ex:                            # noqa: BLE001
+        print(f"  ! records.json unavailable ({ex}); falling back", file=sys.stderr)
 
     items, offset, page = [], None, 0
     while page < 80:                                   # safety stop
