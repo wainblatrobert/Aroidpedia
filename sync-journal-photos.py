@@ -319,7 +319,14 @@ def main():
     if args.genus:
         psel += ["--genus", args.genus.lower()]
     if args.species:
-        psel += ["--species", args.species.split()[-1].lower()]
+        # ⚠ publish_media matches the staged directory NAME, i.e. the slug.
+        # The old `split()[-1]` gave "'blackspot'" for Arum 'Blackspot' and
+        # "italicum" for the maculatum × italicum hybrid, so the run derived
+        # the files and then matched nothing. species_path() builds the slug
+        # the rest of the pipeline uses; only fall back if it cannot.
+        _sp = species_path(args.species, args.species.split()[0])
+        psel += ["--species", _sp.split("/")[-1] if _sp
+                 else args.species.split()[-1].lower()]
     run("publish_media.py", psel + (["--push", "--manifests"] if args.push else []))
 
     if not args.push:
