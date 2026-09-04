@@ -163,15 +163,10 @@
    }
   },
   "arum/blackspot": {
-   "47c88ea355a7b32ccef2a6ff4bb2ca51": {
-    "bytes": 76520,
-    "derived_md5": "47c88ea355a7b32ccef2a6ff4bb2ca51",
-    "key": "hero/47c88ea3-arum-blackspot-monksilver-nursery.jpg"
-   },
    "b4e0df540b68ed22537c491639f3a389": {
     "bytes": 79066,
     "derived_md5": "b4e0df540b68ed22537c491639f3a389",
-    "key": "vegetative/b4e0df54-arum-blackspot-monksilver-nursery.jpg"
+    "key": "hero/b4e0df54-arum-blackspot-monksilver-nursery.jpg"
    }
   },
   "arum/brunneoviolaceum": {
