@@ -2807,15 +2807,10 @@
    }
   },
   "arum/italicum-spotted-jack": {
-   "c79f48871dcd7c9a46fd7e4cc788e3b9": {
-    "bytes": 143984,
-    "derived_md5": "c79f48871dcd7c9a46fd7e4cc788e3b9",
-    "key": "hero/c79f4887-arum-italicum-spotted-jack-cotswold-garden-flowers.jpg"
-   },
    "dd6ddd4c94b14367b3416aa31efa6327": {
     "bytes": 234185,
     "derived_md5": "dd6ddd4c94b14367b3416aa31efa6327",
-    "key": "vegetative/dd6ddd4c-arum-italicum-spotted-jack-cotswold-garden-flowers.jpg"
+    "key": "hero/dd6ddd4c-arum-italicum-spotted-jack-cotswold-garden-flowers.jpg"
    }
   },
   "arum/italicum-taffs-giant": {
