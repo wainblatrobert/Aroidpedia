@@ -50,5 +50,21 @@
     "authority": "Aroidpedia editorial, 2026-08-31"
    }
   ]
+ },
+ "monstera": {
+  "include": [
+   {
+    "name": "Monstera colossica",
+    "year": 2025,
+    "reason": "Valid. Published in PhytoKeys 267: 116 (2025); POWO has not ingested it yet.",
+    "authority": "Aroidpedia editorial, 2026-09-04"
+   },
+   {
+    "name": "Monstera corana",
+    "year": 2025,
+    "reason": "Valid. Published in PhytoKeys 267: 111 (2025); POWO has not ingested it yet.",
+    "authority": "Aroidpedia editorial, 2026-09-04"
+   }
+  ]
  }
 }
