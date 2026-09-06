@@ -16,7 +16,8 @@ dossier says so and gives the exact reference and URL.
 | Path | What it is |
 |---|---|
 | `genus.md` | Genus overview: circumscription, history, informal groups, excluded names, biology |
-| `species/<epithet>.md` | One dossier per POWO-accepted species (15) |
+| `species/<epithet>.md` | One dossier per POWO-accepted species (15): what each source says |
+| `pages/<epithet>.md` | Every page field per species in the card's labelled-section schema, ready to paste; also as `data/species-base/Cyrtosperma-pages.xlsx` |
 | `bibliography.md` | Every source used or sought, with its status (held / login-only / paywalled / not found) and where it lives |
 | `bibliography.json` | The same, machine-readable |
 | `data/cyrtosperma-gbif-occurrences.csv` | All 1,086 GBIF occurrence records for the genus (specimens, observations, types) |
