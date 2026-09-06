@@ -1,0 +1,558 @@
+{
+ "genus": "Cyrtosperma",
+ "generated": "2026-09-06",
+ "note": "Source register for the Cyrtosperma build. status: held = in the research pack; login = IAS members' PDF; paywalled; blocked = publisher refuses scripted download; not found / not obtained = no online copy located.",
+ "entries": [
+  {
+   "year": 1844,
+   "authors": "Hasskarl, J.K.",
+   "title": "Catalogus plantarum in Horto botanico Bogoriensi cultarum alter",
+   "where": "p. 59, Batavia",
+   "concerns": [
+    "Lasia merkusii (basionym of C. merkusii)"
+   ],
+   "status": "held",
+   "source": "https://archive.org/details/catalogusplantar00hass",
+   "held_as": "protologues/Hasskarl-1844-Cat-Hort-Bot-Bogor-alter"
+  },
+  {
+   "year": 1851,
+   "authors": "Griffith, W.",
+   "title": "Notulae ad Plantas Asiaticas 3",
+   "where": "pp. 149-150",
+   "concerns": [
+    "Cyrtosperma gen. nov.",
+    "C. lasioides"
+   ],
+   "status": "held (images only)",
+   "source": "https://archive.org/details/wbsl.2486",
+   "held_as": "protologues/Griffith-1851-Notulae-3 (leaves 152-154 = pp. 149-151)"
+  },
+  {
+   "year": 1851,
+   "authors": "Griffith, W.",
+   "title": "Icones Plantarum Asiaticarum 3",
+   "where": "t. 169, t. 173 f. 1a",
+   "concerns": [
+    "C. lasioides plates"
+   ],
+   "status": "held",
+   "source": "https://archive.org/details/posthumouspapers03griff",
+   "held_as": "protologues/Griffith-1851-Icones-Pl-Asiat-3 (leaf 83 = t. 169, leaf 91 = t. 173)"
+  },
+  {
+   "year": 1857,
+   "authors": "Schott, H.W.",
+   "title": "Aroideen-Skizzen",
+   "where": "Oesterr. Bot. Wochenbl. 7: 61",
+   "concerns": [
+    "C. merkusii protologue"
+   ],
+   "status": "not obtained",
+   "source": "BHL bibliography 41387 vol. 7 (not on Internet Archive; BHL blocks scripts)",
+   "held_as": null
+  },
+  {
+   "year": 1857,
+   "authors": "Schott, H.W.",
+   "title": "Aroideen-Skizzen (Lasinae)",
+   "where": "Bonplandia 5: 127-129",
+   "concerns": [
+    "Lasimorpha",
+    "Arisacontis chamissonis",
+    "Lasinae synopsis"
+   ],
+   "status": "held",
+   "source": "https://archive.org/details/mobot31753002212436",
+   "held_as": "protologues/Schott-1857-Bonplandia-5"
+  },
+  {
+   "year": 1858,
+   "authors": "Schott, H.W.",
+   "title": "Genera Aroidearum",
+   "where": "p. 84, t. 84",
+   "concerns": [
+    "Cyrtosperma plate"
+   ],
+   "status": "held",
+   "source": "https://archive.org/details/mobot31753000312444",
+   "held_as": "protologues/Schott-1858-Genera-Aroidearum (leaves 272-274 = p. 84, explicatio, T. 84)"
+  },
+  {
+   "year": 1861,
+   "authors": "Schott, H.W. in Seemann, B.",
+   "title": "Bonplandia 9",
+   "where": "p. 367",
+   "concerns": [
+    "C. edule"
+   ],
+   "status": "held",
+   "source": "https://archive.org/details/mobot31753002212477",
+   "held_as": "protologues/Schott-1861-Bonplandia-9"
+  },
+  {
+   "year": 1864,
+   "authors": "Schott, H.W. in Miquel, F.A.W.",
+   "title": "Annales Musei Botanici Lugduno-Batavi 1",
+   "where": "pp. 283-285",
+   "concerns": [
+    "C. cuspidilobum",
+    "C. dubium",
+    "C. intermedium"
+   ],
+   "status": "held (images only)",
+   "source": "https://archive.org/details/mobot31753002764873",
+   "held_as": "protologues/Schott-1864-Ann-Mus-Bot-Lugd-Bat-1"
+  },
+  {
+   "year": 1876,
+   "authors": "[Moore, T. & Masters, M.T.]",
+   "title": "Gardeners' Chronicle n.s. 5",
+   "where": "p. 603",
+   "concerns": [
+    "Alocasia johnstonii (basionym)"
+   ],
+   "status": "held",
+   "source": "https://archive.org/details/gardenerschronic51876lond",
+   "held_as": "protologues/Alocasia-Johnstoni-1876-Gard-Chron-ns-5"
+  },
+  {
+   "year": 1878,
+   "authors": "Engler, A.",
+   "title": "Araceae, in Martius, Flora Brasiliensis 3(2)",
+   "where": "pp. 116-118, t. 22",
+   "concerns": [
+    "C. americanum",
+    "C. spruceanum (excluded)"
+   ],
+   "status": "held",
+   "source": "https://archive.org/details/mobot31753002771175",
+   "held_as": "protologues/Engler-1878-Fl-Bras-3-2"
+  },
+  {
+   "year": 1879,
+   "authors": "Engler, A.",
+   "title": "Araceae, in A. & C. de Candolle, Monographiae Phanerogamarum 2",
+   "where": "pp. 268-272",
+   "concerns": [
+    "genus treatment",
+    "C. afzelii",
+    "C. senegalense",
+    "C. merkusii var. intermedium"
+   ],
+   "status": "held",
+   "source": "https://archive.org/details/monographiphane02candgoog",
+   "held_as": "protologues/Engler-1879-Monogr-Phan-2"
+  },
+  {
+   "year": 1879,
+   "authors": "Engler, A. in Beccari, O.",
+   "title": "Bullettino della R. Societa Toscana di Orticultura 4",
+   "where": "p. 295",
+   "concerns": [
+    "C. macrotum protologue"
+   ],
+   "status": "not obtained",
+   "source": "BHL (volume not on Internet Archive)",
+   "held_as": null
+  },
+  {
+   "year": 1882,
+   "authors": "Beccari, O.",
+   "title": "Malesia 1",
+   "where": "pp. 278-280, Tav. XXIV; 303",
+   "concerns": [
+    "C. macrotum plate",
+    "C. merkusii"
+   ],
+   "status": "held",
+   "source": "https://archive.org/details/malesiaracco118771883becc",
+   "held_as": "protologues/Beccari-1882-Malesia-1"
+  },
+  {
+   "year": 1882,
+   "authors": "Brown, N.E.",
+   "title": "Cyrtosperma Johnstoni, N.E.Br.",
+   "where": "Gardeners' Chronicle n.s. 18: 808",
+   "concerns": [
+    "C. johnstonii comb. nov."
+   ],
+   "status": "held",
+   "source": "https://archive.org/details/gardenerschronic18lond",
+   "held_as": "protologues/NE-Brown-1882-Gard-Chron-ns-18"
+  },
+  {
+   "year": 1884,
+   "authors": "[Anon.]",
+   "title": "New plants",
+   "where": "Gardeners' Chronicle n.s. 21: 711",
+   "concerns": [
+    "C. matrieffiana Hort., nom. subnud."
+   ],
+   "status": "held",
+   "source": "https://archive.org/details/gardenerschronic21lond",
+   "held_as": "protologues/NE-Brown-1884-Gard-Chron-ns-21"
+  },
+  {
+   "year": 1892,
+   "authors": "Linden, L. & Brown, N.E.",
+   "title": "L'Illustration Horticole 39",
+   "where": "p. 39, t. 153",
+   "concerns": [
+    "C. ferox"
+   ],
+   "status": "not found",
+   "source": "BHL",
+   "held_as": null
+  },
+  {
+   "year": 1897,
+   "authors": "Nadeaud, J.",
+   "title": "Journal de Botanique (Morot) 11",
+   "where": "p. 116",
+   "concerns": [
+    "C. merkusii var. giganteum"
+   ],
+   "status": "not fetched",
+   "source": "BHL",
+   "held_as": null
+  },
+  {
+   "year": 1900,
+   "authors": "Linden, L.",
+   "title": "La Semaine Horticole 4",
+   "where": "pp. 472-473, fig. 158",
+   "concerns": [
+    "C.? congoensis nom. subnud."
+   ],
+   "status": "held",
+   "source": "https://archive.org/details/mobot31753002632997",
+   "held_as": "protologues/Linden-1900-Semaine-Hort-4"
+  },
+  {
+   "year": 1910,
+   "authors": "Engler, A.",
+   "title": "Araceae, Nova Guinea 8(1)",
+   "where": "p. 249",
+   "concerns": [
+    "C. giganteum protologue",
+    "C. merkusii and C. macrotum records"
+   ],
+   "status": "held",
+   "source": "https://archive.org/details/novaguinearsul81lore",
+   "held_as": "protologues/Engler-1910-Nova-Guinea-8-1"
+  },
+  {
+   "year": 1911,
+   "authors": "Engler, A.",
+   "title": "Araceae-Lasioideae, Das Pflanzenreich IV.23C (Heft 48)",
+   "where": "pp. 14-24, figs 5-8",
+   "concerns": [
+    "genus monograph (sensu lato)",
+    "C. angustilobum"
+   ],
+   "status": "held",
+   "source": "https://archive.org/details/daspflanzenreich48engluoft",
+   "held_as": "protologues/Engler-1911-Pflanzenreich-IV-23C-Lasioideae"
+  },
+  {
+   "year": 1914,
+   "authors": "Merrill, E.D.",
+   "title": "Philippine Journal of Science 9C",
+   "where": "p. 65",
+   "concerns": [
+    "C. chamissonis comb. nov."
+   ],
+   "status": "held",
+   "source": "https://archive.org/details/philippinejourn91914phil",
+   "held_as": "protologues/Merrill-1914-Philipp-J-Sci-9C"
+  },
+  {
+   "year": 1914,
+   "authors": "Brown, N.E.",
+   "title": "Curtis's Botanical Magazine ser. 4, 10",
+   "where": "t. 8567",
+   "concerns": [
+    "C. johnstonii plate"
+   ],
+   "status": "not found",
+   "source": "BHL",
+   "held_as": null
+  },
+  {
+   "year": 1919,
+   "authors": "Koorders, S.H.",
+   "title": "Notiz ueber Cyrtosperma Merkusii",
+   "where": "Bull. Jard. Bot. Buitenzorg ser. 3, 1: 159-161",
+   "concerns": [
+    "C. bantamense nom. subnud."
+   ],
+   "status": "held",
+   "source": "https://archive.org/details/bulletindelinsti20kebu",
+   "held_as": "protologues/Alderwerelt-1920-Bull-Jard-Bot-Buitenzorg-ser3-v1 (leaves 194-196)"
+  },
+  {
+   "year": 1920,
+   "authors": "Alderwerelt van Rosenburgh, C.R.W.K. van",
+   "title": "New or noteworthy Malayan Araceae II",
+   "where": "Bull. Jard. Bot. Buitenzorg ser. 3, 1: 373-375",
+   "concerns": [
+    "C. cuspidispathum protologue",
+    "C. syapense",
+    "C. subulispathum",
+    "C. hastatum",
+    "C. consobrinum",
+    "C. johnstonii note"
+   ],
+   "status": "held",
+   "source": "https://archive.org/details/bulletindelinsti20kebu",
+   "held_as": "protologues/Alderwerelt-1920-Bull-Jard-Bot-Buitenzorg-ser3-v1 (leaves 465-470)"
+  },
+  {
+   "year": 1924,
+   "authors": "Krause, K. & Alderwerelt van Rosenburgh, C.R.W.K. van",
+   "title": "Nova Guinea 14",
+   "where": "pp. 215-216",
+   "concerns": [
+    "C. janowskyi"
+   ],
+   "status": "not found",
+   "source": "not on Internet Archive or the BHL bucket",
+   "held_as": null
+  },
+  {
+   "year": 1933,
+   "authors": "Moore, J.W.",
+   "title": "New and critical plants from Raiatea",
+   "where": "Bernice P. Bishop Museum Bulletin 102: 22",
+   "concerns": [
+    "C. nadeaudianum"
+   ],
+   "status": "held",
+   "source": "https://hbs.bishopmuseum.org/pubs-online/pdf/bull102.pdf",
+   "held_as": "papers/Moore-1933-Bishop-Mus-Bull-102-New-and-critical-plants-from-Raiatea.pdf"
+  },
+  {
+   "year": 1988,
+   "authors": "Hay, A.",
+   "title": "Cyrtosperma (Araceae) and its Old World allies",
+   "where": "Blumea 33: 427-469",
+   "concerns": [
+    "monograph",
+    "C. beccarianum",
+    "C. bougainvillense",
+    "C. brassii",
+    "C. carrii",
+    "C. gressittiorum",
+    "C. kokodense"
+   ],
+   "status": "held",
+   "source": "https://repository.naturalis.nl/pub/526134/BLUM1988033002015.pdf",
+   "held_as": "papers/Hay-1988-Blumea-33-Cyrtosperma-and-its-Old-World-allies.pdf"
+  },
+  {
+   "year": 2001,
+   "authors": "Dearden, A. & Hay, A.",
+   "title": "A new species of Cyrtosperma (Araceae) from West Papua",
+   "where": "Aroideana 24: 102-104",
+   "concerns": [
+    "C. hambalii protologue"
+   ],
+   "status": "login (IAS members)",
+   "source": "https://www.aroid.org/resources/Publications/Aroideana/Aroideana24.pdf",
+   "held_as": null
+  },
+  {
+   "year": 2020,
+   "authors": "Hay, A. & Imran",
+   "title": "A third enormous New Guinea lasioid - Cyrtosperma timikense, a new species from southern Papua Province, Indonesia",
+   "where": "Aroideana 43(3-4): 97-107",
+   "concerns": [
+    "C. timikense protologue"
+   ],
+   "status": "login (IAS members)",
+   "source": "https://www.aroid.org/resources/Publications/Aroideana/Aroideana43n3.pdf",
+   "held_as": null
+  },
+  {
+   "year": 2020,
+   "authors": "Hay, A. & Imran",
+   "title": "Cyrtosperma giganteum Engl. found again in Papua Province, Indonesia",
+   "where": "Aroideana 43(3-4): 4",
+   "concerns": [
+    "C. giganteum rediscovery"
+   ],
+   "status": "login (IAS members)",
+   "source": "https://www.aroid.org/resources/Publications/Aroideana/Aroideana43n3.pdf",
+   "held_as": null
+  },
+  {
+   "year": 2020,
+   "authors": "Hay, A.",
+   "title": "Notes on the typification, origin, and fertility of Cyrtosperma johnstonii (Araceae-Lasioideae)",
+   "where": "Aroideana 43(3-4): 108",
+   "concerns": [
+    "C. johnstonii typification, origin, fertility"
+   ],
+   "status": "login (IAS members)",
+   "source": "https://www.aroid.org/resources/Publications/Aroideana/Aroideana43n3.pdf",
+   "held_as": null
+  },
+  {
+   "year": 2024,
+   "authors": "Raynalta, E., Hariri, M.R. & Irsyam, A.S.D.",
+   "title": "Cyrtosperma hayii (Araceae, Lasioideae), a unique new species with downward-pointing spines from Southwest Papua Province, Indonesia",
+   "where": "Phytotaxa 641(3): 235-237",
+   "doi": "10.11646/phytotaxa.641.3.6",
+   "concerns": [
+    "C. hayii protologue"
+   ],
+   "status": "paywalled",
+   "source": "https://phytotaxa.mapress.com/pt/article/view/phytotaxa.641.3.6",
+   "held_as": null
+  },
+  {
+   "year": 2024,
+   "authors": "Hariri, M.R., Irsyam, A.S.D., Ariati, S.R., Raynalta, E., Setyanti, D. & Supriyatna, I.",
+   "title": "Cyrtosperma prasinispathum: a new fascinating Aroid species from Papua, Indonesia",
+   "where": "Webbia 79(2): 291-294",
+   "doi": "10.36253/jopt-16076",
+   "concerns": [
+    "C. prasinispathum protologue"
+   ],
+   "status": "held (CC BY)",
+   "source": "https://oaj.fupress.net/index.php/webbia/article/download/16076/12944",
+   "held_as": "papers/Hariri-Irsyam-Ariati-2024-Webbia-Cyrtosperma-prasinispathum.pdf"
+  },
+  {
+   "year": 1982,
+   "authors": "Thompson",
+   "title": "Cyrtosperma chamissonis (Araceae): ecology, distribution, and economic importance in the South Pacific",
+   "where": "J. Agric. Trad. Bot. Appl. 29",
+   "doi": "10.3406/jatba.1982.3868",
+   "concerns": [
+    "C. merkusii ethnobotany"
+   ],
+   "status": "blocked (Persee)",
+   "source": "https://www.persee.fr/doc/jatba_0183-5173_1982_num_29_2_3868",
+   "held_as": null
+  },
+  {
+   "year": 1999,
+   "authors": "Di Piazza, A.",
+   "title": "Migration d'une plante et migration de ses representations. Le taro de marecage",
+   "where": "J. Agric. Trad. Bot. Appl. 41",
+   "doi": "10.3406/jatba.1999.3703",
+   "concerns": [
+    "C. merkusii ethnobotany"
+   ],
+   "status": "blocked (Persee)",
+   "source": "https://www.persee.fr/doc/jatba_0183-5173_1999_num_41_1_3703",
+   "held_as": null
+  },
+  {
+   "year": 2008,
+   "authors": "Englberger, L. et al.",
+   "title": "Carotenoid and mineral content of Micronesian giant swamp taro (Cyrtosperma) cultivars",
+   "where": "J. Food Compos. Anal. 21",
+   "doi": "10.1016/j.jfca.2007.09.007",
+   "concerns": [
+    "C. merkusii nutrition"
+   ],
+   "status": "paywalled",
+   "source": "https://doi.org/10.1016/j.jfca.2007.09.007",
+   "held_as": null
+  },
+  {
+   "year": 2011,
+   "authors": "Athens, J.S. & Stevenson, J.",
+   "title": "Pohnpei coring records: the natural distribution of Cyrtosperma chamissonis",
+   "where": "J. Pacific Archaeol. 2(1)",
+   "doi": "10.70460/jpa.v3i1.75",
+   "concerns": [
+    "C. merkusii prehuman distribution"
+   ],
+   "status": "held",
+   "source": "https://pacificarchaeology.org/index.php/journal/article/download/75/54",
+   "held_as": "papers/Athens-Stevenson-2011-JPA-Pohnpei-coring-Cyrtosperma.pdf"
+  },
+  {
+   "year": 2012,
+   "authors": "Okonogi, S. et al.",
+   "title": "Antioxidant activity and cytotoxicity of Cyrtosperma johnstonii extracts",
+   "where": "Pharm. Biol. 50",
+   "doi": "10.3109/13880209.2012.729064",
+   "concerns": [
+    "C. johnstonii phytochemistry"
+   ],
+   "status": "paywalled",
+   "source": "https://doi.org/10.3109/13880209.2012.729064",
+   "held_as": null
+  },
+  {
+   "year": 2014,
+   "authors": "Rao, R., Taylor, M. & Jokhan, A.",
+   "title": "A descriptor list for giant swamp taro (Cyrtosperma merkusii) and its cultivars in the Federated States of Micronesia",
+   "where": "Telopea 17",
+   "doi": "10.7751/telopea20147543",
+   "concerns": [
+    "C. merkusii cultivars"
+   ],
+   "status": "blocked",
+   "source": "https://openjournals.library.sydney.edu.au/TEL/article/view/7543",
+   "held_as": null
+  },
+  {
+   "year": 2018,
+   "authors": "Erlinawati, I., Abinawanto, Salamah, A. & Rugayah",
+   "title": "Genetic diversity analysis of daluga (Cyrtosperma merkusii) using SRAP in Siau, Sangihe and Talaud Islands, North Sulawesi",
+   "where": "Biodiversitas 19: 2374-2380",
+   "doi": "10.13057/biodiv/d190648",
+   "concerns": [
+    "C. merkusii genetics"
+   ],
+   "status": "held",
+   "source": "https://smujo.id/biodiv/article/download/3244/2662",
+   "held_as": "papers/Erlinawati-2018-Biodiversitas-daluga-genetic-diversity.pdf"
+  },
+  {
+   "year": 2022,
+   "authors": "Naksuriya, O. et al.",
+   "title": "Hydrolyzed flavonoids from Cyrtosperma johnstonii with superior antioxidant, antiproliferative and anti-inflammatory activity",
+   "where": "Molecules 27: 3226",
+   "doi": "10.3390/molecules27103226",
+   "concerns": [
+    "C. johnstonii phytochemistry"
+   ],
+   "status": "held",
+   "source": "https://europepmc.org/article/PMC/PMC9146275",
+   "held_as": "papers/Naksuriya-2022-Molecules-Cyrtosperma-johnstonii-flavonoids.pdf"
+  },
+  {
+   "year": 2023,
+   "authors": "Mendiondo, G.M. et al.",
+   "title": "Environmental and farming practice controls of productivity of Cyrtosperma merkusii",
+   "where": "Food Energy Secur. 12: e490",
+   "doi": "10.1002/fes3.490",
+   "concerns": [
+    "C. merkusii agronomy"
+   ],
+   "status": "blocked (Wiley)",
+   "source": "https://doi.org/10.1002/fes3.490",
+   "held_as": null
+  },
+  {
+   "year": 2024,
+   "authors": "Kularatna, Arancon & Eiben",
+   "title": "Comparative growth of elephant ear taro (Alocasia macrorrhiza) and giant swamp taro (Cyrtosperma merkusii)",
+   "where": "Crops 4: 5",
+   "doi": "10.3390/crops4010005",
+   "concerns": [
+    "C. merkusii agronomy"
+   ],
+   "status": "blocked (MDPI)",
+   "source": "https://doi.org/10.3390/crops4010005",
+   "held_as": null
+  }
+ ]
+}

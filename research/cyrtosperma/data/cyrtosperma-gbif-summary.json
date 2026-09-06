@@ -1,0 +1,1064 @@
+{
+ "Cyrtosperma beccarianum": {
+  "records": 31,
+  "preserved_specimens": 27,
+  "with_coordinates": 12,
+  "countries": {
+   "Papua New Guinea": 17,
+   "Indonesia": 13,
+   "unknown or invalid": 1
+  },
+  "year_range": [
+   1907,
+   1999
+  ],
+  "elevation_m_range": [
+   24.0,
+   210.0
+  ],
+  "elevation_median": 73.0,
+  "top_collectors": [
+   [
+    "Reksodihardjo, S.",
+    3
+   ],
+   [
+    "Jacobs S.W.L.",
+    2
+   ],
+   [
+    "Streimann H; Katik P",
+    2
+   ],
+   [
+    "H. Streimann & P. Katik",
+    2
+   ],
+   [
+    "Utteridge, T.M.A.",
+    1
+   ],
+   [
+    "Utteridge TMA; Willis FR; et al.",
+    1
+   ],
+   [
+    "J. Bogner",
+    1
+   ],
+   [
+    "Jacobs, S.W.L.; Conn, B.J.",
+    1
+   ]
+  ],
+  "institutions": [
+   [
+    "K",
+    8
+   ],
+   [
+    "US",
+    6
+   ],
+   [
+    "NSW",
+    2
+   ],
+   [
+    "BRI",
+    2
+   ],
+   [
+    "MO",
+    1
+   ],
+   [
+    "FI",
+    1
+   ]
+  ],
+  "names_as_recorded": [
+   [
+    "Cyrtosperma beccarianum A.Hay",
+    31
+   ]
+  ]
+ },
+ "Cyrtosperma bougainvillense": {
+  "records": 19,
+  "preserved_specimens": 16,
+  "with_coordinates": 5,
+  "countries": {
+   "Papua New Guinea": 14,
+   "Solomon Islands": 5
+  },
+  "year_range": [
+   1931,
+   1967
+  ],
+  "elevation_m_range": [
+   609.6,
+   884.0
+  ],
+  "elevation_median": 620.0,
+  "top_collectors": [
+   [
+    "Schodde R.",
+    3
+   ],
+   [
+    "Waterhouse, J.H.L.",
+    3
+   ],
+   [
+    "Ridsdale, C.; Lavarack, P.",
+    2
+   ],
+   [
+    "Schodde, R.; Craven, L.",
+    2
+   ],
+   [
+    "C. E. Ridsdale & P. Lavarack",
+    2
+   ],
+   [
+    "Ridsdale CE; Lavarack PS",
+    1
+   ],
+   [
+    "Schodde, Richard|Lyn A. Craven",
+    1
+   ],
+   [
+    "R. Schodde & L. A. Craven",
+    1
+   ]
+  ],
+  "institutions": [
+   [
+    "K",
+    8
+   ],
+   [
+    "CANB",
+    3
+   ],
+   [
+    "US",
+    3
+   ],
+   [
+    "GH",
+    1
+   ],
+   [
+    "A",
+    1
+   ]
+  ],
+  "names_as_recorded": [
+   [
+    "Cyrtosperma bougainvillense A.Hay",
+    19
+   ]
+  ]
+ },
+ "Cyrtosperma brassii": {
+  "records": 6,
+  "preserved_specimens": 5,
+  "with_coordinates": 3,
+  "countries": {
+   "Papua New Guinea": 6
+  },
+  "year_range": [
+   1956,
+   1982
+  ],
+  "elevation_m_range": [
+   50.0,
+   50.0
+  ],
+  "elevation_median": 50.0,
+  "top_collectors": [
+   [
+    "Hay A.",
+    1
+   ],
+   [
+    "Henty EE",
+    1
+   ],
+   [
+    "Brass LJ; Fifth Archbold Expedition to N",
+    1
+   ],
+   [
+    "Leonard J. Brass",
+    1
+   ],
+   [
+    "L. J. Brass",
+    1
+   ],
+   [
+    "Brass LJ",
+    1
+   ]
+  ],
+  "institutions": [
+   [
+    "A",
+    2
+   ],
+   [
+    "NSW",
+    1
+   ]
+  ],
+  "names_as_recorded": [
+   [
+    "Cyrtosperma brassii A.Hay",
+    6
+   ]
+  ]
+ },
+ "Cyrtosperma carrii": {
+  "records": 8,
+  "preserved_specimens": 8,
+  "with_coordinates": 3,
+  "countries": {
+   "Papua New Guinea": 7
+  },
+  "year_range": [
+   1933,
+   1961
+  ],
+  "elevation_m_range": [
+   240.0,
+   1250.0
+  ],
+  "elevation_median": 457.0,
+  "top_collectors": [
+   [
+    "Cedric Errol Carr",
+    2
+   ],
+   [
+    "Nicolson DH",
+    1
+   ],
+   [
+    "D. H. Nicolson",
+    1
+   ],
+   [
+    "Nicolson, D.H.",
+    1
+   ],
+   [
+    "Carr CE",
+    1
+   ],
+   [
+    "L. J. Brass",
+    1
+   ]
+  ],
+  "institutions": [
+   [
+    "NHMUK",
+    2
+   ],
+   [
+    "US",
+    1
+   ],
+   [
+    "K",
+    1
+   ],
+   [
+    "NY",
+    1
+   ]
+  ],
+  "names_as_recorded": [
+   [
+    "Cyrtosperma carrii A.Hay",
+    8
+   ]
+  ]
+ },
+ "Cyrtosperma cuspidispathum": {
+  "records": 59,
+  "preserved_specimens": 52,
+  "with_coordinates": 26,
+  "countries": {
+   "Papua New Guinea": 44,
+   "unknown or invalid": 6,
+   "Indonesia": 5
+  },
+  "year_range": [
+   1910,
+   2023
+  ],
+  "elevation_m_range": [
+   24.0,
+   758.5
+  ],
+  "elevation_median": 305.0,
+  "top_collectors": [
+   [
+    "W. N. Takeuchi",
+    9
+   ],
+   [
+    "Veldhuizen J van",
+    4
+   ],
+   [
+    "J. S. Womersley & W. Vink",
+    4
+   ],
+   [
+    "s.coll.",
+    3
+   ],
+   [
+    "Mehd Halaouate",
+    2
+   ],
+   [
+    "W. N. Takeuchi, J. Wiakabu, M. Gorrez & ",
+    2
+   ],
+   [
+    "Takeuchi WN; Wiakabu J",
+    2
+   ],
+   [
+    "Wiakabu J; A.M.C.",
+    2
+   ]
+  ],
+  "institutions": [
+   [
+    "A",
+    16
+   ],
+   [
+    "K",
+    7
+   ],
+   [
+    "US",
+    5
+   ],
+   [
+    "iNaturalist",
+    3
+   ],
+   [
+    "MO",
+    3
+   ],
+   [
+    "DAV",
+    2
+   ],
+   [
+    "BRI",
+    2
+   ],
+   [
+    "Conservation International",
+    1
+   ],
+   [
+    "GH",
+    1
+   ],
+   [
+    "UB-BSMA-BOT",
+    1
+   ]
+  ],
+  "names_as_recorded": [
+   [
+    "Cyrtosperma cuspidispathum Alderw.",
+    59
+   ]
+  ]
+ },
+ "Cyrtosperma giganteum": {
+  "records": 17,
+  "preserved_specimens": 17,
+  "with_coordinates": 11,
+  "countries": {
+   "Indonesia": 12,
+   "Papua New Guinea": 5
+  },
+  "year_range": [
+   1907,
+   2000
+  ],
+  "elevation_m_range": [
+   10.0,
+   15.0
+  ],
+  "elevation_median": 10.0,
+  "top_collectors": [
+   [
+    "Johns, R.J.",
+    9
+   ],
+   [
+    "Johns, R.J.; Puradyatmika, P.; Edwards, ",
+    5
+   ],
+   [
+    "Versteeg",
+    3
+   ]
+  ],
+  "institutions": [
+   [
+    "K",
+    14
+   ]
+  ],
+  "names_as_recorded": [
+   [
+    "Cyrtosperma giganteum Engl.",
+    17
+   ]
+  ]
+ },
+ "Cyrtosperma gressittorum": {
+  "records": 3,
+  "preserved_specimens": 3,
+  "with_coordinates": 1,
+  "countries": {
+   "Papua New Guinea": 3
+  },
+  "year_range": [
+   1956,
+   1956
+  ],
+  "elevation_m_range": [
+   150.0,
+   150.0
+  ],
+  "elevation_median": 150.0,
+  "top_collectors": [
+   [
+    "Leonard J. Brass",
+    1
+   ],
+   [
+    "L. J. Brass",
+    1
+   ],
+   [
+    "Brass LJ",
+    1
+   ]
+  ],
+  "institutions": [
+   [
+    "A",
+    2
+   ]
+  ],
+  "names_as_recorded": [
+   [
+    "Cyrtosperma gressittorum A.Hay, 1988",
+    3
+   ]
+  ]
+ },
+ "Cyrtosperma hambalii": {
+  "records": 1,
+  "preserved_specimens": 0,
+  "with_coordinates": 1,
+  "countries": {
+   "Indonesia": 1
+  },
+  "year_range": [
+   2025,
+   2025
+  ],
+  "elevation_m_range": null,
+  "elevation_median": null,
+  "top_collectors": [
+   [
+    "Hakim",
+    1
+   ]
+  ],
+  "institutions": [
+   [
+    "iNaturalist",
+    1
+   ]
+  ],
+  "names_as_recorded": [
+   [
+    "Cyrtosperma hambalii A.Dearden & A.Hay",
+    1
+   ]
+  ]
+ },
+ "Cyrtosperma johnstonii": {
+  "records": 60,
+  "preserved_specimens": 43,
+  "with_coordinates": 18,
+  "countries": {
+   "Solomon Islands": 17,
+   "United States of America": 4,
+   "unknown or invalid": 4,
+   "Germany": 3,
+   "France": 3,
+   "Brazil": 2,
+   "Singapore": 2,
+   "Papua New Guinea": 2,
+   "Australia": 1,
+   "Belgium": 1,
+   "Trinidad and Tobago": 1,
+   "Thailand": 1,
+   "United Kingdom of Great Britain and Northern Ireland": 1,
+   "Sweden": 1
+  },
+  "year_range": [
+   1878,
+   2026
+  ],
+  "elevation_m_range": [
+   2.0,
+   700.0
+  ],
+  "elevation_median": 453.0,
+  "top_collectors": [
+   [
+    "s.coll.",
+    5
+   ],
+   [
+    "Samuel Brown",
+    3
+   ],
+   [
+    "Tian-Chuan Hsu",
+    3
+   ],
+   [
+    "Bull, W.",
+    3
+   ],
+   [
+    "Magno, A.",
+    2
+   ],
+   [
+    "2121647772",
+    2
+   ],
+   [
+    "Ferry, G.",
+    2
+   ],
+   [
+    "Thomas B. Croat",
+    2
+   ]
+  ],
+  "institutions": [
+   [
+    "K",
+    13
+   ],
+   [
+    "MO",
+    7
+   ],
+   [
+    "iNaturalist",
+    6
+   ],
+   [
+    "TAIF",
+    3
+   ],
+   [
+    "CJBN",
+    3
+   ],
+   [
+    "NABU|naturgucker",
+    2
+   ],
+   [
+    "TNM",
+    2
+   ],
+   [
+    "FTG",
+    2
+   ],
+   [
+    "GIESS",
+    2
+   ],
+   [
+    "UFES",
+    1
+   ]
+  ],
+  "names_as_recorded": [
+   [
+    "Cyrtosperma johnstonii (W.Bull ex T.Moore & Mast.) N.E.Br.",
+    60
+   ]
+  ]
+ },
+ "Cyrtosperma kokodense": {
+  "records": 11,
+  "preserved_specimens": 10,
+  "with_coordinates": 5,
+  "countries": {
+   "Papua New Guinea": 11
+  },
+  "year_range": [
+   1933,
+   1973
+  ],
+  "elevation_m_range": [
+   350.0,
+   1190.0
+  ],
+  "elevation_median": 368.0,
+  "top_collectors": [
+   [
+    "Cedric Errol Carr",
+    2
+   ],
+   [
+    "Carr CE",
+    2
+   ],
+   [
+    "D. Foreman & A. Vinas",
+    1
+   ],
+   [
+    "Carr C.E.",
+    1
+   ],
+   [
+    "Carr, C. E.",
+    1
+   ],
+   [
+    "Cheesman LE",
+    1
+   ],
+   [
+    "Cheesman, L.E.",
+    1
+   ],
+   [
+    "A. Millar",
+    1
+   ]
+  ],
+  "institutions": [
+   [
+    "US",
+    2
+   ],
+   [
+    "NHMUK",
+    2
+   ],
+   [
+    "K",
+    2
+   ],
+   [
+    "CANB",
+    1
+   ],
+   [
+    "CJBG",
+    1
+   ]
+  ],
+  "names_as_recorded": [
+   [
+    "Cyrtosperma kokodense A.Hay",
+    11
+   ]
+  ]
+ },
+ "Cyrtosperma macrotum": {
+  "records": 167,
+  "preserved_specimens": 150,
+  "with_coordinates": 63,
+  "countries": {
+   "Papua New Guinea": 95,
+   "Indonesia": 49,
+   "unknown or invalid": 10
+  },
+  "year_range": [
+   1907,
+   2026
+  ],
+  "elevation_m_range": [
+   7.0,
+   1100.0
+  ],
+  "elevation_median": 200.0,
+  "top_collectors": [
+   [
+    "L. J. Brass",
+    9
+   ],
+   [
+    "Takeuchi, W.N.",
+    6
+   ],
+   [
+    "W. N. Takeuchi",
+    6
+   ],
+   [
+    "Barrau, J.",
+    6
+   ],
+   [
+    "Nicolson DH",
+    5
+   ],
+   [
+    "D. H. Nicolson",
+    5
+   ],
+   [
+    "Sands, M.J.S.; Maturbongs, R.",
+    4
+   ],
+   [
+    "Davis, A.P.; Mayar, U.W.; Jitmau, M.; Ma",
+    4
+   ]
+  ],
+  "institutions": [
+   [
+    "K",
+    33
+   ],
+   [
+    "A",
+    28
+   ],
+   [
+    "US",
+    11
+   ],
+   [
+    "BPBM",
+    8
+   ],
+   [
+    "BISH",
+    8
+   ],
+   [
+    "BRI",
+    7
+   ],
+   [
+    "iNaturalist",
+    5
+   ],
+   [
+    "MNHN",
+    3
+   ],
+   [
+    "UF",
+    2
+   ],
+   [
+    "NSW",
+    2
+   ]
+  ],
+  "names_as_recorded": [
+   [
+    "Cyrtosperma macrotum Becc. ex Engl.",
+    167
+   ]
+  ]
+ },
+ "Cyrtosperma merkusii": {
+  "records": 623,
+  "preserved_specimens": 581,
+  "with_coordinates": 146,
+  "countries": {
+   "Malaysia": 80,
+   "Marshall Islands": 70,
+   "Micronesia (Federated States of)": 60,
+   "Indonesia": 53,
+   "Philippines": 39,
+   "Fiji": 39,
+   "Palau": 32,
+   "French Polynesia": 28,
+   "Cook Islands": 25,
+   "Kiribati": 20,
+   "Singapore": 19,
+   "Papua New Guinea": 16,
+   "unknown or invalid": 11,
+   "Tokelau": 10,
+   "Samoa": 8,
+   "Tuvalu": 8,
+   "Wallis and Futuna": 8,
+   "Solomon Islands": 8,
+   "Brazil": 5,
+   "Vanuatu": 5,
+   "Brunei Darussalam": 5,
+   "Guam": 4,
+   "Tonga": 3,
+   "Viet Nam": 2,
+   "Thailand": 2,
+   "Chinese Taipei": 1,
+   "Germany": 1,
+   "Canada": 1,
+   "Northern Mariana Islands": 1,
+   "China": 1,
+   "United States of America": 1
+  },
+  "year_range": [
+   1837,
+   2026
+  ],
+  "elevation_m_range": [
+   0.0,
+   1792.0
+  ],
+  "elevation_median": 10.0,
+  "top_collectors": [
+   [
+    "St.John, H.",
+    58
+   ],
+   [
+    "F. R. Fosberg",
+    18
+   ],
+   [
+    "D. H. Nicolson",
+    17
+   ],
+   [
+    "Wilder, G.P.",
+    12
+   ],
+   [
+    "s.coll.",
+    11
+   ],
+   [
+    "St.John, H. Cowan, R.S.",
+    11
+   ],
+   [
+    "St.John, H.; Cowan, R.S.",
+    11
+   ],
+   [
+    "Stemmermann, R.L.",
+    8
+   ]
+  ],
+  "institutions": [
+   [
+    "US",
+    101
+   ],
+   [
+    "BPBM",
+    96
+   ],
+   [
+    "BISH",
+    96
+   ],
+   [
+    "K",
+    72
+   ],
+   [
+    "iNaturalist",
+    32
+   ],
+   [
+    "MNHN",
+    23
+   ],
+   [
+    "NY",
+    20
+   ],
+   [
+    "MO",
+    12
+   ],
+   [
+    "NHMUK",
+    11
+   ],
+   [
+    "A",
+    10
+   ]
+  ],
+  "names_as_recorded": [
+   [
+    "Cyrtosperma merkusii (Hassk.) Schott",
+    373
+   ],
+   [
+    "Cyrtosperma chamissonis (Schott) Merr.",
+    218
+   ],
+   [
+    "Cyrtosperma lasioides Griff.",
+    19
+   ],
+   [
+    "Cyrtosperma edule Schott",
+    12
+   ],
+   [
+    "Cyrtosperma nadeaudianum J.W.Moore",
+    1
+   ]
+  ]
+ },
+ "Cyrtosperma sp.": {
+  "records": 81,
+  "preserved_specimens": 69,
+  "with_coordinates": 40,
+  "countries": {
+   "Papua New Guinea": 25,
+   "Solomon Islands": 13,
+   "Indonesia": 7,
+   "Benin": 4,
+   "Malaysia": 3,
+   "Thailand": 2,
+   "Congo, Democratic Republic of the": 2,
+   "Fiji": 2,
+   "India": 2,
+   "Micronesia (Federated States of)": 2,
+   "Brazil": 2,
+   "unknown or invalid": 2,
+   "Central African Republic": 2,
+   "Gabon": 2,
+   "Philippines": 1,
+   "Timor-Leste": 1
+  },
+  "year_range": [
+   1882,
+   2016
+  ],
+  "elevation_m_range": [
+   1.0,
+   1949.0
+  ],
+  "elevation_median": 8.0,
+  "top_collectors": [
+   [
+    "Georges Marie Patrice Charles Le Testu",
+    9
+   ],
+   [
+    "van der Maesen, L.J.G.",
+    4
+   ],
+   [
+    "Yen, D.E.",
+    4
+   ],
+   [
+    "Tian-Chuan Hsu",
+    3
+   ],
+   [
+    "Jeswiet J",
+    3
+   ],
+   [
+    "Wei-Yu Wang",
+    2
+   ],
+   [
+    "Thomas B. Croat",
+    2
+   ],
+   [
+    "Simaga, J.M.; Johns, R.; Kuria, T.; Gagu",
+    2
+   ]
+  ],
+  "institutions": [
+   [
+    "NHMUK",
+    11
+   ],
+   [
+    "K",
+    8
+   ],
+   [
+    "TAIF",
+    5
+   ],
+   [
+    "BPBM",
+    5
+   ],
+   [
+    "BISH",
+    5
+   ],
+   [
+    "BRIT",
+    5
+   ],
+   [
+    "MO",
+    4
+   ],
+   [
+    "FAST/UAC",
+    4
+   ],
+   [
+    "BRI",
+    4
+   ],
+   [
+    "AK",
+    3
+   ]
+  ],
+  "names_as_recorded": [
+   [
+    "Cyrtosperma Griff.",
+    81
+   ]
+  ]
+ }
+}
