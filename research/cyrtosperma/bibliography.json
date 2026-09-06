@@ -48,9 +48,9 @@
    "concerns": [
     "C. merkusii protologue"
    ],
-   "status": "not obtained",
-   "source": "BHL bibliography 41387 vol. 7 (not on Internet Archive; BHL blocks scripts)",
-   "held_as": null
+   "status": "held",
+   "source": "BHL page 29952872 (OpenURL) / https://archive.org/details/mobot31753002757398",
+   "held_as": "protologues/Schott-1857-Oesterr-Bot-Wochenbl-7 (leaves 62-63 = pp. 61-62)"
   },
   {
    "year": 1857,
@@ -152,9 +152,21 @@
    "concerns": [
     "C. macrotum protologue"
    ],
-   "status": "not obtained",
-   "source": "BHL (volume not on Internet Archive)",
+   "status": "not obtained (journal not on BHL)",
+   "source": "Google Books / library",
    "held_as": null
+  },
+  {
+   "year": 1880,
+   "authors": "André, E.",
+   "title": "Alocasia Johnstoni",
+   "where": "L'Illustration Horticole 27: 133-134, Pl. CCCXCV",
+   "concerns": [
+    "Alocasia johnstonii colour plate and text"
+   ],
+   "status": "held",
+   "source": "BHL page 15949217 / https://archive.org/details/mobot31753002364179",
+   "held_as": "protologues/Andre-1880-Ill-Hort-27-Alocasia-johnstonii"
   },
   {
    "year": 1882,
@@ -201,9 +213,9 @@
    "concerns": [
     "C. ferox"
    ],
-   "status": "not found",
-   "source": "BHL",
-   "held_as": null
+   "status": "held",
+   "source": "BHL page 15253128 / https://archive.org/details/mobot31753002364294",
+   "held_as": "protologues/Linden-Brown-1892-Ill-Hort-39 (index, Pl. CLIII, pp. 59-60)"
   },
   {
    "year": 1897,
@@ -213,9 +225,9 @@
    "concerns": [
     "C. merkusii var. giganteum"
    ],
-   "status": "not fetched",
-   "source": "BHL",
-   "held_as": null
+   "status": "held",
+   "source": "BHL page 8178154 / https://archive.org/details/journaldebotaniq11pari",
+   "held_as": "protologues/Nadeaud-1897-J-Bot-Morot-11 (pp. 116-118)"
   },
   {
    "year": 1900,
@@ -257,6 +269,18 @@
   },
   {
    "year": 1914,
+   "authors": "Brown, N.E.",
+   "title": "Curtis's Botanical Magazine ser. 4, 10",
+   "where": "t. 8567",
+   "concerns": [
+    "C. johnstonii plate"
+   ],
+   "status": "held",
+   "source": "BHL page 476776 / https://archive.org/details/mobot31753002722350",
+   "held_as": "protologues/NE-Brown-1914-Bot-Mag-t8567 (plate and text)"
+  },
+  {
+   "year": 1914,
    "authors": "Merrill, E.D.",
    "title": "Philippine Journal of Science 9C",
    "where": "p. 65",
@@ -266,18 +290,6 @@
    "status": "held",
    "source": "https://archive.org/details/philippinejourn91914phil",
    "held_as": "protologues/Merrill-1914-Philipp-J-Sci-9C"
-  },
-  {
-   "year": 1914,
-   "authors": "Brown, N.E.",
-   "title": "Curtis's Botanical Magazine ser. 4, 10",
-   "where": "t. 8567",
-   "concerns": [
-    "C. johnstonii plate"
-   ],
-   "status": "not found",
-   "source": "BHL",
-   "held_as": null
   },
   {
    "year": 1919,
@@ -316,9 +328,21 @@
    "concerns": [
     "C. janowskyi"
    ],
-   "status": "not found",
+   "status": "not found (BHL resolver has no Nova Guinea 14)",
    "source": "not on Internet Archive or the BHL bucket",
    "held_as": null
+  },
+  {
+   "year": 1925,
+   "authors": "Ridley, H.N.",
+   "title": "The flora of the Malay Peninsula 5",
+   "where": "pp. 126-127, fig. 216",
+   "concerns": [
+    "Cyrtosperma lasioides (= C. merkusii) figure and description"
+   ],
+   "status": "held",
+   "source": "BHL page 56633067 / https://archive.org/details/floramalaypenin00ridlb",
+   "held_as": "protologues/Ridley-1925-Fl-Malay-Penins-5"
   },
   {
    "year": 1933,
@@ -331,6 +355,19 @@
    "status": "held",
    "source": "https://hbs.bishopmuseum.org/pubs-online/pdf/bull102.pdf",
    "held_as": "papers/Moore-1933-Bishop-Mus-Bull-102-New-and-critical-plants-from-Raiatea.pdf"
+  },
+  {
+   "year": 1982,
+   "authors": "Thompson",
+   "title": "Cyrtosperma chamissonis (Araceae): ecology, distribution, and economic importance in the South Pacific",
+   "where": "J. Agric. Trad. Bot. Appl. 29",
+   "doi": "10.3406/jatba.1982.3868",
+   "concerns": [
+    "C. merkusii ethnobotany"
+   ],
+   "status": "blocked (Persee)",
+   "source": "https://www.persee.fr/doc/jatba_0183-5173_1982_num_29_2_3868",
+   "held_as": null
   },
   {
    "year": 1988,
@@ -351,93 +388,6 @@
    "held_as": "papers/Hay-1988-Blumea-33-Cyrtosperma-and-its-Old-World-allies.pdf"
   },
   {
-   "year": 2001,
-   "authors": "Dearden, A. & Hay, A.",
-   "title": "A new species of Cyrtosperma (Araceae) from West Papua",
-   "where": "Aroideana 24: 102-104",
-   "concerns": [
-    "C. hambalii protologue"
-   ],
-   "status": "login (IAS members)",
-   "source": "https://www.aroid.org/resources/Publications/Aroideana/Aroideana24.pdf",
-   "held_as": null
-  },
-  {
-   "year": 2020,
-   "authors": "Hay, A. & Imran",
-   "title": "A third enormous New Guinea lasioid - Cyrtosperma timikense, a new species from southern Papua Province, Indonesia",
-   "where": "Aroideana 43(3-4): 97-107",
-   "concerns": [
-    "C. timikense protologue"
-   ],
-   "status": "login (IAS members)",
-   "source": "https://www.aroid.org/resources/Publications/Aroideana/Aroideana43n3.pdf",
-   "held_as": null
-  },
-  {
-   "year": 2020,
-   "authors": "Hay, A. & Imran",
-   "title": "Cyrtosperma giganteum Engl. found again in Papua Province, Indonesia",
-   "where": "Aroideana 43(3-4): 4",
-   "concerns": [
-    "C. giganteum rediscovery"
-   ],
-   "status": "login (IAS members)",
-   "source": "https://www.aroid.org/resources/Publications/Aroideana/Aroideana43n3.pdf",
-   "held_as": null
-  },
-  {
-   "year": 2020,
-   "authors": "Hay, A.",
-   "title": "Notes on the typification, origin, and fertility of Cyrtosperma johnstonii (Araceae-Lasioideae)",
-   "where": "Aroideana 43(3-4): 108",
-   "concerns": [
-    "C. johnstonii typification, origin, fertility"
-   ],
-   "status": "login (IAS members)",
-   "source": "https://www.aroid.org/resources/Publications/Aroideana/Aroideana43n3.pdf",
-   "held_as": null
-  },
-  {
-   "year": 2024,
-   "authors": "Raynalta, E., Hariri, M.R. & Irsyam, A.S.D.",
-   "title": "Cyrtosperma hayii (Araceae, Lasioideae), a unique new species with downward-pointing spines from Southwest Papua Province, Indonesia",
-   "where": "Phytotaxa 641(3): 235-237",
-   "doi": "10.11646/phytotaxa.641.3.6",
-   "concerns": [
-    "C. hayii protologue"
-   ],
-   "status": "paywalled",
-   "source": "https://phytotaxa.mapress.com/pt/article/view/phytotaxa.641.3.6",
-   "held_as": null
-  },
-  {
-   "year": 2024,
-   "authors": "Hariri, M.R., Irsyam, A.S.D., Ariati, S.R., Raynalta, E., Setyanti, D. & Supriyatna, I.",
-   "title": "Cyrtosperma prasinispathum: a new fascinating Aroid species from Papua, Indonesia",
-   "where": "Webbia 79(2): 291-294",
-   "doi": "10.36253/jopt-16076",
-   "concerns": [
-    "C. prasinispathum protologue"
-   ],
-   "status": "held (CC BY)",
-   "source": "https://oaj.fupress.net/index.php/webbia/article/download/16076/12944",
-   "held_as": "papers/Hariri-Irsyam-Ariati-2024-Webbia-Cyrtosperma-prasinispathum.pdf"
-  },
-  {
-   "year": 1982,
-   "authors": "Thompson",
-   "title": "Cyrtosperma chamissonis (Araceae): ecology, distribution, and economic importance in the South Pacific",
-   "where": "J. Agric. Trad. Bot. Appl. 29",
-   "doi": "10.3406/jatba.1982.3868",
-   "concerns": [
-    "C. merkusii ethnobotany"
-   ],
-   "status": "blocked (Persee)",
-   "source": "https://www.persee.fr/doc/jatba_0183-5173_1982_num_29_2_3868",
-   "held_as": null
-  },
-  {
    "year": 1999,
    "authors": "Di Piazza, A.",
    "title": "Migration d'une plante et migration de ses representations. Le taro de marecage",
@@ -448,6 +398,18 @@
    ],
    "status": "blocked (Persee)",
    "source": "https://www.persee.fr/doc/jatba_0183-5173_1999_num_41_1_3703",
+   "held_as": null
+  },
+  {
+   "year": 2001,
+   "authors": "Dearden, A. & Hay, A.",
+   "title": "A new species of Cyrtosperma (Araceae) from West Papua",
+   "where": "Aroideana 24: 102-104",
+   "concerns": [
+    "C. hambalii protologue"
+   ],
+   "status": "on the Drive (LITERATURE / Aroideana run); aroid.org members-only",
+   "source": "https://www.aroid.org/resources/Publications/Aroideana/Aroideana24.pdf",
    "held_as": null
   },
   {
@@ -516,6 +478,42 @@
    "held_as": "papers/Erlinawati-2018-Biodiversitas-daluga-genetic-diversity.pdf"
   },
   {
+   "year": 2020,
+   "authors": "Hay, A.",
+   "title": "Notes on the typification, origin, and fertility of Cyrtosperma johnstonii (Araceae-Lasioideae)",
+   "where": "Aroideana 43(3-4): 108",
+   "concerns": [
+    "C. johnstonii typification, origin, fertility"
+   ],
+   "status": "on the Drive (LITERATURE / Aroideana run); aroid.org members-only",
+   "source": "https://www.aroid.org/resources/Publications/Aroideana/Aroideana43n3.pdf",
+   "held_as": null
+  },
+  {
+   "year": 2020,
+   "authors": "Hay, A. & Imran",
+   "title": "A third enormous New Guinea lasioid - Cyrtosperma timikense, a new species from southern Papua Province, Indonesia",
+   "where": "Aroideana 43(3-4): 97-107",
+   "concerns": [
+    "C. timikense protologue"
+   ],
+   "status": "on the Drive (LITERATURE / Aroideana run); aroid.org members-only",
+   "source": "https://www.aroid.org/resources/Publications/Aroideana/Aroideana43n3.pdf",
+   "held_as": null
+  },
+  {
+   "year": 2020,
+   "authors": "Hay, A. & Imran",
+   "title": "Cyrtosperma giganteum Engl. found again in Papua Province, Indonesia",
+   "where": "Aroideana 43(3-4): 4",
+   "concerns": [
+    "C. giganteum rediscovery"
+   ],
+   "status": "on the Drive (LITERATURE / Aroideana run); aroid.org members-only",
+   "source": "https://www.aroid.org/resources/Publications/Aroideana/Aroideana43n3.pdf",
+   "held_as": null
+  },
+  {
    "year": 2022,
    "authors": "Naksuriya, O. et al.",
    "title": "Hydrolyzed flavonoids from Cyrtosperma johnstonii with superior antioxidant, antiproliferative and anti-inflammatory activity",
@@ -543,6 +541,19 @@
   },
   {
    "year": 2024,
+   "authors": "Hariri, M.R., Irsyam, A.S.D., Ariati, S.R., Raynalta, E., Setyanti, D. & Supriyatna, I.",
+   "title": "Cyrtosperma prasinispathum: a new fascinating Aroid species from Papua, Indonesia",
+   "where": "Webbia 79(2): 291-294",
+   "doi": "10.36253/jopt-16076",
+   "concerns": [
+    "C. prasinispathum protologue"
+   ],
+   "status": "held (CC BY)",
+   "source": "https://oaj.fupress.net/index.php/webbia/article/download/16076/12944",
+   "held_as": "papers/Hariri-Irsyam-Ariati-2024-Webbia-Cyrtosperma-prasinispathum.pdf"
+  },
+  {
+   "year": 2024,
    "authors": "Kularatna, Arancon & Eiben",
    "title": "Comparative growth of elephant ear taro (Alocasia macrorrhiza) and giant swamp taro (Cyrtosperma merkusii)",
    "where": "Crops 4: 5",
@@ -552,6 +563,19 @@
    ],
    "status": "blocked (MDPI)",
    "source": "https://doi.org/10.3390/crops4010005",
+   "held_as": null
+  },
+  {
+   "year": 2024,
+   "authors": "Raynalta, E., Hariri, M.R. & Irsyam, A.S.D.",
+   "title": "Cyrtosperma hayii (Araceae, Lasioideae), a unique new species with downward-pointing spines from Southwest Papua Province, Indonesia",
+   "where": "Phytotaxa 641(3): 235-237",
+   "doi": "10.11646/phytotaxa.641.3.6",
+   "concerns": [
+    "C. hayii protologue"
+   ],
+   "status": "paywalled",
+   "source": "https://phytotaxa.mapress.com/pt/article/view/phytotaxa.641.3.6",
    "held_as": null
   }
  ]

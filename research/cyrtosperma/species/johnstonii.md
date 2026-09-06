@@ -23,7 +23,7 @@ one anatropous ovule "affixed to the side of the cell at about the middle".
 Brown calls it "the first Cyrtosperma that has been cultivated in European
 gardens".
 
-Also held: the 1876 basionym report (`Alocasia-Johnstoni-1876-Gard-Chron-ns-5`,
+Also held: L'Illustration Horticole 27: 133–134 with the colour plate Pl. CCCXCV *Alocasia Johnstoni* W. Bull (Ed. André 1880; `Andre-1880-Ill-Hort-27-Alocasia-johnstonii`); Curtis's Botanical Magazine t. 8567 (N.E. Brown 1914), the colour plate by Matilda Smith and the text, which calls it "the only species belonging to its genus in cultivation" (`NE-Brown-1914-Bot-Mag-t8567`); the 1876 basionym report (`Alocasia-Johnstoni-1876-Gard-Chron-ns-5`,
 p. 603); Alderwerelt 1920, p. 373, a supplementary description from Bogor
 plants (petiole 125–250 cm, spathe 20–40 cm, spadix 12.5–25 cm; grown "partly
 as terrestrials, partly as aquatics; the former have the smaller, the latter
@@ -63,7 +63,7 @@ mature clump carries the whole range of inflorescence sizes at once.
 
 ## Material in the research pack
 
-- Scans: Gard. Chron. 1876 p. 603; Gard. Chron. 1882 p. 808; Alderwerelt 1920 p. 373; Engler 1911 p. 19; Hay 1988 pp. 435–439 (Fig. 3 map).
+- Scans: Ill. Hort. 27 (1880) pl. CCCXCV and pp. 133–134; Bot. Mag. t. 8567 (1914) plate and text; Gard. Chron. 1876 p. 603; Gard. Chron. 1882 p. 808; Alderwerelt 1920 p. 373; Engler 1911 p. 19; Hay 1988 pp. 435–439 (Fig. 3 map).
 - Type images: K000499263, K000499264.
 - iNaturalist: 64 photos in `inat/johnstonii/`.
 - Papers: Naksuriya et al. 2022 (Molecules, open access).
@@ -71,7 +71,6 @@ mature clump carries the whole range of inflorescence sizes at once.
 ## Still to obtain
 
 - Hay, A. (2020). Notes on the typification, origin, and fertility of *Cyrtosperma johnstonii* (Araceae–Lasioideae). Aroideana 43(3–4): 108–. IAS members' PDF: https://www.aroid.org/resources/Publications/Aroideana/Aroideana43n3.pdf
-- Curtis's Botanical Magazine t. 8567 (1914) plate; Ill. Hort. 27: t. 395 (1880).
 - Okonogi et al. 2012, Pharm. Biol. 50: doi 10.3109/13880209.2012.729064 (paywalled).
 
 ## References

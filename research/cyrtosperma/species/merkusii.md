@@ -20,13 +20,12 @@ Heterotypic synonyms, with types:
 
 ## Original description
 
-Schott's 1857 protologue in the *Oesterreichisches botanisches Wochenblatt*
-(vol. 7, p. 61) is the one page in this pack that could **not** be fetched:
-that volume is not on Internet Archive and BHL blocks scripts. BHL holds it
-(bibliography 41387, vol. 7). Use `tools/bhl-fetch.mjs` from the Drive
-machine, or take IPNI's BHL link on record 86826-1.
+**Held:** Schott 1857, Oesterr. Bot. Wochenbl. 7: 61–62 (`Schott-1857-Oesterr-Bot-Wochenbl-7`, BHL page 29952872, reached through BHL's OpenURL resolver). Under the heading "Aroideae. Skizzirt von H. W. Schott", Schott writes that the plant Hasskarl first made known and placed in *Lasia* (Cat. Hort. Bogor. 1844: 59) agrees entirely, in habit and in flower and fruit structure, with Griffith's later *Cyrtosperma* (Not. 3: 149–150, 1851); he gives a short generic character (spathe scarcely twisted, at length marcescent-persistent; spadix elongate; flowers hexamerous; berries smooth; seed reniform, margined-crested; albumen fleshy; leaves sagittate), contrasts *Lasia*, and separates the two species: *C. lasioides* Griff. — blade sagittate, long cuspidate-acuminate, basal lobes parted by a narrow sinus, spathe 3–6 inches, spadix reaching the middle of the spathe; *C. Merkusii* S. — blade sagittate, cuspidate-acuminate, basal lobes parted by a wide sinus, spathe 10–12 inches, spadix elongate, two-thirds of the spathe.
 
-Held instead:
+Also held:
+- Nadeaud 1897, J. Bot. (Morot) 11: 116–118 — var. *gigantea* from Tahiti, with measurements of the giant cultivated plant (leaves to 4.15 m, petiole 3.3 m, tuber very large) (`Nadeaud-1897-J-Bot-Morot-11`).
+- Linden & N.E. Brown 1892, Ill. Hort. 39: 59–60 and Pl. CLIII — *C. ferox*, the Bornean plant flowered at Kew, with the colour plate (`Linden-Brown-1892-Ill-Hort-39`).
+- Ridley 1925, Fl. Malay Penins. 5: 126–127, fig. 216 (`Ridley-1925-Fl-Malay-Penins-5`).
 - Griffith 1851, Notulae 3: 149–151 — the generic protologue ("1. Char. Generis. Spatha aperta, persistens, withered. Perianth 5-7 sepal...") and *C. lasioides*, from the West Bengal State Library scan (`Griffith-1851-Notulae-3`, images only, no OCR); Icones Pl. Asiat. 3: t. 169, the *C. lasioides* plate, and t. 173 (`Griffith-1851-Icones-Pl-Asiat-3`).
 - Schott 1858, Genera Aroidearum p. 84 and t. 84 — generic description with the etymology "ex κυρτός curvus et σπέρμα semen", synonym "Lasia Hasskarl (partim)", range "Et Javam et Indiam Malaccensem", and the plate of *C. lasioides* (`Schott-1858-Genera-Aroidearum`).
 - Beccari 1882, Malesia 1: 278 — *C. merkusii* record (`Beccari-1882-Malesia-1`, leaf 341).
@@ -89,8 +88,6 @@ cultivars for polyploidy.
 
 ## Still to obtain
 
-- Schott 1857, Oesterr. Bot. Wochenbl. 7: 61 (protologue page) — BHL only.
-- Linden & Brown 1892, Ill. Hort. 39: t. 153 (*C. ferox* plate); Nadeaud 1897; Beccari 1882 Malesia 1: 278.
 - Thompson 1982 (J. Agric. Trad. Bot. Appl. 29: 185, Persée) and Rao et al. 2014 (Telopea 17: 1) — both blocked to scripts; DOIs in bibliography.
 
 ## References

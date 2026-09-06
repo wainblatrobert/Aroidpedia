@@ -40,25 +40,37 @@ its licence and source URL, so any of it can be re-fetched.
 
 - **POWO** (`powo.science.kew.org`) and **BHL** (`biodiversitylibrary.org`)
   both answer 403 to scripts (Cloudflare). POWO data came through the World
-  Checklist copy on GBIF; BHL page scans came through Internet Archive, which
-  holds the same scans (the BHL page-image service redirects to an open S3
-  bucket keyed by the Internet Archive identifier, and that bucket is
-  readable).
+  Checklist copy on GBIF. BHL pages came two ways: Internet Archive holds the
+  same scans, and BHL's own OpenURL resolver (`/openurl?...`, the link IPNI
+  carries for every protologue) and page-image service (`/pageimage/<id>`)
+  are NOT behind the challenge: the resolver answers with the BHL page id and
+  the page-image call redirects to an open S3 bucket keyed by the Internet
+  Archive identifier and leaf number, from which any leaf of that volume can
+  be read. That route found the volumes Internet Archive search could not
+  (Schott 1857, Nadeaud 1897, L'Illustration Horticole, the Botanical
+  Magazine plate). The Tuscan horticultural bulletin (macrotum 1879) is not
+  on BHL at all.
 - **IPNI**, **GBIF**, **iNaturalist**, **Crossref**, **Europe PMC**, the
   **Naturalis repository** (Blumea) and **Firenze University Press** (Webbia)
   answered normally.
-- **Aroideana** PDFs on aroid.org redirect to the IAS member login. The three
-  Cyrtosperma papers there (Dearden & Hay 2001; Hay & Imran 2020 ×2; Hay
-  2020) must be fetched with a member account — URLs in `bibliography.md`.
+- **Aroideana**: aroid.org serves its PDFs only to logged-in members and
+  later refused the sandbox altogether ("forbidden by administrative rules").
+  The house holds the complete run on the Drive (`LITERATURE`, folders
+  `Croat - Aroideana` and `Gibernau-Aroideana`, catalogued in `_INDEX`), so
+  the four Cyrtosperma papers — Aroideana 24: 102–104 (2001) and 43(3–4): 4,
+  97–107 and 108 (2020) — come from there, not from the web.
 - **Phytotaxa** (C. hayii, 2024) is paywalled; only the citation metadata was
   captured.
 
 ## Licences of the photographs
 
-iNaturalist photos were copied only where the photographer's licence allows
-reuse (CC0, CC BY, CC BY-SA, CC BY-NC, CC BY-NC-SA): 339 of 441. The 101
-"all rights reserved" photos are listed in the CSV with their URLs and
-observers so permission can be asked; none was copied. Type-specimen images
+Every iNaturalist photo still online was copied (editorial decision,
+2026-09-06): 339 carry reuse licences (CC0, CC BY, CC BY-SA, CC BY-NC,
+CC BY-NC-SA) and 101 are "all rights reserved". The CSV carries the licence
+and attribution of each; the all-rights-reserved ones need the
+photographer's permission before they appear on a page. 440 of the 441 were
+fetched at original size; one is listed by iNaturalist but no longer served,
+and is marked in the CSV. Type-specimen images
 are CC BY 4.0 (Kew, NHM London), CC0 (Naturalis) or Harvard's public-domain
 statement. Page scans are of pre-1930 public-domain works or of open-access
 papers (Blumea via Naturalis; Webbia CC BY).

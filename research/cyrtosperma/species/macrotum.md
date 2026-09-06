@@ -17,8 +17,10 @@
 
 ## Original description
 
-The 1879 Bullettino page could **not** be fetched: the volume is not on
-Internet Archive (only the 1880 volume is) and BHL blocks scripts. **Held:**
+The 1879 Bullettino page could **not** be fetched: the journal is not held
+by BHL at all (IPNI carries no BHL link for it and BHL's resolver returns
+nothing for any spelling of the title), and Internet Archive has only the
+1880 volume as a Google scan. It will need a library copy or Google Books. **Held:**
 Beccari, Malesia 1 (1882): the Latin description of no. 39 *C. macrotum*
 (pp. 279–280, `Beccari-1882-Malesia-1` leaves 342–343), the plate Tav. XXIV
 (figs 1–6: flower, tepals, pistil sections, fruit and seed; drawn by Beccari,
@@ -75,7 +77,7 @@ testa smooth.
 
 ## Still to obtain
 
-- Engler in Beccari 1879, Bull. Reale Soc. Tosc. Ortic. 4: 295 (protologue) — BHL.
+- Engler in Beccari 1879, Bull. Reale Soc. Tosc. Ortic. 4: 295 (protologue) — not on BHL; Google Books / library.
 - Krause & Alderwerelt 1924, Nova Guinea 14: 215–216 (*janowskyi* protologue) — not located online.
 
 ## References
