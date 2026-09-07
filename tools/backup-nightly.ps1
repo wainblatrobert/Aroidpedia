@@ -1,10 +1,18 @@
 <#
-  backup-nightly.ps1  -  Aroidpedia off-machine backup, v1 (9.7.26)
+  backup-nightly.ps1  -  Aroidpedia off-machine backup, v2 (9.7.26)
+
+  THIS IS THE RUNTIME COPY, and it lives OUTSIDE both repos on purpose.
+  v1 was run from C:\Users\nli0490\Claude\Aroidpedia\tools\, which is inside a
+  working tree that other sessions check branches out of. The moment a feature
+  branch was checked out (a parallel Cyrtosperma session did exactly that), the
+  file was not on disk and the 02:30 job would have failed silently. A backup
+  that quietly stops running is the failure mode this whole thing exists to
+  prevent, so the scheduled task now points here. The versioned copy stays at
+  Aroidpedia\tools\backup-nightly.ps1 on main; this script warns if they drift.
 
   ASCII ONLY, on purpose. An earlier draft carried em-dashes; a Get-Content /
   Set-Content round-trip in Windows PowerShell 5.1 read them as ANSI and wrote
-  mojibake back, which broke the parse. A script that runs unattended at 02:30
-  should not be one bad encoding guess away from silently not running.
+  mojibake back, which broke the parse.
 
   WHY. The two working repos and the climate scratch folder live only on this
   laptop. Git protects what is COMMITTED and PUSHED; this covers the two gaps:
@@ -16,17 +24,16 @@
 
   WHAT IT DOES, every night:
     1. git push --mirror  ->  a BARE repo on Google Drive, one per repo. All
-       branches, incremental, so a quiet day moves a few MB. A bare mirror on
-       Drive fires no GitHub workflow and needs no login.
+       branches (so other sessions' branches ride along too), incremental, no
+       login, and no GitHub workflow can fire from it.
     2. robocopy /MIR      ->  the non-git folders, minus regenerable bulk.
-    3. per repo, the UNCOMMITTED state: status manifest, one patch of tracked
-       edits, and a copy of untracked-but-not-ignored files.
+    3. per working tree, the UNCOMMITTED state: status manifest, one patch of
+       tracked edits WRITTEN BY GIT, and the untracked-not-ignored files. The
+       patch is then verified by re-applying it in reverse; a patch that cannot
+       be applied is not a backup and the log says so.
     4. STATUS.txt: what ran, and per repo the commits GitHub does not have.
 
-  Drive uploads in the background afterwards. Nothing here waits on the network,
-  which is the whole reason this is a nightly copy and not a live sync.
-
-  RESTORE: docs/RESTORE.md in the data repo, copied beside the mirrors on Drive.
+  RESTORE: docs/RESTORE.md on main in the data repo, copied beside the mirrors.
   Run by hand:    powershell -ExecutionPolicy Bypass -File <this file>
   Task:           AroidpediaNightlyBackup
 #>
@@ -38,6 +45,7 @@ $Work    = Join-Path $Root 'working-files'
 $Log     = Join-Path $Root 'backup.log'
 $Status  = Join-Path $Root 'STATUS.txt'
 $Started = Get-Date
+$Versioned = 'C:\Users\nli0490\Claude\Aroidpedia\tools\backup-nightly.ps1'
 
 function Say($msg) {
   $line = "{0}  {1}" -f (Get-Date -Format 'yyyy-MM-dd HH:mm:ss'), $msg
@@ -55,11 +63,19 @@ if (-not (Test-Path $Mirrors)) {
   exit 1
 }
 
+# Drift check against the versioned copy. Only meaningful when main happens to
+# be the checked-out branch; silence otherwise, since a feature branch simply
+# does not carry the file and that is not an error.
+if (Test-Path $Versioned) {
+  $a = (Get-FileHash $PSCommandPath -Algorithm SHA256).Hash
+  $b = (Get-FileHash $Versioned     -Algorithm SHA256).Hash
+  if ($a -ne $b) { Say "NOTE: this runtime copy differs from Aroidpedia\tools\backup-nightly.ps1 on the checked-out branch" }
+}
+
 # Secrets are deliberately NOT copied. Aroidpedia\.env holds live Cloudflare R2
-# keys and says in its own header never to move it around; a nightly push into a
-# synced cloud folder is exactly that. Losing it costs one visit to the R2 token
-# screen (RESTORE.md names the keys); losing the WORK is unrecoverable. To back
-# secrets up anyway, empty this list.
+# keys and says in its own header never to move it around. Losing it costs one
+# visit to the R2 token screen (RESTORE.md names the keys); losing the WORK is
+# unrecoverable. To back secrets up anyway, empty this list.
 $SecretFiles = @('.env', '*.env', '*credentials*.json', '*service-account*.json', '*.pem', '*.key')
 
 # ---- 1. git mirrors ------------------------------------------------------
@@ -129,8 +145,25 @@ foreach ($t in $trees) {
   # absent file must mean "the backup did not run", never "nothing changed".
   ((& git status --porcelain=v1 --branch 2>&1) | Out-String) |
     Set-Content (Join-Path $dest '_git-status.txt') -Encoding utf8
-  ((& git diff HEAD 2>&1) | Out-String) |
-    Set-Content (Join-Path $dest '_uncommitted.patch') -Encoding utf8
+
+  # THE PATCH IS WRITTEN BY GIT, NOT BY POWERSHELL. Set-Content in Windows
+  # PowerShell 5.1 writes CRLF line endings and a UTF-8 BOM; both corrupt a git
+  # patch and `git apply` then refuses it. v1 did exactly that and produced a
+  # backup that looked healthy and could not be restored, which is the worst
+  # failure this script could have. `--output` hands the file to git itself.
+  $patch = Join-Path $dest '_uncommitted.patch'
+  & git diff HEAD --output="$patch" 2>$null
+  if (-not (Test-Path $patch)) { New-Item -ItemType File -Path $patch -Force | Out-Null }
+
+  # ...and then PROVE it restores. Re-applying the patch in reverse against the
+  # tree it came from must succeed; if it does not, the log says so tonight
+  # instead of leaving it to be discovered during an actual recovery.
+  if ((Get-Item $patch).Length -gt 0) {
+    & git apply --check --reverse $patch 2>$null
+    if ($LASTEXITCODE -eq 0) { Say ("patch verified  {0}" -f $leaf) }
+    else { Say ("PATCH WILL NOT APPLY  {0}  <-- investigate" -f $leaf) }
+  }
+
   $untracked = @(& git ls-files --others --exclude-standard 2>$null)
   $n = 0
   foreach ($rel in $untracked) {
@@ -172,13 +205,14 @@ foreach ($r in $repos) {
   }
   Pop-Location
   $lines += $r
-  $lines += ("  branch        : {0}" -f $branch)
+  $lines += ("  checked out   : {0}" -f $branch)
   $lines += ("  uncommitted   : {0} file(s)" -f $dirty)
   $lines += ("  not on GitHub : {0}" -f $(if ($unpush.Count) { $unpush -join ', ' } else { 'nothing' }))
 }
 $lines += ""
 $lines += "Everything above IS in the Drive mirror beside this file."
 $lines += "'not on GitHub' is the work that would be lost if this laptop AND Drive both went."
+$lines += "Branches from other Claude sessions ride along in the mirror automatically."
 $lines += "To rebuild on a new machine: see RESTORE.md in this folder."
 Set-Content -Path $Status -Value ($lines -join [Environment]::NewLine) -Encoding utf8
 
