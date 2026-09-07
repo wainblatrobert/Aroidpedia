@@ -21,6 +21,8 @@ most of which is downloads.
 The Drive backups are at `G:\My Drive\PlantsV2\Aroidpedia\BACKUPS\`:
 `git-mirrors\` holds a bare clone of each repo, `working-files\` the folders git
 cannot carry, `STATUS.txt` the last run's summary, `backup.log` the history.
+The mirrors hold EVERY branch, including ones other Claude sessions create in
+these working trees, so parallel work is carried without anyone arranging it.
 
 ## Steps
 
@@ -79,11 +81,16 @@ survive a laptop loss: `CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_API_TOKEN`,
 `RESEND_API_KEY`. Google Sheets access is whatever account the sheets are shared
 with.
 
-**8. Re-arm the backup.** Copy `tools\backup-nightly.ps1` into place and
-register the task again:
+**8. Re-arm the backup.** Copy `tools\backup-nightly.ps1` out to
+`C:\Users\<you>\Claude\_backup\backup-nightly.ps1` and point the task at that
+copy, not at the one in the repo. It runs from outside both repos deliberately:
+other Claude sessions check feature branches out of these working trees, and a
+script living inside one is simply absent whenever a branch that predates it is
+checked out. A backup that quietly stops running is the exact failure this whole
+arrangement exists to prevent.
 
 ```bash
-schtasks /create /tn AroidpediaNightlyBackup /tr "powershell -ExecutionPolicy Bypass -WindowStyle Hidden -File \"C:\Users\<you>\Claude\Aroidpedia\tools\backup-nightly.ps1\"" /sc daily /st 02:30
+schtasks /create /tn AroidpediaNightlyBackup /tr "powershell -ExecutionPolicy Bypass -WindowStyle Hidden -File \"C:\Users\<you>\Claude\_backup\backup-nightly.ps1\"" /sc daily /st 02:30
 ```
 
 ## Two things that are not backed up, on purpose
