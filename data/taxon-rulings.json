@@ -20,7 +20,8 @@
   "an `include` or drops an `exclude`, the run stops and names the entry, so",
   "a ruling cannot quietly rot after POWO catches up.",
   "",
-  "Keys are genus slugs, lowercase."
+  "Keys are genus slugs, lowercase.",
+  "STANDING RULE (owner, 2026-09-07): POWO RETAINS PRECEDENCE OVER VERY OLD PROTOLOGUES AND REDUCTIONS. 'A published journal article trumps POWO' is not mechanical - it weighs the article. A modern revision may displace the checklist (Hay & Yuzammi 2000 did, for Scindapsus rupestris); a very old reduction that no later worker has tested does not (Furtado 1935, Ridley 1907 and 1925, Engler & Krause 1908 did not). Such a reduction is NOT recorded as a ruling here, because nothing overrides the export - but it MUST be mentioned in the notes of every affected species, on BOTH sides of the pair, so the paper cannot resurface as an open question."
  ],
  "alocasia": {
   "exclude": [
