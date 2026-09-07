@@ -9,6 +9,7 @@
   "  exclude  a name POWO accepts that we do not. Dropped from the data.",
   "  include  a name POWO has dropped (or never carried) that we keep.",
   "           Needs a year, because it is not coming from the export.",
+  "  mergeInto  on an `exclude`: the excluded name is a SYNONYM of this accepted name, so its distribution records transfer to it rather than being dropped. Added 2026-09-07 for Scindapsus rupestris; without it a synonymy silently shrinks the accepted species' range.",
   "",
   "`authority` records whose ruling it is. A CITATION IS NOT REQUIRED --",
   "user ruling 2026-09-01. These are Aroidpedia's own editorial calls and",
@@ -64,6 +65,17 @@
     "year": 2025,
     "reason": "Valid. Published in PhytoKeys 267: 111 (2025); POWO has not ingested it yet.",
     "authority": "Aroidpedia editorial, 2026-09-04"
+   }
+  ]
+ },
+ "scindapsus": {
+  "exclude": [
+   {
+    "name": "Scindapsus rupestris",
+    "reason": "= Scindapsus sumatranus. Hay & Yuzammi 2000 (Telopea 9(1): 1-177) exclude Schismatoglottis sumatrana Schott ex Miq. from Schismatoglottis and recombine it as Scindapsus sumatranus (Miq.) P.C.Boyce & A.Hay (p. 170), and their Abstract (p. 1) states flatly that Scindapsus rupestris Ridl. is a synonym of it; the index (p. 177) sets Scindapsus rupestris in italic with a roman page number, which by that index's own legend marks a synonym rather than a formal treatment. POWO accepts both names. Under the house rule that a published journal article trumps POWO, Aroidpedia follows the paper. NOTE the p. 170 discussion itself is hedged ('the epithet is evidently an earlier one for Scindapsus rupestris Ridl.') and the authors could not find the type of the basionym, inferring the placement from Schott's Icones 3082; the ruling rests on the Abstract and index, which are unambiguous.",
+    "authority": "Aroidpedia editorial, 2026-09-07 (owner ruling: 'go with Hay and Yuzammi')",
+    "mergeInto": "Scindapsus sumatranus",
+    "mergeNote": "A synonymy, not a deletion. POWO files four places under the synonym (Borneo, Peninsular Malaysia, Sumatra, Thailand) against one for the accepted name (Sumatra), so the distribution must transfer or Scindapsus sumatranus would be reduced to a one-island range for a taxon Hay & Yuzammi call 'widespread in West Malesia'. After the transfer the genus map keeps all 26 places; only Sumatra's species count falls (11 to 10), because it is the one place that counted both names."
    }
   ]
  }

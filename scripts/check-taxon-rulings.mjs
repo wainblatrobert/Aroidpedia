@@ -101,8 +101,26 @@ for (const [slug, r] of Object.entries(RULINGS)) {
       if (kind === 'include' && !hasPage)
         console.log(e.note ? `      → unpublished, and on hold (see note)`
                            : `      → ruled valid but unpublished: a page is owed`);
-      if (kind === 'exclude' && inGeo)
-        console.log(`      → still in genus-geo; harmless if its localities are covered by the accepted name`);
+      // 9.7.26: this used to say, unconditionally, "harmless if its localities
+      // are covered by the accepted name" — an if-clause the reader had no way
+      // to evaluate, and which reads as reassurance. For Scindapsus rupestris
+      // it was FALSE: three of its four places (Borneo, Peninsular Malaysia,
+      // Thailand) are absent from Scindapsus sumatranus, so dropping the name
+      // without transferring its range would shrink a widespread species to one
+      // island. So CHECK the condition instead of hypothesising it, and say
+      // which localities would be lost.
+      if (kind === 'exclude' && inGeo) {
+        const mine = geo.speciesPlaces[ep] || [];
+        const target = e.mergeInto ? epithet(e.mergeInto) : null;
+        const theirs = target ? (geo.speciesPlaces[target] || []) : [];
+        const orphaned = mine.filter(p => !theirs.includes(p));
+        if (!target)
+          console.log(`      → still in genus-geo, and NO mergeInto is set. Its ${mine.length} locality(ies) would be DROPPED: ${mine.join(', ') || 'none'}`);
+        else if (orphaned.length)
+          console.log(`      → still in genus-geo. mergeInto ${e.mergeInto} does NOT yet carry ${orphaned.length} of its localities: ${orphaned.join(', ')} — re-export genus-geo so they transfer`);
+        else
+          console.log(`      → still in genus-geo, but every locality is already covered by ${e.mergeInto} — safe to drop`);
+      }
     }
   }
 }

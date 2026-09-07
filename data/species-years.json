@@ -1,6 +1,6 @@
 {
  "version": "1.0.0",
- "generated": "2026-09-04",
+ "generated": "2026-09-07",
  "source": "POWO genus exports (Araceae_Exports/EXCELS), sheet SPECIES",
  "exportsOldest": "2026-04-01",
  "exportsNewest": "2026-04-02",
@@ -11,10 +11,11 @@
   "alocasia: kept Alocasia rivularis (2017), absent from POWO",
   "alocasia: kept Alocasia lihengiae (2020), absent from POWO",
   "monstera: kept Monstera colossica (2025), absent from POWO",
-  "monstera: kept Monstera corana (2025), absent from POWO"
+  "monstera: kept Monstera corana (2025), absent from POWO",
+  "scindapsus: excluded Scindapsus rupestris (= Scindapsus sumatranus. Hay & Yuzammi 2000 (Telopea 9(1): 1)"
  ],
  "generaCount": 153,
- "speciesCount": 4705,
+ "speciesCount": 4704,
  "genera": {
   "acontias": {
    "name": "Acontias",
@@ -6972,8 +6973,7 @@
      "Scindapsus cuscuarioides"
     ],
     "1905": [
-     "Scindapsus falcifolius",
-     "Scindapsus rupestris"
+     "Scindapsus falcifolius"
     ],
     "1920": [
      "Scindapsus glaucescens",

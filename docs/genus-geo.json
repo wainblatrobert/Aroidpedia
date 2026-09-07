@@ -1,11 +1,12 @@
 {
- "version": "1.24.0",
- "generated": "2026-09-06",
+ "version": "1.25.0",
+ "generated": "2026-09-07",
  "note18": "1.18.0 (8.20.26): speciesTotal is the LARGER of POWO and the journal’s own species posts (user ruling - POWO is a floor while a genus is being built out, not a ceiling); speciesTotalPowo keeps POWO’s own figure for the sources line.",
  "note19": "1.19.0 (8.20.26): Furtadoa is sunk into Homalomena (POWO; one of the genus’s seven heterotypic synonyms). Its empty genus entry is removed and Homalomena carries the merged range.",
  "note22": "1.22.0 (8.21.26): FULL 155-genus rebuild (the builder defaulted to Amorphophallus alone, so every other genus carried 8.16 data); the refine gate walks the SUBUNITS chain shallow-first (POWO speaks L3, so three-tier chains - East Kalimantan under Kalimantan under Borneo - always failed the direct-parent test); a mojibake ALIAS literal made SWC emit a broken San Andres key; POWO respelled Panama with its accent.",
  "note21": "1.21.0 (8.21.26): tag spellings fold through the tables’ variants before the SUBUNITS filter, so an aliased tag (Dinagat Islands → Surigao del Norte) reaches the genus maps.",
  "note24": "1.24.0 (9.6.26): POWO's 'Solomon Is.' folds to the site's canonical 'Solomon Islands' (climate 1.21.0 removed the duplicate 'Solomon Is.' shape and left the spelling to aliases, which the genus map and the genus climate chart never apply); nine genera regain the Solomons on their maps: Alocasia, Cyrtosperma, Epipremnum, Homalomena, Pothos, Rhaphidophora, Schismatoglottis, Scindapsus, Spathiphyllum. Full 155-genus rebuild.",
+ "note25": "1.25.0 (9.7.26): the builder now APPLIES data/taxon-rulings.json, which it never did - three other scripts read that file, so an editorial ruling reached the timeline and the species base and then stopped at the genus map. An `exclude` drops the name; the new `mergeInto` field marks it a SYNONYM and transfers its zones to the accepted name, because POWO files distribution under the synonym (Scindapsus rupestris carried Borneo, Peninsular Malaysia, Sumatra and Thailand against Scindapsus sumatranus’s single Sumatra, so a plain drop would have shrunk a West Malesian species to one island). Aggregates are recomputed from the merged per-species map rather than decremented, so a place counted under both names falls by one while a place counted under only the synonym does not move. First ruling applied: Scindapsus rupestris → Scindapsus sumatranus (owner ruling 2026-09-07, Hay & Yuzammi 2000).",
  "note20": "1.20.0 (8.21.26): the SUBUNITS registry is now EVERY *-l4-table.json in the scripts folder, globbed - the hand-wired chain had quietly stopped at the 8.16 batches, so Cambodia, Madagascar, Brazil/Mexico, the West-Africa sweep, Borneo’s divisions, Taiwan, China and the Africa smalls never reached the genus maps (caught on johnsonii’s Subzones view). Subunit vocabulary 27 -> 93; Amorphophallus places 85 -> 151.",
  "source": "POWO/WCVP distribution API, native WGSRPD level-3 units + journal-tag subunit refinement (additive)",
  "genera": {
@@ -33975,12 +33976,12 @@
    }
   },
   "Scindapsus": {
-   "speciesTotal": 35,
-   "speciesTotalPowo": 35,
+   "speciesTotal": 34,
+   "speciesTotalPowo": 34,
    "speciesJournal": 0,
    "places": {
     "Borneo": 16,
-    "Sumatra": 11,
+    "Sumatra": 10,
     "Peninsular Malaysia": 8,
     "Java": 7,
     "Thailand": 7,
@@ -34159,12 +34160,6 @@
     "roseus": [
      "Sumatra"
     ],
-    "rupestris": [
-     "Borneo",
-     "Peninsular Malaysia",
-     "Sumatra",
-     "Thailand"
-    ],
     "salomoniensis": [
      "Solomon Islands"
     ],
@@ -34187,7 +34182,10 @@
      "Sumatra"
     ],
     "sumatranus": [
-     "Sumatra"
+     "Borneo",
+     "Peninsular Malaysia",
+     "Sumatra",
+     "Thailand"
     ],
     "treubii": [
      "Borneo",
@@ -34198,7 +34196,7 @@
    "doubtfulSpecies": {},
    "regions": {
     "Malesia": {
-     "count": 27,
+     "count": 26,
      "members": [
       "Borneo",
       "Java",
@@ -34261,7 +34259,7 @@
    },
    "continents": {
     "Tropical Asia": {
-     "count": 34,
+     "count": 33,
      "regions": [
       "Indian Subcontinent",
       "Indo-China",
