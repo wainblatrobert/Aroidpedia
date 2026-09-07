@@ -1,0 +1,179 @@
+observation_id,latitude,longitude,country,iso2,gadm1,gadm2,wgsrpd,source
+216994,3.4407706139,125.5644607544,Indonesia,ID,Sulawesi Utara,Kepulauan Sangihe,,gbif-geocode
+551907,1.316047,103.8174,Singapore,SG,West,,MLY-SI,gbif-geocode
+565656,1.279517,103.797933,Singapore,SG,West,,MLY-SI,gbif-geocode
+2369912,1.316108,103.8173599,Singapore,SG,West,,MLY-SI,gbif-geocode
+5783253,1.5196399,110.3889459,Malaysia,MY,Sarawak,Samarahan,BOR-SR,gbif-geocode
+8395215,-21.24899,-159.760891,Cook Islands,CK,Rarotonga,,COO-OO,gbif-geocode
+14827766,1.8104660147,173.0290527861,Kiribati,KI,,,GIL-OO,gbif-geocode
+15288793,5.3338083333,162.9745633333,Micronesia,FM,Kosrae,Malem,CRL-MF,gbif-geocode
+15881946,7.6838119235,125.9898195417,Philippines,PH,Compostela Valley,Monkayo,PHI-OO,gbif-geocode
+17931634,15.1930966667,145.7622533333,Northern Mariana Islands,MP,Saipan,,MRN-NM,gbif-geocode
+18588975,7.50464,134.546066,Palau,PW,Aimeliik,,CRL-PA,gbif-geocode
+30462449,-0.453205254,130.6579849433,Indonesia,ID,Papua Barat,Raja Ampat,NWG-IJ,gbif-geocode
+43413327,1.320005,103.816055,Singapore,SG,North-East,,MLY-SI,gbif-geocode
+57549176,-23.0237664353,-43.546532306,Brazil,BR,Rio de Janeiro,Rio de Janeiro,BZL-RJ,gbif-geocode
+61833610,6.9565131997,158.2038547997,Micronesia,FM,Pohnpei,Uh,CRL-MF,gbif-geocode
+66268279,6.9684958,158.1967395,Micronesia,FM,Pohnpei,Sokehs,CRL-MF,gbif-geocode
+67780085,3.0160028889,101.6835250833,Malaysia,MY,Kuala Lumpur,Hulu Langat,MLY-PM,gbif-geocode
+67780173,3.0160028889,101.6835250833,Malaysia,MY,Kuala Lumpur,Hulu Langat,MLY-PM,gbif-geocode
+69489256,1.3207603129,103.8179241121,Singapore,SG,North-East,,MLY-SI,gbif-geocode
+70808404,-2.605065,140.0635069,Indonesia,ID,Papua,Jayapura,NWG-IJ,gbif-geocode
+70808405,-2.605065,140.0635069,Indonesia,ID,Papua,Jayapura,NWG-IJ,gbif-geocode
+72125413,1.35127,103.8355333333,Singapore,SG,West,,MLY-SI,gbif-geocode
+72142286,5.3515103017,100.297165242,Malaysia,MY,Pulau Pinang,Barat Daya,MLY-PM,gbif-geocode
+74157543,14.6331383333,120.34703,Philippines,PH,Bataan,Bagac,PHI-OO,gbif-geocode
+83927882,3.824861,113.765916,Malaysia,MY,Sarawak,Miri,BOR-SR,gbif-geocode
+91846864,50.9359353,4.3294598,Belgium,BE,Bruxelles,Bruxelles,BGM-BE,gbif-geocode
+95014826,3.0160027778,101.683525,Malaysia,MY,Kuala Lumpur,Hulu Langat,MLY-PM,gbif-geocode
+96870072,1.279524,103.7979509722,Singapore,SG,West,,MLY-SI,gbif-geocode
+102597706,2.9966828968,101.6331784019,Malaysia,MY,Selangor,Sepang,MLY-PM,gbif-geocode
+103445429,3.1125471667,101.4845116667,Malaysia,MY,Selangor,Klang,MLY-PM,gbif-geocode
+108690832,-16.8989666835,145.7475578785,Australia,AU,Queensland,Cairns,QLD-QU,gbif-geocode
+113371262,7.05851,125.539077,Philippines,PH,Davao del Sur,Davao City,PHI-OO,gbif-geocode
+114599746,8.9475084903,125.5406232923,Philippines,PH,Agusan del Norte,Butuan City,PHI-OO,gbif-geocode
+118578901,5.30153733,163.02998032,Micronesia,FM,Kosrae,Utwe,CRL-MF,gbif-geocode
+123178665,1.3417033786,103.8294709835,Singapore,SG,West,,MLY-SI,gbif-geocode
+125416302,1.3417216667,103.8294916667,Singapore,SG,West,,MLY-SI,gbif-geocode
+128399714,3.1070051655,101.5185863525,Malaysia,MY,Selangor,Petaling,MLY-PM,gbif-geocode
+128754903,1.41342,103.7911383333,Malaysia,MY,Johor,Johor Baharu,MLY-SI,gbif-geocode
+130468368,19.8084155077,-155.0933734459,United States,US,Hawaii,Hawaii,HAW-HI,gbif-geocode
+130724747,13.710945,100.467325,Thailand,TH,Bangkok Metropolis,Thungkru,THA-OO,gbif-geocode
+135480957,-1.6173163,103.5162058499,Indonesia,ID,Jambi,Jambi,SUM-OO,gbif-geocode
+140883923,-1.617011853,103.5158805503,Indonesia,ID,Jambi,Jambi,SUM-OO,gbif-geocode
+142513086,0.8391027778,110.9826888889,Indonesia,ID,Kalimantan Barat,Sintang,BOR-KA,gbif-geocode
+143017406,-1.61725914,103.51602287,Indonesia,ID,Jambi,Jambi,SUM-OO,gbif-geocode
+149130687,38.8880166667,-77.0128333333,United States,US,Virginia,Arlington,VRG-OO,gbif-geocode
+150032138,6.9440009008,158.1949707493,Micronesia,FM,Pohnpei,Kitti,CRL-MF,gbif-geocode
+150940976,-1.68773454,103.65429106,Indonesia,ID,Jambi,Jambi,SUM-OO,gbif-geocode
+153076734,1.3447619355,103.8223504275,Singapore,SG,West,,MLY-SI,gbif-geocode
+156567696,1.5153646025,110.2911120281,Malaysia,MY,Sarawak,Kuching,BOR-SR,gbif-geocode
+159342999,1.5773764726,110.2607373521,Malaysia,MY,Sarawak,Bau,BOR-SR,gbif-geocode
+170259789,-16.5044359,-151.73865565,French Polynesia,PF,Îles Sous-le-Vent,,SCI-OO,gbif-geocode
+173123905,-22.9673717846,-43.2250381261,Brazil,BR,Rio de Janeiro,Rio de Janeiro,BZL-RJ,gbif-geocode
+178230144,-2.9189798373,132.3162780818,Indonesia,ID,Papua Barat,Fakfak,NWG-IJ,gbif-geocode
+178345184,-2.7423813393,132.3485925868,Indonesia,ID,Papua Barat,Fakfak,NWG-IJ,gbif-geocode
+179546462,1.3208353084,103.8160655097,Singapore,SG,North-East,,MLY-SI,gbif-geocode
+181756450,-2.9202287181,132.317564155,Indonesia,ID,Papua Barat,Fakfak,NWG-IJ,gbif-geocode
+183311032,1.2883556727,103.7887923557,Singapore,SG,West,,MLY-SI,gbif-geocode
+183313867,41.9242438482,-87.6353303343,United States,US,Illinois,Lake Michigan,ILL-OO,gbif-geocode
+184132168,36.1013332711,140.1112886057,Japan,JP,Ibaraki,Tsuchiura,JAP-HN,gbif-geocode
+185249056,6.934909922,158.1863514706,Micronesia,FM,Pohnpei,Kitti,CRL-MF,gbif-geocode
+185250084,6.9613583333,158.206205,Micronesia,FM,Pohnpei,Uh,CRL-MF,gbif-geocode
+185251017,6.9606417794,158.213621825,Micronesia,FM,Pohnpei,Uh,CRL-MF,gbif-geocode
+187337610,1.3210040577,103.8167781882,Singapore,SG,North-East,,MLY-SI,gbif-geocode
+188122673,-2.5635697372,140.0990285352,Indonesia,ID,Papua,Jayapura,NWG-IJ,gbif-geocode
+188882213,-2.7090597083,132.3089639278,Indonesia,ID,Papua Barat,Fakfak,NWG-IJ,gbif-geocode
+189968441,40.6658416062,-73.9619099324,United States,US,New York,New York,NWY-OO,gbif-geocode
+191431128,1.62838,111.055125,Malaysia,MY,Sarawak,Betong,BOR-SR,gbif-geocode
+191639045,-0.91902,131.33902,Indonesia,ID,Papua Barat,Sorong,NWG-IJ,gbif-geocode
+192807867,55.7774666667,37.6345366667,Russia,RU,Moscow City,Eastern,RUC-OO,gbif-geocode
+197766727,,,,,,,,place_guess
+198042507,1.2351549396,103.7482456291,Singapore,SG,Central,,MLY-SI,gbif-geocode
+199325365,,,Carauari/AM,,,,,place_guess
+199967042,6.9120568414,158.1595761515,Micronesia,FM,Pohnpei,Kolonia,CRL-MF,gbif-geocode
+200060506,6.9093787816,158.1573161028,Micronesia,FM,Pohnpei,Kolonia,CRL-MF,gbif-geocode
+200061257,6.9094692264,158.1573973596,Micronesia,FM,Pohnpei,Kolonia,CRL-MF,gbif-geocode
+200062071,6.9093943371,158.1572558731,Micronesia,FM,Pohnpei,Kolonia,CRL-MF,gbif-geocode
+200067326,6.909677,158.1575064,Micronesia,FM,Pohnpei,Kolonia,CRL-MF,gbif-geocode
+200067344,6.8747866061,158.1597920695,Micronesia,FM,Pohnpei,Kolonia,CRL-MF,gbif-geocode
+200078882,6.9688676489,158.1878561899,Micronesia,FM,Pohnpei,Sokehs,CRL-MF,gbif-geocode
+206748940,-16.9000155997,145.7482361,Australia,AU,Queensland,Cairns,QLD-QU,gbif-geocode
+207864290,13.6912345,100.6638298,Thailand,TH,Samut Prakan,Saphan Sung,THA-OO,gbif-geocode
+215632761,1.3194583333,103.8154166667,Singapore,SG,North-East,,MLY-SI,gbif-geocode
+229813565,5.2991829,162.9696779,Micronesia,FM,Kosrae,Malem,CRL-MF,gbif-geocode
+231022045,-0.5883615423,109.6300777216,Indonesia,ID,Kalimantan Barat,Kubu Raya,BOR-KA,gbif-geocode
+232653819,-2.819018326,111.8058240447,Indonesia,ID,Kalimantan Tengah,Kotawaringin Barat,BOR-KA,gbif-geocode
+245218911,1.2826062832,103.8667509613,Singapore,SG,East,,MLY-SI,gbif-geocode
+245354495,6.9112107111,158.1599064825,Micronesia,FM,Pohnpei,Kolonia,CRL-MF,gbif-geocode
+245490195,6.9057916499,158.1640810892,Micronesia,FM,Pohnpei,Kolonia,CRL-MF,gbif-geocode
+245875549,6.8361966667,158.1742866667,Micronesia,FM,Pohnpei,Kitti,CRL-MF,gbif-geocode
+246644763,40.6658361111,-73.9619,United States,US,New York,New York,NWY-OO,gbif-geocode
+247506296,1.2793587742,103.7981188546,Singapore,SG,West,,MLY-SI,gbif-geocode
+252462960,-6.8682751451,107.6394548171,Indonesia,ID,Jawa Barat,Bandung Barat,JAW-OO,gbif-geocode
+252883649,1.3556722222,103.8075722222,Singapore,SG,North-East,,MLY-SI,gbif-geocode
+253165689,-6.601420882,106.8007380941,Indonesia,ID,Jawa Barat,Bogor,JAW-OO,gbif-geocode
+253166137,-6.6018980556,106.7978313889,Indonesia,ID,Jawa Barat,Bogor,JAW-OO,gbif-geocode
+253905166,5.4634881,100.2293398,Malaysia,MY,Pulau Pinang,Timur Laut,MLY-PM,gbif-geocode
+254653003,6.905473784,158.1637645885,Micronesia,FM,Pohnpei,Kolonia,CRL-MF,gbif-geocode
+256255147,1.2030280187,103.9496682274,,,,,,gbif-geocode
+257475144,2.9203127,101.6362087,Malaysia,MY,Putrajaya,Kuala Langat,MLY-PM,gbif-geocode
+258796067,-16.9058333333,145.7455555556,Australia,AU,Queensland,Cairns,QLD-QU,gbif-geocode
+260696470,1.3550760923,103.8078094181,Singapore,SG,North-East,,MLY-SI,gbif-geocode
+261321274,10.125825,118.8587083333,Philippines,PH,Palawan,Puerto Princesa City,PHI-OO,gbif-geocode
+262277636,-17.7447363262,-149.5672672614,French Polynesia,PF,Îles du Vent,,SCI-OO,gbif-geocode
+263035609,6.8104017035,158.2415147871,Micronesia,FM,Pohnpei,Madolenihmw,CRL-MF,gbif-geocode
+263240492,6.9094966714,158.1567083333,Micronesia,FM,Pohnpei,Kolonia,CRL-MF,gbif-geocode
+263268307,6.9096429694,158.1567006558,Micronesia,FM,Pohnpei,Kolonia,CRL-MF,gbif-geocode
+263278926,6.9095083333,158.1566778333,Micronesia,FM,Pohnpei,Kolonia,CRL-MF,gbif-geocode
+267149885,1.5288417014,110.3648433643,Malaysia,MY,Sarawak,Samarahan,BOR-SR,gbif-geocode
+267486281,-4.6629272036,136.7349148169,Indonesia,ID,Papua,Mimika,NWG-IJ,gbif-geocode
+271451974,1.3108724,103.8152601997,Singapore,SG,West,,MLY-SI,gbif-geocode
+273690463,7.3642431405,125.7788969949,Philippines,PH,Davao del Norte,Carmen,PHI-OO,gbif-geocode
+279464995,-0.9211527778,131.3343194444,Indonesia,ID,Papua Barat,Sorong,NWG-IJ,gbif-geocode
+279468358,-0.918895,131.3394783333,Indonesia,ID,Papua Barat,Sorong,NWG-IJ,gbif-geocode
+289484846,2.9382638889,101.6421027778,Malaysia,MY,Putrajaya,Kuala Langat,MLY-PM,gbif-geocode
+290257769,-9.4658276278,147.5044815615,Papua New Guinea,PG,Central,Kairuku-Hiri,NWG-PN,gbif-geocode
+293022569,1.3149615191,103.8142602147,Singapore,SG,West,,MLY-SI,gbif-geocode
+300005892,-6.0020497781,141.3308666635,Papua New Guinea,PG,Western,North Fly,NWG-PN,gbif-geocode
+303448880,2.8050199383,101.6536388269,Malaysia,MY,Selangor,Sepang,MLY-PM,gbif-geocode
+307352557,10.656425,-71.60927,Venezuela,VE,Zulia,San Francisco,VEN-OO,gbif-geocode
+311936998,-0.9437529132,131.5112775564,Indonesia,ID,Papua Barat,Sorong,NWG-IJ,gbif-geocode
+312385105,1.3417386835,103.829465523,Singapore,SG,West,,MLY-SI,gbif-geocode
+315462630,,,,,,,,place_guess
+320358322,1.3416716667,103.8294666667,Singapore,SG,West,,MLY-SI,gbif-geocode
+322008157,-0.8632358997,134.0747842,Indonesia,ID,Papua Barat,Manokwari,NWG-IJ,gbif-geocode
+323942550,-0.9207348959,131.3432331383,Indonesia,ID,Papua Barat,Sorong,NWG-IJ,gbif-geocode
+325493170,-0.9773972222,131.3599222222,Indonesia,ID,Papua Barat,Kota Sorong,NWG-IJ,gbif-geocode
+327241223,-0.9157388889,131.3343194444,Indonesia,ID,Papua Barat,Sorong,NWG-IJ,gbif-geocode
+330839675,-9.5253590316,147.5212403387,Papua New Guinea,PG,Central,Rigo,NWG-PN,gbif-geocode
+331541691,3.1307075555,101.6581591219,Malaysia,MY,Selangor,Petaling,MLY-PM,gbif-geocode
+331797752,3.1289445,101.656875,Malaysia,MY,Selangor,Petaling,MLY-PM,gbif-geocode
+331841928,-9.833475,160.83725,Solomon Islands,SB,Guadalcanal,Birao,SOL-SO,gbif-geocode
+331841943,-9.8322277778,160.8343805556,Solomon Islands,SB,Guadalcanal,Birao,SOL-SO,gbif-geocode
+331849376,-9.8176138889,160.8168638889,Solomon Islands,SB,Guadalcanal,Birao,SOL-SO,gbif-geocode
+334187001,3.142163,101.644358,Malaysia,MY,Selangor,Petaling,MLY-PM,gbif-geocode
+334298352,3.0163833333,101.6767638889,Malaysia,MY,Kuala Lumpur,Sepang,MLY-PM,gbif-geocode
+334342957,9.7119887,124.0949376,Philippines,PH,Bohol,Loboc,PHI-OO,gbif-geocode
+334770766,-17.8272191578,146.0518316007,Australia,AU,Queensland,Cassowary Coast,QLD-QU,gbif-geocode
+334770790,-17.8271631689,146.0517566567,Australia,AU,Queensland,Cassowary Coast,QLD-QU,gbif-geocode
+338003433,-0.8639055556,134.0852944444,Indonesia,ID,Papua Barat,Manokwari,NWG-IJ,gbif-geocode
+340261947,6.90775,158.1469278333,Micronesia,FM,Pohnpei,Sokehs,CRL-MF,gbif-geocode
+340268399,6.9109293306,158.1575371699,Micronesia,FM,Pohnpei,Kolonia,CRL-MF,gbif-geocode
+340274566,6.9111,158.161775,Micronesia,FM,Pohnpei,Kolonia,CRL-MF,gbif-geocode
+340275013,6.9098666667,158.1613471667,Micronesia,FM,Pohnpei,Kolonia,CRL-MF,gbif-geocode
+341826038,48.163805336,11.5023816892,Germany,DE,Bayern,München (Kreisfreie Stadt),GER-OO,gbif-geocode
+341826138,52.4561280543,13.307944368,Germany,DE,Brandenburg,Potsdam-Mittelmark,GER-OO,gbif-geocode
+342828314,1.3487197679,103.8094738139,Singapore,SG,North-East,,MLY-SI,gbif-geocode
+343928781,1.3990416667,103.8076633333,Singapore,SG,Central,,MLY-SI,gbif-geocode
+345863076,-2.9922305556,140.9275055556,Indonesia,ID,Papua,Keerom,NWG-IJ,gbif-geocode
+346876365,1.3203409714,103.8159583677,Singapore,SG,North-East,,MLY-SI,gbif-geocode
+348439274,1.3447621,103.8223506,Singapore,SG,West,,MLY-SI,gbif-geocode
+349931334,2.76418,103.4997749722,Malaysia,MY,Pahang,Rompin,MLY-PM,gbif-geocode
+351043322,3.1560083333,101.6438366667,Malaysia,MY,Selangor,Petaling,MLY-PM,gbif-geocode
+351472584,-2.9906916667,140.8559277778,Indonesia,ID,Papua,Keerom,NWG-IJ,gbif-geocode
+352788753,7.4319333333,125.8166416667,Philippines,PH,Compostela Valley,Maco,PHI-OO,gbif-geocode
+354863864,7.4799366468,125.8007224649,Philippines,PH,Compostela Valley,Braulio E. Dujali,PHI-OO,gbif-geocode
+355982939,9.5273138889,138.0898583333,Micronesia,FM,Yap,Tamil,CRL-MF,gbif-geocode
+361313290,0.3688610508,102.8278069084,Indonesia,ID,Riau,Pelalawan,SUM-OO,gbif-geocode
+366660611,1.3141916667,103.814195,Singapore,SG,West,,MLY-SI,gbif-geocode
+367640039,0.37313,102.8296583333,Indonesia,ID,Riau,Pelalawan,SUM-OO,gbif-geocode
+371578471,9.70597,124.1101138333,Philippines,PH,Bohol,Dimiao,PHI-OO,gbif-geocode
+371593722,9.7054833333,124.1102138333,Philippines,PH,Bohol,Dimiao,PHI-OO,gbif-geocode
+373447122,-4.5563638889,136.7743472222,Indonesia,ID,Papua,Mimika,NWG-IJ,gbif-geocode
+374252653,-4.5230722222,136.7642361111,Indonesia,ID,Papua,Mimika,NWG-IJ,gbif-geocode
+375745874,-4.5304666667,136.8064277778,Indonesia,ID,Papua,Mimika,NWG-IJ,gbif-geocode
+378956709,1.3141908634,103.8142805298,Singapore,SG,West,,MLY-SI,gbif-geocode
+379033533,-1.0316049941,131.0251020268,Indonesia,ID,Papua Barat,Raja Ampat,NWG-IJ,gbif-geocode
+379290544,13.7491866997,100.5280771997,Thailand,TH,Bangkok Metropolis,Bangkok Noi,THA-OO,gbif-geocode
+380244744,,,,,,,,place_guess
+380572312,1.3102416667,103.81495,Singapore,SG,West,,MLY-SI,gbif-geocode
+382801610,-7.6915934309,110.4256084419,Indonesia,ID,Yogyakarta,Sleman,JAW-OO,gbif-geocode
+382801843,-7.6916566169,110.4254265849,Indonesia,ID,Yogyakarta,Sleman,JAW-OO,gbif-geocode
+382802063,-7.6916754273,110.4255376221,Indonesia,ID,Yogyakarta,Sleman,JAW-OO,gbif-geocode
+382802160,-7.6915054322,110.4252718568,Indonesia,ID,Yogyakarta,Sleman,JAW-OO,gbif-geocode
+383264173,-6.6006135997,106.8009282997,Indonesia,ID,Jawa Barat,Bogor,JAW-OO,gbif-geocode
+383264527,-6.6006324997,106.8006531,Indonesia,ID,Jawa Barat,Bogor,JAW-OO,gbif-geocode
+385906799,-2.0369968,139.1170862,Indonesia,ID,Papua,Sarmi,NWG-IJ,gbif-geocode
+386212580,1.3150833333,103.814445,Singapore,SG,West,,MLY-SI,gbif-geocode
+394273818,-17.7585683672,-149.3686359722,French Polynesia,PF,Îles du Vent,,SCI-OO,gbif-geocode

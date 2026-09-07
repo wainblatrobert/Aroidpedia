@@ -22,6 +22,8 @@ cache is never committed.
 | `<Genus>-species.csv` | The `SPECIES` sheet, flat — paste-ready for a Google Sheet |
 | `<Genus>-synonyms.csv` | The `SYNONYMS` sheet, flat |
 | `<Genus>-names.json` | Every name from both sources, reconciled, for code |
+| `<Genus>-pages.xlsx` / `.csv` | The "all columns" layer: one row per species, one column per page field, built from `research/<genus>/pages/*.md` by `scripts/build-genus-sheets.py` |
+| `<Genus>-base.xlsx` | The same content in the Drive base layout (`SPECIES` / `CULTIVARS` / `HYBRIDS` / `ROW BACKUPS`, the Syngonium and Scindapsus sheet), also from `build-genus-sheets.py`; upload it to Drive as a Google Sheet |
 
 ## The sheets
 
@@ -73,3 +75,21 @@ POWO serves — is published to GBIF (dataset
 and that copy is what the script reads. The `SOURCES` sheet records the
 release date, and every row carries its POWO URL so a name can be checked
 on POWO itself.
+
+## The two workbooks built from the page drafts
+
+```bash
+python scripts/build-genus-sheets.py Cyrtosperma            # pages + base workbooks
+python scripts/build-genus-sheets.py Cyrtosperma --geocode  # also refresh the iNaturalist places cache
+```
+
+`build-genus-sheets.py` reads the page drafts, `<Genus>-names.json`, and the
+GBIF and iNaturalist pulls in `research/<genus>/data/`, and writes both
+workbooks. The base workbook is a blank copy of the Drive base filled from
+the drafts: the same 26 `SPECIES` columns, the `AP %` and `YEAR DESCRIBED`
+formulas, the header colours, and empty `CULTIVARS`, `HYBRIDS` and
+`ROW BACKUPS` sheets. Its `INATURALIST` column follows the Syngonium sheet's
+form (subunit counts within / outside the recorded native range), computed
+from a reverse-geocode of each observation (`--geocode`, GBIF's geocoder,
+cached in `research/<genus>/data/<genus>-inat-places.csv`); without the
+cache it falls back to iNaturalist's free-text place names.

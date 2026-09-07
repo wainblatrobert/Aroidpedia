@@ -3,7 +3,7 @@
 **Status:** accepted (POWO/WCVP).
 **Protologue of the combination:** N.E. Brown, Gard. Chron. n.s. 18: 808 (23 Dec 1882), "Cyrtosperma Johnstoni, N.E.Br. (= Alocasia Johnstoni, Hort.)".
 **Basionym:** *Alocasia johnstonii* W.Bull ex T.Moore & Mast., Gard. Chron. n.s. 5: 603 (6 May 1876), in the report of Mr Bull's six new plants at the Brussels show: "Alocasia Johnsoni [sic], from New Guinea, a species having purple, mottled stalks, furnished with short prickles arranged in groups, and arrow-shaped, erect, dark green leaves veined with red." Hay (1988) had taken W. Bull's Retail List 143: 154 (1878) as the place of publication; Hay (2020) shows the basionym was validly published earlier and neotypifies it. WCVP/IPNI now cite the 1876 report.
-**Type:** Hay (1988) designated N.E. Brown s.n., cult. Kew (K) as lectotype; Hay (2020, Aroideana 43: 108) neotypifies the basionym. Kew sheets K000499263 (lectotype) and K000499264 are imaged.
+**Type:** Hay (1988) designated as lectotype the sterile leaves Bull sent to Kew on 20 September 1878 (K000499264). Because the basionym dates from 1876, that sheet is not original material, and Hay (2020, Aroideana 43: 110) designated a neotype: D.H. Nicolson 976, 3 May 1961, cult. Bogor Botanic Garden, plant II.Q.F.35 (US, 2 sheets, barcodes 03822207 & 03822208; isoneo BO, L QR L.1415514). Kew sheets K000499263 and K000499264 are imaged.
 **Informal group:** Merkusii group.
 **IDs:** IPNI 86822-1 · POWO urn:lsid:ipni.org:names:86822-1 · WCVP 54887 · WFO wfo-0000936218 · GBIF 206541548? (see CSV) · iNat taxon 344195.
 
@@ -41,17 +41,64 @@ Peduncle shorter than the petioles. Spathe deeply and narrowly boat-shaped,
 9–c. 40 cm, abruptly more deeply concave above, erect, dark purple outside,
 pale dirty yellowish green within; spadix 7–25 cm, shortly free-stipitate,
 somewhat glaucous. Flowers hexamerous; anthers exserted at male anthesis;
-ovary 1–2-ovulate. Fruit and seed unknown to Hay (1988); fertility is the
-subject of Hay (2020).
+ovary 1–2-ovulate. Fruit and seed unknown to Hay (1988); fruit now
+recorded in cultivation (Hay 2020, see below).
 
 The plant is phenotypically very variable with age and culture: young plants
 show the brilliant pink costae, well-grown ones the dark blotching, and a
 mature clump carries the whole range of inflorescence sizes at once.
 
+## Hay (2020), Aroideana 43(3–4): 108–117
+
+"Notes on the typification, origin, and fertility of *Cyrtosperma johnstonii*
+(Araceae–Lasioideae)" — read 2026-09-07 from the Drive text export
+(`LITERATURE`, Aroideana43N3.txt).
+
+- **History.** Introduced by William Bull (King's Road, Chelsea) in 1875;
+  exhibited as 'Alocasia johnstoni' at the centenary exhibition of the Société
+  Royale de Flore, Brussels, 1876 (top gold medal for Bull's new plants;
+  reported by Masters, 6 May 1876, and Wittmack, September 1876); again at
+  Carlisle, September 1877; first offered in Bull's Retail List 143 (1878)
+  p. 154. Kew received foliage in September 1878; André (1880) thought it might
+  be a *Lasia*; it first flowered at the Compagnie Continentale
+  d'Horticulture, Ghent, in 1882, Brown received the bloom on 11 December and
+  published the combination on 23 December 1882. Beccari's *C. johnstonii*
+  (1885) is an isonym.
+- **Typification.** Masters' report antedates Bull's catalogue, so the
+  authority becomes W.Bull ex Mast. (Hay's form; IPNI/POWO: W.Bull ex T.Moore
+  & Mast.) and the 1988 lectotype falls; neotype Nicolson 976 (US) designated.
+  Masters wrote 'johnsoni', Bull 'johnstoni'; corrected to *johnstonii* under
+  Art. 60.8(b).
+- **Origin.** Labelled "from New Guinea" at Brussels; "Solomon Islands" in
+  Bull's catalogues from 1878, never corroborated. Waterhouse 42-B (Buka) "a
+  very optimistic connection at best". Patrick Blanc's 2019 photographs of a
+  *Cyrtosperma* at Tenaru Falls, Guadalcanal, show combed prickles but a
+  solitary-leaved forest-understorey plant — possibly a new species. First
+  wild collections: NMNS Taiwan / Solomon Islands Ministry of Forests
+  inventory — SITW03642 (Tian-Chuan Hsu et al., 4 Oct 2013, Vangunu Island,
+  stream near Zaira village, 8°44'49"S 157°58'11"E) and SITW01542 (T.-Y.
+  Aleck Yang et al., 10 Apr 2013, Vella Lavella Island, Sanapro village,
+  7°55'24"S 156°42'23"E), both juvenile, both TNM on-line (figs 1–2).
+- **Fertility.** 2n = 26 (Marchant 1973), so not a sterile triploid;
+  fruiting plants photographed in Singapore Botanic Gardens (Feb 2019, James
+  Park; fig. 3) and at Tully, North Queensland (M. Pascall; fig. 4: immature
+  fruiting spadix c. 15 cm, spathe remnant almost black, tepals purple-black,
+  berries ripening yellow from the tip down). Blooms mechanically
+  self-incompatible (pollen shed after the stigmas cease to be receptive);
+  rarity of fruit set with several blooms suggests genetic
+  self-incompatibility of the clone as well. No vouchers of the fruiting
+  plants yet.
+- **Ecology.** At Bogor (Alderwerelt 1920; Hay's own memory of 1987) it grew
+  far better as an emergent aquatic, petioles to 2.5 m: a helophyte, not an
+  understorey plant. At least three *Cyrtosperma* species in the Solomons
+  archipelago (*C. johnstonii*, *C. bougainvillense*, *C. merkusii* wild and
+  edible forms); more island endemics likely in the western Pacific.
+- The Johnston honoured could not be identified (Hay, Mabberley, Thomson).
+
 ## Distribution and habitat
 
 - **POWO:** Solomon Is. (native).
-- **Hay 1988:** known only from cultivation, said to have come from the Solomon Islands; one putative wild juvenile, Waterhouse 42-B (K), Hapan, Buka Island, "open country". **Hay 2020** (abstract): the first wild-collected specimens were gathered in 2013 in the New Georgia group, Western Province, Solomon Islands.
+- **Hay 1988:** known only from cultivation, said to have come from the Solomon Islands; one putative wild juvenile, Waterhouse 42-B (K), Hapan, Buka Island, "open country". **Hay 2020:** first wild-collected specimens, 2013, New Georgia group, Western Province (Vangunu, Vella Lavella; see above).
 - **GBIF:** 60 records (43 specimens), 1878–2026: Solomon Islands 17, then cultivated material from the USA, Germany, France, Brazil, Singapore, Trinidad, Thailand, Australia, Belgium; elevation 2–700 m.
 - **iNaturalist:** 36 observations (2011–2026), 24 flagged cultivated and 12 wild (Solomon Islands 3, plus botanic-garden plants in Singapore, the USA and elsewhere), 9 research grade. 88 photos, 64 copied (CC BY-NC 47, CC BY 11, CC BY-NC-SA 5, CC BY-SA 1); 24 all-rights-reserved listed only.
 
@@ -70,8 +117,8 @@ mature clump carries the whole range of inflorescence sizes at once.
 
 ## Still to obtain
 
-- Hay, A. (2020). Notes on the typification, origin, and fertility of *Cyrtosperma johnstonii* (Araceae–Lasioideae). Aroideana 43(3–4): 108–. IAS members' PDF: https://www.aroid.org/resources/Publications/Aroideana/Aroideana43n3.pdf
 - Okonogi et al. 2012, Pharm. Biol. 50: doi 10.3109/13880209.2012.729064 (paywalled).
+- Vouchers and seed morphology of the fruiting plants (none yet, per Hay 2020).
 
 ## References
 

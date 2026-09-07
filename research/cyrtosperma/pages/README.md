@@ -16,9 +16,16 @@ which the API script regenerates.
 
 Every statement carries a superscript pointing at the numbered reference.
 A field marked ⚠ could not be filled from the sources in hand: for
-*C. hambalii* and *C. timikense* the protologues are in the Aroideana run
-on the Drive; for *C. hayii* the Phytotaxa paper is paywalled; several
-species have no photograph of a living plant anywhere the search reached.
+*C. hayii* the Phytotaxa paper is paywalled; several species have no
+photograph of a living plant anywhere the search reached. The Aroideana
+protologues of *C. hambalii* and *C. timikense*, and the 2020 papers on
+*C. giganteum* and *C. johnstonii*, were read from the Drive's text exports
+on 2026-09-07 and are now in the drafts.
+
+`scripts/build-genus-sheets.py Cyrtosperma` rebuilds the two workbooks from
+these files: `Cyrtosperma-pages.xlsx` (this schema, one column per field)
+and `Cyrtosperma-base.xlsx` (the Drive base layout used for Syngonium and
+Scindapsus, which is what the Google Sheet `Cyrtosperma` was made from).
 
 Tags: New Guinea and the Solomons are tagged Oceania, as
 `docs/geo-hierarchy.json` places them, and Malesia as Asia; the 2021

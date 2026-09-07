@@ -20,7 +20,7 @@ SPECIES DESCRIPTION:
 Herb to 55 cm tall. Leaves several, hastate, armed on the petiole and on the underside and margins of the blade; petioles to 50 cm long with a sheath 11 cm long; blade to 40 cm long, coriaceous; spines sparse, straight to very slightly curved, to 5 mm long; anterior lobe oblong, gradually acuminate, subequalling the posterior lobes; two anterior costae emerging near the sinus, curvinerved, running to the margin near the tip; posterior lobes broadly lanceolate, their midribs naked in the sinus for c. 3 cm.²
 
 INFLORESCENCE:
-Spathe broadly ovate, clasping in the lower fifth, c. 12 cm long and to 8 cm wide when flattened, deep reddish brown with yellow, widely reticulate venation that persists as a skeleton around the fruiting spadix; spadix with a 4 mm stipe adnate to the spathe, the fertile part c. 2.5 cm long and 5 mm wide. Flowers tetramerous; anthers not exserted from the tepals at male anthesis; stigmas raised 1–2 mm on the conical apex of the ovary. Fruit ovoid, capped by the style and stigma. Seed smooth.²
+Spathe broadly ovate, clasping in the lower fifth, c. 12 cm long and to 8 cm wide when flattened, deep reddish brown with yellow, widely reticulate venation that persists as a skeleton around the fruiting spadix; spadix with a 4 mm stipe adnate to the spathe, the fertile part c. 2.5 cm long and 5 mm wide. Flowers tetramerous; anthers exserted from the tepals at male anthesis (Hay wrote in 1988 that they were not, from limited herbarium material, and corrected this from living plants in 2001); stigmas raised 1–2 mm on the conical apex of the ovary. Fruit ovoid, capped by the style and stigma. Seed smooth.²
 
 ECOLOGY:
 Lowland and lower montane rainforest undergrowth at 200–700 m.²
@@ -35,9 +35,11 @@ NOTES:
 1. The sole member of Hay's Carrii group: lower spathe convolute, flowers tetramerous, style conical and persisting on the fruit.²
 2. The net of yellow veins that remains as a skeleton around the fruiting spadix after the spathe tissue has gone is unique in the genus.²
 3. "Cyrtosperma carrii would seem to have horticultural potential", Hay wrote in 1988;² a cultivated plant was recorded on iNaturalist in 2025.³
+4. Dearden & Hay (2001) note that C. hambalii recalls this species in its dark spathe and exserted stamens, and record that the stamens of C. carrii are exserted at male anthesis, correcting the 1988 account.⁵
 
 REFERENCES:
 1. Plants of the World Online, Royal Botanic Gardens, Kew — Cyrtosperma carrii. https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:935718-1
 2. Hay, A. 1988. Cyrtosperma (Araceae) and its Old World allies. Blumea 33: 427–469 — protologue, p. 450. https://repository.naturalis.nl/pub/526134
 3. iNaturalist: Cyrtosperma carrii. https://www.inaturalist.org/taxa/430921
 4. GBIF occurrence download for Cyrtosperma, 2026-09-05 (8 records). https://www.gbif.org/species/2871903
+5. Dearden, A. & Hay, A. 2001. A new species of Cyrtosperma (Araceae) from West Papua. Aroideana 24: 102–104.

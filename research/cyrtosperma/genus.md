@@ -62,8 +62,10 @@ Hariri et al. (2024) continue to use:
   *C. brassii*, *C. bougainvillense*, and tentatively *C. giganteum*.
 - **Cuspidispathum group** — stamens not exserted; upper spathe twisted
   through at least a full turn or lower spathe convolute with hexamerous
-  flowers. *C. cuspidispathum*, *C. kokodense*. (*C. timikense*, 2020, "most
-  resembles *C. cuspidispathum*".)
+  flowers. *C. cuspidispathum*, *C. kokodense*. *C. timikense* (2020) "most
+  resembles *C. cuspidispathum*" in size, spathe and prickles, but its anthers
+  **are** exserted at male anthesis, so it does not sit comfortably in the
+  group as Hay defined it; its authors place it by resemblance, not by key.
 - **Carrii group** — lower spathe convolute, flowers tetramerous. *C. carrii*.
 - **Macrotum group** — lower spathe not convolute, flowers hexa-, penta- or
   tetramerous. *C. macrotum*, *C. beccarianum*, and (Hariri et al. 2024)
@@ -103,8 +105,11 @@ Hay (2001), Hay & Imran (2020), Raynalta et al. (2024) and Hariri et al.
 ## Biology (Hay 1988)
 
 - Flowers are protogynous and the species studied are self-sterile;
-  *C. johnstonii*, which fails to set seed in cultivation, is probably a single
-  clone (Hay 1988: 439), a point Hay (2020) revisits.
+  *C. johnstonii*, which almost never sets seed in cultivation, is probably a
+  single clone (Hay 1988: 439). Hay (2020) revisited this: the plant does
+  fruit (Singapore 2019, north Queensland), it is diploid and now known from
+  the wild, so it is not sterile; each bloom is mechanically self-incompatible
+  and the clone is probably genetically self-incompatible as well.
 - In *C. cuspidispathum* the stigmas become receptive in a rapid basipetal
   sequence over about two days and stay receptive, each bearing a nectar
   drop, for about three weeks unless pollinated; pollen is released only
@@ -117,7 +122,9 @@ Hay (2001), Hay & Imran (2020), Raynalta et al. (2024) and Hariri et al.
   *C. macrotum*.
 - Ripe fruits are expelled from the spadix and hang by the stripped tepal
   epidermis in *C. cuspidispathum* (and perhaps *C. kokodense*), a mechanism
-  otherwise known in *Anthurium*.
+  otherwise known in *Anthurium*; Imran has since seen it in *C. hambalii*
+  near Timika (Hay & Imran 2020, note added in proof). In *C. giganteum* and
+  *C. timikense* the berries protrude from the tepals but stay on the spadix.
 - Chromosomes: *C. johnstonii* 2n = 26 (Marchant 1973, cited by Hay).
 - Seeds carry the characters Hay used most: helically twisted and stony in
   *C. bougainvillense*, crested in *C. merkusii*, smooth in the Macrotum
@@ -148,6 +155,12 @@ Thai traditional medicine now studied for its flavonoids (Naksuriya et al.
   pack (`Hay-1988-Blumea-33/`).
 - Engler 1911 (Pflanzenreich) figs 5, 7, 8 — but note fig. 6, captioned
   *C. edule*, is *C. cuspidispathum* (Hay).
+- Aroideana photographs (in the PDFs on the Drive, not in the pack): Imran's
+  four figures of *C. giganteum* and seven of *C. timikense* (2020), the first
+  published images of either; Hay (2020) figures two wild-collected juvenile
+  *C. johnstonii* sheets from the Solomons (TNM) and two fruiting plants
+  (Singapore, north Queensland); Dearden & Hay (2001) figure *C. hambalii* in
+  flower and its inflorescence.
 - Type specimens: 33 sheet images (Kew, Leiden, BM, Harvard, Geneva).
 - iNaturalist: 216 observations, 339 reusable photos, chiefly *C. merkusii*
   and *C. johnstonii*; the genus-level observations (38) may hide the
@@ -157,6 +170,7 @@ Thai traditional medicine now studied for its flavonoids (Naksuriya et al.
 
 See `bibliography.md`. Core: Hay (1988) Blumea 33: 427–469; Engler (1911)
 Pflanzenreich IV.23C: 14–24; Dearden & Hay (2001) Aroideana 24: 102–104;
-Hay & Imran (2020) Aroideana 43(3–4): 4, 97–107; Hay (2020) Aroideana 43(3–4):
-108; Raynalta et al. (2024) Phytotaxa 641: 235–237; Hariri et al. (2024)
-Webbia 79: 291–294.
+Hay & Imran (2020) Aroideana 43(3–4): 4–11, 97–107; Hay (2020) Aroideana
+43(3–4): 108–117; Raynalta et al. (2024) Phytotaxa 641: 235–237; Hariri et al.
+(2024) Webbia 79: 291–294. The four Aroideana papers were read on 2026-09-07
+from the Drive's text exports of both issues.

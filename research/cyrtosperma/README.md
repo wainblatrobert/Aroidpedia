@@ -17,7 +17,7 @@ dossier says so and gives the exact reference and URL.
 |---|---|
 | `genus.md` | Genus overview: circumscription, history, informal groups, excluded names, biology |
 | `species/<epithet>.md` | One dossier per POWO-accepted species (15): what each source says |
-| `pages/<epithet>.md` | Every page field per species in the card's labelled-section schema, ready to paste; also as `data/species-base/Cyrtosperma-pages.xlsx` |
+| `pages/<epithet>.md` | Every page field per species in the card's labelled-section schema, ready to paste; also as `data/species-base/Cyrtosperma-pages.xlsx` and, in the Drive base layout, `Cyrtosperma-base.xlsx` (both built by `scripts/build-genus-sheets.py`) |
 | `bibliography.md` | Every source used or sought, with its status (held / login-only / paywalled / not found) and where it lives |
 | `bibliography.json` | The same, machine-readable |
 | `data/cyrtosperma-gbif-occurrences.csv` | All 1,086 GBIF occurrence records for the genus (specimens, observations, types) |
@@ -27,6 +27,7 @@ dossier says so and gives the exact reference and URL.
 | `data/cyrtosperma-inat-photos.csv` | All 441 iNaturalist photos: licence, attribution, observer, URL, and whether a copy was taken |
 | `data/protologue-scans.csv` | Index of every protologue / treatment page scan taken from Internet Archive or rendered from a PDF |
 | `data/papers.csv` | Index of the downloaded papers |
+| `data/cyrtosperma-inat-places.csv` | Reverse-geocoded place of every iNaturalist observation (country, province, TDWG unit), for the base sheet's INATURALIST column |
 
 ## What is NOT in this folder (delivered separately, never committed)
 
@@ -36,6 +37,23 @@ and several hundred megabytes, so they travel as zip files to be dropped into
 the Drive species folders (`GENERA/Cyrtosperma/<species>/`), not into a
 public repository. Every file in those zips is listed in the CSVs above with
 its licence and source URL, so any of it can be re-fetched.
+
+## On the Drive
+
+| What | Where |
+|---|---|
+| The genus workbook, as a Google Sheet | **Cyrtosperma** at the Drive root, beside Syngonium and Scindapsus: https://docs.google.com/spreadsheets/d/1DPdZS0Mb7NXf0WkWZiHnPp6Sbaidjmu4ERtSgKV-61U — the `SPECIES` tab of `data/species-base/Cyrtosperma-base.xlsx`, verified identical to the local file after upload |
+| This README and `genus.md` | `GENERA/Cyrtosperma/Research pack/` |
+| Species photographs and scans | `GENERA/Cyrtosperma/Species - Cyrtosperma/<species>/` (the 15 folders already exist); the zips from the chat unpack into the role folders |
+| Papers and page scans | `GENERA/Cyrtosperma/Literature/` (with `EXTRACTS/`), following the Scindapsus layout |
+| The Aroideana issues read for this build | `LITERATURE` — Aroideana24.pdf and Aroideana43n3.pdf, with the text exports aroideana24.txt and Aroideana43N3.txt |
+
+The Google Sheet carries only the `SPECIES` tab. The four-tab base
+(`SPECIES` / `CULTIVARS` / `HYBRIDS` / `ROW BACKUPS`, with the same columns
+and formulas as the Syngonium and Scindapsus sheets) is
+`data/species-base/Cyrtosperma-base.xlsx` in this repo: upload it to Drive,
+or use File > Import > Insert new sheet(s) on the Sheet, to add the three
+empty tabs.
 
 ## How the sources were reached
 
@@ -58,8 +76,12 @@ its licence and source URL, so any of it can be re-fetched.
   later refused the sandbox altogether ("forbidden by administrative rules").
   The house holds the complete run on the Drive (`LITERATURE`, folders
   `Croat - Aroideana` and `Gibernau-Aroideana`, catalogued in `_INDEX`), so
-  the four Cyrtosperma papers — Aroideana 24: 102–104 (2001) and 43(3–4): 4,
-  97–107 and 108 (2020) — come from there, not from the web.
+  the four Cyrtosperma papers — Aroideana 24: 102–104 (2001) and 43(3–4):
+  4–11, 97–107 and 108–117 (2020) — come from there, not from the web: the
+  Drive's text exports of both issues (aroideana24.txt, Aroideana43N3.txt)
+  were read on 2026-09-07 and the papers are transcribed into the dossiers
+  and page drafts of C. hambalii, C. timikense, C. giganteum and
+  C. johnstonii. The figures remain in the PDFs on the Drive.
 - **Phytotaxa** (C. hayii, 2024) is paywalled; only the citation metadata was
   captured.
 

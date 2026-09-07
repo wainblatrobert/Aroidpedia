@@ -21,7 +21,9 @@ lower fifth, c. 12 cm long and to 8 cm wide flattened, deep reddish brown with
 yellow, widely reticulate venation that persists as a "skeleton" around the
 fruiting spadix; spadix with a 4 mm stipe adnate to the spathe, fertile part
 c. 2.5 cm (printed "25 cm", evidently a slip) × 5 mm. Flowers tetramerous;
-anthers not exserted; stigmas raised 1–2 mm on the conical apex of the ovary.
+anthers exserted at male anthesis (Hay 1988 said not exserted, from limited
+herbarium material; corrected from living plants by Dearden & Hay 2001: 104);
+stigmas raised 1–2 mm on the conical apex of the ovary.
 Fruit ovoid, capped by the style and stigma. Seed smooth.
 
 ## Distribution and habitat
