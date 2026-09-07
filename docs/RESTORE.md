@@ -11,7 +11,7 @@ most of which is downloads.
 | Site code and content (`aroidpedia-site`) | GitHub `wainblatrobert/aroidpedia-site` | Drive bare mirror |
 | Data repo (`Aroidpedia`) | GitHub `wainblatrobert/Aroidpedia` | Drive bare mirror |
 | Local commits not yet on GitHub | this laptop only | Drive bare mirror |
-| Uncommitted edits in either repo | this laptop only | Drive `working-files\` |
+| Uncommitted edits in either repo | this laptop only | Drive `working-files\uncommitted\` |
 | Climate scratch folder (`aroidpedia-climate`) | this laptop only | Drive `working-files\` |
 | Claude memory notes | this laptop only | Drive `working-files\claude-memory` |
 | Species photos, literature, sheets, builders | Google Drive `PlantsV2\Aroidpedia\` | Drive is the primary |
@@ -51,16 +51,27 @@ every branch, so `git branch -a` after the fetch shows the full picture.
 **4. Copy the working files back** from `BACKUPS\working-files\`:
 `aroidpedia-climate` to `C:\Users\<you>\Claude\aroidpedia-climate`, and
 `claude-memory` to `C:\Users\<you>\.claude\projects\C--Users-<you>-Claude\memory`.
-The `*-worktree` folders are the uncommitted state of each repo. Compare them
-against the fresh clone and copy across only what git did not have; do not
-overwrite a clean clone wholesale.
 
-**5. Install dependencies.** `npm install` in `aroidpedia-site` and in
+**5. Replay the uncommitted work.** `working-files\uncommitted\<repo>\` holds,
+for each working tree, what git never carried:
+
+- `_git-status.txt` is the manifest, so you can see what was in flight.
+- `_uncommitted.patch` is every tracked edit. Apply it in the fresh clone with
+  `git apply _uncommitted.patch`.
+- everything else in that folder is an untracked file, at its original relative
+  path. Copy those in.
+
+Apply the patch to a clone standing at the same commit the status file names.
+If it does not apply cleanly, read it rather than forcing it: it is small, a few
+kilobytes, and the edits were mostly to shared files like `nav.json` and
+`genus-media.json`.
+
+**6. Install dependencies.** `npm install` in `aroidpedia-site` and in
 `aroidpedia-climate`. Python packages used by the builders: `openpyxl`,
 `pillow`, `pymupdf` (imported as `fitz`), `gspread` and its Google auth
 libraries, `requests`.
 
-**6. Re-create the secrets.** `Aroidpedia\.env` is deliberately absent from the
+**7. Re-create the secrets.** `Aroidpedia\.env` is deliberately absent from the
 backups. Re-issue the Cloudflare R2 token and refill these keys:
 `R2_ACCOUNT_ID`, `R2_BUCKET`, `R2_PUBLIC_BASE`, `R2_ACCESS_KEY_ID`,
 `R2_SECRET_ACCESS_KEY`. The GitHub Actions secrets live in GitHub, not here, and
@@ -68,7 +79,7 @@ survive a laptop loss: `CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_API_TOKEN`,
 `RESEND_API_KEY`. Google Sheets access is whatever account the sheets are shared
 with.
 
-**7. Re-arm the backup.** Copy `tools\backup-nightly.ps1` into place and
+**8. Re-arm the backup.** Copy `tools\backup-nightly.ps1` into place and
 register the task again:
 
 ```bash
@@ -82,7 +93,7 @@ site's 3.3 GB `capture\` folder, and the Natural Earth / WorldClim / POWO
 caches. All of it comes back from an install, a build, or a re-download, and
 including it would turn a few-megabyte nightly delta into gigabytes.
 
-**Secrets.** See step 6.
+**Secrets.** See step 7.
 
 ## Publishing, so a restore does not surprise you
 
