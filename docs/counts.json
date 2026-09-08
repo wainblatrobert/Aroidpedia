@@ -1,21 +1,28 @@
 {
-  "species": 393,
-  "cultivars": 64,
-  "hybrids": 155,
+  "species": 466,
+  "cultivars": 70,
+  "hybrids": 156,
   "hybridCultivars": 15,
   "unclassified": 0,
-  "genera": 3,
+  "genera": 4,
   "byGenus": {
     "Alocasia": {
-      "total": 332,
+      "total": 339,
       "species": 118,
-      "cultivars": 54,
-      "hybrids": 151,
+      "cultivars": 60,
+      "hybrids": 152,
       "hybridCultivars": 9
     },
     "Amorphophallus": {
       "total": 248,
       "species": 248,
+      "cultivars": 0,
+      "hybrids": 0,
+      "hybridCultivars": 0
+    },
+    "Monstera": {
+      "total": 73,
+      "species": 73,
       "cultivars": 0,
       "hybrids": 0,
       "hybridCultivars": 0
@@ -30,7 +37,7 @@
   },
   "byGenusGeo": {
     "Alocasia": {
-      "total": 332,
+      "total": 339,
       "placed": 159,
       "zones": {
         "asia": 158,
@@ -44,6 +51,13 @@
         "africa": 40,
         "asia": 207,
         "austral": 2
+      }
+    },
+    "Monstera": {
+      "total": 73,
+      "placed": 73,
+      "zones": {
+        "americas": 73
       }
     },
     "Arum": {
@@ -78,12 +92,19 @@
   },
   "unresolvedTags": {
     "Türkiye": 15,
+    "Mexico Gulf": 9,
+    "Veracruz": 9,
+    "Mexico Southeast": 8,
     "Kriti": 8,
+    "Chiapas": 7,
     "Lebanon": 7,
     "Syria": 7,
+    "Mexico Southwest": 6,
     "Cyprus": 6,
     "Italy": 6,
     "Greece": 6,
+    "Oaxaca": 5,
+    "Brazil North": 5,
     "Armenia": 5,
     "Azerbaijan": 5,
     "Georgia-GE": 5,
@@ -93,17 +114,10 @@
     "Bosnia and Herzegovina": 5,
     "Croatia": 5,
     "Montenegro": 5,
-    "East Aegean Is-": 4,
-    "France": 4,
-    "Albania": 4,
-    "Bulgaria": 4,
-    "Kosovo": 4,
-    "North Macedonia": 4,
-    "Poland": 4,
-    "Serbia": 4,
-    "Slovenia": 4
+    "Tabasco": 4,
+    "East Aegean Is-": 4
   },
-  "updatedAt": "2026-09-07T14:12:56.186Z",
+  "updatedAt": "2026-09-08T06:16:30.924Z",
   "source": "https://www.aroidpedia.com/journal",
-  "totalItemsScanned": 627
+  "totalItemsScanned": 707
 }
