@@ -27,6 +27,19 @@ import argparse
 import json
 import mimetypes
 import sys
+
+# ⚠ THE CONSOLE IS cp1252 ON THIS MACHINE AND THE CORPUS IS NOT. Photographer
+# and author names carry characters cp1252 cannot encode - "Cedeño-Fonseca" is
+# fine, "Jaroslav Čech" is not - and a bare print() of a filename then raises
+# UnicodeEncodeError and kills the run. That is survivable in --report; it is
+# not survivable mid-upload, and lines 290/299 print a filename on EVERY run.
+# Reconfiguring stdout costs nothing and removes the whole class.
+for _s in (sys.stdout, sys.stderr):
+    try:
+        _s.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:
+        pass
+
 from pathlib import Path
 
 # The Zscaler proxy's root CA lives in the Windows store, not certifi, and
