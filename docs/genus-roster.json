@@ -1,6 +1,6 @@
 {
  "version": "1.0.0",
- "generated": "2026-08-31",
+ "generated": "2026-09-08",
  "source": "docs/araceae-tree.v1.json + data/genus-roster-overrides.json",
  "note": "ascend is generated from the tree and must be corrected there, not here.",
  "count": 150,

@@ -9,7 +9,7 @@
    Then paste this block into the header injection, replacing the
    existing "AP.GENERA = { ... };" statement and nothing else.
 
-   150 genera · roster v1.0.0 · 2026-08-31
+   150 genera · roster v1.0.0 · 2026-09-08
    ===================================================================== */
   AP.GENERA = {
     "adelonema": { ascend: { sub: "Aroideae", tribe: "Philodendreae" } },
