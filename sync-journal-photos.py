@@ -216,6 +216,13 @@ def species_path(folder_name: str, genus: str) -> str | None:
     clean = []
     for p in parts[1:]:
         p = p.lower().replace("'", "").replace("’", "").replace("‘", "")
+        # v9 (9.8.26): AND THE PERIOD, for the same reason as the quotes. An
+        # unknown base species publishes as "Monstera sp. 'Jungle Mint'", whose
+        # post slug is monstera-sp-jungle-mint - slugify collapses ". " to one
+        # hyphen. Left in, this produced `sp.-jungle-mint`, so the card looked
+        # for `monstera/sp-jungle-mint`, missed by one character, and rendered
+        # the cultivar with no photos and no error. Same for var. and subsp.
+        p = p.replace(".", "")
         # v8 (1.9.26): A FORMAL HYBRID FORMULA. "Arum italicum × Arum
         # maculatum" is a real post; the lowercase " x " folders above are
         # breeders' working material (Amorphophallus has 8, Alocasia 10) and
