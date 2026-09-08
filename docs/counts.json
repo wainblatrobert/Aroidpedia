@@ -1,8 +1,8 @@
 {
   "species": 466,
-  "cultivars": 70,
+  "cultivars": 79,
   "hybrids": 156,
-  "hybridCultivars": 15,
+  "hybridCultivars": 18,
   "unclassified": 0,
   "genera": 4,
   "byGenus": {
@@ -21,11 +21,11 @@
       "hybridCultivars": 0
     },
     "Monstera": {
-      "total": 73,
+      "total": 85,
       "species": 73,
-      "cultivars": 0,
+      "cultivars": 9,
       "hybrids": 0,
-      "hybridCultivars": 0
+      "hybridCultivars": 3
     },
     "Arum": {
       "total": 47,
@@ -54,7 +54,7 @@
       }
     },
     "Monstera": {
-      "total": 73,
+      "total": 85,
       "placed": 73,
       "zones": {
         "americas": 73
@@ -117,7 +117,7 @@
     "Tabasco": 4,
     "East Aegean Is-": 4
   },
-  "updatedAt": "2026-09-08T12:50:26.012Z",
+  "updatedAt": "2026-09-08T20:19:47.520Z",
   "source": "https://www.aroidpedia.com/journal",
-  "totalItemsScanned": 707
+  "totalItemsScanned": 719
 }
