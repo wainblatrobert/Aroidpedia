@@ -37,7 +37,7 @@ OUTPUT  docs/search-index.json
         {"t": "Alocasia 'Albatuwan'",
          "g": "Alocasia",
          "c": "hybrid",
-         "u": "/journal/alocasia-albatuwan",
+         "u": "/archive/alocasia-albatuwan",
          "s": "alocasia albatuwan",
          "p": "Alocasia alba x Alocasia ‘Sintang’"},
         ...
@@ -91,10 +91,10 @@ there's something to work from rather than a silent "returned nothing".
 
 WHAT COUNTS AS AN ENTRY
 The sitemap lists tag and category archive pages under the same path as
-real posts (/journal/tag/Borneo, /journal/category/Cultivar). Those are not
+real posts (/archive/tag/Borneo, /archive/category/Cultivar). Those are not
 entries - crawling them wastes requests and pollutes the index - so they
 are filtered out before anything is fetched. This already covers the new
-/journal/category/Hybrid+Cultivar archive; no change was needed for it.
+/archive/category/Hybrid+Cultivar archive; no change was needed for it.
 
 REFUSING A PARTIAL INDEX
 If pages fail (rate limiting, a blip), the previous cached copy is reused
@@ -137,7 +137,10 @@ from datetime import datetime, timezone
 import requests
 
 SITE = os.environ.get("AP_SITE", "https://www.aroidpedia.com").rstrip("/")   # AP_SITE overrides for a local test
-COLLECTION_PATH = "/journal"
+# 2026-09-11: the archive moved from /journal to /archive (the old addresses are permanent
+# 301s). Every path below is built from this prefix, and a record's own fullUrl from
+# /records.json wins in extract_url(), so the next move needs no edit here at all.
+COLLECTION_PATH = os.environ.get("AP_COLLECTION", "/archive").rstrip("/")
 COLLECTION_ID = "5ecf40ddda96fb2d2d4da53e"      # from the live site
 OUT_PATH = os.path.join("docs", "search-index.json")
 CACHE_PATH = os.path.join("docs", "search-index-cache.json")
@@ -151,8 +154,8 @@ WORKERS = 4                                      # concurrent page fetches
 REQUEST_DELAY = 0.25                             # per worker, before each request
 MAX_FAIL_RATE = 0.02                             # abort above 2% unrecovered failures
 
-# Sitemap paths that live under /journal/ but are not entries.
-NON_ENTRY_SEGMENTS = ("/journal/tag/", "/journal/category/", "/journal/author/")
+# Sitemap paths that live under the collection but are not entries.
+NON_ENTRY_SEGMENTS = tuple(f"{COLLECTION_PATH}/{seg}/" for seg in ("tag", "category", "author"))
 
 # Recognised entry categories, normalised (lower-case, single-spaced),
 # mapped to the CANONICAL value written into the index.
@@ -387,7 +390,7 @@ def read_sitemap():
             # Tag / category / author archives sit under the same path but
             # are not entries. Skipping them here saves ~100 requests a run
             # and keeps archive pages out of the index. This already covers
-            # /journal/category/Hybrid+Cultivar - the filter is on the path
+            # /archive/category/Hybrid+Cultivar - the filter is on the path
             # segment, not on a list of known category names, so a new
             # category never needs adding here.
             if any(seg in url for seg in NON_ENTRY_SEGMENTS):

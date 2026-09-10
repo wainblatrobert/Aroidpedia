@@ -86,7 +86,7 @@ jobs:
         run: node scripts/update-counts.mjs
         env:
           SITE_ORIGIN: "https://www.aroidpedia.com"
-          COLLECTION_PATH: "/journal"
+          COLLECTION_PATH: "/archive"
           OUT_FILE: "docs/counts.json"
 
       # v2: replaces the bare `git commit && git push`.

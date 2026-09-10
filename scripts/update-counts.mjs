@@ -118,7 +118,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const SITE_ORIGIN = process.env.SITE_ORIGIN || "https://www.aroidpedia.com";
-const COLLECTION_PATH = process.env.COLLECTION_PATH || "/journal";
+const COLLECTION_PATH = process.env.COLLECTION_PATH || "/archive";   // the archive moved from /journal on 2026-09-11
 const OUT_FILE = process.env.OUT_FILE || "docs/counts.json";
 const SHAPES_FILE = process.env.SHAPES_FILE || "docs/shapes.json";
 
