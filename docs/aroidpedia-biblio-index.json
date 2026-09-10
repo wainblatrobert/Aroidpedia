@@ -1,10 +1,10 @@
 {
- "compiled": "2026-09-01",
+ "compiled": "2026-09-10",
  "genera": [
   {
    "genus": "Alocasia",
    "slug": "alocasia",
-   "taxon_count": 333,
+   "taxon_count": 339,
    "source_count": 198,
    "cited_count": 99,
    "json": "alocasia-biblio.json",
