@@ -2,8 +2,9 @@
 """
 Aroidpedia - multi-genus bibliography compiler.
 
-For each genus listed in GENERA, enumerates every taxon page in the /journal
-collection, extracts the numbered REFERENCES list at the end of each, dedupes
+For each genus listed in GENERA, enumerates every taxon page in the /archive
+collection (it was /journal until 2026-09-11; the old addresses are permanent 301s),
+extracts the numbered REFERENCES list at the end of each, dedupes
 by URL, and emits into docs/:
 
     <slug>-biblio.json                       (consumed by the site code block)
@@ -49,13 +50,17 @@ from bs4 import BeautifulSoup
 
 # ------------------------------- GENERA --------------------------------------
 # "slug" must match BOTH the genus page path (/alocasia) and the taxon page
-# prefix (/journal/alocasia-...). Add new genera here as they are built.
+# prefix (/archive/alocasia-...). Add new genera here as they are built.
 GENERA = [
     {"name": "Alocasia",       "slug": "alocasia"},
     {"name": "Amorphophallus", "slug": "amorphophallus"},
 ]
 
 SITE    = os.environ.get("AP_SITE", "https://www.aroidpedia.com").rstrip("/")   # AP_SITE overrides for a local test
+# 2026-09-11: the archive moved from /journal to /archive. Every taxon address below is
+# built from this prefix, and a record's own fullUrl from /records.json wins when it is
+# present, so the next move needs no edit here at all. The old addresses 301 forever.
+COLLECTION = os.environ.get("AP_COLLECTION", "/archive").rstrip("/")
 OUT_DIR = "docs"
 
 # Kew POWO links are a per-taxon database lookup, not literature. Each taxon has
@@ -204,7 +209,7 @@ def journal_items():
 
 
 def sitemap_paths():
-    """All /journal/ paths from sitemap.xml (handles sitemap-index files)."""
+    """All archive-collection paths from sitemap.xml (handles sitemap-index files)."""
     global _SITEMAP_CACHE
     if _SITEMAP_CACHE is not None:
         return _SITEMAP_CACHE
@@ -232,8 +237,8 @@ def sitemap_paths():
     else:
         urls = found
 
-    paths = sorted({urlparse(u).path.rstrip("/") for u in urls if "/journal/" in u})
-    print(f"  sitemap: {len(paths)} journal paths")
+    paths = sorted({urlparse(u).path.rstrip("/") for u in urls if COLLECTION + "/" in u})
+    print(f"  sitemap: {len(paths)} archive paths")
     _SITEMAP_CACHE = paths
     return paths
 
@@ -241,7 +246,7 @@ def sitemap_paths():
 def discover_taxa(genus):
     """Union of JSON API + sitemap. Carries body HTML and category when known."""
     slug   = genus["slug"]
-    prefix = f"/journal/{slug}-"
+    prefix = f"{COLLECTION}/{slug}-"
     found  = {}                                        # path -> taxon dict
 
     # (a) collection JSON - title, category and full body in one shot
@@ -249,7 +254,7 @@ def discover_taxa(genus):
         uid = (it.get("urlId") or "").strip()
         if not uid.startswith(slug + "-"):
             continue
-        path = f"/journal/{uid}"
+        path = (it.get("fullUrl") or f"{COLLECTION}/{uid}").rstrip("/")   # the site says where it lives
         cats = it.get("categories") or []
         found[path] = {
             "url":       SITE + path,
@@ -330,7 +335,7 @@ def parse_taxon(taxon):
             return out
         if not taxon.get("kind_hint"):
             soup = BeautifulSoup(page, "html.parser")
-            cat = soup.select_one('a[href*="/journal/category/"]')
+            cat = soup.select_one(f'a[href*="{COLLECTION}/category/"]')
             if cat:
                 out["kind"] = cat.get_text(strip=True) or "Unclassified"
         html = page
@@ -553,7 +558,7 @@ def write_pdf(d):
         F.append(Paragraph(f"{kind.upper()} ({len(group)})", st["group"]))
         for t in group:
             F.append(Paragraph(link(t["name"].title(), t["url"], SAGE_DK), st["taxon"]))
-            bits = [esc(f"aroidpedia.com/journal/{t['slug']}")]
+            bits = [esc(f"aroidpedia.com{COLLECTION}/{t['slug']}")]
             if INCLUDE_KEW_IN_PDF and t["kew"]:
                 bits.append(link("Kew POWO", t["kew"], MUTED))
             F.append(Paragraph(" &#183; ".join(bits), st["meta"]))
