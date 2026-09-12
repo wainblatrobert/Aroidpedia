@@ -4521,20 +4521,20 @@
    }
   },
   "amorphophallus/incurvatus": {
+   "1e24034e0ec89a2fd97aa4c2e6eefa0a": {
+    "bytes": 810777,
+    "derived_md5": "e387943c7556da97237c37d730a6841b",
+    "key": "story/e387943c-expedition-reconstruction.jpg"
+   },
+   "24e1cf775360e1f59d1ab08a787216ef": {
+    "bytes": 212375,
+    "derived_md5": "54330aae9fcf4a9c55c0a1c8e05fb0b9",
+    "key": "hero/54330aae-incurvatus-illustrative.jpg"
+   },
    "2f9d05affbc694625df14364b0aeaba8": {
     "bytes": 274095,
     "derived_md5": "2f9d05affbc694625df14364b0aeaba8",
     "key": "protologue/2f9d05af-incurvatus-protologue.png"
-   },
-   "4cf1d8b7010b192d7737ebb90e81dd2e": {
-    "bytes": 240385,
-    "derived_md5": "b3d896106cad8eb65c9bdaeb67e6815a",
-    "key": "hero/b3d89610-incurvatus-illustrative.jpg"
-   },
-   "d8d4f9e5db43512d9924a8f87ee19315": {
-    "bytes": 359498,
-    "derived_md5": "a844d2b262d58ae5c7b91bb951cd57fd",
-    "key": "story/a844d2b2-expedition-reconstruction.jpg"
    },
    "f4b77e5ed305a87ed02d06776331d737": {
     "bytes": 806680,
