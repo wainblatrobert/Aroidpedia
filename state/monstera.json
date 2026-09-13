@@ -1492,6 +1492,68 @@
     "key": "reproductive/a5f6a187-monstera-deliciosa-daniel-cavallari.jpg"
    }
   },
+  "monstera/deliciosa-contorted-fish": {
+   "1e57e87face747b443d2a5abdd4ef161": {
+    "bytes": 154477,
+    "derived_md5": "a87faf50cd75ec7498b7bf16b5a0cc8e",
+    "key": "vegetative/a87faf50-monstera-deliciosa-contorted-fish-ias-aroid-cultivar-registry-registry-dfeb3a46.jpg"
+   },
+   "3308029057c9875845c2e135948e6a43": {
+    "bytes": 166769,
+    "derived_md5": "738a285d1ef1a2d03b5c0143465b1d78",
+    "key": "vegetative/738a285d-monstera-deliciosa-contorted-fish-ias-aroid-cultivar-registry-registry-9281a9ca.jpg"
+   },
+   "41217a215b73a9c292f188fd9ab32dd9": {
+    "bytes": 131564,
+    "derived_md5": "cd0a87570e16f7f595dfd69155a2c391",
+    "key": "vegetative/cd0a8757-monstera-deliciosa-contorted-fish-ias-aroid-cultivar-registry-registry-4b84614c.jpg"
+   },
+   "47c2a17190c43c5caf56c6cb53dd6696": {
+    "bytes": 197046,
+    "derived_md5": "aca913e27267878b7703025c287f782e",
+    "key": "vegetative/aca913e2-monstera-deliciosa-contorted-fish-ias-aroid-cultivar-registry-registry-8edbe247.jpg"
+   },
+   "5162061b7806ac9cd448d48908c27dce": {
+    "bytes": 167087,
+    "derived_md5": "77ee7d425b30ab7ad8f71caa41e483b3",
+    "key": "vegetative/77ee7d42-monstera-deliciosa-contorted-fish-ias-aroid-cultivar-registry-registry-13af6cc4.jpg"
+   },
+   "714e650d84d532e9e9fe3536b417e1ec": {
+    "bytes": 157334,
+    "derived_md5": "e9aaac152e2e027445a8e1ef90e47e10",
+    "key": "vegetative/e9aaac15-monstera-deliciosa-contorted-fish-ias-aroid-cultivar-registry-registry-eed08b7c.jpg"
+   },
+   "732c156bd851d96e06d3d0183fbd01d6": {
+    "bytes": 170574,
+    "derived_md5": "c74a79f515d13e915d6a6a1bd94f1026",
+    "key": "vegetative/c74a79f5-monstera-deliciosa-contorted-fish-ias-aroid-cultivar-registry-registry-e2ca2eec.jpg"
+   },
+   "af6bc4f16a192d7639ffb8bc51bedaeb": {
+    "bytes": 165845,
+    "derived_md5": "a18773029a727e71f4ade1b11183fb2e",
+    "key": "vegetative/a1877302-monstera-deliciosa-contorted-fish-ias-aroid-cultivar-registry-registry-0cc8cc3c.jpg"
+   },
+   "b833a85b546b5b4ab8309b5356276921": {
+    "bytes": 143920,
+    "derived_md5": "25c0757473097033770dd1fe9876c8f3",
+    "key": "hero/25c07574-1.jpg"
+   },
+   "bf8d98c8fcf0729d4aff2066a7a23bd8": {
+    "bytes": 203207,
+    "derived_md5": "1a1da4ec8347b8dae39cecfec1b71f96",
+    "key": "vegetative/1a1da4ec-monstera-deliciosa-contorted-fish-ias-aroid-cultivar-registry-registry-9e760039.jpg"
+   },
+   "db28fd988b7dbf5352bfe7be086a8e7c": {
+    "bytes": 131414,
+    "derived_md5": "9cb9fcfb57be40af9c504ce3325ba410",
+    "key": "vegetative/9cb9fcfb-monstera-deliciosa-contorted-fish-ias-aroid-cultivar-registry-registry-660b5b47.jpg"
+   },
+   "de781f455bc804ed036d8e70379cc508": {
+    "bytes": 412208,
+    "derived_md5": "de781f455bc804ed036d8e70379cc508",
+    "key": "vegetative/de781f45-monstera-deliciosa-contorted-fish-ias-aroid-cultivar-registry-registry-d9a3eb36.png"
+   }
+  },
   "monstera/deliciosa-key-lime-pie": {
    "08c6ab3c7254a69d05849d3e7939148c": {
     "bytes": 422504,
@@ -1606,6 +1668,23 @@
     "bytes": 395334,
     "derived_md5": "f77f603e7cac9410f69a9f3c92bde76f",
     "key": "vegetative/f77f603e-monstera-deliciosa-oceana-aroidcultivars-5-monstera-oceana.jpg"
+   }
+  },
+  "monstera/deliciosa-potmonster": {
+   "41d5a18d2f536a407c760a5ebe5684f9": {
+    "bytes": 276145,
+    "derived_md5": "a368a71436e1a2358742f2375f0d669a",
+    "key": "vegetative/a368a714-monstera-deliciosa-potmonster-ias-aroid-cultivar-registry-registry-b64eccf6.jpg"
+   },
+   "520a87197543ffc6a368fd0be28a6265": {
+    "bytes": 390639,
+    "derived_md5": "9ad0c099605e5328569cb7816333982d",
+    "key": "vegetative/9ad0c099-monstera-deliciosa-potmonster-ias-aroid-cultivar-registry-registry-d0ecffc7.jpg"
+   },
+   "72a7d4fbc223a0d46cd1889128c021b8": {
+    "bytes": 266492,
+    "derived_md5": "6cceb58ba622447cda6fb216f87e2863",
+    "key": "vegetative/6cceb58b-monstera-deliciosa-potmonster-ias-aroid-cultivar-registry-registry-ccb8b95e.jpg"
    }
   },
   "monstera/deliciosa-shamrock-shake": {
