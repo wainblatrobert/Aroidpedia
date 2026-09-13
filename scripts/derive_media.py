@@ -154,23 +154,40 @@ def build_manifest(order: list, keyed: dict) -> dict:
     """Same shape and same rules as sync-journal-photos.build_manifest, but
     every `f` is the content-hashed key. Galleries and cross-role duplicates
     both fold onto the winning key automatically, because `keyed` maps each
-    source path to the key its DERIVED bytes claimed."""
+    source path to the key its DERIVED bytes claimed.
+
+    ⚠ ONE ENTRY PER KEY PER ROLE (9.13.26). The fold above is deliberate - two
+    byte-identical sources derive to ONE key - but each source still appended
+    its own entry, so the page drew the same image twice. Monstera
+    wilsoniensis showed 10 protologue tiles for 6 distinct files; across
+    Monstera it was 37 repeats in 20 species' protologues plus 6 in the photo
+    galleries (owner: "it looks wild"). The first source to claim a key keeps
+    its caption. Across roles is left alone: the card already dedupes More
+    photos by src, and a plate placed in two roles is placed twice on purpose."""
     roles: dict[str, list] = {}
+    listed: set = set()
+
+    def add(bucket: str, entry: dict) -> None:
+        if (bucket, entry["f"]) in listed:
+            return
+        listed.add((bucket, entry["f"]))
+        roles.setdefault(bucket, []).append(entry)
+
     for role, src in order:
         key = keyed[src]
         if src.suffix.lower() in VID_EXT:
-            roles.setdefault("video", []).append(
+            add("video",
                 {"f": key, "c": src.name.rsplit(".", 1)[0]})
             continue
         if role == "other" and re.match(r"(?i)^comparison\s*\d*(\s+-\s+.+)?$", src.stem):
             cap = src.stem.split(" - ", 1)[1].strip() if " - " in src.stem else ""
-            roles.setdefault("comparisons", []).append({"f": key, "c": cap})
+            add("comparisons", {"f": key, "c": cap})
             continue
         if role == "story":
             label = re.sub(r"^\d+\s*[.\-)]?\s*", "", src.stem).strip()
-            roles.setdefault(role, []).append({"f": key, "c": label})
+            add(role, {"f": key, "c": label})
             continue
-        roles.setdefault(role, []).append({"f": key, "c": sjp.caption_of(src.name)})
+        add(role, {"f": key, "c": sjp.caption_of(src.name)})
     return {"version": 1, "roles": roles}
 
 

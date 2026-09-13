@@ -7,11 +7,6 @@
     "derived_md5": "5500df53c783f458750b55049b56b5a9",
     "key": "reproductive/5500df53-monstera-acacoyaguensis-steve-maldonado-silvestrini-4.jpg"
    },
-   "07e7a5bc71ed8d16c9fb26119fe5cd84": {
-    "bytes": 224980,
-    "derived_md5": "07e7a5bc71ed8d16c9fb26119fe5cd84",
-    "key": "protologue/07e7a5bc-monstera-acacoyaguensis-protologue-madro-o-10-48-matuda-1949-p1.jpg"
-   },
    "0e77d6eb240aa4465b3ec309aa0e994c": {
     "bytes": 404815,
     "derived_md5": "9dd66e6216c4bffdc578ff5d1f8244a9",
@@ -30,7 +25,7 @@
    "1f1f32263d0c239655d2a7a51e63a22c": {
     "bytes": 226027,
     "derived_md5": "1f1f32263d0c239655d2a7a51e63a22c",
-    "key": "protologue/1f1f3226-monstera-acacoyaguensis-croat-cede-o-fonseca-ortiz-2024-fig-1.jpg"
+    "key": "other/1f1f3226-monstera-acacoyaguensis-croat-cede-o-fonseca-ortiz-2024-fig-1.jpg"
    },
    "3da855341044f404b087bae3ef6da9b2": {
     "bytes": 244381,
@@ -65,7 +60,7 @@
    "92647296f99333ecf9a1b6b108eb7b18": {
     "bytes": 252399,
     "derived_md5": "92647296f99333ecf9a1b6b108eb7b18",
-    "key": "protologue/92647296-monstera-acacoyaguensis-croat-cede-o-fonseca-ortiz-2024-fig-2.jpg"
+    "key": "other/92647296-monstera-acacoyaguensis-croat-cede-o-fonseca-ortiz-2024-fig-2.jpg"
    },
    "9930bb2f41d9344316ee113d67d72cc2": {
     "bytes": 225049,
@@ -101,11 +96,6 @@
     "bytes": 382960,
     "derived_md5": "e5f009d78af068c268e2ae5d42217f47",
     "key": "reproductive/e5f009d7-monstera-acacoyaguensis-jorge-alonso-cabrera-2.jpg"
-   },
-   "f1d21970e5eb1718a0870a64a342accb": {
-    "bytes": 166401,
-    "derived_md5": "f1d21970e5eb1718a0870a64a342accb",
-    "key": "protologue/f1d21970-monstera-acacoyaguensis-protologue-madro-o-10-48-matuda-1949-p4.jpg"
    }
   },
   "monstera/acuminata": {
@@ -408,11 +398,6 @@
    }
   },
   "monstera/alcirana": {
-   "07571dcc087164db9a8d44931cda0612": {
-    "bytes": 168082,
-    "derived_md5": "07571dcc087164db9a8d44931cda0612",
-    "key": "protologue/07571dcc-monstera-alcirana-croat-cede-o-fonseca-ortiz-2024-fig-8.jpg"
-   },
    "1039e391b1659bc6f21a941c649fabab": {
     "bytes": 421750,
     "derived_md5": "103204dd81dbe2d5fe9ce61897a1becb",
@@ -463,11 +448,6 @@
     "derived_md5": "7edaf4f342d0a444e25fb75a50fd9263",
     "key": "vegetative/7edaf4f3-monstera-alcirana-larry-chen.jpg"
    },
-   "b4d72f07eb41ffad21944db62dd759a2": {
-    "bytes": 307643,
-    "derived_md5": "b4d72f07eb41ffad21944db62dd759a2",
-    "key": "protologue/b4d72f07-monstera-alcirana-croat-cede-o-fonseca-ortiz-2024-fig-9.jpg"
-   },
    "cddfba8eef87c82f896838f08f68d76a": {
     "bytes": 256118,
     "derived_md5": "566fcf3dabc91310215cd5d58e137298",
@@ -515,35 +495,15 @@
     "derived_md5": "3bf4b888394150e57230eaec0f504380",
     "key": "vegetative/3bf4b888-monstera-alfaroi-marcel-esquivel-3.jpg"
    },
-   "4ed4878c004e0c9b0d68243aa7d68b08": {
-    "bytes": 166074,
-    "derived_md5": "4ed4878c004e0c9b0d68243aa7d68b08",
-    "key": "protologue/4ed4878c-monstera-alfaroi-cede-o-fonseca-hay-blanco-2022-fig-9.jpg"
-   },
    "69e90911772ac5874096de09d85c5147": {
     "bytes": 442101,
     "derived_md5": "cbd943d59a2449da582d33419e082208",
     "key": "reproductive/cbd943d5-monstera-alfaroi-lostincr-2.jpg"
    },
-   "73aee29914a1aa4cf6f8c580810cb645": {
-    "bytes": 174828,
-    "derived_md5": "73aee29914a1aa4cf6f8c580810cb645",
-    "key": "protologue/73aee299-monstera-alfaroi-croat-cede-o-fonseca-ortiz-2024-fig-10.jpg"
-   },
    "776cebb68f79f4f4a3d52d74264a9969": {
     "bytes": 467203,
     "derived_md5": "932f46556f569df9e513fb1d2146b099",
     "key": "vegetative/932f4655-monstera-alfaroi-marcel-esquivel-6.jpg"
-   },
-   "7e2feb732d7dd52a8b41642ca72a4eb2": {
-    "bytes": 279620,
-    "derived_md5": "7e2feb732d7dd52a8b41642ca72a4eb2",
-    "key": "protologue/7e2feb73-monstera-alfaroi-cede-o-fonseca-hay-blanco-2022-fig-10.jpg"
-   },
-   "880256169ebd20502f43a59c04d764e4": {
-    "bytes": 293277,
-    "derived_md5": "880256169ebd20502f43a59c04d764e4",
-    "key": "protologue/88025616-monstera-alfaroi-croat-cede-o-fonseca-ortiz-2024-fig-11.jpg"
    },
    "b215045d15cb8ca2af67f2d3f0d80ed6": {
     "bytes": 277507,
@@ -587,7 +547,7 @@
    "5c1658fd65b7259c3637e2750c4298c6": {
     "bytes": 173607,
     "derived_md5": "5c1658fd65b7259c3637e2750c4298c6",
-    "key": "protologue/5c1658fd-monstera-anomala-cede-o-fonseca-hay-blanco-2022-fig-11.jpg"
+    "key": "other/5c1658fd-monstera-anomala-cede-o-fonseca-hay-blanco-2022-fig-11.jpg"
    },
    "5ff093b60537a2b9713101588e0ce659": {
     "bytes": 397034,
@@ -617,7 +577,7 @@
    "b46158ed9a65a84002c5639bd782b77a": {
     "bytes": 306236,
     "derived_md5": "b46158ed9a65a84002c5639bd782b77a",
-    "key": "protologue/b46158ed-monstera-anomala-croat-cede-o-fonseca-ortiz-2024-fig-13.jpg"
+    "key": "other/b46158ed-monstera-anomala-croat-cede-o-fonseca-ortiz-2024-fig-13.jpg"
    },
    "ba5783e1d9ee7a727bb6b0eef46d17f4": {
     "bytes": 307124,
@@ -638,11 +598,6 @@
     "bytes": 624095,
     "derived_md5": "533d0bc45d2fd81dfe6f1f0ecd9a4515",
     "key": "reproductive/533d0bc4-monstera-anomala-owen-ridgen.jpg"
-   },
-   "ec3a68617ede25d38dd3953f012d1d23": {
-    "bytes": 180926,
-    "derived_md5": "ec3a68617ede25d38dd3953f012d1d23",
-    "key": "protologue/ec3a6861-monstera-anomala-croat-cede-o-fonseca-ortiz-2024-fig-12.jpg"
    },
    "f39cfbecc6c581aecfaf5c59adfa38c3": {
     "bytes": 293067,
@@ -827,11 +782,6 @@
     "derived_md5": "1b08fc6c9160e04514614f359d32e0a5",
     "key": "reproductive/1b08fc6c-monstera-bocatorensis-front-view-of-open-inflorescence-fig-14a-croat-t-b-et-al-2024.jpg"
    },
-   "3caebd74281c5c56c4d8d2d1503f3c46": {
-    "bytes": 157131,
-    "derived_md5": "3caebd74281c5c56c4d8d2d1503f3c46",
-    "key": "protologue/3caebd74-monstera-bocatorensis-croat-t-b-et-al-2024-p42-fig-14.jpg"
-   },
    "4625663ac611a6490ccc02824c3aec46": {
     "bytes": 24286,
     "derived_md5": "4625663ac611a6490ccc02824c3aec46",
@@ -866,11 +816,6 @@
     "bytes": 241329,
     "derived_md5": "b2cbc1a9764824516185b6973890cd38",
     "key": "vegetative/b2cbc1a9-monstera-bocatorensis-adult-plant-leaf-blades-with-4-6-lobes-per-side-fig-15a-croat-t-b-et-al-2024.jpg"
-   },
-   "c660a1ea09b3487a6e6bae6f71978ac0": {
-    "bytes": 359079,
-    "derived_md5": "c660a1ea09b3487a6e6bae6f71978ac0",
-    "key": "protologue/c660a1ea-monstera-bocatorensis-croat-cede-o-fonseca-ortiz-2024-fig-15.jpg"
    },
    "e4ae0a8954ac59f8fdda6f0804bf1b64": {
     "bytes": 32986,
@@ -971,12 +916,7 @@
    "5e8e3514d2f2a74f89857bb70beb80b7": {
     "bytes": 284629,
     "derived_md5": "5e8e3514d2f2a74f89857bb70beb80b7",
-    "key": "protologue/5e8e3514-monstera-buseyi-cede-o-fonseca-hay-blanco-2022-fig-13.jpg"
-   },
-   "5fceb1355621a07ead14027144c466ac": {
-    "bytes": 309186,
-    "derived_md5": "5fceb1355621a07ead14027144c466ac",
-    "key": "protologue/5fceb135-monstera-buseyi-croat-cede-o-fonseca-ortiz-2024-fig-17.jpg"
+    "key": "other/5e8e3514-monstera-buseyi-cede-o-fonseca-hay-blanco-2022-fig-13.jpg"
    },
    "7083f726c1b5a937305212355366435c": {
     "bytes": 519347,
@@ -1003,15 +943,10 @@
     "derived_md5": "53f4bde74dde33fea3e602d585dcad9f",
     "key": "vegetative/53f4bde7-monstera-buseyi-lostincr-12.jpg"
    },
-   "a2758138edd618a69a4bf826ffb0803a": {
-    "bytes": 128483,
-    "derived_md5": "a2758138edd618a69a4bf826ffb0803a",
-    "key": "protologue/a2758138-monstera-buseyi-croat-cede-o-fonseca-ortiz-2024-fig-16.jpg"
-   },
    "ce03d5806c26e20d9ca910f80d2cb6f4": {
     "bytes": 139333,
     "derived_md5": "ce03d5806c26e20d9ca910f80d2cb6f4",
-    "key": "protologue/ce03d580-monstera-buseyi-cede-o-fonseca-hay-blanco-2022-fig-12.jpg"
+    "key": "other/ce03d580-monstera-buseyi-cede-o-fonseca-hay-blanco-2022-fig-12.jpg"
    },
    "e256e1f1357112ff962950c08b062eb9": {
     "bytes": 257821,
@@ -1267,11 +1202,6 @@
     "derived_md5": "294a83c9906a826240fe92ea36127f90",
     "key": "other/294a83c9-monstera-costaricensis-mo-herbarium-sheet-gbif-2451562226.jpg"
    },
-   "3df78c311aaf0d19631f52aebf2ba965": {
-    "bytes": 334034,
-    "derived_md5": "3df78c311aaf0d19631f52aebf2ba965",
-    "key": "protologue/3df78c31-monstera-costaricensis-croat-cede-o-fonseca-ortiz-2024-fig-18.jpg"
-   },
    "46347eec95e5f280a6db877fb0886ec7": {
     "bytes": 437641,
     "derived_md5": "b322a6bc4c4ec33a2b3b3bb2d57db80e",
@@ -1280,12 +1210,7 @@
    "695047584a61e8c7619dea0c57ea10af": {
     "bytes": 341350,
     "derived_md5": "695047584a61e8c7619dea0c57ea10af",
-    "key": "protologue/69504758-monstera-costaricensis-cede-o-fonseca-hay-blanco-2022-fig-14.jpg"
-   },
-   "6f611b069108cc31a12fc9b8e1a1b952": {
-    "bytes": 220495,
-    "derived_md5": "6f611b069108cc31a12fc9b8e1a1b952",
-    "key": "protologue/6f611b06-monstera-costaricensis-croat-cede-o-fonseca-ortiz-2024-fig-19.jpg"
+    "key": "other/69504758-monstera-costaricensis-cede-o-fonseca-hay-blanco-2022-fig-14.jpg"
    },
    "71b3b845d83d7ddd8ac3b38cfd1bb3df": {
     "bytes": 216580,
@@ -1355,7 +1280,7 @@
    "f81931d10c7526b4a9167b232da20a81": {
     "bytes": 216156,
     "derived_md5": "f81931d10c7526b4a9167b232da20a81",
-    "key": "protologue/f81931d1-monstera-costaricensis-cede-o-fonseca-hay-blanco-2022-fig-15.jpg"
+    "key": "other/f81931d1-monstera-costaricensis-cede-o-fonseca-hay-blanco-2022-fig-15.jpg"
    },
    "fcddf1d7bde3c2d843838fdb463aa44e": {
     "bytes": 100648,
@@ -1383,11 +1308,6 @@
     "bytes": 108952,
     "derived_md5": "0bf49e68ef0782fc44aabff924aa13fc",
     "key": "vegetative/0bf49e68-monstera-croatii-hemi-epiphytic-habit-ascending-to-only-1-5-m-above-the-ground-fig-17a-a-taxonomic-revision-of-monstera-adans.jpg"
-   },
-   "0e4e9aafebaabbcf12b16b49a03823f8": {
-    "bytes": 155316,
-    "derived_md5": "0e4e9aafebaabbcf12b16b49a03823f8",
-    "key": "protologue/0e4e9aaf-monstera-croatii-croat-t-b-et-al-2024-p54-fig-20.jpg"
    },
    "1d1756d3abf20f2f0bef509fb64a4edd": {
     "bytes": 698862,
@@ -1419,11 +1339,6 @@
     "derived_md5": "4690ccd8d7cbcbe45bbd3fac9e77ba9f",
     "key": "vegetative/4690ccd8-monstera-croatii-terrestrial-habit-with-the-same-morphology-as-that-of-reproduct-fig-17b-a-taxonomic-revision-of-monstera-adans.jpg"
    },
-   "4dcf2a94cd7fd9121bbfc3e01c62632f": {
-    "bytes": 359632,
-    "derived_md5": "4dcf2a94cd7fd9121bbfc3e01c62632f",
-    "key": "protologue/4dcf2a94-monstera-croatii-croat-cede-o-fonseca-ortiz-2024-fig-21.jpg"
-   },
    "562cb2c3edbdaba4f28da18118533146": {
     "bytes": 10021,
     "derived_md5": "562cb2c3edbdaba4f28da18118533146",
@@ -1454,11 +1369,6 @@
     "derived_md5": "c3013264218c0a2c063abbdef20d7193",
     "key": "reproductive/c3013264-monstera-croatii-infructescence-fig-16f-a-taxonomic-revision-of-monstera-adans.jpg"
    },
-   "d41d8cd98f00b204e9800998ecf8427e": {
-    "bytes": 0,
-    "derived_md5": "d41d8cd98f00b204e9800998ecf8427e",
-    "key": "protologue/d41d8cd9-monstera-croatii-cede-o-fonseca-hay-blanco-2022-fig-17.jpg"
-   },
    "d65a741541dd8816ed3d5f6f90ccca89": {
     "bytes": 136290,
     "derived_md5": "d65a741541dd8816ed3d5f6f90ccca89",
@@ -1478,11 +1388,6 @@
     "bytes": 903070,
     "derived_md5": "e2fd67c3a7f027079d0e3ea35b719a61",
     "key": "vegetative/e2fd67c3-monstera-croatii-inaturalist-observation-gbif-6252111754.jpg"
-   },
-   "e4845b0c8f4e43ce914b29b9497659b3": {
-    "bytes": 157593,
-    "derived_md5": "e4845b0c8f4e43ce914b29b9497659b3",
-    "key": "protologue/e4845b0c-monstera-croatii-a-taxonomic-revision-of-monstera-adans-p53-fig-16.jpg"
    },
    "efd302e7af80f996d8c739093aaf954a": {
     "bytes": 10390,
@@ -1798,17 +1703,12 @@
    "010ff73642c78b646b24f9cb31e856e3": {
     "bytes": 392606,
     "derived_md5": "010ff73642c78b646b24f9cb31e856e3",
-    "key": "protologue/010ff736-monstera-donosoensis-croat-cede-o-fonseca-ortiz-2024-fig-27.jpg"
+    "key": "other/010ff736-monstera-donosoensis-croat-cede-o-fonseca-ortiz-2024-fig-27.jpg"
    },
    "35700543069036907da4cc279aefd431": {
     "bytes": 145281,
     "derived_md5": "35700543069036907da4cc279aefd431",
     "key": "protologue/35700543-monstera-donosoensis-cede-o-fonseca-et-al-2021-fig-3.jpg"
-   },
-   "3d6b86e9c42545ac4fff83bd2acdceee": {
-    "bytes": 173699,
-    "derived_md5": "3d6b86e9c42545ac4fff83bd2acdceee",
-    "key": "protologue/3d6b86e9-monstera-donosoensis-croat-t-b-et-al-2024-p67-fig-26.jpg"
    },
    "46b3d059348c31880c78fbdefdf15a51": {
     "bytes": 349817,
@@ -2144,12 +2044,12 @@
    "0682294718bcbce090f1099139501fbc": {
     "bytes": 151036,
     "derived_md5": "0682294718bcbce090f1099139501fbc",
-    "key": "protologue/06822947-monstera-epipremnoides-a-taxonomic-revision-of-monstera-adans-p78-fig-22.jpg"
+    "key": "other/06822947-monstera-epipremnoides-cede-o-fonseca-hay-blanco-2022-fig-22.jpg"
    },
    "0a24d035eb3f4c71a3d1d78c1505d376": {
     "bytes": 96436,
     "derived_md5": "0a24d035eb3f4c71a3d1d78c1505d376",
-    "key": "protologue/0a24d035-monstera-epipremnoides-madison-1977-p64-fig-x.jpg"
+    "key": "other/0a24d035-monstera-epipremnoides-madison-1977-p64-fig-x.jpg"
    },
    "0f28a0c37526f38679427267e4d3646c": {
     "bytes": 8463,
@@ -2159,7 +2059,7 @@
    "17221b12bf01ae592a20df0a70452c65": {
     "bytes": 412334,
     "derived_md5": "17221b12bf01ae592a20df0a70452c65",
-    "key": "protologue/17221b12-monstera-epipremnoides-croat-cede-o-fonseca-ortiz-2024-fig-33.jpg"
+    "key": "other/17221b12-monstera-epipremnoides-croat-cede-o-fonseca-ortiz-2024-fig-33.jpg"
    },
    "1cdc5461e3a49480225f4aad9fc5f6a7": {
     "bytes": 374520,
@@ -2209,7 +2109,7 @@
    "691dd767c20435a1a03ccd22941502cd": {
     "bytes": 181607,
     "derived_md5": "691dd767c20435a1a03ccd22941502cd",
-    "key": "protologue/691dd767-monstera-epipremnoides-39phyton-araceaerecords-p8-fig-4.jpg"
+    "key": "other/691dd767-monstera-epipremnoides-39phyton-araceaerecords-p8-fig-4.jpg"
    },
    "69db07f282b0f2c6469a07a0f51bba7b": {
     "bytes": 241624,
@@ -2249,17 +2149,7 @@
    "b0c90e064bb7a058b17daf15dacc5fd0": {
     "bytes": 105642,
     "derived_md5": "b0c90e064bb7a058b17daf15dacc5fd0",
-    "key": "protologue/b0c90e06-monstera-epipremnoides-madison-1977-p12-fig-x.jpg"
-   },
-   "cdea6b97f127fc91a6ff20f48be8c6ee": {
-    "bytes": 152360,
-    "derived_md5": "cdea6b97f127fc91a6ff20f48be8c6ee",
-    "key": "protologue/cdea6b97-monstera-epipremnoides-croat-t-b-et-al-2024-p78-fig-32.jpg"
-   },
-   "e1f85bfd596c77babe389fe0931ee92f": {
-    "bytes": 193902,
-    "derived_md5": "e1f85bfd596c77babe389fe0931ee92f",
-    "key": "protologue/e1f85bfd-monstera-epipremnoides-protologue-bot-jahrb-syst-37-118-engl-1905-p2.jpg"
+    "key": "other/b0c90e06-monstera-epipremnoides-madison-1977-p12-fig-x.jpg"
    },
    "ede5e6bc35edde50d042e107f8a23536": {
     "bytes": 119361,
@@ -2274,7 +2164,7 @@
    "f14414a9ea24628f5e781ac32ecd7a3a": {
     "bytes": 285448,
     "derived_md5": "f14414a9ea24628f5e781ac32ecd7a3a",
-    "key": "protologue/f14414a9-monstera-epipremnoides-a-taxonomic-revision-of-monstera-adans-p79-fig-23.jpg"
+    "key": "other/f14414a9-monstera-epipremnoides-cede-o-fonseca-hay-blanco-2022-fig-23.jpg"
    }
   },
   "monstera/esqueleto": {
@@ -2310,15 +2200,10 @@
     "derived_md5": "3d3ca9a2e6f22211acff96542de4a8ec",
     "key": "vegetative/3d3ca9a2-monstera-filamentosa-njweess-13.jpg"
    },
-   "2aebc3e5a28ae7c2ad4a089cb2f36cc5": {
-    "bytes": 178300,
-    "derived_md5": "2aebc3e5a28ae7c2ad4a089cb2f36cc5",
-    "key": "protologue/2aebc3e5-monstera-filamentosa-croat-cede-o-fonseca-ortiz-2024-fig-34.jpg"
-   },
    "6ac640bda5b29933a74914b99ed6f4b3": {
     "bytes": 173463,
     "derived_md5": "6ac640bda5b29933a74914b99ed6f4b3",
-    "key": "protologue/6ac640bd-monstera-filamentosa-cede-o-fonseca-hay-blanco-2022-fig-24.jpg"
+    "key": "other/6ac640bd-monstera-filamentosa-cede-o-fonseca-hay-blanco-2022-fig-24.jpg"
    },
    "73f9a6ee164f09a98b75e2ba49bdd195": {
     "bytes": 453406,
@@ -2335,6 +2220,11 @@
     "derived_md5": "548a829d47f4269a1736b56b7a60a2f8",
     "key": "vegetative/548a829d-monstera-filamentosa-njweess-3.jpg"
    },
+   "a74c7c94ea7f9034f257dfffaca18514": {
+    "bytes": 575719,
+    "derived_md5": "a74c7c94ea7f9034f257dfffaca18514",
+    "key": "protologue/a74c7c94-monstera-filamentosa-protologue-phytologia-82-43-croat-grayum-1997-p1.jpg"
+   },
    "ac19d7874c6c011e49870848e6a76e9b": {
     "bytes": 613770,
     "derived_md5": "162be06e6f4cf874fcf4ab864f6ceb96",
@@ -2350,10 +2240,10 @@
     "derived_md5": "0ddb05a1c9e78981903ad85b4147b102",
     "key": "vegetative/0ddb05a1-monstera-filamentosa-mdoliveira-2.jpg"
    },
-   "d4212fffec9482f4109f79847edea86a": {
-    "bytes": 301085,
-    "derived_md5": "d4212fffec9482f4109f79847edea86a",
-    "key": "protologue/d4212fff-monstera-filamentosa-croat-cede-o-fonseca-ortiz-2024-fig-35.jpg"
+   "dd433f61a1e44c8dab71a9016c5de3f2": {
+    "bytes": 587662,
+    "derived_md5": "dd433f61a1e44c8dab71a9016c5de3f2",
+    "key": "protologue/dd433f61-monstera-filamentosa-protologue-phytologia-82-43-croat-grayum-1997-p2.jpg"
    },
    "de2b027c9e94bd5a4516f7d558de56fb": {
     "bytes": 604864,
@@ -2368,7 +2258,7 @@
    "ecdd261c3a21851538cb5054c26ed822": {
     "bytes": 234995,
     "derived_md5": "ecdd261c3a21851538cb5054c26ed822",
-    "key": "protologue/ecdd261c-monstera-filamentosa-cede-o-fonseca-hay-blanco-2022-fig-25.jpg"
+    "key": "other/ecdd261c-monstera-filamentosa-cede-o-fonseca-hay-blanco-2022-fig-25.jpg"
    },
    "f7ace9f166987c58e492f4c97003390a": {
     "bytes": 661428,
@@ -2466,11 +2356,6 @@
     "derived_md5": "3878b2d333837227451337683008fbd0",
     "key": "vegetative/3878b2d3-monstera-gambensis-support-roots-fig-27a-a-taxonomic-revision-of-monstera-adans.jpg"
    },
-   "50967d4d88fa6c7e678798a94c6b2e34": {
-    "bytes": 234060,
-    "derived_md5": "50967d4d88fa6c7e678798a94c6b2e34",
-    "key": "protologue/50967d4d-monstera-gambensis-cede-o-fonseca-hay-blanco-2022-fig-27.jpg"
-   },
    "6b1e5ebd657784b1afefa4ec9624b48a": {
     "bytes": 123845,
     "derived_md5": "6b1e5ebd657784b1afefa4ec9624b48a",
@@ -2506,16 +2391,6 @@
     "derived_md5": "8ef15b13f8e9befd77fb90626ad5ba7a",
     "key": "vegetative/8ef15b13-monstera-gambensis-portions-of-either-dead-epidermis-or-epicuticular-waxes-that-giv-fig-27f-a-taxonomic-revision-of-monstera-adans.jpg"
    },
-   "9b9f82157c1d2d7944652f1e1b2bf09b": {
-    "bytes": 245347,
-    "derived_md5": "9b9f82157c1d2d7944652f1e1b2bf09b",
-    "key": "protologue/9b9f8215-monstera-gambensis-croat-cede-o-fonseca-ortiz-2024-fig-37.jpg"
-   },
-   "a86b4f093f1f5652d58c26c8d0ca0813": {
-    "bytes": 327767,
-    "derived_md5": "a86b4f093f1f5652d58c26c8d0ca0813",
-    "key": "protologue/a86b4f09-monstera-gambensis-croat-t-b-et-al-2024-p85-fig-36.jpg"
-   },
    "a9b827cf198d4a44d5e0b189f1bdeb6e": {
     "bytes": 83771,
     "derived_md5": "a9b827cf198d4a44d5e0b189f1bdeb6e",
@@ -2545,11 +2420,6 @@
     "bytes": 253079,
     "derived_md5": "d0b96b47fbc4def1197ed0d826b4d0d0",
     "key": "protologue/d0b96b47-monstera-gambensis-cede-o-fonseca-et-al-2020-fig-4.jpg"
-   },
-   "d105740e88c77996e4e46b3e1eb3faf8": {
-    "bytes": 173452,
-    "derived_md5": "d105740e88c77996e4e46b3e1eb3faf8",
-    "key": "protologue/d105740e-monstera-gambensis-cede-o-fonseca-hay-blanco-2022-fig-26.jpg"
    },
    "d4b71e455ed6e5c4cf45743984d3d676": {
     "bytes": 222666,
@@ -2612,11 +2482,6 @@
     "bytes": 6500,
     "derived_md5": "50e9d35cf4ad0a240751651266befebf",
     "key": "reproductive/50e9d35c-monstera-gentryi-stylar-plate-top-view-left-and-individual-stamen-right-fig-4i-monstera-gentryi.jpg"
-   },
-   "5dc12c11c201a79213ae2ca3ba8a292c": {
-    "bytes": 188754,
-    "derived_md5": "5dc12c11c201a79213ae2ca3ba8a292c",
-    "key": "protologue/5dc12c11-monstera-gentryi-croat-t-b-et-al-2024-p87-fig-38.jpg"
    },
    "6482bb56664753a8fc59f77012cefefa": {
     "bytes": 119349,
@@ -2695,16 +2560,6 @@
     "derived_md5": "5c91928aa63095f4609ae9e1ea31cbc0",
     "key": "vegetative/5c91928a-monstera-gigas-monstera-gigas-from-fortuna-panama-michael-mittermeier-left-fig-41-croat-t-b-et-al-2024.jpg"
    },
-   "6ca51bfdc0f599b56224e19242e3f99b": {
-    "bytes": 300164,
-    "derived_md5": "6ca51bfdc0f599b56224e19242e3f99b",
-    "key": "protologue/6ca51bfd-monstera-gigas-croat-cede-o-fonseca-ortiz-2024-fig-41.jpg"
-   },
-   "717469be14191b360f013a6fccfb4eee": {
-    "bytes": 269952,
-    "derived_md5": "717469be14191b360f013a6fccfb4eee",
-    "key": "protologue/717469be-monstera-gigas-croat-cede-o-fonseca-ortiz-2024-fig-40.jpg"
-   },
    "8eeb03795715dbb5b4a680c495a2ab2b": {
     "bytes": 180980,
     "derived_md5": "8eeb03795715dbb5b4a680c495a2ab2b",
@@ -2745,7 +2600,7 @@
    "08513b87f00020b1b7e37171d8541b5b": {
     "bytes": 382040,
     "derived_md5": "08513b87f00020b1b7e37171d8541b5b",
-    "key": "protologue/08513b87-monstera-glaucescens-croat-cede-o-fonseca-ortiz-2024-fig-43.jpg"
+    "key": "other/08513b87-monstera-glaucescens-croat-cede-o-fonseca-ortiz-2024-fig-43.jpg"
    },
    "1aba161a784468f0756677095fb24d06": {
     "bytes": 450513,
@@ -2762,20 +2617,25 @@
     "derived_md5": "3ed81595b76a1c70d056d0c9eba4445f",
     "key": "vegetative/3ed81595-monstera-glaucescens-user45732-commons.jpg"
    },
-   "62a88f2d1f1acc6756eaba2d4b587abb": {
-    "bytes": 179041,
-    "derived_md5": "62a88f2d1f1acc6756eaba2d4b587abb",
-    "key": "protologue/62a88f2d-monstera-glaucescens-croat-cede-o-fonseca-ortiz-2024-fig-42.jpg"
+   "4b4621c1d45d56cbe592a773e3fe2149": {
+    "bytes": 598011,
+    "derived_md5": "4b4621c1d45d56cbe592a773e3fe2149",
+    "key": "protologue/4b4621c1-monstera-glaucescens-protologue-phytologia-82-44-croat-grayum-1997-p3.jpg"
    },
    "752896c44bee66d35dbc5cd85cdc855d": {
     "bytes": 574486,
     "derived_md5": "49953a3d4e6f16d046283fca6d23c2b1",
     "key": "vegetative/49953a3d-monstera-glaucescens-njweess-8.jpg"
    },
+   "79490ec797851ab0cb31031b6e4a222e": {
+    "bytes": 602844,
+    "derived_md5": "79490ec797851ab0cb31031b6e4a222e",
+    "key": "protologue/79490ec7-monstera-glaucescens-protologue-phytologia-82-44-croat-grayum-1997-p2.jpg"
+   },
    "8b0563dd70b4b8644567f00287834701": {
     "bytes": 171136,
     "derived_md5": "8b0563dd70b4b8644567f00287834701",
-    "key": "protologue/8b0563dd-monstera-glaucescens-cede-o-fonseca-hay-blanco-2022-fig-28.jpg"
+    "key": "other/8b0563dd-monstera-glaucescens-cede-o-fonseca-hay-blanco-2022-fig-28.jpg"
    },
    "9e609666a36aa2d97a048a26f8156d31": {
     "bytes": 556830,
@@ -2796,6 +2656,11 @@
     "bytes": 268490,
     "derived_md5": "d3a77e403eec3c51580c85d7af8f9bea",
     "key": "other/d3a77e40-powo-monstera-glaucescens-01.jpg"
+   },
+   "dd433f61a1e44c8dab71a9016c5de3f2": {
+    "bytes": 587662,
+    "derived_md5": "dd433f61a1e44c8dab71a9016c5de3f2",
+    "key": "protologue/dd433f61-monstera-glaucescens-protologue-phytologia-82-44-croat-grayum-1997-p1.jpg"
    },
    "f2f2ab18f1fc8f71ff844175260e61ff": {
     "bytes": 509321,
@@ -2979,7 +2844,7 @@
    "0f1c2dbe23474c6042701e01c03d4949": {
     "bytes": 192582,
     "derived_md5": "0f1c2dbe23474c6042701e01c03d4949",
-    "key": "protologue/0f1c2dbe-monstera-guzmanjacobiae-d-az-jim-nez-p-et-al-2020-p4-fig-2.jpg"
+    "key": "protologue/0f1c2dbe-monstera-guzmanjacobiae-d-az-jim-nez-et-al-2020-fig-2.jpg"
    },
    "126495ca4221c091f987ab75689e9670": {
     "bytes": 240066,
@@ -3010,11 +2875,6 @@
     "bytes": 86092,
     "derived_md5": "572f40cf9fee226ac247a1ceae9b6c90",
     "key": "vegetative/572f40cf-monstera-guzmanjacobiae-base-of-the-petiole-with-green-and-white-projections-eponymy-t-fig-3g-d-az-jim-nez-p-et-al-2020.jpg"
-   },
-   "6d86e0eb34cda16df1d1755fb0f9258a": {
-    "bytes": 178365,
-    "derived_md5": "6d86e0eb34cda16df1d1755fb0f9258a",
-    "key": "protologue/6d86e0eb-monstera-guzmanjacobiae-croat-t-b-et-al-2024-p98-fig-44.jpg"
    },
    "7630afc930d3fbb4b30a79895e9fdcfb": {
     "bytes": 128053,
@@ -3074,7 +2934,7 @@
    "ecc92118ecd135981574df32f6e9153b": {
     "bytes": 324791,
     "derived_md5": "ecc92118ecd135981574df32f6e9153b",
-    "key": "protologue/ecc92118-monstera-guzmanjacobiae-d-az-jim-nez-p-et-al-2020-p6-fig-4.jpg"
+    "key": "protologue/ecc92118-monstera-guzmanjacobiae-d-az-jim-nez-et-al-2020-fig-4.jpg"
    },
    "edd36049abfc46f89e908c8d0241e1e4": {
     "bytes": 761142,
@@ -3085,11 +2945,6 @@
     "bytes": 755280,
     "derived_md5": "d0684a96bf214c8b7bf8426ea75a8db4",
     "key": "vegetative/d0684a96-monstera-guzmanjacobiae-inaturalist-observation-gbif-4851829403.jpg"
-   },
-   "ff914f58dc8a8c0c22308c1b049ad5f2": {
-    "bytes": 334037,
-    "derived_md5": "ff914f58dc8a8c0c22308c1b049ad5f2",
-    "key": "protologue/ff914f58-monstera-guzmanjacobiae-croat-cede-o-fonseca-ortiz-2024-fig-45.jpg"
    }
   },
   "monstera/harrisoniorum": {
@@ -3125,15 +2980,10 @@
     "derived_md5": "638b6bbe576cea00b871c6c2bda4e21a",
     "key": "vegetative/638b6bbe-monstera-integrifolia-whitish-petioles-with-somewhat-persistent-sheaths-fig-1c-39phyton-araceaerecords.jpg"
    },
-   "8c0d0076ec77e613f58e0a8d8ce638d2": {
-    "bytes": 289598,
-    "derived_md5": "8c0d0076ec77e613f58e0a8d8ce638d2",
-    "key": "protologue/8c0d0076-monstera-integrifolia-a-taxonomic-revision-of-monstera-adans-p95-fig-29.jpg"
-   },
    "9ffafa76fcd68805841ef839e3ae4217": {
     "bytes": 353246,
     "derived_md5": "9ffafa76fcd68805841ef839e3ae4217",
-    "key": "protologue/9ffafa76-monstera-integrifolia-croat-cede-o-fonseca-ortiz-2024-fig-46.jpg"
+    "key": "other/9ffafa76-monstera-integrifolia-croat-cede-o-fonseca-ortiz-2024-fig-46.jpg"
    },
    "a02d8fe765b2c77f055835093133ef75": {
     "bytes": 271619,
@@ -3153,7 +3003,7 @@
    "b270eee86f9d40d10bbdfdc0e24d811e": {
     "bytes": 267010,
     "derived_md5": "b270eee86f9d40d10bbdfdc0e24d811e",
-    "key": "protologue/b270eee8-monstera-integrifolia-39phyton-araceaerecords-p5-fig-1.jpg"
+    "key": "other/b270eee8-monstera-integrifolia-39phyton-araceaerecords-p5-fig-1.jpg"
    },
    "b2841dd521986b07bfc821927dd0cb24": {
     "bytes": 99288,
@@ -3163,7 +3013,7 @@
    "b77d9d6f72feb63d5b25dd589bc17d27": {
     "bytes": 269989,
     "derived_md5": "b77d9d6f72feb63d5b25dd589bc17d27",
-    "key": "protologue/b77d9d6f-monstera-integrifolia-croat-cede-o-fonseca-ortiz-2024-fig-47.jpg"
+    "key": "other/b77d9d6f-monstera-integrifolia-croat-cede-o-fonseca-ortiz-2024-fig-47.jpg"
    },
    "f00cd513c3120d485c5ce01650a5e62b": {
     "bytes": 121461,
@@ -3217,11 +3067,6 @@
     "derived_md5": "9d43fc59cf8c349f404447e8bab79469",
     "key": "vegetative/9d43fc59-monstera-juliusii-marcel-esquivel-11.jpg"
    },
-   "b6696d86ed1231762721985ea3bf9439": {
-    "bytes": 164017,
-    "derived_md5": "b6696d86ed1231762721985ea3bf9439",
-    "key": "protologue/b6696d86-monstera-juliusii-croat-cede-o-fonseca-ortiz-2024-fig-48.jpg"
-   },
    "cbce35ab4e37ce3912b1dfe59aa839a2": {
     "bytes": 361424,
     "derived_md5": "cbce35ab4e37ce3912b1dfe59aa839a2",
@@ -3231,11 +3076,6 @@
     "bytes": 946890,
     "derived_md5": "d25a8ebdf9bb5d70ca4853d9ac41405d",
     "key": "vegetative/d25a8ebd-monstera-juliusii-marcel-esquivel-6.jpg"
-   },
-   "d313d0986d8cfb80a86918ee88070d40": {
-    "bytes": 160386,
-    "derived_md5": "d313d0986d8cfb80a86918ee88070d40",
-    "key": "protologue/d313d098-monstera-juliusii-cede-o-fonseca-hay-blanco-2022-fig-30.jpg"
    },
    "e23e5c46ef3062f7fdebe7517db316c6": {
     "bytes": 494400,
@@ -3378,7 +3218,7 @@
    "377ff1c456fb0b659086b64f3160120c": {
     "bytes": 197607,
     "derived_md5": "377ff1c456fb0b659086b64f3160120c",
-    "key": "protologue/377ff1c4-monstera-kikiae-zuluaga-a-et-al-2021-p3-fig-1.jpg"
+    "key": "protologue/377ff1c4-monstera-kikiae-zuluaga-et-al-2021-fig-1.jpg"
    },
    "638d04802564b33d3f62792034f0f3fc": {
     "bytes": 691909,
@@ -3813,11 +3653,6 @@
     "derived_md5": "0130c9ec7169ddae1e0dbc7461958445",
     "key": "reproductive/0130c9ec-monstera-limitaris-front-and-back-views-of-open-inflorescence-fig-32b-a-taxonomic-revision-of-monstera-adans.jpg"
    },
-   "0c57029d5386252ca3f139d236f763ea": {
-    "bytes": 147397,
-    "derived_md5": "0c57029d5386252ca3f139d236f763ea",
-    "key": "protologue/0c57029d-monstera-limitaris-a-taxonomic-revision-of-monstera-adans-p105-fig-32.jpg"
-   },
    "10b7e5fccc94325b7b8b9f175aae66b2": {
     "bytes": 261256,
     "derived_md5": "10b7e5fccc94325b7b8b9f175aae66b2",
@@ -3842,11 +3677,6 @@
     "bytes": 334322,
     "derived_md5": "4916bc35559b00dd9be2b22afcd29478",
     "key": "vegetative/4916bc35-monstera-limitaris-monstera-limitaris-with-a-leaf-miner-lepidoptera-larvae-fig-20-notes-on-herbivory-pages-from-aroideana4.jpg"
-   },
-   "691dd767c20435a1a03ccd22941502cd": {
-    "bytes": 181607,
-    "derived_md5": "691dd767c20435a1a03ccd22941502cd",
-    "key": "protologue/691dd767-monstera-limitaris-39phyton-araceaerecords-p8-fig-4.jpg"
    },
    "7c41b0e7b08c38215f57608f371301d3": {
     "bytes": 24782,
@@ -3912,19 +3742,9 @@
     "bytes": 231882,
     "derived_md5": "da6f3872edf332ff2a4ecfdbdac162c9",
     "key": "maps/da6f3872-monstera-limitaris-distribution-map-of-monstera-limitaris-in-costa-rica-red-circle-fig-3-monstera-limitaris.jpg"
-   },
-   "e183dc1bb1219ffeb5f3e09dfabf5632": {
-    "bytes": 148108,
-    "derived_md5": "e183dc1bb1219ffeb5f3e09dfabf5632",
-    "key": "protologue/e183dc1b-monstera-limitaris-croat-t-b-et-al-2024-p110-fig-51.jpg"
    }
   },
   "monstera/luteynii": {
-   "07802a639668e14871ddd933a5026cc1": {
-    "bytes": 184812,
-    "derived_md5": "07802a639668e14871ddd933a5026cc1",
-    "key": "protologue/07802a63-monstera-luteynii-madison-1977-p35-fig-1.jpg"
-   },
    "096066c85243b8018102cc10c5031502": {
     "bytes": 666439,
     "derived_md5": "99d50f2e531e3586100e61aaf913d19f",
@@ -3950,10 +3770,10 @@
     "derived_md5": "26a341b5055e57fd8a05868c9d48d5e9",
     "key": "vegetative/26a341b5-monstera-luteynii-yamstress-5.jpg"
    },
-   "3ac22f5cfc108d5616b42136b5e7bb8f": {
-    "bytes": 324309,
-    "derived_md5": "3ac22f5cfc108d5616b42136b5e7bb8f",
-    "key": "protologue/3ac22f5c-monstera-luteynii-croat-t-b-et-al-2024-p112-fig-52.jpg"
+   "26e893b2cb0282f70a4d3682fb8122b9": {
+    "bytes": 513485,
+    "derived_md5": "26e893b2cb0282f70a4d3682fb8122b9",
+    "key": "protologue/26e893b2-monstera-luteynii-protologue-contr-gray-herb-207-89-madison-1977-p2.jpg"
    },
    "52841709d98137c83a47b58c063558ae": {
     "bytes": 25943,
@@ -3968,17 +3788,22 @@
    "609cfd0bc59fa5d110e16ea2e6ac35d8": {
     "bytes": 134298,
     "derived_md5": "609cfd0bc59fa5d110e16ea2e6ac35d8",
-    "key": "protologue/609cfd0b-monstera-luteynii-madison-1977-p26-fig-x.jpg"
+    "key": "other/609cfd0b-monstera-luteynii-madison-1977-p26-fig-x.jpg"
    },
    "693ad500a7717e5058f85780caccb374": {
     "bytes": 274865,
     "derived_md5": "693ad500a7717e5058f85780caccb374",
-    "key": "protologue/693ad500-monstera-luteynii-a-taxonomic-revision-of-monstera-adans-p107-fig-33.jpg"
+    "key": "other/693ad500-monstera-luteynii-cede-o-fonseca-hay-blanco-2022-fig-33.jpg"
    },
    "7e34248a3952ee9f73b373472ea37db2": {
     "bytes": 620638,
     "derived_md5": "eec217b9215e1b8f734164c49b80fcd8",
     "key": "other/eec217b9-monstera-luteynii-national-museum-of-natural-history-commons.jpg"
+   },
+   "894d15d90fecda576dad50394aef474b": {
+    "bytes": 555662,
+    "derived_md5": "894d15d90fecda576dad50394aef474b",
+    "key": "protologue/894d15d9-monstera-luteynii-protologue-contr-gray-herb-207-89-madison-1977-p1.jpg"
    },
    "ae24359cf536b6cc13d4352095c03986": {
     "bytes": 122904,
@@ -4044,20 +3869,25 @@
     "derived_md5": "9060fdbee045e087b32cb548dc6db5f7",
     "key": "vegetative/9060fdbe-monstera-membranacea-mdoliveira-10.jpg"
    },
+   "0a9e658c9e2debc24d98fc3924ef5cce": {
+    "bytes": 501305,
+    "derived_md5": "0a9e658c9e2debc24d98fc3924ef5cce",
+    "key": "protologue/0a9e658c-monstera-membranacea-protologue-contr-gray-herb-207-55-madison-1977-p1.jpg"
+   },
    "1ed40786008f4eb83af8312fd1bac9ad": {
     "bytes": 799609,
     "derived_md5": "1ed40786008f4eb83af8312fd1bac9ad",
     "key": "vegetative/1ed40786-monstera-membranacea-oliver-ingold-6.jpg"
    },
-   "45c57e49732cdefeac33e6036cd2921e": {
-    "bytes": 171947,
-    "derived_md5": "45c57e49732cdefeac33e6036cd2921e",
-    "key": "protologue/45c57e49-monstera-membranacea-croat-cede-o-fonseca-ortiz-2024-fig-53.jpg"
-   },
    "5a94d49c0d0306fd9c1c9e03ba91ca41": {
     "bytes": 298969,
     "derived_md5": "5a94d49c0d0306fd9c1c9e03ba91ca41",
     "key": "other/5a94d49c-powo-monstera-membranacea-01.jpg"
+   },
+   "5ee59d12fb2df9b662f88911ce774425": {
+    "bytes": 289054,
+    "derived_md5": "5ee59d12fb2df9b662f88911ce774425",
+    "key": "protologue/5ee59d12-monstera-membranacea-protologue-contr-gray-herb-207-55-madison-1977-p2.jpg"
    },
    "7438c4352923ac13e79dfa4e1c985006": {
     "bytes": 536191,
@@ -4077,7 +3907,7 @@
    "9970599d95ed220c2f7bec1ef4da6e0c": {
     "bytes": 166418,
     "derived_md5": "9970599d95ed220c2f7bec1ef4da6e0c",
-    "key": "protologue/9970599d-monstera-membranacea-cede-o-fonseca-hay-blanco-2022-fig-34.jpg"
+    "key": "other/9970599d-monstera-membranacea-cede-o-fonseca-hay-blanco-2022-fig-34.jpg"
    },
    "a1698d8dff2cb8c85305913967ad2544": {
     "bytes": 325807,
@@ -4087,7 +3917,7 @@
    "bb3a9224d49282859df0d01e755a8c9e": {
     "bytes": 258949,
     "derived_md5": "bb3a9224d49282859df0d01e755a8c9e",
-    "key": "protologue/bb3a9224-monstera-membranacea-croat-cede-o-fonseca-ortiz-2024-fig-54.jpg"
+    "key": "other/bb3a9224-monstera-membranacea-croat-cede-o-fonseca-ortiz-2024-fig-54.jpg"
    },
    "e28944f24831e26cd24ba23c1b762b11": {
     "bytes": 144388,
@@ -4116,11 +3946,6 @@
    }
   },
   "monstera/minima": {
-   "07802a639668e14871ddd933a5026cc1": {
-    "bytes": 184812,
-    "derived_md5": "07802a639668e14871ddd933a5026cc1",
-    "key": "protologue/07802a63-monstera-minima-madison-1977-p35-fig-1.jpg"
-   },
    "0f373aad93c868ad826c6391718591f1": {
     "bytes": 310443,
     "derived_md5": "2b9202a772c4ac1433e35b029d512416",
@@ -4149,7 +3974,12 @@
    "609cfd0bc59fa5d110e16ea2e6ac35d8": {
     "bytes": 134298,
     "derived_md5": "609cfd0bc59fa5d110e16ea2e6ac35d8",
-    "key": "protologue/609cfd0b-monstera-minima-madison-1977-p26-fig-x.jpg"
+    "key": "other/609cfd0b-monstera-minima-madison-1977-p26-fig-x.jpg"
+   },
+   "62ec3b066bb6b0ce77052d402eb383ba": {
+    "bytes": 470358,
+    "derived_md5": "62ec3b066bb6b0ce77052d402eb383ba",
+    "key": "protologue/62ec3b06-monstera-minima-protologue-contr-gray-herb-207-72-madison-1977-p1.jpg"
    },
    "88223b60c6ace9c67d125027c20b517a": {
     "bytes": 77909,
@@ -4188,11 +4018,6 @@
     "derived_md5": "392c9e1985f6aafb013996e105626560",
     "key": "hero/392c9e19-monstera-mittermeieri-portion-of-adult-shoot-with-spathe-turning-whitish-after-anthesi-fig-6i-monstera-mittermeieri.jpg"
    },
-   "3e66033db714b9bbfdd5a5722aff5a13": {
-    "bytes": 157573,
-    "derived_md5": "3e66033db714b9bbfdd5a5722aff5a13",
-    "key": "protologue/3e66033d-monstera-mittermeieri-croat-t-b-et-al-2024-p118-fig-55.jpg"
-   },
    "46bf747e13593fd82d5c269fe6ef6882": {
     "bytes": 41930,
     "derived_md5": "46bf747e13593fd82d5c269fe6ef6882",
@@ -4202,11 +4027,6 @@
     "bytes": 19632,
     "derived_md5": "54383644c43d26762c16eb400944448f",
     "key": "reproductive/54383644-monstera-mittermeieri-developing-inflorescence-fig-6a-monstera-mittermeieri.jpg"
-   },
-   "67ff239fae122c74e979793715bdd24f": {
-    "bytes": 156830,
-    "derived_md5": "67ff239fae122c74e979793715bdd24f",
-    "key": "protologue/67ff239f-monstera-mittermeieri-a-taxonomic-revision-of-monstera-adans-p111-fig-35.jpg"
    },
    "7012c67d19ed1928bff7b593a38e22bc": {
     "bytes": 25648,
@@ -4235,11 +4055,6 @@
    }
   },
   "monstera/molinae": {
-   "276b74c7444874f82ee9e9934901cc2a": {
-    "bytes": 174065,
-    "derived_md5": "276b74c7444874f82ee9e9934901cc2a",
-    "key": "protologue/276b74c7-monstera-molinae-croat-cede-o-fonseca-ortiz-2024-fig-56.jpg"
-   },
    "3390e610bea15f81d55913b8f7ac5967": {
     "bytes": 433589,
     "derived_md5": "c1571d5246f11bddaa7ff89b99399d92",
@@ -4263,7 +4078,7 @@
    "6c62e4e807cdbd92ba88434a7d61ed18": {
     "bytes": 170578,
     "derived_md5": "6c62e4e807cdbd92ba88434a7d61ed18",
-    "key": "protologue/6c62e4e8-monstera-molinae-cede-o-fonseca-hay-blanco-2022-fig-36.jpg"
+    "key": "other/6c62e4e8-monstera-molinae-cede-o-fonseca-hay-blanco-2022-fig-36.jpg"
    },
    "73e943e80b63e34e78e86ef0c25f0fe8": {
     "bytes": 928124,
@@ -4275,6 +4090,11 @@
     "derived_md5": "6b5785050a4a96e84fb1ee46cb09181c",
     "key": "vegetative/6b578505-monstera-molinae-njweess-5.jpg"
    },
+   "a411c9566e8a69e2378cfef96c77ec8d": {
+    "bytes": 572399,
+    "derived_md5": "a411c9566e8a69e2378cfef96c77ec8d",
+    "key": "protologue/a411c956-monstera-molinae-protologue-phytologia-82-48-grayum-1997-p1.jpg"
+   },
    "ab4fc875efd1b849491dd6bb3c4a84e6": {
     "bytes": 573224,
     "derived_md5": "ab4fc875efd1b849491dd6bb3c4a84e6",
@@ -4285,15 +4105,15 @@
     "derived_md5": "673091c8d12e09a23a4fd39347ddab3c",
     "key": "vegetative/673091c8-monstera-molinae-noah-dor-2.jpg"
    },
-   "c6ac4859635f4be53750ca55ae26522d": {
-    "bytes": 321490,
-    "derived_md5": "c6ac4859635f4be53750ca55ae26522d",
-    "key": "protologue/c6ac4859-monstera-molinae-croat-cede-o-fonseca-ortiz-2024-fig-57.jpg"
+   "ca7953d48f224a05648d3a78a64bc555": {
+    "bytes": 587651,
+    "derived_md5": "ca7953d48f224a05648d3a78a64bc555",
+    "key": "protologue/ca7953d4-monstera-molinae-protologue-phytologia-82-48-grayum-1997-p2.jpg"
    },
    "d2133de8a73df30899465073c0925769": {
     "bytes": 306208,
     "derived_md5": "d2133de8a73df30899465073c0925769",
-    "key": "protologue/d2133de8-monstera-molinae-cede-o-fonseca-hay-blanco-2022-fig-37.jpg"
+    "key": "other/d2133de8-monstera-molinae-cede-o-fonseca-hay-blanco-2022-fig-37.jpg"
    },
    "ff910226029149786f003f41ae5b6e3e": {
     "bytes": 461092,
@@ -4365,7 +4185,7 @@
    "d02428defc900685e0a0284e4e2e3dba": {
     "bytes": 189558,
     "derived_md5": "d02428defc900685e0a0284e4e2e3dba",
-    "key": "protologue/d02428de-monstera-momoi-zuluaga-a-et-al-2021-p7-fig-4.jpg"
+    "key": "protologue/d02428de-monstera-momoi-zuluaga-et-al-2021-fig-4.jpg"
    },
    "d6cb9b9d507fda67e1f7ae0f44fcc06c": {
     "bytes": 77341,
@@ -5104,7 +4924,7 @@
    "0278ccef654f427e574c072d1463a399": {
     "bytes": 347797,
     "derived_md5": "0278ccef654f427e574c072d1463a399",
-    "key": "protologue/0278ccef-monstera-pittieri-croat-cede-o-fonseca-ortiz-2024-fig-70.jpg"
+    "key": "other/0278ccef-monstera-pittieri-croat-cede-o-fonseca-ortiz-2024-fig-70.jpg"
    },
    "0b38087050cf57e904799fa044c9f992": {
     "bytes": 395134,
@@ -5121,15 +4941,10 @@
     "derived_md5": "4d9b9fd91dad011b32322d91259d38d6",
     "key": "protologue/4d9b9fd9-monstera-pittieri-protologue-bot-jahrb-syst-37-116-engl-1905-p1.jpg"
    },
-   "60312382fa67efadd3ae0c7b8f434d81": {
-    "bytes": 219398,
-    "derived_md5": "60312382fa67efadd3ae0c7b8f434d81",
-    "key": "protologue/60312382-monstera-pittieri-protologue-bot-jahrb-syst-37-116-engl-1905-p2.jpg"
-   },
    "8ac117d59c2fcf02b37a58225bc5603b": {
     "bytes": 150683,
     "derived_md5": "8ac117d59c2fcf02b37a58225bc5603b",
-    "key": "protologue/8ac117d5-monstera-pittieri-cede-o-fonseca-hay-blanco-2022-fig-45.jpg"
+    "key": "other/8ac117d5-monstera-pittieri-cede-o-fonseca-hay-blanco-2022-fig-45.jpg"
    },
    "9e048c3811c4f5665bf862ebdec6260a": {
     "bytes": 782301,
@@ -5160,11 +4975,6 @@
     "bytes": 286826,
     "derived_md5": "4029e875ce0f6184c87c35ed5cb262d7",
     "key": "reproductive/4029e875-monstera-pittieri-oliver-ingold-3.jpg"
-   },
-   "de6e2dbecf1329e499bd191631e1bd7d": {
-    "bytes": 154036,
-    "derived_md5": "de6e2dbecf1329e499bd191631e1bd7d",
-    "key": "protologue/de6e2dbe-monstera-pittieri-croat-cede-o-fonseca-ortiz-2024-fig-69.jpg"
    },
    "e6a612ddcf7074f716df9f950f3491e7": {
     "bytes": 817457,
@@ -5521,11 +5331,6 @@
     "derived_md5": "4f07c897964daf92a8b372777e0474ff",
     "key": "reproductive/4f07c897-monstera-siltepecana-grete-pasch-60.jpg"
    },
-   "24673b65cc2d292e2120cf6539cacd77": {
-    "bytes": 15394,
-    "derived_md5": "24673b65cc2d292e2120cf6539cacd77",
-    "key": "protologue/24673b65-codex-image-sep-2-2026-02-32-41-pm.png"
-   },
    "265fd9a009faa9af5fb98e29bc2eed94": {
     "bytes": 856271,
     "derived_md5": "265fd9a009faa9af5fb98e29bc2eed94",
@@ -5540,11 +5345,6 @@
     "bytes": 854544,
     "derived_md5": "d3a12d830d2a909aaf77c5aeb6c792c8",
     "key": "vegetative/d3a12d83-monstera-siltepecana-bill-crins.jpg"
-   },
-   "2d92f4b6d6eec3c84a5f2d5eb21d66c9": {
-    "bytes": 64946,
-    "derived_md5": "2d92f4b6d6eec3c84a5f2d5eb21d66c9",
-    "key": "protologue/2d92f4b6-monstera-siltepecana-protologue-p97-stitched.png"
    },
    "3b70fc88873d772a621d1324c272dde2": {
     "bytes": 239469,
@@ -5596,11 +5396,6 @@
     "derived_md5": "70c14fa45968bbe23e43b72674f91b7c",
     "key": "protologue/70c14fa4-monstera-siltepecana-matuda-1950-fig-9.jpg"
    },
-   "727b2c0d1e3060d639efc1093588d44d": {
-    "bytes": 19690,
-    "derived_md5": "727b2c0d1e3060d639efc1093588d44d",
-    "key": "protologue/727b2c0d-codex-image-sep-2-2026-02-31-55-pm.png"
-   },
    "741a3dbaaaa5e3b3fd6ece263b17da2e": {
     "bytes": 483011,
     "derived_md5": "898571a4c5b397c932957332021ef3bb",
@@ -5646,11 +5441,6 @@
     "derived_md5": "d664de966db28ab1fc3734bb6b7a0ea3",
     "key": "reproductive/d664de96-monstera-siltepecana-jose-santiago-10.jpg"
    },
-   "9d1accad7e7b86e0450d9911bd307e45": {
-    "bytes": 4090,
-    "derived_md5": "9d1accad7e7b86e0450d9911bd307e45",
-    "key": "protologue/9d1accad-codex-image-sep-2-2026-02-32-22-pm.png"
-   },
    "a1da11c1c7687e4ceb295bff9b61b1f5": {
     "bytes": 714549,
     "derived_md5": "a1da11c1c7687e4ceb295bff9b61b1f5",
@@ -5660,11 +5450,6 @@
     "bytes": 693906,
     "derived_md5": "cee8e39c0a3389e72232cf4652b8ffeb",
     "key": "reproductive/cee8e39c-monstera-siltepecana-taracahill-2.jpg"
-   },
-   "b3331ed5c2a9d3fa741a7bffa30975e8": {
-    "bytes": 23403,
-    "derived_md5": "b3331ed5c2a9d3fa741a7bffa30975e8",
-    "key": "protologue/b3331ed5-codex-image-sep-2-2026-02-33-06-pm.png"
    },
    "b33ba76a59ad49964da5d2ac715b10fd": {
     "bytes": 211901,
@@ -5691,11 +5476,6 @@
     "derived_md5": "69923319f29096058d3e326111985494",
     "key": "reproductive/69923319-monstera-siltepecana-ergc-2.jpg"
    },
-   "c3d0dd5537523abbd561a28e81351d61": {
-    "bytes": 14259,
-    "derived_md5": "c3d0dd5537523abbd561a28e81351d61",
-    "key": "protologue/c3d0dd55-codex-image-sep-2-2026-02-33-00-pm.png"
-   },
    "cd91bf6658170f56a2b98b0892ab8dcc": {
     "bytes": 463924,
     "derived_md5": "57eb8861068b0811a6b7299bdf8ac2ae",
@@ -5706,11 +5486,6 @@
     "derived_md5": "d059311453d9ad19c2a836cd5356629b",
     "key": "other/d0593114-powo-monstera-siltepecana-01.jpg"
    },
-   "d15a4b122b55d87805398c4858a78115": {
-    "bytes": 19661,
-    "derived_md5": "d15a4b122b55d87805398c4858a78115",
-    "key": "protologue/d15a4b12-codex-image-sep-2-2026-02-32-35-pm.png"
-   },
    "d1c72d55f08118fa998e66522ae5bdab": {
     "bytes": 860533,
     "derived_md5": "d1c72d55f08118fa998e66522ae5bdab",
@@ -5720,16 +5495,6 @@
     "bytes": 206687,
     "derived_md5": "15e53199d2ca7791d7e2e9733ca7f507",
     "key": "reproductive/15e53199-monstera-siltepecana-jose-santiago-11.jpg"
-   },
-   "dc1fb8a0994bfc898ff68e49ff7119fd": {
-    "bytes": 18722,
-    "derived_md5": "dc1fb8a0994bfc898ff68e49ff7119fd",
-    "key": "protologue/dc1fb8a0-codex-image-sep-2-2026-02-32-53-pm.png"
-   },
-   "dd9bb1ab1c6b378d6fe229e1c2ebb01d": {
-    "bytes": 14119,
-    "derived_md5": "dd9bb1ab1c6b378d6fe229e1c2ebb01d",
-    "key": "protologue/dd9bb1ab-codex-image-sep-2-2026-02-32-29-pm.png"
    },
    "efb4087af53892081f3738d2353d98e6": {
     "bytes": 725572,
@@ -6066,15 +5831,10 @@
    }
   },
   "monstera/standleyana": {
-   "005d5d40492109956ff7c502018ca09b": {
-    "bytes": 470266,
-    "derived_md5": "a4779e57f740d6c9d93e108af750c017",
-    "key": "protologue/a4779e57-00000545.jpg"
-   },
    "044dae93dbb8af04cfbd0ff4ed149255": {
     "bytes": 680608,
     "derived_md5": "35544d953288dcdf802c7c9e424f7981",
-    "key": "protologue/35544d95-00000539.jpg"
+    "key": "protologue/35544d95-monstera-standleyana-protologue-baileya-14-133-bunting-1966-p135.jpg"
    },
    "2bd01f5c4bbd2197844012d1f54e2d2e": {
     "bytes": 784890,
@@ -6085,11 +5845,6 @@
     "bytes": 430543,
     "derived_md5": "2e62d1f30d0944f7ce1190a4a0c0d4d0",
     "key": "reproductive/2e62d1f3-monstera-standleyana-marcel-esquivel-5.jpg"
-   },
-   "3500a08dab0dc4999992e3f950c92260": {
-    "bytes": 936832,
-    "derived_md5": "3500a08dab0dc4999992e3f950c92260",
-    "key": "protologue/3500a08d-00000544.jpg"
    },
    "44641e743e4a0c218e17651c8a25e344": {
     "bytes": 297200,
@@ -6104,7 +5859,7 @@
    "45a839c40d3327da49c731785dc9aa56": {
     "bytes": 298829,
     "derived_md5": "45a839c40d3327da49c731785dc9aa56",
-    "key": "protologue/45a839c4-00000543.jpg"
+    "key": "protologue/45a839c4-monstera-standleyana-protologue-baileya-14-133-bunting-1966-p139.jpg"
    },
    "4c0329052dd706cfe7dd7e87f3b0ab0c": {
     "bytes": 585837,
@@ -6114,22 +5869,22 @@
    "53754c81d4f63982c894ef925c4cfcf6": {
     "bytes": 511336,
     "derived_md5": "98b4eba93c3e577ac16615c435bfedcf",
-    "key": "protologue/98b4eba9-00000542.jpg"
+    "key": "protologue/98b4eba9-monstera-standleyana-protologue-baileya-14-133-bunting-1966-p138.jpg"
    },
    "573f86264c84648e8c16883185757066": {
     "bytes": 823550,
     "derived_md5": "573f86264c84648e8c16883185757066",
-    "key": "protologue/573f8626-00000540.jpg"
+    "key": "protologue/573f8626-monstera-standleyana-protologue-baileya-14-133-bunting-1966-p136.jpg"
    },
    "5d91463e653e290e02e0cfd80dec6c39": {
     "bytes": 558221,
     "derived_md5": "ff2fcc9c509ef3f4bed999693cb8e6a7",
-    "key": "protologue/ff2fcc9c-00000537.jpg"
+    "key": "protologue/ff2fcc9c-monstera-standleyana-protologue-baileya-14-133-bunting-1966-p133.jpg"
    },
    "65f4b0bc004edb2aa580d6769bb2c6c4": {
     "bytes": 938583,
     "derived_md5": "65f4b0bc004edb2aa580d6769bb2c6c4",
-    "key": "protologue/65f4b0bc-00000541.jpg"
+    "key": "protologue/65f4b0bc-monstera-standleyana-protologue-baileya-14-133-bunting-1966-p137.jpg"
    },
    "759cb15b1e6c590575ede8df55cda863": {
     "bytes": 807359,
@@ -6189,7 +5944,7 @@
    "f5345de95db08ecf2c73c26cdbb2b9a2": {
     "bytes": 674392,
     "derived_md5": "f5345de95db08ecf2c73c26cdbb2b9a2",
-    "key": "protologue/f5345de9-00000538.jpg"
+    "key": "protologue/f5345de9-monstera-standleyana-protologue-baileya-14-133-bunting-1966-p134.jpg"
    }
   },
   "monstera/subpinnata": {
@@ -6285,15 +6040,10 @@
     "derived_md5": "6c79892a889cc678650262c9171733f3",
     "key": "vegetative/6c79892a-monstera-tablasensis-lostincr-2.jpg"
    },
-   "808440d7c30bf31886106b92939effc9": {
-    "bytes": 376503,
-    "derived_md5": "808440d7c30bf31886106b92939effc9",
-    "key": "protologue/808440d7-monstera-tablasensis-croat-cede-o-fonseca-ortiz-2024-fig-79.jpg"
-   },
    "ecd9f063062ed0b601bd09f82af8293f": {
     "bytes": 398821,
     "derived_md5": "ecd9f063062ed0b601bd09f82af8293f",
-    "key": "protologue/ecd9f063-monstera-tablasensis-croat-cede-o-fonseca-ortiz-2024-fig-80.jpg"
+    "key": "other/ecd9f063-monstera-tablasensis-croat-cede-o-fonseca-ortiz-2024-fig-80.jpg"
    },
    "f1323119bcfda992fad4401c482fd8ba": {
     "bytes": 854394,
@@ -6574,11 +6324,6 @@
     "derived_md5": "70bfb3875c49e17bb84d1c8f0ec09e39",
     "key": "reproductive/70bfb387-monstera-tarrazuensis-developing-inflorescence-fig-57g-a-taxonomic-revision-of-monstera-adans.jpg"
    },
-   "728422e5561d1583e9e7a7d9d5ce3816": {
-    "bytes": 155642,
-    "derived_md5": "728422e5561d1583e9e7a7d9d5ce3816",
-    "key": "protologue/728422e5-monstera-tarrazuensis-croat-t-b-et-al-2024-p174-fig-83.jpg"
-   },
    "95681e4c0a262a7eb26523e9d0e11334": {
     "bytes": 7074,
     "derived_md5": "95681e4c0a262a7eb26523e9d0e11334",
@@ -6589,25 +6334,10 @@
     "derived_md5": "b2e0835e859f6046141cf731d0ceabd5",
     "key": "maps/b2e0835e-monstera-tarrazuensis-map-of-costa-rica-showing-distributions-of-monstera-alfaroi-red-fig-7-cede-o-fonseca-m-et-al-2020.jpg"
    },
-   "c12afaea9dc920da96eac522b591d70f": {
-    "bytes": 440325,
-    "derived_md5": "c12afaea9dc920da96eac522b591d70f",
-    "key": "protologue/c12afaea-monstera-tarrazuensis-croat-cede-o-fonseca-ortiz-2024-fig-84.jpg"
-   },
    "da3d390efa15196df8a91d12553298fc": {
     "bytes": 29706,
     "derived_md5": "da3d390efa15196df8a91d12553298fc",
     "key": "reproductive/da3d390e-monstera-tarrazuensis-immature-infructescence-fig-57e-a-taxonomic-revision-of-monstera-adans.jpg"
-   },
-   "de8029b43c4046863e692d4881cf8774": {
-    "bytes": 334134,
-    "derived_md5": "de8029b43c4046863e692d4881cf8774",
-    "key": "protologue/de8029b4-monstera-tarrazuensis-cede-o-fonseca-hay-blanco-2022-fig-58.jpg"
-   },
-   "e5c9415b2100d08e9ef6ca7caf492415": {
-    "bytes": 149399,
-    "derived_md5": "e5c9415b2100d08e9ef6ca7caf492415",
-    "key": "protologue/e5c9415b-monstera-tarrazuensis-a-taxonomic-revision-of-monstera-adans-p170-fig-57.jpg"
    },
    "eac6d7685f3a78626f59c0062e8fffc2": {
     "bytes": 351397,
@@ -6816,7 +6546,7 @@
    "2127175a6e574e0aff266d2b2eb38587": {
     "bytes": 428727,
     "derived_md5": "2127175a6e574e0aff266d2b2eb38587",
-    "key": "protologue/2127175a-monstera-titanum-croat-cede-o-fonseca-ortiz-2024-fig-87.jpg"
+    "key": "other/2127175a-monstera-titanum-croat-cede-o-fonseca-ortiz-2024-fig-87.jpg"
    },
    "427caa724ebf5d984edd754c7d1444bc": {
     "bytes": 539368,
@@ -6827,11 +6557,6 @@
     "bytes": 422619,
     "derived_md5": "fc30df58c3332f753c8152f4e6085a9d",
     "key": "vegetative/fc30df58-monstera-titanum-ramon-d.jpg"
-   },
-   "8d87338b545fdce2f2cc49245a1d7c44": {
-    "bytes": 172813,
-    "derived_md5": "8d87338b545fdce2f2cc49245a1d7c44",
-    "key": "protologue/8d87338b-monstera-titanum-croat-cede-o-fonseca-ortiz-2024-fig-86.jpg"
    },
    "cf1554f0392ae6a6c0d8edd9a5b45459": {
     "bytes": 328544,
@@ -6976,11 +6701,6 @@
     "derived_md5": "0836618d19729b3e96c10280f80496c9",
     "key": "other/0836618d-monstera-wilsoniensis-mo-herbarium-sheet-gbif-4031413466.jpg"
    },
-   "0a6321343285f9124ed641715485e7ca": {
-    "bytes": 153335,
-    "derived_md5": "0a6321343285f9124ed641715485e7ca",
-    "key": "protologue/0a632134-monstera-wilsoniensis-croat-t-b-et-al-2024-p187-fig-90.jpg"
-   },
    "0d92c6c1129218ed7ef54fb8312bba1d": {
     "bytes": 37098,
     "derived_md5": "0d92c6c1129218ed7ef54fb8312bba1d",
@@ -6990,11 +6710,6 @@
     "bytes": 117797,
     "derived_md5": "1711d6ce93571d9965c41d22352241e6",
     "key": "other/1711d6ce-monstera-wilsoniensis-mo-herbarium-sheet-gbif-1260513927.jpg"
-   },
-   "19d2f5920969a82042dfa69772f7b309": {
-    "bytes": 150131,
-    "derived_md5": "19d2f5920969a82042dfa69772f7b309",
-    "key": "protologue/19d2f592-monstera-wilsoniensis-a-taxonomic-revision-of-monstera-adans-p186-fig-61.jpg"
    },
    "2042169bfef0771e1fb0ee194e4af72c": {
     "bytes": 139750,
@@ -7056,11 +6771,6 @@
     "derived_md5": "cc23d3a9c35fd4986ae7e8ba61f00aa7",
     "key": "reproductive/cc23d3a9-monstera-wilsoniensis-stylar-plate-with-stigma-left-and-one-stamen-right-fig-61e-a-taxonomic-revision-of-monstera-adans.jpg"
    },
-   "ce9ccea933dbde8e5b4cd99bf94768b7": {
-    "bytes": 316878,
-    "derived_md5": "ce9ccea933dbde8e5b4cd99bf94768b7",
-    "key": "protologue/ce9ccea9-monstera-wilsoniensis-croat-cede-o-fonseca-ortiz-2024-fig-91.jpg"
-   },
    "d7b988d9546ea5a73f2d5594286dc777": {
     "bytes": 7852,
     "derived_md5": "d7b988d9546ea5a73f2d5594286dc777",
@@ -7070,11 +6780,6 @@
     "bytes": 79952,
     "derived_md5": "db70ac8dadd1b1779e73dec5221b83db",
     "key": "vegetative/db70ac8d-monstera-wilsoniensis-portion-of-adult-plant-fig-61g-a-taxonomic-revision-of-monstera-adans.jpg"
-   },
-   "dc829c0cd0892930b166da77582ccddf": {
-    "bytes": 278385,
-    "derived_md5": "dc829c0cd0892930b166da77582ccddf",
-    "key": "protologue/dc829c0c-monstera-wilsoniensis-cede-o-fonseca-hay-blanco-2022-fig-62.jpg"
    },
    "e0002b1c1d0559ae019b6e5915c2cf7e": {
     "bytes": 172047,
