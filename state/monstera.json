@@ -134,6 +134,11 @@
     "derived_md5": "3520ad277fbd179b0ead4b9abb89a768",
     "key": "vegetative/3520ad27-monstera-acuminata-thomas-b-croat.jpg"
    },
+   "37c941f0bb3a99b3229aa28efd72c96b": {
+    "bytes": 220517,
+    "derived_md5": "37c941f0bb3a99b3229aa28efd72c96b",
+    "key": "hero/37c941f0-monstera-acuminata-ds-fairchild-monsacuminataftg3-pictured-at-the-fairchild-tropical-botanic-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
    "40c604938445fc32b4d3a1deb6b10aab": {
     "bytes": 153952,
     "derived_md5": "40c604938445fc32b4d3a1deb6b10aab",
@@ -286,6 +291,11 @@
     "derived_md5": "1a5952ae21b327d86c28dd4013602a6e",
     "key": "reproductive/1a5952ae-monstera-adansonii-andre2de3meijer.jpeg"
    },
+   "1e676b23bd588a32e8a0a848181361ff": {
+    "bytes": 141320,
+    "derived_md5": "1e676b23bd588a32e8a0a848181361ff",
+    "key": "reproductive/1e676b23-monstera-adansonii-ds-lyon-monsadansoniilaniata032292-4-from-venezuela-bolivar-pictured-at-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
    "20c8cbd962f89b573cf6af7bc792eeec": {
     "bytes": 399469,
     "derived_md5": "fd210640b753fc3888d6e52b9a55537a",
@@ -311,6 +321,16 @@
     "derived_md5": "3f19bdc978b1fd444bfbd479e145c489",
     "key": "reproductive/3f19bdc9-monstera-adansonii-david-scherberich-2.jpg"
    },
+   "4101ceaad4edb94c5f2c1da9ac91c932": {
+    "bytes": 149845,
+    "derived_md5": "4101ceaad4edb94c5f2c1da9ac91c932",
+    "key": "reproductive/4101ceaa-monstera-adansonii-ds-lyon-monsadansoniilaniata032292-3-from-venezuela-bolivar-pictured-at-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
+   "4f1110ab45dccd44a527af44d6c2c763": {
+    "bytes": 148843,
+    "derived_md5": "4f1110ab45dccd44a527af44d6c2c763",
+    "key": "reproductive/4f1110ab-monstera-adansonii-ds-lyon-monsadansoniif2-pictured-at-the-jardin-botanique-de-lyon-france-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
    "5292386ff013b3a4c03da9fa00652321": {
     "bytes": 456621,
     "derived_md5": "f8b2a21aefe7919d76f79773533b03bd",
@@ -326,10 +346,20 @@
     "derived_md5": "5fd8725e3a1e78afb96c402da6a77772",
     "key": "reproductive/5fd8725e-monstera-adansonii-alessandra-santos-silva.jpg"
    },
+   "7af52b8757f8cec3262ff4f0b5cd71fe": {
+    "bytes": 171974,
+    "derived_md5": "7af52b8757f8cec3262ff4f0b5cd71fe",
+    "key": "reproductive/7af52b87-monstera-adansonii-ds-lyon-monsadansoniilaniata032292-2-from-venezuela-bolivar-pictured-at-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
    "83fba82d503f39d3aa3084430a2280a2": {
     "bytes": 330970,
     "derived_md5": "16348981e21383fc7ec68a5855234ddc",
     "key": "vegetative/16348981-monstera-adansonii-diogo-luiz-commons.jpg"
+   },
+   "8f2ca73d9f95e991da2ad4673e9bb92a": {
+    "bytes": 131830,
+    "derived_md5": "8f2ca73d9f95e991da2ad4673e9bb92a",
+    "key": "reproductive/8f2ca73d-monstera-adansonii-ds-lyon-monsadansonii4-pictured-at-the-jardin-botanique-de-lyon-france-2006-copyright-david-scherberich-www-aroidpictures-fr.jpg"
    },
    "9624caf1ae6dd0310bc6d0382693143a": {
     "bytes": 176869,
@@ -1446,6 +1476,11 @@
     "derived_md5": "c1edeb907d9ef9c370327c9f731cba52",
     "key": "vegetative/c1edeb90-monstera-deliciosa-raffi-kojian-commons.jpg"
    },
+   "c72821183caf4c655c54abb0191d6e95": {
+    "bytes": 950851,
+    "derived_md5": "c72821183caf4c655c54abb0191d6e95",
+    "key": "reproductive/c7282118-monstera-deliciosa-pb15972-patrick-blanc-holding-the-open-spathe-of-monstera-copyright-patrick-blanc-www-verticalgardenpatrickblanc-com.jpg"
+   },
    "d3c332bcb51570cc189c218c01a614b8": {
     "bytes": 577806,
     "derived_md5": "857e9c5d2b5b1c7f612f278c9ed2f684",
@@ -1458,6 +1493,16 @@
    }
   },
   "monstera/deliciosa-key-lime-pie": {
+   "08c6ab3c7254a69d05849d3e7939148c": {
+    "bytes": 422504,
+    "derived_md5": "4b156ec71403819d4a94faf4b9a480fe",
+    "key": "vegetative/4b156ec7-monstera-deliciosa-key-lime-pie-ias-aroid-cultivar-registry-registry-bc441c04.jpg"
+   },
+   "0a3bf9be565274f695b1446b28c9d27c": {
+    "bytes": 482934,
+    "derived_md5": "2de5dfc431caa559c95d7f2e760e8096",
+    "key": "vegetative/2de5dfc4-monstera-deliciosa-key-lime-pie-ias-aroid-cultivar-registry-registry-e13627fc.jpg"
+   },
    "25ff3465810b1ac8fe616af46d94014f": {
     "bytes": 413342,
     "derived_md5": "264b62c108d7f33d091201c5b2de713a",
@@ -1467,6 +1512,11 @@
     "bytes": 430320,
     "derived_md5": "5c061c33abb14bcb373942f2d6619703",
     "key": "vegetative/5c061c33-monstera-key-lime-pie-aroidcultivars-5-img-7946.jpg"
+   },
+   "8bcd5b2aa8d750410225f25cda99fefb": {
+    "bytes": 340499,
+    "derived_md5": "d83a677035890181166debf5efde68e0",
+    "key": "vegetative/d83a6770-monstera-deliciosa-key-lime-pie-ias-aroid-cultivar-registry-registry-c3511939.jpg"
    },
    "8e6ae42573a33fce02e052a6ff84f9d1": {
     "bytes": 347995,
@@ -1478,10 +1528,20 @@
     "derived_md5": "65685ad78e7a21aaf947a2d63469dcec",
     "key": "vegetative/65685ad7-monstera-key-lime-pie-aroidcultivars-3-img-7949.jpg"
    },
+   "d34c6f9cc2afd7ecb8850fa213cd79a9": {
+    "bytes": 496535,
+    "derived_md5": "929ecb90a7f565f82f37094044931daa",
+    "key": "vegetative/929ecb90-monstera-deliciosa-key-lime-pie-ias-aroid-cultivar-registry-registry-91226049.jpg"
+   },
    "ed6edb6b4f86a30bb1685083cf4f0c12": {
     "bytes": 505294,
     "derived_md5": "d3bf8a8c9cb6937b3f089c7890b5d27b",
     "key": "vegetative/d3bf8a8c-monstera-key-lime-pie-aroidcultivars-2-img-7945.jpg"
+   },
+   "f6bd35b08bbd35b2124bfae760558f8c": {
+    "bytes": 404391,
+    "derived_md5": "0501e3bac86f0ac985eedaa03a6f845d",
+    "key": "vegetative/0501e3ba-monstera-deliciosa-key-lime-pie-ias-aroid-cultivar-registry-registry-8d88fc9e.jpg"
    }
   },
   "monstera/deliciosa-masterpiece": {
@@ -1499,6 +1559,16 @@
     "bytes": 406806,
     "derived_md5": "8a5e3acbaf91fccc888930b9c7b92753",
     "key": "hero/8a5e3acb-monstera-deliciosa-masterpiece-aroidcultivars-1-unnamed.jpg"
+   },
+   "a30d00791a570b596503651f913524e6": {
+    "bytes": 793648,
+    "derived_md5": "a30d00791a570b596503651f913524e6",
+    "key": "vegetative/a30d0079-monstera-deliciosa-masterpiece-ias-aroid-cultivar-registry-registry-82356db4.jpg"
+   },
+   "b373ee9d4f7fde169b2646846706d596": {
+    "bytes": 532767,
+    "derived_md5": "7fbf40c7a7295eacf537542bb94f0e4f",
+    "key": "vegetative/7fbf40c7-monstera-deliciosa-masterpiece-ias-aroid-cultivar-registry-registry-96d2b4b2.jpg"
    },
    "ee30cf8a7b723f8ef9c014dfb354360d": {
     "bytes": 545489,
@@ -1526,6 +1596,16 @@
     "bytes": 364809,
     "derived_md5": "44aa828c80365e36689228cfee13aaf4",
     "key": "vegetative/44aa828c-monstera-deliciosa-oceana-aroidcultivars-4-monstera-oceana-blade.jpg"
+   },
+   "cc716a62958fab71ae9ba22d118d3255": {
+    "bytes": 337895,
+    "derived_md5": "e6b19d4c0af7b8499c8f1399dda5a80d",
+    "key": "vegetative/e6b19d4c-monstera-deliciosa-oceana-ias-aroid-cultivar-registry-registry-e9416325.jpg"
+   },
+   "ec81bc0385a177a237a0cf913aab4692": {
+    "bytes": 395334,
+    "derived_md5": "f77f603e7cac9410f69a9f3c92bde76f",
+    "key": "vegetative/f77f603e-monstera-deliciosa-oceana-aroidcultivars-5-monstera-oceana.jpg"
    }
   },
   "monstera/deliciosa-shamrock-shake": {
@@ -1533,6 +1613,11 @@
     "bytes": 385786,
     "derived_md5": "091c92be55d2b4e2a53dd02107b86cc5",
     "key": "vegetative/091c92be-monstera-deliciosa-shamrock-shake-aroidcultivars-5-img-5649.jpeg"
+   },
+   "57c4bc76f5f6685435ad7c8208b047cb": {
+    "bytes": 662001,
+    "derived_md5": "67c72621e7b71fa9563447f622ac71e5",
+    "key": "vegetative/67c72621-monstera-deliciosa-shamrock-shake-ias-aroid-cultivar-registry-registry-02956b5b.jpg"
    },
    "77ff2f4a8da1ebdc9416a3f5c069a849": {
     "bytes": 668890,
@@ -1548,6 +1633,11 @@
     "bytes": 279880,
     "derived_md5": "a57df0f2e7afac2f31f91b2fc3b57b3c",
     "key": "vegetative/a57df0f2-monstera-deliciosa-shamrock-shake-aroidcultivars-4-img-5650.jpeg"
+   },
+   "b9d85c32666ded54c05b735852e72c9c": {
+    "bytes": 502068,
+    "derived_md5": "8f049d2f0e689ed74b15ca9299224733",
+    "key": "vegetative/8f049d2f-monstera-deliciosa-shamrock-shake-ias-aroid-cultivar-registry-registry-a623a7d8.jpg"
    },
    "d76811996db2e2f1750f7fa5367a5221": {
     "bytes": 505949,
@@ -1566,6 +1656,11 @@
     "derived_md5": "bca54e5837b17eae10f76b3b64854373",
     "key": "vegetative/bca54e58-monstera-deliciosa-unniiae-aroidcultivars-5-e5d47be5-28dd-499d-b786-619b7e83841b.jpg"
    },
+   "a499d418cd085baabeb43b2ed5bc682c": {
+    "bytes": 387611,
+    "derived_md5": "a5a2b236c6481e442678151e04ff1b9a",
+    "key": "vegetative/a5a2b236-monstera-deliciosa-unniiae-ias-aroid-cultivar-registry-registry-1fe20208.jpg"
+   },
    "cc5c5265e4d38fdafab2b31921540e79": {
     "bytes": 462346,
     "derived_md5": "6affded6f1d36c6d6612a674179bb059",
@@ -1576,10 +1671,20 @@
     "derived_md5": "d1fab334cd9440f819bd014b420b468b",
     "key": "vegetative/d1fab334-monstera-deliciosa-unniiae-aroidcultivars-2-3ac3803f-f024-41f5-b39d-c6a3a0589ce2.jpg"
    },
+   "de894c321c4a3e94b66b8b98df8a9afa": {
+    "bytes": 339157,
+    "derived_md5": "0e577c2494c6cc15a9b896a9e532e5b8",
+    "key": "vegetative/0e577c24-monstera-deliciosa-unniiae-ias-aroid-cultivar-registry-registry-50ccfebd.jpg"
+   },
    "e0abb5efbcca7924d1981fd613aae195": {
     "bytes": 794664,
     "derived_md5": "e0abb5efbcca7924d1981fd613aae195",
     "key": "hero/e0abb5ef-monstera-deliciosa-unniiae-aroidcultivars-1-898fd039-9bcc-47e1-81aa-19d892fbf1da.jpeg"
+   },
+   "f6a33c43e87df86e56d6e0d51ede9051": {
+    "bytes": 455485,
+    "derived_md5": "028ef0d03d4e7fbf82230f0a3bac6eb7",
+    "key": "vegetative/028ef0d0-monstera-deliciosa-unniiae-ias-aroid-cultivar-registry-registry-2dfadf6b.jpg"
    }
   },
   "monstera/dissecta": {
@@ -1692,6 +1797,11 @@
     "bytes": 880913,
     "derived_md5": "eaf9fc149c7788265c06b55d55d105c5",
     "key": "reproductive/eaf9fc14-monstera-dissecta-damon-tighe.jpeg"
+   },
+   "f1c9541efe5050a9f3d9b87d0f167afd": {
+    "bytes": 164259,
+    "derived_md5": "f1c9541efe5050a9f3d9b87d0f167afd",
+    "key": "vegetative/f1c9541e-monstera-dissecta-ds-montreal-monsdissecta7303-92mtjb2-from-costa-rica-pictured-at-the-biod-me-copyright-david-scherberich-www-aroidpictures-fr.jpg"
    },
    "f9d635914c6ecd635ba8496e1aaf87e0": {
     "bytes": 682272,
@@ -1857,10 +1967,20 @@
     "derived_md5": "ba0bad5a4ff594d2f713bca391c088e7",
     "key": "vegetative/ba0bad5a-powo-monstera-dubia-03.jpg"
    },
+   "ba87d7298ce2373416aab4d04e5044d7": {
+    "bytes": 694854,
+    "derived_md5": "bb0174b969f7d53b99a02d079c349310",
+    "key": "vegetative/bb0174b9-monstera-dubia-pb18490-individual-with-asymmetric-half-pinnatifid-leaves-of-the-adult-copyright-patrick-blanc-www-verticalgardenpatrickblanc-com.jpg"
+   },
    "bf7aa580b53a1aed0c5d951d4b4aaf3d": {
     "bytes": 970837,
     "derived_md5": "bf7aa580b53a1aed0c5d951d4b4aaf3d",
     "key": "vegetative/bf7aa580-monstera-dubia-eric-koberle.jpeg"
+   },
+   "c16adde437fa6a25f71e21976982a663": {
+    "bytes": 164201,
+    "derived_md5": "c16adde437fa6a25f71e21976982a663",
+    "key": "reproductive/c16adde4-monstera-dubia-ds-equateur2015-monsdubiacroat105577-5-croat-105577-pictured-in-misahualli-copyright-david-scherberich-www-aroidpictures-fr.jpg"
    },
    "c60fe6243f08b791670d37b061a85c6f": {
     "bytes": 350498,
@@ -1891,6 +2011,11 @@
     "bytes": 479657,
     "derived_md5": "e7e44271bb3fffff5814c0e51e050965",
     "key": "protologue/e7e44271-monstera-dubia-protologue-pflanzenr-iv-23b-117-kunth-engl-k-krause-1908-p3.jpg"
+   },
+   "e961f5d7f4b1b9c53b6daed46c7cc877": {
+    "bytes": 133914,
+    "derived_md5": "e961f5d7f4b1b9c53b6daed46c7cc877",
+    "key": "reproductive/e961f5d7-monstera-dubia-ds-equateur2015-monsdubiacroat105577-4-croat-105577-pictured-in-misahualli-copyright-david-scherberich-www-aroidpictures-fr.jpg"
    },
    "ee507ef11830e5177520d4963f9b4f67": {
     "bytes": 645801,
@@ -2046,6 +2171,11 @@
     "derived_md5": "0682294718bcbce090f1099139501fbc",
     "key": "other/06822947-monstera-epipremnoides-cede-o-fonseca-hay-blanco-2022-fig-22.jpg"
    },
+   "07e262726b851e75fd73a23871912f49": {
+    "bytes": 222606,
+    "derived_md5": "07e262726b851e75fd73a23871912f49",
+    "key": "vegetative/07e26272-monstera-epipremnoides-ds-lyon-monsrmp2117-9-rmp-2117-from-chiriqui-panama-pictured-at-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
    "0a24d035eb3f4c71a3d1d78c1505d376": {
     "bytes": 96436,
     "derived_md5": "0a24d035eb3f4c71a3d1d78c1505d376",
@@ -2070,6 +2200,11 @@
     "bytes": 833494,
     "derived_md5": "278a29eb2cc12035ee3e2cc4c3b4b146",
     "key": "hero/278a29eb-monstera-epipremnoides-monstera-epipremnoides-from-tarraz-costa-rica-adult-plant-gro-fig-33-croat-t-b-et-al-2024.jpg"
+   },
+   "2ee100498a6fc2c231b3efdc81238efe": {
+    "bytes": 205378,
+    "derived_md5": "2ee100498a6fc2c231b3efdc81238efe",
+    "key": "vegetative/2ee10049-monstera-epipremnoides-ds-lyon-mons100209pan-rmp-2117-from-chiriqui-panama-pictured-at-copyright-david-scherberich-www-aroidpictures-fr.jpg"
    },
    "330792e74cfa952467972b4a38fe526c": {
     "bytes": 7802,
@@ -2101,10 +2236,20 @@
     "derived_md5": "7ebb9644dfcb611bdd3f5617c71127ad",
     "key": "vegetative/7ebb9644-monstera-epipremnoides-inaturalist-observation-gbif-3320892442.jpg"
    },
+   "6533c69e471935782c6f1ab70a101426": {
+    "bytes": 208355,
+    "derived_md5": "6533c69e471935782c6f1ab70a101426",
+    "key": "vegetative/6533c69e-monstera-epipremnoides-ds-lyon-monsrmp2117-4-rmp-2117-from-chiriqui-panama-pictured-at-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
    "687f12dbf9973d28bd5d8a4a76b167a5": {
     "bytes": 193938,
     "derived_md5": "687f12dbf9973d28bd5d8a4a76b167a5",
     "key": "reproductive/687f12db-monstera-epipremnoides-dayron.jpg"
+   },
+   "68c83fa4ef57298980e61d24c647720c": {
+    "bytes": 185148,
+    "derived_md5": "68c83fa4ef57298980e61d24c647720c",
+    "key": "vegetative/68c83fa4-monstera-epipremnoides-ds-lyon-monsrmp2117-5-rmp-2117-from-chiriqui-panama-pictured-at-copyright-david-scherberich-www-aroidpictures-fr.jpg"
    },
    "691dd767c20435a1a03ccd22941502cd": {
     "bytes": 181607,
@@ -2131,6 +2276,11 @@
     "derived_md5": "7c91a9305842d4818aa7588a4369a138",
     "key": "reproductive/7c91a930-monstera-epipremnoides-sterile-flower-lateral-view-left-and-longitudinal-section-ri-fig-22g-a-taxonomic-revision-of-monstera-adans.jpg"
    },
+   "8d295297de11ed9854f656b7442bfd08": {
+    "bytes": 211599,
+    "derived_md5": "8d295297de11ed9854f656b7442bfd08",
+    "key": "vegetative/8d295297-monstera-epipremnoides-ds-lyon-monsrmp2117-6-rmp-2117-from-chiriqui-panama-pictured-at-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
    "8e747537fb54e0e7666dc11b418d784d": {
     "bytes": 245795,
     "derived_md5": "8e747537fb54e0e7666dc11b418d784d",
@@ -2140,6 +2290,11 @@
     "bytes": 8872,
     "derived_md5": "a34692f8ade1e746fec87898b0cb22ed",
     "key": "reproductive/a34692f8-monstera-epipremnoides-fertile-flower-in-lateral-view-left-and-in-longitudinal-sectio-fig-22e-a-taxonomic-revision-of-monstera-adans.jpg"
+   },
+   "a3945dde5f83434f9e32919e61d061f7": {
+    "bytes": 229288,
+    "derived_md5": "a3945dde5f83434f9e32919e61d061f7",
+    "key": "vegetative/a3945dde-monstera-epipremnoides-ds-lyon-monsrmp2117-rmp-2117-from-chiriqui-panama-pictured-at-the-copyright-david-scherberich-www-aroidpictures-fr.jpg"
    },
    "ab1bd6502d6b99dab517659b73e6cdb3": {
     "bytes": 176461,
@@ -3225,6 +3380,11 @@
     "derived_md5": "638d04802564b33d3f62792034f0f3fc",
     "key": "vegetative/638d0480-mick-mittermeier-2.jpg"
    },
+   "676610927e41931b56c39cf8e7cf7106": {
+    "bytes": 562044,
+    "derived_md5": "676610927e41931b56c39cf8e7cf7106",
+    "key": "reproductive/67661092-mick-mittermeier-1.jpg"
+   },
    "6c6b0bf00b0aef9db9afc71332256ea1": {
     "bytes": 594716,
     "derived_md5": "6c6b0bf00b0aef9db9afc71332256ea1",
@@ -3358,6 +3518,11 @@
     "bytes": 440326,
     "derived_md5": "b9c23d3c6ff4cbf92988414a009a658e",
     "key": "reproductive/b9c23d3c-monstera-lechleriana-jade-asher-warner-4.jpg"
+   },
+   "2bbce33e9f1080afb42d349633406ef9": {
+    "bytes": 213721,
+    "derived_md5": "2bbce33e9f1080afb42d349633406ef9",
+    "key": "reproductive/2bbce33e-monstera-lechleriana-ds-montet-monslechleriana3ncy-pictured-at-the-jardin-botanique-du-montet-copyright-david-scherberich-www-aroidpictures-fr.jpg"
    },
    "3d869a21d6cf23e997d7a7b1a4172fa0": {
     "bytes": 182015,
@@ -3503,6 +3668,11 @@
     "bytes": 150728,
     "derived_md5": "ef21369c6a52d9edd5f349327c318d99",
     "key": "other/ef21369c-monstera-lechleriana-user45732-commons.jpg"
+   },
+   "f020718fd2dd3ea90bc4bf99e4915c6d": {
+    "bytes": 301644,
+    "derived_md5": "f020718fd2dd3ea90bc4bf99e4915c6d",
+    "key": "reproductive/f020718f-monstera-lechleriana-ds-montet-monslechleriana4ncy-pictured-at-the-jardin-botanique-du-montet-copyright-david-scherberich-www-aroidpictures-fr.jpg"
    },
    "f3dbb7056dce97077fc0d30f39f9c595": {
     "bytes": 547206,
@@ -4503,6 +4673,11 @@
     "derived_md5": "a62335b72770f5134d51070d6bc7f69d",
     "key": "reproductive/a62335b7-monstera-obliqua-sami-dolan.jpg"
    },
+   "7c2507751e69ee92dd7f3e75d1a1e763": {
+    "bytes": 111902,
+    "derived_md5": "7c2507751e69ee92dd7f3e75d1a1e763",
+    "key": "reproductive/7c250775-monstera-obliqua-ds-montet-monsobliqua803779-from-loreto-peru-pictured-at-the-jardin-botanique-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
    "833c6c6fa84fadd5f72d3f88b1f40b08": {
     "bytes": 118276,
     "derived_md5": "f9f4c6dae42662e6fefd0dbecf849eae",
@@ -4512,6 +4687,11 @@
     "bytes": 1021438,
     "derived_md5": "888355edb622ae92ef3aa1684fe7bdba",
     "key": "reproductive/888355ed-monstera-obliqua-guillaume-l-otard-4.jpg"
+   },
+   "90db6767804ec0019756897bd73414a2": {
+    "bytes": 127529,
+    "derived_md5": "90db6767804ec0019756897bd73414a2",
+    "key": "reproductive/90db6767-monstera-obliqua-ds-montet-monsobliqua033214-5-from-brazil-para-pictured-at-the-jardin-copyright-david-scherberich-www-aroidpictures-fr.jpg"
    },
    "90ec5acf611a4247b647ca20874d46fa": {
     "bytes": 412264,
@@ -5297,6 +5477,11 @@
     "derived_md5": "6d15234f1a032783c36c7457b81a09f8",
     "key": "vegetative/6d15234f-monstera-punctulata-kristijan-jerkovic-2.jpg"
    },
+   "fd188c8babf5375a2bd8cff3b8ca754d": {
+    "bytes": 124074,
+    "derived_md5": "fd188c8babf5375a2bd8cff3b8ca754d",
+    "key": "vegetative/fd188c8b-monstera-punctulata-ds-kew-monspunctulatak2-pictured-in-royal-botanic-gardens-kew-2012-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
    "fd9c6aa69cb61d40365d47f17da4ad2c": {
     "bytes": 690214,
     "derived_md5": "b6dc86156e23bc5613c03832de2d48f8",
@@ -5304,10 +5489,25 @@
    }
   },
   "monstera/rellas-jewel": {
+   "3b5b41ece5c83c3a334252549dcb4338": {
+    "bytes": 369981,
+    "derived_md5": "9f96d2eca31acbf3cbd979dc39a794a9",
+    "key": "vegetative/9f96d2ec-monstera-rellas-jewel-aroidcultivars-5-20260312-094034.jpg"
+   },
+   "4a69ca5e2b1e27346f4d4f329e0dfb07": {
+    "bytes": 630264,
+    "derived_md5": "0653560e1a1eb4e5611a6cf4e95713af",
+    "key": "other/0653560e-monstera-rellas-jewel-ias-aroid-cultivar-registry-registry-a41dd9a6.jpg"
+   },
    "5a58c5f703e4c66470fe08343c5dbb55": {
     "bytes": 499540,
     "derived_md5": "92791ec9853094ea7993e74957af4403",
     "key": "vegetative/92791ec9-monstera-rellas-jewel-aroidcultivars-3-20260312-094031.jpg"
+   },
+   "64a7b89d4f4c6981cd6f1b91ed0143a3": {
+    "bytes": 668430,
+    "derived_md5": "ea18c95e1870c8124e634b2f119ef2e7",
+    "key": "other/ea18c95e-monstera-rellas-jewel-ias-aroid-cultivar-registry-registry-7ef0d097.jpg"
    },
    "681459ec7f9d6fe4c472e28433e89c7f": {
     "bytes": 424163,
@@ -5319,10 +5519,25 @@
     "derived_md5": "ba819f301e7979349d8d0a5ff669de56",
     "key": "vegetative/ba819f30-monstera-rellas-jewel-aroidcultivars-1-20260312-094026.jpg"
    },
+   "94a1b1e62fd7a76a0e7ea38174bfea25": {
+    "bytes": 908776,
+    "derived_md5": "347f10ba0e0f44dca3253d61679e51eb",
+    "key": "other/347f10ba-monstera-rellas-jewel-ias-aroid-cultivar-registry-registry-6441d2c0.jpg"
+   },
+   "9886c876b4d74431cf6903a4898ffdd3": {
+    "bytes": 1035666,
+    "derived_md5": "8bc824487215025f823e7f4a62be048b",
+    "key": "other/8bc82448-monstera-rellas-jewel-ias-aroid-cultivar-registry-registry-37d3e1c5.jpg"
+   },
    "a1d18ac763cab6d53f3d2312816d78e4": {
     "bytes": 336629,
     "derived_md5": "a24928291b0bdf77d14aabab0e45374a",
     "key": "vegetative/a2492829-monstera-rellas-jewel-aroidcultivars-2-20260312-094108.jpg"
+   },
+   "da9f5a49fea59e620407febebd79ef44": {
+    "bytes": 746143,
+    "derived_md5": "e3b3d632d47a3d2ce14b96e4d895b876",
+    "key": "other/e3b3d632-monstera-rellas-jewel-ias-aroid-cultivar-registry-registry-af0ec33a.jpg"
    }
   },
   "monstera/siltepecana": {
@@ -5330,6 +5545,11 @@
     "bytes": 669065,
     "derived_md5": "4f07c897964daf92a8b372777e0474ff",
     "key": "reproductive/4f07c897-monstera-siltepecana-grete-pasch-60.jpg"
+   },
+   "1c7d97a09c33a148e06d9d8d4da0a871": {
+    "bytes": 811307,
+    "derived_md5": "1c7d97a09c33a148e06d9d8d4da0a871",
+    "key": "reproductive/1c7d97a0-monstera-siltepecana-pb20507-infructescence-finca-el-pilar-antigua-guatemala-copyright-patrick-blanc-www-verticalgardenpatrickblanc-com.jpg"
    },
    "265fd9a009faa9af5fb98e29bc2eed94": {
     "bytes": 856271,
@@ -5361,6 +5581,11 @@
     "derived_md5": "c9d20999298e71f18fc1cb1ca762a375",
     "key": "vegetative/c9d20999-monstera-siltepecana-grete-pasch-12.jpg"
    },
+   "465046e0a0bfef2843b5eb87a79d2e79": {
+    "bytes": 605793,
+    "derived_md5": "9bc13f73c34382c49043079e8fe6af2d",
+    "key": "vegetative/9bc13f73-monstera-siltepecana-pb24941-adult-highly-perforated-abaxial-leaf-surface-finca-el-copyright-patrick-blanc-www-verticalgardenpatrickblanc-com.jpg"
+   },
    "50d4218ff82ec187a5007de6b3cb24fc": {
     "bytes": 698488,
     "derived_md5": "4b1996370f2f5f47321c9fb79bf50be1",
@@ -5375,6 +5600,11 @@
     "bytes": 479136,
     "derived_md5": "87898735b90ef2adc8bc61baa8e7b319",
     "key": "reproductive/87898735-monstera-siltepecana-grete-pasch-commons.jpg"
+   },
+   "5897a8c823b7e310711c8a344585fc8a": {
+    "bytes": 956181,
+    "derived_md5": "5897a8c823b7e310711c8a344585fc8a",
+    "key": "vegetative/5897a8c8-monstera-siltepecana-pb24939-post-juvenile-leaf-still-retaining-silver-blotches-and-copyright-patrick-blanc-www-verticalgardenpatrickblanc-com.jpg"
    },
    "60f89af9097f687f4d00650201d6d2a6": {
     "bytes": 822730,
@@ -5441,6 +5671,16 @@
     "derived_md5": "d664de966db28ab1fc3734bb6b7a0ea3",
     "key": "reproductive/d664de96-monstera-siltepecana-jose-santiago-10.jpg"
    },
+   "9530b6d618adcf56c453513b20669157": {
+    "bytes": 740961,
+    "derived_md5": "9530b6d618adcf56c453513b20669157",
+    "key": "reproductive/9530b6d6-monstera-siltepecana-pb20504-infructescence-and-adventitious-anchoring-roots-finca-copyright-patrick-blanc-www-verticalgardenpatrickblanc-com.jpg"
+   },
+   "a01badd6a276864ff11ef534a1a39f3e": {
+    "bytes": 993605,
+    "derived_md5": "a01badd6a276864ff11ef534a1a39f3e",
+    "key": "reproductive/a01badd6-monstera-siltepecana-pb20506-infructescences-finca-el-pilar-antigua-guatemala-copyright-patrick-blanc-www-verticalgardenpatrickblanc-com.jpg"
+   },
    "a1da11c1c7687e4ceb295bff9b61b1f5": {
     "bytes": 714549,
     "derived_md5": "a1da11c1c7687e4ceb295bff9b61b1f5",
@@ -5450,6 +5690,11 @@
     "bytes": 693906,
     "derived_md5": "cee8e39c0a3389e72232cf4652b8ffeb",
     "key": "reproductive/cee8e39c-monstera-siltepecana-taracahill-2.jpg"
+   },
+   "b1e9f545abcf7b697a8e3f5d47a51076": {
+    "bytes": 952203,
+    "derived_md5": "b1e9f545abcf7b697a8e3f5d47a51076",
+    "key": "reproductive/b1e9f545-monstera-siltepecana-pb20508-part-of-infructescence-finca-el-pilar-antigua-copyright-patrick-blanc-www-verticalgardenpatrickblanc-com.jpg"
    },
    "b33ba76a59ad49964da5d2ac715b10fd": {
     "bytes": 211901,
@@ -5501,6 +5746,11 @@
     "derived_md5": "dedab90ff881146a9342c9e39b3ad317",
     "key": "vegetative/dedab90f-monstera-siltepecana-grete-pasch-26.jpg"
    },
+   "f050c7ca0f1fdf80009610710da8ded5": {
+    "bytes": 697529,
+    "derived_md5": "f050c7ca0f1fdf80009610710da8ded5",
+    "key": "vegetative/f050c7ca-monstera-siltepecana-pb20502-climbing-on-ficus-roots-finca-el-pilar-antigua-copyright-patrick-blanc-www-verticalgardenpatrickblanc-com.jpg"
+   },
    "f1289030eff6d39c25573dc417ee11c8": {
     "bytes": 596478,
     "derived_md5": "f1289030eff6d39c25573dc417ee11c8",
@@ -5532,6 +5782,11 @@
     "bytes": 442954,
     "derived_md5": "21c06c9d667b480191db3705b4965764",
     "key": "vegetative/21c06c9d-monstera-burle-marx-s-flame-aroidcultivars-2-2021-08-30-19-56-15-185.jpeg"
+   },
+   "3a054c88009dc51a3635e762c6903337": {
+    "bytes": 810867,
+    "derived_md5": "c3f978937f77639f0feb4be469e747b7",
+    "key": "other/c3f97893-monstera-sp-burle-marx-s-flame-ias-aroid-cultivar-registry-registry-2e24bf60.jpg"
    },
    "41b1f9974293a74678617450cbe07747": {
     "bytes": 374754,
@@ -5619,10 +5874,35 @@
     "derived_md5": "67863d503fc7dcc157841cbd14899be5",
     "key": "hero/67863d50-monstera-jungle-mint-aroidcultivars-1-mint-whole-leaf.jpeg"
    },
+   "97a9baf7270f0adec5bb9924c32a1ec5": {
+    "bytes": 864960,
+    "derived_md5": "29e69500817499fc08c4c82248c260ec",
+    "key": "other/29e69500-monstera-sp-jungle-mint-ias-aroid-cultivar-registry-registry-7aef0eb9.jpg"
+   },
    "b63caa7c9905eb0a035991a25c33c864": {
     "bytes": 389361,
     "derived_md5": "b63caa7c9905eb0a035991a25c33c864",
     "key": "reproductive/b63caa7c-monstera-jungle-mint-aroidcultivars-5-mint-flower.jpeg"
+   },
+   "cbdfffb726b8dc25b44c5560c48f67f2": {
+    "bytes": 1021682,
+    "derived_md5": "46b267737831184d94d5095c0afe323c",
+    "key": "other/46b26773-monstera-sp-jungle-mint-ias-aroid-cultivar-registry-registry-cda59e71.jpg"
+   },
+   "dd1a05010cab4faa9b560321189032d0": {
+    "bytes": 1059298,
+    "derived_md5": "87cc2ed47c07f18a7b583470f4437b57",
+    "key": "other/87cc2ed4-monstera-sp-jungle-mint-ias-aroid-cultivar-registry-registry-0e266db9.jpg"
+   },
+   "f8ee21d1ca0ddb0d0f8a0506ebef8da1": {
+    "bytes": 1078260,
+    "derived_md5": "ad99acc4d8da343d36fe59d2ee7bfbc6",
+    "key": "other/ad99acc4-monstera-sp-jungle-mint-ias-aroid-cultivar-registry-registry-5df05650.jpg"
+   },
+   "fdc54cb1cb69a3fe734a59567fe24f6d": {
+    "bytes": 1108224,
+    "derived_md5": "deaf1e5717ae9a5a8fe2a33207a495a9",
+    "key": "other/deaf1e57-monstera-sp-jungle-mint-ias-aroid-cultivar-registry-registry-9153b584.jpg"
    }
   },
   "monstera/sp.-burle-marxs-flame": {
@@ -5734,6 +6014,11 @@
     "derived_md5": "1149636497a6d402fef0d1a6ec8c68a8",
     "key": "vegetative/11496364-monstera-spruceana-gabrielly-delamarche.jpg"
    },
+   "0b156fc85fb1bd48a75e6146e0e2fac5": {
+    "bytes": 139802,
+    "derived_md5": "0b156fc85fb1bd48a75e6146e0e2fac5",
+    "key": "reproductive/0b156fc8-monstera-spruceana-ds-montet-monsspruceanancy-pictured-at-the-jardin-botanique-du-montet-nancy-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
    "308ac2bb88feb28168b592c2bbc30e15": {
     "bytes": 640010,
     "derived_md5": "e5e4504038b050cbccfd65eeb9695bd9",
@@ -5753,6 +6038,11 @@
     "bytes": 578549,
     "derived_md5": "4e16ae782495f72a9c6b670941473b37",
     "key": "protologue/4e16ae78-monstera-spruceana-protologue-fl-bras-3-2-115-engl-1878-p2.jpg"
+   },
+   "4ff93a77b1ddfb94954b633eb73db994": {
+    "bytes": 167218,
+    "derived_md5": "4ff93a77b1ddfb94954b633eb73db994",
+    "key": "reproductive/4ff93a77-monstera-spruceana-ds-montet-monsspruceana-pictured-at-the-jardin-botanique-du-montet-nancy-copyright-david-scherberich-www-aroidpictures-fr.jpg"
    },
    "6592ce2dfc588bd489ab28b9a1c77164": {
     "bytes": 527614,
@@ -5818,6 +6108,11 @@
     "bytes": 357719,
     "derived_md5": "b2862a4159ccabdf5bf3b5e7c464476e",
     "key": "reproductive/b2862a41-monstera-spruceana-mateus-ferreira-2.jpg"
+   },
+   "e041fd0b623821ba336497a454daf936": {
+    "bytes": 128428,
+    "derived_md5": "e041fd0b623821ba336497a454daf936",
+    "key": "reproductive/e041fd0b-monstera-spruceana-ds-montet-monsspruceana2ncy-pictured-at-the-jardin-botanique-du-montet-copyright-david-scherberich-www-aroidpictures-fr.jpg"
    },
    "eaf81f5ebb388d7623ee6f50a6310b26": {
     "bytes": 726009,
@@ -5921,6 +6216,11 @@
     "derived_md5": "e4ca1c9fa23abca1a33313ba4f514c29",
     "key": "reproductive/e4ca1c9f-monstera-standleyana-oliver-ingold-19.jpg"
    },
+   "b33b15f8d32732d4dd0e60989d347440": {
+    "bytes": 902057,
+    "derived_md5": "b33b15f8d32732d4dd0e60989d347440",
+    "key": "vegetative/b33b15f8-monstera-standleyana-pb5643-leaf-blade-shade-avoidance-through-petiole-torsion-copyright-patrick-blanc-www-verticalgardenpatrickblanc-com.jpg"
+   },
    "c367a12dfc12dc3ed6574117ecfb09de": {
     "bytes": 439090,
     "derived_md5": "cc0498581eb33255edfd6937631927ab",
@@ -5963,6 +6263,11 @@
     "derived_md5": "209a169fdb8fa915c6fc50c726a91e6c",
     "key": "reproductive/209a169f-monstera-subpinnata-karla-fiallos-yanez-3.jpg"
    },
+   "3e61c178cd3f647ae11adb6012c0bf82": {
+    "bytes": 198804,
+    "derived_md5": "3e61c178cd3f647ae11adb6012c0bf82",
+    "key": "reproductive/3e61c178-monstera-subpinnata-ds-lyon-monssubpinnata2013-from-peru-pictured-at-the-jardin-botanique-de-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
    "4fa6aeb7ac3bbc07053ce7c260891d16": {
     "bytes": 851972,
     "derived_md5": "c924aa5949bc80ccd7245681316e0430",
@@ -6003,10 +6308,20 @@
     "derived_md5": "382297318e6c66d45261c5219e521647",
     "key": "vegetative/38229731-monstera-subpinnata-ruben-d-layme.jpg"
    },
+   "bb923df86b38996984d7691c2de2e360": {
+    "bytes": 149757,
+    "derived_md5": "bb923df86b38996984d7691c2de2e360",
+    "key": "reproductive/bb923df8-monstera-subpinnata-ds-lyon-monssubpinnata2013-2-from-peru-pictured-at-the-jardin-botanique-de-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
    "cfd942bad7b2861d4bf3f05ee1ed009c": {
     "bytes": 413456,
     "derived_md5": "7479443434dd9f885c9da75d044e6387",
     "key": "vegetative/74794434-monstera-subpinnata-jeremy-cowan-2.jpg"
+   },
+   "d0d019a9ee3101b1b8141fdc3d62d995": {
+    "bytes": 130686,
+    "derived_md5": "d0d019a9ee3101b1b8141fdc3d62d995",
+    "key": "reproductive/d0d019a9-monstera-subpinnata-ds-lyon-monssubpinnata8-from-peru-pictured-at-the-jardin-botanique-de-lyon-copyright-david-scherberich-www-aroidpictures-fr.jpg"
    },
    "f4349c5e963687994206e3cc5651bbf1": {
     "bytes": 292129,
@@ -6371,6 +6686,11 @@
     "derived_md5": "903cf593fde3d2afb98ef19da418ef76",
     "key": "reproductive/903cf593-monstera-tenuis-michael-kemp.jpg"
    },
+   "12a01a561d87c59e5fe3b157c7fdc0ed": {
+    "bytes": 224029,
+    "derived_md5": "12a01a561d87c59e5fe3b157c7fdc0ed",
+    "key": "vegetative/12a01a56-monstera-tenuis-ds-kew-monstenuis1992-1976k-pictured-in-royal-botanic-gardens-kew-2016-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
    "1bb2da22c1ca77c32c9caef22d9c2ae8": {
     "bytes": 431844,
     "derived_md5": "04936f471ee27069b97616d285eddf6d",
@@ -6511,6 +6831,11 @@
     "derived_md5": "955b5ecca145c85fd9ce9a92c479f219",
     "key": "reproductive/955b5ecc-monstera-tenuis-ethan-beaver-2.jpg"
    },
+   "efb3d9910c8792ce933bd4884a3db1da": {
+    "bytes": 209944,
+    "derived_md5": "efb3d9910c8792ce933bd4884a3db1da",
+    "key": "vegetative/efb3d991-monstera-tenuis-ds-kew-monstenuis1992-1976k2-pictured-in-royal-botanic-gardens-kew-2016-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
    "f430870f22ca20201eae8945525dfe8c": {
     "bytes": 347014,
     "derived_md5": "5a662cc0f8f0c5c7cd288cc7a477a99b",
@@ -6580,10 +6905,25 @@
     "derived_md5": "73c6f400f7b6656dcb1bd57305ac0760",
     "key": "reproductive/73c6f400-monstera-tuberculata-carolyn-cox.jpg"
    },
+   "21bf099f55c4c9122d4ad1c3832120d8": {
+    "bytes": 155381,
+    "derived_md5": "21bf099f55c4c9122d4ad1c3832120d8",
+    "key": "reproductive/21bf099f-monstera-tuberculata-ds-fairchild-monstuberculataftg6-pictured-at-the-fairchild-tropical-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
    "2bb3f66f6efdbad55689617fe2923f85": {
     "bytes": 979666,
     "derived_md5": "2bb3f66f6efdbad55689617fe2923f85",
     "key": "reproductive/2bb3f66f-monstera-tuberculata-ldavis1229.jpg"
+   },
+   "2f2b7d13d264fe4f4dc67bc62084b1ee": {
+    "bytes": 247670,
+    "derived_md5": "2f2b7d13d264fe4f4dc67bc62084b1ee",
+    "key": "vegetative/2f2b7d13-monstera-tuberculata-ds-fairchild-monstuberculataftg-pictured-at-the-fairchild-tropical-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
+   "368cc11f05940a02f79d859ba5451239": {
+    "bytes": 133832,
+    "derived_md5": "368cc11f05940a02f79d859ba5451239",
+    "key": "reproductive/368cc11f-monstera-tuberculata-ds-fairchild-monstuberculataftg4-pictured-at-the-fairchild-tropical-copyright-david-scherberich-www-aroidpictures-fr.jpg"
    },
    "39e49f8a7bbdcf0981270325a61a5bf7": {
     "bytes": 231110,
@@ -6604,6 +6944,11 @@
     "bytes": 233654,
     "derived_md5": "4d207efa2eb40fa72ff3813fae369e4c",
     "key": "protologue/4d207efa-monstera-tuberculata-protologue-lloydia-2-78-lundell-1939-p3.jpg"
+   },
+   "536d567ed8f1a6aae0f30e9eaf42a977": {
+    "bytes": 168922,
+    "derived_md5": "536d567ed8f1a6aae0f30e9eaf42a977",
+    "key": "reproductive/536d567e-monstera-tuberculata-ds-fairchild-monstuberculataftg5-pictured-at-the-fairchild-tropical-copyright-david-scherberich-www-aroidpictures-fr.jpg"
    },
    "560d357555bb54baaf9110715ba9000d": {
     "bytes": 386957,
