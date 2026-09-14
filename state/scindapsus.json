@@ -1,0 +1,2266 @@
+{
+ "recipe": 2,
+ "species": {
+  "scindapsus/altissimus": {
+   "1196cafe40bcaceb2139cec0e0e50e93": {
+    "bytes": 612300,
+    "derived_md5": "336b7caa69dd6b88a7b659decc32a630",
+    "key": "vegetative/336b7caa-scindapsus-altissimus-pb18955-on-forest-floor-tenaru-falls-guadalcanal-copyright-patrick-blanc-www-verticalgardenpatrickblanc-com.jpg"
+   },
+   "25dc9cc0012fba7d01bb79bf795461c8": {
+    "bytes": 513378,
+    "derived_md5": "4795709dea919af2e557c468e37498f0",
+    "key": "vegetative/4795709d-scindapsus-altissimus-pb18952-patrick-blanc-considering-the-huge-leaf-of-copyright-patrick-blanc-www-verticalgardenpatrickblanc-com.jpg"
+   },
+   "3a7c072520fa281207fd7c081559f5a2": {
+    "bytes": 622603,
+    "derived_md5": "278bdeb28cae1e5fc8cc292ed1b222b8",
+    "key": "vegetative/278bdeb2-scindapsus-altissimus-pb18954-in-forest-understory-tenaru-falls-guadalcanal-copyright-patrick-blanc-www-verticalgardenpatrickblanc-com.jpg"
+   },
+   "3c05b8a239b0f064d884238758a8afe2": {
+    "bytes": 227901,
+    "derived_md5": "3c05b8a239b0f064d884238758a8afe2",
+    "key": "vegetative/3c05b8a2-scindapsus-altissimus-ds-montet-scindapsusaltissimusncy2021-from-papua-new-guinea-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
+   "5c12ffaf9b42e0cc355cd2026304131c": {
+    "bytes": 246752,
+    "derived_md5": "5c12ffaf9b42e0cc355cd2026304131c",
+    "key": "other/5c12ffaf-scindapsus-altissimus-naturalis-biodiversity-center-herbarium-sheet-gbif-2513718912.jpg"
+   },
+   "5d08b868b74626062c0106a8a0275e84": {
+    "bytes": 150448,
+    "derived_md5": "5d08b868b74626062c0106a8a0275e84",
+    "key": "vegetative/5d08b868-scindapsus-altissimus-bruce-gray-commons.jpg"
+   },
+   "6d6073d57a14fafe57b2fed205588ced": {
+    "bytes": 527527,
+    "derived_md5": "27fcf4ac5f1bd6d3ee47a26ce76f2a34",
+    "key": "vegetative/27fcf4ac-scindapsus-altissimus-pb18956-climbing-stem-fixed-to-tree-trunk-by-adventitious-copyright-patrick-blanc-www-verticalgardenpatrickblanc-com.jpg"
+   },
+   "717853d4ee12f809b1c89ed64a7a70dc": {
+    "bytes": 267940,
+    "derived_md5": "717853d4ee12f809b1c89ed64a7a70dc",
+    "key": "other/717853d4-scindapsus-altissimus-naturalis-biodiversity-center-herbarium-sheet-gbif-2513718904.jpg"
+   },
+   "74a837dac1742d8256a89859b7fa8539": {
+    "bytes": 287061,
+    "derived_md5": "74a837dac1742d8256a89859b7fa8539",
+    "key": "other/74a837da-powo-scindapsus-altissimus-01.jpg"
+   },
+   "8d519fe6be5b976cc87c72273a255d6f": {
+    "bytes": 319724,
+    "derived_md5": "5892d9bfdeb09e921b4027276026b52c",
+    "key": "other/5892d9bf-scindapsus-altissimus-haw-herbarium-sheet-gbif-5912079446.jpg"
+   },
+   "8fea458a0fbda7fb9781a3754a6bf0fd": {
+    "bytes": 131025,
+    "derived_md5": "8fea458a0fbda7fb9781a3754a6bf0fd",
+    "key": "reproductive/8fea458a-scindapsus-altissimus-ds-montet-scindaltissimusncy2-from-papua-new-guinea-pictured-at-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
+   "9e5d8343a6889716b9d2f5003f98aea9": {
+    "bytes": 1001623,
+    "derived_md5": "9e5d8343a6889716b9d2f5003f98aea9",
+    "key": "vegetative/9e5d8343-scindapsus-altissimus-pb18953-leaf-blade-in-forest-understory-tenaru-falls-copyright-patrick-blanc-www-verticalgardenpatrickblanc-com.jpg"
+   },
+   "a75bfa3d35c4aae8b90c60cc1ea08f4e": {
+    "bytes": 585449,
+    "derived_md5": "87bb9e97a67089d46b878b935115a4f8",
+    "key": "other/87bb9e97-scindapsus-altissimus-k-herbarium-sheet-gbif-4535531911.jpg"
+   },
+   "b46303867d7081cb0583f4ae650d3540": {
+    "bytes": 74773,
+    "derived_md5": "b46303867d7081cb0583f4ae650d3540",
+    "key": "vegetative/b4630386-scindapsus-altissimus-unknown-authorunknown-author-commons.jpg"
+   },
+   "c387ec861f5c70fa93d3d8bc338dd074": {
+    "bytes": 176595,
+    "derived_md5": "c387ec861f5c70fa93d3d8bc338dd074",
+    "key": "vegetative/c387ec86-scindapsus-altissimus-ds-montet-scindaltissimusncy-from-papua-new-guinea-pictured-at-the-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
+   "d86c260bc079226dc82acce8180b7e6d": {
+    "bytes": 123161,
+    "derived_md5": "d86c260bc079226dc82acce8180b7e6d",
+    "key": "reproductive/d86c260b-scindapsus-altissimus-ds-montet-scindaltissimusncy3-from-papua-new-guinea-pictured-at-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
+   "da66e02c48077ac5f11f088a46f8899b": {
+    "bytes": 93040,
+    "derived_md5": "da66e02c48077ac5f11f088a46f8899b",
+    "key": "reproductive/da66e02c-scindapsus-altissimus-bruce-gray-176437918-commons.jpg"
+   },
+   "dda3c8726ab130ae910eaf0b2424c9bd": {
+    "bytes": 179167,
+    "derived_md5": "dda3c8726ab130ae910eaf0b2424c9bd",
+    "key": "other/dda3c872-scindapsus-altissimus-naturalis-biodiversity-center-herbarium-sheet-gbif-2513719083.jpg"
+   },
+   "deb96fcd63a472c25a33ac22bb311d95": {
+    "bytes": 145880,
+    "derived_md5": "deb96fcd63a472c25a33ac22bb311d95",
+    "key": "vegetative/deb96fcd-scindapsus-altissimus-ds-lyon-scindaltissimus2011-from-papua-new-guinea-pictured-at-the-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
+   "e3ff5f5146fe13520626a9ab986e1a2c": {
+    "bytes": 93030,
+    "derived_md5": "e3ff5f5146fe13520626a9ab986e1a2c",
+    "key": "vegetative/e3ff5f51-scindapsus-altissimus-unknown-authorunknown-author-176437921-commons.jpg"
+   },
+   "f5b0abe79429cf1f4e14dc81a6ca3dab": {
+    "bytes": 367875,
+    "derived_md5": "cdc43032eff36f49b180bb285f08d161",
+    "key": "other/cdc43032-scindapsus-altissimus-k-herbarium-sheet-gbif-4535538905.jpg"
+   }
+  },
+  "scindapsus/beccarii": {
+   "016d9be49e344842ed0de57849f1cc8a": {
+    "bytes": 627406,
+    "derived_md5": "e4b84c19418343349b4ce2cb56b907af",
+    "key": "vegetative/e4b84c19-scindapsus-beccarii-pb6721-juvenile-stage-with-small-leaves-and-long-internodes-copyright-patrick-blanc-www-verticalgardenpatrickblanc-com.jpg"
+   },
+   "08f89d994e5cb97fe5fc8513b74ac910": {
+    "bytes": 102798,
+    "derived_md5": "08f89d994e5cb97fe5fc8513b74ac910",
+    "key": "other/08f89d99-scindapsus-beccarii-mo-herbarium-sheet-gbif-1259859522.jpg"
+   },
+   "163d74489a965af5861a902689e8f8b8": {
+    "bytes": 572700,
+    "derived_md5": "163d74489a965af5861a902689e8f8b8",
+    "key": "vegetative/163d7448-scindapsus-beccarii-pb6723-inflorescence-cherating-pahang-malaysia-copyright-patrick-blanc-www-verticalgardenpatrickblanc-com.jpg"
+   },
+   "1db5fcd16011a81173be60b8b62206d8": {
+    "bytes": 383605,
+    "derived_md5": "12522be98e59b1118a16190557875e61",
+    "key": "other/12522be9-scindapsus-beccarii-k-herbarium-sheet-gbif-4535528884.jpg"
+   },
+   "298ad4c89acd443b896771fce8900a57": {
+    "bytes": 366069,
+    "derived_md5": "2744120c74bcb081ba50061fa33ce5c7",
+    "key": "other/2744120c-scindapsus-beccarii-k-herbarium-sheet-gbif-4535540879.jpg"
+   },
+   "2b22170162d6a725f311ca5844459427": {
+    "bytes": 566102,
+    "derived_md5": "fbaac6dffd1c2b172aa5e584b61c8b54",
+    "key": "other/fbaac6df-scindapsus-beccarii-k-herbarium-sheet-gbif-4535544873.jpg"
+   },
+   "2d1eb771497d1cd5137c34d69c3ee6a6": {
+    "bytes": 133318,
+    "derived_md5": "2d1eb771497d1cd5137c34d69c3ee6a6",
+    "key": "reproductive/2d1eb771-plate-109d-scindapsus-beccarii-plant-in-flower-mayo-bogner-boyce-1997.jpg"
+   },
+   "3036a5f0ec5cb4998d08c7d03971f9e4": {
+    "bytes": 732276,
+    "derived_md5": "0b7448d3c76ea43c6d0f8385a8cefd84",
+    "key": "vegetative/0b7448d3-scindapsus-beccarii-pb6720-epiphytic-individuals-cherating-pahang-malaysia-copyright-patrick-blanc-www-verticalgardenpatrickblanc-com.jpg"
+   },
+   "38aa56a77326124060a81eef84cb7fe8": {
+    "bytes": 216896,
+    "derived_md5": "38aa56a77326124060a81eef84cb7fe8",
+    "key": "reproductive/38aa56a7-powo-scindapsus-beccarii-01.jpg"
+   },
+   "69f58901b4f0dde66799df9c9db05e68": {
+    "bytes": 86965,
+    "derived_md5": "69f58901b4f0dde66799df9c9db05e68",
+    "key": "other/69f58901-plate-16h-scindapsus-beccarii-detail-of-spadix-line-drawing-mayo-bogner-boyce-1997.png"
+   },
+   "6c358333c4868c48cfedffe16fa9d01e": {
+    "bytes": 720498,
+    "derived_md5": "29213d4c78efe5ac22462873aa6bd115",
+    "key": "other/29213d4c-scindapsus-beccarii-engler-krause-1908-pflanzenreich-iv-23b-p-69-fig-28-a-k-icon-origin.jpg"
+   },
+   "827765450f3bc08e4bf14dc937513f62": {
+    "bytes": 863546,
+    "derived_md5": "12b2ee561486f53cfb782e85da843b78",
+    "key": "other/12b2ee56-plate-16-scindapsus-beccarii-whole-figure-s-beccarii-is-g-l-mayo-bogner-boyce-1997.jpg"
+   },
+   "acba7ccbb122d4d7d7dd6bfdcf4fcbf6": {
+    "bytes": 13306,
+    "derived_md5": "acba7ccbb122d4d7d7dd6bfdcf4fcbf6",
+    "key": "other/acba7ccb-plate-16k-scindapsus-beccarii-flower-line-drawing-mayo-bogner-boyce-1997.png"
+   },
+   "b255799f826e01928e3c3ac2c3ca6d2d": {
+    "bytes": 385178,
+    "derived_md5": "b255799f826e01928e3c3ac2c3ca6d2d",
+    "key": "hero/b255799f-powo-scindapsus-beccarii-02.jpg"
+   },
+   "c97deec87e3a1e92113db43a4d0d9643": {
+    "bytes": 382518,
+    "derived_md5": "aeb65a37fb499e690c03db8234fbd88d",
+    "key": "other/aeb65a37-scindapsus-beccarii-k-herbarium-sheet-gbif-4535544884.jpg"
+   },
+   "d04af05e840b1171f763e22e24e2d575": {
+    "bytes": 252381,
+    "derived_md5": "d04af05e840b1171f763e22e24e2d575",
+    "key": "other/d04af05e-powo-scindapsus-beccarii-03.jpg"
+   },
+   "d9e16b813f5ad371bd5ee54e987f6bfd": {
+    "bytes": 718334,
+    "derived_md5": "9ca16948aab3242340eff5836ac239ad",
+    "key": "vegetative/9ca16948-scindapsus-beccarii-pb6722-flowering-individual-cherating-pahang-malaysia-copyright-patrick-blanc-www-verticalgardenpatrickblanc-com.jpg"
+   },
+   "dda6b262f43bc2adc786c20986fef16c": {
+    "bytes": 11681,
+    "derived_md5": "dda6b262f43bc2adc786c20986fef16c",
+    "key": "other/dda6b262-plate-16j-scindapsus-beccarii-stigma-top-view-line-drawing-mayo-bogner-boyce-1997.png"
+   },
+   "ee1e565d9b508ed08b1b27102de328b6": {
+    "bytes": 10867,
+    "derived_md5": "ee1e565d9b508ed08b1b27102de328b6",
+    "key": "other/ee1e565d-plate-16l-scindapsus-beccarii-gynoecium-longitudinal-section-line-drawing-mayo-bogner-boyce-1997.png"
+   },
+   "fc8371423f1f0076687d7a8050c18bd0": {
+    "bytes": 696904,
+    "derived_md5": "7c6a12541b43b34b58997835cb45f266",
+    "key": "vegetative/7c6a1254-scindapsus-beccarii-pb2389-population-epiphytic-on-a-neram-tree-dipterocarpus-copyright-patrick-blanc-www-verticalgardenpatrickblanc-com.jpg"
+   },
+   "fcaf0c56539aabbb2d1b75c7d790f4a9": {
+    "bytes": 383026,
+    "derived_md5": "70971dea1b677117863eff433643d275",
+    "key": "other/70971dea-scindapsus-beccarii-k-herbarium-sheet-gbif-4535533901.jpg"
+   }
+  },
+  "scindapsus/carolinensis": {
+   "0680f54c7e8810179718e364e35042bc": {
+    "bytes": 595632,
+    "derived_md5": "5079d57b840ab9bc4c88003bfd256d5f",
+    "key": "other/5079d57b-scindapsus-carolinensis-a-herbarium-sheet-gbif-1999107905.jpg"
+   },
+   "86fe6dec3529675872fc1bd051979a02": {
+    "bytes": 195101,
+    "derived_md5": "86fe6dec3529675872fc1bd051979a02",
+    "key": "other/86fe6dec-fig-3-scindapsus-carolinensis-photograph-of-the-type-specimen-hosokawa-1937.jpg"
+   },
+   "c52512afd4736d1917ea7319cf984180": {
+    "bytes": 344119,
+    "derived_md5": "c52512afd4736d1917ea7319cf984180",
+    "key": "other/c52512af-scindapsus-carolinensis-us-herbarium-sheet-gbif-1322723615.jpg"
+   }
+  },
+  "scindapsus/coriaceus": {
+   "2c7bcb4acc2756246e40aacce4980fb9": {
+    "bytes": 410452,
+    "derived_md5": "f4f5d46279b0019aeb8a36750f232956",
+    "key": "other/f4f5d462-scindapsus-coriaceus-k-herbarium-sheet-gbif-4535541914.jpg"
+   },
+   "492b48ae412371708340d317315400f1": {
+    "bytes": 133758,
+    "derived_md5": "492b48ae412371708340d317315400f1",
+    "key": "other/492b48ae-scindapsus-coriaceus-mo-herbarium-sheet-gbif-4031657758.jpg"
+   },
+   "60777bed3eab2e061aa766bdda156bf0": {
+    "bytes": 461812,
+    "derived_md5": "378bdff9ebfc8b91b0f31eb0d9b91869",
+    "key": "other/378bdff9-scindapsus-coriaceus-meisebg-herbarium-sheet-gbif-4073026405.jpg"
+   },
+   "8256f3f7b3982a49443587ab66f62fdb": {
+    "bytes": 113943,
+    "derived_md5": "8256f3f7b3982a49443587ab66f62fdb",
+    "key": "other/8256f3f7-scindapsus-coriaceus-mo-herbarium-sheet-gbif-4161628317.jpg"
+   },
+   "877491c7366d213979c767f44d980d88": {
+    "bytes": 160281,
+    "derived_md5": "877491c7366d213979c767f44d980d88",
+    "key": "other/877491c7-powo-scindapsus-coriaceus-02.jpg"
+   },
+   "a86615cb97c0e22507aba621447faab9": {
+    "bytes": 230976,
+    "derived_md5": "a86615cb97c0e22507aba621447faab9",
+    "key": "hero/a86615cb-powo-scindapsus-coriaceus-01.jpg"
+   },
+   "ee3da2dd3c31072633c2a99e2f16cb89": {
+    "bytes": 461475,
+    "derived_md5": "b7ee545225ad6d8565f849141b0d70bf",
+    "key": "other/b7ee5452-scindapsus-coriaceus-meisebg-herbarium-sheet-gbif-4073026925.jpg"
+   },
+   "fff9b9e1d3e53058068904859aa5732f": {
+    "bytes": 770148,
+    "derived_md5": "fff9b9e1d3e53058068904859aa5732f",
+    "key": "other/fff9b9e1-scindapsus-coriaceus-rbge-herbarium-sheet-gbif-574931710.jpg"
+   }
+  },
+  "scindapsus/crassipes": {
+   "3b901d5062af4f7a49f7bd7b7c2019f6": {
+    "bytes": 527364,
+    "derived_md5": "753f3d3fd7ed4e38b3ca91aacdc99a47",
+    "key": "other/753f3d3f-scindapsus-crassipes-k-herbarium-sheet-gbif-4535536878.jpg"
+   },
+   "3f340bbb9cc47d1027d049c6b8eac0b2": {
+    "bytes": 189482,
+    "derived_md5": "3f340bbb9cc47d1027d049c6b8eac0b2",
+    "key": "reproductive/3f340bbb-powo-scindapsus-crassipes-02.jpg"
+   },
+   "4f1ed914256d8e7e7ccfebc6c10773db": {
+    "bytes": 496958,
+    "derived_md5": "e7d1e822693fec7e4721546345921755",
+    "key": "other/e7d1e822-scindapsus-crassipes-k-herbarium-sheet-gbif-5132683292.jpg"
+   },
+   "4ff73c02fd463dbfc008f8d22d8e3371": {
+    "bytes": 586719,
+    "derived_md5": "221c4bbf39bcd25b232604213cd1fc14",
+    "key": "other/221c4bbf-scindapsus-crassipes-k-herbarium-sheet-gbif-4535535903.jpg"
+   },
+   "a386f8e7e6aa27105302948fb248ce2a": {
+    "bytes": 500021,
+    "derived_md5": "5c2bcd38816f3d4c440f248ef08467cb",
+    "key": "other/5c2bcd38-scindapsus-crassipes-k-herbarium-sheet-gbif-4535528885.jpg"
+   },
+   "d1405b2e1407d56cdba7b6807d23545a": {
+    "bytes": 408676,
+    "derived_md5": "d1405b2e1407d56cdba7b6807d23545a",
+    "key": "hero/d1405b2e-powo-scindapsus-crassipes-01.jpg"
+   },
+   "f2bde35da89e50ba6d6019eaf07129db": {
+    "bytes": 522687,
+    "derived_md5": "a02d5f167a537f683dcf5a1796082a97",
+    "key": "other/a02d5f16-scindapsus-crassipes-malesia-1-tav-xxi-figs-14-16-engler-1882.jpg"
+   },
+   "f4693fbe8f0fca717fddd0bee4faa27c": {
+    "bytes": 301271,
+    "derived_md5": "f4693fbe8f0fca717fddd0bee4faa27c",
+    "key": "other/f4693fbe-powo-scindapsus-crassipes-03.jpg"
+   }
+  },
+  "scindapsus/curranii": {
+   "00dc831b337ee25e3be922fdebbe5859": {
+    "bytes": 368327,
+    "derived_md5": "00dc831b337ee25e3be922fdebbe5859",
+    "key": "reproductive/00dc831b-scindapsus-curranii-p-b-pelser-j-f-barcelona-guiller-opiso-cornell-bh-phytoimages-352931.jpg"
+   },
+   "00fcb7e67cf0a4ac1bc2c239853b3420": {
+    "bytes": 324893,
+    "derived_md5": "00fcb7e67cf0a4ac1bc2c239853b3420",
+    "key": "vegetative/00fcb7e6-scindapsus-curranii-p-b-pelser-j-f-barcelona-guiller-opiso-cornell-bh-phytoimages-352905.jpg"
+   },
+   "022a425f80cb2d00bdc5c7a82bbc59ab": {
+    "bytes": 457125,
+    "derived_md5": "037deb026a1c29cbf069419c32dcb48d",
+    "key": "reproductive/037deb02-scindapsus-curranii-plants-and-lichens-of-the-southern-philippines-cornell-bh-phytoimages-306163.jpg"
+   },
+   "02354e04ad9c4050ae4d0742a535f906": {
+    "bytes": 251529,
+    "derived_md5": "7f43a5b9774932f92f63d1263bb28b28",
+    "key": "reproductive/7f43a5b9-scindapsus-curranii-plants-and-lichens-of-the-southern-philippines-cornell-bh-phytoimages-306168.jpg"
+   },
+   "0328a0c574309e798caf0fbe75d42182": {
+    "bytes": 366689,
+    "derived_md5": "0328a0c574309e798caf0fbe75d42182",
+    "key": "vegetative/0328a0c5-scindapsus-curranii-p-b-pelser-j-f-barcelona-guiller-opiso-cornell-bh-phytoimages-352868.jpg"
+   },
+   "0465ccd8d6686b0b4e12ebd5de28559d": {
+    "bytes": 686827,
+    "derived_md5": "0465ccd8d6686b0b4e12ebd5de28559d",
+    "key": "vegetative/0465ccd8-scindapsus-curranii-p-b-pelser-j-f-barcelona-guiller-opiso-cornell-bh-phytoimages-361619.jpg"
+   },
+   "0bfe7c7ac2ab00e187dfb6b1acc7a700": {
+    "bytes": 362094,
+    "derived_md5": "5e38993b021968993a9acb66e5e5d3bd",
+    "key": "other/5e38993b-scindapsus-curranii-k-herbarium-sheet-gbif-4535541908.jpg"
+   },
+   "0fa1a2e58b396711a8e1f3a35d1a8546": {
+    "bytes": 422292,
+    "derived_md5": "3c5ba47e9254615f1dd0ac649aa31f9e",
+    "key": "other/3c5ba47e-scindapsus-curranii-brit-herbarium-sheet-gbif-4987859032.jpg"
+   },
+   "0fa5eef2ba061afb7105b7272de04d47": {
+    "bytes": 214117,
+    "derived_md5": "0fa5eef2ba061afb7105b7272de04d47",
+    "key": "vegetative/0fa5eef2-scindapsus-curranii-p-b-pelser-j-f-barcelona-guiller-opiso-cornell-bh-phytoimages-352874.jpg"
+   },
+   "11434a6f3b4eb6cbc871051a8b1747ea": {
+    "bytes": 99982,
+    "derived_md5": "11434a6f3b4eb6cbc871051a8b1747ea",
+    "key": "reproductive/11434a6f-scindapsus-curranii-p-b-pelser-j-f-barcelona-cornell-bh-phytoimages-72122.jpg"
+   },
+   "19088fee062b2fc014e87f991f66023d": {
+    "bytes": 220715,
+    "derived_md5": "d1c3c3f65e76085224d7bb6355ad1a2b",
+    "key": "reproductive/d1c3c3f6-scindapsus-curranii-plants-and-lichens-of-the-southern-philippines-cornell-bh-phytoimages-306173.jpg"
+   },
+   "1a579b70b50a502880c82c46bbca22a5": {
+    "bytes": 103953,
+    "derived_md5": "1a579b70b50a502880c82c46bbca22a5",
+    "key": "vegetative/1a579b70-scindapsus-curranii-p-b-pelser-j-f-barcelona-cornell-bh-phytoimages-71879.jpg"
+   },
+   "1f90db067b5023651cfc744356a048d2": {
+    "bytes": 198780,
+    "derived_md5": "e8ecd47803f691d5b8cc32878d18ad88",
+    "key": "reproductive/e8ecd478-scindapsus-curranii-plants-and-lichens-of-the-southern-philippines-cornell-bh-phytoimages-306169.jpg"
+   },
+   "20897090a9fe1e8432707a5643e5ff62": {
+    "bytes": 299797,
+    "derived_md5": "20897090a9fe1e8432707a5643e5ff62",
+    "key": "vegetative/20897090-scindapsus-curranii-p-b-pelser-j-f-barcelona-guiller-opiso-cornell-bh-phytoimages-361205.jpg"
+   },
+   "22564b2c4e5fa7e813f684d1cf2efa42": {
+    "bytes": 206985,
+    "derived_md5": "ca40aa6fa9f3d248fe5727669c563042",
+    "key": "reproductive/ca40aa6f-scindapsus-curranii-plants-and-lichens-of-the-southern-philippines-cornell-bh-phytoimages-306165.jpg"
+   },
+   "22b4b8c39e0773912555166a249f1d2d": {
+    "bytes": 234827,
+    "derived_md5": "22b4b8c39e0773912555166a249f1d2d",
+    "key": "reproductive/22b4b8c3-scindapsus-curranii-p-b-pelser-j-f-barcelona-cornell-bh-phytoimages-245615.jpg"
+   },
+   "2333f69562310ab2c6603e6621edac27": {
+    "bytes": 709450,
+    "derived_md5": "2333f69562310ab2c6603e6621edac27",
+    "key": "vegetative/2333f695-scindapsus-curranii-p-b-pelser-j-f-barcelona-guiller-opiso-cornell-bh-phytoimages-352909.jpg"
+   },
+   "23aecb56a80a7c0af4655bf69757dc31": {
+    "bytes": 171541,
+    "derived_md5": "d490d9e1e19a0e458069817b7c58ce31",
+    "key": "reproductive/d490d9e1-scindapsus-curranii-plants-and-lichens-of-the-southern-philippines-cornell-bh-phytoimages-306171.jpg"
+   },
+   "23b0860a7e5ac3a1cc72c7b7b62292f7": {
+    "bytes": 65174,
+    "derived_md5": "23b0860a7e5ac3a1cc72c7b7b62292f7",
+    "key": "reproductive/23b0860a-scindapsus-curranii-p-b-pelser-j-f-barcelona-cornell-bh-phytoimages-79207.jpg"
+   },
+   "23b1ee5afd1ceb13745959c9bd98abf4": {
+    "bytes": 220782,
+    "derived_md5": "23b1ee5afd1ceb13745959c9bd98abf4",
+    "key": "other/23b1ee5a-powo-scindapsus-curranii-01.jpg"
+   },
+   "304ada09ef632a8f541ea11146ceaecf": {
+    "bytes": 484115,
+    "derived_md5": "4139bedb9e21e27cce726211f126ae40",
+    "key": "other/4139bedb-scindapsus-curranii-k-herbarium-sheet-gbif-6163695292.jpg"
+   },
+   "30c5a64fe8a5027425fe815c3a70ecc2": {
+    "bytes": 78428,
+    "derived_md5": "30c5a64fe8a5027425fe815c3a70ecc2",
+    "key": "reproductive/30c5a64f-scindapsus-curranii-p-b-pelser-j-f-barcelona-cornell-bh-phytoimages-47530.jpg"
+   },
+   "32295b89a92fcd1d2127e850222a2fe8": {
+    "bytes": 219715,
+    "derived_md5": "32295b89a92fcd1d2127e850222a2fe8",
+    "key": "vegetative/32295b89-scindapsus-curranii-p-b-pelser-j-f-barcelona-cornell-bh-phytoimages-245597.jpg"
+   },
+   "32c9b38f9a185e8bd49b881b9146b97d": {
+    "bytes": 336578,
+    "derived_md5": "32c9b38f9a185e8bd49b881b9146b97d",
+    "key": "reproductive/32c9b38f-scindapsus-curranii-p-b-pelser-j-f-barcelona-guiller-opiso-cornell-bh-phytoimages-361164.jpg"
+   },
+   "37af2ff656365c37d52a292b5b103baa": {
+    "bytes": 76959,
+    "derived_md5": "37af2ff656365c37d52a292b5b103baa",
+    "key": "vegetative/37af2ff6-scindapsus-curranii-p-b-pelser-j-f-barcelona-cornell-bh-phytoimages-71850.jpg"
+   },
+   "3cab12afd5ccdb9a843d0162b1c2ad14": {
+    "bytes": 99806,
+    "derived_md5": "3cab12afd5ccdb9a843d0162b1c2ad14",
+    "key": "other/3cab12af-scindapsus-curranii-mo-herbarium-sheet-gbif-4164498310.jpg"
+   },
+   "42c130554a537e8b6c10b5fdfcfead19": {
+    "bytes": 326959,
+    "derived_md5": "42c130554a537e8b6c10b5fdfcfead19",
+    "key": "vegetative/42c13055-scindapsus-curranii-p-b-pelser-j-f-barcelona-guiller-opiso-cornell-bh-phytoimages-352883.jpg"
+   },
+   "443845f1a3cc45486566d8294329ab6c": {
+    "bytes": 94116,
+    "derived_md5": "443845f1a3cc45486566d8294329ab6c",
+    "key": "vegetative/443845f1-scindapsus-curranii-p-b-pelser-j-f-barcelona-cornell-bh-phytoimages-47534.jpg"
+   },
+   "4a32ffd45e1eb23552c181cf8bbb2364": {
+    "bytes": 57657,
+    "derived_md5": "4a32ffd45e1eb23552c181cf8bbb2364",
+    "key": "reproductive/4a32ffd4-scindapsus-curranii-p-b-pelser-j-f-barcelona-cornell-bh-phytoimages-71853.jpg"
+   },
+   "4e1e4544fce0a4a89f0b7e6ca00f643b": {
+    "bytes": 290957,
+    "derived_md5": "4e1e4544fce0a4a89f0b7e6ca00f643b",
+    "key": "reproductive/4e1e4544-scindapsus-curranii-p-b-pelser-j-f-barcelona-guiller-opiso-cornell-bh-phytoimages-361168.jpg"
+   },
+   "52ad17061a752416a46003abdef68f9e": {
+    "bytes": 513102,
+    "derived_md5": "81b77042491746bdc2749b62bacacf9a",
+    "key": "reproductive/81b77042-scindapsus-curranii-plants-and-lichens-of-the-southern-philippines-cornell-bh-phytoimages-306162.jpg"
+   },
+   "5322e73b21a4968a670c32fae8478383": {
+    "bytes": 409281,
+    "derived_md5": "d8f407133151060ad1172010b492a281",
+    "key": "reproductive/d8f40713-scindapsus-curranii-plants-and-lichens-of-the-southern-philippines-cornell-bh-phytoimages-306175.jpg"
+   },
+   "5784eac264e744d18a2c9f55e79dd42e": {
+    "bytes": 183210,
+    "derived_md5": "5784eac264e744d18a2c9f55e79dd42e",
+    "key": "reproductive/5784eac2-scindapsus-curranii-p-b-pelser-j-f-barcelona-cornell-bh-phytoimages-47529.jpg"
+   },
+   "5a05166cbe5e319843e04e22bfdeb888": {
+    "bytes": 295109,
+    "derived_md5": "5a05166cbe5e319843e04e22bfdeb888",
+    "key": "reproductive/5a05166c-scindapsus-curranii-p-b-pelser-j-f-barcelona-guiller-opiso-cornell-bh-phytoimages-361616.jpg"
+   },
+   "633bab07e8137e661d4707526bb0c372": {
+    "bytes": 374348,
+    "derived_md5": "633bab07e8137e661d4707526bb0c372",
+    "key": "vegetative/633bab07-scindapsus-curranii-p-b-pelser-j-f-barcelona-guiller-opiso-cornell-bh-phytoimages-352886.jpg"
+   },
+   "66e59007d380f6b71cc26e195690fd48": {
+    "bytes": 326185,
+    "derived_md5": "66e59007d380f6b71cc26e195690fd48",
+    "key": "reproductive/66e59007-scindapsus-curranii-p-b-pelser-j-f-barcelona-guiller-opiso-cornell-bh-phytoimages-361125.jpg"
+   },
+   "6ad77c16c30eb5b975bba28b2f81dba3": {
+    "bytes": 339156,
+    "derived_md5": "27a5c241aad5d98cc58115a4ac2d7af6",
+    "key": "reproductive/27a5c241-scindapsus-curranii-plants-and-lichens-of-the-southern-philippines-cornell-bh-phytoimages-306161.jpg"
+   },
+   "709e22090e567dec778804fd8cac7d26": {
+    "bytes": 304513,
+    "derived_md5": "709e22090e567dec778804fd8cac7d26",
+    "key": "reproductive/709e2209-scindapsus-curranii-p-b-pelser-j-f-barcelona-cornell-bh-phytoimages-245605.jpg"
+   },
+   "7140d9f7a0f0ea624962a438c789030a": {
+    "bytes": 314793,
+    "derived_md5": "7140d9f7a0f0ea624962a438c789030a",
+    "key": "reproductive/7140d9f7-scindapsus-curranii-p-b-pelser-j-f-barcelona-guiller-opiso-cornell-bh-phytoimages-352856.jpg"
+   },
+   "72313a87c288f02f81528e2148620b72": {
+    "bytes": 289029,
+    "derived_md5": "553cad8e39f0047d056b9850d9a65350",
+    "key": "reproductive/553cad8e-scindapsus-curranii-plants-and-lichens-of-the-southern-philippines-cornell-bh-phytoimages-306174.jpg"
+   },
+   "7c74f45689e2ee3038741186346cbf45": {
+    "bytes": 272207,
+    "derived_md5": "7c74f45689e2ee3038741186346cbf45",
+    "key": "reproductive/7c74f456-scindapsus-curranii-p-b-pelser-j-f-barcelona-cornell-bh-phytoimages-245580.jpg"
+   },
+   "827467edaf4ec31a422cfceb3fcb2260": {
+    "bytes": 366434,
+    "derived_md5": "827467edaf4ec31a422cfceb3fcb2260",
+    "key": "hero/827467ed-scindapsus-curranii-p-b-pelser-j-f-barcelona-guiller-opiso-cornell-bh-phytoimages-361182.jpg"
+   },
+   "85cb1cfd4619e1502b514f797af9a7b9": {
+    "bytes": 153446,
+    "derived_md5": "85cb1cfd4619e1502b514f797af9a7b9",
+    "key": "vegetative/85cb1cfd-scindapsus-curranii-p-b-pelser-j-f-barcelona-cornell-bh-phytoimages-79199.jpg"
+   },
+   "894e4f5681d82492e7a230d26f72837e": {
+    "bytes": 144175,
+    "derived_md5": "af368758d7cb6b6a0a23883d663a6188",
+    "key": "reproductive/af368758-scindapsus-curranii-plants-and-lichens-of-the-southern-philippines-cornell-bh-phytoimages-306164.jpg"
+   },
+   "8decbfe724d3aecf4577465027e63a10": {
+    "bytes": 76089,
+    "derived_md5": "8decbfe724d3aecf4577465027e63a10",
+    "key": "vegetative/8decbfe7-scindapsus-curranii-p-b-pelser-j-f-barcelona-cornell-bh-phytoimages-72124.jpg"
+   },
+   "9069333089a65901d5b4706fa118b20a": {
+    "bytes": 445494,
+    "derived_md5": "9069333089a65901d5b4706fa118b20a",
+    "key": "vegetative/90693330-scindapsus-curranii-p-b-pelser-j-f-barcelona-cornell-bh-phytoimages-245599.jpg"
+   },
+   "a0451f631c664577cc19d04d16c999db": {
+    "bytes": 409225,
+    "derived_md5": "a0451f631c664577cc19d04d16c999db",
+    "key": "vegetative/a0451f63-scindapsus-curranii-p-b-pelser-j-f-barcelona-cornell-bh-phytoimages-245612.jpg"
+   },
+   "a25946cd98bfc1061b3f802cedc7c029": {
+    "bytes": 263010,
+    "derived_md5": "a25946cd98bfc1061b3f802cedc7c029",
+    "key": "reproductive/a25946cd-scindapsus-curranii-p-b-pelser-j-f-barcelona-cornell-bh-phytoimages-245592.jpg"
+   },
+   "a34d6e47f123f05134224f889aad0ed5": {
+    "bytes": 389096,
+    "derived_md5": "a34d6e47f123f05134224f889aad0ed5",
+    "key": "vegetative/a34d6e47-scindapsus-curranii-p-b-pelser-j-f-barcelona-guiller-opiso-cornell-bh-phytoimages-361169.jpg"
+   },
+   "a376721b3dd7e29f669f36e23d11d27d": {
+    "bytes": 138944,
+    "derived_md5": "a376721b3dd7e29f669f36e23d11d27d",
+    "key": "reproductive/a376721b-scindapsus-curranii-p-b-pelser-j-f-barcelona-cornell-bh-phytoimages-79233.jpg"
+   },
+   "a3e0984b40d2c4bc9881c71a20016401": {
+    "bytes": 117219,
+    "derived_md5": "a3e0984b40d2c4bc9881c71a20016401",
+    "key": "vegetative/a3e0984b-scindapsus-curranii-p-b-pelser-j-f-barcelona-cornell-bh-phytoimages-79227.jpg"
+   },
+   "a885d255bf7f02c9ba5d1f6270fa10eb": {
+    "bytes": 97807,
+    "derived_md5": "a885d255bf7f02c9ba5d1f6270fa10eb",
+    "key": "other/a885d255-scindapsus-curranii-mo-herbarium-sheet-gbif-1259859302.jpg"
+   },
+   "aaa4734e8c436b811ac6bb5a5f55ea67": {
+    "bytes": 355261,
+    "derived_md5": "aaa4734e8c436b811ac6bb5a5f55ea67",
+    "key": "vegetative/aaa4734e-scindapsus-curranii-p-b-pelser-j-f-barcelona-guiller-opiso-cornell-bh-phytoimages-352878.jpg"
+   },
+   "aaabf1392ba26c57587ce9916f5c6629": {
+    "bytes": 89261,
+    "derived_md5": "aaabf1392ba26c57587ce9916f5c6629",
+    "key": "vegetative/aaabf139-scindapsus-curranii-p-b-pelser-j-f-barcelona-cornell-bh-phytoimages-79205.jpg"
+   },
+   "acbcec5808f8ef34e267a0586652ce42": {
+    "bytes": 119050,
+    "derived_md5": "acbcec5808f8ef34e267a0586652ce42",
+    "key": "other/acbcec58-scindapsus-curranii-mo-herbarium-sheet-gbif-4031566687.jpg"
+   },
+   "ace0e3b68a658bbb055092dee72f441f": {
+    "bytes": 239299,
+    "derived_md5": "ace0e3b68a658bbb055092dee72f441f",
+    "key": "vegetative/ace0e3b6-scindapsus-curranii-p-b-pelser-j-f-barcelona-guiller-opiso-cornell-bh-phytoimages-352892.jpg"
+   },
+   "ae69159ca78603366a4873cac826cf98": {
+    "bytes": 238913,
+    "derived_md5": "ae69159ca78603366a4873cac826cf98",
+    "key": "vegetative/ae69159c-scindapsus-curranii-p-b-pelser-j-f-barcelona-guiller-opiso-cornell-bh-phytoimages-361122.jpg"
+   },
+   "b2febae71a60261b2a8aa160fad301f5": {
+    "bytes": 88960,
+    "derived_md5": "b2febae71a60261b2a8aa160fad301f5",
+    "key": "vegetative/b2febae7-scindapsus-curranii-p-b-pelser-j-f-barcelona-cornell-bh-phytoimages-72096.jpg"
+   },
+   "b7a573cb67ac26b0c5f82866842df2a1": {
+    "bytes": 234030,
+    "derived_md5": "b7a573cb67ac26b0c5f82866842df2a1",
+    "key": "reproductive/b7a573cb-scindapsus-curranii-p-b-pelser-j-f-barcelona-cornell-bh-phytoimages-245587.jpg"
+   },
+   "b7c394d176754db60ef3a0b12a714428": {
+    "bytes": 354841,
+    "derived_md5": "b7c394d176754db60ef3a0b12a714428",
+    "key": "reproductive/b7c394d1-scindapsus-curranii-p-b-pelser-j-f-barcelona-cornell-bh-phytoimages-245579.jpg"
+   },
+   "be592556695637e36e2eeb63176d400c": {
+    "bytes": 276841,
+    "derived_md5": "be592556695637e36e2eeb63176d400c",
+    "key": "vegetative/be592556-scindapsus-curranii-p-b-pelser-j-f-barcelona-cornell-bh-phytoimages-245629.jpg"
+   },
+   "c05a478b00dea34bfbea60f92133b004": {
+    "bytes": 291449,
+    "derived_md5": "c05a478b00dea34bfbea60f92133b004",
+    "key": "reproductive/c05a478b-scindapsus-curranii-p-b-pelser-j-f-barcelona-cornell-bh-phytoimages-245624.jpg"
+   },
+   "c1f833ed6b0be0af10d3a3ca2b563a80": {
+    "bytes": 306460,
+    "derived_md5": "02586979d37af84e62e2b41c6832d3c9",
+    "key": "reproductive/02586979-scindapsus-curranii-plants-and-lichens-of-the-southern-philippines-cornell-bh-phytoimages-306170.jpg"
+   },
+   "c670984b67eae74791a1063882d4f7b6": {
+    "bytes": 91984,
+    "derived_md5": "c670984b67eae74791a1063882d4f7b6",
+    "key": "vegetative/c670984b-scindapsus-curranii-p-b-pelser-j-f-barcelona-cornell-bh-phytoimages-47532.jpg"
+   },
+   "c7b36a9c0c98f2f48e8feeab20bd549d": {
+    "bytes": 365696,
+    "derived_md5": "c7b36a9c0c98f2f48e8feeab20bd549d",
+    "key": "vegetative/c7b36a9c-scindapsus-curranii-p-b-pelser-j-f-barcelona-guiller-opiso-cornell-bh-phytoimages-352925.jpg"
+   },
+   "ca8ee142dd810234a8ea36415b291b01": {
+    "bytes": 84537,
+    "derived_md5": "ca8ee142dd810234a8ea36415b291b01",
+    "key": "vegetative/ca8ee142-scindapsus-curranii-p-b-pelser-j-f-barcelona-cornell-bh-phytoimages-79196.jpg"
+   },
+   "ce45bc775a491f7cf644a6af2d6c56d9": {
+    "bytes": 317672,
+    "derived_md5": "ce45bc775a491f7cf644a6af2d6c56d9",
+    "key": "vegetative/ce45bc77-scindapsus-curranii-p-b-pelser-j-f-barcelona-guiller-opiso-cornell-bh-phytoimages-361170.jpg"
+   },
+   "d1b382ebb63b2586bda5821043fa4d30": {
+    "bytes": 146553,
+    "derived_md5": "d1b382ebb63b2586bda5821043fa4d30",
+    "key": "reproductive/d1b382eb-scindapsus-curranii-p-b-pelser-j-f-barcelona-guiller-opiso-cornell-bh-phytoimages-352849.jpg"
+   },
+   "d7c5a30398f6d2da955de9fed386caed": {
+    "bytes": 449262,
+    "derived_md5": "d7c5a30398f6d2da955de9fed386caed",
+    "key": "reproductive/d7c5a303-scindapsus-curranii-p-b-pelser-j-f-barcelona-guiller-opiso-cornell-bh-phytoimages-352908.jpg"
+   },
+   "ddd80e791b73fc960a5d76aa1499b694": {
+    "bytes": 339304,
+    "derived_md5": "ddd80e791b73fc960a5d76aa1499b694",
+    "key": "vegetative/ddd80e79-scindapsus-curranii-p-b-pelser-j-f-barcelona-guiller-opiso-cornell-bh-phytoimages-361131.jpg"
+   },
+   "e349a40d3166e9fac9eeb3e21b7426f4": {
+    "bytes": 147432,
+    "derived_md5": "e349a40d3166e9fac9eeb3e21b7426f4",
+    "key": "vegetative/e349a40d-scindapsus-curranii-p-b-pelser-j-f-barcelona-cornell-bh-phytoimages-47531.jpg"
+   },
+   "e3e1e31aacfb77301323f255500622bd": {
+    "bytes": 163927,
+    "derived_md5": "e3e1e31aacfb77301323f255500622bd",
+    "key": "vegetative/e3e1e31a-scindapsus-curranii-p-b-pelser-j-f-barcelona-cornell-bh-phytoimages-72104.jpg"
+   },
+   "e59c5f3a40f67f33ad3cd35cdde80fac": {
+    "bytes": 137753,
+    "derived_md5": "e59c5f3a40f67f33ad3cd35cdde80fac",
+    "key": "vegetative/e59c5f3a-scindapsus-curranii-p-b-pelser-j-f-barcelona-cornell-bh-phytoimages-47533.jpg"
+   },
+   "ec32ef6f2f9ac43712a07ce788fd0a86": {
+    "bytes": 358438,
+    "derived_md5": "ec32ef6f2f9ac43712a07ce788fd0a86",
+    "key": "vegetative/ec32ef6f-scindapsus-curranii-p-b-pelser-j-f-barcelona-guiller-opiso-cornell-bh-phytoimages-352881.jpg"
+   },
+   "ef67c00521fed875815c47dbbc17f522": {
+    "bytes": 265946,
+    "derived_md5": "ef67c00521fed875815c47dbbc17f522",
+    "key": "reproductive/ef67c005-scindapsus-curranii-p-b-pelser-j-f-barcelona-guiller-opiso-cornell-bh-phytoimages-352863.jpg"
+   },
+   "f06a6c0f3ea701755b9adb0a88e2a86d": {
+    "bytes": 268256,
+    "derived_md5": "f06a6c0f3ea701755b9adb0a88e2a86d",
+    "key": "reproductive/f06a6c0f-scindapsus-curranii-p-b-pelser-j-f-barcelona-guiller-opiso-cornell-bh-phytoimages-352846.jpg"
+   },
+   "f604017f57d37b8c52f609591ea78c69": {
+    "bytes": 385699,
+    "derived_md5": "f604017f57d37b8c52f609591ea78c69",
+    "key": "vegetative/f604017f-scindapsus-curranii-p-b-pelser-j-f-barcelona-guiller-opiso-cornell-bh-phytoimages-361155.jpg"
+   },
+   "fd62b2609dc4281f1910e8bb599bf3af": {
+    "bytes": 232322,
+    "derived_md5": "fd62b2609dc4281f1910e8bb599bf3af",
+    "key": "reproductive/fd62b260-scindapsus-curranii-p-b-pelser-j-f-barcelona-guiller-opiso-cornell-bh-phytoimages-361214.jpg"
+   }
+  },
+  "scindapsus/cuscuaria": {
+   "063dcedb4d765bd19c470acd41ab653f": {
+    "bytes": 270425,
+    "derived_md5": "063dcedb4d765bd19c470acd41ab653f",
+    "key": "other/063dcedb-scindapsus-cuscuaria-naturalis-biodiversity-center-herbarium-sheet-gbif-2513719049.jpg"
+   },
+   "280b7af3bea9ef4dc0a1f2de9c64881d": {
+    "bytes": 271466,
+    "derived_md5": "280b7af3bea9ef4dc0a1f2de9c64881d",
+    "key": "other/280b7af3-scindapsus-cuscuaria-naturalis-biodiversity-center-herbarium-sheet-gbif-2513717883.jpg"
+   },
+   "3f9b668633adc7c4698f279b628ae22f": {
+    "bytes": 296787,
+    "derived_md5": "3f9b668633adc7c4698f279b628ae22f",
+    "key": "hero/3f9b6686-powo-scindapsus-cuscuaria-01.jpg"
+   },
+   "4e99642cd41f780d59d46f818ee253b6": {
+    "bytes": 263378,
+    "derived_md5": "4e99642cd41f780d59d46f818ee253b6",
+    "key": "other/4e99642c-scindapsus-cuscuaria-naturalis-biodiversity-center-herbarium-sheet-gbif-2513717070.jpg"
+   },
+   "a8d42f1b1ea2c5dbdb78e952f5a23531": {
+    "bytes": 277613,
+    "derived_md5": "a8d42f1b1ea2c5dbdb78e952f5a23531",
+    "key": "other/a8d42f1b-scindapsus-cuscuaria-naturalis-biodiversity-center-herbarium-sheet-gbif-2513718816.jpg"
+   },
+   "bdaa6467846ee22539ff0291cfccbd60": {
+    "bytes": 266491,
+    "derived_md5": "bdaa6467846ee22539ff0291cfccbd60",
+    "key": "other/bdaa6467-scindapsus-cuscuaria-naturalis-biodiversity-center-herbarium-sheet-gbif-2513719122.jpg"
+   },
+   "f8d9551dabb24ae7409e9d735507921e": {
+    "bytes": 256207,
+    "derived_md5": "f8d9551dabb24ae7409e9d735507921e",
+    "key": "other/f8d9551d-scindapsus-cuscuaria-naturalis-biodiversity-center-herbarium-sheet-gbif-2513717353.jpg"
+   }
+  },
+  "scindapsus/cuscuarioides": {
+   "8332a45cfb091dee0ed4e67463938a55": {
+    "bytes": 205168,
+    "derived_md5": "8332a45cfb091dee0ed4e67463938a55",
+    "key": "hero/8332a45c-scindapsus-cuscuarioides-b-herbarium-sheet-gbif-237346302.jpg"
+   }
+  },
+  "scindapsus/falcifolius": {
+   "6ce9a159b7ee9a3c37f5cf40df347f18": {
+    "bytes": 225993,
+    "derived_md5": "6ce9a159b7ee9a3c37f5cf40df347f18",
+    "key": "hero/6ce9a159-scindapsus-falcifolius-b-herbarium-sheet-gbif-237346314.jpg"
+   }
+  },
+  "scindapsus/geniculatus": {
+   "0347d3c69ec3d8a708ad885650f2657a": {
+    "bytes": 280766,
+    "derived_md5": "0347d3c69ec3d8a708ad885650f2657a",
+    "key": "other/0347d3c6-scindapsus-geniculatus-naturalis-biodiversity-center-herbarium-sheet-gbif-2513718943.jpg"
+   },
+   "188fd0ea59142813837c90c5b55ab52d": {
+    "bytes": 150135,
+    "derived_md5": "188fd0ea59142813837c90c5b55ab52d",
+    "key": "reproductive/188fd0ea-scindapsus-geniculatus-ds-kew-scindgeniculatus-pictured-in-royal-botanic-gardens-kew-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
+   "2ce03fe02540841f714b7e55d12d994f": {
+    "bytes": 78958,
+    "derived_md5": "2ce03fe02540841f714b7e55d12d994f",
+    "key": "vegetative/2ce03fe0-plate-7d-scindapsus-geniculatus-epiphyte-forming-a-fan-of-litter-trapping-leaves-boyce-et-al-2010-low-resolution.jpg"
+   },
+   "5b24469235209f52e594f0a1b6109e9b": {
+    "bytes": 273379,
+    "derived_md5": "5b24469235209f52e594f0a1b6109e9b",
+    "key": "hero/5b244692-scindapsus-geniculatus-peter-c-boyce-ias-aroid-org-nl294.jpg"
+   },
+   "6eecb7b6078a2bd7b905288a335f87ae": {
+    "bytes": 332797,
+    "derived_md5": "6eecb7b6078a2bd7b905288a335f87ae",
+    "key": "vegetative/6eecb7b6-plate-7-scindapsus-geniculatus-whole-plate-s-geniculatus-is-d-boyce-et-al-2010.jpg"
+   },
+   "8fe0f1ebbf3fc049e7d54665e47d31a7": {
+    "bytes": 268296,
+    "derived_md5": "8fe0f1ebbf3fc049e7d54665e47d31a7",
+    "key": "other/8fe0f1eb-powo-scindapsus-geniculatus-02.jpg"
+   },
+   "a0f8a3d3e6551b7161e4432f7d15ca09": {
+    "bytes": 260823,
+    "derived_md5": "a0f8a3d3e6551b7161e4432f7d15ca09",
+    "key": "vegetative/a0f8a3d3-powo-scindapsus-geniculatus-01.jpg"
+   },
+   "a80a1b9ccb9cb3b3385d7a8b02bd0826": {
+    "bytes": 64023,
+    "derived_md5": "a80a1b9ccb9cb3b3385d7a8b02bd0826",
+    "key": "other/a80a1b9c-scindapsus-geniculatus-fiaf-herbarium-sheet-gbif-2268979332.jpg"
+   },
+   "b8d0fed33852605a6ba30600c5b2d7f8": {
+    "bytes": 141618,
+    "derived_md5": "b8d0fed33852605a6ba30600c5b2d7f8",
+    "key": "vegetative/b8d0fed3-lifeforms-plate-1a-scindapsus-geniculatus-epiphyte-on-a-trunk-boyce-araceae-of-thailand-low-resolution.jpg"
+   },
+   "d2941f285b9d21622916615e7565c709": {
+    "bytes": 443466,
+    "derived_md5": "943f51be43a748902c2f322c62ff67ad",
+    "key": "other/943f51be-scindapsus-geniculatus-k-herbarium-sheet-gbif-5132701373.jpg"
+   },
+   "ea63eab26b7a08dce1057cd4feb79fb5": {
+    "bytes": 178129,
+    "derived_md5": "ea63eab26b7a08dce1057cd4feb79fb5",
+    "key": "vegetative/ea63eab2-scindapsus-geniculatus-ds-kew-scindgeniculatus2-pictured-in-royal-botanic-gardens-kew-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
+   "f2bde35da89e50ba6d6019eaf07129db": {
+    "bytes": 522687,
+    "derived_md5": "a02d5f167a537f683dcf5a1796082a97",
+    "key": "other/a02d5f16-scindapsus-geniculatus-malesia-1-tav-xxi-figs-6-10-engler-1882.jpg"
+   }
+  },
+  "scindapsus/glaucescens": {
+   "0e0099c0a0fe84a09508b273959c09b4": {
+    "bytes": 427802,
+    "derived_md5": "0e0099c0a0fe84a09508b273959c09b4",
+    "key": "hero/0e0099c0-powo-scindapsus-glaucescens-01.jpg"
+   },
+   "1563a530aae44c0265689ae34d4b013e": {
+    "bytes": 248517,
+    "derived_md5": "1563a530aae44c0265689ae34d4b013e",
+    "key": "other/1563a530-powo-scindapsus-glaucescens-02.jpg"
+   },
+   "6d2006d375d3b7964373133528eea085": {
+    "bytes": 506079,
+    "derived_md5": "69ae4543289264bf4f4d444a6635d84e",
+    "key": "other/69ae4543-scindapsus-glaucescens-k-herbarium-sheet-gbif-4535533895.jpg"
+   },
+   "787b3839bbcbd38c614d1eb21c348dcc": {
+    "bytes": 534983,
+    "derived_md5": "351ec37e5181d5e244fddbba749c068a",
+    "key": "other/351ec37e-scindapsus-glaucescens-k-herbarium-sheet-gbif-4535534853.jpg"
+   },
+   "a48b96d6d78df8efa8f6af93089b49b4": {
+    "bytes": 383056,
+    "derived_md5": "7a14812c1e6c2595877b6f3db1501780",
+    "key": "other/7a14812c-scindapsus-glaucescens-k-herbarium-sheet-gbif-4535528879.jpg"
+   },
+   "b5f36d7945d0d0504f7badf2225e6ef1": {
+    "bytes": 191382,
+    "derived_md5": "b5f36d7945d0d0504f7badf2225e6ef1",
+    "key": "vegetative/b5f36d79-lifeforms-plate-1b-scindapsus-glaucescens-hemiepiphyte-climbing-a-tree-boyce-araceae-of-thailand.jpg"
+   },
+   "e23fac758856121e3672372e5084a76b": {
+    "bytes": 30468,
+    "derived_md5": "e23fac758856121e3672372e5084a76b",
+    "key": "vegetative/e23fac75-figure-59-scindapsus-glaucescens-plant-with-leaf-blades-waxy-matte-grey-beneath-wong-boyce-2014-low-resolution.jpg"
+   },
+   "e3e081147bb56758e91a72751404f1d1": {
+    "bytes": 37744,
+    "derived_md5": "e3e081147bb56758e91a72751404f1d1",
+    "key": "vegetative/e3e08114-figure-60-scindapsus-glaucescens-shoot-tip-with-the-diagnostic-pale-ginger-fibres-wong-boyce-2014-low-resolution.jpg"
+   }
+  },
+  "scindapsus/hederaceus": {
+   "2c13a1d044de9e54505ea25cada671c3": {
+    "bytes": 427330,
+    "derived_md5": "41a45bf69b28581889c73696a645b9a8",
+    "key": "vegetative/41a45bf6-scindapsus-hederaceus-sungw-2.jpg"
+   },
+   "36e1f191ebd0dc349a5f450b91d71711": {
+    "bytes": 470148,
+    "derived_md5": "36e1f191ebd0dc349a5f450b91d71711",
+    "key": "other/36e1f191-scindapsus-plate-1-scindapsus-hederaceus-whole-plate-s-hederaceus-is-a-boyce-araceae-of-thailand.jpg"
+   },
+   "43fbb0772a2dc8107e3bf1e20ed58129": {
+    "bytes": 243360,
+    "derived_md5": "43fbb0772a2dc8107e3bf1e20ed58129",
+    "key": "other/43fbb077-powo-scindapsus-hederaceus-01.jpg"
+   },
+   "61e4a63af2deb40ff072256bbaef6947": {
+    "bytes": 142763,
+    "derived_md5": "61e4a63af2deb40ff072256bbaef6947",
+    "key": "reproductive/61e4a63a-scindapsus-hederaceus-ds-montet-scindhederaceus803628-pb-76-20-from-doi-suthep-thailand-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
+   "6dba810977617d74637dee90fdc9e87e": {
+    "bytes": 144960,
+    "derived_md5": "6dba810977617d74637dee90fdc9e87e",
+    "key": "reproductive/6dba8109-scindapsus-plate-1a-scindapsus-hederaceus-spadix-just-after-male-anthesis-the-spathe-already-shed-boyce-araceae-of-thailand.jpg"
+   },
+   "6fb84eee635b12bd0deca5dd2de7f4c6": {
+    "bytes": 345680,
+    "derived_md5": "dac75ee684abc7b55e6fcd92c7d7e3f1",
+    "key": "vegetative/dac75ee6-scindapsus-hederaceus-sungw.jpg"
+   },
+   "7a66ae4fb614e6c7aaa589ff43bb1a6b": {
+    "bytes": 542995,
+    "derived_md5": "9b8158431872e758c6ad7d76490a48fe",
+    "key": "vegetative/9b815843-scindapsus-hederaceus-mercury9nine-5.jpg"
+   },
+   "8b796f84cf0d181a77fc61ff12bdf3aa": {
+    "bytes": 1013173,
+    "derived_md5": "da73bd8a11e7abd93f26fa347388aff6",
+    "key": "other/da73bd8a-scindapsus-hederaceus-inaturalist-observation-gbif-6321157605.jpg"
+   },
+   "91a79ed296fc815850a06f9354845afe": {
+    "bytes": 513203,
+    "derived_md5": "7af4afa59edb2b52af47af0b34375cd0",
+    "key": "vegetative/7af4afa5-scindapsus-hederaceus-samuel-lee-2.jpg"
+   },
+   "96070be926336133c5f5dbb11c4b6678": {
+    "bytes": 245595,
+    "derived_md5": "96070be926336133c5f5dbb11c4b6678",
+    "key": "other/96070be9-plate-iii-scindapsus-hederaceus-whole-plate-s-hederaceus-is-figs-6-9-rao-1964.jpg"
+   },
+   "97d82f71841e3d8413857f69a2499700": {
+    "bytes": 112249,
+    "derived_md5": "97d82f71841e3d8413857f69a2499700",
+    "key": "reproductive/97d82f71-scindapsus-hederaceus-ds-montet-scindhederaceus803628-3-pb-76-20-from-doi-suthep-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
+   "a694bd70c8465c2941d5a71e202a7b70": {
+    "bytes": 86970,
+    "derived_md5": "a694bd70c8465c2941d5a71e202a7b70",
+    "key": "other/a694bd70-fig-6-scindapsus-hederaceus-cleared-leaf-blade-with-scattered-trichosclereids-photomicrograph-rao-1964-low-resolution.jpg"
+   },
+   "a992f05a59b4975836a4bc1169dbd216": {
+    "bytes": 577683,
+    "derived_md5": "31870ad11a3ae13316aa039e388aa1ee",
+    "key": "vegetative/31870ad1-scindapsus-hederaceus-michal-hrone.jpg"
+   },
+   "ba2286e8da753e61eda3384513053420": {
+    "bytes": 638128,
+    "derived_md5": "7f4f6f1eab4fdf019966701558609cbf",
+    "key": "other/7f4f6f1e-scindapsus-hederaceus-engler-krause-1908-pflanzenreich-iv-23b-p-76-fig-32-e-n-icon-origin.jpg"
+   },
+   "c4a5e4e62589c7102d7698a20208ecd7": {
+    "bytes": 326237,
+    "derived_md5": "c4a5e4e62589c7102d7698a20208ecd7",
+    "key": "other/c4a5e4e6-plate-ii-scindapsus-hederaceus-trichosclereids-from-the-leaf-blade-photomicrographs-figs-1-5-rao-1964.jpg"
+   },
+   "c9de838ff99415de34cfe06483a342ab": {
+    "bytes": 21761,
+    "derived_md5": "c9de838ff99415de34cfe06483a342ab",
+    "key": "other/c9de838f-fig-9-scindapsus-hederaceus-part-of-a-multiseptate-trichosclereid-photomicrograph-rao-1964-low-resolution.jpg"
+   },
+   "dae3ddf1a2084e277a95eeddcfcf0420": {
+    "bytes": 590489,
+    "derived_md5": "e22e960539234f8e6937464ae0ce8fcf",
+    "key": "other/e22e9605-scindapsus-hederaceus-inaturalist-observation-gbif-6469811197.jpg"
+   },
+   "ec13f80f67e3368f6327a71f214bd45c": {
+    "bytes": 138414,
+    "derived_md5": "ec13f80f67e3368f6327a71f214bd45c",
+    "key": "reproductive/ec13f80f-scindapsus-hederaceus-ds-montet-scindhederaceus803628-5-pb-76-20-from-doi-suthep-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
+   "f7ff028c79495b0d1b4824bc5036854d": {
+    "bytes": 500174,
+    "derived_md5": "532639b28b8bd041f743fe585615732a",
+    "key": "vegetative/532639b2-scindapsus-hederaceus-michal-hrone-3.jpg"
+   },
+   "f9f6d7ee0ba5163476eafd573c227026": {
+    "bytes": 563164,
+    "derived_md5": "dd172448ef9522c10482381ba708dff0",
+    "key": "vegetative/dd172448-scindapsus-hederaceus-ethan-beaver.jpg"
+   }
+  },
+  "scindapsus/kinabaluensis": {
+   "002c90bdffbcf0c4a59796f2b55f4240": {
+    "bytes": 354174,
+    "derived_md5": "36769c66632eb52a59df4278dff6633f",
+    "key": "other/36769c66-scindapsus-kinabaluensis-inaturalist-observation-gbif-6235174305.jpg"
+   },
+   "0abcc0109d47c30e03cbcc1b417c339a": {
+    "bytes": 359365,
+    "derived_md5": "0abcc0109d47c30e03cbcc1b417c339a",
+    "key": "reproductive/0abcc010-fig-2d-scindapsus-kinabaluensis-young-infructescence-kartini-et-al-2015.jpg"
+   },
+   "1585d31eb467f6f3b8e830d6fe35212c": {
+    "bytes": 580687,
+    "derived_md5": "1585d31eb467f6f3b8e830d6fe35212c",
+    "key": "reproductive/1585d31e-fig-1a-scindapsus-kinabaluensis-flowering-plant-climbing-in-habitat-kartini-et-al-2015.jpg"
+   },
+   "18183110edb6040d444d1b93f396b844": {
+    "bytes": 620002,
+    "derived_md5": "18183110edb6040d444d1b93f396b844",
+    "key": "reproductive/18183110-scindapsus-kinabaluensis-shawn-o-donnell-3.jpeg"
+   },
+   "24d9f99a5ec2ef140dedd19d9bbf5efa": {
+    "bytes": 1005448,
+    "derived_md5": "24d9f99a5ec2ef140dedd19d9bbf5efa",
+    "key": "reproductive/24d9f99a-fig-1c-scindapsus-kinabaluensis-terrestrial-plant-flowering-in-habitat-kartini-et-al-2015.jpg"
+   },
+   "3749842c5d23e76a09d07bc9644966a5": {
+    "bytes": 542716,
+    "derived_md5": "3749842c5d23e76a09d07bc9644966a5",
+    "key": "reproductive/3749842c-fig-1b-scindapsus-kinabaluensis-early-fruiting-plant-climbing-in-habitat-kartini-et-al-2015.jpg"
+   },
+   "48e4e02dfc4c0417c106807a60aedc41": {
+    "bytes": 411091,
+    "derived_md5": "48e4e02dfc4c0417c106807a60aedc41",
+    "key": "vegetative/48e4e02d-scindapsus-kinabaluensis-tony-rodd.jpg"
+   },
+   "5fac31d89dabd843f6af5131b318a652": {
+    "bytes": 500049,
+    "derived_md5": "d124dc625a0165362815035094bec05b",
+    "key": "reproductive/d124dc62-scindapsus-kinabaluensis-albert-kang.jpg"
+   },
+   "65949fec5879f760932bab68099c7833": {
+    "bytes": 562711,
+    "derived_md5": "d841d274b67225a3466ff3ba7be9e2ca",
+    "key": "reproductive/d841d274-scindapsus-kinabaluensis-helen-m-2.jpg"
+   },
+   "6f3bd85c98324c1c6acf6928f8311d7f": {
+    "bytes": 206107,
+    "derived_md5": "3e2fcb7da7c2affe5bbad8be287c16ee",
+    "key": "reproductive/3e2fcb7d-scindapsus-kinabaluensis-nelson-wong.jpg"
+   },
+   "7e242f89f2bfa32e0f0629e04a764c7c": {
+    "bytes": 337599,
+    "derived_md5": "7e242f89f2bfa32e0f0629e04a764c7c",
+    "key": "reproductive/7e242f89-fig-2c-scindapsus-kinabaluensis-inflorescence-after-anthesis-the-spathe-fallen-kartini-et-al-2015.jpg"
+   },
+   "886d24db4a2c416346718c753e85505b": {
+    "bytes": 701540,
+    "derived_md5": "4daa277caadadf0fa325b0ffdb03ebbf",
+    "key": "vegetative/4daa277c-scindapsus-kinabaluensis-mdoliveira-9.jpg"
+   },
+   "9089f9da75e1d2c97a806003f7f504c8": {
+    "bytes": 302489,
+    "derived_md5": "9089f9da75e1d2c97a806003f7f504c8",
+    "key": "reproductive/9089f9da-scindapsus-kinabaluensis-kinmatsu-lin.jpg"
+   },
+   "9dc6826c26680b15aa003631023a722d": {
+    "bytes": 547950,
+    "derived_md5": "cb5da405b9f7d89c1c9bbf3beb4f036b",
+    "key": "reproductive/cb5da405-scindapsus-kinabaluensis-mdoliveira-13.jpg"
+   },
+   "a39746333ec5e7978e98b1389dc13515": {
+    "bytes": 519615,
+    "derived_md5": "8f0bbc198ce37171d6e2ef1d28c940d9",
+    "key": "vegetative/8f0bbc19-scindapsus-kinabaluensis-oliver-ingold.jpg"
+   },
+   "a3a595b6e078f28348dd3f496f7a335d": {
+    "bytes": 726203,
+    "derived_md5": "9705b571e6d9bcedd60cb63fa034c576",
+    "key": "reproductive/9705b571-scindapsus-kinabaluensis-lars-mannzen.jpg"
+   },
+   "a7a70d81deaf61594fbe01388629ccd9": {
+    "bytes": 714141,
+    "derived_md5": "a7a70d81deaf61594fbe01388629ccd9",
+    "key": "reproductive/a7a70d81-fig-2b-scindapsus-kinabaluensis-inflorescence-at-late-pistillate-anthesis-second-view-kartini-et-al-2015.jpg"
+   },
+   "b441042b7c196cc876fb5915b97f5453": {
+    "bytes": 568029,
+    "derived_md5": "b441042b7c196cc876fb5915b97f5453",
+    "key": "vegetative/b441042b-fig-1e-scindapsus-kinabaluensis-ageing-stem-with-corky-cracking-epidermis-kartini-et-al-2015.jpg"
+   },
+   "b79555d70129f8546b8f4c968f86b246": {
+    "bytes": 430831,
+    "derived_md5": "b79555d70129f8546b8f4c968f86b246",
+    "key": "reproductive/b79555d7-fig-2e-scindapsus-kinabaluensis-ripe-infructescence-shedding-its-stylar-plates-kartini-et-al-2015.jpg"
+   },
+   "bd5dab488af2b4bc52726c6157b94475": {
+    "bytes": 218505,
+    "derived_md5": "2a86843394a514aa2347f117296e455b",
+    "key": "reproductive/2a868433-scindapsus-kinabaluensis-sonia-molino.jpg"
+   },
+   "c2176586ae60e7a3b4c084008744f25b": {
+    "bytes": 315964,
+    "derived_md5": "5c11f264fcb57262b62f285ccd5c9f16",
+    "key": "other/5c11f264-scindapsus-kinabaluensis-inaturalist-observation-gbif-6251440110.jpg"
+   },
+   "cca1c28544fb5e3f8483680134d020ad": {
+    "bytes": 778001,
+    "derived_md5": "cca1c28544fb5e3f8483680134d020ad",
+    "key": "vegetative/cca1c285-fig-1d-scindapsus-kinabaluensis-leaf-blade-upper-surface-kartini-et-al-2015.jpg"
+   },
+   "d1ca28d4825fa72c887bce148ba07182": {
+    "bytes": 327644,
+    "derived_md5": "53d71f6a82b937e4094b18b081e57b5c",
+    "key": "vegetative/53d71f6a-scindapsus-kinabaluensis-oliver-ingold-2.jpg"
+   },
+   "d3a80dcc75afdb513629b7a9fb335f30": {
+    "bytes": 498709,
+    "derived_md5": "d3a80dcc75afdb513629b7a9fb335f30",
+    "key": "reproductive/d3a80dcc-fig-2a-scindapsus-kinabaluensis-inflorescence-at-late-pistillate-anthesis-kartini-et-al-2015.jpg"
+   },
+   "f11bc6c8ed816c1e35c188c2460b8594": {
+    "bytes": 456586,
+    "derived_md5": "8e213c0a0e586de93feb503e19248cf5",
+    "key": "reproductive/8e213c0a-scindapsus-kinabaluensis.jpg"
+   },
+   "f16e6a601de872b5f6dad7be6d33b5d2": {
+    "bytes": 493875,
+    "derived_md5": "da1e3463ae587ea80ed180ef3b31b06f",
+    "key": "reproductive/da1e3463-scindapsus-kinabaluensis-albert-kang-2.jpg"
+   },
+   "f3d838e3d76ac8caa75f6f35e7ed6864": {
+    "bytes": 588267,
+    "derived_md5": "f3d838e3d76ac8caa75f6f35e7ed6864",
+    "key": "reproductive/f3d838e3-scindapsus-kinabaluensis-huang-baochen.jpg"
+   }
+  },
+  "scindapsus/latifolius": {
+   "1160b3cadc26fffd1b58d7246f4f7d75": {
+    "bytes": 773566,
+    "derived_md5": "2d84fb7a6299baf05efadce703512523",
+    "key": "vegetative/2d84fb7a-scindapsus-latifolius-oliver-ingold.jpg"
+   },
+   "2c2cda9f6100adea4502ca3f6247f42c": {
+    "bytes": 272651,
+    "derived_md5": "2c2cda9f6100adea4502ca3f6247f42c",
+    "key": "other/2c2cda9f-powo-scindapsus-latifolius-02.jpg"
+   },
+   "3b391fc651be8468ee3236ed25d2160b": {
+    "bytes": 222138,
+    "derived_md5": "f4ab309d9151ee9910850917016d1f60",
+    "key": "vegetative/f4ab309d-scindapsus-latifolius-mdoliveira-5.jpg"
+   },
+   "4000a0191187e251b32f8fb60d5ce453": {
+    "bytes": 439764,
+    "derived_md5": "902e4306844d3e4018d46cc3ae3ad3d5",
+    "key": "vegetative/902e4306-scindapsus-latifolius-mdoliveira-4.jpg"
+   },
+   "6be68caf324d50b87fb47640a9b55b36": {
+    "bytes": 927963,
+    "derived_md5": "76fbb6649074776205ce1fc553eab635",
+    "key": "other/76fbb664-scindapsus-latifolius-inaturalist-observation-gbif-6159228877.jpg"
+   },
+   "896f3b5a5e66e2bb9c4f6d797651c637": {
+    "bytes": 270493,
+    "derived_md5": "d80b88451fb232db7b53493fdd4a34ba",
+    "key": "vegetative/d80b8845-scindapsus-latifolius-mdoliveira-7.jpg"
+   },
+   "902367e33d7b4a5cad9c7daff81a9892": {
+    "bytes": 313509,
+    "derived_md5": "0a79b09aa8ddae328b859f593622ffe5",
+    "key": "other/0a79b09a-scindapsus-latifolius-inaturalist-observation-gbif-6251595610.jpg"
+   },
+   "a795213af77b5167468e0ce707323e32": {
+    "bytes": 4400,
+    "derived_md5": "a795213af77b5167468e0ce707323e32",
+    "key": "other/a795213a-fig-1d-scindapsus-latifolius-ovary-with-stamens-protologue-drawing-hotta-1966.png"
+   },
+   "aabbabb39ca5e24761a1ac6393e6d782": {
+    "bytes": 110649,
+    "derived_md5": "aabbabb39ca5e24761a1ac6393e6d782",
+    "key": "vegetative/aabbabb3-fig-12-scindapsus-latifolius-petiolar-sheath-with-prophyll-and-cataphyll-debris-wong-boyce-2007-low-resolution.jpg"
+   },
+   "b1ffc9d3eebc7363da28f50143ee18c1": {
+    "bytes": 434878,
+    "derived_md5": "8af9778882ad5d4f9d37d6747d12a4dc",
+    "key": "vegetative/8af97788-scindapsus-latifolius-ryan-e-gray-4.jpg"
+   },
+   "be0b392f5dd6a79cb4c25aa8b4ad33d1": {
+    "bytes": 15323,
+    "derived_md5": "be0b392f5dd6a79cb4c25aa8b4ad33d1",
+    "key": "other/be0b392f-fig-1c-scindapsus-latifolius-spathe-protologue-drawing-hotta-1966.png"
+   },
+   "c2cc63cedc7299b0e68e846c141ac3d3": {
+    "bytes": 74832,
+    "derived_md5": "c2cc63cedc7299b0e68e846c141ac3d3",
+    "key": "vegetative/c2cc63ce-scindapsus-latifolius-peter-c-boyce-ias-aroid-org.jpg"
+   },
+   "e2c7b930b259802c2e1ce2ec85108fa2": {
+    "bytes": 80814,
+    "derived_md5": "e2c7b930b259802c2e1ce2ec85108fa2",
+    "key": "other/e2c7b930-fig-2-scindapsus-latifolius-trichosclereids-released-from-disintegrating-cataphylls-boyce-1993.jpg"
+   },
+   "e3c3729c1636d56977a5dbf244a7bfa6": {
+    "bytes": 66140,
+    "derived_md5": "e3c3729c1636d56977a5dbf244a7bfa6",
+    "key": "other/e3c3729c-fig-1-scindapsus-latifolius-herbarium-specimen-boyce-1993.jpg"
+   },
+   "e66401ac3788f99065a184d294f81563": {
+    "bytes": 463312,
+    "derived_md5": "621bf417d91d4c56edd08df43bbccca6",
+    "key": "vegetative/621bf417-scindapsus-latifolius-mdoliveira.jpg"
+   }
+  },
+  "scindapsus/longipes": {
+   "204bbf13e0905218a48e452bdd4e7310": {
+    "bytes": 237947,
+    "derived_md5": "204bbf13e0905218a48e452bdd4e7310",
+    "key": "hero/204bbf13-scindapsus-longipes-naturalis-biodiversity-center-herbarium-sheet-gbif-2513717981.jpg"
+   },
+   "51374bb2b8558e15c1476df4fc686d2f": {
+    "bytes": 261950,
+    "derived_md5": "51374bb2b8558e15c1476df4fc686d2f",
+    "key": "other/51374bb2-scindapsus-longipes-naturalis-biodiversity-center-herbarium-sheet-gbif-2513720456.jpg"
+   },
+   "8be75eb2905a19ee32e6108c1ed68ab7": {
+    "bytes": 231199,
+    "derived_md5": "8be75eb2905a19ee32e6108c1ed68ab7",
+    "key": "other/8be75eb2-scindapsus-longipes-naturalis-biodiversity-center-herbarium-sheet-gbif-2513716439.jpg"
+   },
+   "a9c2431db30e33c8a2323cc43bbd0663": {
+    "bytes": 231049,
+    "derived_md5": "a9c2431db30e33c8a2323cc43bbd0663",
+    "key": "other/a9c2431d-scindapsus-longipes-naturalis-biodiversity-center-herbarium-sheet-gbif-2513719326.jpg"
+   },
+   "ba372938e857b5bc4a46a86e16ab6bc0": {
+    "bytes": 168300,
+    "derived_md5": "ba372938e857b5bc4a46a86e16ab6bc0",
+    "key": "other/ba372938-scindapsus-longipes-naturalis-biodiversity-center-herbarium-sheet-gbif-2513719472.jpg"
+   },
+   "ba7565f1abf03bbde2444cb931443ee5": {
+    "bytes": 365149,
+    "derived_md5": "ba7565f1abf03bbde2444cb931443ee5",
+    "key": "other/ba7565f1-scindapsus-longipes-us-herbarium-sheet-gbif-2592290352.jpg"
+   },
+   "f2bde35da89e50ba6d6019eaf07129db": {
+    "bytes": 522687,
+    "derived_md5": "a02d5f167a537f683dcf5a1796082a97",
+    "key": "other/a02d5f16-scindapsus-longipes-malesia-1-tav-xxi-figs-11-13-engler-1882.jpg"
+   }
+  },
+  "scindapsus/longistipitatus": {
+   "0ea6101df3f95e55cdb3b8aa35264eca": {
+    "bytes": 194905,
+    "derived_md5": "0ea6101df3f95e55cdb3b8aa35264eca",
+    "key": "vegetative/0ea6101d-scindapsus-longistipitatus-peter-c-boyce-ias-aroid-org-nl294.jpg"
+   },
+   "11f4b53be3c222f836bbdd1de46ea500": {
+    "bytes": 673868,
+    "derived_md5": "7515a968662c48d20914e70e0176dbb6",
+    "key": "vegetative/7515a968-scindapsus-longistipitatus-lilian-baun.jpg"
+   },
+   "244cdb31f24651d66ec0159568070ec0": {
+    "bytes": 253721,
+    "derived_md5": "244cdb31f24651d66ec0159568070ec0",
+    "key": "other/244cdb31-powo-scindapsus-longistipitatus-02.jpg"
+   },
+   "294057f8be7b959878a15aa36b1889c9": {
+    "bytes": 359481,
+    "derived_md5": "b8a0e360716f5e5d675b648f641f58e1",
+    "key": "vegetative/b8a0e360-scindapsus-longistipitatus-mdoliveira-4.jpg"
+   },
+   "37de48d3dc18f02469cf659bdc53687c": {
+    "bytes": 861591,
+    "derived_md5": "a39c6d805542a7d9bff83b8f5e7f0f07",
+    "key": "other/a39c6d80-scindapsus-longistipitatus-inaturalist-observation-gbif-6252390414.jpg"
+   },
+   "3bdc607332d1fcfc7c6a3985514fad20": {
+    "bytes": 196039,
+    "derived_md5": "3bdc607332d1fcfc7c6a3985514fad20",
+    "key": "vegetative/3bdc6073-scindapsus-longistipitatus-peter-c-boyce-ias-aroid-org-nl3102.jpg"
+   },
+   "3e3ff40f7a788f8feb96ca22b5001e15": {
+    "bytes": 545657,
+    "derived_md5": "32e1d21b34bcc9f92a5de19c5604b595",
+    "key": "vegetative/32e1d21b-scindapsus-longistipitatus-oliver-ingold.jpg"
+   },
+   "46af9df54127f168c034d695543b34c8": {
+    "bytes": 321230,
+    "derived_md5": "46af9df54127f168c034d695543b34c8",
+    "key": "vegetative/46af9df5-powo-scindapsus-longistipitatus-01.jpg"
+   },
+   "6fbd9e0d130fa47da2f94df9ac6e7aac": {
+    "bytes": 380296,
+    "derived_md5": "ef65fe2298b6b926ca7e67c92b2a164a",
+    "key": "vegetative/ef65fe22-scindapsus-longistipitatus-mdoliveira.jpg"
+   },
+   "9f0b7e35df290d0bfa967fd1ee581765": {
+    "bytes": 818034,
+    "derived_md5": "b4617178c831e68260e429cc27965b52",
+    "key": "vegetative/b4617178-scindapsus-longistipitatus-mdoliveira-5.jpg"
+   },
+   "d902cc3f4a543664cf8c5a89e97bec0f": {
+    "bytes": 534899,
+    "derived_md5": "b5b40deb5203443feade9d5d623d8d19",
+    "key": "vegetative/b5b40deb-scindapsus-longistipitatus-mdoliveira-6.jpg"
+   }
+  },
+  "scindapsus/lucens": {
+   "11d2be3c3a7c496a2b07e7f2db53074f": {
+    "bytes": 495418,
+    "derived_md5": "11d2be3c3a7c496a2b07e7f2db53074f",
+    "key": "hero/11d2be3c-scindapsus-lucens-pb3108-on-tree-trunk-detail-kota-tinggi-malaysia-copyright-patrick-blanc-www-verticalgardenpatrickblanc-com.jpg"
+   },
+   "152fb5de03b56c09fc3d6cf1d9b2e0ed": {
+    "bytes": 719889,
+    "derived_md5": "0b5d7abc1aeaa6b51e6bcad4c7457e1e",
+    "key": "other/0b5d7abc-scindapsus-lucens-inaturalist-observation-gbif-6162815757.jpg"
+   },
+   "7b02edec79b2443cb78fdb592f8453ed": {
+    "bytes": 320737,
+    "derived_md5": "4b273336602d127bf7123a415ff639eb",
+    "key": "other/4b273336-scindapsus-lucens-inaturalist-observation-gbif-6333902481.jpg"
+   },
+   "7e46979e023a15aa85228655c522fa3b": {
+    "bytes": 343976,
+    "derived_md5": "7e46979e023a15aa85228655c522fa3b",
+    "key": "vegetative/7e46979e-plate-1a-scindapsus-lucens-juvenile-primary-axis-with-glossy-leaf-blades-ahmad-sofiman-et-al-2010.jpg"
+   },
+   "7e5e57b8f9061c336ec5161eabf2dcdf": {
+    "bytes": 240253,
+    "derived_md5": "7e5e57b8f9061c336ec5161eabf2dcdf",
+    "key": "vegetative/7e5e57b8-plate-1d-scindapsus-lucens-stem-showing-the-diagnostic-warty-surface-ahmad-sofiman-et-al-2010.jpg"
+   },
+   "82d2c5e435539fa5e934df7bc9cf5861": {
+    "bytes": 632165,
+    "derived_md5": "82d2c5e435539fa5e934df7bc9cf5861",
+    "key": "other/82d2c5e4-fig-1-scindapsus-lucens-flowering-stem-and-floral-details-the-protologue-drawing-bogner-boyce-1994.png"
+   },
+   "8bc522b92f5c8ca299bbdffb3dc8d776": {
+    "bytes": 677801,
+    "derived_md5": "8bc522b92f5c8ca299bbdffb3dc8d776",
+    "key": "vegetative/8bc522b9-scindapsus-lucens-pb5457-on-tree-trunk-kota-tinggi-malaysia-octobre-2010-copyright-patrick-blanc-www-verticalgardenpatrickblanc-com.jpg"
+   },
+   "90ca95eb37b302e227303c9f638affb9": {
+    "bytes": 365999,
+    "derived_md5": "2235c20f5dcc582c4b15c493341c8e22",
+    "key": "vegetative/2235c20f-scindapsus-lucens-merlijn-wagner.jpg"
+   },
+   "96bfeb59984983a7316df5ea3aacca8b": {
+    "bytes": 542698,
+    "derived_md5": "d860993bbe04a624f102fa4e5a826bcf",
+    "key": "other/d860993b-scindapsus-lucens-inaturalist-observation-gbif-6130392492.jpg"
+   },
+   "a13f452009e17c1d4ff6673c5c294815": {
+    "bytes": 248612,
+    "derived_md5": "a13f452009e17c1d4ff6673c5c294815",
+    "key": "reproductive/a13f4520-plate-1c-scindapsus-lucens-type-clone-in-flower-in-cultivation-jardin-botanique-du-montet-nancy-ahmad-sofiman-et-al-2010.jpg"
+   },
+   "a1681529c91ba1f1860e236018d35b00": {
+    "bytes": 41854,
+    "derived_md5": "a1681529c91ba1f1860e236018d35b00",
+    "key": "vegetative/a1681529-scindapsus-lucens-david-scherberich-2003-ias-aroid-org-2.jpg"
+   },
+   "dedfea0bb6acca258bf85e931c2324c0": {
+    "bytes": 115259,
+    "derived_md5": "dedfea0bb6acca258bf85e931c2324c0",
+    "key": "reproductive/dedfea0b-scindapsus-lucens-ds-montet-scindlucens833521ncy2-pb1983-513-from-bukit-larut-peninsular-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
+   "e04d00901516a284993c5f799e08875a": {
+    "bytes": 448444,
+    "derived_md5": "e04d00901516a284993c5f799e08875a",
+    "key": "vegetative/e04d0090-plate-1b-scindapsus-lucens-juvenile-plant-jade-green-form-ahmad-sofiman-et-al-2010.jpg"
+   },
+   "e9079d5a882ccab1f69c79e1afa1f128": {
+    "bytes": 833676,
+    "derived_md5": "c32d697a3a420bd054a3a0ca8f2bee2f",
+    "key": "other/c32d697a-scindapsus-lucens-inaturalist-observation-gbif-5176664313.jpg"
+   }
+  },
+  "scindapsus/maclurei": {
+   "7349575dc20459a88e427dd40f2f5ed5": {
+    "bytes": 207532,
+    "derived_md5": "7349575dc20459a88e427dd40f2f5ed5",
+    "key": "other/7349575d-powo-scindapsus-maclurei-01.jpg"
+   },
+   "77c90218c9814e3ffd40ec707222e6f4": {
+    "bytes": 695231,
+    "derived_md5": "f9151528475800e01b395bfb82636510",
+    "key": "other/f9151528-scindapsus-maclurei-inaturalist-observation-gbif-6130226683.jpg"
+   },
+   "86e50a8a893aa9bcb8d2f3bba9440a56": {
+    "bytes": 770697,
+    "derived_md5": "ce336b26ce36da9c171ebbe09b9e8fb5",
+    "key": "other/ce336b26-scindapsus-maclurei-inaturalist-observation-gbif-6452575665.jpg"
+   },
+   "8b9f3f4a446a4de76fb1e2538e6a231b": {
+    "bytes": 768880,
+    "derived_md5": "ada6c3ea7bb413c67ebf70020613531c",
+    "key": "vegetative/ada6c3ea-scindapsus-maclurei-narido-4.jpg"
+   },
+   "8c9f7c6711844cf48ac9a74614dce1a9": {
+    "bytes": 234620,
+    "derived_md5": "8c9f7c6711844cf48ac9a74614dce1a9",
+    "key": "other/8c9f7c67-powo-scindapsus-maclurei-02.jpg"
+   },
+   "9b0cd867df669cb4e3c8389d1b60df3f": {
+    "bytes": 685852,
+    "derived_md5": "7de1876bb72d3fa8ffb97f5bac136f08",
+    "key": "other/7de1876b-scindapsus-maclurei-inaturalist-observation-gbif-6184735568.jpg"
+   },
+   "a145c20edfa9c0906097ed0ef9b8ef77": {
+    "bytes": 679572,
+    "derived_md5": "8d96e8d33f27eaaf3b99860a9a2aaf09",
+    "key": "other/8d96e8d3-scindapsus-maclurei-inaturalist-observation-gbif-5062867444.jpg"
+   }
+  },
+  "scindapsus/marantifolius": {
+   "b3283c96568fb310dbf48f5250db5094": {
+    "bytes": 493422,
+    "derived_md5": "8fd8eac3cf7ab13c5d98a6c34dea7408",
+    "key": "other/8fd8eac3-scindapsus-marantifolius-bunnemeijer-h-a-b-herbarium-sheet-gbif-3856191311.jpg"
+   },
+   "e73afa2283502145cddc9ddc67703753": {
+    "bytes": 511507,
+    "derived_md5": "a3de74c05c10a8345212b7ecd26c9717",
+    "key": "other/a3de74c0-scindapsus-marantifolius-gh-herbarium-sheet-gbif-1998704568.jpg"
+   }
+  },
+  "scindapsus/officinalis": {
+   "073b48ff97cce5edf3e91bb8abf0ed9f": {
+    "bytes": 408485,
+    "derived_md5": "706936c50a840db88c712fd3bb345436",
+    "key": "vegetative/706936c5-scindapsus-officinalis-med-offr-2.jpg"
+   },
+   "18097ba0e5c1b8e1a6a33a1a6750e7cf": {
+    "bytes": 537396,
+    "derived_md5": "62f136ef334ba234c6b4bc9d9a7c3c85",
+    "key": "vegetative/62f136ef-scindapsus-officinalis-giovanni-bacaro-2.jpg"
+   },
+   "1ac9281f6a9e7a6f4f157810cdc82212": {
+    "bytes": 962589,
+    "derived_md5": "9b9800a70dd7309ade9f4e2a98d05953",
+    "key": "other/9b9800a7-scindapsus-officinalis-inaturalist-observation-gbif-6251579153.jpg"
+   },
+   "211c5dd5a6c59bd61f95e1f8d64a5c40": {
+    "bytes": 395265,
+    "derived_md5": "5212bfba75363fdf2d1bbf779a3b418d",
+    "key": "other/5212bfba-scindapsus-officinalis-adolf-engler-d-1930-commons.jpg"
+   },
+   "2da372c7304339063003103660795af8": {
+    "bytes": 42310,
+    "derived_md5": "2da372c7304339063003103660795af8",
+    "key": "reproductive/2da372c7-figure-5-scindapsus-officinalis-ripe-infructescences-opened-to-show-the-fruits-bal-et-al-2016-low-resolution.jpg"
+   },
+   "426ed23bc72b29a8baec7cbad5246679": {
+    "bytes": 977073,
+    "derived_md5": "426ed23bc72b29a8baec7cbad5246679",
+    "key": "vegetative/426ed23b-scindapsus-officinalis-rajib-maulick-13.jpeg"
+   },
+   "42f7a6f1611f3d1743f6b94164bae8d8": {
+    "bytes": 747185,
+    "derived_md5": "42f7a6f1611f3d1743f6b94164bae8d8",
+    "key": "vegetative/42f7a6f1-scindapsus-officinalis-inaturalist-observation-gbif-6498109101.jpg"
+   },
+   "4b5f27b8b3f95b6fa13a97d75c1e83d1": {
+    "bytes": 445711,
+    "derived_md5": "b313cc15ca7bf1b79caef6def3799569",
+    "key": "vegetative/b313cc15-scindapsus-officinalis-giovanni-bacaro-3.jpg"
+   },
+   "4d1c48c935a16a92b1bc16366c4b17cd": {
+    "bytes": 605489,
+    "derived_md5": "4fd04bf60ea5ab05556092c689d0c388",
+    "key": "other/4fd04bf6-scindapsus-officinalis-engler-krause-1908-pflanzenreich-iv-23b-p-72-fig-30-a-g-icon-origin.jpg"
+   },
+   "4f5c54b873b85fdd6a0ba554d0dd206d": {
+    "bytes": 547391,
+    "derived_md5": "fb4435abe5d1927e6db3711551a3635d",
+    "key": "vegetative/fb4435ab-scindapsus-officinalis-stefan-c.jpg"
+   },
+   "698a4c240c4e75af27e3cf9805173c08": {
+    "bytes": 293509,
+    "derived_md5": "35468a9706acd048fe74468407b5646c",
+    "key": "reproductive/35468a97-scindapsus-officinalis-bikash-kumar-sahoo.jpg"
+   },
+   "6ac34d5e240f3c6c4a1e083e3c5df518": {
+    "bytes": 30464,
+    "derived_md5": "6ac34d5e240f3c6c4a1e083e3c5df518",
+    "key": "reproductive/6ac34d5e-figure-4-scindapsus-officinalis-three-infructescences-one-opened-right-frame-bal-et-al-2016-low-resolution.jpg"
+   },
+   "6d2efbc8804399c5936d0ce39f640300": {
+    "bytes": 311284,
+    "derived_md5": "8f81e8af2652f1aa3003d775fdac9902",
+    "key": "reproductive/8f81e8af-scindapsus-officinalis-stephen-manktelow.jpg"
+   },
+   "7bb2cbdb1a2bab214b970b3370485780": {
+    "bytes": 382239,
+    "derived_md5": "7219b09ee04e4b03ce8d19a94ccd29d4",
+    "key": "reproductive/7219b09e-scindapsus-officinalis-hannarong.jpg"
+   },
+   "7de67cbc1b3537eb14a1a8794aa61aef": {
+    "bytes": 8281,
+    "derived_md5": "7de67cbc1b3537eb14a1a8794aa61aef",
+    "key": "other/7de67cbc-plate-16e-scindapsus-officinalis-detail-of-leaf-venation-line-drawing-mayo-bogner-boyce-1997.png"
+   },
+   "827765450f3bc08e4bf14dc937513f62": {
+    "bytes": 863546,
+    "derived_md5": "12b2ee561486f53cfb782e85da843b78",
+    "key": "other/12b2ee56-plate-16-scindapsus-officinalis-whole-figure-s-officinalis-is-d-f-mayo-bogner-boyce-1997.jpg"
+   },
+   "869327b023f2845b9916489cc2add86f": {
+    "bytes": 179346,
+    "derived_md5": "869327b023f2845b9916489cc2add86f",
+    "key": "reproductive/869327b0-powo-scindapsus-officinalis-02.jpg"
+   },
+   "87d6075c96b5a64c6f1d1f1850a4ae23": {
+    "bytes": 669649,
+    "derived_md5": "988e5e3cad9a8541389439a2be750810",
+    "key": "other/988e5e3c-scindapsus-officinalis-inaturalist-observation-gbif-6321006774.jpg"
+   },
+   "8a29cf1ebfb73283a2e55370388bb172": {
+    "bytes": 10391,
+    "derived_md5": "8a29cf1ebfb73283a2e55370388bb172",
+    "key": "other/8a29cf1e-plate-16f-scindapsus-officinalis-seed-side-view-line-drawing-mayo-bogner-boyce-1997.png"
+   },
+   "8f798ceaf467248663f6b286ad37ee94": {
+    "bytes": 247585,
+    "derived_md5": "f28e4bfdf3b744f2e5b98bf550b6d017",
+    "key": "reproductive/f28e4bfd-scindapsus-officinalis-nattachote-tungsiri.jpg"
+   },
+   "95d604b86c22d4d503c8a05f49673602": {
+    "bytes": 315002,
+    "derived_md5": "95d604b86c22d4d503c8a05f49673602",
+    "key": "reproductive/95d604b8-powo-scindapsus-officinalis-01.jpg"
+   },
+   "adeab52284c2f69ccd5c640081603521": {
+    "bytes": 937703,
+    "derived_md5": "adeab52284c2f69ccd5c640081603521",
+    "key": "reproductive/adeab522-scindapsus-officinalis-wannachart-phoopitact.jpeg"
+   },
+   "bae6a571ba241866e01f749a9e5c75a4": {
+    "bytes": 995768,
+    "derived_md5": "bae6a571ba241866e01f749a9e5c75a4",
+    "key": "vegetative/bae6a571-scindapsus-officinalis-rajib-maulick-3.jpeg"
+   },
+   "bafa9ca5f3e8dfb0f10e490a22e1ab3f": {
+    "bytes": 271982,
+    "derived_md5": "98de2b617e9f53b8c793326df1826490",
+    "key": "reproductive/98de2b61-scindapsus-officinalis-wangworn-sankamethawee.jpg"
+   },
+   "bf40b2613bff959d28121da39459d746": {
+    "bytes": 381859,
+    "derived_md5": "15a4e58eb8561f6d5d8aa8358829972b",
+    "key": "reproductive/15a4e58e-scindapsus-officinalis-a-j-t-johnsingh-wwf-india-and-ncf-commons.jpg"
+   },
+   "c0002e7ea494d2537bb535b9a2b1c585": {
+    "bytes": 123702,
+    "derived_md5": "c0002e7ea494d2537bb535b9a2b1c585",
+    "key": "reproductive/c0002e7e-scindapsus-officinalis-lougarou.jpeg"
+   },
+   "c22fe9154586c984f1067aa1f666b5aa": {
+    "bytes": 119886,
+    "derived_md5": "c22fe9154586c984f1067aa1f666b5aa",
+    "key": "reproductive/c22fe915-scindapsus-plate-1b-scindapsus-officinalis-infructescence-the-fruit-almost-ripe-boyce-araceae-of-thailand.jpg"
+   },
+   "e0aaaf604b40217f0c32f94922b46a2d": {
+    "bytes": 170459,
+    "derived_md5": "fdeec4d018be36e640b469a6a0eedd8f",
+    "key": "reproductive/fdeec4d0-scindapsus-officinalis-save-thitiphon.jpg"
+   }
+  },
+  "scindapsus/perakensis": {
+   "15031a603927296106916efdea8f421d": {
+    "bytes": 755456,
+    "derived_md5": "1d69211405e48fe5374fd285b74ef13e",
+    "key": "vegetative/1d692114-scindapsus-perakensis-pbsg.jpg"
+   },
+   "3c4cc7d4c543599a66e98c8bf051e66f": {
+    "bytes": 537499,
+    "derived_md5": "cfff4bee3b10235833b61a3b1b77f09f",
+    "key": "other/cfff4bee-scindapsus-perakensis-inaturalist-observation-gbif-4039501833.jpg"
+   },
+   "7f5dbf49a2e107554b371b3f49c80a83": {
+    "bytes": 16148,
+    "derived_md5": "7f5dbf49a2e107554b371b3f49c80a83",
+    "key": "other/7f5dbf49-plate-16m-scindapsus-perakensis-stigma-top-view-line-drawing-mayo-bogner-boyce-1997.png"
+   },
+   "82418f05dd4425e241360ba5590d6b4b": {
+    "bytes": 680535,
+    "derived_md5": "04c82f398d4b3d3e60034e53da74d117",
+    "key": "vegetative/04c82f39-scindapsus-perakensis-pbsg-3.jpg"
+   },
+   "827765450f3bc08e4bf14dc937513f62": {
+    "bytes": 863546,
+    "derived_md5": "12b2ee561486f53cfb782e85da843b78",
+    "key": "other/12b2ee56-plate-16-scindapsus-perakensis-whole-figure-s-perakensis-is-m-n-mayo-bogner-boyce-1997.jpg"
+   },
+   "9003f73c44a1f0fe771ec54dcbfddbbe": {
+    "bytes": 339971,
+    "derived_md5": "805f62bc2ad90aa2a0e04088395cb9a7",
+    "key": "vegetative/805f62bc-scindapsus-perakensis-pbsg-6.jpg"
+   },
+   "a9075f0d87846d7e00b797e4a80f1a84": {
+    "bytes": 202888,
+    "derived_md5": "a9075f0d87846d7e00b797e4a80f1a84",
+    "key": "other/a9075f0d-powo-scindapsus-perakensis-01.jpg"
+   },
+   "ba2286e8da753e61eda3384513053420": {
+    "bytes": 638128,
+    "derived_md5": "7f4f6f1eab4fdf019966701558609cbf",
+    "key": "other/7f4f6f1e-scindapsus-perakensis-engler-krause-1908-pflanzenreich-iv-23b-p-76-fig-32-a-d-icon-origin.jpg"
+   },
+   "ed9dacb3f2809b6a23e95316dcc90930": {
+    "bytes": 389584,
+    "derived_md5": "87f5b7278b82faf4cd0d317ed6cba60f",
+    "key": "other/87f5b727-scindapsus-perakensis-inaturalist-observation-gbif-4039543397.jpg"
+   },
+   "fb1b5ba3fe61627a46e0e471dbb5e336": {
+    "bytes": 33457,
+    "derived_md5": "fb1b5ba3fe61627a46e0e471dbb5e336",
+    "key": "other/fb1b5ba3-plate-16n-scindapsus-perakensis-flower-with-a-window-cut-in-the-gynoecium-to-show-the-ovule-line-drawing-mayo-bogner-boyce-1997.png"
+   }
+  },
+  "scindapsus/pictus": {
+   "14854fd1fee8debf4d2bef726a2d7122": {
+    "bytes": 349515,
+    "derived_md5": "14854fd1fee8debf4d2bef726a2d7122",
+    "key": "reproductive/14854fd1-scindapsus-pictus-my-lan-le.jpeg"
+   },
+   "1dbf6964eb8fe874ecb36efaac6fab97": {
+    "bytes": 95555,
+    "derived_md5": "1dbf6964eb8fe874ecb36efaac6fab97",
+    "key": "other/1dbf6964-plate-7b-scindapsus-pictus-juvenile-shingling-stage-on-a-trunk-boyce-et-al-2010-low-resolution.jpg"
+   },
+   "1f9a27ff91b78e5ede467773f5ccbdd8": {
+    "bytes": 760049,
+    "derived_md5": "5fa1a70d418dbc3618ee64e992c9c462",
+    "key": "vegetative/5fa1a70d-scindapsus-pictus-m-k-r.jpg"
+   },
+   "205b87e9e736c968f077603ebfe7ef68": {
+    "bytes": 771679,
+    "derived_md5": "205b87e9e736c968f077603ebfe7ef68",
+    "key": "vegetative/205b87e9-scindapsus-pictus-pb3115-on-shorea-curtisii-trunk-bukit-timah-singapour-copyright-patrick-blanc-www-verticalgardenpatrickblanc-com.jpg"
+   },
+   "2640f95013c97cfe2613914efa7b0cfe": {
+    "bytes": 584329,
+    "derived_md5": "d2c983e870ec642f856147b88dd7c625",
+    "key": "vegetative/d2c983e8-scindapsus-pictus-lyu-yi-chi-2.jpg"
+   },
+   "2a15503c1732f290bc2b489adfb6d0cd": {
+    "bytes": 424305,
+    "derived_md5": "a1435cab0ffd15bd7f262fd1e9d3fa34",
+    "key": "vegetative/a1435cab-scindapsus-pictus-kevinpearce-2.jpg"
+   },
+   "2c6064555563935c2abe2c281aca1eac": {
+    "bytes": 302309,
+    "derived_md5": "e4125bbce046f2222609ffc6b31c5647",
+    "key": "vegetative/e4125bbc-scindapsus-pictus-sonia-molino.jpg"
+   },
+   "345d283b468dbae9a1daf9dcec949ade": {
+    "bytes": 678954,
+    "derived_md5": "54166e789c19320cba09ca15a816149a",
+    "key": "other/54166e78-scindapsus-pictus-inaturalist-observation-gbif-6159526542.jpg"
+   },
+   "38b795bb3f79c038c4148059090f639d": {
+    "bytes": 331720,
+    "derived_md5": "a555ec8650e8a143065e6a2ef25456aa",
+    "key": "vegetative/a555ec86-scindapsus-pictus-venus5026-4.jpg"
+   },
+   "3a4ee02118438269fe9c2a241599d295": {
+    "bytes": 954931,
+    "derived_md5": "3a4ee02118438269fe9c2a241599d295",
+    "key": "vegetative/3a4ee021-scindapsus-pictus-pb27602-juvenile-form-with-appressed-shingle-leaves-in-forest-copyright-patrick-blanc-www-verticalgardenpatrickblanc-com.jpg"
+   },
+   "3d02a4925de95559508313679fc4a70c": {
+    "bytes": 83235,
+    "derived_md5": "3d02a4925de95559508313679fc4a70c",
+    "key": "other/3d02a492-plate-16c-scindapsus-pictus-juvenile-habit-line-drawing-mayo-bogner-boyce-1997.png"
+   },
+   "40b9b941a74d789e1589d177a58f2b82": {
+    "bytes": 127294,
+    "derived_md5": "40b9b941a74d789e1589d177a58f2b82",
+    "key": "reproductive/40b9b941-scindapsus-pictus-ds-lyon-scindpictus3-pictured-at-the-jardin-botanique-de-lyon-france-2010-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
+   "4cd8b23972c09093186856ef6e750fd9": {
+    "bytes": 532926,
+    "derived_md5": "4cd8b23972c09093186856ef6e750fd9",
+    "key": "vegetative/4cd8b239-powo-scindapsus-pictus-03.jpg"
+   },
+   "4d1c48c935a16a92b1bc16366c4b17cd": {
+    "bytes": 605489,
+    "derived_md5": "4fd04bf60ea5ab05556092c689d0c388",
+    "key": "other/4fd04bf6-scindapsus-pictus-engler-krause-1908-pflanzenreich-iv-23b-p-72-fig-30-h-q-icon-origin.jpg"
+   },
+   "4f3b52b12d6443ea2bdb8a9eb6573e2a": {
+    "bytes": 673580,
+    "derived_md5": "4f3b52b12d6443ea2bdb8a9eb6573e2a",
+    "key": "vegetative/4f3b52b1-scindapsus-pictus-foo-chuan-wei-32.jpg"
+   },
+   "4fd145bed21b24eb8308830ab256960c": {
+    "bytes": 744914,
+    "derived_md5": "4fd145bed21b24eb8308830ab256960c",
+    "key": "reproductive/4fd145be-scindapsus-pictus-pb27604-a-few-leaved-stem-with-terminal-infructescence-in-forest-copyright-patrick-blanc-www-verticalgardenpatrickblanc-com.jpg"
+   },
+   "5348d2d2df83e704b0addc0587ab06b9": {
+    "bytes": 51570,
+    "derived_md5": "5348d2d2df83e704b0addc0587ab06b9",
+    "key": "vegetative/5348d2d2-scindapsus-pictus-abrimaal-at-polish-wikipedia-commons.jpg"
+   },
+   "57a8a67ba3baaac2409889e2e3752a90": {
+    "bytes": 200019,
+    "derived_md5": "57a8a67ba3baaac2409889e2e3752a90",
+    "key": "other/57a8a67b-scindapsus-pictus-hay-1990-aroids-of-papua-new-guinea-fig-37-scortechinii-a-c-pictus-f-ovary-and-seed.png"
+   },
+   "59f797b675a3b85a467063a480c0f7a1": {
+    "bytes": 479950,
+    "derived_md5": "59f797b675a3b85a467063a480c0f7a1",
+    "key": "vegetative/59f797b6-scindapsus-pictus-frank-walther.jpg"
+   },
+   "6653bafcaafabb85c43c3c0fcdd5bc91": {
+    "bytes": 309870,
+    "derived_md5": "715bb21ebc554edde096c9373653539a",
+    "key": "reproductive/715bb21e-scindapsus-pictus-my-lan-le-2.jpg"
+   },
+   "681ce035d82f4011719a39213e99d9e3": {
+    "bytes": 416996,
+    "derived_md5": "1ca6e0bdcfb06d4b5865898e9b177565",
+    "key": "vegetative/1ca6e0bd-scindapsus-pictus-bernard-dupont-from-france-commons.jpg"
+   },
+   "6c77e45cf2c35358781e85fef86c195f": {
+    "bytes": 329142,
+    "derived_md5": "ea8da1c1927d94e238a8d074615d8921",
+    "key": "reproductive/ea8da1c1-scindapsus-pictus-huang-qin.jpg"
+   },
+   "7148fc41b5d62c518b24600afce42c52": {
+    "bytes": 839218,
+    "derived_md5": "79af7ac5720254298eee197531dd9ebe",
+    "key": "vegetative/79af7ac5-scindapsus-pictus-ingmar-rondeel.jpg"
+   },
+   "7966d371d910ae38cb64f39f0c462da1": {
+    "bytes": 222202,
+    "derived_md5": "dd25fff8e6b288a7b7fc69bcd0e5f3ca",
+    "key": "vegetative/dd25fff8-scindapsus-pictus-kor-an-commons.jpg"
+   },
+   "827765450f3bc08e4bf14dc937513f62": {
+    "bytes": 863546,
+    "derived_md5": "12b2ee561486f53cfb782e85da843b78",
+    "key": "other/12b2ee56-plate-16-scindapsus-pictus-whole-figure-s-pictus-is-c-mayo-bogner-boyce-1997.jpg"
+   },
+   "83f2a21e55bfb19ea311c21d9e5f4547": {
+    "bytes": 847345,
+    "derived_md5": "83f2a21e55bfb19ea311c21d9e5f4547",
+    "key": "vegetative/83f2a21e-scindapsus-pictus-kevin-shuck-2.jpg"
+   },
+   "8e59d8143376e662babb0f0f0415790e": {
+    "bytes": 186182,
+    "derived_md5": "8e59d8143376e662babb0f0f0415790e",
+    "key": "other/8e59d814-scindapsus-pictus-howard-w-lowe-e-j-commons.jpg"
+   },
+   "9dc41ef4475c4edaf6ff36b1ae905fcd": {
+    "bytes": 511826,
+    "derived_md5": "fa47c49190eda29efeaa65c72e4c06e0",
+    "key": "other/fa47c491-scindapsus-pictus-inaturalist-observation-gbif-6163065405.jpg"
+   },
+   "a02fffaca165206c6d0d080fc8e83134": {
+    "bytes": 444530,
+    "derived_md5": "0f2c21df970b13d98fd267c09bf0566d",
+    "key": "vegetative/0f2c21df-scindapsus-pictus-cheongweei-gan.jpg"
+   },
+   "a5ea7b07043221423c3f7eb8223ae4d8": {
+    "bytes": 11957,
+    "derived_md5": "a5ea7b07043221423c3f7eb8223ae4d8",
+    "key": "other/a5ea7b07-fig-37f-scindapsus-pictus-fruit-and-seed-line-drawing-hay-1990.png"
+   },
+   "a6934266581cfaef8be93042c4c7b09b": {
+    "bytes": 347675,
+    "derived_md5": "a3b7cbade8cba349b505e3ac4aa56989",
+    "key": "reproductive/a3b7cbad-scindapsus-pictus-huang-qin-2.jpg"
+   },
+   "a8c7df64085fad1e29d67fe9b557e611": {
+    "bytes": 365225,
+    "derived_md5": "a8c7df64085fad1e29d67fe9b557e611",
+    "key": "reproductive/a8c7df64-scindapsus-pictus-kuan-chieh-chuck-hung.jpeg"
+   },
+   "aceef75531b7eabb13330bc2223d4907": {
+    "bytes": 135437,
+    "derived_md5": "aceef75531b7eabb13330bc2223d4907",
+    "key": "reproductive/aceef755-scindapsus-pictus-ds-lyon-scindpictus2-pictured-at-the-jardin-botanique-de-lyon-france-2010-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
+   "b20f3058720fe3b34b8225378d9fbd18": {
+    "bytes": 312001,
+    "derived_md5": "599b437964fe97875215f8f59e372118",
+    "key": "reproductive/599b4379-scindapsus-pictus.jpg"
+   },
+   "b5e6ad2eb728e62ba52cd8bbf71d7f31": {
+    "bytes": 716761,
+    "derived_md5": "b5e6ad2eb728e62ba52cd8bbf71d7f31",
+    "key": "vegetative/b5e6ad2e-scindapsus-pictus-lars-fehlandt.jpg"
+   },
+   "ba93d46959a8c30eb8ba252cb4b22e70": {
+    "bytes": 48165,
+    "derived_md5": "ba93d46959a8c30eb8ba252cb4b22e70",
+    "key": "other/ba93d469-fig-8-scindapsus-pictus-cleared-leaf-blade-under-polarised-light-photomicrograph-rao-1964-low-resolution.jpg"
+   },
+   "bf75380a1b3fda05cf4d0235682aa811": {
+    "bytes": 622748,
+    "derived_md5": "2f0b8d37717bdbd5b5bc99e6ea62e70a",
+    "key": "vegetative/2f0b8d37-scindapsus-pictus-riki-subargia-emtaka.jpg"
+   },
+   "d7ea10895be2a94ab2e868bc9dff6b27": {
+    "bytes": 810229,
+    "derived_md5": "0974087f4a5774ca9e01ff0eff683657",
+    "key": "vegetative/0974087f-scindapsus-pictus-erlina-damariyanti.jpg"
+   },
+   "dd3ce7ea6fb971f79dbdbcb476776fc5": {
+    "bytes": 796043,
+    "derived_md5": "dd3ce7ea6fb971f79dbdbcb476776fc5",
+    "key": "vegetative/dd3ce7ea-scindapsus-pictus-inaturalist-observation-gbif-6131417192.jpg"
+   },
+   "de254fdc7a61f4284b566f02ba5c2f1e": {
+    "bytes": 541656,
+    "derived_md5": "de254fdc7a61f4284b566f02ba5c2f1e",
+    "key": "vegetative/de254fdc-scindapsus-pictus-inaturalist-observation-gbif-6131073492.jpg"
+   },
+   "e3d05a22e0bc2b9f09aaf640c953bed9": {
+    "bytes": 234205,
+    "derived_md5": "e3d05a22e0bc2b9f09aaf640c953bed9",
+    "key": "vegetative/e3d05a22-scindapsus-pictus-peter-c-boyce-ias-aroid-org-nl3102.jpg"
+   },
+   "e687c5f0b97a17837f7de74e40a602b6": {
+    "bytes": 555429,
+    "derived_md5": "14090277d65e76cb670184e5d5f9f15b",
+    "key": "other/14090277-scindapsus-pictus-inaturalist-observation-gbif-6147509031.jpg"
+   },
+   "fd328c26a779bfa50adca7bd16979cd7": {
+    "bytes": 773452,
+    "derived_md5": "22e8f7e9de846ff9279c83ec1108a21f",
+    "key": "vegetative/22e8f7e9-scindapsus-pictus-pb27609-leaves-of-the-juvenile-shingle-plant-with-characteristic-copyright-patrick-blanc-www-verticalgardenpatrickblanc-com.jpg"
+   },
+   "feef38e842fe801db459aa2a7e2c7466": {
+    "bytes": 323803,
+    "derived_md5": "429d8656f08c243d833785de46fd9015",
+    "key": "vegetative/429d8656-scindapsus-pictus-casper.jpg"
+   }
+  },
+  "scindapsus/pictus-legacy": {
+   "025726b90ccd9b68277b594247f47be1": {
+    "bytes": 354925,
+    "derived_md5": "eabbee25c451a19c37f89cc5359734e9",
+    "key": "vegetative/eabbee25-scindapsus-pictus-legacy-ias-aroid-cultivar-registry-registry-674751b9.jpg"
+   },
+   "586188279326f5e598e9b51bdbad1b2e": {
+    "bytes": 509525,
+    "derived_md5": "b9f6af58f2f5a2e04586486bb3f0cb77",
+    "key": "vegetative/b9f6af58-scindapsus-pictus-legacy-ias-aroid-cultivar-registry-registry-e7626252.jpg"
+   },
+   "7eef2d5053e99827793518fac0beac5b": {
+    "bytes": 390740,
+    "derived_md5": "abcde4e5ea1d5bab5e1c24e95437d01b",
+    "key": "vegetative/abcde4e5-scindapsus-pictus-legacy-ias-aroid-cultivar-registry-registry-d90b5e85.jpg"
+   },
+   "a5edf7bf03bd24e77016c25b7e27961c": {
+    "bytes": 418114,
+    "derived_md5": "0046c1507ab20efae897da59ccfc4acc",
+    "key": "vegetative/0046c150-scindapsus-pictus-legacy-ias-aroid-cultivar-registry-registry-0e0f5e5c.jpg"
+   },
+   "af00ce2a6783f1a8e6f365b9d5073a92": {
+    "bytes": 421146,
+    "derived_md5": "e289b6d146b94f94fb05ee0589efda44",
+    "key": "vegetative/e289b6d1-scindapsus-pictus-legacy-ias-aroid-cultivar-registry-registry-6271495d.jpg"
+   }
+  },
+  "scindapsus/pictus-mayari": {
+   "20b9e7c9124ae42820687793fe5cc630": {
+    "bytes": 154019,
+    "derived_md5": "20b9e7c9124ae42820687793fe5cc630",
+    "key": "vegetative/20b9e7c9-scindapsus-pictus-mayari-ias-aroid-cultivar-registry-registry-29786597.jpg"
+   },
+   "3553a891214ba0387fec6393da74dd85": {
+    "bytes": 373107,
+    "derived_md5": "935e91e4f6af530eeabb4836665788ef",
+    "key": "vegetative/935e91e4-scindapsus-pictus-mayari-ias-aroid-cultivar-registry-registry-262c5484.jpg"
+   },
+   "7fc7e504dfcffd416485a33fb07fd6bc": {
+    "bytes": 474130,
+    "derived_md5": "b1618073c1799a7add4c9f23647af527",
+    "key": "vegetative/b1618073-scindapsus-pictus-mayari-ias-aroid-cultivar-registry-registry-2989594f.jpg"
+   },
+   "a247a707ab1d9fcf7107d248b3912cdc": {
+    "bytes": 120171,
+    "derived_md5": "a247a707ab1d9fcf7107d248b3912cdc",
+    "key": "hero/a247a707-scindapsus-pictus-mayari-ias-aroid-cultivar-registry-registry-ad09d411.jpg"
+   },
+   "b0916b5f31f2561ac761f370a021eed2": {
+    "bytes": 62553,
+    "derived_md5": "b0916b5f31f2561ac761f370a021eed2",
+    "key": "vegetative/b0916b5f-scindapsus-pictus-mayari-ias-aroid-cultivar-registry-registry-9505d8b8.jpg"
+   }
+  },
+  "scindapsus/roseus": {
+   "4c8f359005e2636a086094bfbaac1239": {
+    "bytes": 547868,
+    "derived_md5": "a556687a0d89d9af9a83952679ad80e3",
+    "key": "other/a556687a-scindapsus-roseus-bunnemeijer-h-a-b-herbarium-sheet-gbif-3856191404.jpg"
+   },
+   "7b3a95ee27e69f98f2d56761c946e362": {
+    "bytes": 306187,
+    "derived_md5": "7b3a95ee27e69f98f2d56761c946e362",
+    "key": "other/7b3a95ee-scindapsus-roseus-us-herbarium-sheet-gbif-2592288114.jpg"
+   },
+   "87c16dd98debdab671ffa5a3c88f94e7": {
+    "bytes": 256439,
+    "derived_md5": "87c16dd98debdab671ffa5a3c88f94e7",
+    "key": "other/87c16dd9-scindapsus-roseus-us-herbarium-sheet-gbif-2592238019.jpg"
+   },
+   "b4a15e79cf64ccf4c68e392b76775fb9": {
+    "bytes": 333299,
+    "derived_md5": "b4a15e79cf64ccf4c68e392b76775fb9",
+    "key": "other/b4a15e79-scindapsus-roseus-us-herbarium-sheet-gbif-2592252053.jpg"
+   }
+  },
+  "scindapsus/salomoniensis": {
+   "8f97138daa48fb409c5e92e3a92fa6ea": {
+    "bytes": 175555,
+    "derived_md5": "8f97138daa48fb409c5e92e3a92fa6ea",
+    "key": "other/8f97138d-scindapsus-salomoniensis-b-herbarium-sheet-gbif-237346308.jpg"
+   },
+   "fe1c1cd9300c0715cd2f6276bbb13c32": {
+    "bytes": 215096,
+    "derived_md5": "fe1c1cd9300c0715cd2f6276bbb13c32",
+    "key": "hero/fe1c1cd9-scindapsus-salomoniensis-b-herbarium-sheet-gbif-237346307.jpg"
+   }
+  },
+  "scindapsus/schlechteri": {
+   "0920c89032cde132d3b712064a07f7e3": {
+    "bytes": 183996,
+    "derived_md5": "0920c89032cde132d3b712064a07f7e3",
+    "key": "hero/0920c890-scindapsus-schlechteri-naturalis-biodiversity-center-herbarium-sheet-gbif-2513718361.jpg"
+   },
+   "20818379b1c9229b98e86d92fac9d496": {
+    "bytes": 414146,
+    "derived_md5": "58e5c7c8a5cb7ada2ec4f04411df9a8d",
+    "key": "other/58e5c7c8-scindapsus-schlechteri-k-herbarium-sheet-gbif-4535535901.jpg"
+   },
+   "256f1222243632069f9597f5a0f144d9": {
+    "bytes": 365638,
+    "derived_md5": "256f1222243632069f9597f5a0f144d9",
+    "key": "other/256f1222-scindapsus-schlechteri-us-herbarium-sheet-gbif-2592219221.jpg"
+   },
+   "686f4d777a211550f78960bf793cd930": {
+    "bytes": 863476,
+    "derived_md5": "686f4d777a211550f78960bf793cd930",
+    "key": "other/686f4d77-scindapsus-schlechteri-bish-herbarium-sheet-gbif-5956269615.jpg"
+   },
+   "a973eaf9e8cf493a12824a62b6ff843f": {
+    "bytes": 478135,
+    "derived_md5": "bfde1df2ec2e8cb494dd5cf94b3f99f4",
+    "key": "other/bfde1df2-scindapsus-schlechteri-k-herbarium-sheet-gbif-5060697037.jpg"
+   },
+   "ae9ea46f182567f0c11bc5433ddcc186": {
+    "bytes": 232454,
+    "derived_md5": "ae9ea46f182567f0c11bc5433ddcc186",
+    "key": "other/ae9ea46f-powo-scindapsus-schlechteri-01.jpg"
+   },
+   "ee866a8230eda7524c299b4184b56675": {
+    "bytes": 318140,
+    "derived_md5": "ee866a8230eda7524c299b4184b56675",
+    "key": "other/ee866a82-scindapsus-schlechteri-us-herbarium-sheet-gbif-2592216569.jpg"
+   }
+  },
+  "scindapsus/scortechinii": {
+   "00dd78cc787ac3c3b08ef953b54dfd0d": {
+    "bytes": 552069,
+    "derived_md5": "00dd78cc787ac3c3b08ef953b54dfd0d",
+    "key": "reproductive/00dd78cc-scindapsus-scortechinii-pb10468-spatha-close-up-gunung-brinchang-cameron-copyright-patrick-blanc-www-verticalgardenpatrickblanc-com.jpg"
+   },
+   "0a7b9f09f30870d10f3ef1f38f1189dd": {
+    "bytes": 227375,
+    "derived_md5": "0a7b9f09f30870d10f3ef1f38f1189dd",
+    "key": "other/0a7b9f09-powo-scindapsus-scortechinii-01.jpg"
+   },
+   "182af00cb5ec2b316c282ab992b28a26": {
+    "bytes": 10293,
+    "derived_md5": "182af00cb5ec2b316c282ab992b28a26",
+    "key": "other/182af00c-fig-37b-scindapsus-scortechinii-spadix-line-drawing-hay-1990.png"
+   },
+   "205b6e8b8eef15069138db3cfbf71e19": {
+    "bytes": 402118,
+    "derived_md5": "1f66c6b2482b4ed4192af1c5c0845a49",
+    "key": "reproductive/1f66c6b2-scindapsus-scortechinii-michal-hrone.jpg"
+   },
+   "2f0c859aff9fd40bd1a53e88773a8416": {
+    "bytes": 727642,
+    "derived_md5": "503307fc5bcd678d8a2c82370854ceaf",
+    "key": "other/503307fc-scindapsus-scortechinii-engler-krause-1908-pflanzenreich-iv-23b-p-74-fig-31-all-panels-icon-origin.jpg"
+   },
+   "4485731795bf8c317d5a431b0a07781a": {
+    "bytes": 6966,
+    "derived_md5": "4485731795bf8c317d5a431b0a07781a",
+    "key": "other/44857317-fig-37c-scindapsus-scortechinii-ovary-in-section-line-drawing-hay-1990.png"
+   },
+   "57a8a67ba3baaac2409889e2e3752a90": {
+    "bytes": 200019,
+    "derived_md5": "57a8a67ba3baaac2409889e2e3752a90",
+    "key": "other/57a8a67b-scindapsus-scortechinii-hay-1990-aroids-of-papua-new-guinea-fig-37-scortechinii-a-c-pictus-f-ovary-and-seed.png"
+   },
+   "57e7bea79d1f9859cb135de58b2be500": {
+    "bytes": 346572,
+    "derived_md5": "2a747c3eaa338c53d13488bf01a11183",
+    "key": "reproductive/2a747c3e-scindapsus-scortechinii-richard-dimon-2.jpg"
+   },
+   "5aaf0ce8c57f681c5eb560a21099e0ca": {
+    "bytes": 188011,
+    "derived_md5": "bed570e3388487c2c37ff46569ab420e",
+    "key": "reproductive/bed570e3-scindapsus-scortechinii-vojt-ch-tobias-bla-ek-2.jpg"
+   },
+   "5dbc0895575efe2394a089fe07c36230": {
+    "bytes": 299961,
+    "derived_md5": "5dbc0895575efe2394a089fe07c36230",
+    "key": "reproductive/5dbc0895-scindapsus-scortechinii-frank-walther.jpeg"
+   },
+   "792aa2fc10b1e83de066f8f359c7bdfd": {
+    "bytes": 222945,
+    "derived_md5": "afdaa094b27c3c866929303f58940149",
+    "key": "other/afdaa094-scindapsus-scortechinii-adolf-engler-d-1930-commons.jpg"
+   },
+   "93291060f7a9fb2a6fa2be2a951eda5f": {
+    "bytes": 142429,
+    "derived_md5": "354b9fc92bcb1d16a776cb876087cce1",
+    "key": "reproductive/354b9fc9-scindapsus-scortechinii-vojt-ch-tobias-bla-ek.jpg"
+   },
+   "93c495582adc35baee125a0a0c5d7418": {
+    "bytes": 246139,
+    "derived_md5": "92dcfd3d275b6b37520a2d27a579f5ad",
+    "key": "reproductive/92dcfd3d-scindapsus-scortechinii-ana-garcia.jpg"
+   },
+   "9b3efad8bcdd386e8422e48a891fdedb": {
+    "bytes": 448601,
+    "derived_md5": "aad65692af6669dc30f3e99d5bcf683e",
+    "key": "other/aad65692-scindapsus-scortechinii-inaturalist-observation-gbif-6178434850.jpg"
+   },
+   "a49c714cb37005c1ad195378e2c2bb5d": {
+    "bytes": 201680,
+    "derived_md5": "a49c714cb37005c1ad195378e2c2bb5d",
+    "key": "reproductive/a49c714c-plate-25c-scindapsus-scortechinii-plant-in-flower-stiff-glossy-leaves-mashhor-et-al-2011.jpg"
+   },
+   "aa637b0781858a2041b65fc4cc5cca73": {
+    "bytes": 1231056,
+    "derived_md5": "af76bba7a0796f7c9be3913623edb174",
+    "key": "other/af76bba7-scindapsus-scortechinii-inaturalist-observation-gbif-6195966300.jpg"
+   },
+   "b3d48578af4964b91cfcddf8437205a3": {
+    "bytes": 584164,
+    "derived_md5": "d9bb848fdc93a8815d458db5f9c192ce",
+    "key": "vegetative/d9bb848f-scindapsus-scortechinii-terrll-2.jpg"
+   },
+   "b4ce5ad47a4c2048773f77b84ea0d7a5": {
+    "bytes": 402209,
+    "derived_md5": "b4ce5ad47a4c2048773f77b84ea0d7a5",
+    "key": "reproductive/b4ce5ad4-scindapsus-scortechinii-frank-walther-4.jpeg"
+   },
+   "c2d00c4072064c21b40d3df7d1b5f13a": {
+    "bytes": 377227,
+    "derived_md5": "580dd41c53770cbc18c41db41a5c6569",
+    "key": "reproductive/580dd41c-scindapsus-scortechinii-richard-dimon.jpg"
+   },
+   "c750aba2ab08e3ddac59c710ee1c8157": {
+    "bytes": 694362,
+    "derived_md5": "4fb2d8d3bb44dbecc421efcd62d4afa4",
+    "key": "vegetative/4fb2d8d3-scindapsus-scortechinii-eidiu.jpg"
+   },
+   "db566afdb6146fa4ff4d57fb0a28e167": {
+    "bytes": 293743,
+    "derived_md5": "da70ebdbec7b309a01e089eed338909d",
+    "key": "reproductive/da70ebdb-scindapsus-scortechinii-cheongweei-gan.jpg"
+   },
+   "dc485fe6914d2187fa1b43fba6af2fc4": {
+    "bytes": 204895,
+    "derived_md5": "36c46fb4c48a4065a8bd30f753cfe77b",
+    "key": "reproductive/36c46fb4-scindapsus-scortechinii-barron.jpg"
+   },
+   "f698074117e32be286731554a2fbda10": {
+    "bytes": 77546,
+    "derived_md5": "f698074117e32be286731554a2fbda10",
+    "key": "other/f6980741-fig-37a-scindapsus-scortechinii-leafy-shoot-with-inflorescence-line-drawing-hay-1990.png"
+   },
+   "fef086cc346bbeb3138da5cbeddb7275": {
+    "bytes": 127661,
+    "derived_md5": "fef086cc346bbeb3138da5cbeddb7275",
+    "key": "reproductive/fef086cc-scindapsus-plate-1c-scindapsus-scortechinii-spathe-just-beginning-to-shed-boyce-araceae-of-thailand.jpg"
+   }
+  },
+  "scindapsus/splendidus": {
+   "083d7df29a5e16a9351852f3c21af229": {
+    "bytes": 335846,
+    "derived_md5": "3d3aaf467607f9492da5fb5f9bcbdf89",
+    "key": "other/3d3aaf46-scindapsus-splendidus-naturalis-biodiversity-center-herbarium-sheet-gbif-2513092301.jpg"
+   },
+   "54d8de227ffa7345682f19517a6b0b84": {
+    "bytes": 278165,
+    "derived_md5": "28b446bbf9ebd0a1941808856067ed96",
+    "key": "other/28b446bb-scindapsus-splendidus-naturalis-biodiversity-center-herbarium-sheet-gbif-2513093052.jpg"
+   },
+   "57279bd61e9ecb4ce7c646a9bf917ede": {
+    "bytes": 331137,
+    "derived_md5": "298f9de63b5d729cfcfeb53186f7d024",
+    "key": "other/298f9de6-scindapsus-splendidus-naturalis-biodiversity-center-herbarium-sheet-gbif-2513093906.jpg"
+   },
+   "a1205f53c58a452932077cccf6602f1d": {
+    "bytes": 387655,
+    "derived_md5": "a1205f53c58a452932077cccf6602f1d",
+    "key": "other/a1205f53-scindapsus-splendidus-us-herbarium-sheet-gbif-2592313314.jpg"
+   },
+   "b92eb581c89ced83e01c524b24eea40b": {
+    "bytes": 408889,
+    "derived_md5": "b92eb581c89ced83e01c524b24eea40b",
+    "key": "other/b92eb581-scindapsus-splendidus-us-herbarium-sheet-gbif-2592235240.jpg"
+   },
+   "bc8b8bd6c95f6e5ac51aff1a6f9ce45d": {
+    "bytes": 369047,
+    "derived_md5": "bc8b8bd6c95f6e5ac51aff1a6f9ce45d",
+    "key": "other/bc8b8bd6-scindapsus-splendidus-us-herbarium-sheet-gbif-2592310364.jpg"
+   }
+  },
+  "scindapsus/subcordatus": {
+   "2119d8d9d1d03e531583be98c786eb0b": {
+    "bytes": 585223,
+    "derived_md5": "8943248650ac712ff50657cd5e8a45a8",
+    "key": "other/89432486-scindapsus-subcordatus-a-herbarium-sheet-gbif-1999430998.jpg"
+   },
+   "a9a69bd7e93c80bed562d1153dcf690f": {
+    "bytes": 548809,
+    "derived_md5": "9c9634f793befa751390f1ee7fe1833f",
+    "key": "other/9c9634f7-scindapsus-subcordatus-a-herbarium-sheet-gbif-1999427569.jpg"
+   }
+  },
+  "scindapsus/suffruticosus": {
+   "343bf979aadc183d350205ebe317d60f": {
+    "bytes": 596907,
+    "derived_md5": "b029e160cf9cecec4643534517001e42",
+    "key": "other/b029e160-scindapsus-suffruticosus-lorzing-j-a-herbarium-sheet-gbif-3856191379.jpg"
+   },
+   "ae0f2e7de0543dffa6d21d0439bd573e": {
+    "bytes": 497703,
+    "derived_md5": "2ba44848b6e468941569a9157e3a5ddd",
+    "key": "other/2ba44848-scindapsus-suffruticosus-lorzing-j-a-herbarium-sheet-gbif-3856191383.jpg"
+   },
+   "fd0c0e3aa578763ee7d8c9eea451771a": {
+    "bytes": 326140,
+    "derived_md5": "2b526132428b16159d04bed58e0aa8e0",
+    "key": "other/2b526132-scindapsus-suffruticosus-lorzing-j-a-herbarium-sheet-gbif-3856191395.jpg"
+   }
+  },
+  "scindapsus/sumatranus": {
+   "0387cfc02bdf68e53d90d7bf257693a4": {
+    "bytes": 152740,
+    "derived_md5": "0387cfc02bdf68e53d90d7bf257693a4",
+    "key": "vegetative/0387cfc0-scindapsus-sumatranus-ds-kew-scindsumatranusk2-jermy-13695-pictured-in-royal-botanic-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
+   "058121c224f973635c5aa75cf23864f5": {
+    "bytes": 76885,
+    "derived_md5": "058121c224f973635c5aa75cf23864f5",
+    "key": "vegetative/058121c2-figure-19-scindapsus-sumatranus-as-s-rupestris-plant-with-smooth-stiff-green-leaves-boyce-wong-2007-low-resolution.jpg"
+   },
+   "1f86ee21a8004d45e2eaeea39204d814": {
+    "bytes": 173637,
+    "derived_md5": "1f86ee21a8004d45e2eaeea39204d814",
+    "key": "hero/1f86ee21-scindapsus-sumatranus-ds-kew-scindsumatranusk-jermy-13695-pictured-in-royal-botanic-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
+   "24830571acf9f461cf1074bb42c1bfbe": {
+    "bytes": 219064,
+    "derived_md5": "24830571acf9f461cf1074bb42c1bfbe",
+    "key": "other/24830571-powo-scindapsus-sumatranus-01.jpg"
+   },
+   "38c3ad27381d2b14f1f53b06789dfec8": {
+    "bytes": 39706,
+    "derived_md5": "38c3ad27381d2b14f1f53b06789dfec8",
+    "key": "reproductive/38c3ad27-figure-20-scindapsus-sumatranus-as-s-rupestris-solitary-thick-spathed-inflorescence-boyce-wong-2007-low-resolution.jpg"
+   },
+   "40024592bc032b184921fc7978eb2dc3": {
+    "bytes": 60221,
+    "derived_md5": "40024592bc032b184921fc7978eb2dc3",
+    "key": "other/40024592-fig-7-scindapsus-sumatranus-as-s-rupestris-cleared-leaf-blade-vein-end-and-trichosclereid-photomicrograph-rao-1964-low-resolution.jpg"
+   },
+   "40fb7f45a5f6e8994af30103c1207741": {
+    "bytes": 76314,
+    "derived_md5": "40fb7f45a5f6e8994af30103c1207741",
+    "key": "reproductive/40fb7f45-inflorescence-plate-11c-scindapsus-sumatranus-marcescent-spathe-around-the-spadix-boyce-araceae-of-thailand.jpg"
+   },
+   "41755bb8376deb1d5bb01d7db7a34426": {
+    "bytes": 434456,
+    "derived_md5": "b84014b6fd52dd63a5c345b20453c463",
+    "key": "other/b84014b6-scindapsus-sumatranus-k-herbarium-sheet-gbif-5132689258.jpg"
+   },
+   "48d973a49ca4d835f57d932c08b2090a": {
+    "bytes": 14336,
+    "derived_md5": "48d973a49ca4d835f57d932c08b2090a",
+    "key": "other/48d973a4-plate-16b-scindapsus-sumatranus-as-s-rupestris-stigma-top-view-line-drawing-mayo-bogner-boyce-1997.png"
+   },
+   "827765450f3bc08e4bf14dc937513f62": {
+    "bytes": 863546,
+    "derived_md5": "12b2ee561486f53cfb782e85da843b78",
+    "key": "other/12b2ee56-plate-16-scindapsus-sumatranus-as-s-rupestris-whole-figure-s-sumatranus-is-a-b-mayo-bogner-boyce-1997.jpg"
+   },
+   "86f47c8c2322ad449c3095303387f0cb": {
+    "bytes": 451871,
+    "derived_md5": "6d33f7770e368d5c798a80e52653d1ed",
+    "key": "other/6d33f777-scindapsus-sumatranus-k-herbarium-sheet-gbif-4535531908.jpg"
+   },
+   "96070be926336133c5f5dbb11c4b6678": {
+    "bytes": 245595,
+    "derived_md5": "96070be926336133c5f5dbb11c4b6678",
+    "key": "other/96070be9-plate-iii-scindapsus-sumatranus-as-s-rupestris-whole-plate-s-sumatranus-is-fig-7-rao-1964.jpg"
+   },
+   "9f32371e8623166093601b080d077fd1": {
+    "bytes": 205533,
+    "derived_md5": "9f32371e8623166093601b080d077fd1",
+    "key": "reproductive/9f32371e-inflorescence-plate-5a-scindapsus-sumatranus-inflorescence-at-female-anthesis-boyce-araceae-of-thailand.jpg"
+   },
+   "af1d6343bbbfe42b17a488db7b578139": {
+    "bytes": 397900,
+    "derived_md5": "f4aa8ebdff978e0129d36604f8bd0f3b",
+    "key": "other/f4aa8ebd-scindapsus-sumatranus-k-herbarium-sheet-gbif-4535533899.jpg"
+   },
+   "b69edb19e222525c48cd1bb44f9f9d68": {
+    "bytes": 122911,
+    "derived_md5": "b69edb19e222525c48cd1bb44f9f9d68",
+    "key": "other/b69edb19-scindapsus-sumatranus-schott-commons.jpg"
+   },
+   "d62f38e21fc2bea61f879dd7ac423153": {
+    "bytes": 393377,
+    "derived_md5": "1d5cceef6a7daa49150c79966f112c20",
+    "key": "other/1d5cceef-scindapsus-sumatranus-k-herbarium-sheet-gbif-4535535900.jpg"
+   },
+   "dc4e4dcf550b6478974d8b8457b62354": {
+    "bytes": 452357,
+    "derived_md5": "c5277e92179950d76681bde246368489",
+    "key": "other/c5277e92-scindapsus-sumatranus-k-herbarium-sheet-gbif-5132684289.jpg"
+   },
+   "e3a9d18cd4c7361d20c46445abfd51e3": {
+    "bytes": 502752,
+    "derived_md5": "c8ad2c253c6268acb969b9ebee138735",
+    "key": "other/c8ad2c25-scindapsus-sumatranus-k-herbarium-sheet-gbif-4535536877.jpg"
+   }
+  },
+  "scindapsus/treubii": {
+   "0e442f343f809a98ba81353ac79365be": {
+    "bytes": 348277,
+    "derived_md5": "832a67f9b244382a6dccca1023fc310d",
+    "key": "vegetative/832a67f9-scindapsus-treubii-oliver-ingold-2.jpg"
+   },
+   "1da73e45ff45f98fee4e5480e21cacd8": {
+    "bytes": 947945,
+    "derived_md5": "1da73e45ff45f98fee4e5480e21cacd8",
+    "key": "vegetative/1da73e45-scindapsus-treubii-inaturalist-observation-gbif-6353268013.jpg"
+   },
+   "3844893eadbb6250e6c30d089a902047": {
+    "bytes": 1016539,
+    "derived_md5": "3844893eadbb6250e6c30d089a902047",
+    "key": "vegetative/3844893e-scindapsus-treubii-oliver-ingold.jpeg"
+   },
+   "416306edb1a276443e459c755e6449a0": {
+    "bytes": 544637,
+    "derived_md5": "9299048e79bd1a418ba80825a11c48ba",
+    "key": "other/9299048e-scindapsus-treubii-inaturalist-observation-gbif-6422079741.jpg"
+   },
+   "640c0f11f6a8b17fb0998ffaf9353205": {
+    "bytes": 249265,
+    "derived_md5": "640c0f11f6a8b17fb0998ffaf9353205",
+    "key": "other/640c0f11-powo-scindapsus-treubii-01.jpg"
+   },
+   "6d079da5d2e219378b45c0ddd5e00f5e": {
+    "bytes": 573696,
+    "derived_md5": "3bc82f2dd8426d254877433e4134f3b5",
+    "key": "other/3bc82f2d-scindapsus-treubii-inaturalist-observation-gbif-6196046488.jpg"
+   },
+   "aeeb950111df42f90790c75e162d4bdd": {
+    "bytes": 238577,
+    "derived_md5": "aeeb950111df42f90790c75e162d4bdd",
+    "key": "vegetative/aeeb9501-scindapsus-treubii-peter-c-boyce-ias-aroid-org-nl3102.jpg"
+   },
+   "d51d0f22df94df9c1449af23420382f8": {
+    "bytes": 396640,
+    "derived_md5": "51a0b531a8a2f51914ade51135e9fbca",
+    "key": "vegetative/51a0b531-scindapsus-treubii-njweess.jpg"
+   },
+   "e50289fc03be2ee0f189c39be3e95ae4": {
+    "bytes": 602271,
+    "derived_md5": "b5d236e042e715a8e2967c44f9a951b8",
+    "key": "other/b5d236e0-scindapsus-treubii-engler-krause-1908-pflanzenreich-iv-23b-p-78-fig-33-a-g-icon-origin.jpg"
+   },
+   "f7af0e2fea2aa93cf2b845ee581a84a3": {
+    "bytes": 379427,
+    "derived_md5": "f7af0e2fea2aa93cf2b845ee581a84a3",
+    "key": "vegetative/f7af0e2f-plate-2a-scindapsus-treubii-plant-on-bark-strongly-oblique-subsucculent-leaf-blades-smooth-stem-ahmad-sofiman-et-al-2010.jpg"
+   }
+  }
+ }
+}
