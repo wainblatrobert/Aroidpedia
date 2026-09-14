@@ -1,10 +1,10 @@
 {
-  "species": 466,
-  "cultivars": 79,
+  "species": 501,
+  "cultivars": 109,
   "hybrids": 156,
   "hybridCultivars": 18,
   "unclassified": 0,
-  "genera": 4,
+  "genera": 5,
   "byGenus": {
     "Alocasia": {
       "total": 339,
@@ -26,6 +26,13 @@
       "cultivars": 9,
       "hybrids": 0,
       "hybridCultivars": 3
+    },
+    "Scindapsus": {
+      "total": 65,
+      "species": 35,
+      "cultivars": 30,
+      "hybrids": 0,
+      "hybridCultivars": 0
     },
     "Arum": {
       "total": 47,
@@ -58,6 +65,14 @@
       "placed": 73,
       "zones": {
         "americas": 73
+      }
+    },
+    "Scindapsus": {
+      "total": 65,
+      "placed": 34,
+      "zones": {
+        "asia": 28,
+        "austral": 6
       }
     },
     "Arum": {
@@ -114,10 +129,10 @@
     "Bosnia and Herzegovina": 5,
     "Croatia": 5,
     "Montenegro": 5,
-    "Tabasco": 4,
-    "East Aegean Is-": 4
+    "Kuching": 4,
+    "Tabasco": 4
   },
-  "updatedAt": "2026-09-13T13:16:50.119Z",
+  "updatedAt": "2026-09-14T14:58:49.100Z",
   "source": "https://www.aroidpedia.com/archive",
-  "totalItemsScanned": 719
+  "totalItemsScanned": 784
 }
