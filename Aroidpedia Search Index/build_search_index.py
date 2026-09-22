@@ -666,11 +666,25 @@ def extract_parentage(body, is_hybrid_cultivar):
     return v
 
 
-def search_string(title, genus):
+# Extra search terms for entries people commonly look up under another
+# name, keyed by the entry's URL. The search string is otherwise rebuilt
+# from the title alone every run, so a term added anywhere else is lost.
+SEARCH_ALIASES = {
+    # renamed 2026-09-21; 'Chienlii' is the common misspelling, listed on the page as a synonym
+    "/archive/alocasia-chienleei": ["alocasia chienlii"],
+    # accepted as rosea (IPNI); published as 'roseus', listed on the page as a synonym
+    "/archive/alocasia-rosea": ["alocasia roseus"],
+}
+
+
+def search_string(title, genus, url=""):
     base = norm(title)
     g = norm(genus)
     if g and g not in base:
         base = f"{base} {g}"
+    for alias in SEARCH_ALIASES.get(url, []):
+        if alias not in base:
+            base = f"{base} {alias}"
     return base
 
 
@@ -695,7 +709,7 @@ def build(items):
             # contain it, so "Alocasia 'Albatuwan'" doesn't store
             # "alocasia" twice. The browser tokenises the query, so
             # "aloc alba" still matches "alocasia albatuwan".
-            "s": search_string(title, genus),
+            "s": search_string(title, genus, url),
             "i":  it.get("assetUrl"),
             "tg": it.get("tags") or [],
             "d":  it.get("publishOn"),

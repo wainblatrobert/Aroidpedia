@@ -2200,7 +2200,7 @@
      "kind": "Species"
     },
     {
-     "name": "ALOCASIA ROSEUS",
+     "name": "ALOCASIA ROSEA",
      "url": "https://www.aroidpedia.com/archive/alocasia-rosea",
      "kind": "Species"
     }
@@ -6368,7 +6368,7 @@
   {
    "url": "https://www.aroidpedia.com/archive/alocasia-rosea",
    "slug": "alocasia-rosea",
-   "name": "ALOCASIA ROSEUS",
+   "name": "ALOCASIA ROSEA",
    "kind": "Species",
    "kew": null,
    "refs": [
@@ -6738,9 +6738,9 @@
    "refs": []
   },
   {
-   "url": "https://www.aroidpedia.com/archive/alocasia-chienlii",
-   "slug": "alocasia-chienlii",
-   "name": "ALOCASIA ‘CHIENLII’*",
+   "url": "https://www.aroidpedia.com/archive/alocasia-chienleei",
+   "slug": "alocasia-chienleei",
+   "name": "ALOCASIA ‘CHIENLEEI’*",
    "kind": "Species",
    "kew": null,
    "refs": []
