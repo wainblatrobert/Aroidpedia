@@ -18621,8 +18621,8 @@
    ],
    "taxa": {
     "basis": "S5+S2",
-    "method": "Stem and crown ages for Aroidpedia's own subfamilies, tribes and genera, read off Nauheimer, Metzler & Renner (2012). Their Fig. S2 chronogram was rebuilt from the vector strokes in the supplement PDF - 146 tip branches and 144 internal branches, exactly the 2T-2 a binary tree of 146 tips must have - so the topology is the drawing itself rather than a reading of it. Node numbers were assigned from the printed numerals and Table S5's ages together (median numeral distance 5.6 pt, median age residual 0.07 Ma), and the result reproduces all nine crown-group labels Table S5 states, all twelve nodes the paper names in prose, and exactly the four genera the paper calls polyphyletic. Every age here is Table S5's number, never a measurement off the figure. STEM is the split from the sampled sister lineage and CROWN the oldest split inside the taxon, so a crown exists only where two or more species were sampled; both are conditioned on the study's 132-taxon sample and are minimum ages for the taxon as circumscribed today. A taxon whose sampled species do not form a clade in this tree carries mono:false and its MRCA instead of a date - that is a finding, not a gap. Note Aroideae: the study kept Zamioculcadoideae separate, so its Aroideae is node 41 (82.1); this tree follows Haigh et al. (2022) in holding Zamioculcadeae and Stylochaetoneae inside Aroideae, which makes the crown node 38 (87.0). SUPERSEDES metadata.chronology.tribes, whose node identities came from reading Fig. 3 by eye: three of them pointed one node off (Cryptocoryneae/Schismatoglottideae stem is 37.2 at node 97, not 45.2 at node 96; Areae 30.3 is the stem, not the crown; the Arisaema lineage stem is node 73 at 31.7, not node 71 at 34.7). Readers on 1.11.0 or later should use taxa and ignore tribes. 1.12.0: two synonymies applied before the tips were mapped - Landoltia is Spirodela, and Pseudodracontium is Amorphophallus (Claudel et al. 2017, followed by POWO). Both were separate tips in the study, so folding them changes what those two genera are: Spirodela and Amorphophallus each gain a sampled tip, and Amorphophallus no longer has a sister genus to take a stem age from.",
-    "sampledGenera": 115,
+    "method": "Stem and crown ages for Aroidpedia's own subfamilies, tribes and genera, read off Nauheimer, Metzler & Renner (2012). Their Fig. S2 chronogram was rebuilt from the vector strokes in the supplement PDF - 146 tip branches and 144 internal branches, exactly the 2T-2 a binary tree of 146 tips must have - so the topology is the drawing itself rather than a reading of it. Node numbers were assigned from the printed numerals and Table S5's ages together (median numeral distance 5.6 pt, median age residual 0.07 Ma), and the result reproduces all nine crown-group labels Table S5 states, all twelve nodes the paper names in prose, and exactly the four genera the paper calls polyphyletic. Every age here is Table S5's number, never a measurement off the figure. STEM is the split from the sampled sister lineage and CROWN the oldest split inside the taxon, so a crown exists only where two or more species were sampled; both are conditioned on the study's 132-taxon sample and are minimum ages for the taxon as circumscribed today. A taxon whose sampled species do not form a clade in this tree carries mono:false and its MRCA instead of a date - that is a finding, not a gap. Note Aroideae: the study kept Zamioculcadoideae separate, so its Aroideae is node 41 (82.1); this tree follows Haigh et al. (2022) in holding Zamioculcadeae and Stylochaetoneae inside Aroideae, which makes the crown node 38 (87.0). SUPERSEDES metadata.chronology.tribes, whose node identities came from reading Fig. 3 by eye: three of them pointed one node off (Cryptocoryneae/Schismatoglottideae stem is 37.2 at node 97, not 45.2 at node 96; Areae 30.3 is the stem, not the crown; the Arisaema lineage stem is node 73 at 31.7, not node 71 at 34.7). Readers on 1.11.0 or later should use taxa and ignore tribes. 1.12.0: two synonymies applied before the tips were mapped - Landoltia is Spirodela, and Pseudodracontium is Amorphophallus (Claudel et al. 2017, followed by POWO). Both were separate tips in the study, so folding them changes what those two genera are: Spirodela and Amorphophallus each gain a sampled tip, and Amorphophallus no longer has a sister genus to take a stem age from. 9.23.26: re-derived for the tree as it now stands, with one more synonymy applied before the tips were mapped - the study's tip Nephthytis bintuluensis is Boycea bintuluensis (Hay 2022, Aroideana 45(2): 437-443, comb. nov.), matched on the full tip label so Nephthytis afzelii stays Nephthytis. With it Aglaonemateae (crown node 117) and Nephthytideae (crown node 119) are clades, and Nephthytis takes a stem age (node 119, 23.07 Ma). The tribe changes already in the tree reach the dates too: Anepsiadeae (Alloschemone, Heteropsis, Rhodospatha, Stenospermation) is the node 17 clade, Heteropsideae is gone, and Monstereae's six remaining tips meet at node 21. The Pedicellarum and Furtadoa tips are still carried under the study's own labels (see pedicellarumSink). The pipeline was rebuilt from the Figures S1-S3 vectors and reproduces the 1.12.0 taxon-dates.json byte for byte before any change was applied.",
+    "sampledGenera": 116,
     "subfamily": {
      "Aroideae": {
       "tips": 96,
@@ -18726,10 +18726,19 @@
     },
     "tribe": {
      "Aglaonemateae": {
-      "tips": 2,
-      "mono": false,
-      "mrca": 19.55,
-      "mrcaNode": 117
+      "tips": 3,
+      "stem": 40.69,
+      "stemHpd": [
+       24.48,
+       57.71
+      ],
+      "stemNode": 116,
+      "crown": 19.55,
+      "crownHpd": [
+       8.22,
+       32.26
+      ],
+      "crownNode": 117
      },
      "Ambrosineae": {
       "tips": 1,
@@ -18748,6 +18757,21 @@
        34.89
       ],
       "stemNode": 25
+     },
+     "Anepsiadeae": {
+      "tips": 4,
+      "stem": 54.66,
+      "stemHpd": [
+       47.03,
+       63.99
+      ],
+      "stemNode": 16,
+      "crown": 31.5,
+      "crownHpd": [
+       17.92,
+       47.05
+      ],
+      "crownNode": 17
      },
      "Anthurieae": {
       "tips": 1,
@@ -18884,15 +18908,6 @@
       ],
       "crownNode": 36
      },
-     "Heteropsideae": {
-      "tips": 1,
-      "stem": 22.61,
-      "stemHpd": [
-       10.34,
-       36.36
-      ],
-      "stemNode": 18
-     },
      "Homalomeneae": {
       "tips": 3,
       "mono": false,
@@ -18906,10 +18921,10 @@
       "mrcaNode": 29
      },
      "Monstereae": {
-      "tips": 9,
+      "tips": 6,
       "mono": false,
-      "mrca": 54.66,
-      "mrcaNode": 16
+      "mrca": 27.69,
+      "mrcaNode": 21
      },
      "Montrichardieae": {
       "tips": 1,
@@ -18921,10 +18936,19 @@
       "stemNode": 44
      },
      "Nephthytideae": {
-      "tips": 4,
-      "mono": false,
-      "mrca": 40.69,
-      "mrcaNode": 116
+      "tips": 3,
+      "stem": 40.69,
+      "stemHpd": [
+       24.48,
+       57.71
+      ],
+      "stemNode": 116,
+      "crown": 23.07,
+      "crownHpd": [
+       10.52,
+       37.62
+      ],
+      "crownNode": 119
      },
      "Peltandreae": {
       "tips": 2,
@@ -19291,6 +19315,15 @@
       ],
       "stemNode": 122
      },
+     "Boycea": {
+      "tips": 1,
+      "stem": 14.1,
+      "stemHpd": [
+       4.04,
+       25.84
+      ],
+      "stemNode": 118
+     },
      "Bucephalandra": {
       "tips": 1,
       "stem": 5.43,
@@ -19655,10 +19688,13 @@
       "stemNode": 44
      },
      "Nephthytis": {
-      "tips": 2,
-      "mono": false,
-      "mrca": 40.69,
-      "mrcaNode": 116
+      "tips": 1,
+      "stem": 23.07,
+      "stemHpd": [
+       10.52,
+       37.62
+      ],
+      "stemNode": 119
      },
      "Ooia": {
       "tips": 1,
