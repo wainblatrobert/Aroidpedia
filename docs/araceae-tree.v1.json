@@ -493,7 +493,7 @@
        "rank": "genus",
        "authority": "Schott",
        "mbbNumber": 93,
-       "speciesCount": 79,
+       "speciesCount": 78,
        "archiveUrl": "/typhonium",
        "image": {
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/typhonium.webp",
@@ -532,7 +532,7 @@
          "Yunnan: Jinping"
         ],
         "zones": {
-         "asia": 79,
+         "asia": 78,
          "austral": 2
         }
        }
@@ -5020,6 +5020,30 @@
       ],
       "zones": {
        "asia": 1
+      }
+     }
+    },
+    {
+     "id": "genus-hayarum",
+     "name": "Hayarum",
+     "rank": "genus",
+     "authority": "K.Z.Hein, Prehsler, Saensouk & S.L.Low",
+     "speciesCount": 2,
+     "archiveUrl": "/hayarum",
+     "postMBB": true,
+     "placementConfidence": "declined",
+     "uncertainPlacement": true,
+     "placementDeclined": true,
+     "note": "Hein, Prehsler, Saensouk & Low (2025) find the genus's position unresolved: their maximum-likelihood tree places it outside Pinellia, Arisaema and Areae together, their Bayesian tree as sister to Pinellia and Arisaema, and they call it morphologically distinct from both Arisaemateae and Areae. No tribe is claimed here because the describing authors claim none.",
+     "range": {
+      "b": "asia",
+      "nw": false,
+      "ow": true,
+      "places": [
+       "Thailand"
+      ],
+      "zones": {
+       "asia": 2
       }
      }
     },
@@ -20269,6 +20293,7 @@
   "speciesCountRule": "1.36.0: a genus's speciesCount is the LARGER of POWO's accepted species and the journal archive's own species posts (user ruling 8.20.26 — POWO lags while a genus is being built out). The POWO figure is kept as speciesCountPowo on any node the rule touched.",
   "furtadoaSink": "1.37.0: Furtadoa M.Hotta is sunk into Homalomena (POWO, checked 2026-08-20) and its genus node removed; the name survives as a synonym note on Homalomena. Homalomena's speciesCount moved 163 -> 177, POWO's current accepted figure, which already includes the three transferred species - it is not 163 + 3.",
   "pedicellarumSink": "Pedicellarum M.Hotta is sunk into Pothos (Wong, Hay & Boyce 2020, syn. nov., p. 91; type species = Pothos paiei (M.Hotta) S.Y.Wong, A.Hay & P.C.Boyce, comb. nov., p. 100) and its genus node removed from tribe Potheae; the name survives as a synonym note on Pothos. Pothos already carried its own image and both Borneo and Sarawak in range.places, so nothing was carried over. TWO HISTORICAL LABELS ARE LEFT STANDING ON PURPOSE, and are historical, not a current genus list: (1) metadata.provenance.ranges still names Pedicellarum (and Pseudodracontium) among the hand-set genera - that is a record of the 2026-08-07 range parse, which ran while both were accepted; (2) metadata.chronology.taxa.genus still carries a 'Pedicellarum' entry (as it does 'Furtadoa'), because those are Nauheimer, Metzler & Renner (2012)'s own tip labels, reproduced as published. Folding either tip into its accepted genus changes that genus's tips, monophyly and stem age and must be recomputed from Table S5 - OWNER'S CALL, not applied here. Pothos's speciesCount is unchanged: it is POWO's figure and was not re-checked.",
-  "alloschemoneSynonymy": "Alloschemone inopinata Bogner & P.C.Boyce is sunk into Alloschemone occidentalis (Hay, da Costa Soares & Gorfer 2025, \"Notes on the Amazonian genus Alloschemone Schott (Araceae—Monsteroideae—Anepsiadeae)\", Aroideana 48(1): 1-16, synon. nov. p. 13; \"We therefore think it preferable to regard Alloschemone as monotypic\", p. 10), so the genus is monotypic and speciesCount moves 2 -> 1. Owner ruling 2026-09-23, which adopts a paper of 2000 or later over POWO: POWO as captured still lists two accepted species. The same ruling is applied to genus-geo.json, where the inopinata key is merged into occidentalis (it carried only Brazil North, which occidentalis already held, so no place moved) and speciesTotal and speciesTotalPowo move 2 -> 1. The name survives as a synonym of Alloschemone occidentalis."
+  "alloschemoneSynonymy": "Alloschemone inopinata Bogner & P.C.Boyce is sunk into Alloschemone occidentalis (Hay, da Costa Soares & Gorfer 2025, \"Notes on the Amazonian genus Alloschemone Schott (Araceae—Monsteroideae—Anepsiadeae)\", Aroideana 48(1): 1-16, synon. nov. p. 13; \"We therefore think it preferable to regard Alloschemone as monotypic\", p. 10), so the genus is monotypic and speciesCount moves 2 -> 1. Owner ruling 2026-09-23, which adopts a paper of 2000 or later over POWO: POWO as captured still lists two accepted species. The same ruling is applied to genus-geo.json, where the inopinata key is merged into occidentalis (it carried only Brazil North, which occidentalis already held, so no place moved) and speciesTotal and speciesTotalPowo move 2 -> 1. The name survives as a synonym of Alloschemone occidentalis.",
+  "hayarumTransfer": "Hayarum K.Z.Hein, Prehsler, Saensouk & S.L.Low (Taiwania 70(1): 65-74, 2025; type Hayarum mirispathum) is added as a genus of Aroideae with no tribe, and Typhonium albispathum Bogner (1987) moves to it as Hayarum albispathum (Bogner) K.Z.Hein & S.Saensouk (Hein, Saensouk & Saensouk 2025, Aroideana 48(2): 175-187, comb. nov.) - owner ruling 2026-09-24, and the paper-over-POWO rule of 2026-09-23. Typhonium 79 -> 78; Hayarum 2. Hayarum mirispathum postdates Nauheimer et al. (2012), so the chronology does not carry the genus."
  }
 }

@@ -9760,12 +9760,12 @@
    "koppen": [
     [
      "Aw",
-     0.482,
+     0.479,
      "savanna"
     ],
     [
      "Cw",
-     0.242,
+     0.244,
      "winter-dry temperate"
     ],
     [
@@ -9775,7 +9775,7 @@
     ],
     [
      "Af",
-     0.08,
+     0.081,
      "rainforest"
     ],
     [
@@ -9790,18 +9790,18 @@
     ],
     [
      "D",
-     0.007,
+     0.008,
      "cold"
     ]
    ],
    "koppenFull": [
     [
      "Aw",
-     0.482
+     0.479
     ],
     [
      "Cwa",
-     0.237
+     0.238
     ],
     [
      "Am",
@@ -9809,7 +9809,7 @@
     ],
     [
      "Af",
-     0.08
+     0.081
     ],
     [
      "Cfa",
@@ -9847,15 +9847,15 @@
    "zones": [
     [
      "Tropical Moist",
-     0.634
+     0.631
     ],
     [
      "Sub Tropical Moist",
-     0.348
+     0.35
     ],
     [
      "Cool Temperate Dry",
-     0.012
+     0.013
     ],
     [
      "Boreal Dry",
@@ -11032,6 +11032,59 @@
     [
      "Cwb",
      0.001
+    ]
+   ],
+   "zones": [
+    [
+     "Tropical Moist",
+     1.0
+    ]
+   ],
+   "show": true
+  },
+  "Hayarum": {
+   "places": 1,
+   "withClimate": 1,
+   "cover": 1.0,
+   "variant": "warmMoist",
+   "koppen": [
+    [
+     "Aw",
+     0.852,
+     "savanna"
+    ],
+    [
+     "Am",
+     0.131,
+     "monsoon"
+    ],
+    [
+     "Af",
+     0.011,
+     "rainforest"
+    ],
+    [
+     "Cw",
+     0.006,
+     "winter-dry temperate"
+    ]
+   ],
+   "koppenFull": [
+    [
+     "Aw",
+     0.852
+    ],
+    [
+     "Am",
+     0.131
+    ],
+    [
+     "Af",
+     0.011
+    ],
+    [
+     "Cwa",
+     0.006
     ]
    ],
    "zones": [

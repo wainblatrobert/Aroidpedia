@@ -9,7 +9,7 @@
    Then paste this block into the header injection, replacing the
    existing "AP.GENERA = { ... };" statement and nothing else.
 
-   149 genera · roster v1.0.0 · 2026-09-24
+   150 genera · roster v1.0.0 · 2026-09-24
    ===================================================================== */
   AP.GENERA = {
     "adelonema": { ascend: { sub: "Aroideae", tribe: "Philodendreae" } },
@@ -108,6 +108,7 @@
     "gosong": { ascend: { sub: "Aroideae", tribe: "Schismatoglottideae" } },
     "gymnostachys": { ascend: { sub: "Gymnostachydoideae", tribe: "" } },
     "hapaline": { ascend: { sub: "Aroideae", tribe: "Caladieae" } },
+    "hayarum": { ascend: { sub: "Aroideae", tribe: "" } },
     "helicodiceros": { ascend: { sub: "Aroideae", tribe: "Areae" } },
     "hera": { ascend: { sub: "Aroideae", tribe: "Schismatoglottideae" } },
     "heteroaridarum": { ascend: { sub: "Aroideae", tribe: "Schismatoglottideae" } },

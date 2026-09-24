@@ -1,6 +1,6 @@
 {
  "version": "1.27.0",
- "generated": "2026-09-23",
+ "generated": "2026-09-24",
  "note18": "1.18.0 (8.20.26): speciesTotal is the LARGER of POWO and the journal’s own species posts (user ruling - POWO is a floor while a genus is being built out, not a ceiling); speciesTotalPowo keeps POWO’s own figure for the sources line.",
  "note19": "1.19.0 (8.20.26): Furtadoa is sunk into Homalomena (POWO; one of the genus’s seven heterotypic synonyms). Its empty genus entry is removed and Homalomena carries the merged range.",
  "note22": "1.22.0 (8.21.26): FULL 155-genus rebuild (the builder defaulted to Amorphophallus alone, so every other genus carried 8.16 data); the refine gate walks the SUBUNITS chain shallow-first (POWO speaks L3, so three-tier chains - East Kalimantan under Kalimantan under Borneo - always failed the direct-parent test); a mojibake ALIAS literal made SWC emit a broken San Andres key; POWO respelled Panama with its accent.",
@@ -39230,11 +39230,11 @@
    }
   },
   "Typhonium": {
-   "speciesTotal": 79,
-   "speciesTotalPowo": 79,
+   "speciesTotal": 78,
+   "speciesTotalPowo": 78,
    "speciesJournal": 0,
    "places": {
-    "Thailand": 43,
+    "Thailand": 42,
     "Vietnam": 26,
     "Myanmar": 17,
     "Cambodia": 6,
@@ -39353,9 +39353,6 @@
      "Hainan",
      "Laos",
      "Myanmar",
-     "Thailand"
-    ],
-    "albispathum": [
      "Thailand"
     ],
     "attapeuense": [
@@ -39664,7 +39661,7 @@
    "doubtfulSpecies": {},
    "regions": {
     "Indo-China": {
-     "count": 72,
+     "count": 71,
      "members": [
       "Andaman Islands",
       "Cambodia",
@@ -39739,7 +39736,7 @@
    },
    "continents": {
     "Tropical Asia": {
-     "count": 74,
+     "count": 73,
      "regions": [
       "Indian Subcontinent",
       "Indo-China",
@@ -43696,6 +43693,47 @@
    "doubtfulSpecies": {},
    "regions": {},
    "continents": {}
+  },
+  "Hayarum": {
+   "speciesTotal": 2,
+   "speciesTotalPowo": 2,
+   "speciesJournal": 0,
+   "places": {
+    "Thailand": 2
+   },
+   "doubtful": {},
+   "introduced": {},
+   "codes": {
+    "Thailand": "THA"
+   },
+   "speciesPlaces": {
+    "albispathum": [
+     "Thailand"
+    ],
+    "mirispathum": [
+     "Thailand"
+    ]
+   },
+   "doubtfulSpecies": {},
+   "regions": {
+    "Indo-China": {
+     "count": 2,
+     "members": [
+      "Thailand"
+     ]
+    }
+   },
+   "continents": {
+    "Tropical Asia": {
+     "count": 2,
+     "regions": [
+      "Indo-China"
+     ],
+     "members": [
+      "Thailand"
+     ]
+    }
+   }
   }
  },
  "subunits": {

@@ -3,7 +3,7 @@
  "generated": "2026-09-24",
  "source": "docs/araceae-tree.v1.json + data/genus-roster-overrides.json",
  "note": "ascend is generated from the tree and must be corrected there, not here.",
- "count": 149,
+ "count": 150,
  "genera": {
   "adelonema": {
    "name": "Adelonema",
@@ -471,6 +471,13 @@
    "ascend": {
     "sub": "Aroideae",
     "tribe": "Caladieae"
+   }
+  },
+  "hayarum": {
+   "name": "Hayarum",
+   "ascend": {
+    "sub": "Aroideae",
+    "tribe": ""
    }
   },
   "helicodiceros": {

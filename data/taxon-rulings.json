@@ -151,5 +151,26 @@
     "authority": "Aroidpedia editorial, 2026-09-23 (owner ruling: 'if the paper is 2000+ then go with the paper')"
    }
   ]
+ },
+ "typhonium": {
+  "exclude": [
+   {
+    "name": "Typhonium albispathum",
+    "reason": "Transferred to Hayarum: Hayarum albispathum (Bogner) K.Z.Hein & S.Saensouk, comb. nov., in Hein, Saensouk & Saensouk 2025, 'Studies on Typhonium (Araceae) of Thailand IV: On the identity of the enigmatic Typhonium albispathum Bogner, a second species of Hayarum', Aroideana 48(2): 175-187. POWO still files it under Typhonium.",
+    "authority": "Aroidpedia editorial, 2026-09-24 (owner ruling: 'move Typhonium albispathum to Hayarum')",
+    "note": "Not a synonymy within the genus, so there is no mergeInto: the species leaves Typhonium and its Thailand record goes with it to Hayarum, which genus-geo carries as its own genus (see hayarum below)."
+   }
+  ]
+ },
+ "hayarum": {
+  "include": [
+   {
+    "name": "Hayarum albispathum",
+    "year": 1987,
+    "reason": "The same plant as Typhonium albispathum Bogner (Aroideana 10(2): 27, 1987), transferred by Hein, Saensouk & Saensouk 2025 (Aroideana 48(2): 175-187). The year is the basionym's, the year the species was first described.",
+    "authority": "Aroidpedia editorial, 2026-09-24 (owner ruling: 'move Typhonium albispathum to Hayarum')"
+   }
+  ],
+  "note": "Hayarum K.Z.Hein, Prehsler, Saensouk & S.L.Low (Taiwania 70(1): 65-74, 2025) is accepted by POWO with its type, Hayarum mirispathum, but the April 2026 POWO export has no Hayarum workbook, so no extractor reads this genus: its genus-geo record is hand-set from POWO's own distribution (Thailand for both species) and must be rebuilt from the export once POWO ships one."
  }
 }
