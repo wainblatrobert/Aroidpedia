@@ -1,0 +1,4221 @@
+{
+ "recipe": 2,
+ "species": {
+  "syngonium/adsettiorum": {
+   "12694bee9c7ccacda28c3f59e96b01be": {
+    "bytes": 483006,
+    "derived_md5": "6f90e2ba6cd69a33f5c232e2362079af",
+    "key": "vegetative/6f90e2ba-syngonium-adsettiorum-ramon-d-3.jpg"
+   },
+   "1a2a8544041287ab53063e4dcd0e08bd": {
+    "bytes": 875306,
+    "derived_md5": "1a2a8544041287ab53063e4dcd0e08bd",
+    "key": "reproductive/1a2a8544-syngonium-adsettiorum-fig-1-habit-of-flowering-plant-photo-j-harrison-t-b-croat-croat-2023-aroideana-46-2-720-px.png"
+   },
+   "223fe9134c6a091fb36939d34419296c": {
+    "bytes": 620428,
+    "derived_md5": "223fe9134c6a091fb36939d34419296c",
+    "key": "reproductive/223fe913-syngonium-adsettiorum-fig-7-infructescence-photo-j-harrison-t-b-croat-croat-2023-aroideana-46-2-720-px.png"
+   },
+   "28d55ddd48e99db15b2788c83f1de0f3": {
+    "bytes": 853410,
+    "derived_md5": "28d55ddd48e99db15b2788c83f1de0f3",
+    "key": "vegetative/28d55ddd-syngonium-adsettiorum-fig-2-abaxial-leaf-surface-photo-j-harrison-t-b-croat-croat-2023-aroideana-46-2-720-px.png"
+   },
+   "40d243fff1dd0953760e275b262b5b5f": {
+    "bytes": 351423,
+    "derived_md5": "c38135839b48ec8cd678e2d77cb4e05f",
+    "key": "vegetative/c3813583-syngonium-adsettiorum-ramon-d-4.jpg"
+   },
+   "4c57b6a6c01ae9a0562d7078639dae6e": {
+    "bytes": 420975,
+    "derived_md5": "4c57b6a6c01ae9a0562d7078639dae6e",
+    "key": "protologue/4c57b6a6-syngonium-adsettiorum-protologue-novon-27-53-croat-ortiz-harrison-2019-p2.jpg"
+   },
+   "552832af5a796bc15f3231a0b165ec63": {
+    "bytes": 467922,
+    "derived_md5": "e9e93efc0659d6350107944abfb1bcf9",
+    "key": "vegetative/e9e93efc-syngonium-adsettiorum-ramon-d-2.jpg"
+   },
+   "62c8bf08850079b8dc9b83f0f46013ce": {
+    "bytes": 437823,
+    "derived_md5": "21cb05bac2b4b44bc4b700082d59d951",
+    "key": "vegetative/21cb05ba-syngonium-adsettiorum-oliver-ingold.jpg"
+   },
+   "6ee4fd478bf43cc4462e63a10d2c4c97": {
+    "bytes": 74535,
+    "derived_md5": "f79c3d0292376ea30b0ff3b70cd26361",
+    "key": "reproductive/f79c3d02-syngonium-adsettiorum-fig-4-open-inflorescence-photo-j-harrison-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "7221a8e21f708c6d0d3e49ec2e251930": {
+    "bytes": 116785,
+    "derived_md5": "c11c83654959a716db8fde8030867b1d",
+    "key": "other/c11c8365-syngonium-adsettiorum-fig-8-type-specimen-ortiz-et-al-2517-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "7c2bc5a7b03b0e1db99401eb20a1545f": {
+    "bytes": 352642,
+    "derived_md5": "acd8d0a2a67293a4f57617b34cb60dd9",
+    "key": "vegetative/acd8d0a2-syngonium-adsettiorum-njweess.jpg"
+   },
+   "7d677d3a3522dd7899f199dbb667c153": {
+    "bytes": 465346,
+    "derived_md5": "dd74e6095600494224a4b6fef21d3db1",
+    "key": "vegetative/dd74e609-syngonium-adsettiorum-ramon-d.jpg"
+   },
+   "849f2f875be2216f94fe2e2c1e04353d": {
+    "bytes": 396803,
+    "derived_md5": "8a47a07ddc69b2e6e665b4936bbd74d7",
+    "key": "vegetative/8a47a07d-syngonium-adsettiorum-oliver-ingold-2.jpg"
+   },
+   "8ca32e375d10527c97738770d675e680": {
+    "bytes": 88998,
+    "derived_md5": "2ef60ee2ab87696feee582a37fcf2abd",
+    "key": "reproductive/2ef60ee2-syngonium-adsettiorum-fig-5-back-of-open-inflorescence-photo-j-harrison-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "b1a3a3ef3990f0a9603eabe947034da6": {
+    "bytes": 305563,
+    "derived_md5": "60671e39294fddc1be8ecf9b412ff999",
+    "key": "vegetative/60671e39-syngonium-adsettiorum-njweess-2.jpg"
+   },
+   "b9d91ea567e729614146e20dee6622fb": {
+    "bytes": 516541,
+    "derived_md5": "b9d91ea567e729614146e20dee6622fb",
+    "key": "reproductive/b9d91ea5-syngonium-adsettiorum-fig-3-leaves-stem-and-inflorescences-photo-j-harrison-t-b-croat-croat-2023-aroideana-46-2-720-px.png"
+   },
+   "efbc794bf09a6bd418bc7917f508550e": {
+    "bytes": 378126,
+    "derived_md5": "efbc794bf09a6bd418bc7917f508550e",
+    "key": "protologue/efbc794b-syngonium-adsettiorum-protologue-novon-27-53-croat-ortiz-harrison-2019-p1.jpg"
+   }
+  },
+  "syngonium/angustatum": {
+   "01dcba04d3068ab43f459539573b4082": {
+    "bytes": 372652,
+    "derived_md5": "dae86233e8f2699deb8fc18ed3284234",
+    "key": "vegetative/dae86233-syngonium-angustatum-hendra.jpg"
+   },
+   "01f1b7a747cb1304792b431249fc2312": {
+    "bytes": 233761,
+    "derived_md5": "01f1b7a747cb1304792b431249fc2312",
+    "key": "reproductive/01f1b7a7-powo-syngonium-angustatum-02.jpg"
+   },
+   "043958574dee45b75609ec3248204647": {
+    "bytes": 24168,
+    "derived_md5": "043958574dee45b75609ec3248204647",
+    "key": "reproductive/04395857-syngonium-angustatum-international-aroid-society-3.jpg"
+   },
+   "04fb88e1c25333e81a8ec102a0d5eb2c": {
+    "bytes": 144768,
+    "derived_md5": "0112b5ef6f5b565b515cdf2e909e23d7",
+    "key": "reproductive/0112b5ef-syngonium-angustatum-narido.jpg"
+   },
+   "064f55944a05dbd45e991c2a33964df9": {
+    "bytes": 323466,
+    "derived_md5": "541707ae518a5b974a0744f2da189313",
+    "key": "vegetative/541707ae-syngonium-angustatum-syngonium-angustatum-sf24183-06-jpg-steve-fitzgerald-cc-by-sa-4-0.jpg"
+   },
+   "074cf0bd677bf87b5eac7cde76a7ebd7": {
+    "bytes": 269378,
+    "derived_md5": "074cf0bd677bf87b5eac7cde76a7ebd7",
+    "key": "vegetative/074cf0bd-syngonium-angustatum.jpg"
+   },
+   "0d097885166d9fe78d0cec3166386745": {
+    "bytes": 73762,
+    "derived_md5": "efc8198667a125150b219a8e71e3fb7d",
+    "key": "reproductive/efc81986-syngonium-angustatum-fig-12-inflorescence-showing-retuse-staminodia-cultivated-plant-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "13ff2773ef3f16a2bbd14a9498ba3282": {
+    "bytes": 481072,
+    "derived_md5": "7ab95520d560bdbee1a10d3cbe87570b",
+    "key": "vegetative/7ab95520-syngonium-angustatum-renjus-box.jpg"
+   },
+   "1b2d63ca410371b5ea67152cf3294ade": {
+    "bytes": 91966,
+    "derived_md5": "850f0743f1407b8b966dea996043a03d",
+    "key": "other/850f0743-syngonium-angustatum-fig-14-birdsey-249-tabasco-mexiso-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "31d518eaadbbf8e312faf7215eca5559": {
+    "bytes": 898612,
+    "derived_md5": "4ac7abd3f0bb94bf149b759b9551378c",
+    "key": "vegetative/4ac7abd3-syngonium-angustatum-jlsnaddon.jpg"
+   },
+   "3514539fed1b5abc1743d579d33c6452": {
+    "bytes": 573407,
+    "derived_md5": "e6a3ef5838c30e564a9eb9d112a731d2",
+    "key": "reproductive/e6a3ef58-syngonium-angustatum-steve-fitzgerald.jpg"
+   },
+   "47aacf5ccf8b920ad1923274c905767b": {
+    "bytes": 178603,
+    "derived_md5": "a5fafe971cdb2157c24ad95977de57c9",
+    "key": "reproductive/a5fafe97-syngonium-angustatum-syngonium-angustatum-sf26040-06-jpg-steve-fitzgerald-cc-by-sa-4-0.jpg"
+   },
+   "52705f1e09db75aa4f6f4a64660b9e98": {
+    "bytes": 182704,
+    "derived_md5": "fc46fea2174908d208d0f9ddc5b288e8",
+    "key": "reproductive/fc46fea2-syngonium-angustatum-syngonium-angustatum-sf26040-01-jpg-steve-fitzgerald-cc-by-sa-4-0.jpg"
+   },
+   "57a4581a76f66cb89308b7511ff839cd": {
+    "bytes": 606671,
+    "derived_md5": "3d94be4fd63e64884cc5cb8ff3c56262",
+    "key": "vegetative/3d94be4f-syngonium-angustatum-frog18k.jpg"
+   },
+   "5db93e152fe426ee85bebc6799c660d9": {
+    "bytes": 573571,
+    "derived_md5": "c24de164194e8de0e923d24bde406f7b",
+    "key": "reproductive/c24de164-syngonium-angustatum-patr-cia-mees.jpg"
+   },
+   "63b8e2645cbb58e0518bcf77ef30340e": {
+    "bytes": 943540,
+    "derived_md5": "63b8e2645cbb58e0518bcf77ef30340e",
+    "key": "vegetative/63b8e264-syngonium-angustatum-micael-de-bona.jpg"
+   },
+   "6d8446a01912d389144da67cadad9614": {
+    "bytes": 688172,
+    "derived_md5": "9c79600689aad8e08328897d81b6e071",
+    "key": "vegetative/9c796006-syngonium-angustatum.jpg"
+   },
+   "6f4fee54ac910c70c774ea8bf3369922": {
+    "bytes": 306413,
+    "derived_md5": "ce8798cc0e1beb5ed0e0355471b78083",
+    "key": "reproductive/ce8798cc-syngonium-angustatum-syngonium-angustatum-sf24183-02-jpg-steve-fitzgerald-cc-by-sa-4-0.jpg"
+   },
+   "6f736960e91198c2fb12118a5aab4387": {
+    "bytes": 186831,
+    "derived_md5": "9070eec16d9aa1fa36a46bda94c6889b",
+    "key": "reproductive/9070eec1-syngonium-angustatum-syngonium-angustatum-sf26040-02-jpg-steve-fitzgerald-cc-by-sa-4-0.jpg"
+   },
+   "7498de3a661b27e405b23c3950d786ec": {
+    "bytes": 214598,
+    "derived_md5": "04e4a64b51d2622f2112afbd1ab68ff7",
+    "key": "reproductive/04e4a64b-syngonium-angustatum-syngonium-angustatum-sf26040-07-jpg-steve-fitzgerald-cc-by-sa-4-0.jpg"
+   },
+   "7928dfe1cb9204f15c7e644eb8c97d67": {
+    "bytes": 30852,
+    "derived_md5": "7928dfe1cb9204f15c7e644eb8c97d67",
+    "key": "vegetative/7928dfe1-syngonium-angustatum-international-aroid-society-2.jpg"
+   },
+   "79305a5843ff1d9886ecb6ee13517223": {
+    "bytes": 176510,
+    "derived_md5": "79305a5843ff1d9886ecb6ee13517223",
+    "key": "reproductive/79305a58-syngonium-angustatum-neptal-ram-rez-marcial.jpeg"
+   },
+   "7db74c28240a3dcb1d32910c1e84bc40": {
+    "bytes": 293524,
+    "derived_md5": "7db74c28240a3dcb1d32910c1e84bc40",
+    "key": "protologue/7db74c28-syngonium-angustatum-protologue-oesterr-bot-z-8-178-schott-1858-p1.jpg"
+   },
+   "84b14211053113a8c28cb4443e8cc10d": {
+    "bytes": 321124,
+    "derived_md5": "84b14211053113a8c28cb4443e8cc10d",
+    "key": "protologue/84b14211-syngonium-angustatum-protologue-oesterr-bot-z-8-178-schott-1858-p2.jpg"
+   },
+   "9407c70b94e7058c7c8945582686d398": {
+    "bytes": 587411,
+    "derived_md5": "d488dfc20694d5360bfa4924d7727043",
+    "key": "reproductive/d488dfc2-syngonium-angustatum-rogelio-mart-nez.jpg"
+   },
+   "9ba10356bac26bd72d3bef395f994b54": {
+    "bytes": 557902,
+    "derived_md5": "7104549f7669a299648d8c27eec6de2b",
+    "key": "vegetative/7104549f-syngonium-angustatum-samwilhelm.jpg"
+   },
+   "af7f3b7ca2459431507823c0e42d4ad2": {
+    "bytes": 394590,
+    "derived_md5": "0147183fe3128dfe21b1d5d0af0aff6c",
+    "key": "reproductive/0147183f-syngonium-angustatum-scallions.jpg"
+   },
+   "b4dbef0a8f46d5bc65a02506ae2485c2": {
+    "bytes": 620846,
+    "derived_md5": "6db946f946ac4013385170489b08e2c9",
+    "key": "vegetative/6db946f9-syngonium-angustatum-abcdefgo.jpg"
+   },
+   "bb5d28a630d1c59f5faf70a9f875c12a": {
+    "bytes": 451918,
+    "derived_md5": "68e736430fef82a835c8227f725e5ad3",
+    "key": "vegetative/68e73643-syngonium-angustatum-nunya.jpg"
+   },
+   "c8436ae8cce69e521227ac7a7496d479": {
+    "bytes": 124342,
+    "derived_md5": "ea997e1f29b6a028d48c684cb54a14a2",
+    "key": "other/ea997e1f-syngonium-angustatum-fig-15-croat-41699-guatemala-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "da64cbe42f346e0416e99686e03b549a": {
+    "bytes": 308386,
+    "derived_md5": "af97121ac950e31a527ef80424ce78fd",
+    "key": "reproductive/af97121a-syngonium-angustatum-tiago-lubiana.jpg"
+   },
+   "dfb823aa3174abf88890b9d01406a0f2": {
+    "bytes": 257402,
+    "derived_md5": "e27a8eed2f05625196edbe7e6aec0f00",
+    "key": "reproductive/e27a8eed-syngonium-angustatum-syngonium-angustatum-sf24183-04-jpg-steve-fitzgerald-cc-by-sa-4-0.jpg"
+   },
+   "e3060779c601670589a0959d441f74b4": {
+    "bytes": 866822,
+    "derived_md5": "e3060779c601670589a0959d441f74b4",
+    "key": "reproductive/e3060779-syngonium-angustatum-john-li.jpeg"
+   },
+   "e43659615c271c7ed668d1ade8a73507": {
+    "bytes": 200537,
+    "derived_md5": "d5fc51449bd0b6bc06753346a67be792",
+    "key": "reproductive/d5fc5144-syngonium-angustatum-syngonium-angustatum-sf26040-03-jpg-steve-fitzgerald-cc-by-sa-4-0.jpg"
+   },
+   "f1c69fe121bd52b73d26d216f9b1998f": {
+    "bytes": 575549,
+    "derived_md5": "a8d9d066f2e7e949169bf862e187400e",
+    "key": "vegetative/a8d9d066-syngonium-angustatum-jes-s-manuel-rivera-hern-ndez.jpg"
+   },
+   "fba1fe61f40201e2134fdfa77ced74c9": {
+    "bytes": 32304,
+    "derived_md5": "fba1fe61f40201e2134fdfa77ced74c9",
+    "key": "reproductive/fba1fe61-syngonium-angustatum-international-aroid-society.jpg"
+   }
+  },
+  "syngonium/armigerum": {
+   "1a8069d77f7245d7ac0919d9fc7bf309": {
+    "bytes": 76255,
+    "derived_md5": "1a8069d77f7245d7ac0919d9fc7bf309",
+    "key": "other/1a8069d7-syngonium-armigerum-specimen-1998-nicaragua-101799913-mb-fa8462.jpg"
+   },
+   "274943577e133f7bb04ef1b14503668a": {
+    "bytes": 92412,
+    "derived_md5": "274943577e133f7bb04ef1b14503668a",
+    "key": "other/27494357-syngonium-armigerum-specimen-2008-panama-100148372-mbg-v-664a84.jpg"
+   },
+   "2a7b739eaa6f146a3a3651f75b3186a4": {
+    "bytes": 104645,
+    "derived_md5": "2a7b739eaa6f146a3a3651f75b3186a4",
+    "key": "other/2a7b739e-syngonium-armigerum-specimen-1987-costa-rica-355028-mbg-27f07f.jpg"
+   },
+   "2d4c5094c416f8e684f10ad0a873754a": {
+    "bytes": 691077,
+    "derived_md5": "2d4c5094c416f8e684f10ad0a873754a",
+    "key": "other/2d4c5094-syngonium-armigerum-fig-20-juvenile-leaves-rueda-8976-nicaragua-t-b-croat-croat-2023-aroideana-46-2-720-px.png"
+   },
+   "2ed0fdaf9942405a817d9db59a308cab": {
+    "bytes": 137106,
+    "derived_md5": "2ed0fdaf9942405a817d9db59a308cab",
+    "key": "other/2ed0fdaf-syngonium-armigerum-specimen-1986-costa-rica-351286-mbg-0faf19.jpg"
+   },
+   "323a7469353a23eb30ecf07c5a51913d": {
+    "bytes": 137783,
+    "derived_md5": "47a2eef0448d2a36301083dbbe1cc578",
+    "key": "other/47a2eef0-syngonium-armigerum-fig-19-grayum-6677-photo-m-grayum-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "33fca0237680b032559b5cee4196f96e": {
+    "bytes": 94974,
+    "derived_md5": "33fca0237680b032559b5cee4196f96e",
+    "key": "other/33fca023-syngonium-armigerum-specimen-1986-costa-rica-351286-mbg-9dada0.jpg"
+   },
+   "3d13836a82e26a6b5a6acb151adc9dff": {
+    "bytes": 287273,
+    "derived_md5": "3d13836a82e26a6b5a6acb151adc9dff",
+    "key": "other/3d13836a-powo-syngonium-armigerum-01.jpg"
+   },
+   "5f9a2f09ff8d7b96909e47f4009c9e78": {
+    "bytes": 535378,
+    "derived_md5": "0b1af9fdd98831e41ef399f06408b19d",
+    "key": "other/0b1af9fd-syngonium-armigerum-specimen-1986-costa-rica-k002979493-f48720.jpg"
+   },
+   "647211f0cbac261bb70c861367587915": {
+    "bytes": 114812,
+    "derived_md5": "382fb3bbdd5e69740539b6d590f50fe4",
+    "key": "reproductive/382fb3bb-syngonium-armigerum-fig-17-stem-leaves-inflorescence-grayum-6677-heredia-costa-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "674ac387808564a4ffcb7ba5a9030b84": {
+    "bytes": 199851,
+    "derived_md5": "674ac387808564a4ffcb7ba5a9030b84",
+    "key": "protologue/674ac387-syngonium-armigerum-protologue-ann-missouri-bot-gard-68-585-standl-l-o-williams-croat-1981-publ-1982-p2.jpg"
+   },
+   "73b3196ab99d33284282da94469e3630": {
+    "bytes": 276593,
+    "derived_md5": "73b3196ab99d33284282da94469e3630",
+    "key": "other/73b3196a-syngonium-armigerum-specimen-1949-costa-rica-us-2215917-f1e5d4.jpg"
+   },
+   "83fd468a00b094dfe74c121881e124de": {
+    "bytes": 74113,
+    "derived_md5": "83fd468a00b094dfe74c121881e124de",
+    "key": "other/83fd468a-syngonium-armigerum-specimen-1986-costa-rica-351286-mbg-540524.jpg"
+   },
+   "9450a4ac47985264992313e596fd6fa9": {
+    "bytes": 937679,
+    "derived_md5": "9450a4ac47985264992313e596fd6fa9",
+    "key": "other/9450a4ac-syngonium-armigerum-fig-21-mcpherson-20717-panama-t-b-croat-croat-2023-aroideana-46-2-720-px.png"
+   },
+   "9a04318c03a37cb0249cf6efe82e52e9": {
+    "bytes": 114651,
+    "derived_md5": "9a04318c03a37cb0249cf6efe82e52e9",
+    "key": "other/9a04318c-syngonium-armigerum-specimen-1987-costa-rica-355028-mbg-4cb761.jpg"
+   },
+   "ab918cd941cb3d2589d99bc62dd46be7": {
+    "bytes": 121392,
+    "derived_md5": "ab918cd941cb3d2589d99bc62dd46be7",
+    "key": "other/ab918cd9-syngonium-armigerum-specimen-1988-costa-rica-101528361-m-bc22b1.jpg"
+   },
+   "b388efd9961f6dcbf98a3446ae30697e": {
+    "bytes": 936398,
+    "derived_md5": "b388efd9961f6dcbf98a3446ae30697e",
+    "key": "hero/b388efd9-syngonium-armigerum-fig-16-stem-leaves-inflorescence-grayum-6677-heredia-costa-t-b-croat-croat-2023-aroideana-46-2-720-px.png"
+   },
+   "bb51f451ef840360d56cf0f7154dbfaa": {
+    "bytes": 137344,
+    "derived_md5": "bb51f451ef840360d56cf0f7154dbfaa",
+    "key": "other/bb51f451-syngonium-armigerum-specimen-1986-costa-rica-351286-mbg-9147ce.jpg"
+   },
+   "c1815b786fd0bac23e766cfd2785e875": {
+    "bytes": 136485,
+    "derived_md5": "84c6c8e8ca60aa841d7c096b1342fb15",
+    "key": "reproductive/84c6c8e8-syngonium-armigerum-fig-18-closeup-of-open-inflorescence-grayum-6677-heredia-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "e7c6db211f114306a3d51954df617ebb": {
+    "bytes": 365520,
+    "derived_md5": "e7c6db211f114306a3d51954df617ebb",
+    "key": "protologue/e7c6db21-syngonium-armigerum-protologue-ann-missouri-bot-gard-68-585-standl-l-o-williams-croat-1981-publ-1982-p1.jpg"
+   }
+  },
+  "syngonium/auritum": {
+   "0292465b438f5b32de045655f7d07421": {
+    "bytes": 386365,
+    "derived_md5": "0292465b438f5b32de045655f7d07421",
+    "key": "vegetative/0292465b-syngonium-auritum-avocat-2.jpg"
+   },
+   "0eb9b26021954155e8dc3e6b8cf5322e": {
+    "bytes": 447298,
+    "derived_md5": "c54f4ee0aa5715e6f67912b2bb75763a",
+    "key": "vegetative/c54f4ee0-syngonium-auritum-mandy-mathews.jpg"
+   },
+   "0ed804c69e2d24232479a7e7783bf4eb": {
+    "bytes": 122565,
+    "derived_md5": "0ed804c69e2d24232479a7e7783bf4eb",
+    "key": "reproductive/0ed804c6-syngonium-auritum-ds-lyon-syngauritum2014-7-pictured-at-the-jardin-botanique-de-lyon-france-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
+   "12d40f5435514c35a6ec08769ac2ce19": {
+    "bytes": 100796,
+    "derived_md5": "723943ec7c2f3806242ae71282bc4db3",
+    "key": "other/723943ec-syngonium-auritum-fig-30-zanoni-et-al-23125-dominican-republic-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "144a0192b1b40deeec913b4681cc7d33": {
+    "bytes": 891877,
+    "derived_md5": "144a0192b1b40deeec913b4681cc7d33",
+    "key": "other/144a0192-syngonium-auritum-fig-27-solomon-5735-puerto-rico-t-b-croat-croat-2023-aroideana-46-2-720-px.png"
+   },
+   "166ae1758bb392a4808987b6efb1cbdd": {
+    "bytes": 112948,
+    "derived_md5": "36bb562a2f692f30fa3002ff4370bc7e",
+    "key": "other/36bb562a-syngonium-auritum-fig-28-birdsey-s-n-caribbean-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "17dc7da1b4a370e19f7e19168872bc04": {
+    "bytes": 166597,
+    "derived_md5": "17dc7da1b4a370e19f7e19168872bc04",
+    "key": "vegetative/17dc7da1-syngonium-auritum-d-l-nickrent-cornell-bh-phytoimages-17972.jpg"
+   },
+   "1b7d31d30170f1996a0fea3fec1489ab": {
+    "bytes": 26649,
+    "derived_md5": "1b7d31d30170f1996a0fea3fec1489ab",
+    "key": "other/1b7d31d3-syngonium-auritum-international-aroid-society-2.jpg"
+   },
+   "30e891e3c1b6075da2d3736ba42a2154": {
+    "bytes": 128776,
+    "derived_md5": "30e891e3c1b6075da2d3736ba42a2154",
+    "key": "reproductive/30e891e3-syngonium-auritum-ds-lyon-syngauritum2014-6-pictured-at-the-jardin-botanique-de-lyon-france-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
+   "312d8a11587483751fff032bfd31c0d2": {
+    "bytes": 201709,
+    "derived_md5": "b3fe2cd899faf2da2002eec3e70d279f",
+    "key": "vegetative/b3fe2cd8-syngonium-auritum-martin-reith-11.jpg"
+   },
+   "32b9377d54c58e4635972e48ca22132d": {
+    "bytes": 625361,
+    "derived_md5": "bb0485586767e4e20015f6146dc7452f",
+    "key": "vegetative/bb048558-syngonium-auritum-damion-laren-whyte-6.jpg"
+   },
+   "3eefe385bdb9c368655d03ebe64024ff": {
+    "bytes": 258514,
+    "derived_md5": "59f49477cbf66e9e4f139308f5d47a35",
+    "key": "reproductive/59f49477-syngonium-auritum-damion-laren-whyte-3.jpg"
+   },
+   "41e9fd3a18e18c612fbc43aa6f82f434": {
+    "bytes": 239941,
+    "derived_md5": "41e9fd3a18e18c612fbc43aa6f82f434",
+    "key": "other/41e9fd3a-powo-syngonium-auritum-01.jpg"
+   },
+   "42d8bb1a81570b5bd6cdc0c25ec541da": {
+    "bytes": 853231,
+    "derived_md5": "42d8bb1a81570b5bd6cdc0c25ec541da",
+    "key": "vegetative/42d8bb1a-syngonium-auritum-fig-23-habit-of-cultivated-plant-lyon-botanical-garden-photo-d-t-b-croat-croat-2023-aroideana-46-2-720-px.png"
+   },
+   "468a225de940d2707a45506e6f3c37ab": {
+    "bytes": 295769,
+    "derived_md5": "468a225de940d2707a45506e6f3c37ab",
+    "key": "protologue/468a225d-syngonium-auritum-protologue-wiener-z-kunst-1829-780-schott-1829-p1.jpg"
+   },
+   "4ebc9ae6d315dace7f37d207893929d6": {
+    "bytes": 28638,
+    "derived_md5": "4ebc9ae6d315dace7f37d207893929d6",
+    "key": "other/4ebc9ae6-syngonium-auritum-international-aroid-society.jpg"
+   },
+   "573932f345f7ff4d71b6d630e7ce773f": {
+    "bytes": 143985,
+    "derived_md5": "573932f345f7ff4d71b6d630e7ce773f",
+    "key": "reproductive/573932f3-syngonium-auritum-ds-lyon-syngauritum4-pictured-at-the-jardin-botanique-de-lyon-france-2005-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
+   "635bc135b3cd9d0439ffdbc4b4cb07dd": {
+    "bytes": 405661,
+    "derived_md5": "cc669762ee8079b06540c590b6b57375",
+    "key": "vegetative/cc669762-syngonium-auritum-martin-reith-10.jpg"
+   },
+   "641e1ecbc9b498a8618bee163e850f46": {
+    "bytes": 683924,
+    "derived_md5": "099c8bf1cf5c94f39db56584d746bdc6",
+    "key": "vegetative/099c8bf1-syngonium-auritum-j-r-kuethe.jpg"
+   },
+   "6cc573bfd27d2fa69c949a0be7d83003": {
+    "bytes": 125057,
+    "derived_md5": "7ffc70d452777753e0c9c844313e3591",
+    "key": "other/7ffc70d4-syngonium-auritum-fig-25-proctor-38363-jamaica-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "6cc9fdf2eef89a110dd255003e6705b7": {
+    "bytes": 529130,
+    "derived_md5": "16a1f85b192de82a4c0c4b749209c5b6",
+    "key": "reproductive/16a1f85b-syngonium-auritum-damion-laren-whyte-4.jpg"
+   },
+   "77c8e79ae400e1fecfff57b169eebace": {
+    "bytes": 122945,
+    "derived_md5": "77c8e79ae400e1fecfff57b169eebace",
+    "key": "reproductive/77c8e79a-syngonium-auritum-ds-lyon-syngauritum2014-5-pictured-at-the-jardin-botanique-de-lyon-france-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
+   "995268d1d4650f380524747c09d14f0e": {
+    "bytes": 226561,
+    "derived_md5": "6fc43138fded29b74fa482a4c71d2c4a",
+    "key": "reproductive/6fc43138-syngonium-auritum-damion-laren-whyte-7.jpg"
+   },
+   "a38949d8ad835f54a88c67d192a3e2b8": {
+    "bytes": 129388,
+    "derived_md5": "a38949d8ad835f54a88c67d192a3e2b8",
+    "key": "reproductive/a38949d8-syngonium-auritum-ds-lyon-syngauritum2-pictured-at-the-jardin-botanique-de-lyon-france-2005-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
+   "b9167bb296e6c0fcb984e24bd8626dd1": {
+    "bytes": 158733,
+    "derived_md5": "b9167bb296e6c0fcb984e24bd8626dd1",
+    "key": "reproductive/b9167bb2-syngonium-auritum-ds-lyon-syngauritum2014-pictured-at-the-jardin-botanique-de-lyon-france-2014-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
+   "bc816423c6267d3bf0a59737e014408b": {
+    "bytes": 512201,
+    "derived_md5": "bc816423c6267d3bf0a59737e014408b",
+    "key": "vegetative/bc816423-syngonium-auritum-rich-hoyer.jpg"
+   },
+   "c48a1bcab2c2b1a808e12962ef155cdd": {
+    "bytes": 606425,
+    "derived_md5": "2fcbc1b811b450dec055d54bf28d5130",
+    "key": "vegetative/2fcbc1b8-syngonium-auritum-damion-laren-whyte-5.jpg"
+   },
+   "de91bf9f97ccbaa2570b67fb9ab52a29": {
+    "bytes": 132643,
+    "derived_md5": "de91bf9f97ccbaa2570b67fb9ab52a29",
+    "key": "reproductive/de91bf9f-syngonium-auritum-d-l-nickrent-cornell-bh-phytoimages-17971.jpg"
+   },
+   "e032f23a46e593db2c2e073e990c85cd": {
+    "bytes": 114391,
+    "derived_md5": "749ac15079ce128e82cc7148114f67cc",
+    "key": "other/749ac150-syngonium-auritum-fig-26-solomon-5735-puerto-rico-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "e57e635eca91e84078de60621e5e5648": {
+    "bytes": 101746,
+    "derived_md5": "558403efb8afeaf7378a3af5cd9fc4a1",
+    "key": "other/558403ef-syngonium-auritum-fig-29-birdsey-s-n-jamaica-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "e66d6fadb16e6e203a430b2e1c3eb649": {
+    "bytes": 489134,
+    "derived_md5": "ff12312defe9a90a4e492b7b32c0c39d",
+    "key": "vegetative/ff12312d-syngonium-auritum-peakaytea-2.jpg"
+   },
+   "e9791b9f71862fa60d9ec204aeabbf15": {
+    "bytes": 535107,
+    "derived_md5": "ed870c4651738350e428f3260c25ba09",
+    "key": "vegetative/ed870c46-syngonium-auritum-j-r-kuethe-3.jpg"
+   },
+   "f3b9d2d16328cd57ebf8bdb08dbf910e": {
+    "bytes": 898586,
+    "derived_md5": "f3b9d2d16328cd57ebf8bdb08dbf910e",
+    "key": "reproductive/f3b9d2d1-syngonium-auritum-fig-24-inflorescence-with-tube-cut-open-t-b-croat-croat-2023-aroideana-46-2-720-px.png"
+   }
+  },
+  "syngonium/bastimentoense": {
+   "10556778f84a8c4fd74213360f541e4b": {
+    "bytes": 888237,
+    "derived_md5": "10556778f84a8c4fd74213360f541e4b",
+    "key": "other/10556778-syngonium-bastimentoense-fig-32-type-ortiz-1719-panama-t-b-croat-croat-2023-aroideana-46-2-720-px.png"
+   },
+   "4c57b6a6c01ae9a0562d7078639dae6e": {
+    "bytes": 420975,
+    "derived_md5": "4c57b6a6c01ae9a0562d7078639dae6e",
+    "key": "protologue/4c57b6a6-syngonium-bastimentoense-protologue-novon-27-54-ortiz-croat-2019-p1.jpg"
+   },
+   "4d51ab37d8c2769dbacb2ccda14505e6": {
+    "bytes": 112816,
+    "derived_md5": "97012a019da9f3d679fd6b5962f626b2",
+    "key": "hero/97012a01-syngonium-bastimentoense-fig-31-habit-of-flowering-plant-ortiz-1719-panama-photo-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "5d0354ba70d6e9e18515330fe6ece2d6": {
+    "bytes": 214370,
+    "derived_md5": "5d0354ba70d6e9e18515330fe6ece2d6",
+    "key": "protologue/5d0354ba-syngonium-bastimentoense-protologue-novon-27-54-ortiz-croat-2019-p2.jpg"
+   }
+  },
+  "syngonium/brewsterense": {
+   "576e822f1b0e78e1402898c7e70ae281": {
+    "bytes": 444708,
+    "derived_md5": "576e822f1b0e78e1402898c7e70ae281",
+    "key": "protologue/576e822f-syngonium-brewsterense-protologue-novon-27-56-croat-delannay-2019-p1.jpg"
+   },
+   "9b35f64ddea18e9061e101fa08912d06": {
+    "bytes": 107240,
+    "derived_md5": "ba6bf77e0442b4883109706ed94d0f06",
+    "key": "hero/ba6bf77e-syngonium-brewsterense-fig-33-denevers-6304-panama-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   }
+  },
+  "syngonium/castroi": {
+   "080d8a2806f4538ee31711e49a6d43e0": {
+    "bytes": 995265,
+    "derived_md5": "080d8a2806f4538ee31711e49a6d43e0",
+    "key": "hero/080d8a28-syngonium-castroi-fig-34-type-e-castro-242-costa-rica-t-b-croat-croat-2023-aroideana-46-2-720-px.png"
+   },
+   "09a72bb83b2974af9ec8a288f30154c6": {
+    "bytes": 108895,
+    "derived_md5": "09a72bb83b2974af9ec8a288f30154c6",
+    "key": "other/09a72bb8-syngonium-castroi-specimen-1985-costa-rica-355453-mbg-vi-7ffaed.jpg"
+   },
+   "2ba00bf89d131006c29534c7b7cd6522": {
+    "bytes": 249348,
+    "derived_md5": "2ba00bf89d131006c29534c7b7cd6522",
+    "key": "protologue/2ba00bf8-syngonium-castroi-protologue-phytologia-82-52-grayum-1997-p2.jpg"
+   },
+   "3d38d7dc59100b3358135500f0861906": {
+    "bytes": 114681,
+    "derived_md5": "5d9bb4ad694da2041b5c0040a01a271a",
+    "key": "other/5d9bb4ad-syngonium-castroi-fig-35-type-e-castro-242-costa-rica-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "4fd6c6a24335f7ddd8d80db26de16e94": {
+    "bytes": 146233,
+    "derived_md5": "4fd6c6a24335f7ddd8d80db26de16e94",
+    "key": "other/4fd6c6a2-syngonium-castroi-specimen-1991-costa-rica-1904122-mario-ec890f.jpg"
+   },
+   "9639f3315abb2b72a4ae213c5ac77b71": {
+    "bytes": 229563,
+    "derived_md5": "9639f3315abb2b72a4ae213c5ac77b71",
+    "key": "protologue/9639f331-syngonium-castroi-protologue-phytologia-82-52-grayum-1997-p1.jpg"
+   },
+   "bb6c3fd2fd2937b4fbd00d077a6b284c": {
+    "bytes": 102085,
+    "derived_md5": "bb6c3fd2fd2937b4fbd00d077a6b284c",
+    "key": "other/bb6c3fd2-syngonium-castroi-specimen-1991-costa-rica-1904122-mario-215cd7.jpg"
+   },
+   "cb9deca5c981e6b1309bb2964893d885": {
+    "bytes": 42960,
+    "derived_md5": "cb9deca5c981e6b1309bb2964893d885",
+    "key": "other/cb9deca5-syngonium-castroi-specimen-1997-costa-rica-101381473-b-84d29e.jpg"
+   },
+   "f61a5b6962125234d5f9b2e297461dd6": {
+    "bytes": 109421,
+    "derived_md5": "cae22be79381261d6d264602484d91cb",
+    "key": "other/cae22be7-syngonium-castroi-fig-36-aguilar-5333-costa-rica-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "f69bb36ed384269fce7151e9e8acba22": {
+    "bytes": 129261,
+    "derived_md5": "f69bb36ed384269fce7151e9e8acba22",
+    "key": "other/f69bb36e-syngonium-castroi-specimen-1985-costa-rica-355453-mbg-vi-4e0930.jpg"
+   }
+  },
+  "syngonium/chiapense": {
+   "0488fdc05ff69a5033ab35be8ebe2462": {
+    "bytes": 381451,
+    "derived_md5": "0488fdc05ff69a5033ab35be8ebe2462",
+    "key": "protologue/0488fdc0-syngonium-chiapense-protologue-rev-soc-mex-hist-nat-11-94-matuda-1950-p1.jpg"
+   },
+   "0aa3aa5606cee693b6f24baf1f8a4446": {
+    "bytes": 107903,
+    "derived_md5": "445e0024fa2fc78f8d9a3de3034e6986",
+    "key": "other/445e0024-syngonium-chiapense-fig-45-juvenile-leaves-croat-40060-mexico-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "1351263c2b0d02f99760bfae8a371b8d": {
+    "bytes": 118198,
+    "derived_md5": "358b0acdf9af65de5be588150693463b",
+    "key": "other/358b0acd-syngonium-chiapense-fig-48-juvenile-plant-croat-63161-mexico-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "29c385565899d5136eafb107f431752b": {
+    "bytes": 602816,
+    "derived_md5": "3968cbe949215ab20057ebb1cb7a9e44",
+    "key": "vegetative/3968cbe9-syngonium-chiapense-kiwi-shen.jpg"
+   },
+   "330381dde82aba56b41558d793071b87": {
+    "bytes": 560681,
+    "derived_md5": "c38c08a7c99372641a0b6c5dd348691f",
+    "key": "vegetative/c38c08a7-syngonium-chiapense-alexis-l-pez-hern-ndez-4.jpg"
+   },
+   "3ec929be5495cf544fd62cd0d8791c7e": {
+    "bytes": 30262,
+    "derived_md5": "3ec929be5495cf544fd62cd0d8791c7e",
+    "key": "vegetative/3ec929be-syngonium-chiapense-international-aroid-society-2.jpg"
+   },
+   "4e00c23f500e72bf01554941f471f716": {
+    "bytes": 59233,
+    "derived_md5": "4e00c23f500e72bf01554941f471f716",
+    "key": "reproductive/4e00c23f-syngonium-chiapense-ds-lyon-syngchiapensescan-sparrow-109-from-veracruz-mexico-pictured-at-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
+   "5806c24dd3c2dbcccc47f3d8bb706bc1": {
+    "bytes": 409910,
+    "derived_md5": "66a027e4cf882b8894e7a59031cd289e",
+    "key": "vegetative/66a027e4-syngonium-chiapense-luis-alberto.jpg"
+   },
+   "5b1e4c6a4109273bdd88fdb3cbb13fc5": {
+    "bytes": 292695,
+    "derived_md5": "74d0fc5bd581fe260abb5c1c9ca9a45f",
+    "key": "reproductive/74d0fc5b-syngonium-chiapense-jorge-rojas-s-2.jpg"
+   },
+   "79c87a9405551fd9b3ba0388ebd5c567": {
+    "bytes": 639271,
+    "derived_md5": "d49d44086bae2c05ff4f1bb244b484ae",
+    "key": "vegetative/d49d4408-syngonium-chiapense-alexis-l-pez-hern-ndez-9.jpg"
+   },
+   "88df9ead648a33f1a186da06c24b2124": {
+    "bytes": 278930,
+    "derived_md5": "88df9ead648a33f1a186da06c24b2124",
+    "key": "other/88df9ead-powo-syngonium-chiapense-01.jpg"
+   },
+   "8e97cae767c0b68cd3df8906af33103f": {
+    "bytes": 1021970,
+    "derived_md5": "8e97cae767c0b68cd3df8906af33103f",
+    "key": "other/8e97cae7-syngonium-chiapense-fig-46-leaf-croat-65008-mexico-t-b-croat-croat-2023-aroideana-46-2-720-px.png"
+   },
+   "95604db22cd7a80896a1035e1d31efed": {
+    "bytes": 410152,
+    "derived_md5": "95604db22cd7a80896a1035e1d31efed",
+    "key": "protologue/95604db2-syngonium-chiapense-protologue-rev-soc-mex-hist-nat-11-94-matuda-1950-p2.jpg"
+   },
+   "99b9450be0d46bef6571603836f7c7ae": {
+    "bytes": 159283,
+    "derived_md5": "99b9450be0d46bef6571603836f7c7ae",
+    "key": "protologue/99b9450b-syngonium-chiapense-protologue-rev-soc-mex-hist-nat-11-94-matuda-1950-fig-5-p1.jpg"
+   },
+   "9c5db0b0a4c93cc77ce196e18b82e691": {
+    "bytes": 287397,
+    "derived_md5": "e6a56300dfd4f64ba37d9f29ee302ad0",
+    "key": "reproductive/e6a56300-syngonium-chiapense-jorge-rojas-s.jpg"
+   },
+   "a4dbb9a946de4e87eb82597bdc4c6686": {
+    "bytes": 819664,
+    "derived_md5": "48040ba6b72568d771222a33f1436e1a",
+    "key": "vegetative/48040ba6-syngonium-chiapense-f-tima-isabel-parra-rodr-guez-2.jpg"
+   },
+   "a54b83f27daffa8ae263b359a56557b2": {
+    "bytes": 447937,
+    "derived_md5": "02a8aa2da54d713cbad4183dfebf495a",
+    "key": "vegetative/02a8aa2d-syngonium-chiapense-franco-perez.jpg"
+   },
+   "a5f2d168cf5251787cd75f1aafe343fc": {
+    "bytes": 125055,
+    "derived_md5": "421cc51f27b9afdfb685f4fb430bf4ea",
+    "key": "other/421cc51f-syngonium-chiapense-fig-44-adult-sagittate-blade-stem-and-inflorescence-croat-40060-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "b9c3acbf1d18b0b2ee046567ce8e5123": {
+    "bytes": 408992,
+    "derived_md5": "8dcda7649b98a30612cafe6ae7714529",
+    "key": "reproductive/8dcda764-syngonium-chiapense-alexis-l-pez-hern-ndez-6.jpg"
+   },
+   "c159384317a638fd04b75bb3c72e1932": {
+    "bytes": 518408,
+    "derived_md5": "c159384317a638fd04b75bb3c72e1932",
+    "key": "reproductive/c1593843-syngonium-chiapense-fig-40-closeup-of-inflorescence-holst-10148-belize-holst-croat-2023-aroideana-46-2-720-px.png"
+   },
+   "cad48e6fe3187596d9da960eeb03ce60": {
+    "bytes": 111967,
+    "derived_md5": "5b330c1fe4c1ee83d5a82a2b14522816",
+    "key": "other/5b330c1f-syngonium-chiapense-fig-47-leaf-blade-with-3-lobes-moore-bunting-8895-mexico-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "e7941c6fec43c117634c1a5d19833ff2": {
+    "bytes": 87991,
+    "derived_md5": "e7941c6fec43c117634c1a5d19833ff2",
+    "key": "reproductive/e7941c6f-syngonium-chiapense-ds-lyon-syngchiapense4-sparrow-109-from-veracruz-mexico-pictured-at-the-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
+   "f1c29368e092ccea98669efb17e799ca": {
+    "bytes": 92010,
+    "derived_md5": "f1c29368e092ccea98669efb17e799ca",
+    "key": "reproductive/f1c29368-syngonium-chiapense-ds-lyon-syngchiapense6-sparrow-109-from-veracruz-mexico-pictured-at-the-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
+   "f4c936413453b05cc78a5092401a080b": {
+    "bytes": 454743,
+    "derived_md5": "50c5753852113e97b0d4e33d5c4fa6d9",
+    "key": "vegetative/50c57538-syngonium-chiapense-jorge-rojas-s-3.jpg"
+   },
+   "f864aa3d222ac6d6c04bd4820817b6dc": {
+    "bytes": 39996,
+    "derived_md5": "f864aa3d222ac6d6c04bd4820817b6dc",
+    "key": "vegetative/f864aa3d-syngonium-chiapense-international-aroid-society.jpg"
+   },
+   "feaf295c53078671406d3fe6597d5229": {
+    "bytes": 96256,
+    "derived_md5": "feaf295c53078671406d3fe6597d5229",
+    "key": "reproductive/feaf295c-syngonium-chiapense-ds-lyon-syngchiapensescan2-sparrow-109-from-veracruz-mexico-pictured-at-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   }
+  },
+  "syngonium/chocoanum": {
+   "04f4a341405f11620cc6fa2312e06a51": {
+    "bytes": 133670,
+    "derived_md5": "04f4a341405f11620cc6fa2312e06a51",
+    "key": "other/04f4a341-syngonium-chocoanum-specimen-2000-colombia-101877458-mbg-8aeee4.jpg"
+   },
+   "0870e6425e02cb47a2004a12651037a7": {
+    "bytes": 332697,
+    "derived_md5": "e3d682bdb0455f1d273953de0677d4de",
+    "key": "vegetative/e3d682bd-syngonium-chocoanum-bernhardlettneraustria-needs-id-cc-by-nc-obs-396942864.jpg"
+   },
+   "0e8b0bdc217fc224ef7564bb1c9c462a": {
+    "bytes": 201263,
+    "derived_md5": "6e87657efca4a003cda9adfd8dbe738c",
+    "key": "reproductive/6e87657e-syngonium-chocoanum-fig-52-habit-cabo-corientes-colombia-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "0fd8f378840b0602935856c3e0307e76": {
+    "bytes": 139425,
+    "derived_md5": "0fd8f378840b0602935856c3e0307e76",
+    "key": "other/0fd8f378-syngonium-chocoanum-specimen-2000-colombia-101877552-mbg-edc48f.jpg"
+   },
+   "111ae67dbc8fa8fdf103c67000b15d0a": {
+    "bytes": 88107,
+    "derived_md5": "041085eb7365c7e1797bed0cf9cbda2f",
+    "key": "vegetative/041085eb-syngonium-chocoanum-fig-50-closeup-of-leaves-ecuador-photo-b-bauman-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "25f038cc7f4ccb7aa86a277b76cfeb3f": {
+    "bytes": 123908,
+    "derived_md5": "25f038cc7f4ccb7aa86a277b76cfeb3f",
+    "key": "other/25f038cc-syngonium-chocoanum-specimen-2000-colombia-101877552-mbg-5cefe6.jpg"
+   },
+   "2f8b3890c1148b9cec0c612dc9e7d0d4": {
+    "bytes": 94664,
+    "derived_md5": "2f8b3890c1148b9cec0c612dc9e7d0d4",
+    "key": "other/2f8b3890-syngonium-chocoanum-specimen-1999-ecuador-1377445-mbg-vi-c79c43.jpg"
+   },
+   "3457da7431b11a32be3fb6a56d114d66": {
+    "bytes": 138289,
+    "derived_md5": "3457da7431b11a32be3fb6a56d114d66",
+    "key": "other/3457da74-syngonium-chocoanum-specimen-1999-ecuador-1377445-mbg-vi-293129.jpg"
+   },
+   "3b795595a052e32731fa76c1583eeec4": {
+    "bytes": 119411,
+    "derived_md5": "eb61d43e6835809a70d2fb698de6553e",
+    "key": "other/eb61d43e-syngonium-chocoanum-fig-53-ortiz-2969-panama-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "6bf11bc9ffb3e7d2a0b66dd39809d428": {
+    "bytes": 129194,
+    "derived_md5": "c66865e88e5185c73ec7c16749eac659",
+    "key": "reproductive/c66865e8-syngonium-chocoanum-fig-51-flowering-plant-cabo-corientes-colombia-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "6f59060a346397c067060d954b719cfe": {
+    "bytes": 145507,
+    "derived_md5": "6f59060a346397c067060d954b719cfe",
+    "key": "other/6f59060a-syngonium-chocoanum-specimen-2018-panama-101274429-mbg-v-99ad4e.jpg"
+   },
+   "790b613fc28219076ab5f876ca9bcc79": {
+    "bytes": 356172,
+    "derived_md5": "790b613fc28219076ab5f876ca9bcc79",
+    "key": "protologue/790b613f-syngonium-chocoanum-protologue-ann-missouri-bot-gard-68-590-croat-1981-publ-1982-p2.jpg"
+   },
+   "7b77d8d127e1196a56f5da38ca50eb64": {
+    "bytes": 122744,
+    "derived_md5": "7b77d8d127e1196a56f5da38ca50eb64",
+    "key": "other/7b77d8d1-syngonium-chocoanum-specimen-1998-ecuador-1295901-mbg-vi-23cd2d.jpg"
+   },
+   "999fc9921b8256bf50006d7184d044ac": {
+    "bytes": 134114,
+    "derived_md5": "999fc9921b8256bf50006d7184d044ac",
+    "key": "other/999fc992-syngonium-chocoanum-specimen-1999-colombia-1422099-mbg-v-aec8ac.jpg"
+   },
+   "9a6c0ffd323b9d27dc14b783167ceabc": {
+    "bytes": 146441,
+    "derived_md5": "9a6c0ffd323b9d27dc14b783167ceabc",
+    "key": "other/9a6c0ffd-syngonium-chocoanum-specimen-1998-ecuador-1300387-mbg-vi-294cc7.jpg"
+   },
+   "9f517f2fbf6649192d57d5d78aa9fe54": {
+    "bytes": 114947,
+    "derived_md5": "e4991f34113dce2b4dce06889862f871",
+    "key": "other/e4991f34-syngonium-chocoanum-fig-55-grayum-7661-colombia-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "a261876e9f76023c7c085b105725eb1d": {
+    "bytes": 102408,
+    "derived_md5": "a261876e9f76023c7c085b105725eb1d",
+    "key": "other/a261876e-syngonium-chocoanum-specimen-1998-ecuador-1290136-mbg-vi-613e55.jpg"
+   },
+   "a7c6207d0d8b5697f27377e990de0a23": {
+    "bytes": 141897,
+    "derived_md5": "a7c6207d0d8b5697f27377e990de0a23",
+    "key": "other/a7c6207d-syngonium-chocoanum-specimen-2000-colombia-101877552-mbg-890ece.jpg"
+   },
+   "aab27f312677b085e6c5525defce7bc6": {
+    "bytes": 158560,
+    "derived_md5": "1a0dd2b4f763c7aad24fad909e376f6c",
+    "key": "vegetative/1a0dd2b4-syngonium-chocoanum-fig-49-habit-ecuador-photo-b-bauman-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "bfa5bf87e60d5b5ab03c042e1f903fac": {
+    "bytes": 106092,
+    "derived_md5": "bfa5bf87e60d5b5ab03c042e1f903fac",
+    "key": "other/bfa5bf87-syngonium-chocoanum-specimen-2000-ecuador-1487795-mbg-vi-155524.jpg"
+   },
+   "c6b7b604150f55b420bf9334f114f66a": {
+    "bytes": 707988,
+    "derived_md5": "b8de339e9f4bf6a8addb75c2772121dc",
+    "key": "vegetative/b8de339e-syngonium-chocoanum-dscherberich.jpg"
+   },
+   "ca3ccea0abda49b6430b9dfd766cc0e0": {
+    "bytes": 335009,
+    "derived_md5": "ca3ccea0abda49b6430b9dfd766cc0e0",
+    "key": "protologue/ca3ccea0-syngonium-chocoanum-protologue-ann-missouri-bot-gard-68-590-croat-1981-publ-1982-p1.jpg"
+   },
+   "d79060fca863c6fa1ed33cc731ebb50b": {
+    "bytes": 142891,
+    "derived_md5": "d79060fca863c6fa1ed33cc731ebb50b",
+    "key": "other/d79060fc-syngonium-chocoanum-specimen-1998-ecuador-1300387-mbg-vi-ff344a.jpg"
+   },
+   "d95bd993b7026d39cd06487db635d80b": {
+    "bytes": 270201,
+    "derived_md5": "d95bd993b7026d39cd06487db635d80b",
+    "key": "other/d95bd993-powo-syngonium-chocoanum-01.jpg"
+   },
+   "dc2d525604f1ed832f53b7563bb96443": {
+    "bytes": 98111,
+    "derived_md5": "dc2d525604f1ed832f53b7563bb96443",
+    "key": "other/dc2d5256-syngonium-chocoanum-specimen-2000-ecuador-1497214-mbg-vi-a092dc.jpg"
+   },
+   "e515b506e4116c6d00f0ff6e429b6868": {
+    "bytes": 123157,
+    "derived_md5": "e515b506e4116c6d00f0ff6e429b6868",
+    "key": "other/e515b506-syngonium-chocoanum-specimen-2000-colombia-2900082-mbg-v-ef103d.jpg"
+   },
+   "e6c5db5e2ba2600f96e0599915a96277": {
+    "bytes": 148406,
+    "derived_md5": "b535377c6edf0e0ad3541c1c8e987cc3",
+    "key": "other/b535377c-syngonium-chocoanum-fig-54-grayum-7661-colombia-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   }
+  },
+  "syngonium/churchillii": {
+   "02d7b9f07a5e8703ef41e44725f072f6": {
+    "bytes": 389061,
+    "derived_md5": "02d7b9f07a5e8703ef41e44725f072f6",
+    "key": "protologue/02d7b9f0-syngonium-churchillii-protologue-novon-27-56-croat-ortiz-2019-p3.jpg"
+   },
+   "44f61b00de259ad38622406e85f268ef": {
+    "bytes": 212154,
+    "derived_md5": "44f61b00de259ad38622406e85f268ef",
+    "key": "protologue/44f61b00-syngonium-churchillii-protologue-novon-27-56-croat-ortiz-2019-p2.jpg"
+   },
+   "4784027fd52b9673d9b9432ec2c8384a": {
+    "bytes": 107723,
+    "derived_md5": "8423992c78fd10f190a4855750baabea",
+    "key": "hero/8423992c-syngonium-churchillii-fig-56-type-h-w-churchill-6033-panama-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "576e822f1b0e78e1402898c7e70ae281": {
+    "bytes": 444708,
+    "derived_md5": "576e822f1b0e78e1402898c7e70ae281",
+    "key": "protologue/576e822f-syngonium-churchillii-protologue-novon-27-56-croat-ortiz-2019-p1.jpg"
+   },
+   "9eec55600867c179e11e682555173095": {
+    "bytes": 162776,
+    "derived_md5": "9eec55600867c179e11e682555173095",
+    "key": "other/9eec5560-syngonium-churchillii-specimen-1984-panama-378327-mbg-vi-a8b347.jpg"
+   },
+   "a1c798cfd5b95c46a13a051de982c1f2": {
+    "bytes": 123315,
+    "derived_md5": "a1c798cfd5b95c46a13a051de982c1f2",
+    "key": "other/a1c798cf-syngonium-churchillii-specimen-1984-panama-378327-mbg-vi-e76657.jpg"
+   },
+   "c51c5dbc6a7c5f62fd0751c764bc59b5": {
+    "bytes": 170439,
+    "derived_md5": "c51c5dbc6a7c5f62fd0751c764bc59b5",
+    "key": "other/c51c5dbc-syngonium-churchillii-specimen-1984-panama-378327-mbg-vi-ae8211.jpg"
+   }
+  },
+  "syngonium/crassifolium": {
+   "08eb17ccd3d14276d19b78ece7a5f716": {
+    "bytes": 352309,
+    "derived_md5": "eacf904ce9724ac2ab1d0a31fa60988a",
+    "key": "vegetative/eacf904c-syngonium-crassifolium-salo-needs-id-cc-by-nc-obs-192068735.jpg"
+   },
+   "0c263c229d365828f66e05d0bb39c6db": {
+    "bytes": 745060,
+    "derived_md5": "0c263c229d365828f66e05d0bb39c6db",
+    "key": "other/0c263c22-syngonium-crassifolium-specimen-2000-ecuador-v0492902f-b-3fba63.jpg"
+   },
+   "2545a4ddb72a018eb9b168ab454e4e59": {
+    "bytes": 139881,
+    "derived_md5": "2545a4ddb72a018eb9b168ab454e4e59",
+    "key": "other/2545a4dd-syngonium-crassifolium-specimen-1999-ecuador-101815906-m-17ac9e.jpg"
+   },
+   "280206a664c7d309fdedb2de763d5c79": {
+    "bytes": 129748,
+    "derived_md5": "280206a664c7d309fdedb2de763d5c79",
+    "key": "other/280206a6-syngonium-crassifolium-specimen-2000-ecuador-1487273-mbg-ec58e9.jpg"
+   },
+   "2ef599b457a40f244b898f224cb1956e": {
+    "bytes": 131744,
+    "derived_md5": "2ef599b457a40f244b898f224cb1956e",
+    "key": "other/2ef599b4-syngonium-crassifolium-specimen-2005-ecuador-2569220-mbg-037c37.jpg"
+   },
+   "45aab3e3778022a8aa24bb5bb358a26a": {
+    "bytes": 292942,
+    "derived_md5": "45aab3e3778022a8aa24bb5bb358a26a",
+    "key": "other/45aab3e3-powo-syngonium-crassifolium-01.jpg"
+   },
+   "50057be6921fc7cc37ff527520789bc0": {
+    "bytes": 127841,
+    "derived_md5": "50057be6921fc7cc37ff527520789bc0",
+    "key": "other/50057be6-syngonium-crassifolium-specimen-1999-ecuador-101815906-m-6dec01.jpg"
+   },
+   "531761cdba2be0f85a5045c3ed1555c2": {
+    "bytes": 152469,
+    "derived_md5": "531761cdba2be0f85a5045c3ed1555c2",
+    "key": "other/531761cd-syngonium-crassifolium-specimen-2006-ecuador-102571419-m-401a86.jpg"
+   },
+   "610bb8b587f78cd65dcddfcd27f0b7a2": {
+    "bytes": 130787,
+    "derived_md5": "610bb8b587f78cd65dcddfcd27f0b7a2",
+    "key": "other/610bb8b5-syngonium-crassifolium-specimen-2005-ecuador-2540935-mbg-b14e38.jpg"
+   },
+   "6925f112ff1b232ed3df021857cdd19d": {
+    "bytes": 113915,
+    "derived_md5": "6925f112ff1b232ed3df021857cdd19d",
+    "key": "other/6925f112-syngonium-crassifolium-specimen-2005-ecuador-2540935-mbg-869c25.jpg"
+   },
+   "6ec120ad271049cc0193735ddffb7420": {
+    "bytes": 296262,
+    "derived_md5": "12a01f4c6bbde01f253caded65cda800",
+    "key": "vegetative/12a01f4c-syngonium-crassifolium-salo-needs-id-cc-by-nc-obs-192068735-3.jpg"
+   },
+   "790b613fc28219076ab5f876ca9bcc79": {
+    "bytes": 356172,
+    "derived_md5": "790b613fc28219076ab5f876ca9bcc79",
+    "key": "protologue/790b613f-syngonium-crassifolium-protologue-ann-missouri-bot-gard-68-591-engl-croat-1981-publ-1982-p1.jpg"
+   },
+   "79e059f5f6d680f450115a319ebd1b6d": {
+    "bytes": 525350,
+    "derived_md5": "79e059f5f6d680f450115a319ebd1b6d",
+    "key": "other/79e059f5-syngonium-crassifolium-specimen-1999-ecuador-v0492900f-b-55edff.jpg"
+   },
+   "7ca612010004d0632b7fa75599e8f80d": {
+    "bytes": 107653,
+    "derived_md5": "7ca612010004d0632b7fa75599e8f80d",
+    "key": "other/7ca61201-syngonium-crassifolium-specimen-1999-ecuador-101815906-m-1ed192.jpg"
+   },
+   "7cdba9313b3da63b9b0a1cb1a320a4bf": {
+    "bytes": 658032,
+    "derived_md5": "dd06b9482c98ca08154d7ffac092fd0b",
+    "key": "vegetative/dd06b948-syngonium-crassifolium-kabir-montesinos.jpg"
+   },
+   "8cdaa479112a40e3f7977da579137c85": {
+    "bytes": 571997,
+    "derived_md5": "e4627f20cddb6e375999dcbcd45e0aaf",
+    "key": "vegetative/e4627f20-syngonium-crassifolium-iv-n-pachay-y-pez-needs-id-arr-obs-284277707.jpg"
+   },
+   "8dad0bd36235986e698eb5a0cbb70043": {
+    "bytes": 150422,
+    "derived_md5": "8dad0bd36235986e698eb5a0cbb70043",
+    "key": "other/8dad0bd3-syngonium-crassifolium-specimen-2000-ecuador-1501181-mbg-6bf591.jpg"
+   },
+   "97747c456c6b2c8d3728927d5dfc4a0b": {
+    "bytes": 439217,
+    "derived_md5": "ad56fb32ee81d6c5c274e0ca0f3a6c85",
+    "key": "vegetative/ad56fb32-syngonium-crassifolium-dennyxiety-needs-id-cc-by-nc-obs-283051274.jpg"
+   },
+   "a38e86da3023a02e785e78d0249a1baa": {
+    "bytes": 144779,
+    "derived_md5": "a38e86da3023a02e785e78d0249a1baa",
+    "key": "other/a38e86da-syngonium-crassifolium-specimen-2000-ecuador-1498696-mbg-ad39aa.jpg"
+   },
+   "a67d65c9116c8594db6446e4cef81dda": {
+    "bytes": 147920,
+    "derived_md5": "a67d65c9116c8594db6446e4cef81dda",
+    "key": "other/a67d65c9-syngonium-crassifolium-specimen-2005-ecuador-2540935-mbg-bc4995.jpg"
+   },
+   "b10aff785c0ffa9fb31c2961868f67df": {
+    "bytes": 145476,
+    "derived_md5": "b10aff785c0ffa9fb31c2961868f67df",
+    "key": "other/b10aff78-syngonium-crassifolium-specimen-2006-ecuador-100215338-m-52af5c.jpg"
+   },
+   "c3c962a19c8f77bbe2e93d251583859d": {
+    "bytes": 432097,
+    "derived_md5": "6be06fa3668ff7b76ac3007d34fadbde",
+    "key": "vegetative/6be06fa3-syngonium-crassifolium-salo-needs-id-cc-by-nc-obs-192068735-2.jpg"
+   },
+   "e073c5d7c1c8b755d40f851e688f9630": {
+    "bytes": 779933,
+    "derived_md5": "d0780c0061aae8f323f8a1d2871fef8d",
+    "key": "other/d0780c00-syngonium-crassifolium-specimen-2000-ecuador-v0492902f-r-56ce53.jpg"
+   },
+   "e9b81e56f21d033f2abb9fee97258c42": {
+    "bytes": 344932,
+    "derived_md5": "e9b81e56f21d033f2abb9fee97258c42",
+    "key": "protologue/e9b81e56-syngonium-crassifolium-protologue-ann-missouri-bot-gard-68-591-engl-croat-1981-publ-1982-p2.jpg"
+   }
+  },
+  "syngonium/dodsonianum": {
+   "19c1bfe61790d243cc329aee0d847389": {
+    "bytes": 699507,
+    "derived_md5": "19c1bfe61790d243cc329aee0d847389",
+    "key": "other/19c1bfe6-syngonium-dodsonianum-specimen-1980-ecuador-v0492904f-br-bead78.jpg"
+   },
+   "655f9f6298eba6bc22402e5940b37414": {
+    "bytes": 164469,
+    "derived_md5": "655f9f6298eba6bc22402e5940b37414",
+    "key": "protologue/655f9f62-syngonium-dodsonianum-protologue-ann-missouri-bot-gard-68-592-croat-1981-publ-1982-p2.jpg"
+   },
+   "864e3b1bc4c1ad1a601a4090899e382a": {
+    "bytes": 344634,
+    "derived_md5": "864e3b1bc4c1ad1a601a4090899e382a",
+    "key": "protologue/864e3b1b-syngonium-dodsonianum-protologue-ann-missouri-bot-gard-68-592-croat-1981-publ-1982-p3.jpg"
+   },
+   "e9b81e56f21d033f2abb9fee97258c42": {
+    "bytes": 344932,
+    "derived_md5": "e9b81e56f21d033f2abb9fee97258c42",
+    "key": "protologue/e9b81e56-syngonium-dodsonianum-protologue-ann-missouri-bot-gard-68-592-croat-1981-publ-1982-p1.jpg"
+   },
+   "feb5835db7dd43c9c85a11e6dc3ed711": {
+    "bytes": 542506,
+    "derived_md5": "feb5835db7dd43c9c85a11e6dc3ed711",
+    "key": "hero/feb5835d-syngonium-dodsonianum-specimen-1980-ecuador-v0492903f-br-2381c8.jpg"
+   }
+  },
+  "syngonium/erythrophyllum": {
+   "0209a3ffe3beaf4370cc274f83950d9b": {
+    "bytes": 114608,
+    "derived_md5": "89db8abf96d71a75c8849db66dff9d41",
+    "key": "other/89db8abf-syngonium-erythrophyllum-fig-61-croat-8637-panama-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "06e2c89824774b66d02cfcbe259d3d99": {
+    "bytes": 180492,
+    "derived_md5": "8424225463f8cc3c7d434db481904e9f",
+    "key": "hero/84242254-syngonium-erythrophyllum-fig-58-habit-panama-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "15328f28b0a87535a1178756cf385cb0": {
+    "bytes": 109522,
+    "derived_md5": "2ce2b1797f1338da160434ff05812b36",
+    "key": "other/2ce2b179-syngonium-erythrophyllum-fig-60-flowering-and-fruiting-plant-croat-14955-panama-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "16fa60ca47b381a5d9087151ffd0914d": {
+    "bytes": 348629,
+    "derived_md5": "7ec7efa377d05271f18953a32fe3006f",
+    "key": "vegetative/7ec7efa3-syngonium-erythrophyllum-armen-enikolopov-5.jpg"
+   },
+   "44c6f8dea6a4abe5a403f511c2a0fb3b": {
+    "bytes": 471471,
+    "derived_md5": "140a112dd3958b063491d3736b41aa88",
+    "key": "vegetative/140a112d-syngonium-erythrophyllum-armen-enikolopov.jpg"
+   },
+   "48c87d75570b8d99519f4b4b9689e5ff": {
+    "bytes": 376356,
+    "derived_md5": "48c87d75570b8d99519f4b4b9689e5ff",
+    "key": "protologue/48c87d75-syngonium-erythrophyllum-protologue-baileya-14-17-bunting-1966-p1.jpg"
+   },
+   "5fefbf8c04d914280c98d700ff7384ac": {
+    "bytes": 469754,
+    "derived_md5": "98fc8f384151f313e77c4beb1fac633c",
+    "key": "vegetative/98fc8f38-syngonium-erythrophyllum-daniel-mesa-2.jpg"
+   },
+   "6773e0442b20d3df92c45f0129fa807b": {
+    "bytes": 97584,
+    "derived_md5": "95c1e28f5397b4369774d6c8d2cebc1a",
+    "key": "other/95c1e28f-syngonium-erythrophyllum-fig-62-juvenile-plant-croat-11709-panama-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "6eb5960813b19a99d21de0d6fc8f842f": {
+    "bytes": 84286,
+    "derived_md5": "f805df5af389c00bb2a91d55e2718946",
+    "key": "vegetative/f805df5a-syngonium-erythrophyllum-fig-59-abaxial-surface-of-leaves-panama-photo-j-harrison-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "78358aea959cc5d3df58161cfceadda6": {
+    "bytes": 207039,
+    "derived_md5": "e48749e219101aa69ac601341144c69e",
+    "key": "reproductive/e48749e2-syngonium-erythrophyllum-fig-57-habit-of-fruiting-plant-croat-11778-panama-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "8e54ac48f14dc4dfc7b72c9d8b06bb1d": {
+    "bytes": 167189,
+    "derived_md5": "8e54ac48f14dc4dfc7b72c9d8b06bb1d",
+    "key": "vegetative/8e54ac48-syngonium-erythrophyllum-ds-montet-syngerythrophyllum-pictured-at-the-jardin-botanique-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
+   "9de0bb8a76fa154f3adfdc1365d7093e": {
+    "bytes": 315344,
+    "derived_md5": "9de0bb8a76fa154f3adfdc1365d7093e",
+    "key": "protologue/9de0bb8a-syngonium-erythrophyllum-protologue-baileya-14-17-bunting-1966-p3.jpg"
+   },
+   "a705e7720bd929ba6b6119421c692ce0": {
+    "bytes": 207019,
+    "derived_md5": "a705e7720bd929ba6b6119421c692ce0",
+    "key": "protologue/a705e772-syngonium-erythrophyllum-protologue-baileya-14-17-bunting-1966-p2.jpg"
+   },
+   "a9dfa511327c4dcfe4406cc08dea413b": {
+    "bytes": 714176,
+    "derived_md5": "6d72aa2eb7c731b2089ed48504634ace",
+    "key": "vegetative/6d72aa2e-syngonium-erythrophyllum-judah-s.jpg"
+   },
+   "e14e97c87153fafc520833c7684367f5": {
+    "bytes": 171245,
+    "derived_md5": "e14e97c87153fafc520833c7684367f5",
+    "key": "vegetative/e14e97c8-syngonium-erythrophyllum-ds-montet-syngerythrophyllum3-pictured-at-the-jardin-botanique-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
+   "f85d35b6d764497671eca6e34234f824": {
+    "bytes": 355841,
+    "derived_md5": "83378ffe7fcd71eaf58bbfddf58fb45f",
+    "key": "vegetative/83378ffe-syngonium-erythrophyllum-daniel-mesa-3.jpg"
+   }
+  },
+  "syngonium/foreroanum": {
+   "7bf79a27dd4f77c0b0a04b844855222f": {
+    "bytes": 369714,
+    "derived_md5": "7bf79a27dd4f77c0b0a04b844855222f",
+    "key": "protologue/7bf79a27-syngonium-foreroanum-protologue-ann-missouri-bot-gard-68-594-croat-1981-publ-1982-p2.jpg"
+   },
+   "864e3b1bc4c1ad1a601a4090899e382a": {
+    "bytes": 344634,
+    "derived_md5": "864e3b1bc4c1ad1a601a4090899e382a",
+    "key": "protologue/864e3b1b-syngonium-foreroanum-protologue-ann-missouri-bot-gard-68-594-croat-1981-publ-1982-p1.jpg"
+   }
+  },
+  "syngonium/gentryanum": {
+   "b75f6fa29c2d3f6ce245c2fc37cce48e": {
+    "bytes": 359447,
+    "derived_md5": "b75f6fa29c2d3f6ce245c2fc37cce48e",
+    "key": "protologue/b75f6fa2-syngonium-gentryanum-protologue-ann-missouri-bot-gard-68-612-croat-1981-publ-1982-p2.jpg"
+   },
+   "e5aba911e570cdebbd9a7673b35a86d6": {
+    "bytes": 368711,
+    "derived_md5": "e5aba911e570cdebbd9a7673b35a86d6",
+    "key": "protologue/e5aba911-syngonium-gentryanum-protologue-ann-missouri-bot-gard-68-612-croat-1981-publ-1982-p1.jpg"
+   }
+  },
+  "syngonium/glaucopetiolatum": {
+   "070b020bd3b949b51fdaa00b7bd92cc7": {
+    "bytes": 214604,
+    "derived_md5": "070b020bd3b949b51fdaa00b7bd92cc7",
+    "key": "protologue/070b020b-syngonium-glaucopetiolatum-protologue-ann-missouri-bot-gard-68-613-croat-1981-publ-1982-p2.jpg"
+   },
+   "56265e7a2faec92567510cdb2a4d2824": {
+    "bytes": 109074,
+    "derived_md5": "56265e7a2faec92567510cdb2a4d2824",
+    "key": "other/56265e7a-syngonium-glaucopetiolatum-specimen-1979-panama-2599803-1c8d76.jpg"
+   },
+   "65a13f42b70a8b849bc9e79498d11e3b": {
+    "bytes": 363185,
+    "derived_md5": "65a13f42b70a8b849bc9e79498d11e3b",
+    "key": "protologue/65a13f42-syngonium-glaucopetiolatum-protologue-ann-missouri-bot-gard-68-613-croat-1981-publ-1982-p3.jpg"
+   },
+   "84e7d7fe8cf5c140e48af7ccfcf6f539": {
+    "bytes": 193674,
+    "derived_md5": "84e7d7fe8cf5c140e48af7ccfcf6f539",
+    "key": "other/84e7d7fe-syngonium-glaucopetiolatum-specimen-1974-panama-1476776-bd0520.jpg"
+   },
+   "86051991852b55cac03a6181c087e492": {
+    "bytes": 148126,
+    "derived_md5": "0e139cdcf91ae223148870e91b36ce1f",
+    "key": "other/0e139cdc-syngonium-glaucopetiolatum-fig-66-croat-26821-sheet-3-panama-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "88c21f9453e54d680200446cfcbae905": {
+    "bytes": 147238,
+    "derived_md5": "8ed83bd3c9d293b792c54b00b78be7bc",
+    "key": "hero/8ed83bd3-syngonium-glaucopetiolatum-fig-63-habit-panama-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "8d5fade69c09af40b057fc8db19258ec": {
+    "bytes": 94420,
+    "derived_md5": "8d5fade69c09af40b057fc8db19258ec",
+    "key": "other/8d5fade6-syngonium-glaucopetiolatum-specimen-1981-panama-2753005-aa3e87.jpg"
+   },
+   "99e267006ba490b830eef83d648dd9b4": {
+    "bytes": 211778,
+    "derived_md5": "99e267006ba490b830eef83d648dd9b4",
+    "key": "other/99e26700-syngonium-glaucopetiolatum-specimen-1974-panama-1476776-04434a.jpg"
+   },
+   "a4d9d152158b2493ddc704ae489fccdf": {
+    "bytes": 141620,
+    "derived_md5": "e5ae962721c3de1fe6a9c461e8ccce6b",
+    "key": "other/e5ae9627-syngonium-glaucopetiolatum-fig-64-type-croat-26821-sheet-1-panama-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "b75f6fa29c2d3f6ce245c2fc37cce48e": {
+    "bytes": 359447,
+    "derived_md5": "b75f6fa29c2d3f6ce245c2fc37cce48e",
+    "key": "protologue/b75f6fa2-syngonium-glaucopetiolatum-protologue-ann-missouri-bot-gard-68-613-croat-1981-publ-1982-p1.jpg"
+   },
+   "c41461081072d1fefa1124263cb62879": {
+    "bytes": 130603,
+    "derived_md5": "a86dc6a77bc84e6e4dc5d93890749417",
+    "key": "other/a86dc6a7-syngonium-glaucopetiolatum-fig-65-croat-26821-sheet-2-panama-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "e33d3e0caffc5cfbf8efc9869f0670f9": {
+    "bytes": 184885,
+    "derived_md5": "e33d3e0caffc5cfbf8efc9869f0670f9",
+    "key": "other/e33d3e0c-syngonium-glaucopetiolatum-specimen-1974-panama-1476776-184280.jpg"
+   },
+   "eb30d8e1a98649d273c9893aef1b8635": {
+    "bytes": 116589,
+    "derived_md5": "eb30d8e1a98649d273c9893aef1b8635",
+    "key": "other/eb30d8e1-syngonium-glaucopetiolatum-specimen-1979-panama-2599803-898476.jpg"
+   }
+  },
+  "syngonium/hastiferum": {
+   "094d9dfd31202c6aef8f108010214cbb": {
+    "bytes": 73005,
+    "derived_md5": "5c61aa9b9208618bba67451878ae24dd",
+    "key": "reproductive/5c61aa9b-syngonium-hastiferum-fig-74-infructescences-croat-79195-costa-rica-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "1d058cba36992409006a630e09a77ec4": {
+    "bytes": 146992,
+    "derived_md5": "0bd634315e130f31d2f89bf2fc4da720",
+    "key": "other/0bd63431-syngonium-hastiferum-fig-78-type-with-infructescence-croat-59153-costa-rica-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "1f370e792985111ecb80b12ff8af2388": {
+    "bytes": 123405,
+    "derived_md5": "56f09ba06fa97012d20591239129a2d8",
+    "key": "other/56f09ba0-syngonium-hastiferum-fig-77-grayum-hammel-5587-costa-rica-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "2fbb03137a85a44d0e0dfd04e63f627b": {
+    "bytes": 410972,
+    "derived_md5": "7fea82f2ff018005b0820d8f4baaf2f7",
+    "key": "vegetative/7fea82f2-syngonium-hastiferum-marcel-esquivel-12.jpg"
+   },
+   "398eb6ddbf865684453655a7066c54d4": {
+    "bytes": 648944,
+    "derived_md5": "491db6a589e1ddeae0a9c4aa6a39a1a1",
+    "key": "vegetative/491db6a5-syngonium-hastiferum-lostincr-2.jpg"
+   },
+   "45f64607854bcf4e4df3f919336b6f44": {
+    "bytes": 1010108,
+    "derived_md5": "45f64607854bcf4e4df3f919336b6f44",
+    "key": "vegetative/45f64607-syngonium-hastiferum-marcel-esquivel-13.jpg"
+   },
+   "655f9f6298eba6bc22402e5940b37414": {
+    "bytes": 164469,
+    "derived_md5": "655f9f6298eba6bc22402e5940b37414",
+    "key": "protologue/655f9f62-syngonium-hastiferum-protologue-ann-missouri-bot-gard-68-595-standl-l-o-williams-croat-1981-publ-1982-p1.jpg"
+   },
+   "7bf79a27dd4f77c0b0a04b844855222f": {
+    "bytes": 369714,
+    "derived_md5": "7bf79a27dd4f77c0b0a04b844855222f",
+    "key": "protologue/7bf79a27-syngonium-hastiferum-protologue-ann-missouri-bot-gard-68-595-standl-l-o-williams-croat-1981-publ-1982-p3.jpg"
+   },
+   "814f2c03ce1a5f6757cf3ac4f23e5372": {
+    "bytes": 118516,
+    "derived_md5": "82f2130b6de0774ae0d332b6b2dc8942",
+    "key": "vegetative/82f2130b-syngonium-hastiferum-fig-67-plant-with-inflorescences-young-infructescences-croat-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "864e3b1bc4c1ad1a601a4090899e382a": {
+    "bytes": 344634,
+    "derived_md5": "864e3b1bc4c1ad1a601a4090899e382a",
+    "key": "protologue/864e3b1b-syngonium-hastiferum-protologue-ann-missouri-bot-gard-68-595-standl-l-o-williams-croat-1981-publ-1982-p2.jpg"
+   },
+   "8ec01284cfac4c4fb2bf6aeb719dea5c": {
+    "bytes": 602591,
+    "derived_md5": "1dc8a1c146dcca626613db0db07ce3e6",
+    "key": "vegetative/1dc8a1c1-syngonium-hastiferum-mdoliveira.jpg"
+   },
+   "924620cbe4e08501f746bb678699eb38": {
+    "bytes": 106264,
+    "derived_md5": "76afe20290bbf4e96f92ecf8f3f6608d",
+    "key": "other/76afe202-syngonium-hastiferum-fig-76-croat-79195-costa-rica-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "9988c9c9368a212b96b1326d5e15741e": {
+    "bytes": 773226,
+    "derived_md5": "8d3bc30d8e893b0d0691f6a0062ea68d",
+    "key": "vegetative/8d3bc30d-syngonium-hastiferum-randall-jim-nez-2.jpg"
+   },
+   "a48c23d04c59794a6dbaf93b9a6c9c99": {
+    "bytes": 598906,
+    "derived_md5": "7e91b7058e7aea96d0dd32f956427688",
+    "key": "vegetative/7e91b705-syngonium-hastiferum-nicolas-saenz-2.jpg"
+   },
+   "ac77a3a002cb2f1474312554c20805a0": {
+    "bytes": 274729,
+    "derived_md5": "ac77a3a002cb2f1474312554c20805a0",
+    "key": "other/ac77a3a0-powo-syngonium-hastiferum-01.jpg"
+   },
+   "b0dc88a5eb52f23cce444b643308baf4": {
+    "bytes": 123781,
+    "derived_md5": "9045371f11d9ebd0a2fee2e2a63337fe",
+    "key": "other/9045371f-syngonium-hastiferum-fig-79-croat-9195-costa-rica-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "cfb101ef1d31c82d6b44ead8f6b2ccd4": {
+    "bytes": 910529,
+    "derived_md5": "cfb101ef1d31c82d6b44ead8f6b2ccd4",
+    "key": "vegetative/cfb101ef-syngonium-hastiferum-marcel-esquivel.jpeg"
+   },
+   "d3329e76bf11b69e70fb026f2874e6c5": {
+    "bytes": 876466,
+    "derived_md5": "d3329e76bf11b69e70fb026f2874e6c5",
+    "key": "vegetative/d3329e76-syngonium-hastiferum-marcel-esquivel-10.jpeg"
+   },
+   "deab1897655448c8452b0f636a3014bc": {
+    "bytes": 115194,
+    "derived_md5": "eea917a63878c52417dc59d736a1d49e",
+    "key": "other/eea917a6-syngonium-hastiferum-fig-80-croat-grayum-59798-costa-rica-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "e929bb5905c7a1f832a1f4d037498ea3": {
+    "bytes": 80280,
+    "derived_md5": "c1947943e3addd16fbfff757bea790ec",
+    "key": "vegetative/c1947943-syngonium-hastiferum-fig-68-adaxial-surface-of-leaf-blade-croat-79195-costa-rica-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "ec53c46027067aae103f4942eb928439": {
+    "bytes": 486754,
+    "derived_md5": "eda4c509184253cd1efe27b995d43190",
+    "key": "vegetative/eda4c509-syngonium-hastiferum-marcel-esquivel-15.jpg"
+   }
+  },
+  "syngonium/hastifolium": {
+   "04dd040acc45fe8db29974fec9636e2b": {
+    "bytes": 418407,
+    "derived_md5": "7478ee7a3d689ff4bd2df17b1b653807",
+    "key": "other/7478ee7a-syngonium-hastifolium-specimen-1996-costa-rica-k002979501-3c50c0.jpg"
+   },
+   "18fc03f65679a71b5593a02e680e1027": {
+    "bytes": 382620,
+    "derived_md5": "eb951ef8bbe1f617a2c17f13f3f881b5",
+    "key": "other/eb951ef8-syngonium-hastifolium-specimen-2012-brazil-rb00708426-m-a0c888.jpg"
+   },
+   "1acde6e9b35eff16e9bbd6ae46bc9e9e": {
+    "bytes": 906762,
+    "derived_md5": "1acde6e9b35eff16e9bbd6ae46bc9e9e",
+    "key": "other/1acde6e9-syngonium-hastifolium-specimen-1995-peru-wag-1576576-n-57c213.jpg"
+   },
+   "2108b5080819ad90ef4763e969b53c16": {
+    "bytes": 109768,
+    "derived_md5": "2108b5080819ad90ef4763e969b53c16",
+    "key": "other/2108b508-syngonium-hastifolium-specimen-1991-peru-351977-mbg-via-abaaa5.jpg"
+   },
+   "229a83855cd8e2d4464c094366ae2269": {
+    "bytes": 241017,
+    "derived_md5": "229a83855cd8e2d4464c094366ae2269",
+    "key": "other/229a8385-powo-syngonium-hastifolium-01.jpg"
+   },
+   "40793ee93c719be7c12a9e4d3903b266": {
+    "bytes": 103924,
+    "derived_md5": "40793ee93c719be7c12a9e4d3903b266",
+    "key": "other/40793ee9-syngonium-hastifolium-specimen-1991-peru-351687-mbg-via-374008.jpg"
+   },
+   "6080eaae6e25d857b5e2e5c61e188662": {
+    "bytes": 353744,
+    "derived_md5": "dd477ee6a69e7388edbe8aca8f8565b3",
+    "key": "other/dd477ee6-syngonium-hastifolium-specimen-1994-costa-rica-v0553941f-961722.jpg"
+   },
+   "637457fad6172b4f28c543fd25475a60": {
+    "bytes": 123413,
+    "derived_md5": "637457fad6172b4f28c543fd25475a60",
+    "key": "other/637457fa-syngonium-hastifolium-specimen-1991-peru-351845-mbg-via-e60107.jpg"
+   },
+   "75ffe585b214ad57ee67818f7f4fa608": {
+    "bytes": 335617,
+    "derived_md5": "75ffe585b214ad57ee67818f7f4fa608",
+    "key": "protologue/75ffe585-syngonium-hastifolium-protologue-bot-jahrb-syst-37-141-engl-1905-p2.jpg"
+   },
+   "7ef533aeed4f5e9ee5580815fd2f6d9a": {
+    "bytes": 518650,
+    "derived_md5": "c67c4e8282b6cd8fa7a00a0a96ae26f3",
+    "key": "vegetative/c67c4e82-syngonium-hastifolium-nate-hartley-needs-id-cc-by-nc-obs-192095298.jpg"
+   },
+   "8266cfb83cf9740d0636fbabdb3be8dd": {
+    "bytes": 408268,
+    "derived_md5": "ac81edc0434faf81b22a661e7988ac8d",
+    "key": "other/ac81edc0-syngonium-hastifolium-specimen-2012-brazil-rb00708426-m-ec699a.jpg"
+   },
+   "835f1bd223feab73f47ec8566ccc284b": {
+    "bytes": 328199,
+    "derived_md5": "835f1bd223feab73f47ec8566ccc284b",
+    "key": "protologue/835f1bd2-syngonium-hastifolium-protologue-bot-jahrb-syst-37-141-engl-1905-p1.jpg"
+   },
+   "89a25d0308f346ba74b0585d3058b0d1": {
+    "bytes": 89816,
+    "derived_md5": "89a25d0308f346ba74b0585d3058b0d1",
+    "key": "other/89a25d03-syngonium-hastifolium-specimen-1991-peru-352677-mbg-via-d1f387.jpg"
+   },
+   "8aaa6b8472e76027790109bdf3b3d8b3": {
+    "bytes": 120709,
+    "derived_md5": "8aaa6b8472e76027790109bdf3b3d8b3",
+    "key": "other/8aaa6b84-syngonium-hastifolium-specimen-1991-peru-351808-mbg-via-d6d479.jpg"
+   },
+   "8b37e0f6e0d2ceb50c1d59d9a3004944": {
+    "bytes": 265990,
+    "derived_md5": "62c3d6665c9e292e95406f898738ada2",
+    "key": "other/62c3d666-syngonium-hastifolium-specimen-1994-costa-rica-v0553943f-d84028.jpg"
+   },
+   "8b853f828fd3c4be96865e8e085c4f93": {
+    "bytes": 372674,
+    "derived_md5": "3a81975916430c07ecd1b1355964feda",
+    "key": "other/3a819759-syngonium-hastifolium-specimen-1996-costa-rica-tex00556687-bfaee4.jpg"
+   },
+   "91539818de6c4e3a164d24f48808a28f": {
+    "bytes": 326461,
+    "derived_md5": "91539818de6c4e3a164d24f48808a28f",
+    "key": "protologue/91539818-syngonium-hastifolium-protologue-bot-jahrb-syst-37-141-engl-1905-p3.jpg"
+   },
+   "b1eca5aa7ff42aacded38b5dacee1901": {
+    "bytes": 104260,
+    "derived_md5": "b1eca5aa7ff42aacded38b5dacee1901",
+    "key": "other/b1eca5aa-syngonium-hastifolium-specimen-1991-peru-351478-mbg-via-b3dd47.jpg"
+   },
+   "c30a0b40970e0164249940a52b826d2b": {
+    "bytes": 382380,
+    "derived_md5": "a8fea8528c6d6bf58751092bab25d47e",
+    "key": "other/a8fea852-syngonium-hastifolium-specimen-1996-costa-rica-v0553942f-d7ef11.jpg"
+   }
+  },
+  "syngonium/hoffmannii": {
+   "08acc1f3d0ca7c4c97d69e90f79ae0cd": {
+    "bytes": 113968,
+    "derived_md5": "08acc1f3d0ca7c4c97d69e90f79ae0cd",
+    "key": "other/08acc1f3-syngonium-hoffmannii-specimen-2017-panama-103119380-mbg-e016fe.jpg"
+   },
+   "0a2f7436275522dfa5be2754cc4e6b9e": {
+    "bytes": 30471,
+    "derived_md5": "0a2f7436275522dfa5be2754cc4e6b9e",
+    "key": "vegetative/0a2f7436-syngonium-hoffmannii-international-aroid-society.jpg"
+   },
+   "0bb1d7dabec830a9ee50b55373cf94b8": {
+    "bytes": 457883,
+    "derived_md5": "4fdaeeee7791e57267193ebedc62c3e7",
+    "key": "vegetative/4fdaeeee-syngonium-hoffmannii-federico-oviedo-brenes-needs-id-arr-obs-32215910-3.jpg"
+   },
+   "125a4805118b06716e269dd622ba987c": {
+    "bytes": 105564,
+    "derived_md5": "125a4805118b06716e269dd622ba987c",
+    "key": "other/125a4805-syngonium-hoffmannii-specimen-2016-panama-101184395-mbg-011603.jpg"
+   },
+   "1591d4ecbaeeb438a4a1083c79a56846": {
+    "bytes": 788004,
+    "derived_md5": "69879ba9d4e419cb9a582437554a94e8",
+    "key": "vegetative/69879ba9-syngonium-hoffmannii-nickrope-2.jpg"
+   },
+   "1ecec4775d1137fcb46669db390cf3e7": {
+    "bytes": 188386,
+    "derived_md5": "1ecec4775d1137fcb46669db390cf3e7",
+    "key": "hero/1ecec477-syngonium-hoffmannii-specimen-2015-panama-100898630-thom-e5b1d6.jpg"
+   },
+   "20ff5acb02749a7163e0bd82c2dd22e3": {
+    "bytes": 112656,
+    "derived_md5": "c1dfbf02125e79361c9ac890c9a9b66f",
+    "key": "other/c1dfbf02-syngonium-hoffmannii-fig-93-carlsen-et-al-3675-from-croat-69809-cult-from-d-gould-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "258aea2234e0d41dec692598cbc2ac30": {
+    "bytes": 399386,
+    "derived_md5": "b9c08b20a6d8eaea182d62439fba3891",
+    "key": "vegetative/b9c08b20-syngonium-hoffmannii-federico-oviedo-brenes-needs-id-arr-obs-32215910-4.jpg"
+   },
+   "347df45676d9c7928014e4aa8b7d9881": {
+    "bytes": 26039,
+    "derived_md5": "347df45676d9c7928014e4aa8b7d9881",
+    "key": "vegetative/347df456-syngonium-hoffmannii-international-aroid-society-2.jpg"
+   },
+   "37006c27ae475868e9580d1668c7f425": {
+    "bytes": 119587,
+    "derived_md5": "0f7153722f65229cbbdfe21add79d394",
+    "key": "other/0f715372-syngonium-hoffmannii-fig-92-birdsey-3410-costa-rica-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "42b4231c61e8e83092d5dfe05d37e812": {
+    "bytes": 123881,
+    "derived_md5": "19a20779567313a567b5a66323751e8f",
+    "key": "other/19a20779-syngonium-hoffmannii-fig-94-churchill-6206-panama-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "60de33c629748e6db52cf9e45ab9ab19": {
+    "bytes": 727534,
+    "derived_md5": "60de33c629748e6db52cf9e45ab9ab19",
+    "key": "reproductive/60de33c6-syngonium-hoffmannii-oliver-ingold-needs-id-arr-obs-192257115-2.jpg"
+   },
+   "6c3f1b7e0369add5ecbaf6bf660bc706": {
+    "bytes": 113692,
+    "derived_md5": "bfaf04cb5fc1848c5a6a4d787e193387",
+    "key": "other/bfaf04cb-syngonium-hoffmannii-fig-91-correa-10951-panama-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "75e97af1419bbc82212129392da002fa": {
+    "bytes": 439030,
+    "derived_md5": "75e97af1419bbc82212129392da002fa",
+    "key": "vegetative/75e97af1-syngonium-hoffmannii-fig-88-adaxial-leaf-blade-surface-ortiz-8614-panama-t-b-croat-croat-2023-aroideana-46-2-720-px.png"
+   },
+   "7db74c28240a3dcb1d32910c1e84bc40": {
+    "bytes": 293524,
+    "derived_md5": "7db74c28240a3dcb1d32910c1e84bc40",
+    "key": "protologue/7db74c28-syngonium-hoffmannii-protologue-oesterr-bot-z-8-178-schott-1858-p1.jpg"
+   },
+   "81b3bf3e183c8302ecb233df3b7d67c2": {
+    "bytes": 120993,
+    "derived_md5": "81b3bf3e183c8302ecb233df3b7d67c2",
+    "key": "other/81b3bf3e-syngonium-hoffmannii-specimen-2019-united-states-of-americ-bcd293.jpg"
+   },
+   "84b14211053113a8c28cb4443e8cc10d": {
+    "bytes": 321124,
+    "derived_md5": "84b14211053113a8c28cb4443e8cc10d",
+    "key": "protologue/84b14211-syngonium-hoffmannii-protologue-oesterr-bot-z-8-178-schott-1858-p2.jpg"
+   },
+   "89760135b5a379f05404a66878399f3c": {
+    "bytes": 138272,
+    "derived_md5": "4776a465673e95cd0cc74b0e8353cf1b",
+    "key": "reproductive/4776a465-syngonium-hoffmannii-fig-81-habit-of-flowering-plant-ortiz-8619-panama-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "969891fcbb7522a4129fd3860e7e082f": {
+    "bytes": 159900,
+    "derived_md5": "9aab23b09cb0771ca1c0444f45103e23",
+    "key": "vegetative/9aab23b0-syngonium-hoffmannii-fig-86-adaxial-leaf-blade-croat-61224-costa-rica-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "a1fa8f76e73e14f45074fb577ab941ea": {
+    "bytes": 571015,
+    "derived_md5": "203ccef92761c6cf1b6690ec049a95e5",
+    "key": "vegetative/203ccef9-syngonium-hoffmannii-nickrope.jpg"
+   },
+   "b07dda5a15e4c81db120806154b7cba6": {
+    "bytes": 151067,
+    "derived_md5": "19f4a6098080ff0841d4ee8683d3a70f",
+    "key": "reproductive/19f4a609-syngonium-hoffmannii-fig-82-climbing-habit-croat-47094a-panama-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "bcf452b56d5769d04682b4ba814eed89": {
+    "bytes": 348045,
+    "derived_md5": "7d8c400ca53ec1444a661c80f7a2e90c",
+    "key": "reproductive/7d8c400c-syngonium-hoffmannii-leyton-reid-needs-id-cc-by-nc-obs-377000565-3.jpg"
+   },
+   "bebae465ec3a9dbe510d6814ecf29ae3": {
+    "bytes": 147180,
+    "derived_md5": "bebae465ec3a9dbe510d6814ecf29ae3",
+    "key": "vegetative/bebae465-syngonium-hoffmannii-specimen-2015-panama-100898630-thom-147a83.jpg"
+   },
+   "c1b08b1bbc37f64fbc1a991a6e30d6af": {
+    "bytes": 240564,
+    "derived_md5": "c1b08b1bbc37f64fbc1a991a6e30d6af",
+    "key": "vegetative/c1b08b1b-syngonium-hoffmannii-specimen-2015-panama-100898630-thom-fcda1a.jpg"
+   },
+   "d43f6931095be86b098ee2aae808c309": {
+    "bytes": 371481,
+    "derived_md5": "f58c9f3c89b6ade2c92a22103951a7ec",
+    "key": "vegetative/f58c9f3c-syngonium-hoffmannii-carlos-g-velazco-macias-needs-id-cc-by-nc-obs-192963569.jpg"
+   },
+   "ddb4b6760b03a76be8cac41a5a82565f": {
+    "bytes": 93075,
+    "derived_md5": "c01d4fbf00daea137e625bef6ff5099b",
+    "key": "reproductive/c01d4fbf-syngonium-hoffmannii-fig-90-flowering-plant-photo-j-harrison-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "e07841f474f65215b0ec8cde9063d3a9": {
+    "bytes": 790267,
+    "derived_md5": "e07841f474f65215b0ec8cde9063d3a9",
+    "key": "vegetative/e07841f4-syngonium-hoffmannii-fig-83-habit-croat-47094a-costa-rica-t-b-croat-croat-2023-aroideana-46-2-720-px.png"
+   },
+   "e7f2ecb0a2e97e68cedb363eeb916922": {
+    "bytes": 271727,
+    "derived_md5": "9353565462a725ee71e8bd903f9482a5",
+    "key": "vegetative/93535654-syngonium-hoffmannii-carlos-g-velazco-macias-2.jpg"
+   },
+   "e9e7660c6358de2c54c648bccf8dd2cf": {
+    "bytes": 240333,
+    "derived_md5": "e9e7660c6358de2c54c648bccf8dd2cf",
+    "key": "other/e9e7660c-powo-syngonium-hoffmannii-01.jpg"
+   },
+   "eb69e180b2cb4b3a195ed867ea0c2c98": {
+    "bytes": 117248,
+    "derived_md5": "eb69e180b2cb4b3a195ed867ea0c2c98",
+    "key": "other/eb69e180-syngonium-hoffmannii-specimen-2018-panama-103131807-mbg-d7c8d4.jpg"
+   },
+   "f51a62e6026e97b67b6759885224cd3a": {
+    "bytes": 33109,
+    "derived_md5": "f51a62e6026e97b67b6759885224cd3a",
+    "key": "vegetative/f51a62e6-syngonium-hoffmannii-international-aroid-society-3.jpg"
+   }
+  },
+  "syngonium/huastecorum": {
+   "321c1f287b8a5284f4fb44574d658052": {
+    "bytes": 271248,
+    "derived_md5": "321c1f287b8a5284f4fb44574d658052",
+    "key": "protologue/321c1f28-syngonium-huastecorum-protologue-phytotaxa-694-290-diaz-jimenez-perez-farrera-croat-2025-p6.jpg"
+   },
+   "80527573f79db6e24523d8f025416c29": {
+    "bytes": 276453,
+    "derived_md5": "80527573f79db6e24523d8f025416c29",
+    "key": "protologue/80527573-syngonium-huastecorum-protologue-phytotaxa-694-290-diaz-jimenez-perez-farrera-croat-2025-p3.jpg"
+   },
+   "90539a241bfe128fb2ef73c45a8beccf": {
+    "bytes": 177932,
+    "derived_md5": "90539a241bfe128fb2ef73c45a8beccf",
+    "key": "protologue/90539a24-syngonium-huastecorum-protologue-phytotaxa-694-290-diaz-jimenez-perez-farrera-croat-2025-p4.jpg"
+   },
+   "d0e2964b8e712448bc5e474c053177dc": {
+    "bytes": 267589,
+    "derived_md5": "d0e2964b8e712448bc5e474c053177dc",
+    "key": "protologue/d0e2964b-syngonium-huastecorum-protologue-phytotaxa-694-290-diaz-jimenez-perez-farrera-croat-2025-p5.jpg"
+   },
+   "dd531b261435b861dba970a7a1841044": {
+    "bytes": 409182,
+    "derived_md5": "dd531b261435b861dba970a7a1841044",
+    "key": "protologue/dd531b26-syngonium-huastecorum-protologue-phytotaxa-694-290-diaz-jimenez-perez-farrera-croat-2025-p2.jpg"
+   },
+   "f650a7344cdf003623d41cee18325c59": {
+    "bytes": 358066,
+    "derived_md5": "f650a7344cdf003623d41cee18325c59",
+    "key": "protologue/f650a734-syngonium-huastecorum-protologue-phytotaxa-694-290-diaz-jimenez-perez-farrera-croat-2025-p1.jpg"
+   }
+  },
+  "syngonium/laterinervium": {
+   "00e01eace0adcd21568e7bfcc1b9620e": {
+    "bytes": 267816,
+    "derived_md5": "5b232d11a069ea96f747ae7dceaed6bb",
+    "key": "vegetative/5b232d11-syngonium-laterinervium-fig-97-adult-plant-laid-out-flat-costa-rica-t-ray-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "0b97b2cf16932f8f24682413f9b32741": {
+    "bytes": 419904,
+    "derived_md5": "4e3198ea1ffcb78f5e5dc32ea0948763",
+    "key": "other/4e3198ea-syngonium-laterinervium-specimen-1997-costa-rica-k00282117-85878e.jpg"
+   },
+   "0e60b595892c58ab4b0b21167e736f42": {
+    "bytes": 235399,
+    "derived_md5": "4431be97b822930ed3b25f4751362ee6",
+    "key": "vegetative/4431be97-syngonium-laterinervium-fig-98-closeup-of-adult-vegetation-costa-rica-photo-t-ray-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "1fc6a8be96875dcca2d80ea4ba4148d8": {
+    "bytes": 121710,
+    "derived_md5": "1fc6a8be96875dcca2d80ea4ba4148d8",
+    "key": "other/1fc6a8be-syngonium-laterinervium-specimen-1985-costa-rica-355522-97ee5f.jpg"
+   },
+   "22ad741d1afffaf1d4aba5fb05d400a7": {
+    "bytes": 163852,
+    "derived_md5": "d9889f7d5c41f0d3225e3c3c8ed34e9d",
+    "key": "vegetative/d9889f7d-syngonium-laterinervium-fig-101-juvenile-plants-terrestrial-costa-rica-photo-t-ray-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "247a708bb456f88081e56c87c384e874": {
+    "bytes": 105180,
+    "derived_md5": "247a708bb456f88081e56c87c384e874",
+    "key": "other/247a708b-syngonium-laterinervium-specimen-1991-costa-rica-101519405-043d5d.jpg"
+   },
+   "25c133dc9eb42af282c52e1d65fe4a3c": {
+    "bytes": 116092,
+    "derived_md5": "25c133dc9eb42af282c52e1d65fe4a3c",
+    "key": "other/25c133dc-syngonium-laterinervium-specimen-1991-costa-rica-365457-d73494.jpg"
+   },
+   "265e1403c91b849e1406ef26a1acd466": {
+    "bytes": 215465,
+    "derived_md5": "e5873a3483fc4726c09526bb9c47c7cc",
+    "key": "hero/e5873a34-syngonium-laterinervium-fig-100-juvenile-plant-on-tree-costa-rica-photo-t-ray-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "42da4c1751087df3180b1f71327515d1": {
+    "bytes": 124855,
+    "derived_md5": "9625e20fc2348d6829331efdcdda9d2c",
+    "key": "other/9625e20f-syngonium-laterinervium-fig-104-croat-59805-costa-rica-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "4408ae4c064b49efbba433eb5a444a4b": {
+    "bytes": 131456,
+    "derived_md5": "4408ae4c064b49efbba433eb5a444a4b",
+    "key": "other/4408ae4c-syngonium-laterinervium-specimen-1985-costa-rica-355522-fe49f0.jpg"
+   },
+   "5d67651ded95b304741e35b877821dc4": {
+    "bytes": 130006,
+    "derived_md5": "5d67651ded95b304741e35b877821dc4",
+    "key": "other/5d67651d-syngonium-laterinervium-specimen-1996-costa-rica-1111942-983918.jpg"
+   },
+   "6bafa0f2a7795071fb8d82cacada4e9a": {
+    "bytes": 379052,
+    "derived_md5": "6bafa0f2a7795071fb8d82cacada4e9a",
+    "key": "protologue/6bafa0f2-syngonium-laterinervium-protologue-ann-missouri-bot-gard-68-620-croat-1981-publ-1982-p1.jpg"
+   },
+   "7c40b26b049cbf8a356578527a6247cc": {
+    "bytes": 107284,
+    "derived_md5": "7c40b26b049cbf8a356578527a6247cc",
+    "key": "other/7c40b26b-syngonium-laterinervium-specimen-2001-costa-rica-3594286-8f4b08.jpg"
+   },
+   "80ddc4722e2ecea563e88957fc8f1a95": {
+    "bytes": 111506,
+    "derived_md5": "80ddc4722e2ecea563e88957fc8f1a95",
+    "key": "other/80ddc472-syngonium-laterinervium-specimen-1988-costa-rica-388636-60e466.jpg"
+   },
+   "8d58796d0c458e15dfd79cef77ad69d2": {
+    "bytes": 530530,
+    "derived_md5": "8d58796d0c458e15dfd79cef77ad69d2",
+    "key": "vegetative/8d58796d-syngonium-laterinervium-fig-103-adaxial-leaf-and-infructescence-photo-t-ray-t-b-croat-croat-2023-aroideana-46-2-720-px.png"
+   },
+   "9155621e37e43c629b6137a689a77415": {
+    "bytes": 820668,
+    "derived_md5": "9155621e37e43c629b6137a689a77415",
+    "key": "vegetative/9155621e-syngonium-laterinervium-fig-102-juvenile-leaves-abaxial-leaf-surface-photo-t-ray-t-b-croat-croat-2023-aroideana-46-2-720-px.png"
+   },
+   "9963439dda66c51f81418e4fa44a9847": {
+    "bytes": 108110,
+    "derived_md5": "9963439dda66c51f81418e4fa44a9847",
+    "key": "other/9963439d-syngonium-laterinervium-specimen-1990-costa-rica-101516345-55d56e.jpg"
+   },
+   "a07e0d9fd66ed0bf4e9ea3fcf87b29b4": {
+    "bytes": 612001,
+    "derived_md5": "a07e0d9fd66ed0bf4e9ea3fcf87b29b4",
+    "key": "other/a07e0d9f-syngonium-laterinervium-specimen-1988-costa-rica-v0537381f-043dca.jpg"
+   },
+   "a8e420a4d2188536fb4b7a04d9d513a6": {
+    "bytes": 114666,
+    "derived_md5": "1244ff086c4f74c532089f92178bda16",
+    "key": "other/1244ff08-syngonium-laterinervium-fig-105-grayum-4110-costa-rica-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "ac59d84de95bb56a3f937e902d2e0678": {
+    "bytes": 915211,
+    "derived_md5": "ac59d84de95bb56a3f937e902d2e0678",
+    "key": "other/ac59d84d-syngonium-laterinervium-fig-107-aguilar-440-costa-rica-t-b-croat-croat-2023-aroideana-46-2-720-px.png"
+   },
+   "bd814a18c2a88b8c3b3502aa4183f88f": {
+    "bytes": 130278,
+    "derived_md5": "bd814a18c2a88b8c3b3502aa4183f88f",
+    "key": "other/bd814a18-syngonium-laterinervium-specimen-1988-costa-rica-365893-cf42a2.jpg"
+   },
+   "c02d19e91626224cbc57e5092f4fa89e": {
+    "bytes": 113150,
+    "derived_md5": "3f0ca3f6519364b7df26d54fcfc138c8",
+    "key": "other/3f0ca3f6-syngonium-laterinervium-fig-106-birdsey-costa-rica-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "edefb75428f5ecc6c01183c7f109d9d8": {
+    "bytes": 232707,
+    "derived_md5": "edefb75428f5ecc6c01183c7f109d9d8",
+    "key": "other/edefb754-powo-syngonium-laterinervium-01.jpg"
+   },
+   "f100539b5c30964e7a2c0971be211458": {
+    "bytes": 188072,
+    "derived_md5": "35d4381aedc9cc6992036005e5fb16ac",
+    "key": "reproductive/35d4381a-syngonium-laterinervium-fig-95-habit-of-flowering-plant-croat-59805-costa-rica-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "f88194fc045603f70a2f83b60784174d": {
+    "bytes": 111108,
+    "derived_md5": "f88194fc045603f70a2f83b60784174d",
+    "key": "other/f88194fc-syngonium-laterinervium-specimen-1991-costa-rica-2753208-996ae5.jpg"
+   },
+   "f948cb38c3b13276c9b8d89806e86765": {
+    "bytes": 279156,
+    "derived_md5": "a96ab82c29f7c63a1b07f8e3162043aa",
+    "key": "other/a96ab82c-syngonium-laterinervium-specimen-1988-costa-rica-v0537381f-e9848b.jpg"
+   },
+   "fa0941001e7af7335ae221540115f85e": {
+    "bytes": 353866,
+    "derived_md5": "fa0941001e7af7335ae221540115f85e",
+    "key": "protologue/fa094100-syngonium-laterinervium-protologue-ann-missouri-bot-gard-68-620-croat-1981-publ-1982-p2.jpg"
+   }
+  },
+  "syngonium/litense": {
+   "02d7b9f07a5e8703ef41e44725f072f6": {
+    "bytes": 389061,
+    "derived_md5": "02d7b9f07a5e8703ef41e44725f072f6",
+    "key": "protologue/02d7b9f0-syngonium-litense-protologue-novon-27-58-croat-2019-p1.jpg"
+   },
+   "4e4675d54e0e127b250a215d8ee5f480": {
+    "bytes": 253873,
+    "derived_md5": "4e4675d54e0e127b250a215d8ee5f480",
+    "key": "vegetative/4e4675d5-syngonium-litense-specimen-2015-ecuador-100891840-thomas-2fa16a.jpg"
+   },
+   "68156c845a8807c4ed70072a6a72cbdf": {
+    "bytes": 465123,
+    "derived_md5": "68156c845a8807c4ed70072a6a72cbdf",
+    "key": "protologue/68156c84-syngonium-litense-protologue-novon-27-58-croat-2019-p2.jpg"
+   },
+   "7b4304ceaa945035c78851c943ebda2b": {
+    "bytes": 281442,
+    "derived_md5": "7b4304ceaa945035c78851c943ebda2b",
+    "key": "vegetative/7b4304ce-syngonium-litense-specimen-2015-ecuador-100891840-thomas-eb5b8c.jpg"
+   },
+   "80355f3fe7725fb3250a33af4a2984cc": {
+    "bytes": 206894,
+    "derived_md5": "80355f3fe7725fb3250a33af4a2984cc",
+    "key": "reproductive/80355f3f-syngonium-litense-specimen-2015-ecuador-100891840-thomas-aafe24.jpg"
+   },
+   "95e5f643ba87eee6bdde303666dc4f1e": {
+    "bytes": 240189,
+    "derived_md5": "95e5f643ba87eee6bdde303666dc4f1e",
+    "key": "vegetative/95e5f643-syngonium-litense-specimen-2015-ecuador-100891840-thomas-1f3ee9.jpg"
+   },
+   "c7896956998c1e5f90612ba4d0dc696f": {
+    "bytes": 430148,
+    "derived_md5": "c7896956998c1e5f90612ba4d0dc696f",
+    "key": "reproductive/c7896956-syngonium-litense-specimen-2015-ecuador-100891840-thomas-359827.jpg"
+   },
+   "e37e797661a14a37650037fb4a50502c": {
+    "bytes": 167333,
+    "derived_md5": "e37e797661a14a37650037fb4a50502c",
+    "key": "hero/e37e7976-syngonium-litense-specimen-2015-ecuador-100891840-thomas-0970af.jpg"
+   }
+  },
+  "syngonium/llanoense": {
+   "0c764f855844b2df0809ebd759f0aec8": {
+    "bytes": 151662,
+    "derived_md5": "0c764f855844b2df0809ebd759f0aec8",
+    "key": "other/0c764f85-syngonium-llanoense-specimen-1976-panama-2753193-mbg-via-4c1ec1.jpg"
+   },
+   "230486613f2e84c655d60fa27bdd5e3c": {
+    "bytes": 96308,
+    "derived_md5": "70becdf18263c8caff1a80b4fa3eade1",
+    "key": "other/70becdf1-syngonium-llanoense-fig-113-croat-10831-summit-gardens-panama-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "2e2b64b38bfde33e07d8580c7461d35b": {
+    "bytes": 42872,
+    "derived_md5": "2e2b64b38bfde33e07d8580c7461d35b",
+    "key": "vegetative/2e2b64b3-syngonium-llanoense-international-aroid-society-2.jpg"
+   },
+   "3d15361a1c916447058db04d3777abf0": {
+    "bytes": 164952,
+    "derived_md5": "3d15361a1c916447058db04d3777abf0",
+    "key": "other/3d15361a-syngonium-llanoense-specimen-1988-panama-371254-mbg-via-b3cc45.jpg"
+   },
+   "434d9cd60aa92140e128b6cc60043c9a": {
+    "bytes": 134948,
+    "derived_md5": "434d9cd60aa92140e128b6cc60043c9a",
+    "key": "other/434d9cd6-syngonium-llanoense-specimen-1976-panama-2753198-mbg-via-f6266e.jpg"
+   },
+   "5547dadcd3f55815e43d0032bf0dd17a": {
+    "bytes": 113443,
+    "derived_md5": "5547dadcd3f55815e43d0032bf0dd17a",
+    "key": "other/5547dadc-syngonium-llanoense-specimen-1970-panama-2312133-mbg-via-a71d9e.jpg"
+   },
+   "58d2e5058e09edb25e191b75324e4930": {
+    "bytes": 125782,
+    "derived_md5": "58d2e5058e09edb25e191b75324e4930",
+    "key": "other/58d2e505-syngonium-llanoense-specimen-1976-panama-2753194-mbg-via-2ed10b.jpg"
+   },
+   "674ac387808564a4ffcb7ba5a9030b84": {
+    "bytes": 199851,
+    "derived_md5": "674ac387808564a4ffcb7ba5a9030b84",
+    "key": "protologue/674ac387-syngonium-llanoense-protologue-ann-missouri-bot-gard-68-585-croat-1981-publ-1982-p2.jpg"
+   },
+   "6ccd7197f259a19006c218fbc2d91081": {
+    "bytes": 131973,
+    "derived_md5": "d89e7190a289666b32f4ac09165a8e97",
+    "key": "other/d89e7190-syngonium-llanoense-fig-112-mcpherson-9194-panama-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "6e7cd42a27c52c92fa0e33c8c8dd50ad": {
+    "bytes": 798685,
+    "derived_md5": "6e7cd42a27c52c92fa0e33c8c8dd50ad",
+    "key": "reproductive/6e7cd42a-syngonium-llanoense-fig-111-infructescence-croat-36946-panama-t-b-croat-croat-2023-aroideana-46-2-720-px.png"
+   },
+   "6f3075b85e75d7b6d5204584b00ad2c7": {
+    "bytes": 113857,
+    "derived_md5": "6f3075b85e75d7b6d5204584b00ad2c7",
+    "key": "other/6f3075b8-syngonium-llanoense-specimen-1976-panama-2753198-mbg-via-4c4384.jpg"
+   },
+   "8a995ad0c6ca8f7f82e5a50ccc4a6f09": {
+    "bytes": 122040,
+    "derived_md5": "8a995ad0c6ca8f7f82e5a50ccc4a6f09",
+    "key": "other/8a995ad0-syngonium-llanoense-specimen-1974-panama-2753195-mbg-via-890bf9.jpg"
+   },
+   "b7b43c94386e99522d432356b019a6b7": {
+    "bytes": 136277,
+    "derived_md5": "b7b43c94386e99522d432356b019a6b7",
+    "key": "other/b7b43c94-syngonium-llanoense-specimen-1976-panama-2753197-mbg-via-3a5c8c.jpg"
+   },
+   "bc8fac0e3893cad13e4ac4cc7727adcd": {
+    "bytes": 354328,
+    "derived_md5": "bc8fac0e3893cad13e4ac4cc7727adcd",
+    "key": "protologue/bc8fac0e-syngonium-llanoense-protologue-ann-missouri-bot-gard-68-585-croat-1981-publ-1982-p3.jpg"
+   },
+   "c2b4ba095450c4c38b2f5ff45c24610e": {
+    "bytes": 110160,
+    "derived_md5": "c2b4ba095450c4c38b2f5ff45c24610e",
+    "key": "other/c2b4ba09-syngonium-llanoense-specimen-1986-panama-381183-mbg-via-f37ef3.jpg"
+   },
+   "d26a8b47486d9f8ddce274d6681ef58f": {
+    "bytes": 25288,
+    "derived_md5": "d26a8b47486d9f8ddce274d6681ef58f",
+    "key": "vegetative/d26a8b47-syngonium-llanoense-international-aroid-society-3.jpg"
+   },
+   "ddbfbcfa33abac000d14a06ba419f1d1": {
+    "bytes": 142301,
+    "derived_md5": "ddbfbcfa33abac000d14a06ba419f1d1",
+    "key": "other/ddbfbcfa-syngonium-llanoense-specimen-1976-panama-2753196-mbg-via-76b19d.jpg"
+   },
+   "deab5186bb57f80739da10698d199a38": {
+    "bytes": 24911,
+    "derived_md5": "deab5186bb57f80739da10698d199a38",
+    "key": "vegetative/deab5186-syngonium-llanoense-international-aroid-society.jpg"
+   },
+   "dec76cb99fed37e8cfc39045ad264c12": {
+    "bytes": 172325,
+    "derived_md5": "b69366a1df83bf73cdf7f3bafd37cbac",
+    "key": "hero/b69366a1-syngonium-llanoense-fig-108-habit-of-flowering-plant-croat-36946-panama-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "e7c6db211f114306a3d51954df617ebb": {
+    "bytes": 365520,
+    "derived_md5": "e7c6db211f114306a3d51954df617ebb",
+    "key": "protologue/e7c6db21-syngonium-llanoense-protologue-ann-missouri-bot-gard-68-585-croat-1981-publ-1982-p1.jpg"
+   },
+   "ed564a8113d3f59885bf9c471b6907b9": {
+    "bytes": 146546,
+    "derived_md5": "ed564a8113d3f59885bf9c471b6907b9",
+    "key": "other/ed564a81-syngonium-llanoense-specimen-1986-panama-381183-mbg-via-a0da2a.jpg"
+   },
+   "efad08fc1a0e26b72489426d15cc869f": {
+    "bytes": 146345,
+    "derived_md5": "efad08fc1a0e26b72489426d15cc869f",
+    "key": "other/efad08fc-syngonium-llanoense-specimen-1972-panama-2753199-mbg-via-fff575.jpg"
+   },
+   "fd4832e16cdf185287af8b9f49983d96": {
+    "bytes": 156958,
+    "derived_md5": "fd4832e16cdf185287af8b9f49983d96",
+    "key": "other/fd4832e1-syngonium-llanoense-specimen-1986-panama-370189-mbg-via-f46bc1.jpg"
+   },
+   "fe4333c899e3cee5356889cbda63f013": {
+    "bytes": 823506,
+    "derived_md5": "fe4333c899e3cee5356889cbda63f013",
+    "key": "vegetative/fe4333c8-syngonium-llanoense-fig-110-adult-plant-stem-and-leaves-on-ground-panama-t-b-croat-croat-2023-aroideana-46-2-720-px.png"
+   }
+  },
+  "syngonium/macrophyllum": {
+   "002edb6af51c231ab3b19f9e0fc2472d": {
+    "bytes": 483159,
+    "derived_md5": "002edb6af51c231ab3b19f9e0fc2472d",
+    "key": "protologue/002edb6a-syngonium-macrophyllum-protologue-pflanzenr-iv-23e-128-engl-1920-p1.jpg"
+   },
+   "07d0f486c92b4c4ef0da0cb74e7ea90b": {
+    "bytes": 490544,
+    "derived_md5": "07d0f486c92b4c4ef0da0cb74e7ea90b",
+    "key": "protologue/07d0f486-syngonium-macrophyllum-protologue-pflanzenr-iv-23e-128-engl-1920-p3.jpg"
+   },
+   "088370ab18e648f090f0d5b72b83a004": {
+    "bytes": 179324,
+    "derived_md5": "4565c7708f3d20664a7f1acce508bc18",
+    "key": "vegetative/4565c770-syngonium-macrophyllum-fig-122-stem-and-leaves-costa-rica-photo-t-ray-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "0dbab6a716da41010bd51ab575843397": {
+    "bytes": 916006,
+    "derived_md5": "0dbab6a716da41010bd51ab575843397",
+    "key": "vegetative/0dbab6a7-syngonium-macrophyllum-sergio-m-2.jpeg"
+   },
+   "263c163d763e0fd57014079a3b1e69c7": {
+    "bytes": 32204,
+    "derived_md5": "263c163d763e0fd57014079a3b1e69c7",
+    "key": "vegetative/263c163d-syngonium-macrophyllum-international-aroid-society.jpg"
+   },
+   "28da4aa0ee7987bf1903c735d33270da": {
+    "bytes": 127611,
+    "derived_md5": "c7156f74218b2d737375eee040f415e1",
+    "key": "reproductive/c7156f74-syngonium-macrophyllum-fig-120-stem-with-inflorescence-and-infructescences-costa-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "2e283dfa25bfa3f0ed042c021e02a2a1": {
+    "bytes": 778301,
+    "derived_md5": "2e283dfa25bfa3f0ed042c021e02a2a1",
+    "key": "other/2e283dfa-syngonium-macrophyllum-fig-119-adult-leaf-blade-adaxial-o-ortiz-2705-panama-t-b-croat-croat-2023-aroideana-46-2-720-px.png"
+   },
+   "37bb8ead4bbc1fa7fd3c3f23edfb0b79": {
+    "bytes": 26596,
+    "derived_md5": "37bb8ead4bbc1fa7fd3c3f23edfb0b79",
+    "key": "vegetative/37bb8ead-syngonium-macrophyllum-international-aroid-society-2.jpg"
+   },
+   "423a76a4c566b67eb1983ae2bcbbbdf4": {
+    "bytes": 101040,
+    "derived_md5": "4b5407b5e460cd3d8dfb45c9a32a4e1e",
+    "key": "other/4b5407b5-syngonium-macrophyllum-fig-130-preadult-blade-croat-78584-mexico-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "426c1260162666c254fc0495b37b8d52": {
+    "bytes": 171109,
+    "derived_md5": "21398f068c3e4fca3e47d7e3bafd4290",
+    "key": "vegetative/21398f06-syngonium-macrophyllum-fig-121-leaf-blade-adaxial-surface-colombia-cabo-corrientes-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "537f1efa8f6c8689e2f34074a2bcf971": {
+    "bytes": 29256,
+    "derived_md5": "537f1efa8f6c8689e2f34074a2bcf971",
+    "key": "vegetative/537f1efa-syngonium-macrophyllum-international-aroid-society-6.jpg"
+   },
+   "614a47e44d5cd8eb1ef08276a93177c6": {
+    "bytes": 191787,
+    "derived_md5": "614a47e44d5cd8eb1ef08276a93177c6",
+    "key": "vegetative/614a47e4-syngonium-macrophyllum-ds-montet-syngmacrophyllum3-pictured-at-the-jardin-botanique-du-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
+   "6f4daad946bf381111ae4cc49d434533": {
+    "bytes": 400547,
+    "derived_md5": "bdf98e90499d7c222556285f134ed80a",
+    "key": "vegetative/bdf98e90-syngonium-macrophyllum-roberto-garc-a.jpg"
+   },
+   "6f90ad472dfdf30c69a9f695766a9b3e": {
+    "bytes": 198527,
+    "derived_md5": "6f90ad472dfdf30c69a9f695766a9b3e",
+    "key": "reproductive/6f90ad47-syngonium-macrophyllum-ds-montet-syngmacrophyllum-pictured-at-the-jardin-botanique-du-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
+   "781d6ec1a97c42f45137a57afed8803b": {
+    "bytes": 263344,
+    "derived_md5": "781d6ec1a97c42f45137a57afed8803b",
+    "key": "other/781d6ec1-powo-syngonium-macrophyllum-01.jpg"
+   },
+   "7b8986dbc05acc51ff40a9d1f648b3bd": {
+    "bytes": 360217,
+    "derived_md5": "765ae9732d9758803507bae7d4c0b2fa",
+    "key": "vegetative/765ae973-syngonium-macrophyllum-ramon-d-4.jpg"
+   },
+   "7cb74529a5b21ca4e275acc92a07328a": {
+    "bytes": 466959,
+    "derived_md5": "7cb74529a5b21ca4e275acc92a07328a",
+    "key": "protologue/7cb74529-syngonium-macrophyllum-protologue-pflanzenr-iv-23e-128-engl-1920-p2.jpg"
+   },
+   "801c11ec38b50fb1aa67b3b0d619000f": {
+    "bytes": 123775,
+    "derived_md5": "ce3d70dd293147aea47e476b26fe63dd",
+    "key": "reproductive/ce3d70dd-syngonium-macrophyllum-fig-127-open-infructescence-costa-rica-photo-t-ray-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "812ecf6541bc0ea6d70bed06ebef7131": {
+    "bytes": 189656,
+    "derived_md5": "812ecf6541bc0ea6d70bed06ebef7131",
+    "key": "vegetative/812ecf65-syngonium-macrophyllum-ds-montet-syngmacrophyllum773645-pictured-at-the-jardin-botanique-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
+   "81e1335ae8315bbdefaa6f53d68a99db": {
+    "bytes": 757562,
+    "derived_md5": "81e1335ae8315bbdefaa6f53d68a99db",
+    "key": "reproductive/81e1335a-syngonium-macrophyllum-j-alejandro-rios-solis-2.jpeg"
+   },
+   "83c54e01d625eb820c5b5263e8e4a3db": {
+    "bytes": 1000185,
+    "derived_md5": "83c54e01d625eb820c5b5263e8e4a3db",
+    "key": "vegetative/83c54e01-syngonium-macrophyllum-sergio-m.jpeg"
+   },
+   "847a990be433edef240c0b5536cf2401": {
+    "bytes": 37089,
+    "derived_md5": "847a990be433edef240c0b5536cf2401",
+    "key": "vegetative/847a990b-syngonium-macrophyllum-international-aroid-society-5.jpg"
+   },
+   "8961a50cc882f8c532437163db3777d5": {
+    "bytes": 144793,
+    "derived_md5": "2ff9328a6773ffb86da78e3dc7c8185e",
+    "key": "reproductive/2ff9328a-syngonium-macrophyllum-fig-124-open-inflorescence-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "8e9370bd13df58fc148981c9c7385e22": {
+    "bytes": 21455,
+    "derived_md5": "8e9370bd13df58fc148981c9c7385e22",
+    "key": "reproductive/8e9370bd-syngonium-macrophyllum-international-aroid-society-4.jpg"
+   },
+   "9cdee0164eaaf99ad6a40ba9e245c71b": {
+    "bytes": 176418,
+    "derived_md5": "9cdee0164eaaf99ad6a40ba9e245c71b",
+    "key": "reproductive/9cdee016-syngonium-macrophyllum-ds-montet-syngmacrophyllumncy-pictured-at-the-jardin-botanique-du-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
+   "a5b6bb8570a8c52978a917a94d436ef6": {
+    "bytes": 319898,
+    "derived_md5": "73f5071c69072f54620555fab03ae54b",
+    "key": "reproductive/73f5071c-syngonium-macrophyllum-palhas-4.jpg"
+   },
+   "b2299cd4f5c8163e320a60d2748977ee": {
+    "bytes": 106809,
+    "derived_md5": "9ac6d9c442d488b7c44a2e19360f691a",
+    "key": "reproductive/9ac6d9c4-syngonium-macrophyllum-fig-126-infructescence-costa-rica-photo-t-ray-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "b3b76ebdd86838726b70c690b9af3859": {
+    "bytes": 1008131,
+    "derived_md5": "b3b76ebdd86838726b70c690b9af3859",
+    "key": "hero/b3b76ebd-syngonium-macrophyllum-pb20526-climbing-on-vertical-rocky-bank-cubilhuitz-alta-copyright-patrick-blanc-www-verticalgardenpatrickblanc-com.jpg"
+   },
+   "d3ba54d25527a9908cb0f401eb2c9276": {
+    "bytes": 1005990,
+    "derived_md5": "d3ba54d25527a9908cb0f401eb2c9276",
+    "key": "vegetative/d3ba54d2-syngonium-macrophyllum-james-k-wetterer.jpg"
+   },
+   "dcb7e0cc571c045af9026d17993014e1": {
+    "bytes": 118839,
+    "derived_md5": "722f2ea1a30318c652467fc996853f74",
+    "key": "other/722f2ea1-syngonium-macrophyllum-fig-131-croat-d-hannon-64639-honduras-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "eb19000f80bf975b42821565fab836ca": {
+    "bytes": 115509,
+    "derived_md5": "8895875292b8a8c98e8517023a8e9b7d",
+    "key": "other/88958752-syngonium-macrophyllum-fig-129-blackmore-heath-1806-honduras-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "eef8f0970195a1bcba3504bd61398b78": {
+    "bytes": 513123,
+    "derived_md5": "87addcb588f053ce9f9997e7dc685eda",
+    "key": "vegetative/87addcb5-syngonium-macrophyllum-kfbritton.jpg"
+   },
+   "fb9c527bc6cc2509a246673b21a42af6": {
+    "bytes": 20813,
+    "derived_md5": "fb9c527bc6cc2509a246673b21a42af6",
+    "key": "reproductive/fb9c527b-syngonium-macrophyllum-international-aroid-society-3.jpg"
+   }
+  },
+  "syngonium/mauroanum": {
+   "06a762467be2d5cc5055ec1c427971b9": {
+    "bytes": 755286,
+    "derived_md5": "06a762467be2d5cc5055ec1c427971b9",
+    "key": "vegetative/06a76246-syngonium-mauroanum-fig-135-cultivated-plant-from-veraguas-province-panama-croat-t-b-croat-croat-2023-aroideana-46-2-720-px.png"
+   },
+   "07ecae2a84fcd1e373b61e8d6e2c229e": {
+    "bytes": 102684,
+    "derived_md5": "67fa317c2b0531380a4b9e812a25f312",
+    "key": "other/67fa317c-syngonium-mauroanum-fig-136-lewis-et-al-1637-panama-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "210f19dbe4a3c3a8ea73cb4ddd556cb6": {
+    "bytes": 109417,
+    "derived_md5": "210f19dbe4a3c3a8ea73cb4ddd556cb6",
+    "key": "other/210f19db-syngonium-mauroanum-specimen-1993-costa-rica-101515384-m-2ebc64.jpg"
+   },
+   "401a0805f715cf865fe7abe7903b242c": {
+    "bytes": 122214,
+    "derived_md5": "67a9d99ddf8e215522f078d29a2073db",
+    "key": "other/67a9d99d-syngonium-mauroanum-fig-138-grayum-9912-panama-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "4288f98b45c9925b3046d5cd4987ce4d": {
+    "bytes": 100685,
+    "derived_md5": "4288f98b45c9925b3046d5cd4987ce4d",
+    "key": "other/4288f98b-syngonium-mauroanum-specimen-1994-panama-101524265-mbg-v-4d765d.jpg"
+   },
+   "42d15d36f9af322f2ca2a27577f4b03d": {
+    "bytes": 123273,
+    "derived_md5": "42d15d36f9af322f2ca2a27577f4b03d",
+    "key": "other/42d15d36-syngonium-mauroanum-specimen-1995-panama-989604-mbg-via-152bca.jpg"
+   },
+   "435f6d5bd7564241b4fbdad5be980716": {
+    "bytes": 81169,
+    "derived_md5": "435f6d5bd7564241b4fbdad5be980716",
+    "key": "other/435f6d5b-syngonium-mauroanum-specimen-1979-united-states-of-america-28b6ec.jpg"
+   },
+   "43954087708d8104e867ae931bbf5cec": {
+    "bytes": 118147,
+    "derived_md5": "43954087708d8104e867ae931bbf5cec",
+    "key": "other/43954087-syngonium-mauroanum-specimen-1979-united-states-of-america-2cafd8.jpg"
+   },
+   "446c039d2a98319c8e7dce3317ca541c": {
+    "bytes": 111407,
+    "derived_md5": "446c039d2a98319c8e7dce3317ca541c",
+    "key": "other/446c039d-syngonium-mauroanum-specimen-2000-costa-rica-3123437-mbg-7aff91.jpg"
+   },
+   "4a0b4ee33433caeae72281a30851396e": {
+    "bytes": 72577,
+    "derived_md5": "91842894a14d681d1781fd013c8fa89f",
+    "key": "vegetative/91842894-syngonium-mauroanum-fig-133-closeup-of-leaf-juvenile-plant-d-gould-cultivated-at-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "4e9295c424bff010f096d335326d1ee3": {
+    "bytes": 113622,
+    "derived_md5": "07741d6b2ff3591dcd486ad34687de72",
+    "key": "other/07741d6b-syngonium-mauroanum-fig-139-croat-33981-panama-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "63a54a98552d3aab6eb895aa44c97a82": {
+    "bytes": 114611,
+    "derived_md5": "63a54a98552d3aab6eb895aa44c97a82",
+    "key": "other/63a54a98-syngonium-mauroanum-specimen-1993-costa-rica-101515384-m-8f2baa.jpg"
+   },
+   "682704cff749819c8513191cc64e2bbd": {
+    "bytes": 98207,
+    "derived_md5": "682704cff749819c8513191cc64e2bbd",
+    "key": "other/682704cf-syngonium-mauroanum-specimen-2000-costa-rica-3123447-mbg-3af950.jpg"
+   },
+   "698ed823c12565764666913707f44950": {
+    "bytes": 258576,
+    "derived_md5": "698ed823c12565764666913707f44950",
+    "key": "other/698ed823-powo-syngonium-mauroanum-01.jpg"
+   },
+   "8807cf4f25e30b71cd58d92d8e907976": {
+    "bytes": 104749,
+    "derived_md5": "8807cf4f25e30b71cd58d92d8e907976",
+    "key": "other/8807cf4f-syngonium-mauroanum-specimen-1993-costa-rica-101515384-m-7ac127.jpg"
+   },
+   "92cbfcbaeba0382f0095d776af37dcc6": {
+    "bytes": 338241,
+    "derived_md5": "92cbfcbaeba0382f0095d776af37dcc6",
+    "key": "protologue/92cbfcba-syngonium-mauroanum-protologue-baileya-14-19-bunting-1966-p3.jpg"
+   },
+   "97c58cfa567775be5ef04a9ce30c2a36": {
+    "bytes": 679808,
+    "derived_md5": "97c58cfa567775be5ef04a9ce30c2a36",
+    "key": "vegetative/97c58cfa-syngonium-mauroanum-fig-132-juvenile-plant-croat-76200-panama-t-b-croat-croat-2023-aroideana-46-2-720-px.png"
+   },
+   "9de0bb8a76fa154f3adfdc1365d7093e": {
+    "bytes": 315344,
+    "derived_md5": "9de0bb8a76fa154f3adfdc1365d7093e",
+    "key": "protologue/9de0bb8a-syngonium-mauroanum-protologue-baileya-14-19-bunting-1966-p1.jpg"
+   },
+   "a02f536e6e45df10e75c15b38e974360": {
+    "bytes": 104948,
+    "derived_md5": "5fb54350c6bccc8562b073f9984c165c",
+    "key": "other/5fb54350-syngonium-mauroanum-fig-137-birdsey-347-panama-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "c223b2bda5fed78efddc4226295e9992": {
+    "bytes": 1022905,
+    "derived_md5": "c223b2bda5fed78efddc4226295e9992",
+    "key": "reproductive/c223b2bd-syngonium-mauroanum-oliver-ingold-needs-id-arr-obs-192259137-2.jpg"
+   },
+   "c4d219e53278e7ab72c0d6f9b54dc905": {
+    "bytes": 150313,
+    "derived_md5": "c4d219e53278e7ab72c0d6f9b54dc905",
+    "key": "protologue/c4d219e5-syngonium-mauroanum-protologue-baileya-14-19-bunting-1966-p2.jpg"
+   },
+   "d34260e6445692086247c58a213387ef": {
+    "bytes": 149455,
+    "derived_md5": "d34260e6445692086247c58a213387ef",
+    "key": "other/d34260e6-syngonium-mauroanum-specimen-1990-panama-351740-mbg-via-cfdbcd.jpg"
+   },
+   "d383d124d63cbd46bfa95b0a343ae4a0": {
+    "bytes": 123480,
+    "derived_md5": "5800ca970e4e80176e781c93e3dc992d",
+    "key": "reproductive/5800ca97-syngonium-mauroanum-fig-134-inflorescence-photo-m-birdsey-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "d7629eaf0f277caa29cda02c5f87cd0d": {
+    "bytes": 357505,
+    "derived_md5": "e7140204c96facaf2f214bd5f0afb314",
+    "key": "vegetative/e7140204-syngonium-mauroanum-oliver-ingold-needs-id-arr-obs-192259137.jpg"
+   },
+   "dfa541a873f404dc215639f837fd2c68": {
+    "bytes": 339376,
+    "derived_md5": "dfa541a873f404dc215639f837fd2c68",
+    "key": "other/dfa541a8-syngonium-mauroanum-specimen-1995-panama-us-3337967-conv-84d442.jpg"
+   },
+   "e525fcc3809b7cab9ac0c9820a3412a9": {
+    "bytes": 116871,
+    "derived_md5": "e525fcc3809b7cab9ac0c9820a3412a9",
+    "key": "other/e525fcc3-syngonium-mauroanum-specimen-1995-panama-101680108-mbg-v-903458.jpg"
+   },
+   "f4da0af957e596fae325acaf1738da35": {
+    "bytes": 140013,
+    "derived_md5": "f4da0af957e596fae325acaf1738da35",
+    "key": "other/f4da0af9-syngonium-mauroanum-specimen-1990-panama-351740-mbg-via-09ede5.jpg"
+   },
+   "fe55e9bb8a68a01150100c14a1a3a4a9": {
+    "bytes": 338164,
+    "derived_md5": "fe55e9bb8a68a01150100c14a1a3a4a9",
+    "key": "other/fe55e9bb-syngonium-mauroanum-specimen-1995-panama-us-3337998-conv-b041cf.jpg"
+   }
+  },
+  "syngonium/meridense": {
+   "0fdcd302190aac4a669a4c0a0f0e4195": {
+    "bytes": 285852,
+    "derived_md5": "0fdcd302190aac4a669a4c0a0f0e4195",
+    "key": "protologue/0fdcd302-syngonium-meridense-protologue-acta-bot-venez-10-324-bunting-1975-p1.jpg"
+   },
+   "e465faa435c61c34bd451478e3b633b1": {
+    "bytes": 286406,
+    "derived_md5": "e465faa435c61c34bd451478e3b633b1",
+    "key": "protologue/e465faa4-syngonium-meridense-protologue-acta-bot-venez-10-324-bunting-1975-p2.jpg"
+   }
+  },
+  "syngonium/neglectum": {
+   "0da0c7ef71b3e4102bc95de469f165d7": {
+    "bytes": 22696,
+    "derived_md5": "0da0c7ef71b3e4102bc95de469f165d7",
+    "key": "other/0da0c7ef-syngonium-neglectum-international-aroid-society.jpg"
+   },
+   "1029441bbe02852708ad1e5cdecc1f8f": {
+    "bytes": 288091,
+    "derived_md5": "1029441bbe02852708ad1e5cdecc1f8f",
+    "key": "protologue/1029441b-syngonium-neglectum-protologue-bonplandia-7-163-schott-1859-p1.jpg"
+   },
+   "50503d06c987d3d0bb35ebb82e09255b": {
+    "bytes": 306905,
+    "derived_md5": "50503d06c987d3d0bb35ebb82e09255b",
+    "key": "protologue/50503d06-syngonium-neglectum-protologue-bonplandia-7-163-schott-1859-p3.jpg"
+   },
+   "96d5340b177ec7e1185a1547b3d27fa1": {
+    "bytes": 30185,
+    "derived_md5": "96d5340b177ec7e1185a1547b3d27fa1",
+    "key": "other/96d5340b-syngonium-neglectum-international-aroid-society-4.jpg"
+   },
+   "aa7768e7bc4a40b37e845e4537bf6001": {
+    "bytes": 341150,
+    "derived_md5": "aa7768e7bc4a40b37e845e4537bf6001",
+    "key": "protologue/aa7768e7-syngonium-neglectum-protologue-bonplandia-7-163-schott-1859-p2.jpg"
+   },
+   "e73502ab387b87fd88623eb25a212054": {
+    "bytes": 36789,
+    "derived_md5": "e73502ab387b87fd88623eb25a212054",
+    "key": "other/e73502ab-syngonium-neglectum-international-aroid-society-3.jpg"
+   },
+   "ea232a09638ba6224262619d57d99c75": {
+    "bytes": 24971,
+    "derived_md5": "ea232a09638ba6224262619d57d99c75",
+    "key": "other/ea232a09-syngonium-neglectum-international-aroid-society-2.jpg"
+   }
+  },
+  "syngonium/oduberi": {
+   "1c22481c5eb4edaaa458a7905faf8dd7": {
+    "bytes": 983072,
+    "derived_md5": "1c22481c5eb4edaaa458a7905faf8dd7",
+    "key": "vegetative/1c22481c-syngonium-oduberi-lostincr-2.jpg"
+   },
+   "2c28733703854734fa2c68a02e965167": {
+    "bytes": 190181,
+    "derived_md5": "2c28733703854734fa2c68a02e965167",
+    "key": "protologue/2c287337-syngonium-oduberi-protologue-aroideana-3-128-t-ray-1980-p2.jpg"
+   },
+   "2cde199a0f3f85baea5fbf413d23be46": {
+    "bytes": 789512,
+    "derived_md5": "2cde199a0f3f85baea5fbf413d23be46",
+    "key": "other/2cde199a-syngonium-oduberi-fig-160-knapp-2190-costa-rica-t-b-croat-croat-2023-aroideana-46-2-720-px.png"
+   },
+   "4b79239490768a6c3cc5c16bbab92aca": {
+    "bytes": 849391,
+    "derived_md5": "4b79239490768a6c3cc5c16bbab92aca",
+    "key": "reproductive/4b792394-syngonium-oduberi-lostincr-4.jpg"
+   },
+   "5815c216378268ce0ad1927717c59d03": {
+    "bytes": 701791,
+    "derived_md5": "5815c216378268ce0ad1927717c59d03",
+    "key": "reproductive/5815c216-syngonium-oduberi-lostincr-6.jpg"
+   },
+   "595ee4df003cfa1d21107eb24e93ccdd": {
+    "bytes": 321783,
+    "derived_md5": "595ee4df003cfa1d21107eb24e93ccdd",
+    "key": "protologue/595ee4df-syngonium-oduberi-protologue-aroideana-3-128-t-ray-1980-p1.jpg"
+   },
+   "5aaeb990664bae16f6aca46103ebb9cd": {
+    "bytes": 424378,
+    "derived_md5": "4d14900cc60e6898d2143ab308d8ce4c",
+    "key": "vegetative/4d14900c-syngonium-oduberi-lostincr.jpg"
+   },
+   "6e4ded65b0851256f704291dcc475d66": {
+    "bytes": 106897,
+    "derived_md5": "caee2c7ac7d5305f16e65fa6d1f27818",
+    "key": "other/caee2c7a-syngonium-oduberi-fig-159-ray-4-costa-rica-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "8199a28e64a4f8c0ca3d9fa18140e163": {
+    "bytes": 173291,
+    "derived_md5": "32b5bc1fdae334987e8eb39b13721e41",
+    "key": "vegetative/32b5bc1f-syngonium-oduberi-fig-158-closeup-of-abaxial-leaf-and-infructescence-costa-rica-photo-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "8a6eeb885ae2408250b715844147e590": {
+    "bytes": 684447,
+    "derived_md5": "8a6eeb885ae2408250b715844147e590",
+    "key": "vegetative/8a6eeb88-syngonium-oduberi-leonardo-lvarez-alc-zar-3.jpg"
+   },
+   "a9936936d8f4f0a33531a94e93ea04e0": {
+    "bytes": 274325,
+    "derived_md5": "37cfcc3677af8f55e3ca012c0664ae06",
+    "key": "vegetative/37cfcc36-syngonium-oduberi-leonardo-lvarez-alc-zar.jpg"
+   },
+   "b92a0407d08739756b07349443eb5ff9": {
+    "bytes": 658148,
+    "derived_md5": "b92a0407d08739756b07349443eb5ff9",
+    "key": "vegetative/b92a0407-syngonium-oduberi-leonardo-lvarez-alc-zar-2.jpg"
+   },
+   "bbbc5032f75fb70aabf47508101c20d6": {
+    "bytes": 157884,
+    "derived_md5": "8830cb9bc13023d8b7a049cd1ba25093",
+    "key": "vegetative/8830cb9b-syngonium-oduberi-fig-157-closeup-of-abaxial-leaf-and-infructescence-costa-rica-photo-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "d3a6dd072db10fe2ee96ee8b40486555": {
+    "bytes": 668613,
+    "derived_md5": "d3a6dd072db10fe2ee96ee8b40486555",
+    "key": "reproductive/d3a6dd07-syngonium-oduberi-leonardo-lvarez-alc-zar-5.jpg"
+   }
+  },
+  "syngonium/peliocladum": {
+   "0a9b1a36814b3eb143c0acaf37346615": {
+    "bytes": 808214,
+    "derived_md5": "0a9b1a36814b3eb143c0acaf37346615",
+    "key": "reproductive/0a9b1a36-syngonium-peliocladum-fig-166-cluster-of-inflorescences-aguilar-1163-costa-rica-t-b-croat-croat-2023-aroideana-46-2-720-px.png"
+   },
+   "0b0271ee4c4f13c93da1293c688bddb0": {
+    "bytes": 868239,
+    "derived_md5": "0b0271ee4c4f13c93da1293c688bddb0",
+    "key": "vegetative/0b0271ee-syngonium-peliocladum-fig-168-potted-juvenile-plant-costa-rica-photo-t-ray-t-b-croat-croat-2023-aroideana-46-2-720-px.png"
+   },
+   "1718bcceffbb5d7693468edbd9fb16ec": {
+    "bytes": 193430,
+    "derived_md5": "1718bcceffbb5d7693468edbd9fb16ec",
+    "key": "other/1718bcce-syngonium-peliocladum-specimen-1984-costa-rica-1815576-m-758c63.jpg"
+   },
+   "1981fb8a652afb1324726f077cee708c": {
+    "bytes": 228359,
+    "derived_md5": "1981fb8a652afb1324726f077cee708c",
+    "key": "protologue/1981fb8a-syngonium-peliocladum-protologue-prodr-syst-aroid-202-schott-1860-p2.jpg"
+   },
+   "1caef4ad8fb7e25f81c16f266ac9555c": {
+    "bytes": 117796,
+    "derived_md5": "1caef4ad8fb7e25f81c16f266ac9555c",
+    "key": "other/1caef4ad-syngonium-peliocladum-specimen-1984-costa-rica-101758551-af2528.jpg"
+   },
+   "22b5cd73b0ae323c5de5a149205e9313": {
+    "bytes": 255392,
+    "derived_md5": "22b5cd73b0ae323c5de5a149205e9313",
+    "key": "other/22b5cd73-powo-syngonium-peliocladum-01.jpg"
+   },
+   "2c67f9d1b79b7ce8cf78d760a0dfb994": {
+    "bytes": 149139,
+    "derived_md5": "2c67f9d1b79b7ce8cf78d760a0dfb994",
+    "key": "other/2c67f9d1-syngonium-peliocladum-specimen-1982-costa-rica-102142466-9556c4.jpg"
+   },
+   "318badbe42c61545c3a3deab38d86424": {
+    "bytes": 135882,
+    "derived_md5": "318badbe42c61545c3a3deab38d86424",
+    "key": "other/318badbe-syngonium-peliocladum-specimen-1978-costa-rica-2599026-m-fb1b0a.jpg"
+   },
+   "31b8a8b1ff3f3302365464c3b4d300a9": {
+    "bytes": 154660,
+    "derived_md5": "31b8a8b1ff3f3302365464c3b4d300a9",
+    "key": "other/31b8a8b1-syngonium-peliocladum-specimen-1984-costa-rica-101758551-fb040c.jpg"
+   },
+   "3cce4b7e888fe82cdd44dd42bfb447c3": {
+    "bytes": 192793,
+    "derived_md5": "3cce4b7e888fe82cdd44dd42bfb447c3",
+    "key": "other/3cce4b7e-syngonium-peliocladum-specimen-1978-costa-rica-2599026-m-945fa9.jpg"
+   },
+   "725d58ad5f5f404233dc1c90a3af383d": {
+    "bytes": 767470,
+    "derived_md5": "725d58ad5f5f404233dc1c90a3af383d",
+    "key": "reproductive/725d58ad-syngonium-peliocladum-fig-171-inflorescence-at-anthesis-aguilar-1163-costa-rica-t-b-croat-croat-2023-aroideana-46-2-720-px.png"
+   },
+   "754f301199bff5eea40f00715b9fbde7": {
+    "bytes": 127891,
+    "derived_md5": "6ada4fbbd459e33ab0a778c71e03144e",
+    "key": "other/6ada4fbb-syngonium-peliocladum-fig-178-croat-38082-panama-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "85687a2c64de2fddea651d881c3b8098": {
+    "bytes": 144435,
+    "derived_md5": "85687a2c64de2fddea651d881c3b8098",
+    "key": "other/85687a2c-syngonium-peliocladum-specimen-1982-costa-rica-101888266-66b00c.jpg"
+   },
+   "a0ab472f1bff48cf30bc30c370cca5eb": {
+    "bytes": 145568,
+    "derived_md5": "d0fa50bed9313c9f8f56c49e65790291",
+    "key": "other/d0fa50be-syngonium-peliocladum-fig-175-wilbur-jacobs-34456-costa-rica-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "a57ac9636212ebd07ed70791c7703ebb": {
+    "bytes": 156230,
+    "derived_md5": "5ab334aa897e9d5499544d0b6e67a2d4",
+    "key": "hero/5ab334aa-syngonium-peliocladum-fig-164-preadult-leaf-aguilar-1163-costa-rica-photo-r-aguilar-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "ac8433a60cdc78325e85f0a74365bcf5": {
+    "bytes": 121418,
+    "derived_md5": "8d75ca57b4b223318a7ad1e3552aaa0b",
+    "key": "other/8d75ca57-syngonium-peliocladum-fig-177-grayum-2470-costa-rica-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "b30ca7fd35bd5285ccc8c8bdb03ccc36": {
+    "bytes": 109973,
+    "derived_md5": "e69ff8728bc5fe4d352142ea349fe085",
+    "key": "reproductive/e69ff872-syngonium-peliocladum-fig-173-cut-open-spathe-aguilar-1163-costa-rica-photo-r-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "b64c349a0b86c1ec5aa23d6a23b1bd63": {
+    "bytes": 141527,
+    "derived_md5": "b64c349a0b86c1ec5aa23d6a23b1bd63",
+    "key": "other/b64c349a-syngonium-peliocladum-specimen-1978-costa-rica-2599026-m-a64161.jpg"
+   },
+   "bfb688776392d2a2d8e75f21dec59d35": {
+    "bytes": 284720,
+    "derived_md5": "40a85ed9b4d35b3b48654ed66477fce8",
+    "key": "reproductive/40a85ed9-syngonium-peliocladum-leonardo-lvarez-alc-zar-needs-id-cc-by-nc-obs-103532220-2.jpg"
+   },
+   "c2747b9081578ce822695ca5a28d282e": {
+    "bytes": 146394,
+    "derived_md5": "c2747b9081578ce822695ca5a28d282e",
+    "key": "other/c2747b90-syngonium-peliocladum-specimen-1984-costa-rica-102158244-316596.jpg"
+   },
+   "d04b0416e3a5e6ceb99fd06396ec0d30": {
+    "bytes": 1020060,
+    "derived_md5": "d04b0416e3a5e6ceb99fd06396ec0d30",
+    "key": "reproductive/d04b0416-syngonium-peliocladum-fig-167-habit-of-flowering-plant-la-selva-costa-rica-photo-t-b-croat-croat-2023-aroideana-46-2-720-px.png"
+   },
+   "d547590a24040dde90ebdf2d3263d994": {
+    "bytes": 240747,
+    "derived_md5": "d547590a24040dde90ebdf2d3263d994",
+    "key": "protologue/d547590a-syngonium-peliocladum-protologue-prodr-syst-aroid-202-schott-1860-p3.jpg"
+   },
+   "d74619c55bddd99e7014e1672c586b71": {
+    "bytes": 122591,
+    "derived_md5": "12fa03eb5f566437b083f502af9e33ae",
+    "key": "other/12fa03eb-syngonium-peliocladum-fig-176-croat-38225-panama-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "d860ce04683a4a4bb774744bacf6e660": {
+    "bytes": 545446,
+    "derived_md5": "d860ce04683a4a4bb774744bacf6e660",
+    "key": "vegetative/d860ce04-syngonium-peliocladum-fig-169-stem-showing-trichomes-r-aguilar-1163-costa-rica-t-b-croat-croat-2023-aroideana-46-2-720-px.png"
+   },
+   "dd9703ba98dce4dee4f18d23235ed7c8": {
+    "bytes": 122516,
+    "derived_md5": "dd9703ba98dce4dee4f18d23235ed7c8",
+    "key": "other/dd9703ba-syngonium-peliocladum-specimen-1989-costa-rica-101523548-319d7b.jpg"
+   },
+   "df495da7ac3d44342047c1417f239453": {
+    "bytes": 146837,
+    "derived_md5": "479238e939e9e7696e1373d041973b3d",
+    "key": "vegetative/479238e9-syngonium-peliocladum-fig-163-adaxial-leaf-aguilar-1163-costa-rica-photo-r-aguilar-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "e36bafed0fbe1c7f6e5a5962e2696c9c": {
+    "bytes": 608592,
+    "derived_md5": "e36bafed0fbe1c7f6e5a5962e2696c9c",
+    "key": "vegetative/e36bafed-syngonium-peliocladum-fig-170-petiole-cross-section-showing-milky-sap-aguilar-1163-t-b-croat-croat-2023-aroideana-46-2-720-px.png"
+   },
+   "e3c9c2a86e072abaec44894aa2660e59": {
+    "bytes": 107648,
+    "derived_md5": "e3c9c2a86e072abaec44894aa2660e59",
+    "key": "other/e3c9c2a8-syngonium-peliocladum-specimen-1987-costa-rica-384451-mb-accbff.jpg"
+   },
+   "e45cefc91b9058e41920543fed514e8f": {
+    "bytes": 862957,
+    "derived_md5": "e45cefc91b9058e41920543fed514e8f",
+    "key": "reproductive/e45cefc9-syngonium-peliocladum-leonardo-lvarez-alc-zar-needs-id-cc-by-nc-obs-103532220.jpg"
+   },
+   "ed57a33b32dd284b18726ad0edc6b413": {
+    "bytes": 72442,
+    "derived_md5": "a706340d58a75b511399c1d094a574a8",
+    "key": "reproductive/a706340d-syngonium-peliocladum-fig-172-insects-on-staminate-spadix-photo-t-ray-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "f1304078cfb9304a8eb12a726324dc60": {
+    "bytes": 441422,
+    "derived_md5": "d286f29c30516ec12fc6efc8a59be9c1",
+    "key": "vegetative/d286f29c-syngonium-peliocladum-jitnatthakwan-casual-cc-by-nc-obs-152584878.jpg"
+   },
+   "f2919c4b6b1b658dcf5db8686b6b6372": {
+    "bytes": 242000,
+    "derived_md5": "f2919c4b6b1b658dcf5db8686b6b6372",
+    "key": "protologue/f2919c4b-syngonium-peliocladum-protologue-prodr-syst-aroid-202-schott-1860-p1.jpg"
+   }
+  },
+  "syngonium/podophyllum": {
+   "22e12b0a99fcfb6c3cd06db0642eb6e7": {
+    "bytes": 519950,
+    "derived_md5": "22e12b0a99fcfb6c3cd06db0642eb6e7",
+    "key": "protologue/22e12b0a-syngonium-podophyllum-protologue-bot-zeitung-berlin-9-85-schott-1851-p2.jpg"
+   },
+   "23026374f2e4d1f33287481f63cfc1b3": {
+    "bytes": 120996,
+    "derived_md5": "c1e273df502fc6e808cde03279b52d7d",
+    "key": "other/c1e273df-syngonium-podophyllum-fig-191-croat-11426-panama-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "26485f19cb42036b017cb2e7a3ecbcc5": {
+    "bytes": 121978,
+    "derived_md5": "ceb5ec47f913742eb734cee8bd9e8bde",
+    "key": "other/ceb5ec47-syngonium-podophyllum-fig-188-cowan-3930-mexico-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "292cf67e79aaca7bebdd3929a4d3d211": {
+    "bytes": 116953,
+    "derived_md5": "292cf67e79aaca7bebdd3929a4d3d211",
+    "key": "reproductive/292cf67e-syngonium-podophyllum-kevin-c-nixon-cornell-bh-phytoimages-157937.jpg"
+   },
+   "37489ea29a42d0086f77435426eb6533": {
+    "bytes": 459690,
+    "derived_md5": "37489ea29a42d0086f77435426eb6533",
+    "key": "reproductive/37489ea2-syngonium-podophyllum-isatuccilli.jpg"
+   },
+   "394096de54cb9de832c44b3a2df194c1": {
+    "bytes": 197444,
+    "derived_md5": "61bb78de2a3fb60366a9a400f45e535f",
+    "key": "vegetative/61bb78de-syngonium-podophyllum-fig-183-baron-204-belize-photo-e-baron-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "3e3059167c86fd36d1557c6d1c48d80f": {
+    "bytes": 230421,
+    "derived_md5": "3e3059167c86fd36d1557c6d1c48d80f",
+    "key": "reproductive/3e305916-syngonium-podophyllum-ravan-schneider-cornell-bh-phytoimages-64540.jpg"
+   },
+   "439c255ad4b19d143fa4c9d598690e51": {
+    "bytes": 253356,
+    "derived_md5": "e96efab95037ee517015d0b27e5e91fe",
+    "key": "reproductive/e96efab9-syngonium-podophyllum-mauricio.jpg"
+   },
+   "4939b0331afd3fcf20f7dc486e429e79": {
+    "bytes": 198748,
+    "derived_md5": "4939b0331afd3fcf20f7dc486e429e79",
+    "key": "reproductive/4939b033-syngonium-podophyllum-kevin-c-nixon-cornell-bh-phytoimages-157936.jpg"
+   },
+   "558c12db0d842d216adec6e3287bebf6": {
+    "bytes": 659773,
+    "derived_md5": "558c12db0d842d216adec6e3287bebf6",
+    "key": "reproductive/558c12db-syngonium-podophyllum.jpeg"
+   },
+   "5822cac0f06e19977359582e56da9bee": {
+    "bytes": 179292,
+    "derived_md5": "5822cac0f06e19977359582e56da9bee",
+    "key": "reproductive/5822cac0-syngonium-podophyllum-ravan-schneider-cornell-bh-phytoimages-64535.jpg"
+   },
+   "58ab2fe49e4cd00d894ad18b5c664488": {
+    "bytes": 125104,
+    "derived_md5": "58ab2fe49e4cd00d894ad18b5c664488",
+    "key": "reproductive/58ab2fe4-syngonium-podophyllum-ds-lyon-syngpodophyllum3-pictured-at-the-jardin-botanique-de-lyon-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
+   "5c84d66c25c8f00536be654b9bedf0bc": {
+    "bytes": 557095,
+    "derived_md5": "5c84d66c25c8f00536be654b9bedf0bc",
+    "key": "protologue/5c84d66c-syngonium-podophyllum-protologue-bot-zeitung-berlin-9-85-schott-1851-p1.jpg"
+   },
+   "5e911f5c242140cf233b8487b1f5687c": {
+    "bytes": 29818,
+    "derived_md5": "5e911f5c242140cf233b8487b1f5687c",
+    "key": "reproductive/5e911f5c-syngonium-podophyllum-international-aroid-society-2.jpg"
+   },
+   "6442c6070db24156ca9d725d2b59648f": {
+    "bytes": 512100,
+    "derived_md5": "9d643c49a7794223643b91270b143a37",
+    "key": "reproductive/9d643c49-syngonium-podophyllum-rigoberto-pantoja.jpg"
+   },
+   "667c4c6af1ca40071eb28d3d95f6092e": {
+    "bytes": 41744,
+    "derived_md5": "667c4c6af1ca40071eb28d3d95f6092e",
+    "key": "vegetative/667c4c6a-syngonium-podophyllum-international-aroid-society-3.jpg"
+   },
+   "757753f536bdc6aa1180c11157e5e508": {
+    "bytes": 228091,
+    "derived_md5": "757753f536bdc6aa1180c11157e5e508",
+    "key": "vegetative/757753f5-syngonium-podophyllum-d-l-nickrent-cornell-bh-phytoimages-17981.jpg"
+   },
+   "7a3fe2761a04a2b6102b7be9b4364a7f": {
+    "bytes": 189611,
+    "derived_md5": "7a3fe2761a04a2b6102b7be9b4364a7f",
+    "key": "vegetative/7a3fe276-syngonium-podophyllum-d-l-nickrent-cornell-bh-phytoimages-17982.jpg"
+   },
+   "7a6abc7fbbf1e52bfdd4c5477c4b069e": {
+    "bytes": 284195,
+    "derived_md5": "7a6abc7fbbf1e52bfdd4c5477c4b069e",
+    "key": "reproductive/7a6abc7f-syngonium-podophyllum-ravan-schneider-cornell-bh-phytoimages-64527.jpg"
+   },
+   "7b98754fce8e9c2f1fd908eebcd6f5c3": {
+    "bytes": 122855,
+    "derived_md5": "d9b5520f4081202f2f5271172fb79f84",
+    "key": "other/d9b5520f-syngonium-podophyllum-fig-189-croat-42934-mexico-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "828bea4e4f86d35152baed72378eb812": {
+    "bytes": 677320,
+    "derived_md5": "828bea4e4f86d35152baed72378eb812",
+    "key": "vegetative/828bea4e-syngonium-podophyllum-wally-suarez-cornell-bh-phytoimages-151550.jpg"
+   },
+   "88fd2fd17f6fdfc115755a063d949c57": {
+    "bytes": 889449,
+    "derived_md5": "88fd2fd17f6fdfc115755a063d949c57",
+    "key": "vegetative/88fd2fd1-syngonium-podophyllum-wally-suarez-cornell-bh-phytoimages-151551.jpg"
+   },
+   "897b1a3ed6370b8cf4acff75371eb04b": {
+    "bytes": 125243,
+    "derived_md5": "9188e842a869c197d9f1762f1039d633",
+    "key": "other/9188e842-syngonium-podophyllum-fig-190-croat-100282-mexico-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "964da2e9555c6fd518c282a7540dfcf1": {
+    "bytes": 39599,
+    "derived_md5": "964da2e9555c6fd518c282a7540dfcf1",
+    "key": "vegetative/964da2e9-syngonium-podophyllum-international-aroid-society.jpg"
+   },
+   "9d236ecfac82406d5d49e8543993e71e": {
+    "bytes": 152291,
+    "derived_md5": "9d236ecfac82406d5d49e8543993e71e",
+    "key": "hero/9d236ecf-syngonium-podophyllum-ds-lyon-syngpodophyllum2009-pictured-at-the-jardin-botanique-de-lyon-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
+   "9f5cf444a0d65fd6f2abdd438ecba158": {
+    "bytes": 466610,
+    "derived_md5": "36caac3d0c241bfb46dbf8153217c141",
+    "key": "vegetative/36caac3d-syngonium-podophyllum-sea-kangaroo.jpg"
+   },
+   "a269988412280340c4dfd4990b3432e8": {
+    "bytes": 241473,
+    "derived_md5": "e6b3e561843b0007011a3d0fdad7141d",
+    "key": "vegetative/e6b3e561-syngonium-podophyllum-dana-lee-ling.jpg"
+   },
+   "b9dcf7ad0991484dc3711cba91ca6ff8": {
+    "bytes": 168173,
+    "derived_md5": "b9dcf7ad0991484dc3711cba91ca6ff8",
+    "key": "reproductive/b9dcf7ad-syngonium-podophyllum-ds-lyon-syngopodophyllum040173fr-pictured-at-the-jardin-botanique-de-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
+   "c2d56abde80133e8f08ea46c8cebd875": {
+    "bytes": 643890,
+    "derived_md5": "c2d56abde80133e8f08ea46c8cebd875",
+    "key": "reproductive/c2d56abd-syngonium-podophyllum-fig-186-inflorescence-with-spathe-cut-away-baron-204-belize-t-b-croat-croat-2023-aroideana-46-2-720-px.png"
+   },
+   "c792060f2aa98fb4c022457e23701a8a": {
+    "bytes": 349276,
+    "derived_md5": "c792060f2aa98fb4c022457e23701a8a",
+    "key": "vegetative/c792060f-syngonium-podophyllum-t-m-mitchell-cornell-bh-phytoimages-108413.jpg"
+   },
+   "d113555d7748408633fb12d7d7af322e": {
+    "bytes": 115733,
+    "derived_md5": "d113555d7748408633fb12d7d7af322e",
+    "key": "reproductive/d113555d-syngonium-podophyllum-ds-lyon-syngpodophyllum-pictured-at-the-jardin-botanique-de-lyon-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
+   "d7027c68908bf7746fdf145bb3d73d53": {
+    "bytes": 177181,
+    "derived_md5": "d7027c68908bf7746fdf145bb3d73d53",
+    "key": "vegetative/d7027c68-syngonium-podophyllum-ravan-schneider-cornell-bh-phytoimages-64545.jpg"
+   },
+   "de320bee116cdac81ba3fadf981f4ea1": {
+    "bytes": 218535,
+    "derived_md5": "de320bee116cdac81ba3fadf981f4ea1",
+    "key": "vegetative/de320bee-syngonium-podophyllum-d-l-nickrent-cornell-bh-phytoimages-17983.jpg"
+   },
+   "f61113a6e00a44be7ce0d23234aa4085": {
+    "bytes": 94002,
+    "derived_md5": "df99b185e9caa6ecbe3857e4ffc7bb3d",
+    "key": "other/df99b185-syngonium-podophyllum-fig-192-gentry-428-panama-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   }
+  },
+  "syngonium/podophyllum-albo-variegatum": {
+   "09af850da479a26c6123c2e3b69fbfc9": {
+    "bytes": 695140,
+    "derived_md5": "09af850da479a26c6123c2e3b69fbfc9",
+    "key": "hero/09af850d-syngonium-podophyllum-albo-variegatum-yercaud-elango-wikimedia-commons-cc-by-sa-4-0.jpg"
+   },
+   "86cc7756bf33659b8f6e412c8af07444": {
+    "bytes": 848725,
+    "derived_md5": "86cc7756bf33659b8f6e412c8af07444",
+    "key": "vegetative/86cc7756-syngonium-podophyllum-albo-variegatum-yercaud-elango-wikimedia-commons-cc-by-sa-4-0-3.jpg"
+   }
+  },
+  "syngonium/podophyllum-angelwing": {
+   "3633ec6097de80d6584f229f6f623e52": {
+    "bytes": 421455,
+    "derived_md5": "3633ec6097de80d6584f229f6f623e52",
+    "key": "vegetative/3633ec60-syngonium-podophyllum-angelwing-us-plant-patent-pp6016-casa-flora-1987-plate-5.png"
+   },
+   "733edc926d4d10f7d99a74bd6a90bc25": {
+    "bytes": 430690,
+    "derived_md5": "8cc5f83016326041147d5784dbdf285a",
+    "key": "vegetative/8cc5f830-syngonium-podophyllum-angelwing-us-plant-patent-pp6016-casa-flora-1987-plate-3.jpg"
+   },
+   "eb19e6ff398ad2ede91e869c60c67472": {
+    "bytes": 527443,
+    "derived_md5": "eb19e6ff398ad2ede91e869c60c67472",
+    "key": "vegetative/eb19e6ff-syngonium-podophyllum-angelwing-us-plant-patent-pp6016-casa-flora-1987-plate-4.png"
+   }
+  },
+  "syngonium/podophyllum-beth": {
+   "12ee075fc7e15111340b22548c06ce60": {
+    "bytes": 265139,
+    "derived_md5": "12ee075fc7e15111340b22548c06ce60",
+    "key": "vegetative/12ee075f-syngonium-podophyllum-beth-us-plant-patent-pp9663-garden-arts-nursery-1996-plate-4.png"
+   },
+   "7b10ac0842df68cb5bdea2a6e77cb70a": {
+    "bytes": 804861,
+    "derived_md5": "7b10ac0842df68cb5bdea2a6e77cb70a",
+    "key": "hero/7b10ac08-syngonium-podophyllum-beth-us-plant-patent-pp9663-garden-arts-nursery-1996-plate-3.png"
+   }
+  },
+  "syngonium/podophyllum-bob-white": {
+   "d0bd51daba13fc24935e98913a9ec5f1": {
+    "bytes": 505095,
+    "derived_md5": "a710dc60e9dfce36204d923a120d14cc",
+    "key": "vegetative/a710dc60-syngonium-podophyllum-bob-white-us-plant-patent-pp9894-vanderlaan-brothers-1997-plate-4.jpg"
+   },
+   "ee67870406d9e0e9bf4388ffc22d5385": {
+    "bytes": 565485,
+    "derived_md5": "adbc05da54b0c880339c584310d87a14",
+    "key": "vegetative/adbc05da-syngonium-podophyllum-bob-white-us-plant-patent-pp9894-vanderlaan-brothers-1997-plate-3.jpg"
+   }
+  },
+  "syngonium/podophyllum-cla-20230912": {
+   "a1fc7d68eb1a74803720f5ab49e480df": {
+    "bytes": 277370,
+    "derived_md5": "2676073b92e7369f0408e1849df2505b",
+    "key": "vegetative/2676073b-syngonium-podophyllum-cla-20230912-us-plant-patent-pp36275-flores-laeti-2024-plate-3.jpg"
+   }
+  },
+  "syngonium/podophyllum-confetti": {
+   "80d698ddf996b63c9540d49f8b4b1ab9": {
+    "bytes": 411060,
+    "derived_md5": "4f31456aea51e431fb26917e3fbecc19",
+    "key": "vegetative/4f31456a-syngonium-podophyllum-confetti-us-plant-patent-pp18016-agri-starts-2007-plate-4-photo-2-of-2-leaf.jpg"
+   },
+   "edd937928f6bdd8992c6ffc2366721cc": {
+    "bytes": 423025,
+    "derived_md5": "32fd555f14c72a77894d74b5b93889b0",
+    "key": "vegetative/32fd555f-syngonium-podophyllum-confetti-us-plant-patent-pp18016-agri-starts-2007-plate-4-photo-1-of-2-plant.jpg"
+   },
+   "f3e769c41e00628a024c8bcf5d15db20": {
+    "bytes": 395125,
+    "derived_md5": "879003bf2c2ee217f281629a41fc0ee3",
+    "key": "vegetative/879003bf-syngonium-podophyllum-confetti-us-plant-patent-pp18016-agri-starts-2007-plate-3.jpg"
+   }
+  },
+  "syngonium/podophyllum-emerald-green": {
+   "2c313d80e717befae31c71626e14317c": {
+    "bytes": 412566,
+    "derived_md5": "2c313d80e717befae31c71626e14317c",
+    "key": "hero/2c313d80-syngonium-podophyllum-emerald-green-jerzy-opio-a-wikimedia-commons-cc-by-sa-4-0.jpg"
+   }
+  },
+  "syngonium/podophyllum-glo-go": {
+   "1099ee3ea60ba817211d290a4f1af6ed": {
+    "bytes": 294896,
+    "derived_md5": "1ab88800ee7e324af1ca67caab347751",
+    "key": "vegetative/1ab88800-syngonium-podophyllum-glo-go-us-plant-patent-pp12282-oglesby-plants-international-2001-plate-4.jpg"
+   },
+   "7ca3a934021ca843af984f54121ded68": {
+    "bytes": 327056,
+    "derived_md5": "a31b802b1add6d53da1e9120715c45ad",
+    "key": "vegetative/a31b802b-syngonium-podophyllum-glo-go-us-plant-patent-pp12282-oglesby-plants-international-2001-plate-5.jpg"
+   }
+  },
+  "syngonium/podophyllum-imperial-white": {
+   "8a713edef458d73d24d87ce7ec4afe7a": {
+    "bytes": 276613,
+    "derived_md5": "7048f6013e92f9bbd801bc2adb73e86e",
+    "key": "hero/7048f601-syngonium-podophyllum-imperial-white-dinesh-valke-wikimedia-commons-cc-by-sa-2-0.jpg"
+   }
+  },
+  "syngonium/podophyllum-infra-red": {
+   "9561fa504bb8f56db618732480aa1ff7": {
+    "bytes": 272136,
+    "derived_md5": "53800704e32ec386d3234b2d8e880120",
+    "key": "vegetative/53800704-syngonium-podophyllum-infra-red-us-plant-patent-pp8374-phytotech-australia-1993-plate-3.jpg"
+   },
+   "af44299de048b925365fd92e23feb667": {
+    "bytes": 559222,
+    "derived_md5": "af44299de048b925365fd92e23feb667",
+    "key": "vegetative/af44299d-syngonium-podophyllum-infra-red-us-plant-patent-pp8374-phytotech-australia-1993-plate-4.png"
+   },
+   "db735d789d79cdb8f8ff1ad734af6859": {
+    "bytes": 250188,
+    "derived_md5": "db735d789d79cdb8f8ff1ad734af6859",
+    "key": "vegetative/db735d78-syngonium-podophyllum-infra-red-us-plant-patent-pp8374-phytotech-australia-1993-plate-5.png"
+   }
+  },
+  "syngonium/podophyllum-magnum": {
+   "2e0e7f5a650b4b165063e8c3b3ad5e92": {
+    "bytes": 721330,
+    "derived_md5": "2e0e7f5a650b4b165063e8c3b3ad5e92",
+    "key": "hero/2e0e7f5a-syngonium-podophyllum-magnum-us-plant-patent-pp6120-gary-welter-1988-plate-3-photo-1-of-2-plant.png"
+   },
+   "b0775bafad541d68eb4887a86dce8e3f": {
+    "bytes": 525930,
+    "derived_md5": "b0775bafad541d68eb4887a86dce8e3f",
+    "key": "vegetative/b0775baf-syngonium-podophyllum-magnum-us-plant-patent-pp6120-gary-welter-1988-plate-3-photo-2-of-2-leaf-of-magnum-beside-white-butterfly.png"
+   }
+  },
+  "syngonium/podophyllum-maria-allusion": {
+   "e2cfbaff944d626c2593fabf0f3ae3a8": {
+    "bytes": 413979,
+    "derived_md5": "eca2172f8834c134723b87115193c0d3",
+    "key": "hero/eca2172f-syngonium-podophyllum-maria-allusion-forest-and-kim-starr-wikimedia-commons-cc-by-3-0-us.jpg"
+   }
+  },
+  "syngonium/podophyllum-neon-robusta": {
+   "5f620522ae16e1a239685231c1bc7676": {
+    "bytes": 300066,
+    "derived_md5": "135499048cb8b743d60305c4c4ee2b35",
+    "key": "vegetative/13549904-syngonium-podophyllum-neon-robusta-us-plant-patent-pp18013-agri-starts-2007-plate-3.jpg"
+   },
+   "b85726640e4214cf0d22f8815059d0b8": {
+    "bytes": 557286,
+    "derived_md5": "f04b8a24afb28aa0cb5b6e08225fd270",
+    "key": "vegetative/f04b8a24-syngonium-podophyllum-neon-robusta-us-plant-patent-pp18013-agri-starts-2007-plate-4.jpg"
+   }
+  },
+  "syngonium/podophyllum-pink-allusion": {
+   "11ddef0025ccac901c15a47b8ad0236a": {
+    "bytes": 239670,
+    "derived_md5": "6900a24cec880292e3248d01f1aca443",
+    "key": "vegetative/6900a24c-syngonium-podophyllum-pink-allusion-yercaud-elango-wikimedia-commons-cc-by-sa-4-0-2.jpg"
+   },
+   "5024e451856bac0676d92723c77c5a0c": {
+    "bytes": 144663,
+    "derived_md5": "50f4525a21bc4f453d14fd20bf958085",
+    "key": "hero/50f4525a-syngonium-podophyllum-pink-allusion-kenraiz-krzysztof-ziarnek-wikimedia-commons-cc-by-sa-4-0.jpg"
+   }
+  },
+  "syngonium/podophyllum-tri-leaf-wonder": {
+   "c076ec755755c08146303045d2f07950": {
+    "bytes": 280255,
+    "derived_md5": "cf1bf975422942dd90de10a30d1e89df",
+    "key": "vegetative/cf1bf975-syngonium-podophyllum-tri-leaf-wonder-us-plant-patent-763-j-c-rutenschroer-1947-plate-1.jpg"
+   }
+  },
+  "syngonium/podophyllum-white-butterfly": {
+   "151580b00c9666cc2ae7bafbc3bd76fc": {
+    "bytes": 312198,
+    "derived_md5": "e7ceec7a0e340fdad54cfebc462de833",
+    "key": "vegetative/e7ceec7a-syngonium-podophyllum-white-butterfly-derek-ramsey-wikimedia-commons-gfdl-1-2.jpg"
+   },
+   "8af097c0b03542f8801ab8216e35ce4d": {
+    "bytes": 383750,
+    "derived_md5": "8af097c0b03542f8801ab8216e35ce4d",
+    "key": "hero/8af097c0-syngonium-podophyllum-white-butterfly-david-j-stang-wikimedia-commons-cc-by-sa-4-0.jpg"
+   },
+   "c18097e51c6d42ca5064f9c95ceee7e4": {
+    "bytes": 368946,
+    "derived_md5": "67b05df581a2300c2dc2a47b8cc17a6e",
+    "key": "vegetative/67b05df5-syngonium-podophyllum-white-butterfly-derek-ramsey-wikimedia-commons-gfdl-1-2-2.jpg"
+   }
+  },
+  "syngonium/purpureospathum": {
+   "0537e166aece019ab99d9097d2ef3199": {
+    "bytes": 375732,
+    "derived_md5": "0537e166aece019ab99d9097d2ef3199",
+    "key": "protologue/0537e166-syngonium-purpureospathum-protologue-novon-27-62-croat-raz-2019-p1.jpg"
+   },
+   "35ed9b76b7cf50c044561b0f7dfb0b29": {
+    "bytes": 464322,
+    "derived_md5": "35ed9b76b7cf50c044561b0f7dfb0b29",
+    "key": "protologue/35ed9b76-syngonium-purpureospathum-protologue-novon-27-62-croat-raz-2019-p2.jpg"
+   },
+   "55dc910804463994eaccd18a21011ca6": {
+    "bytes": 114395,
+    "derived_md5": "b2035381b60688da8ae975298d961bdc",
+    "key": "hero/b2035381-syngonium-purpureospathum-fig-193-flowering-plant-raz-et-al-718-jamaica-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "a2227b8c24c675f1f706ef81e08a704f": {
+    "bytes": 99023,
+    "derived_md5": "e840924db911a74c5cd74a47689fc902",
+    "key": "other/e840924d-syngonium-purpureospathum-fig-194-raz-et-al-718-jamaica-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   }
+  },
+  "syngonium/rayi": {
+   "091af3c9b40adfd65a52b9fa9b0c822c": {
+    "bytes": 765849,
+    "derived_md5": "dfa724c08aeeb61ac4569923e3dca07f",
+    "key": "vegetative/dfa724c0-syngonium-rayi-nickrope.jpg"
+   },
+   "1b96f70b587629d41d0724ea913243f6": {
+    "bytes": 1015692,
+    "derived_md5": "1b96f70b587629d41d0724ea913243f6",
+    "key": "other/1b96f70b-syngonium-rayi-fig-200-grayum-13025-costa-rica-t-b-croat-croat-2023-aroideana-46-2-720-px.png"
+   },
+   "1f24c0144084a353b29f10c8c7e9be2d": {
+    "bytes": 654068,
+    "derived_md5": "34381319e606063b8841c67ee705892e",
+    "key": "vegetative/34381319-syngonium-rayi-njweess-2.jpg"
+   },
+   "2b6bfaa5d21c015544d36a6abcf3f239": {
+    "bytes": 101290,
+    "derived_md5": "1aaec0a31c1d2fdb9bc426f2640495ed",
+    "key": "reproductive/1aaec0a3-syngonium-rayi-fig-199-inflorescence-with-open-spathe-croat-78434-photo-e-colleti-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "2ba00bf89d131006c29534c7b7cd6522": {
+    "bytes": 249348,
+    "derived_md5": "2ba00bf89d131006c29534c7b7cd6522",
+    "key": "protologue/2ba00bf8-syngonium-rayi-protologue-phytologia-82-53-croat-grayum-1997-p1.jpg"
+   },
+   "3a7da22182773702b580992100980440": {
+    "bytes": 114310,
+    "derived_md5": "6f43a497c751ad3feda23a094cc4426e",
+    "key": "other/6f43a497-syngonium-rayi-fig-201-type-luther-s-n-costa-rica-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "4c160f97d3124468e6da7b1510fb1a59": {
+    "bytes": 969766,
+    "derived_md5": "4c160f97d3124468e6da7b1510fb1a59",
+    "key": "vegetative/4c160f97-syngonium-rayi-fig-196-juvenile-potted-plant-cultivated-at-kbcc-taiwan-t-b-croat-croat-2023-aroideana-46-2-720-px.png"
+   },
+   "5536a8d2559cc63f7245873b60adb40a": {
+    "bytes": 157094,
+    "derived_md5": "2c6fb6e1d8d7360e2da16a97821a825c",
+    "key": "reproductive/2c6fb6e1-syngonium-rayi-fig-197-inflorescences-on-cultivated-plant-missouri-botanical-garden-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "9faf0b700deabe41da87af9fd75de1c5": {
+    "bytes": 406233,
+    "derived_md5": "11de2bf666af4cd8355e4fcfc0a1e8ee",
+    "key": "vegetative/11de2bf6-syngonium-rayi-nickrope-7.jpg"
+   },
+   "a3d6dc6d2b064a62580010bef006badc": {
+    "bytes": 582027,
+    "derived_md5": "958f1f426214292effab4e5d41037c6f",
+    "key": "vegetative/958f1f42-syngonium-rayi-ocean-fleskes.jpg"
+   },
+   "be0eb7e149c053ccd32f498cfccec368": {
+    "bytes": 137834,
+    "derived_md5": "d253d4cc26166ff8a86cabd28f3460f8",
+    "key": "reproductive/d253d4cc-syngonium-rayi-fig-198-closeup-of-inflorescence-cultivated-at-kbcc-taiwan-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "c8c2bae6d8bf43851a94e01a9b332635": {
+    "bytes": 540164,
+    "derived_md5": "4f4d8af6a33bbb80bc5925f2998f9bbb",
+    "key": "vegetative/4f4d8af6-syngonium-rayi-njweess.jpg"
+   },
+   "da45da9e6d9270a4fa1219d5f7f071cb": {
+    "bytes": 327360,
+    "derived_md5": "7fb64fbdf87c78f95a624aeb2cf01c21",
+    "key": "vegetative/7fb64fbd-syngonium-rayi-nickrope-5.jpg"
+   },
+   "f1f39644b93fbf0bd23d8987e7423370": {
+    "bytes": 285814,
+    "derived_md5": "f1f39644b93fbf0bd23d8987e7423370",
+    "key": "protologue/f1f39644-syngonium-rayi-protologue-phytologia-82-53-croat-grayum-1997-p2.jpg"
+   },
+   "f8d07253938849f89c99d7805f42c866": {
+    "bytes": 192794,
+    "derived_md5": "f8d07253938849f89c99d7805f42c866",
+    "key": "other/f8d07253-powo-syngonium-rayi-01.jpg"
+   },
+   "fcf8a8b1716e7ccfa3619122a568e735": {
+    "bytes": 143850,
+    "derived_md5": "77cbda9805b72b962608aa5ac6898f09",
+    "key": "vegetative/77cbda98-syngonium-rayi-fig-195-adaxial-leaf-blade-cult-at-missouri-botanical-garden-croat-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   }
+  },
+  "syngonium/sagittatum": {
+   "0a3af962bfd7d1371c2ceae8b163315d": {
+    "bytes": 143139,
+    "derived_md5": "0a3af962bfd7d1371c2ceae8b163315d",
+    "key": "other/0a3af962-syngonium-sagittatum-specimen-1985-mexico-101508716-mbg-8e0682.jpg"
+   },
+   "0b79c401c8c0e25c69efde1446cfacf1": {
+    "bytes": 595265,
+    "derived_md5": "499ec14f60dc8cc1af17567c26ebdfaa",
+    "key": "other/499ec14f-syngonium-sagittatum-specimen-1964-mexico-k000400719-bun-0df8e9.jpg"
+   },
+   "1c3939157c189b0c8035b37c1c87c01a": {
+    "bytes": 146921,
+    "derived_md5": "1c3939157c189b0c8035b37c1c87c01a",
+    "key": "other/1c393915-syngonium-sagittatum-specimen-1979-mexico-1398757-mbg-vi-b27928.jpg"
+   },
+   "219277e7605de8b25d9180aa32df68f1": {
+    "bytes": 419903,
+    "derived_md5": "219277e7605de8b25d9180aa32df68f1",
+    "key": "vegetative/219277e7-syngonium-sagittatum-juan-carlos-garcia-morales-needs-id-arr-obs-4981667.jpg"
+   },
+   "2a3cf235c5abf0b911233b3d3c733dd8": {
+    "bytes": 116695,
+    "derived_md5": "72b88f8539f9c39dde36b802c8be914b",
+    "key": "other/72b88f85-syngonium-sagittatum-fig-205-croat-48080-mexico-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "33c2a11814d6e0171bbb989e30e917fd": {
+    "bytes": 644777,
+    "derived_md5": "5c7b199deaa8fffb259102b07b73064c",
+    "key": "vegetative/5c7b199d-syngonium-sagittatum-f-tima-isabel-parra-rodr-guez-3.jpg"
+   },
+   "346819072efb430315032d9020dada35": {
+    "bytes": 134202,
+    "derived_md5": "346819072efb430315032d9020dada35",
+    "key": "other/34681907-syngonium-sagittatum-specimen-1979-mexico-1398757-mbg-vi-ca2b5c.jpg"
+   },
+   "35be88e384b3673bad37db350a0b9f6e": {
+    "bytes": 127324,
+    "derived_md5": "35be88e384b3673bad37db350a0b9f6e",
+    "key": "other/35be88e3-syngonium-sagittatum-specimen-1979-mexico-1398757-mbg-vi-34cda9.jpg"
+   },
+   "37d37fcd2ae190d6e01329e4c7b58a04": {
+    "bytes": 146800,
+    "derived_md5": "37d37fcd2ae190d6e01329e4c7b58a04",
+    "key": "other/37d37fcd-syngonium-sagittatum-specimen-1995-mexico-3239786-mbg-vi-be8a96.jpg"
+   },
+   "3a29549f1746166cb2594f9875f41add": {
+    "bytes": 927030,
+    "derived_md5": "3a29549f1746166cb2594f9875f41add",
+    "key": "vegetative/3a29549f-syngonium-sagittatum-f-tima-isabel-parra-rodr-guez.jpg"
+   },
+   "3eac77cb8868352a39e18b6647a8e856": {
+    "bytes": 121562,
+    "derived_md5": "d481dbebd6fd3aa25cc992af884fefbf",
+    "key": "other/d481dbeb-syngonium-sagittatum-fig-208-croat-48080-mexico-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "45bcc98112059a4b3fd2e441d3d937dc": {
+    "bytes": 114270,
+    "derived_md5": "45bcc98112059a4b3fd2e441d3d937dc",
+    "key": "other/45bcc981-syngonium-sagittatum-specimen-1991-mexico-923058-mbg-via-6a7cc3.jpg"
+   },
+   "5396208ce81c0ebe1c3401a79f25e622": {
+    "bytes": 206275,
+    "derived_md5": "5396208ce81c0ebe1c3401a79f25e622",
+    "key": "vegetative/5396208c-syngonium-sagittatum-thomas-b-croat.jpg"
+   },
+   "5433c197b2dfd557a2007d01417b0a76": {
+    "bytes": 129796,
+    "derived_md5": "5433c197b2dfd557a2007d01417b0a76",
+    "key": "other/5433c197-syngonium-sagittatum-specimen-1979-mexico-1398757-mbg-vi-6190bd.jpg"
+   },
+   "570c26e9ec2340d383395d77f018da8f": {
+    "bytes": 116818,
+    "derived_md5": "570c26e9ec2340d383395d77f018da8f",
+    "key": "other/570c26e9-syngonium-sagittatum-specimen-2002-mexico-2915017-mbg-vi-07696d.jpg"
+   },
+   "5b0b5592faa591ed1f9f1b55d5857d72": {
+    "bytes": 496665,
+    "derived_md5": "c4f54dbf82b1cad77820145b6f884a5e",
+    "key": "other/c4f54dbf-syngonium-sagittatum-specimen-syngonium-sagittatum-g-s-bunting-nmnhbotany-2121208-nmnh-00088052-0000-smithsonian-nmnh-cc0.jpg"
+   },
+   "603aef76b125b26017942c3379d2df79": {
+    "bytes": 144189,
+    "derived_md5": "603aef76b125b26017942c3379d2df79",
+    "key": "other/603aef76-syngonium-sagittatum-specimen-1979-mexico-1398757-mbg-vi-918088.jpg"
+   },
+   "608d969526a065ae0f2119284ee2c825": {
+    "bytes": 121839,
+    "derived_md5": "608d969526a065ae0f2119284ee2c825",
+    "key": "other/608d9695-syngonium-sagittatum-specimen-1979-mexico-1398757-mbg-vi-001fef.jpg"
+   },
+   "656fc1ecd9566f78684680111678deb6": {
+    "bytes": 900818,
+    "derived_md5": "656fc1ecd9566f78684680111678deb6",
+    "key": "hero/656fc1ec-syngonium-sagittatum-f-tima-isabel-parra-rodr-guez-2.jpg"
+   },
+   "68290d5c1f676f8ceb7e403b437117fc": {
+    "bytes": 271880,
+    "derived_md5": "68290d5c1f676f8ceb7e403b437117fc",
+    "key": "protologue/68290d5c-syngonium-sagittatum-protologue-gentes-herb-9-372-bunting-1965-p1.jpg"
+   },
+   "6e88d0d321e374e46db2ca3a1d9d304e": {
+    "bytes": 140237,
+    "derived_md5": "6e88d0d321e374e46db2ca3a1d9d304e",
+    "key": "other/6e88d0d3-syngonium-sagittatum-specimen-1979-mexico-2754277-mbg-vi-7a5d12.jpg"
+   },
+   "7da42bc0b0d57839144e685533496df5": {
+    "bytes": 594024,
+    "derived_md5": "93a062140555f50d29913c5c72606399",
+    "key": "other/93a06214-syngonium-sagittatum-specimen-syngonium-sagittatum-g-s-bunting-nmnhbotany-2121209-nmnh-00088053-0000-smithsonian-nmnh-cc0.jpg"
+   },
+   "7f52e093f524b7b395e7350e7aeee85f": {
+    "bytes": 136949,
+    "derived_md5": "7f52e093f524b7b395e7350e7aeee85f",
+    "key": "other/7f52e093-syngonium-sagittatum-specimen-2019-united-states-of-americ-5ff000.jpg"
+   },
+   "8beb9199e5661f9c7442817361e30ca5": {
+    "bytes": 126867,
+    "derived_md5": "b50137160956db01d3c44893a7d5533a",
+    "key": "other/b5013716-syngonium-sagittatum-fig-206-croat-48080-mexico-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "9d33bd602e53706274d737e09b6cd8fe": {
+    "bytes": 877203,
+    "derived_md5": "9d33bd602e53706274d737e09b6cd8fe",
+    "key": "vegetative/9d33bd60-syngonium-sagittatum-veraniasarahicruzeva8-casual-cc-by-nc-obs-3326788.jpg"
+   },
+   "a3f4e3410db40b2e2ccc5cd4a763da36": {
+    "bytes": 190657,
+    "derived_md5": "341e5c61b95c68a943431670ea263f85",
+    "key": "reproductive/341e5c61-syngonium-sagittatum-fig-202-habit-of-flowering-plant-mexico-croat-48080-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "a6363603cd664ed6c0e4577baa485ec8": {
+    "bytes": 278850,
+    "derived_md5": "a6363603cd664ed6c0e4577baa485ec8",
+    "key": "protologue/a6363603-syngonium-sagittatum-protologue-gentes-herb-9-372-bunting-1965-p3.jpg"
+   },
+   "a8540295f250a4f5600dee72e197444f": {
+    "bytes": 595794,
+    "derived_md5": "c3d2f9329ec1a4cdd321bd63a1e66f54",
+    "key": "other/c3d2f932-syngonium-sagittatum-specimen-1964-mexico-k000400718-bun-d8cb94.jpg"
+   },
+   "abf5ccde3a2cbf0e08f8455a41fa39c1": {
+    "bytes": 113451,
+    "derived_md5": "d4ae58b85a00a06ab93e2da1923e4c50",
+    "key": "other/d4ae58b8-syngonium-sagittatum-fig-204-hernandez-1215-mexico-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "baadfe3275fd590b64be348927d67f34": {
+    "bytes": 249489,
+    "derived_md5": "baadfe3275fd590b64be348927d67f34",
+    "key": "other/baadfe32-powo-syngonium-sagittatum-01.jpg"
+   },
+   "c88f69f2413d8be953cd061a9516a35a": {
+    "bytes": 478391,
+    "derived_md5": "fc7140a42db8795853d61e226b6f05c8",
+    "key": "vegetative/fc7140a4-syngonium-sagittatum-mauricio-hern-ndez-s-nchez-needs-id-arr-obs-37376938.jpg"
+   },
+   "ca9ef3caacc2ba883ff6a9abc846ebed": {
+    "bytes": 98601,
+    "derived_md5": "ca9ef3caacc2ba883ff6a9abc846ebed",
+    "key": "other/ca9ef3ca-syngonium-sagittatum-specimen-2019-united-states-of-americ-d6d7ff.jpg"
+   },
+   "d812932426519a5d8d6f944df80f6e91": {
+    "bytes": 233209,
+    "derived_md5": "d812932426519a5d8d6f944df80f6e91",
+    "key": "protologue/d8129324-syngonium-sagittatum-protologue-gentes-herb-9-372-bunting-1965-p2.jpg"
+   },
+   "e2dc7d6280f799a8cd7f82a4362ed1b4": {
+    "bytes": 106745,
+    "derived_md5": "dec1ba2251550fb6ddee33308408a9c9",
+    "key": "other/dec1ba22-syngonium-sagittatum-fig-207-croat-48080-mexico-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "f7a5613322e4798046d9a497573a4d50": {
+    "bytes": 139191,
+    "derived_md5": "ccae8d9f51b73e6b75b0dbff811e3e9a",
+    "key": "reproductive/ccae8d9f-syngonium-sagittatum-fig-203-inflorescence-with-tube-cut-open-mexico-croat-48080-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   }
+  },
+  "syngonium/salvadorense": {
+   "01049e03878f56bb560b9ea7362495f1": {
+    "bytes": 979692,
+    "derived_md5": "01049e03878f56bb560b9ea7362495f1",
+    "key": "vegetative/01049e03-syngonium-salvadorense-fig-214-juvenile-plant-cecom-bot-garden-guatemala-t-b-croat-croat-2023-aroideana-46-2-720-px.png"
+   },
+   "0d6eec8146730fefb829d5bdc63066b8": {
+    "bytes": 100144,
+    "derived_md5": "0d6eec8146730fefb829d5bdc63066b8",
+    "key": "other/0d6eec81-syngonium-salvadorense-specimen-2007-guatemala-100297670-ce88e3.jpg"
+   },
+   "128bdbb14579ee85533d63b32a18df40": {
+    "bytes": 530294,
+    "derived_md5": "d4109aa436e6d338cd0aa772bae10f11",
+    "key": "reproductive/d4109aa4-syngonium-salvadorense-jose-santiago-needs-id-cc-by-nc-obs-370348976-4.jpg"
+   },
+   "198f66e18ba977d4206ed94fe54686d5": {
+    "bytes": 101016,
+    "derived_md5": "198f66e18ba977d4206ed94fe54686d5",
+    "key": "other/198f66e1-syngonium-salvadorense-specimen-2006-el-salvador-102491047-b7e4bb.jpg"
+   },
+   "218965e84156056bbfeab1ed3be199f0": {
+    "bytes": 269767,
+    "derived_md5": "418efe21fc906d812446740683880a4d",
+    "key": "reproductive/418efe21-syngonium-salvadorense-jose-santiago-needs-id-cc-by-nc-obs-370348976-2.jpg"
+   },
+   "25f3e5e5530654396230c5ff429047c6": {
+    "bytes": 126470,
+    "derived_md5": "5c11412c662ae1bba1894e4a8304865d",
+    "key": "other/5c11412c-syngonium-salvadorense-fig-218-croat-42074-el-salvador-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "2948b54d40cac4e8a196e2233377d085": {
+    "bytes": 281402,
+    "derived_md5": "5002e8e237cebfa9734f9b262f7bae19",
+    "key": "reproductive/5002e8e2-syngonium-salvadorense-dennis-medina-3.jpg"
+   },
+   "29dfb8f24d55a2b489733e4a44f526e4": {
+    "bytes": 134663,
+    "derived_md5": "608f91d4929e2eec7a51a67e1df351b0",
+    "key": "vegetative/608f91d4-syngonium-salvadorense-fig-221-cultivated-plant-patricia-koons-botanical-garden-in-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "36f6fdb8bdd37fea7f609a0c403f4242": {
+    "bytes": 147191,
+    "derived_md5": "36f6fdb8bdd37fea7f609a0c403f4242",
+    "key": "other/36f6fdb8-syngonium-salvadorense-specimen-1995-el-salvador-1368873-0f11c2.jpg"
+   },
+   "3b3eb3d8984b0d4a0084cb58388bacd4": {
+    "bytes": 108415,
+    "derived_md5": "3b3eb3d8984b0d4a0084cb58388bacd4",
+    "key": "other/3b3eb3d8-syngonium-salvadorense-specimen-1995-costa-rica-1401531-5a4f25.jpg"
+   },
+   "46fcd054449cd18504ff9c1cfd54f463": {
+    "bytes": 507769,
+    "derived_md5": "20234ebe2443e4aed001eec23a1aa7bb",
+    "key": "vegetative/20234ebe-syngonium-salvadorense-dennis-medina-2.jpg"
+   },
+   "5396120dbf303257f742a8aad7bcb41c": {
+    "bytes": 117624,
+    "derived_md5": "5396120dbf303257f742a8aad7bcb41c",
+    "key": "other/5396120d-syngonium-salvadorense-specimen-2006-mexico-3223471-mbg-18c42a.jpg"
+   },
+   "5d4241d802bac28bb04441fa1e78da3f": {
+    "bytes": 185891,
+    "derived_md5": "5a3906f1f103c8fecdff8eec7af332fe",
+    "key": "vegetative/5a3906f1-syngonium-salvadorense-fig-209-adult-plant-on-ground-with-infructescences-croat-32785-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "6a07e7b0095170a77fe0650394d98ffa": {
+    "bytes": 123898,
+    "derived_md5": "6a07e7b0095170a77fe0650394d98ffa",
+    "key": "other/6a07e7b0-syngonium-salvadorense-specimen-1998-el-salvador-1255034-94fc58.jpg"
+   },
+   "716d4f606029b5e124cd4e127e32c94c": {
+    "bytes": 116767,
+    "derived_md5": "ff9bb09d6dc5ca07b1e47f8383ce26b0",
+    "key": "other/ff9bb09d-syngonium-salvadorense-fig-217-birdsey-311-guatemala-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "723a203d7efd72b7e6c31fc96d495b8d": {
+    "bytes": 214239,
+    "derived_md5": "723a203d7efd72b7e6c31fc96d495b8d",
+    "key": "other/723a203d-powo-syngonium-salvadorense-01.jpg"
+   },
+   "7480f3e96fa7a8ee1f91b95f268e4437": {
+    "bytes": 234293,
+    "derived_md5": "0330bf793c160f3a5cddd4dbb39ac77a",
+    "key": "vegetative/0330bf79-syngonium-salvadorense-fig-210-stem-with-leaves-and-young-inflorescences-croat-43867-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "7db74c28240a3dcb1d32910c1e84bc40": {
+    "bytes": 293524,
+    "derived_md5": "7db74c28240a3dcb1d32910c1e84bc40",
+    "key": "protologue/7db74c28-syngonium-salvadorense-protologue-oesterr-bot-z-8-178-schott-1858-p1.jpg"
+   },
+   "84b14211053113a8c28cb4443e8cc10d": {
+    "bytes": 321124,
+    "derived_md5": "84b14211053113a8c28cb4443e8cc10d",
+    "key": "protologue/84b14211-syngonium-salvadorense-protologue-oesterr-bot-z-8-178-schott-1858-p2.jpg"
+   },
+   "8bee8cd1f4717cb1557b9df51f4343ac": {
+    "bytes": 292296,
+    "derived_md5": "5aee5ac05031bc6f9a2d3482818534f2",
+    "key": "other/5aee5ac0-syngonium-salvadorense-dennis-medina-4.jpg"
+   },
+   "92cfd07aa70bf06f08724a052999dfe6": {
+    "bytes": 139016,
+    "derived_md5": "92cfd07aa70bf06f08724a052999dfe6",
+    "key": "other/92cfd07a-syngonium-salvadorense-specimen-2004-el-salvador-2754291-4d45b2.jpg"
+   },
+   "99ea4c81cfaf687fdefd972503228a84": {
+    "bytes": 130410,
+    "derived_md5": "f00d36f045e1a48e77282f4e3cf85a3c",
+    "key": "hero/f00d36f0-syngonium-salvadorense-fig-212-habit-of-adult-cultivated-plant-cecom-bot-garden-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "a0e53000200185a37442ce2e7f01df93": {
+    "bytes": 104231,
+    "derived_md5": "a0e53000200185a37442ce2e7f01df93",
+    "key": "other/a0e53000-syngonium-salvadorense-specimen-2012-el-salvador-102946106-c84b87.jpg"
+   },
+   "a97ecb0ccf12c60b33ec6b5ec6dd06e1": {
+    "bytes": 570304,
+    "derived_md5": "a97ecb0ccf12c60b33ec6b5ec6dd06e1",
+    "key": "vegetative/a97ecb0c-syngonium-salvadorense-fig-222-abaxial-surface-cultivated-patricia-koons-botanical-t-b-croat-croat-2023-aroideana-46-2-720-px.png"
+   },
+   "aa60fb55950e0753a1631c5c11d3db2b": {
+    "bytes": 204472,
+    "derived_md5": "d3744ddebe2eeb1cb6c22e9008b51794",
+    "key": "reproductive/d3744dde-syngonium-salvadorense-jose-santiago-needs-id-cc-by-nc-obs-370348976.jpg"
+   },
+   "acd8cbf91b3638a06f9b442735df1ae9": {
+    "bytes": 114250,
+    "derived_md5": "2be92875ca10619e57c2448ba59f21da",
+    "key": "other/2be92875-syngonium-salvadorense-fig-215-croat-43827-mexico-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "b0cd9385710fd9b6794a785b4ccd09fc": {
+    "bytes": 120327,
+    "derived_md5": "b0cd9385710fd9b6794a785b4ccd09fc",
+    "key": "other/b0cd9385-syngonium-salvadorense-specimen-2005-mexico-3046850-mbg-4f5a9c.jpg"
+   },
+   "b2e52f83b5abe2528d4d597fa3e901d6": {
+    "bytes": 117986,
+    "derived_md5": "b2e52f83b5abe2528d4d597fa3e901d6",
+    "key": "other/b2e52f83-syngonium-salvadorense-specimen-1996-mexico-101724771-mb-424e06.jpg"
+   },
+   "c0fad30d59f98bd55b1cdfa6f6b70726": {
+    "bytes": 990265,
+    "derived_md5": "c0fad30d59f98bd55b1cdfa6f6b70726",
+    "key": "other/c0fad30d-syngonium-salvadorense-fig-216-breedlove-30921-mexico-t-b-croat-croat-2023-aroideana-46-2-720-px.png"
+   },
+   "c247eec0010af1bccf5b9d63f2af62c5": {
+    "bytes": 95367,
+    "derived_md5": "c247eec0010af1bccf5b9d63f2af62c5",
+    "key": "other/c247eec0-syngonium-salvadorense-specimen-2002-mexico-102005347-mb-b6da58.jpg"
+   },
+   "c2722afa9f2b5dadcff047923441e201": {
+    "bytes": 95014,
+    "derived_md5": "c2722afa9f2b5dadcff047923441e201",
+    "key": "other/c2722afa-syngonium-salvadorense-specimen-1994-el-salvador-1369213-c7a1a1.jpg"
+   },
+   "ce2d057629c12908284eaceb525a1636": {
+    "bytes": 137360,
+    "derived_md5": "a4e788b8f0eba086dc5d2d251549bacf",
+    "key": "other/a4e788b8-syngonium-salvadorense-fig-219-juvenile-plant-croat-32762-mexico-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "d64ca1f8bb8f6c512e7463487532720a": {
+    "bytes": 110161,
+    "derived_md5": "d64ca1f8bb8f6c512e7463487532720a",
+    "key": "other/d64ca1f8-syngonium-salvadorense-specimen-1998-el-salvador-101774281-6e0443.jpg"
+   },
+   "e93980aa0214847ad6a3cb2a31a25115": {
+    "bytes": 437588,
+    "derived_md5": "eeeb7c3004bf937d6607aa6062c8f095",
+    "key": "vegetative/eeeb7c30-syngonium-salvadorense-leyton-reid-needs-id-cc-by-nc-obs-377002281-2.jpg"
+   },
+   "f849123cab661d31b95b623827a24ff2": {
+    "bytes": 766423,
+    "derived_md5": "f849123cab661d31b95b623827a24ff2",
+    "key": "vegetative/f849123c-syngonium-salvadorense-fig-213-adaxial-surface-of-young-adult-leaf-cecom-bot-t-b-croat-croat-2023-aroideana-46-2-720-px.png"
+   }
+  },
+  "syngonium/schottianum": {
+   "0eb5b890a366aff137ea31fc233f7767": {
+    "bytes": 24728,
+    "derived_md5": "0eb5b890a366aff137ea31fc233f7767",
+    "key": "reproductive/0eb5b890-syngonium-schottianum-international-aroid-society-3.jpg"
+   },
+   "10f4c9497693dbd41579dbb1f9a6379b": {
+    "bytes": 317566,
+    "derived_md5": "1d4a2833afe6e0eb83c468904119087d",
+    "key": "reproductive/1d4a2833-syngonium-schottianum-trevor-van-loon.jpg"
+   },
+   "16c9a8ea8d90ee176efd1c25119f837c": {
+    "bytes": 32288,
+    "derived_md5": "16c9a8ea8d90ee176efd1c25119f837c",
+    "key": "vegetative/16c9a8ea-syngonium-schottianum-international-aroid-society-2.jpg"
+   },
+   "227a0902c50eff101ec24d0645a5f541": {
+    "bytes": 237531,
+    "derived_md5": "227a0902c50eff101ec24d0645a5f541",
+    "key": "protologue/227a0902-syngonium-schottianum-protologue-prodr-syst-aroid-200-h-wendl-ex-schott-1860-p1.jpg"
+   },
+   "22d04a664917ed3e5807a8d1a4ca5420": {
+    "bytes": 143258,
+    "derived_md5": "b31a1170e9a26d582b69136f9c98d867",
+    "key": "other/b31a1170-syngonium-schottianum-fig-231-l-d-gomez-et-al-23325-costa-rica-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "297e5182a84f61787e26c5dcb083e4dc": {
+    "bytes": 386984,
+    "derived_md5": "bcd0f87592d97423ff4663b578700ea1",
+    "key": "reproductive/bcd0f875-syngonium-schottianum-alexander-harman-ph-d.jpg"
+   },
+   "2ca107ac510b37ed54de0b6d5e005895": {
+    "bytes": 564179,
+    "derived_md5": "6878241d46d3eecf956e4e69cec76b24",
+    "key": "vegetative/6878241d-syngonium-schottianum-ecarlsonn.jpg"
+   },
+   "43e5a36d1001e28e773be98b523c6041": {
+    "bytes": 346083,
+    "derived_md5": "43e5a36d1001e28e773be98b523c6041",
+    "key": "vegetative/43e5a36d-syngonium-schottianum-original-madness.jpeg"
+   },
+   "453289d04aade04031c3e23d2c5c8d48": {
+    "bytes": 114689,
+    "derived_md5": "73646a3d8c7699edb701e01ff4fbda10",
+    "key": "other/73646a3d-syngonium-schottianum-fig-230-stevens-13753-costa-rica-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "4553f24cd743c72c34cc61dd09246cf0": {
+    "bytes": 526836,
+    "derived_md5": "790004288819702a2e618ba3ef93ed19",
+    "key": "reproductive/79000428-syngonium-schottianum-ethan-beaver-2.jpg"
+   },
+   "5e893a9fce064e2e183b9b660e020d1b": {
+    "bytes": 587239,
+    "derived_md5": "3092648a9b3f0be97649f24ca2406d47",
+    "key": "vegetative/3092648a-syngonium-schottianum-francois-chayer.jpg"
+   },
+   "68ef2e65002764bf7dd05a5779ee8ed7": {
+    "bytes": 251501,
+    "derived_md5": "68ef2e65002764bf7dd05a5779ee8ed7",
+    "key": "other/68ef2e65-powo-syngonium-schottianum-01.jpg"
+   },
+   "6a538172b349577bafc1deeeccff7f8a": {
+    "bytes": 504024,
+    "derived_md5": "da4d4697cf7a8f0fd0c88b4e6509094d",
+    "key": "vegetative/da4d4697-syngonium-schottianum-manuel-raab-3.jpg"
+   },
+   "7915f85f18517a80454a57e5100349ba": {
+    "bytes": 654538,
+    "derived_md5": "f6f14dddec30457e3681437ef676eceb",
+    "key": "vegetative/f6f14ddd-syngonium-schottianum-linden-hickson.jpg"
+   },
+   "7c6737fc8d1058c67608dc3984b9b780": {
+    "bytes": 517171,
+    "derived_md5": "bfdd4728f40864b9476084029e936fef",
+    "key": "reproductive/bfdd4728-syngonium-schottianum-daniel-garrigues.jpg"
+   },
+   "87d78ca512dba7c208c98d8e777ca027": {
+    "bytes": 378796,
+    "derived_md5": "31541340c4e3bd675f2350838609c112",
+    "key": "reproductive/31541340-syngonium-schottianum-hans-holbrook.jpg"
+   },
+   "90a5d2c8ffbecd85ac888d8b84074dd5": {
+    "bytes": 583491,
+    "derived_md5": "de9b44ca9cc2d5e66742cfbcbc8619c5",
+    "key": "vegetative/de9b44ca-syngonium-schottianum-johannes-klein.jpg"
+   },
+   "9481f4d2fdafed6a6aaf85d1a073e244": {
+    "bytes": 25178,
+    "derived_md5": "9481f4d2fdafed6a6aaf85d1a073e244",
+    "key": "reproductive/9481f4d2-syngonium-schottianum-international-aroid-society.jpg"
+   },
+   "9af2adbc66ce855485c7802500f25e06": {
+    "bytes": 413465,
+    "derived_md5": "3c45bfbfbc1da31b686aa6cc6299b6c5",
+    "key": "vegetative/3c45bfbf-syngonium-schottianum-njweess.jpg"
+   },
+   "ae6d046fb2ae02d5115a67f9c8deb2ef": {
+    "bytes": 837492,
+    "derived_md5": "ae6d046fb2ae02d5115a67f9c8deb2ef",
+    "key": "vegetative/ae6d046f-syngonium-schottianum-dirk-mezger.jpg"
+   },
+   "b48abb463510d0259ea43a1e001861f6": {
+    "bytes": 417839,
+    "derived_md5": "b20fbf039decdab08d119718e7850393",
+    "key": "vegetative/b20fbf03-syngonium-schottianum-fraser-watson-2.jpg"
+   },
+   "bf8de91306df0ce7b37e6c2ba6a8a299": {
+    "bytes": 231094,
+    "derived_md5": "bf8de91306df0ce7b37e6c2ba6a8a299",
+    "key": "protologue/bf8de913-syngonium-schottianum-protologue-prodr-syst-aroid-200-h-wendl-ex-schott-1860-p2.jpg"
+   },
+   "c22ace63fedf9c679659067e127d1805": {
+    "bytes": 667309,
+    "derived_md5": "f908b0f97386b78eed5d035663ddbe34",
+    "key": "vegetative/f908b0f9-syngonium-schottianum-finca-din-mica-7.jpg"
+   },
+   "d7f2a04728d34e4a2aa9aa1fb52a36e3": {
+    "bytes": 36559,
+    "derived_md5": "d7f2a04728d34e4a2aa9aa1fb52a36e3",
+    "key": "reproductive/d7f2a047-syngonium-schottianum-international-aroid-society-4.jpg"
+   },
+   "e50a7d805d288caa482cc5947d1fd583": {
+    "bytes": 665185,
+    "derived_md5": "08f501238a6c733119b7c64cd89902ed",
+    "key": "vegetative/08f50123-syngonium-schottianum-oliver-ingold-11.jpg"
+   },
+   "e70258ee1f31f48f48a708df00a31009": {
+    "bytes": 410189,
+    "derived_md5": "e70258ee1f31f48f48a708df00a31009",
+    "key": "reproductive/e70258ee-syngonium-schottianum-letizia-weichgrebe-5.jpeg"
+   },
+   "ee52f1c79d78b8452d4643e27b63b82f": {
+    "bytes": 621002,
+    "derived_md5": "02ee1e1a95e05ea9318a21b68978ebc1",
+    "key": "vegetative/02ee1e1a-syngonium-schottianum-lena-struwe.jpg"
+   },
+   "f2919c4b6b1b658dcf5db8686b6b6372": {
+    "bytes": 242000,
+    "derived_md5": "f2919c4b6b1b658dcf5db8686b6b6372",
+    "key": "protologue/f2919c4b-syngonium-schottianum-protologue-prodr-syst-aroid-200-h-wendl-ex-schott-1860-p3.jpg"
+   },
+   "f7d854fd0a1c3411f89a6a80e19d8a8d": {
+    "bytes": 111642,
+    "derived_md5": "fb384c2be1487d7bda8f46315579150d",
+    "key": "other/fb384c2b-syngonium-schottianum-fig-229-araquistain-moreno-2348-nicaragua-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   }
+  },
+  "syngonium/sparreorum": {
+   "4588490d180901fb0f3853d22582a76c": {
+    "bytes": 383986,
+    "derived_md5": "91a0360cd3616baaf55d27d041d79699",
+    "key": "other/91a0360c-syngonium-sparreorum-specimen-1967-ecuador-tex00556697-b-822121.jpg"
+   },
+   "a988db080cffd52301722362e0c8b9ad": {
+    "bytes": 355388,
+    "derived_md5": "a988db080cffd52301722362e0c8b9ad",
+    "key": "protologue/a988db08-syngonium-sparreorum-protologue-ann-missouri-bot-gard-68-639-croat-1981-publ-1982-p2.jpg"
+   },
+   "af2a814cc099a082bfd0246a05215ce9": {
+    "bytes": 497671,
+    "derived_md5": "6200dd5b48bc6e97d6b8d15e114d7bf8",
+    "key": "other/6200dd5b-syngonium-sparreorum-specimen-1967-ecuador-s-r-6039-heat-0787e4.jpg"
+   },
+   "bc6d1c396cda5527a3ea0af2c4f21009": {
+    "bytes": 369662,
+    "derived_md5": "bc6d1c396cda5527a3ea0af2c4f21009",
+    "key": "protologue/bc6d1c39-syngonium-sparreorum-protologue-ann-missouri-bot-gard-68-639-croat-1981-publ-1982-p1.jpg"
+   },
+   "bd8d6f5e152c80288eedfc2db9c04646": {
+    "bytes": 541870,
+    "derived_md5": "d0809b2cc72505c9d204daf8a52dabd2",
+    "key": "other/d0809b2c-syngonium-sparreorum-specimen-1967-ecuador-s-r-6038-heat-0fbe06.jpg"
+   },
+   "c7377336fdcf2ad16ebd8b9175ed86de": {
+    "bytes": 549844,
+    "derived_md5": "eb979b46abe336dd4e12f97af5514fa4",
+    "key": "other/eb979b46-syngonium-sparreorum-specimen-1967-ecuador-s-r-6038-heat-49f2c2.jpg"
+   }
+  },
+  "syngonium/standleyanum": {
+   "0dceda1d01cc244fc0a4d1995911e2eb": {
+    "bytes": 385764,
+    "derived_md5": "05ab3474b212970a4020c4ad5473e86d",
+    "key": "other/05ab3474-syngonium-standleyanum-specimen-1977-costa-rica-barcode-01-069d1a.jpg"
+   },
+   "1560a60554ee00a949dcd17819a4d9ba": {
+    "bytes": 170457,
+    "derived_md5": "1560a60554ee00a949dcd17819a4d9ba",
+    "key": "protologue/1560a605-syngonium-standleyanum-protologue-baileya-14-21-bunting-1966-p3.jpg"
+   },
+   "190b79a6e645b3dc27b254ae0aad99cc": {
+    "bytes": 366982,
+    "derived_md5": "20b0d0fc5711875bc5174e78c3f6c0ce",
+    "key": "other/20b0d0fc-syngonium-standleyanum-specimen-1977-costa-rica-barcode-01-c542c9.jpg"
+   },
+   "20c101550ebe8652738deef74a751505": {
+    "bytes": 323893,
+    "derived_md5": "072e68a319b2d19002a621d936c7d683",
+    "key": "other/072e68a3-syngonium-standleyanum-specimen-1977-costa-rica-barcode-01-84a826.jpg"
+   },
+   "31306cfc5b51f5d1ee857a9ad60527aa": {
+    "bytes": 175791,
+    "derived_md5": "31306cfc5b51f5d1ee857a9ad60527aa",
+    "key": "other/31306cfc-syngonium-standleyanum-specimen-1982-costa-rica-101981583-a6df54.jpg"
+   },
+   "3973f0868c5f4681ccdeb1108fe6a129": {
+    "bytes": 239767,
+    "derived_md5": "a40caeb117dc640a7e00b021d11b67e6",
+    "key": "vegetative/a40caeb1-syngonium-standleyanum-fig-233-leaves-displayed-on-floor-photo-t-ray-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "5aff83f905fe3cd45391d649c925383d": {
+    "bytes": 100595,
+    "derived_md5": "0faf385d600d0f9a420bc80c0f925209",
+    "key": "other/0faf385d-syngonium-standleyanum-fig-239-croat-78750-costa-rica-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "67a9ed3503fde5dbe185d97d60cffe50": {
+    "bytes": 628728,
+    "derived_md5": "67a9ed3503fde5dbe185d97d60cffe50",
+    "key": "hero/67a9ed35-syngonium-standleyanum-fig-232-plant-in-early-fruit-croat-78727-costa-rica-t-b-croat-croat-2023-aroideana-46-2-720-px.png"
+   },
+   "6b920e3a203c0c3591078a6b6500fb80": {
+    "bytes": 405723,
+    "derived_md5": "6b920e3a203c0c3591078a6b6500fb80",
+    "key": "other/6b920e3a-syngonium-standleyanum-specimen-1926-costa-rica-us-1253611-313a23.jpg"
+   },
+   "7e271c526545a986a2d6623f66e96c58": {
+    "bytes": 103755,
+    "derived_md5": "7e271c526545a986a2d6623f66e96c58",
+    "key": "other/7e271c52-syngonium-standleyanum-specimen-1996-costa-rica-101725376-c357e5.jpg"
+   },
+   "89e7587090a82ed27f7a8260cb696da7": {
+    "bytes": 1005642,
+    "derived_md5": "89e7587090a82ed27f7a8260cb696da7",
+    "key": "other/89e75870-syngonium-standleyanum-fig-238-croat-78727-costa-rica-t-b-croat-croat-2023-aroideana-46-2-720-px.png"
+   },
+   "8b41c5617b7f3110122520b4ef0958cd": {
+    "bytes": 133948,
+    "derived_md5": "ec60330f54157458863f4f73715454ba",
+    "key": "other/ec60330f-syngonium-standleyanum-fig-237-hammel-trainer-13206-costa-rica-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "8d486d7f6dc46c940e300ac24d5a8b3d": {
+    "bytes": 69677,
+    "derived_md5": "8d486d7f6dc46c940e300ac24d5a8b3d",
+    "key": "other/8d486d7f-syngonium-standleyanum-specimen-1996-costa-rica-101725074-516ee1.jpg"
+   },
+   "8e83470cde94675c8952a19d8fbc6cd0": {
+    "bytes": 395921,
+    "derived_md5": "e334ace151c723581b928df4d0618a2d",
+    "key": "other/e334ace1-syngonium-standleyanum-specimen-1977-costa-rica-barcode-01-9e839c.jpg"
+   },
+   "8ee4dcb7a10f065944b247775b6d631b": {
+    "bytes": 230874,
+    "derived_md5": "3fa6cf5667868519a884661958185204",
+    "key": "vegetative/3fa6cf56-syngonium-standleyanum-fig-234-adult-and-juvenile-leaves-photo-t-ray-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "92cbfcbaeba0382f0095d776af37dcc6": {
+    "bytes": 338241,
+    "derived_md5": "92cbfcbaeba0382f0095d776af37dcc6",
+    "key": "protologue/92cbfcba-syngonium-standleyanum-protologue-baileya-14-21-bunting-1966-p1.jpg"
+   },
+   "9c11e79ab5a373f71c8e508d36c12459": {
+    "bytes": 341331,
+    "derived_md5": "14117efeaa2145ccc317e52c9847a4e2",
+    "key": "other/14117efe-syngonium-standleyanum-specimen-1977-costa-rica-barcode-01-4997b1.jpg"
+   },
+   "da9aba6779414a74cb2d89d28e42c1b6": {
+    "bytes": 94091,
+    "derived_md5": "1d7bcc8b8a6f93245ba7d2ba7e9b6f2f",
+    "key": "reproductive/1d7bcc8b-syngonium-standleyanum-fig-236-infructescence-close-up-belize-photo-g-davidse-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "ef213fb81081fa8701d34322e3cc68be": {
+    "bytes": 92325,
+    "derived_md5": "ef213fb81081fa8701d34322e3cc68be",
+    "key": "other/ef213fb8-syngonium-standleyanum-specimen-1996-costa-rica-101725074-9e1953.jpg"
+   },
+   "ef2b6fd21e9a6d7fd8e874ef45c9b87a": {
+    "bytes": 166229,
+    "derived_md5": "ef2b6fd21e9a6d7fd8e874ef45c9b87a",
+    "key": "protologue/ef2b6fd2-syngonium-standleyanum-protologue-baileya-14-21-bunting-1966-p2.jpg"
+   }
+  },
+  "syngonium/steyermarkii": {
+   "0fd4e9191fc5e7b80e50a68df2dbe3b3": {
+    "bytes": 799506,
+    "derived_md5": "6be06b89ba3aed5778c7a243790b936d",
+    "key": "vegetative/6be06b89-syngonium-steyermarkii-ubaldo-edgar-garc-a-l-pez.jpg"
+   },
+   "2eeb06491b942a22b749b0f8cbb416c9": {
+    "bytes": 42499,
+    "derived_md5": "2eeb06491b942a22b749b0f8cbb416c9",
+    "key": "vegetative/2eeb0649-syngonium-steyermarkii-international-aroid-society-4.jpg"
+   },
+   "36ff8e0a6f75f379fcfdfbe0c98c5914": {
+    "bytes": 466377,
+    "derived_md5": "36ff8e0a6f75f379fcfdfbe0c98c5914",
+    "key": "other/36ff8e0a-syngonium-steyermarkii-specimen-1977-v0045043f-field-mu-e9e879.jpg"
+   },
+   "3cd5a0d05e9bd1c4299ae8ab0194df11": {
+    "bytes": 325094,
+    "derived_md5": "032c8fa95be076d94c45cf91588e6f58",
+    "key": "vegetative/032c8fa9-syngonium-steyermarkii-r-e-llanos.jpg"
+   },
+   "4961ea3e705d6f815262cc838b7b3ed4": {
+    "bytes": 949250,
+    "derived_md5": "4961ea3e705d6f815262cc838b7b3ed4",
+    "key": "vegetative/4961ea3e-syngonium-steyermarkii-pb19420-juvenile-form-with-lobate-leaves-and-deeply-copyright-patrick-blanc-www-verticalgardenpatrickblanc-com.jpg"
+   },
+   "4a495d0286500093af225df7c4d21adf": {
+    "bytes": 107789,
+    "derived_md5": "4a495d0286500093af225df7c4d21adf",
+    "key": "reproductive/4a495d02-powo-syngonium-steyermarkii-01.jpg"
+   },
+   "4a916598982189c7e1829039f132c705": {
+    "bytes": 303655,
+    "derived_md5": "4a916598982189c7e1829039f132c705",
+    "key": "vegetative/4a916598-syngonium-steyermarkii-aroid-profile-11-fig-1-juvenile-plant-j-bogner-croat-aroid-profile-11-aroideana.png"
+   },
+   "5abe1a7a2393b67b63476541bd517a3f": {
+    "bytes": 101063,
+    "derived_md5": "b68c538a734b475fdbe0343c8e8754c7",
+    "key": "reproductive/b68c538a-syngonium-steyermarkii-fig-246-cluster-of-inflorescences-seemingly-all-at-the-same-stage-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "66a0e4191f937a97b4a64d90d40e979c": {
+    "bytes": 33341,
+    "derived_md5": "66a0e4191f937a97b4a64d90d40e979c",
+    "key": "vegetative/66a0e419-syngonium-steyermarkii-international-aroid-society-2.jpg"
+   },
+   "6c59c24b5e996f318a4b78f4669c8920": {
+    "bytes": 343326,
+    "derived_md5": "6c59c24b5e996f318a4b78f4669c8920",
+    "key": "protologue/6c59c24b-syngonium-steyermarkii-protologue-ann-missouri-bot-gard-68-604-croat-1981-publ-1982-p1.jpg"
+   },
+   "756655e363fbda28ac62fe2bf1065fab": {
+    "bytes": 35055,
+    "derived_md5": "756655e363fbda28ac62fe2bf1065fab",
+    "key": "reproductive/756655e3-syngonium-steyermarkii-aroid-profile-11-fig-5-young-infructescence-t-b-croat-croat-aroid-profile-11-aroideana.png"
+   },
+   "77553635fc0c72f699cc23f424f4f6a3": {
+    "bytes": 154342,
+    "derived_md5": "8095e4f5cd14319599484d4e1444478c",
+    "key": "reproductive/8095e4f5-syngonium-steyermarkii-fig-248-closeup-of-open-inflorescence-photo-j-bogner-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "86f12d31764519335841fc6410dceeaf": {
+    "bytes": 532361,
+    "derived_md5": "70f1aeffa3318d0f3e17e10d111ff4e1",
+    "key": "other/70f1aeff-syngonium-steyermarkii-specimen-syngonium-steyermarkii-croat-nmnhbotany-2149035-nmnh-00088054-000001-j-smithsonian-nmnh-cc0.jpg"
+   },
+   "89e8dd21293ba5cb461d9e38d5557911": {
+    "bytes": 299665,
+    "derived_md5": "89e8dd21293ba5cb461d9e38d5557911",
+    "key": "other/89e8dd21-syngonium-steyermarkii-specimen-1977-guatemala-us-3032630-d6394d.jpg"
+   },
+   "96ad2f41a687d2b10f7c186e2494aa03": {
+    "bytes": 727171,
+    "derived_md5": "163e8973ab16e2621bd6cdbce791a7bf",
+    "key": "vegetative/163e8973-syngonium-steyermarkii-ubaldo-edgar-garc-a-l-pez-2.jpg"
+   },
+   "a48df47acaa43618b549c785df6227cb": {
+    "bytes": 241169,
+    "derived_md5": "a48df47acaa43618b549c785df6227cb",
+    "key": "reproductive/a48df47a-syngonium-steyermarkii-aroid-profile-11-fig-4-inflorescence-t-b-croat-croat-aroid-profile-11-aroideana.png"
+   },
+   "a71c81d17545c0d9c67519def317e42f": {
+    "bytes": 34952,
+    "derived_md5": "a71c81d17545c0d9c67519def317e42f",
+    "key": "reproductive/a71c81d1-syngonium-steyermarkii-international-aroid-society.jpg"
+   },
+   "a7cb711ab47c61d46c08a3b230f6f3e7": {
+    "bytes": 587449,
+    "derived_md5": "a7cb711ab47c61d46c08a3b230f6f3e7",
+    "key": "vegetative/a7cb711a-syngonium-steyermarkii-pb19419-juvenile-form-with-lobate-leaves-mirador-rey-copyright-patrick-blanc-www-verticalgardenpatrickblanc-com.jpg"
+   },
+   "b5724ff940a74e23072d8641365f61b3": {
+    "bytes": 328484,
+    "derived_md5": "b5724ff940a74e23072d8641365f61b3",
+    "key": "other/b5724ff9-syngonium-steyermarkii-specimen-1979-mexico-us-2987233-c-9a0caf.jpg"
+   },
+   "b77e1cac552fae88b9856414bb9e0cfb": {
+    "bytes": 28070,
+    "derived_md5": "b77e1cac552fae88b9856414bb9e0cfb",
+    "key": "vegetative/b77e1cac-syngonium-steyermarkii-international-aroid-society-3.jpg"
+   },
+   "bc882c4b3b7a0ef848c1e155c126dd65": {
+    "bytes": 108404,
+    "derived_md5": "461e5e0c6a01b90c5b366198ed241103",
+    "key": "reproductive/461e5e0c-syngonium-steyermarkii-fig-243-habit-of-flowering-plant-photo-p-d-az-jim-nez-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "bd3d0209567060596b7477027cd6f317": {
+    "bytes": 599066,
+    "derived_md5": "b5080ab2df755ba91c69862318fab88b",
+    "key": "vegetative/b5080ab2-syngonium-steyermarkii-ubaldo-edgar-garc-a-l-pez-4.jpg"
+   },
+   "c12946496521124319173c14b325ff29": {
+    "bytes": 347884,
+    "derived_md5": "c12946496521124319173c14b325ff29",
+    "key": "protologue/c1294649-syngonium-steyermarkii-protologue-ann-missouri-bot-gard-68-604-croat-1981-publ-1982-p2.jpg"
+   },
+   "cf8daa9486c6d0af0106436e59351901": {
+    "bytes": 817693,
+    "derived_md5": "6108019904965f60d4f48143613f8da0",
+    "key": "vegetative/61080199-syngonium-steyermarkii-ubaldo-edgar-garc-a-l-pez-3.jpg"
+   },
+   "dc3435cf4a35b6e4b9eaa77f16c04a07": {
+    "bytes": 111366,
+    "derived_md5": "dc3435cf4a35b6e4b9eaa77f16c04a07",
+    "key": "other/dc3435cf-syngonium-steyermarkii-specimen-2003-united-states-of-amer-23dfc4.jpg"
+   },
+   "e1f03b0af6af6ee19b63d8588b23d1bf": {
+    "bytes": 109193,
+    "derived_md5": "2332e7ad484e1e909e54e0e65a66fa41",
+    "key": "vegetative/2332e7ad-syngonium-steyermarkii-fig-245-preadult-leaves-on-cultivated-plant-croat-47201-photo-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "f57143811ef03eddb5cda22aa70d0afd": {
+    "bytes": 101467,
+    "derived_md5": "4047e5a1fd95bd9de3a622503e775fac",
+    "key": "reproductive/4047e5a1-syngonium-steyermarkii-d-az-jim-nez-et-al-2023-fig-2-nthesis-photo-p-d-az-jim-nez-t-b-croat-d-az-jim-nez-et-al-2023-aroideana-46-1.jpg"
+   },
+   "f609b140a09493001f2423a6f349b69e": {
+    "bytes": 773411,
+    "derived_md5": "f609b140a09493001f2423a6f349b69e",
+    "key": "reproductive/f609b140-syngonium-steyermarkii-fig-249-infructescence-with-syncarp-croat-47201-photo-j-t-b-croat-croat-2023-aroideana-46-2-720-px.png"
+   },
+   "fe813d84ade59041a08d7ecf7ed0eaac": {
+    "bytes": 257339,
+    "derived_md5": "b3d8810bde125b4a078ce1d424a068b1",
+    "key": "vegetative/b3d8810b-syngonium-steyermarkii-d-az-jim-nez-et-al-2023-fig-4-wing-its-blades-and-inflorescence-at-t-b-croat-d-az-jim-nez-et-al-2023-aroideana-46-1.jpg"
+   }
+  },
+  "syngonium/tacotalpense": {
+   "35ed9b76b7cf50c044561b0f7dfb0b29": {
+    "bytes": 464322,
+    "derived_md5": "35ed9b76b7cf50c044561b0f7dfb0b29",
+    "key": "protologue/35ed9b76-syngonium-tacotalpense-protologue-novon-27-63-diaz-jimenez-croat-2019-p1.jpg"
+   },
+   "398f0921fc8d28e78c806491974ae433": {
+    "bytes": 93362,
+    "derived_md5": "398f0921fc8d28e78c806491974ae433",
+    "key": "other/398f0921-syngonium-tacotalpense-specimen-2005-mexico-102753018-mb-2f65a8.jpg"
+   },
+   "569fad9ab415ec25e58deb5872d69882": {
+    "bytes": 136920,
+    "derived_md5": "9af6bd5fe805ec106f764649bca19c17",
+    "key": "vegetative/9af6bd5f-syngonium-tacotalpense-fig-252-stem-closeup-d-az-jim-nez-1361-mexico-photo-p-d-az-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "60221ffe2f78bcbced40e43fe12f0163": {
+    "bytes": 143645,
+    "derived_md5": "1b40475621f2093e59e1f10ff6d465b7",
+    "key": "reproductive/1b404756-syngonium-tacotalpense-fig-251-stem-with-inflorescences-d-az-jim-nez-1361-mexico-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "8623faaa841594e71caa6486931a13ff": {
+    "bytes": 90188,
+    "derived_md5": "6277788dfd97f306ba73a870201bfebf",
+    "key": "other/6277788d-syngonium-tacotalpense-fig-254-d-az-jim-nez-1361-mexico-photo-p-d-az-jim-nez-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "a161e8f3ef599b84c6e5a5c77d793f12": {
+    "bytes": 126395,
+    "derived_md5": "a161e8f3ef599b84c6e5a5c77d793f12",
+    "key": "other/a161e8f3-syngonium-tacotalpense-specimen-2005-mexico-102753018-mb-185b31.jpg"
+   },
+   "d3a93189513360c1a453b559e3094aa3": {
+    "bytes": 116563,
+    "derived_md5": "9667182ca7aa667b54cddb87daabc740",
+    "key": "hero/9667182c-syngonium-tacotalpense-fig-250-full-sized-flowering-plant-d-az-jim-nez-1361-mexico-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "fa727e889f5c38e5a197474394256d51": {
+    "bytes": 797186,
+    "derived_md5": "fa727e889f5c38e5a197474394256d51",
+    "key": "reproductive/fa727e88-syngonium-tacotalpense-fig-253-open-inflorescence-at-anthesis-d-az-jim-nez-1361-t-b-croat-croat-2023-aroideana-46-2-720-px.png"
+   }
+  },
+  "syngonium/triphyllum": {
+   "0b1c3098f64e77bef42062c7910b111c": {
+    "bytes": 146292,
+    "derived_md5": "0b1c3098f64e77bef42062c7910b111c",
+    "key": "other/0b1c3098-syngonium-triphyllum-specimen-1994-ecuador-101717354-mbg-ae6bb8.jpg"
+   },
+   "1ae0af2b02032522e234adc5bd5389c9": {
+    "bytes": 363344,
+    "derived_md5": "d0b8bae41b0e69692f9183faa1680adf",
+    "key": "other/d0b8bae4-syngonium-triphyllum-specimen-1977-costa-rica-barcode-0187-8520b4.jpg"
+   },
+   "1ccc4084139234b1cb727106faf5ab23": {
+    "bytes": 426184,
+    "derived_md5": "7e0692ac9985f6b9a16fd8fe3dda046e",
+    "key": "vegetative/7e0692ac-syngonium-triphyllum-jan-meerman-needs-id-cc-by-nc-obs-42025692.jpg"
+   },
+   "1e17c46859b4ad0638c3764ef813308b": {
+    "bytes": 344552,
+    "derived_md5": "1e17c46859b4ad0638c3764ef813308b",
+    "key": "protologue/1e17c468-syngonium-triphyllum-protologue-ann-missouri-bot-gard-68-642-birdsey-ex-croat-1981-publ-1982-p1.jpg"
+   },
+   "35840fe94ddbf2557a99f32c48e6808d": {
+    "bytes": 178739,
+    "derived_md5": "c312df1c550da5cbd93c30d5a5ce4b84",
+    "key": "vegetative/c312df1c-syngonium-triphyllum-fig-259-adult-plant-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "3977e43eff3ad14cb9addc427b565012": {
+    "bytes": 148179,
+    "derived_md5": "7ea7d0ef3140075b8dc6ac0194378943",
+    "key": "other/7ea7d0ef-syngonium-triphyllum-fig-264-type-croat-35675-costa-rica-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "3acda3737f63a7315fc6cc78f522966f": {
+    "bytes": 313356,
+    "derived_md5": "3acda3737f63a7315fc6cc78f522966f",
+    "key": "other/3acda373-syngonium-triphyllum-specimen-1988-honduras-us-3134293-c-ca5408.jpg"
+   },
+   "3d4bccf4b73ebd38e98ea99fe1495d89": {
+    "bytes": 192424,
+    "derived_md5": "3d4bccf4b73ebd38e98ea99fe1495d89",
+    "key": "hero/3d4bccf4-syngonium-triphyllum-ds-montreal-syngtriphyllummtjb-pictured-at-the-jardin-botanique-de-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
+   "4e11567d0b1fc6daf1a03e260d383f56": {
+    "bytes": 188260,
+    "derived_md5": "4e11567d0b1fc6daf1a03e260d383f56",
+    "key": "protologue/4e11567d-syngonium-triphyllum-protologue-ann-missouri-bot-gard-68-642-birdsey-ex-croat-1981-publ-1982-p3.jpg"
+   },
+   "53ef3fa2e955c47fdcb92caf98b79a87": {
+    "bytes": 444041,
+    "derived_md5": "c9d33eace791003cd8825980c182f072",
+    "key": "other/c9d33eac-syngonium-triphyllum-specimen-1977-costa-rica-barcode-0187-9aa173.jpg"
+   },
+   "63ddcc745e05a31e260df70eb1075ce2": {
+    "bytes": 189402,
+    "derived_md5": "63ddcc745e05a31e260df70eb1075ce2",
+    "key": "other/63ddcc74-syngonium-triphyllum-specimen-1996-costa-rica-u-1098203-77bb1f.jpg"
+   },
+   "6451b1d217835446485adc02b4a16688": {
+    "bytes": 126432,
+    "derived_md5": "6451b1d217835446485adc02b4a16688",
+    "key": "other/6451b1d2-syngonium-triphyllum-specimen-2000-colombia-101877548-mb-aad54e.jpg"
+   },
+   "69e489b5f0e7dffc616097acce108fa5": {
+    "bytes": 386643,
+    "derived_md5": "69e489b5f0e7dffc616097acce108fa5",
+    "key": "protologue/69e489b5-syngonium-triphyllum-protologue-ann-missouri-bot-gard-68-642-birdsey-ex-croat-1981-publ-1982-p2.jpg"
+   },
+   "773c38226ef76d9da570b016302df8c7": {
+    "bytes": 353055,
+    "derived_md5": "773c38226ef76d9da570b016302df8c7",
+    "key": "protologue/773c3822-syngonium-triphyllum-protologue-ann-missouri-bot-gard-68-642-birdsey-ex-croat-1981-publ-1982-p4.jpg"
+   },
+   "78a4062597915d27031b2f920c9f11f3": {
+    "bytes": 195066,
+    "derived_md5": "78a4062597915d27031b2f920c9f11f3",
+    "key": "other/78a40625-syngonium-triphyllum-specimen-1979-costa-rica-2174085-mi-3955ef.jpg"
+   },
+   "7c5a244e36b69a639b25889237f4e9b9": {
+    "bytes": 194665,
+    "derived_md5": "abb99c07edd060d157b4a8adb8eb5f95",
+    "key": "vegetative/abb99c07-syngonium-triphyllum-nitis-charoendee-casual-arr-obs-104330190.jpg"
+   },
+   "8673520fc3fd7b0f8be3481e549ac3e0": {
+    "bytes": 27064,
+    "derived_md5": "8673520fc3fd7b0f8be3481e549ac3e0",
+    "key": "reproductive/8673520f-syngonium-triphyllum-international-aroid-society-4.jpg"
+   },
+   "8d05e99893f5cbdbfd965867e9ac50de": {
+    "bytes": 883622,
+    "derived_md5": "8d05e99893f5cbdbfd965867e9ac50de",
+    "key": "reproductive/8d05e998-syngonium-triphyllum-fig-262-mature-syncarp-showing-red-spathe-costa-rica-photo-t-b-croat-croat-2023-aroideana-46-2-720-px.png"
+   },
+   "97c2099acfc02a00b3b3b2e1b3302fad": {
+    "bytes": 106904,
+    "derived_md5": "97c2099acfc02a00b3b3b2e1b3302fad",
+    "key": "other/97c2099a-syngonium-triphyllum-specimen-2019-united-states-of-americ-1c4c13.jpg"
+   },
+   "af906c1baecdb9ae6a60b4bdf01a3526": {
+    "bytes": 153119,
+    "derived_md5": "af906c1baecdb9ae6a60b4bdf01a3526",
+    "key": "other/af906c1b-syngonium-triphyllum-specimen-1984-colombia-101508315-mb-f36dd2.jpg"
+   },
+   "b56823e59194b2d96d8c43a462d35c6e": {
+    "bytes": 31045,
+    "derived_md5": "b56823e59194b2d96d8c43a462d35c6e",
+    "key": "reproductive/b56823e5-syngonium-triphyllum-international-aroid-society-3.jpg"
+   },
+   "c0091cbb8edadf1f6738cac86801ea2e": {
+    "bytes": 813001,
+    "derived_md5": "c0091cbb8edadf1f6738cac86801ea2e",
+    "key": "reproductive/c0091cbb-syngonium-triphyllum-fig-263-old-fruiting-spathe-and-syncarp-photo-t-ray-t-b-croat-croat-2023-aroideana-46-2-720-px.png"
+   },
+   "c00d69b135b977ce666d79d9abffa9cd": {
+    "bytes": 32810,
+    "derived_md5": "c00d69b135b977ce666d79d9abffa9cd",
+    "key": "vegetative/c00d69b1-syngonium-triphyllum-international-aroid-society-2.jpg"
+   },
+   "c17476e8ac751ee92f8ef223bcef1459": {
+    "bytes": 359380,
+    "derived_md5": "bf6a5a811c3bf94ae7148a30f7f0ee23",
+    "key": "other/bf6a5a81-syngonium-triphyllum-specimen-1977-costa-rica-barcode-0187-5a06ee.jpg"
+   },
+   "cb74bf3615675661b353eeea1f18c5fe": {
+    "bytes": 146382,
+    "derived_md5": "8b3a75ef98b1c23b7069002b802330a0",
+    "key": "vegetative/8b3a75ef-syngonium-triphyllum-fig-261-old-fruiting-spathe-photo-t-ray-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "ce5503b87fccffb9389f5196f1a73ece": {
+    "bytes": 219655,
+    "derived_md5": "825c7d49b1a8da616b568794c127df93",
+    "key": "other/825c7d49-syngonium-triphyllum-specimen-1998-canada-mt00307409-ham-1f3492.jpg"
+   },
+   "d45f87438e7a480323785b1bf25cd795": {
+    "bytes": 426791,
+    "derived_md5": "5cd994cf4e102118473d2609ac28d40a",
+    "key": "vegetative/5cd994cf-syngonium-triphyllum-jan-meerman-needs-id-cc-by-nc-obs-33407801.jpg"
+   },
+   "d4b75af57176416a5e9f646944ba7272": {
+    "bytes": 183983,
+    "derived_md5": "5ccb1e34f8d1e169f4ed8ee85eaf8eb0",
+    "key": "vegetative/5ccb1e34-syngonium-triphyllum-fig-255-habit-of-adult-plant-costa-rica-photo-t-ray-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "d8ff45245b1d344e53e5a18e9366ca8b": {
+    "bytes": 133713,
+    "derived_md5": "6c7c93e38b7c93594c0dc0a69a12ffb0",
+    "key": "other/6c7c93e3-syngonium-triphyllum-fig-265-grayum-21836-costa-rica-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "df75e6ecd4cbfa800f0b4dbf1f94bb75": {
+    "bytes": 117825,
+    "derived_md5": "037bd33c6cec8b9f5a1eb56d464a4abc",
+    "key": "other/037bd33c-syngonium-triphyllum-fig-266-showing-narrow-auricle-bass-pittman-290-costa-rica-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "f03c871aee3c0a495bf6ce0344d9f137": {
+    "bytes": 39965,
+    "derived_md5": "f03c871aee3c0a495bf6ce0344d9f137",
+    "key": "vegetative/f03c871a-syngonium-triphyllum-international-aroid-society.jpg"
+   },
+   "f95840161181ade131b501d71ff7e0aa": {
+    "bytes": 304922,
+    "derived_md5": "fae7922a43cfae457c4a2eb201a1c461",
+    "key": "other/fae7922a-syngonium-triphyllum-specimen-1977-costa-rica-barcode-0187-014f73.jpg"
+   },
+   "fde59d164f9ad05e6d1f8810a6a6d370": {
+    "bytes": 406387,
+    "derived_md5": "bb150548ddc6de17746ee20e67935a26",
+    "key": "other/bb150548-syngonium-triphyllum-specimen-1994-panama-tex00556691-th-07b084.jpg"
+   }
+  },
+  "syngonium/wendlandii": {
+   "043240bf73e689313c2126966d2a802b": {
+    "bytes": 419247,
+    "derived_md5": "7dea93a46e98b5ee4bd91e1fd3f96595",
+    "key": "vegetative/7dea93a4-syngonium-wendlandii-ocean-fleskes-4.jpg"
+   },
+   "102a12a59ca252373cb54e2545aa1352": {
+    "bytes": 177860,
+    "derived_md5": "102a12a59ca252373cb54e2545aa1352",
+    "key": "vegetative/102a12a5-syngonium-wendlandii-ds-lyon-syngwendlandii7-pictured-at-the-jardin-botanique-de-lyon-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
+   "2f07722028abdfe601e2b337a1e74045": {
+    "bytes": 115389,
+    "derived_md5": "c57f3ff082dcddd9c29c4da15fff485c",
+    "key": "other/c57f3ff0-syngonium-wendlandii-fig-279-nagata-2409-cultivated-at-lyon-arboretum-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "3fcd11244843b581d635187506266a9f": {
+    "bytes": 450366,
+    "derived_md5": "3fcd11244843b581d635187506266a9f",
+    "key": "hero/3fcd1124-syngonium-wendlandii-samuel-c-brillo-cornell-bh-phytoimages-320352.jpg"
+   },
+   "410b5210413a0aa3a822fa70f8398562": {
+    "bytes": 98148,
+    "derived_md5": "bea672a6b56d1cdbeb612979b8edb0f9",
+    "key": "reproductive/bea672a6-syngonium-wendlandii-fig-274-closeup-of-old-spadix-hammel-27969-costa-rica-photo-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "44496cef94e1a62137ac5bb9c480420e": {
+    "bytes": 234888,
+    "derived_md5": "44496cef94e1a62137ac5bb9c480420e",
+    "key": "other/44496cef-powo-syngonium-wendlandii-01.jpg"
+   },
+   "46a770760741d9250565e9dd65e9e757": {
+    "bytes": 456403,
+    "derived_md5": "cf47236e6170b0653327043fdad567ad",
+    "key": "vegetative/cf47236e-syngonium-wendlandii-mary-colton.jpg"
+   },
+   "4ffab8ea409e4e17b5acf15e9fd69dc3": {
+    "bytes": 449964,
+    "derived_md5": "126ec5f3e2981be5bbdb640e4f54c5fe",
+    "key": "vegetative/126ec5f3-syngonium-wendlandii-ocean-fleskes-3.jpg"
+   },
+   "5a5c8cfe0cdc6f70b195f64bc4768d57": {
+    "bytes": 399907,
+    "derived_md5": "4e3af6822e7271a042b327aa375eabf4",
+    "key": "vegetative/4e3af682-syngonium-wendlandii-asih-desi-sartika.jpg"
+   },
+   "5c7eedb520e3206da14ddf48c87197ff": {
+    "bytes": 173532,
+    "derived_md5": "5c7eedb520e3206da14ddf48c87197ff",
+    "key": "vegetative/5c7eedb5-syngonium-wendlandii-ds-montet-syngwendlandiincy-pictured-at-the-jardin-botanique-du-montet-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
+   "60a1c6e6983f248be1bbb938c4c39e91": {
+    "bytes": 673031,
+    "derived_md5": "d41d84cbb7499cf7c2c7a40ece2b1d1c",
+    "key": "vegetative/d41d84cb-syngonium-wendlandii-lostincr-2.jpg"
+   },
+   "62674bff20a513c0cf6e06e8c27af3e0": {
+    "bytes": 68330,
+    "derived_md5": "a96a9172ed4cdf49399fd9c4c679061c",
+    "key": "reproductive/a96a9172-syngonium-wendlandii-fig-273-closeup-of-sterile-staminate-section-of-spadix-hammel-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "7bf033396a9e8a37415a68d6de4d2bdf": {
+    "bytes": 157748,
+    "derived_md5": "94923023b923fd14c86e4a5dd751dd11",
+    "key": "reproductive/94923023-syngonium-wendlandii-fig-271-habit-of-adult-flowering-plant-hammel-27969-costa-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "7db74c28240a3dcb1d32910c1e84bc40": {
+    "bytes": 293524,
+    "derived_md5": "7db74c28240a3dcb1d32910c1e84bc40",
+    "key": "protologue/7db74c28-syngonium-wendlandii-protologue-oesterr-bot-z-8-178-schott-1858-p1.jpg"
+   },
+   "84b14211053113a8c28cb4443e8cc10d": {
+    "bytes": 321124,
+    "derived_md5": "84b14211053113a8c28cb4443e8cc10d",
+    "key": "protologue/84b14211-syngonium-wendlandii-protologue-oesterr-bot-z-8-178-schott-1858-p2.jpg"
+   },
+   "880b154a7c725a0533df21577baea88c": {
+    "bytes": 451411,
+    "derived_md5": "ca58043b18d688a9f68200c1903bd341",
+    "key": "vegetative/ca58043b-syngonium-wendlandii-wally-suarez-cornell-bh-phytoimages-251273.jpg"
+   },
+   "acba9cd67c56965020150534538364eb": {
+    "bytes": 111621,
+    "derived_md5": "acba9cd67c56965020150534538364eb",
+    "key": "reproductive/acba9cd6-syngonium-wendlandii-ds-lyon-syngwendlandii-pictured-at-the-jardin-botanique-de-lyon-france-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
+   "acdc590b1925b9ed78966b698e478b89": {
+    "bytes": 194948,
+    "derived_md5": "acdc590b1925b9ed78966b698e478b89",
+    "key": "vegetative/acdc590b-syngonium-wendlandii-syngonium-wendlandii-20190826174859-01-jpg-ping-an-chang-cc-by-sa-4-0.jpg"
+   },
+   "af8d796547a3ce6a56a38e6b5e035b60": {
+    "bytes": 768163,
+    "derived_md5": "af8d796547a3ce6a56a38e6b5e035b60",
+    "key": "vegetative/af8d7965-syngonium-wendlandii-fig-268-closeup-of-adaxial-leaf-surface-hammel-27969-costa-t-b-croat-croat-2023-aroideana-46-2-720-px.png"
+   },
+   "b1f0162095e300ab93195f854a242af0": {
+    "bytes": 113820,
+    "derived_md5": "2b173e89818724700f9cd6392ca23bd1",
+    "key": "other/2b173e89-syngonium-wendlandii-fig-280-croat-45035-cultivated-at-lyon-arboretum-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "b6d50b35a45d8a976ece16ad7def19d9": {
+    "bytes": 55951,
+    "derived_md5": "b6d50b35a45d8a976ece16ad7def19d9",
+    "key": "reproductive/b6d50b35-syngonium-wendlandii-ds-lyon-syngwendlandiiscan3-pictured-at-the-jardin-botanique-de-lyon-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
+   "c7018a12aed4ede937f03380478de3cf": {
+    "bytes": 699550,
+    "derived_md5": "c7018a12aed4ede937f03380478de3cf",
+    "key": "vegetative/c7018a12-syngonium-wendlandii-wally-suarez-cornell-bh-phytoimages-151552.jpg"
+   },
+   "d4c13a28032db63da8f34d87361eb621": {
+    "bytes": 169210,
+    "derived_md5": "b9735f3799f7b3c5df04174b3e869523",
+    "key": "reproductive/b9735f37-syngonium-wendlandii-fig-270-inflorescences-with-adult-leaf-hammel-27969-costa-rica-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "f216ed093b502b7dc6a9d54b90f96d5a": {
+    "bytes": 109996,
+    "derived_md5": "e2f42191abed21836d0cb80104a17efb",
+    "key": "other/e2f42191-syngonium-wendlandii-fig-278-carlsen-et-al-3670-cult-at-missouri-botanical-garden-t-b-croat-croat-2023-aroideana-46-2-720-px.jpg"
+   },
+   "fdfb9e03d85f6ec3eeaf45f847f7ba95": {
+    "bytes": 846007,
+    "derived_md5": "fdfb9e03d85f6ec3eeaf45f847f7ba95",
+    "key": "reproductive/fdfb9e03-syngonium-wendlandii-fig-272-inflorescence-face-view-hammel-27969-costa-rica-t-b-croat-croat-2023-aroideana-46-2-720-px.png"
+   }
+  },
+  "syngonium/yurimaguense": {
+   "240a59c5797a71a0ab2c369a24e51d54": {
+    "bytes": 161553,
+    "derived_md5": "240a59c5797a71a0ab2c369a24e51d54",
+    "key": "vegetative/240a59c5-syngonium-yurimaguense-ds-montet-syngyurimaguense603423ncy-pictured-at-the-jardin-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
+   "42d65ec4d435fe57e94aa69ec1828d43": {
+    "bytes": 183479,
+    "derived_md5": "5ded42e3a0bc2a26da97e5851203a1d3",
+    "key": "vegetative/5ded42e3-syngonium-yurimaguense-mhomison-6.jpg"
+   },
+   "477ce3f17594c4baf6147193bd6a7da7": {
+    "bytes": 824750,
+    "derived_md5": "477ce3f17594c4baf6147193bd6a7da7",
+    "key": "hero/477ce3f1-syngonium-yurimaguense-mhomison-2.jpg"
+   },
+   "4be30146e4ac28328bc6b1a093514c9a": {
+    "bytes": 256586,
+    "derived_md5": "4be30146e4ac28328bc6b1a093514c9a",
+    "key": "vegetative/4be30146-syngonium-yurimaguense-ds-equateur2015-syngyurimagense3760-pictured-in-timburi-cocha-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
+   "4c1ab77a5c4270888591aa72d87fce1e": {
+    "bytes": 598145,
+    "derived_md5": "9a67174ae9e6fa34f0a6e14dcae0ca5d",
+    "key": "vegetative/9a67174a-syngonium-yurimaguense-mhomison-9.jpg"
+   },
+   "576d2fde782c7dbba426cd12c8a6be37": {
+    "bytes": 679999,
+    "derived_md5": "2f3272a206a31422f56775999ba19fe4",
+    "key": "vegetative/2f3272a2-syngonium-yurimaguense-mhomison-12.jpg"
+   },
+   "63458651520a480dbfe869a4a1506bdc": {
+    "bytes": 237925,
+    "derived_md5": "63458651520a480dbfe869a4a1506bdc",
+    "key": "vegetative/63458651-syngonium-yurimaguense-ds-equateur2015-syngyurimagense3079-pictured-in-yasuni-national-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
+   "68b0de7ef2d3e2527ed3472ce878bb00": {
+    "bytes": 69603,
+    "derived_md5": "68b0de7ef2d3e2527ed3472ce878bb00",
+    "key": "reproductive/68b0de7e-powo-syngonium-yurimaguense-01.jpg"
+   },
+   "75ffe585b214ad57ee67818f7f4fa608": {
+    "bytes": 335617,
+    "derived_md5": "75ffe585b214ad57ee67818f7f4fa608",
+    "key": "protologue/75ffe585-syngonium-yurimaguense-protologue-bot-jahrb-syst-37-141-engl-1905-p2.jpg"
+   },
+   "7e00a1885f88f22f1b422ca84c19b65b": {
+    "bytes": 582040,
+    "derived_md5": "9dc477f63b90bb40588b174648a3e8c8",
+    "key": "vegetative/9dc477f6-syngonium-yurimaguense-mhomison-11.jpg"
+   },
+   "835f1bd223feab73f47ec8566ccc284b": {
+    "bytes": 328199,
+    "derived_md5": "835f1bd223feab73f47ec8566ccc284b",
+    "key": "protologue/835f1bd2-syngonium-yurimaguense-protologue-bot-jahrb-syst-37-141-engl-1905-p1.jpg"
+   },
+   "8e839e74f4755ee7c518aa1cd19a628e": {
+    "bytes": 931357,
+    "derived_md5": "8e839e74f4755ee7c518aa1cd19a628e",
+    "key": "vegetative/8e839e74-syngonium-yurimaguense-mhomison-5.jpg"
+   },
+   "91539818de6c4e3a164d24f48808a28f": {
+    "bytes": 326461,
+    "derived_md5": "91539818de6c4e3a164d24f48808a28f",
+    "key": "protologue/91539818-syngonium-yurimaguense-protologue-bot-jahrb-syst-37-141-engl-1905-p3.jpg"
+   },
+   "9b7a4f85fd621b41bfa3a5a6b5cdbd94": {
+    "bytes": 641167,
+    "derived_md5": "5517a405fa8444212cf0bfea6b050b8a",
+    "key": "vegetative/5517a405-syngonium-yurimaguense-mhomison-3.jpg"
+   },
+   "aad8b7c1bb82c041e2bbea90913c0230": {
+    "bytes": 158150,
+    "derived_md5": "aad8b7c1bb82c041e2bbea90913c0230",
+    "key": "vegetative/aad8b7c1-syngonium-yurimaguense-ds-montet-syngyurimaguense603423ncy2-pictured-at-the-jardin-copyright-david-scherberich-www-aroidpictures-fr.jpg"
+   },
+   "e358f41eaa10abf518429f25a1fbe9dd": {
+    "bytes": 214465,
+    "derived_md5": "e358f41eaa10abf518429f25a1fbe9dd",
+    "key": "reproductive/e358f41e-syngonium-yurimaguense-marcos-silveira-2.jpeg"
+   },
+   "f5ac04b98a556a6fba941b2f96700e25": {
+    "bytes": 32923,
+    "derived_md5": "f5ac04b98a556a6fba941b2f96700e25",
+    "key": "other/f5ac04b9-syngonium-yurimaguense-as-syngonium-atrovirens-international-aroid-society.jpg"
+   },
+   "f922c95c4a7ae5e2f26cdce59d117647": {
+    "bytes": 23727,
+    "derived_md5": "f922c95c4a7ae5e2f26cdce59d117647",
+    "key": "other/f922c95c-syngonium-yurimaguense-as-syngonium-atrovirens-international-aroid-society-2.jpg"
+   },
+   "fd19082ffddf8746b5a69359bfe4d502": {
+    "bytes": 360185,
+    "derived_md5": "fd19082ffddf8746b5a69359bfe4d502",
+    "key": "reproductive/fd19082f-syngonium-yurimaguense-marcos-silveira.jpeg"
+   }
+  }
+ }
+}
