@@ -1,21 +1,23 @@
 {
  "version": "1.0.0",
- "generated": "2026-09-07",
+ "generated": "2026-09-23",
  "source": "POWO genus exports (Araceae_Exports/EXCELS), sheet SPECIES",
  "exportsOldest": "2026-04-01",
  "exportsNewest": "2026-04-02",
  "note": "Species only. Hybrid rows and undated rows are excluded; see scripts/extract-species-years.py for the rules. Editorial rulings in data/taxon-rulings.json override the export.",
  "rulingsApplied": [
+  "alloschemone: excluded Alloschemone inopinata (= Alloschemone occidentalis. Hay, da Costa Soares & Gorfer 2)",
   "alocasia: excluded Alocasia augustiana (Invalid; = Alocasia aequiloba. POWO/Kew recognise it, Aroidp)",
   "alocasia: kept Alocasia okinawensis (1965), absent from POWO",
   "alocasia: kept Alocasia rivularis (2017), absent from POWO",
   "alocasia: kept Alocasia lihengiae (2020), absent from POWO",
+  "cryptocoryne: excluded Cryptocoryne jacobsenii (= Cryptocoryne ×decus-silvae. Jacobsen, Wongso & Ørgaard 202)",
   "monstera: kept Monstera colossica (2025), absent from POWO",
   "monstera: kept Monstera corana (2025), absent from POWO",
   "scindapsus: excluded Scindapsus rupestris (= Scindapsus sumatranus. Hay & Yuzammi 2000 (Telopea 9(1): 1)"
  ],
  "generaCount": 153,
- "speciesCount": 4704,
+ "speciesCount": 4702,
  "genera": {
   "acontias": {
    "name": "Acontias",
@@ -180,9 +182,6 @@
   "alloschemone": {
    "name": "Alloschemone",
    "years": {
-    "2001": [
-     "Alloschemone inopinata"
-    ],
     "1908": [
      "Alloschemone occidentalis"
     ]
@@ -3795,8 +3794,7 @@
      "Cryptocoryne cruddasiana"
     ],
     "1976": [
-     "Cryptocoryne decus-silvae",
-     "Cryptocoryne jacobsenii"
+     "Cryptocoryne decus-silvae"
     ],
     "1977": [
      "Cryptocoryne dewitii"

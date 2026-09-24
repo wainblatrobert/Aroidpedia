@@ -2169,7 +2169,7 @@
        "postMBB": true,
        "placementConfidence": "stated",
        "uncertainPlacement": false,
-       "placementSource": "Hay, A. (2023). Notes on Phyllotaenium Andre (Araceae-Caladieae). Aroideana 46(1): 18-40.",
+       "placementSource": "Hay, A. (2023). Notes on Phyllotaenium André (Araceae—Caladieae). Aroideana 46(1): 18-40.",
        "image": {
         "src": "https://wainblatrobert.github.io/Aroidpedia/genus/phyllotaenium.webp",
         "alt": "Phyllotaenium lindenii",
@@ -10275,9 +10275,9 @@
         "tips": 173,
         "note": "From the Philodendron study (Canal et al. 2019), not the family chronogram the rest of this view is drawn from. Its stem is shared with Adelonema, its sister genus. Canal et al. (2018) date the same nodes at 25.53 / 22.10 Ma on the same three secondary calibrations with 48 fewer taxa, and at 21.55 / 18.61 Ma when a Montrichardia fossil is added instead - the ages are not strictly comparable with the genera around them."
        },
-       "speciesTierSource": "Canal, Köster, Celis, Croat & Borsch (2019), \"Out of Amazonia and back again: historical biogeography of the species-rich Neotropical genus Philodendron (Araceae)\", Annals of the Missouri Botanical Garden 104: 49-68, Table 1 and Fig. 1",
-       "speciesTierNote": "The plastid BEAST chronogram (petD, rpl16, trnK/matK; 221 accessions, 173 Philodendron taxa, three secondary calibrations from Nauheimer et al. 2012). Ages, 95% HPDs and posteriors are Table 1's; the branching order is derived from Fig. 1, whose two pages are drawn at different scales and were calibrated separately - each calibration then reproduced ages it was not fitted to, and the node where the two pages join is dated 12.89 Ma on one and 12.89 Ma on the other. ⚠ Canal et al. (2018) numbered these clades 3-14; 2019 renumbers them 1-12 and adds clades A and B in subgenus Pteromischum. Both numbers are given. ⚠ The two studies disagree about which subgenus branches first, and both mark that node as too weakly supported to date: 2018 has subgenus Philodendron splitting off first (pp 0.37), 2019 has Pteromischum (pp 0.27). The tier draws 2019 and says so. ⚠ No section of the current infrageneric classification came out monophyletic and the clades have no morphological synapomorphies - they are largely geographic. — 1.17.0 adds the species: 166 accessions (162 Philodendron, 4 Adelonema; 147 distinct taxa) at their own divergence points, from the same Fig. 1. ⚠ The figure draws 166 of the study's 221 accessions. ⚠ Five taxa are sampled more than once - `Philodendron sp. (subgen. Pteromischum)` twelve times - so every tip is identified by its ARA accession, not by name alone.",
-       "subgeneraSource": "Canal, Köster, Celis, Croat & Borsch (2019), \"Out of Amazonia and back again: historical biogeography of the species-rich Neotropical genus Philodendron (Araceae)\", Annals of the Missouri Botanical Garden 104: 49-68, Table 1 and Fig. 1",
+       "speciesTierSource": "Canal, Köster, Celis, Croat, Borsch & Jones (2019), \"Out of Amazonia and back again: historical biogeography of the species-rich Neotropical genus Philodendron (Araceae)\", Annals of the Missouri Botanical Garden 104: 49-68, Table 1 and Fig. 1",
+       "speciesTierNote": "The plastid BEAST chronogram (petD, rpl16, trnK/matK; 221 accessions, 173 Philodendron taxa, three secondary calibrations from Nauheimer et al. 2012). Ages, 95% HPDs and posteriors are Table 1's; the branching order is derived from Fig. 1, whose two pages are drawn at different scales and were calibrated separately - each calibration then reproduced ages it was not fitted to, and the node where the two pages join is dated 12.89 Ma on one and 12.89 Ma on the other. ⚠ Canal et al. (2018) numbered these clades 3-14; 2019 renumbers them 1-12 and adds clades A and B in subgenus Pteromischum. Both numbers are given. ⚠ The two studies disagree about which subgenus branches first, and both mark that node as too weakly supported to date: 2018 has subgenus Philodendron splitting off first (pp 0.37), 2019 has Pteromischum (pp 0.27). The tier draws 2019 and says so. ⚠ Inside subgenus Philodendron the morphology-based sectional classification is not supported: no section came out monophyletic, and the clades that replace them have no morphological synapomorphies - they are largely geographic. Subgenus Pteromischum is the exception, where the two morphologically distinct sections Pteromischum and Fruticosa are supported. — 1.17.0 adds the species: 166 accessions (162 Philodendron, 4 Adelonema; 147 distinct taxa) at their own divergence points, from the same Fig. 1. ⚠ The figure draws 166 of the study's 221 accessions. ⚠ Five taxa are sampled more than once - `Philodendron sp. (subgen. Pteromischum)` twelve times - so every tip is identified by its ARA accession, not by name alone.",
+       "subgeneraSource": "Canal, Köster, Celis, Croat, Borsch & Jones (2019), \"Out of Amazonia and back again: historical biogeography of the species-rich Neotropical genus Philodendron (Araceae)\", Annals of the Missouri Botanical Garden 104: 49-68, Table 1 and Fig. 1",
        "ancestralRange": {
         "area": "Amazonia",
         "p": 0.779
@@ -14891,11 +14891,37 @@
      ]
     },
     {
-     "id": "tribe-heteropsideae",
-     "name": "Heteropsideae",
+     "id": "tribe-anepsiadeae",
+     "name": "Anepsiadeae",
      "rank": "tribe",
      "authority": "Engler",
+     "note": "Anepsiadeae Engler (1876) has priority over Heteropsideae Engler (1905: 20) for the neotropical 'Heteropsis clade' of Monsteroideae, which holds Alloschemone, Heteropsis, Rhodospatha and Stenospermation; this node was drawn as Heteropsideae with Heteropsis alone until the three others were moved here out of Monstereae. Sources: Hay, Soares & Gorfer (2025) pp. 1-2 for Alloschemone, and the Stenospermation paper (printed pp. 94, 96) citing Haigh et al. (2023) for Stenospermation, Rhodospatha and Heteropsis. Both adopt the molecular consensus rather than testing it. ⚠ This is a placement fix only: metadata.chronology.taxa.tribe is UNCHANGED and still keys 'Heteropsideae' (tips 1, Heteropsis alone) and 'Monstereae' (tips 9), so this tribe currently draws undated in the Time view. Recomputing it means re-reading Nauheimer, Metzler & Renner (2012) Table S5 for the MRCA of the sampled Alloschemone/Rhodospatha (node 19), Heteropsis (node 18) and Stenospermation (node 17) tips, and a new MRCA for the 6 tips Monstereae keeps. Not inferred here - owner's call.",
      "children": [
+      {
+       "id": "genus-alloschemone",
+       "name": "Alloschemone",
+       "rank": "genus",
+       "authority": "Schott",
+       "mbbNumber": 18,
+       "speciesCount": 1,
+       "archiveUrl": "/alloschemone",
+       "range": {
+        "b": "americas",
+        "nw": true,
+        "ow": false,
+        "places": [
+         "Brazil",
+         "Amazonas",
+         "Rondônia",
+         "Bolivia",
+         "Pando"
+        ],
+        "zones": {
+         "americas": 2
+        }
+       },
+       "note": "Distribution: widely scattered Amazonian records in Brazil (Amazonas and Rondônia) and Bolivia (Pando) — Hay, Soares & Gorfer (2025), printed p. 14, the same units as the 2001 revision (printed p. 90). Rondônia and Pando were added from those two papers; the rest of range.places is the 2026-08-07 POWO parse, and range.zones is unchanged."
+      },
       {
        "id": "genus-heteropsis",
        "name": "Heteropsis",
@@ -14926,6 +14952,88 @@
          "americas": 19
         }
        }
+      },
+      {
+       "id": "genus-rhodospatha",
+       "name": "Rhodospatha",
+       "rank": "genus",
+       "authority": "Poeppig",
+       "mbbNumber": 19,
+       "speciesCount": 45,
+       "archiveUrl": "/rhodospatha",
+       "image": {
+        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/rhodospatha.webp",
+        "alt": "Rhodospatha oblongata",
+        "source": "POWO_Rhodospatha oblongata_02.jpg"
+       },
+       "range": {
+        "b": "americas",
+        "nw": true,
+        "ow": false,
+        "places": [
+         "Panama",
+         "Colombia",
+         "Ecuador",
+         "Peru",
+         "Venezuela",
+         "Costa Rica",
+         "Brazil",
+         "Amazonas",
+         "America",
+         "Bolivia",
+         "Bolívar",
+         "Cord. de Talamanca",
+         "Falcón",
+         "Grenada",
+         "Guianas",
+         "Mexico",
+         "Minas Gerais",
+         "Nicaragua",
+         "Pichincha",
+         "South America",
+         "Sucre",
+         "Trinidad",
+         "Zulia"
+        ],
+        "zones": {
+         "americas": 45
+        }
+       }
+      },
+      {
+       "id": "genus-stenospermation",
+       "name": "Stenospermation",
+       "rank": "genus",
+       "authority": "Schott",
+       "mbbNumber": 20,
+       "speciesCount": 58,
+       "archiveUrl": "/stenospermation",
+       "range": {
+        "b": "americas",
+        "nw": true,
+        "ow": false,
+        "places": [
+         "Colombia",
+         "Ecuador",
+         "Peru",
+         "Costa Rica",
+         "Valle del Cauca",
+         "Venezuela",
+         "Bolivia",
+         "Guyana",
+         "South America",
+         "America",
+         "Panama",
+         "Amazonas",
+         "Brazil",
+         "Nicaragua",
+         "Suriname",
+         "Táchira"
+        ],
+        "zones": {
+         "americas": 58
+        }
+       }
       }
      ]
     },
@@ -14935,28 +15043,6 @@
      "rank": "tribe",
      "authority": "Engler",
      "children": [
-      {
-       "id": "genus-alloschemone",
-       "name": "Alloschemone",
-       "rank": "genus",
-       "authority": "Schott",
-       "mbbNumber": 18,
-       "speciesCount": 2,
-       "archiveUrl": "/alloschemone",
-       "range": {
-        "b": "americas",
-        "nw": true,
-        "ow": false,
-        "places": [
-         "Brazil",
-         "Amazonas",
-         "Bolivia"
-        ],
-        "zones": {
-         "americas": 2
-        }
-       }
-      },
       {
        "id": "genus-amydrium",
        "name": "Amydrium",
@@ -16570,53 +16656,6 @@
        }
       },
       {
-       "id": "genus-rhodospatha",
-       "name": "Rhodospatha",
-       "rank": "genus",
-       "authority": "Poeppig",
-       "mbbNumber": 19,
-       "speciesCount": 45,
-       "archiveUrl": "/rhodospatha",
-       "image": {
-        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/rhodospatha.webp",
-        "alt": "Rhodospatha oblongata",
-        "source": "POWO_Rhodospatha oblongata_02.jpg"
-       },
-       "range": {
-        "b": "americas",
-        "nw": true,
-        "ow": false,
-        "places": [
-         "Panama",
-         "Colombia",
-         "Ecuador",
-         "Peru",
-         "Venezuela",
-         "Costa Rica",
-         "Brazil",
-         "Amazonas",
-         "America",
-         "Bolivia",
-         "Bolívar",
-         "Cord. de Talamanca",
-         "Falcón",
-         "Grenada",
-         "Guianas",
-         "Mexico",
-         "Minas Gerais",
-         "Nicaragua",
-         "Pichincha",
-         "South America",
-         "Sucre",
-         "Trinidad",
-         "Zulia"
-        ],
-        "zones": {
-         "americas": 45
-        }
-       }
-      },
-      {
        "id": "genus-scindapsus",
        "name": "Scindapsus",
        "rank": "genus",
@@ -16663,41 +16702,6 @@
         "zones": {
          "asia": 30,
          "austral": 6
-        }
-       }
-      },
-      {
-       "id": "genus-stenospermation",
-       "name": "Stenospermation",
-       "rank": "genus",
-       "authority": "Schott",
-       "mbbNumber": 20,
-       "speciesCount": 58,
-       "archiveUrl": "/stenospermation",
-       "range": {
-        "b": "americas",
-        "nw": true,
-        "ow": false,
-        "places": [
-         "Colombia",
-         "Ecuador",
-         "Peru",
-         "Costa Rica",
-         "Valle del Cauca",
-         "Venezuela",
-         "Bolivia",
-         "Guyana",
-         "South America",
-         "America",
-         "Panama",
-         "Amazonas",
-         "Brazil",
-         "Nicaragua",
-         "Suriname",
-         "Táchira"
-        ],
-        "zones": {
-         "americas": 58
         }
        }
       }
@@ -17450,7 +17454,7 @@
            "rank": "species",
            "section": "Decurrentia",
            "accession": "sect. Decurrentia",
-           "note": "Classical section: Decurrentia — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+           "note": "Classical section: Decurrentia — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1). ⚠ That drawer is historical: Delannay & Croat (2020) place this species in sect. Leptanthurium on morphology, and say (printed p. 76) that the sampled plant occupied a nearby heterogeneous clade — the one drawn here — and may also belong to the Leptanthurium clade."
           },
           {
            "id": "sp-anthurium-spectabile",
@@ -17539,7 +17543,7 @@
            "rank": "species",
            "section": "Decurrentia",
            "accession": "sect. Decurrentia",
-           "note": "Classical section: Decurrentia — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1)."
+           "note": "Classical section: Decurrentia — the drawer growers know it from, per Carlsen & Croat (2019, fig. 1). ⚠ That drawer is historical: Delannay & Croat (2020) include this species in sect. Leptanthurium, reporting (printed p. 76) that it clustered with Anthurium gracile in the small Leptanthurium clade — the clade drawn here."
           },
           {
            "id": "sp-anthurium-sp4",
@@ -18002,28 +18006,6 @@
      "authority": "Engler",
      "children": [
       {
-       "id": "genus-pedicellarum",
-       "name": "Pedicellarum",
-       "rank": "genus",
-       "authority": "M. Hotta",
-       "mbbNumber": 6,
-       "archiveUrl": "/pedicellarum",
-       "image": {
-        "src": "https://wainblatrobert.github.io/Aroidpedia/genus/pedicellarum.webp",
-        "alt": "Pedicellarum paiei",
-        "source": "Pedicellarum paiei M.Hotta Figure 110.jpg"
-       },
-       "range": {
-        "b": "asia",
-        "nw": false,
-        "ow": true,
-        "places": [
-         "Borneo",
-         "Sarawak"
-        ]
-       }
-      },
-      {
        "id": "genus-pothoidium",
        "name": "Pothoidium",
        "rank": "genus",
@@ -18111,7 +18093,8 @@
          "austral": 12,
          "africa": 1
         }
-       }
+       },
+       "note": "Pedicellarum M.Hotta is a heterotypic synonym of Pothos (Wong, Hay & Boyce 2020, syn. nov., p. 91). Its type species is accepted here as Pothos paiei (M.Hotta) S.Y.Wong, A.Hay & P.C.Boyce, comb. nov. (p. 100), so work published under the name Pedicellarum is Pothos material. speciesCount is POWO's figure and has not been re-checked against POWO since the transfer."
       }
      ]
     }
@@ -18133,7 +18116,7 @@
      "Zamioculcadoideae is treated as part of Aroideae.",
      "The duckweeds are included as subfamily Lemnoideae — they were still a separate family in 1997.",
      "Lasioideae is divided into two tribes, Lasieae and Dracontieae.",
-     "The tribe Aglaonemateae holds Aglaonema and Boycea."
+     "The tribe Aglaonemateae holds Aglaodorum, Aglaonema and Boycea."
     ],
     "unresolved": [
      "Where subfamily Lasioideae attaches to the rest of the family is still unsettled.",
@@ -20248,6 +20231,8 @@
    ]
   },
   "speciesCountRule": "1.36.0: a genus's speciesCount is the LARGER of POWO's accepted species and the journal archive's own species posts (user ruling 8.20.26 — POWO lags while a genus is being built out). The POWO figure is kept as speciesCountPowo on any node the rule touched.",
-  "furtadoaSink": "1.37.0: Furtadoa M.Hotta is sunk into Homalomena (POWO, checked 2026-08-20) and its genus node removed; the name survives as a synonym note on Homalomena. Homalomena's speciesCount moved 163 -> 177, POWO's current accepted figure, which already includes the three transferred species - it is not 163 + 3."
+  "furtadoaSink": "1.37.0: Furtadoa M.Hotta is sunk into Homalomena (POWO, checked 2026-08-20) and its genus node removed; the name survives as a synonym note on Homalomena. Homalomena's speciesCount moved 163 -> 177, POWO's current accepted figure, which already includes the three transferred species - it is not 163 + 3.",
+  "pedicellarumSink": "Pedicellarum M.Hotta is sunk into Pothos (Wong, Hay & Boyce 2020, syn. nov., p. 91; type species = Pothos paiei (M.Hotta) S.Y.Wong, A.Hay & P.C.Boyce, comb. nov., p. 100) and its genus node removed from tribe Potheae; the name survives as a synonym note on Pothos. Pothos already carried its own image and both Borneo and Sarawak in range.places, so nothing was carried over. TWO HISTORICAL LABELS ARE LEFT STANDING ON PURPOSE, and are historical, not a current genus list: (1) metadata.provenance.ranges still names Pedicellarum (and Pseudodracontium) among the hand-set genera - that is a record of the 2026-08-07 range parse, which ran while both were accepted; (2) metadata.chronology.taxa.genus still carries a 'Pedicellarum' entry (as it does 'Furtadoa'), because those are Nauheimer, Metzler & Renner (2012)'s own tip labels, reproduced as published. Folding either tip into its accepted genus changes that genus's tips, monophyly and stem age and must be recomputed from Table S5 - OWNER'S CALL, not applied here. Pothos's speciesCount is unchanged: it is POWO's figure and was not re-checked.",
+  "alloschemoneSynonymy": "Alloschemone inopinata Bogner & P.C.Boyce is sunk into Alloschemone occidentalis (Hay, da Costa Soares & Gorfer 2025, \"Notes on the Amazonian genus Alloschemone Schott (Araceae—Monsteroideae—Anepsiadeae)\", Aroideana 48(1): 1-16, synon. nov. p. 13; \"We therefore think it preferable to regard Alloschemone as monotypic\", p. 10), so the genus is monotypic and speciesCount moves 2 -> 1. Owner ruling 2026-09-23, which adopts a paper of 2000 or later over POWO: POWO as captured still lists two accepted species. The same ruling is applied to genus-geo.json, where the inopinata key is merged into occidentalis (it carried only Brazil North, which occidentalis already held, so no place moved) and speciesTotal and speciesTotalPowo move 2 -> 1. The name survives as a synonym of Alloschemone occidentalis."
  }
 }

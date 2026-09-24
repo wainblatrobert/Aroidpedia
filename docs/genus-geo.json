@@ -1,12 +1,14 @@
 {
- "version": "1.25.0",
- "generated": "2026-09-08",
+ "version": "1.27.0",
+ "generated": "2026-09-23",
  "note18": "1.18.0 (8.20.26): speciesTotal is the LARGER of POWO and the journal’s own species posts (user ruling - POWO is a floor while a genus is being built out, not a ceiling); speciesTotalPowo keeps POWO’s own figure for the sources line.",
  "note19": "1.19.0 (8.20.26): Furtadoa is sunk into Homalomena (POWO; one of the genus’s seven heterotypic synonyms). Its empty genus entry is removed and Homalomena carries the merged range.",
  "note22": "1.22.0 (8.21.26): FULL 155-genus rebuild (the builder defaulted to Amorphophallus alone, so every other genus carried 8.16 data); the refine gate walks the SUBUNITS chain shallow-first (POWO speaks L3, so three-tier chains - East Kalimantan under Kalimantan under Borneo - always failed the direct-parent test); a mojibake ALIAS literal made SWC emit a broken San Andres key; POWO respelled Panama with its accent.",
  "note21": "1.21.0 (8.21.26): tag spellings fold through the tables’ variants before the SUBUNITS filter, so an aliased tag (Dinagat Islands → Surigao del Norte) reaches the genus maps.",
  "note24": "1.24.0 (9.6.26): POWO's 'Solomon Is.' folds to the site's canonical 'Solomon Islands' (climate 1.21.0 removed the duplicate 'Solomon Is.' shape and left the spelling to aliases, which the genus map and the genus climate chart never apply); nine genera regain the Solomons on their maps: Alocasia, Cyrtosperma, Epipremnum, Homalomena, Pothos, Rhaphidophora, Schismatoglottis, Scindapsus, Spathiphyllum. Full 155-genus rebuild.",
  "note25": "1.25.0 (9.7.26): the builder now APPLIES data/taxon-rulings.json, which it never did - three other scripts read that file, so an editorial ruling reached the timeline and the species base and then stopped at the genus map. An `exclude` drops the name; the new `mergeInto` field marks it a SYNONYM and transfers its zones to the accepted name, because POWO files distribution under the synonym (Scindapsus rupestris carried Borneo, Peninsular Malaysia, Sumatra and Thailand against Scindapsus sumatranus’s single Sumatra, so a plain drop would have shrunk a West Malesian species to one island). Aggregates are recomputed from the merged per-species map rather than decremented, so a place counted under both names falls by one while a place counted under only the synonym does not move. First ruling applied: Scindapsus rupestris → Scindapsus sumatranus (owner ruling 2026-09-07, Hay & Yuzammi 2000).",
+ "note26": "1.26.0 (9.23.26): a synonym merge RE-REFINES the accepted name. The journal-tag refinement ran during the POWO pass, before apply_rulings moved a synonym’s zones onto the accepted name, so the accepted name’s own finer tags were judged against its pre-merge range: Scindapsus sumatranus is Sumatra alone in POWO, rupestris brings Borneo, Peninsular Malaysia and Thailand, and the post’s Perak and Sarawak had already been refused against Sumatra. The same gate now runs again on the merged range, and each admitted subunit joins its anchor’s region and continent before the aggregates are recomputed.",
+ "note27": "1.27.0 (9.23.26): a `range` ruling in data/taxon-rulings.json REPLACES one accepted species’ native places with those a paper prints, for a revision that keeps a name but narrows its range (Xanthosoma daguense and Xanthosoma undipes, Croat et al. 2017; Cryptocoryne cordata and Cryptocoryne siamensis, Jacobsen et al. 2023). Until now only names could be ruled, so a range correction lived as a hand edit to the feed and the next POWO pull undid it. A place outside the genus’ region tree refuses the ruling; a place the ruling takes out of the genus leaves `codes` too.",
  "note20": "1.20.0 (8.21.26): the SUBUNITS registry is now EVERY *-l4-table.json in the scripts folder, globbed - the hand-wired chain had quietly stopped at the 8.16 batches, so Cambodia, Madagascar, Brazil/Mexico, the West-Africa sweep, Borneo’s divisions, Taiwan, China and the Africa smalls never reached the genus maps (caught on johnsonii’s Subzones view). Subunit vocabulary 27 -> 93; Amorphophallus places 85 -> 151.",
  "source": "POWO/WCVP distribution API, native WGSRPD level-3 units + journal-tag subunit refinement (additive)",
  "genera": {
@@ -3241,12 +3243,12 @@
    }
   },
   "Alloschemone": {
-   "speciesTotal": 2,
-   "speciesTotalPowo": 2,
+   "speciesTotal": 1,
+   "speciesTotalPowo": 1,
    "speciesJournal": 0,
    "places": {
-    "Brazil North": 2,
-    "Bolivia": 1
+    "Bolivia": 1,
+    "Brazil North": 1
    },
    "doubtful": {},
    "introduced": {},
@@ -3255,9 +3257,6 @@
     "Bolivia": "BOL"
    },
    "speciesPlaces": {
-    "inopinata": [
-     "Brazil North"
-    ],
     "occidentalis": [
      "Bolivia",
      "Brazil North"
@@ -3265,22 +3264,22 @@
    },
    "doubtfulSpecies": {},
    "regions": {
-    "Brazil": {
-     "count": 2,
-     "members": [
-      "Brazil North"
-     ]
-    },
     "Western South America": {
      "count": 1,
      "members": [
       "Bolivia"
      ]
+    },
+    "Brazil": {
+     "count": 1,
+     "members": [
+      "Brazil North"
+     ]
     }
    },
    "continents": {
     "Southern America": {
-     "count": 2,
+     "count": 1,
      "regions": [
       "Brazil",
       "Western South America"
@@ -16641,25 +16640,25 @@
    }
   },
   "Cryptocoryne": {
-   "speciesTotal": 75,
-   "speciesTotalPowo": 75,
+   "speciesTotal": 74,
+   "speciesTotalPowo": 74,
    "speciesJournal": 0,
    "places": {
-    "Borneo": 28,
+    "Borneo": 27,
+    "Sumatra": 13,
     "Philippines": 12,
-    "Sumatra": 12,
-    "Peninsular Malaysia": 11,
+    "Peninsular Malaysia": 10,
     "Sri Lanka": 9,
     "India": 8,
     "Thailand": 7,
     "Vietnam": 4,
     "Bangladesh": 4,
+    "Cambodia": 4,
     "Myanmar": 4,
-    "Cambodia": 3,
     "New Guinea": 3,
     "Laos": 3,
-    "Java": 2,
     "Assam": 2,
+    "Java": 1,
     "Maluku": 1,
     "Nicobar": 1,
     "Sulawesi": 1,
@@ -16753,8 +16752,6 @@
      "India"
     ],
     "cordata": [
-     "Borneo",
-     "Java",
      "Peninsular Malaysia",
      "Sumatra",
      "Thailand"
@@ -16778,7 +16775,8 @@
      "Myanmar"
     ],
     "decus-silvae": [
-     "Peninsular Malaysia"
+     "Peninsular Malaysia",
+     "Sumatra"
     ],
     "dewitii": [
      "New Guinea"
@@ -16816,9 +16814,6 @@
     ],
     "isae": [
      "Borneo"
-    ],
-    "jacobsenii": [
-     "Sumatra"
     ],
     "joshanii": [
      "Philippines"
@@ -16897,7 +16892,8 @@
      "Sumatra"
     ],
     "siamensis": [
-     "Peninsular Malaysia",
+     "Cambodia",
+     "Sumatra",
      "Thailand"
     ],
     "sivadasanii": [
@@ -16965,7 +16961,7 @@
    "doubtfulSpecies": {},
    "regions": {
     "Malesia": {
-     "count": 52,
+     "count": 51,
      "members": [
       "Borneo",
       "Java",
@@ -17012,7 +17008,7 @@
    },
    "continents": {
     "Tropical Asia": {
-     "count": 75,
+     "count": 74,
      "regions": [
       "Indian Subcontinent",
       "Indo-China",
@@ -42191,35 +42187,35 @@
    "speciesTotalPowo": 199,
    "speciesJournal": 0,
    "places": {
-    "Colombia": 52,
-    "Ecuador": 51,
-    "Peru": 38,
-    "Venezuela": 32,
-    "Brazil North": 18,
-    "French Guiana": 14,
-    "Guyana": 13,
-    "Bolivia": 12,
+    "Colombia": 51,
+    "Ecuador": 49,
+    "Peru": 37,
+    "Venezuela": 31,
+    "Brazil North": 17,
+    "French Guiana": 13,
+    "Guyana": 12,
+    "Bolivia": 11,
     "Panama": 11,
     "Brazil West-Central": 10,
     "Costa Rica": 8,
-    "Suriname": 7,
     "Brazil Southeast": 7,
-    "Puerto Rico": 4,
+    "Suriname": 6,
     "Brazil Northeast": 4,
-    "Dominican Republic": 3,
+    "Nicaragua": 4,
+    "Puerto Rico": 3,
     "Mexico Central": 3,
     "Honduras": 3,
     "Mexico Gulf": 3,
     "Mexico Southwest": 3,
-    "Nicaragua": 3,
     "Brazil South": 3,
     "Mexico Southeast": 3,
-    "Haiti": 2,
-    "Leeward Is.": 2,
-    "Trinidad and Tobago": 2,
-    "Windward Is.": 2,
+    "Dominican Republic": 2,
     "Argentina Northwest": 2,
     "Guatemala": 2,
+    "Haiti": 1,
+    "Leeward Is.": 1,
+    "Trinidad and Tobago": 1,
+    "Windward Is.": 1,
     "Cuba": 1,
     "Belize": 1,
     "India": 1,
@@ -42510,8 +42506,7 @@
      "Colombia"
     ],
     "daguense": [
-     "Colombia",
-     "Ecuador"
+     "Colombia"
     ],
     "danielsii": [
      "Guyana",
@@ -43004,23 +42999,9 @@
      "Brazil North"
     ],
     "undipes": [
-     "Bolivia",
-     "Brazil North",
-     "Colombia",
      "Costa Rica",
-     "Dominican Republic",
-     "Ecuador",
-     "French Guiana",
-     "Guyana",
-     "Haiti",
-     "Leeward Is.",
-     "Panama",
-     "Peru",
-     "Puerto Rico",
-     "Suriname",
-     "Trinidad and Tobago",
-     "Venezuela",
-     "Windward Is."
+     "Nicaragua",
+     "Panama"
     ],
     "vargasii": [
      "Ecuador"
@@ -43068,7 +43049,7 @@
    },
    "regions": {
     "Western South America": {
-     "count": 128,
+     "count": 127,
      "members": [
       "Bolivia",
       "Colombia",
@@ -43077,7 +43058,7 @@
      ]
     },
     "Northern South America": {
-     "count": 51,
+     "count": 50,
      "members": [
       "French Guiana",
       "Guyana",
@@ -43086,7 +43067,7 @@
      ]
     },
     "Brazil": {
-     "count": 26,
+     "count": 25,
      "members": [
       "Brazil North",
       "Brazil Northeast",
@@ -43106,18 +43087,6 @@
       "Panama"
      ]
     },
-    "Caribbean": {
-     "count": 5,
-     "members": [
-      "Cuba",
-      "Dominican Republic",
-      "Haiti",
-      "Leeward Is.",
-      "Puerto Rico",
-      "Trinidad and Tobago",
-      "Windward Is."
-     ]
-    },
     "Mexico": {
      "count": 5,
      "members": [
@@ -43126,6 +43095,18 @@
       "Mexico Northwest",
       "Mexico Southeast",
       "Mexico Southwest"
+     ]
+    },
+    "Caribbean": {
+     "count": 4,
+     "members": [
+      "Cuba",
+      "Dominican Republic",
+      "Haiti",
+      "Leeward Is.",
+      "Puerto Rico",
+      "Trinidad and Tobago",
+      "Windward Is."
      ]
     },
     "Southern South America": {

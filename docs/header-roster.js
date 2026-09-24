@@ -9,14 +9,14 @@
    Then paste this block into the header injection, replacing the
    existing "AP.GENERA = { ... };" statement and nothing else.
 
-   150 genera · roster v1.0.0 · 2026-09-08
+   149 genera · roster v1.0.0 · 2026-09-24
    ===================================================================== */
   AP.GENERA = {
     "adelonema": { ascend: { sub: "Aroideae", tribe: "Philodendreae" } },
     "aglaodorum": { ascend: { sub: "Aroideae", tribe: "Aglaonemateae" } },
     "aglaonema": { ascend: { sub: "Aroideae", tribe: "Aglaonemateae" } },
     "aia": { ascend: { sub: "Aroideae", tribe: "Schismatoglottideae" } },
-    "alloschemone": { ascend: { sub: "Monsteroideae", tribe: "Monstereae" } },
+    "alloschemone": { ascend: { sub: "Monsteroideae", tribe: "Anepsiadeae" } },
     "alocasia": {
       ascend: { sub: "Aroideae", tribe: "Colocasieae" },
       hand: "right",
@@ -111,7 +111,7 @@
     "helicodiceros": { ascend: { sub: "Aroideae", tribe: "Areae" } },
     "hera": { ascend: { sub: "Aroideae", tribe: "Schismatoglottideae" } },
     "heteroaridarum": { ascend: { sub: "Aroideae", tribe: "Schismatoglottideae" } },
-    "heteropsis": { ascend: { sub: "Monsteroideae", tribe: "Heteropsideae" } },
+    "heteropsis": { ascend: { sub: "Monsteroideae", tribe: "Anepsiadeae" } },
     "holochlamys": { ascend: { sub: "Monsteroideae", tribe: "Spathiphylleae" } },
     "homalomena": {
       ascend: { sub: "Aroideae", tribe: "Homalomeneae" },
@@ -147,7 +147,6 @@
     "nephthytis": { ascend: { sub: "Aroideae", tribe: "Nephthytideae" } },
     "ooia": { ascend: { sub: "Aroideae", tribe: "Schismatoglottideae" } },
     "orontium": { ascend: { sub: "Orontioideae", tribe: "" } },
-    "pedicellarum": { ascend: { sub: "Pothoideae", tribe: "Potheae" } },
     "peltandra": { ascend: { sub: "Aroideae", tribe: "Peltandreae" } },
     "philodendron": {
       ascend: { sub: "Aroideae", tribe: "Philodendreae" },
@@ -176,7 +175,7 @@
       i16: "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/ef86ac83-ee14-4e8c-bc90-7210b04fdff9/fav-rhaphidophora-16.png?content-type=image%2Fpng",
       i32: "https://images.squarespace-cdn.com/content/5ecee8ccbaacf76f4d3ca700/2d314379-5f7c-4dba-ada2-f4dd270c20f6/fav-rhaphidophora-32.png?content-type=image%2Fpng"
     },
-    "rhodospatha": { ascend: { sub: "Monsteroideae", tribe: "Monstereae" } },
+    "rhodospatha": { ascend: { sub: "Monsteroideae", tribe: "Anepsiadeae" } },
     "rhynchopyle": { ascend: { sub: "Aroideae", tribe: "Schismatoglottideae" } },
     "sarawakia": { ascend: { sub: "Aroideae", tribe: "Schismatoglottideae" } },
     "sauromatum": { ascend: { sub: "Aroideae", tribe: "Areae" } },
@@ -199,7 +198,7 @@
     "spathicarpa": { ascend: { sub: "Aroideae", tribe: "Spathicarpeae" } },
     "spathiphyllum": { ascend: { sub: "Monsteroideae", tribe: "Spathiphylleae" } },
     "spirodela": { ascend: { sub: "Lemnoideae", tribe: "" } },
-    "stenospermation": { ascend: { sub: "Monsteroideae", tribe: "Monstereae" } },
+    "stenospermation": { ascend: { sub: "Monsteroideae", tribe: "Anepsiadeae" } },
     "steudnera": { ascend: { sub: "Aroideae", tribe: "Colocasieae" } },
     "stylochaeton": { ascend: { sub: "Aroideae", tribe: "Stylochaetoneae" } },
     "symplocarpus": { ascend: { sub: "Orontioideae", tribe: "" } },

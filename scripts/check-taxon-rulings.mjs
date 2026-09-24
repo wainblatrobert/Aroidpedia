@@ -123,6 +123,23 @@ for (const [slug, r] of Object.entries(RULINGS)) {
       }
     }
   }
+
+  // 9.23.26: `range` - an accepted name whose native places a paper narrows.
+  // build-genus-geo 1.27.0 applies it; this says whether the published feed
+  // carries it yet, so a range ruling that never reached the map is visible.
+  for (const e of r.range || []) {
+    rulings++;
+    const ep = epithet(e.name);
+    const want = [...e.places].sort();
+    const have = geo?.speciesPlaces?.[ep];
+    console.log(`  RANGE    ${e.name}  ->  ${want.join(', ')}`);
+    if (!have) { console.log('      genus-geo       n/a   not in speciesPlaces'); continue; }
+    // finer journal tags the builder admits inside the ruled range are fine; a place OUTSIDE it is not
+    const extra = have.filter(p => !want.includes(p));
+    const missing = want.filter(p => !have.includes(p));
+    if (!missing.length && !extra.length) console.log('      genus-geo        ok   exactly the ruled places');
+    else console.log(`      genus-geo      DIFF   missing: ${missing.join(', ') || 'none'} | beyond the ruling: ${extra.join(', ') || 'none'} — rebuild genus-geo with build-genus-geo 1.27.0+`);
+  }
 }
 
 console.log(`\n${rulings} ruling(s) checked.`);

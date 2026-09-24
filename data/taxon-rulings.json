@@ -21,7 +21,13 @@
   "a ruling cannot quietly rot after POWO catches up.",
   "",
   "Keys are genus slugs, lowercase.",
-  "STANDING RULE (owner, 2026-09-07): POWO RETAINS PRECEDENCE OVER VERY OLD PROTOLOGUES AND REDUCTIONS. 'A published journal article trumps POWO' is not mechanical - it weighs the article. A modern revision may displace the checklist (Hay & Yuzammi 2000 did, for Scindapsus rupestris); a very old reduction that no later worker has tested does not (Furtado 1935, Ridley 1907 and 1925, Engler & Krause 1908 did not). Such a reduction is NOT recorded as a ruling here, because nothing overrides the export - but it MUST be mentioned in the notes of every affected species, on BOTH sides of the pair, so the paper cannot resurface as an open question."
+  "STANDING RULE (owner, 2026-09-07): POWO RETAINS PRECEDENCE OVER VERY OLD PROTOLOGUES AND REDUCTIONS. 'A published journal article trumps POWO' is not mechanical - it weighs the article. A modern revision may displace the checklist (Hay & Yuzammi 2000 did, for Scindapsus rupestris); a very old reduction that no later worker has tested does not (Furtado 1935, Ridley 1907 and 1925, Engler & Krause 1908 did not). Such a reduction is NOT recorded as a ruling here, because nothing overrides the export - but it MUST be mentioned in the notes of every affected species, on BOTH sides of the pair, so the paper cannot resurface as an open question.",
+  "",
+  "  range    (added 2026-09-23) an accepted name whose NATIVE places a paper narrows or corrects.",
+  "           `places` REPLACES POWO's list for that species in docs/genus-geo.json; every place must",
+  "           already be in the genus's region tree or the builder refuses it. Introduced ranges are",
+  "           never ruled here - naturalized populations go in page prose only (owner, 2026-09-23).",
+  "           Applied by build-genus-geo 1.27.0; the builder says when POWO has caught up."
  ],
  "alocasia": {
   "exclude": [
@@ -77,6 +83,72 @@
     "authority": "Aroidpedia editorial, 2026-09-07 (owner ruling: 'go with Hay and Yuzammi')",
     "mergeInto": "Scindapsus sumatranus",
     "mergeNote": "A synonymy, not a deletion. POWO files four places under the synonym (Borneo, Peninsular Malaysia, Sumatra, Thailand) against one for the accepted name (Sumatra), so the distribution must transfer or Scindapsus sumatranus would be reduced to a one-island range for a taxon Hay & Yuzammi call 'widespread in West Malesia'. After the transfer the genus map keeps all 26 places; only Sumatra's species count falls (11 to 10), because it is the one place that counted both names."
+   }
+  ]
+ },
+ "alloschemone": {
+  "exclude": [
+   {
+    "name": "Alloschemone inopinata",
+    "reason": "= Alloschemone occidentalis. Hay, da Costa Soares & Gorfer 2025 (Aroideana 48(1): 1-16) place Alloschemone inopinata Bogner & P.C.Boyce in synonymy, 'synon. nov.' (p. 13): both characters of the 2001 protologue fail in material of Alloschemone occidentalis, and 'we therefore think it preferable to regard Alloschemone as monotypic' (p. 10). POWO accepts both names.",
+    "authority": "Aroidpedia editorial, 2026-09-23 (owner ruling: 'if the paper is 2000+ then go with the paper')",
+    "mergeInto": "Alloschemone occidentalis",
+    "mergeNote": "Alloschemone inopinata carries only Brazil North, which Alloschemone occidentalis already holds; the genus map does not change, the count falls 2 -> 1."
+   }
+  ]
+ },
+ "cryptocoryne": {
+  "exclude": [
+   {
+    "name": "Cryptocoryne jacobsenii",
+    "reason": "= Cryptocoryne ×decus-silvae. Jacobsen, Wongso & Ørgaard 2023 (Aroideana 46(3): 1-23) list Cryptocoryne jacobsenii de Wit under Cryptocoryne ×decus-silvae de Wit [emend. N.Jacobsen et al. 2020], the hybrid Cryptocoryne cordata var. cordata × Cryptocoryne nurii (p. 14). POWO accepts Cryptocoryne jacobsenii.",
+    "authority": "Aroidpedia editorial, 2026-09-23 (owner ruling: 'if the paper is 2000+ then go with the paper')",
+    "mergeInto": "Cryptocoryne decus-silvae",
+    "mergeNote": "The target is written without the × because genus-geo keys species by POWO's bare epithet. POWO files Sumatra under Cryptocoryne jacobsenii and it transfers, as every merge does; the paper itself places only the type, cultivated ex Peninsular Malaysia."
+   }
+  ],
+  "range": [
+   {
+    "name": "Cryptocoryne cordata",
+    "places": [
+     "Peninsular Malaysia",
+     "Sumatra",
+     "Thailand"
+    ],
+    "reason": "Jacobsen, Wongso & Ørgaard 2023 (Aroideana 46(3): 1-23) restore Cryptocoryne cordata to the diploid (2n = 34): southernmost Thailand, Peninsular Malaysia and, as var. wellyi, Sumatra. The Bornean plants are Cryptocoryne grabowskii, which already carries Borneo; Java is not part of the complex.",
+    "authority": "Aroidpedia editorial, 2026-09-23 (owner ruling: 'if the paper is 2000+ then go with the paper')"
+   },
+   {
+    "name": "Cryptocoryne siamensis",
+    "places": [
+     "Cambodia",
+     "Sumatra",
+     "Thailand"
+    ],
+    "reason": "Jacobsen, Wongso & Ørgaard 2023 (Aroideana 46(3): 1-23): the hexaploid (2n = 102) Cryptocoryne siamensis is southern and eastern Thailand and southwestern Cambodia, with var. diderici in Sumatra. No Peninsular Malaysian plant is claimed.",
+    "authority": "Aroidpedia editorial, 2026-09-23 (owner ruling: 'if the paper is 2000+ then go with the paper')"
+   }
+  ]
+ },
+ "xanthosoma": {
+  "range": [
+   {
+    "name": "Xanthosoma daguense",
+    "places": [
+     "Colombia"
+    ],
+    "reason": "Croat, Delannay & Hannon 2017 (Aroideana 40(2): 4-503): Xanthosoma daguense 'has been found so far only in Colombia' (Cauca, Chocó, Valle del Cauca, 0-460 m); the Ecuadorian material is Xanthosoma reticulatum and Xanthosoma rimbachii (pp. 22, 151).",
+    "authority": "Aroidpedia editorial, 2026-09-23 (owner ruling: 'if the paper is 2000+ then go with the paper')"
+   },
+   {
+    "name": "Xanthosoma undipes",
+    "places": [
+     "Costa Rica",
+     "Nicaragua",
+     "Panama"
+    ],
+    "reason": "Croat, Delannay & Hannon 2017, Part 1 (Aroideana 40(2): 4-503): a species 'restricted to Costa Rica and Panama' (p. 7); Grayum's 2003 extension to Ecuador and Venezuela is rejected and those specimens are new species, the Puerto Rican plant being Xanthosoma acevedoi. Part 2 (Croat, Delannay & Ortiz 2017, 504-581) gives 'Nicaragua to Panama' (p. 565).",
+    "authority": "Aroidpedia editorial, 2026-09-23 (owner ruling: 'if the paper is 2000+ then go with the paper')"
    }
   ]
  }
