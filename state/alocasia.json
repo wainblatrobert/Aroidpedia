@@ -1,0 +1,27 @@
+{
+ "recipe": 2,
+ "species": {
+  "alocasia/decumbens": {
+   "2a826f5c786c7175242a3efc16474856": {
+    "bytes": 223988,
+    "derived_md5": "2a826f5c786c7175242a3efc16474856",
+    "key": "vegetative/2a826f5c-fig-2-alocasia-decumbens-a-on-limestone-b-clump-c-d-blade-above-and-below-e-tip-f-stem-in-section-g-stems.jpg"
+   },
+   "44ef0f397427adbd48200a953659150f": {
+    "bytes": 68404,
+    "derived_md5": "44ef0f397427adbd48200a953659150f",
+    "key": "story/44ef0f39-1-the-paris-lectotype.jpg"
+   },
+   "a789da8bf761b859109981c62de61a8a": {
+    "bytes": 138470,
+    "derived_md5": "a789da8bf761b859109981c62de61a8a",
+    "key": "reproductive/a789da8b-fig-3-alocasia-decumbens-a-b-leaves-decumbent-at-flowering-c-spathe-d-male-zone-e-after-anthesis-f-female-zone.jpg"
+   },
+   "e28dc260a93b7e17d35157fbfee47455": {
+    "bytes": 178425,
+    "derived_md5": "e28dc260a93b7e17d35157fbfee47455",
+    "key": "maps/e28dc260-fig-1-alocasia-decumbens-collection-sites-red-triangles-in-the-b-c-s-n-limestone-around-h-u-li-n.jpg"
+   }
+  }
+ }
+}
