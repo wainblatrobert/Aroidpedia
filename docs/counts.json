@@ -1,10 +1,10 @@
 {
-  "species": 516,
-  "cultivars": 109,
+  "species": 558,
+  "cultivars": 125,
   "hybrids": 156,
   "hybridCultivars": 18,
   "unclassified": 0,
-  "genera": 6,
+  "genera": 7,
   "byGenus": {
     "Alocasia": {
       "total": 339,
@@ -31,6 +31,13 @@
       "total": 65,
       "species": 35,
       "cultivars": 30,
+      "hybrids": 0,
+      "hybridCultivars": 0
+    },
+    "Syngonium": {
+      "total": 58,
+      "species": 42,
+      "cultivars": 16,
       "hybrids": 0,
       "hybridCultivars": 0
     },
@@ -82,6 +89,13 @@
         "austral": 6
       }
     },
+    "Syngonium": {
+      "total": 58,
+      "placed": 42,
+      "zones": {
+        "americas": 42
+      }
+    },
     "Arum": {
       "total": 47,
       "placed": 27,
@@ -121,33 +135,33 @@
     "unclassifiedItems": []
   },
   "unresolvedTags": {
+    "Mexico Southeast": 16,
     "Türkiye": 15,
-    "Mexico Gulf": 9,
-    "Veracruz": 9,
-    "Mexico Southeast": 8,
+    "Chiapas": 14,
+    "Mexico Southwest": 14,
+    "Mexico Gulf": 14,
+    "Veracruz": 14,
+    "Oaxaca": 12,
+    "Tabasco": 9,
+    "Brazil North": 8,
+    "Toledo": 8,
     "Kriti": 8,
-    "Chiapas": 7,
+    "South Caribbean Coast": 7,
+    "Atlántida": 7,
     "Lebanon": 7,
     "Syria": 7,
-    "Mexico Southwest": 6,
+    "Río San Juan": 6,
+    "Colón": 6,
+    "Mexico Northeast": 6,
+    "Cayo": 6,
     "Cyprus": 6,
     "Italy": 6,
     "Greece": 6,
-    "Oaxaca": 5,
-    "Brazil North": 5,
-    "Armenia": 5,
-    "Azerbaijan": 5,
-    "Georgia-GE": 5,
-    "Israel": 5,
-    "Jordan": 5,
-    "Palestinian Territories": 5,
-    "Bosnia and Herzegovina": 5,
-    "Croatia": 5,
-    "Montenegro": 5,
-    "Kuching": 4,
-    "Tabasco": 4
+    "North Caribbean Coast": 5,
+    "Mexico Central": 5,
+    "San Luis Potosí": 5
   },
-  "updatedAt": "2026-09-24T13:34:28.299Z",
+  "updatedAt": "2026-09-25T13:39:59.345Z",
   "source": "https://www.aroidpedia.com/archive",
-  "totalItemsScanned": 799
+  "totalItemsScanned": 857
 }
