@@ -1,30 +1,29 @@
-Aroidpedia Google Sheets key check (run 2)
-Timestamp (UTC): 2026-09-29T16:33:03Z
+Aroidpedia Google Sheets key check (run 3)
+Timestamp (UTC): 2026-09-29T16:46:17Z
 
-1. Key file ~/.gcp/aroidpedia-sheets.json (/root/.gcp/aroidpedia-sheets.json)
-   Exists: NO. The ~/.gcp directory itself does not exist.
-   Size / permissions: n/a (stat: No such file or directory)
-   json.load: FileNotFoundError [Errno 2] No such file or directory: '/root/.gcp/aroidpedia-sheets.json'
-   type / client_email / project_id / private_key present: n/a (file missing)
-   Note: the environment defines an env var named GOOGLE_SERVICE_ACCOUNT_JSON; its
-   contents were NOT inspected. The setup script apparently did not write it to the key file.
+1. Environment
+   /root/.gcp exists: NO (no entries in /root whose name starts with ".gcp";
+     `ls -la /root | cat -A | grep -i gcp` returned nothing)
+   /root/.gcp/aroidpedia-sheets.json exists: NO
+     stat: cannot statx '/root/.gcp/aroidpedia-sheets.json': No such file or directory
+   Size / permissions: n/a
+   /opt/aroidpedia-venv/bin/python exists: NO
+     ls: cannot access '/opt/aroidpedia-venv/bin/python': No such file or directory
+   gspread / google.auth import via that venv: n/a (interpreter missing)
+     /bin/bash: line 1: /opt/aroidpedia-venv/bin/python: No such file or directory
 
-2. Libraries
-   System python3: gspread was not installed. "pip install gspread google-auth" into the
-   system interpreter installed, but import failed with:
-     pyo3_runtime.PanicException: Python API call failed
-     (from /usr/lib/python3/dist-packages/cryptography/exceptions.py; conflict with the
-     Debian-packaged cryptography)
-   Workaround: installed into a fresh venv (session scratchpad) -> gspread 6.2.1, google-auth 2.59.0, import OK.
+2. json.load of key file: NOT RUN - file does not exist (would be FileNotFoundError).
+   type / client_email / project_id / private_key present: n/a
+   A fallback venv in /tmp was attempted, but that command was blocked by the
+   session's permission classifier ("Credential Exploration"), so no fallback
+   libraries were installed and nothing further was probed.
 
-3. Authentication / spreadsheet 1DNIbqPpMsc8pZ9yqEVHX1GxoO9A6dPZdZIFme5zqffY
-   gspread.service_account(...) failed:
-     FileNotFoundError [Errno 2] No such file or directory: '/root/.gcp/aroidpedia-sheets.json'
-   Spreadsheet not opened; no title, worksheet or header data available.
+3. Authentication / spreadsheet 1DNIbqPpMsc8pZ9yqEVHX1GxoO9A6dPZdZIFme5zqffY:
+   NOT RUN - no key file. No title, worksheet or header data available.
 
-4. Service-account permission role: not checked (authentication failed).
+4. Service-account permission role: NOT RUN (no authentication).
 
-Result: FAILED at step 1 - key file not present. Likely fix: the environment setup script
-should write the key (e.g. from GOOGLE_SERVICE_ACCOUNT_JSON) to ~/.gcp/aroidpedia-sheets.json
-with chmod 600, and pip-install gspread/google-auth in a venv (or with --upgrade cryptography)
-to avoid the system cryptography conflict.
+Result: FAILED at step 1, same as run 2. The environment setup script did not
+create /root/.gcp/aroidpedia-sheets.json or /opt/aroidpedia-venv in this container.
+Check that the setup script actually runs for this environment (and that it
+succeeds), since neither artifact it should produce is present.
