@@ -1,0 +1,18 @@
+Aroidpedia sheet key check
+timestamp_utc: 2026-09-29T16:14:15+00:00
+key_parse_error: UnicodeDecodeError: 'utf-8' codec can't decode byte 0xe7 in position 0: invalid continuation byte
+client_email: None
+project_id: None
+authentication/open: FAILED
+error: FileNotFoundError: [Errno 2] No such file or directory: '/tmp/sa.json'
+
+diagnosis:
+  GOOGLE_SERVICE_ACCOUNT_JSON is set but is only 44 characters long. A real
+  service-account key JSON is ~2,300 characters (raw) or ~3,100 (base64).
+  It does not start with "{", it contains characters outside the base64
+  alphabet, and forcing a base64 decode gives bytes that are not JSON.
+  So the value is not a service-account key. It may be truncated, a
+  placeholder, or a different secret. Nothing was sent to Google;
+  steps 3-4 were not run.
+  Fix: paste the full contents of the downloaded service-account .json file
+  (or base64 of the whole file) into the environment variable, then re-run.
