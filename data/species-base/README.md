@@ -100,6 +100,7 @@ cache it falls back to iNaturalist's free-text place names.
 python scripts/build-species-base.py Spathiphyllum
 python scripts/build-genus-sheets.py Spathiphyllum --from-export <Genus>.xlsx
 python scripts/fill-sheet-from-xlsx.py data/species-base/Spathiphyllum-base.xlsx <sheet id> --apply
+python scripts/match-sheet-layout.py --ref <Philodendron book id> --target <sheet id> --apply
 ```
 
 `--from-export` writes only `<Genus>-base.xlsx`, its `SPECIES` rows taken by header from
@@ -114,3 +115,13 @@ so the connector creates an empty Google Sheet at the My Drive root and shares i
 to the service account as writer, and the script fills it tab by tab: values,
 formulas, formatting, widths, frozen panes and the filter. It refuses a sheet
 that already holds any value.
+
+`match-sheet-layout.py` is the last step, and not optional: a book built from a
+workbook carries only what the workbook knew (the Cyrtosperma book reached the
+laptop missing parts). It copies a live book's layout onto the new one, reading
+the live book only: time zone and locale, any tab the new book lacks (header row
+only), column widths, header and body formats per column, row heights, frozen
+panes, the filter's span, and the self-links on URL columns such as KEW LINK. It
+never changes a value, and it reports header-text differences instead of fixing
+them (ROW BACKUPS keeps the current SPECIES header, which the older books lack).
+Run it again with no `--apply` and only those header notes should remain.
