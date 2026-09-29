@@ -93,3 +93,24 @@ form (subunit counts within / outside the recorded native range), computed
 from a reverse-geocode of each observation (`--geocode`, GBIF's geocoder,
 cached in `research/<genus>/data/<genus>-inat-places.csv`); without the
 cache it falls back to iNaturalist's free-text place names.
+
+## A genus with no page drafts yet (Spathiphyllum, 2026-09-29)
+
+```bash
+python scripts/build-species-base.py Spathiphyllum
+python scripts/build-genus-sheets.py Spathiphyllum --from-export <Genus>.xlsx
+python scripts/fill-sheet-from-xlsx.py data/species-base/Spathiphyllum-base.xlsx <sheet id> --apply
+```
+
+`--from-export` writes only `<Genus>-base.xlsx`, its `SPECIES` rows taken by header from
+the Drive POWO export (`Araceae_Exports/EXCELS/<Genus>.xlsx`): names, synonyms,
+infraspecifics, GEOGRAPHY as POWO's prose (Step 1 rewrites it), DOUBTFULLY PRESENT,
+JOURNAL and KEW LINK. JOURNAL AVAILABLE is left blank, because the export's
+"Available" is not the books' Y/N. Every export name must be accepted in the pull.
+
+`fill-sheet-from-xlsx.py` is the cloud upload. A session cannot pass a workbook to
+the Drive connector as base64 reliably, and the service account has no Drive API,
+so the connector creates an empty Google Sheet at the My Drive root and shares it
+to the service account as writer, and the script fills it tab by tab: values,
+formulas, formatting, widths, frozen panes and the filter. It refuses a sheet
+that already holds any value.

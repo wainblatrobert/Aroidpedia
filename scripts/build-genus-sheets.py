@@ -3,6 +3,9 @@
 
     python scripts/build-genus-sheets.py Cyrtosperma            # both workbooks
     python scripts/build-genus-sheets.py Cyrtosperma --geocode  # also refresh the iNat places cache
+    python scripts/build-genus-sheets.py Spathiphyllum --from-export <Genus>.xlsx
+                                                    # base workbook only, SPECIES filled from the
+                                                    # Drive POWO export (a genus with no page drafts yet)
 
 Inputs (all under the repo):
   research/<genus>/pages/<epithet>.md              page drafts in the card's labelled-section schema
@@ -544,7 +547,8 @@ BASE_WIDTHS = {"A": 11, "B": 32.9, "C": 74.9, "D": 10, "E": 17.6, "F": 19.8, "G"
                "Y": 79.4, "Z": 67.8, "AA": 29.1}
 WRAP_COLS = set("LMNOPQRSTUY")
 CULTIVAR_HEADERS = ["CULTIVAR NAME", "CULTIVAR SPECIES", "ORIGIN", "ADDITIONAL CREDITS", "DESCRIPTION",
-                    "VARIEGATED FORMS", "HYBRIDS", "NOTES", "STORY", "ADDITIONAL REFERENCES", "SLUG"]
+                    "VARIEGATED FORMS", "HYBRIDS", "NOTES", "STORY", "ADDITIONAL REFERENCES", "SLUG",
+                    "IAS STATUS", "IAS PUBLISH STATUS"]
 HYBRID_HEADERS = ["AP", "HYBRID NAME", "SYNONYM", "PARENTAGE", "OVULE", "POLLEN", "HYBRIDIZER", "LINK",
                   "ADDITIONAL CREDITS", "ORIGIN", "VARIEGATED FORMS", "DESCRIPTION", "HYBRIDS", "HYBRID DUPES",
                   "NOMENCLATURE DEBATE", "NOTES", "STORY", "ADDITIONAL REFERENCES", "SLUG", "CLASS"]
@@ -629,6 +633,33 @@ def write_pages(xlsx: Path, csv_path: Path, rows: list) -> None:
 
 # ---------------------------------------------------------------- main
 
+EXPORT_COLUMNS = ["SPECIES NAME", "HOMOTYPIC SYNONYMS", "HETEROTYPIC SYNONYMS", "ACCEPTED INFRASPECIFICS",
+                  "GEOGRAPHY", "DOUBTFULLY PRESENT", "JOURNAL", "KEW LINK"]
+
+
+def export_rows(xlsx: Path, accepted: dict) -> list:
+    """SPECIES rows for the base workbook from a Drive POWO export (Araceae_Exports/EXCELS/<Genus>.xlsx).
+
+    Columns are bound by header. GEOGRAPHY stays POWO's prose (Step 1 rewrites it); JOURNAL AVAILABLE
+    is left blank because the export's "Available" is not the books' Y/N (set in Step 3); YEAR
+    DESCRIBED is the book's formula. Every export name must be a POWO-accepted name in the pull."""
+    ws = openpyxl.load_workbook(xlsx, read_only=True)["SPECIES"]
+    rows = ws.iter_rows(values_only=True)
+    header = [str(h or "").strip() for h in next(rows)]
+    missing = [c for c in EXPORT_COLUMNS if c not in header]
+    if missing:
+        sys.exit(f"{xlsx.name}: no column {', '.join(missing)}")
+    out = []
+    for r in rows:
+        rec = {h: ("" if v is None else str(v).strip()) for h, v in zip(header, r)}
+        if not rec.get("SPECIES NAME"):
+            continue
+        if rec["SPECIES NAME"] not in accepted:
+            sys.exit(f"{xlsx.name}: {rec['SPECIES NAME']} is not an accepted name in the POWO/IPNI pull")
+        out.append({c: rec[c] for c in EXPORT_COLUMNS})
+    return sorted(out, key=lambda r: r["SPECIES NAME"])
+
+
 def read_csv(path: Path) -> list:
     if not path.exists():
         return []
@@ -640,6 +671,8 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("genus")
     ap.add_argument("--geocode", action="store_true", help="refresh the iNaturalist places cache (network)")
+    ap.add_argument("--from-export", type=Path, metavar="XLSX",
+                    help="write only the base workbook, its SPECIES rows taken from this Drive POWO export")
     args = ap.parse_args()
     genus, g = args.genus, args.genus.lower()
 
@@ -647,6 +680,14 @@ def main() -> None:
     base_dir = ROOT / "data" / "species-base"
     names = json.loads((base_dir / f"{genus}-names.json").read_text(encoding="utf-8"))
     accepted = {a["name"]: a for a in names["accepted"]}
+    if args.from_export:
+        rows = export_rows(args.from_export, accepted)
+        absent = sorted(set(accepted) - {r["SPECIES NAME"] for r in rows})
+        if absent:
+            print("accepted in the pull but not in the export:", ", ".join(absent))
+        write_base(base_dir / f"{genus}-base.xlsx", rows)
+        print(f"base:  {len(rows)} species from {args.from_export.name} -> {base_dir / (genus + '-base.xlsx')}")
+        return
     pages = [parse_page(p) for p in sorted((research / "pages").glob("*.md")) if p.name != "README.md"]
     by_name = {species_from_title(p.get("TITLE", "")): p for p in pages}
     missing = sorted(set(accepted) - set(by_name))
