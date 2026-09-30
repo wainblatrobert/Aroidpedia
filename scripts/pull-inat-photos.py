@@ -6,11 +6,12 @@ Path in repo: scripts/pull-inat-photos.py
     python scripts/pull-inat-photos.py research/cyrtosperma/data/cyrtosperma-inat-photos.csv  G:\\...\\Cyrtosperma-inat
 
 Re-downloads, from iNaturalist's open-data bucket, every photo listed in a
-photo index CSV whose licence allows reuse, into <out>/<epithet>/<file>.
+photo index CSV into <out>/<epithet>/<file>, whatever its licence (owner ruling 9.30.26:
+ignore copyright; capture the source so every photo can be credited). --reusable-only restores the
+old behavior (CC licences only).
 The CSV is the one the Cyrtosperma build produced (one row per photo:
 species, observation_url, photo_url_original, licence, attribution,
-observer_login, ...). Photos marked "all rights reserved" are never fetched -
-the CSV keeps their URLs and observers so permission can be asked.
+observer_login, ...). The CSV keeps every photo's attribution, licence, observer and observation URL for the credit line.
 
 WHY THIS EXISTS: the chat can carry 30 MB per file, and a genus's licensed
 photos run to hundreds of MB. The index travels in the repo; the bytes are
@@ -31,8 +32,8 @@ def main():
         sys.exit("usage: pull-inat-photos.py <photos.csv> <output folder>")
     src, out = sys.argv[1], sys.argv[2]
     rows = list(csv.DictReader(open(src, encoding="utf-8")))
-    todo = [r for r in rows if r["licence"] in OK]
-    print("%d photos in index, %d with a reusable licence" % (len(rows), len(todo)))
+    todo = [r for r in rows if r["licence"] in OK] if "--reusable-only" in sys.argv else rows
+    print("%d photos in index, %d to fetch" % (len(rows), len(todo)))
     got = skipped = failed = 0
     for r in todo:
         path = os.path.join(out, *r["file"].replace("\\", "/").split("/"))
