@@ -1,12 +1,12 @@
 {
  "genus": "Alocasia",
  "slug": "alocasia",
- "compiled": "2026-09-10",
+ "compiled": "2026-10-01",
  "source": "https://www.aroidpedia.com/alocasia",
- "taxon_count": 339,
+ "taxon_count": 340,
  "source_count": 198,
  "cited_count": 99,
- "gap_count": 240,
+ "gap_count": 241,
  "pdf": "Aroidpedia-Alocasia-Bibliography.pdf",
  "kew_excluded_from_bibliography": true,
  "bibliography": [
@@ -1438,7 +1438,7 @@
    "host": "bibdigital.rjb.csic.es"
   },
   {
-   "title": "Hay, A. & Wise, R. (1991). “The genusAlocasia(Araceae) in Australasia.”Blumea35: 499–545",
+   "title": "Hay, A. & Wise, R. (1991). “The genus Alocasia (Araceae) in Australasia.” Blumea 35: 499–545",
    "url": "https://repository.naturalis.nl/pub/525733",
    "taxa": [
     {
@@ -1814,7 +1814,7 @@
    "host": "exoticrainforest.com"
   },
   {
-   "title": "Alocasia tandurusa Prameswara & A.Hay, A new (bi)pinnatifid-leaved species from Sulawesi [Araceae, tribe Alocasieae (Schott) A.Hay]. Aroideana 46(2): 388–405. 2023.",
+   "title": "Alocasia tandurusa Prameswara & A.Hay, A new (bi)pinnatifid-leaved species from Sulawesi [Araceae, tribe Alocasieae (Schott) A.Hay]",
    "url": "https://www.researchgate.net/publication/374294996_Alocasia_tandurusa_Prameswara_AHay_A_new_bipinnatifid-leaved_species_from_Sulawesi_Araceae_tribe_Alocasieae_Schott_AHay_with_notes_on_tribal_classification_for_the_paraphyletic_grade_of_%27Old_World_Col",
    "taxa": [
     {
@@ -2200,7 +2200,7 @@
      "kind": "Species"
     },
     {
-     "name": "ALOCASIA ROSEA",
+     "name": "ALOCASIA ROSEUS",
      "url": "https://www.aroidpedia.com/archive/alocasia-rosea",
      "kind": "Species"
     }
@@ -2427,7 +2427,7 @@
    "host": "aroidiaresearch.org"
   },
   {
-   "title": "Aroidia Research -Alocasia robusta",
+   "title": "Aroidia Research - Alocasia robusta",
    "url": "https://aroidiaresearch.org/alorobu.htm",
    "taxa": [
     {
@@ -2440,7 +2440,7 @@
    "host": "aroidiaresearch.org"
   },
   {
-   "title": "Aroidia Research -Alocasia robustaandNephrolepsisferns",
+   "title": "Aroidia Research - Alocasia robusta and Nephrolepsis ferns",
    "url": "https://aroidiaresearch.org/robufern.htm",
    "taxa": [
     {
@@ -2686,7 +2686,7 @@
    "host": "ars-grin.gov"
   },
   {
-   "title": "Vegetations-Ansichten von Küstenländern und Inseln des Stillen Ozeans(1844-1846)",
+   "title": "Vegetations-Ansichten von Küstenländern und Inseln des Stillen Ozeans (1844-1846)",
    "url": "https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN646151673",
    "taxa": [
     {
@@ -3357,7 +3357,7 @@
      "key": "http://www.biodiversitylibrary.org/page/49008075"
     },
     {
-     "title": "David Burnett | The CultivatedAlocasia(1984)",
+     "title": "David Burnett | The Cultivated Alocasia (1984)",
      "url": "https://www.aroid.org/aroideana/aroideana-v7n3",
      "key": "https://www.aroid.org/aroideana/aroideana-v7n3"
     },
@@ -5652,7 +5652,7 @@
      "key": "https://www.biodiversitylibrary.org/page/11445407"
     },
     {
-     "title": "Hay, A. & Wise, R. (1991). “The genusAlocasia(Araceae) in Australasia.”Blumea35: 499–545",
+     "title": "Hay, A. & Wise, R. (1991). “The genus Alocasia (Araceae) in Australasia.” Blumea 35: 499–545",
      "url": "https://repository.naturalis.nl/pub/525733",
      "key": "https://repository.naturalis.nl/pub/525733"
     }
@@ -5812,7 +5812,7 @@
      "key": "https://digitalcollections.universiteitleiden.nl/view/item/938353"
     },
     {
-     "title": "Vegetations-Ansichten von Küstenländern und Inseln des Stillen Ozeans(1844-1846)",
+     "title": "Vegetations-Ansichten von Küstenländern und Inseln des Stillen Ozeans (1844-1846)",
      "url": "https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN646151673",
      "key": "https://digital.staatsbibliothek-berlin.de/werkansicht?ppn=ppn646151673"
     }
@@ -6349,12 +6349,12 @@
      "key": "https://www.biodiversitylibrary.org/page/43660554"
     },
     {
-     "title": "Aroidia Research -Alocasia robusta",
+     "title": "Aroidia Research - Alocasia robusta",
      "url": "https://aroidiaresearch.org/alorobu.htm",
      "key": "https://aroidiaresearch.org/alorobu.htm"
     },
     {
-     "title": "Aroidia Research -Alocasia robustaandNephrolepsisferns",
+     "title": "Aroidia Research - Alocasia robusta and Nephrolepsis ferns",
      "url": "https://aroidiaresearch.org/robufern.htm",
      "key": "https://aroidiaresearch.org/robufern.htm"
     },
@@ -6368,7 +6368,7 @@
   {
    "url": "https://www.aroidpedia.com/archive/alocasia-rosea",
    "slug": "alocasia-rosea",
-   "name": "ALOCASIA ROSEA",
+   "name": "ALOCASIA ROSEUS",
    "kind": "Species",
    "kew": null,
    "refs": [
@@ -6608,7 +6608,7 @@
    "kew": null,
    "refs": [
     {
-     "title": "Alocasia tandurusa Prameswara & A.Hay, A new (bi)pinnatifid-leaved species from Sulawesi [Araceae, tribe Alocasieae (Schott) A.Hay]. Aroideana 46(2): 388–405. 2023.",
+     "title": "Alocasia tandurusa Prameswara & A.Hay, A new (bi)pinnatifid-leaved species from Sulawesi [Araceae, tribe Alocasieae (Schott) A.Hay]",
      "url": "https://www.researchgate.net/publication/374294996_Alocasia_tandurusa_Prameswara_AHay_A_new_bipinnatifid-leaved_species_from_Sulawesi_Araceae_tribe_Alocasieae_Schott_AHay_with_notes_on_tribal_classification_for_the_paraphyletic_grade_of_%27Old_World_Col",
      "key": "https://www.researchgate.net/publication/374294996_alocasia_tandurusa_prameswara_ahay_a_new_bipinnatifid-leaved_species_from_sulawesi_araceae_tribe_alocasieae_schott_ahay_with_notes_on_tribal_classification_for_the_paraphyletic_grade_of_%27old_world_col"
     }
@@ -6741,6 +6741,14 @@
    "url": "https://www.aroidpedia.com/archive/alocasia-chienleei",
    "slug": "alocasia-chienleei",
    "name": "ALOCASIA ‘CHIENLEEI’*",
+   "kind": "Species",
+   "kew": null,
+   "refs": []
+  },
+  {
+   "url": "https://www.aroidpedia.com/archive/alocasia-chienlii",
+   "slug": "alocasia-chienlii",
+   "name": "ALOCASIA ‘CHIENLII’*",
    "kind": "Species",
    "kew": null,
    "refs": []
